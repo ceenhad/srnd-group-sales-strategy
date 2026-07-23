@@ -18,6 +18,11 @@ is brand-specific, their existence is not.
   dealer anywhere can experience remotely. Studio and Experience Centre together give a demo you can
   distribute globally — precisely what a direct, no-local-rep model would otherwise lack. This
   pairing may be the single most valuable owned asset in the group.
+- **The room-render library** is a third owned asset, already substantial (dozens into the
+  hundreds). Used as **virtual case studies**, these renders show the range in context and prove a
+  brand works in a real room type — valuable proof content for stages 2–3 of the buyer journey. They
+  aren't hook material (`11-intro-campaign.md`), but downstream they're a large, ready-made library
+  to draw on rather than a cost still to incur.
 
 > **Why this is group-owned.** One studio and one Experience Centre serve all brands. Duplicating
 > them per brand would defeat the economics that make the whole direct-global model workable. Brands

@@ -46,12 +46,14 @@ The rest of this document is that arc as six stages, with the mechanics each one
 2. **Name lands, means nothing → land the proposition.** One system, a real problem they have, made
    easy. They're now on a **brand site**, which stays functional and focused — but they're meeting a
    brand backed by a group that covers the whole room, which is itself part of the proposition.
-   *Touchpoints: brand site, social, email, a short video. Content: the range/possibility layer.*
+   *Touchpoints: brand site, social, email, a short video, virtual case studies (the room-render
+   library). Content: the range/possibility layer.*
 3. **"Could this work for me?" → prove it.** It works, it's easy to spec and install, it won't
    embarrass them in front of their client. This is the brand site's real job, backed by the shared
    proof assets.
-   *Touchpoints: KB how-to content, virtual demo/webinar, sample kit, the Experience Centre
-   (`06-content-production.md`), a Zoom, the measured data. Content: the how-it-works layer.*
+   *Touchpoints: KB how-to content, virtual case studies (room renders), virtual demo/webinar,
+   sample kit, the Experience Centre (`06-content-production.md`), a Zoom, the measured data.
+   Content: the how-it-works layer.*
 4. **Wants to buy → register, then buy.** Pricing is registered-partner-only by design
    (`07-portal-and-pricing.md`), so **partner registration *is* the stage-4 gate** — it turns an
    interested dealer into one who can see pricing and transact. Registration and gating are run by

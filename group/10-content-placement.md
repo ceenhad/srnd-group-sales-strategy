@@ -38,6 +38,7 @@ the buyer journey (`03-buyer-journey.md`), and the content operation that produc
 | Campaign / entry landing pages | Group site (or a brand site for a brand-specific push) | 1 | Capture a wide entry, spread load |
 | The hook — the problem stated boldly | Off-site: social, trade press, events, search/AI | 1 | Get in front of them |
 | Range / possibility (what's possible, data cards) | Brand site | 2 | Land the proposition |
+| Virtual case studies (room renders — a large existing library) | Brand site (+ group site for whole-room) | 2–3 | Show the range in context; prove it in a real room type |
 | How-it-works / KB / technical proof / measured data | Brand site (+ KB) | 3 | Prove it works, easy to spec/install |
 | Recorded demos / virtualised Experience Centre | Brand site + YouTube; live via webinar/Zoom | 3 | Show the difference remotely |
 | Sample kit / product in hand | Physical (post) | 3 | Tactile proof |

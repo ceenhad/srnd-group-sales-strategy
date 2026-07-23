@@ -8,6 +8,10 @@ buyer journey (`03-buyer-journey.md`) and follows the placement rules (`10-conte
 re-applied to C-ATS (`brands/c-ats/content.md`). It's a group template because the shape is the
 same for any brand; only the content changes.
 
+> **Use this as a guide, not a script.** These are proven starting points to draw on and adapt —
+> not the only thing we can do, and not a mandatory sequence. Add, drop or reorder to fit the brand
+> and the moment.
+
 ## Principles
 
 1. **A campaign addresses a specific problem or need** — not a general, ongoing feed of content. It
@@ -21,6 +25,10 @@ same for any brand; only the content changes.
    shot tends to look like every competitor's; over-stripped product shots are confusing. So
    room/lifestyle imagery is a **secondary contact point, not the opener** — the same "lead simple,
    earn the complex" logic the funnel uses (`03-buyer-journey.md`).
+   - **This is about the hook only — not a knock on room imagery as content.** SRND has a large
+     library of room renders (dozens, into the hundreds). As **virtual case studies** these are
+     genuinely valuable content — they earn their place *later* in the journey (range-in-context at
+     stage 2, proof at stage 3), just not as the cold open. See `10-content-placement.md`.
    - **Case study — Aphex Twin, "Come to Daddy" remix (Designers Republic).** DR wanted to reuse the
      imagery from the track's Orange Mobile advert for the remix CD — instant public recognition —
      but Orange blocked it on copyright. Instead they used **text describing the advert**: bold,
@@ -77,6 +85,7 @@ Preserved so the specifics aren't lost; these move to a Fabric Walls playbook wh
   the Ultrasuede fabric itself; note Ultrasuede is a component within Fabric Walls, not a brand —
   `09-brand-portfolio.md`).
 - **Why not lead with room imagery:** Fabric Walls room designs are attractors but don't separate
-  Fabric Walls from other stretch-fabric systems, so they're a secondary contact point.
+  Fabric Walls from other stretch-fabric systems, so they're a secondary contact point *at the
+  hook*. As virtual case studies later in the journey (stages 2–3), the render library is valuable.
 - **Phase specifics:** Phase 2 includes room-design data cards for ~5 rooms; media anchored on EI
   Magazine (advert → advertorial), YouTube, LinkedIn, Instagram, email, then blogs in Phase 3.
