@@ -23,7 +23,10 @@ video/TV Commander also exists in the repo).
   clients (Crestron, Control4, Savant); **mDNS** (`_dt-commander._tcp`) auto-discovery; **SDDP**
   responder; **OpenAPI 3.1** REST spec; **WebSocket** live state to multiple clients.
 
-## The standout differentiator: the physical "Request Support" button
+## A distinctive trust feature: the physical "Request Support" button
+
+*(A strong supporting proof point — not the headline. The headline is the platform shift and the
+native AV integration above.)*
 
 The category's usual trade-off is a permanent remote-support backdoor (convenient, but a standing
 risk) *or* no remote access (every fix is a truck roll). **V5 resolves it in hardware:**
@@ -95,7 +98,19 @@ don't write up in-development products as shipping).
 
 ## Messaging note (to agree)
 
-The **Request Support button / "we can't reach in" privacy guarantee** is the strongest single
-differentiator surfaced for any brand so far and squarely fits DT's high-end/luxury-cinema buyer.
-Strong candidate to lead DT's story — pending the status caveats above and sign-off on what's
-claimable now vs on-ship.
+Right-sizing what this means for DT's story — the substance is bigger than any one feature:
+
+- **The strategic headline is the platform shift.** DT moves from point products to a **control
+  platform** with a product family on it (Dynamic, Actuator, video/TV, cooling to come) — one
+  architecture, one WebUI, one integration surface. That changes what DT *is*, not just what it sells.
+- **The integrator's headline is native AV integration.** Browser WebUI (no desktop app), mDNS/SDDP
+  discovery, OpenAPI, TCP line protocol, Crestron/Control4/Savant — DT products are now first-class
+  on the AV network. This is the day-to-day win for the buyer.
+- **A quiet but real category expansion:** Actuator Commander takes DT from projection into motion /
+  opening control (hatches, lifts, vents, table-tops).
+- **The Request Support button is a strong trust/privacy proof point** that lands with the
+  luxury/privacy-conscious buyer — a closer, not the opener. (Leading with a "we *can't* reach in"
+  message would undersell what the platform enables.)
+
+What leads DT's story is still to agree — but it's platform + integration + expanded category, with
+the privacy feature in support. All pending the status caveats above (don't claim unbuilt boards).
