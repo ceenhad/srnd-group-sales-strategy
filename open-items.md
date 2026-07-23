@@ -28,6 +28,10 @@ Group-level decisions and build order. Brand-specific open items live in each
 - **Channel selection, priority & spend** — from the candidate landscape (`group/12-channels.md`),
   decide which channels SRND actually promotes through, at what priority and budget, and who owns
   each. Verify current status/membership (names and events change). A decision, not a list.
+  Evaluate each channel online-first, EI-style (`group/12-channels.md`).
+- **Activate the EI microsite (quick win)** — `essentialinstall.com/srnd/` is paid for and
+  running near-empty. Feed it regularly (company pages + virtual case studies linking to the brand
+  sites) and push through EI news/newsletter/podcast. Low cost, already sunk; just needs using.
 - **Cross-brand contact-cadence coordination** — the oversaturation risk
   (`group/02-commercial-model.md`); a group-level discipline with no brand home.
 - **Which brands beyond CATS get a playbook next**, and in what order (Fabric Walls, Display
