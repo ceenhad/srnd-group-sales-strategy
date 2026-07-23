@@ -25,6 +25,9 @@ Group-level decisions and build order. Brand-specific open items live in each
   gating *mechanism* is handled by engine (already live); the open work is the program *behind* it:
   approval criteria, what registration grants, tier structure, MOQs, design-tool access, CE credits,
   co-marketing. This is a policy decision, not a build.
+- **Channel selection, priority & spend** — from the candidate landscape (`group/12-channels.md`),
+  decide which channels SRND actually promotes through, at what priority and budget, and who owns
+  each. Verify current status/membership (names and events change). A decision, not a list.
 - **Cross-brand contact-cadence coordination** — the oversaturation risk
   (`group/02-commercial-model.md`); a group-level discipline with no brand home.
 - **Which brands beyond CATS get a playbook next**, and in what order (Fabric Walls, Display

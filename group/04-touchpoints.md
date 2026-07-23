@@ -1,7 +1,9 @@
 # Touchpoints
 
-There aren't many, and that's the point — they're enumerable. The outbound set the group already
-thinks in: **social, email, trade press, trade events.** The rest that genuinely add:
+There aren't many, and that's the point — they're enumerable. This document is the channel *types*;
+the actual named channels (EI, CEDIA, ISE, LinkedIn, AVForums, and the rest) are in
+`12-channels.md`. The outbound set the group already thinks in: **social, email, trade press, trade
+events.** The rest that genuinely add:
 
 - **The portal itself** — not a channel, the hub; everything routes here and it's a touchpoint every
   landing. Shared across all brands (`07-portal-and-pricing.md`).

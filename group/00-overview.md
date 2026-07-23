@@ -32,5 +32,6 @@ in one place for every brand.
 - `09-brand-portfolio.md` — the canonical brand roster and the web architecture.
 - `10-content-placement.md` — where each kind of content lands across the properties, and why.
 - `11-intro-campaign.md` — the reusable phased campaign for introducing a brand to new audiences.
+- `12-channels.md` — the real, named channels to promote through (candidate landscape).
 
 **Brands apply this in `brands/<brand>/`.** C-ATS is the first and most worked-out playbook.
