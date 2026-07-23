@@ -34,6 +34,13 @@ Group-level decisions and build order. Brand-specific open items live in each
 7. **Paid outlet spend** — last, once the above give something worth promoting and validated
    audiences.
 
+**Endgame — operationalise in engine.** `engine.srnd.group` (SRND's internal platform, already
+managing pricing and jobs, having replaced Monday.com et al.) is where this process ultimately runs.
+Once the strategy and mechanics here are settled, they move from documents into engine as live
+operations — pricing and partner gating, job flow, buyer-journey triggers, and metrics. Each
+mechanic defined in this repo should be written so engine can execute it directly, not re-interpret
+it. (Engine's internals are out of scope for this repo.)
+
 ## Launch
 
 Each brand's public front-end launch is its own gating step, best taken once that brand's
