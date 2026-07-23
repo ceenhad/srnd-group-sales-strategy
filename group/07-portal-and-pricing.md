@@ -33,20 +33,18 @@ observed:
   for C-ATS) linking to that brand's collections — the "independent brand front-ends, one store"
   model made concrete.
 
-**So the plan's "the registration + gated-pricing flow doesn't exist yet" is out of date at the
-group level.** What still needs pinning down is the *definition behind the gate*, not the gate's
-existence:
+**So the plan's "the registration + gated-pricing flow doesn't exist yet" is out of date.** The
+registration and gating *mechanism* is handled by engine (`engine.srnd.group`, a separate system —
+see the README), not something this strategy has to build. What still needs pinning down is the
+*policy behind it*, not the mechanism:
 
 - registration/approval criteria and what approval grants;
 - partner **pricing tiers** (the numbers) per brand — publication is settled, the tiers are not set;
-- MOQs, design-tool access, CE credits, co-marketing terms;
-- whether the current store gate delivers the *low-friction reorders* stage 6 needs (saved details,
-  one-click restock), or only first-order registration.
+- MOQs, design-tool access, CE credits, co-marketing terms.
 
 ## Open reconciliation
 
-- Confirm exactly what the live registration flow captures and grants today (audit needed) before
-  treating stage 4 as "built."
+- Set the partner-program policy above (a decision, not a build — engine runs the mechanism).
 - Any brand copy asserting a pricing posture must match the fully-gated policy. (C-ATS's
   `about.html` "recommended retail price" line is a known contradiction fixed in the C-ATS source;
   audit other brands for the same.)

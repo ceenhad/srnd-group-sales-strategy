@@ -38,21 +38,18 @@ described itself as C-ATS's version of a process meant to run in parallel across
 This repo makes that structure real: the group parts move up here; the C-ATS-specific parts become
 the C-ATS playbook in `brands/c-ats/`.
 
-## Where this runs: engine.srnd.group
+## Relationship to engine.srnd.group
 
-`engine.srnd.group` is SRND's internal operations platform. It has replaced the old third-party
-tooling (Monday.com and others) and now manages pricing, jobs and the day-to-day running of the
-business.
+`engine.srnd.group` is SRND's internal operations platform — a **separate system, not maintained
+from this repo**. It has replaced the old third-party tooling (Monday.com and others) and already
+runs the operational side of the business: partner registrations, pricing, jobs — a big jump in
+efficiency.
 
-This repo is the **strategy and mechanics** layer — it defines the buyer journey, the execution
-standards, the commercial model, and the partner/pricing policy. The endgame is to **roll that whole
-process into engine**: once the strategy and mechanics here are settled, they stop being documents
-and become operations engine runs — pricing and gating, partner registration, job flow, the
-buyer-journey triggers, the metrics.
-
-So write the strategy here as if it will be operationalised, because it will be: the mechanics are
-effectively the spec engine executes. (Engine's own scope and internals are not documented in this
-repo.)
+Keep the two apart. This repo owns the **strategy and mechanics** (the buyer journey, execution
+standards, commercial model, partner/pricing policy). Engine owns **operations** and is the system
+of record for anything operational the strategy relies on. The long-term goal is for the settled
+process to run in engine, but **we don't document or specify engine here** — we only note where the
+strategy hands off to it.
 
 ## Status
 

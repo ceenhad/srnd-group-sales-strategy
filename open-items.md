@@ -5,11 +5,10 @@ Group-level decisions and build order. Brand-specific open items live in each
 
 ## Decisions needed (flag, don't guess)
 
-- **Partner program + registration/gated-pricing flow** — the stage-4 operation, shared across
-  brands. Note: the live store already implements a registration/gate + B2B finance
-  (`group/07-portal-and-pricing.md`); the open work is auditing exactly what it captures/grants and
-  defining the program *behind* it (approval criteria, tier structure, MOQs, design-tool access,
-  CE credits, co-marketing).
+- **Partner program definition** — the stage-4 policy, shared across brands. The registration and
+  gating *mechanism* is handled by engine (already live); the open work is the program *behind* it:
+  approval criteria, what registration grants, tier structure, MOQs, design-tool access, CE credits,
+  co-marketing. This is a policy decision, not a build.
 - **Cross-brand contact-cadence coordination** — the oversaturation risk
   (`group/02-commercial-model.md`); a group-level discipline with no brand home.
 - **Which brands beyond C-ATS get a playbook next**, and in what order.
@@ -19,27 +18,24 @@ Group-level decisions and build order. Brand-specific open items live in each
 
 ## Suggested sequencing (dependency order; a proposal, not a decision)
 
-1. **Audit the live portal gate** — confirm what registration captures/grants today before treating
-   stage 4 as built. Cheap, unblocks everything downstream.
-2. **Define the partner program behind the gate** — approval, tier structure, MOQs, tool access.
-   The stage-4 operation that lets the buyer journey reach stage 6.
-3. **Per-brand: consolidate dealer lists + set pricing tiers** — brand work, unblocks lever-1
+1. **Define the partner program** — approval criteria, what registration grants, tier structure,
+   MOQs, tool access. The registration/gating *mechanism* already runs in engine; this is the policy
+   behind it. Cheap, unblocks everything downstream.
+2. **Per-brand: consolidate dealer lists + set pricing tiers** — brand work, unblocks lever-1
    targeting and the gated pricing.
-4. **Content production against the buyer journey via the studio** — buildable now; the bulk of the
+3. **Content production against the buyer journey via the studio** — buildable now; the bulk of the
    work. Doesn't wait on the decisions above.
-5. **Public-safe reference/proof assets (stage 5)** per brand, built from real jobs without naming
+4. **Public-safe reference/proof assets (stage 5)** per brand, built from real jobs without naming
    NDA installs.
-6. **Cross-brand cadence coordination** — stand up the group-level discipline once more than one
+5. **Cross-brand cadence coordination** — stand up the group-level discipline once more than one
    brand is running direct actions in parallel.
-7. **Paid outlet spend** — last, once the above give something worth promoting and validated
+6. **Paid outlet spend** — last, once the above give something worth promoting and validated
    audiences.
 
-**Endgame — operationalise in engine.** `engine.srnd.group` (SRND's internal platform, already
-managing pricing and jobs, having replaced Monday.com et al.) is where this process ultimately runs.
-Once the strategy and mechanics here are settled, they move from documents into engine as live
-operations — pricing and partner gating, job flow, buyer-journey triggers, and metrics. Each
-mechanic defined in this repo should be written so engine can execute it directly, not re-interpret
-it. (Engine's internals are out of scope for this repo.)
+**Note — operations live in engine.** `engine.srnd.group` already runs the operational side
+(registrations, pricing, jobs), and the settled process ultimately runs there. This repo keeps the
+strategy clear enough to hand off, but doesn't specify engine — it's a separate system, out of scope
+here.
 
 ## Launch
 
