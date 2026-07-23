@@ -18,15 +18,17 @@ architecture in `09-brand-portfolio.md`.
 ## The end-to-end case (one arc)
 
 A dealer meets the group at the top of the funnel — a search, a referral, a trade event, or another
-SRND brand they already buy — and lands on **srnd.group**, which introduces the company and points
-them at the brand that fits the need in front of them. On that **brand site** they get the
-functional case: does this solve my problem, can I spec and install it, will it hold up in front of
-my client. Convinced, they register as a trade partner (handled by engine) and buy through
-**srnd.store** — one account that already covers every other brand. The first job goes in; we make
-it succeed, and it becomes a reference. Then the relationship compounds: the same room needs the
-next system, the next project needs a different brand, and reordering is one action on an account
-that spans the group. A satisfied dealer refers a peer, and the arc begins again — now with the
-group, not just the brand that opened the door.
+SRND brand they already buy — drawn by a **single, simple problem**, not the group's full story. They
+land on **srnd.group**, which introduces the company briefly and points them at the brand that fits
+the need in front of them. On that **brand site** they get the functional case: does this solve my
+problem, can I spec and install it, will it hold up in front of my client. Convinced, they register
+as a trade partner (handled by engine) and buy through **srnd.store** — one account that already
+covers every other brand. The first job goes in; we make it succeed, and it becomes a reference.
+*Now* the group's richest story earns its place: the same room needs the next system, the next
+project needs a different brand, and the **whole-room, one-relationship story** — held back until
+there's a reason to care — opens the cross-sell. Reordering is one action on an account that spans
+the group. A satisfied dealer refers a peer, and the arc begins again — now with the group, not just
+the brand that opened the door.
 
 The rest of this document is that arc as six stages, with the mechanics each one needs.
 
@@ -66,8 +68,9 @@ The rest of this document is that arc as six stages, with the mechanics each one
    - **reorder ease** — saved details, one action to restock, on the group-wide account;
    - **new reasons** — a new element, or a new range when it ships (never before it ships);
    - **cross-brand expansion** — the same room needs the next system, and the dealer's next project
-     may need a *different brand entirely*. This is where "one relationship, six brands" pays off and
-     the group compounds beyond any single brand (`01-dealer-as-asset.md`);
+     may need a *different brand entirely*. This is where the **whole-room, one-relationship story**
+     finally belongs — now the dealer has a reason to care — and where "one relationship, six brands"
+     pays off and the group compounds beyond any single brand (`01-dealer-as-asset.md`);
    - **persistent presence and low friction** — we can't manufacture the dealer's next project; it
      lands on *their client's* clock, not ours. So the approach isn't a push, it's being recalled
      the moment it lands and being effortless to act on. A satisfied dealer then refers a peer →

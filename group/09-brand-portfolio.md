@@ -47,10 +47,12 @@ systems together. Own-manufactured, like the six brands (not distribution).
 Each web property does a specific job in the buyer journey (`03-buyer-journey.md`); they are not
 interchangeable, and no one property has to do everything.
 
-- **Group site** (`www.srnd.group`) — **top of the funnel.** Introduces the company and what the
-  group does; the **start of a series of landing-page opportunities** that bring people in and route
-  them onward to the right brand or product. Buyer-journey stages 1–2 (get in front of them / land
-  the proposition).
+- **Group site** (`www.srnd.group`) — **top of the funnel.** Introduces the company *briefly* and
+  routes people to the brand or product that fits their need; the **start of a series of
+  landing-page opportunities** that bring people in. It leads simply — the full whole-room,
+  one-relationship story is the group's most complex proposition and is held for engaged contacts
+  and the cross-sell (see `03-buyer-journey.md`), not used as the cold open. Buyer-journey stages
+  1–2 (get in front of them / land the proposition).
 - **Brand sites** — **functional and focused.** Product, range and spec for a given brand. Because
   the group site does the "introduce the company" job and the content carries the sales-rep job
   (`02-commercial-model.md`), the brand sites don't have to carry the full introduce-and-persuade
