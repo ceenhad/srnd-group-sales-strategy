@@ -3,9 +3,10 @@
 This is C-ATS's version of the content that feeds the group buyer journey
 (`../../group/03-buyer-journey.md`). The 3 Rs is the core of the content. It's the engineering
 brief, not a marketing device, and it's exactly the plain one-problem-one-panel logic a practical,
-technical buyer likes. The layered build below is modelled on a Fabric Walls introduction-campaign
-structure (referenced for its *messaging approach*, not reused verbatim). These layers feed the
-early stages of the journey; they are content, not a standalone campaign.
+technical buyer likes. The layered build below is C-ATS's application of the group intro-campaign
+template (`../../group/11-intro-campaign.md`) — that's where the phase structure, the text-forward
+principle and the Aphex Twin case study live; this file is the C-ATS-specific instance. These layers
+feed the early stages of the journey; they are content, not a standalone campaign.
 
 **Why lead with the problem, not the product.** C-ATS's panels are **designed to be hidden**, so
 there is no finished-room photo that shows the product at all. The hook can't lead with imagery of

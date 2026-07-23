@@ -30,8 +30,8 @@ Group-level decisions and build order. Brand-specific open items live in each
 - **Which brands beyond CATS get a playbook next**, and in what order (Fabric Walls, Display
   Technologies, Light Walls, Pro-Fi).
 - **Whether reusable patterns move up to group templates** — the growth-lever idea
-  (`brands/c-ats/growth-levers.md`) and the layered content build
-  (`brands/c-ats/content.md`) are candidates.
+  (`brands/c-ats/growth-levers.md`) is a candidate. (The layered content build has been moved up —
+  see `group/11-intro-campaign.md`.)
 
 ## Suggested sequencing (dependency order; a proposal, not a decision)
 
