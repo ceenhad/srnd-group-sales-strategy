@@ -27,10 +27,11 @@ observed:
   Application flow, a Trade Account structure, and **B2B Finance (90-day interest-free credit)**.
 - **The store is the shared back-end** the commercial model (`02-commercial-model.md`) describes —
   full multi-currency/multi-country, organised by category (Video, Audio, Cinema Construction &
-  Interiors, Lighting) and by **World Class Brands** (C-ATS shown as "Complete ATS", plus Advatek,
-  Display Technologies, FabricWalls, Leyard, Light Walls, MadVR, Poet, Sylvox, Ultrasuede).
+  Interiors, Lighting) and by a "World Class Brands" menu. Note: that store menu still lists a
+  broader set than the current group roster (see `09-brand-portfolio.md` — the group's own brands
+  plus Leyard as the sole third-party line); the store list is treated as legacy until reconciled.
 - **Each brand has a front-end page on the store** (e.g. `/pages/complete-acoustic-treatment-system`
-  for C-ATS) linking to that brand's collections — the "independent brand front-ends, one store"
+  for CATS) linking to that brand's collections — the "independent brand front-ends, one store"
   model made concrete.
 
 **So the plan's "the registration + gated-pricing flow doesn't exist yet" is out of date.** The

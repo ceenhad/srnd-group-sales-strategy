@@ -7,17 +7,31 @@ repo and is summarised in `brands/c-ats/`). This file is not marketing copy.
 
 ## What SRND Group is
 
-SRND Group supplies **luxury solutions for high-tech immersive environments** — audio, video,
-lighting, content & control, architectural integration, and interior architecture — to **trade
-partners** (AV integrators / installers) globally, who deliver the final installation into end
-clients' homes and premises. SRND is a **house of brands** with a **single shared B2B store**
-(the portal): market as distinct brands, transact through one place.
+SRND Group **designs, manufactures and distributes the systems behind high-end environments**, from
+its own factory in Kirkbymoorside, North Yorkshire. It sells **to the trade** — everything is built
+to be specified, quoted and installed by professionals. The promise is *"six brands, one group, one
+relationship"*: whatever mix of brands a partner uses, they deal with one team, one account, one
+point of contact — transacting through the shared SRND store, with operations run in engine
+(`engine.srnd.group`).
 
-**The brands** (each an independent front-end over the shared store): C-ATS (Complete/Cinema
-Acoustic Treatment System — cinema acoustics), FabricWalls, and the other in-house and
-carefully-chosen distributed lines carried in the store (Advatek Lighting, Display Technologies,
-Leyard, Light Walls, MadVR, Poet, Sylvox, Ultrasuede, and others). The store organises them under
-World Class Brands; the group markets each on its own terms.
+Formed **March 2023** to bring several established companies together as one group. The name is the
+initials of founders **Simon Ridley and Neil Davidson**, and reads as **"surround"** — a nod to the
+audio/AV work at the core.
+
+> **Identity line is unresolved.** Neither the store's "luxury solutions for high-tech environments"
+> nor the group site's "British manufacturing for high-end environments" is felt to be strong enough
+> yet. Treat the description above as working context, not a settled tagline — see `open-items.md`.
+
+## The brands
+
+Six specialist brands, each with its own site and range, covering the room system end to end:
+**Display Technologies** (projection), **Fabric Walls** (stretch-fabric wall/ceiling systems),
+**Light Walls** (addressable lighting), **CATS** (acoustic treatment — the 3 Rs), **Pro-Fi** (audio
+systems), and **SRND Distribution** (the trade distribution arm). A further own-made line,
+**SRND Solutions** (sensors and interfaces — the connective "glue" of a high-end install, not
+fitting inside any one brand), is in development. In distribution, **Leyard** is the only genuine
+third-party brand; other names on the store are carried lines or components (Ultrasuede is a fabric
+used within Fabric Walls, not a standalone brand). Full roster: `group/09-brand-portfolio.md`.
 
 ## The core idea
 

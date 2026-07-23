@@ -5,13 +5,30 @@ Group-level decisions and build order. Brand-specific open items live in each
 
 ## Decisions needed (flag, don't guess)
 
+- **Group identity line / positioning statement** — unresolved. Both current lines are felt to be
+  weak: the store's "luxury solutions for high-tech environments" and the group site's "British
+  manufacturing for high-end environments" (the latter is closer). Needs a stronger line that
+  carries the group truth — British design + manufacture, the whole room system end to end, one
+  relationship, engineered/measured, trade-only. Don't hard-code a tagline until settled.
+- **SRND Solutions go-to-market** — the forthcoming own-made sensors/interfaces line
+  (`group/09-brand-portfolio.md`) deliberately doesn't fit inside a brand, yet the model makes
+  brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a
+  cross-brand group line attached to installs. Also its launch timing (don't market before it ships).
+- **Store roster vs group reality** — `srnd.store`'s "World Class Brands" menu lists more than the
+  current group roster (six own brands + Leyard as the only third-party line). Reconcile the store
+  to reality (or confirm what's genuinely still carried) so public listings match the group truth.
+- **CATS naming** — the group site uses "CATS" and spells out "Complete Acoustic Treatment System"
+  openly, but the C-ATS brand-truth `CLAUDE.md` still flags the "Complete" expansion as unresolved
+  and prefers "C-ATS"/"Cinema". Resolve the canonical name and align brand truth, the group site and
+  the store. Affects all CATS-facing copy.
 - **Partner program definition** — the stage-4 policy, shared across brands. The registration and
   gating *mechanism* is handled by engine (already live); the open work is the program *behind* it:
   approval criteria, what registration grants, tier structure, MOQs, design-tool access, CE credits,
   co-marketing. This is a policy decision, not a build.
 - **Cross-brand contact-cadence coordination** — the oversaturation risk
   (`group/02-commercial-model.md`); a group-level discipline with no brand home.
-- **Which brands beyond C-ATS get a playbook next**, and in what order.
+- **Which brands beyond CATS get a playbook next**, and in what order (Fabric Walls, Display
+  Technologies, Light Walls, Pro-Fi).
 - **Whether reusable patterns move up to group templates** — the growth-lever idea
   (`brands/c-ats/growth-levers.md`) and the layered content build
   (`brands/c-ats/content.md`) are candidates.
