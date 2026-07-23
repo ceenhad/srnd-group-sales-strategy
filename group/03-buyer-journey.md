@@ -9,6 +9,10 @@ The journey runs from "never heard of us" round to "orders again" — a loop, no
 hard part, the part a human rep struggles with most, is the last stage: earning the *next* order.
 Almost all of it is process; it just has to be done, and presented at the right moment.
 
+The web properties map onto these stages — group site opens the funnel (1–2), brand sites do the
+functional/proof work (2–3), the store takes the order (4). See the web architecture in
+`09-brand-portfolio.md`.
+
 1. **Unaware** → get in front of them.
    *Touchpoints: trade press, trade events, social, inbound search/AI, peer referral, the group's
    own existing dealers. Content: the hook — the brand's core problem, stated boldly.*

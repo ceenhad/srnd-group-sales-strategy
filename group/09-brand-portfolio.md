@@ -20,7 +20,8 @@ buying is shared (the store); operations run in engine. Each brand has its own s
    engineered around the data the stage before it provides (manufacture → install → calibration).
 6. **SRND Distribution** — the group's trade distribution arm. One account and one delivery cover
    the whole room system, with trade credit, demo programmes and stock across the group's brands and
-   carried lines. Home of the Experience Centre (North Yorkshire).
+   carried lines. Home of the Experience Centre (North Yorkshire). Its online face is the store,
+   `srnd.store` — the purchasing destination for the whole group.
 
 ## SRND Solutions (in development — not launched)
 
@@ -41,10 +42,22 @@ systems together. Own-manufactured, like the six brands (not distribution).
   Sylvox). That list does **not** reflect current group reality and is treated as legacy/store-only
   until reconciled — see `open-items.md`. Don't cite it as the group brand roster.
 
-## The architecture (where each layer lives)
+## The web architecture (role of each property, mapped to the buyer journey)
 
-- **Group site** (`www.srnd.group`) — corporate: who the group is, the six brands, one enquiry.
-- **Brand sites** — per-brand awareness and range (the marketing surface).
-- **The store** (`srnd.store`) — shared transaction (one account, one checkout).
-- **Engine** (`engine.srnd.group`) — operations: registrations, pricing, jobs. Separate system,
-  not specified here (see the README).
+Each web property does a specific job in the buyer journey (`03-buyer-journey.md`); they are not
+interchangeable, and no one property has to do everything.
+
+- **Group site** (`www.srnd.group`) — **top of the funnel.** Introduces the company and what the
+  group does; the **start of a series of landing-page opportunities** that bring people in and route
+  them onward to the right brand or product. Buyer-journey stages 1–2 (get in front of them / land
+  the proposition).
+- **Brand sites** — **functional and focused.** Product, range and spec for a given brand. Because
+  the group site does the "introduce the company" job and the content carries the sales-rep job
+  (`02-commercial-model.md`), the brand sites don't have to carry the full introduce-and-persuade
+  load — they can stay lean and practical. Buyer-journey stages 2–3 (proposition / proof / how it
+  works).
+- **The store** (`srnd.store`) — **the purchasing destination.** The online face of SRND
+  Distribution (literally the store); where we send people to buy. One account, one checkout across
+  every brand. Buyer-journey stage 4 (register, then buy).
+- **Engine** (`engine.srnd.group`) — **operations** behind it all: registrations, pricing, jobs.
+  Separate system, not specified here (see the README).

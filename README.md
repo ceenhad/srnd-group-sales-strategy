@@ -4,9 +4,12 @@ This repo is the **group-level** operating home for SRND's sales & marketing. It
 and the standards **once**, at the group level, and each brand applies them in its own playbook for
 execution.
 
-The organising principle SRND runs on: **awareness is per-brand, buying is shared.** Each brand
-builds awareness independently through its own front-end; every brand transacts through one shared
-store (the SRND B2B portal). This repo is where the shared half — the strategy, the buyer journey,
+The organising principle SRND runs on: **the group introduces, the brands focus the marketing, the
+store sells.** `srnd.group` opens the funnel and introduces the company (the start of a series of
+landing pages); the brands are how the sales & marketing is focused, each with its own fairly
+functional site; and every brand's purchase routes back to one shared store (`srnd.store`, the
+online face of distribution). Operations run in engine. (Web architecture:
+`group/09-brand-portfolio.md`.) This repo is where the shared half — the strategy, the buyer journey,
 the commercial model, the owned content operation — is developed. Brand folders are where it filters
 down to execution.
 
