@@ -34,7 +34,10 @@ The rest of this document is that arc as six stages, with the mechanics each one
 
 1. **Unaware → get in front of them.** The relationship can start at any brand, or at the group
    itself. Warmest of all is a dealer who *already buys another SRND brand* — the group's own base
-   is a standing entry point.
+   is a standing entry point. The top of funnel is deliberately **wide**: many entry points, and
+   many valid places to land a given piece across the group's properties. Use that flexibility to
+   route entry and **spread contact load** rather than funnelling everyone through one door — it's
+   one of the two oversaturation levers in `02-commercial-model.md`.
    *Touchpoints: trade press, trade events, social, inbound search/AI, peer referral, existing
    dealers of other brands. Destination: `srnd.group` opens the funnel and routes onward. Content:
    the hook — the core problem the relevant brand solves, stated boldly.*

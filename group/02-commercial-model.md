@@ -17,11 +17,21 @@ same buyer journey (`03-buyer-journey.md`) at once, over a largely shared dealer
 
 **Oversaturation is the risk to manage.** Because the dealers are shared and every brand runs direct
 actions in parallel, the same person can be hit by several brands in the same week — and direct's
-low friction is exactly what makes that easy to overdo. The mitigation is coordination, not
-restraint: **manage contact cadence across brands at group level** so parallel outreach lands as one
-coherent group, not several brands competing for the same inbox. It's the flip side of the coherence
-point (`01-dealer-as-asset.md`) — same shared dealer, so the discipline has to be shared too. This
-is a group-owned discipline with no brand-level home; it only exists here.
+low friction is exactly what makes that easy to overdo. Two group-level levers manage it, and both
+are coordination rather than restraint:
+
+- **Contact cadence, coordinated across brands** — so parallel outreach lands as one coherent group,
+  not several brands competing for the same inbox.
+- **Placement flexibility across the properties** — the top of funnel is wide, and the group has
+  many places to land things (the group site, six brand sites, the store, plus off-site channels).
+  That gives real freedom over *where* a given message lands, so contact load can be spread across
+  properties and entry points instead of concentrated on one door. Match the landing to the
+  contact's readiness — broad, company-level intros on the group site; specific, functional content
+  on a brand site; purchase intent at the store — so we ask the right amount at the right moment
+  rather than over-asking.
+
+It's the flip side of the coherence point (`01-dealer-as-asset.md`) — same shared dealer, so the
+discipline has to be shared too. Both levers are group-owned; neither has a brand-level home.
 
 **Direct to dealer, globally, through the store.** The old reason a brand needed a distributor in
 each territory — a body on the ground to be reachable and to walk dealers through a spec — is largely
