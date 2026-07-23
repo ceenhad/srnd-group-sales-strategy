@@ -29,8 +29,8 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
 ## Non-negotiable discipline
 
 - **Group ≠ brand. Keep the layers clean.** Group strategy is brand-agnostic; it must not bake in
-  one brand's specifics. Brand execution instantiates the group templates; it must not re-invent
-  them. If you're writing something that only one brand can use, it belongs in that brand's folder.
+  one brand's specifics. A brand playbook applies the group strategy; it must not re-invent it.
+  If you're writing something that only one brand can use, it belongs in that brand's folder.
 - **Brand-truth guardrails still bind.** When group work touches a brand's content, that brand's
   own hard don'ts apply and apply hardest — there's no group licence to override brand truth.
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
@@ -53,7 +53,7 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
 - Confident, technical, honest, plainspoken. Problems solved, not mechanisms.
 - Speaks to the trade partner (the dealer/integrator) first — they are the reader and the asset.
 - No manufactured urgency, no superlatives, no unbacked claims. The content *is* the rep; a rep who
-  fumbles the pitch loses a precious dealer.
+  fumbles the pitch loses a valuable dealer.
 
 ## Hard don'ts
 

@@ -40,7 +40,7 @@ existence:
 - registration/approval criteria and what approval grants;
 - partner **pricing tiers** (the numbers) per brand — publication is settled, the tiers are not set;
 - MOQs, design-tool access, CE credits, co-marketing terms;
-- whether the current store gate delivers the *reorder friction-kill* stage 6 needs (saved details,
+- whether the current store gate delivers the *low-friction reorders* stage 6 needs (saved details,
   one-click restock), or only first-order registration.
 
 ## Open reconciliation
@@ -51,5 +51,5 @@ existence:
   `about.html` "recommended retail price" line is a known contradiction fixed in the C-ATS source;
   audit other brands for the same.)
 
-> **Layer note.** The store and the pricing *policy* are group-owned and shared. A brand's *range
-> and tier numbers* are brand-owned and live in `brands/<brand>/product-pricing.md`.
+> **Group vs brand.** The store and the pricing *policy* are group-owned and shared. A brand's
+> *range and tier numbers* are brand-owned and live in `brands/<brand>/product-pricing.md`.

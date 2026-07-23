@@ -1,22 +1,23 @@
-# C-ATS — brand instance
+# C-ATS — brand playbook
 
-C-ATS (Cinema / Complete Acoustic Treatment System) is the first and most worked-out instance of
-the SRND group strategy. This folder holds only what is **specific to C-ATS**; everything structural
-— the dealer-as-asset thesis, the wheel, the mechanics, the commercial model, the portal, the
-production engine, the metrics — is inherited from `../../group/` and not restated here.
+C-ATS (Cinema / Complete Acoustic Treatment System) is the first and most worked-out playbook
+applying the SRND group strategy. This folder holds only what is **specific to C-ATS**; everything
+structural — the dealer-as-asset thesis, the buyer journey, the execution standards, the commercial
+model, the portal, the content operation, the metrics — comes from `../../group/` and is not
+restated here.
 
-## What C-ATS inherits (do not duplicate)
+## What C-ATS takes from the group strategy (do not duplicate)
 
-- The wheel (`../../group/03-the-wheel.md`) — C-ATS runs its own instance; content per stage is in
-  `content.md`.
+- The buyer journey (`../../group/03-buyer-journey.md`) — C-ATS runs its own version; content per
+  stage is in `content.md`.
 - Commercial model, portal, fully-gated pricing policy — `../../group/`.
-- Production engine (studio + Experience Centre) — shared; C-ATS books output.
+- Content production (studio + Experience Centre) — shared; C-ATS books output.
 
 ## What lives here (brand-owned)
 
 - `positioning.md` — where C-ATS sits, the 3 Rs engineering brief, the buyer.
-- `growth-levers.md` — which channels C-ATS points the shared engine at.
-- `content.md` — the 3 Rs content spine, guardrails, creative approach, the layered build.
+- `growth-levers.md` — which channels C-ATS prioritises.
+- `content.md` — the 3 Rs content, guardrails, creative approach, the layered build.
 - `product-pricing.md` — the range and the (gated) tier work.
 - `open-items.md` — C-ATS-specific decisions and sequencing.
 

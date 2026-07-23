@@ -17,8 +17,8 @@ distributor-led.
 
 **Starting line — be honest about it.** The dedicated C-ATS front-end content is largely staged, not
 launched; the brand currently appears on the shared store as a brand page
-(`/pages/complete-acoustic-treatment-system`) plus its collections. So C-ATS's instance of the
-wheel isn't fully turning yet. This is a *build*, not an optimisation.
+(`/pages/complete-acoustic-treatment-system`) plus its collections. So C-ATS's buyer journey isn't
+fully running yet. This is a *build*, not an optimisation.
 
 ## The 3 Rs (the engineering brief, not a marketing device)
 

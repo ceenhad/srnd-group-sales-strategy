@@ -5,8 +5,8 @@ own pages, assets and content — a dealer meets C-ATS as C-ATS, FabricWalls as 
 **buying action goes through the SRND store**: independent brand front-ends, one commerce back-end.
 That's the mechanism — market as distinct brands, transact through one place.
 
-**The process runs in parallel across every SRND brand.** Each brand is an instance of the same
-wheel (`03-the-wheel.md`), turning at once, over a largely shared dealer base.
+**The process runs in parallel across every SRND brand.** Each brand runs its own version of the
+same buyer journey (`03-buyer-journey.md`) at once, over a largely shared dealer base.
 
 **Oversaturation is the risk to manage.** Because the dealers are shared and every brand runs direct
 actions in parallel, the same person can be hit by several brands in the same week — and direct's
@@ -36,7 +36,8 @@ deliberate, case-by-case exception for scale or language.
 **Content does the rep's job now.** With no local rep, the content plus a Zoom call *is* the sales
 motion. That raises the bar on the content: it has to carry the pitch, the proof, and the "how to
 spec and install this without it going wrong on site" that a rep used to deliver in person. And the
-market is crowded — sloppy content just vanishes. This is why **mechanical soundness**
-(`05-mechanics.md`) is non-negotiable: the content isn't marketing dressing, it's the rep, repping
-the group's core asset at scale, in a crowded room. A rep who fumbles the pitch loses the dealer;
-mechanically-sound content is the rep that doesn't fumble — every time, everywhere, at once.
+market is crowded — sloppy content just vanishes. This is why the **execution standards**
+(`05-execution-standards.md`) are non-negotiable: the content isn't marketing dressing, it's the
+rep, representing the group's core asset at scale, in a crowded room. A rep who fumbles the pitch
+loses the dealer; disciplined content is the rep that doesn't fumble — every time, everywhere,
+at once.
