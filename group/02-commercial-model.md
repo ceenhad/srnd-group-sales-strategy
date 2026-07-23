@@ -1,0 +1,42 @@
+# The commercial model — independent brands, one store
+
+**Awareness is per-brand; buying is shared.** Each brand builds awareness independently, through its
+own pages, assets and content — a dealer meets C-ATS as C-ATS, FabricWalls as FabricWalls. But the
+**buying action goes through the SRND store**: independent brand front-ends, one commerce back-end.
+That's the mechanism — market as distinct brands, transact through one place.
+
+**The process runs in parallel across every SRND brand.** Each brand is an instance of the same
+wheel (`03-the-wheel.md`), turning at once, over a largely shared dealer base.
+
+**Oversaturation is the risk to manage.** Because the dealers are shared and every brand runs direct
+actions in parallel, the same person can be hit by several brands in the same week — and direct's
+low friction is exactly what makes that easy to overdo. The mitigation is coordination, not
+restraint: **manage contact cadence across brands at group level** so parallel outreach lands as one
+coherent group, not several brands competing for the same inbox. It's the flip side of the coherence
+point (`01-dealer-as-asset.md`) — same shared dealer, so the discipline has to be shared too. This
+is a group-owned discipline with no brand-level home; it only exists here.
+
+**Direct to dealer, globally, through the store.** The old reason a brand needed a distributor in
+each territory — a body on the ground to be reachable and to walk dealers through a spec — is largely
+gone: we can reach a dealer almost as easily as a local distributor can, short of physically
+visiting, and Zoom shrinks even that gap.
+
+**Distributors are the exception — two triggers.** The market is a few big players and a long tail of
+very small ones. A distributor earns its place only when one of these holds:
+1. **Scale:** a big territory where it can *at least double* sales versus going direct — it has to
+   more than replace the margin we hand over.
+2. **Language / market barrier:** a country where we have no realistic language or local-market
+   reach and direct + content + Zoom genuinely can't bridge it. There a distributor is the practical
+   route in, almost regardless of the 2× test.
+
+One further test always applies: it must not cost the group the direct dealer relationships that are
+the compounding asset (`01-dealer-as-asset.md`). Default direct; treat a distributor as a
+deliberate, case-by-case exception for scale or language.
+
+**Content does the rep's job now.** With no local rep, the content plus a Zoom call *is* the sales
+motion. That raises the bar on the content: it has to carry the pitch, the proof, and the "how to
+spec and install this without it going wrong on site" that a rep used to deliver in person. And the
+market is crowded — sloppy content just vanishes. This is why **mechanical soundness**
+(`05-mechanics.md`) is non-negotiable: the content isn't marketing dressing, it's the rep, repping
+the group's core asset at scale, in a crowded room. A rep who fumbles the pitch loses the dealer;
+mechanically-sound content is the rep that doesn't fumble — every time, everywhere, at once.
