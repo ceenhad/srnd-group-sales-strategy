@@ -19,10 +19,13 @@ is brand-specific, their existence is not.
   distribute globally — precisely what a direct, no-local-rep model would otherwise lack. This
   pairing may be the single most valuable owned asset in the group.
 - **The room-render library** is a third owned asset, already substantial (dozens into the
-  hundreds). Used as **virtual case studies**, these renders show the range in context and prove a
-  brand works in a real room type — valuable proof content for stages 2–3 of the buyer journey. They
-  aren't hook material (`11-intro-campaign.md`), but downstream they're a large, ready-made library
-  to draw on rather than a cost still to incur.
+  hundreds) — but the renders are **raw material, not finished content**. A render on its own is a
+  picture: fine, but lazy. **A virtual case study is a *story*** — the room and its brief, the
+  problem, what was specified (often across several brands), how it was solved, the result — and the
+  render is only the **hook** that draws the reader into that story. Told well, a virtual case study
+  is strong proof for stages 2–3, and the natural vehicle for the whole-room, cross-brand story
+  (which is why it belongs downstream, not at the hook — `11-intro-campaign.md`). The library means
+  the hooks already exist; the work is writing the stories around them.
 
 > **Why this is group-owned.** One studio and one Experience Centre serve all brands. Duplicating
 > them per brand would defeat the economics that make the whole direct-global model workable. Brands

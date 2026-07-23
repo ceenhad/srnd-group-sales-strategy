@@ -26,9 +26,10 @@ same for any brand; only the content changes.
    room/lifestyle imagery is a **secondary contact point, not the opener** — the same "lead simple,
    earn the complex" logic the funnel uses (`03-buyer-journey.md`).
    - **This is about the hook only — not a knock on room imagery as content.** SRND has a large
-     library of room renders (dozens, into the hundreds). As **virtual case studies** these are
-     genuinely valuable content — they earn their place *later* in the journey (range-in-context at
-     stage 2, proof at stage 3), just not as the cold open. See `10-content-placement.md`.
+     library of room renders (dozens, into the hundreds). Turned into **virtual case studies** they
+     are genuinely valuable — but the render is only the hook *within* the case study; the **story**
+     is what matters (a render on its own is lazy). They earn their place *later* in the journey
+     (stages 2–3), not as the cold open. See `06-content-production.md` and `10-content-placement.md`.
    - **Case study — Aphex Twin, "Come to Daddy" remix (Designers Republic).** DR wanted to reuse the
      imagery from the track's Orange Mobile advert for the remix CD — instant public recognition —
      but Orange blocked it on copyright. Instead they used **text describing the advert**: bold,
