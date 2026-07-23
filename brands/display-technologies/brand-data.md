@@ -35,7 +35,12 @@ site's current wording, not ours.
 - **"Design for install"** — the recurring theme: modular builds, ease of installation, made to
   exact size, rapid-install frameworks; meets the needs of *both client and installer*.
 - **Mask Position Logic** — DT's named approach to masking screens / the aspect-ratio problem (also
-  the subject of a DT article on the EI microsite).
+  the subject of a DT article on the EI microsite). The engine behind it is the **Dynamic Commander**
+  (DT Dynamic Screen) — see `dt-commander-v5.md`.
+- **The DT Commander V5 platform** — a network-grade control platform under DT's motorised products
+  (Dynamic Commander for masking screens; Actuator Commander for opening mechanisms), with a
+  category-leading hardware privacy feature (the physical Request Support button). Major new
+  development; captured in full in `dt-commander-v5.md`. *(In development — mind the status caveats.)*
 - **Mounting that enables the otherwise-impossible** — placing projectors where they otherwise
   couldn't go; the "think outside the box" angle.
 - **DT Create** — a tool to *"create configurable product drawings and specifications"* plus
