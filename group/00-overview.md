@@ -29,5 +29,7 @@ in one place for every brand.
 - `06-content-production.md` — the studio + Experience Centre, the owned assets that make it run.
 - `07-portal-and-pricing.md` — the shared store, the fully-gated pricing policy, current state.
 - `08-metrics.md` — the unit is the dealer relationship across the group, over time.
+- `09-brand-portfolio.md` — the canonical brand roster and the web architecture.
+- `10-content-placement.md` — where each kind of content lands across the properties, and why.
 
 **Brands apply this in `brands/<brand>/`.** C-ATS is the first and most worked-out playbook.
