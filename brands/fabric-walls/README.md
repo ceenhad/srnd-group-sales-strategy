@@ -14,6 +14,16 @@ intro-campaign template — note Fabric Walls is the *origin* of that template).
 - **Messaging not yet agreed** — what we *want Fabric Walls to say* is still to be worked out, per
   the agreed sequence (message before website).
 
+## Come back and go deeper (noted)
+
+First/second pass captured in `brand-data.md`. To revisit when we return:
+- The **social posts** — gated to scraping (Facebook login-walled; LinkedIn posts need auth). Need
+  them shared/exported to understand what's actually been said.
+- Deeper site areas not yet mined: Case Studies, Technical, Design articles, the full kit/scheme
+  detail and pricing.
+- Resolve the flagged questions (kit-level naming; the Acoustic Treatment Design Service vs CATS;
+  the Approved Installer programme).
+
 ## To build (once messaging is agreed)
 
 `positioning.md`, `growth-levers.md`, `content.md`, `product-pricing.md`, `open-items.md`, and
