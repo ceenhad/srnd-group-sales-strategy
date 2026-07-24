@@ -12,17 +12,17 @@ own accomplishment.
 
 The work divides into four, in rough order of how directly it reaches the dealer.
 
-**Tell.** The depth is invisible mostly because we have never told it, and where we have, we've done
-it ad hoc. So the first job is not to create — it is to surface and deploy what already exists, in
-the dealer-first voice. The highest-leverage move is also the cheapest: C-ATS has a complete site
-and an eighteen-article knowledge base already built, sitting behind an expired login. Shipping it
-turns a finished asset into a visible one at almost no cost. Around that sit three more near-free
-gains — the paid Essential Install microsite that runs near-empty (a channel we are paying for and
-not using), the neglected fronts to close (Pro-Fi still wired to placeholder social accounts; the
-near-total absence of video), and C-ATS's GEO/AEO content model — the one genuinely plan-shaped
-asset from the ad-hoc period — which is worth extending across the other brands. The discipline is
-constant: the content *is* the sales rep, and it earns attention by proving understanding, offering
-help, and pointing at the dealer's win — never by reciting our specifications.
+**Tell.** The depth is invisible because it has never been told *to a plan* — so the telling has to
+be developed, not merely switched on. This is the coherence work: the moat driven down into each
+brand as a clear, dealer-first story, group → brand → product, with every piece proving
+understanding, offering help, and pointing at the dealer's win rather than reciting specifications
+(`02-commercial-model.md`, content is the rep). What already exists is emphatically *not* a shortcut
+to publish: the built C-ATS site and knowledge base, and the Fabric Walls site, were put up ad hoc,
+without a plan, and are placeholders to re-base against the settled strategy — not finished assets to
+push live. The one plan-shaped inheritance worth carrying forward is C-ATS's GEO/AEO content model,
+which should be extended across the brands. The neglected fronts (placeholder social accounts, the
+near-absence of video) are content-development work to be done properly in turn, not gaps to paper
+over in a hurry.
 
 **Prove.** The weakest claim in the moat is "you will come out ahead," because it is asserted from
 capability rather than demonstrated with dealers. Proof is the remedy, in ascending order of force:
@@ -49,13 +49,24 @@ to become systems the team can carry — the product platforms, the design tools
 the knowledge base. This is the least urgent and the most important of the four: it is what lets
 everything above scale, and what stops the moat walking out of the door.
 
-**Sequence.** The team is small, so the order follows leverage, not ambition. First the work that is
-nearly done or already paid for — deploy the C-ATS site, fill the microsite, connect the fronts we
-have neglected. Then a coherence pass on the messaging, brand by brand, beginning with the sharpest
-instance, DT, which becomes the template the others follow. Proof-building and the appreciation
-programme earn their turn only once there is something true and told to stand on; and paid promotion
-comes last, because there is no sense paying to amplify a story not yet told or proven — which is the
-order `open-items.md` already sets out.
+**Sequence — and where we actually are.** Activation runs in strict order, and we are at the very
+start of it. Deployment is deliberately far off; that distance is the point, not an impatience to
+overcome.
+
+1. **Clear the strategy, across every brand.** Take the moat and drive it down into each brand as
+   coherent positioning — group → brand → product — until every brand knows what it says and why, and
+   the five stories read as one. **This is the current work.** Nothing is developed or deployed until
+   it is set: building without it is precisely how the ad-hoc placeholders came to exist.
+2. **Develop the content to that strategy.** Brand by brand, author the telling and build the proof
+   (case studies, measured sign-off, virtual case studies) as considered content — re-basing the
+   existing placeholder material against the strategy rather than reusing it.
+3. **Deploy — later, and deliberately.** Sites, channels, campaigns, and last of all paid promotion,
+   come only once the strategy is clear and the content is developed and true. We are a long way from
+   this, by design: we do not publish before we have something planned, developed and proven to
+   publish.
+
+Tend (building genuine appreciation) and institutionalise (turning the advantage into systems) run
+alongside these phases rather than waiting on deployment.
 
 The plan invents nothing. It gathers work already implied across the strategy — the buyer journey,
 content placement, the channels, the intro-campaign, the open items — under a single question: what
