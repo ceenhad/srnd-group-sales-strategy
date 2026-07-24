@@ -4,6 +4,18 @@ This repo is the **group-level** operating home for SRND's sales & marketing. It
 and the standards **once**, at the group level, and each brand applies them in its own playbook for
 execution.
 
+## Why this exists — the core problem
+
+SRND's **external and internal stories are wildly divergent.** The engineering is world-class — the
+DT Commander control platform, LWCP's measured-per-unit colour moat, Fabric Walls' productised
+system — but the public telling of it is thin to absent (commodity-looking webshops, ~85 LinkedIn
+followers, little to no video). The team has been busy building the drum, not banging it.
+
+So the job here is **coherence, not invention.** The material is real and already exists; the work
+is to make one true story flow **group → brand → product**, drawing out what's genuinely there —
+not manufacturing claims. Capturing the real internal substance (from the product/platform repos)
+brand by brand, *before* writing messaging or touching websites, is what makes that possible.
+
 The organising principle SRND runs on: **the group introduces, the brands focus the marketing, the
 store sells.** `srnd.group` opens the funnel and introduces the company (the start of a series of
 landing pages); the brands are how the sales & marketing is focused, each with its own fairly

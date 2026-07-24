@@ -42,6 +42,11 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
 
 ## Non-negotiable discipline
 
+- **Coherence, not invention.** SRND's external and internal stories diverge sharply — world-class
+  engineering (DT Commander, LWCP measured colour, …) behind thin public telling. The job is to make
+  one true story flow group → brand → product by **surfacing what's genuinely there**, not
+  manufacturing claims. The substance is real; draw it out, don't make it up. (This is the positive
+  face of "flag, don't guess" — and see the README's "Why this exists".)
 - **Group ≠ brand. Keep the layers clean.** Group strategy is brand-agnostic; it must not bake in
   one brand's specifics. A brand playbook applies the group strategy; it must not re-invent it.
   If you're writing something that only one brand can use, it belongs in that brand's folder.
