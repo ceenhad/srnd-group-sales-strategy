@@ -37,16 +37,52 @@ Premium heritage brand — *"70 years of innovation," "handcrafted screens and m
 ## Motion / automation (vs DT mounts, MMD, Actuator Commander)
 
 ### Future Automation (UK + North America) — `futureautomation.co.uk`
-*"Exceptional automated solutions… mechanisms that conceal and reveal displays." "Hand-made."*
-- **Range:** lifts, wall mounts, projector mounts & drops, moving-panel mechanisms, ceiling mounts,
-  plus a **Marine Range**.
-- **What they do well (take seriously despite our low regard for them):** claims **market leadership**
-  in display mounting; a strong **bespoke/custom** offer — in-house design team for complex projects,
-  "rooms sculpted to spec" — i.e. flexibility integrators value; a **vertical-integration + quality**
-  narrative (design, fabricate, assemble every piece; QC at every stage; even custom on-site
-  packaging for immaculate delivery); British + N-American presence.
-- *Internal positioning note (not public copy): rated derivative and overpriced — DT's answer is
-  genuine control sophistication (the Commander) plus value, not matching their catalogue breadth.*
+*"Exceptional automated solutions… mechanisms that conceal and reveal displays." "Hand crafted in
+house."* An internationally established British + North-American engineering company. **Take them
+seriously: their dedicated cinema line overlaps DT almost product-for-product** (researched in depth,
+2026-07-24, from `/HomeCinema` and the product detail pages).
+
+**The dedicated cinema line — "engineered solutions for dedicated private cinema installations":**
+
+- **Concealed / vertical projector mounts (PCV / PCC family):** PCC, **PCV-F** (front-access), PCV-R
+  (rear-access), PCLM, NRC-ST, plus premium Norse-named variants (PCV-**HEIM**/Heimdall,
+  PCV-F/R-**FREYA**). The PCV mounts a projector *vertically* where horizontal won't fit; a precision
+  **mirror mechanism projects through dual-pane port glass**, 35–55° tilt, fore/aft alignment,
+  **vibration-isolating mounts**, and front/rear **service access** (push-to-release panel; removable
+  port-glass assembly for lens install). → head-to-head with DT's motorised mirror drop (MMD),
+  vertical mirror mounts and concealment.
+- **Projector port-hole glass — PG-F (fabric-wall finish) and PG-P (plaster finish):** projector sits
+  behind **two layers of anti-reflective optical glass** to isolate hush-box/room noise "without
+  affecting image quality"; an **integrated desiccant vent** stops fogging/misting; the glass is
+  **removable for cleaning**; an **easy-fit magnetic metal cover** (black standard, custom colours)
+  finishes to match the wall. Standard "PG2" size or custom. → head-to-head with **DT Port Holes** —
+  and note the details DT should match/beat: the anti-fog desiccant vent, finish-matched variants
+  (fabric-wall vs plaster), and magnetic removable maintenance cover.
+- **Acoustically-transparent fixed-frame screens (LUMA):** **LUMA-SCOPE** on the "Luma Clear AT"
+  woven surface — claims "industry-leading sound transmission," moiré/speckle-free, 0.7 gain at
+  4K/8K; Luma Scope Zero / Slim frames; speakers placed anywhere behind. → FA has **moved into AT
+  screens** (DT screens, and Screen-Excellence / CATS territory).
+- **Automated masking — LUMA-SHIFT:** a **2-way** masking system (horizontal *or* vertical) for Luma
+  Scope Slim; "quiet and precise motors reframe the projection area." → vs the **DT Dynamic Screen —
+  but only 2-way, where DT Dynamic coordinates up to 5 edges** (L/R/T/B/Art). A real DT edge.
+- **Ceiling mounts:** PM-UNI, PM-SONY (projector-specific), PM-HEIMDALL, PM-XL-NJORD (large projectors).
+- **Projector service mechanisms:** PST (manual slide-out tray with cable routing), PSTE (electric), PWL.
+
+**What they do well:** a **complete, coherent dedicated-cinema range**; **integrated** products (the
+PCV bundles vertical mount + mirror + port glass + vibration isolation + serviceability in one); genuinely
+thoughtful **mechanical detailing** (anti-fog desiccant, magnetic maintenance covers, wall-finish
+variants, front/rear service access, removable glass for lens work); serviceability designed in; a
+recent **expansion into AT screens + masking**; the "hand crafted in house" vertical-integration
+quality story; premium Norse-themed naming; marine crossover.
+
+**Where DT is stronger (the counter):** FA sells hand-made *mechanisms*; DT sells mechanisms **plus
+the control** — the Commander's network integration, closed-loop precision, diagnostics, safety and
+security are a class above FA's control layer, and DT Dynamic masking (up to 5 coordinated edges)
+outclasses LUMA-SHIFT's 2-way. Respect and learn from FA's **mechanical and finish craft**; compete
+on **control sophistication + value**.
+
+*Internal positioning note (not public copy): rated derivative and overpriced — the counter is real
+sophistication and value, not catalogue-matching.*
 
 ## Whole cinema build (vs the group — Fabric Walls, CATS, DT, Light Walls)
 

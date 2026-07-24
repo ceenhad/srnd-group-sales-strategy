@@ -40,7 +40,7 @@ Systems), **to validate per competitor before use in copy.**
 | Dimension | DT Commander V5 | Typical competitor control (verify) | Why it matters to the pro |
 |---|---|---|---|
 | Architecture | Distributed system — network Bridge + Controller + per-unit Peripherals; closed-loop control local to each motor | Single relay/driver box; open-loop | Precision + reliability without network latency |
-| Masking axes | Up to **5 independently-positioned** mask edges (L/R/T/B/Art) coordinated for aspect ratio | 2–4-way masking, often fixed endpoints | True aspect matching, no grey bars, no manual fiddling |
+| Masking axes | Up to **5 independently-positioned** mask edges (L/R/T/B/Art) coordinated for aspect ratio | 2-way (verified: Future Automation LUMA-SHIFT) up to ~4-way (Screen Research) | True aspect matching, no grey bars, no manual fiddling |
 | Motion control | Closed-loop position/speed/current; soft-start/decel; quiet by design | Open-loop, limit-switch | Quiet, exact, ends where it should |
 | Network / AV integration | Ethernet+PoE, browser WebUI (no desktop app), mDNS/SDDP discovery, OpenAPI, TCP line protocol, WebSocket; native Crestron/Control4/Savant | RS232 / contact-closure; maybe a basic IP relay | Drops onto the AV network and integrates with far less effort |
 | Presets & sequencing | Factory-curated presets bundling parameters **and** safety limits; one-tap aspect recall; coordinated multi-device sequences (JSON→bytecode) | A few stored positions | Complex choreography without bespoke programming |
