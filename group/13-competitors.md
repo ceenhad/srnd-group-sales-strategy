@@ -81,8 +81,18 @@ security are a class above FA's control layer, and DT Dynamic masking (up to 5 c
 outclasses LUMA-SHIFT's 2-way. Respect and learn from FA's **mechanical and finish craft**; compete
 on **control sophistication + value**.
 
-*Internal positioning note (not public copy): rated derivative and overpriced — the counter is real
-sophistication and value, not catalogue-matching.*
+*Internal account (Neil's — context, not adjudicated fact, and not for public or legal use as
+written): FA is understood to have obtained DT's CAD and closely copied much of DT's product range.
+That is consistent with the near product-for-product overlap above and is the source of the strong
+internal antipathy. Keep it internal; any external or legal use needs its own verification.*
+
+**The copyability lesson (the real takeaway).** If the mechanisms can be copied — and, per Neil,
+were — then DT's defensible edge is precisely the part that *can't* be downloaded: the **Commander
+control platform**, its firmware/integration/diagnostics/safety, and the accumulating field
+know-how. Compete where copying can't reach. (This echoes the dt-platform dealer-cloud note:
+*"hardware is copyable; a corpus of field-verified control maps is not."*) It also raises a real
+question — **how much design data (CAD/drawings) DT exposes for download**, and whether that needs
+gating. See open items.
 
 ## Whole cinema build (vs the group — Fabric Walls, CATS, DT, Light Walls)
 
@@ -118,3 +128,6 @@ SRND's whole-room proposition — study this one hardest.**
 - Feed the DT-specific capability comparison in `../brands/display-technologies/competition-matrix.md`.
 - Decide which learnings SRND adopts (configurators, installer network, authority content,
   single-differentiator discipline) — a strategy call, per brand and group.
+- **Copyability / design-data exposure** — given a competitor is understood to have copied DT's
+  range from its CAD, decide how much design data (CAD, drawings, DT Create outputs) is exposed for
+  download and whether it needs gating; and lean the DT story onto the un-copyable control platform.
