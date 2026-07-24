@@ -22,6 +22,10 @@ Consequences that run through the rest of the strategy:
   order size.
 - **Direct is asset-building, not cost-saving.** The dealer relationship is the group's compounding
   asset. A distributor *owns that relationship instead of us* — see `02-commercial-model.md`.
+- **An asset taken for granted leaks.** We compound dealers by making them better — but today we do
+  **nothing to show we value them** (they pay, we take). Appreciation is the missing half of
+  protecting the asset: a valued dealer stays; a merely-served one is poachable. A current gap to
+  build — see `14-moat.md` and `open-items.md`.
 
 **On the buyer profile:** for the established residential channel we know the details of many firms
 already, and the rest are findable per market — a list of real firms, not a persona exercise.

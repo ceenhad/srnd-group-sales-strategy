@@ -11,6 +11,12 @@ Group-level decisions and build order. Brand-specific open items live in each
   technical depth + understanding of the dealer's job → "we understand you, we make things to help,
   those things make you better than anyone." Draft against that spine; don't hard-code a tagline
   until settled.
+- **Show dealers we value them (currently a total gap).** SRND is "100% terrible" at appreciation —
+  today the relationship is one-way (they pay, we take, we show nothing back). This undercuts the
+  moat and the dealer-as-asset thesis. Build real mechanisms that show dealers they're valued —
+  recognition, reciprocity, loyalty, partner-not-wallet — most naturally at buyer-journey stage 6.
+  Per coherence-not-invention: don't *claim* appreciation until it's real; build it, then say it.
+  See `group/14-moat.md`.
 - **SRND Solutions go-to-market** — the forthcoming own-made sensors/interfaces line
   (`group/09-brand-portfolio.md`) deliberately doesn't fit inside a brand, yet the model makes
   brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a

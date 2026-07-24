@@ -40,6 +40,26 @@ which is exactly where the dealer's risk and stress live. SRND understands that 
 remove the risk. So the moat isn't abstract; it's *felt*, on every install, as **"these people get
 what I'm trying to do, and their kit makes me look good."** That's a relationship, not a transaction.
 
+## The honest gap: we don't show we value them
+
+One half of the relationship is missing. Understanding the dealer is *"we get your problem."*
+**Appreciation** is *"we value **you** — the business, the person — not just your orders."* SRND does
+the first and is **100% terrible at the second**: today the relationship is one-way — the dealer
+pays, we take the money, and we do **nothing** to show we value them.
+
+This is a real weakness, and it undercuts the moat and the dealer-as-asset thesis
+(`01-dealer-as-asset.md`): **you don't compound an asset you take for granted.** A dealer we've made
+better but never thanked is still poachable on relationship; understanding without appreciation is
+still transactional.
+
+So appreciation is a **beat the relationship needs and we don't yet deliver** — and, per
+*coherence, not invention*, **not a claim to make** (we'd be lying), but a **gap to close**: real
+mechanisms that show dealers they're valued (recognition, reciprocity, loyalty, being treated as a
+partner not a wallet), most naturally at the repeat-order / ongoing-relationship stage
+(`03-buyer-journey.md` stage 6). See `open-items.md`. **Until it's built, don't say it.** Once it is,
+the spine gains its missing beat:
+*we understand you, **we value you**, we make things to help, and those things make you better.*
+
 ## The two legs — neither alone is the moat
 
 - **Technical depth** — real, measured mastery of the physics: acoustics (the 3 Rs, BSRIA data),
