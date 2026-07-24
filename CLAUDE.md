@@ -77,7 +77,7 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
   genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
   niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
   customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
-  See `group/14-moat.md` ("The arrogance trap").
+  See `group/14-moat.md`.
 
 ## Hard don'ts
 

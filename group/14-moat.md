@@ -1,183 +1,135 @@
 # The moat
 
-What SRND's competitive advantage actually is — and the spine every message and product flows from.
+*What SRND's advantage actually is, why it holds, and the discipline required to make it pay.*
 
-## The moat, in one sentence
+## The claim, and the evidence for it
 
-SRND's moat is **unmatched technical depth — already the engine of the business — pointed squarely
-at the dealer's project and needs**, and the products that come out of that pairing. Our depth is
-genuinely unmatched (work arrives as *"I have an impossible project — can you do it?"* because no one
-else can); *dealer-understanding* is the more contestable leg. What competitors cannot copy is the
-depth itself and — held **across the whole room, in one group and one relationship** — its pairing
-with real dealer-understanding.
+SRND's advantage is technical depth the competition does not have. This is not an aspiration or a
+marketing line; it is the observable shape of the business today. A disproportionate share of the
+work that comes in is work others have already declined — the room that supposedly can't be treated
+in the depth available, the projector with nowhere to go, the masking or motion problem with no
+off-the-shelf answer. Those projects arrive at SRND because SRND is where they get solved. A supplier
+whose inbound is other people's impossible problems has, by definition, depth the market cannot
+match.
 
-**Crucially, the moat is not a boast about superiority.** Unmatched depth asserted on its own is just
-arrogance (see "The arrogance trap" below). The moat is that depth **spent on making the dealer
-better** — the dealer is the hero, our depth is how we make *them* unbeatable. That discipline is
-what lets SRND own world-class depth without alienating the very people it's for.
+But depth is an *asset*, not yet a *moat* — and handled carelessly it becomes a liability. The rest
+of this document is that distinction.
 
-## Said the way the dealer hears it
+## Depth is not the strategy — depth directed at the dealer is
 
-In the dealer's own words it comes down to: **"You can trust we know what we're doing — and we've
-got your back."** That's the moat *felt*, not boasted — **trust** (our unmatched depth, without the
-swagger) plus **backing** (we understand your job and we're on your side). It's the direct answer to
-the arrogance trap, and it unfolds into three beats — the through-line for group, brand and product
-alike:
+There are two reasons the advantage cannot simply be "we are the most capable."
 
-1. **We understand you.** Your technical problem *and* your real job — the room, the install, the
-   client, the risk, the deadline.
-2. **We make things to help.** Products engineered out of that understanding — not generic kit, but
-   the thing that solves the real problem *and* makes your install easier, safer and more certain.
-3. **Those things let you be better than anyone else.** You deliver a result — and an experience —
-   competitors can't match. You win the work, you look expert, you don't get called back.
+**Reception.** Expertise announced and expertise applied are received in opposite ways. A supplier
+that leads with its own brilliance earns respect and resentment in equal measure. This matters more
+here than in most markets, because the market is small: a finite community of integrators who talk
+to each other, in which reputation is the medium and "brilliant, but hard to deal with" travels
+further and lasts longer than any campaign. Leading with superiority doesn't merely fail to
+persuade — it confirms the least helpful thing people are inclined to assume about a deeply technical
+company.
 
-**Everything we say and make must be an instance of this.** If a product or a message isn't
-"we understand you → we made this to help → it makes you better," it is off-thesis.
+**Value.** Depth the dealer cannot use is depth that does not sell. The dealer is not buying our
+cleverness; they are buying what it produces for them — the job won, the room that performs, the
+client kept happy, the call-back that never comes. Capability becomes worth paying for only at the
+point it changes the dealer's outcome.
 
-## The arrogance trap — face it head-on
+Both resolve to one instruction: the depth must be *pointed at the dealer*. Mastery placed in
+service reads as generosity and sells as value; mastery on display reads as arrogance and sells
+nothing. The same capability produces opposite results, decided entirely by where it is aimed.
 
-The real danger, named so we confront it rather than skirt it. Our technical depth is genuinely
-**unmatched** — but *unmatched depth, asserted on its own, reads as arrogance.* "We're the best, no
-one else can do this" is true and insufferable at the same time. And this is a **niche world where
-reputation travels**: a "brilliant but arrogant" read is exactly the kind of thing people already
-"know to be true," fairly or not. Making raw superiority the moat of the strategy would confirm it.
+## What the dealer needs to believe
 
-**The answer is not to hide the depth — it's to point it at the dealer.** The hero is the dealer,
-not us. Our depth is how we make *them* unbeatable, never how we win an argument about who's
-cleverest. Depth **spent on the customer** reads as generosity; depth **asserted** reads as
-arrogance — same depth, opposite reception.
+The dealer's working reality is risk under time pressure, in front of a client who is spending
+heavily and expects the result to be right. Most of their suppliers hand over a box and, with it,
+the risk. What the dealer needs from a supplier is not a specification — it is two convictions:
+**that we know what we are doing, and that we are on their side when it matters.** Competence they
+can rely on, and backing they can count on.
 
-So the "extra" legs — understanding the dealer, and valuing them (the honest gap above) — are **not
-there because the depth is weak.** The depth is our strongest thing. They're there because they are
-**the only way to wield unmatched depth and be liked for it.** This is non-negotiable in the voice
-(`CLAUDE.md`): never lead with our brilliance; lead with the dealer's win.
+Everything SRND makes and says is, in the end, evidence for those two beliefs. That is why the
+through-line for group, brand and product is a single arc:
 
-## Why it's a moat (defensible)
+1. **We understand you** — the technical problem *and* the real job around it: the room, the install,
+   the client, the deadline, the exposure.
+2. **We build to help** — engineered from that understanding, so the product solves the real problem
+   and de-risks the delivering of it.
+3. **You come out ahead** — you win the work, deliver what others can't, and don't get called back.
+   Our depth becomes your advantage.
 
-- **Hardware is copyable; understanding is not.** A competitor copied DT's mounts from its CAD;
-  another buys a third party's control board (`13-competitors.md`). They can clone the object — they
-  cannot clone the **technical depth** that designed it, nor the **dealer-understanding** that shaped
-  *what* to build and *how*. The moat lives in the part that doesn't ship in the box.
-- **It compounds.** Every project deepens both legs — more measured technical data, more understanding
-  of what dealers actually hit on site. A competitor starts from zero each time.
-- **It's why the dealer is the asset** (`01-dealer-as-asset.md`): we win dealers by making them
-  better, and a dealer we've made better doesn't leave.
+Any product or message that leads with our achievement rather than the dealer's is off-thesis.
 
-## Why the dealer deeply appreciates it
+## The two components, and why the pairing is rare
 
-Most vendors sell a box and leave the dealer to figure out the spec, the install and the client —
-which is exactly where the dealer's risk and stress live. SRND understands that job and builds to
-remove the risk. So the moat isn't abstract; it's *felt*, on every install, as **"these people get
-what I'm trying to do, and their kit makes me look good."** That's a relationship, not a transaction.
+The advantage has two parts, and each is inert without the other. **Technical depth** is the
+capability — genuine, measured mastery of the physics across acoustics, projection and motion,
+colour, and audio. **Understanding of the dealer** is the direction — knowing the trade and the
+install well enough to build for how work is actually won and delivered, not how it photographs in a
+datasheet. Depth without direction is a laboratory making things no one can sell; direction without
+depth is a reseller with good manners.
 
-## The honest gap: we don't show we value them
+The combination — real depth, aimed by real understanding, across the whole room, carried in one
+relationship — is what no competitor in the field has assembled. The specialists have depth in a
+single domain and no reach across the room; the generalists have reach but buy their capability in.
+Holding both, and spending them on the dealer, is the position that is ours alone.
 
-One half of the relationship is missing. Understanding the dealer is *"we get your problem."*
-**Appreciation** is *"we value **you** — the business, the person — not just your orders."* SRND does
-the first and is **100% terrible at the second**: today the relationship is one-way — the dealer
-pays, we take the money, and we do **nothing** to show we value them.
+## Why it holds
 
-This is a real weakness, and it undercuts the moat and the dealer-as-asset thesis
-(`01-dealer-as-asset.md`): **you don't compound an asset you take for granted.** A dealer we've made
-better but never thanked is still poachable on relationship; understanding without appreciation is
-still transactional.
+Objects are copyable, and are being copied — a competitor reproduced an entire product line from
+downloaded CAD (`13-competitors.md`). What cannot be copied is the judgment behind the object: the
+accumulated understanding of both the physics and the trade that decides what to build and how to
+make it survive contact with a real site. That judgment is not in the file; it lives in the people
+and in the record of every project that taught it. And it compounds — each job adds to both the
+measured knowledge and the read on what dealers actually need — so a competitor working from the
+artifact begins at zero on the only part that matters.
 
-So appreciation is a **beat the relationship needs and we don't yet deliver** — and, per
-*coherence, not invention*, **not a claim to make** (we'd be lying), but a **gap to close**: real
-mechanisms that show dealers they're valued (recognition, reciprocity, loyalty, being treated as a
-partner not a wallet), most naturally at the repeat-order / ongoing-relationship stage
-(`03-buyer-journey.md` stage 6). See `open-items.md`. **Until it's built, don't say it.** Once it is,
-the spine gains its missing beat:
-*we understand you, **we value you**, we make things to help, and those things make you better.*
+## The deficit we have to close
 
-## The two legs — neither alone is the moat
+There is a gap between what SRND earns and what it returns. The company earns a dealer's trust
+through competence, but does little to signal that the relationship itself is valued — no
+recognition, no reciprocity, nothing that tells a loyal dealer they are more than a source of orders.
+A relationship sustained only through transactions is not a relationship, and an untended asset
+erodes without anyone deciding to lose it: a dealer who is served but never valued is a dealer a
+warmer competitor can take. This is the one half of the promise SRND does not yet keep — and it is a
+gap to close before it is a thing to say. The backing has to become real to be claimed
+(`01-dealer-as-asset.md`, `open-items.md`).
 
-- **Technical depth** — real, measured mastery of the physics: acoustics (the 3 Rs, BSRIA data),
-  projection/masking and motion control, colour science, audio voicing. (This is the
-  measurement/control/data layer the brands keep proving — but it's the *depth behind it*, not the
-  data file, that's the moat.)
-- **Understanding the dealer** — knowing the install, the trade, and what makes an integrator win:
-  design-for-install, works-first-time, no truck rolls, measured sign-off that protects them, saving
-  the client's floor space, no specialist skills required.
+## The proof, brand by brand
 
-A lab with no dealer-empathy makes unsellable brilliance; dealer-empathy with no technical depth is
-just good service on commodity kit. **The pairing is the moat.**
+Each brand is the same arc in one domain — depth, aimed at the dealer, producing the dealer's win.
+That consistency is what makes it a group story and not five unrelated ones.
 
-## The proof, per brand
-
-Every row is the same three beats — that consistency *is* the group story.
-
-| Brand | Technical depth | Understanding the dealer | So the dealer is better |
+| Brand | The depth | Aimed at the dealer | The dealer's win |
 |---|---|---|---|
-| **DT** | control platform, closed-loop motion, 5-edge coordinated masking | design-for-install: on the network in minutes, browser WebUI, presets carrying safety limits, self-test, remote support (no truck roll) | delivers sophisticated masking/motion easily and safely; no callbacks; looks expert |
-| **Light Walls** | measured per-unit colour, sensorless closed loop | standards-native (drops into their AV/BMS world), a design tool, calibrated-for-life | specs colour-critical lighting that's provably right — and stays right |
-| **Pro-Fi** | measured, verified voicing; analysis from minimum measurement | design-for-install (Easy/Visible/Tolerant/Recoverable), tablet commissioning, plain-language feedback → data, remote service | delivers the voicing the client actually wanted, provably, and keeps serving it |
-| **C-ATS** | the 3 Rs, BSRIA-measured absorption, per-axis balance | repeatable design + simple layout guides (no acoustician needed), shallow depth saves the room, hidden behind fabric, verification protects the installer | specs acoustics confidently; the room measurably works; saves floor area |
-| **Fabric Walls** | productised aluminium system, tight tolerances, CNC panels | any competent team can install it (no specialist upholsterers), predictable timings, serviceable, panel maps + drawings | delivers a premium fabric interior without specialist skill or risk |
+| **DT** | control platform, closed-loop motion, coordinated multi-edge masking | on the network in minutes, browser control, presets that carry the safety limits, self-test, remote support without a truck roll | delivers sophisticated masking and motion easily and safely; no call-backs; looks expert |
+| **Light Walls** | measured per-unit colour, sensorless closed loop | standards-native so it drops into their world, a real design tool, calibrated for life | specs colour-critical lighting that is provably right — and stays right |
+| **Pro-Fi** | measured, verified voicing; full analysis from a minimum of measurement | commissioned from a tablet on site, plain-language feedback turned into changes, service that continues after handover | delivers the voicing the client actually wanted, provably, and keeps it right |
+| **C-ATS** | the 3 Rs, BSRIA-measured absorption, per-axis balance | repeatable design without an acoustician, shallow depth that saves the room, hidden behind fabric, measured sign-off that protects the installer | specs acoustics with confidence; the room measurably performs; the floor area is kept |
+| **Fabric Walls** | a productised aluminium system, tight tolerances, CNC-cut panels | installable by any competent team, predictable timings, serviceable, supplied with the maps and drawings | delivers a premium fabric interior without specialist skill or risk |
 
-## How it flows group → brand → product
+## Where it's strong, and where it's exposed
 
-- **Group:** *"We understand the whole room and the professional who builds it, and everything we
-  make is technical depth aimed at your real job."* This is the group's true positioning — the
-  strongest candidate yet to settle the identity line (`open-items.md`).
-- **Brand:** each brand is that promise in one domain — deep mastery + dealer-understanding for
-  acoustics / projection / colour / audio / fabric.
-- **Product:** each product is a "thing we made to help," provably making the dealer better.
+Tested against the competitor evidence, the advantage holds — but the strong and weak points are not
+where the first framing assumed.
 
-## What this changes elsewhere
+- **The depth is not in question, and it is not the risk.** An earlier draft claimed per-domain
+  specialists match or beat it; that was wrong, and wrong for an instructive reason — it read
+  competitors' marketing as evidence of capability. The live business is the better evidence, and it
+  says the depth is unmatched.
+- **The understanding is the leg to earn.** Serious competitors are dealer-literate too — one is
+  built entirely around its installer network. Dealer-understanding is where the advantage is
+  contestable, and therefore where the effort belongs.
+- **The advantage is latent.** It is largely untold, thinly proven to dealers outside a few flagship
+  projects, and — as above — unaccompanied by any sign the relationship is valued. A moat no one can
+  see defends nothing. It is also, for now, concentrated in a few people rather than held as a
+  system.
+- **It is a closing and holding advantage more than an opening one.** It is felt once a dealer
+  engages; cold, "we understand you and make you better" is what everyone claims. This fits the
+  buyer journey's discipline of leading simply and earning the deeper story (`03-buyer-journey.md`).
 
-- **The identity line** (open item) should derive from here — not "luxury solutions" or "British
-  manufacturing" alone, but something carrying *understanding + technical depth + making the dealer
-  better*. (Illustrative only, not settled: *"We understand the room and the people who build it —
-  and we make what lets you build it better than anyone."*)
-- **Content is the rep** (`02-commercial-model.md`): every piece must prove understanding first, then
-  the help, then the dealer's win — never spec-dumping.
-- **The competitor read** in `13-competitors.md` folds into this: the measurement/control/data layer
-  is the *evidence* of technical depth (and the un-copyable half); dealer-understanding is the other
-  half. Together they are the moat.
+## The strategic consequence
 
-## Stress test — where it holds, and where it's weak
-
-Pressure-tested adversarially against the competitor evidence (2026-07-24). It holds — but not
-where the headline framing first implied, and it has real soft spots to fix.
-
-**One leg is genuinely ours; the other must be earned:**
-- **Technical depth is unmatched — and is what the business runs on today.** *Correction to the
-  first draft of this test:* the claim that per-domain specialists (Ketra, Screen Excellence,
-  Stewart) match or beat our depth was **wrong** — it trusted competitors' marketing pages over the
-  real capability (exactly the trap we keep flagging: a site shows what they *say*, not what they can
-  *do*). The live proof is the business itself — impossible projects come to SRND *because no one
-  else can do them.* Depth is the raw, proven asset, not the soft leg.
-- **Dealer-understanding is the more contestable leg.** Serious competitors have some (Cinema Build
-  Systems is built dealer-first; Future Automation sells bespoke flexibility). This is the leg to
-  earn and evidence, not assume.
-
-**So the moat is not "we're the deepest" (true, but arrogant — see the arrogance trap).** It's that
-unmatched depth **pointed at the dealer**, and — held **across the whole room, in one group and one
-relationship** — paired with real dealer-understanding. No competitor occupies that: Ketra is deep
-in colour but does no acoustics; Screen Excellence deep in AT screens, not lighting/audio; CBS does
-whole-room but on commodity foam + a bought-in control board (shallow depth). **Depth × breadth ×
-one relationship, spent on the dealer** is the empty square.
-
-**The soft spots (honest):**
-1. **Latent, not active.** The depth isn't told (the whole reason for this exercise). A moat nobody
-   sees defends nothing commercially — today it protects little. Activating it (tell + prove) is the work.
-2. **Proof is thin.** For the strong-capability / thin-market brands (Light Walls, Pro-Fi) the
-   "makes you better" payoff is asserted from internal capability, not demonstrated with dealers at
-   scale — few case studies, low reach. Credible on capability, unproven in market.
-3. **Retention moat, not acquisition.** Felt once a dealer *engages* (design-for-install, measured
-   sign-off, no callbacks); cold, "we understand you and make you better" is what everyone claims.
-   Strong closer, weak hook — consistent with the buyer journey's "lead simple, earn the complex."
-4. **The appreciation leg is at zero** (see the honest-gap section). A warmer competitor with less
-   depth (CBS's installer-partner model) could out-*relationship* us and take the dealer anyway.
-5. **Key-person concentration.** Much of both legs lives in a few heads/repos today. Durable group
-   moats live in systems, not people — converting the understanding into institutional form is a risk
-   to manage.
-
-**Verdict.** The moat is real and genuinely defensible. The **depth itself is not a soft spot — it's
-the strongest asset, and unmatched.** The soft spots are all in how we *wield and express* it: it's
-**latent** (untold), **under-proven** (thin case studies), **relationship-neglected** (appreciation
-at zero), **person-concentrated** (lives in a few heads), and — the big one — must be expressed
-**dealer-first to avoid reading as arrogance.** The strategy's job is to *activate* it: **tell** it
-(the coherence work), **prove** it (case studies, verification), **tend** it (appreciation),
-**institutionalise** it — and, throughout, **point it at the dealer, never boast it.**
+The advantage is real and defensible, and it is presently dormant. Making it work is not a matter of
+proving we are clever — it is a matter of making the depth *visible, proven, and reciprocated*, and
+always expressed as the dealer's advantage rather than our own. That is the job of the activate plan
+(`15-activate.md`), and it is where the group's true positioning comes from — competence and backing,
+in service of the dealer — which should in turn settle the identity line (`open-items.md`) and set
+the standard for content, where every piece leads with the dealer's win, never ours
+(`02-commercial-model.md`).

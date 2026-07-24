@@ -8,7 +8,7 @@ nothing. This is the plan to *activate* it.
 
 **"You can trust we know what we're doing — and we've got your back."** Everything below serves
 making that promise true (it largely already is) and *visible* (it isn't). Always dealer-first,
-never a boast about our brilliance (`14-moat.md`, the arrogance trap).
+never a boast about our brilliance — mastery spent on the dealer, not on display (`14-moat.md`).
 
 ## Four workstreams
 
@@ -36,7 +36,8 @@ The "makes you better" payoff is asserted from capability, not yet demonstrated 
 - **Named endorsements** from real dealers/pros (the Screen Excellence lesson, `group/13-competitors.md`).
 
 ### 3. Tend — build the appreciation that's currently at zero
-The "we've got your back" half, made tangible — the honest gap (`14-moat.md`, `01-dealer-as-asset.md`).
+The backing half of the promise, made tangible — the deficit named in `14-moat.md` and
+`01-dealer-as-asset.md`.
 - Real mechanisms that show dealers they're valued: recognition, reciprocity, loyalty,
   partner-not-wallet — most naturally at the repeat-order / ongoing-relationship stage
   (`03-buyer-journey.md` stage 6).
