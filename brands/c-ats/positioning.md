@@ -1,82 +1,241 @@
 # C-ATS — brand strategy
 
-*The moat in the acoustics domain: unmatched acoustic depth spent on making the integrator's job
-winnable. This is the clear strategy — phase 1. Content development and deployment follow it, and the
-existing staged site is a placeholder to re-base against this, not to ship as-is.*
+*Phase-1 clear strategy for C-ATS: the settled positioning that content development and deployment
+build against. This document is **internal** — nothing here is website copy as it stands. Each
+section has a **positioning core**, written so it could become public copy, and the **internal
+reasoning** under it. Where a point must never appear externally, it is flagged.*
 
-## What C-ATS is
+---
 
-C-ATS is the acoustic-treatment brand for small, high-performance cinema rooms — dedicated home
-cinemas, media rooms, and boutique and DCI screening rooms. Its engineering discipline is the three
-Rs — reflection, resonance and reverberation — each solved with one purpose-built panel, in roughly
-50 mm of depth, behind more than a decade of design and measurement. But the panels are not the
-strategy; what the depth does for the dealer is.
+## 1. What C-ATS is
 
-## Who it's for, and what their problem really is
+**Positioning core**
 
-The buyer is the high-end AV integrator — the dealer. (End clients occasionally buy by enquiry; no
-price is published to anyone, per group policy. The finer buyer-truth — who specifies, who buys, who
-installs, and why — is not yet drawn from real jobs, and is left open rather than invented.)
+> C-ATS is a straightforward, high-performance acoustic treatment system, built for the AV
+> integrator. Most acoustic systems try to impress the buyer with science. C-ATS states the problem
+> plainly: three things decide how a room sounds — reflection, resonance and reverberation. It gives
+> one purpose-built panel for each. The panels are deliberately shallow, because in most rooms the
+> space treatment consumes costs far more than the treatment itself. A design service specifies
+> them; verification proves they worked. And they install out of sight behind the fabric wall, so
+> performance never costs the room its looks.
 
-The integrator's difficulty with acoustics is specific, and it is not "which panel." Acoustics is
-the part of a cinema they usually cannot fully judge for themselves, cannot easily prove, and can get
-quietly — then embarrassingly — wrong, in front of a client who has spent heavily and expects the
-room to sound extraordinary. Most integrators are not acousticians. And in a small room the treatment
-competes for the very floor and wall area the client is paying for. So the dealer's real needs are
-three: **confidence, proof, and performance that doesn't steal the room.**
+**The reasoning under it**
 
-## The promise — the moat, in acoustics
+- **Origin.** C-ATS was created because the competing products were all difficult in some way —
+  awkward to handle, awkward to cut on site, supplied in unsuitable volumes — and either lacked a
+  clear acoustic rationale or claimed physics they couldn't deliver ("diffusion" that was really
+  scattering), and were too deep for rooms that can't give up the space. The objective was the
+  opposite: honest, and easy to understand, specify and sell.
+- **The 3 Rs is a marketing device — a deliberate, honest one.** Almost every competitor sells
+  acoustics by burying the buyer in jargon. C-ATS does the reverse: three problems stated, three
+  solutions given. That simplicity is the competitive weapon, and because it is also the real
+  engineering brief, it's truthful rather than a veneer. The range stays narrow by design.
+- **Sells expertise in three forms:** the panels, the design service that specifies them, and the
+  verification that proves them. Isolation and isolation verification sit under C-ATS because it is
+  the group's acoustics brand, not because the 3 Rs framework was stretched to cover them.
+- **The design method is chargeable expertise, not an add-on** — so no public calculators; the
+  documentation and worked examples let an integrator handle straightforward rooms directly.
+- **Shallow depth is a deliberate commercial decision, not a spec boast.** The cost that matters is
+  the floor and wall area the treatment occupies — in most rooms far greater than the price of the
+  panels. Depth removed is space returned to the client. Externally the claim is relative
+  ("shallower than any competing product"), never a bare millimetre figure (~50 mm internally); a
+  number means little to most buyers.
+- **It applies to any room with these problems, not a named space.** Small rooms have all three;
+  large rooms are reverberation-dominated. The commercial move is already defined: a market-led push
+  into boutique commercial cinema — larger rooms and jobs, larger-format panels (likely built on
+  Fabric Walls Acoustic Core PET), the same 3 Rs with specs adjusted for the bigger volumes —
+  drawing in Cinema Tools and able to pull in Pro-Fi. Same buyer logic, different commercial
+  dynamics. *Kept internal until it ships.*
+- **Concealment.** The panels are hidden behind the fabric wall. Fabric Walls is the group's own
+  product and the obvious pairing, so this is a natural cross-sell — though any stretch fabric works,
+  so C-ATS is never made dependent on it. (The internal shorthand — "performance behind beauty
+  someone else builds" — stays internal.)
+- **Price reflects channel economics, not product cost.** It carries the integrator's margin — above
+  direct-sell GIK, comparable to RPG, slightly below Artnovion — placing it in the
+  integrator-supplied premium band.
 
-C-ATS is unmatched acoustic depth put entirely at the integrator's disposal. As the dealer
-experiences it — the group's arc, in this domain:
+---
 
-- **We understand you.** You are an integrator, not an acoustician. Acoustics is the invisible,
-  hard-to-prove, easy-to-get-wrong part of the room — and every millimetre of depth is floor area
-  the client is paying for.
-- **We make things to help.** The three Rs reduced to one repeatable system; measured performance
-  you can stand behind rather than hope for; ~50 mm depth so the room keeps its space; panels made to
-  disappear behind stretch fabric; layout guidance simple enough that most rooms need no bespoke
-  design; and verification that proves the result and protects your sign-off.
-- **You come out ahead.** The room measurably performs; you specify it with confidence and speed; the
-  client keeps their floor space; and you are protected by measured proof rather than exposed by a
-  guess. You deliver a cinema that sounds right — and you are the one who looks expert.
+## 2. Who it's for, and what their problem really is
 
-The depth is never the boast. It appears only as the dealer's confidence and the dealer's win.
+**Positioning core**
 
-## Why it's credible, not merely claimed
+> The buyer is the AV integrator, and by definition not an acoustician — nor do they want to become
+> one. What they want is a partner: someone who helps them deliver the best result the budget allows,
+> and delivers it every time. That is what C-ATS is. A system that's simple to specify, a design
+> service that gets it right, and verification that proves it worked.
 
-The promise can be made honestly because the depth is evidenced:
-- **Measured absorption data** to BS EN ISO 354 (BSRIA) — real coefficients, not declared values.
-- **A method, not a product list** — the three Rs, per-axis (Fitzroy) balance, checkerboard
-  placement, comb-filtering control.
-- **Verification / measured sign-off** — the finished room proven to perform, handed to the dealer as
-  protection.
-- **The depth benefit** stated plainly (~50 mm), never as a performance figure the data won't support.
+**The reasoning under it**
 
-(One honesty carried from the engineering: the resonance-sizing method has a known low-frequency
-blind spot, so it is the *measured data*, not any tool's resonance output, that we stand on. See
-`measured-acoustics.md`.)
+- **The need is a dependable partner, not fear of failure.** The integrator isn't an acoustician and
+  doesn't want to be. Most clients can't judge acoustics anyway — told the room sounds good, they'll
+  believe it. So the driver isn't being caught out; it's wanting reliable, good-value results and the
+  proof they were delivered. This is about reliability and reputation.
+- **Optimised for the integrator, no one else** — not acousticians, studio designers, or end
+  clients. End clients occasionally buy by enquiry, but nothing is built for them, and no price is
+  public to anyone.
+- **Buyer-truth below this line is parked, deliberately.** Who specifies, who signs off, why they
+  really choose — that comes from real recent jobs in your words, not personas or file archaeology.
+- **Deployment credibility is real but under-documented.** There are genuine high-end installs — the
+  Cornflake IMAX private cinema in London is public and easy to find, though years old now. The issue
+  isn't confidentiality; it's a shortage of install photography. Not none, but not much. Building
+  install imagery and proper case studies is a content-phase job — and exactly where the render
+  library, used as virtual case studies, earns its place.
+- **The distribution problem sits here.** The integrators who would buy mostly can't find C-ATS.
+  Widely deployed, thinly distributed — the buyer exists; the route to them is what's missing.
 
-## The discipline — holding the depth without arrogance
+---
 
-- **Lead with the dealer's problem and win, never with our acoustic cleverness.** "You can specify
-  this with confidence and prove it works" — not "we understand acoustics better than you do." The
-  integrator is the hero (`../../group/14-moat.md`).
-- **The brand-truth guardrails bind hardest here:** scattering, never diffusion; products named by
-  the problem they solve, never the mechanism; no invented figures, no supplier names, no NDA install
-  detail; don't tease the in-development commercial range; and use the form **C-ATS** — the "Complete"
-  expansion is unresolved, so don't hard-code it. Full brand truth: `ceenhad/c-ats-shopify:CLAUDE.md`.
+## 3. The promise
 
-## How it ladders to the group
+**Positioning core**
 
-C-ATS is the group moat expressed in acoustics, and in the whole room it is the performance *behind
-the fabric* — the acoustics a Fabric Walls interior conceals, working alongside the screen, lighting
-and audio. A dealer won on acoustics is a dealer for the rest of the room, so the cross-sell is the
-group's; and C-ATS is often the most credible way in, because acoustics is where the integrator most
-needs someone who has their back.
+> C-ATS gives the integrator a choice: specify the system straight from the documentation, or have
+> C-ATS design the treatment around the specific project. Either way, the result can be measured and
+> proven — every time — with the method behind that proof set out plainly, in both the design service
+> and the technical documents. What the integrator delivers is a room that sounds as good as the
+> budget will allow, with the same certainty on every job.
 
-## What's still open (settle before it hardens into copy)
+**The reasoning under it**
 
-The finer buyer-truth, from real jobs; the canonical name (C-ATS, pending the Complete/Cinema
-resolution); the gated pricing tiers; and which adjacent channels — pro install, commercial cinema,
-fit-out — to pursue and when (`growth-levers.md`).
+- **Never imply the dealer can't.** The system is theirs to run. The design service is an option, and
+  the choice is theirs alone — never framed as a rescue, and a project is never described as too
+  small or not worth designing. This is the anti-arrogance discipline made concrete.
+- **Two routes, one standard.** Do it yourself from the documentation and worked examples, or take
+  the design service. Both reach a verifiable result; the integrator chooses based on the project,
+  not on their ability.
+- **"Verifiable every time" is defensible, and we must show the how.** Verification is the mechanism;
+  the design service and technical docs are where the method is made explicit. The content job isn't
+  to prove an unbacked promise — it's to make the "how" visible.
+- **Honesty guardrails hold.** Measured data, scattering never diffusion, no invented figures.
+  Overclaiming is what C-ATS was created to avoid.
+
+---
+
+## 4. Why it's credible
+
+**Positioning core**
+
+> C-ATS is built on evidence. Its panels are independently tested, its method proven over more than a
+> decade of cinema work, and any room it treats can be measured to confirm it performs. The integrator
+> never has to take that performance on trust — and never has to ask a client to, either. Acoustics is
+> usually the one part of a room nobody can see or prove. C-ATS makes it the part you can.
+
+**The reasoning under it**
+
+- **Measured data is real, but it's the basics.** Genuine independent absorption figures (BS EN ISO
+  354, BSRIA) — more than many competitors lead with, but the essentials, not a comprehensive test
+  regime. Further characterisation exists and hasn't been done. Don't present it as exhaustive.
+  Expanding the testing is an option for later, not a claim to make now.
+- **A method, not a product list.** The 3 Rs, the layout methodology, and a design lineage going back
+  to 2014. The credibility is in the approach, not the SKU count.
+- **Verification is the strongest proof** — it proves the finished room, and it's a chargeable
+  service, not just a document.
+- **Honesty is a wording discipline, not a sales line.** C-ATS exists because competitors overclaimed
+  — "diffusion" that was really scattering. Holding that line matters with specifiers, but it is
+  never a public boast about our own restraint (that belittles the product and picks a fight). It
+  governs how we word things; it is not copy.
+- **Track record is real but under-documented** (Cornflake IMAX and others). Surfacing it is a
+  content-phase job.
+- **Don't overclaim internally either.** No performance figures the data won't support; the
+  resonance-sizing method has a known low-frequency limit, so stand on measured data, not on a tool's
+  output.
+
+---
+
+## 5. The discipline
+
+Internal throughout — the rules that keep the positioning honest and stop it turning arrogant. This
+governs anyone writing C-ATS copy.
+
+**Voice**
+
+- **Lead with the dealer's result, never our expertise.** The integrator's win is the subject of
+  every sentence; our cleverness is never the point.
+- **Never imply the dealer can't do something** — accurate or not. They have a *choice*: specify it
+  themselves, or take the design service. The service is an option, never a rescue, and a project is
+  never described as too small or not worth designing.
+
+**Simplicity is the weapon**
+
+- State the problem plainly — three problems, three solutions. Don't dazzle with science; that's what
+  competitors do, and beating it is the whole positioning.
+- **No public calculators** — they commoditise the design we're paid for. The documentation and
+  worked examples are the self-serve route.
+
+**Honesty**
+
+- **Scattering, never diffusion.** Products are named by the problem they solve (Reflection Control
+  Panel), never the mechanism (never "diffuser"). This is a wording rule, not a sales line — never a
+  public boast about our own restraint.
+- **Only claim what the data supports.** The measured data is the basics, not an exhaustive regime; no
+  invented performance figures; stand on measured data, not a tool's output.
+- **Depth is expressed relatively** ("shallower than any competing product"), not as a bare millimetre
+  figure.
+
+**Scope**
+
+- Don't fence the brand to a named space; state the problem, which travels to any room that has it.
+- Don't narrate isolation as the 3 Rs thesis expanding — it's here because C-ATS is the group's
+  acoustics brand.
+- Keep the commercial / big-room extension internal until it ships.
+
+**Naming, partners, rivals**
+
+- Use the form **C-ATS**; don't hard-code the "Complete" expansion (unresolved).
+- Never name material suppliers or manufacturing partners; never attack competitors in public copy.
+
+**Cross-brand**
+
+- Fabric Walls is the natural concealment pairing and a genuine cross-sell — but any stretch fabric
+  works, so C-ATS is never made dependent on it.
+
+---
+
+## 6. How C-ATS fits the group
+
+**Positioning core**
+
+> C-ATS doesn't treat a room in isolation. It's the acoustics within a room the group also builds —
+> the screen, the lighting, the fabric, the speakers — so the treatment is designed to work with
+> everything around it, supplied and supported through one relationship rather than five. For the
+> integrator, the least visible and hardest part of the room comes from the same people, held to the
+> same standard, as all the rest.
+
+**The reasoning under it**
+
+- **C-ATS is the group's acoustics brand** — which is also why isolation lives here. It's the group's
+  core strength — real technical depth plus understanding of the integrator's job — expressed in
+  acoustics.
+- **Acoustics is a strong way in.** It's the part of the room where the integrator most wants a
+  partner they can trust, and it's hard and under-served. A dealer won on acoustics is a dealer the
+  rest of the group's brands can then serve — screen, lighting, speakers, and the fabric that conceals
+  the treatment (the most direct link, Fabric Walls).
+- **The commercial / big-room extension is a group move, not a C-ATS-only one** — larger-format panels
+  likely built on Fabric Walls Acoustic Core PET, drawing in Cinema Tools and able to pull in Pro-Fi.
+  C-ATS growth and group growth are the same step there.
+- **The cross-sell only works if the group feels like one group** — a clean handoff between brands, or
+  the advantage leaks away. That's a group-level execution standard, not a C-ATS one.
+
+---
+
+## 7. What's still open
+
+Internal only — the unresolved items to settle before they harden into copy. Flag, don't guess.
+
+- **Distribution — the headline problem.** C-ATS is widely deployed but thinly distributed; the
+  install reputation runs ahead of the route to market. Building that route — getting to the
+  integrators who would buy — is the central strategic job, not an afterthought.
+- **Buyer-truth.** Who specifies, who signs off, why they really choose. Deliberately parked; it comes
+  from real recent jobs in your words, not personas or file archaeology.
+- **The canonical name.** C-ATS vs "Complete Acoustic Treatment System" vs the Cinema-specific
+  reading. Unresolved — settle it and align brand truth, the group site, and the store together.
+- **Pricing.** Gated tiers to be set; the current site is placeholder (£0.00).
+- **Proof assets.** Few install photos — not none, but not many. Install imagery, real case studies,
+  and render-based virtual case studies are the content-phase job that makes the credibility visible.
+- **The commercial / big-room extension.** Specs, timing, and when it ships — plus the cross-brand
+  coordination (Fabric Walls Acoustic Core PET, Cinema Tools, Pro-Fi). Kept internal until real.
+- **Testing.** Whether to go beyond the basic absorption data. An option for later, not urgent, and
+  not a claim to make now.
+- **Adjacent markets and channels.** Which to pursue — two-channel and other critical rooms, boutique
+  commercial cinema — and in what order.
