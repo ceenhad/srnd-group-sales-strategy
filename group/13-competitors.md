@@ -31,8 +31,12 @@ Premium heritage brand — *"70 years of innovation," "handcrafted screens and m
   option, sizes to ~280″ image width. Branded **proprietary surfaces** (ClearPix / FusionPix /
   SolidPix / ALR) with clear typologies; a **"Configure Your Screen"** configurator (separate login);
   an **authorised-partner** network; named aspirational **showcases** (Bryanston, Bentley);
-  patented-tech + European-manufacture credibility. (On masking, 4-way is their top — DT Dynamic's
-  5-edge incl. the Art patch still goes further.)
+  patented-tech + European-manufacture credibility.
+- **On masking (with a real-world caveat):** 4-way is their standard top, and they *also* offer
+  **art masking** (a movable in-picture patch — the same idea as DT Dynamic's "Art" edge). But **in
+  SRND's field experience art masking is not a popular solution and brings compromise.** So DT
+  Dynamic's 5th (Art) edge is a *capability to have, not a headline* — DT's genuine masking advantage
+  is coordinated **primary-edge** masking done well (and the control behind it), not "we do Art too."
 
 ### Screen Excellence — `screenexcellence.com`
 *"The screen at the core of your PRIVATE CINEMA."*

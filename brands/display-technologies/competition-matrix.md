@@ -56,6 +56,10 @@ Systems), **to validate per competitor before use in copy.**
 - The pro's decision is *easier and safer to deliver* (`dt-commander-v5.md`); this matrix is the
   evidence for **why DT can deliver that and others can't** — each row is a concrete reason.
 - Lead with the rows that matter most to the specific buyer/channel; don't dump the whole grid.
+- **On the masking row:** DT's 5th (Art) edge is a capability, not a selling point — art masking is
+  a niche, compromise-laden solution in the field (Screen Research offer it too;
+  `../../group/13-competitors.md`). Lead on coordinated primary-edge masking done well + the control
+  behind it, not "we do Art."
 - Keep the DT column honest to the repo (and to the status caveats — some V5 boards are designed,
   not yet built).
 
