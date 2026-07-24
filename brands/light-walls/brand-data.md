@@ -4,6 +4,10 @@ Raw input, not settled positioning. **Source:** the Light Walls website (`lightw
 group site, captured 2026-07-24. **This brand is thin right now** — little site copy, a small range,
 light social — so there isn't much to capture yet; documented so we can return.
 
+> **Read `opportunity.md` alongside this.** This file is the thin *public front*; the real platform
+> opportunity (LWCP — measured-quality architectural lighting) is captured there. Don't judge the
+> brand's potential from the website.
+
 ## What it is (per the site)
 
 - Site: **`lightwalls.co.uk`** (Shopify). Headline: **"Advanced RGBW Light Engines."**

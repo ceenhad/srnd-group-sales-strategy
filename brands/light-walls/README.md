@@ -8,9 +8,13 @@ Structural strategy inherited from `../../group/`. This playbook holds only Ligh
 
 ## Status
 
-- **`brand-data.md`** — captured from the Light Walls website and group site.
-- **Thin brand — "thin as can be right now"** (per Neil): minimal site copy, a small product range,
-  a light social presence. Treat this as a first pass to return to; messaging not yet agreed.
+- **`brand-data.md`** — the public front (website + social). **Thin** — minimal copy, small range,
+  light social.
+- **`opportunity.md`** — the real story. The thin website is the tip of **LWCP (Light Walls Control
+  Platform)** — a rigorously worked-out, FTO-cleared, architectural-grade measured-quality lighting
+  platform. **The opportunity is large; the public presence is not** — read `opportunity.md` before
+  drawing any conclusion from the website.
+- Messaging not yet agreed; a scoping decision (how the brand relates to the full platform) is open.
 
 ## To build (once messaging is agreed)
 
