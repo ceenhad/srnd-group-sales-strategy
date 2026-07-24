@@ -22,8 +22,9 @@ restated here.
 - `open-items.md` — C-ATS-specific decisions and sequencing.
 - `brand-data.md` — the public front (`c-ats.co.uk` holding page) and live-site-vs-brand-truth
   tensions to reconcile.
-- `acoustic-engine.md` — the engineering differentiator: measured (BSRIA) per-panel data + the RT60
-  modelling engine; the CATS instance of the group's measurement/data moat.
+- `measured-acoustics.md` — the engineering differentiator CATS *owns*: measured (BSRIA) per-panel
+  data + the engineered 3 Rs. (The RT60 design tool lives in the separate cinema-tools project, not
+  the CATS brand — see the note in that file.)
 
 ## Brand truth
 

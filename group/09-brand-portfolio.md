@@ -22,6 +22,9 @@ buying is shared (the store); operations run in engine. Each brand has its own s
    the whole room system, with trade credit, demo programmes and stock across the group's brands and
    carried lines. Home of the Experience Centre (North Yorkshire). Its online face is the store,
    `srnd.store` — the purchasing destination for the whole group.
+   - **It's the sales channel, not a product brand with its own story.** There's nothing to say about
+     it as a brand yet — no brand playbook is being built for it while the product brands are sorted.
+     What to do with the distribution/channel piece is decided *after* the product brands are done.
 
 ## SRND Solutions (in development — not launched)
 

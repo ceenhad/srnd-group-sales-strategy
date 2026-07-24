@@ -4,7 +4,7 @@ Raw input, not settled positioning. **Source:** the C-ATS website (`c-ats.co.uk`
 and the group site, captured 2026-07-24. C-ATS is the most-developed brand in this repo already
 (it's the origin of the whole plan) — see `positioning.md`, `content.md`, `product-pricing.md`,
 `growth-levers.md`, and the authoritative brand truth in `ceenhad/c-ats-shopify:CLAUDE.md`. This
-file just records the public front; the engineering differentiator is in `acoustic-engine.md`.
+file just records the public front; the engineering differentiator is in `measured-acoustics.md`.
 
 ## What it is (per the site)
 
@@ -39,4 +39,4 @@ These are reconciliation tasks for when CATS messaging/site is rebuilt — the b
 Everything substantive about CATS positioning, the 3 Rs, the range, guardrails and content already
 lives in this folder and the C-ATS repo. The gap CATS shares with the other brands is the **external
 telling** (holding-page site, no social) versus the depth of the real product and its measured
-acoustic engineering (`acoustic-engine.md`).
+acoustic engineering (`measured-acoustics.md`).
