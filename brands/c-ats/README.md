@@ -15,7 +15,10 @@ restated here.
 
 ## What lives here (brand-owned)
 
-- `positioning.md` — where C-ATS sits, the 3 Rs engineering brief, the buyer.
+- `positioning.md` — **the phase-1 clear brand strategy**: C-ATS as the moat in the acoustics
+  domain, dealer-first. What C-ATS is, whose problem it solves, the promise, why it's credible, the
+  discipline, and how it ladders to the group. This is the settled strategy the content and
+  deployment phases build against.
 - `growth-levers.md` — which channels C-ATS prioritises.
 - `content.md` — the 3 Rs content, guardrails, creative approach, the layered build.
 - `product-pricing.md` — the range and the (gated) tier work.
