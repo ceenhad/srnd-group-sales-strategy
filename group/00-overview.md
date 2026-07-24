@@ -34,7 +34,9 @@ in one place for every brand.
 - `11-intro-campaign.md` — the reusable phased campaign for introducing a brand to new audiences.
 - `12-channels.md` — the real, named channels to promote through (candidate landscape).
 - `13-competitors.md` — what the named competitors do well (researched), and what to learn.
-- `14-moat.md` — **the moat**: technical depth + dealer understanding ("we understand you → we make
-  things to help → those things make you better"). The spine every message and product flows from.
+- `14-moat.md` — **the moat**: unmatched technical depth + dealer understanding, spent on the dealer
+  ("you can trust we know what we're doing, and we've got your back"). The spine everything flows from.
+- `15-activate.md` — **the activate plan**: turning the latent moat into a working one — tell, prove,
+  tend, institutionalise (with sequencing for a small team).
 
 **Brands apply this in `brands/<brand>/`.** C-ATS is the first and most worked-out playbook.

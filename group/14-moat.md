@@ -18,7 +18,11 @@ what lets SRND own world-class depth without alienating the very people it's for
 
 ## Said the way the dealer hears it
 
-Three beats, in order — the through-line for group, brand and product alike:
+In the dealer's own words it comes down to: **"You can trust we know what we're doing — and we've
+got your back."** That's the moat *felt*, not boasted — **trust** (our unmatched depth, without the
+swagger) plus **backing** (we understand your job and we're on your side). It's the direct answer to
+the arrogance trap, and it unfolds into three beats — the through-line for group, brand and product
+alike:
 
 1. **We understand you.** Your technical problem *and* your real job — the room, the install, the
    client, the risk, the deadline.
