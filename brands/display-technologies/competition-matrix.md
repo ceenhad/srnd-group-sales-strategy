@@ -28,8 +28,8 @@ research — don't guess specs.
   - **Cinema Build Systems** — cinema construction/interiors and integrated systems; competes at the
     room level, so relevant group-wide, not to DT alone.
 
-Several of these are group-level competitors, not DT-only — worth a group competitor view later
-(`../../group/`).
+Several of these are group-level competitors, not DT-only — researched (what each does well) in the
+group competitor study `../../group/13-competitors.md`. This matrix stays DT/Commander-specific.
 
 ## The matrix
 
@@ -61,8 +61,7 @@ Systems), **to validate per competitor before use in copy.**
 
 ## Open items
 
-- **Fill the competitor column with verified research** on the named set — Stewart, Screen Research,
-  Screen Excellence (screens/masking); Future Automation (motion); Cinema Build Systems (room build)
-  — no guessed specs.
-- **A group-level competitor view** — Cinema Build Systems (and others) compete across brands, not
-  just DT; worth a shared competitor picture at group level.
+- **Fill the competitor column with verified research** on the named set. First-pass public research
+  (what each does well) is captured in `../../group/13-competitors.md`; the per-capability cells here
+  still need the specific control-vs-control detail, from closer research + Neil's knowledge — no
+  guessed specs.
