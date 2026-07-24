@@ -8,7 +8,7 @@ reference, refers peers.
 
 **Coherence is structural, not aspirational.** The brands serve the same room. Most of the time
 it's a project in one category that pulls the group's other brands in — a home cinema needs
-acoustics (CATS) *and* fabric walls (Fabric Walls) *and* a screen (Display Technologies), and more.
+acoustics (C-ATS) *and* fabric walls (Fabric Walls) *and* a screen (Display Technologies), and more.
 The room is the unit that unites them,
 so a dealer won for one brand is a natural buyer for the others: same job, same dealer, same client.
 The cross-sell compounds for that reason. The work behind "done well" is making the *handoff*

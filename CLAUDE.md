@@ -26,7 +26,7 @@ audio/AV work at the core.
 
 Six specialist brands, each with its own site and range, covering the room system end to end:
 **Display Technologies** (projection), **Fabric Walls** (stretch-fabric wall/ceiling systems),
-**Light Walls** (addressable lighting), **CATS** (acoustic treatment — the 3 Rs), **Pro-Fi** (audio
+**Light Walls** (addressable lighting), **C-ATS** (acoustic treatment — the 3 Rs), **Pro-Fi** (audio
 systems), and **SRND Distribution** (the trade distribution arm). A further own-made line,
 **SRND Solutions** (sensors and interfaces — the connective "glue" of a high-end install, not
 fitting inside any one brand), is in development. In distribution, **Leyard** is the only genuine

@@ -21,7 +21,7 @@ First/second pass captured in `brand-data.md`. To revisit when we return:
   them shared/exported to understand what's actually been said.
 - Deeper site areas not yet mined: Case Studies, Technical, Design articles, the full kit/scheme
   detail and pricing.
-- Resolve the flagged questions (kit-level naming; the Acoustic Treatment Design Service vs CATS;
+- Resolve the flagged questions (kit-level naming; the Acoustic Treatment Design Service vs C-ATS;
   the Approved Installer programme).
 
 ## To build (once messaging is agreed)

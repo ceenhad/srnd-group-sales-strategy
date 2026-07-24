@@ -65,13 +65,13 @@ content — and it's the origin of the group intro-campaign template.)*
 Design & Technical Planning · Supply-Only Kits · **Approved Partner Installation** · **Acoustic
 Treatment Design Service** · Acoustic Treatment Integration · Media Wall & Cinema Wall Packages ·
 Commercial Fit-Out · Aftercare & Fabric Refitting. *(Flag: Fabric Walls listing an "Acoustic
-Treatment Design Service" overlaps CATS's own service — clarify the relationship: is this CATS
+Treatment Design Service" overlaps C-ATS's own service — clarify the relationship: is this C-ATS
 delivered through Fabric Walls, or a separate FW offer?)*
 
 ## Cross-brand link
 
 Fabric Walls is the **visible surface that hides the room's systems.** Acoustic performance comes
-from the **core/substrate behind the fabric** (= **CATS**); the frame/fabric also conceal AV, DT
+from the **core/substrate behind the fabric** (= **C-ATS**); the frame/fabric also conceal AV, DT
 screens/masking, lighting and joinery. The "Porthole & Vent" element and "Halo LED" also touch DT
 (port holes) and Light Walls territory. Physical embodiment of the whole-room play.
 
@@ -94,6 +94,6 @@ screens/masking, lighting and joinery. The "Porthole & Vent" element and "Halo L
 
 - The lead message beyond "faster, smarter fabric interiors" / "easiest, fastest, most reliable."
 - Interior-Kit **level naming** (1–4 vs Essential/Performance/Advanced) — settle one.
-- The **Acoustic Treatment Design Service** vs CATS — clarify the relationship.
+- The **Acoustic Treatment Design Service** vs C-ATS — clarify the relationship.
 - The **Approved Installer** programme — real/active? how it relates to the group partner model.
 - Thin reach (85 LinkedIn followers, no YouTube/Instagram) — a build task, not an optimisation.

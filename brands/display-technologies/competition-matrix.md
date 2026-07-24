@@ -24,7 +24,7 @@ research — don't guess specs.
   - **Future Automation** — motorised mounts, lifts and motion. *Internal view: rated as derivative
     and overpriced — a positioning cue (DT competes on real sophistication and value), not language
     for public copy.*
-- **Whole cinema build** (overlaps DT and other SRND brands — Fabric Walls, CATS):
+- **Whole cinema build** (overlaps DT and other SRND brands — Fabric Walls, C-ATS):
   - **Cinema Build Systems** — cinema construction/interiors and integrated systems; competes at the
     room level, so relevant group-wide, not to DT alone.
 

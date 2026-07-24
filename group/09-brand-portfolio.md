@@ -13,7 +13,7 @@ buying is shared (the store); operations run in engine. Each brand has its own s
    fabric-wrapping skills needed to install.
 3. **Light Walls** — RGBW addressable lighting systems; individually addressable control for
    cinemas, interiors and installations.
-4. **CATS — Complete Acoustic Treatment System** — engineered acoustic treatment addressing the
+4. **C-ATS — Complete Acoustic Treatment System** — engineered acoustic treatment addressing the
    3 Rs (Resonance, Reverberation, Reflection), one panel per problem, within 50 mm of depth. Every
    project includes acoustic design and modelling. (C-ATS brand truth: `brands/c-ats/`.)
 5. **Pro-Fi** — complete audio systems: speakers, amplifiers, DSP and calibration tools, each stage

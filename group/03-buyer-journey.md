@@ -4,7 +4,7 @@
 dealer who has never heard of us to one who orders across the group, repeatedly. It was first worked
 out for a single brand (C-ATS); read here it's the group case, because that's how it actually runs:
 **a dealer relationship is won through a brand but held by the group, and a real project spans
-brands.** A home cinema needs a screen (Display Technologies), acoustics (CATS), fabric walls
+brands.** A home cinema needs a screen (Display Technologies), acoustics (C-ATS), fabric walls
 (Fabric Walls), lighting (Light Walls) and audio (Pro-Fi) — one room, one dealer, one client. So the
 journey is not one brand selling one product; it's the group earning and compounding a relationship
 through whichever brand opens the door.

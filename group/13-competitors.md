@@ -5,7 +5,7 @@ not to copy. Group-level, because most of these compete across more than one SRN
 below is what they *say and show publicly* — validate against real-world knowledge (Neil's, and the
 trade's) before acting; a marketing site shows the shopfront, not the truth.
 
-## Screen makers / masking (vs DT screens & Dynamic Screen; adjacent to CATS)
+## Screen makers / masking (vs DT screens & Dynamic Screen; adjacent to C-ATS)
 
 ### Stewart Filmscreen (US) — `stewartfilmscreen.com`
 Premium heritage brand — *"70 years of innovation," "handcrafted screens and materials."*
@@ -45,7 +45,7 @@ Premium heritage brand — *"70 years of innovation," "handcrafted screens and m
   outstanding: **named pro-audio endorsements** (Twickenham Studios, dubbing-theatre designers) with
   **hard technical numbers** (8–10 dB more HF transparency; "ten times less power" into HF drivers).
   Clean product naming (Enlightor Neo / Neo-W / Sol), a configurator, and a consultative
-  **"Ask an expert"** CTA. *Directly relevant to CATS's acoustics story and to any AT-screen pairing.*
+  **"Ask an expert"** CTA. *Directly relevant to C-ATS's acoustics story and to any AT-screen pairing.*
 
 ## Motion / automation (vs DT mounts, MMD, Actuator Commander)
 
@@ -74,7 +74,7 @@ seriously: their dedicated cinema line overlaps DT almost product-for-product** 
 - **Acoustically-transparent fixed-frame screens (LUMA):** **LUMA-SCOPE** on the "Luma Clear AT"
   woven surface — claims "industry-leading sound transmission," moiré/speckle-free, 0.7 gain at
   4K/8K; Luma Scope Zero / Slim frames; speakers placed anywhere behind. → FA has **moved into AT
-  screens** (DT screens, and Screen-Excellence / CATS territory).
+  screens** (DT screens, and Screen-Excellence / C-ATS territory).
 - **Automated masking — LUMA-SHIFT:** a **2-way** masking system (horizontal *or* vertical) for Luma
   Scope Slim; "quiet and precise motors reframe the projection area." → vs the **DT Dynamic Screen —
   but only 2-way, where DT Dynamic coordinates up to 5 edges** (L/R/T/B/Art). A real DT edge.
@@ -107,7 +107,7 @@ know-how. Compete where copying can't reach. (This echoes the dt-platform dealer
 question — **how much design data (CAD/drawings) DT exposes for download**, and whether that needs
 gating. See open items.
 
-## Whole cinema build (vs the group — Fabric Walls, CATS, DT, Light Walls)
+## Whole cinema build (vs the group — Fabric Walls, C-ATS, DT, Light Walls)
 
 ### Cinema Build Systems (UK, York) — `cinemabuildsystems.co.uk`
 *"We design and manufacture systems to build home cinemas and media walls."* **The closest analog to
@@ -118,9 +118,9 @@ one hardest.** Their range maps onto several SRND brands at once:
   bevelled), own **fabrics** ("Wäll" pure new wool with acoustic transparency, *locally produced in
   Yorkshire*; "Hügg"), **Detail** (brushed-metal inlay trims, LED beam modules in the walling), plus
   Acoustics and Lighting — an end-to-end fabric-walling room build.
-- **Acoustics** (vs **CATS**): "Soft Slab" open-cell **foam** absorber panels (Class 0 fire-rated,
+- **Acoustics** (vs **C-ATS**): "Soft Slab" open-cell **foam** absorber panels (Class 0 fire-rated,
   sized to their tracks) and "Reactor" composite **sound-dispersal** panels. *Note: commodity foam +
-  dispersal, versus CATS's engineered 3 Rs — a quality gap SRND can press (and CATS says scattering,
+  dispersal, versus C-ATS's engineered 3 Rs — a quality gap SRND can press (and C-ATS says scattering,
   not dispersal/diffusion).*
 - **Lighting** (vs **Light Walls**): curated LED tape (SMD + COB "BEAM" high-density).
 - **Halo Frame + Screens** (vs **DT**): framed AT screens — CREATE (cost-effective installer-built
@@ -149,7 +149,7 @@ one hardest.** Their range maps onto several SRND brands at once:
    fabric-walling-plus-acoustics-plus-lighting-plus-screens/masking play SRND is built for —
    configurator-led, with dealer training, installer/consumer journeys and public ballpark pricing,
    and they're in Yorkshire too. **SRND's edge over them:** real manufacturing depth across *more* of
-   the room, **engineered acoustics (CATS 3 Rs) vs their commodity foam**, and **genuine control (DT
+   the room, **engineered acoustics (C-ATS 3 Rs) vs their commodity foam**, and **genuine control (DT
    Commander) vs their bought-in FA board**. **SRND's gap to close:** the packaging — configurators,
    an installer-training/network programme, clearer journeys, and a view on pricing transparency.
 

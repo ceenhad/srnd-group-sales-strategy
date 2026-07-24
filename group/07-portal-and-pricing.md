@@ -31,7 +31,7 @@ observed:
   broader set than the current group roster (see `09-brand-portfolio.md` — the group's own brands
   plus Leyard as the sole third-party line); the store list is treated as legacy until reconciled.
 - **Each brand has a front-end page on the store** (e.g. `/pages/complete-acoustic-treatment-system`
-  for CATS) linking to that brand's collections — the "independent brand front-ends, one store"
+  for C-ATS) linking to that brand's collections — the "independent brand front-ends, one store"
   model made concrete.
 
 **So the plan's "the registration + gated-pricing flow doesn't exist yet" is out of date.** The

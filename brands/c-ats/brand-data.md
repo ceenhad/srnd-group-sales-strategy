@@ -1,42 +1,66 @@
-# CATS / C-ATS — brand data (captured)
+# C-ATS — brand data (captured)
 
-Raw input, not settled positioning. **Source:** the C-ATS website (`c-ats.co.uk`), the store page,
-and the group site, captured 2026-07-24. C-ATS is the most-developed brand in this repo already
-(it's the origin of the whole plan) — see `positioning.md`, `content.md`, `product-pricing.md`,
-`growth-levers.md`, and the authoritative brand truth in `ceenhad/c-ats-shopify:CLAUDE.md`. This
-file just records the public front; the engineering differentiator is in `measured-acoustics.md`.
+Raw input, not settled positioning. **Sources:** the live site (`c-ats.co.uk`), **the C-ATS
+storefront repo `ceenhad/c-ats-shopify`** (the staged B2B site + content — read properly this time),
+the store, and the group site. Captured 2026-07-24. C-ATS is the origin of the whole plan; its
+strategy instance already lives in this folder (`positioning.md`, `content.md`, etc.) and the
+authoritative brand truth is `c-ats-shopify:CLAUDE.md`. Engineering differentiator: `measured-acoustics.md`.
 
-## What it is (per the site)
+## The key finding: the telling is largely BUILT, just not shipped
 
-- Site: **`c-ats.co.uk`** — small, effectively a **holding page** (Products + Technical Information +
-  Contact; ~50 KB). Uses the name **"Complete Acoustic Treatment System" / "Complete-ATS."**
-- Positioning line: *"a unique acoustical treatment system designed to offer the maximum performance
-  with the minimum loss of space across all frequencies"*, built around the **Three Rs of
-  Acoustics**, *"comprehensive and repeatable… easy to install… within a depth of just 50 mm."*
-- Products (nav): **Reflection Control Panel**, **Reflection Control Panel Marine**, **Resonance
-  Control Panel**, **Reverberation Control Panel 50 mm**, plus **Technical Information**.
+Unlike the other brands (where the external presence barely exists), **C-ATS already has a full B2B
+storefront + a deep knowledge base + a rigorous content strategy — all staged in `c-ats-shopify` on
+an unpublished dev theme, not yet public.** The live `c-ats.co.uk` is a **holding page**; the real
+site is built and waiting. So the divergence here is **"built but not deployed,"** not "doesn't
+exist." (Deploy has been blocked on a Shopify CLI re-auth, plus a pending configurator swap.)
 
-## Channels on the site (owned social)
+## The live public front (`c-ats.co.uk`)
 
-- **None.** No social or YouTube links on the site — consistent with a holding page. (No presence
-  to catalogue; a build from zero.)
+Holding page: the Three Rs, the four Control Panels (Reflection / Reflection Marine / Resonance /
+Reverberation 50 mm), Technical Information, Contact; ~50 mm depth story; **no social links.**
 
-## Live-site vs brand-truth tensions (flag — do not propagate)
+## The staged storefront (`c-ats-shopify`, not public yet)
 
-The live site contradicts the brand truth in `ceenhad/c-ats-shopify:CLAUDE.md` in places:
-- **"Complete Acoustic Treatment System"** is used as canonical, but brand truth flags the "Complete"
-  expansion as **unresolved** (legal name is "Cinema Acoustic Treatment Systems"). See the group
-  open item `../../group/open-items.md` / CATS naming.
-- **"maximum performance" / "unique"** are exactly the **unbacked superlatives** the brand truth says
-  to avoid (state benefits, never claims not backed by the technical data).
-- (Also known: an `about.html` "recommended retail price" line contradicts the fully-gated pricing
-  policy — fix noted in `product-pricing.md`.)
+- **B2B Shopify Plus** store (`c-ats.myshopify.com`); dev theme (Horizon-based) with custom
+  `cats-*` sections. Pages + articles deploy via Admin API; theme via CLI.
+- **"The System" page** — the C-ATS journey: **Select → Design → Verify.**
+- **Knowledge Base: 18 articles** across **8 GEO/AEO pillars**:
+  A room-acoustics fundamentals · B acoustic treatment (products & how) · C measurement & analysis ·
+  D design & specification · E marine & compliance · F isolation · G materials & construction ·
+  H verification. (Titles incl. RT60, first reflections, panel thickness, slim-vs-deep, absorbers vs
+  diffusers vs bass, checkerboard placement, reading an absorption table, BS EN ISO 354 / BSRIA
+  results, fire ratings, mounting, spec mistakes, concealment, verification.)
 
-These are reconciliation tasks for when CATS messaging/site is rebuilt — the brand truth wins.
+## Content strategy (`content/content-strategy.md`) — genuinely strong
+
+- **GEO/AEO-first:** the goal is to be the source **AI engines cite** for home-cinema acoustics;
+  metric = **Share of Model** (how often C-ATS is named in AI answers), not raw traffic. Audience:
+  CI installers / CEDIA first.
+- **The citation moat is first-party, data-backed content rivals lack:** BSRIA **BS EN ISO 354**
+  absorption data (real measured coefficients); the proprietary method (the Three Rs, per-axis
+  Fitzroy balance, checkerboard placement, comb-filtering protection); the **50 mm vs 100–200 mm**
+  space-value argument; real projects with measured results.
+- Discipline: answer-first TL;DR, comparison tables, verifiable cited numbers, E-E-A-T (named
+  author/dates), FAQ/Article schema, `llms.txt`, refresh cadence, Bing submission.
+- **Cross-brand:** the "concealment" article routes to **Fabric Walls** (acoustics behind the fabric).
+
+## Key decisions on the site (from the repo)
+
+- **The free configurator / Room Selector is being removed** — it "cheapens the paid design
+  services." Replacement = **pre-planned reference layouts**: a showcase of three designed 7.1.4
+  example rooms (5×4×2.7 / 7×5×3 / 10×7×3.5) that drives to the **paid design service** (no
+  self-serve quantities). Built locally, **not deployed** (blocked on CLI re-auth).
+- **The acoustic engine is OFF the site** (no runtime wiring to the separate cinema-platform engine).
+- **Pricing is £0.00 / deferred to last, on purpose** (consistent with the group's fully-gated policy).
+
+## Live-site vs brand-truth tensions (flag — brand truth wins)
+
+- **"Complete Acoustic Treatment System"** used as canonical, but brand truth flags the "Complete"
+  expansion as unresolved (legal name "Cinema Acoustic Treatment Systems"). Use the form **C-ATS**.
+- **"maximum performance" / "unique"** — the unbacked superlatives brand truth says to avoid.
+- The `about.html` "recommended retail price" line contradicts the gated-pricing policy.
 
 ## Note
 
-Everything substantive about CATS positioning, the 3 Rs, the range, guardrails and content already
-lives in this folder and the C-ATS repo. The gap CATS shares with the other brands is the **external
-telling** (holding-page site, no social) versus the depth of the real product and its measured
-acoustic engineering (`measured-acoustics.md`).
+C-ATS is the **most content-mature** brand by far. The coherence job here is mostly **deploy +
+reconcile + connect to the group story**, not create — the opposite of the thin brands.

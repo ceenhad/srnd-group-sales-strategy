@@ -1,7 +1,7 @@
 # The commercial model — independent brands, one store
 
 **Awareness is per-brand; buying is shared.** Each brand builds awareness independently, through its
-own pages, assets and content — a dealer meets CATS as CATS, Fabric Walls as Fabric Walls. But the
+own pages, assets and content — a dealer meets C-ATS as C-ATS, Fabric Walls as Fabric Walls. But the
 **buying action goes through the SRND store**: independent brand front-ends, one commerce back-end.
 That's the mechanism — market as distinct brands, transact through one place.
 
