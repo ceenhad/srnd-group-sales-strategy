@@ -4,18 +4,38 @@ Why DT's control outclasses competitor control, dimension by dimension. The DT c
 drawn from `ceenhad/dt-platform`; the competitor column is a framework to fill with **verified**
 research on named competitors (see open items) — not guessed specifics.
 
-## The magnitude (framing, not a claim)
+## The magnitude
 
-Neil's assessment: the Commander is **orders of magnitude** more powerful and sophisticated than any
-competitor's control — put at roughly **~400×**. Treat that as the internal sense of the gap, not a
-published spec. **Express it through this matrix** — concrete, checkable capability differences —
-rather than a bare multiple. (Group `CLAUDE.md`: don't publish figures we can't substantiate; a
-number a specifier can't verify weakens credibility rather than building it.)
+"~400×" is deliberate hyperbole — shorthand for *the Commander is in a different league from
+competitor control*, not a metric to compute or a figure to publish. This matrix exists to make that
+felt through concrete capability differences a professional recognises. Lead with the differences,
+not the number.
+
+## The competitors (named)
+
+Who DT is measured against, grouped by where they overlap. Capabilities to be filled from verified
+research — don't guess specs.
+
+- **Screens & masking** (vs DT screens and the Dynamic Screen):
+  - **Stewart Filmscreen** — premium projection screens and masking.
+  - **Screen Research** — premium screens (incl. acoustically transparent) and masking.
+  - **Screen Excellence** — acoustically transparent screens and masking.
+- **Motion / automation** (vs DT mounts, the MMD and the Actuator Commander):
+  - **Future Automation** — motorised mounts, lifts and motion. *Internal view: rated as derivative
+    and overpriced — a positioning cue (DT competes on real sophistication and value), not language
+    for public copy.*
+- **Whole cinema build** (overlaps DT and other SRND brands — Fabric Walls, CATS):
+  - **Cinema Build Systems** — cinema construction/interiors and integrated systems; competes at the
+    room level, so relevant group-wide, not to DT alone.
+
+Several of these are group-level competitors, not DT-only — worth a group competitor view later
+(`../../group/`).
 
 ## The matrix
 
-DT column = real (from the platform repo). Competitor column = *typical* control in this segment,
-**to validate against named competitors before use in copy.**
+DT column = real (from the platform repo). Competitor column = *typical* control among the named
+competitors above (Stewart, Screen Research, Screen Excellence, Future Automation, Cinema Build
+Systems), **to validate per competitor before use in copy.**
 
 | Dimension | DT Commander V5 | Typical competitor control (verify) | Why it matters to the pro |
 |---|---|---|---|
@@ -41,7 +61,8 @@ DT column = real (from the platform repo). Competitor column = *typical* control
 
 ## Open items
 
-- **Fill the competitor column with verified research** on the real named competitors DT is measured
-  against (masking-screen and motion-control makers) — no guessed specs.
-- **Decide how to express the magnitude** — the matrix (recommended), a chosen headline, or both;
-  and whether any single number is defensible enough to publish.
+- **Fill the competitor column with verified research** on the named set — Stewart, Screen Research,
+  Screen Excellence (screens/masking); Future Automation (motion); Cinema Build Systems (room build)
+  — no guessed specs.
+- **A group-level competitor view** — Cinema Build Systems (and others) compete across brands, not
+  just DT; worth a shared competitor picture at group level.

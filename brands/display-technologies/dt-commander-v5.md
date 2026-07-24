@@ -72,7 +72,7 @@ safer to install, commission and support.** That's the differentiation ("what we
 can't"), and it speaks directly to the pro. The privacy/Request-Support feature supports the "safer"
 half; it doesn't lead. Exact lead and claimable-now scope to confirm against the status caveats.
 
-**The scale of the gap.** Neil puts the Commander at orders of magnitude beyond competitor control
-(~400×). That's the internal sense of the differentiation — but express it through the concrete,
-checkable capability differences in `competition-matrix.md`, not a bare multiple a specifier can't
-verify.
+**The scale of the gap.** The Commander is in a different league from competitor control — "~400×"
+is the hyperbole for it. Make it felt through the concrete capability differences in
+`competition-matrix.md` (vs Stewart, Screen Research, Screen Excellence, Future Automation, Cinema
+Build Systems), not a headline number.
