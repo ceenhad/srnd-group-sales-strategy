@@ -71,3 +71,8 @@ motion and masking — not just the hardware — and V5 makes delivering it dram
 safer to install, commission and support.** That's the differentiation ("what we can do that others
 can't"), and it speaks directly to the pro. The privacy/Request-Support feature supports the "safer"
 half; it doesn't lead. Exact lead and claimable-now scope to confirm against the status caveats.
+
+**The scale of the gap.** Neil puts the Commander at orders of magnitude beyond competitor control
+(~400×). That's the internal sense of the differentiation — but express it through the concrete,
+checkable capability differences in `competition-matrix.md`, not a bare multiple a specifier can't
+verify.

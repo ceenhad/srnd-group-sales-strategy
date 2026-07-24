@@ -21,6 +21,9 @@ forked.
   mapped to buyer-journey stages.
 - `product-pricing.md` — the range and the (gated) tier numbers behind the shared gate.
 - `open-items.md` — brand-specific decisions and sequencing.
+- *(optional)* `competition-matrix.md` — where the brand outclasses competitors, dimension by
+  dimension, with our column real and competitor columns filled from verified research. Useful
+  wherever the differentiation is capability-led (see `brands/display-technologies/`).
 
 ## Rules
 
