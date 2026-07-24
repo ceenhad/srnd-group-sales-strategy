@@ -5,8 +5,11 @@ What SRND's competitive advantage actually is — and the spine every message an
 ## The moat, in one sentence
 
 SRND's moat is **deep technical mastery joined to a deep understanding of the dealer's project and
-needs**, and the products that come out of that pairing. It is not any single feature, box or brand;
-it is the *understanding* — which competitors cannot copy.
+needs**, and the products that come out of that pairing. It is not any single feature, box or brand.
+More precisely (see the stress test at the foot of this doc): *neither leg alone is unique* —
+serious competitors also understand dealers, and per-domain specialists match our depth — so the
+moat is the pairing held **across the whole room, in one group and one relationship, with the
+control that ties the room together.** That intersection is the part competitors cannot copy.
 
 ## Said the way the dealer hears it
 
@@ -105,3 +108,42 @@ Every row is the same three beats — that consistency *is* the group story.
 - **The competitor read** in `13-competitors.md` folds into this: the measurement/control/data layer
   is the *evidence* of technical depth (and the un-copyable half); dealer-understanding is the other
   half. Together they are the moat.
+
+## Stress test — where it holds, and where it's weak
+
+Pressure-tested adversarially against the competitor evidence (2026-07-24). It holds — but not
+where the headline framing first implied, and it has real soft spots to fix.
+
+**Each leg alone is contestable (so the leg is not the moat):**
+- *"We understand the dealer"* is **not unique.** Cinema Build Systems is built dealer-first
+  (installer training, configurators, installer/consumer journeys); Future Automation sells bespoke
+  flexibility integrators value. Dealer-understanding is table stakes among the serious competitors.
+- *"Technical depth"* is **matched per-domain.** A single-domain specialist can out-depth us —
+  Ketra on colour (sensor-based, patented to 2029), Screen Excellence on AT screens (named pro-audio
+  proof), Stewart on screen materials. Depth in one lane is contestable.
+
+**Where it actually lands (the defensible intersection):**
+Both legs held **across the whole room, in one group and one relationship, with the control layer
+tying the room together.** No competitor occupies it: Ketra is deep in colour but does no acoustics;
+Screen Excellence deep in AT screens, not lighting/audio; CBS does whole-room but on commodity foam +
+a bought-in control board (shallow depth). **Breadth × depth × one relationship** is the empty square.
+
+**The soft spots (honest):**
+1. **Latent, not active.** The depth isn't told (the whole reason for this exercise). A moat nobody
+   sees defends nothing commercially — today it protects little. Activating it (tell + prove) is the work.
+2. **Proof is thin.** For the strong-capability / thin-market brands (Light Walls, Pro-Fi) the
+   "makes you better" payoff is asserted from internal capability, not demonstrated with dealers at
+   scale — few case studies, low reach. Credible on capability, unproven in market.
+3. **Retention moat, not acquisition.** Felt once a dealer *engages* (design-for-install, measured
+   sign-off, no callbacks); cold, "we understand you and make you better" is what everyone claims.
+   Strong closer, weak hook — consistent with the buyer journey's "lead simple, earn the complex."
+4. **The appreciation leg is at zero** (see the honest-gap section). A warmer competitor with less
+   depth (CBS's installer-partner model) could out-*relationship* us and take the dealer anyway.
+5. **Key-person concentration.** Much of both legs lives in a few heads/repos today. Durable group
+   moats live in systems, not people — converting the understanding into institutional form is a risk
+   to manage.
+
+**Verdict.** The moat is real and genuinely defensible — as **whole-room depth + dealer-understanding
++ control, in one relationship** — but it is currently **latent, under-proven, relationship-neglected
+and person-concentrated.** The strategy's job is to *activate* it: **tell** it (the coherence work),
+**prove** it (case studies, verification), **tend** it (appreciation), and **institutionalise** it.
