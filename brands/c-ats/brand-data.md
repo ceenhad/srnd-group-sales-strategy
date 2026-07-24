@@ -14,6 +14,12 @@ an unpublished dev theme, not yet public.** The live `c-ats.co.uk` is a **holdin
 site is built and waiting. So the divergence here is **"built but not deployed,"** not "doesn't
 exist." (Deploy has been blocked on a Shopify CLI re-auth, plus a pending configurator swap.)
 
+> **Provenance — built ad-hoc, no plan.** The C-ATS site + content was built by Neil personally over
+> the past year, with **no plan followed beyond "have more than nothing."** So it's *content-rich in
+> volume*, but not the product of a strategy — treat it as a **placeholder / first attempt to
+> re-base on the agreed plan**, not as settled intent to preserve. The strong content strategy doc is
+> the closest thing to a plan and is worth building on; the deployed shape of the site is not.
+
 ## The live public front (`c-ats.co.uk`)
 
 Holding page: the Three Rs, the four Control Panels (Reflection / Reflection Marine / Resonance /
@@ -62,5 +68,6 @@ Reverberation 50 mm), Technical Information, Contact; ~50 mm depth story; **no s
 
 ## Note
 
-C-ATS is the **most content-mature** brand by far. The coherence job here is mostly **deploy +
-reconcile + connect to the group story**, not create — the opposite of the thin brands.
+C-ATS has the **most content by volume** by far (though built ad-hoc, not to a plan — see
+Provenance). So the coherence job here is mostly **re-base + reconcile + deploy + connect to the
+group story**, rather than create from nothing — the opposite of the thin brands.

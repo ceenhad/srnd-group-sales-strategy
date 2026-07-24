@@ -16,6 +16,11 @@ is to make one true story flow **group → brand → product**, drawing out what
 not manufacturing claims. Capturing the real internal substance (from the product/platform repos)
 brand by brand, *before* writing messaging or touching websites, is what makes that possible.
 
+Note the corollary: even the brands with *more* built externally (C-ATS, Fabric Walls) were put up
+ad-hoc, with no plan followed beyond "have more than nothing." So the existing sites are
+**placeholders to re-base on the plan, not strategy to preserve** — this is the first real plan, not
+a tidy-up of an existing one.
+
 The organising principle SRND runs on: **the group introduces, the brands focus the marketing, the
 store sells.** `srnd.group` opens the funnel and introduces the company (the start of a series of
 landing pages); the brands are how the sales & marketing is focused, each with its own fairly

@@ -5,6 +5,12 @@ Raw input for the messaging work, not settled positioning. **Source:** the Fabri
 Most phrasing is the source's own. (This brand's public corpus is thin — the website plus a small
 social presence is essentially all there is, so it's documented closely here.)
 
+> **Provenance — built ad-hoc, no plan.** The current Fabric Walls site was put together by Neil
+> personally over the past year, with **no plan followed beyond "have more than nothing."** So treat
+> what exists as a **placeholder / first attempt, not strategic intent** — it gets re-based on the
+> agreed plan, not preserved or reverse-engineered as the target. (Fabric Walls has *more* built than
+> Light Walls/Pro-Fi, but "more built" ≠ "built to a plan" — which is the point of this exercise.)
+
 ## What it is
 
 - Site: **`fabricwalls.uk`** (Shopify). *"Aluminium Stretch-Fabric Frame Systems." "A faster,
