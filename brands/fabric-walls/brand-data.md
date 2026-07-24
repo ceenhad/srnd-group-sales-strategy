@@ -1,65 +1,99 @@
 # Fabric Walls — brand data (captured)
 
 Raw input for the messaging work, not settled positioning. **Source:** the Fabric Walls website
-(`fabricwalls.uk`) and the group site, captured 2026-07-24. Most phrasing is the site's own.
+(`fabricwalls.uk`, deep crawl), the group site, and the LinkedIn company page, captured 2026-07-24.
+Most phrasing is the source's own. (This brand's public corpus is thin — the website plus a small
+social presence is essentially all there is, so it's documented closely here.)
 
-## What it is (per the site)
+## What it is
 
-- Site: **`fabricwalls.uk`** (Shopify).
-- Title/positioning: *"Aluminium Stretch-Fabric Frame Systems."* *"A faster, smarter way to build
-  fabric interiors."* A **modular aluminium stretch-fabric frame system engineered for precision and
-  repeatability** — frames **factory-assembled, CNC-cut**, "consistent results across any project
-  size." **UK-made**, supplied fully assembled and labelled to match.
+- Site: **`fabricwalls.uk`** (Shopify). *"Aluminium Stretch-Fabric Frame Systems." "A faster,
+  smarter way to build fabric interiors."*
+- A **modular aluminium stretch-fabric frame system** — frames **factory-assembled, CNC-cut**,
+  **UK-made**, supplied fully assembled and labelled. "Consistent results across any project size."
 - Install claim: *"If your team can install fitted furniture or AV equipment, they can install
   Fabric Walls"* — no specialist fabric-wrapping skills.
+- LinkedIn "about" (their own summary): *"the easiest, fastest and most reliable stretch fabric
+  solution available… available as a component system or as part of predefined room kits… factory-
+  assembled metal frames precise, elegant and robust, capable of large spans, supporting other room
+  elements and a wide range of finishes. Fabric is CNC cut for perfect accuracy before being fitted
+  with a flexible silicon edge, making it simple to install and remove the fabric from the frame
+  without tools or specialist training."*
 
-## Range (from the site)
+## The "Method" (how the brand structures itself)
 
-- **Fabric Panels** — the core building block; made-to-order in the UK, supplied assembled; define
-  layout/orientation/detailing and let teams coordinate lighting, joinery, AV.
-- **Fabric Wall Elements** — detailing elements within the system.
-- **Fabric** — the fabric options.
-- **Star Ceiling.**
-- **Interior Kits (Levels 1–4)** — predefined design schemes organising Panels + Elements, guiding a
-  project from planning to install. Level 1 = clean, continuous surfaces; higher levels add
-  structure/features. *(The EI microsite article names tiers "Essential / Performance / Advanced /…"
-  — reconcile the level naming: numbered 1–4 vs named tiers.)*
-- **Kit families by room:** **Cinema Interior Kits**, **Media Wall Kits**, **Office System Kits** —
-  so not cinema-only; also commercial/office.
+A clear building-block pedagogy: **Fabric Panels** (define geometry, rhythm, alignment) →
+**Fabric Wall Elements** (add depth, contrast, lighting, hierarchy) → **Interior Kits** (complete
+schemes from Panels + Elements) → **Levels 1–4** (how much of the room, how refined).
 
-## Distinctive elements (candidate differentiators — to weigh in messaging)
+## Range
 
-- **Productised, repeatable system** (modular pre-built aluminium frames) vs bespoke fabric-wrapping
-  — speed, precision, predictability.
-- **Installable by any competent AV/joinery team** — removes the specialist-skill barrier.
-- **Serviceability** — fabric removes and refits for access/maintenance/upgrades without disturbing
-  the fixed aluminium perimeter.
-- **Design, Supply & Approved Installers** — an **approved-installer** programme (cf. Cinema Build
-  Systems' trained network; a channel + quality signal).
-- **Factory Experience Centre** — "visit our factory Experience Centre" (the shared SRND Experience
-  Centre, brand-facing here).
-- Advice content: Technical, Design, Case Studies, Articles.
+- **Fabric Panels** (the core block): Rectangle, Angled Rectangle, and Angled frames — straight +
+  angled for any geometry. Pre-assembled aluminium perimeter frames, made to exact project size in
+  the UK, millimetre-accurate; the frame becomes "almost invisible" with a crisp, shadow-free edge;
+  integrates around sockets, switches, AV, lighting; optional acoustic performance.
+- **Fabric Wall Elements** (architectural details): Acoustic Core, Column, Divider, External Corner,
+  Inset Column, Inset Divider, LED Divider, Mounting Solution, **Porthole & Vent**, Slats, Staggered
+  Slats, **Halo LED Lighting**. (Forward/recessed columns for depth; LED profiles/trims; metal
+  strips.)
+- **Fabric** — fabric options. **Star Ceiling** — a product line.
 
-## Cross-brand link (important)
+## Interior Kits
 
-Fabric Walls is the **frame + fabric that hides the rest of the room's systems.** Per the site,
-*"acoustic performance is determined by the substrate and core specified"* — i.e. Fabric Walls
-provides the framework, and the acoustic treatment behind it is **CATS**. It equally conceals AV,
-lighting and joinery. This is the physical embodiment of the whole-room, cross-brand play — Fabric
-Walls is the visible surface; CATS/DT/Light Walls live behind it.
+- **Levels 1–4** (all components identical; what changes is coverage + design quality):
+  L1 clean fabric finish on selected areas (hides clutter/imperfections); L2 more coverage +
+  expressive layout + integrated linear LED; L3 cohesive architectural environment across most walls
+  with seamless integrated features; **L4 flagship** — every wall + selected ceiling, most expressive
+  layout, highest detailing. *(Maps to the EI article's "Essential / Performance / Advanced / …" —
+  settle one naming.)*
+- **Named design schemes** — cinema kits are sold as city-named schemes: Richmond, Seattle,
+  Amsterdam, Aspen, Boston, Busan, Geneva, Vancouver, Manchester, Washington DC, Zurich, Cannes,
+  New York, Portland, New Orleans, London (and more).
+- **Kit families by room:** Cinema Interior Kits, Media Wall Kits, Office System Kits.
 
-## Channels on the site (owned social) — with a gap
+## Why room kits (strong "how it works" content, from their article)
 
-- **Facebook:** `facebook.com/fabricwallsuk/`
-- **LinkedIn:** `linkedin.com/company/fabricwalls`
-- **No YouTube and no Instagram link on the site** — a gap versus DT (which carries FB/IG/LI/YT),
-  and notable given YouTube's weight in the strategy (`../../group/06-content-production.md`,
-  `../../group/12-channels.md`). Flag for the channel/consistency review.
+The kit solves industry problems: **eliminates on-site fabric cutting; removes the need for
+specialist upholsterers; predictable installation times; eliminates measurement errors.** A kit
+contains: **CNC-cut fabric panels, pre-cut aluminium track profiles, optional acoustic/thermal core,
+and panel maps + installation drawings.** Benefits: consistency across installers, perfect pattern
+alignment, cleaner/safer installs. *(This is textbook stage-3 "prove it works / easy to install"
+content — and it's the origin of the group intro-campaign template.)*
+
+## Services
+
+Design & Technical Planning · Supply-Only Kits · **Approved Partner Installation** · **Acoustic
+Treatment Design Service** · Acoustic Treatment Integration · Media Wall & Cinema Wall Packages ·
+Commercial Fit-Out · Aftercare & Fabric Refitting. *(Flag: Fabric Walls listing an "Acoustic
+Treatment Design Service" overlaps CATS's own service — clarify the relationship: is this CATS
+delivered through Fabric Walls, or a separate FW offer?)*
+
+## Cross-brand link
+
+Fabric Walls is the **visible surface that hides the room's systems.** Acoustic performance comes
+from the **core/substrate behind the fabric** (= **CATS**); the frame/fabric also conceal AV, DT
+screens/masking, lighting and joinery. The "Porthole & Vent" element and "Halo LED" also touch DT
+(port holes) and Light Walls territory. Physical embodiment of the whole-room play.
+
+## Experience Centre
+
+*"See the Fabric Walls system in a complete, real-world media room."* Demonstrates the Method
+(Panels → Elements → Kits); book a visit. (The shared SRND Experience Centre, brand-facing.)
+
+## Channels & social reality (thin)
+
+- **LinkedIn:** `company/fabricwalls` — **only ~85 followers**; posts are auth-gated (couldn't read
+  individual posts here); the "about" copy is captured above.
+- **Facebook:** `facebook.com/fabricwallsuk` — page is login-walled to a non-logged-in fetch; posts
+  not publicly readable here.
+- **No YouTube and no Instagram** linked from the site — a gap vs DT (FB/IG/LI/YT), and notable given
+  YouTube's weight in the strategy. To actually understand the social *posts*, they'd need to be
+  shared/exported (gated to scraping).
 
 ## Questions to resolve in messaging (flag, don't guess)
 
-- What we want Fabric Walls to *say* — the lead — beyond "faster, smarter fabric interiors."
-- Interior Kit **level naming** (numbered 1–4 vs Essential/Performance/Advanced) — settle one.
-- How hard to lean on the **whole-room / hides-everything** role vs standalone fabric-walling.
-- The **approved-installer** programme — is it real/active, and how it relates to the group's
-  partner model.
+- The lead message beyond "faster, smarter fabric interiors" / "easiest, fastest, most reliable."
+- Interior-Kit **level naming** (1–4 vs Essential/Performance/Advanced) — settle one.
+- The **Acoustic Treatment Design Service** vs CATS — clarify the relationship.
+- The **Approved Installer** programme — real/active? how it relates to the group partner model.
+- Thin reach (85 LinkedIn followers, no YouTube/Instagram) — a build task, not an optimisation.
