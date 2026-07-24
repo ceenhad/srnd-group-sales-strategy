@@ -1,8 +1,9 @@
 # Execution standards
 
 Good execution falls straight out of the buyer journey (`03-buyer-journey.md`), and it is largely a
-matter of process. It is mostly a checklist worked through without gaps and timed right — the skill
-is completeness and timing, not brilliance. That's good news: it's enumerable.
+matter of process: a checklist worked through without gaps and timed right. The skill is completeness
+and timing, not brilliance — which means it can be written down and checked rather than left to
+instinct, and is therefore something a small team can hold to reliably.
 
 - **No gaps.** Every stage has an asset and a touchpoint — nowhere the dealer stalls with nothing to
   move them on.

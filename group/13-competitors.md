@@ -133,7 +133,7 @@ one hardest.** Their range maps onto several SRND brands at once:
   and unusual **pricing transparency** (ballpark media wall from ~£5k, full cinema room from ~£20k;
   supplied + fitted by third-party installers). Billable design services (drawings, 3D concept models).
 
-- **The tell that matters most: CBS-MASK's control is a *Future Automation control board*** (contact
+- **The most telling detail: CBS-MASK's control is a *Future Automation control board*** (contact
   closure / IR / RS232). So CBS doesn't build control — it buys FA's. Neither CBS nor FA has anything
   like DT's Commander. Across this whole field, **control is the gap SRND owns** (see strategic read).
 
