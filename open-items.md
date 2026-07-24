@@ -5,11 +5,12 @@ Group-level decisions and build order. Brand-specific open items live in each
 
 ## Decisions needed (flag, don't guess)
 
-- **Group identity line / positioning statement** — unresolved. Both current lines are felt to be
-  weak: the store's "luxury solutions for high-tech environments" and the group site's "British
-  manufacturing for high-end environments" (the latter is closer). Needs a stronger line that
-  carries the group truth — British design + manufacture, the whole room system end to end, one
-  relationship, engineered/measured, trade-only. Don't hard-code a tagline until settled.
+- **Group identity line / positioning statement** — unresolved, but now anchored. Both current lines
+  are weak (the store's "luxury solutions for high-tech environments"; the group site's "British
+  manufacturing for high-end environments"). It should **derive from the moat** (`group/14-moat.md`):
+  technical depth + understanding of the dealer's job → "we understand you, we make things to help,
+  those things make you better than anyone." Draft against that spine; don't hard-code a tagline
+  until settled.
 - **SRND Solutions go-to-market** — the forthcoming own-made sensors/interfaces line
   (`group/09-brand-portfolio.md`) deliberately doesn't fit inside a brand, yet the model makes
   brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a

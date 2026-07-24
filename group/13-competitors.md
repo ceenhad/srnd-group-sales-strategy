@@ -143,8 +143,9 @@ one hardest.** Their range maps onto several SRND brands at once:
    DT's *mechanisms* from CAD; Cinema Build Systems *buys FA's control board* for its masking screen.
    Nobody in this set builds control anywhere near the DT Commander. Mechanisms and fabric and foam
    are copyable and are being copied; **the control platform, its integration/diagnostics/safety, and
-   the field know-how are not.** This is the single strongest, most defensible place to stand — lead
-   DT on it, and it strengthens the group.
+   the field know-how are not.** → This is the *evidence* for the group moat: it's the un-copyable
+   half (technical depth). The full moat pairs it with **understanding the dealer** — see
+   [`14-moat.md`](14-moat.md).
 2. **Cinema Build Systems is the whole-room competitor to beat.** They've already packaged the
    fabric-walling-plus-acoustics-plus-lighting-plus-screens/masking play SRND is built for —
    configurator-led, with dealer training, installer/consumer journeys and public ballpark pricing,

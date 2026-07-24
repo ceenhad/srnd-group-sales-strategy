@@ -21,6 +21,10 @@ ad-hoc, with no plan followed beyond "have more than nothing." So the existing s
 **placeholders to re-base on the plan, not strategy to preserve** — this is the first real plan, not
 a tidy-up of an existing one.
 
+**The spine that story flows from is the moat** (`group/14-moat.md`): deep technical depth joined to
+a deep understanding of the dealer's job — *"we understand you, we make things to help, those things
+let you be better than anyone else."*
+
 The organising principle SRND runs on: **the group introduces, the brands focus the marketing, the
 store sells.** `srnd.group` opens the funnel and introduces the company (the start of a series of
 landing pages); the brands are how the sales & marketing is focused, each with its own fairly
