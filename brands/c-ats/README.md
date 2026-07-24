@@ -20,6 +20,10 @@ restated here.
 - `content.md` — the 3 Rs content, guardrails, creative approach, the layered build.
 - `product-pricing.md` — the range and the (gated) tier work.
 - `open-items.md` — C-ATS-specific decisions and sequencing.
+- `brand-data.md` — the public front (`c-ats.co.uk` holding page) and live-site-vs-brand-truth
+  tensions to reconcile.
+- `acoustic-engine.md` — the engineering differentiator: measured (BSRIA) per-panel data + the RT60
+  modelling engine; the CATS instance of the group's measurement/data moat.
 
 ## Brand truth
 
