@@ -11,6 +11,12 @@ trade's) before acting; a marketing site shows the shopfront, not the truth.
 Premium heritage brand — *"70 years of innovation," "handcrafted screens and materials."*
 - **Range:** fixed-frame, retractable and rigid screens; specialty optical coatings; a **QuickSHIP**
   fast-lead-time line; **Cima by Stewart** as an accessible sub-brand.
+- **The two-tier play (worth learning).** The premium line is bespoke/custom; **Cima** is a separate
+  **value line for the routine, in-stock end** — "designed and built in the USA," ETL-approved,
+  preconfigured size ranges (HD/Scope/16:9), above-ceiling / below-ceiling electric + fixed-frame,
+  two fabrics (16K+ Neve matte white; Tiburon G4 neutral-density grey), a **proprietary control
+  system integrated into the case**, and **easy ordering**. It targets integrators ordering
+  frequently-used sizes immediately — widening the funnel below the flagship.
 - **What they do well:** material science as a named competency (they teach "Screen Materials" and
   license/sell them); deep **educational content** (Ambient Light Guide, Viewing Angles Guide, white
   papers, how-to articles, case studies); a **Screen Finder tool** ("not sure what you need?") that
@@ -19,11 +25,14 @@ Premium heritage brand — *"70 years of innovation," "handcrafted screens and m
 
 ### Screen Research (France, part of Adeo Group) — `screenresearch.com`
 *"The finest projection screens," the "reference standard," 20+ years, made in Europe.*
-- **What they do well:** **masking depth** — a whole typology (X-Mask 4-way; 2-way lateral;
-  top-bottom; motorised E-Mask); branded **proprietary surfaces** with clear naming and typologies
-  (FusionPix, SolidPix, ALR); a **"Configure Your Screen"** configurator; named aspirational
-  **showcases** (Bryanston private cinema, Bentley home cinema); patented-tech + European-manufacture
-  credibility.
+- **What they do well:** **masking depth** — a full typology across fixed-frame, on-ceiling/on-wall
+  and in-ceiling **motorised** screens: the Reference **X-Mask** range (**X4R3 4-way**, XLR3 2-way
+  lateral, XTR3 2-way top-bottom) and Supreme **E-Mask** range, plus a curved **TheaterCurve**
+  option, sizes to ~280″ image width. Branded **proprietary surfaces** (ClearPix / FusionPix /
+  SolidPix / ALR) with clear typologies; a **"Configure Your Screen"** configurator (separate login);
+  an **authorised-partner** network; named aspirational **showcases** (Bryanston, Bentley);
+  patented-tech + European-manufacture credibility. (On masking, 4-way is their top — DT Dynamic's
+  5-edge incl. the Art patch still goes further.)
 
 ### Screen Excellence — `screenexcellence.com`
 *"The screen at the core of your PRIVATE CINEMA."*
@@ -96,16 +105,49 @@ gating. See open items.
 
 ## Whole cinema build (vs the group — Fabric Walls, CATS, DT, Light Walls)
 
-### Cinema Build Systems (UK) — `cinemabuildsystems.co.uk`
+### Cinema Build Systems (UK, York) — `cinemabuildsystems.co.uk`
 *"We design and manufacture systems to build home cinemas and media walls."* **The closest analog to
-SRND's whole-room proposition — study this one hardest.**
-- **What they do well:** a productised **"product ecosystem"** for building the whole room — Core
-  (track, fabric, detail, **acoustics, lighting**, create), **Halo Frame** (edge/slim/wide, **mask**,
-  porthole optics, projector shelf), Space Frame, screens — i.e. framing + fabric + acoustics +
-  lighting + masking + screens as **one coordinated system**. Backed by **configurators** (Core
-  Configurator, Halo Frame Configurator), a **trained/authorised installer network**, separate
-  **installer vs consumer journeys**, and "inspiration" content. This is exactly the whole-room,
-  one-supplier play SRND makes across its brands — packaged and configurator-led.
+SRND's whole play — effectively a mini-SRND, and based in Yorkshire, on SRND's doorstep. Study this
+one hardest.** Their range maps onto several SRND brands at once:
+
+- **Core = stretch-fabric walling** (vs **Fabric Walls**): track system (12mm compact / 18mm / 25mm
+  bevelled), own **fabrics** ("Wäll" pure new wool with acoustic transparency, *locally produced in
+  Yorkshire*; "Hügg"), **Detail** (brushed-metal inlay trims, LED beam modules in the walling), plus
+  Acoustics and Lighting — an end-to-end fabric-walling room build.
+- **Acoustics** (vs **CATS**): "Soft Slab" open-cell **foam** absorber panels (Class 0 fire-rated,
+  sized to their tracks) and "Reactor" composite **sound-dispersal** panels. *Note: commodity foam +
+  dispersal, versus CATS's engineered 3 Rs — a quality gap SRND can press (and CATS says scattering,
+  not dispersal/diffusion).*
+- **Lighting** (vs **Light Walls**): curated LED tape (SMD + COB "BEAM" high-density).
+- **Halo Frame + Screens** (vs **DT**): framed AT screens — CREATE (cost-effective installer-built
+  AT fixed screen), Halo Edge/Slim/Wide (velvet-bezel magnetic-mount AT screens with integrated LED
+  perimeter), and **CBS-MASK** (velvet-bezel dual-aspect 2.4:1↔16:9 lateral masking). Porthole
+  Optics, Projector Shelf. **Space Frame (Gen 2)** substructure "coming soon."
+- **What they do well:** the productised **whole-room ecosystem** as one coordinated system;
+  **configurators** (Core Configurator sizes panels/fabric/trims/track from wall H×W; Halo Frame
+  Configurator); monthly **dealer training** at their York office; **installer vs consumer** journeys;
+  and unusual **pricing transparency** (ballpark media wall from ~£5k, full cinema room from ~£20k;
+  supplied + fitted by third-party installers). Billable design services (drawings, 3D concept models).
+
+- **The tell that matters most: CBS-MASK's control is a *Future Automation control board*** (contact
+  closure / IR / RS232). So CBS doesn't build control — it buys FA's. Neither CBS nor FA has anything
+  like DT's Commander. Across this whole field, **control is the gap SRND owns** (see strategic read).
+
+## Strategic reads (the two that matter most)
+
+1. **Control is the gap SRND owns — across the whole field.** Future Automation (per Neil) copied
+   DT's *mechanisms* from CAD; Cinema Build Systems *buys FA's control board* for its masking screen.
+   Nobody in this set builds control anywhere near the DT Commander. Mechanisms and fabric and foam
+   are copyable and are being copied; **the control platform, its integration/diagnostics/safety, and
+   the field know-how are not.** This is the single strongest, most defensible place to stand — lead
+   DT on it, and it strengthens the group.
+2. **Cinema Build Systems is the whole-room competitor to beat.** They've already packaged the
+   fabric-walling-plus-acoustics-plus-lighting-plus-screens/masking play SRND is built for —
+   configurator-led, with dealer training, installer/consumer journeys and public ballpark pricing,
+   and they're in Yorkshire too. **SRND's edge over them:** real manufacturing depth across *more* of
+   the room, **engineered acoustics (CATS 3 Rs) vs their commodity foam**, and **genuine control (DT
+   Commander) vs their bought-in FA board**. **SRND's gap to close:** the packaging — configurators,
+   an installer-training/network programme, clearer journeys, and a view on pricing transparency.
 
 ## Cross-cutting — patterns worth learning
 
