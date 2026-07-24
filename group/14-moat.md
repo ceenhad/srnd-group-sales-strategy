@@ -4,12 +4,17 @@ What SRND's competitive advantage actually is — and the spine every message an
 
 ## The moat, in one sentence
 
-SRND's moat is **deep technical mastery joined to a deep understanding of the dealer's project and
-needs**, and the products that come out of that pairing. It is not any single feature, box or brand.
-More precisely (see the stress test at the foot of this doc): *neither leg alone is unique* —
-serious competitors also understand dealers, and per-domain specialists match our depth — so the
-moat is the pairing held **across the whole room, in one group and one relationship, with the
-control that ties the room together.** That intersection is the part competitors cannot copy.
+SRND's moat is **unmatched technical depth — already the engine of the business — pointed squarely
+at the dealer's project and needs**, and the products that come out of that pairing. Our depth is
+genuinely unmatched (work arrives as *"I have an impossible project — can you do it?"* because no one
+else can); *dealer-understanding* is the more contestable leg. What competitors cannot copy is the
+depth itself and — held **across the whole room, in one group and one relationship** — its pairing
+with real dealer-understanding.
+
+**Crucially, the moat is not a boast about superiority.** Unmatched depth asserted on its own is just
+arrogance (see "The arrogance trap" below). The moat is that depth **spent on making the dealer
+better** — the dealer is the hero, our depth is how we make *them* unbeatable. That discipline is
+what lets SRND own world-class depth without alienating the very people it's for.
 
 ## Said the way the dealer hears it
 
@@ -24,6 +29,24 @@ Three beats, in order — the through-line for group, brand and product alike:
 
 **Everything we say and make must be an instance of this.** If a product or a message isn't
 "we understand you → we made this to help → it makes you better," it is off-thesis.
+
+## The arrogance trap — face it head-on
+
+The real danger, named so we confront it rather than skirt it. Our technical depth is genuinely
+**unmatched** — but *unmatched depth, asserted on its own, reads as arrogance.* "We're the best, no
+one else can do this" is true and insufferable at the same time. And this is a **niche world where
+reputation travels**: a "brilliant but arrogant" read is exactly the kind of thing people already
+"know to be true," fairly or not. Making raw superiority the moat of the strategy would confirm it.
+
+**The answer is not to hide the depth — it's to point it at the dealer.** The hero is the dealer,
+not us. Our depth is how we make *them* unbeatable, never how we win an argument about who's
+cleverest. Depth **spent on the customer** reads as generosity; depth **asserted** reads as
+arrogance — same depth, opposite reception.
+
+So the "extra" legs — understanding the dealer, and valuing them (the honest gap above) — are **not
+there because the depth is weak.** The depth is our strongest thing. They're there because they are
+**the only way to wield unmatched depth and be liked for it.** This is non-negotiable in the voice
+(`CLAUDE.md`): never lead with our brilliance; lead with the dealer's win.
 
 ## Why it's a moat (defensible)
 
@@ -114,19 +137,23 @@ Every row is the same three beats — that consistency *is* the group story.
 Pressure-tested adversarially against the competitor evidence (2026-07-24). It holds — but not
 where the headline framing first implied, and it has real soft spots to fix.
 
-**Each leg alone is contestable (so the leg is not the moat):**
-- *"We understand the dealer"* is **not unique.** Cinema Build Systems is built dealer-first
-  (installer training, configurators, installer/consumer journeys); Future Automation sells bespoke
-  flexibility integrators value. Dealer-understanding is table stakes among the serious competitors.
-- *"Technical depth"* is **matched per-domain.** A single-domain specialist can out-depth us —
-  Ketra on colour (sensor-based, patented to 2029), Screen Excellence on AT screens (named pro-audio
-  proof), Stewart on screen materials. Depth in one lane is contestable.
+**One leg is genuinely ours; the other must be earned:**
+- **Technical depth is unmatched — and is what the business runs on today.** *Correction to the
+  first draft of this test:* the claim that per-domain specialists (Ketra, Screen Excellence,
+  Stewart) match or beat our depth was **wrong** — it trusted competitors' marketing pages over the
+  real capability (exactly the trap we keep flagging: a site shows what they *say*, not what they can
+  *do*). The live proof is the business itself — impossible projects come to SRND *because no one
+  else can do them.* Depth is the raw, proven asset, not the soft leg.
+- **Dealer-understanding is the more contestable leg.** Serious competitors have some (Cinema Build
+  Systems is built dealer-first; Future Automation sells bespoke flexibility). This is the leg to
+  earn and evidence, not assume.
 
-**Where it actually lands (the defensible intersection):**
-Both legs held **across the whole room, in one group and one relationship, with the control layer
-tying the room together.** No competitor occupies it: Ketra is deep in colour but does no acoustics;
-Screen Excellence deep in AT screens, not lighting/audio; CBS does whole-room but on commodity foam +
-a bought-in control board (shallow depth). **Breadth × depth × one relationship** is the empty square.
+**So the moat is not "we're the deepest" (true, but arrogant — see the arrogance trap).** It's that
+unmatched depth **pointed at the dealer**, and — held **across the whole room, in one group and one
+relationship** — paired with real dealer-understanding. No competitor occupies that: Ketra is deep
+in colour but does no acoustics; Screen Excellence deep in AT screens, not lighting/audio; CBS does
+whole-room but on commodity foam + a bought-in control board (shallow depth). **Depth × breadth ×
+one relationship, spent on the dealer** is the empty square.
 
 **The soft spots (honest):**
 1. **Latent, not active.** The depth isn't told (the whole reason for this exercise). A moat nobody
@@ -143,7 +170,10 @@ a bought-in control board (shallow depth). **Breadth × depth × one relationshi
    moats live in systems, not people — converting the understanding into institutional form is a risk
    to manage.
 
-**Verdict.** The moat is real and genuinely defensible — as **whole-room depth + dealer-understanding
-+ control, in one relationship** — but it is currently **latent, under-proven, relationship-neglected
-and person-concentrated.** The strategy's job is to *activate* it: **tell** it (the coherence work),
-**prove** it (case studies, verification), **tend** it (appreciation), and **institutionalise** it.
+**Verdict.** The moat is real and genuinely defensible. The **depth itself is not a soft spot — it's
+the strongest asset, and unmatched.** The soft spots are all in how we *wield and express* it: it's
+**latent** (untold), **under-proven** (thin case studies), **relationship-neglected** (appreciation
+at zero), **person-concentrated** (lives in a few heads), and — the big one — must be expressed
+**dealer-first to avoid reading as arrogance.** The strategy's job is to *activate* it: **tell** it
+(the coherence work), **prove** it (case studies, verification), **tend** it (appreciation),
+**institutionalise** it — and, throughout, **point it at the dealer, never boast it.**

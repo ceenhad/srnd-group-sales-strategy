@@ -73,6 +73,11 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
 - Speaks to the trade partner (the dealer/integrator) first — they are the reader and the asset.
 - No manufactured urgency, no superlatives, no unbacked claims. The content *is* the rep; a rep who
   fumbles the pitch loses a valuable dealer.
+- **Never lead with our own brilliance — lead with the dealer's win.** Our technical depth is
+  genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
+  niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
+  customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
+  See `group/14-moat.md` ("The arrogance trap").
 
 ## Hard don'ts
 
