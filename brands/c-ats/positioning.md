@@ -199,7 +199,7 @@ governs anyone writing C-ATS copy.
 > C-ATS doesn't treat a room in isolation. It's the acoustics within a room the group also builds —
 > the screen, the lighting, the fabric, the speakers — so the treatment is designed to work with
 > everything around it, supplied and supported through one relationship rather than five. For the
-> integrator, the least visible and hardest part of the room comes from the same people, held to the
+> integrator, the least visible part of the room comes from the same people, held to the
 > same standard, as all the rest.
 
 **The reasoning under it**
