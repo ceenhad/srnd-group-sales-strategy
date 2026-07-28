@@ -33,20 +33,20 @@ Group-level decisions and build order. Brand-specific open items live in each
   (`group/09-brand-portfolio.md`) deliberately doesn't fit inside a brand, yet the model makes
   brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a
   cross-brand group line attached to installs. Also its launch timing (don't market before it ships).
-- **Third-party audio versus Pro-Fi** — carried cinema speaker and amplifier lines occupy Pro-Fi's
-  territory. Defensible while Pro-Fi's range is largely design-intent and Pantheon is pre-release, but it
-  needs an end state rather than a drift, or it competes with Pro-Fi exactly when Pro-Fi needs the
-  channel's attention. See `group/19-direct-and-carried-lines.md`.
+- ~~**Third-party audio versus Pro-Fi**~~ — **RESOLVED.** All carried cinema audio (Mag Theatron,
+  PhaseTech/SoundTube, dARTS) is deleted everywhere. Pro-Fi is the group's audio brand, and the roster
+  principle is now general: **we carry nothing that competes with our own brands.** See
+  `group/19-direct-and-carried-lines.md`.
 - **Store roster — DECIDED; execution outstanding.** The carried roster is settled at three lines in three
   roles: **Leyard** (the distributed brand, trade only), **MadVR** (SRND Store only, as an accessory to
   Leyard), **Advatek** (both stores, small-range component necessity). **Sylvox, Poet and Stealth Acoustics
   are removed.** What remains is doing it: delist those three, take Leyard and MadVR off Cinema Store, fix
   the "Complete ATS" vendor name on both stores, and re-attribute the isolation products (MIRS, penetration
   back boxes) from "SRND Store" to C-ATS. See `group/19-direct-and-carried-lines.md`.
-- **Pro-Fi is absent from `srnd.store`.** Zero products listed, while carried third-party lines are. This
-  contradicts the "one account, one checkout across every brand" model (`group/09-brand-portfolio.md`) and
-  matters more now Pro-Fi is the group's high-multiplier line. Pro-Fi sells direct through its own channel
-  today; decide whether it joins the group store, and on what terms.
+- **Pro-Fi on `srnd.store` — sequencing, not a decision.** Pro-Fi isn't listed because it isn't ready to be
+  sold online yet. When it is, the Pro-Fi site drives to SRND Store exactly as every other brand does; the
+  one-account-one-checkout model is unchanged. Gated on range and platform readiness
+  (`brands/pro-fi/positioning.md` §7).
 - **C-ATS naming** — the group site uses "C-ATS" and spells out "Complete Acoustic Treatment System"
   openly, but the C-ATS brand-truth `CLAUDE.md` still flags the "Complete" expansion as unresolved
   and prefers "C-ATS"/"Cinema". Resolve the canonical name and align brand truth, the group site and

@@ -118,6 +118,15 @@ Decided for removal from the roster, and to be delisted wherever they appear:
 - **Poet** — media server, creator software, stereo camera. Goes completely.
 - **Stealth Acoustics** — reduced to a single accessory; residue of a relationship rather than a line.
   Goes.
+- **All carried cinema audio** — Mag Theatron, PhaseTech / SoundTube, dARTS. **Deleted everywhere**, both
+  stores. Pro-Fi is the group's audio brand, and the group will not carry lines that compete with it.
+
+### The principle behind the roster
+
+What is left is coherent, and the coherence is the point: **we carry nothing that competes with our own
+brands.** Leyard supplies a display technology we don't make; MadVR is an accessory to it; Advatek is a
+component our own lighting needs. Every removal above was either off-thesis or in a brand's own territory.
+Apply the same test to anything proposed in future.
 
 ### Snapshot at the time of the decision
 
@@ -126,11 +135,14 @@ Captured from the public product feeds, 2026-07-28 (gated items may not appear, 
 - **`srnd.store`, 125 products.** Own brands: Fabric Walls 42, Display Technologies 36, Light Walls 13,
   C-ATS 4, plus 9 under an "SRND Store" vendor (commissioning services, Ultrasuede, and the MIRS Modular
   Isolated Room System). Carried: Sylvox 8, Leyard 4, Poet 4, MadVR 3, Advatek 1, Stealth Acoustics 1.
-- **`cinema-store.com`, 126 products** — a wider carried set again, including cinema audio lines (Mag
-  Theatron, PhaseTech/SoundTube, dARTS) and Barco Residential. Those audio lines are **not covered by the
-  decision above**: they sit in Pro-Fi's territory and belong to the separate question of third-party
-  audio versus Pro-Fi (`open-items.md`). Leyard and MadVR should come **off** Cinema Store, since both are
-  trade-channel only.
+- **`cinema-store.com`, 126 products** — a wider carried set again, including the cinema audio lines now
+  deleted (Mag Theatron, PhaseTech/SoundTube, dARTS) and a Barco Residential listing. Leyard and MadVR come
+  **off** Cinema Store, both being trade-channel only. *(Barco appears only on Cinema Store and wasn't part
+  of the roster decision — a loose end to confirm.)*
+
+**Pro-Fi's absence from `srnd.store` is a readiness matter, not a gap in the model.** Pro-Fi simply isn't
+ready to be sold online yet. When it is, the Pro-Fi site will drive to SRND Store exactly as every other
+brand does, and the one-account-one-checkout model holds unchanged.
 
 Two data problems to fix while delisting:
 
@@ -153,14 +165,13 @@ Keeping those two jobs distinct is what makes both work.
 
 ## What still has to be decided
 
-- **Execute the delisting.** The roster is decided (above); the stores don't reflect it yet. Remove
-  Sylvox, Poet and Stealth Acoustics entirely; take Leyard and MadVR off Cinema Store; fix the C-ATS
-  vendor name and the isolation-product attribution.
-- **Pro-Fi is absent from `srnd.store` entirely.** Zero products, while six carried lines are listed.
-  That contradicts the stated model — one account and one checkout across every brand
-  (`09-brand-portfolio.md`) — and it matters more now that Pro-Fi is the group's high-multiplier line.
-  Pro-Fi currently sells direct through its own channel; whether it joins the group store, and on what
-  terms, needs deciding.
+- **Execute the delisting.** The roster is decided (above); the stores don't reflect it yet. Remove Sylvox,
+  Poet, Stealth Acoustics and all carried cinema audio entirely; take Leyard and MadVR off Cinema Store;
+  fix the C-ATS vendor name and the isolation-product attribution. Confirm what to do with the Barco
+  listing.
+- **List Pro-Fi on `srnd.store` when it's ready** — driving from the Pro-Fi site to the store, as every
+  other brand does. Not a decision, just a sequence, gated on the range and platform being ready to sell
+  (`brands/pro-fi/positioning.md` §7).
 - **Third-party audio versus Pro-Fi.** Carried cinema speaker and amplifier lines sit in Pro-Fi's
   territory. That is defensible while Pro-Fi's range is largely design-intent and Pantheon is
   pre-release, but it needs to be a decision with an end state rather than a drift, or it will compete
