@@ -54,10 +54,11 @@ in one place for every brand.
   is whether a purchase needs a relationship. Non-channel items go public and self-serve on
   `cinema-store.com`; anything needing specification or design stays in the trade channel. Also why we
   carry no-margin adjacencies (completeness and retention, not profit).
-- `20-tools-and-calculators.md` — **tools and calculators**: they're the biggest driver of engagement and
-  time saving, so bias toward building them. The failure mode is *implication*, not disclosure — solved by
-  hosting (neutral Cinema Tools vs brand site vs consumer store) and by the existing three-level tiering.
-  Includes the three-part test any tool must pass.
+- `20-tools-and-calculators.md` — **tools and calculators**: the biggest driver of engagement and time
+  saving, so bias toward building them. What's sold is the *report*, not tool access ("the deliverable is
+  the recipe, not the recipe-finder"), so a free calculator can't cannibalise paid design. The failure mode
+  is *implication*, not disclosure — solved by Cinema Tools being the master brand for design tooling.
+  Includes the three-part test any tool must pass, and the value ladder.
 
 **Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
 Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately

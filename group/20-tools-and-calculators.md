@@ -3,121 +3,154 @@
 *Where calculators fit commercially, and the rule for what may be published where. Internal.*
 
 *The Cinema Platform repo (`ceenhad/cinema-platform`) is authoritative for what the tools are and how
-they're built — in particular Cinema Tools ADR 014, which defines the three-level structure. This
-document is the **commercial** position: it references that structure rather than redefining it, and the
-platform is otherwise deliberately kept outside this repo's scope.*
+they're built. This document is the **commercial** position and references those decisions rather than
+restating them. Grounded in Cinema Tools **ADR 017** (commercial-first, engine depth as IP, report as the
+monetised deliverable), **ADR 019** (C-ATS partner tool placement and brand framing), **ADR 036** (engines
+are cloud-hosted; the local installable is retired) and **ADR 040** (operator surfaces over the design
+spine). An earlier draft of this document leaned on ADR 014's three-level tiering; 017 and 036 retired
+its substance, so it should not be used as a basis for commercial choices.*
 
 ## Calculators are central, not a risk
 
-Calculators are the single most important driver of engagement and time saving we have. They answer a
-real question instantly, they demonstrate competence rather than asserting it, and — used properly —
-they capture a lead while doing it. The strategy should be biased *toward* building them.
+Calculators are the single most important driver of engagement and time saving we have. They answer a real
+question instantly, they demonstrate competence rather than asserting it, and — used properly — they
+capture a lead while doing it. The strategy should be biased *toward* building them.
 
-An earlier draft of the C-ATS strategy said "no public calculators" on the grounds that a calculator
-commoditises chargeable design. That reasoning was wrong and is withdrawn. What C-ATS sells isn't
-arithmetic: it's measured data, judgement, and the fact that C-ATS puts its name behind the result and
-can verify it in the finished room. **Accountability cannot be commoditised.** A tool produces a number;
-only we can be responsible for it.
+An earlier version of the C-ATS strategy said "no public calculators" on the grounds that a calculator
+commoditises chargeable design. That reasoning was wrong and is withdrawn.
+
+## What is actually sold: the report, not the tool
+
+This is the decision that settles the whole question, and it is already made. Under ADR 017 the monetised
+deliverable is **the report**, not access to a tool — residential design-it-yourself subscription is
+explicitly retired. The engine substrate (**Tessellate**) is the IP: what the engines *compute*, not how
+the interface looks. Speed-to-report — minutes rather than days, with full acoustic and performance-level
+evaluation — is the value proposition.
+
+The platform's own phrasing is the cleanest statement of it: **"the deliverable is the recipe, not the
+recipe-finder."**
+
+Once that is understood, the anxiety about calculators dissolves. A free calculator cannot cannibalise a
+paid design service, because what the service sells is a *deliverable carrying accountability* — measured
+data, judgement, and a result somebody stands behind and can verify. Arithmetic was never the product.
+
+A useful discipline travels with it: **UI polish is a qualifier, not the IP.** It must not embarrass the
+engine, but it isn't where we compete. That is the same instinct as the group's voice — substance over
+surface.
 
 ## The real failure mode is implication, not disclosure
 
-The genuine objection is narrower and more important. A C-ATS calculator hosted on the C-ATS website
-can never replace a £5,000 design service — but **its mere presence implies that it might.** The damage
-is done by placement and framing, not by giving anything away.
+The genuine objection is narrower and more important than commoditisation. A C-ATS calculator hosted on
+the C-ATS website can never replace a £5,000 design service — but **its mere presence implies that it
+might.** The damage is done by placement and framing, not by giving anything away.
 
 That gives a three-part test for any tool, drawn from tools we already run:
 
 1. **Can it completely answer the question it poses?** DT Create can — ideal screen size, then draw the
-   screen. A reflection-point calculator can — the geometry is the whole answer. "How much treatment
-   does my room need" cannot, honestly, in a web form.
+   screen. A reflection-point calculator can — the geometry is the whole answer. "How much treatment does
+   my room need" cannot, honestly, in a web form.
 2. **Does it imply it answers a bigger question than it does?** This is the C-ATS failure mode. A tool
    must be visibly bounded, so nobody mistakes sizing for design.
 3. **Does it close its own loop?** Real value to the user, a lead or data to us, and **no hidden manual
-   work.** DT Create is the cautionary detail here: it captures the lead well, but asking the user to
-   *request* the CAD means someone then spends twenty minutes generating and emailing it. Automating
-   that generation and delivery — already in hand — is what turns a good calculator into a good business
-   process. Un-automated, a popular tool is a tax on our own people.
+   work.** DT Create is the cautionary detail: it captures the lead well, but asking the user to *request*
+   the CAD means someone then spends twenty minutes generating and emailing it. Automating that — already
+   in hand — is what turns a good calculator into a good business process. Un-automated, a popular tool is
+   a tax on our own people.
 
-## Hosting is the structural answer
+## Cinema Tools is the master brand for design tooling
 
-The implication problem is solved by *where* a tool lives, not by how it's worded.
+Per ADR 019, **Cinema Tools is the master brand across the entire design surface**, and
+`cinema-tools.com` is the lead-magnet front door. This is a stronger arrangement than hosting tools under
+brand names, and it is what resolves the implication problem structurally:
 
-- **`cinema-tools.com` — the neutral property.** Free, credited to SRND but not a brand front. A
-  capable calculator here undercuts nothing, because Cinema Tools isn't C-ATS. This is why holding
-  Cinema Tools apart from the brands was right, and it means the answer already exists rather than
-  needing invention.
-- **Brand sites — product-configuring tools.** Tools that size and specify *our product* and lead to a
-  purchase, a CAD or a quote. DT Create is the model.
-- **`cinema-store.com` — buying-support tools.** For self-builders there is no chargeable design to
-  protect, so configurators and estimators are pure asset. **No-calculators was only ever a channel
-  rule, never a universal one** — worth stating plainly, or the trade caution gets applied here by
-  reflex and removes an advantage. (The AVshop.no reference runs both a system configurator and an
-  automatic sound-isolation calculator; see `19-direct-and-carried-lines.md`.)
+- **Free calculators live on cinema-tools.com** and exist for discovery, SEO and authority.
+- **The C-ATS partner tool inherits the Cinema Tools brand** rather than being a C-ATS-branded tool. Its
+  outputs carry **"Powered By Cinema Tools"** bylines, so a partner and an end-user see one brand across
+  the whole free → partner-engagement lifecycle.
+- **"Cinema Tools Online" is not used externally** — it was internal framing tied to the retired
+  subscription product.
 
-## The tiering already exists
+So a capable tool never sits *on* a brand site implying that brand's paid service is unnecessary. The
+design surface is Cinema Tools throughout; the brands sell products, services and accountability.
 
-Cinema Tools ADR 014 defines a three-level structure, and it does the commercial work we need:
+Two consequences worth recognising as group assets already built rather than planned:
 
-- **Level 1 — Calculators.** Free, no login, deliberately scoped to *basic residential* design. Seven
-  tools; **each one a discrete SEO landing page** targeting specific search queries, with **optional
-  lead capture on PDF download**.
-- **Level 2 — Cinema Tools Online.** A *paid* design environment covering commercial and residential
-  design in depth.
-- **Level 3 — Cinema Tools Pro.** Local installable for heavy compute — FEM solves, multi-sub modal
-  optimisation, **treatment placement** — with an interactive 3D front end.
+- **Lead capture is the on-ramp hinge in product form.** Free calculators offer lead capture on PDF
+  download, landing in the **SRND Engine `leads` table** (ADR 020 — Monday retired). A useful PDF traded
+  for contact details is exactly the registration-and-permission moment (`17-on-ramp.md`), won willingly
+  rather than extracted.
+- **Each calculator is a discrete SEO landing page** targeting specific queries — the GEO/AEO strategy
+  implemented, not aspired to.
 
-Why that settles the C-ATS worry: a free tool cannot imply it replaces serious design when visibly more
-capable **paid** tiers of the same product line exist, and the capability that actually competes with a
-design service — treatment placement — sits at Level 3 behind local heavy compute, not in a web form.
-The tiering communicates the boundary that an isolated calculator on a brand site cannot.
+## The value ladder
 
-Two of these are group-strategy assets already built rather than planned, and should be recognised as
-such:
+ADR 017 sets out how design revenue actually arrives, and it is a ladder rather than a product:
 
-- **Lead capture on PDF download is the on-ramp hinge in product form.** A free tool that trades a
-  useful PDF for contact details is precisely the registration-and-permission moment
-  (`17-on-ramp.md`) — and it is voluntary, valuable and honest, which is how permission should be won.
-- **Calculators as individual SEO landing pages** are the GEO/AEO strategy implemented, not aspired to.
+free calculators (discovery and authority) → **partner-gated C-ATS reporting tool** (the residential
+revenue route through the partner channel) → **Pro Design escalation at £500, invoiced per engagement**
+→ partner-network escalation → brand-partnered recipe packs (Pro-Fi is the proof) → and, separately, the
+full C-ATS design service and verification where a project warrants it.
+
+No subscription billing: partner access is gated by SRND-managed credentials. **Which means tool access
+as a partner benefit is already the operating model**, not a proposal — and it is precisely the currency
+the partner programme runs on: spend the depth, not the margin (`18-partner-programme.md`).
 
 ## C-ATS specifically
 
-- **No design-replacing calculator on the C-ATS site.** Not because of what it would reveal, but because
-  of what its presence would imply.
-- **Do publish worked examples showing how quantities are derived.** Method transparency, without
-  suggesting the room can be solved by a form. This is the bridge that lets a competent dealer handle
-  straightforward rooms.
-- **A reflection-point calculator is a good candidate**, and it passes all three tests: it is *geometry,
-  not acoustic design*. It answers "where do first reflections land" completely and honestly, and it
-  doesn't pretend to answer "will this room perform" — which is what the design service and verification
-  own. A placement tool, not a design tool. It is also the notable gap in Cinema Tools' own set, sitting
+- **The partner tool question is decided, not open.** Under ADR 019 the C-ATS tool is the closed-network
+  residential variant of the thin web entry surface: partner-gated, residential cinema and music rooms
+  only, C-ATS panel catalogue locked, residential report template fixed, and **methodology black-boxed —
+  partners see results, not internals.** Scope is an endorsed 11-module list running from project model
+  and room-data entry through multi-sub optimisation and treatment placement to the RP22 scorecard,
+  report and drawing rendering, Pro Design workflow and an end-user request form.
+- **No design-replacing calculator on the C-ATS site** — because of what its presence would imply, not
+  what it would reveal.
+- **Do publish worked examples showing how quantities are derived.** Method transparency without
+  suggesting the room can be solved by a form.
+- **A reflection-point calculator is a good candidate** and passes all three tests: it is *geometry, not
+  acoustic design*. It answers "where do first reflections land" completely and honestly, and doesn't
+  pretend to answer "will this room perform" — which is what the design service and verification own. A
+  placement tool, not a design tool. It is also the notable gap in the current calculator set, sitting
   directly on the first of the 3 Rs.
 - **Honesty flag:** the Room Resonances calculator is live, and the resonance-sizing method has a known
-  low-frequency blind spot (`../brands/c-ats/measured-acoustics.md`). Of all the tools, this is the one
+  low-frequency blind spot (`../brands/c-ats/measured-acoustics.md`). Of all the tools this is the one
   whose limits must be stated plainly. C-ATS exists because competitors promised physics they couldn't
-  deliver; a tool that oversimplifies would be that same sin committed by us.
+  deliver; a tool that oversimplified would be that same sin committed by us.
 
-## What's still open
+## The consumer channel
 
-- **The Cinema Tools Online ↔ C-ATS design-service overlap.** Already flagged as unresolved in ADR 014
-  (the historical "C-ATS partner tool" framing). This is the real strategic question — not whether to
-  publish calculators, but where a paid design *service* ends and a paid design *tool* begins, and
-  whether they are competitors, a ladder, or the same offer sold two ways.
-- **Whether tool access becomes a partner benefit.** Giving registered partners access to serious design
-  tooling costs no margin and is exactly the currency the partner programme runs on — spend the depth,
-  not the margin (`18-partner-programme.md`). Worth deciding alongside the Level 2 commercial model.
+For self-builders on `cinema-store.com` there is no chargeable design to protect, so configurators and
+estimators are pure asset. **No-calculators was only ever a channel rule, never a universal one** — worth
+stating plainly, or the trade caution gets applied here by reflex and removes an advantage. (AVshop.no
+runs both a system configurator and an automatic sound-isolation calculator —
+`19-direct-and-carried-lines.md`.)
+
+## What this surfaces for the group strategy
+
+- **Two competitors we don't have documented.** ADR 017's context names **Kolosseum.io** (polished web
+  design tool with RP22 Performance Level grading, RP23 nomenclature, multi-format CAD export, acoustic
+  overlay 3D) and **Cinema Room Setup** (standards-encoded Atmos placement, Dolby-range sliders, synced
+  multi-view). Both ship without engine depth, and both are setting baseline expectations. Neither appears
+  in `13-competitors.md` — a real gap, and a different competitive front from the hardware rivals already
+  documented.
+- **The commercial C-ATS range is further along than the brand doc implies.** ADR 048 records an accepted
+  commercial/boutique objective model — SMPTE ST 202 X-curve, Dolby Atmos baffle-wall, THX NC-30,
+  volume-conditional RT, large-format kit-of-parts. The C-ATS strategy still treats the commercial range
+  as "in development, internal only", which is right for external copy but understates internal progress.
 - **Cinema Expert's role.** `cinema-expert.com` is a skeleton with three headings — Instructions,
-  Knowledge Base, **Certification**. The partner programme needs a training and certification
-  programme it doesn't yet have, and C-ATS already has prior art in tiered dealer certification. The
-  property may already be the right home for it. Worth a proper look.
+  Knowledge Base, **Certification**. The partner programme needs a training and certification programme
+  it doesn't have, and C-ATS has prior art in tiered dealer certification. Worth a proper look.
 - **Automate DT Create end-to-end** so lead capture doesn't cost manual time (in hand).
 
 ## Noted, deliberately not pulled in
 
-The platform is wider than tools: **Folio** (configuration), **Probata** (measurement-driven
-commissioning that proves an installed room meets its design targets and cited standards), and
-**Auctor** (runtime and telemetry). Probata in particular is recognisably C-ATS verification and Pro-Fi
-calibration as a product, and the modal-analysis engine (**Tessellate**) is shared substrate consumed by
-Pro-Fi's Lattice and Apollo — the group's technical depth as common code across brands.
+The platform is wider than tools: **Folio** (configuration), **Probata** (measurement-driven commissioning
+proving an installed room meets its design targets and cited standards), and **Auctor** (runtime and
+telemetry). Probata is recognisably C-ATS verification and Pro-Fi calibration as a product, and Tessellate
+is shared substrate consumed by Pro-Fi's Lattice and Apollo — the group's technical depth as common code
+across brands. Commercially, ADR 017 is explicit that the platform play is the durable bet and the
+design-phase win alone is not the long-term moat.
 
 That is a significant strategic asset, and it is **deliberately out of scope here** while the brand
-strategies are settled. Flagged so it isn't forgotten, not adopted.
+strategies are settled. Flagged so it isn't forgotten, not adopted. Anything taken from it later should be
+read from the platform repo's current ADRs, not from this summary.

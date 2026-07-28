@@ -33,11 +33,12 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 - **Sells expertise in three forms:** the panels, the design service that specifies them, and the
   verification that proves them. Isolation and isolation verification sit under C-ATS because it is
   the group's acoustics brand, not because the 3 Rs framework was stretched to cover them.
-- **The design method is chargeable expertise, not an add-on.** But note the earlier "no public
-  calculators" rule is **withdrawn** — it protected the wrong thing. What C-ATS sells is measured data,
-  judgement and accountability, none of which a calculator can take. The real risk is *implication*: a
-  calculator on the C-ATS site implies a £5,000 design is replaceable by a form. So tools live on the
-  neutral Cinema Tools property, C-ATS publishes worked examples showing how quantities are derived, and a
+- **The design method is chargeable expertise, not an add-on.** But the earlier "no public calculators"
+  rule is **withdrawn** — it protected the wrong thing. What is sold is the *deliverable*, not tool access:
+  measured data, judgement and accountability, none of which a calculator can take. The real risk is
+  *implication* — a calculator on the C-ATS site implies a £5,000 design is replaceable by a form. So design
+  tooling lives under the **Cinema Tools** master brand (including the partner-gated C-ATS reporting tool,
+  with methodology black-boxed), C-ATS publishes worked examples showing how quantities are derived, and a
   reflection-point calculator (geometry, not design) is a good candidate. See
   `../../group/20-tools-and-calculators.md`.
 - **Shallow depth is a deliberate commercial decision, not a spec boast.** The cost that matters is
