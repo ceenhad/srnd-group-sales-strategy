@@ -1,17 +1,28 @@
 # Pro-Fi — brand playbook
 
-Pro-Fi is one of the six SRND brands (`../../group/09-brand-portfolio.md`): **professional-fidelity
-audio for high-channel-count spatial/immersive systems** — speakers, subwoofers and Dante-enabled
-DSP amplifiers, with a platform (Pantheon) that delivers *voicing* as a measured, auditable outcome.
+Pro-Fi is one of the six SRND brands (`../../group/09-brand-portfolio.md`): it **manufactures complete
+audio systems — speakers, amplifiers, DSP and calibration tools — engineered to deliver professional
+fidelity.** Four series (Spatial, Stage, Modular, Cinema) with the Pantheon platform above them.
 
 Structural strategy inherited from `../../group/`.
 
+> **Voice warning.** Pro-Fi's voice code forbids "spatial audio", "immersive", "premium", "high-end"
+> and "audiophile" as claims *about Pro-Fi* (fine about the market), and bars any superlative without
+> a measurement behind it. Meaning is carried in owned proper nouns — the Lattice, Pantheon, Apollo,
+> Argus, the Pro-Fi Signature Sound. See `positioning.md` §5 before writing anything.
+
 ## Status
 
-- **`brand-data.md`** — the public front (`pro-fi.uk`). **Thin and out of date** — to the point that
-  its social links are still the default **Shopify placeholders** (no real social configured).
-- **`opportunity.md`** — the real story, from **two** product repos: `pro-fi-design` (the engineered
-  speaker range) and `pro-fi-pantheon` (the software + electronics platform — "voicing as the outcome
-  of a rigorous process"). Big enough to warrant two repos. **Read `opportunity.md` before judging
-  the brand from its website.**
-- Messaging not yet agreed; a scoping decision (brand front vs the Pantheon platform) is open.
+- **`positioning.md`** — **the settled phase-1 brand strategy.** Seven sections, each a publishable
+  positioning core plus the internal reasoning. Read this first. Note Pro-Fi's own brand story (v6, in
+  Dropbox) governs the detail; this expresses it in the group framework.
+- **`brand-data.md`** — the public front (`pro-fi.uk`). **Thin and out of date** — its social links are
+  still default Shopify placeholders.
+- **`opportunity.md`** — from the two product repos: `pro-fi-design` (the engineered range) and
+  `pro-fi-pantheon` (software + electronics). **Read this before judging the brand from its website.**
+
+## The thing to understand about Pro-Fi
+
+It is **not thin — it is under-illustrated.** The thinking, the range and the platform are the most
+developed in the portfolio; what's missing is imagery, proof and content. Treat the gap as production,
+not strategy.

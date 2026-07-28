@@ -96,13 +96,19 @@ gap to close before it is a thing to say. The backing has to become real to be c
 Each brand is the same arc in one domain — depth, aimed at the dealer, producing the dealer's win.
 That consistency is what makes it a group story and not five unrelated ones.
 
+*Reconciled against the settled brand strategies (`brands/*/positioning.md`), which supersede any
+earlier wording here.*
+
 | Brand | The depth | Aimed at the dealer | The dealer's win |
 |---|---|---|---|
-| **DT** | control platform, closed-loop motion, coordinated multi-edge masking | on the network in minutes, browser control, presets that carry the safety limits, self-test, remote support without a truck roll | delivers sophisticated masking and motion easily and safely; no call-backs; looks expert |
+| **DT** | precision manufacture of large moving systems, with the control engineered inside them; the Screen Wall's decoupled front-of-room structure | equipment that integrates into the architecture instead of dominating the room; sized to the kit and the space; a maker whose competence follows the picture to LED | delivers a room where the technology disappears into the design and performs — and a specification that still holds tomorrow |
+| **Pro-Fi** | a complete stack engineered together — speakers, amplifiers, DSP, calibration — where each stage feeds the next; the Lattice; masking and ambience | one system learned once instead of many stitched together; sound placed where the design needs it, not where a speaker fits; voicing in plain language that the client keeps; training and support | delivers a system that does what it was specified to do and keeps doing it, and a client relationship that persists |
+| **C-ATS** | the 3 Rs as one repeatable method, independently measured absorption, per-axis balance | their choice of specifying from the documentation or taking the design service; depth kept shallow because the space costs more than the panels; hidden behind the fabric; verification that proves the room | specifies acoustics with confidence and delivers a room that measurably performs, without giving up the space the client paid for |
+| **Fabric Walls** | a productised aluminium system, factory tolerances, CNC-cut panels and fabric | the result settled in the factory rather than discovered on site; an install in a fraction of the time; bought as a finished product, not a box of parts | delivers a flawless finish on a date they can promise a client — and again, exactly, on the next job |
 | **Light Walls** | measured per-unit colour, sensorless closed loop | standards-native so it drops into their world, a real design tool, calibrated for life | specs colour-critical lighting that is provably right — and stays right |
-| **Pro-Fi** | measured, verified voicing; full analysis from a minimum of measurement | commissioned from a tablet on site, plain-language feedback turned into changes, service that continues after handover | delivers the voicing the client actually wanted, provably, and keeps it right |
-| **C-ATS** | the 3 Rs, BSRIA-measured absorption, per-axis balance | repeatable design without an acoustician, shallow depth that saves the room, hidden behind fabric, measured sign-off that protects the installer | specs acoustics with confidence; the room measurably performs; the floor area is kept |
-| **Fabric Walls** | a productised aluminium system, tight tolerances, CNC-cut panels | installable by any competent team, predictable timings, serviceable, supplied with the maps and drawings | delivers a premium fabric interior without specialist skill or risk |
+
+*(The Light Walls row pre-dates the brand work and is **not** a settled strategy — Light Walls is being
+worked separately. Treat it as provisional.)*
 
 ## Where it's strong, and where it's exposed
 

@@ -38,5 +38,11 @@ in one place for every brand.
   they can rely on, backing they can count on. The spine everything flows from.
 - `15-activate.md` — **the activate plan**: turning the latent moat into a working one — tell, prove,
   tend, institutionalise (with sequencing for a small team).
+- `16-whole-room.md` — **the whole room**: what the settled brand strategies add up to — the layers of
+  one room, the two genuine joint capabilities (the Screen Wall; the answer to the LED shift), and the
+  alignment rules that stop the brands contradicting each other. Written after the brand work, not
+  before.
 
-**Brands apply this in `brands/<brand>/`.** C-ATS is the first and most worked-out playbook.
+**Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
+Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately
+deferred while it is worked separately.

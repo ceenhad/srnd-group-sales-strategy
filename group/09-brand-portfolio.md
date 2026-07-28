@@ -5,19 +5,27 @@ buying is shared (the store); operations run in engine. Each brand has its own s
 
 ## The six brands
 
-1. **Display Technologies** — projection installations end to end: masking and fixed-frame
-   projection screens, mirror mounts, hush boxes and accessories. Designed for install — modular
-   builds, tool-free surfaces, short lead times.
-2. **Fabric Walls** — a productised stretch-fabric wall and ceiling system: CNC-cut,
-   factory-assembled panels, silicone-edge fabric, optional acoustic cores. No specialist
-   fabric-wrapping skills needed to install.
+1. **Display Technologies (DT)** — solutions for the architectural integration of technology:
+   masking and fixed-frame screens, image surfaces, mounts, mirrors, hush boxes, port holes, and the
+   modular Screen Wall, with the control engineered inside the products. Deliberately **not** framed
+   as "the projection company" — the competence is integration and manufacture, and it carries
+   forward to LED. (Settled strategy: `brands/display-technologies/positioning.md`.)
+2. **Fabric Walls** — a productised stretch-fabric wall *and ceiling* system: CNC-cut,
+   factory-assembled panels, silicone-edge fabric, optional acoustic cores. Bought as a finished
+   product rather than assembled on site. ("Walls" is only the name — it treats ceilings and other
+   surfaces too.) (`brands/fabric-walls/positioning.md`.)
 3. **Light Walls** — RGBW addressable lighting systems; individually addressable control for
-   cinemas, interiors and installations.
-4. **C-ATS — Complete Acoustic Treatment System** — engineered acoustic treatment addressing the
-   3 Rs (Resonance, Reverberation, Reflection), one panel per problem, within 50 mm of depth. Every
-   project includes acoustic design and modelling. (C-ATS brand truth: `brands/c-ats/`.)
-5. **Pro-Fi** — complete audio systems: speakers, amplifiers, DSP and calibration tools, each stage
-   engineered around the data the stage before it provides (manufacture → install → calibration).
+   cinemas, interiors and installations. **Brand strategy deliberately deferred** — being worked
+   separately; don't pre-empt it.
+4. **C-ATS** — engineered acoustic treatment addressing the 3 Rs (reflection, resonance,
+   reverberation), one panel per problem, shallower than competing products. The integrator can
+   specify it from the documentation or take the design service — their choice — and the result can
+   be verified. Isolation and verification live here too. Use the form **C-ATS**; the "Complete"
+   expansion is unresolved and must not be hard-coded. (`brands/c-ats/positioning.md`.)
+5. **Pro-Fi** — complete audio systems: speakers, amplifiers, DSP and calibration tools engineered
+   as one stack, in four series (Spatial, Stage, Modular, Cinema), with the Pantheon platform above
+   them. Each stage is engineered around the data the stage before it provides.
+   (`brands/pro-fi/positioning.md`.)
 6. **SRND Distribution** — the group's trade distribution arm. One account and one delivery cover
    the whole room system, with trade credit, demo programmes and stock across the group's brands and
    carried lines. Home of the Experience Centre (North Yorkshire). Its online face is the store,
