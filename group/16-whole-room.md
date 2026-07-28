@@ -69,9 +69,12 @@ the coherence was supposed to create.
   (The Fabric Walls site currently offers a competing acoustic design service; that needs removing.)
 - **No brand claims to be the most complex or critical part of the project.** Each element is
   demanding in its own terms. A superlative contest between our own brands reads as noise.
-- **The dealer is the hero in every brand, and the mechanics may differ.** C-ATS keeps its design as
-  paid consulting and publishes no calculators; Fabric Walls is self-serve by design and should have
-  them. Same discipline, opposite mechanics — don't propagate one brand's tooling rule to another.
+- **The dealer is the hero in every brand, and the mechanics may differ.** C-ATS keeps design as
+  chargeable expertise sold as an accountable deliverable; Fabric Walls is self-serve by design and should
+  have configurators. Same discipline, opposite mechanics — don't propagate one brand's tooling rule to
+  another. (The earlier "C-ATS publishes no calculators" rule is withdrawn: tooling lives under the Cinema
+  Tools master brand, and the real constraint is what a tool's placement *implies* —
+  `20-tools-and-calculators.md`.)
 - **The Scandinavian register governs all of it** — restraint, plain language, substance over
   adjectives, no superlative without a measurement behind it.
 
