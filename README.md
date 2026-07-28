@@ -4,6 +4,10 @@ This repo is the **group-level** operating home for SRND's sales & marketing. It
 and the standards **once**, at the group level, and each brand applies them in its own playbook for
 execution.
 
+> **Start with [`NEXT.md`](NEXT.md)** — the working plan. The clear-strategy phase is complete for four
+> brands and the group layer; what remains runs as a **parallel path** alongside normal business, not as a
+> programme of projects. Everything else here is the reasoning behind it.
+
 ## Why this exists — the core problem
 
 SRND's **external and internal stories are wildly divergent.** The engineering is world-class — the
