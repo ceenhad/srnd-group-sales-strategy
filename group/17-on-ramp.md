@@ -50,13 +50,45 @@ Two distinct campaign programmes follow from this, and they should not be confla
   adjacency-aware. Their job is to deepen a known partner: the next layer, the training, the design
   service, the whole room.
 
-## Entry is brand-led, and any brand can be the door
+## The door is a product, not a brand
 
-The trail is not a queue. A dealer arrives wherever their current job takes them: a fit-out contractor
-at Fabric Walls, a cinema specialist at C-ATS or Pro-Fi, a large-room project at DT. Fabric Walls is
-the **widest** door — it is on almost every room, it is bought as a finished product, and it is
-self-serve by design — so it will carry the most volume. That makes it the broadest entry point, not
-the first step, and the difference matters: calling it step one subordinates the other three.
+The trail is not a queue, and entry is not really at brand level at all. A dealer's first purchase from
+an unknown supplier is governed by one thing: **how much trust it requires.** What makes a door wide is
+therefore a set of product characteristics, not a brand's breadth of application —
+
+- low value and low risk,
+- one obvious problem solved,
+- easy to specify without help,
+- and quick to prove in a real job.
+
+By that measure the obvious first purchases are small and discrete: a hush box or a port hole, a couple
+of Spatial speakers, a few acoustic panels, a Leyard display. **Fabric Walls is not the widest door**,
+despite being on almost every room and self-serve by design — a fabric interior is expensive, large and
+completely visible if it goes wrong, so buying one means trusting a stranger with the entire finished
+surface of a client's room. That is a substantial act of faith, and it belongs later on the trail. Its
+self-serve tooling makes it easy to *specify*; it does not make it easy to *risk*.
+
+Two consequences follow.
+
+**Every brand needs to know its entry product**, and that is a different question from its flagship. The
+flagship demonstrates the depth; the entry product opens the relationship. For some brands the answer is
+already obvious (DT's smaller mounts, enclosures and port holes; Pro-Fi's shipping Spatial cabinets), and
+for others it needs deciding — including whether a small Fabric Walls element can serve as one at all.
+
+**The first order's job is to prove we deliver, not to showcase what we can do.** At that moment the
+dealer is testing whether we are reliable — lead time, packaging, accuracy, support when they ring. This
+puts the weight on fulfilment rather than product sophistication, and it means a modest first order badly
+handled costs far more than its value.
+
+Beyond that first purchase, a dealer still arrives from whichever direction their current job takes them
+— a fit-out contractor through fabric, a cinema specialist through acoustics or audio, a large-room
+project through DT — so no brand is "step one" and none is subordinate.
+
+**Leyard is an uncovered opportunity here.** It is the group's only genuine third-party line
+(`09-brand-portfolio.md`) and, on this logic, potentially one of the strongest doors we have: an
+established outside brand asks the least trust of all, because the dealer isn't betting on SRND's own
+engineering in order to try us. No work has been done on it in this repo — a real gap, logged in
+`open-items.md`.
 
 What the group holds is therefore not a sequence but an **adjacency map** — given where a dealer came
 in, what is the next layer of the same room, and what physical adjacency makes that next layer obvious.
@@ -117,7 +149,11 @@ feel like departments. That is a design problem to work, not a position to state
 
 - Define what registration **grants**, so permission is willingly given. This is the partner-program
   policy already open in `open-items.md`, and the on-ramp depends on it.
-- Build the **adjacency map** properly: for each entry brand, the next layer, the physical adjacency
+- **Choose each brand's entry product** — the low-risk, easy-to-specify item a stranger can buy to try
+  us — and make sure fulfilment on those items is exemplary, because that first order is the test.
+- **Work out what Leyard does on the on-ramp.** Uncovered so far, and possibly the lowest-trust door in
+  the portfolio.
+- Build the **adjacency map** properly: for each entry point, the next layer, the physical adjacency
   that justifies it, and the moment in a project when it is relevant.
 - Separate the two campaign programmes in practice — brand acquisition (public, problem-led) and
   partner development (permissioned, adjacency-aware) — including who owns each.

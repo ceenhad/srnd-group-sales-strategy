@@ -18,6 +18,17 @@ Group-level decisions and build order. Brand-specific open items live in each
   recognition, reciprocity, loyalty, partner-not-wallet — most naturally at buyer-journey stage 6.
   Per coherence-not-invention: don't *claim* appreciation until it's real; build it, then say it.
   See `group/14-moat.md`.
+- **Leyard — entirely uncovered, and possibly an on-ramp asset.** The group's only genuine third-party
+  distributed line (`group/09-brand-portfolio.md`) has had no strategy work at all. It matters more than
+  its "carried line" status suggests: per `group/17-on-ramp.md`, entry is governed by how much trust a
+  first purchase requires, and an established outside brand asks the least trust of anything we sell — a
+  dealer can try SRND without betting on SRND's own engineering. Decide Leyard's role (on-ramp door, LED
+  credibility, margin line) and whether it needs its own material.
+- **Entry products, per brand** — the low-risk, easy-to-specify item a stranger buys to try us, distinct
+  from each brand's flagship (`group/17-on-ramp.md`). Some are obvious (DT's smaller enclosures and port
+  holes, Pro-Fi's shipping Spatial cabinets); others need deciding, including whether a small Fabric Walls
+  element can serve as one. Fulfilment on these must be exemplary — the first order tests us, not the
+  product.
 - **SRND Solutions go-to-market** — the forthcoming own-made sensors/interfaces line
   (`group/09-brand-portfolio.md`) deliberately doesn't fit inside a brand, yet the model makes
   brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a
