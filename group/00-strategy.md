@@ -127,6 +127,10 @@ real but narrow — a compliance edge case, not a segment.)
 not to hard-code it); **cinema-only proof**, which is the binding constraint — the first non-cinema room we
 can show matters more than any repositioning; and cinema-shaped channels.
 
+**The route in is the specifier.** Architects, AV consultants and interior designers write pre-tender
+specifications and work across every room type, so reaching them is simultaneously how we get specified and how
+we reach the adjacent markets (`02-buyer-journey.md`). One piece of work, not two.
+
 **Scope: trade only. B2C stays cinema, deliberately.** Broadening the consumer proposition beyond DIY home
 cinema would be a recipe for disaster — a vast, competitive, low-margin market where we hold no consumer
 authority, and where the communities we can reach *are* cinema communities. So `cinema-store.com` is

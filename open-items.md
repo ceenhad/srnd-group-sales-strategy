@@ -43,22 +43,31 @@ seriousness, and staged below.*
   - **Specification is collaborative: "we tend to try and help them spec."** Not us deciding, not them
     deciding alone. Which is almost exactly the posture the strategy already commits to — never imply the
     dealer can't, the design service as their choice rather than a rescue, informs-never-blocks.
-  - **The consequence, and it is the best news in the stress test: we are already in the specification
-    conversation on most jobs.** That is the most valuable position in the chain — the moment the room is
-    decided — so the cross-sell weakness is *not* lack of access. We have the access and don't use it. The
-    adjacency map therefore isn't an input to future campaigns; it is **a prompt list for a conversation
-    already happening.**
+  - **We are already in the specification conversation on most jobs** — a valuable position, and the
+    adjacency map is therefore a prompt list for a conversation already happening rather than an input to
+    future campaigns.
+  - **But don't mistake what happens now for what should happen — the correction that matters.** On any
+    sizeable project the spec is developed **pre-tender** by **architects, AV consultants and interior
+    designers.** By the time the integrator orders, the naming has largely happened upstream, so helping them
+    spec is working *downstream* of the decision. **Purchaser and specifier are different people, and the
+    strategy only ever addressed the purchaser.** Being named pre-tender inverts the dynamic: the integrator
+    has to buy what's specified or argue their way out. Written up in `group/02-buyer-journey.md`, with the
+    specifier channel gap in `group/05-channels.md`.
+  - **And it converges with beyond-cinema:** those specifiers work across fit-out, hospitality and workplace,
+    so reaching them *is* the adjacent-market route. Stages 4 and the new Stage 2 are one piece of work.
   - **Still to establish:** whether spec help is free or chargeable and whether that is deliberate; whether
-    anything is captured from it (the spec conversation already tells us a project exists and what it needs —
-    the thing `group/07-tools.md` wants tools to surface); and whether any recent work was non-cinema
-    (Stage 4 becomes much cheaper if adjacent jobs are already arriving).
-- **Stage 2 — what carries the next two years.** Items 2 and 3 together: the honest commercial picture
-  behind DT's declining base and Pro-Fi's pre-shipping growth expectation.
-- **Stage 3 — the price answer.** Item 6. A decision, cheap, and independent of the rest.
-- **Stage 4 — the first non-cinema job.** Item 5, informed by Stage 1, which may reveal adjacent buyers
-  already in the base.
+    anything is captured from those conversations (they already reveal a live project and its needs — what
+    `group/07-tools.md` wants tools to surface); and whether any recent work was non-cinema.
+- **Stage 2 — getting into pre-tender specification. NEW, and promoted on the strength of Stage 1.** The
+  specifier audience (architects, AV consultants, interior designers) and the machinery of being specified:
+  RIBA-approved CPD, NBS clauses, BIM/Revit objects, specifier-grade downloads, finish libraries. It is also
+  the beyond-cinema route, so it absorbs what was Stage 4. Two decisions inside it: how far to qualify C-ATS's
+  "not the acoustician" line, and how to reconcile publishing design data with guarding it.
+- **Stage 3 — what carries the next two years.** Stress-test items 2 and 3 together: the honest commercial
+  picture behind DT's declining base and Pro-Fi's pre-shipping growth expectation.
+- **Stage 4 — the price answer.** Item 6. A decision, cheap, independent of the rest.
 - **Stage 5 — cross-sell without waiting on Engine.** Item 4, which resolves mostly into writing the
-  adjacency map (already lane 4 of `NEXT.md`).
+  adjacency map (lane 4 of `NEXT.md`) — now sharper, because the conversation already happens.
 - **Light Walls (item 7)** stays with Neil, worked separately.
 
 ---

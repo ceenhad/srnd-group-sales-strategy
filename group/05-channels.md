@@ -68,12 +68,21 @@ direct-global funnel. Note two things already built rather than planned: each Ci
 discrete SEO landing page, and independent third-party editorial is exactly what AI engines cite
 (`07-tools.md`).
 
-## The non-cinema gap
+## Two gaps: non-cinema, and specifiers
 
-This list is overwhelmingly residential-CI and cinema. Commercial fit-out, hospitality and workplace reach
-different people through different places, and those channels are largely absent here. A real gap in the
-beyond-cinema determination (`00-strategy.md`) — and one to fill only once there's non-cinema proof to carry
-into them.
+This list is overwhelmingly residential-CI and cinema. Two absences matter.
+
+**Non-cinema channels.** Commercial fit-out, hospitality and workplace reach different people through
+different places, largely absent here. A real gap in the beyond-cinema determination (`00-strategy.md`) — and
+one to fill once there's proof to carry into them, which those markets are more likely to permit us to show.
+
+**Specifier channels — the bigger gap.** Architects, AV consultants and interior designers write pre-tender
+specifications (`02-buyer-journey.md`), and almost nothing here reaches them. That machinery is different in
+kind from trade press: **RIBA-approved CPD seminars**, **NBS specification clauses**, **BIM/Revit object
+libraries**, specifier-grade technical downloads, finish and sample libraries, and the design press and bodies
+— Dezeen and the luxury-interiors titles, **BIID / SBID**, **RIBA**, **AVIXA** for the consultant side, and
+the Architects' Journal tier. The two gaps are really one route: those specifiers work across every room type,
+so reaching them is also how we reach the adjacent markets.
 
 ## Worked evaluation: Essential Install
 

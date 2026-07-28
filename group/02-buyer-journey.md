@@ -37,6 +37,54 @@ group, not just the brand that opened the door.
    next project lands on *their client's* clock, not ours. So it isn't a push — it's being recalled the
    moment it lands and being effortless to act on.
 
+## Purchaser and specifier are different people
+
+**Don't mistake what happens now for what should happen.** Today the order comes from the integrator and we
+tend to help them spec — which is real, and is the relationship this journey describes. But on a project of
+any size the specification is developed **pre-tender**, by **architects, AV consultants and interior
+designers**. By the time an integrator is ordering, the naming has largely happened somewhere upstream, and
+helping them spec is us working downstream of the decision.
+
+So two roles, and the strategy has only ever addressed one:
+
+- **The purchaser — the integrator.** Orders, installs, carries the client relationship, and is who the
+  products are optimised for. Everything else in this document is aimed here, correctly.
+- **The specifier — architect, AV consultant, interior designer.** Writes the documents in which products get
+  named, before anyone tenders. We barely address them.
+
+**Being named pre-tender is worth more than winning a spec conversation later**, because it inverts the
+dynamic: the integrator has to buy what's specified, or argue their way out of it. It does not displace the
+integrator — they still order, install and need supporting — it defends the position before the purchase
+exists.
+
+**And it is the same move as going beyond cinema.** Those specifiers work across commercial fit-out,
+hospitality and workplace, not only cinema. Getting into pre-tender specification and reaching adjacent
+markets are one piece of work, not two.
+
+### What being specified actually requires
+
+Construction specification has established machinery, and we do almost none of it:
+
+- **RIBA-approved CPD seminars** — the standard route to architects in the UK.
+- **NBS specification clauses** — being present in the system specifiers actually write in.
+- **BIM / Revit objects** — architects design in a model; a product that can be dropped into it is a product
+  that gets specified.
+- **Specifier-grade technical downloads** — drawings, performance data, details, at the level a spec writer
+  needs rather than a dealer.
+- **Finish and sample libraries** for interior designers.
+- **Approved-supplier and framework listings**, where they apply.
+
+Two tensions to settle rather than drift into:
+
+- **It qualifies a C-ATS line.** "Optimised for the integrator, not the acoustician" is right about who the
+  *product* serves — but if acoustic consultants write pre-tender specs, treating them as a non-audience is a
+  mistake. Two distinct questions had been merged: who the product is optimised for, and who influences
+  specification.
+- **It collides with gating design data.** Being specified means publishing drawings and model objects;
+  guarding against a competitor copying our CAD (`06-competitors.md`) argues for locking them down. Both are
+  legitimate. The answer needs deciding deliberately — plausibly: publish what a specifier needs, gate what a
+  manufacturer would need.
+
 ## The on-ramp: registration is the hinge
 
 There is one moment when an unknown contact becomes a potential partner, and it is specific: **they register
