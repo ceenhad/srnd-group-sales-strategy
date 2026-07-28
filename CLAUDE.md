@@ -31,14 +31,14 @@ systems), and **SRND Distribution** (the trade distribution arm). A further own-
 **SRND Solutions** (sensors and interfaces — the connective "glue" of a high-end install, not
 fitting inside any one brand), is in development. In distribution, **Leyard** is the only genuine
 third-party brand; other names on the store are carried lines or components (Ultrasuede is a fabric
-used within Fabric Walls, not a standalone brand). Full roster: `group/09-brand-portfolio.md`.
+used within Fabric Walls, not a standalone brand). Full roster: `group/01-commercial-model.md`.
 
 ## The core idea
 
 **The dealer relationship is the asset**, counted across every brand and over years, and — done
 well — compounding. A dealer won through one brand is a doorway the whole group cross-sells
 through, because the brands serve the **same room**. This changes the economics of everything
-here: we don't triage dealers by any single brand's order size. See `group/01-dealer-as-asset.md`.
+here: we don't triage dealers by any single brand's order size. See `group/00-strategy.md`.
 
 ## Non-negotiable discipline
 
@@ -62,20 +62,20 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
   first and the claim waits. This has now surfaced three times independently — dealer appreciation, the
   partner programme, and the whole room being genuinely easier to buy — which makes it the group's
   characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
-  more than silence. See `group/18-partner-programme.md`, `group/16-whole-room.md`.
+  more than silence. See `group/03-partner-programme.md`, `group/00-strategy.md`.
 - **Don't fence us to cinema — in trade.** High-end cinema is the heartland of revenue and credibility and
   should lead where it's strongest, but the group is explicitly determined not to remain a cinema-only trade
   supplier, and none of the underlying competences are cinema-specific. Name the *problem*, never the room
   type; lead with cinema credibility, never a cinema-only definition. **The reverse holds in B2C:** the
-  consumer proposition stays DIY home cinema, deliberately. See `group/21-beyond-cinema.md`.
+  consumer proposition stays DIY home cinema, deliberately. See `group/00-strategy.md`.
 
 ## The shared portal (settled policy)
 
 - **Pricing is registered-partner-only — fully gated.** No public prices, and no end-user prices
   either. Public marketing claims stay qualitative (performance, depth, measured data), never
-  value/price-led. This is decided, not deferred. See `group/07-portal-and-pricing.md`.
+  value/price-led. This is decided, not deferred. See `group/01-commercial-model.md`.
 - **Direct to dealer, globally, through the store.** Distributors are a deliberate case-by-case
-  exception (scale or language barrier only), never the default. See `group/02-commercial-model.md`.
+  exception (scale or language barrier only), never the default. See `group/01-commercial-model.md`.
 
 ## Voice
 
@@ -87,7 +87,7 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
   genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
   niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
   customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
-  See `group/14-moat.md`.
+  See `group/00-strategy.md`.
 - **The Scandinavian register (group-wide voice principle).** Restraint over superlatives; substance
   carried in plain language and in owned proper nouns, not genericised adjectives. Accept being
   underestimated on first read — let the work re-rate the brand. Voice does substance; imagery does

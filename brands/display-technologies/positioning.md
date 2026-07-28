@@ -207,7 +207,7 @@ group.
 - **The name is Display Technologies; DT for short.**
 - **The consumer tier has left DT — decided.** The former Enthusiast screens are now a Cinema Store
   exclusive DIY range and are no longer DT products
-  (`../../group/19-direct-and-carried-lines.md`). DT is trade-only, which is what its identity requires.
+  (`../../group/01-commercial-model.md`). DT is trade-only, which is what its identity requires.
   DT provenance may be told as a story on that channel but never used as branding. Nothing in DT material
   should refer to an Enthusiast tier, and the premium **Dynamic** masking range must never be conflated
   with it.
@@ -267,7 +267,7 @@ Internal only — the unresolved items to settle before they harden into copy or
 - ~~**The Enthusiast range go-to-market**~~ — **RESOLVED, and out of DT.** The range was a good product
   undersold because it sat inside a trade brand with no reason to address consumers. It is now a Cinema
   Store exclusive DIY range and no longer DT's problem or DT's product
-  (`../../group/19-direct-and-carried-lines.md`). Naming and range definition are decided there.
+  (`../../group/01-commercial-model.md`). Naming and range definition are decided there.
 - **Forward proof.** LED and future-proof claims are capability, not track record. They need built LED
   installs and a productised Screen Wall to become provable.
 - **Track-record documentation.** Prestigious installs exist but case studies and photography are thin —

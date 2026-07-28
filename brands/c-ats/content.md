@@ -1,10 +1,10 @@
 # C-ATS — the content across the buyer journey
 
 This is C-ATS's version of the content that feeds the group buyer journey
-(`../../group/03-buyer-journey.md`). The 3 Rs is the core of the content. It's the engineering
+(`../../group/02-buyer-journey.md`). The 3 Rs is the core of the content. It's the engineering
 brief, not a marketing device, and it's exactly the plain one-problem-one-panel logic a practical,
 technical buyer likes. The layered build below is C-ATS's application of the group intro-campaign
-template (`../../group/11-intro-campaign.md`) — that's where the phase structure, the text-forward
+template (`../../group/04-content.md`) — that's where the phase structure, the text-forward
 principle and the Aphex Twin case study live; this file is the C-ATS-specific instance. These layers
 feed the early stages of the journey; they are content, not a standalone campaign.
 

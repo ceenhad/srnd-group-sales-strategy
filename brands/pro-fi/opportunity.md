@@ -92,4 +92,4 @@ measurement/DSP platform).
 
 > **Cross-brand pattern (now three-for-three):** DT wins on the Commander (control); Light Walls on
 > measured colour; Pro-Fi on measured/verified **voicing**. The group's real, repeated edge is the
-> **measurement + control + data layer** — the un-copyable part (`../../group/13-competitors.md`).
+> **measurement + control + data layer** — the un-copyable part (`../../group/06-competitors.md`).

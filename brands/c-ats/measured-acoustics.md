@@ -39,4 +39,4 @@ C-ATS's edge is **measured, engineered acoustic performance** — which fits the
 "measurement + data" pattern (DT → control; Light Walls → measured colour; Pro-Fi → voicing), but
 C-ATS's version is the **measured panel performance + 3 Rs engineering discipline**, not a software
 platform. Its "copyability" answer: simple-looking panels, but the measured data and the engineering
-rigour are the substance (`../../group/13-competitors.md`).
+rigour are the substance (`../../group/06-competitors.md`).

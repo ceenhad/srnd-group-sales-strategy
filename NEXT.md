@@ -25,7 +25,7 @@ by project. A job is going out anyway; someone is already on site.
 - **Smallest next move:** photograph the next job properly and write down what the room needed and what it
   achieved. Two things, on every job, from now on.
 - **Why it matters most:** it is the only route to the non-cinema proof the beyond-cinema determination
-  depends on (`group/21-beyond-cinema.md`), and it can't be bought.
+  depends on (`group/00-strategy.md`), and it can't be bought.
 - Rides on: jobs already happening.
 
 ### 2. The stores get cleaned as they're already being cleaned
@@ -40,7 +40,7 @@ A clean-up is in progress. The settled decisions just get applied to it rather t
 ### 3. The tools keep being built; the strategy only sets what they must satisfy
 
 The platform is in active development. Nothing here asks for new tools — only that the ones being built
-respect three rules already written down (`group/20-tools-and-calculators.md`): bounded and honest, not
+respect three rules already written down (`group/07-tools.md`): bounded and honest, not
 built around our own products, and closing their own loop.
 
 - **Smallest next move:** finish the DT Create automation so lead capture stops costing twenty minutes a
@@ -63,7 +63,7 @@ mentioned at the moment it's relevant, in conversations that are happening anywa
 
 ### 5. Appreciation starts with acts, not a programme
 
-Same principle. The partner programme is designed (`group/18-partner-programme.md`); the recognition part
+Same principle. The partner programme is designed (`group/03-partner-programme.md`); the recognition part
 needs no build at all.
 
 - **Smallest next move:** thank the £500k dealer properly, in person, naming the number and the people who
@@ -89,7 +89,7 @@ Named so they read as choices rather than debt:
 - **The training programme.** Owed, and the biggest thing implied by the partner programme. It needs real
   time, `cinema-expert.com` is probably its home, and it waits.
 - **Non-cinema channels.** Commercial fit-out, hospitality and workplace reach different people through
-  different places (`group/12-channels.md` is cinema-shaped). Wait until there's non-cinema proof to carry
+  different places (`group/05-channels.md` is cinema-shaped). Wait until there's non-cinema proof to carry
   into them — lane 1 produces it.
 - **The group identity line.** Unresolved, and better drafted once the beyond-cinema position has some
   evidence behind it.
@@ -100,10 +100,10 @@ Named so they read as choices rather than debt:
 
 ## And the repo stops growing
 
-The clear-strategy phase is finished for four brands and the group layer. It is now 22 group documents plus
-four brand strategies, which is enough — arguably more than enough. The risk from here is that the strategy
-becomes the work instead of enabling it.
+The clear-strategy phase is finished for four brands and the group layer, and it has been **condensed to
+eight group documents** (from twenty-three, and roughly half the words) precisely because the first version
+was unreadable at length. Fifty thousand words nobody opens is worth less than eight documents somebody does.
 
-So: no new strategy documents without a reason that can be stated in a sentence. Corrections and decisions
-get recorded where they belong. What gets added from now on should mostly be *evidence* — the photographs,
-the case studies, the adjacency map — not further argument.
+So: no new strategy documents without a reason that can be stated in a sentence, and corrections go into the
+document they belong to rather than beside it. What gets added from here should mostly be *evidence* — the
+photographs, the case studies, the adjacency map — not further argument.

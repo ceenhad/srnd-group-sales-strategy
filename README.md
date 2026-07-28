@@ -25,7 +25,7 @@ ad-hoc, with no plan followed beyond "have more than nothing." So the existing s
 **placeholders to re-base on the plan, not strategy to preserve** — this is the first real plan, not
 a tidy-up of an existing one.
 
-**The spine that story flows from is the moat** (`group/14-moat.md`): deep technical depth joined to
+**The spine that story flows from is the moat** (`group/00-strategy.md`): deep technical depth joined to
 a deep understanding of the dealer's job — *"we understand you, we make things to help, those things
 let you be better than anyone else."*
 
@@ -34,17 +34,29 @@ store sells.** `srnd.group` opens the funnel and introduces the company (the sta
 landing pages); the brands are how the sales & marketing is focused, each with its own fairly
 functional site; and every brand's purchase routes back to one shared store (`srnd.store`, the
 online face of distribution). Operations run in engine. (Web architecture:
-`group/09-brand-portfolio.md`.) This repo is where the shared half — the strategy, the buyer journey,
+`group/01-commercial-model.md`.) This repo is where the shared half — the strategy, the buyer journey,
 the commercial model, the owned content operation — is developed. Brand folders are where it filters
 down to execution.
 
 ## How to read this repo
 
-1. **`group/`** — the group strategy and standards. Brand-agnostic. This is the source of truth;
-   brands apply it, they do not fork it.
-2. **`brands/<brand>/`** — each brand's playbook: how it applies the group strategy — its
-   positioning, which channels it prioritises, its content, its range. C-ATS is the first.
+Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
+
+1. **`group/`** — the group strategy and standards, in eight documents. Brand-agnostic, and the source of
+   truth; brands apply it, they do not fork it.
+   - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
+     disciplines. Read this one if you read nothing else.
+   - `01-commercial-model.md` — brands, properties, gated pricing, the two stores, carried lines.
+   - `02-buyer-journey.md` — the journey, the on-ramp, touchpoints, execution standards, metrics.
+   - `03-partner-programme.md` — what registration grants and how partners are valued.
+   - `04-content.md` — the owned assets, placement rules, the campaign template.
+   - `05-channels.md` · `06-competitors.md` — the named landscape, and what rivals do well.
+   - `07-tools.md` — where calculators and design tools fit commercially.
+   - `store-split-worklist.md` — a working execution list, not strategy.
+2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
+   Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
 3. **`brands/_template/`** — the starting point for a new brand playbook.
+4. **`open-items.md`** — decisions still outstanding.
 
 ## Group vs brand responsibilities
 

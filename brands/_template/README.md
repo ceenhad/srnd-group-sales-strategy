@@ -6,10 +6,10 @@ forked.
 
 ## What the brand takes from the group strategy (do not duplicate)
 
-- The buyer journey (`../../group/03-buyer-journey.md`) — run your own version; put per-stage content
+- The buyer journey (`../../group/02-buyer-journey.md`) — run your own version; put per-stage content
   in `content.md`.
 - Commercial model, shared portal, fully-gated pricing policy (`../../group/`).
-- Content production — studio + Experience Centre (`../../group/06-content-production.md`); shared.
+- Content production — studio + Experience Centre (`../../group/04-content.md`); shared.
 - Execution standards, touchpoint set, metric definitions (`../../group/`).
 
 ## Files to fill in

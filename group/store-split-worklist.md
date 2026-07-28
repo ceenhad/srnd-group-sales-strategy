@@ -1,6 +1,6 @@
 # Store split — working list
 
-*Execution list for applying `19-direct-and-carried-lines.md` to the two stores. Generated from the public
+*Execution list for applying `01-commercial-model.md` to the two stores. Generated from the public
 product feeds, 2026-07-28 (`cinema-store.com` 126 products, `srnd.store` 125). Gated items may not appear,
 so treat counts as indicative. This is a worklist, not strategy.*
 
@@ -38,7 +38,7 @@ explanation of why to buy, and support for a buyer who isn't a professional.
 - Hush Box Small (£6,356) — *listed twice on the site; de-duplicate*
 
 **Proposed: make these Cinema Store exclusive, removed from DT.** See
-`19-direct-and-carried-lines.md` for the reasoning and the open questions (whether the whole hush box line
+`01-commercial-model.md` for the reasoning and the open questions (whether the whole hush box line
 moves or only the Small; whether DT provenance may still be stated).
 
 ## Move off Cinema Store → SRND Store only (30)
@@ -98,7 +98,7 @@ distinction to hold is *what the item is for*, not what it is:
 - The associated parts — linear actuator, draw wire sensor, power supply — **stay as spares.**
 
 Being able to get a part rather than replace an assembly is a real form of backing a dealer, so this
-reinforces the partner promise (`18-partner-programme.md`). **Out of scope for marketing right now:**
+reinforces the partner promise (`03-partner-programme.md`). **Out of scope for marketing right now:**
 extend the service catalogue operationally; don't build content or campaigns around it.
 
 ## Data fixes while delisting
@@ -113,4 +113,4 @@ extend the service catalogue operationally; don't build content or campaigns aro
 ## Not yet listed
 
 **Pro-Fi** — absent from both stores because it isn't ready to sell online. When it is, the Pro-Fi site
-drives to SRND Store as every other brand does (`19-direct-and-carried-lines.md`).
+drives to SRND Store as every other brand does (`01-commercial-model.md`).

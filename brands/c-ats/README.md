@@ -8,7 +8,7 @@ restated here.
 
 ## What C-ATS takes from the group strategy (do not duplicate)
 
-- The buyer journey (`../../group/03-buyer-journey.md`) — C-ATS runs its own version; content per
+- The buyer journey (`../../group/02-buyer-journey.md`) — C-ATS runs its own version; content per
   stage is in `content.md`.
 - Commercial model, portal, fully-gated pricing policy — `../../group/`.
 - Content production (studio + Experience Centre) — shared; C-ATS books output.

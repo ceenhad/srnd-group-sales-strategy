@@ -1,6 +1,6 @@
 # Pro-Fi — brand playbook
 
-Pro-Fi is one of the six SRND brands (`../../group/09-brand-portfolio.md`): it **manufactures complete
+Pro-Fi is one of the six SRND brands (`../../group/01-commercial-model.md`): it **manufactures complete
 audio systems — speakers, amplifiers, DSP and calibration tools — engineered to deliver professional
 fidelity.** Four series (Spatial, Stage, Modular, Cinema) with the Pantheon platform above them.
 

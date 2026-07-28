@@ -1,6 +1,6 @@
 # Display Technologies — brand playbook
 
-Display Technologies (DT) is one of the six SRND brands (`../../group/09-brand-portfolio.md`):
+Display Technologies (DT) is one of the six SRND brands (`../../group/01-commercial-model.md`):
 **solutions for the architectural integration of technology** — screens and masking, mounts and
 mirrors, airflow and enclosures, port holes, and the modular Screen Wall, with the control engineered
 inside the products. Deliberately **not** "the projection company": the competence is integration and
