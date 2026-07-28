@@ -44,6 +44,29 @@ seriousness, and staged below.*
    `group/01-commercial-model.md`; the research says it needs deciding, because it determines whether they are
    competitors or partners.
 
+### What is already public — and where it contradicts us
+
+*From the Essential Install feature "Total Immersion With SRND Group" (21 Jan 2026), plus a search of Neil's
+public footprint.*
+
+**The external story is further along than this repo assumed.** That feature already states the
+beyond-cinema position, already names **designers and consultants** alongside integrators, and already
+advertises "fully modular, pre-engineered room solutions." Which partly inverts the repo's founding premise:
+on market scope and audience, the external telling was *ahead* of the internal work. Two consequences —
+the beyond-cinema determination and the specifier insight are not new to Neil, so Stage 2's real gap is the
+**machinery** (CPD, NBS, BIM) rather than the positioning; and advertising pre-engineered room solutions while
+the Screen Wall has no datasheet is more awkward than it looked.
+
+**Three live contradictions to fix in published material:**
+1. Pro-Fi described as "SRND Group's dedicated **spatial audio** brand" — a phrase Pro-Fi's own voice code
+   forbids as a claim about Pro-Fi (`brands/pro-fi/positioning.md` §5).
+2. "only solutions that can genuinely claim to be the **best and most innovative** in their category" —
+   superlative-led, against the Scandinavian register (`group/00-strategy.md`).
+3. "**Complete Acoustic Treatment Systems**" spelled out — the naming we agreed not to hard-code.
+
+None is a crisis; all three are the exact divergence this repo exists to close, and they are recent and in
+print. Fix on the next pass through that material rather than retrospectively.
+
 ### Staged as next work
 
 - **Stage 1 — buyer truth. IN PROGRESS; the foundation is confirmed so far.** From Neil's account of recent

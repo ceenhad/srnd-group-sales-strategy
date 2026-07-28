@@ -101,4 +101,30 @@ The pattern to follow for the others.
   Commercial — a natural home for virtual case studies), Features, Guides, Interviews, the podcast and the
   newsletter.
 
+- **A substantial feature already ran there.** *"Total Immersion With SRND Group,"* Essential Install,
+  21 January 2026 (Daniel J Sait), in their Who's Who / Immersive Audio & Video section — which reads as
+  paid-inclusion editorial. Worth knowing because it means the group's public story is **further along than
+  this repo assumed**: it already states the beyond-cinema position ("private residential, commercial,
+  cultural, wellness and experiential sectors"), already names **designers and consultants** alongside
+  integrators, and already advertises the room-kit ladder ("from single-product specifications to fully
+  modular, pre-engineered room solutions"). See the fix list in `../open-items.md` for where it contradicts
+  what we have since settled.
+
 **Action:** activate and feed it. Already paid for, already empty — the cheapest thing on this page.
+
+## Personal authority — the underused channel, and the specifier route
+
+Neil is credited on Cinema Tools as a "well-known cinema designer," the moat is explicitly
+person-concentrated (`00-strategy.md`), and the EI feature is built on his two decades in the industry. Yet a
+search turns up no interviews, no bylined technical writing and no speaking presence under his own name, and
+nothing at all on the design or architecture side.
+
+That matters more than it looks, because **the route into pre-tender specification runs through personal
+expert authority rather than brand marketing.** A CPD seminar is delivered by a person; specifiers take advice
+from experts, not vendors. So the dormant personal authority and the specifier gap
+(`02-buyer-journey.md`) are the same opportunity — and it is far cheaper than building a marketing
+programme, because it plays to a strength that already exists.
+
+*Context worth holding:* Neil's own background is **distribution** — a high-end AV and home-cinema
+distribution business preceded the manufacturing. So questions about competing with or selling through the
+trade distributors (`06-competitors.md`) meet experience rather than speculation.
