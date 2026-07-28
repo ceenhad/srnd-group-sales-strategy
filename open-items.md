@@ -37,9 +37,16 @@ Group-level decisions and build order. Brand-specific open items live in each
   territory. Defensible while Pro-Fi's range is largely design-intent and Pantheon is pre-release, but it
   needs an end state rather than a drift, or it competes with Pro-Fi exactly when Pro-Fi needs the
   channel's attention. See `group/19-direct-and-carried-lines.md`.
-- **Store roster vs group reality** — `srnd.store`'s "World Class Brands" menu lists more than the
-  current group roster (six own brands + Leyard as the only third-party line). Reconcile the store
-  to reality (or confirm what's genuinely still carried) so public listings match the group truth.
+- **Store roster — DECIDED; execution outstanding.** The carried roster is settled at three lines in three
+  roles: **Leyard** (the distributed brand, trade only), **MadVR** (SRND Store only, as an accessory to
+  Leyard), **Advatek** (both stores, small-range component necessity). **Sylvox, Poet and Stealth Acoustics
+  are removed.** What remains is doing it: delist those three, take Leyard and MadVR off Cinema Store, fix
+  the "Complete ATS" vendor name on both stores, and re-attribute the isolation products (MIRS, penetration
+  back boxes) from "SRND Store" to C-ATS. See `group/19-direct-and-carried-lines.md`.
+- **Pro-Fi is absent from `srnd.store`.** Zero products listed, while carried third-party lines are. This
+  contradicts the "one account, one checkout across every brand" model (`group/09-brand-portfolio.md`) and
+  matters more now Pro-Fi is the group's high-multiplier line. Pro-Fi sells direct through its own channel
+  today; decide whether it joins the group store, and on what terms.
 - **C-ATS naming** — the group site uses "C-ATS" and spells out "Complete Acoustic Treatment System"
   openly, but the C-ATS brand-truth `CLAUDE.md` still flags the "Complete" expansion as unresolved
   and prefers "C-ATS"/"Cinema". Resolve the canonical name and align brand truth, the group site and

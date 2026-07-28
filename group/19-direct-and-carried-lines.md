@@ -81,23 +81,63 @@ That has one immediate consequence worth stating plainly: **large project equipm
 there.** DCI-scale LED walls, commissioning packages and complete room systems are channel business
 whatever site they happen to be listed on today.
 
-## The lines we carry, and why
+## The lines we carry, and why — settled
 
-Carried and adjacent products divide by the job they do, not by the margin they return.
+Carried products divide by the job they do, not the margin they return. The roster is now decided, and it
+is deliberately short. Three carried lines, in three distinct roles:
 
-- **Distributed lines with real margin** — Leyard is the clear case: a genuine distribution business,
-  and per `17-on-ramp.md` potentially our lowest-trust door, because a dealer can try SRND without
-  betting on SRND's own engineering.
-- **Necessary adjacencies with little or no margin by nature** — pixel controllers, fabric track,
-  tools. These are not profit lines and should not be judged as such. They exist for **completeness**:
-  one source for the whole job, so a dealer never has to shop elsewhere, and every trip elsewhere is an
-  opportunity for someone else to start a relationship. Their strategic role is retention. The
-  discipline that follows: make them easy to find and effortless to reorder, and never spend sales
-  effort or campaign budget on them.
-- **Genuinely consumer lines** — DT's **Enthusiast** range and Ultrasuede. These have real demand that
-  goes unrealised because we have never addressed the consumer directly. Note the strict boundary:
-  Enthusiast only, never the premium Dynamic range, which is trade business
-  (`brands/display-technologies/positioning.md`).
+- **The distributed brand — Leyard.** SRND Store only, trade channel. A genuine distribution business,
+  big-ticket (DCI cinema LED walls and large-format displays), and strategically aligned with where the
+  display market is going. Per `17-on-ramp.md` it is also potentially our lowest-trust door, because a
+  dealer can try SRND without betting on SRND's own engineering.
+- **An accessory to that distributed brand — MadVR.** SRND Store only, and carried **specifically as an
+  accessory to Leyard**, not as an independent line. It is not promoted on its own and does not need its
+  own story; it exists because a Leyard sale sometimes needs it.
+- **A component necessity — Advatek.** Available on **both** stores. Pixel controllers for Light Walls,
+  with almost no margin by nature, and the range is small enough to carry in full. This is a
+  **completeness** line: one source for the whole job, so a dealer never has to shop elsewhere, and every
+  trip elsewhere is a chance for someone else to start a relationship. Its role is retention, not profit,
+  which is also the discipline — easy to find, effortless to reorder, and never given sales effort or
+  campaign budget.
+
+The same completeness logic covers our own low-margin adjacencies — fabric track, tools, tape, profile,
+samples — which sit on Cinema Store under the self-evident rule above.
+
+**Genuinely consumer lines** — DT's **Enthusiast** range and Ultrasuede — are our own products offered
+directly, not carried lines. Real demand goes unrealised there because we have never addressed the
+consumer. Note the strict boundary: Enthusiast only, never the premium Dynamic range, which is trade
+business (`brands/display-technologies/positioning.md`).
+
+### Removed
+
+Decided for removal from the roster, and to be delisted wherever they appear:
+
+- **Sylvox** — outdoor and pool televisions, outdoor soundbar and mounts. The largest carried line by
+  product count and entirely off-thesis: a different market and a different buyer, with no relationship to
+  high-end cinema. Goes completely.
+- **Poet** — media server, creator software, stereo camera. Goes completely.
+- **Stealth Acoustics** — reduced to a single accessory; residue of a relationship rather than a line.
+  Goes.
+
+### Snapshot at the time of the decision
+
+Captured from the public product feeds, 2026-07-28 (gated items may not appear, so counts are indicative).
+
+- **`srnd.store`, 125 products.** Own brands: Fabric Walls 42, Display Technologies 36, Light Walls 13,
+  C-ATS 4, plus 9 under an "SRND Store" vendor (commissioning services, Ultrasuede, and the MIRS Modular
+  Isolated Room System). Carried: Sylvox 8, Leyard 4, Poet 4, MadVR 3, Advatek 1, Stealth Acoustics 1.
+- **`cinema-store.com`, 126 products** — a wider carried set again, including cinema audio lines (Mag
+  Theatron, PhaseTech/SoundTube, dARTS) and Barco Residential. Those audio lines are **not covered by the
+  decision above**: they sit in Pro-Fi's territory and belong to the separate question of third-party
+  audio versus Pro-Fi (`open-items.md`). Leyard and MadVR should come **off** Cinema Store, since both are
+  trade-channel only.
+
+Two data problems to fix while delisting:
+
+- The C-ATS vendor name reads **"Complete ATS"** on both stores, hard-coding an expansion that is
+  deliberately unresolved. It should be **C-ATS**.
+- Isolation products (MIRS, penetration back boxes) are vendored under "SRND Store" rather than C-ATS,
+  although brand truth places isolation with C-ATS.
 
 ## Where the properties now stand
 
@@ -113,10 +153,14 @@ Keeping those two jobs distinct is what makes both work.
 
 ## What still has to be decided
 
-- **Confirm the carried-brand roster.** The clean-up is in progress, and the live listings do not yet
-  reflect the intended roster. Settle which third-party relationships are actually live, and reconcile
-  `srnd.store`, `cinema-store.com` and `09-brand-portfolio.md` to the same answer — the portfolio doc
-  currently states Leyard is the only third-party line.
+- **Execute the delisting.** The roster is decided (above); the stores don't reflect it yet. Remove
+  Sylvox, Poet and Stealth Acoustics entirely; take Leyard and MadVR off Cinema Store; fix the C-ATS
+  vendor name and the isolation-product attribution.
+- **Pro-Fi is absent from `srnd.store` entirely.** Zero products, while six carried lines are listed.
+  That contradicts the stated model — one account and one checkout across every brand
+  (`09-brand-portfolio.md`) — and it matters more now that Pro-Fi is the group's high-multiplier line.
+  Pro-Fi currently sells direct through its own channel; whether it joins the group store, and on what
+  terms, needs deciding.
 - **Third-party audio versus Pro-Fi.** Carried cinema speaker and amplifier lines sit in Pro-Fi's
   territory. That is defensible while Pro-Fi's range is largely design-intent and Pantheon is
   pre-release, but it needs to be a decision with an end state rather than a drift, or it will compete

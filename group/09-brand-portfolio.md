@@ -47,10 +47,11 @@ systems together. Own-manufactured, like the six brands (not distribution).
 
 ## Distribution & carried lines
 
-- **Leyard** is the principal genuine third-party brand SRND distributes. Other carried lines exist
-  (and a clean-up is in progress reducing them) — the live roster is being reconciled, so don't treat
-  either store's current listings as the answer. See `19-direct-and-carried-lines.md`, which sorts
-  carried lines by the job they do rather than the margin they return.
+- **Leyard is the only genuine third-party brand SRND distributes** — trade channel only. Two other
+  carried lines exist in narrower roles: **MadVR**, carried specifically as an accessory to Leyard rather
+  than as a line of its own (SRND Store only), and **Advatek**, a small-range component necessity for
+  Light Walls carried on both stores for completeness. Sylvox, Poet and Stealth Acoustics have been
+  removed from the roster. Full reasoning and the delisting actions: `19-direct-and-carried-lines.md`.
 - **Ultrasuede** is a **fabric component used within Fabric Walls**, not a standalone brand — though it
   is also a genuine candidate for direct consumer sale (`19-direct-and-carried-lines.md`).
 - The store (`srnd.store`) still lists a longer "World Class Brands" set (e.g. Advatek, MadVR, Poet,
