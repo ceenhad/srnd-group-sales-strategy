@@ -3,8 +3,9 @@
 *Where calculators fit commercially, and the rule for what may be published where. Internal.*
 
 *The Cinema Platform repo (`ceenhad/cinema-platform`) is authoritative for what the tools are and how
-they're built. This document is the **commercial** position and references those decisions rather than
-restating them. Grounded in Cinema Tools **ADR 017** (commercial-first, engine depth as IP, report as the
+they're built. This document is the **group commercial** position — which is a wider frame than the tool
+product's own monetisation model, because we are a manufacturer and the tools exist to pull product
+through. It references the platform's decisions rather than restating them. Grounded in Cinema Tools **ADR 017** (commercial-first, engine depth as IP, report as the
 monetised deliverable), **ADR 019** (C-ATS partner tool placement and brand framing), **ADR 036** (engines
 are cloud-hosted; the local installable is retired) and **ADR 040** (operator surfaces over the design
 spine). An earlier draft of this document leaned on ADR 014's three-level tiering; 017 and 036 retired
@@ -19,24 +20,63 @@ capture a lead while doing it. The strategy should be biased *toward* building t
 An earlier version of the C-ATS strategy said "no public calculators" on the grounds that a calculator
 commoditises chargeable design. That reasoning was wrong and is withdrawn.
 
-## What is actually sold: the report, not the tool
+## What we are, and what we are not
 
-This is the decision that settles the whole question, and it is already made. Under ADR 017 the monetised
-deliverable is **the report**, not access to a tool — residential design-it-yourself subscription is
-explicitly retired. The engine substrate (**Tessellate**) is the IP: what the engines *compute*, not how
-the interface looks. Speed-to-report — minutes rather than days, with full acoustic and performance-level
-evaluation — is the value proposition.
+Two questions have to be answered before any tool decision makes sense, and the answer to both is no:
 
-The platform's own phrasing is the cleanest statement of it: **"the deliverable is the recipe, not the
-recipe-finder."**
+- **Are we an online services company?** No.
+- **Are we a paid design-tool vendor?** No.
 
-Once that is understood, the anxiety about calculators dissolves. A free calculator cannot cannibalise a
-paid design service, because what the service sells is a *deliverable carrying accountability* — measured
-data, judgement, and a result somebody stands behind and can verify. Arithmetic was never the product.
+**We are a manufacturer.** Tools help us sell services and make money — that much is plainly true — but
+the service is not where it stops. A design specifies a room, and we make most of what goes into it.
+
+That distinction is the whole strategic point. For Kolosseum, Cinema Room Setup or DARDT, the tool *is*
+the business, so the tool has to pay for itself. For us the tool leads to a specification, and the
+specification leads to product supply across every brand in the room. **The ladder doesn't end at the
+report; it ends at the room being supplied.**
+
+Three consequences follow, and they are advantages competitors without factories cannot copy:
+
+- **We can afford to be more generous with tooling** — and to invest more in the engine — than a tools
+  company ever could, because our payback is downstream.
+- **The measure of a good tool is specification share, not tool revenue.** How many designs name our
+  products, and how many convert to orders. Judging tools on their own P&L would get the answer wrong.
+- **Depth in the engine pays twice** — once as a better deliverable, once as a specification that lands
+  on our own products.
+
+### The platform's monetisation model sits inside this, not above it
+
+Cinema Tools ADR 017 makes the monetised deliverable **the report** rather than tool access — residential
+design subscription retired, engine depth (**Tessellate**) as the IP, speed-to-report as the value
+proposition. The platform's own phrasing is the cleanest statement of it: **"the deliverable is the
+recipe, not the recipe-finder."**
+
+That is correct as the *tool product's* commercial model, and it is why free calculators cannot
+cannibalise paid design — what's sold is a deliverable carrying accountability: measured data, judgement,
+and a result somebody stands behind and can verify. Arithmetic was never the product.
+
+But at group level the report is a **stage**, not the destination. Keep both in view, or the tooling gets
+optimised as a standalone business and the product pull-through it exists to create gets forgotten.
 
 A useful discipline travels with it: **UI polish is a qualifier, not the IP.** It must not embarrass the
 engine, but it isn't where we compete. That is the same instinct as the group's voice — substance over
 surface.
+
+### Two honesty disciplines
+
+**Assume the competition is good.** ADR 017's context reads a little dismissively of Kolosseum and Cinema
+Room Setup ("without engine depth"). Both are very probably excellent, built by knowledgeable people —
+there are plenty of those in this industry besides us. We have already made the opposite mistake in this
+work, trusting a competitor's marketing over their real capability; assuming a competitor lacks depth is
+the same failure inverted. Assess honestly in both directions.
+
+**Brand-agnostic, and never rigged.** The engines are deliberately brand-agnostic — any loudspeaker
+library, any projector catalogue — which is right for credibility and essential to replacing DARDT. It
+also, obviously, maximises adoption while minimising the pull-through we actually monetise. That tension
+is real and should not be resolved by quietly weighting the tool toward our own products. Pro-Fi's own
+principle is the right one: *informs, never blocks; the customer decides*, and sell more only when it
+genuinely helps. So: genuinely brand-agnostic, our products well represented and easy to specify, never
+rigged. A tool caught favouring us would destroy the trust that makes it valuable in the first place.
 
 ## The real failure mode is implication, not disclosure
 
@@ -82,14 +122,19 @@ Two consequences worth recognising as group assets already built rather than pla
 - **Each calculator is a discrete SEO landing page** targeting specific queries — the GEO/AEO strategy
   implemented, not aspired to.
 
-## The value ladder
+## The ladder, and where it actually ends
 
-ADR 017 sets out how design revenue actually arrives, and it is a ladder rather than a product:
+ADR 017 sets out how design revenue arrives, and it is a ladder rather than a product:
 
 free calculators (discovery and authority) → **partner-gated C-ATS reporting tool** (the residential
 revenue route through the partner channel) → **Pro Design escalation at £500, invoiced per engagement**
-→ partner-network escalation → brand-partnered recipe packs (Pro-Fi is the proof) → and, separately, the
-full C-ATS design service and verification where a project warrants it.
+→ partner-network escalation → brand-partnered recipe packs (Pro-Fi is the proof) → the full C-ATS design
+service and verification where a project warrants it — **→ and then the products that build the room.**
+
+That last rung is the one the tool docs can't see from where they sit, and it is the largest. Every rung
+before it earns real money and builds real trust; none of them is the destination. A design that names our
+screen, our treatment, our speakers, our fabric and our lighting is worth a multiple of the report that
+produced it.
 
 No subscription billing: partner access is gated by SRND-managed credentials. **Which means tool access
 as a partner benefit is already the operating model**, not a proposal — and it is precisely the currency
