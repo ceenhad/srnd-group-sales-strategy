@@ -154,6 +154,13 @@ is deliberately short. Three carried lines, in three distinct roles:
 The same completeness logic covers our own low-margin adjacencies — plastic fabric track, tools, tape,
 profile, samples — which sit on Cinema Store under the self-evident rule above.
 
+**Spares and service items follow the same logic, and should be extended rather than trimmed.** Being able
+to buy a part instead of replacing an assembly is a practical form of backing a dealer, so a fuller service
+catalogue on SRND Store reinforces the partner promise (`18-partner-programme.md`). It is deliberately
+**out of scope for marketing for now** — extend it operationally, don't build content or campaigns around
+it. One boundary: a controller supplied as a *service replacement* for an existing product is a spare; a
+controller sold as a component to build with is not (`../brands/display-technologies/positioning.md` §5).
+
 ### Where our own products sit — decided
 
 Own-brand allocation is not "everything everywhere." Each line belongs to one store unless there's a reason

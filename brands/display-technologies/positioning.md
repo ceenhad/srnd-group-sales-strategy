@@ -181,7 +181,9 @@ group.
 - **Control stays embedded — never a line item, no exceptions.** The Commanders sell only inside the
   products. Don't market a controller on its own, don't quote one, and don't let one be treated as a
   component: it would make DT an OEM supplier and hand a competitor the one advantage that can't be
-  copied.
+  copied. **The distinction is purpose, not part:** a Commander may be supplied as a *service
+  replacement* against an existing DT product — we have to be able to support our own installed base —
+  but never as a component to design into someone else's mechanism.
 - **Products are size-driven, not per-model bespoke.** Don't claim "engineered to your exact projector."
 
 **No superlative arms race** *(group-wide)*

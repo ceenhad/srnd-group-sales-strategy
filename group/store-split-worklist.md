@@ -83,12 +83,23 @@ stays in the channel as a component of the metal system.)*
 - **Poet (4)** — FM1 media server, Creator software, Partner Demo Set, ZED 2 stereo camera.
 - **Stealth Acoustics (1)** — 60W constant-voltage transformer.
 
-## Also delist — the Actuator Commander
+## Also delist — the Actuator Commander (but keep spares)
 
-**Actuator Commander 2** comes off as a purchasable item on the DT store. Control now sells only inside DT
-products, with no exceptions (`../brands/display-technologies/positioning.md` §1, §5). *(Decide whether the
-associated components — linear actuator, draw wire sensor, power supply — go with it or remain available as
-spares; spares are a legitimate category, a controller isn't.)*
+**Actuator Commander 2** comes off as a purchasable item: control sells only inside DT products
+(`../brands/display-technologies/positioning.md` §1, §5).
+
+**Spares stay, and the direction is to extend service items on SRND Store**, not reduce them. So the
+distinction to hold is *what the item is for*, not what it is:
+
+- **Not sold as a component to build with** — no controller supplied to be designed into someone else's
+  mechanism. That is the whole point of the policy.
+- **Available as a service replacement against an existing DT product** — including a Commander, if one
+  fails in the field. Without this we couldn't support our own installed base.
+- The associated parts — linear actuator, draw wire sensor, power supply — **stay as spares.**
+
+Being able to get a part rather than replace an assembly is a real form of backing a dealer, so this
+reinforces the partner promise (`18-partner-programme.md`). **Out of scope for marketing right now:**
+extend the service catalogue operationally; don't build content or campaigns around it.
 
 ## Data fixes while delisting
 
