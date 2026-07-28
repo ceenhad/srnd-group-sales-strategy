@@ -62,6 +62,11 @@ in one place for every brand.
   kit. Includes the three-part test any tool must pass, the ladder, and the honest naming of cross-selling
   as the group's weakest link.
 
+- `21-beyond-cinema.md` — **beyond cinema**: the explicit determination not to remain a high-end-cinema
+  supplier. None of the competences are cinema-specific — only the history is — so this is removing a
+  self-imposed fence, not a pivot. Names the adjacent markets already surfaced, and the fences that have to
+  come down (copy habits, the cinema-named property estate, cinema-only proof, cinema-only channels).
+
 **Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
 Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately
 deferred while it is worked separately.

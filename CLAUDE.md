@@ -58,6 +58,15 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
 - **Flag, don't guess.** Buyer-truth, channel validation, pricing tiers, name expansions — where a
   fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
   `open-items.md`. Don't invent personas, figures, or roadmaps.
+- **Build it, then say it.** Where the group has the intent but not yet the reality, the reality comes
+  first and the claim waits. This has now surfaced three times independently — dealer appreciation, the
+  partner programme, and the whole room being genuinely easier to buy — which makes it the group's
+  characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
+  more than silence. See `group/18-partner-programme.md`, `group/16-whole-room.md`.
+- **Don't fence us to cinema.** High-end cinema is the heartland of revenue and credibility and should
+  lead where it's strongest — but the group is explicitly determined not to remain a cinema-only supplier,
+  and none of the underlying competences are cinema-specific. Name the *problem*, never the room type.
+  Lead with cinema credibility, never a cinema-only definition. See `group/21-beyond-cinema.md`.
 
 ## The shared portal (settled policy)
 
