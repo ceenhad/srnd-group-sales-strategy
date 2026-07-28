@@ -17,16 +17,35 @@ only one of them.
 
 ## The lanes
 
-### 1. Every job leaves evidence
+### 1. Every job leaves evidence — but not photographs
 
-The proof gap — thin case studies, almost no install photography, all of it cinema — closes by habit, not
-by project. A job is going out anyway; someone is already on site.
+The proof gap is real, and the obvious answer doesn't work here. **We won't get photographs often.** We're a
+trade supplier: we don't own the site, the client or the timeline. And most of what we make is deliberately
+concealed, so even a perfect shot of a finished cinema shows a fabric surface and a screen — nothing C-ATS
+made, nothing of DT's structure. For a concealed-product business the finished photograph was always the
+wrong asset to build a proof plan on.
 
-- **Smallest next move:** photograph the next job properly and write down what the room needed and what it
-  achieved. Two things, on every job, from now on.
-- **Why it matters most:** it is the only route to the non-cinema proof the beyond-cinema determination
-  depends on (`group/00-strategy.md`), and it can't be bought.
-- Rides on: jobs already happening.
+What we can actually obtain, strongest first:
+
+- **Measured data — the spine.** Verification reports and before-and-after acoustics. We generate it
+  ourselves, it needs nobody's permission, and it is already the strongest proof we hold *and* the one
+  competitors don't offer. **Smallest next move: keep the measurements from jobs we verify, in a form that
+  can be published.** That is a filing habit, not a project.
+- **Renders as virtual case studies.** Dozens into the hundreds, already ours; the story does the work with
+  the render as hook. With photography scarce this is the primary visual route, not a nice-to-have.
+- **The Experience Centre.** Our own room — filmable and photographable endlessly, no permission needed.
+- **Build and in-progress imagery**, when it happens. For a trade audience this is *better* than a finished
+  shot, because it shows what's behind the fabric — exactly what a dealer needs to see and what a finished
+  room can never show. So when we are on site, shoot the build rather than waiting for the reveal.
+- **Commissioned dealer features.** The only dependable route to finished-room photography is to buy it —
+  which the partner programme already proposes (feature a top partner's work, professionally shot at our
+  cost). It pays twice, and it is now the primary mechanism rather than a bonus
+  (`group/03-partner-programme.md`).
+- Rides on: jobs already happening, and a facility we already own.
+
+*Consequence for beyond-cinema:* non-cinema proof will be **measured data and virtual case studies**, not
+photography. That is achievable — and it means the first non-cinema job needs its measurements kept, whether
+or not anyone gets near it with a camera.
 
 ### 2. The stores get cleaned as they're already being cleaned
 

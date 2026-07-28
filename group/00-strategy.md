@@ -42,8 +42,11 @@ we know what we are doing, and that we are on the dealer's side. The work divide
 - **Tell** — drive the moat down into each brand as a dealer-first story, group → brand → product. The
   existing sites were built ad hoc and are placeholders to re-base, not assets to push live.
 - **Prove** — the weakest claim is "you'll come out ahead," because it is asserted from capability rather
-  than demonstrated. Case studies with measured before-and-after, virtual case studies from the render
-  library, and measured sign-off the dealer can hand a client.
+  than demonstrated. Note what proof is actually *available* to a trade supplier whose products are
+  concealed: **install photography is rare and shows little of what we make**, so the stack is measured
+  before-and-after and verification sign-off the dealer can hand a client (ours to generate, and unique),
+  virtual case studies from the render library, the Experience Centre, build-stage imagery in preference to
+  finished shots, and dealer features we commission. See `../NEXT.md`.
 - **Tend** — the half we don't yet keep. We earn trust through competence and return nothing that says the
   relationship is valued (`03-partner-programme.md`).
 - **Institutionalise** — the advantage lives in a few people and scattered repositories. Least urgent,
