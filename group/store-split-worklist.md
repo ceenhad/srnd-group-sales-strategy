@@ -4,7 +4,13 @@
 product feeds, 2026-07-28 (`cinema-store.com` 126 products, `srnd.store` 125). Gated items may not appear,
 so treat counts as indicative. This is a worklist, not strategy.*
 
-**Cinema Store today: 126 → 45 stay, 9 to decide, 30 move to SRND Store, 42 delete.**
+**Cinema Store today: 126 → 42 stay, 30 move to SRND Store, 42 delete, 12 duplicated/withdrawn.**
+
+> **Decisions applied (2026-07-28):** no C-ATS on Cinema Store. Fabric Walls splits by system — **plastic
+> track and tools are Cinema Store only**; metal frames, full rooms and star ceilings are **SRND Store
+> only**. The DT items on Cinema Store are the **Enthusiast screens and a hush box**; image surfaces, port
+> holes and the ceiling mount go to SRND Store. *(Read that way from the instruction — say if surfaces or
+> port holes were meant to stay.)*
 
 ---
 
@@ -20,26 +26,20 @@ Plain fulfilment. List it, price it, ship it. No story, no campaign.
 - **Ultrasuede (2)** — LX and XL.
 - **Samples (1)**.
 
-## Stays on Cinema Store — the Enthusiast proposition (4)
+## Stays on Cinema Store — the considered-purchase range (5)
 
-The deliberate stretch of the rule. These need real work: confident pricing, a proper explanation of why to
-buy, and support for a buyer who isn't a professional.
+The deliberate stretch of the rule, and the half that needs real work: confident pricing, a proper
+explanation of why to buy, and support for a buyer who isn't a professional.
 
 - Mask 2s side masking, 2.4:1 (£9,900–£17,100)
 - Mask2TB top-and-bottom masking, 1.78:1 (£11,100–£20,700)
 - Outline Fixed 16:9 (£2,100–£4,500)
 - Outline Fixed 2.4:1 (£2,040–£4,440)
+- Hush Box Small (£6,356) — *listed twice on the site; de-duplicate*
 
-## To decide (9) — recommendation: keep
-
-Each needs size or variant matching, which is why they aren't automatic. But each passes the test — a buyer
-choosing one already knows what it is — so the recommendation is to keep them, supported by a simple
-selector or sizing guidance rather than a quote request.
-
-- Image surfaces: ATRef (£742–£2,016), ATStudio (£494–£3,250), Image Ref solid (£600–£3,540)
-- Ceiling Mount (£1,097)
-- Hush Box Small (£6,356) — *listed twice; de-duplicate*
-- Port holes: single glazed (£3,532), double glazed (£4,237), small single glazed (£1,978)
+**Proposed: make these Cinema Store exclusive, removed from DT.** See
+`19-direct-and-carried-lines.md` for the reasoning and the open questions (whether the whole hush box line
+moves or only the Small; whether DT provenance may still be stated).
 
 ## Move off Cinema Store → SRND Store only (30)
 
@@ -47,13 +47,14 @@ selector or sizing guidance rather than a quote request.
 UltraRes 105" LCD and demo unit; MadVR Envy Core / Pro MK2 / Extreme MK2. Both lines are trade only.
 
 **Needs design or specification (22).**
-- C-ATS (4) — the Acoustic Treatment Design Service (£6,000–£12,000) and the three control panels.
-  *Judgement: panels need specifying (which, how many, where) — that is C-ATS's paid design — and public
-  prices on a core channel brand would undercut partners. Overrule if you'd rather they were buyable.*
-- Fabric Walls (14) — the 11 named Cinema Interiors, Cinema Room System Philadelphia, Aluminium Fabric
-  Frame, Starlight Ceiling Panels. (Most currently show £0 placeholders.)
-- DT (1) — Frontier fixed-frame screen (trade, not Enthusiast).
-- Services (3) — both Commissioning Support items, Enhanced Cinema Interior Design Package.
+- **C-ATS (4)** — the Acoustic Treatment Design Service (£6,000–£12,000) and the three control panels.
+  **Decided: no C-ATS on Cinema Store.**
+- **Fabric Walls (14)** — the 11 named Cinema Interiors, Cinema Room System Philadelphia, Aluminium Fabric
+  Frame, Starlight Ceiling Panels. **SRND Store only** — the metal-frame system, complete rooms and star
+  ceilings all need design. (Most currently show £0 placeholders.)
+- **DT (8)** — Frontier fixed-frame screen; the three image surfaces (ATRef, ATStudio, Image Ref); the three
+  port holes; the ceiling mount.
+- **Services (3)** — both Commissioning Support items, Enhanced Cinema Interior Design Package.
 
 ## Delete entirely (42)
 
@@ -68,6 +69,12 @@ Off the roster, both stores.
 | Barco Residential | 1 (legacy listing) |
 
 ---
+
+## Also on `srnd.store` — withdraw the Cinema-Store-exclusive items
+
+The Fabric Walls split runs both ways. **Remove from `srnd.store`:** the 23 plastic fabric track SKUs and
+the tools, which are now Cinema Store only. *(Confirm whether Camira fabric by the metre goes with them or
+stays in the channel as a component of the metal system.)*
 
 ## Also on `srnd.store` — delete (13)
 

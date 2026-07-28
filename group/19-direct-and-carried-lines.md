@@ -64,6 +64,35 @@ So **Cinema Store does two different jobs, needing very different amounts of eff
 Conflating those two is what has made the property hard to define. Separating them makes both tractable —
 and makes clear that the only real work here is the second.
 
+### Exclusivity: the stronger version of this
+
+**Proposed — make the consumer range Cinema Store exclusive, and remove it from DT.** The Enthusiast screens
+and the small hush box would cease to be DT lines and become Cinema Store's own range, with other suitable
+products cherry-picked into that channel over time — products chosen precisely because they suit a consumer
+buyer and would be wrong on SRND Store.
+
+It is worth doing because it resolves three problems at once rather than tidying one:
+
+- **DT's identity gets clean.** DT becomes purely the architectural-integration trade brand, with no
+  consumer tier inside it. That is exactly what its settled positioning asks for.
+- **The orphaned Enthusiast go-to-market is solved by moving it somewhere it can be sold properly.** The
+  range is a good product that has never been priced or marketed with conviction because it sat inside a
+  trade brand that had no reason to address consumers
+  (`brands/display-technologies/positioning.md` §7).
+- **Cinema Store gains a reason to exist.** A channel with its own exclusive range is a real proposition; a
+  shop selling the same things as the trade store never will be. It also removes channel conflict outright —
+  no dealer sees DT-branded product sold direct, because it isn't DT-branded.
+
+**The cost is honest and should not be skipped:** this converts Cinema Store from a nearly free fulfilment
+channel into a brand needing a voice, content and consumer support. Unresourced, an exclusive range simply
+sits unsold in a new place — the problem moves rather than resolves. So it belongs with the
+considered-purchase work above, not ahead of it.
+
+**Open questions.** Whether the whole hush box line moves or only the Small, since the larger boxes look
+like genuine trade products. And whether DT provenance may still be stated — "engineered by Display
+Technologies" — which costs little either way, because consumers don't know the name and the trade won't see
+the consumer site.
+
 **This resolves the apparent conflict with the gated-pricing policy.** `07-portal-and-pricing.md` bars
 public pricing — and it means *channel* products, where a published price would undercut partners and
 commoditise the specification work. Non-channel items are a different economic object: publishing their
@@ -100,13 +129,24 @@ is deliberately short. Three carried lines, in three distinct roles:
   which is also the discipline — easy to find, effortless to reorder, and never given sales effort or
   campaign budget.
 
-The same completeness logic covers our own low-margin adjacencies — fabric track, tools, tape, profile,
-samples — which sit on Cinema Store under the self-evident rule above.
+The same completeness logic covers our own low-margin adjacencies — plastic fabric track, tools, tape,
+profile, samples — which sit on Cinema Store under the self-evident rule above.
 
-**Genuinely consumer lines** — DT's **Enthusiast** range and Ultrasuede — are our own products offered
-directly, not carried lines. Real demand goes unrealised there because we have never addressed the
-consumer. Note the strict boundary: Enthusiast only, never the premium Dynamic range, which is trade
-business (`brands/display-technologies/positioning.md`).
+### Where our own products sit — decided
+
+Own-brand allocation is not "everything everywhere." Each line belongs to one store unless there's a reason
+otherwise:
+
+- **No C-ATS on Cinema Store.** Treatment and the design service are channel business.
+- **Fabric Walls splits by system.** The **plastic track and the tools go to Cinema Store only** — they are
+  self-evident, low-margin items people simply want to buy. The **metal-frame system, complete room kits and
+  star ceilings stay on SRND Store only**, because they need design. This is a genuine split, so the track
+  and tools come *off* the trade store too.
+- **The consumer range — Enthusiast screens and the small hush box — sits on Cinema Store**, with the
+  exclusivity proposal above governing whether it leaves DT altogether.
+- **Ultrasuede** sits on Cinema Store as a direct consumer line.
+- Never the premium **Dynamic** masking range, which is trade business
+  (`brands/display-technologies/positioning.md`).
 
 ### Removed
 
@@ -183,9 +223,11 @@ Keeping those two jobs distinct is what makes both work.
   half is the opposite: it only works with real consumer marketing, which is not work the group does
   today. It may be right to leave the first as a destination and defer the second until there's appetite
   to do it properly. Either way, don't promote the two as one thing.
-- **Which of our own products, beyond Enthusiast, we choose to offer directly.** The rule permits it and
-  the market may reward it, but each addition is a market decision with channel implications, taken
-  deliberately rather than by drift.
+- **Decide the exclusivity proposal** (above): does the consumer range leave DT and become Cinema Store's
+  own? Including the two open questions — the hush box line, and whether DT provenance may be stated.
+- **Which further products get cherry-picked into the Cinema Store channel.** The point of exclusivity is
+  that this roster can include things that would be wrong on SRND Store. Each addition is a market decision
+  taken deliberately rather than by drift.
 - **Whether Cinema Store has any on-ramp role.** A low-value public purchase is the lowest-trust first
   contact imaginable, and enthusiasts are where some professionals come from — but a consumer buying a
   tool is not a dealer, so don't overstate it. Worth a look, not a plan.
