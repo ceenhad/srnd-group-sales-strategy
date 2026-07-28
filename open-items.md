@@ -31,6 +31,18 @@ seriousness, and staged below.*
    Nothing says what a dealer hears when they say the Yorkshire lot are cheaper.
 7. **Light Walls means the whole-room claim is currently four-fifths**, and lighting is a layer we assert we
    own. Deferred by choice, but it is a hole in the central story.
+8. **The trade distributors were never examined, and they compete for the dealer relationship.** Habitech,
+   Pulse Cinemas, Invision, CAVD, Karma AV (`group/06-competitors.md`). Three consequences: much of our
+   partner programme is their standard offer rather than a differentiator; our competitors reach dealers
+   through them while we are absent from all of them (Karma distributes Cinema Build Systems; Habitech carries
+   Artnovion and Screen Research); and **"one relationship, whole room" overclaims**, because a distributor
+   offers one account across thirty-plus brands while we make five layers of the room. A dealer always needs
+   a distributor for the rest, so we can never be the only relationship — the honest claim is the room's
+   integrated fabric, not its equipment list.
+9. **Unanswered fork: is SRND Distribution becoming a Habitech, or the sales arm for our own brands?** These
+   firms are simultaneously rivals to it and a proven route for our brands. Deferred in
+   `group/01-commercial-model.md`; the research says it needs deciding, because it determines whether they are
+   competitors or partners.
 
 ### Staged as next work
 

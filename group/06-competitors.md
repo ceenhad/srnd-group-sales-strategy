@@ -94,6 +94,62 @@ Both ship polished, credible tools and are establishing baseline expectations fo
 tool is. Our answer isn't to chase interface parity — it's engine depth, and the fact that we are a
 manufacturer rather than a tools business (`07-tools.md`). But assume they are good, and track them.
 
+## Trade distributors — the competitor set we hadn't examined
+
+*Researched from their own sites, 2026-07: **Habitech**, **Pulse Cinemas**, **Invision UK**, **CAVD (Custom AV
+Distribution)**, **Karma AV**. These matter more than their category suggests, because they compete for the
+thing this strategy says we accumulate: the dealer relationship.*
+
+**What the standard UK distributor offer actually is.** All five are trade-only and multi-brand — Habitech
+carries dozens of lines (Sonance, Wisdom, Arcam, Naim, StormAudio, Sennheiser, Christie, Artnovion, Screen
+Research, Da-Lite among them), Pulse states "over 30 luxury residential brands," Invision and Karma similar,
+CAVD around a dozen. On top of the portfolio, each advertises some combination of:
+
+- **Training** — CAVD training courses, Invision's Training Academy, Pulse's in-person and webinar programme.
+- **A demo showroom the dealer brings clients to** — CAVD: "at your disposal to bring your clients"; Pulse:
+  "world-class demo facilities welcome hundreds of customers annually"; Invision's Luxury Living Room and
+  "book a demo."
+- **Design, technical support and calibration** — CAVD offers system design and calibration; Pulse lists
+  on-site consultation, design, installation support and system optimisation.
+- **Configurators and project tools** — Invision hosts vendor configurators and a knowledge base.
+- **Case studies, product guides and video.**
+- **Field sales representatives** visiting dealers.
+- **Trade store with quick-order, multi-currency and SRP modes.**
+
+Pulse even markets the volume — "over 800 support interactions" a year.
+
+### Three findings that bite
+
+**1. Most of our partner programme is the standard distributor offer.** Training access, a demo facility for
+the dealer's clients, a named technical contact, demo stock — all advertised by CAVD, Invision and Pulse.
+"Spend the depth, not the margin" (`03-partner-programme.md`) remains the right instinct, but much of the
+Partner tier is **parity, not differentiation.** What stays genuinely distinctive: the top-partner acts,
+roadmap involvement, first allocation, and end-client lead referral.
+
+**2. Our competitors are inside these channels; we are absent from all of them.** Karma AV distributes
+**Cinema Build Systems** — so the whole-room competitor we called the one to beat reaches dealers through an
+established distributor's relationships, credit, showroom and reps, while we go direct. Habitech carries
+**Artnovion** (a C-ATS price-tier peer) and **Screen Research** (a DT peer).
+
+**3. "One relationship, whole room" is weaker than we have been claiming.** A distributor offers one account
+across thirty-plus brands — projectors, processors, control, seating, networking. We make the surface, the
+acoustics, the screen, the sound and the light. **A dealer building a cinema still needs a distributor for
+everything else, so SRND can never be the only relationship.** The honest claim is about the room's
+*integrated fabric* — the parts that have to meet each other — not its equipment list. Say the narrower true
+thing rather than the wider flattering one.
+
+### The fork this exposes
+
+`01-commercial-model.md` treats distributors as an exception requiring a scale or language justification, and
+describes SRND Distribution as "the trade channel, not a product brand," with its future deferred. This
+research says the question is larger than deferred, because these firms are **simultaneously competitors to
+SRND Distribution and a proven route to market for SRND's brands** — CBS through Karma demonstrates the route
+works.
+
+So: is SRND Distribution trying to become a Habitech, or is it the sales arm for our own brands? The answer
+changes whether these five are rivals or partners, and it is currently unanswered rather than decided. See
+`../open-items.md`.
+
 ## The two strategic reads
 
 1. **Control is the gap SRND owns, across the whole field.** FA copied DT's mechanisms from CAD; CBS buys FA's
