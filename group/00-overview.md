@@ -50,6 +50,10 @@ in one place for every brand.
   partner is actually treated. Spend the depth, not the margin; no ledgers; training access at
   registration, an access layer for real partners, and recognition at the top handled as personal acts
   rather than a published schedule. The answer to the appreciation gap.
+- `19-direct-and-carried-lines.md` — **direct sales and carried lines**: the test that sorts everything
+  is whether a purchase needs a relationship. Non-channel items go public and self-serve on
+  `cinema-store.com`; anything needing specification or design stays in the trade channel. Also why we
+  carry no-margin adjacencies (completeness and retention, not profit).
 
 **Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
 Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately

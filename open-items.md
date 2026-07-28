@@ -33,6 +33,10 @@ Group-level decisions and build order. Brand-specific open items live in each
   (`group/09-brand-portfolio.md`) deliberately doesn't fit inside a brand, yet the model makes
   brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a
   cross-brand group line attached to installs. Also its launch timing (don't market before it ships).
+- **Third-party audio versus Pro-Fi** — carried cinema speaker and amplifier lines occupy Pro-Fi's
+  territory. Defensible while Pro-Fi's range is largely design-intent and Pantheon is pre-release, but it
+  needs an end state rather than a drift, or it competes with Pro-Fi exactly when Pro-Fi needs the
+  channel's attention. See `group/19-direct-and-carried-lines.md`.
 - **Store roster vs group reality** — `srnd.store`'s "World Class Brands" menu lists more than the
   current group roster (six own brands + Leyard as the only third-party line). Reconcile the store
   to reality (or confirm what's genuinely still carried) so public listings match the group truth.

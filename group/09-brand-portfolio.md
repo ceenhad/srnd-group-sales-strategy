@@ -47,8 +47,12 @@ systems together. Own-manufactured, like the six brands (not distribution).
 
 ## Distribution & carried lines
 
-- **Leyard** is the **only genuine third-party brand** SRND distributes.
-- **Ultrasuede** is a **fabric component used within Fabric Walls**, not a standalone brand.
+- **Leyard** is the principal genuine third-party brand SRND distributes. Other carried lines exist
+  (and a clean-up is in progress reducing them) — the live roster is being reconciled, so don't treat
+  either store's current listings as the answer. See `19-direct-and-carried-lines.md`, which sorts
+  carried lines by the job they do rather than the margin they return.
+- **Ultrasuede** is a **fabric component used within Fabric Walls**, not a standalone brand — though it
+  is also a genuine candidate for direct consumer sale (`19-direct-and-carried-lines.md`).
 - The store (`srnd.store`) still lists a longer "World Class Brands" set (e.g. Advatek, MadVR, Poet,
   Sylvox). That list does **not** reflect current group reality and is treated as legacy/store-only
   until reconciled — see `open-items.md`. Don't cite it as the group brand roster.
@@ -69,8 +73,14 @@ interchangeable, and no one property has to do everything.
   (`02-commercial-model.md`), the brand sites don't have to carry the full introduce-and-persuade
   load — they can stay lean and practical. Buyer-journey stages 2–3 (proposition / proof / how it
   works).
-- **The store** (`srnd.store`) — **the purchasing destination.** The online face of SRND
-  Distribution (literally the store); where we send people to buy. One account, one checkout across
-  every brand. Buyer-journey stage 4 (register, then buy).
+- **The store** (`srnd.store`) — **the trade purchasing destination.** The online face of SRND
+  Distribution (literally the store); where we send partners to buy. One account, one checkout across
+  every brand, with pricing gated to registered partners. Buyer-journey stage 4 (register, then buy).
+- **Cinema Store** (`cinema-store.com`) — **the direct, non-channel destination.** Public prices, no
+  account or relationship needed. Two jobs: absorb the small ad-hoc purchases that currently arrive as
+  quote requests (tools, short runs of tape and profile, samples, accessories), and sell the genuinely
+  consumer lines properly (DT **Enthusiast**, Ultrasuede). **Live but currently a test**, and mid
+  clean-up. Anything needing specification, design or commissioning stays out of it — see
+  `19-direct-and-carried-lines.md`.
 - **Engine** (`engine.srnd.group`) — **operations** behind it all: registrations, pricing, jobs.
   Separate system, not specified here (see the README).
