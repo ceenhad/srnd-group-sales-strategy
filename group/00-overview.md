@@ -42,6 +42,10 @@ in one place for every brand.
   one room, the two genuine joint capabilities (the Screen Wall; the answer to the LED shift), and the
   alignment rules that stop the brands contradicting each other. Written after the brand work, not
   before.
+- `17-on-ramp.md` — **the on-ramp**: how an unknown contact becomes a partner and deepens, without
+  subordinating any brand to the group. The hinge is registration + marketing permission; brands do the
+  public acquisition, SRND runs the permissioned partner development; entry is brand-led via an
+  adjacency map, not a queue. And the engagement rule: the problem, never the product.
 
 **Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
 Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately
