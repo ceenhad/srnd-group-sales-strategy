@@ -63,10 +63,11 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
   partner programme, and the whole room being genuinely easier to buy — which makes it the group's
   characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
   more than silence. See `group/18-partner-programme.md`, `group/16-whole-room.md`.
-- **Don't fence us to cinema.** High-end cinema is the heartland of revenue and credibility and should
-  lead where it's strongest — but the group is explicitly determined not to remain a cinema-only supplier,
-  and none of the underlying competences are cinema-specific. Name the *problem*, never the room type.
-  Lead with cinema credibility, never a cinema-only definition. See `group/21-beyond-cinema.md`.
+- **Don't fence us to cinema — in trade.** High-end cinema is the heartland of revenue and credibility and
+  should lead where it's strongest, but the group is explicitly determined not to remain a cinema-only trade
+  supplier, and none of the underlying competences are cinema-specific. Name the *problem*, never the room
+  type; lead with cinema credibility, never a cinema-only definition. **The reverse holds in B2C:** the
+  consumer proposition stays DIY home cinema, deliberately. See `group/21-beyond-cinema.md`.
 
 ## The shared portal (settled policy)
 

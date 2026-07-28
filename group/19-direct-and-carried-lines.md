@@ -37,7 +37,7 @@ Applied, that gives:
 
 | | Non-channel — buy it directly | Channel — through SRND |
 |---|---|---|
-| **Examples** | fabric tools, short runs of pixel tape and profile, samples, small accessories and consumables, Ultrasuede, and the **Cinema Store exclusive self-build range** | own-brand treatment, fabric interiors and room kits, DT's premium **Dynamic** range and Screen Wall, Pro-Fi systems, Leyard, design and commissioning services |
+| **Examples** | fabric tools, short runs of pixel tape and profile, samples, small accessories and consumables, Ultrasuede, and the **Cinema Store exclusive DIY range** | own-brand treatment, fabric interiors and room kits, DT's premium **Dynamic** range and Screen Wall, Pro-Fi systems, Leyard, design and commissioning services |
 | **Pricing** | public, RRP | registered-partner-only, fully gated |
 | **What the buyer needs** | nothing from us but delivery | specification, design, support, relationship |
 
@@ -47,7 +47,7 @@ Two refinements matter.
 non-channel; a project's worth of the same tape, specified as part of a lighting scheme, is channel. The
 test applies to the purchase, not the product code.
 
-**The self-build range is a deliberate stretch of the rule, and that has consequences.** A masking screen
+**The DIY range is a deliberate stretch of the rule, and that has consequences.** A masking screen
 is not self-evident — it is a considered purchase that needs explaining, which by the test above would put
 it in the channel. It sits on the consumer site anyway, because it is genuinely a consumer product and the
 trade channel has never served it (`../brands/display-technologies/positioning.md` §7). That is a market
@@ -91,6 +91,12 @@ it is true and it is good: designed and built in North Yorkshire by the people w
 genuinely demanding cinemas. Consumers don't know the name "Display Technologies", so the name adds little;
 the substance adds a lot.
 
+**B2C stays cinema — deliberately.** The group's determination to move beyond cinema is a **trade**
+strategy (`21-beyond-cinema.md`). It does **not** apply here: broadening the consumer proposition beyond
+home cinema would be a recipe for disaster — a vast, competitive, low-margin market where we hold no
+authority, and where the community we can actually reach *is* a cinema community. So Cinema Store is a DIY
+**home cinema** destination, and its name is correct rather than limiting.
+
 **"Enthusiast" is probably the wrong name, and the range needs rethinking as a brand.** "Enthusiast" defines
 the range by who it is *not* for — professionals — which makes it inherently second-class, and is likely part
 of why it has never been sold with conviction. See the reference below for a better frame.
@@ -100,7 +106,7 @@ of why it has never been sold with conviction. See the reference below for a bet
 `avshop.no` is a Norwegian consumer AV retailer (WooCommerce) that is close to the business Cinema Store
 could be, and it is worth studying properly rather than glancing at.
 
-Its organising category is **"AV SELVBYGG" — AV self-build**, and beneath it sits very nearly the Cinema
+Its organising category is **"AV SELVBYGG"** — literally *self-build*, though the natural English term is **DIY**, and beneath it sits very nearly the Cinema
 Store product list: acoustic treatment (kits, absorption, bass traps, system ceiling, fixings); sound
 isolation (room-in-room decoupling, acoustic doors, ventilation, freestanding isolated rooms); textiles
 including **fabric-wall mounting track**, speaker cloth, velour and stage curtains; LED strips and
@@ -110,14 +116,17 @@ direct to consumers.
 
 What to take from it:
 
-- **The concept is self-build, not "consumer versions of trade products."** That is a far stronger frame,
-  it is what the audience calls itself, and it explains why the product set coheres — it is what somebody
-  building their own cinema needs. This is the likely answer to the naming question above.
+- **The concept is DIY, not "consumer versions of trade products."** A far stronger frame, and it is the
+  audience's own word for itself — AVForums' relevant sections are literally *"Members DIY Home Cinema
+  Showcases"* and *"Home Cinema Construction DIY"*. It also explains why the product set coheres: it is
+  what somebody building their own cinema actually needs. The likely answer to the naming question above.
+  (AVshop's Norwegian *selvbygg* translates as self-build; **DIY** is the natural English equivalent and
+  the term to use.)
 - **Consumer social proof is structural.** Reviews and ratings sit on their homepage. Trade never needed
   this; a consumer channel does.
 - **Services can be productised for consumers** — they sell professional calibration and project design as
   purchasable items. A possible future line, not a commitment.
-- **Tool hire alongside tool sales** — a neat adjacency for a self-build audience, and we already sell the
+- **Tool hire alongside tool sales** — a neat adjacency for a DIY audience, and we already sell the
   tools.
 
 **One inversion to record before someone applies the trade rule here by reflex:** AVshop runs a system
@@ -137,7 +146,7 @@ nothing consumer-facing to point it at. (The build itself was around ten years a
 18-part build diary carries no group branding and is relationship history rather than a usable asset. The
 credit is what matters, spent on new content.) The fit is unusually good:
 
-- **The audience is the buyer.** AVForums' readership is the home-cinema enthusiast and self-builder —
+- **The audience is the buyer.** AVForums' readership is the DIY home-cinema enthusiast —
   precisely who this range is for, and an audience the trade channel has never been able to address.
 - **It is editorial, not advertising.** Third-party review carries weight self-produced marketing cannot,
   the same reason named endorsements work for competitors (`13-competitors.md`) — and it is exactly the sort
@@ -286,8 +295,8 @@ Keeping those two jobs distinct is what makes both work.
   half is the opposite: it only works with real consumer marketing, which is not work the group does
   today. It may be right to leave the first as a destination and defer the second until there's appetite
   to do it properly. Either way, don't promote the two as one thing.
-- **Name and define the self-build range.** Exclusivity is decided; the branding isn't. "Enthusiast" is
-  probably wrong (it defines the range by who it excludes), and AVshop's self-build framing is the better
+- **Name and define the DIY range.** Exclusivity is decided; the branding isn't. "Enthusiast" is
+  probably wrong (it defines the range by who it excludes), and AVshop's DIY framing is the better
   starting point. Decide the name, and define which *specific* products constitute the range — including
   whether a Cinema Store hush box is defined as its own product or dropped, since it cannot be the trade one
   listed twice.

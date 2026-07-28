@@ -7,7 +7,7 @@
 High-end cinema got us here. It built the reputation, the engineering, the reference rooms and most of
 the revenue. It is not where the group intends to stay.
 
-**We are determined to escape being just a high-end cinema supplier.** Stated plainly because it has
+**In trade, we are determined to escape being just a high-end cinema supplier.** Stated plainly because it has
 been implicit for too long, and because half the corrections in this repo turn out to be the same
 instruction applied brand by brand: state the problem, not the room; don't fence to cinema; "Walls" is
 only the name; DT is not the projection company; Pro-Fi serves hospitality and wellness too. Those were
@@ -15,6 +15,21 @@ not five separate edits. They were one determination, showing up five times.
 
 This is not a pivot away from cinema. Cinema remains the heartland of revenue and credibility, and
 throwing that away would be foolish. It is the removal of a **self-imposed fence.**
+
+## Scope: trade only. B2C stays cinema.
+
+**This is a trade strategy and applies to trade only.** In B2C the opposite discipline holds: the consumer
+proposition stays firmly **DIY home cinema**, and broadening it would be a recipe for disaster.
+
+The reasons are specific rather than squeamish. The general consumer market is vast, fiercely competitive
+and low-margin; we hold no authority outside cinema with consumers; and the communities we can actually
+reach — AVForums and its like — *are* cinema communities. Everything that makes the consumer channel viable
+comes from being the people who know cinema rooms.
+
+So `cinema-store.com` is a DIY home cinema destination and its name is correct rather than limiting. (An
+earlier draft of this document flagged the name as awkward on the assumption the consumer audience might
+broaden; that assumption is wrong, and the flag is withdrawn.) See
+`19-direct-and-carried-lines.md`.
 
 ## Why it's credible: the competences were never cinema-specific
 
@@ -69,9 +84,8 @@ problem —
 
 - **Cinema Tools** is a design-authority brand where the name is an asset, and its engines already span
   residential, commercial and studio work. Probably keep.
-- **Cinema Store** is more awkward: if the self-build audience extends beyond cinema rooms, the name
-  limits it. Worth examining alongside the naming of the exclusive range (§ open items in
-  `19-direct-and-carried-lines.md`).
+- **Cinema Store** is correct as it stands, because B2C deliberately stays cinema (above). No change
+  needed; the open question there is only the *range's* name, not the store's.
 - **C-ATS's expansion** is already flagged unresolved — and this is another reason not to hard-code
   "Cinema" into it.
 
@@ -93,7 +107,7 @@ the fence.
 ## Open questions
 
 - **Which adjacency first, and who owns it.** The list above is candidates, not a plan.
-- **Cinema Store's name and scope** if self-build extends beyond cinema.
+- **The DIY range's name** (not the store's) — `19-direct-and-carried-lines.md`.
 - **Non-cinema proof** — the first case studies outside cinema, which the whole determination depends on.
 - **Channels for commercial fit-out, hospitality and workplace** — largely absent from `12-channels.md`.
 - **Whether the group identity line does this work.** The unresolved group positioning statement

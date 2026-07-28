@@ -183,7 +183,7 @@ the partner programme runs on: spend the depth, not the margin (`18-partner-prog
 
 ## The consumer channel
 
-For self-builders on `cinema-store.com` there is no chargeable design to protect, so configurators and
+For DIY buyers on `cinema-store.com` there is no chargeable design to protect, so configurators and
 estimators are pure asset. **No-calculators was only ever a channel rule, never a universal one** — worth
 stating plainly, or the trade caution gets applied here by reflex and removes an advantage. (AVshop.no
 runs both a system configurator and an automatic sound-isolation calculator —
