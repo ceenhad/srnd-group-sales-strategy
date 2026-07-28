@@ -53,10 +53,15 @@ not only finished screens.)*
 
 ## 5. Control + airflow layer (the platform that drives the moving products)
 
-- **Actuator Commander 2** — the controller behind the dynamic screens, masking and actuators
+- **Actuator Commander 2** — runs MMD lifts and general motion
 - **Mistral Commander — Fan Controller (2-zone)** — airflow control (hush-box / projector cooling)
 - **Mistral inline fans** — **150**, **200**, **250**
 - Components: **Linear actuator — 200mm**, **1500mm Draw Wire Sensor**, **AC→12V DC 8A Power Supply**
+
+**Not in the product feed: the Dynamic Commander.** It runs the DT Dynamic Screen — 5-edge aspect masking,
+including **Mask Position Logic** (driving the screen by aspect ratio rather than fixed presets). It doesn't
+appear as a purchasable SKU because it ships *inside* the screen, which is a neat confirmation of the
+control-stays-embedded rule in `positioning.md` §5. See `brand-data.md` and `dt-commander-v5.md`.
 
 ## 6. Utility / hidden
 
@@ -67,9 +72,10 @@ not only finished screens.)*
 ## Strategic reads (for the positioning work)
 
 - **The Commanders are the control layer, and the differentiator.** DT doesn't just sell screens and
-  mounts — it sells the system that *moves and manages* them: Actuator Commander 2 drives the dynamic
-  masking and mirror drops; Mistral Commander manages projector airflow. This is the "control" leg of
-  the group story, and where DT's real depth sits.
+  mounts — it sells the system that *moves and manages* them. Three, with distinct jobs: the **Dynamic
+  Commander** runs the Dynamic Screen (5-edge aspect masking, including **Mask Position Logic**); the
+  **Actuator Commander** runs MMD lifts and general motion; the **Mistral Commander** manages projector
+  airflow. This is the "control" leg of the group story, and where DT's real depth sits.
 - **Products are matched to specific projectors.** Almost every mount, port hole, fan and Hush Box is
   tagged to exact projector models (Barco Residential, Christie, BenQ, Epson, DPI, NEC…). DT is an
   integration system built around the installer's actual kit — "we already know your projector" — not
