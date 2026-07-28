@@ -15,16 +15,23 @@ Both problems have the same answer: somewhere to send people. `cinema-store.com`
 **live but currently a test**, and mid-clean-up — a large number of carried brands have already been
 removed — so its present contents are a snapshot, not a specification.
 
-## The test that sorts everything: does the purchase need a relationship?
+## The test that sorts everything: does the buyer already know what it is?
 
-The dividing line is not B2C versus B2B, and it is not margin. It is whether the buyer needs us involved
-to buy correctly.
+The dividing line is not B2C versus B2B, and it is not margin. The cleanest test is answerable from the
+buyer's side rather than ours:
 
-**If it can be bought without advice, a quote, a design conversation or commissioning — it is
-non-channel.** Publish the price, let them buy it, and stop quoting it.
+**If someone can buy it and be expected to use it — let them, and don't pretend it's more than it is.**
+Nobody buys a fabric tuck set or a pixel controller without knowing what it is and what it's for. These
+buyers arrive already informed. They don't need to be sold to, educated or specified for; they need a
+price and a checkout. So publish the price, make it easy, and stop quoting these one at a time.
 
-**If it requires specification, design, commissioning or an ongoing relationship — it is channel.** It
-belongs to SRND and the trade route, and it should not appear on the consumer site at all.
+**If it's more complex than that — if it has to be explained, specified, designed or commissioned — it
+belongs on `srnd.store`,** in the trade channel, and should not appear on the consumer site.
+
+The "don't pretend it's more than it is" half matters as much as the permission. A tuck tool does not
+need hero copy, a story or a campaign. Over-dressing these items wastes effort and makes the whole
+property feel like marketing rather than a shop. Restraint here is the same discipline as everywhere else
+in the group's voice — it just happens to also be the cheapest option.
 
 Applied, that gives:
 
@@ -39,6 +46,23 @@ Two refinements matter.
 **The same product can fall either side, depending on the transaction.** A few metres of LED tape is
 non-channel; a project's worth of the same tape, specified as part of a lighting scheme, is channel. The
 test applies to the purchase, not the product code.
+
+**Enthusiast is a deliberate stretch of the rule, and that has consequences.** A masking screen is not
+self-evident — it is a considered purchase that needs explaining, which by the test above would put it in
+the channel. It sits on the consumer site anyway, because it is a genuinely consumer product and the trade
+channel has never served it (`brands/display-technologies/positioning.md` §7). That is a market decision
+overriding the sorting rule, and it should be recognised as such rather than smuggled in.
+
+So **Cinema Store does two different jobs, needing very different amounts of effort:**
+
+- **Plain fulfilment**, for everything self-evident. List it, price it, ship it. No story, no campaign,
+  almost no attention. This job is close to free to run, and it should stay that way.
+- **A real considered-purchase proposition**, for Enthusiast and anything else from our own range we
+  choose to offer directly. This one needs actual work: confident pricing, a proper explanation of why to
+  buy it, and support for a buyer who isn't a professional.
+
+Conflating those two is what has made the property hard to define. Separating them makes both tractable —
+and makes clear that the only real work here is the second.
 
 **This resolves the apparent conflict with the gated-pricing policy.** `07-portal-and-pricing.md` bars
 public pricing — and it means *channel* products, where a published price would undercut partners and
@@ -97,9 +121,14 @@ Keeping those two jobs distinct is what makes both work.
   territory. That is defensible while Pro-Fi's range is largely design-intent and Pantheon is
   pre-release, but it needs to be a decision with an end state rather than a drift, or it will compete
   with Pro-Fi exactly when Pro-Fi needs the channel's attention.
-- **How Cinema Store is promoted, if at all.** A consumer property implies a consumer voice and consumer
-  channels, which is not work the group does today. It may be right to leave it as a destination we
-  point people to rather than a brand we market. That is a real choice, not an oversight.
+- **How Cinema Store is promoted, if at all — and note the answer differs by job.** The plain-fulfilment
+  half needs no promotion at all; it just needs to exist and be easy to point people at. The Enthusiast
+  half is the opposite: it only works with real consumer marketing, which is not work the group does
+  today. It may be right to leave the first as a destination and defer the second until there's appetite
+  to do it properly. Either way, don't promote the two as one thing.
+- **Which of our own products, beyond Enthusiast, we choose to offer directly.** The rule permits it and
+  the market may reward it, but each addition is a market decision with channel implications, taken
+  deliberately rather than by drift.
 - **Whether Cinema Store has any on-ramp role.** A low-value public purchase is the lowest-trust first
   contact imaginable, and enthusiasts are where some professionals come from — but a consumer buying a
   tool is not a dealer, so don't overstate it. Worth a look, not a plan.
