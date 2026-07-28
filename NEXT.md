@@ -17,35 +17,47 @@ only one of them.
 
 ## The lanes
 
-### 1. Every job leaves evidence — but not photographs
+### 1. Proof, in a market where the best work can't be shown
 
-The proof gap is real, and the obvious answer doesn't work here. **We won't get photographs often.** We're a
-trade supplier: we don't own the site, the client or the timeline. And most of what we make is deliberately
-concealed, so even a perfect shot of a finished cinema shows a fabric surface and a screen — nothing C-ATS
-made, nothing of DT's structure. For a concealed-product business the finished photograph was always the
-wrong asset to build a proof plan on.
+Start from the real constraint, because it is structural rather than inconvenient. **At this tier the best
+jobs are the least publishable.** Phones are checked at the door and the documents are under NDA — and that
+is *typical* of these projects, not the exception. These are not clients who want the room shown to anybody.
+Two consequences follow immediately: photography is largely unavailable, including build imagery; and
+**measured data may not be ours to publish either**, where it forms part of NDA'd documentation. That last
+point corrects an assumption made earlier here.
 
-What we can actually obtain, strongest first:
+**Discretion is a credential, not a deficiency.** An integrator working for a client of that kind needs
+suppliers who will not put the job on Instagram, and a dealer at that level already knows the good work is
+unshowable — they don't expect a portfolio, and a supplier waving one would be the wrong supplier. Not being
+able to say whose rooms these are is a stronger signal than a gallery. Used carefully, deployment depth can
+be *implied* and never itemised.
 
-- **Measured data — the spine.** Verification reports and before-and-after acoustics. We generate it
-  ourselves, it needs nobody's permission, and it is already the strongest proof we hold *and* the one
-  competitors don't offer. **Smallest next move: keep the measurements from jobs we verify, in a form that
-  can be published.** That is a filing habit, not a project.
-- **Renders as virtual case studies.** Dozens into the hundreds, already ours; the story does the work with
-  the render as hook. With photography scarce this is the primary visual route, not a nice-to-have.
-- **The Experience Centre.** Our own room — filmable and photographable endlessly, no permission needed.
-- **Build and in-progress imagery**, when it happens. For a trade audience this is *better* than a finished
-  shot, because it shows what's behind the fabric — exactly what a dealer needs to see and what a finished
-  room can never show. So when we are on site, shoot the build rather than waiting for the reveal.
-- **Commissioned dealer features.** The only dependable route to finished-room photography is to buy it —
-  which the partner programme already proposes (feature a top partner's work, professionally shot at our
-  cost). It pays twice, and it is now the primary mechanism rather than a bonus
-  (`group/03-partner-programme.md`).
-- Rides on: jobs already happening, and a facility we already own.
+So the proof stack is:
 
-*Consequence for beyond-cinema:* non-cinema proof will be **measured data and virtual case studies**, not
-photography. That is achievable — and it means the first non-cinema job needs its measurements kept, whether
-or not anyone gets near it with a camera.
+- **The Experience Centre — disproportionately important.** The one room we can show, film and measure
+  freely, without anyone's permission. If the field work is unpublishable, our own room carries the
+  demonstration load.
+- **Renders as virtual case studies.** Dozens into the hundreds, already ours, and *unencumbered* — they let
+  us tell a real room's story without breaching anything. Now the primary visual language, and for a better
+  reason than lacking photos.
+- **Method and measurement, published as method.** Where a specific report can't be shown, the *approach*
+  can: how we measure, what we measure against, what a verification actually proves. Anonymised or
+  aggregated data may be available where a named report isn't. **Smallest next move: establish what is
+  publishable at all** — that is a permissions question, and it is cheap to answer.
+- **Commissioned dealer features**, where a client permits it. The only dependable route to finished-room
+  photography is to buy it, which the partner programme already proposes
+  (`group/03-partner-programme.md`). Expect a low hit rate and value the ones that land.
+- **Peer reputation.** In a confidential market this does much of the work a case study would. It is earned
+  in delivery, not in marketing — which is an argument for the appreciation lane, not for a campaign.
+- Rides on: a facility we already own, and a library we already have.
+
+*Consequence for beyond-cinema, and it cuts in our favour:* **commercial fit-out and hospitality clients
+often want the publicity.** So the adjacent markets aren't only larger — they are the ones where proof is
+publishable at all. The first commercial or hospitality room may be worth more as a *showable* reference than
+as revenue.
+
+*Standing rule:* never name a confidential client, and never hint in a way that identifies one. Deployment
+depth is implied, never itemised.
 
 ### 2. The stores get cleaned as they're already being cleaned
 

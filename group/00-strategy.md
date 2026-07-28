@@ -42,11 +42,14 @@ we know what we are doing, and that we are on the dealer's side. The work divide
 - **Tell** — drive the moat down into each brand as a dealer-first story, group → brand → product. The
   existing sites were built ad hoc and are placeholders to re-base, not assets to push live.
 - **Prove** — the weakest claim is "you'll come out ahead," because it is asserted from capability rather
-  than demonstrated. Note what proof is actually *available* to a trade supplier whose products are
-  concealed: **install photography is rare and shows little of what we make**, so the stack is measured
-  before-and-after and verification sign-off the dealer can hand a client (ours to generate, and unique),
-  virtual case studies from the render library, the Experience Centre, build-stage imagery in preference to
-  finished shots, and dealer features we commission. See `../NEXT.md`.
+  than demonstrated. But note the constraint, which is structural: **at this tier the best jobs are the
+  least publishable** — phones checked at the door, documents under NDA, and that is typical rather than
+  exceptional. So photography is largely unavailable and even measured reports may be confidential.
+  **Discretion is a credential, not a deficiency**: a dealer serving such clients needs a supplier who won't
+  publicise the job, and already knows the good work is unshowable. Deployment depth is implied, never
+  itemised, and no confidential client is ever named. The proof that remains: the Experience Centre, the
+  render library as virtual case studies, method and measurement published as *method*, commissioned dealer
+  features where permitted, and peer reputation. See `../NEXT.md`.
 - **Tend** — the half we don't yet keep. We earn trust through competence and return nothing that says the
   relationship is valued (`03-partner-programme.md`).
 - **Institutionalise** — the advantage lives in a few people and scattered repositories. Least urgent,
