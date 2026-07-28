@@ -3,6 +3,50 @@
 Group-level decisions and build order. Brand-specific open items live in each
 `brands/<brand>/open-items.md`.
 
+## Stress test — where the strategy is weakest
+
+*Written after the strategy was settled and condensed, deliberately looking for holes rather than
+confirmation. The structure held; these are the places it rests on unverified ground. Ordered by
+seriousness, and staged below.*
+
+1. **Buyer truth is parked everywhere, and everything rests on it.** Every brand document honestly records
+   that who specifies, who signs off and why is unverified — while the whole strategy is centred on the AV
+   integrator. If the real specifier is more often an architect, a cinema contractor or the end client, a
+   lot of positioning needs rework. Coherent structure, unverified foundation. **The cheapest fix in the
+   repo, and only Neil can supply it:** two or three real recent jobs, described in his own words.
+2. **DT's decline is named but never sized.** Projection shrinking is a fact; the three growth lines are
+   directions, and only the Screen Wall has substance. We call the projection base "the cash engine, not
+   the future" with no view of how fast it erodes against how fast the replacements arrive.
+3. **Pro-Fi carries growth expectations while being almost entirely pre-shipping** — range largely
+   design-intent, Pantheon pre-beta, no distribution, no track record, amp in development. Each fact is
+   recorded honestly; the dependency is never confronted. *(2 and 3 are really one question: what carries
+   the business over the next two years?)*
+4. **The two most differentiating claims are both currently unavailable by our own account.** Whole-room
+   ease and cross-sell both wait on unfragmenting the data — Engine work, outside this repo and outside our
+   control to schedule.
+5. **Beyond-cinema has no on-ramp of its own.** Non-cinema proof is correctly identified as the binding
+   constraint, and the plan for proof is "photograph jobs as they happen" — but if the jobs are cinema jobs,
+   that produces more cinema proof. Nothing generates a first non-cinema job.
+6. **There is no answer to price.** Cinema Build Systems publishes ballpark figures; we gate everything.
+   Nothing says what a dealer hears when they say the Yorkshire lot are cheaper.
+7. **Light Walls means the whole-room claim is currently four-fifths**, and lighting is a layer we assert we
+   own. Deferred by choice, but it is a hole in the central story.
+
+### Staged as next work
+
+- **Stage 1 — buyer truth.** Neil's account of two or three real recent jobs. Unblocks the most, costs an
+  hour, and every brand document is waiting on it.
+- **Stage 2 — what carries the next two years.** Items 2 and 3 together: the honest commercial picture
+  behind DT's declining base and Pro-Fi's pre-shipping growth expectation.
+- **Stage 3 — the price answer.** Item 6. A decision, cheap, and independent of the rest.
+- **Stage 4 — the first non-cinema job.** Item 5, informed by Stage 1, which may reveal adjacent buyers
+  already in the base.
+- **Stage 5 — cross-sell without waiting on Engine.** Item 4, which resolves mostly into writing the
+  adjacency map (already lane 4 of `NEXT.md`).
+- **Light Walls (item 7)** stays with Neil, worked separately.
+
+---
+
 ## Decisions needed (flag, don't guess)
 
 - **Group identity line / positioning statement** — unresolved, but now anchored. Both current lines
