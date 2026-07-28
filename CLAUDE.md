@@ -78,6 +78,15 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
   niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
   customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
   See `group/14-moat.md`.
+- **The Scandinavian register (group-wide voice principle).** Restraint over superlatives; substance
+  carried in plain language and in owned proper nouns, not genericised adjectives. Accept being
+  underestimated on first read — let the work re-rate the brand. Voice does substance; imagery does
+  emotion. No superlative without a measurement behind it. Originated in Pro-Fi's voice code and
+  adopted across all brands (`brands/pro-fi/positioning.md` §5). It sharpens, not replaces, the
+  dealer-first rule above.
+- **No superlative arms race between brands.** No brand claims to be *the* most complex, critical or
+  hardest part of a project. Each element is demanding in its own terms; state it plainly. Coherence
+  across the brand docs matters more than any one brand's emphasis.
 
 ## Hard don'ts
 
