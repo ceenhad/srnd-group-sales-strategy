@@ -44,8 +44,12 @@ in one place for every brand.
   before.
 - `17-on-ramp.md` — **the on-ramp**: how an unknown contact becomes a partner and deepens, without
   subordinating any brand to the group. The hinge is registration + marketing permission; brands do the
-  public acquisition, SRND runs the permissioned partner development; entry is brand-led via an
-  adjacency map, not a queue. And the engagement rule: the problem, never the product.
+  public acquisition, SRND runs the permissioned partner development; the door is a low-trust *product*,
+  not a brand. And the engagement rule: the problem, never the product.
+- `18-partner-programme.md` — **the partner programme**: what registration grants, and how a valued
+  partner is actually treated. Spend the depth, not the margin; no ledgers; training access at
+  registration, an access layer for real partners, and recognition at the top handled as personal acts
+  rather than a published schedule. The answer to the appreciation gap.
 
 **Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
 Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately

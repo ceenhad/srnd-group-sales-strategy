@@ -11,13 +11,13 @@ Group-level decisions and build order. Brand-specific open items live in each
   technical depth + understanding of the dealer's job → "we understand you, we make things to help,
   those things make you better than anyone." Draft against that spine; don't hard-code a tagline
   until settled.
-- **Show dealers we value them (currently a total gap).** The relationship is entirely one-way
-  today: dealers pay, and nothing goes back to signal the relationship itself is valued. This
-  undercuts the moat and the dealer-as-asset thesis. Build real mechanisms that show dealers they're
-  valued —
-  recognition, reciprocity, loyalty, partner-not-wallet — most naturally at buyer-journey stage 6.
-  Per coherence-not-invention: don't *claim* appreciation until it's real; build it, then say it.
-  See `group/14-moat.md`.
+- **Show dealers we value them — framework now designed, not yet built.** The relationship has been
+  entirely one-way: dealers pay, and nothing goes back. `group/18-partner-programme.md` now sets the
+  answer — spend the depth, not the margin; no ledgers; three layers with recognition at the top handled
+  as personal acts rather than published entitlements. What remains is **building and operating it**
+  (chiefly the training programme, lead-referral mechanics, Experience Centre access, and someone
+  accountable for the recognition acts). Per coherence-not-invention: don't *claim* appreciation until
+  it's real. See `group/14-moat.md`.
 - **Leyard — entirely uncovered, and possibly an on-ramp asset.** The group's only genuine third-party
   distributed line (`group/09-brand-portfolio.md`) has had no strategy work at all. It matters more than
   its "carried line" status suggests: per `group/17-on-ramp.md`, entry is governed by how much trust a
@@ -40,10 +40,14 @@ Group-level decisions and build order. Brand-specific open items live in each
   openly, but the C-ATS brand-truth `CLAUDE.md` still flags the "Complete" expansion as unresolved
   and prefers "C-ATS"/"Cinema". Resolve the canonical name and align brand truth, the group site and
   the store. Affects all C-ATS-facing copy.
-- **Partner program definition** — the stage-4 policy, shared across brands. The registration and
-  gating *mechanism* is handled by engine (already live); the open work is the program *behind* it:
-  approval criteria, what registration grants, tier structure, MOQs, design-tool access, CE credits,
-  co-marketing. This is a policy decision, not a build.
+- **Partner programme — designed; the remaining decisions are narrow.** The registration and gating
+  *mechanism* runs in engine already, and the programme behind it is now set out in
+  `group/18-partner-programme.md` (what registration grants — including training access; the Partner
+  access layer; discretionary top-partner recognition; and the deliberate exclusion of tiered discount
+  ladders and any accrual scheme). Still to decide: the qualifying line for Partner (judgement-based,
+  reviewed — not an automatic threshold), who is accountable for the recognition acts, lead-referral
+  mechanics, and Experience Centre access/hosting. MOQs and design-tool access remain open where they
+  are brand-specific.
 - **Channel selection, priority & spend** — from the candidate landscape (`group/12-channels.md`),
   decide which channels SRND actually promotes through, at what priority and budget, and who owns
   each. Verify current status/membership (names and events change). A decision, not a list.
