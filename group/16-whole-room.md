@@ -87,6 +87,23 @@ It also fixes the specific failure the group has been living with. The brand sto
 largely untold; each brand was strong in isolation and silent about the others. Coherence is the
 correction, and it is a prerequisite rather than an end in itself.
 
+## The part that isn't true yet
+
+The whole-room argument has a practical form that is far stronger than any story: **buying the whole room
+from us ought to be easier.** We would already hold the drawings, know how the pieces integrate, and have
+made them to meet each other — one order, one delivery, no coordination burden falling on the dealer. No
+competitor selling a single layer can answer that.
+
+Today it is a claim rather than an experience. Tools and data are fragmented, so a dealer buying across
+brands still assembles the picture themselves, and the proposition fails on exactly the ground where it
+should be unbeatable. Much of what SRND Engine and the platform's canonical dataset set out to solve is
+this fragmentation — which makes the whole-room advantage substantially an **operational** problem, not a
+messaging one, and puts it squarely in the *institutionalise* strand of `15-activate.md`: depth that stays
+fragmented cannot be spent on the dealer, which is part of why the moat is still latent.
+
+The sequence follows the group's standing rule — build it, then say it. Make the room genuinely easier to
+buy, and only then market the ease (`20-tools-and-calculators.md`, `open-items.md`).
+
 ## What it opens
 
 With the story coherent across four brands, the next question is how a dealer actually enters it.

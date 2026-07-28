@@ -88,10 +88,15 @@ Group-level decisions and build order. Brand-specific open items live in each
   dealer won on one layer being served on the others (`group/01-dealer-as-asset.md`,
   `group/16-whole-room.md`), and we are currently poor at it. The nurture that would make it happen —
   permissioned, adjacency-aware partner-development campaigns timed to what a dealer is actually doing
-  (`group/17-on-ramp.md`) — does not exist. Note what will *not* fix it: steering design tools toward our
-  own products, which breaks the tools without closing the gap (`group/20-tools-and-calculators.md`). Tools
-  supply the trigger by revealing a live project; the campaign has to do the rest. Build the adjacency map,
-  then the campaigns.
+  (`group/17-on-ramp.md`) — does not exist. Two legs, in order:
+  1. **Make buying the whole room genuinely easier** — the drawings, the known integration, parts that fit,
+     one order and one delivery. Today this is a claim rather than an experience: tools and data are
+     fragmented, so a dealer still assembles it themselves. Largely what SRND Engine and the canonical
+     dataset exist to solve; operational, not messaging, and not this repo's to specify.
+  2. **Then run the campaigns**, with the tools supplying the trigger by revealing a live project.
+  What will *not* fix it: steering design tools toward our own products, which breaks the tools without
+  closing the gap (`group/20-tools-and-calculators.md`). Build the adjacency map, close the practical gap,
+  then market the ease — build it, then say it.
 - **Cross-brand contact-cadence coordination** — the oversaturation risk
   (`group/02-commercial-model.md`); a group-level discipline with no brand home.
 - **Which brands beyond C-ATS get a playbook next**, and in what order (Fabric Walls, Display

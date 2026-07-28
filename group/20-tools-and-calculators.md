@@ -197,10 +197,31 @@ the others (`01-dealer-as-asset.md`, `16-whole-room.md`) — and the nurture tha
 happen does not exist.
 
 That matters more than any tool decision. A tool cannot substitute for it, and trying to make one do the
-job (by steering specifications) breaks the tool without fixing the gap. The work is the
-**partner-development campaigns** already identified in the on-ramp: permissioned, adjacency-aware, and
-timed to what the dealer is actually doing (`17-on-ramp.md`). What the tools contribute is the *trigger* —
-they reveal a live project and its needs — and the campaign has to do the rest.
+job (by steering specifications) breaks the tool without fixing the gap.
+
+**And the strongest cross-sell argument was never marketing anyway — it is that buying the whole room from
+us ought to be simply easier.** We would already hold the drawings, know how the parts integrate, and have
+made them to meet each other; one order, one delivery, and no coordination burden landing on the dealer.
+That is an argument no competitor selling one layer can answer.
+
+The uncomfortable part is that it isn't true yet in practice. Tools and data are fragmented, so a dealer
+buying across brands today still pieces it together themselves — which means the whole-room proposition
+currently fails on the exact ground where it should be unbeatable. Much of what SRND Engine (and the
+platform's canonical dataset) sets out to solve is this fragmentation; it is an operational problem, not a
+messaging one.
+
+So cross-selling has two legs, in order:
+
+1. **Make it genuinely easier.** Coherent data, drawings that exist without someone generating them by
+   hand, known integration, parts that fit, one order and one delivery. Largely Engine and canonical-data
+   work, and out of scope for this repo to specify.
+2. **Then tell them.** The **partner-development campaigns** identified in the on-ramp: permissioned,
+   adjacency-aware, timed to what the dealer is actually doing (`17-on-ramp.md`), with the tools supplying
+   the *trigger* by revealing a live project and its needs.
+
+The order matters, by our own rule: don't claim it until it's real. That is the same discipline as the
+appreciation gap and the partner programme — the third time it applies, which suggests it is the group's
+characteristic failure mode rather than a coincidence.
 
 Two disciplines already settled apply here and should not be forgotten under commercial pressure: a
 single-brand dealer is not a failed dealer, and pushing adjacency at people who don't want it is the
