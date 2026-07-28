@@ -37,7 +37,7 @@ Applied, that gives:
 
 | | Non-channel — buy it directly | Channel — through SRND |
 |---|---|---|
-| **Examples** | fabric tools, short runs of pixel tape and profile, samples, small accessories and consumables, Ultrasuede, DT **Enthusiast** screens | own-brand treatment, fabric interiors and room kits, DT's premium **Dynamic** range and Screen Wall, Pro-Fi systems, Leyard, design and commissioning services |
+| **Examples** | fabric tools, short runs of pixel tape and profile, samples, small accessories and consumables, Ultrasuede, and the **Cinema Store exclusive self-build range** | own-brand treatment, fabric interiors and room kits, DT's premium **Dynamic** range and Screen Wall, Pro-Fi systems, Leyard, design and commissioning services |
 | **Pricing** | public, RRP | registered-partner-only, fully gated |
 | **What the buyer needs** | nothing from us but delivery | specification, design, support, relationship |
 
@@ -47,73 +47,107 @@ Two refinements matter.
 non-channel; a project's worth of the same tape, specified as part of a lighting scheme, is channel. The
 test applies to the purchase, not the product code.
 
-**Enthusiast is a deliberate stretch of the rule, and that has consequences.** A masking screen is not
-self-evident — it is a considered purchase that needs explaining, which by the test above would put it in
-the channel. It sits on the consumer site anyway, because it is a genuinely consumer product and the trade
-channel has never served it (`brands/display-technologies/positioning.md` §7). That is a market decision
-overriding the sorting rule, and it should be recognised as such rather than smuggled in.
+**The self-build range is a deliberate stretch of the rule, and that has consequences.** A masking screen
+is not self-evident — it is a considered purchase that needs explaining, which by the test above would put
+it in the channel. It sits on the consumer site anyway, because it is genuinely a consumer product and the
+trade channel has never served it (`../brands/display-technologies/positioning.md` §7). That is a market
+decision overriding the sorting rule, and it should be recognised as such rather than smuggled in.
 
 So **Cinema Store does two different jobs, needing very different amounts of effort:**
 
 - **Plain fulfilment**, for everything self-evident. List it, price it, ship it. No story, no campaign,
   almost no attention. This job is close to free to run, and it should stay that way.
-- **A real considered-purchase proposition**, for Enthusiast and anything else from our own range we
-  choose to offer directly. This one needs actual work: confident pricing, a proper explanation of why to
-  buy it, and support for a buyer who isn't a professional.
+- **A real considered-purchase range**, exclusive to the channel. This one needs actual work: confident
+  pricing, a proper explanation of why to buy, and support for a buyer who isn't a professional.
 
 Conflating those two is what has made the property hard to define. Separating them makes both tractable —
 and makes clear that the only real work here is the second.
 
-### Exclusivity: the stronger version of this
+### Exclusivity — decided
 
-**Proposed — make the consumer range Cinema Store exclusive, and remove it from DT.** The Enthusiast screens
-and the small hush box would cease to be DT lines and become Cinema Store's own range, with other suitable
-products cherry-picked into that channel over time — products chosen precisely because they suit a consumer
-buyer and would be wrong on SRND Store.
+**The consumer range is Cinema Store exclusive and leaves DT.** Not a duplicate listing, not a consumer
+tier of a trade brand: distinct products that exist in one place only.
 
 It is worth doing because it resolves three problems at once rather than tidying one:
 
 - **DT's identity gets clean.** DT becomes purely the architectural-integration trade brand, with no
   consumer tier inside it. That is exactly what its settled positioning asks for.
-- **The orphaned Enthusiast go-to-market is solved by moving it somewhere it can be sold properly.** The
-  range is a good product that has never been priced or marketed with conviction because it sat inside a
-  trade brand that had no reason to address consumers
-  (`brands/display-technologies/positioning.md` §7).
-- **Cinema Store gains a reason to exist.** A channel with its own exclusive range is a real proposition; a
-  shop selling the same things as the trade store never will be. It also removes channel conflict outright —
-  no dealer sees DT-branded product sold direct, because it isn't DT-branded.
+- **The range finally gets sold properly.** It has never been priced or marketed with conviction because it
+  sat inside a trade brand with no reason to address consumers
+  (`../brands/display-technologies/positioning.md` §7).
+- **Cinema Store gains a reason to exist.** A channel with its own range is a real proposition; a shop
+  selling the same things as the trade store never will be. It also removes channel conflict outright — no
+  dealer sees DT-branded product sold direct, because it isn't DT-branded.
+
+**No product exists in two places.** A Cinema Store product is a *specific* product for that channel. Where
+something is wanted on both sides — the small hush box was the test case — it is either defined as a
+distinct Cinema Store product or it stays trade-only. It is never the same item listed twice. This is
+stricter than strictly necessary (gated trade pricing means no public price comparison is even possible) and
+deliberately so: shared SKUs are how channel confusion creeps back in.
+
+**Provenance is narrative, not branding.** Don't put DT's name or logo on the products or the store — that
+recreates precisely what exclusivity removes, a DT-branded item at public prices. Do tell the story, because
+it is true and it is good: designed and built in North Yorkshire by the people who build screens for
+genuinely demanding cinemas. Consumers don't know the name "Display Technologies", so the name adds little;
+the substance adds a lot.
+
+**"Enthusiast" is probably the wrong name, and the range needs rethinking as a brand.** "Enthusiast" defines
+the range by who it is *not* for — professionals — which makes it inherently second-class, and is likely part
+of why it has never been sold with conviction. See the reference below for a better frame.
+
+### The reference: AVshop.no
+
+`avshop.no` is a Norwegian consumer AV retailer (WooCommerce) that is close to the business Cinema Store
+could be, and it is worth studying properly rather than glancing at.
+
+Its organising category is **"AV SELVBYGG" — AV self-build**, and beneath it sits very nearly the Cinema
+Store product list: acoustic treatment (kits, absorption, bass traps, system ceiling, fixings); sound
+isolation (room-in-room decoupling, acoustic doors, ventilation, freestanding isolated rooms); textiles
+including **fabric-wall mounting track**, speaker cloth, velour and stage curtains; LED strips and
+fibre-optic star ceiling; speaker components; screen paint; and **tools, both sold and hired**. They also
+sell serious enthusiast kit and even building materials alongside it, and carry their own agency lines
+direct to consumers.
+
+What to take from it:
+
+- **The concept is self-build, not "consumer versions of trade products."** That is a far stronger frame,
+  it is what the audience calls itself, and it explains why the product set coheres — it is what somebody
+  building their own cinema needs. This is the likely answer to the naming question above.
+- **Consumer social proof is structural.** Reviews and ratings sit on their homepage. Trade never needed
+  this; a consumer channel does.
+- **Services can be productised for consumers** — they sell professional calibration and project design as
+  purchasable items. A possible future line, not a commitment.
+- **Tool hire alongside tool sales** — a neat adjacency for a self-build audience, and we already sell the
+  tools.
+
+**One inversion to record before someone applies the trade rule here by reflex:** AVshop runs a system
+configurator *and* an automatic sound-isolation calculator. In trade we ruled calculators out because they
+commoditise C-ATS's chargeable design (`../brands/c-ats/positioning.md`). On the consumer side there is no
+paid design to protect, so a calculator is an asset rather than a leak. **No-calculators is a channel rule,
+not a universal one.**
 
 **The cost is honest and should not be skipped:** this converts Cinema Store from a nearly free fulfilment
-channel into a brand needing a voice, content and consumer support. Unresourced, an exclusive range simply
-sits unsold in a new place — the problem moves rather than resolves. So it belongs with the
-considered-purchase work above, not ahead of it.
+channel into a brand needing a voice, content and consumer support — and once the range leaves DT, Cinema
+Store owns its pricing, support, returns and content. Unresourced, an exclusive range simply sits unsold in a
+new place; the problem moves rather than resolves.
 
-**And most of that cost is already paid for.** We built AVForums' editorial cinema in trade and hold
+**And most of the content cost is already paid for.** We built AVForums' editorial cinema in trade and hold
 roughly **£10,000 in owed video and editorial content** — an asset that has sat unusable because there was
 nothing consumer-facing to point it at. (The build itself was around ten years ago, pre-SRND; their existing
 18-part build diary carries no group branding and is relationship history rather than a usable asset. The
-credit is what matters, spent on new content.) An exclusive Cinema Store range is exactly the destination it
-needed, and the fit is unusually good:
+credit is what matters, spent on new content.) The fit is unusually good:
 
-- **The audience is the buyer.** AVForums' readership is the home-cinema enthusiast — precisely who the
-  Enthusiast screens are for, and an audience the trade channel has never been able to address.
-- **It is editorial, not advertising.** Third-party review and editorial carries weight that self-produced
-  marketing cannot, which is the same reason named endorsements work for competitors
-  (`13-competitors.md`) — and it is exactly the sort of independent source that AI answer engines cite, so
-  it serves the GEO/AEO strategy at the same time.
+- **The audience is the buyer.** AVForums' readership is the home-cinema enthusiast and self-builder —
+  precisely who this range is for, and an audience the trade channel has never been able to address.
+- **It is editorial, not advertising.** Third-party review carries weight self-produced marketing cannot,
+  the same reason named endorsements work for competitors (`13-competitors.md`) — and it is exactly the sort
+  of independent source AI answer engines cite, so it serves the GEO/AEO strategy at the same time.
 - **It is video, which the group conspicuously lacks.** Spend the credit on what we can't easily make
   ourselves rather than on editorial we could write.
 - **It cannot be scripted, and shouldn't be.** The independence is the value. Brief it, don't write it.
 
-This materially changes the exclusivity decision: the content half of the cost is largely covered, leaving
-pricing conviction and consumer support as the real work. It is also the second instance of the same
-pattern — an asset already paid for and never activated, alongside the Essential Install microsite
-(`12-channels.md`). Worth asking what else is sitting unused.
-
-**Open questions.** Whether the whole hush box line moves or only the Small, since the larger boxes look
-like genuine trade products. And whether DT provenance may still be stated — "engineered by Display
-Technologies" — which costs little either way, because consumers don't know the name and the trade won't see
-the consumer site.
+This is also the second instance of one pattern — an asset already paid for and never activated, alongside
+the Essential Install microsite (`12-channels.md`). Worth asking what else is sitting unused.
 
 **This resolves the apparent conflict with the gated-pricing policy.** `07-portal-and-pricing.md` bars
 public pricing — and it means *channel* products, where a published price would undercut partners and
@@ -252,8 +286,11 @@ Keeping those two jobs distinct is what makes both work.
   half is the opposite: it only works with real consumer marketing, which is not work the group does
   today. It may be right to leave the first as a destination and defer the second until there's appetite
   to do it properly. Either way, don't promote the two as one thing.
-- **Decide the exclusivity proposal** (above): does the consumer range leave DT and become Cinema Store's
-  own? Including the two open questions — the hush box line, and whether DT provenance may be stated.
+- **Name and define the self-build range.** Exclusivity is decided; the branding isn't. "Enthusiast" is
+  probably wrong (it defines the range by who it excludes), and AVshop's self-build framing is the better
+  starting point. Decide the name, and define which *specific* products constitute the range — including
+  whether a Cinema Store hush box is defined as its own product or dropped, since it cannot be the trade one
+  listed twice.
 - **Which further products get cherry-picked into the Cinema Store channel.** The point of exclusivity is
   that this roster can include things that would be wrong on SRND Store. Each addition is a market decision
   taken deliberately rather than by drift.

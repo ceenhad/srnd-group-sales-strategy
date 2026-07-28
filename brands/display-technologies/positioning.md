@@ -204,9 +204,13 @@ group.
 - **FA-copied-CAD is an internal, attributed note only** — never public, never for legal use. Position
   against rivals by capability, never disparagement.
 - Don't name manufacturing suppliers; DT builds in-house — say that instead, it's a strength.
-- **The name is Display Technologies; DT for short.** Keep the **Enthusiast** tier clearly distinct from
-  the premium **Dynamic** range — and never conflate the entry **Enthusiast Mask** screens with the
-  premium **Dynamic** motorised masking screens.
+- **The name is Display Technologies; DT for short.**
+- **The consumer tier has left DT — decided.** The former Enthusiast screens are now a Cinema Store
+  exclusive self-build range and are no longer DT products
+  (`../../group/19-direct-and-carried-lines.md`). DT is trade-only, which is what its identity requires.
+  DT provenance may be told as a story on that channel but never used as branding. Nothing in DT material
+  should refer to an Enthusiast tier, and the premium **Dynamic** masking range must never be conflated
+  with it.
 
 **Group**
 
@@ -260,9 +264,10 @@ Internal only — the unresolved items to settle before they harden into copy or
   service access, cooling, control), and how far it goes.
 - **Motorised concealment & movement — decide the range.** How much of Future Automation's territory DT
   takes, and which pieces.
-- **The Enthusiast range go-to-market.** The Enthusiast Mask screen is a great product, undersold: no
-  confident B2C-enthusiast pricing/marketing, no AV-pro story. Build both, and settle the range's role and
-  naming. (Enthusiast only — the Dynamic range isn't part of this.)
+- ~~**The Enthusiast range go-to-market**~~ — **RESOLVED, and out of DT.** The range was a good product
+  undersold because it sat inside a trade brand with no reason to address consumers. It is now a Cinema
+  Store exclusive self-build range and no longer DT's problem or DT's product
+  (`../../group/19-direct-and-carried-lines.md`). Naming and range definition are decided there.
 - **Forward proof.** LED and future-proof claims are capability, not track record. They need built LED
   installs and a productised Screen Wall to become provable.
 - **Track-record documentation.** Prestigious installs exist but case studies and photography are thin —
