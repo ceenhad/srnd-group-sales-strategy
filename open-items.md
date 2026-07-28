@@ -63,6 +63,14 @@ Group-level decisions and build order. Brand-specific open items live in each
   decide which channels SRND actually promotes through, at what priority and budget, and who owns
   each. Verify current status/membership (names and events change). A decision, not a list.
   Evaluate each channel online-first, EI-style (`group/12-channels.md`).
+- **Use the AVForums content credit (~£10k, owed, unused).** SRND built AVForums' cinema in trade and is
+  owed roughly £10,000 in video and editorial content. It has been unusable for want of a consumer-facing
+  destination; the proposed Cinema Store exclusive range provides one, and the audience is exactly the
+  enthusiast buyer. Decide the spend (video first — the group has almost none), brief rather than script it
+  (editorial independence is the value), and point it at Cinema Store, never the trade brands. See
+  `group/19-direct-and-carried-lines.md`, `group/12-channels.md`.
+- **Audit for other paid-but-unused assets.** Two are already known — the AVForums credit and the EI
+  microsite. That is a pattern worth checking deliberately rather than rediscovering by accident.
 - **Activate the EI microsite (quick win)** — `essentialinstall.com/srnd/` is paid for and
   running near-empty. Feed it regularly (company pages + virtual case studies linking to the brand
   sites) and push through EI news/newsletter/podcast. Low cost, already sunk; just needs using.

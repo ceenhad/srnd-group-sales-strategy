@@ -88,6 +88,26 @@ channel into a brand needing a voice, content and consumer support. Unresourced,
 sits unsold in a new place — the problem moves rather than resolves. So it belongs with the
 considered-purchase work above, not ahead of it.
 
+**And most of that cost is already paid for.** SRND built AVForums' cinema in trade, and they owe us
+roughly **£10,000 in video and editorial content** — an asset that has sat unusable because there was
+nothing consumer-facing to point it at. An exclusive Cinema Store range is exactly the destination it
+needed, and the fit is unusually good:
+
+- **The audience is the buyer.** AVForums' readership is the home-cinema enthusiast — precisely who the
+  Enthusiast screens are for, and an audience the trade channel has never been able to address.
+- **It is editorial, not advertising.** Third-party review and editorial carries weight that self-produced
+  marketing cannot, which is the same reason named endorsements work for competitors
+  (`13-competitors.md`) — and it is exactly the sort of independent source that AI answer engines cite, so
+  it serves the GEO/AEO strategy at the same time.
+- **It is video, which the group conspicuously lacks.** Spend the credit on what we can't easily make
+  ourselves rather than on editorial we could write.
+- **It cannot be scripted, and shouldn't be.** The independence is the value. Brief it, don't write it.
+
+This materially changes the exclusivity decision: the content half of the cost is largely covered, leaving
+pricing conviction and consumer support as the real work. It is also the second instance of the same
+pattern — an asset already paid for and never activated, alongside the Essential Install microsite
+(`12-channels.md`). Worth asking what else is sitting unused.
+
 **Open questions.** Whether the whole hush box line moves or only the Small, since the larger boxes look
 like genuine trade products. And whether DT provenance may still be stated — "engineered by Display
 Technologies" — which costs little either way, because consumers don't know the name and the trade won't see

@@ -64,8 +64,14 @@ These we control; everything else feeds into them (`09-brand-portfolio.md`, `06-
 ## Communities & forums
 
 - **AVForums** (UK) and **AVS Forum** (US) — large home-cinema communities. Mostly
-  enthusiast/end-client with some trade; useful for demand and reference, handle with a trade-first
-  posture.
+  enthusiast/end-client with some trade; useful for demand and reference.
+  - **AVForums is now a live asset, not a candidate.** SRND built their cinema in trade, and they owe us
+    roughly **£10,000 in video and editorial content** — until now unusable, because the group had nothing
+    consumer-facing to point it at. The Cinema Store exclusive range gives it a destination, and the
+    audience match is close to exact: AVForums' readership *is* the enthusiast buyer for those products.
+    See `19-direct-and-carried-lines.md`.
+  - Note the posture difference: this is consumer-facing and should point at **Cinema Store**, never at the
+    trade brands. Keeping that separation is what makes it safe.
 - **CEDIA member community** and **LinkedIn groups** — trade-to-trade; peer referral lives here.
 
 ## Inbound / discovery
