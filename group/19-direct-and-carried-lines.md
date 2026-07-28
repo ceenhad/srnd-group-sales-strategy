@@ -120,6 +120,9 @@ Decided for removal from the roster, and to be delisted wherever they appear:
   Goes.
 - **All carried cinema audio** — Mag Theatron, PhaseTech / SoundTube, dARTS. **Deleted everywhere**, both
   stores. Pro-Fi is the group's audio brand, and the group will not carry lines that compete with it.
+- **Barco Residential** — a legacy listing on Cinema Store. Deleted.
+
+The product-by-product execution list for both stores is in `store-split-worklist.md`.
 
 ### The principle behind the roster
 
@@ -137,8 +140,7 @@ Captured from the public product feeds, 2026-07-28 (gated items may not appear, 
   Isolated Room System). Carried: Sylvox 8, Leyard 4, Poet 4, MadVR 3, Advatek 1, Stealth Acoustics 1.
 - **`cinema-store.com`, 126 products** — a wider carried set again, including the cinema audio lines now
   deleted (Mag Theatron, PhaseTech/SoundTube, dARTS) and a Barco Residential listing. Leyard and MadVR come
-  **off** Cinema Store, both being trade-channel only. *(Barco appears only on Cinema Store and wasn't part
-  of the roster decision — a loose end to confirm.)*
+  **off** Cinema Store, both being trade-channel only. *(The Barco listing was legacy and is deleted.)*
 
 **Pro-Fi's absence from `srnd.store` is a readiness matter, not a gap in the model.** Pro-Fi simply isn't
 ready to be sold online yet. When it is, the Pro-Fi site will drive to SRND Store exactly as every other
@@ -167,8 +169,8 @@ Keeping those two jobs distinct is what makes both work.
 
 - **Execute the delisting.** The roster is decided (above); the stores don't reflect it yet. Remove Sylvox,
   Poet, Stealth Acoustics and all carried cinema audio entirely; take Leyard and MadVR off Cinema Store;
-  fix the C-ATS vendor name and the isolation-product attribution. Confirm what to do with the Barco
-  listing.
+  fix the C-ATS vendor name and the isolation-product attribution. Product-by-product list in
+  `store-split-worklist.md`.
 - **List Pro-Fi on `srnd.store` when it's ready** — driving from the Pro-Fi site to the store, as every
   other brand does. Not a decision, just a sequence, gated on the range and platform being ready to sell
   (`brands/pro-fi/positioning.md` §7).
