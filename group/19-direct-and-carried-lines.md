@@ -88,9 +88,11 @@ channel into a brand needing a voice, content and consumer support. Unresourced,
 sits unsold in a new place — the problem moves rather than resolves. So it belongs with the
 considered-purchase work above, not ahead of it.
 
-**And most of that cost is already paid for.** SRND built AVForums' cinema in trade, and they owe us
-roughly **£10,000 in video and editorial content** — an asset that has sat unusable because there was
-nothing consumer-facing to point it at. An exclusive Cinema Store range is exactly the destination it
+**And most of that cost is already paid for.** We built AVForums' editorial cinema in trade and hold
+roughly **£10,000 in owed video and editorial content** — an asset that has sat unusable because there was
+nothing consumer-facing to point it at. (The build itself was around ten years ago, pre-SRND; their existing
+18-part build diary carries no group branding and is relationship history rather than a usable asset. The
+credit is what matters, spent on new content.) An exclusive Cinema Store range is exactly the destination it
 needed, and the fit is unusually good:
 
 - **The audience is the buyer.** AVForums' readership is the home-cinema enthusiast — precisely who the
