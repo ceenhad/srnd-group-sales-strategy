@@ -34,8 +34,24 @@ seriousness, and staged below.*
 
 ### Staged as next work
 
-- **Stage 1 — buyer truth.** Neil's account of two or three real recent jobs. Unblocks the most, costs an
-  hour, and every brand document is waiting on it.
+- **Stage 1 — buyer truth. IN PROGRESS; the foundation is confirmed so far.** From Neil's account of recent
+  work:
+  - **The client tier and its confidentiality regime.** Private clients at the very top end — phones checked
+    at the door, documents under NDA — and **typical of these projects rather than exceptional.** Proof
+    strategy rebuilt around it (`NEXT.md` lane 1): discretion is a credential, not a deficiency.
+  - **The order comes from the integrator.** The buyer assumption the whole strategy rests on holds.
+  - **Specification is collaborative: "we tend to try and help them spec."** Not us deciding, not them
+    deciding alone. Which is almost exactly the posture the strategy already commits to — never imply the
+    dealer can't, the design service as their choice rather than a rescue, informs-never-blocks.
+  - **The consequence, and it is the best news in the stress test: we are already in the specification
+    conversation on most jobs.** That is the most valuable position in the chain — the moment the room is
+    decided — so the cross-sell weakness is *not* lack of access. We have the access and don't use it. The
+    adjacency map therefore isn't an input to future campaigns; it is **a prompt list for a conversation
+    already happening.**
+  - **Still to establish:** whether spec help is free or chargeable and whether that is deliberate; whether
+    anything is captured from it (the spec conversation already tells us a project exists and what it needs —
+    the thing `group/07-tools.md` wants tools to surface); and whether any recent work was non-cinema
+    (Stage 4 becomes much cheaper if adjacent jobs are already arriving).
 - **Stage 2 — what carries the next two years.** Items 2 and 3 together: the honest commercial picture
   behind DT's declining base and Pro-Fi's pre-shipping growth expectation.
 - **Stage 3 — the price answer.** Item 6. A decision, cheap, and independent of the rest.

@@ -85,11 +85,16 @@ built around our own products, and closing their own loop.
 The weakest link (`open-items.md`) does not need a campaign platform to begin. It needs the adjacency to be
 mentioned at the moment it's relevant, in conversations that are happening anyway.
 
+**And the moment already exists.** Orders come from the integrator, and *we tend to help them spec* — so we
+are routinely in the specification conversation, which is the point at which the room is decided. The
+cross-sell problem is not access. We have the access and don't use it.
+
 - **Smallest next move:** write the adjacency map — for each entry point, the next layer, the physical
-  adjacency that justifies it, and the moment in a project when it's relevant. One page. It is the cheapest
-  strategic artefact left and the one that makes everything else usable.
-- Then: use it in the conversations already occurring. Campaigns come later, when there's something to
-  automate.
+  adjacency that justifies it, and the moment in a project when it's relevant. One page. Not an input to
+  future campaigns but **a prompt list for a conversation already happening**: when you're helping spec the
+  acoustics, the fabric and the front-of-room structure are the natural next questions, and you are the
+  person being asked.
+- Then: use it. Campaigns come later, when there's something worth automating.
 - Rides on: existing dealer contact.
 
 ### 5. Appreciation starts with acts, not a programme
