@@ -83,6 +83,13 @@ stays in the channel as a component of the metal system.)*
 - **Poet (4)** — FM1 media server, Creator software, Partner Demo Set, ZED 2 stereo camera.
 - **Stealth Acoustics (1)** — 60W constant-voltage transformer.
 
+## Also delist — the Actuator Commander
+
+**Actuator Commander 2** comes off as a purchasable item on the DT store. Control now sells only inside DT
+products, with no exceptions (`../brands/display-technologies/positioning.md` §1, §5). *(Decide whether the
+associated components — linear actuator, draw wire sensor, power supply — go with it or remain available as
+spares; spares are a legitimate category, a controller isn't.)*
+
 ## Data fixes while delisting
 
 - **C-ATS vendor name reads "Complete ATS"** on both stores — hard-codes an expansion that is deliberately

@@ -41,9 +41,13 @@ current positioning. The identity is deliberately set above any single display t
 - **Two other growth lines:** LED-wall engineering (mounting, alignment, service access, cooling,
   control) and motorised concealment & movement (lifts, drops, reveals — Future Automation's proven
   path).
-- **Control stays embedded, never a standalone SKU.** It's the reason the machines work well, sold
-  inside the product. The Actuator Commander is the exception that proves it — no fitting market,
-  because selling controllers alone means becoming a components/OEM supplier, which DT won't be.
+- **Control stays embedded, and is never a line item. Decided.** The Commanders are the reason the
+  machines work well, and they are sold only inside the products. The Dynamic Commander already ships
+  that way — it isn't a purchasable SKU at all — and the **Actuator Commander is being withdrawn as a
+  line item** so the rule holds without exception. Two reasons, both sound: selling controllers alone
+  would make DT a components/OEM supplier, which it won't be; and a Commander you can buy is a Commander
+  a competitor can buy and fit to their own mechanism, which would hand away the one advantage that
+  can't otherwise be copied.
 - **Products are driven by physical size, not per-model engineering.** What determines a mount,
   enclosure or port hole is the dimensions of the unit; the projector-model tags on the site are a
   sizing aid, not a claim of bespoke per-model fit.
@@ -174,8 +178,10 @@ group.
 
 - These are products the integrator **buys**, never things they'd build. Never frame it as make-vs-buy,
   and never imply the dealer can't do something.
-- **Control stays embedded** — the reason the machines are good, never a standalone SKU. DT won't become
-  a components/OEM supplier.
+- **Control stays embedded — never a line item, no exceptions.** The Commanders sell only inside the
+  products. Don't market a controller on its own, don't quote one, and don't let one be treated as a
+  component: it would make DT an OEM supplier and hand a competitor the one advantage that can't be
+  copied.
 - **Products are size-driven, not per-model bespoke.** Don't claim "engineered to your exact projector."
 
 **No superlative arms race** *(group-wide)*

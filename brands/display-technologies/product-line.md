@@ -53,7 +53,8 @@ not only finished screens.)*
 
 ## 5. Control + airflow layer (the platform that drives the moving products)
 
-- **Actuator Commander 2** — runs MMD lifts and general motion
+- **Actuator Commander 2** — runs MMD lifts and general motion. **Being withdrawn as a line item:**
+  going forward the Commanders sell only inside DT products, never standalone (`positioning.md` §1, §5).
 - **Mistral Commander — Fan Controller (2-zone)** — airflow control (hush-box / projector cooling)
 - **Mistral inline fans** — **150**, **200**, **250**
 - Components: **Linear actuator — 200mm**, **1500mm Draw Wire Sensor**, **AC→12V DC 8A Power Supply**
