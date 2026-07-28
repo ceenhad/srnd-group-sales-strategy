@@ -35,14 +35,32 @@ the business, so the tool has to pay for itself. For us the tool leads to a spec
 specification leads to product supply across every brand in the room. **The ladder doesn't end at the
 report; it ends at the room being supplied.**
 
-Three consequences follow, and they are advantages competitors without factories cannot copy:
+Two consequences follow, and they are advantages competitors without factories cannot copy:
 
 - **We can afford to be more generous with tooling** — and to invest more in the engine — than a tools
-  company ever could, because our payback is downstream.
-- **The measure of a good tool is specification share, not tool revenue.** How many designs name our
-  products, and how many convert to orders. Judging tools on their own P&L would get the answer wrong.
-- **Depth in the engine pays twice** — once as a better deliverable, once as a specification that lands
-  on our own products.
+  company ever could, because the payback is downstream rather than in the tool's own P&L. Judging a tool
+  on what it bills would get the answer wrong.
+- **Engine depth pays twice** — once as a better deliverable, and once because a dealer who trusts our
+  design work is a dealer we have a real relationship with.
+
+### But do not build the tool around our own products
+
+This is the tempting mistake, and it is a bad one. Push "pull-through" into the tool and the absurdity
+arrives immediately: would we only design rooms around Pro-Fi, and turn down every C-ATS design
+opportunity on a room using someone else's speakers? Refuse a project because the ceiling mount isn't
+ours? Obviously not. Most rooms will always contain other people's equipment, and design work on those
+rooms is good business we want.
+
+So there is no "specification share" target and no quiet weighting of the catalogue. **The tool's job is
+to be the best help available for whatever room is actually in front of the dealer.** Being present in
+the catalogue and easy to specify is right and sufficient; designing around ourselves is not.
+
+What the tool genuinely gives us is different, and better: **it tells us a project exists and what it
+needs.** That is the raw material for a relevant, timely conversation — a 5 m cinema being built next
+quarter, a room with a resonance problem, a dealer who has never bought treatment. Turning that into
+revenue across the room is **relationship and campaign work**, not something engineered into software.
+
+Which exposes the real weak link — see below.
 
 ### The platform's monetisation model sits inside this, not above it
 
@@ -70,13 +88,12 @@ there are plenty of those in this industry besides us. We have already made the 
 work, trusting a competitor's marketing over their real capability; assuming a competitor lacks depth is
 the same failure inverted. Assess honestly in both directions.
 
-**Brand-agnostic, and never rigged.** The engines are deliberately brand-agnostic — any loudspeaker
-library, any projector catalogue — which is right for credibility and essential to replacing DARDT. It
-also, obviously, maximises adoption while minimising the pull-through we actually monetise. That tension
-is real and should not be resolved by quietly weighting the tool toward our own products. Pro-Fi's own
-principle is the right one: *informs, never blocks; the customer decides*, and sell more only when it
-genuinely helps. So: genuinely brand-agnostic, our products well represented and easy to specify, never
-rigged. A tool caught favouring us would destroy the trust that makes it valuable in the first place.
+**Brand-agnostic, and meant it.** The engines are deliberately brand-agnostic — any loudspeaker library,
+any projector catalogue. That isn't a concession to be minimised; it is what makes the tools worth using
+and what makes replacing DARDT possible. Pro-Fi's own principle states the posture: *informs, never
+blocks; the customer decides*, and sell more only when it genuinely helps. A tool caught favouring us
+would destroy the trust that makes it valuable in the first place — and would cost us the design work on
+every room that isn't all-SRND, which is most of them.
 
 ## The real failure mode is implication, not disclosure
 
@@ -132,9 +149,11 @@ revenue route through the partner channel) → **Pro Design escalation at £500,
 service and verification where a project warrants it — **→ and then the products that build the room.**
 
 That last rung is the one the tool docs can't see from where they sit, and it is the largest. Every rung
-before it earns real money and builds real trust; none of them is the destination. A design that names our
-screen, our treatment, our speakers, our fabric and our lighting is worth a multiple of the report that
-produced it.
+before it earns real money and builds real trust; none of them is the destination.
+
+But note *how* the ladder is climbed. Product supply follows because a dealer trusts us, knows what we
+make, and was given something relevant at the right moment — not because a tool steered them. The step
+from "design delivered" to "room supplied" is earned, and it is the step we are currently weakest at.
 
 No subscription billing: partner access is gated by SRND-managed credentials. **Which means tool access
 as a partner benefit is already the operating model**, not a proposal — and it is precisely the currency
@@ -169,6 +188,23 @@ estimators are pure asset. **No-calculators was only ever a channel rule, never 
 stating plainly, or the trade caution gets applied here by reflex and removes an advantage. (AVshop.no
 runs both a system configurator and an automatic sound-isolation calculator —
 `19-direct-and-carried-lines.md`.)
+
+## The real weak link: cross-selling
+
+Everything above points at the same gap, and it is worth stating bluntly: **we are currently poor at
+cross-selling.** The group thesis rests on it — a dealer won on one layer becoming a dealer served on
+the others (`01-dealer-as-asset.md`, `16-whole-room.md`) — and the nurture that would actually make it
+happen does not exist.
+
+That matters more than any tool decision. A tool cannot substitute for it, and trying to make one do the
+job (by steering specifications) breaks the tool without fixing the gap. The work is the
+**partner-development campaigns** already identified in the on-ramp: permissioned, adjacency-aware, and
+timed to what the dealer is actually doing (`17-on-ramp.md`). What the tools contribute is the *trigger* —
+they reveal a live project and its needs — and the campaign has to do the rest.
+
+Two disciplines already settled apply here and should not be forgotten under commercial pressure: a
+single-brand dealer is not a failed dealer, and pushing adjacency at people who don't want it is the
+oversaturation risk (`02-commercial-model.md`). Relevance is the whole game.
 
 ## What this surfaces for the group strategy
 

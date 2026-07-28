@@ -57,8 +57,10 @@ in one place for every brand.
 - `20-tools-and-calculators.md` — **tools and calculators**: the biggest driver of engagement and time
   saving, so bias toward building them. What's sold is the *report*, not tool access ("the deliverable is
   the recipe, not the recipe-finder"), so a free calculator can't cannibalise paid design. The failure mode
-  is *implication*, not disclosure — solved by Cinema Tools being the master brand for design tooling.
-  Includes the three-part test any tool must pass, and the value ladder.
+  is *implication*, not disclosure — solved by Cinema Tools being the master brand for design tooling. And
+  the tool is never built around our own products: that way lies refusing rooms that use someone else's
+  kit. Includes the three-part test any tool must pass, the ladder, and the honest naming of cross-selling
+  as the group's weakest link.
 
 **Brands apply this in `brands/<brand>/`.** Four brand strategies are settled — C-ATS, Fabric Walls,
 Display Technologies and Pro-Fi (each `brands/<brand>/positioning.md`). Light Walls is deliberately

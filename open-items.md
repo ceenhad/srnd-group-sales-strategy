@@ -84,6 +84,14 @@ Group-level decisions and build order. Brand-specific open items live in each
 - **Activate the EI microsite (quick win)** — `essentialinstall.com/srnd/` is paid for and
   running near-empty. Feed it regularly (company pages + virtual case studies linking to the brand
   sites) and push through EI news/newsletter/podcast. Low cost, already sunk; just needs using.
+- **Cross-selling — the group's weakest link, and the thesis depends on it.** The whole model rests on a
+  dealer won on one layer being served on the others (`group/01-dealer-as-asset.md`,
+  `group/16-whole-room.md`), and we are currently poor at it. The nurture that would make it happen —
+  permissioned, adjacency-aware partner-development campaigns timed to what a dealer is actually doing
+  (`group/17-on-ramp.md`) — does not exist. Note what will *not* fix it: steering design tools toward our
+  own products, which breaks the tools without closing the gap (`group/20-tools-and-calculators.md`). Tools
+  supply the trigger by revealing a live project; the campaign has to do the rest. Build the adjacency map,
+  then the campaigns.
 - **Cross-brand contact-cadence coordination** — the oversaturation risk
   (`group/02-commercial-model.md`); a group-level discipline with no brand home.
 - **Which brands beyond C-ATS get a playbook next**, and in what order (Fabric Walls, Display
