@@ -107,7 +107,35 @@ needs no build at all.
 - Everything else in that programme — training, referral mechanics, Experience Centre hosting — is later.
 - Rides on: relationships that already exist.
 
-### 6. The one genuine build: productise the Screen Wall
+### 6. Content becomes a cadence, and owner time stops being the bottleneck
+
+Content is the sales motion (`group/01-commercial-model.md`), which makes this the lane the strategy most
+depends on — and the one most likely not to happen, because it competes with the day job. The gap is not what
+to make; it is rate and accountability.
+
+**Separate the two jobs, because conflating them is what stalls it.** The *answer* can only come from an owner
+— the depth is in their head and nobody else can supply it. Everything after that — editing, writing up,
+placing, repurposing — must not. Under the road model the owner did both and neither scaled. So the design
+rule is: **minimise owner minutes per published answer, not owner involvement.**
+
+- **Record, don't write.** Ten minutes of an owner talking on camera or on a call, once, is a knowledge-base
+  article, a video, a social hook and a paragraph of a datasheet. Writing the same thing costs an hour and
+  usually doesn't happen. The studio exists for exactly this.
+- **The backlog is free and already exists: log the recurring questions.** Every time an owner explains
+  something on a call, the question goes in one list. That list is the publishing schedule
+  (`group/04-content.md`) — no research, no strategy, no ideation.
+- **A floor, not a target.** Set the rate as the minimum that can be sustained through a busy month rather
+  than an ambitious cadence that collapses at the first big project. A weekly floor met all year beats a
+  fortnightly aspiration abandoned in March. The number itself is Neil and Olivier's to set — but set it as a
+  floor, and derive it from what the studio already produces rather than from what a marketing plan would like.
+- **Someone other than the answerer owns publication.** Not the person with the knowledge; the person who
+  gets it out. If nobody is accountable for publishing, this lane silently becomes the deferred one.
+- **The measure is questions retired, not reach.** A useful leading indicator: an owner answering the same
+  question twice after it was published means the piece exists but isn't findable, which is a different and
+  cheaper problem.
+- Rides on: the studio, calls that are happening anyway, and questions being asked already.
+
+### 7. The one genuine build: productise the Screen Wall
 
 This is the only item that needs deliberate effort rather than riding on something else, and it earns it:
 it makes the whole-room proposition physical, answers the LED shift, and contains four brands — so it

@@ -27,6 +27,26 @@ otherwise land on an owner?** Three consequences:
 "I have an impossible project, can you do it?" conversation, which is the business's best work and should reach
 an owner. The point of the standard is to keep that channel clear by removing everything routine from it.
 
+### How it actually gets made
+
+The standard is useless without an answer to rate and accountability, and the answer turns on one distinction.
+**The answer can only come from an owner; everything after the answer must not.** The depth is in a few heads,
+so authoring is unavoidable — but editing, writing up, placing and repurposing are the parts that made the
+road model consume the owner, and they are the parts to move. The design rule is to **minimise owner minutes
+per published answer rather than owner involvement.**
+
+- **Record, don't write.** Ten minutes of an owner talking, once, yields a knowledge-base article, a video, a
+  social hook and a paragraph of a datasheet. Writing the same thing costs an hour and usually doesn't happen.
+  This is the studio's real purpose, and it is why the studio is described as what makes the direct-global
+  model affordable.
+- **Set a floor, not a target.** The sustainable minimum through a busy month, held all year, beats an
+  ambitious cadence abandoned at the first large project.
+- **Publication is owned by someone other than the answerer.** Otherwise the bottleneck simply moves back.
+- **The measure is questions retired**, not reach. An owner answering a published question twice means the
+  piece isn't findable — a different and cheaper problem than the piece not existing.
+
+Operationally this sits in `../NEXT.md` lane 6.
+
 ## The owned assets
 
 Two group-shared assets make the direct-global model affordable for a small team. They serve every brand;

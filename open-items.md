@@ -140,6 +140,13 @@ content does not get made there is no fallback motion at all. It also does nothi
 dependency on two or three people; it only stops adding to it. Nothing here says how much content, at what
 rate, or who is accountable for producing it, and that is the gap to close rather than argue with.
 
+**Gap now addressed, with one decision left in it.** `group/04-content.md` and `NEXT.md` lane 6 answer the
+*how*: separate the answer (only an owner can give it) from everything after it (must not be an owner);
+record rather than write, so ten minutes of owner time yields several pieces; take the backlog from the
+recurring-question log rather than from ideation; measure questions retired rather than reach. **Still to
+decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
+decisions rather than projects, and the lane does not start without them.
+
 ### Staged as next work
 
 - **Stage 1 — buyer truth. IN PROGRESS; the foundation is confirmed so far.** From Neil's account of recent
