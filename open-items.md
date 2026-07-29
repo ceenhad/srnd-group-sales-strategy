@@ -34,8 +34,8 @@ seriousness, and staged below.*
 8. **The trade distributors were never examined, and they compete for the dealer relationship.** Habitech,
    Pulse Cinemas, Invision, CAVD, Karma AV (`group/06-competitors.md`). Three consequences: much of our
    partner programme is their standard offer rather than a differentiator; our competitors reach dealers
-   through them while we are absent from all of them (Karma distributes Cinema Build Systems; Habitech carries
-   Artnovion and Screen Research); and **"one relationship, whole room" overclaims**, because a distributor
+   through them while we are absent from all of them (Habitech carries Artnovion and Screen Research — note
+   the CBS/Karma case is ownership, not distribution, and proves nothing about routes); and **"one relationship, whole room" overclaims**, because a distributor
    offers one account across thirty-plus brands while we make five layers of the room. A dealer always needs
    a distributor for the rest, so we can never be the only relationship — the honest claim is the room's
    integrated fabric, not its equipment list. **Their status is now settled (item 9); the three consequences
@@ -68,10 +68,15 @@ it turns out to be a decision already made the hard way. Three follow-ons:
 
 1. **Update the record, don't re-argue it.** Written into `group/01-commercial-model.md` (why direct, and why
    the test is deliberately hard) and `group/06-competitors.md` (the fork, answered).
-2. **The surviving tension is Karma/Cinema Build Systems** — the route works for a whole-room manufacturer on
-   our doorstep even though ours failed. The explanation available to us is that their range is
-   self-explanatory and ours needs explaining and often designing. Plausible, and worth re-testing rather
-   than treating as settled.
+2. **No surviving tension. The apparent counter-example was misread.** **Karma AV part-owns Cinema Build
+   Systems**, so CBS in Karma's portfolio is an owner selling through its own channel — structurally what we
+   do — not a distribution appointment that succeeded where ours failed. Nothing in the competitor set shows a
+   whole-room manufacturer working through an independent distributor. *The lesson about method as much as
+   about distributors: portfolio listings were read as commercial relationships without checking ownership,
+   which is the marketing-site-versus-reality error this document opens by warning about.*
+   **What the arrangement does tell us is about scale, not route:** CBS's range arrives with a dealer base,
+   credit, a showroom, reps and thirty-plus adjacent lines attached, because the channel is owned. Ours has to
+   be built — an argument for investing in SRND Distribution, not for appointing anyone.
 3. **It sharpens what the partner programme has to be.** If distributors are competitors for the dealer
    relationship and we will not use them, then everything a distributor supplies — training, a demo room,
    a named technical contact, credit, a rep who visits — we either supply ourselves or the dealer does

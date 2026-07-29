@@ -81,6 +81,14 @@ and a full room); and billable design services.
 *The most telling detail:* their masking screen's control is a **Future Automation control board**. So CBS
 doesn't build control — it buys FA's.
 
+*The structural detail, which matters more than the range.* **Karma AV is part-owner of CBS** (Neil's account
+— internal, and not the sort of thing to assert publicly without checking the filings). So the closest analog
+to SRND's whole play is a manufacturer with a **captive distributor** attached: an existing dealer base, credit
+facilities, a demo showroom, field reps, and thirty-plus adjacent lines to sell alongside the room. That is a
+genuine advantage over us, and it is not one we can acquire by appointing anybody — it would mean owning the
+channel, which is what SRND Distribution already is at a smaller scale. The comparison to draw is therefore
+*our* channel against *theirs*, not our direct model against their distributed one.
+
 ## Design tools — a different competitive front
 
 Newly relevant, and not previously documented here.
@@ -126,10 +134,15 @@ the dealer's clients, a named technical contact, demo stock — all advertised b
 Partner tier is **parity, not differentiation.** What stays genuinely distinctive: the top-partner acts,
 roadmap involvement, first allocation, and end-client lead referral.
 
-**2. Our competitors are inside these channels; we are absent from all of them.** Karma AV distributes
-**Cinema Build Systems** — so the whole-room competitor we called the one to beat reaches dealers through an
-established distributor's relationships, credit, showroom and reps, while we go direct. Habitech carries
-**Artnovion** (a C-ATS price-tier peer) and **Screen Research** (a DT peer).
+**2. Our competitors are inside these channels; we are absent from all of them.** Habitech carries
+**Artnovion** (a C-ATS price-tier peer) and **Screen Research** (a DT peer), reaching dealers through an
+established distributor's relationships, credit, showroom and reps while we go direct.
+
+*Correction, and it changes the conclusion:* **Karma AV is part-owner of Cinema Build Systems** (Neil's
+account). So CBS reaching dealers through Karma is not a distribution appointment we could have competed for —
+it is an owner selling its own product through its own channel, which is structurally what we do. Read as
+evidence about routes to market it proves nothing. Read as competitive intelligence it says something worse,
+below.
 
 **3. "One relationship, whole room" is weaker than we have been claiming.** A distributor offers one account
 across thirty-plus brands — projectors, processors, control, seating, networking. We make the surface, the
@@ -156,9 +169,9 @@ partners, so the useful comparison with them is what a dealer actually gets, not
 where finding 1 bites hardest. It also means their advertised services are the standard against which our
 partner programme will be judged whether we like the comparison or not.
 
-**What it does not settle.** Karma AV distributes Cinema Build Systems, so the route works for a whole-room
-manufacturer on our own doorstep even though our two appointments failed. Keep that recorded rather than
-explained away.
+**And nothing argues the other way.** The one apparent counter-example — CBS reaching dealers through Karma —
+isn't one, because Karma part-owns CBS. There is no case in this set of a whole-room manufacturer succeeding
+through an independent distributor. The decision stands unopposed on the evidence available.
 
 ## The two strategic reads
 
@@ -168,9 +181,12 @@ explained away.
    is the *evidence* for the group moat — the un-copyable half.
 2. **Cinema Build Systems is the whole-room competitor to beat.** They've already packaged the play SRND is
    built for — configurator-led, with dealer training, clear journeys and public ballpark pricing — and
-   they're in Yorkshire too. **Our edge:** real manufacturing depth across *more* of the room, engineered
-   acoustics against commodity foam, genuine control against a bought-in board. **Our gap:** the packaging —
-   configurators, an installer-training network, clearer journeys, and a view on pricing transparency.
+   they're in Yorkshire too — and they are part-owned by a distributor, so the range arrives with a dealer
+   base, credit, a showroom, reps and thirty-plus adjacent lines already attached. **Our edge:** real
+   manufacturing depth across *more* of the room, engineered acoustics against commodity foam, genuine control
+   against a bought-in board. **Our gap:** the packaging — configurators, an installer-training network,
+   clearer journeys, a view on pricing transparency — and the channel apparatus their ownership hands them,
+   which is ours to build rather than buy.
 
 ## Patterns worth learning
 

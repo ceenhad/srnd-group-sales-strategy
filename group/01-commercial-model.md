@@ -42,11 +42,15 @@ document carry, and it points the same way as the reasoning.
 rather than an accident of the arithmetic: a distributor has to be worth more than the margin *and* the
 relationship, and very few can be.
 
-**The counter-argument, which stands rather than being explained away.** Karma AV distributes Cinema Build
-Systems, so the route demonstrably works for a whole-room manufacturer of roughly our type
-(`06-competitors.md`). The distinction we can point to is that their range is largely self-explanatory while
-ours has to be explained and frequently designed — which is a real difference, and also exactly the kind of
-comfortable answer worth re-testing rather than assuming.
+**And there is no counter-example in the competitor set.** Cinema Build Systems reaching dealers through Karma
+AV looked like one, but Karma part-owns CBS — that is an owner selling through its own channel, which is
+structurally what we do, not a distribution appointment that worked. Nobody in the field is a whole-room
+manufacturer succeeding through an independent distributor (`06-competitors.md`). The position is unopposed on
+the evidence we have, which is a stronger place to be than balanced.
+
+**What the CBS/Karma arrangement does say** is about scale rather than route: their range comes with a dealer
+base, credit, a showroom and field reps already attached, because the channel is owned. Ours has to be built.
+That is an argument for investing in SRND Distribution as a channel, not for hiring someone else's.
 
 **The content carries the role of the sales rep.** Read everything else through this. With no local rep,
 the content plus a Zoom call *is* the sales motion — it has to carry the pitch, the proof, and the
