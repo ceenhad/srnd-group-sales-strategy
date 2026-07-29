@@ -62,7 +62,11 @@ we know what we are doing, and that we are on the dealer's side. The work divide
 - **Tend** — the half we don't yet keep. We earn trust through competence and return nothing that says the
   relationship is valued (`03-partner-programme.md`).
 - **Institutionalise** — the advantage lives in a few people and scattered repositories. Least urgent,
-  most important: it is what lets the rest scale and what stops the moat walking out of the door.
+  most important: it is what lets the rest scale and what stops the moat walking out of the door. **It is not
+  a separate project from Tell.** Field sales failed here over many years because every question of substance
+  routed back to an owner (`01-commercial-model.md`); content is the mechanism that gets the depth out of a
+  few heads and into a form that sells without them in the room. Publishing the answers and
+  institutionalising the expertise are one piece of work described two ways.
 
 ## The whole room
 

@@ -52,10 +52,41 @@ the evidence we have, which is a stronger place to be than balanced.
 base, credit, a showroom and field reps already attached, because the channel is owned. Ours has to be built.
 That is an argument for investing in SRND Distribution as a channel, not for hiring someone else's.
 
-**The content carries the role of the sales rep.** Read everything else through this. With no local rep,
+**The content carries the role of the sales rep.** Read everything else through this. With no field force,
 the content plus a Zoom call *is* the sales motion — it has to carry the pitch, the proof, and the
 "how to spec and install this without it going wrong on site." A rep who fumbles the pitch loses a dealer;
 disciplined content is the rep that doesn't fumble, everywhere, at once.
+
+### Why there is no field force, and why we have stopped looking for one
+
+This deserves stating at length, because it is the constraint the whole model is built around, and because a
+strategy that quietly assumed hiring would fix reach would be resting on the one approach already tested to
+destruction.
+
+**Sales people have had very limited success here, across many years and repeated attempts.** A long-run
+observation, not a recent disappointment.
+
+**The reason is the owner-driven model, which is the norm in this trade and was this business for years.** A
+body or two on the road, taking meetings and drumming up questions — and every question of substance routes
+back to the owner to answer and to close. That doesn't scale the owner, it consumes him: headcount added to
+that model increases the load on the scarce resource instead of relieving it. The larger distributors have
+crossed the point where a settled process lets competent people each do their part without everyone having to
+be exceptional. We have not crossed it, which is why the road model keeps being retried and keeps failing.
+
+**Geography compounds it, and we know it.** Three bases — Glasgow, the factory in Yorkshire, Olivier leading
+sales from Marbella — which is nobody's idea of an optimal patrol. Being the men on the road does not work
+from three countries, and in many years of trying the bodies have not been found.
+
+**So content is the rep in the literal sense, and it carries a second job the phrase conceals.** Not only
+reaching dealers we cannot visit, but **answering the question instead of routing it to the owner.** That is
+the real constraint being designed around, and it makes the content programme the same work as
+institutionalising the moat (`00-strategy.md`): getting the depth out of a few heads and into a form that
+sells without them in the room. The test for any piece follows directly — *does this answer a question that
+would otherwise land on an owner?* (`04-content.md`.)
+
+*And the spread costs us little.* A distributed team is a handicap under a road model; under content and Zoom
+the dealer's experience is the same wherever we sit, and European sales leadership based in Europe is an
+advantage rather than a compromise.
 
 **Oversaturation is the risk.** The dealer base is shared and every brand runs in parallel, so the same
 person can be hit by several brands in a week. Two group-owned levers, both coordination rather than

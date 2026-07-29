@@ -77,7 +77,11 @@ it asks for. It also serves the moat directly: training makes a dealer better at
 helps the dealer *sell* rather than because it discounts what they buy:
 
 - certification, and the standing that comes with it;
-- a named contact with genuine technical knowledge, not a support queue;
+- a named contact with genuine technical knowledge, not a support queue — **but bounded deliberately.** At our
+  size that contact is an owner or close to one, and an unbounded version of it rebuilds the trap that made
+  field sales fail: every question routing to the scarce person (`01-commercial-model.md`). It works only with
+  the routine answers already published, so the contact handles judgement rather than repetition. Grant it to
+  Partners because it is valuable *and* because it is finite;
 - **use of the Experience Centre with their own clients** — our facility helping them close their sale;
 - demo and loan stock;
 - early sight of new product.

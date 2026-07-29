@@ -112,6 +112,34 @@ the Screen Wall has no datasheet is more awkward than it looked.
 None is a crisis; all three are the exact divergence this repo exists to close, and they are recent and in
 print. Fix on the next pass through that material rather than retrospectively.
 
+### Content as the rep — decided, and the sharpest constraint in the strategy
+
+*Neil's account, and it hardens what was previously a framing line into a decision with evidence behind it.*
+
+**Sales people have had very limited success here over many years of trying**, and we have stopped looking.
+The diagnosis is the owner-driven model that is normal in this trade and was this business for years: a body
+or two on the road generating questions that all route back to the owner to answer and close. **Headcount in
+that model loads the scarce resource instead of relieving it.** The larger distributors crossed the point
+where a settled process lets competent people each do their part; we have not, and geography compounds it —
+Glasgow, the Yorkshire factory, sales leadership in Marbella. Written up in `group/01-commercial-model.md`.
+
+**What it changes, beyond confirming the model:**
+
+1. **Content's job has two halves and we had only written the first.** Reaching dealers we cannot visit *and*
+   answering the question instead of routing it to an owner. The second is the actual constraint, and it is
+   now the standard every piece is judged against (`group/04-content.md`).
+2. **Recurring call questions are the publishing schedule** — the cheapest content brief in the repo, needing
+   no research, only someone noticing.
+3. **Institutionalising the moat and publishing the depth are one project**, not two (`group/00-strategy.md`).
+4. **It bounds the partner programme's named technical contact**, which at our size is owner time and would
+   otherwise rebuild the trap (`group/03-partner-programme.md`).
+
+**The residual risk, stated honestly.** This model concentrates the entire sales motion on content, the studio
+and a virtualised Experience Centre — and it is a *thinner* insurance policy than a sales team, because if the
+content does not get made there is no fallback motion at all. It also does nothing about the underlying
+dependency on two or three people; it only stops adding to it. Nothing here says how much content, at what
+rate, or who is accountable for producing it, and that is the gap to close rather than argue with.
+
 ### Staged as next work
 
 - **Stage 1 — buyer truth. IN PROGRESS; the foundation is confirmed so far.** From Neil's account of recent

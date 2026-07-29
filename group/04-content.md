@@ -1,7 +1,31 @@
 # Content — what makes it, where it lands, how a campaign runs
 
-*Content is the sales rep (`01-commercial-model.md`), so this is not decoration. Three things: the assets
-that produce it, the rules for where it goes, and the reusable campaign shape.*
+*Content is the sales rep (`01-commercial-model.md`), so this is not decoration. Four things: the standard it
+is judged against, the assets that produce it, the rules for where it goes, and the reusable campaign shape.*
+
+## The standard: does this answer a question that would otherwise reach an owner?
+
+Content replaces a field force we have tried and failed to build, so it inherits both halves of a rep's job —
+and the second half is the one that gets forgotten. A rep in this trade generates interest and then **routes
+every question of substance back to the owner**, which is why adding reps consumed the scarce resource rather
+than extending it (`01-commercial-model.md`). Content that only generates interest reproduces that problem at
+greater volume.
+
+So the standard is a single question, and it applies to every piece: **does this answer something that would
+otherwise land on an owner?** Three consequences:
+
+- **The recurring questions are the publishing schedule.** Whatever gets explained repeatedly on calls is
+  content that hasn't been written yet. This is the cheapest content brief available and it needs no research —
+  it needs someone noticing and writing it down.
+- **Depth is not a nice-to-have layer on top of marketing.** Hooks win attention; the technical answer is what
+  a rep couldn't carry, so publishing it *is* the substitution. A brand with plenty of hooks and no answers has
+  not replaced the rep.
+- **It is the same work as institutionalising the moat** (`00-strategy.md`). Getting the expertise out of a few
+  heads and into a form that sells without them present is one project, described two ways in this repo.
+
+*The one thing content cannot replace* is the judgement call on a genuinely novel problem — the
+"I have an impossible project, can you do it?" conversation, which is the business's best work and should reach
+an owner. The point of the standard is to keep that channel clear by removing everything routine from it.
 
 ## The owned assets
 
