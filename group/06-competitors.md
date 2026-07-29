@@ -128,11 +128,14 @@ Pulse even markets the volume — "over 800 support interactions" a year.
 
 ### Three findings that bite
 
-**1. Most of our partner programme is the standard distributor offer.** Training access, a demo facility for
-the dealer's clients, a named technical contact, demo stock — all advertised by CAVD, Invision and Pulse.
-"Spend the depth, not the margin" (`03-partner-programme.md`) remains the right instinct, but much of the
-Partner tier is **parity, not differentiation.** What stays genuinely distinctive: the top-partner acts,
-roadmap involvement, first allocation, and end-client lead referral.
+**1. Much of our partner programme is the standard distributor offer — which is a baseline we already run, not
+a gap.** Training access, a demo facility for the dealer's clients, a named technical contact, demo stock,
+credit, logistics, reps: all advertised by CAVD, Invision and Pulse, and all things this business has done for
+twenty years. **We are a distributor. The difference is that we own the brands, own the factory and decide
+exactly what the products do.** So the honest reading of the parity is: it is table stakes we meet as a matter
+of course, and the differentiation sits a layer up, in the product itself
+(`03-partner-programme.md` — "what only a manufacturer can offer"). Do not read this section as a list of
+things to go and build.
 
 **2. Our competitors are inside these channels; we are absent from all of them.** Habitech carries
 **Artnovion** (a C-ATS price-tier peer) and **Screen Research** (a DT peer), reaching dealers through an

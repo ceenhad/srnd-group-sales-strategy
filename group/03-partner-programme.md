@@ -14,6 +14,43 @@ The scale of what that overlooks is concrete. One dealer has spent around £500,
 share of group revenue — and nothing distinguishes their treatment from a first-time account beyond the price
 on an invoice.
 
+## What only a manufacturer can offer
+
+*The starting point for the whole document, and it was nearly got wrong. Researching the trade distributors
+(`06-competitors.md`) showed most of the Partner tier — training, a demo facility, a named technical contact,
+demo stock — advertised by CAVD, Invision and Pulse, which looked like a parity problem. It isn't. **This
+business has been a distributor for twenty years.** Credit, logistics, reps, demo rooms and training are the
+day job, not a capability to acquire. The comparison is not us against distributors; we are one.*
+
+**The difference is that we own the brands, own the factory and decide exactly what the products do.** That is
+the only structural advantage in the whole competitive picture, and everything genuinely distinctive comes out
+of it. A distributor asking a brand for something can only pass the request upstream and wait for an answer
+that is usually no.
+
+Candidates that follow from it — some already happening informally, none of them articulated:
+
+- **Change the product.** A dealer's site problem can become a variant, a special or a change to the standard
+  range. This is what a factory is *for*, and it is the roadmap-involvement promise made concrete instead of
+  aspirational.
+- **Answer definitively, and now.** "Will it do X" is answered by the people who decided what it does, rather
+  than by someone reading a spec sheet back.
+- **Take the impossible job.** Already the evidence for the moat (`00-strategy.md`) — the work that arrives is
+  *"I have an impossible project, can you do it?"* No distributor can accept that call.
+- **Own the lead time**, rather than relaying a date from somebody else's factory.
+- **Keep the parts available** for as long as the dealer needs them, and extend the service catalogue because
+  we can.
+- **Design and verify the room**, which requires having made the parts that have to meet each other.
+- **Price the job rather than the line item**, because the whole margin is ours to allocate — no distributor
+  can go below a book price it doesn't set. (Bears directly on the price answer, `../open-items.md` Stage 4.)
+- **No upstream veto.** A distributor's dealer relationship can be ended by a brand withdrawing a line,
+  appointing a rival down the road or taking the territory back. Ours cannot be ended by a third party — and
+  we know precisely what that is worth, having been on the other side of it for two decades
+  (`01-commercial-model.md`).
+
+**So the task is naming and systematising, not building.** The characteristic failure mode elsewhere in this
+work is claiming things before they are real; here it inverts — these are real and unsaid. That is a cheaper
+problem, and this document is where it gets fixed.
+
 ## Two principles
 
 **Spend the depth, not the margin.** Discount is the wrong currency for appreciation. Retro plans and rebates

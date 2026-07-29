@@ -29,6 +29,13 @@ The evidence is that the business already runs on it: the work that arrives is *
 project, can you do it?"* Competitors copy the hardware and cannot copy the depth — Future Automation
 copied DT's CAD, which tells you which part was worth taking.
 
+**Both halves come from somewhere specific.** The understanding of the dealer's job comes from twenty years
+of distribution, selling to these people before we made anything. The ability to act on it comes from owning
+the brands, the factory and what the products do. A distributor has the first without the second and can only
+pass a request upstream; a manufacturer without the channel history has the second without the first. Holding
+both is the position, and it is why the standard distributor services are our baseline rather than our
+differentiator (`03-partner-programme.md`).
+
 As the dealer experiences it, in three beats:
 
 > **We understand you. We make things to help. Those things let you be better than anyone else.**

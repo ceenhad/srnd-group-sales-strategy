@@ -35,7 +35,13 @@ seriousness, and staged below.*
    Pulse Cinemas, Invision, CAVD, Karma AV (`group/06-competitors.md`). Three consequences: much of our
    partner programme is their standard offer rather than a differentiator; our competitors reach dealers
    through them while we are absent from all of them (Habitech carries Artnovion and Screen Research — note
-   the CBS/Karma case is ownership, not distribution, and proves nothing about routes); and **"one relationship, whole room" overclaims**, because a distributor
+   the CBS/Karma case is ownership, not distribution, and proves nothing about routes); and
+   **Consequence 1 was misjudged and is corrected.** The overlap between our partner programme and the standard
+   distributor offer is not a gap to close: this business has been a distributor for twenty years, so credit,
+   logistics, reps, demo rooms and training are the day job. **We are a distributor — one that owns its brands,
+   its factory and what the products do.** That last clause is the only structural advantage in the picture,
+   and what follows from it is now the opening of `group/03-partner-programme.md`. The remaining two
+   consequences stand. **"one relationship, whole room" overclaims**, because a distributor
    offers one account across thirty-plus brands while we make five layers of the room. A dealer always needs
    a distributor for the rest, so we can never be the only relationship — the honest claim is the room's
    integrated fabric, not its equipment list. **Their status is now settled (item 9); the three consequences
@@ -77,10 +83,11 @@ it turns out to be a decision already made the hard way. Three follow-ons:
    **What the arrangement does tell us is about scale, not route:** CBS's range arrives with a dealer base,
    credit, a showroom, reps and thirty-plus adjacent lines attached, because the channel is owned. Ours has to
    be built — an argument for investing in SRND Distribution, not for appointing anyone.
-3. **It sharpens what the partner programme has to be.** If distributors are competitors for the dealer
-   relationship and we will not use them, then everything a distributor supplies — training, a demo room,
-   a named technical contact, credit, a rep who visits — we either supply ourselves or the dealer does
-   without. That makes item 8's parity problem more pressing, not less.
+3. **It settles what the partner programme is built on.** The distributor services — training, a demo room, a
+   named technical contact, credit, a visiting rep — are not a shortfall to make up; they are twenty years of
+   day job. What a distributor cannot do is change the product, and that is where the programme's
+   distinctiveness has to come from (`group/03-partner-programme.md`). Correction worth recording: this was
+   first written up as a parity threat, which mistook an established operation for a new one.
 
 ### What is already public — and where it contradicts us
 
