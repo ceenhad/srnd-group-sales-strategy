@@ -138,17 +138,27 @@ everything else, so SRND can never be the only relationship.** The honest claim 
 *integrated fabric* — the parts that have to meet each other — not its equipment list. Say the narrower true
 thing rather than the wider flattering one.
 
-### The fork this exposes
+### The fork, answered
 
-`01-commercial-model.md` treats distributors as an exception requiring a scale or language justification, and
-describes SRND Distribution as "the trade channel, not a product brand," with its future deferred. This
-research says the question is larger than deferred, because these firms are **simultaneously competitors to
-SRND Distribution and a proven route to market for SRND's brands** — CBS through Karma demonstrates the route
-works.
+The research raised a fork: are these five rivals to SRND Distribution or a proven route to market for SRND's
+brands? It is decided. **SRND Distribution is the sales arm for our own brands plus a short roster of carried
+lines. It is not trying to become a Habitech, and we do not intend to sell our brands through firms like
+these.**
 
-So: is SRND Distribution trying to become a Habitech, or is it the sales arm for our own brands? The answer
-changes whether these five are rivals or partners, and it is currently unanswered rather than decided. See
-`../open-items.md`.
+The reasoning is experience rather than analysis, and it is set out in full in `01-commercial-model.md`: the
+group spent twenty years as a distributor, and the reason for leaving that behind is the reason not to rebuild
+it — a reseller has no control over the outcome, the UK is small enough that we already know the players, and
+appointing UK distributors for our own brands has been tried twice without success (DBM, since closed, and CUK,
+which sold nothing beyond its own demonstration room).
+
+**What that settles about these five.** They are competitors for the dealer relationship rather than candidate
+partners, so the useful comparison with them is what a dealer actually gets, not portfolio breadth — which is
+where finding 1 bites hardest. It also means their advertised services are the standard against which our
+partner programme will be judged whether we like the comparison or not.
+
+**What it does not settle.** Karma AV distributes Cinema Build Systems, so the route works for a whole-room
+manufacturer on our own doorstep even though our two appointments failed. Keep that recorded rather than
+explained away.
 
 ## The two strategic reads
 

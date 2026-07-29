@@ -15,6 +15,39 @@ on two triggers only: **scale** (a territory where one can at least double sales
 must more than replace the margin handed over) or a genuine **language/market barrier**. One further test
 always applies: it must not cost us the direct dealer relationships that are the compounding asset.
 
+### Why direct, decided from twenty years inside distribution
+
+The group was a distributor for two decades before it manufactured anything, and the shift to doing both has
+taken time to come to terms with. That history is the reason for the position above, and it belongs in the
+document because it is evidence rather than preference — this is one of the few places the strategy rests on
+something already lived through.
+
+**Reselling another company's product means having no real control over the outcome.** Perform badly and the
+brand replaces you; perform well and the brand eventually concludes it can take the territory itself. Either
+way the dealer relationships you built are somebody else's to end, and the work transfers to whoever holds the
+line next. That is the same argument this strategy makes one rung further down about dealers: **whoever owns
+the relationship owns the value.** Manufacturing is what puts us on the right side of it, and having spent
+twenty years on the wrong side we should be slow to hand our own brands to someone else's.
+
+**The UK in particular does not need an intermediary.** A distributor's real product is reach into dealers a
+brand cannot reach on its own. This is a small market and we know the names of the players in it, so paying
+margin for introductions is paying for something we already have.
+
+**The alternative has been tested twice, and neither worked.** UK distributors were appointed for our own
+brands: **DBM**, since closed, and **CUK**, which sold nothing beyond the equipment for its own demonstration
+room. Two appointments is not a statistical case, but it is more evidence than most positions in this
+document carry, and it points the same way as the reasoning.
+
+**So the 2× test is deliberately hard to clear**, and most candidates fail it immediately. That is the intent
+rather than an accident of the arithmetic: a distributor has to be worth more than the margin *and* the
+relationship, and very few can be.
+
+**The counter-argument, which stands rather than being explained away.** Karma AV distributes Cinema Build
+Systems, so the route demonstrably works for a whole-room manufacturer of roughly our type
+(`06-competitors.md`). The distinction we can point to is that their range is largely self-explanatory while
+ours has to be explained and frequently designed — which is a real difference, and also exactly the kind of
+comfortable answer worth re-testing rather than assuming.
+
 **The content carries the role of the sales rep.** Read everything else through this. With no local rep,
 the content plus a Zoom call *is* the sales motion — it has to carry the pitch, the proof, and the
 "how to spec and install this without it going wrong on site." A rep who fumbles the pitch loses a dealer;
@@ -40,8 +73,9 @@ is wide, so contact load can be spread across properties rather than concentrate
 4. **Pro-Fi** — complete audio systems engineered as one stack, in four series (Spatial, Stage, Modular,
    Cinema), with the Pantheon platform above them.
 5. **Light Walls** — RGBW addressable lighting. **Strategy deliberately deferred**, worked separately.
-6. **SRND Distribution** — the trade channel, not a product brand with its own story. What to do with it is
-   decided after the product brands are settled.
+6. **SRND Distribution** — the trade channel and the sales arm for our own brands, not a product brand with
+   its own story. **Settled: it is not an attempt to become a multi-brand distributor.** Carried lines stay a
+   short deliberate roster (below), chosen to complete jobs rather than to build a portfolio.
 
 **SRND Solutions** (own-made sensors and interfaces — the connective glue of an install) is in development
 and deliberately doesn't fit inside a brand. How it reaches the trade is open; don't write it up as

@@ -15,7 +15,9 @@ through one brand is a natural buyer for the others. Three consequences run thro
 
 - **There is no long tail to service cheaply.** A small order in one brand isn't a low-value account; it's
   the opening of a group relationship. We don't triage dealers by any single brand's order size.
-- **Direct is asset-building, not cost-saving.** A distributor owns the relationship instead of us.
+- **Direct is asset-building, not cost-saving.** A distributor owns the relationship instead of us, and the
+  group knows what that costs from the other side: twenty years spent distributing other companies' brands,
+  where doing the job badly and doing it well both end the same way (`01-commercial-model.md`).
 - **An asset taken for granted leaks.** A valued dealer stays; a merely-served one is poachable.
 
 ## The moat

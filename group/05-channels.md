@@ -125,6 +125,7 @@ from experts, not vendors. So the dormant personal authority and the specifier g
 (`02-buyer-journey.md`) are the same opportunity — and it is far cheaper than building a marketing
 programme, because it plays to a strength that already exists.
 
-*Context worth holding:* Neil's own background is **distribution** — a high-end AV and home-cinema
-distribution business preceded the manufacturing. So questions about competing with or selling through the
-trade distributors (`06-competitors.md`) meet experience rather than speculation.
+*Context worth holding:* Neil's own background is **distribution** — twenty years of it, in high-end AV and
+home cinema, before the manufacturing. So questions about competing with or selling through the trade
+distributors (`06-competitors.md`) meet experience rather than speculation, and it is also two decades of
+relationships with the UK trade that no marketing programme could buy.

@@ -38,11 +38,44 @@ seriousness, and staged below.*
    Artnovion and Screen Research); and **"one relationship, whole room" overclaims**, because a distributor
    offers one account across thirty-plus brands while we make five layers of the room. A dealer always needs
    a distributor for the rest, so we can never be the only relationship — the honest claim is the room's
-   integrated fabric, not its equipment list.
-9. **Unanswered fork: is SRND Distribution becoming a Habitech, or the sales arm for our own brands?** These
-   firms are simultaneously rivals to it and a proven route for our brands. Deferred in
-   `group/01-commercial-model.md`; the research says it needs deciding, because it determines whether they are
-   competitors or partners.
+   integrated fabric, not its equipment list. **Their status is now settled (item 9); the three consequences
+   are not** — the parity problem in the partner programme and the overclaim both still need fixing.
+9. **~~Unanswered fork: is SRND Distribution becoming a Habitech, or the sales arm for our own brands?~~
+   ANSWERED — sales arm, and we don't sell through firms like these.** See below and
+   `group/01-commercial-model.md`.
+
+### The distribution history — item 9 answered, from experience rather than analysis
+
+*Neil's account, and the strongest evidence in the repo for any position in it, because it was lived rather
+than reasoned.*
+
+The group **was a distributor for twenty years**, and the move from pure distribution to a hybrid with
+manufacturing has taken time to come to terms with. Four things follow, and together they close the fork:
+
+- **Reselling is easy and leaves you with nothing you control.** "Do too good and get fired, do bad also get
+  fired" — either way the relationship you built is the brand's to end. Which is the same proposition
+  `group/00-strategy.md` makes about dealer relationships one rung down, now with the group on the receiving
+  end of it. It is why direct is described there as asset-building rather than cost-saving, and the phrasing
+  can be firmer than it currently is.
+- **The UK is small and we know the players**, so doing it ourselves is easier than paying for reach we
+  already have.
+- **Two UK distributors have been appointed for our own brands and both failed** — DBM (now closed) and CUK
+  (sold nothing beyond its own demo room).
+- **The 2× test kills most candidates instantly, and that is the intent.**
+
+**Where it leaves the strategy: validated, not challenged.** Direct-first was written as a reasoned choice;
+it turns out to be a decision already made the hard way. Three follow-ons:
+
+1. **Update the record, don't re-argue it.** Written into `group/01-commercial-model.md` (why direct, and why
+   the test is deliberately hard) and `group/06-competitors.md` (the fork, answered).
+2. **The surviving tension is Karma/Cinema Build Systems** — the route works for a whole-room manufacturer on
+   our doorstep even though ours failed. The explanation available to us is that their range is
+   self-explanatory and ours needs explaining and often designing. Plausible, and worth re-testing rather
+   than treating as settled.
+3. **It sharpens what the partner programme has to be.** If distributors are competitors for the dealer
+   relationship and we will not use them, then everything a distributor supplies — training, a demo room,
+   a named technical contact, credit, a rep who visits — we either supply ourselves or the dealer does
+   without. That makes item 8's parity problem more pressing, not less.
 
 ### What is already public — and where it contradicts us
 
