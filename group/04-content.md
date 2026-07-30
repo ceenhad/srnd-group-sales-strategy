@@ -66,6 +66,88 @@ their output is brand-specific, their existence is not.
   and the render is only the **hook** that draws someone into it. The hooks already exist; the work is
   writing the stories.
 
+## The rep has a face
+
+*The literal reading of "content is the rep" (`01-commercial-model.md`). Not documents — a person on screen.
+The mechanism is **familiarity**: people feel they know a presenter they watch regularly, and that familiarity
+does what a rep's repeat visits used to do. It is why video is close to unbeatable for this job, and why the
+studio exists.*
+
+### Familiarity is a craft, and most of it is cheap
+
+Worth being precise, because the instinct "make more video" misses what actually creates the effect.
+
+- **Frequency and regularity beat production value.** Rapport is built by repeated exposure, so a predictable
+  slot matters more than polish. This is the same argument as the floor rate above, arriving from the other
+  direction.
+- **Same face, same room, same format.** Recognition is built out of consistency of frame. A recognisable
+  setting is doing real work, which is a large part of what the studio buys us.
+- **Address one person.** Second person, no corporate plural. A dealer watching alone should be spoken to as
+  one person, because they are.
+- **Unscripted enough to be human — and this is the part that makes it affordable.** Polished delivery reduces
+  rapport; asides, corrections and visible thinking increase it. The thing that makes the format work is the
+  thing that makes it fast, which is a rare alignment and should be exploited rather than resisted.
+- **Long form builds the relationship; short form builds reach.** Familiarity is a function of time spent
+  together, so a forty-minute deep dive watched by two hundred dealers can be worth more than a clip seen by
+  twenty thousand strangers. At our deal sizes and audience size that trade is obvious, and it is the opposite
+  of what general social advice would say.
+- **Continuity.** Callbacks, running series, "as I said last time" — the sense of an ongoing conversation
+  rather than a set of files.
+- **Be seen to change your mind.** With a technical audience, admitting a limit or revising a position builds
+  more credit than certainty does, and it is the brand's stated posture anyway.
+- **The face must belong to the answer.** Not a presenter reading a script, but the person who made the
+  decision explaining why. That is the manufacturer advantage put on screen, and no distributor's rep can
+  imitate it.
+
+### Casting: three people, three distinct jobs
+
+The team on the sales side is Neil, Olivier and Ben. They are not interchangeable presenters, and the value
+comes from not treating them as such.
+
+- **Neil — the authority.** The designer, and the face of the technical answer and the impossible project. His
+  presence carries *we know what we are doing*, and it is also the only route to the specifier: a CPD seminar
+  is a person, not a document (`05-channels.md`).
+- **Olivier — the relationship.** Sales leadership, trade-facing, based in Europe. His presence carries *we
+  are on your side*, so he belongs on anything that ends in a conversation — the welcome, the walkthrough, the
+  invitation, the follow-up.
+- **Ben — the editorial owner, and mostly not on camera.** He is the rendering expert, so the visual language
+  is already his, and he is increasingly the person who understands *what needs to be discussed*. That is the
+  producer's judgement, and it is scarcer than presenting ability. It also answers the open accountability
+  question directly: **publication should be owned by the person who knows what to talk about, not by the
+  person who has to supply the answer** (`../NEXT.md` lane 6). Putting him in front of the camera would spend
+  a scarce skill on an abundant one.
+
+### The recurring slate
+
+A small set of repeatable formats, each with an owner, rather than a commissioning process:
+
+| Format | Face | Job |
+|---|---|---|
+| The answer — one recurring dealer question | Neil | Retires a question permanently; the lane-6 engine |
+| Render-led room story | Ben's renders, Neil or Olivier narrating | Virtual case studies where photography is impossible |
+| The demo — "hear the difference" | Neil | Virtualises the Experience Centre |
+| Install and how-to | Either | Removes support load; makes the dealer better |
+| The conversation — a dealer or peer as guest | Olivier | Builds relationship, and the guest supplies half the content |
+| Training modules | Neil | Highest leverage of all; currently deferred |
+
+### The disciplines that keep it working
+
+- **A dormant channel is worse than none.** Familiarity built and then abandoned reverses into an impression of
+  decline. So the floor rate matters more here than anywhere else in this document.
+- **Never on-camera cleverness.** Depth asserted reads as arrogance (`00-strategy.md`), and a person doing it
+  is far worse than a document doing it. Answering a dealer's question is inherently generous; a monologue
+  about our engineering is not. Choose formats that make the posture automatic.
+- **Resist production creep.** The studio exists to make video *fast*. Gloss slows it down and buys nothing
+  that familiarity needs.
+- **Register differs by property.** Trade video and DIY video (`01-commercial-model.md`) can share faces, but
+  not tone or placement — B2C stays cinema, deliberately.
+- **It deepens the person-dependency we have already flagged.** The moat is person-concentrated, and putting
+  faces on it concentrates it further. Two mitigations, both partial and worth naming: use two faces rather
+  than one, and treat the accumulated corpus as the asset, since it outlasts anyone's involvement.
+- **The measure is recognition, not views.** The signal to listen for is a first conversation that opens with
+  *"I've watched your videos"* — a dealer arriving already familiar. Views are a proxy; that sentence is the
+  thing itself.
+
 ## Placement rules
 
 1. **Match the landing to readiness.** Broad, company-level material → the group site; specific, functional

@@ -135,7 +135,11 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
   fortnightly aspiration abandoned in March. The number itself is Neil and Olivier's to set — but set it as a
   floor, and derive it from what the studio already produces rather than from what a marketing plan would like.
 - **Someone other than the answerer owns publication.** Not the person with the knowledge; the person who
-  gets it out. If nobody is accountable for publishing, this lane silently becomes the deferred one.
+  gets it out. If nobody is accountable for publishing, this lane silently becomes the deferred one. **The
+  obvious fit is Ben** — the visual language is already his and he is increasingly the person who understands
+  what needs to be discussed, which is the producer's judgement and the scarcer skill
+  (`group/04-content.md`). Neil's and Olivier's faces carry the authority and the relationship; the editorial
+  ownership should sit with neither of them.
 - **The measure is questions retired, not reach.** A useful leading indicator: an owner answering the same
   question twice after it was published means the piece exists but isn't findable, which is a different and
   cheaper problem.

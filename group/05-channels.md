@@ -125,6 +125,12 @@ from experts, not vendors. So the dormant personal authority and the specifier g
 (`02-buyer-journey.md`) are the same opportunity — and it is far cheaper than building a marketing
 programme, because it plays to a strength that already exists.
 
+**And it is the same asset the sales motion depends on.** With no field force, familiarity with a face does
+what a rep's repeat visits used to do (`04-content.md`, "the rep has a face"). So personal authority is not a
+side channel serving specifiers — it is the primary sales instrument, serving dealers and specifiers with the
+same work. That is the strongest argument for building it, and the reason its absence is the most expensive gap
+on this page.
+
 *Context worth holding:* Neil's own background is **distribution** — twenty years of it, in high-end AV and
 home cinema, before the manufacturing. So questions about competing with or selling through the trade
 distributors (`06-competitors.md`) meet experience rather than speculation, and it is also two decades of
