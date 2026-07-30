@@ -108,6 +108,11 @@ manufacturer rather than a tools business (`07-tools.md`). But assume they are g
 Distribution)**, **Karma AV**. These matter more than their category suggests, because they compete for the
 thing this strategy says we accumulate: the dealer relationship.*
 
+**Read this as the shape of a tier, not a national survey.** Every developed market has the same three levels —
+a few large distributors, a long tail of small distributors and dealer-distributors, and regional manufacturers
+who either self-distribute or don't (`01-commercial-model.md`). Expect the same portfolio logic, the same demo
+room and the same service list in any territory.
+
 **What the standard UK distributor offer actually is.** All five are trade-only and multi-brand — Habitech
 carries dozens of lines (Sonance, Wisdom, Arcam, Naim, StormAudio, Sennheiser, Christie, Artnovion, Screen
 Research, Da-Lite among them), Pulse states "over 30 luxury residential brands," Invision and Karma similar,

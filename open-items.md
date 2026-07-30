@@ -147,6 +147,29 @@ recurring-question log rather than from ideation; measure questions retired rath
 decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
 decisions rather than projects, and the lane does not start without them.
 
+**And the idea has now been worked to its limit** — `group/01-commercial-model.md`, "How far content can carry
+the sale." The short version: content takes being found, recall, the technical answer, teaching and the whole
+specifier route, and **beats any rep we could hire on authority**, because it comes from the people who decide
+what the products do. It cannot qualify, discover, close or gather intelligence. So the sales motion is
+**content for reach and proof, the tools for qualification, the design service for discovery, and a very small
+number of people for the asking.**
+
+Three things that surfaced from working it through, all cheap and none yet owned:
+
+1. **The spec conversation is our only discovery channel and nothing is captured from it.** We are in it on
+   most jobs — better than a rep's meeting, because it is the moment the room gets decided. Three lines of
+   notes afterwards would serve cross-sell, the content backlog and buyer truth at once (`NEXT.md` lane 4).
+   Probably the cheapest unexploited asset in the strategy.
+2. **"Wanting the order" is unowned.** Content cannot want it; somebody has to notice a dealer has gone quiet
+   and ask. It is the smallest human residue in the model and the one most deserving of a person.
+3. **Market intelligence has no substitute at all.** A rep brings back what competitors are quoting and
+   offering; nothing in this model does. Recorded as a real hole rather than argued away.
+
+**Also settled: the UK is representative.** Three tiers everywhere — a few large distributors, a long tail of
+small distributors and dealer-distributors, regional manufacturers who self-distribute or don't. So the
+direct-first reasoning and the distributor analysis both travel; neither needs a separate answer abroad
+(`group/06-competitors.md`).
+
 ### Staged as next work
 
 - **Stage 1 — buyer truth. IN PROGRESS; the foundation is confirmed so far.** From Neil's account of recent

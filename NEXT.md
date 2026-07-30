@@ -94,6 +94,12 @@ cross-sell problem is not access. We have the access and don't use it.
   future campaigns but **a prompt list for a conversation already happening**: when you're helping spec the
   acoustics, the fabric and the front-of-room structure are the natural next questions, and you are the
   person being asked.
+- **And start learning from it, not only helping through it.** With no field force, the spec conversation is
+  our only discovery channel — the substitute for a rep sitting in a dealer's office
+  (`group/01-commercial-model.md`). Today nothing is captured from it. **Smallest possible version:** after a
+  spec conversation, note the project, what the dealer was unsure about and what they were afraid of. Three
+  lines. That is simultaneously the cross-sell trigger, the content backlog and the buyer truth the strategy
+  keeps parking.
 - Then: use it. Campaigns come later, when there's something worth automating.
 - Rides on: existing dealer contact.
 
