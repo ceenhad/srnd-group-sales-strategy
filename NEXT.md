@@ -140,6 +140,15 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
   what needs to be discussed, which is the producer's judgement and the scarcer skill
   (`group/04-content.md`). Neil's and Olivier's faces carry the authority and the relationship; the editorial
   ownership should sit with neither of them.
+- **Start with the format that already works, because we have the numbers.** A 52-second C-ATS explainer about
+  reverberation has done ~9,500 views — more than six times the group channel's entire history — while two
+  dozen product films sit in single figures (`group/04-content.md`). One-minute problem-led explainers are both
+  the cheapest thing to make and the only thing that has ever reached anyone. Long-form waits until something
+  points at it.
+- **And sort the channel estate first, because it is administrative and it blocks everything.** Establish which
+  old channel is locked behind an ex-employee's 2FA and pursue recovery — if it is the C-ATS account it holds
+  our best asset. Then remove the MAG Theatron and Barco playlists and fix the "Complete Acoustic Treatment
+  System" description. Hours, not weeks.
 - **The measure is questions retired, not reach.** A useful leading indicator: an owner answering the same
   question twice after it was published means the piece exists but isn't findable, which is a different and
   cheaper problem.

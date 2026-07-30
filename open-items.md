@@ -107,7 +107,21 @@ the Screen Wall has no datasheet is more awkward than it looked.
    forbids as a claim about Pro-Fi (`brands/pro-fi/positioning.md` §5).
 2. "only solutions that can genuinely claim to be the **best and most innovative** in their category" —
    superlative-led, against the Scandinavian register (`group/00-strategy.md`).
-3. "**Complete Acoustic Treatment Systems**" spelled out — the naming we agreed not to hard-code.
+3. "**Complete Acoustic Treatment Systems**" spelled out — the naming we agreed not to hard-code. *Also in the
+   `@Complete_ATS` YouTube channel description, so this is two places now.*
+4. **Playlists for MAG Theatron and Barco Residential** still live on `@SRNDGroupLtd`, both discontinued
+   carried lines (`group/01-commercial-model.md`).
+
+**And an access problem to resolve before any of it.** An older YouTube account is locked — two-factor
+authentication set up by an employee who has left, no password. If it is the `@Complete_ATS` account it holds
+the group's best-performing video (~9,500 views on a 52-second explainer) and eight times the view history of
+the current channel, which makes recovery worth real effort rather than a shrug. Routes exist: Workspace
+administrator reset for a managed account, re-adding owners to a brand account via any remaining manager, and
+YouTube's own recovery process. Establish which account it is first.
+
+**The YouTube numbers also settle a sequencing argument** (`group/04-content.md`): short problem-led explainers
+earn the reach, and the substantial long-form work — Friday Forums, hour-plus seminars — sits at 11 to 88 views
+because nothing points at it. Not evidence against long form; evidence that it is second, not first.
 
 None is a crisis; all three are the exact divergence this repo exists to close, and they are recent and in
 print. Fix on the next pass through that material rather than retrospectively.

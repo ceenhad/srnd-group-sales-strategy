@@ -12,8 +12,14 @@
 ## Owned — the backbone
 
 `srnd.group`, the brand sites, `srnd.store`, `cinema-store.com`, `cinema-tools.com`; the trade email list;
-the YouTube channel and podcast; the **Experience Centre** and its virtualised form; the room-render library
+the YouTube channels and podcast; the **Experience Centre** and its virtualised form; the room-render library
 as virtual case studies.
+
+**YouTube, honestly.** Two channels — `@SRNDGroupLtd` (20 subscribers, 54 videos, 1,471 lifetime views) and
+`@Complete_ATS` (46 subscribers, 16 videos, **12,058 views**) — plus an older account locked behind an
+ex-employee's two-factor authentication. So this is an owned asset in principle and a file store in practice,
+and the audience is on the brand channel rather than the group one. The full read, including which format
+actually works and what to fix, is in `04-content.md`.
 
 ## Trade press
 

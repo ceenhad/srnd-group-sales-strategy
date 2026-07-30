@@ -87,10 +87,9 @@ Worth being precise, because the instinct "make more video" misses what actually
 - **Unscripted enough to be human — and this is the part that makes it affordable.** Polished delivery reduces
   rapport; asides, corrections and visible thinking increase it. The thing that makes the format work is the
   thing that makes it fast, which is a rare alignment and should be exploited rather than resisted.
-- **Long form builds the relationship; short form builds reach.** Familiarity is a function of time spent
-  together, so a forty-minute deep dive watched by two hundred dealers can be worth more than a clip seen by
-  twenty thousand strangers. At our deal sizes and audience size that trade is obvious, and it is the opposite
-  of what general social advice would say.
+- **Short form earns the reach; long form is where familiarity deepens — in that order.** The instinct that a
+  forty-minute deep dive beats a clip is only true for someone who has already arrived, and our own numbers are
+  blunt about which comes first (below). Short explainers are the front door; long form is the room behind it.
 - **Continuity.** Callbacks, running series, "as I said last time" — the sense of an ongoing conversation
   rather than a set of files.
 - **Be seen to change your mind.** With a technical audience, admitting a limit or revising a position builds
@@ -98,6 +97,61 @@ Worth being precise, because the instinct "make more video" misses what actually
 - **The face must belong to the answer.** Not a presenter reading a script, but the person who made the
   decision explaining why. That is the manufacturer advantage put on screen, and no distributor's rep can
   imitate it.
+
+### What our own numbers already say
+
+*Both channels as at July 2026. Small numbers, but they point in one direction and they are ours rather than
+someone's best practice.*
+
+| | Joined | Subs | Videos | Total views |
+|---|---|---|---|---|
+| `@SRNDGroupLtd` | May 2024 | 20 | 54 | 1,471 |
+| `@Complete_ATS` (C-ATS) | Apr 2023 | 46 | 16 | **12,058** |
+
+**Four things fall out, and the first is the important one.**
+
+1. **The best-performing asset in the group is a 52-second explainer about a problem.** *"Reverberation —
+   Understanding"* has around **9,500 views** — more than six times the entire lifetime of the group channel,
+   from a video that never mentions a product. The 3 Rs set beside it (Reflection, Resonance, each in
+   Understanding/Treating pairs, all around a minute) accounts for most of the rest. With 46 subscribers, that
+   traffic is search and suggestion, not audience — people looking up a word.
+   **The problem-not-product rule (`02-buyer-journey.md`) is not a theory here; it is the only thing that has
+   ever worked for us.**
+2. **Product videos get essentially nothing.** Around two dozen one-minute DT product films — Dynamic masking,
+   ceiling mounts, portholes, mirror drops — sit between 1 and 26 views. They are competent and correctly made,
+   and they are addressed to someone who has already decided. Best of the non-educational set is a Fabric Walls
+   factory-versus-site install film at 396, which is *also* an argument rather than a catalogue entry.
+3. **The long-form work has never been distributed, so it cannot be judged.** The Friday Forum sessions and the
+   "Understanding…" seminars — 40 minutes to 1h12, genuinely substantial — sit between 11 and 54 views, and the
+   1h13 3 Rs webinar at 88. That does not disprove the long-form case; it says nothing points at them. Treat
+   the depth-builds-familiarity claim as a **hypothesis to test once reach exists**, not as a reason to make
+   more of them first.
+4. **Neither channel is a channel yet.** Twenty subscribers on the group's own account after two years is a
+   file store with a play button. The studio was built and the reach engine never was — which is precisely the
+   shape of the whole content problem in this repo, showing up in one place we can count.
+
+**So the sequence is settled by evidence rather than preference:** short problem-led explainers to be found,
+the long-form and the face behind them to build the relationship once someone is there. That is also the
+cheapest possible start, because the format that works is a minute long.
+
+### The channel estate needs sorting first
+
+Three practical problems, all administrative rather than strategic, and all in the way.
+
+- **An older channel is inaccessible.** Two-factor authentication was set up on it by an employee who has since
+  left, and there is no password. **If that account is `@Complete_ATS`, this matters far more than it sounds** —
+  it holds the group's single best-performing video and roughly eight times the view history of the current
+  channel. Establish which account is locked, then pursue recovery properly: a Workspace administrator can
+  reset a managed account, a brand account can have owners re-added by any remaining manager, and YouTube's own
+  recovery route exists for verified brand accounts. Worth real effort before writing the history off.
+- **Two channels, split by brand, with the audience on the smaller one.** Consistent with awareness being
+  built per brand (`01-commercial-model.md`), so this is not automatically wrong — but it needs deciding rather
+  than inheriting, and whichever way it goes the C-ATS educational material is the group's most valuable video
+  asset and should not be orphaned.
+- **The estate still shows what we have removed.** Playlists for **MAG Theatron** and **Barco Residential** are
+  live on the group channel, both discontinued carried lines, and the C-ATS channel description spells out
+  "Complete Acoustic Treatment System" — the naming we agreed not to hard-code. Same class of fix as the store
+  clean-up (`../open-items.md`).
 
 ### Casting: three people, three distinct jobs
 
