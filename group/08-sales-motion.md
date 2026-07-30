@@ -68,9 +68,9 @@ Everything above resolves into one loop with four steps and no new hires:
 
 > **Archive → a ranked question list → a batch recording session → edited and published.**
 
-Ben drafts and ranks, the owners correct the order, Neil answers on camera, Ben publishes. The archive supplies the list, the retired
-questions return the owner minutes that fund the next round. That is the entire sales motion, and it is small
-enough to actually run.
+Ben drafts and ranks, the owners correct the order, Neil answers on camera, Ben publishes. The archive supplies
+the raw list, and the retired questions return the owner minutes that fund the next round. That is the entire
+sales motion, and it is small enough to actually run.
 
 **It changes the owner's job, and that should be stated rather than absorbed.** If content is the sales motion
 and the answer can only come from someone who decided what the product does, then **an owner's primary sales
