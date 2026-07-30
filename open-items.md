@@ -174,6 +174,35 @@ recurring-question log rather than from ideation; measure questions retired rath
 decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
 decisions rather than projects, and the lane does not start without them.
 
+### Two acceptances that follow from content being the sales motion
+
+*Neil's, and both are decisions rather than observations.*
+
+**1. The owner's job changes.** If the answer can only come from someone who decided what the product does, an
+owner's primary sales output becomes **authoring on camera** — scheduled like a customer meeting, not squeezed
+around one. Being on camera is not the difficulty; **planning the content list is.** Which settles the editorial
+role from the other end: the presenter must not be the planner, so Ben's job is removing the actual bottleneck
+rather than providing support. Two operating consequences, both in `group/08-sales-motion.md`: the question list
+is **ranked, not exhaustive**, because owner time is finite; and the recording is **batched**, so one afternoon
+yields weeks of output with an identical frame.
+
+The loop is therefore: **archive → ranked question list → batch recording → edited and published.** Four steps,
+no new hires, and the retired questions return the owner minutes that fund the next round.
+
+**2. The websites and social accounts get restarted, not edited.** They predate every decision in this repo and
+carry positions we have rejected. Amending them page by page costs more than rebuilding to a structure that is
+already specified — and it *is* already specified, because the buyer journey and the content map are a sitemap
+in prose. Recorded as `NEXT.md` lane 7, with three qualifications:
+
+- **Restart the presentation; never discard the discoverability.** URLs, indexed pages and the YouTube history
+  are the compounding asset the whole model rests on. Rebuild behind the same addresses, redirect what moves,
+  keep the channels — DT's has eight years and ~41,000 views in it.
+- **The minimum viable property is a knowledge base**, not a finished brand site. That is what the corpus needs
+  and it is the part that compounds.
+- **It must not gate the content cadence.** A rebuild is the largest piece of work implied anywhere here; if
+  publishing waits for it, the lane most likely to stall stalls. Content goes to the knowledge base and the
+  existing channels, and the rebuild follows it.
+
 **And the idea has now been worked to its limit** — it has its own document, `group/08-sales-motion.md`. The
 short version: content takes being found, recall, the technical answer, teaching and the whole
 specifier route, and **beats any rep we could hire on authority**, because it comes from the people who decide

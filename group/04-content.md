@@ -159,7 +159,7 @@ expect it to take time to work.
 
 **6. Two incidental findings worth acting on.** The **DT Screen Wall construction film (527 views, ISE 2023)**
 is among DT's better performers, for a product that still has no page and no datasheet — more weight behind
-`../NEXT.md` lane 7. And **rAVe covered DT at CEDIA Expo 2023** (250 views): third-party trade coverage exists
+`../NEXT.md` lane 8. And **rAVe covered DT at CEDIA Expo 2023** (250 views): third-party trade coverage exists
 and nothing was built on it. *(That clip frames the product through a partner brand — treat the relationship as
 internal, per the standing rule on not naming OEM arrangements publicly.)*
 
@@ -194,6 +194,12 @@ comes from not treating them as such.
 - **Olivier — the relationship.** Sales leadership, trade-facing, based in Europe. His presence carries *we
   are on your side*, so he belongs on anything that ends in a conversation — the welcome, the walkthrough, the
   invitation, the follow-up.
+**And the constraint is planning, not performing.** Being on camera is not the hard part; deciding what to talk
+about is. That settles the roles from the other end — the presenter must not also be the planner
+(`08-sales-motion.md`). It also sets the working pattern: **batch the recording.** Several answers in one
+sitting means one afternoon produces weeks of output, the frame and setting stay identical — which is what builds
+recognition — and the cadence stops depending on finding a free hour in a bad week.
+
 - **Ben — the editorial owner, and mostly not on camera.** He is the rendering expert, so the visual language
   is already his, and he is increasingly the person who understands *what needs to be discussed*. That is the
   producer's judgement, and it is scarcer than presenting ability. It also answers the open accountability

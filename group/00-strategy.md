@@ -48,8 +48,13 @@ reads as generosity; depth asserted reads as arrogance. The dealer is the hero, 
 and repositories, and concentrated in a few people. Two things have to become both true and visible: that
 we know what we are doing, and that we are on the dealer's side. The work divides into four —
 
-- **Tell** — drive the moat down into each brand as a dealer-first story, group → brand → product. The
-  existing sites were built ad hoc and are placeholders to re-base, not assets to push live.
+- **Tell** — drive the moat down into each brand as a dealer-first story, group → brand → product. **The
+  existing sites and social accounts get restarted rather than edited.** They were built ad hoc before any of
+  this was settled, so they encode positions we have since rejected; amending them page by page costs more than
+  rebuilding to a structure that is already written down. **One firm exception: restart the presentation, never
+  discard the accumulated discoverability.** URLs, indexed pages and the YouTube history are the compounding
+  asset the whole model rests on (`08-sales-motion.md`) — rebuild behind the same addresses, redirect what
+  moves, and keep the channels. See `../NEXT.md`.
 - **Prove** — the weakest claim is "you'll come out ahead," because it is asserted from capability rather
   than demonstrated. But note the constraint, which is structural: **at this tier the best jobs are the
   least publishable** — phones checked at the door, documents under NDA, and that is typical rather than

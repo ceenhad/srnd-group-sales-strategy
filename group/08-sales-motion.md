@@ -62,6 +62,34 @@ The real risk isn't overestimating content's reach; it is assuming it covers the
   it should reach an owner. Publishing the routine answers is what keeps that line clear.
 - **Recognition and thanks**, which are acts and cannot be published (`03-partner-programme.md`).
 
+## The operating loop, and what it does to an owner's job
+
+Everything above resolves into one loop with four steps and no new hires:
+
+> **Archive → a ranked question list → a batch recording session → edited and published.**
+
+Ben ranks and briefs, Neil answers on camera, Ben publishes. The archive supplies the list, the retired
+questions return the owner minutes that fund the next round. That is the entire sales motion, and it is small
+enough to actually run.
+
+**It changes the owner's job, and that should be stated rather than absorbed.** If content is the sales motion
+and the answer can only come from someone who decided what the product does, then **an owner's primary sales
+output becomes authoring on camera.** Not marketing work fitted around selling — it *is* the selling, and it
+should be scheduled with the same seriousness as a customer meeting rather than squeezed into whatever is left.
+The same questions get answered either way; the difference is answering each one once, in public, instead of
+repeatedly in private.
+
+**The constraint is planning, not performing** — which settles the casting argument from the other end. Being on
+camera is not the difficulty; deciding what to talk about is. So **planning must not be the presenter's job**,
+and the editorial role (`04-content.md`) is not administrative support but the removal of the actual bottleneck.
+Two consequences:
+
+- **The list must be ranked, not exhaustive.** Owner time is finite, so the value of the editorial job is
+  choosing the order — which is why frequency data out of the archive matters more than any other input.
+- **Batch the recording.** If planning is hard and presenting is easy, the efficient pattern is several answers
+  in one sitting: one afternoon produces weeks of output, the frame and setting stay identical (which is what
+  builds recognition), and the cadence stops depending on finding an hour in a bad week.
+
 ## The corpus is the asset — not the channel
 
 The thing being accumulated is a **body of answers**, not a YouTube channel or a blog. Channels are

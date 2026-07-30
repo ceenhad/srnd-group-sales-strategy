@@ -161,9 +161,40 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
   cheaper problem.
 - Rides on: the studio, calls that are happening anyway, and questions being asked already.
 
-### 7. The one genuine build: productise the Screen Wall
+### 7. The properties get restarted — but the addresses and the history are kept
 
-This is the only item that needs deliberate effort rather than riding on something else, and it earns it:
+**Accepted: the websites and social accounts are restarted rather than edited.** They were built ad hoc before
+any of this was settled, so they carry positions we have since rejected — DT as a projector-screen company,
+Fabric Walls offering an acoustic design service, "Complete Acoustic Treatment Systems," £0.00 pricing, Pro-Fi
+as a spatial-audio brand. Amending page by page costs more than rebuilding to a structure that is already
+decided.
+
+**Two things that make this smaller than it sounds.**
+
+- **The information architecture is already written.** The buyer journey's six stages, the placement rules and
+  the content map (`group/02-buyer-journey.md`, `group/04-content.md`) are a sitemap in prose. This is not a
+  design project starting from a blank sheet; it is building what the strategy already specifies.
+- **The minimum viable property is a knowledge base, not a finished brand site.** The corpus needs somewhere
+  canonical to live (`group/08-sales-motion.md`), and that is a well-structured, searchable set of answers per
+  brand. Far smaller than a site rebuild, and it is the part that compounds.
+
+**The firm caveat: restart the presentation, never discard the discoverability.** URLs, indexed pages and the
+YouTube history are the compounding asset the entire model rests on — DT's channel has eight years and ~41,000
+views in it. So: rebuild behind the same addresses, redirect anything that moves, keep the channels and change
+what goes on them. "Throw it out" applies to the pages and the posting habits, not to the accumulated position
+in search.
+
+**And the sequencing matters more than the scope.** A rebuild is the largest piece of work implied anywhere in
+this repo, so **it must not gate lane 6.** If the cadence waits for a finished site, nothing publishes for
+months and the lane most likely to stall stalls. So: start publishing to the knowledge base and the existing
+channels, and let the rebuild follow the content rather than precede it.
+
+- **Smallest next move:** one brand's knowledge base, structured by the questions the archive says recur.
+- Rides on: nothing. This one costs time — the second item on this page that does.
+
+### 8. The other genuine build: productise the Screen Wall
+
+This needs deliberate effort rather than riding on something else, and it earns it:
 it makes the whole-room proposition physical, answers the LED shift, and contains four brands — so it
 demonstrates cross-sell without a campaign existing. The engineering is done and has been demonstrable
 since ISE 2023.
