@@ -55,7 +55,8 @@ That is an argument for investing in SRND Distribution as a channel, not for hir
 **The content carries the role of the sales rep.** Read everything else through this. With no field force,
 the content plus a Zoom call *is* the sales motion — it has to carry the pitch, the proof, and the
 "how to spec and install this without it going wrong on site." A rep who fumbles the pitch loses a dealer;
-disciplined content is the rep that doesn't fumble, everywhere, at once.
+disciplined content is the rep that doesn't fumble, everywhere, at once. **How far that goes, what substitutes
+for the parts it can't do, and why it compounds: `08-sales-motion.md`.**
 
 ### Why there is no field force, and why we have stopped looking for one
 
@@ -82,7 +83,7 @@ reaching dealers we cannot visit, but **answering the question instead of routin
 the real constraint being designed around, and it makes the content programme the same work as
 institutionalising the moat (`00-strategy.md`): getting the depth out of a few heads and into a form that
 sells without them in the room. The test for any piece follows directly — *does this answer a question that
-would otherwise land on an owner?* (`04-content.md`.)
+would otherwise land on an owner?* (`04-content.md`), and the motion it belongs to is `08-sales-motion.md`.
 
 *And the spread costs us little.* A distributed team is a handicap under a road model; under content and Zoom
 the dealer's experience is the same wherever we sit, and European sales leadership based in Europe is an
@@ -100,92 +101,6 @@ manufacturers** who, like us, either handle their own distribution or don't. Two
 - **So does the competitor analysis.** `06-competitors.md` studied five UK distributors; read it as the shape
   of the tier rather than a national survey. Expect the same offer, the same demo room and the same portfolio
   logic in any territory, which is also why the same comparison lands there.
-
-## How far content can carry the sale
-
-*The sales half of sales and marketing. "Content is the rep" is the right instinct and needs a stated limit,
-or it becomes a slogan that quietly assumes work nobody is doing.*
-
-A field rep does about a dozen distinct jobs. Content takes some of them outright and does several **better
-than a rep ever could**; a few need a substitute that isn't content at all; and a small residue stays human.
-Naming which is which is what turns the line from an aspiration into a model.
-
-### What content takes outright — and wins on
-
-- **Being found.** A rep knocks on doors; content is what gets knocked on. Search and AI answers reach dealers
-  no patrol could visit, in territories we will never have a body in.
-- **Presence and recall.** Always-on beats occasional visits for being remembered when the dealer's next
-  project finally lands — which happens on their client's clock, not ours.
-- **The technical answer, and this is the important one.** Our content comes from the people who decided what
-  the product does. A multi-line distributor's rep carries thirty brands and cannot be deep in any of them; a
-  manufacturer's own rep would be relaying what the factory told them. So the strongest form of the idea isn't
-  that content substitutes for a rep — it is that **content is a better rep than anyone could hire, at the part
-  of the job that decides the sale.** Owning the factory is what makes that true (`03-partner-programme.md`).
-- **Teaching, which is the moat delivered.** Training and certification are content, and they make the dealer
-  better at their job — the thing we claim to be for.
-- **Reaching specifiers at all.** You cannot hire reps to call on architects. CPD seminars, NBS clauses, BIM
-  objects and specifier-grade downloads are all content, so pre-tender specification
-  (`02-buyer-journey.md`) is only reachable under this model — a route a field force would never have opened.
-
-### What content cannot do, and what substitutes instead
-
-The real risk isn't overestimating content's reach; it is assuming it covers these four and leaving them
-unowned.
-
-- **Qualification** — is this dealer real, is this project real. **The substitute is the tools.** A design tool
-  reveals a live project and its requirements, which is exactly what a rep spent a day in a car to learn. That
-  is why lead capture out of Cinema Tools matters more than its size suggests (`07-tools.md`).
-- **Discovery** — what they're working on, what went wrong last time, what they're afraid of. **The substitute
-  already exists and isn't marketing: we are in the specification conversation on most jobs.** It is a better
-  listening post than a rep's meeting, because it happens at the moment the room is decided. Today it is used
-  only to help; nothing is learned from it systematically. The cheapest unexploited asset in the strategy.
-- **Closing, and objections in real time** — Zoom for the considered sale, the store for the self-evident one.
-  Content brings a dealer to the point of ordering; something still has to take the order.
-- **Product in hand** — the sample kit and the Experience Centre, which is why virtualising that room matters
-  (`04-content.md`).
-- **Market intelligence** — a rep brings back what competitors are quoting and offering. Nothing in this model
-  does that, and we should record it as a genuine hole rather than pretend otherwise.
-
-### What stays human — and it is small enough to staff
-
-- **Wanting the order.** Content cannot want it. Somebody has to notice a dealer has gone quiet, ask for the
-  job and follow it up. Thinly covered today, and it is the residue that most deserves a person.
-- **The novel problem** — *"I have an impossible project, can you do it?"* The best work the business gets, and
-  it should reach an owner. Publishing the routine answers is what keeps that line clear.
-- **Recognition and thanks**, which are acts and cannot be published (`03-partner-programme.md`).
-
-### How far the idea can be pushed
-
-Five extensions, in rough order of leverage:
-
-1. **The rep can have a face.** The literal reading of "make content the rep" is not documents — it is a person
-   on screen. Video and podcast carry a voice, a manner and authority in a way a knowledge base cannot, and a
-   dealer who feels they know Neil has effectively met the rep. Which makes the dormant personal-authority
-   channel (`05-channels.md`) not a marketing nicety but the sales motion's most valuable unbuilt asset.
-2. **It works for the channel, not only for us.** The long tail of small distributors and dealer-distributors
-   has the same sales problem and no depth of its own. Our content can be *their* sales motion — extending
-   reach without appointing anybody and without handing over a relationship.
-3. **Training is the highest-leverage content there is.** It does the rep's teaching job, justifies the
-   registration we ask for, makes the dealer better, and creates real switching cost. Currently unbuilt and
-   deferred, which is defensible on capacity and not on value.
-4. **Every published answer is permanent.** A rep's best explanation dies in the room it was given in; ours
-   accumulates and is searchable. Content is a compounding asset where a salary is a recurring cost — the
-   clearest argument for the model on its own terms.
-5. **It is the only affordable route into new territories**, since the alternative — a body in each — is the
-   thing that has repeatedly failed here.
-
-### The ceiling, stated plainly
-
-Content can carry a dealer from never having heard of us to ready to order, and can beat any rep we could hire
-on authority. It cannot qualify, cannot discover and cannot ask. So the model is not content *instead of*
-sales: it is **content doing the reach and the proof, the tools doing the qualification, the design service
-doing the discovery, and a very small number of people doing the asking.** Put that way it is a deliberate
-design rather than a workaround — and, unlike a field force, it is affordable for the team that exists.
-
-**Oversaturation is the risk.** The dealer base is shared and every brand runs in parallel, so the same
-person can be hit by several brands in a week. Two group-owned levers, both coordination rather than
-restraint: **contact cadence coordinated across brands**, and **placement flexibility** — the top of funnel
-is wide, so contact load can be spread across properties rather than concentrated on one door.
 
 ## The brands
 

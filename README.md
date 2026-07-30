@@ -42,16 +42,18 @@ down to execution.
 
 Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
 
-1. **`group/`** — the group strategy and standards, in eight documents. Brand-agnostic, and the source of
+1. **`group/`** — the group strategy and standards, in nine documents. Brand-agnostic, and the source of
    truth; brands apply it, they do not fork it.
    - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
      disciplines. Read this one if you read nothing else.
    - `01-commercial-model.md` — brands, properties, gated pricing, the two stores, carried lines.
    - `02-buyer-journey.md` — the journey, the on-ramp, touchpoints, execution standards, metrics.
    - `03-partner-programme.md` — what registration grants and how partners are valued.
-   - `04-content.md` — the owned assets, placement rules, the campaign template.
+   - `04-content.md` — the owned assets, the rep with a face, placement rules, the campaign template.
    - `05-channels.md` · `06-competitors.md` — the named landscape, and what rivals do well.
    - `07-tools.md` — where calculators and design tools fit commercially.
+   - `08-sales-motion.md` — how a sale is made with no salesforce: what content takes, what substitutes for
+     the rest, and why it compounds and scales.
    - `store-split-worklist.md` — a working execution list, not strategy.
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.

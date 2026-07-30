@@ -35,17 +35,16 @@ seriousness, and staged below.*
    Pulse Cinemas, Invision, CAVD, Karma AV (`group/06-competitors.md`). Three consequences: much of our
    partner programme is their standard offer rather than a differentiator; our competitors reach dealers
    through them while we are absent from all of them (Habitech carries Artnovion and Screen Research — note
-   the CBS/Karma case is ownership, not distribution, and proves nothing about routes); and
-   **Consequence 1 was misjudged and is corrected.** The overlap between our partner programme and the standard
-   distributor offer is not a gap to close: this business has been a distributor for twenty years, so credit,
-   logistics, reps, demo rooms and training are the day job. **We are a distributor — one that owns its brands,
-   its factory and what the products do.** That last clause is the only structural advantage in the picture,
-   and what follows from it is now the opening of `group/03-partner-programme.md`. The remaining two
-   consequences stand. **"one relationship, whole room" overclaims**, because a distributor
-   offers one account across thirty-plus brands while we make five layers of the room. A dealer always needs
-   a distributor for the rest, so we can never be the only relationship — the honest claim is the room's
-   integrated fabric, not its equipment list. **Their status is now settled (item 9); the three consequences
-   are not** — the parity problem in the partner programme and the overclaim both still need fixing.
+   the CBS/Karma case is ownership, not distribution, and proves nothing about routes); and **"one
+   relationship, whole room" overclaims**, because a distributor offers one account across thirty-plus brands
+   while we make five layers of the room. A dealer always needs a distributor for the rest, so we can never be
+   the only relationship — the honest claim is the room's integrated fabric, not its equipment list.
+   **Status: their competitive position is settled (item 9), and consequence 1 was misjudged and is
+   corrected.** The overlap between our partner programme and the standard distributor offer is not a gap to
+   close — this business has been a distributor for twenty years, so credit, logistics, reps, demo rooms and
+   training are the day job. **We are a distributor; one that owns its brands, its factory and what the
+   products do.** That is the only structural advantage in the picture, and what follows from it now opens
+   `group/03-partner-programme.md`. **The overclaim still needs fixing in published material.**
 9. **~~Unanswered fork: is SRND Distribution becoming a Habitech, or the sales arm for our own brands?~~
    ANSWERED — sales arm, and we don't sell through firms like these.** See below and
    `group/01-commercial-model.md`.
@@ -171,8 +170,8 @@ recurring-question log rather than from ideation; measure questions retired rath
 decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
 decisions rather than projects, and the lane does not start without them.
 
-**And the idea has now been worked to its limit** — `group/01-commercial-model.md`, "How far content can carry
-the sale." The short version: content takes being found, recall, the technical answer, teaching and the whole
+**And the idea has now been worked to its limit** — it has its own document, `group/08-sales-motion.md`. The
+short version: content takes being found, recall, the technical answer, teaching and the whole
 specifier route, and **beats any rep we could hire on authority**, because it comes from the people who decide
 what the products do. It cannot qualify, discover, close or gather intelligence. So the sales motion is
 **content for reach and proof, the tools for qualification, the design service for discovery, and a very small

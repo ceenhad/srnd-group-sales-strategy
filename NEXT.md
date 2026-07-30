@@ -186,7 +186,7 @@ Named so they read as choices rather than debt:
 ## And the repo stops growing
 
 The clear-strategy phase is finished for four brands and the group layer, and it has been **condensed to
-eight group documents** (from twenty-three, and roughly half the words) precisely because the first version
+nine group documents** (from twenty-three, and roughly half the words) precisely because the first version
 was unreadable at length. Fifty thousand words nobody opens is worth less than eight documents somebody does.
 
 So: no new strategy documents without a reason that can be stated in a sentence, and corrections go into the
