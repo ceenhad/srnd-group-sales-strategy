@@ -79,6 +79,60 @@ Four consequences:
 - **It is how the moat stops being person-shaped.** A corpus outlasts anyone's involvement, so building it
   *is* institutionalising the advantage (`00-strategy.md`) rather than a separate project.
 
+## The archive is a running start
+
+The corpus does not begin at zero. There are **hundreds of gigabytes of Dropbox material and many thousands of
+emails** written about these brands over years — technical answers, objections handled, specifications argued
+through, project files, drawings and measured data. It does not replace new content, and nothing here suggests
+it should. What it removes is the blank page, which is most of the friction that stops a content cadence
+starting at all.
+
+**And it is the one large-scale shortcut that doesn't violate the authorship rule.** Bulk generic content
+destroys the differentiator because the answer stops coming from the people who decided what the product does.
+The archive is the opposite case: it *is* their answers, in their own register, given to real dealers who really
+asked. Mining it recovers authored depth rather than manufacturing a substitute for it.
+
+### What to extract, in order of value
+
+1. **Frequency — which questions actually recur.** This is the most valuable output and the one impossible to
+   get any other way. The recurring-question log proposed as the publishing schedule (`04-content.md`) already
+   exists retrospectively, in sent mail. **The most-answered question of the last three years is the highest-value
+   piece of content the group could publish**, and right now nobody knows what it is.
+2. **The dealer's own words for the problem.** Not our product vocabulary — theirs. That is what gets searched
+   and what AI engines match against, and it is precisely why a 52-second video called "Reverberation —
+   Understanding" outperformed the entire group channel (`04-content.md`).
+3. **The answers themselves, as drafts.** A written answer that already persuaded somebody is a better starting
+   point than a brief.
+4. **Objections, hesitations and what dealers were afraid of.** This is the discovery channel run backwards, and
+   it addresses the buyer-truth gap that everything else in this strategy rests on (`../open-items.md`, item 1)
+   more cheaply than any other route.
+5. **Room types and applications, including non-cinema work.** Direct evidence for the beyond-cinema position,
+   which is currently asserted from capability rather than history.
+6. **Proof material** — measured data, reports, renders, drawings — subject to the constraints below.
+
+### The constraints, and they are firm
+
+- **Confidentiality is absolute.** Project folders and email threads contain NDA'd client material, and at this
+  tier that is typical rather than exceptional (`00-strategy.md`). **Extract patterns, never identities.** No
+  mined answer may carry a client name, an address, a distinguishing feature of a room, or anything that
+  identifies a project by elimination.
+- **Frequency data ages well; technical answers age badly.** An answer written three years ago may reference a
+  discontinued panel, a design service that has since been consolidated, superseded pricing or a product we no
+  longer sell. So the archive is a reliable source of **questions** and an unreliable source of **current
+  answers**. Every mined answer gets confirmed as true today before publication — the maintenance obligation,
+  applied at the point of ingest rather than later.
+- **It is a seam to work, not a project to launch.** Whole-archive ambitions are how this becomes a nine-month
+  exercise that never ships. The high-yield seam is narrow: **sent mail, from the two or three people who answer
+  technical questions, over the last two or three years.** The Dropbox estate is mostly proof material and much
+  of it is encumbered — leave it until the email work has produced something.
+
+### What it cannot do
+
+It cannot produce the face on camera, or familiarity, or anything about a product or position that has changed
+since the email was written. It is a running start on the corpus, not a substitute for the cadence. But it turns
+lane 6 of `../NEXT.md` from "decide what to publish" into "publish what we already answered," which is a much
+smaller thing to ask of a busy month.
+
 ## Why it compounds — and the three conditions
 
 Compounding is the whole economic case, so it is worth being exact about what produces it rather than assuming

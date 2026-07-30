@@ -16,7 +16,9 @@ otherwise land on an owner?** Three consequences:
 
 - **The recurring questions are the publishing schedule.** Whatever gets explained repeatedly on calls is
   content that hasn't been written yet. This is the cheapest content brief available and it needs no research —
-  it needs someone noticing and writing it down.
+  it needs someone noticing and writing it down. **And most of it has already been written:** years of sent mail
+  answering dealer questions is the same log, retrospectively and in our own words
+  (`08-sales-motion.md`, "the archive is a running start").
 - **Depth is not a nice-to-have layer on top of marketing.** Hooks win attention; the technical answer is what
   a rep couldn't carry, so publishing it *is* the substitution. A brand with plenty of hooks and no answers has
   not replaced the rep.
@@ -35,8 +37,10 @@ so authoring is unavoidable — but editing, writing up, placing and repurposing
 road model consume the owner, and they are the parts to move. The design rule is to **minimise owner minutes
 per published answer rather than owner involvement.**
 
-- **Record, don't write.** Ten minutes of an owner talking, once, yields a knowledge-base article, a video, a
-  social hook and a paragraph of a datasheet. Writing the same thing costs an hour and usually doesn't happen.
+- **Where an answer already exists in writing, don't even record it.** Thousands of emails have already answered
+  these questions in prose; those need confirming and editing, not authoring.
+- **Otherwise record, don't write.** Ten minutes of an owner talking, once, yields a knowledge-base article, a
+  video, a social hook and a paragraph of a datasheet. Writing the same thing costs an hour and usually doesn't happen.
   This is the studio's real purpose, and it is why the studio is described as what makes the direct-global
   model affordable.
 - **Set a floor, not a target.** The sustainable minimum through a busy month, held all year, beats an

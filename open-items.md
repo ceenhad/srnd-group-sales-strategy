@@ -14,6 +14,10 @@ seriousness, and staged below.*
    integrator. If the real specifier is more often an architect, a cinema contractor or the end client, a
    lot of positioning needs rework. Coherent structure, unverified foundation. **The cheapest fix in the
    repo, and only Neil can supply it:** two or three real recent jobs, described in his own words.
+   **Update — the archive can supply much of it.** Years of sent mail record who asked, what they asked and what
+   they hesitated over, which is the discovery channel run backwards
+   (`group/08-sales-motion.md`). Cheaper than recollection and better evidence, subject to the
+   confidentiality constraints recorded there.
 2. **DT's decline is named but never sized.** Projection shrinking is a fact; the three growth lines are
    directions, and only the Screen Wall has substance. We call the projection base "the cash engine, not
    the future" with no view of how fast it erodes against how fast the replacements arrive.

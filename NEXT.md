@@ -96,7 +96,7 @@ cross-sell problem is not access. We have the access and don't use it.
   person being asked.
 - **And start learning from it, not only helping through it.** With no field force, the spec conversation is
   our only discovery channel — the substitute for a rep sitting in a dealer's office
-  (`group/01-commercial-model.md`). Today nothing is captured from it. **Smallest possible version:** after a
+  (`group/08-sales-motion.md`). Today nothing is captured from it. **Smallest possible version:** after a
   spec conversation, note the project, what the dealer was unsure about and what they were afraid of. Three
   lines. That is simultaneously the cross-sell trigger, the content backlog and the buyer truth the strategy
   keeps parking.
@@ -115,7 +115,7 @@ needs no build at all.
 
 ### 6. Content becomes a cadence, and owner time stops being the bottleneck
 
-Content is the sales motion (`group/01-commercial-model.md`), which makes this the lane the strategy most
+Content is the sales motion (`group/08-sales-motion.md`), which makes this the lane the strategy most
 depends on — and the one most likely not to happen, because it competes with the day job. The gap is not what
 to make; it is rate and accountability.
 
@@ -127,9 +127,14 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 - **Record, don't write.** Ten minutes of an owner talking on camera or on a call, once, is a knowledge-base
   article, a video, a social hook and a paragraph of a datasheet. Writing the same thing costs an hour and
   usually doesn't happen. The studio exists for exactly this.
-- **The backlog is free and already exists: log the recurring questions.** Every time an owner explains
-  something on a call, the question goes in one list. That list is the publishing schedule
-  (`group/04-content.md`) — no research, no strategy, no ideation.
+- **The backlog is free and already exists, twice over.** Going forward: every time an owner explains something
+  on a call, the question goes in one list — no research, no ideation. Looking back: **years of sent mail have
+  already answered these questions in our own words**, so the log exists retrospectively
+  (`group/08-sales-motion.md`, "the archive is a running start").
+- **Smallest next move for the archive, and it is genuinely small.** Take sent mail from the two or three people
+  who answer technical questions, over the last two or three years, and **count which questions recur.** The
+  ranked list is the publishing schedule, and nobody currently knows what sits at the top of it. Not the hundreds
+  of gigabytes of Dropbox — that is proof material, much of it encumbered, and it waits.
 - **A floor, not a target.** Set the rate as the minimum that can be sustained through a busy month rather
   than an ambitious cadence that collapses at the first big project. A weekly floor met all year beats a
   fortnightly aspiration abandoned in March. The number itself is Neil and Olivier's to set — but set it as a
