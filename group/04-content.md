@@ -100,58 +100,84 @@ Worth being precise, because the instinct "make more video" misses what actually
 
 ### What our own numbers already say
 
-*Both channels as at July 2026. Small numbers, but they point in one direction and they are ours rather than
-someone's best practice.*
+*All four channels, July 2026. Small numbers, but they are ours rather than someone else's best practice, and
+they overturn a couple of assumptions.*
 
-| | Joined | Subs | Videos | Total views |
+| Channel | Joined | Subs | Videos | Lifetime views |
 |---|---|---|---|---|
+| `@displaytechnologiesltd` | Dec 2018 | 107 | 39 | **~41,000** |
+| `@Complete_ATS` (C-ATS) | Apr 2023 | 46 | 16 | 12,058 |
 | `@SRNDGroupLtd` | May 2024 | 20 | 54 | 1,471 |
-| `@Complete_ATS` (C-ATS) | Apr 2023 | 46 | 16 | **12,058** |
+| An older SRND Group channel | — | — | — | **locked — no access** |
 
-**Four things fall out, and the first is the important one.**
+Roughly **54,500 views across the estate: three-quarters of it on DT, a fifth on C-ATS, three per cent on the
+group channel** — which holds the most videos of the three.
 
-1. **The best-performing asset in the group is a 52-second explainer about a problem.** *"Reverberation —
-   Understanding"* has around **9,500 views** — more than six times the entire lifetime of the group channel,
-   from a video that never mentions a product. The 3 Rs set beside it (Reflection, Resonance, each in
-   Understanding/Treating pairs, all around a minute) accounts for most of the rest. With 46 subscribers, that
-   traffic is search and suggestion, not audience — people looking up a word.
-   **The problem-not-product rule (`02-buyer-journey.md`) is not a theory here; it is the only thing that has
-   ever worked for us.**
-2. **Product videos get essentially nothing.** Around two dozen one-minute DT product films — Dynamic masking,
-   ceiling mounts, portholes, mirror drops — sit between 1 and 26 views. They are competent and correctly made,
-   and they are addressed to someone who has already decided. Best of the non-educational set is a Fabric Walls
-   factory-versus-site install film at 396, which is *also* an argument rather than a catalogue entry.
-3. **The long-form work has never been distributed, so it cannot be judged.** The Friday Forum sessions and the
-   "Understanding…" seminars — 40 minutes to 1h12, genuinely substantial — sit between 11 and 54 views, and the
-   1h13 3 Rs webinar at 88. That does not disprove the long-form case; it says nothing points at them. Treat
-   the depth-builds-familiarity claim as a **hypothesis to test once reach exists**, not as a reason to make
-   more of them first.
-4. **Neither channel is a channel yet.** Twenty subscribers on the group's own account after two years is a
-   file store with a play button. The studio was built and the reach engine never was — which is precisely the
-   shape of the whole content problem in this repo, showing up in one place we can count.
+**1. The audience is on the brand channels, and the group channel doesn't have one.** That is the strategy's own
+architecture showing up in data (`01-commercial-model.md`: awareness is per brand), but the current practice
+fights it. DT and C-ATS have channels; Fabric Walls, Pro-Fi and Light Walls don't, so the group channel has
+become the default home for everything without one — Fabric Walls installs, DT product films, the Friday
+Forums, a discontinued carried line. **Decide it rather than inherit it:** brand content belongs on a brand
+channel, and the group channel should carry group-level material or nothing.
 
-**So the sequence is settled by evidence rather than preference:** short problem-led explainers to be found,
-the long-form and the face behind them to build the relationship once someone is there. That is also the
-cheapest possible start, because the format that works is a minute long.
+**2. Longevity compounds, and here is the proof in our own numbers.** DT started in 2018 and holds 41,000
+views; the group channel started in 2024 and holds 1,471. Content is a compounding asset rather than a
+recurring cost (`01-commercial-model.md`), and the practical consequence is unglamorous: **feed the old
+channels, don't start new ones.**
+
+**3. The rule is not "problem, not product" — it is show what can be shown, explain what cannot.** This
+corrects an over-generalisation from the C-ATS data alone.
+
+- On **C-ATS**, explanation wins outright. *"Reverberation — Understanding"* — 52 seconds, no product mentioned
+  — has about **9,500 views**, more than six times the group channel's entire history, and the 3 Rs set around
+  it accounts for most of the rest. With 46 subscribers that is search traffic: people looking up a word.
+  Acoustics is invisible, so the only thing to film is the idea.
+- On **DT**, motion wins. The top pieces are mechanisms doing their job — Dynamic 4 XL (977), the Vertical
+  Mirror Mount options (705), the Motorised Mirror Drop (600), the Hush Box sound test (603), Dynamic-2S
+  Highlights (1.5K). A masking screen moving *is* the argument; there is nothing to explain that the movement
+  doesn't say better. Explanation still places well where the point is genuinely invisible — Mask Position
+  Logic (436), Aspect Ratio Test Patterns (359), "Mistral — what is it and how does it function?" (338).
+- On **Fabric Walls**, the best performer is the factory-versus-site install-time comparison (396) — again a
+  demonstration rather than a catalogue entry.
+
+The common factor is that every winner **makes an argument**, whether by explaining or by showing. What fails is
+the catalogue: two dozen minute-long DT product films on the group channel sit between 1 and 26 views, and they
+are competently made.
+
+**4. Long-form has never been distributed, so it cannot be judged.** The Friday Forums and hour-plus seminars
+sit between 11 and 88 views. Nothing points at them. Treat depth-builds-familiarity as a **hypothesis to test
+once reach exists**, not a reason to make more of them first.
+
+**5. Nothing in eight years and 54,500 views has a face.** Every piece is a product, a mechanism or a
+screencast; there is no presenter anywhere in the estate. So "the rep has a face" is not a change of emphasis on
+an existing channel — it is a format with no precedent here, which is both the opportunity and the reason to
+expect it to take time to work.
+
+**6. Two incidental findings worth acting on.** The **DT Screen Wall construction film (527 views, ISE 2023)**
+is among DT's better performers, for a product that still has no page and no datasheet — more weight behind
+`../NEXT.md` lane 7. And **rAVe covered DT at CEDIA Expo 2023** (250 views): third-party trade coverage exists
+and nothing was built on it. *(That clip frames the product through a partner brand — treat the relationship as
+internal, per the standing rule on not naming OEM arrangements publicly.)*
 
 ### The channel estate needs sorting first
 
-Three practical problems, all administrative rather than strategic, and all in the way.
+Administrative rather than strategic, and in the way.
 
-- **An older channel is inaccessible.** Two-factor authentication was set up on it by an employee who has since
-  left, and there is no password. **If that account is `@Complete_ATS`, this matters far more than it sounds** —
-  it holds the group's single best-performing video and roughly eight times the view history of the current
-  channel. Establish which account is locked, then pursue recovery properly: a Workspace administrator can
-  reset a managed account, a brand account can have owners re-added by any remaining manager, and YouTube's own
-  recovery route exists for verified brand accounts. Worth real effort before writing the history off.
-- **Two channels, split by brand, with the audience on the smaller one.** Consistent with awareness being
-  built per brand (`01-commercial-model.md`), so this is not automatically wrong — but it needs deciding rather
-  than inheriting, and whichever way it goes the C-ATS educational material is the group's most valuable video
-  asset and should not be orphaned.
-- **The estate still shows what we have removed.** Playlists for **MAG Theatron** and **Barco Residential** are
-  live on the group channel, both discontinued carried lines, and the C-ATS channel description spells out
-  "Complete Acoustic Treatment System" — the naming we agreed not to hard-code. Same class of fix as the store
-  clean-up (`../open-items.md`).
+- **An older SRND Group channel is locked.** Two-factor authentication was set up by an employee who has since
+  left, and there is no password. The good news is that it is not the C-ATS account, so the group's best asset
+  is safe; the consequence is that `@SRNDGroupLtd` was restarted from zero in May 2024. **So the group
+  channel's weakness is partly a lockout rather than neglect** — worth knowing before judging it. Establish
+  what is on the old account and pursue recovery: a Workspace administrator can reset a managed account, a
+  brand account can have owners re-added by any remaining manager, and YouTube has its own recovery route.
+- **Decide the channel architecture.** Three live channels, brand-shaped by accident. Either every brand gets
+  one and the group channel goes group-only, or the estate consolidates. Whichever way, the C-ATS educational
+  material and DT's eight-year history are the two things that must not be orphaned.
+- **The estate still advertises what we have removed or renamed.** Playlists for **MAG Theatron** and **Barco
+  Residential** are live on the group channel, both discontinued carried lines. The C-ATS channel spells out
+  "Complete Acoustic Treatment System," the naming we agreed not to hard-code. And DT's channel describes a
+  "British brand specialising in advanced projector screens, mounting brackets and custom installation
+  solutions" — the projection-company framing the brand strategy deliberately rejects
+  (`../brands/display-technologies/positioning.md`). Same class of fix as the store clean-up.
 
 ### Casting: three people, three distinct jobs
 

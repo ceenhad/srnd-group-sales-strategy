@@ -111,17 +111,27 @@ the Screen Wall has no datasheet is more awkward than it looked.
    `@Complete_ATS` YouTube channel description, so this is two places now.*
 4. **Playlists for MAG Theatron and Barco Residential** still live on `@SRNDGroupLtd`, both discontinued
    carried lines (`group/01-commercial-model.md`).
+5. **The DT channel describes a "British brand specialising in advanced projector screens, mounting brackets
+   and custom installation solutions"** — the projection-company framing the brand strategy deliberately
+   rejects (`brands/display-technologies/positioning.md`).
 
-**And an access problem to resolve before any of it.** An older YouTube account is locked — two-factor
-authentication set up by an employee who has left, no password. If it is the `@Complete_ATS` account it holds
-the group's best-performing video (~9,500 views on a 52-second explainer) and eight times the view history of
-the current channel, which makes recovery worth real effort rather than a shrug. Routes exist: Workspace
-administrator reset for a managed account, re-adding owners to a brand account via any remaining manager, and
-YouTube's own recovery process. Establish which account it is first.
+**And an access problem behind it.** An older **SRND Group** account is locked — two-factor authentication set
+up by an employee who has left, no password. Not the C-ATS account, so the group's best asset is safe, but it
+is why `@SRNDGroupLtd` restarted from zero in May 2024: **the group channel's weakness is partly a lockout
+rather than neglect.** Establish what is on the old account and pursue recovery — Workspace administrator reset
+for a managed account, re-adding owners to a brand account via a remaining manager, or YouTube's own recovery
+route.
 
-**The YouTube numbers also settle a sequencing argument** (`group/04-content.md`): short problem-led explainers
-earn the reach, and the substantial long-form work — Friday Forums, hour-plus seminars — sits at 11 to 88 views
-because nothing points at it. Not evidence against long form; evidence that it is second, not first.
+**The estate is also a decision waiting to be made rather than a channel** (`group/04-content.md`): three live
+channels, brand-shaped by accident, with three-quarters of the audience on DT and three per cent on the group's
+own. Either every brand gets a channel and the group's goes group-only, or it consolidates. DT's eight-year
+history and the C-ATS educational set must not be orphaned either way.
+
+**Two conclusions the numbers force, one of which corrects this repo.** Short problem-led explainers earn the
+reach while the substantial long-form work sits at 11 to 88 views for want of anything pointing at it — so long
+form is second, not first. And **"problem, not product" was over-generalised from the C-ATS data: the real rule
+is show what can be shown, explain what cannot.** Acoustics is invisible, so C-ATS explains and wins; a masking
+screen moving is its own argument, so DT films the mechanism and wins. What fails on both is the catalogue.
 
 None is a crisis; all three are the exact divergence this repo exists to close, and they are recent and in
 print. Fix on the next pass through that material rather than retrospectively.
