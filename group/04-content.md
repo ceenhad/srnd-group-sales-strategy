@@ -194,18 +194,20 @@ comes from not treating them as such.
 - **Olivier — the relationship.** Sales leadership, trade-facing, based in Europe. His presence carries *we
   are on your side*, so he belongs on anything that ends in a conversation — the welcome, the walkthrough, the
   invitation, the follow-up.
-**And the constraint is planning, not performing.** Being on camera is not the hard part; deciding what to talk
-about is. That settles the roles from the other end — the presenter must not also be the planner
-(`08-sales-motion.md`). It also sets the working pattern: **batch the recording.** Several answers in one
-sitting means one afternoon produces weeks of output, the frame and setting stay identical — which is what builds
-recognition — and the cadence stops depending on finding a free hour in a bad week.
+**And the constraint is planning, not performing.** Being on camera is not the hard part; arriving at the list is.
+That does **not** mean planning leaves the person who knows the products — it means the *labour* of planning does,
+while the judgement stays (`08-sales-motion.md`). The rule is that the presenter never faces a blank page:
+correcting a ranked draft costs minutes, inventing a list costs hours. It also sets the working pattern: **batch
+the recording.** Several answers in one sitting means one afternoon produces weeks of output, the frame and
+setting stay identical — which is what builds recognition — and the cadence stops depending on finding a free hour
+in a bad week.
 
 - **Ben — the editorial owner, and mostly not on camera.** He is the rendering expert, so the visual language
   is already his, and he is increasingly the person who understands *what needs to be discussed*. That is the
-  producer's judgement, and it is scarcer than presenting ability. It also answers the open accountability
-  question directly: **publication should be owned by the person who knows what to talk about, not by the
-  person who has to supply the answer** (`../NEXT.md` lane 6). Putting him in front of the camera would spend
-  a scarce skill on an abundant one.
+  producer's judgement, and it is scarcer than presenting ability. His output is a **ranked proposal** — the
+  drafting, counting, briefing, scheduling and publishing — which the owners then correct and reorder. That is
+  the answer to the open accountability question (`../NEXT.md` lane 6): the plan is still theirs, the work of
+  arriving at it is not. Putting him in front of the camera would spend a scarce skill on an abundant one.
 
 ### The recurring slate
 

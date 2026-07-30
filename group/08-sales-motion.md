@@ -68,7 +68,7 @@ Everything above resolves into one loop with four steps and no new hires:
 
 > **Archive → a ranked question list → a batch recording session → edited and published.**
 
-Ben ranks and briefs, Neil answers on camera, Ben publishes. The archive supplies the list, the retired
+Ben drafts and ranks, the owners correct the order, Neil answers on camera, Ben publishes. The archive supplies the list, the retired
 questions return the owner minutes that fund the next round. That is the entire sales motion, and it is small
 enough to actually run.
 
@@ -79,16 +79,32 @@ should be scheduled with the same seriousness as a customer meeting rather than 
 The same questions get answered either way; the difference is answering each one once, in public, instead of
 repeatedly in private.
 
-**The constraint is planning, not performing** — which settles the casting argument from the other end. Being on
-camera is not the difficulty; deciding what to talk about is. So **planning must not be the presenter's job**,
-and the editorial role (`04-content.md`) is not administrative support but the removal of the actual bottleneck.
-Two consequences:
+**The constraint is planning, not performing.** Being on camera is not the difficulty; arriving at the list of
+what to talk about is. But planning does not therefore move away from the person who knows the products — that
+would be absurd, and it would produce a list that missed what matters, said things that aren't true, or walked
+into a range that is about to change. **Planning splits into judgement and labour, and only the labour moves.**
 
-- **The list must be ranked, not exhaustive.** Owner time is finite, so the value of the editorial job is
-  choosing the order — which is why frequency data out of the archive matters more than any other input.
-- **Batch the recording.** If planning is hard and presenting is easy, the efficient pattern is several answers
-  in one sitting: one afternoon produces weeks of output, the frame and setting stay identical (which is what
-  builds recognition), and the cadence stops depending on finding an hour in a bad week.
+- **Judgement, which stays with the owner and cannot be delegated:** whether a question is worth answering, what
+  the dealer is really asking underneath it, whether the answer is true today, and what must not be published
+  yet — a product mid-revision, a range not shipping, a claim the technical data won't carry.
+- **Labour, which is what makes planning feel difficult:** capturing questions as they arrive, counting which
+  ones recur, drafting and ranking the list, briefing, scheduling, chasing, publishing, and keeping the corpus
+  current.
+
+**The operating rule that follows is the whole trick: the owner should never face a blank page.** Generating a
+list from nothing costs hours and therefore doesn't happen; reacting to a ranked draft costs minutes and does.
+So the editorial job produces a **proposal to be corrected and reordered**, not a schedule handed down — same
+authority over what gets made, a fraction of the time spent getting there. It is also the second thing the
+archive does: frequency data proposes the list, so even the first draft isn't invented.
+
+Two further consequences:
+
+- **The list is ranked, not exhaustive.** Owner time is finite, so the order is the decision — his to make, and
+  cheap to make against a draft.
+- **Batch the recording.** Several answers in one sitting: one afternoon produces weeks of output, the frame and
+  setting stay identical (which is what builds recognition), and the cadence stops depending on finding an hour
+  in a bad week. Preparation stays light — the question and any specifics, never a script, since the unscripted
+  register is what the format runs on.
 
 ## The corpus is the asset — not the channel
 

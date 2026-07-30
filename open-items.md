@@ -180,11 +180,15 @@ decisions rather than projects, and the lane does not start without them.
 
 **1. The owner's job changes.** If the answer can only come from someone who decided what the product does, an
 owner's primary sales output becomes **authoring on camera** — scheduled like a customer meeting, not squeezed
-around one. Being on camera is not the difficulty; **planning the content list is.** Which settles the editorial
-role from the other end: the presenter must not be the planner, so Ben's job is removing the actual bottleneck
-rather than providing support. Two operating consequences, both in `group/08-sales-motion.md`: the question list
-is **ranked, not exhaustive**, because owner time is finite; and the recording is **batched**, so one afternoon
-yields weeks of output with an identical frame.
+around one. Being on camera is not the difficulty; **arriving at the content list is.** Which does not move planning away from
+the person who knows the products — that would produce a list missing what matters or walking into a range about
+to change. **Planning splits into judgement and labour, and only the labour moves:** what is worth answering,
+what is true today and what must not be published yet stay with the owner; capturing, counting, ranking,
+drafting, briefing, scheduling and publishing do not. **The rule is that the owner never faces a blank page** —
+inventing a list costs hours and doesn't happen, correcting a ranked draft costs minutes and does, so the
+editorial output is a proposal rather than a schedule. Two further consequences, both in
+`group/08-sales-motion.md`: the list is **ranked, not exhaustive**, because owner time is finite; and the
+recording is **batched**, so one afternoon yields weeks of output with an identical frame and light preparation.
 
 The loop is therefore: **archive → ranked question list → batch recording → edited and published.** Four steps,
 no new hires, and the retired questions return the owner minutes that fund the next round.
