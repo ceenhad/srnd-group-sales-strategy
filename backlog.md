@@ -27,7 +27,8 @@ with the motion's development: US DT recovery (conversion of a warm base, person
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | JNY-1 | Fetch | Map the six gateway signals against what engine, the store and the tools already capture — G3/G4/G6 look observable now, G2 partly, G5 needs defining. Check before designing anything twice (S16a discipline) | — | Small | ready | `group/09-motion-design.md` (gateways) |
-| JNY-2 | Do | Write the first content pathway end to end for one entry door (a C-ATS door — every slot's material exists or is nearest): hook → proposition → proof → registration → first order → first job → adjacency, each piece handing to the next. Written once, it is the template every door copies | — | Days | ready | `group/09-motion-design.md` (pathways) |
+| JNY-2 | Do | Write the first content pathway end to end for one entry door (a C-ATS door — every slot's material exists or is nearest): hook → proposition → proof → registration → first order → first job → adjacency, each piece handing to the next. Written once, it is the template every door copies | — | Days | drafted — for correction | `brands/c-ats/pathway-reverberation.md` |
+| JNY-3 | Do | The Fabric Walls pathway — next, because the reverberation pathway's loop exits onto it at stage 2 and its strongest asset (the factory-versus-site film) already exists | — | Days | blocked (JNY-2 corrected) | `brands/c-ats/pathway-reverberation.md` |
 
 ## W1 — Documentation & product data — *prerequisite: the corpus the motion speaks from*
 
