@@ -82,10 +82,15 @@ Surface absorption coefficient by octave band:
 | **Legacy CATS Calculator** (entry 3084; the current default in `panels.json`, Type A glued) | 0.01 | 0.08 | 0.28 | 0.11 | 0.01 | 0.06 |
 | **BSRIA test 6** — plane absorber, 16 tiles, 1.44 m², centre of room (the intended-use configuration) | 0.01 | 0.20 | 0.54 | 0.12 | 0.04 | 0.09 |
 
-**Materially different at 250 Hz and 500 Hz — roughly double.** Which is authoritative needs deciding before
-either is published or used for design. Plausibly both are right for different things: BSRIA measured unfixed, and
-the legacy figure is meant to represent the damped, glued install. **But that is a hypothesis, not a record**, and
-it is now an open item.
+**Resolved, and there was no disagreement.** The published absorption chart for the REF-CP plots **two curves,
+labelled "Reflection A" and "Reflection B"** — so the install-type distinction has been public for years. The two
+figures are **the two install types, not two versions of one number**: A is the glued, damped case (the lower set);
+B is free/unfixed, which is what BSRIA measured (the higher set).
+
+**Authoritative source: the absorption coefficient sheets published on `c-ats.co.uk`** — the numbers that have
+been out for years. Everything downstream cites those. *One check still outstanding: the chart is a vector plot, so
+the exact plotted values could not be read from the file. Confirm the A and B series against the chart before they
+go into a datasheet table.*
 
 Either way the values are deliberately low, and that is the point — this is a scatterer, not an absorber.
 

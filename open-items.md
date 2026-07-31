@@ -191,7 +191,10 @@ decisions rather than projects, and the lane does not start without them.
 1. **~~The marine panel has no absorption data of its own.~~ Corrected — a marine absorption coefficient sheet is
    published on `c-ats.co.uk`.** So the `panels.json` note is wrong as stated. What remains open is whether that
    sheet derives from the same BSRIA report or a separate test. Worth establishing, but not a data absence.
-2. **The REF-CP has two different absorption figures and nobody had noticed.** The default in `panels.json` comes
+2. **~~The REF-CP has two different absorption figures.~~ Resolved (`decided.md` S21)** — they are the two install
+   types, and the published chart already plots both as Reflection A and B. Published sheets are authoritative.
+   *Remaining check: read the exact A and B values off the chart before tabulating them.*
+   ~~Previously recorded as:~~ The default in `panels.json` comes
    from the **legacy CATS Calculator (entry 3084)**; **BSRIA test 6** — the intended plane configuration — gives
    roughly double at 250 Hz and 500 Hz (0.20 and 0.54 against 0.08 and 0.28). Plausibly both are right for
    different things, the lab measuring unfixed and the legacy value representing the damped glued install, but that
