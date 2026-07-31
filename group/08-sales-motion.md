@@ -128,10 +128,26 @@ the estate, for five reasons that are easy to miss because documentation is ungl
 - **It is the easiest thing to build from the archive**, because the answers already exist in sent mail and the
   frequency data maps straight onto sections.
 
-**A specific claim is currently ahead of the reality.** C-ATS promises the integrator can *"specify from the
-documentation or take the design service — their choice."* If the documentation is weak, only one of those two
-routes actually exists. That is **build it, then say it** (`00-strategy.md`) surfacing for the fourth
-independent time, which is why it is named as the group's characteristic failure mode rather than a coincidence.
+**But the gap is not uniform, and the exception explains the rule.** **C-ATS has the data** — the measured
+absorption, the datasheets, the install guides — and is close to the only brand that does. The reason is scope:
+**three SKUs.** So its promise that the integrator can *"specify from the documentation or take the design
+service — their choice"* is honoured rather than aspirational. Neil's own view is that it could still be better,
+which sets the bar usefully: the standard is not "a datasheet exists."
+
+**Documentation completeness scales inversely with range size**, which is the actual diagnosis. C-ATS documents
+three products well; DT has upwards of fifty and does not. That reframes the job in two ways:
+
+- **The debt is concentrated, not group-wide.** It is mostly a DT problem, with Fabric Walls and Pro-Fi behind
+  it. Treating it as a uniform deficiency would misallocate the effort.
+- **And the DT range is variant-heavy, so the count is far smaller than it looks.** Dynamic 4 in L, XL and XXL,
+  2TB in three sizes, 2S in three — these are sizes of the same mechanism. **Document the mechanism once and
+  table the variants**, and fifty-odd products collapse into a manageable set of manuals. The apparent scale of
+  the problem is an artefact of counting SKUs.
+
+**So the sequence writes itself: set the standard on C-ATS, then apply it to DT by mechanism.** C-ATS is the only
+brand with a complete base to improve on, so defining "better" there produces the template before any volume
+work begins — and the narrow range that made the 3 Rs a good marketing device is the same narrow range that made
+complete documentation achievable. Worth noticing that those are the same property paying twice.
 
 **Manuals and training are one corpus, differently packaged.** The manual is the reference version, consulted at
 the moment of need; training is the structured version, taken in advance. Same source material. So documentation

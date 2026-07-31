@@ -177,6 +177,8 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
      being available when needed — so most support load is a manual that didn't answer the question. **Manuals
      are currently poor and it costs us more than it should** (`decided.md` S11). This is the same corpus work
      as lane 6 aimed at the highest-intent reader we have: an installer with the product in hand and a deadline.
+     **Start on C-ATS, which already has the data, to set the standard — then DT by mechanism, not by SKU**
+     (S11a). The variant-heavy range means fifty-odd products collapse into far fewer manuals.
   2. **Spares and physical** — done, via the warehouse and logistics partner.
   3. **Remote diagnostics.** DT's control platform already does network integration and closed-loop
      precision. **If a unit can report its own state, support scales without people** — it turns "an installer

@@ -203,9 +203,12 @@ has a presenter. Legacy playlists still promote discontinued carried lines.
 ### Technical and specifier material
 
 - **BSRIA measured absorption data** for C-ATS (BS EN ISO 354).
-- **Manuals and instructions — currently poor, and a recorded weakness.** Neil's assessment: the gap costs the
-  business more than it should be allowed to. This is the highest-consequence content deficit in the estate,
-  because an installer with the product in hand and a deadline is the highest-intent reader we have.
+- **Manuals and instructions — poor overall, and the deficit is concentrated.** Neil's assessment: the gap costs
+  the business more than it should be allowed to, and it is the highest-consequence content deficit in the estate,
+  because an installer with the product in hand and a deadline is the highest-intent reader we have. **The
+  exception is C-ATS, which has the data** — datasheets, install guides, BSRIA measured absorption — largely
+  because it is three SKUs, and even there Neil wants it better. The debt sits with **DT** first (upwards of
+  fifty products), then Fabric Walls and Pro-Fi.
 - **Datasheets and install guides** — exist for parts of the range. **[?] Coverage per brand, and how current.**
 - **Configurators and calculators** — DT compatibility tools, optimal screen size, screen configurators; Cinema
   Tools calculators as discrete SEO landing pages.
