@@ -66,6 +66,28 @@ signals are what the process needs to *observe* — engine is where they would e
 specified here, and what engine already captures gets checked before anything is designed twice (the S16a
 discipline).
 
+## The hook layer — many hooks per door, one destination each
+
+*G1 is where the journey is entered, and it is the one gateway where **volume** is part of the design. Like
+fishing, luck and timing have to combine — so the job is to have as many hooks in the water as the substance
+honestly supports (`../decided.md` S23).*
+
+- **Many hooks per product, and multiplying them is cheap.** A hook is a *variation*, not a new answer — the
+  text-forward hook discipline of the campaign template (`04-content.md`) exists exactly for this. What is
+  never multiplied is the answer behind the hooks (S8: authorship is not scaled). Many hooks, one corpus.
+- **Hooks are categorised by appeal**, because the same product bites differently for different dealers:
+  **more revenue** (the job won by knowing why to spec it), **time saved**, **easier to do** (install,
+  retrofit, fit), **better results** (the client experiences the difference), and **the problem named** (the
+  searchable version, in the dealer's words). The category set is Neil's to extend — and it is the journey's
+  own finding formalised: what engages a dealer is what the product does *for them*
+  (`02-buyer-journey.md`).
+- **Placement is indirect by definition.** Before the hinge we don't know the dealer, so hooks live where
+  strangers look: search and AI answers, social, trade press, YouTube, events, and other brands' own
+  dealers. **Placement × category is the matrix**; each cell is a candidate hook for that door.
+- **Every hook has a purpose and a roadmap position.** A hook that catches interest and hands to nothing is
+  a wasted bite. Each hook is the head of a pathway and names its next slot — no hook is approved without
+  its destination.
+
 ## Pathways — content chained gateway to gateway, and back round
 
 **A pathway is the content sequence that walks one dealer through the whole journey**: each piece has one
@@ -82,6 +104,14 @@ the end of each piece *is* the pathway.
   to a second brand doesn't need the hook — they already trust us; they need that brand's proposition and
   proof. G6 exits one brand's pathway onto another brand's pathway at its midpoint. That is what cross-sell
   *is* in journey terms, and why the adjacency map (XS-1) is a pathway junction, not a campaign input.
+- **Elevation is engineered into the pathway: product → brand → group, as early as the dealer's state
+  allows.** The hook is always product-and-problem — the cold open is never the group story, and that rule
+  stands. But elevation is designed, not left to drift: the **proposition elevates to brand** (this product
+  belongs to a range with a system behind it); the **hinge elevates to group** — registration is the moment
+  "one account across every brand" is *experienced* rather than claimed, the store being the honest seam
+  (`02-buyer-journey.md`). The sooner elevation happens, the sooner the loop can begin turning; leaving
+  group-awareness until stage 6 delays the very cross-sell the thesis depends on. Cross-sell *prompts* still
+  wait for the first job to succeed.
 - **The smallest complete version is one pathway, end to end, for one door** — and per the sequencing rule
   that is a C-ATS door, where every slot's material either exists or is nearest to existing. Written once, it
   is the template every other door copies.
@@ -98,6 +128,15 @@ once instead of judged every time.
 the novel problem, which should always reach an owner; recognition, which is an act; and the ask itself —
 though even the ask can be process-*triggered*: a quiet-dealer signal prompts a person, and the person does
 the asking.
+
+**The funnel tracks like e-commerce, and that is a structural advantage.** Traditional trade sales cannot
+see which conversation moved a dealer; this motion can, because every gateway lives in systems — a hook can
+be source-tagged, a landing measured, a registration and an order are records in engine, a cross-brand order
+is a query. Two consequences: **hook-level attribution** — which hook caught which dealer — turns the hook
+matrix from opinion into evidence (cast many, measure the bites, multiply what works, retire what doesn't);
+and the journey's health reads as funnel conversion per gateway rather than as anecdote. JNY-1 grows
+accordingly: the signal map includes source attribution on hooks, checked against what the store and engine
+already capture before anything is built.
 
 **Where it runs:** eventually engine — the standing rule holds (strategy here, operations there). What this
 document owes engine is the state model: the stages, the gateways, the signals. Nothing more is specified
