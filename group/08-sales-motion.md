@@ -251,9 +251,14 @@ Five extensions, in rough order of leverage:
 1. **The rep can have a face.** The literal reading of "make content the rep" is not documents — it is a person
    on screen, and familiarity is the mechanism. Worked through in `04-content.md`; it makes the dormant
    personal-authority channel (`05-channels.md`) the sales motion's most valuable unbuilt asset.
-2. **It works for the channel, not only for us.** The long tail of small distributors and dealer-distributors
-   has the same sales problem and no depth of its own. Our content can be *their* sales motion — extending
-   reach without appointing anybody and without handing over a relationship.
+2. **It works for the channel, not only for us — and this is now evidenced rather than speculative.** Of 21 live
+   distributor appointments, the ones that produce business are explicitly **high maintenance**
+   (`../current-state.md`). So a distributor does not relieve the constraint the business actually has; it
+   relocates it, because the questions still route back to an owner. **That is the same failure mode as field
+   sales, in a different channel — and therefore the same fix.** A corpus that answers a distributor's questions
+   without an owner in the room is the cheapest available improvement to the existing network, not merely a way
+   to reach new ones. The long tail of small distributors and dealer-distributors has the same problem and no
+   depth of its own.
 3. **Training is the highest-leverage content there is.** It does the rep's teaching job, justifies the
    registration we ask for, makes the dealer better, and creates real switching cost. Currently unbuilt and
    deferred, which is defensible on capacity and not on value.

@@ -23,7 +23,9 @@ add the evidence and move on — or overturns it, which has to be stated explici
 
 | # | Decision | Evidence / basis | Date |
 |---|---|---|---|
-| C1 | **Direct to dealer, globally.** Distributors only on a 2× scale case or a genuine language barrier, and never at the cost of the direct relationship. | Twenty years inside distribution; DBM closed; CUK sold nothing beyond its demo room; no counter-example in the competitor set. | 2026-07 |
+| C1 | **Direct is the default for new territories and appointments.** Distributors only on a 2× scale case or a genuine language barrier, and never at the cost of the direct relationship. | Twenty years inside distribution; and now 21 live appointments where 6 of 18 DT distributors produce nothing, 6 are low, and 3 of the 5 that work are high maintenance. | 2026-07 |
+| C1a | **Scope correction, dated 2026-07:** C1 was written as "direct to dealer, globally," which described an intention rather than the operating model. **The model today is direct in the UK and distributor-led internationally.** C1 governs new appointments and the UK; it does not describe the existing network. | The distributor roster (`current-state.md`). | 2026-07 |
+| C1b | **Selection criterion, from the roster:** appoint cinema specialists with complete portfolios, not Hi-Fi-rooted distributors. | Hi-Fi-background appointments are consistently no- or low-business; the producing accounts are all cinema specialists. | 2026-07 |
 | C2 | **SRND Distribution is the sales arm for our own brands**, not an attempt to become a multi-brand distributor. | Same. | 2026-07 |
 | C3 | **The UK is representative of the global market structure** — large distributors, a long tail of small and dealer-distributors, regional manufacturers. So C1 and the competitor analysis travel. | Neil's account. | 2026-07 |
 | C4 | **Pricing is registered-partner-only, including end users.** No public prices in the trade channel. | Settled. | 2026-07 |

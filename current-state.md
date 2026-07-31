@@ -39,13 +39,72 @@ strike.
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**
 - **One dealer at roughly £500,000 in a year** — a substantial share of group revenue.
 - **[?] Concentration** — what share the top five accounts represent.
-- **[?] Territory spread** — UK versus rest of world, and which territories are live at all.
+- **Territory spread** — 21 international appointments across 20-odd territories (above). **[?]** the direct
+  dealer count behind them, and how much of group revenue is UK-direct.
 - **[?] How many dealers buy more than one brand** — the cross-sell number the whole group thesis rests on, and
   currently unmeasured.
 
+### The international distributor network — 21 appointments, and the model is not what the repo said
+
+*Supplied July 2026. This corrects a framing error: the repo described the operating model as "direct to dealer,
+globally." **It isn't.** In practice it is direct in the UK and **distributor-led internationally**, and the
+network is almost entirely a DT network.*
+
+| Brand | Company | Territory | Their business | State |
+|---|---|---|---|---|
+| DT | Atlas Sound & Vision | Singapore + Malaysia | Hi-Fi background | No business, no contact in months |
+| DT | Audiogene | Brazil | All-round AV distributor; manufactures own brands locally against high tariffs | No business, no contact in months |
+| DT | AV Daksma | Mexico | Strong in cinema, complete portfolio | Decent business, high maintenance — **also sells Screen Research** |
+| DT | AV Nirvana | India | Strong in cinema, complete portfolio | Good business this year; high maintenance over a long partnership |
+| DT | CUK | UK | Commercial more than residential | Big showroom investment, no business |
+| DT | Deco 2000 | Thailand | Hi-Fi background | In line with their history with us |
+| DT | GR Media | UAE + KSA + Egypt | Strong in cinema, complete portfolio | Low for the territory; no screen in a long time |
+| DT | Laios AV | Greece | More audio than video; complete cinema portfolio | Low; Greece has potential — Pro-Fi under discussion, he is strong in audio |
+| DT | Lucas Audio | New Zealand | Mostly audio | No business |
+| DT | Nam Long | Vietnam | Broadcast, commercial, residential | Low, in a low-potential territory |
+| DT | NAVS | Australia | Reduced portfolio: cinema and Hi-Fi | Low; difficult on exchange rate and shipping |
+| DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
+| DT | Qualtron | Yachting | On-board entertainment | No business so far |
+| DT | Screen Innovations | USA | Screen manufacturer offering our Dynamic range | Low, in a very high-potential territory |
+| DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
+| DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
+| DT | Tectrade Brun | Switzerland | Strong in cinema, complete portfolio | Starting to grow, high-potential territory |
+| DT | United Audio | China | All-round AV, strong Hi-Fi | Decent but almost all demo; high potential |
+| Pro-Fi | Convergent Technologies | Australia | Audio and automation distributor | Not started |
+| Pro-Fi | Polaris | South America | Rep | Not started |
+| Fabric Walls | AV Daksma | Mexico | Strong in cinema, complete portfolio | Has a Fabric Walls demo room |
+
+**What the table says, counted rather than characterised:**
+
+- **Of 18 DT appointments: 6 produce no business** (three of those with no contact in months), **6 are low**, one
+  is flat against its own history, and **5 produce meaningful business** — of which **3 are explicitly high
+  maintenance.**
+- **The evidence base for the 2× test just grew from two appointments to twenty-one, and points the same way.**
+  DBM and CUK were recorded as the failed cases; the wider roster shows the same pattern at scale.
+- **"High maintenance" is the tell, and it matters more than the failures.** The appointments that *work* cost
+  significant owner attention. So a distributor here does not relieve the constraint the business actually has —
+  **it relocates it.** Same mechanism as field sales: the questions still route back to the owner. Appointing a
+  distributor buys a demanding customer more reliably than it buys reach.
+- **The losses concentrate in the big markets.** USA low via Screen Innovations, China almost all demo,
+  UAE/KSA/Egypt with no screen in a long time, Germany good but expensive to service. The low-potential
+  territories behave as expected; the high-potential ones underperform.
+- **Background predicts performance.** Hi-Fi-rooted distributors are consistently no- or low-business (Atlas,
+  Deco 2000, SoundClub, Lucas Audio, and audio-led Laios); the ones producing are cinema specialists with
+  complete portfolios (AV Daksma, AV Nirvana, Prime Theaters, Tectrade Brun). **GR Media is the exception that
+  should be understood rather than explained away.** As a selection criterion this is unusually clear.
+- **The network is a DT network.** Pro-Fi's two appointments have not started and Fabric Walls has one. So the
+  international channel is built almost entirely around the brand whose core market is shrinking — a real
+  exposure, and it belongs with stress-test items 2 and 3.
+- **Screen Innovations is an OEM/white-label arrangement, not a distributor** — a US screen manufacturer selling
+  our Dynamic range. It explains the rAVe CEDIA 2023 coverage. *Internal: the standing rule on not naming OEM
+  relationships publicly applies.*
+- **AV Daksma sells Screen Research**, a direct DT competitor, while also holding a Fabric Walls demo room.
+  Recorded neutrally as a fact about the account.
+
 ### Commercials as they run today
 
-- **Direct to dealer, globally.** Two failed distributor appointments behind us (DBM, CUK).
+- **Direct in the UK; distributor-led internationally** — 21 live appointments, above. DBM closed; CUK remains on
+  the roster with no business.
 - **Pricing gated to registered partners**, mechanism already running in engine; the policy behind it is unset —
   approval criteria, tiers, MOQs.
 - **Registration exists; a partner programme does not.** Trade pricing is all registration currently grants.
