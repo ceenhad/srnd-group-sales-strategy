@@ -1,69 +1,120 @@
-# Backlog — every action in the repo, in one register
+# Backlog — the question first, then the register
 
-*Why this file exists, in a sentence: the strategy is settled but its actions were scattered as prose across
-the plan, the open items and nine group documents — this register extracts them into one working surface so a
-planned process can run from it. It adds nothing: no new positions, no re-argued decisions, no invented owners
-or dates. Every row traces to its source. `NEXT.md` keeps the reasoning and the sequencing logic; `decided.md`
-keeps what is closed; this file is the one that is allowed to change constantly.*
-
-## How to read it
-
-**Not everything here is a project, and the Type column is doing real work.** A lot of what has felt
-unactionable turns out to be decisions and lookups dressed as projects:
-
-- **Do** — work that takes time.
-- **Decide** — a choice only a named person can make. Minutes, once it is put in front of the right person.
-- **Fetch** — a fact to look up or a query to run. No judgement required.
-
-**Status:** `ready` (nothing blocks it) · `in progress` · `blocked` (named blocker) · `done` (kept for the
-record) · `parked` (deliberately not now — a choice, not debt).
-
-**Owners are named only where the repo names them.** A `—` means unowned, and that is information rather than
-a gap to fill by guessing — the US thread appears on the stress test precisely because it had no owner.
-
-**When an item completes:** mark it done here, land any evidence in `decided.md`, and do not pass back through
-`group/`. The ratchet applies to this file too.
-
-**IDs are stable and rows are regular** so the register can be lifted into engine or any tracker when the
-process gets a system home. Until then, this file is the system.
+*This file sorts the repo's actions — but sorted under the question they exist to answer, not under a
+calendar. The high-level question the whole strategy turns on is whether **content can do the sales rep's job
+for this group**. `group/08-sales-motion.md` argues it to its limit and `decided.md` S1–S9 commit to it as
+direction — but a direction chosen is not a question answered. It is answered only in operation: a published
+answer retiring a question, a dealer arriving already familiar, a dealer we have never met converted by the
+corpus alone. Until those signals exist, implementation schedules are premature. So there are no weeks here
+and no milestones — the structure is: the question in its parts, the two tests that answer it, what is
+deliberately *not* a test of it, and then the full register as the reference layer beneath.*
 
 ---
 
-## Do first — the unblocked, cheap set
+## The question, in its parts
 
-Everything the two-week milestone needs, plus the queries that cost a morning. All ready now.
+The rep's job was broken down in `group/08-sales-motion.md`: content takes reach, recall, the technical
+answer, teaching and the specifier route; it cannot qualify, discover, close, want the order or bring back
+market intelligence. That split turns "content as the sales rep" into five sub-questions, each with a
+different state and a different way of being answered.
 
-1. **FACT-1** — run the cross-brand dealer count query. The one number the group thesis is measured by.
-2. **NET-2 → NET-1** — settle minimal retirement mechanics, then issue the five no-loss removals.
-3. **DOC-1** — publish the two written C-ATS one-pagers to `cinema-expert.com`.
-4. **DOC-2** — one recording session: the three "how do you do X" pieces.
-5. **PAR-1** — thank the £500k dealer in person. Highest value relative to effort on any list here.
-6. **CON-1 / CON-2** — set the floor rate; confirm Ben's editorial ownership. The content lane does not start
-   without these two decisions.
-7. **CON-3** — start the sent-mail count: which questions recur.
-8. **CON-5** — YouTube estate hygiene (playlists, channel descriptions). Hours.
-9. **EST-5** — surface the BSRIA report. Costs nothing.
-10. **XS-1 / XS-2** — write the adjacency map; start the three-line spec-conversation note.
+### Q1 — Can a published answer actually retire a question?
 
-## Milestones (from `NEXT.md` §D)
+The atom of the whole model (`decided.md` S14), settled in principle and never yet observed. The nearest
+evidence — the ~9,500-view reverberation explainer — proves *reach*, not *retirement*; nothing published has
+yet been watched to see whether the question stopped arriving.
 
-- **Two weeks:** roles agreed, Ben's trade named, the two C-ATS one-pagers published, the immediate removals
-  issued.
-- **Six weeks:** C-ATS complete to the standard on `cinema-expert.com`, the first recording batch published,
-  DT grouped by mechanism.
-- **Working:** a question stops arriving. **Stalled:** a month with no publication. The only metric needed at
-  this stage.
+**Answered by:** publishing the two written one-pagers and the three recordings (DOC-1, DOC-2) where dealers
+actually look, then watching the two known site-failure questions. The signal needs no instrumentation — an
+owner notices they have stopped answering it.
+
+### Q2 — Can this team sustain the cadence at all?
+
+**The genuinely open half of the thesis, and it is two decisions, not a project.** S20 settles that nothing
+comes off anyone's plate; what is not set is the floor rate (CON-1) and confirmed publication ownership
+(CON-2). Without both there is no rep, only intentions — the repo's own stall signal (a month with no
+publication) is the check, and it needs no schedule to apply.
+
+### Q3 — Does a face build the familiarity a rep's repeat visits used to?
+
+No precedent exists: eight years and ~54,500 views across the estate and not one piece has a presenter
+(`group/04-content.md`). This is a format with no history here, so it is a test, not a rollout (CON-4, one
+batch session). **The signal:** a first conversation that opens with *"I've watched your videos."*
+
+### Q4 — Can the corpus convert dealers we have never met?
+
+The market test, and the strategy has already named its instrument: **the US C-ATS entry is explicitly a
+controlled test of "content is the rep"** (`group/01-commercial-model.md`) — no legacy relationships, no body
+on the ground, no show this year; only the corpus, search, and personal authority. Either answer is valuable,
+and a negative is best learned in a market we are not currently earning from. (US-5.)
+
+### Q5 — Do the substitutes for what content *cannot* do actually exist?
+
+The thesis fails quietly here whatever the content achieves, because these are the parts of the rep's job
+nobody has picked up:
+
+- **Qualification** → the tools. Exists; closing its own loop is what's left (TOOL-1).
+- **Discovery** → the spec conversation. We are in it on most jobs and capture nothing (XS-2 — not started).
+- **Wanting the order** → a person. Currently unowned (XS-3).
+- **Market intelligence** → no substitute exists. A recorded hole, held rather than argued away.
+
+### Held, not answered now — the risks inside the thesis
+
+Named in `open-items.md` and worth keeping visible rather than solving: this is a *thinner* insurance policy
+than a sales team (if the content isn't made there is no fallback motion); the model still rests on two or
+three people; and putting faces on the moat concentrates it further.
 
 ---
 
-## W1 — Documentation & product data (the critical path)
+## How the question gets answered — two tests, both already in the plan
 
-*One workstream, not three problems. Gates support, the site rebuild, the partner programme's substance and
-the content cadence — but no longer US entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
+1. **The retirement test — at home, nearly free, starts from what is already written.** Publish DOC-1/DOC-2,
+   watch whether the questions stop arriving (Q1). Simultaneously forces Q2's two decisions, because nothing
+   publishes without a rate and an owner.
+2. **The market test — US C-ATS (Q4).** The corpus against a market where nothing else is working for us.
+
+**And the jigsaw point — why this is group-level and where the brands fit.** The group holds the question
+once; the brands are where it gets tested, and they are not interchangeable: **C-ATS is the test brand** for
+Q1 and Q4 because it alone has the documentation standard and the demonstrated search pull; **DT is where
+Q3's audience already is** (three-quarters of the video estate). The other brands *inherit the answer* rather
+than re-running the test — which is what stops six brands doing this six times.
+
+## What is deliberately *not* a test of the thesis
+
+These proceed on their own merits and prove nothing about content — keeping them separate is what stops
+their progress being mistaken for the question being answered:
+
+- **US DT recovery** — conversion of a warm base, personal and terms-led, explicitly not dependent on the
+  content programme (`decided.md` C1j, C1k).
+- **Store and site hygiene** (W5) — removing live contradictions with settled decisions.
+- **Network pruning** (W3) — removing barriers.
+- **Partner acts** (W7) — relationship, done as acts.
+- **The Screen Wall page** (W10) — a build the whole-room story needs regardless.
+
+---
+
+# The register
+
+*The reference layer: every discrete action in the repo, extracted. Each workstream is tagged by its relation
+to the question — **answers it**, **prerequisite** (the corpus is what the rep speaks from), or
+**independent** (proceeds on its own merits). No dates, no weeks.*
+
+**How to read it.** Not everything is a project, and the Type column is doing real work: **Do** = work that
+takes time; **Decide** = a choice only a named person can make, usually minutes; **Fetch** = a fact to look
+up, no judgement required. **Status:** `ready` · `in progress` · `blocked` (named blocker) · `done` ·
+`parked`. **Owners are named only where the repo names them** — `—` means unowned, which is information
+rather than a gap to guess at. **When an item completes:** mark it done here, land evidence in `decided.md`,
+don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
+engine or any tracker when the process gets a system home.
+
+## W1 — Documentation & product data — *prerequisite: the corpus the rep speaks from*
+
+*Gates support, the site rebuild, the partner programme's substance and the content cadence — but not US DT
+entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to `cinema-expert.com` Instructions — the content is already written | Ben (publication) | Hours | ready | `NEXT.md` §B.1, `brands/c-ats/install-critical-notes.md` |
+| DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to `cinema-expert.com` Instructions — the content is already written. **Q1's instrument** | Ben (publication) | Hours | ready | `NEXT.md` §B.1, `brands/c-ats/install-critical-notes.md` |
 | DOC-2 | Do | Record three "how do you do X" pieces: the two failure modes above plus RES-CP corner placement. One session, unscripted, one frame | Neil | One session | ready | `NEXT.md` §B.2 |
 | DOC-3 | Do | Rewrite the three C-ATS install guides organised by moment (unboxing, mounting, conditions, fault-finding), not by product structure | — | Days | ready | `NEXT.md` §B.3 |
 | DOC-4 | Fetch | Read the exact Reflection A and B values off the published chart before tabulating them (residual of S21) | — | Minutes | ready | `decided.md` S21 |
@@ -79,31 +130,28 @@ the content cadence — but no longer US entry (`decided.md` C1k). Standard set 
 | DOC-14 | Do | Write the DT manual set to the C-ATS standard, by mechanism, ranked by support load and sales volume | — | Large, finite | blocked (DOC-11, DOC-12) | `NEXT.md` lane 7, `group/08-sales-motion.md` |
 | DOC-15 | Do | Operationalise the completeness gate: record asset state per product (schema §7) and gate new products on it | — | Ongoing | blocked (DOC-12) | `decided.md` S16 |
 
-## W2 — US entry (two threads, and neither waits for the other)
-
-*DT recovers a warm base; C-ATS opens the wide door. Conversion, not acquisition (`decided.md` C1h–C1k). Not
-gated on documentation. The window on the Apex-Tech base closes as dealers find alternatives.*
+## W2 — US entry — *DT half independent of the thesis; C-ATS half is Q4's test*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | US-1 | Decide | Price and trade terms for direct US dealers — what they now pay and what they make. Gates the fastest revenue in the strategy; a conversation that cannot be had twice | — | A decision | ready | `open-items.md` item 8, `group/01-commercial-model.md` |
 | US-2 | Decide | Position on support hours and credit terms — the two objections to expect | — | A decision | ready | `group/01-commercial-model.md` |
-| US-3 | Decide | Name the US owner and a date. The largest opportunity in the strategy is currently nobody's job | — | Minutes | ready | `open-items.md` item 5 |
-| US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign. No announcement | per US-3 | Ongoing | blocked (US-1, US-2, US-3) | `decided.md` C1j, `group/01-commercial-model.md` |
-| US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless | per US-3 | Ongoing | blocked (US-3) | `group/01-commercial-model.md` |
+| US-3 | Decide | Name the US owner. The largest opportunity in the strategy is currently nobody's job | — | Minutes | ready | `open-items.md` item 5 |
+| US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign, no announcement. **Not a content test** | per US-3 | Ongoing | blocked (US-1, US-2, US-3) | `decided.md` C1j, `group/01-commercial-model.md` |
+| US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless. **Q4's instrument** | per US-3 | Ongoing | blocked (US-3) | `group/01-commercial-model.md` |
 | US-6 | Fetch | Establish how far DT remote diagnostics actually goes today — the capability is assumed, not known | — | Small | ready | `open-items.md` (distributor §1) |
 
 *Guardrails, not tasks: no launch or announcement until there is a US reference and a support record; InfoComm
 and the US support engineer are parked below.*
 
-## W3 — Distributor network
+## W3 — Distributor network — *independent: removing barriers*
 
-*Removals tiered by what would actually be lost. The test per territory is no longer readiness — it is "do we
-know the dealers there?" (`open-items.md` item 3, revised 2026-07-31).*
+*The test per territory is no longer readiness — it is "do we know the dealers there?" (`open-items.md`
+item 3, revised 2026-07-31).*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| NET-1 | Do | Issue the no-loss removals: Atlas Sound & Vision, Audiogene, Synergy AV, CUK, Qualtron. No business flows through them; no readiness required | — | This month | blocked (NET-2) | `NEXT.md` §C |
+| NET-1 | Do | Issue the no-loss removals: Atlas Sound & Vision, Audiogene, Synergy AV, CUK, Qualtron. No business flows through them; no readiness required | — | Small | blocked (NET-2) | `NEXT.md` §C |
 | NET-2 | Decide | Retirement mechanics: order, notice period, and whether a vacated territory is approached directly at once or left quiet | — | A decision | ready | `open-items.md` (distributor §4) |
 | NET-3 | Fetch | Per second-tier territory (SoundClub, Nam Long, Lucas Audio, NAVS): do we know the dealers there? Remove and convert where yes; hold where no | — | Small each | ready | `open-items.md` item 3 |
 | NET-4 | Do | Serve the producing high-maintenance accounts (AV Nirvana, Prime Theaters, AV Daksma, …) with the corpus first — their maintenance load *is* the question list | — | Rides on W1 | blocked (DOC-1…3) | `NEXT.md` §C, `open-items.md` (distributor §2) |
@@ -113,17 +161,17 @@ know the dealers there?" (`open-items.md` item 3, revised 2026-07-31).*
 *Separate decision, outside this sequence: Screen Innovations is white label, not a territory appointment
 (`decided.md` C1e, C1i).*
 
-## W4 — Content cadence & the channel estate
+## W4 — Content cadence & the channel estate — *this is the question itself*
 
-*Content is the sales motion, so this is the lane the strategy most depends on and the one most likely to
-stall. The loop: archive → ranked list → batch recording → published (`decided.md` S6).*
+*The loop: archive → ranked list → batch recording → published (`decided.md` S6). CON-1 and CON-2 are Q2;
+CON-4 is Q3.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| CON-1 | Decide | Set the floor rate — the minimum sustained through a busy month, derived from what the studio already produces. The lane does not start without it | Neil + Olivier | Minutes | ready | `NEXT.md` lane 6, `open-items.md` |
-| CON-2 | Decide | Confirm Ben's editorial ownership as his named trade — the one genuine reallocation in the plan | Neil | Minutes | ready | `NEXT.md` §A, `group/04-content.md` |
+| CON-1 | Decide | Set the floor rate — the minimum sustained through a busy month, derived from what the studio already produces. **Q2: without it there is no rep** | Neil + Olivier | Minutes | ready | `NEXT.md` lane 6, `open-items.md` |
+| CON-2 | Decide | Confirm Ben's editorial ownership as his named trade — the one genuine reallocation in the plan. **Q2's other half** | Neil | Minutes | ready | `NEXT.md` §A, `group/04-content.md` |
 | CON-3 | Do | Mine sent mail (the two or three people who answer technical questions, last two or three years) and count which questions recur. The ranked list is the publishing schedule | Ben | Days | ready | `NEXT.md` lane 6, `group/08-sales-motion.md` |
-| CON-4 | Do | First batch recording session against the corrected ranked list. One afternoon yields weeks of output | Neil (face), Ben (production) | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
+| CON-4 | Do | First batch recording session against the corrected ranked list. **Q3's instrument** — the first presenter-led content in the estate's history | Neil (face), Ben (production) | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
 | CON-5 | Do | Estate hygiene: remove MAG Theatron and Barco playlists; fix the `@Complete_ATS` description (hard-coded "Complete…" expansion); fix DT's projector-screen-company description | — | Hours | ready | `NEXT.md` lane 6, `group/04-content.md` |
 | CON-6 | Do | Establish what is on the locked old SRND Group YouTube account and pursue recovery (Workspace admin reset / remaining manager / YouTube's route) | — | Small, admin | ready | `open-items.md`, `group/04-content.md` |
 | CON-7 | Decide | Channel architecture: every brand gets a channel and the group's goes group-only, or consolidate. DT's eight-year history and the C-ATS educational set must not be orphaned either way | — | A decision | ready | `group/04-content.md` |
@@ -134,7 +182,7 @@ stall. The loop: archive → ranked list → batch recording → published (`dec
 | CON-12 | Do | Virtualise the Experience Centre: film the demos, capture "hear the difference" — the demonstration load-bearer while field work is unpublishable | — | Ongoing | ready | `NEXT.md` lane 1, `group/04-content.md` |
 | CON-13 | Do | On the next pass through EI material, correct the three printed contradictions: Pro-Fi as "spatial audio," the superlative lead, the spelled-out "Complete" expansion | — | With CON-9 | ready | `open-items.md` ("What is already public") |
 
-## W5 — Stores & sites (execution of settled decisions)
+## W5 — Stores & sites — *independent: executing settled decisions*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
@@ -147,18 +195,16 @@ stall. The loop: archive → ranked list → batch recording → published (`dec
 | EST-7 | Do | Remove the competing acoustic design service from the Fabric Walls site — design belongs to C-ATS | — | Small | ready | `group/00-strategy.md`, `decided.md` B1 |
 | EST-8 | Do | The property rebuilds — behind the same addresses, redirects kept, knowledge base first. Follows the content cadence; must not gate it | — | Large | blocked (cadence running) | `NEXT.md` lane 8, `decided.md` S10, S15 |
 
-## W6 — Cross-sell & discovery
+## W6 — Cross-sell & discovery — *the substitutes content cannot supply (Q5)*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | XS-1 | Do | Write the adjacency map: per entry point, the next layer, the physical adjacency that justifies it, the project moment it is relevant. A prompt list for a conversation already happening | — | One page | ready | `NEXT.md` lane 4 |
-| XS-2 | Do | After each spec conversation, note three lines: the project, what the dealer was unsure about, what they were afraid of. Cross-sell trigger, content backlog and buyer truth at once | whoever specs | Three lines each | ready | `NEXT.md` lane 4, `group/08-sales-motion.md` |
-| XS-3 | Decide | Who owns "wanting the order" — noticing a dealer has gone quiet and asking. The smallest human residue in the model and the one most deserving a person | — | Minutes | ready | `group/08-sales-motion.md`, `current-state.md` |
+| XS-2 | Do | After each spec conversation, note three lines: the project, what the dealer was unsure about, what they were afraid of. **Q5: the discovery substitute — currently nothing is captured** | whoever specs | Three lines each | ready | `NEXT.md` lane 4, `group/08-sales-motion.md` |
+| XS-3 | Decide | Who owns "wanting the order" — noticing a dealer has gone quiet and asking. **Q5: the smallest human residue in the model, unowned** | — | Minutes | ready | `group/08-sales-motion.md`, `current-state.md` |
 | XS-4 | Fetch | Whether spec help is free or chargeable today, and whether that is deliberate. Hinge for the partner programme and the value ladder | — | Small | ready | `open-items.md` Stage 1, `current-state.md` |
 
-## W7 — Partner programme & appreciation
-
-*Designed (`group/03-partner-programme.md`); nothing announced until practised. Recognition starts as acts.*
+## W7 — Partner programme & appreciation — *independent: acts, not announcements*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
@@ -169,7 +215,7 @@ stall. The loop: archive → ranked list → batch recording → published (`dec
 | PAR-5 | Decide | Experience Centre access: booking, hosting, cost | — | A decision | ready | `group/03-partner-programme.md` |
 | PAR-6 | Do | Commissioned dealer features: professionally photograph a top partner's install where the client permits — recognition and the proof gap answered in one act. Expect a low hit rate | — | Per opportunity | ready | `group/03-partner-programme.md`, `NEXT.md` lane 1 |
 
-## W8 — Instrumentation (the facts nobody has fetched)
+## W8 — Instrumentation — *the evidence base the question is judged against*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
@@ -182,7 +228,7 @@ stall. The loop: archive → ranked list → batch recording → published (`dec
 | FACT-7 | Fetch | CEDIA membership standing, and any awards held | — | Small | ready | `current-state.md`, `group/05-channels.md` |
 | FACT-8 | Fetch | Establish what proof material is publishable at all — a permissions question, cheap to answer, and the gate on the whole proof stack | — | Small | ready | `NEXT.md` lane 1 |
 
-## W9 — Tools
+## W9 — Tools — *the qualification substitute (Q5)*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
@@ -190,7 +236,7 @@ stall. The loop: archive → ranked list → batch recording → published (`dec
 | TOOL-2 | Do | Reflection-point calculator when convenient — geometry only, passes all three tool tests, the obvious gap in the set | — | Cheap addition | ready | `NEXT.md` lane 3, `group/07-tools.md` |
 | TOOL-3 | Do | State the Room Resonances calculator's low-frequency limit plainly on the live tool | — | Small | ready | `group/07-tools.md` |
 
-## W10 — The Screen Wall
+## W10 — The Screen Wall — *independent build*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
@@ -221,8 +267,7 @@ stall. The loop: archive → ranked list → batch recording → published (`dec
 
 ## Parked — deliberately not now
 
-*Named so they read as choices rather than debt (`NEXT.md`). Nothing here is forgotten; each waits on a stated
-condition.*
+*Named so they read as choices rather than debt (`NEXT.md`). Each waits on a stated condition.*
 
 - **The training programme** — waits on the manuals, which are its raw material (`decided.md` S12). With it
   waits the "training access for Registered" grant.
@@ -238,6 +283,6 @@ condition.*
 - **Cross-brand contact-cadence coordination** — stand up once more than one brand runs direct actions in
   parallel.
 - **Stress-test items held, not solved:** the two-person dependency; the partner-parity overclaim in published
-  material; the market-intelligence hole (recorded as a real hole, no substitute exists); what carries the next
-  two years beyond FACT-2's cheap half.
+  material; the market-intelligence hole (no substitute exists); what carries the next two years beyond
+  FACT-2's cheap half.
 - **Deploying anything** — still the last step, still deliberate.

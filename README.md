@@ -64,9 +64,10 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
    exist, with gaps marked rather than guessed.
 6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.
 7. **`open-items.md`** — decisions still outstanding.
-8. **`backlog.md`** — the action register: every discrete action in the repo extracted into one working
-   surface (do / decide / fetch, with owners, effort and status). `NEXT.md` holds the reasoning; this holds
-   the trackable work.
+8. **`backlog.md`** — the question first, then the register: the sales-motion question (content as the
+   sales rep) broken into its parts with the two tests that answer it, and beneath it every discrete action
+   in the repo extracted into one working surface (do / decide / fetch, with owners, effort and status).
+   `NEXT.md` holds the reasoning; this holds the trackable work. Deliberately no dates and no weeks.
 
 ## Group vs brand responsibilities
 
