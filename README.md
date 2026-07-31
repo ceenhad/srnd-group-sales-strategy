@@ -58,8 +58,8 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
 3. **`brands/_template/`** — the starting point for a new brand playbook.
-4. **`product-data-schema.md`** — what must exist per product before any documentation work: the required field
-   set, and the audit it enables.
+4. **`product-data-schema.md`** — the sales and marketing layer of product data: what is needed, why, and how it
+   will be used. Engine holds the mechanical record; this is the layer above it.
 5. **`current-state.md`** — the factual baseline: the sales side as it runs today and the marketing assets that
    exist, with gaps marked rather than guessed.
 6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.

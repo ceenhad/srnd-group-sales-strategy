@@ -1,126 +1,110 @@
-# The product data schema — what must exist per product
+# Product data — the sales and marketing layer
 
 *Why this file exists: **capturing what needs to be documented has to come before what is and will be
-documented.** Without a definition of the required set, "the manuals are poor" is an opinion rather than a
-measurable gap, and no amount of writing converges. This is a reference artefact, not an argument — a field list
-to audit against. A first cut, for correction.*
+documented.** But the useful contribution is narrower than a schema. **Engine already handles the mechanical
+record** — SKU, name, weight, dimensions, stock, pricing — because that is what an operational system is built
+for. What it was never designed to hold is the layer that makes a product sellable and specifiable. **That layer
+is the opportunity here, and the deliverable is not a field list but three answers per field: what data is
+needed, why it is needed, and how it will be used.**
 
-**What it buys, and it is more than tidiness:**
+**Two rules that keep this from colliding with Engine:**
 
-- **It makes the work finite and delegable.** A missing field is a task with an owner. "Improve the
-  documentation" is neither.
-- **It turns a vague deficit into a completeness percentage per product**, so progress is visible and
-  prioritisation is possible — highest-selling and highest-support-load products first.
-- **It enforces consistency across a range**, which is most of what makes a catalogue feel professional.
-- **It becomes a gate on new products.** A product does not ship until its record is complete. That fixes the
-  problem at source instead of perpetually catching up — and the Screen Wall, demonstrable since ISE 2023 with no
-  page and no datasheet, is what its absence looks like.
-- **One record feeds everything.** Datasheet, brand-site page, store listing, manual, training module, specifier
-  download and the design tools all draw on the same fields. Written once, used everywhere — which is the
-  compounding argument applied to data rather than content (`group/08-sales-motion.md`).
-- **And it is plausibly the fragmentation fix the strategy has been waiting on.** Whole-room ease and cross-sell
-  are both recorded as blocked on "unfragmenting the data" (`open-items.md` item 4). What that actually means is
-  that there is no canonical product record. This is that record.
+- **Engine owns the mechanical layer and the storage.** Not specified here, not duplicated here. Where a field
+  below already exists there, this file defers and records the mapping.
+- **This file specifies the layer above it** — and the *why* and *how used* columns are the point. A field with
+  no stated consumer is a field nobody will fill in, and that is how product data dies.
 
-## Before writing any of this: check Engine
-
-**Much of this is likely already under consideration in SRND Engine, and some may be implemented.** So the first
-move is not to fill this in — it is to find out what Engine already models, and then reconcile. **Two competing
-product schemas would be worse than none**, and this repo has already made the equivalent mistake once by basing
-a position on a superseded ADR.
-
-The division of labour that keeps this useful rather than duplicative:
-
-- **Engine is the system of record.** The data model, the storage, the identifiers, the workflow. Not this repo's
-  business, and not to be specified here.
-- **This file is the requirements view — the demand side.** What the sales, marketing and support estate *needs*
-  to exist per product, who consumes each field, and what it is for. That is the part an operational data model
-  would not necessarily capture, because it is about downstream use rather than storage.
-- **Where Engine already models a field, this file defers to it** and records the mapping. Where the estate needs
-  something Engine does not hold, that is the actual finding — and it is a much more useful output than a schema
-  written from scratch.
-
-*Read the field groups below as a checklist to hold up against Engine, not as a specification to implement.*
+*A first cut, for correction. Every row is a claim about how the estate works, so a wrong row is worth striking.*
 
 ---
 
-## 1. Identity
+## 1. Why to buy it — the on-ramp
 
-Product code · name · brand · status (current / pre-release / discontinued) · variants and **what varies between
-them** · the mechanism or platform it belongs to (so documentation can be written per mechanism, not per SKU) ·
-supersedes / superseded by.
+*The layer that turns a record into a reason to look. Nothing operational needs these, which is exactly why they
+are missing.*
 
-## 2. The problem it solves — the on-ramp fields
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **The problem it solves, in the dealer's words** | A product on its own does nothing; the problem is what engages. And the dealer's phrasing — not ours — is what gets searched | Hook copy, page opener, campaign silo, search terms, the words AI answers match against |
+| **The time or labour it saves** | One of the four things a dealer actually cares about, and the most under-used | Comparison arguments; the format that already works for us — the Fabric Walls factory-versus-site film is the brand's best performer |
+| **The opportunity it opens** | Dealers often don't know *why* to specify something; a product that wins a job is worth more than one that fits a job | Sales enablement, cross-sell prompts in the spec conversation |
+| **What it replaces or avoids** | The dealer is choosing between options, including doing nothing | Comparison content, objection handling |
+| **Is this an entry product or a flagship?** | Every brand needs a door-opener distinct from its showpiece; the flagship demonstrates depth, the entry product opens the relationship | Targeting the on-ramp; deciding what gets promoted to cold audiences |
 
-Per `decided.md` S15, and **fields rather than freeform copy**, which is what makes the marketing layer writable
-instead of improvised each time:
+## 2. The doubt it has to remove
 
-- The problem it solves, in the dealer's words.
-- The opportunity it opens.
-- The time or labour it saves.
-- Who it is for, and where it is used.
-- What it replaces or avoids.
+*The single most valuable group here, and the one no operational system would ever contain. **De-risking is the
+conversion mechanism** at this level — a dealer specifying a product puts their own reputation on someone else's
+box.*
 
-## 3. Commercial
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **The specific doubt or objection this product meets** | Different products fail to sell for different reasons — will it fit, will it be quiet enough, will it look right, can I install it | Decides *which technical asset is load-bearing* for this product, rather than documenting everything equally |
+| **The questions it actually generates** — pre-sale and on site | This is the content backlog, per product, and the two are the same question at different times | Ranks the corpus; tells you what to write next; measures support load |
+| **What goes wrong on site with it** | The installer's real fear, and the thing peer reputation is made of | Fault-finding guide, "how do you do X" video, install-manual priorities |
 
-Channel (`srnd.store` / Cinema Store / trade-only — per `decided.md` C5) · price band · MOQ · lead time · country
-of manufacture · spares and service parts list · what is field-replaceable · warranty terms.
+## 3. Who decides on it
 
-## 4. Physical
+*Engine knows who bought it. It does not know who specified it, and those are different people.*
 
-Dimensions and weight, per variant · finishes and options · tolerances · **required clearances and service
-access** · fixing and load requirements · shipping dimensions and packaging · what the installer must provide.
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **Purchaser vs specifier** — integrator, AV consultant, architect, interior designer, end client | Being named pre-tender is worth more than winning a spec conversation later, and the machinery differs entirely | Decides whether this product needs NBS clauses, Revit objects and finish samples, or only an install guide |
+| **Where it sits in the room, and what it must physically meet** | Cross-sell is only credible where the adjacency is physically true — the treatment goes behind the fabric, the speakers sit in the front-of-room structure | The adjacency map; whole-room content; the cross-sell prompt at the moment the room is decided |
 
-## 5. Performance
+## 4. What we may and may not say
 
-Measured data with **the test standard and report reference** · conditions of measurement · and a field that
-looks unusual but is a discipline: **claims deliberately not made.** C-ATS is why — scattering is not diffusion,
-and recording the boundary in the product record stops it being crossed by someone writing copy later.
+*Governance, and it belongs in the record rather than in someone's memory.*
 
-## 6. Integration
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **Claims supported, with the test standard and report reference** | No superlative without a measurement behind it | Copy approval; specifier-grade downloads |
+| **Claims deliberately not made** | C-ATS is why: scattering is not diffusion, and the line is a credibility boundary with specifiers | Stops a writer crossing it later without knowing it exists |
+| **Marketing status** — pre-release, demonstrable but undocumented, current, discontinued | Build it, then say it. This field alone would have caught three live errors | The Screen Wall (demonstrable since ISE 2023, no datasheet), the commercial range (not to be written up as shipping), REV-CP-12 (discontinued, still listed) |
+| **Proof available, and whether it is publishable** | At this tier the best jobs are the least publishable — NDA'd documents, no photography | What may appear in a case study; prevents someone reaching for an encumbered asset |
 
-Power · data and control protocol · network requirements · diagnostics available and what they report ·
-**what it has to meet** — the adjacent products, structures and surfaces from our own range and from others ·
-known incompatibilities.
+## 5. Where it is sold
 
-## 7. The documentation set
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **Channel** — `srnd.store`, Cinema Store, or trade-only | No product exists in two places; shared SKUs are how channel confusion returns | Store split enforcement; the worklist |
+| **Territory availability and any exclusivity** | The distributor roster is being pruned, and a vacated territory should be visibly open | Direct approach after an appointment ends |
 
-Each item with a state: **exists / current / missing / not applicable.** This is the audit.
+## 6. The asset audit
 
-| Asset | Audience |
-|---|---|
-| Datasheet | Specifier, dealer evaluating |
-| Dimensioned drawings | Specifier, installer |
-| CAD | Specifier — *note the publish-versus-gate decision, `group/06-competitors.md`* |
-| BIM / Revit object | Architect |
-| NBS clause | Spec writer |
-| Install manual | Installer on site |
-| Commissioning / calibration guide | Installer, integrator |
-| Fault-finding guide | Installer, support |
-| "How do you do X" video(s) | Installer — the atom of the corpus (`decided.md` S14) |
-| Training module | Certification |
-| Spares and service instructions | Installer, support |
+*Each with a state — **exists / current / missing / not applicable** — because that is what turns "the manuals
+are poor" into a completeness percentage per product.*
 
-## 8. Support
+| Asset | Primarily for | Why it exists |
+|---|---|---|
+| Datasheet | Specifier, dealer evaluating | The first doubt-removal document anyone opens |
+| Dimensioned drawings | Specifier, installer | Will it fit, and what does the builder need to leave |
+| CAD | Specifier | *Publish-versus-gate decision outstanding* |
+| BIM / Revit object | Architect | A product that drops into the model is a product that gets specified |
+| NBS clause | Spec writer | Being present in the system specifiers write in |
+| Install manual | Installer on site | The highest-intent reader we will ever have |
+| Commissioning / calibration guide | Installer, integrator | Where a good product still becomes a bad room |
+| Fault-finding guide | Installer, support | Most support volume, answered once |
+| "How do you do X" video | Installer | The atom of the corpus — support, enablement and marketing at once |
+| Training module | Certification | Assembled from the above, not authored separately |
+| Spares and service instructions | Installer, support | Buying a part instead of replacing an assembly is a form of backing a dealer |
 
-Common faults and their answers · known issues and workarounds · the RMA route · which published answers cover
-this product · **support-load note**: what this product actually generates calls about. That last field is how
-the schema tells you what to document next.
+## 7. Record keeping
 
-## 9. Record keeping
-
-Owner of the record · last reviewed · review interval. The maintenance obligation made concrete
-(`group/08-sales-motion.md`) — a stale answer is worse than none, so a record with no review date is not
-complete.
+**Owner of the record · last reviewed · review interval.** A stale answer is worse than no answer because a
+dealer acts on it, so a record with no review date is not complete.
 
 ---
 
 ## How to use it
 
-1. **Fill it for C-ATS first.** Three SKUs, the data largely exists, and Neil wants the standard higher than it
-   currently is — so C-ATS is where "good" gets defined against a real example rather than in the abstract.
-2. **Then DT, by mechanism rather than by SKU.** The range is variant-heavy; document the mechanism once and table
-   the variants (`decided.md` S11a).
-3. **Rank by support load and sales volume**, using field 8 and the archive's question frequency. Do not attempt
-   the range alphabetically.
-4. **Make completeness a gate on new products**, which is the only version of this that stops the debt returning.
+1. **Hold it up against Engine first.** Establish what already exists mechanically, then work only on the layer
+   above. **The gap between the two is the deliverable** — a list of fields the estate needs and the operational
+   record does not hold.
+2. **Then fill it for C-ATS.** Three SKUs, the data largely exists, and the standard is wanted higher than it is —
+   so "good" gets defined against a real example rather than in the abstract.
+3. **Then DT, by mechanism rather than by SKU.** The range is variant-heavy; document the mechanism once and table
+   the variants.
+4. **Rank by the questions-generated field**, cross-checked against the archive's question frequency. Not
+   alphabetically, and not by whichever product someone is currently annoyed about.
+5. **Make completeness a gate on new products.** The only version of this that stops the debt returning.
