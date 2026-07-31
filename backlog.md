@@ -1,114 +1,12 @@
-# Backlog — developing the sales motion, group level down
+# Backlog — the register
 
-*Content as the sales rep is **committed** (`decided.md` S1–S9) — not a hypothesis, not a pilot, not a thing
-a brand tries first. What remains is **development**: the motion has five components, and each needs its
-group-level design finished — a short piece of strategy work ending in a settled design, most of it already
-half-written across this repo. None of it is large. The direction of travel is always **group → brand →
-product**: the group develops each component once as a standard; the brands inherit the design and supply the
-substance (their questions, their answers, their proof). No brand runs its own version of the motion, and no
-brand is a test bed for it. This file states the five developments, then carries the full action register as
-the reference layer beneath. Deliberately no dates and no weeks.*
-
----
-
-## The five components, and what developing each one means
-
-The decomposition comes from `group/08-sales-motion.md`: content takes reach, recall, the technical answer,
-teaching and the specifier route; it cannot qualify, discover, close, want the order or bring back market
-intelligence. That gives the motion five components. For each: what the group design must state, what is
-already settled, and what is still to develop or decide.
-
-### 1. The answer — the unit of the motion
-
-**The design must state:** what a published answer is, where its canonical home is, how it is produced, and
-how we know it has done its job.
-
-- **Already settled:** the atom is one question answered well (`S14`); one estate, not marketing plus support
-  (`S13`); the standard — *does this answer something that would otherwise land on an owner?*
-  (`group/04-content.md`); canonical on owned properties, syndicated to platforms (`S7`); the measure is
-  questions retired, not reach.
-- **To develop:** the **canonical-home map** — where an answer lives, per brand, structured for retrieval
-  (`cinema-expert.com` is the first, already scaffolded); and the **handoff rule applied** — every answer
-  carries its next step, currently absent estate-wide.
-- **Register:** DOC-1, DOC-2, DOC-3, CON-3, CON-8.
-
-### 2. The operation — rate and accountability
-
-**The design must state:** who does what in the loop, at what sustained rate, with publication owned by
-someone other than the answerer.
-
-- **Already settled:** the loop — archive → ranked list → batch recording → published (`S6`); judgement stays
-  with the owner, only the labour moves (`S5`); record, don't write; the owner never faces a blank page;
-  roles fitted in, not swapped out (`S20`).
-- **To decide — the two decisions the whole motion waits on:** the floor rate (CON-1, Neil + Olivier) and
-  Ben's editorial ownership confirmed as his named trade (CON-2). Once set, it is one operation for every
-  brand — one studio, one loop, brand-specific output.
-
-### 3. The face — familiarity doing what repeat visits did
-
-**The design must state:** the group format set and casting, so familiarity is built deliberately rather than
-per-brand by accident.
-
-- **Already settled in draft:** the casting (Neil the authority, Olivier the relationship, Ben the producer
-  and mostly off camera); the recurring slate of six formats; same face, same room, same frame; batching;
-  the unscripted register (`group/04-content.md`).
-- **To develop:** adopt the slate as the group's format set and put the first batch through it (CON-4).
-  Worth stating honestly in the design: nothing in eight years of estate has a presenter, so this component
-  is being built, not resumed.
-
-### 4. Being found — reach without a body
-
-**The design must state:** how the corpus gets discovered — search, AI answers, the channels — and how the
-estate is organised so longevity compounds.
-
-- **Already settled:** search and AI answers are the top of the direct-global funnel; Share of Model is the
-  metric (`group/02-buyer-journey.md`); feed the old channels, don't start new ones; brand content on brand
-  channels.
-- **To develop:** the channel architecture decision (CON-7); the estate hygiene and the locked-account
-  recovery (CON-5, CON-6); publication homes per brand from component 1.
-
-### 5. What content cannot do — the substitutes, as named mechanisms
-
-**The design must state:** for each part of the rep's job content cannot take, the mechanism that takes it
-and who owns it — mechanisms as group policy, not hopes.
-
-- **Qualification** → the tools reveal a live project (settled; TOOL-1 closes the loop).
-- **Discovery** → the spec conversation, captured (XS-2 — the mechanism exists, the capture doesn't).
-- **Closing** → Zoom and the store (settled).
-- **Wanting the order** → a person, currently unowned (XS-3 — the design is incomplete until this is a name).
-- **Market intelligence** → no substitute exists; held as a recorded hole, not designed away.
-
-### Held risks, carried visibly
-
-From `open-items.md`, kept in view rather than solved: the motion has no fallback if the content is not made;
-it rests on two or three people; faces deepen the person-concentration. These are costs of the committed
-model, not arguments against it.
-
----
-
-## Group level down — how the development cascades
-
-**The group develops each component once. The brands inherit the design** and supply what only they hold:
-their recurring questions, their answers, their proof, their product records. No brand re-derives the motion,
-and no brand's result "proves" or "disproves" it — the commitment is made.
-
-**Application order is sequencing, not strategy.** C-ATS goes first only because its record already exists
-and sets the standard cheaply (`S18`); DT follows by mechanism (`S11a`); the rest inherit in turn. The same
-order the documentation work already follows — one cascade, not six adoptions.
-
-## Runs alongside, outside the motion
-
-Work that proceeds on its own merits and should never be confused with the motion's development: **US DT
-recovery** (conversion of a warm base, personal and terms-led — `C1j`, `C1k`); **store and site hygiene**
-(W5); **network pruning** (W3); **partner acts** (W7); **the Screen Wall page** (W10).
-
----
-
-# The register
-
-*The reference layer: every discrete action in the repo, extracted. Each workstream is tagged by its relation
-to the motion — which component it develops, whether it is a prerequisite (the corpus the motion speaks
-from), or whether it is independent work running alongside.*
+*Content as the sales rep is committed (`decided.md` S1–S9), and the motion's five components are designed
+**once, at group level**, in [`group/09-motion-design.md`](group/09-motion-design.md) — the standard every
+brand inherits. This file is the register beneath that: every discrete action in the repo, extracted into one
+working surface, each workstream tagged by the component it develops, whether it is a prerequisite (the
+corpus the motion speaks from), or whether it is independent work running alongside. It adds no argument and
+no positions; every row traces to its source. `NEXT.md` keeps the reasoning; `decided.md` keeps what is
+closed; this file is the one allowed to change constantly. Deliberately no dates and no weeks.*
 
 **How to read it.** Not everything is a project, and the Type column is doing real work: **Do** = work that
 takes time; **Decide** = a choice only a named person can make, usually minutes; **Fetch** = a fact to look
@@ -117,6 +15,12 @@ up, no judgement required. **Status:** `ready` · `in progress` · `blocked` (na
 rather than a gap to guess at. **When an item completes:** mark it done here, land evidence in `decided.md`,
 don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
 engine or any tracker when the process gets a system home.
+
+**Runs alongside, outside the motion** — work that proceeds on its own merits and should never be confused
+with the motion's development: US DT recovery (conversion of a warm base, personal and terms-led — `C1j`,
+`C1k`); store and site hygiene (W5); network pruning (W3); partner acts (W7); the Screen Wall page (W10).
+
+---
 
 ## W1 — Documentation & product data — *prerequisite: the corpus the motion speaks from*
 
@@ -175,23 +79,25 @@ item 3, revised 2026-07-31).*
 ## W4 — Content cadence & the channel estate — *components 1–4: the motion's operating layer*
 
 *The loop: archive → ranked list → batch recording → published (`decided.md` S6). CON-1 and CON-2 are
-component 2; CON-4 is component 3; CON-5–7 are component 4.*
+component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. The designs:
+`group/09-motion-design.md`.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| CON-1 | Decide | Set the floor rate — the minimum sustained through a busy month, derived from what the studio already produces. Component 2: the motion does not start without it | Neil + Olivier | Minutes | ready | `NEXT.md` lane 6, `open-items.md` |
-| CON-2 | Decide | Confirm Ben's editorial ownership as his named trade — the one genuine reallocation in the plan. Component 2's other half | Neil | Minutes | ready | `NEXT.md` §A, `group/04-content.md` |
+| CON-1 | Decide | Set the floor rate — the minimum sustained through a busy month, derived from what the studio already produces. Component 2: the motion does not start without it | Neil + Olivier | Minutes | ready | `NEXT.md` lane 6, `group/09-motion-design.md` |
+| CON-2 | Decide | Confirm Ben's editorial ownership as his named trade — the one genuine reallocation in the plan. Component 2's other half | Neil | Minutes | ready | `NEXT.md` §A, `group/09-motion-design.md` |
 | CON-3 | Do | Mine sent mail (the two or three people who answer technical questions, last two or three years) and count which questions recur. The ranked list is the publishing schedule | Ben | Days | ready | `NEXT.md` lane 6, `group/08-sales-motion.md` |
 | CON-4 | Do | First batch recording session against the corrected ranked list. Component 3: the first presenter-led content in the estate's history | Neil (face), Ben (production) | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
 | CON-5 | Do | Estate hygiene: remove MAG Theatron and Barco playlists; fix the `@Complete_ATS` description (hard-coded "Complete…" expansion); fix DT's projector-screen-company description | — | Hours | ready | `NEXT.md` lane 6, `group/04-content.md` |
 | CON-6 | Do | Establish what is on the locked old SRND Group YouTube account and pursue recovery (Workspace admin reset / remaining manager / YouTube's route) | — | Small, admin | ready | `open-items.md`, `group/04-content.md` |
-| CON-7 | Decide | Channel architecture: every brand gets a channel and the group's goes group-only, or consolidate. DT's eight-year history and the C-ATS educational set must not be orphaned either way | — | A decision | ready | `group/04-content.md` |
+| CON-7 | Decide | Channel architecture: every brand gets a channel and the group's goes group-only, or consolidate. DT's eight-year history and the C-ATS educational set must not be orphaned either way | — | A decision | ready | `group/04-content.md`, `group/09-motion-design.md` |
 | CON-8 | Do | Retrofit the handoff across the estate: every piece carries its next step (explainer → fuller answer → product/registration → store). Component 1's missing rule, cheap and mechanical | — | Ongoing | ready | `group/08-sales-motion.md` |
 | CON-9 | Do | Feed the EI microsite (`essentialinstall.com/srnd/`): company pages + virtual case studies linking back to brand sites; push through EI news/newsletter/podcast. Paid for, near-empty | — | Ongoing, light | ready | `group/05-channels.md` |
 | CON-10 | Decide | Spend the ~£10k AVForums credit: video first, briefed rather than scripted, pointed at Cinema Store and never the trade brands | — | A decision | ready | `open-items.md`, `group/05-channels.md` |
 | CON-11 | Do | Virtual case studies: write the room stories around the renders — the render is the hook, the story is the content | Ben (renders), Neil/Olivier (narration) | Ongoing | ready | `group/04-content.md` |
 | CON-12 | Do | Virtualise the Experience Centre: film the demos, capture "hear the difference" — the demonstration load-bearer while field work is unpublishable | — | Ongoing | ready | `NEXT.md` lane 1, `group/04-content.md` |
 | CON-13 | Do | On the next pass through EI material, correct the three printed contradictions: Pro-Fi as "spatial audio," the superlative lead, the spelled-out "Complete" expansion | — | With CON-9 | ready | `open-items.md` ("What is already public") |
+| CON-14 | Decide | The canonical-home map: `cinema-expert.com` as the group-wide home for the install/support corpus, or per-brand knowledge bases as canonical with it aggregating. One answer never lives in two places | — | A decision | ready | `group/09-motion-design.md` (component 1) |
 
 ## W5 — Stores & sites — *independent: executing settled decisions*
 
@@ -211,8 +117,8 @@ component 2; CON-4 is component 3; CON-5–7 are component 4.*
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | XS-1 | Do | Write the adjacency map: per entry point, the next layer, the physical adjacency that justifies it, the project moment it is relevant. A prompt list for a conversation already happening | — | One page | ready | `NEXT.md` lane 4 |
-| XS-2 | Do | After each spec conversation, note three lines: the project, what the dealer was unsure about, what they were afraid of. Component 5: the discovery mechanism — currently nothing is captured | whoever specs | Three lines each | ready | `NEXT.md` lane 4, `group/08-sales-motion.md` |
-| XS-3 | Decide | Who owns "wanting the order" — noticing a dealer has gone quiet and asking. Component 5: the design is incomplete until this is a name | — | Minutes | ready | `group/08-sales-motion.md`, `current-state.md` |
+| XS-2 | Do | After each spec conversation, note three lines: the project, what the dealer was unsure about, what they were afraid of. Component 5's discovery mechanism — currently nothing is captured. Decide where the notes land | whoever specs | Three lines each | ready | `NEXT.md` lane 4, `group/09-motion-design.md` |
+| XS-3 | Decide | Who owns "wanting the order" — noticing a dealer has gone quiet and asking. Component 5: the design is incomplete until this is a name | — | Minutes | ready | `group/08-sales-motion.md`, `group/09-motion-design.md` |
 | XS-4 | Fetch | Whether spec help is free or chargeable today, and whether that is deliberate. Hinge for the partner programme and the value ladder | — | Small | ready | `open-items.md` Stage 1, `current-state.md` |
 
 ## W7 — Partner programme & appreciation — *independent: acts, not announcements*

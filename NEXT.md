@@ -1,9 +1,10 @@
 # What happens next
 
-*The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The discrete
-actions extracted from this plan and the rest of the repo live in [`backlog.md`](backlog.md) — organised
-group level down: the five components of the sales motion to develop as group standards that the brands
-inherit, with the full register beneath. This file keeps the reasoning; that file tracks the work.*
+*The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The sales motion's
+five components are designed group level down in [`group/09-motion-design.md`](group/09-motion-design.md) —
+the standard the brands inherit — and the discrete actions extracted from this plan and the rest of the repo
+live in [`backlog.md`](backlog.md), the register a planned process runs from. This file keeps the reasoning;
+those two hold the design and the work.*
 
 ## The constraint, stated honestly
 
