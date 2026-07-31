@@ -1,6 +1,9 @@
 # What happens next
 
-*The working plan. Read this first; the strategy behind it is in `group/` and `brands/`.*
+*The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The discrete
+actions extracted from this plan and the rest of the repo live in [`backlog.md`](backlog.md) — one register
+with IDs, owners, effort and status, which is the surface a planned process runs from. This file keeps the
+reasoning; that file tracks the work.*
 
 ## The constraint, stated honestly
 
