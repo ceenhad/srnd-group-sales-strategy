@@ -107,26 +107,31 @@ manufacturers** who, like us, either handle their own distribution or don't. Two
 *The largest market in the world, unrepresented and unencumbered for the first time (`../current-state.md`).
 Logistics are solved, so this is a sales and marketing question rather than an operational one.*
 
-### The first decision is a conflict nobody has named
+### There is no conflict with the white label, and this is not greenfield
 
-**We cannot take DT into the US directly while Screen Innovations sells DT product there under their own badge.**
-The white label is not a distribution appointment we can simply supersede — they own that relationship, and going
-direct with the same range makes us their competitor. So the fork, before anything else:
+**The Screen Innovations arrangement is not a barrier to entering directly.** It ran alongside Apex-Tech as the DT
+distributor in the same market, so a white label and a DT channel coexisting there is the arrangement that has
+always operated. **Whether it continues is SI's decision, not a fork we have to resolve first.**
 
-- **The white label continues and DT stays out**, in which case US entry is not a DT entry.
-- **The white label ends or is bounded** — by product, by segment, or by time — and DT enters in its own name.
+**And the more important correction: the US is not a cold market.** Apex-Tech was our largest distributor. When a
+distributor resigns its dealer base does not disappear — **it becomes unserved.** Those dealers already specify DT,
+have installed it, and have just lost their supply route.
 
-Either is workable; the mistake is entering without choosing, because the first US dealer who finds both will ask.
-*Commercially the white label may well be worth more than a direct DT position we cannot yet support — that is the
-calculation, and it is not obvious.*
+**That list is the single most valuable asset in this entry**, and it changes the shape of it entirely:
 
-### The wedge is C-ATS, not the biggest brand
+- **It is the fastest revenue available anywhere in the strategy** — warm accounts, known product, an immediate
+  reason to make contact.
+- **It is a limited window.** Unserved dealers find alternatives, and Stewart, Screen Research and Future
+  Automation are all present. The cost of waiting is measured in accounts lost rather than months.
+- **It does not depend on the content programme.** These dealers do not need persuading that DT works; they need to
+  know where to buy it. So this half of US entry can start now and is not behind the documentation.
 
-The instinct is to lead with the whole group. That is the *positioning*, not the entry. Entry needs one reason for
-a dealer who has never heard of us to take a first risk, and the widest door is the smallest one
-(`02-buyer-journey.md`).
+### Two entries, not one — and they serve different jobs
 
-**C-ATS is that door, and for four reasons that all happen to be true at once:**
+- **DT is the revenue entry, and it is warm.** Recover the Apex-Tech dealer base, directly, immediately. Eight
+  years of DT content and a known brand support it.
+- **C-ATS is the wide door for dealers we have never met**, which is the part the content model has to earn. Four
+  reasons it is the right one for that job:
 
 1. **The first order is small and low-risk.** Boxes of panels, not a machine. A dealer can try us on one room
    without betting a client relationship on it.
@@ -136,14 +141,15 @@ a dealer who has never heard of us to take a first risk, and the widest door is 
    where search and AI answers are our only channel, that is the one place we have demonstrated pull.
 4. **It ships economically.** Freight and duty punish large assemblies; panels travel.
 
-DT is the revenue and C-ATS is the entry. Those are different jobs, and conflating them is how the largest market
-gets approached with the hardest product.
+**They are not competing routes and neither waits for the other.** DT recovers a base that already exists; C-ATS
+opens accounts that do not. Treating US entry as a single motion is what would force a choice between them.
 
-### The US is the model's proving ground, not just a market
+### The US is still the model's proving ground — for the C-ATS half
 
-Worth stating plainly because it changes how the result should be read. In the US we have **no legacy
-relationships, no body on the ground, no distributor and no trade event this year** (`../decided.md` E1–E3). The
-only instruments are the corpus, search and AI visibility, the trade press, and personal authority.
+Worth separating, because the two entries test different things. Recovering Apex-Tech's dealers proves nothing
+about the sales motion; it is relationship recovery. **The C-ATS half is the real test:** no legacy relationships,
+no body on the ground, no distributor and no trade event this year (`../decided.md` E1–E3), so the only instruments
+are the corpus, search and AI visibility, the trade press, and personal authority.
 
 **So the US is a controlled test of "content is the rep."** If it produces dealers, the model is validated for
 every territory. If it does not, that is the most valuable negative finding this strategy could get — and far
@@ -169,9 +175,11 @@ once.
 
 ### Sequence: land, deliver, then market
 
+- **Start with the Apex-Tech dealers, and start now.** Direct contact, DT, no campaign required. This is the
+  urgent half and the window closes as they find alternatives.
 - **Do not announce.** A launch with no support history and no reference is a claim.
-- **Land a small number of dealers on C-ATS**, chosen for willingness rather than size, and make the first order
-  faultless. The first order tests us, not the product.
+- **In parallel, land a small number of new dealers on C-ATS**, chosen for willingness rather than size, and make
+  the first order faultless. The first order tests us, not the product.
 - **Then market**, with a US reference to point at and a support record behind it.
 - **InfoComm next year** is the natural moment to be visible, by which point there should be something to be
   visible about.
