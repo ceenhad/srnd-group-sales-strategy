@@ -203,6 +203,9 @@ has a presenter. Legacy playlists still promote discontinued carried lines.
 ### Technical and specifier material
 
 - **BSRIA measured absorption data** for C-ATS (BS EN ISO 354).
+- **Manuals and instructions — currently poor, and a recorded weakness.** Neil's assessment: the gap costs the
+  business more than it should be allowed to. This is the highest-consequence content deficit in the estate,
+  because an installer with the product in hand and a deadline is the highest-intent reader we have.
 - **Datasheets and install guides** — exist for parts of the range. **[?] Coverage per brand, and how current.**
 - **Configurators and calculators** — DT compatibility tools, optimal screen size, screen configurators; Cinema
   Tools calculators as discrete SEO landing pages.

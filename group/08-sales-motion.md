@@ -106,6 +106,42 @@ Two further consequences:
   in a bad week. Preparation stays light — the question and any specifics, never a script, since the unscripted
   register is what the format runs on.
 
+## Documentation is the load-bearing content
+
+**Support is not a staffing question; it is a documentation one.** It reduces to two things: the dealer being
+trained, and the answer being available at the moment they need it. Most support volume exists because the
+manual didn't answer the question — so the highest-leverage support investment is writing, not hiring.
+
+**Manuals are currently poor, and it costs more than it should.** That makes them the most consequential gap in
+the estate, for five reasons that are easy to miss because documentation is unglamorous:
+
+- **The installer with the product in hand and a deadline is the highest-intent reader we will ever have.** No
+  other content is opened in that state. A marketing page is browsed; a manual is *used*.
+- **It is what "optimised for the integrator" actually means in practice.** The claim is that a professional can
+  specify and install this without it going wrong on site. The manual is where that claim is either honoured or
+  exposed.
+- **It is a sales asset, not an after-sales one.** A dealer weighing up an unfamiliar manufacturer reads the
+  documentation to judge whether the job will go badly. Good manuals answer the objection before it is raised —
+  which matters most in exactly the territories where nobody has met us.
+- **It is the precondition for every market without a body in it.** The US case makes this concrete: logistics
+  are solved, so documentation is what stands between us and serving the market properly.
+- **It is the easiest thing to build from the archive**, because the answers already exist in sent mail and the
+  frequency data maps straight onto sections.
+
+**A specific claim is currently ahead of the reality.** C-ATS promises the integrator can *"specify from the
+documentation or take the design service — their choice."* If the documentation is weak, only one of those two
+routes actually exists. That is **build it, then say it** (`00-strategy.md`) surfacing for the fourth
+independent time, which is why it is named as the group's characteristic failure mode rather than a coincidence.
+
+**Manuals and training are one corpus, differently packaged.** The manual is the reference version, consulted at
+the moment of need; training is the structured version, taken in advance. Same source material. So documentation
+first is not a delay to the training programme — it is that programme's raw material, and doing it well makes
+training an assembly job rather than a new build.
+
+**What makes one good here is not length.** It is being organised by *moment* rather than by product structure:
+unboxing, mounting, wiring, commissioning, calibration, fault-finding, spares and dimensions. The failure mode
+is a document written for the buyer when the reader is the installer.
+
 ## The corpus is the asset — not the channel
 
 The thing being accumulated is a **body of answers**, not a YouTube channel or a blog. Channels are

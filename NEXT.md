@@ -173,8 +173,10 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
 
 - **Smallest next move: settle the support model, because it is now the only thing in the way.** Four tiers, in
   order of leverage (`group/08-sales-motion.md`):
-  1. **Published answers** — install guides, commissioning walkthroughs, troubleshooting, video. Most support
-     volume is repeat questions, so this is the same corpus work as lane 6 pointed at a different audience.
+  1. **Documentation, and it dominates the rest.** Support reduces to the dealer being trained and the answer
+     being available when needed — so most support load is a manual that didn't answer the question. **Manuals
+     are currently poor and it costs us more than it should** (`decided.md` S11). This is the same corpus work
+     as lane 6 aimed at the highest-intent reader we have: an installer with the product in hand and a deadline.
   2. **Spares and physical** — done, via the warehouse and logistics partner.
   3. **Remote diagnostics.** DT's control platform already does network integration and closed-loop
      precision. **If a unit can report its own state, support scales without people** — it turns "an installer
@@ -185,7 +187,8 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
      role a body might justify — a support engineer, not a salesperson.** Different job, different economics,
      and it does not contradict having no field force.
 - **Certification cuts support load**, so the training programme is a support investment as much as a partner
-  benefit — which sharpens why it is owed.
+  benefit. And **manuals are its raw material** (`decided.md` S12) — same corpus, differently packaged — so
+  documentation first makes training an assembly job rather than a new build.
 - **And support quality is part of the sales proposition, not a cost behind it.** The reason a US dealer buys
   from a British manufacturer with no local office is that support is credible. Answer it well and it becomes a
   reason to buy.
@@ -194,8 +197,11 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
   suits the model.
 - **It also corrects the DT-only exposure** in the international network, because presenting the whole group is
   the plan rather than a retrofit.
-- Rides on: an opening we did not create, and logistics already built. The work is the support model, then
-  content.
+- **And the home already exists as a skeleton.** `cinema-expert.com` has *Instructions* and *Knowledge Base*
+  headings and nothing behind them. So the manual estate and the corpus are **one build on a property already
+  scaffolded**, not two projects — which also answers lane 8's "minimum viable property" question.
+- Rides on: an opening we did not create, logistics already built, and a property already scaffolded. The work
+  is documentation.
 
 ### 8. The properties get restarted — but the addresses and the history are kept
 
