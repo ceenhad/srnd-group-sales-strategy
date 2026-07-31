@@ -30,7 +30,9 @@ seriousness, and staged below.*
    the business over the next two years?)*
 4. **The two most differentiating claims are both currently unavailable by our own account.** Whole-room
    ease and cross-sell both wait on unfragmenting the data — Engine work, outside this repo and outside our
-   control to schedule.
+   control to schedule. **Possible unlock:** what "unfragmented data" means concretely is a canonical product
+   record, which is what `product-data-schema.md` defines. If that is right, this item is less blocked than it
+   reads — the schema is a strategy artefact we can write, even though the database behind it is engine's.
 5. **Beyond-cinema has no on-ramp of its own.** Non-cinema proof is correctly identified as the binding
    constraint, and the plan for proof is "photograph jobs as they happen" — but if the jobs are cinema jobs,
    that produces more cinema proof. Nothing generates a first non-cinema job.

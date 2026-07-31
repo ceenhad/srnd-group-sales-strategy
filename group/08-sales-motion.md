@@ -201,6 +201,24 @@ training an assembly job rather than a new build.
 unboxing, mounting, wiring, commissioning, calibration, fault-finding, spares and dimensions. The failure mode
 is a document written for the buyer when the reader is the installer.
 
+### But the schema comes first
+
+**Capturing what needs to be documented precedes what is and will be documented.** Without a defined required set
+per product, "the manuals are poor" is an opinion rather than a measurable gap, and writing more documents does
+not converge on completeness. The field list is `../product-data-schema.md`; three things follow from having one:
+
+- **The gap becomes a percentage per product**, so the work is finite, delegable and prioritisable by support load
+  and sales volume rather than by whoever shouts.
+- **One record feeds the datasheet, the site page, the store listing, the manual, the training module, the
+  specifier download and the design tools.** The compounding argument applied to data rather than to content.
+- **Completeness becomes a gate on new products**, which is the only version that stops the debt returning. The
+  Screen Wall — demonstrable since ISE 2023, still with no page and no datasheet — is what the absence of that
+  gate looks like.
+
+*And it may be the fragmentation fix the strategy has been waiting on.* Whole-room ease and cross-sell are both
+recorded as blocked on unfragmenting the data (`../open-items.md`). What that means concretely is that there is no
+canonical product record — which is what this is.
+
 ## The corpus is the asset — not the channel
 
 The thing being accumulated is a **body of answers**, not a YouTube channel or a blog. Channels are
@@ -268,9 +286,10 @@ asked. Mining it recovers authored depth rather than manufacturing a substitute 
 ### What it cannot do
 
 It cannot produce the face on camera, or familiarity, or anything about a product or position that has changed
-since the email was written. It is a running start on the corpus, not a substitute for the cadence. But it turns
-lane 6 of `../NEXT.md` from "decide what to publish" into "publish what we already answered," which is a much
-smaller thing to ask of a busy month.
+since the email was written. **And it should not be oversold: the archive proposes a ranked list, and that is all
+it does** — the required set is defined by the schema, and the answers still have to be written. What it removes
+is the blank page, which turns lane 6 of `../NEXT.md` from "decide what to publish" into "start from what we
+already answered." A smaller thing to ask of a busy month, not a solved problem.
 
 ## Why it compounds — and the three conditions
 

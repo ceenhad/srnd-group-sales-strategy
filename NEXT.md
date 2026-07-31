@@ -173,12 +173,15 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
 
 - **Smallest next move: settle the support model, because it is now the only thing in the way.** Four tiers, in
   order of leverage (`group/08-sales-motion.md`):
-  1. **Documentation, and it dominates the rest.** Support reduces to the dealer being trained and the answer
-     being available when needed — so most support load is a manual that didn't answer the question. **Manuals
-     are currently poor and it costs us more than it should** (`decided.md` S11). This is the same corpus work
-     as lane 6 aimed at the highest-intent reader we have: an installer with the product in hand and a deadline.
-     **Start on C-ATS, which already has the data, to set the standard — then DT by mechanism, not by SKU**
-     (S11a). The variant-heavy range means fifty-odd products collapse into far fewer manuals.
+  1. **Documentation, and it dominates the rest — but the schema comes before the writing.** Support reduces to
+     the dealer being trained and the answer being available when needed, so most support load is a manual that
+     didn't answer the question. **Manuals are currently poor and it costs us more than it should**
+     (`decided.md` S11). **Smallest first move is not a manual — it is filling `../product-data-schema.md` for
+     one brand**, because capturing what needs to be documented has to precede what is documented, and it turns
+     the gap into a completeness percentage per product instead of an opinion. **Start on C-ATS, which already
+     has the data, to set the standard — then DT by mechanism, not by SKU** (S11a). The variant-heavy range means
+     fifty-odd products collapse into far fewer manuals. Then the writing, ranked by support load and sales
+     volume.
   2. **Spares and physical** — done, via the warehouse and logistics partner.
   3. **Remote diagnostics.** DT's control platform already does network integration and closed-loop
      precision. **If a unit can report its own state, support scales without people** — it turns "an installer
