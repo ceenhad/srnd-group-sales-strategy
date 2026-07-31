@@ -179,21 +179,29 @@ recurring-question log rather than from ideation; measure questions retired rath
 decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
 decisions rather than projects, and the lane does not start without them.
 
-### From the C-ATS product records — five things needing a decision or a check
+### From the C-ATS product records — seven things needing a decision or a check
 
 *Surfaced by filling the schema (`brands/c-ats/product-records.md`), so they are specific rather than general.*
 
 1. **The marine panel has no absorption data of its own.** The BSRIA report doesn't cover `REF-CP-MAR`, so it needs
    establishing whether it is acoustically identical to the REF-CP with a marine finish or requires its own test.
    That gap matters more for a compliance product than a standard one.
-2. **Installed-effective versus raw lab figures.** Derated values may exist in the legacy calculator; which set is
+2. **The REF-CP has two different absorption figures and nobody had noticed.** The default in `panels.json` comes
+   from the **legacy CATS Calculator (entry 3084)**; **BSRIA test 6** — the intended plane configuration — gives
+   roughly double at 250 Hz and 500 Hz (0.20 and 0.54 against 0.08 and 0.28). Plausibly both are right for
+   different things, the lab measuring unfixed and the legacy value representing the damped glued install, but that
+   is a hypothesis. **Decide which is authoritative before either is published or used for design.** Also: the
+   RES-CP surface coefficient in that file comes from test 8, which is not the intended corner configuration.
+3. **`panels.json` is marked "DRAFT — pending review."** Nothing from it should reach a datasheet until that
+   review happens, and the review is a small, specific task.
+4. **Installed-effective versus raw lab figures.** Derated values may exist in the legacy calculator; which set is
    authoritative for quotes and design is undecided, and both being in circulation is worse than either.
-3. **Whether to commission a below-125 Hz measurement on the RES-CP.** It is the obvious next test, it would
+5. **Whether to commission a below-125 Hz measurement on the RES-CP.** It is the obvious next test, it would
    strengthen the strongest product, and the design tooling's resonance sizing has a known blind spot below ~80 Hz.
-4. **Whether to commission ISO 17497 scattering data for the REF-CP.** Currently no scattering coefficient is
+6. **Whether to commission ISO 17497 scattering data for the REF-CP.** Currently no scattering coefficient is
    claimed, correctly — but measuring it would let us say something specific where competitors say "diffusion"
    loosely.
-5. **The current EN 13501-1 classification for the REV-CP foam.** Class 0 is recorded; the European class should
+7. **The current EN 13501-1 classification for the REV-CP foam.** Class 0 is recorded; the European class should
    live in the record rather than being looked up per project.
 
 ### The distributor network — largely decided, and the US is now open

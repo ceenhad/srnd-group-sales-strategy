@@ -3,9 +3,27 @@
 *The schema in `../../product-data-schema.md`, applied to the three C-ATS treatment panels. First worked example,
 so it sets the standard for the rest of the group.*
 
-**Sources:** `c-ats-shopify` — `data/panels.json`, `data/c-ats-acoustic-data.json`, `data/c-ats-pack-rules-2026.md`,
-the knowledge-base articles, and the C-ATS install guides. Performance figures are from **BSRIA Report 100241/1**,
-BS EN ISO 354:2003, BSRIA Bracknell, 210 m³ chamber, tested 24 July 2019, reported 3 March 2020.
+## Provenance — read this before using any figure
+
+| Content | Source file |
+|---|---|
+| SKUs, dimensions, box rules, mounting specifications, absorption tables, test metadata, data gaps | `c-ats-shopify:data/panels.json` |
+| Materials (ABS, foam), ~500 Hz, Class 0, layout rules, 30 % height rule, ~300 mm tolerance, RES-CP as a 2019 addition | `c-ats-shopify:data/c-ats-pack-rules-2026.md` (a decode of the 2015 pack brochure — **legacy, confirm current spec**) |
+| Class 0 / EN 13501-1 / IMO SOLAS and the certificate caveat | `c-ats-shopify:content/article-fire-ratings.html` |
+| Range, discontinued items, marine scope, services, tooling separation | `brands/c-ats/brand-data.md`, `measured-acoustics.md`, `product-pricing.md` |
+| Wording guardrails | the C-ATS `CLAUDE.md` |
+
+**Test basis:** BSRIA Report 100241/1, BS EN ISO 354:2003, BSRIA Bracknell, 210 m³ chamber, tested 24 July 2019,
+reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not installed-effective.
+
+> **Two provenance warnings, and the first one is a correction to an earlier draft of this file.**
+>
+> 1. **`panels.json` is marked "DRAFT — generated from BSRIA data; pending review."** Nothing here should reach a
+>    datasheet before that review happens.
+> 2. **Not every figure in it is BSRIA.** The REF-CP default surface coefficient is sourced from the **legacy CATS
+>    Calculator (catalogue entry 3084)**, not from the report — an earlier version of this file wrongly attributed
+>    it to BSRIA. Both figures are given below, labelled. **This is precisely the failure the record exists to
+>    prevent**, and it happened on the first attempt, which is the strongest argument for the exercise.
 
 **Two things this exercise proved immediately, which is the argument for doing it:**
 
@@ -55,15 +73,21 @@ reconciling against the raw lab figures, with a decision on which are authoritat
 | **Configuration space** | One size. **Two install types, and they are acoustically different** |
 | **Limits** | Lowest panel in a block should sit no higher than **30 % of room height** off the floor; rooms over 3 m tall need proportionally more |
 
-### Performance (BSRIA, free/unfixed, design-stage reference)
+### Performance — and the two sources do not agree
 
-Surface absorption coefficient by octave band, **install Type A (default)**:
+Surface absorption coefficient by octave band:
 
-| 125 Hz | 250 Hz | 500 Hz | 1 kHz | 2 kHz | 4 kHz |
-|---|---|---|---|---|---|
-| 0.01 | 0.08 | 0.28 | 0.11 | 0.01 | 0.06 |
+| Source | 125 Hz | 250 Hz | 500 Hz | 1 kHz | 2 kHz | 4 kHz |
+|---|---|---|---|---|---|---|
+| **Legacy CATS Calculator** (entry 3084; the current default in `panels.json`, Type A glued) | 0.01 | 0.08 | 0.28 | 0.11 | 0.01 | 0.06 |
+| **BSRIA test 6** — plane absorber, 16 tiles, 1.44 m², centre of room (the intended-use configuration) | 0.01 | 0.20 | 0.54 | 0.12 | 0.04 | 0.09 |
 
-Deliberately low, and that is the point — it is a scatterer, not an absorber.
+**Materially different at 250 Hz and 500 Hz — roughly double.** Which is authoritative needs deciding before
+either is published or used for design. Plausibly both are right for different things: BSRIA measured unfixed, and
+the legacy figure is meant to represent the damped, glued install. **But that is a hypothesis, not a record**, and
+it is now an open item.
+
+Either way the values are deliberately low, and that is the point — this is a scatterer, not an absorber.
 
 ### The install trap — the most important thing in this record
 
@@ -114,11 +138,18 @@ C-ATS range.
 
 ### Performance (BSRIA, design-stage reference)
 
-Per-panel equivalent absorption area, **from Test 4 (corner placement — the intended use)**, m² per panel:
+Per-panel equivalent absorption area, **BSRIA test 4 — three items in corners against two walls, the
+manufacturer's intended configuration**, m² per panel:
 
 | 125 Hz | 250 Hz | 500 Hz | 1 kHz | 2 kHz | 4 kHz |
 |---|---|---|---|---|---|
 | 0.38 | 0.35 | 0.32 | 0.25 | 0.15 | 0.14 |
+
+*For completeness, and to be used with care:* the report also holds test 5 (edges against one wall — 0.28 / 0.28 /
+0.31 / 0.27 / 0.18 / 0.15), test 3 (discrete around the room — 0.15 / 0.18 / 0.30 / 0.30 / 0.25 / 0.21) and test 8
+(as a plane absorber in the centre of the room). **Only test 4 is the intended use.** The surface coefficient
+carried in `panels.json` comes from test 8, which is explicitly *not* the intended configuration — worth knowing
+before anyone quotes it.
 
 **Design note that must travel with the figure:** these values **already embody corner loading**, so a design tool
 must not also apply a corner factor — that double-counts. A caveat living in a JSON comment today, and it belongs
@@ -206,13 +237,15 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 ## What filling this in produced
 
-Six findings, none of which needed new research — only somewhere to put what we already knew:
+Seven findings, none of which needed new research — only somewhere to put what we already knew:
 
 1. **The REF-CP bond-versus-screw trap.** Highest-return documentation in the range, and currently buried.
 2. **The REV-CP cold-adhesive failure.** The most predictable site failure we have, and a one-line fix in a manual.
 3. **The corner-factor double-count warning** on RES-CP data, currently living in a code comment.
 4. **"Faceted ABS diffuser"** in our own legacy source — a wording violation the record now catches.
 5. **The marine panel has no acoustic data**, which matters more for a compliance product than a standard one.
-6. **~300 mm layout tolerance is a genuine selling point that appears in no marketing.** It says the system is
+6. **A live figure disagreement on the REF-CP** — legacy-calculator against BSRIA test 6, roughly double at 250
+   and 500 Hz — which nobody had noticed because the two numbers lived in different places.
+7. **~300 mm layout tolerance is a genuine selling point that appears in no marketing.** It says the system is
    forgiving on site — exactly what an integrator wants to hear, and exactly the kind of thing that gets lost
    when nobody owns the definitional layer.
