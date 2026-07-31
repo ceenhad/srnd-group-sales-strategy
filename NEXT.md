@@ -2,9 +2,8 @@
 
 *The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The discrete
 actions extracted from this plan and the rest of the repo live in [`backlog.md`](backlog.md) — organised
-under the question the strategy turns on (content as the sales rep: what would answer it, and what is
-deliberately not a test of it), with the full register beneath. This file keeps the reasoning; that file
-tracks the work.*
+group level down: the five components of the sales motion to develop as group standards that the brands
+inherit, with the full register beneath. This file keeps the reasoning; that file tracks the work.*
 
 ## The constraint, stated honestly
 
