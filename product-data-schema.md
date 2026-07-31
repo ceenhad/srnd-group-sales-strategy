@@ -14,11 +14,37 @@ needed, why it is needed, and how it will be used.**
 - **This file specifies the layer above it** — and the *why* and *how used* columns are the point. A field with
   no stated consumer is a field nobody will fill in, and that is how product data dies.
 
+**And the order matters.** Definition comes first. You cannot state what problem a product solves until you have
+stated what it *is* and what it *does* — and "definition" is not SKU, name and weight either. Engine has those and
+they define nothing. The definitional layer is missing in the middle: Engine knows the object, the marketing knows
+the pitch, and nothing holds the canonical account of what the thing actually is.
+
+**That gap is doing real damage.** Without one canonical definition, every datasheet, web page, store listing and
+email describes the product slightly differently — which is most of what makes a range feel unprofessional, and it
+is why the same questions keep arriving.
+
 *A first cut, for correction. Every row is a claim about how the estate works, so a wrong row is worth striking.*
 
 ---
 
-## 1. Why to buy it — the on-ramp
+## 1. What the product actually is
+
+*The foundation, and the group that has to be filled before any of the rest can be written honestly.*
+
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **What it is, in one sentence** — category, not pitch | One canonical definition, or the estate drifts into several. This is the sentence every other asset inherits | Datasheet opener, page title, store listing, the answer to "what is this" |
+| **What it does** — its function, plainly | Function is not benefit and not mechanism; conflating them is how technical copy goes wrong | The technical layer; the basis of the marketing layer above it |
+| **How it works** — the mechanism | Depth for the reader who needs it, and the field that lets documentation be written **per mechanism rather than per SKU** | Grouping the manual set; explainer content |
+| **What it is for** — the applications | Products get misapplied when the intended use is implied rather than stated | Selection guidance; specifier material |
+| **What it is *not* for, and where it does not apply** | **Misapplication is expensive** — a bad room, a lost reputation, a support case that was never a fault. Nobody writes this down and everybody needs it | Boundaries in the datasheet; the first question support should be able to point at |
+| **Scope of supply — what is actually supplied** | The commonest cause of a bad first order is a wrong assumption about what is in the box | Order confirmation, install manual, quoting |
+| **What it requires from others** — power, data, structure, fixings, clearances, site conditions, adjacent products | **This is the biggest single source of site pain**: what must be true, and what the builder has to leave. It is definitional, not marketing | Install manual, drawings, the specifier's coordination notes, and the pre-order conversation |
+| **Configuration space** — variants, sizes, options, and precisely what varies | A variant-heavy range documented as separate products multiplies work for no benefit | Collapsing the manual set; configurators; the store |
+| **Limits** — maximum and minimum sizes, loads, environmental range | The honest edge of the envelope, which is also where the interesting questions come from | Feasibility answers; avoiding a promise the product cannot keep |
+| **Where it sits in the room or system** | The layer it belongs to, and what it meets | Whole-room content; the adjacency map |
+
+## 2. Why to buy it — the on-ramp
 
 *The layer that turns a record into a reason to look. Nothing operational needs these, which is exactly why they
 are missing.*
@@ -31,7 +57,7 @@ are missing.*
 | **What it replaces or avoids** | The dealer is choosing between options, including doing nothing | Comparison content, objection handling |
 | **Is this an entry product or a flagship?** | Every brand needs a door-opener distinct from its showpiece; the flagship demonstrates depth, the entry product opens the relationship | Targeting the on-ramp; deciding what gets promoted to cold audiences |
 
-## 2. The doubt it has to remove
+## 3. The doubt it has to remove
 
 *The single most valuable group here, and the one no operational system would ever contain. **De-risking is the
 conversion mechanism** at this level — a dealer specifying a product puts their own reputation on someone else's
@@ -43,16 +69,16 @@ box.*
 | **The questions it actually generates** — pre-sale and on site | This is the content backlog, per product, and the two are the same question at different times | Ranks the corpus; tells you what to write next; measures support load |
 | **What goes wrong on site with it** | The installer's real fear, and the thing peer reputation is made of | Fault-finding guide, "how do you do X" video, install-manual priorities |
 
-## 3. Who decides on it
+## 4. Who decides on it
 
 *Engine knows who bought it. It does not know who specified it, and those are different people.*
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
 | **Purchaser vs specifier** — integrator, AV consultant, architect, interior designer, end client | Being named pre-tender is worth more than winning a spec conversation later, and the machinery differs entirely | Decides whether this product needs NBS clauses, Revit objects and finish samples, or only an install guide |
-| **Where it sits in the room, and what it must physically meet** | Cross-sell is only credible where the adjacency is physically true — the treatment goes behind the fabric, the speakers sit in the front-of-room structure | The adjacency map; whole-room content; the cross-sell prompt at the moment the room is decided |
+| **Who signs it off, and what convinces them** | The end client, the architect and the integrator are reassured by different things — a finish sample, a measured report, an install time | What proof to put in front of whom, rather than one asset for all |
 
-## 4. What we may and may not say
+## 5. What we may and may not say
 
 *Governance, and it belongs in the record rather than in someone's memory.*
 
@@ -63,14 +89,14 @@ box.*
 | **Marketing status** — pre-release, demonstrable but undocumented, current, discontinued | Build it, then say it. This field alone would have caught three live errors | The Screen Wall (demonstrable since ISE 2023, no datasheet), the commercial range (not to be written up as shipping), REV-CP-12 (discontinued, still listed) |
 | **Proof available, and whether it is publishable** | At this tier the best jobs are the least publishable — NDA'd documents, no photography | What may appear in a case study; prevents someone reaching for an encumbered asset |
 
-## 5. Where it is sold
+## 6. Where it is sold
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
 | **Channel** — `srnd.store`, Cinema Store, or trade-only | No product exists in two places; shared SKUs are how channel confusion returns | Store split enforcement; the worklist |
 | **Territory availability and any exclusivity** | The distributor roster is being pruned, and a vacated territory should be visibly open | Direct approach after an appointment ends |
 
-## 6. The asset audit
+## 7. The asset audit
 
 *Each with a state — **exists / current / missing / not applicable** — because that is what turns "the manuals
 are poor" into a completeness percentage per product.*
@@ -89,7 +115,7 @@ are poor" into a completeness percentage per product.*
 | Training module | Certification | Assembled from the above, not authored separately |
 | Spares and service instructions | Installer, support | Buying a part instead of replacing an assembly is a form of backing a dealer |
 
-## 7. Record keeping
+## 8. Record keeping
 
 **Owner of the record · last reviewed · review interval.** A stale answer is worse than no answer because a
 dealer acts on it, so a record with no review date is not complete.
