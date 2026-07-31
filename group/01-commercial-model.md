@@ -102,6 +102,80 @@ manufacturers** who, like us, either handle their own distribution or don't. Two
   of the tier rather than a national survey. Expect the same offer, the same demo room and the same portfolio
   logic in any territory, which is also why the same comparison lands there.
 
+## United States — market entry
+
+*The largest market in the world, unrepresented and unencumbered for the first time (`../current-state.md`).
+Logistics are solved, so this is a sales and marketing question rather than an operational one.*
+
+### The first decision is a conflict nobody has named
+
+**We cannot take DT into the US directly while Screen Innovations sells DT product there under their own badge.**
+The white label is not a distribution appointment we can simply supersede — they own that relationship, and going
+direct with the same range makes us their competitor. So the fork, before anything else:
+
+- **The white label continues and DT stays out**, in which case US entry is not a DT entry.
+- **The white label ends or is bounded** — by product, by segment, or by time — and DT enters in its own name.
+
+Either is workable; the mistake is entering without choosing, because the first US dealer who finds both will ask.
+*Commercially the white label may well be worth more than a direct DT position we cannot yet support — that is the
+calculation, and it is not obvious.*
+
+### The wedge is C-ATS, not the biggest brand
+
+The instinct is to lead with the whole group. That is the *positioning*, not the entry. Entry needs one reason for
+a dealer who has never heard of us to take a first risk, and the widest door is the smallest one
+(`02-buyer-journey.md`).
+
+**C-ATS is that door, and for four reasons that all happen to be true at once:**
+
+1. **The first order is small and low-risk.** Boxes of panels, not a machine. A dealer can try us on one room
+   without betting a client relationship on it.
+2. **It is the only brand documented to a standard** (`../brands/c-ats/product-records.md`), and documentation is
+   the whole support model in a market with nobody in it.
+3. **Its content already works in search** — a 52-second reverberation explainer with ~9,500 views. In a market
+   where search and AI answers are our only channel, that is the one place we have demonstrated pull.
+4. **It ships economically.** Freight and duty punish large assemblies; panels travel.
+
+DT is the revenue and C-ATS is the entry. Those are different jobs, and conflating them is how the largest market
+gets approached with the hardest product.
+
+### The US is the model's proving ground, not just a market
+
+Worth stating plainly because it changes how the result should be read. In the US we have **no legacy
+relationships, no body on the ground, no distributor and no trade event this year** (`../decided.md` E1–E3). The
+only instruments are the corpus, search and AI visibility, the trade press, and personal authority.
+
+**So the US is a controlled test of "content is the rep."** If it produces dealers, the model is validated for
+every territory. If it does not, that is the most valuable negative finding this strategy could get — and far
+better learned in a market we are not currently earning from than in one we are.
+
+### What a US dealer expects that we do not yet have
+
+Not obstacles to argue with; gaps to answer or accept.
+
+- **Credit terms and a familiar buying process.** US integrators are used to distributor credit. Ours is a store
+  account.
+- **Someone reachable in their working hours.** Documentation shrinks this; it does not remove it. The support
+  engineer question sits here (`../NEXT.md` lane 7).
+- **A peer who will vouch for us.** The hardest of the three, and the reason the first few dealers matter more than
+  their order value.
+- **A margin story.** Gated pricing is settled policy, but a US dealer will ask what they make. That is the
+  unanswered price question arriving in a specific place.
+
+**One thing that cuts the other way, and it is significant:** US commercial, hospitality and cultural clients are
+far more likely to permit publicity than the private clients that dominate our UK work. **The US may be where the
+proof problem gets solved** — the first showable room could come from there, which would serve every market at
+once.
+
+### Sequence: land, deliver, then market
+
+- **Do not announce.** A launch with no support history and no reference is a claim.
+- **Land a small number of dealers on C-ATS**, chosen for willingness rather than size, and make the first order
+  faultless. The first order tests us, not the product.
+- **Then market**, with a US reference to point at and a support record behind it.
+- **InfoComm next year** is the natural moment to be visible, by which point there should be something to be
+  visible about.
+
 ## The brands
 
 1. **Display Technologies (DT)** — solutions for the architectural integration of technology: screens and
