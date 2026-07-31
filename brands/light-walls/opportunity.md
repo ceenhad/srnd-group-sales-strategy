@@ -97,4 +97,4 @@ brand front over a deep, defensible **control/measurement** platform.
 > **Cross-brand pattern worth noting:** like DT (the Commander control) and the competitor read
 > ("hardware is copyable; measured data/control is not"), Light Walls' moat is **measurement + data
 > + the closed-loop app layer** — not the LED. SRND's brands increasingly win on measurement and
-> control, the un-copyable layer. (See `../../group/13-competitors.md`.)
+> control, the un-copyable layer. (See `../../group/06-competitors.md`.)

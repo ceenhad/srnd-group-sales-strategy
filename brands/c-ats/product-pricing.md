@@ -1,7 +1,7 @@
 # C-ATS — product & pricing (the range behind the group gate)
 
 The group pricing **policy** (fully gated, no public or end-user prices) is set in
-`../../group/07-portal-and-pricing.md`. This file holds only C-ATS's range and the brand-level
+`../../group/01-commercial-model.md`. This file holds only C-ATS's range and the brand-level
 tier work that sits behind the shared gate.
 
 ## Range

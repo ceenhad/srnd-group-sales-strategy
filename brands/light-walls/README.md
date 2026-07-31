@@ -1,6 +1,6 @@
 # Light Walls — brand playbook
 
-Light Walls is one of the six SRND brands (`../../group/09-brand-portfolio.md`): **RGBW
+Light Walls is one of the six SRND brands (`../../group/01-commercial-model.md`): **RGBW
 individually-addressable lighting systems** ("light engines") for cinemas, interiors and
 installations.
 

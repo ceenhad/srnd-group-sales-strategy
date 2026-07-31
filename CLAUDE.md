@@ -31,14 +31,14 @@ systems), and **SRND Distribution** (the trade distribution arm). A further own-
 **SRND Solutions** (sensors and interfaces — the connective "glue" of a high-end install, not
 fitting inside any one brand), is in development. In distribution, **Leyard** is the only genuine
 third-party brand; other names on the store are carried lines or components (Ultrasuede is a fabric
-used within Fabric Walls, not a standalone brand). Full roster: `group/09-brand-portfolio.md`.
+used within Fabric Walls, not a standalone brand). Full roster: `group/01-commercial-model.md`.
 
 ## The core idea
 
 **The dealer relationship is the asset**, counted across every brand and over years, and — done
 well — compounding. A dealer won through one brand is a doorway the whole group cross-sells
 through, because the brands serve the **same room**. This changes the economics of everything
-here: we don't triage dealers by any single brand's order size. See `group/01-dealer-as-asset.md`.
+here: we don't triage dealers by any single brand's order size. See `group/00-strategy.md`.
 
 ## Non-negotiable discipline
 
@@ -55,17 +55,39 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
   performance figures; no supplier names; no NDA install details; don't tease the commercial range;
   don't hard-code the "Complete" name expansion. See `brands/c-ats/`.)
+- **Check the platform before specifying anything that touches it.** Engine, the canonical dataset and the
+  Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
+  settled, read the current state first — this work has already based a position on a superseded ADR once, and
+  a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
+- **Facts about the present go in `current-state.md`.** The baseline — dealers, revenue shape, lead sources,
+  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
+  reasoning about it.
+- **The work ratchets; it does not spiral.** `decided.md` records what is closed. New data from real work lands
+  as **evidence** against a decision or an open item — it does not reopen the reasoning that produced the
+  decision. A decision changes only when someone says it changes, recorded as a dated reversal. After logging
+  evidence, the next move is `NEXT.md`, not another pass through `group/`. **Prefer amending the plan over
+  re-arguing the strategy.**
 - **Flag, don't guess.** Buyer-truth, channel validation, pricing tiers, name expansions — where a
   fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
   `open-items.md`. Don't invent personas, figures, or roadmaps.
+- **Build it, then say it.** Where the group has the intent but not yet the reality, the reality comes
+  first and the claim waits. This has now surfaced three times independently — dealer appreciation, the
+  partner programme, and the whole room being genuinely easier to buy — which makes it the group's
+  characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
+  more than silence. See `group/03-partner-programme.md`, `group/00-strategy.md`.
+- **Don't fence us to cinema — in trade.** High-end cinema is the heartland of revenue and credibility and
+  should lead where it's strongest, but the group is explicitly determined not to remain a cinema-only trade
+  supplier, and none of the underlying competences are cinema-specific. Name the *problem*, never the room
+  type; lead with cinema credibility, never a cinema-only definition. **The reverse holds in B2C:** the
+  consumer proposition stays DIY home cinema, deliberately. See `group/00-strategy.md`.
 
 ## The shared portal (settled policy)
 
 - **Pricing is registered-partner-only — fully gated.** No public prices, and no end-user prices
   either. Public marketing claims stay qualitative (performance, depth, measured data), never
-  value/price-led. This is decided, not deferred. See `group/07-portal-and-pricing.md`.
+  value/price-led. This is decided, not deferred. See `group/01-commercial-model.md`.
 - **Direct to dealer, globally, through the store.** Distributors are a deliberate case-by-case
-  exception (scale or language barrier only), never the default. See `group/02-commercial-model.md`.
+  exception (scale or language barrier only), never the default. See `group/01-commercial-model.md`.
 
 ## Voice
 
@@ -73,6 +95,20 @@ here: we don't triage dealers by any single brand's order size. See `group/01-de
 - Speaks to the trade partner (the dealer/integrator) first — they are the reader and the asset.
 - No manufactured urgency, no superlatives, no unbacked claims. The content *is* the rep; a rep who
   fumbles the pitch loses a valuable dealer.
+- **Never lead with our own brilliance — lead with the dealer's win.** Our technical depth is
+  genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
+  niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
+  customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
+  See `group/00-strategy.md`.
+- **The Scandinavian register (group-wide voice principle).** Restraint over superlatives; substance
+  carried in plain language and in owned proper nouns, not genericised adjectives. Accept being
+  underestimated on first read — let the work re-rate the brand. Voice does substance; imagery does
+  emotion. No superlative without a measurement behind it. Originated in Pro-Fi's voice code and
+  adopted across all brands (`brands/pro-fi/positioning.md` §5). It sharpens, not replaces, the
+  dealer-first rule above.
+- **No superlative arms race between brands.** No brand claims to be *the* most complex, critical or
+  hardest part of a project. Each element is demanding in its own terms; state it plainly. Coherence
+  across the brand docs matters more than any one brand's emphasis.
 
 ## Hard don'ts
 
