@@ -127,8 +127,12 @@ dealer acts on it, so a record with no review date is not complete.
 1. **Hold it up against Engine first.** Establish what already exists mechanically, then work only on the layer
    above. **The gap between the two is the deliverable** — a list of fields the estate needs and the operational
    record does not hold.
-2. **Then fill it for C-ATS.** Three SKUs, the data largely exists, and the standard is wanted higher than it is —
-   so "good" gets defined against a real example rather than in the abstract.
+2. **C-ATS is done — `brands/c-ats/product-records.md`.** The worked example, and it found six things without any
+   new research: the REF-CP bond-versus-screw trap (the recommended install deliberately absorbs *less*, so an
+   installer who skips the adhesive gets acoustics the design didn't assume), the REV-CP cold-adhesive failure, a
+   corner-factor double-count warning living in a code comment, a "faceted ABS diffuser" wording violation in our
+   own legacy source, the marine panel having no acoustic data of its own, and a ~300 mm layout tolerance that is a
+   real selling point appearing in no marketing.
 3. **Then DT, by mechanism rather than by SKU.** The range is variant-heavy; document the mechanism once and table
    the variants.
 4. **Rank by the questions-generated field**, cross-checked against the archive's question frequency. Not

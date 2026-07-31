@@ -179,6 +179,23 @@ recurring-question log rather than from ideation; measure questions retired rath
 decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
 decisions rather than projects, and the lane does not start without them.
 
+### From the C-ATS product records — five things needing a decision or a check
+
+*Surfaced by filling the schema (`brands/c-ats/product-records.md`), so they are specific rather than general.*
+
+1. **The marine panel has no absorption data of its own.** The BSRIA report doesn't cover `REF-CP-MAR`, so it needs
+   establishing whether it is acoustically identical to the REF-CP with a marine finish or requires its own test.
+   That gap matters more for a compliance product than a standard one.
+2. **Installed-effective versus raw lab figures.** Derated values may exist in the legacy calculator; which set is
+   authoritative for quotes and design is undecided, and both being in circulation is worse than either.
+3. **Whether to commission a below-125 Hz measurement on the RES-CP.** It is the obvious next test, it would
+   strengthen the strongest product, and the design tooling's resonance sizing has a known blind spot below ~80 Hz.
+4. **Whether to commission ISO 17497 scattering data for the REF-CP.** Currently no scattering coefficient is
+   claimed, correctly — but measuring it would let us say something specific where competitors say "diffusion"
+   loosely.
+5. **The current EN 13501-1 classification for the REV-CP foam.** Class 0 is recorded; the European class should
+   live in the record rather than being looked up per project.
+
 ### The distributor network — largely decided, and the US is now open
 
 *Twenty-one live appointments recorded in `current-state.md` (July 2026). This is data, not yet a decision, and
