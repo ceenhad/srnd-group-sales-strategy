@@ -55,6 +55,10 @@ here: we don't triage dealers by any single brand's order size. See `group/00-st
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
   performance figures; no supplier names; no NDA install details; don't tease the commercial range;
   don't hard-code the "Complete" name expansion. See `brands/c-ats/`.)
+- **Check the platform before specifying anything that touches it.** Engine, the canonical dataset and the
+  Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
+  settled, read the current state first — this work has already based a position on a superseded ADR once, and
+  a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
 - **Facts about the present go in `current-state.md`.** The baseline — dealers, revenue shape, lead sources,
   what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
   reasoning about it.

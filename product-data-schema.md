@@ -22,8 +22,25 @@ to audit against. A first cut, for correction.*
   are both recorded as blocked on "unfragmenting the data" (`open-items.md` item 4). What that actually means is
   that there is no canonical product record. This is that record.
 
-*Scope note: the field list is a strategy decision; the implementation belongs in engine and the canonical
-dataset, not here. Don't specify a database in this repo.*
+## Before writing any of this: check Engine
+
+**Much of this is likely already under consideration in SRND Engine, and some may be implemented.** So the first
+move is not to fill this in — it is to find out what Engine already models, and then reconcile. **Two competing
+product schemas would be worse than none**, and this repo has already made the equivalent mistake once by basing
+a position on a superseded ADR.
+
+The division of labour that keeps this useful rather than duplicative:
+
+- **Engine is the system of record.** The data model, the storage, the identifiers, the workflow. Not this repo's
+  business, and not to be specified here.
+- **This file is the requirements view — the demand side.** What the sales, marketing and support estate *needs*
+  to exist per product, who consumes each field, and what it is for. That is the part an operational data model
+  would not necessarily capture, because it is about downstream use rather than storage.
+- **Where Engine already models a field, this file defers to it** and records the mapping. Where the estate needs
+  something Engine does not hold, that is the actual finding — and it is a much more useful output than a schema
+  written from scratch.
+
+*Read the field groups below as a checklist to hold up against Engine, not as a specification to implement.*
 
 ---
 
