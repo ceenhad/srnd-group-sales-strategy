@@ -161,7 +161,23 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
   cheaper problem.
 - Rides on: the studio, calls that are happening anyway, and questions being asked already.
 
-### 7. The properties get restarted — but the addresses and the history are kept
+### 7. The US, now that it is open
+
+**Apex-Tech has resigned from DT and the Screen Innovations arrangement is white label**, so the largest market
+in the world is unrepresented and unencumbered (`current-state.md`). Taken as an opportunity: the first chance to
+present the whole group there rather than one brand under somebody else's badge, and the first real test of the
+content-led model at scale.
+
+- **Smallest next move, and it comes before any marketing: establish whether we can fulfil US orders well** —
+  freight, duty, lead time, returns. Fulfilment is the binding limit on global scale
+  (`group/08-sales-motion.md`), and awareness that outruns operations produces a bad first order, which is the
+  order that tests us rather than the product.
+- **Then decide whether CEDIA Expo is part of the answer**, since it is the US trade moment and we are absent.
+- **It also corrects the DT-only exposure** in the international network, because presenting the whole group is
+  the plan rather than a retrofit.
+- Rides on: an opening we did not create. The work is fulfilment readiness, then content.
+
+### 8. The properties get restarted — but the addresses and the history are kept
 
 **Accepted: the websites and social accounts are restarted rather than edited.** They were built ad hoc before
 any of this was settled, so they carry positions we have since rejected — DT as a projector-screen company,
@@ -190,9 +206,9 @@ months and the lane most likely to stall stalls. So: start publishing to the kno
 channels, and let the rebuild follow the content rather than precede it.
 
 - **Smallest next move:** one brand's knowledge base, structured by the questions the archive says recur.
-- Rides on: nothing. This one costs time — the second item on this page that does.
+- Rides on: nothing. This one costs time, as does lane 9. They are the two that do.
 
-### 8. The other genuine build: productise the Screen Wall
+### 9. The other genuine build: productise the Screen Wall
 
 This needs deliberate effort rather than riding on something else, and it earns it:
 it makes the whole-room proposition physical, answers the LED shift, and contains four brands — so it

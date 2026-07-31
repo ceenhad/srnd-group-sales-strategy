@@ -177,30 +177,37 @@ recurring-question log rather than from ideation; measure questions retired rath
 decide, and only Neil and Olivier can:** the floor rate, and who is accountable for publication. Both are
 decisions rather than projects, and the lane does not start without them.
 
-### The distributor network — a decision needed, now the roster exists
+### The distributor network — largely decided, and the US is now open
 
 *Twenty-one live appointments recorded in `current-state.md` (July 2026). This is data, not yet a decision, and
 it needs one.*
 
-The scope correction is already made: the operating model is direct in the UK and distributor-led
-internationally (`decided.md` C1a). What has not been decided is **what to do with the network as it stands.**
-Four things need a call, and none needs a project:
+**Mostly decided already** (`decided.md` C1a–C1f): the scope correction, removal of dead and 2×-failing
+appointments, treating dealer-distributors as dealers, Screen Innovations as white label rather than a route to
+market, and the US as the priority territory approached directly with the whole group.
 
-1. **The six DT appointments producing nothing** — three of them with no contact in months (Atlas, Audiogene,
-   Synergy). Keep, revive or retire? Dormant appointments carry a real cost: they occupy a territory and imply
-   coverage that isn't there.
-2. **Screen Innovations and the USA.** The largest market in the world, reached through an OEM arrangement with
-   a competing screen manufacturer, producing low business. That is the single biggest gap in the table and it
-   is a strategic question rather than an account-management one.
-3. **The high-maintenance producers** — AV Nirvana, Prime Theaters, AV Daksma. These work, and they cost owner
-   attention. The content corpus is the obvious lever (`group/08-sales-motion.md`), because their questions are
-   the same questions, and a distributor-facing knowledge base may be the highest-return content of all.
-4. **AV Daksma also sells Screen Research.** Not necessarily a problem, but it should be a known and accepted
+**What remains open:**
+
+1. **The US approach itself.** The largest market is now unencumbered — Apex-Tech resigned and the white-label
+   deal never gave us presence. This is the first real test of the content-led model at scale: no body on the
+   ground, content as the rep, the whole group presented rather than one brand. **Two things must be settled
+   before demand is created, not after:** whether we can fulfil US orders properly (freight, duty, lead time —
+   the binding limit on global scale, `group/08-sales-motion.md`), and whether CEDIA Expo is part of the answer.
+   Creating awareness we cannot serve produces a bad first order, which is the order that tests us.
+2. **The high-maintenance producers** — AV Nirvana, Prime Theaters, AV Daksma. They work, and they cost owner
+   attention. Since they are effectively dealers (C1d), the content corpus is the lever: their questions are the
+   same questions, so **a partner-facing knowledge base may be the highest-return content of all** and it serves
+   the direct base at the same time.
+3. **AV Daksma also sells Screen Research.** Not necessarily a problem, but worth being a known and accepted
    position rather than an unexamined one.
+4. **Retirement mechanics.** C1c says dead appointments go; what is not settled is the order, the notice, and
+   whether a territory is re-approached directly straight away or left quiet for a period.
 
 **And one exposure to record rather than solve:** the international network is essentially a **DT** network —
 Pro-Fi's two appointments have not started, Fabric Walls has one. So international revenue rests on the brand
-whose core market is shrinking, which sharpens stress-test items 2 and 3 rather than answering them.
+whose core market is shrinking, which sharpens stress-test items 2 and 3 rather than answering them. **The US
+opening is the natural place to correct it**, because presenting the whole group there is the plan rather than a
+retrofit.
 
 ### Two acceptances that follow from content being the sales motion
 

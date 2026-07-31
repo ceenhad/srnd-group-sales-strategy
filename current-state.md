@@ -65,7 +65,8 @@ network is almost entirely a DT network.*
 | DT | NAVS | Australia | Reduced portfolio: cinema and Hi-Fi | Low; difficult on exchange rate and shipping |
 | DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
 | DT | Qualtron | Yachting | On-board entertainment | No business so far |
-| DT | Screen Innovations | USA | Screen manufacturer offering our Dynamic range | Low, in a very high-potential territory |
+| DT | Screen Innovations | USA | **White label — they own the relationship, not us** | Not a route to market for DT as a brand |
+| DT | ~~Apex-Tech~~ | USA | Our largest distributor | **Resigned from DT.** The US is now open |
 | DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
 | DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
 | DT | Tectrade Brun | Switzerland | Strong in cinema, complete portfolio | Starting to grow, high-potential territory |
@@ -73,6 +74,24 @@ network is almost entirely a DT network.*
 | Pro-Fi | Convergent Technologies | Australia | Audio and automation distributor | Not started |
 | Pro-Fi | Polaris | South America | Rep | Not started |
 | Fabric Walls | AV Daksma | Mexico | Strong in cinema, complete portfolio | Has a Fabric Walls demo room |
+
+**Two structural corrections that change how the table reads.**
+
+- **Screen Innovations is a white-label arrangement, not a distributor.** They own the relationship; we supply
+  the product. So the "low business in a high-potential territory" line was misread as underperformance — by
+  design it gives DT **no brand presence and no relationship in the United States.** The rAVe CEDIA 2023
+  coverage was their story, not ours. *Internal: the standing rule on not naming OEM relationships publicly
+  applies.*
+- **Apex-Tech, the largest distributor in the network, has resigned from DT.** Combined with the point above,
+  **the US — the largest market in the world — is now unrepresented and unencumbered.** Read as an opportunity
+  rather than a loss: it is the first chance to present the whole group there rather than one brand through
+  somebody else's badge.
+
+**And most of these are not really distributors.** In practice most are **dealer-distributors** — they buy for
+their own projects like a dealer while holding a territory like a distributor. That collapses a distinction the
+strategy has been carrying: it explains the high-maintenance finding (a dealer needs project support, so of
+course they consume owner time), and it explains why the 2× test bites so hard — a hybrid multiplies nothing
+while still occupying the territory.
 
 **What the table says, counted rather than characterised:**
 

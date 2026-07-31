@@ -159,7 +159,7 @@ expect it to take time to work.
 
 **6. Two incidental findings worth acting on.** The **DT Screen Wall construction film (527 views, ISE 2023)**
 is among DT's better performers, for a product that still has no page and no datasheet — more weight behind
-`../NEXT.md` lane 8. And **rAVe covered DT at CEDIA Expo 2023** (250 views): third-party trade coverage exists
+`../NEXT.md` lane 9. And **rAVe covered DT at CEDIA Expo 2023** (250 views): third-party trade coverage exists
 and nothing was built on it. *(That clip frames the product through a partner brand — treat the relationship as
 internal, per the standing rule on not naming OEM arrangements publicly.)*
 
