@@ -93,8 +93,10 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| CON-1 | Decide | Set the floor rate — the minimum sustained through a busy month, derived from what the studio already produces. Component 2: the motion does not start without it | Neil + Olivier | Minutes | ready | `NEXT.md` lane 6, `group/09-motion-design.md` |
-| CON-2 | Decide | Confirm Ben's editorial ownership as his named trade — the one genuine reallocation in the plan. Component 2's other half | Neil | Minutes | ready | `NEXT.md` §A, `group/09-motion-design.md` |
+| CON-1 | ~~Decide~~ | ~~Set the floor rate~~ — **struck as ceremony** (reversal of 2026-07-31, `decided.md` S24); the production line replaces it | — | — | dropped | `decided.md` (Reversals) |
+| CON-2 | ~~Decide~~ | ~~Confirm Ben's editorial ownership~~ — **struck as ceremony** (same reversal); the line needs an operator, not a ceremony | — | — | dropped | `decided.md` (Reversals) |
+| CON-15 | Do | Stand up the production line (S24): substance inventory → Claude drafts the derivative set per atom → owner truth-check in minutes → batched, source-tagged distribution to the placements | — | Small to start | in progress | `group/09-motion-design.md` (component 2) |
+| CON-16 | Do | Run production batches atom by atom, filling pathway slots — batch 001 (the REV-CP warm-room note) drafted and awaiting truth-check | Claude (drafting), owner (truth-check) | Minutes per batch to check | in progress | `brands/c-ats/content-batch-001.md` |
 | CON-3 | Do | Mine sent mail (the two or three people who answer technical questions, last two or three years) and count which questions recur. The ranked list is the publishing schedule | Ben | Days | ready | `NEXT.md` lane 6, `group/08-sales-motion.md` |
 | CON-4 | Do | First batch recording session against the corrected ranked list. Component 3: the first presenter-led content in the estate's history | Neil (face), Ben (production) | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
 | CON-5 | Do | Estate hygiene: remove MAG Theatron and Barco playlists; fix the `@Complete_ATS` description (hard-coded "Complete…" expansion); fix DT's projector-screen-company description | — | Hours | ready | `NEXT.md` lane 6, `group/04-content.md` |

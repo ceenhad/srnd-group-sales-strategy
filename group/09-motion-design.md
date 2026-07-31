@@ -183,36 +183,39 @@ the install/support corpus with brand sites pointing in, or each brand's knowled
 `cinema-expert.com` as the aggregate. One answer must not live in two places for the same reason no product
 does.
 
-## Component 2 — The operation: rate and accountability
+## Component 2 — The operation: a production line, not a ceremony
 
-**The loop, and it is the entire operation:** archive → ranked question list → batch recording → edited and
-published (S6). Ben drafts and ranks, the owners correct the order, Neil answers on camera, Ben publishes.
-The retired questions return the owner minutes that fund the next round.
+**We need a lot of content, and volume is affordable because production is no longer the scarce thing.** The
+split S5 already made — judgement stays, labour moves — completes here: **the labour moves to Claude**, not
+to a person. And nothing about that touches the authorship rule (S8), because what is never scaled is the
+*substance*: every piece derives from something a human here actually decided, measured, wrote or said — the
+product records, the measured data, the archive, the settled positions in this repo. Claude multiplies
+pieces from that substance; it never invents claims. **Volume of pieces, never volume of assertions**
+(`../decided.md` S24 — the earlier floor-rate and role-confirmation ceremonies are struck; see the
+reversal).
 
-**The split that makes it run: judgement stays, labour moves** (S5). What is worth answering, what the dealer
-is really asking, what is true today, and what must not be published yet — the owner's, undelegable.
-Capturing, counting, ranking, drafting, briefing, scheduling, publishing, keeping current — never the
-owner's. **The owner never faces a blank page:** the editorial output is a proposal to correct, not a
-schedule handed down.
+**The line, in four steps:**
 
-**The cost rule: minimise owner minutes per published answer, not owner involvement.** Where an answer
-already exists in writing, don't record it — confirm and edit. Otherwise record, don't write: ten minutes of
-talking yields an article, a video, a social hook and a datasheet paragraph; an hour of writing usually
-doesn't happen. Batch the recording: one afternoon, one frame, weeks of output.
+1. **Substance in.** The atoms that already exist: the product records, the BSRIA data, the staged knowledge
+   base, the install notes, `copy.md`, the archive as it gets mined, the three-line spec notes as they
+   accumulate.
+2. **Draft at volume.** From each atom, Claude drafts the full derivative set: the canonical article, hook
+   variants per appeal category (S23), a recording prompt where the piece wants a face, the datasheet
+   paragraph, the email item. Guardrails baked in at drafting time: brand truth, the register, no
+   superlatives, no invented figures, dealer first. Not every appeal category fills from every atom — the
+   matrix fills where the substance supports it, never stretched.
+3. **Truth-check — minutes, not hours.** The only human-gated step, and non-delegable: is it true today, may
+   it be published, is the wording right where wording matters. An owner corrects a draft; nobody authors
+   from blank.
+4. **Distribute efficiently.** Canonical home first, then syndicated per the placement rules
+   (`04-content.md`), batched and queued, every piece source-tagged (S23) and carrying its destination slot.
 
-**The roles, as commitments** (`../NEXT.md` §A, S20 — fitted in, not swapped out):
+**What nothing needs to be: fancy.** No fresh ten-minute video every day — video is occasional batch
+material cut many ways; most pieces are text and image, cheap and frequent. The measure stays questions
+retired and bites per hook, not production values.
 
-| Who | Commits to | Costs them |
-|---|---|---|
-| Neil | Judgement and voice: approving the ranked list, confirming truth, recording in batches. Never authoring the list | Minutes per approval; one session per batch |
-| Ben | Editorial ownership: drafting, ranking, briefing, producing, publishing, keeping current | Real and ongoing — the one genuine reallocation |
-| Olivier | The trade view: which questions dealers actually ask, and the follow-up | Light, and already his job |
-
-**The rate is a floor, not a target** — the minimum sustainable through a busy month, held all year, derived
-from what the studio already produces rather than from what a plan would like. **Decision — Neil and
-Olivier: set the number.** The motion does not start without it.
-
-**The stall signal, and the only instrumentation this component needs:** a month with no publication.
+**What stays human:** the substance, the truth-check, the face when a piece has one, and the judgement about
+what must not be published yet. Everything else is the line.
 
 ## Component 3 — The face: familiarity doing what repeat visits did
 
@@ -315,9 +318,10 @@ turn. One cascade, not six adoptions — and no brand's early results re-open th
 
 | Decision | Whose | Register |
 |---|---|---|
-| The floor rate | Neil + Olivier | CON-1 |
-| Editorial ownership confirmed as Ben's named trade | Neil | CON-2 |
 | The canonical-home map (`cinema-expert.com` vs per-brand knowledge bases) | — | CON-14 |
 | The channel architecture | — | CON-7 |
 | Where the spec-conversation notes land, and the habit confirmed | — | XS-2 |
 | Who owns "wanting the order" | — | XS-3 |
+
+*(Two earlier entries — the floor rate and a formal confirmation of editorial ownership — are struck as
+ceremony: `../decided.md`, reversal of 2026-07-31. The production line replaces them.)*
