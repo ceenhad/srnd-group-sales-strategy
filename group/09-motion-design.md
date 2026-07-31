@@ -4,10 +4,14 @@
 in this trade that pattern is a rep; ours is content, the tools, the store and a very few people
 (`08-sales-motion.md`, `../decided.md` S1–S9 — committed). **The starting point is not the machinery — it is
 the buyer journey.** The journey is defined once, at group level, in `02-buyer-journey.md`: six stages from a
-dealer who has never heard of us to one who orders across the group. This document does two things beneath
-that: it maps **what serves the dealer at each stage and where that stands today**, and it designs the five
-pieces of machinery the map keeps calling on — each designed once, here, at group level, with every brand
-inheriting the design and supplying the substance. No brand forks the loop, sets its own rate, or runs its
+dealer who has never heard of us to one who orders across the group. **And the proposition this document runs
+on** (Neil, 2026-07-31; `../decided.md` S22): define the journey clearly, identify the **gateways** between
+its stages, and generate **pathways of content** that move a dealer through each gateway — start to finish,
+then back round the loop — because most of a rep's job is pure mechanics, and mechanics can be turned into a
+process. This document does three things beneath the journey: it maps **what serves the dealer at each stage
+and where that stands today**; it defines **the gateways, their signals, and the pathways** that chain
+content through them; and it designs the five pieces of machinery the pathways draw on — each designed once,
+here, at group level, with every brand inheriting the design and supplying the substance. No brand forks the loop, sets its own rate, or runs its
 own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only Neil or
 Olivier can make are marked as decisions, not filled in. Almost everything below is assembled from positions
 already settled in `02-buyer-journey.md`, `04-content.md`, `08-sales-motion.md` and `../decided.md`; the
@@ -35,6 +39,69 @@ so the map is read for coverage, and a stage with nothing behind it is where the
 unwritten, the install layer is under-documented, and the next order belongs to nobody. Those are the same
 gaps the register's readiest items already point at, which is the reassuring part: the work and the journey
 agree.
+
+---
+
+## The gateways — what moves a dealer from stage to stage
+
+*A gateway is the state change between two stages. The journey already names one formally — registration,
+"the hinge" (`02-buyer-journey.md`) — and the proposition generalises it: **six gateways, not one.** For each
+gateway a process needs three things: the state change itself, an **observable signal** that it happened
+(a process cannot trigger on a state nobody can see), and the touch that moves a dealer through it. Drafted
+for correction — the signals in particular are claims about what is observable, and wrong rows should be
+struck.*
+
+| Gateway | The state change | The signal we can observe | What moves them through |
+|---|---|---|---|
+| **G1** (1→2) | The hook landed — a stranger with a problem found us and looked | A brand-site visit arriving from a hook: search, an AI answer, social, press, a referral | The problem stated boldly, in their words — the explainer, the hook |
+| **G2** (2→3) | The proposition landed — "could this work for me?" became worth their time | Depth engagement: knowledge-base reads, a tool used, a download taken, a sample or enquiry requested | Range and possibility — data cards, the virtual case study |
+| **G3** (3→4) | Convinced enough to commit — **registration, the hinge**, with marketing permission given willingly | A registration in engine. The one gateway already formally defined and instrumented | Proof that removed the last doubt, and a registration worth crossing: gated pricing, tools, training access |
+| **G4** (4→5) | The first order placed — the relationship becomes real | An order in engine | An entry product, a frictionless quote and checkout, a Zoom for the considered sale — and someone asking |
+| **G5** (5→6) | The first job succeeded — the install went right and the dealer looked good | The weakest signal today: an uneventful order (no support escalation), a reorder, a verification completed. **Needs defining** | Manuals organised by moment, "how do you do X", install support that answers |
+| **G6** (6→loop) | Recalled and expanded — the next project lands and a second layer of the room is ours | **An order from a second brand** — FACT-1's query is exactly this signal, aggregated | The adjacency prompt at the spec moment, always-on presence, reorder ease — and the whole-room story, earned now |
+
+**Two honest notes.** Only G3, G4 and G6 are cleanly observable today; G2's signals partly exist (tool leads
+land in engine), and G5's needs defining before anything can trigger on it. And per the standing rule, the
+signals are what the process needs to *observe* — engine is where they would eventually live, engine is not
+specified here, and what engine already captures gets checked before anything is designed twice (the S16a
+discipline).
+
+## Pathways — content chained gateway to gateway, and back round
+
+**A pathway is the content sequence that walks one dealer through the whole journey**: each piece has one
+job — to move its reader through one specific gateway — and each piece hands to the next. The no-dead-ends
+rule (`02-buyer-journey.md`) stops being a quality standard and becomes the connective tissue: the handoff at
+the end of each piece *is* the pathway.
+
+- **One pathway per entry door, not per campaign.** The door is a product and its problem
+  (`02-buyer-journey.md`); the pathway is everything from that door's hook to the loop. The register's
+  content items stop being a pile and become **slots**: an explainer is a G1 piece, a virtual case study a
+  G2 piece, measured data a G3 piece, the entry product's page a G4 piece, an install guide a G5 piece, the
+  adjacency prompt a G6 piece.
+- **The loop is the group's payoff, and it re-enters at stage 2, not stage 1.** An existing dealer crossing
+  to a second brand doesn't need the hook — they already trust us; they need that brand's proposition and
+  proof. G6 exits one brand's pathway onto another brand's pathway at its midpoint. That is what cross-sell
+  *is* in journey terms, and why the adjacency map (XS-1) is a pathway junction, not a campaign input.
+- **The smallest complete version is one pathway, end to end, for one door** — and per the sequencing rule
+  that is a C-ATS door, where every slot's material either exists or is nearest to existing. Written once, it
+  is the template every other door copies.
+
+## The process — the rep's mechanics, systematised
+
+**Most of what a rep does is mechanics: notice the state, choose the next right touch, make it, note the
+response.** All four become process once the gateways have signals — which is the executable form of the
+journey's own standard, *"right thing, right moment, triggered by the dealer's state changing, not by our
+sending schedule."* The pathway supplies the "next right touch" for every state, so the choice is designed
+once instead of judged every time.
+
+**What stays human is the residue already named** (component 5): judgement about what is true and publishable;
+the novel problem, which should always reach an owner; recognition, which is an act; and the ask itself —
+though even the ask can be process-*triggered*: a quiet-dealer signal prompts a person, and the person does
+the asking.
+
+**Where it runs:** eventually engine — the standing rule holds (strategy here, operations there). What this
+document owes engine is the state model: the stages, the gateways, the signals. Nothing more is specified
+here.
 
 ---
 

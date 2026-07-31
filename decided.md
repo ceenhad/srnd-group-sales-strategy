@@ -78,6 +78,7 @@ add the evidence and move on — or overturns it, which has to be stated explici
 | S8 | **Authorship is never scaled.** No bulk or generic content; volume is not the goal. The archive is legitimate because it is our own authored answers. | `group/08-sales-motion.md`. | 2026-07 |
 | S9 | **Show what can be shown; explain what cannot.** Short pieces that make an argument. The catalogue fails. | ~9,500 views on a 52-second reverberation explainer; DT's mechanisms-in-motion at 600–1,500; two dozen product films at 1–26. | 2026-07 |
 | S10 | **Websites and social restart; URLs, indexed pages and channel history are kept.** The rebuild must not gate the content cadence. | Neil's acceptance, plus the compounding argument. | 2026-07 |
+| S22 | **The journey runs as a process.** The buyer journey is defined with **gateways** between its stages; content is generated as **pathways** that move a dealer through each gateway, start to finish and back round the loop. Most of a rep's job is pure mechanics, and the mechanics become process; the judgement residue stays human. | Neil's proposition, 2026-07-31. Design: `group/09-motion-design.md`. | 2026-07 |
 
 ## Partner programme
 

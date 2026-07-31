@@ -54,9 +54,11 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
    - `07-tools.md` — where calculators and design tools fit commercially.
    - `08-sales-motion.md` — how a sale is made with no salesforce: what content takes, what substitutes for
      the rest, and why it compounds and scales.
-   - `09-motion-design.md` — how a sale gets made, journey-first: the buyer journey's six stages mapped to
-     what serves each one and its honest current state, then the five pieces of machinery designed once as
-     the group standard the brands inherit — with the decisions that remain marked, not guessed.
+   - `09-motion-design.md` — how a sale gets made, journey-first: the six stages mapped to what serves each
+     one; the **gateways** between stages with their observable signals; the **content pathways** that move a
+     dealer gateway to gateway and back round the loop (`decided.md` S22); then the five pieces of machinery
+     designed once as the group standard the brands inherit — with the decisions that remain marked, not
+     guessed.
    - `store-split-worklist.md` — a working execution list, not strategy.
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
