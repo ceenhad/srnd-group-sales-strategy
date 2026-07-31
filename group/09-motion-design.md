@@ -1,15 +1,44 @@
-# The motion, designed — five components, one group standard
+# How a sale gets made — the journey, then the machinery that serves it
 
-*`08-sales-motion.md` argues the motion; this document is its operating design. The motion is committed
-(`../decided.md` S1–S9) and has five components; each is designed **once, here, at group level**, and every
-brand inherits the design and supplies the substance — its questions, its answers, its proof. No brand forks
-the loop, sets its own rate, or runs its own version. **Drafted for correction, not adoption** — per the
-repo's own rule, the owner never faces a blank page: strike what is wrong, and the decisions only Neil or
+*A "sales motion" is simply **how a sale gets made, end to end, as a repeatable pattern**. For most companies
+in this trade that pattern is a rep; ours is content, the tools, the store and a very few people
+(`08-sales-motion.md`, `../decided.md` S1–S9 — committed). **The starting point is not the machinery — it is
+the buyer journey.** The journey is defined once, at group level, in `02-buyer-journey.md`: six stages from a
+dealer who has never heard of us to one who orders across the group. This document does two things beneath
+that: it maps **what serves the dealer at each stage and where that stands today**, and it designs the five
+pieces of machinery the map keeps calling on — each designed once, here, at group level, with every brand
+inheriting the design and supplying the substance. No brand forks the loop, sets its own rate, or runs its
+own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only Neil or
 Olivier can make are marked as decisions, not filled in. Almost everything below is assembled from positions
-already settled in `04-content.md`, `08-sales-motion.md` and `../decided.md`; the assembly is what was
-missing.*
+already settled in `02-buyer-journey.md`, `04-content.md`, `08-sales-motion.md` and `../decided.md`; the
+assembly is what was missing.*
 
 ---
+
+## The journey, served — stage by stage
+
+*The six stages are `02-buyer-journey.md`'s; this map adds what serves each one and its honest current state.
+The execution standard that governs it is the journey's own: **no gaps, and every stage hands to the next** —
+so the map is read for coverage, and a stage with nothing behind it is where the journey breaks.*
+
+| Stage | The dealer needs | What serves it | Where it stands today |
+|---|---|---|---|
+| **1 — Unaware → get in front of them** | Their problem stated boldly, in their own words | Search and AI answers, social, trade press, events; and other SRND brands' own dealers — the group-native entry point | The proven format exists (short explainers that make an argument); hooks are thin; the EI microsite runs empty; personal authority is dormant |
+| **2 — Name lands → land the proposition** | Range and possibility, simply put | The brand sites' marketing on-ramp; data cards; virtual case studies | **The unwritten layer** — on-ramp copy is largely absent (the C-ATS placeholder hero is the emblem); the render library exists as raw material, not stories |
+| **3 — "Could this work for me?" → prove it** | Doubt removed — *can I trust this enough to put it in my project?* | The knowledge base, measured data, recorded demos, sample kits, the Experience Centre and its virtualised form, a Zoom | BSRIA proof is published but buried; the C-ATS knowledge base is staged, not live; the Experience Centre is not yet virtualised; nothing in the estate has a presenter |
+| **4 — Wants to buy → register, then buy** | A registration hinge worth crossing, then a frictionless purchase | Registration and the gated store (the mechanism runs in engine); training access; an entry product per brand | The mechanism is live but registration grants only pricing — training is parked, entry products undecided (DEC-3) |
+| **5 — First job, on site → make it succeed** | The install to go right; to look good in front of their client | Manuals and instructions organised by moment, "how do you do X", verification | **The concentrated debt** — manuals are poor outside C-ATS; the two critical one-pagers are written and unpublished |
+| **6 — The next order** | To be recalled the moment the next project lands, and to be effortless to act on | Always-on presence, reorder ease, adjacency prompts in the spec conversation, and somebody asking | **Weakest of all** — the adjacency map is unwritten, the spec conversations are uncaptured, and "wanting the order" is unowned |
+| *(Parallel track)* **The specifier** | To find us named pre-tender | CPD, NBS clauses, BIM/Revit objects, specifier-grade downloads | Deliberately parked; wakes through personal authority (`05-channels.md`) |
+
+**What the map says:** the journey currently breaks at stages 2, 5 and 6 — the proposition layer is
+unwritten, the install layer is under-documented, and the next order belongs to nobody. Those are the same
+gaps the register's readiest items already point at, which is the reassuring part: the work and the journey
+agree.
+
+---
+
+# The machinery, designed — five components, one group standard
 
 ## Component 1 — The answer: the unit of the motion
 

@@ -1,8 +1,11 @@
 # The sales motion
 
-*How a sale gets made with no salesforce. Its own document because the sales half of sales and marketing had
-outgrown a section of the commercial model — the reasoning for having no field force stays in
-`01-commercial-model.md`, the craft of making the content is in `04-content.md`, and this is the motion itself.*
+*A "sales motion" is simply **how a sale gets made, end to end, as a repeatable pattern** — what does the
+reaching, the persuading, the proving, the answering, the closing and the following-up. For most companies in
+this trade the answer is a rep; ours is not. Its own document because the sales half of sales and marketing
+had outgrown a section of the commercial model — the reasoning for having no field force stays in
+`01-commercial-model.md`, the craft of making the content is in `04-content.md`, and this is the motion
+itself.*
 
 ## The premise, and the two properties that make it more than a workaround
 

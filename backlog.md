@@ -1,8 +1,8 @@
 # Backlog — the register
 
-*Content as the sales rep is committed (`decided.md` S1–S9), and the motion's five components are designed
-**once, at group level**, in [`group/09-motion-design.md`](group/09-motion-design.md) — the standard every
-brand inherits. This file is the register beneath that: every discrete action in the repo, extracted into one
+*Content as the sales rep is committed (`decided.md` S1–S9). The buyer journey is the spine
+(`group/02-buyer-journey.md`), and [`group/09-motion-design.md`](group/09-motion-design.md) maps what serves
+each of its stages and designs the machinery **once, at group level** — the standard every brand inherits. This file is the register beneath that: every discrete action in the repo, extracted into one
 working surface, each workstream tagged by the component it develops, whether it is a prerequisite (the
 corpus the motion speaks from), or whether it is independent work running alongside. It adds no argument and
 no positions; every row traces to its source. `NEXT.md` keeps the reasoning; `decided.md` keeps what is
