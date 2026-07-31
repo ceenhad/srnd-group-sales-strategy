@@ -55,6 +55,9 @@ here: we don't triage dealers by any single brand's order size. See `group/00-st
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
   performance figures; no supplier names; no NDA install details; don't tease the commercial range;
   don't hard-code the "Complete" name expansion. See `brands/c-ats/`.)
+- **Facts about the present go in `current-state.md`.** The baseline — dealers, revenue shape, lead sources,
+  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
+  reasoning about it.
 - **The work ratchets; it does not spiral.** `decided.md` records what is closed. New data from real work lands
   as **evidence** against a decision or an open item — it does not reopen the reasoning that produced the
   decision. A decision changes only when someone says it changes, recorded as a dated reversal. After logging
