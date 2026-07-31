@@ -117,7 +117,37 @@ always operated. **Whether it continues is SI's decision, not a fork we have to 
 distributor resigns its dealer base does not disappear — **it becomes unserved.** Those dealers already specify DT,
 have installed it, and have just lost their supply route.
 
-**That list is the single most valuable asset in this entry**, and it changes the shape of it entirely:
+**And we already know plenty of US dealers.** So this is not a discovery problem either. The contacts exist or are
+reachable; what does not exist is a **direct relationship** with them.
+
+**Which makes US entry a conversion problem, not an acquisition problem** — and that is a much narrower piece of
+work than a market launch. Three consequences:
+
+- **Marketing is not the constraint.** Nothing needs to find these dealers. The corpus, search and AI visibility are
+  irrelevant to this half, which is why it can start immediately.
+- **The constraint is the offer and the terms.** A known dealer moving from a distributor to direct is crossing the
+  registration hinge (`02-buyer-journey.md`), and that hinge has to be worth crossing.
+- **The work is personal, not campaign-shaped.** A known list, a direct approach, a clear proposition. This is the
+  human residue the sales motion always kept — somebody wanting the order (`08-sales-motion.md`) — and here it is
+  the whole job.
+
+### What a known US dealer gains and loses by going direct
+
+Both halves need answering out loud, because they will be weighed.
+
+**What they gain, and it is the manufacturer argument** (`03-partner-programme.md`): the product can be changed for
+their job; questions are answered by the people who decided what it does rather than relayed; lead time is ours to
+own; the job can be priced rather than the line item; and nobody sits between them and the factory.
+
+**What they lose, and pretending otherwise wastes the conversation:** local credit, local stock, somebody in their
+own working hours, and one purchase order covering many brands. **Spares and logistics are already answered**
+(`../decided.md` C1g). Support hours and credit are not, and those are the two objections to expect.
+
+**This is also where the price question stops being deferrable.** A dealer who bought DT through Apex-Tech has a
+price they know. Approaching them direct without a settled position on what they now pay and what they make is not
+a conversation that can be had twice.
+
+**That list of dealers is the most valuable asset in this entry**, and it changes the shape of it entirely:
 
 - **It is the fastest revenue available anywhere in the strategy** — warm accounts, known product, an immediate
   reason to make contact.

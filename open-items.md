@@ -46,7 +46,11 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
    entirely on the declining brand. Unit counts of masking screens per year would answer half of it cheaply.
 7. **Pre-tender specification is untouched.** Named as the route to both specifiers and adjacent markets, and
    nothing has been done — no NBS, no Revit, no CPD. It was Stage 2 and never started.
-8. **There is still no answer to price.** Unchanged, cheap, independent of everything else, and it will be asked.
+8. **Price is no longer deferrable, and it has moved up this list in practice.** A dealer who bought DT through
+   Apex-Tech knows what they used to pay. Approaching them direct without a settled position on what they now pay
+   and what they make is a conversation that cannot be had twice — so **the price answer now gates the fastest
+   revenue in the strategy** (`decided.md` C1k). Along with support hours and credit terms, it is one of the three
+   things a known US dealer will weigh.
 9. **Light Walls remains deferred**, so the whole-room claim is still four-fifths.
 10. **The partner-programme parity problem survives** in published material — "one relationship, whole room"
     overclaims, and a dealer always needs a distributor for the rest.
