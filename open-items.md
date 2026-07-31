@@ -23,19 +23,22 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
 
 ### Live weaknesses, in order
 
-1. **Everything routes through one workstream. It has now started.** The first two deliverables are written —
-   `brands/c-ats/install-critical-notes.md`, the two critical install notes — and publication is unblocked (S21). Documentation is the critical path for
-   support, US entry, the site rebuild, the partner programme and the content cadence — all four. Two days ago
-   that was a lane; it is now a single point of failure, and nothing has been produced. **If one thing gets fixed
-   from this list, it is this.**
+1. **Documentation is the critical path for most things — but no longer for US entry.** It still gates support,
+   the site rebuild, the partner programme's substance and the content cadence, and it remains the single
+   workstream most of the plan depends on. **Started:** the two critical install notes are written
+   (`brands/c-ats/install-critical-notes.md`) and publication is unblocked (S21). **Scope correction:** US entry
+   into known dealers is a conversion problem needing terms rather than content (C1k), so it does not wait for
+   this — which is good news, because it removes the worst dependency in the plan.
 2. **~~The plan depends on two unconfirmed roles.~~ Settled (`decided.md` S20)** — the responsibilities get fitted
    in as everyone's do, nothing comes off anyone's plate, and the rate is therefore a floor rather than a target.
    **What survives:** the model still rests on two people with no fallback, which is thinner than the field-sales
    model it replaced. Worth holding rather than solving.
-3. **Pruning the distributor network vacates territories we cannot yet serve.** C1c removes dead appointments
-   because they are barriers — correct — but a barrier removed is not a market covered. **The decision created a
-   gap that nothing currently fills**, and the direct capability it assumes is the same undone documentation and
-   content work as item 1. Sequence the removals against readiness, or the coverage simply goes.
+3. **Pruning the network — and the right test is not readiness, it is whether we know the dealers.** The US
+   corrects this item. There, removing the distributor left no gap because **we already know the dealers**, so the
+   relationship is ours to establish directly (C1k). Generalised: **a vacated territory is only a gap where we
+   don't know who to talk to.** So the question per territory is not "is our documentation ready" but "do we know
+   the dealers there?" Where the answer is yes, remove and convert. Where it is no, the removal is genuinely
+   premature — and that, not readiness, is what to check before each one.
 4. **Nothing is instrumented, still.** The cross-brand dealer count — the one number the group thesis is measured
    by — remains unknown, and it is a store query. Everything else in this list is judgement; this one is a fact
    nobody has fetched.
@@ -65,9 +68,16 @@ until something on the list above is done.**
 
 ### What follows, in order
 
-The list above *is* the staging; the earlier Stages 1–5 are superseded by it. The first three items are one piece
-of work — **documentation, with the roles agreed and the territory sequence set against it.** Item 4 is a query
-somebody runs this week. Items 5 to 10 wait, and are named so they read as choices.
+The list above *is* the staging; the earlier Stages 1–5 are superseded by it.
+
+**Two threads now, not one, and they don't compete:**
+
+- **The US conversion.** Known dealers, direct contact, personal rather than campaign-shaped. **Gated only on
+  price and trade terms** (item 8) plus a view on support hours and credit. Fastest revenue in the strategy and a
+  closing window.
+- **Documentation.** Everything else depends on it, it has started, and it runs at the floor rate.
+
+Item 4 is a query somebody runs this week. Items 6, 7, 9 and 10 wait, and are named so they read as choices.
 
 ### Background: the distribution history, which closed the fork
 
