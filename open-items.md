@@ -23,13 +23,15 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
 
 ### Live weaknesses, in order
 
-1. **Everything now routes through one workstream that has not started.** Documentation is the critical path for
+1. **Everything routes through one workstream. It has now started.** The first two deliverables are written —
+   `brands/c-ats/install-critical-notes.md`, the two critical install notes — and publication is unblocked (S21). Documentation is the critical path for
    support, US entry, the site rebuild, the partner programme and the content cadence — all four. Two days ago
    that was a lane; it is now a single point of failure, and nothing has been produced. **If one thing gets fixed
    from this list, it is this.**
-2. **The plan depends on two named people and neither role is confirmed.** Neil authoring on camera, Ben owning
-   editorial. Both are sensible; neither is agreed, scheduled or resourced, and the model has no fallback if
-   either does not happen. **Thinner than the field-sales model it replaced**, which is worth saying plainly.
+2. **~~The plan depends on two unconfirmed roles.~~ Settled (`decided.md` S20)** — the responsibilities get fitted
+   in as everyone's do, nothing comes off anyone's plate, and the rate is therefore a floor rather than a target.
+   **What survives:** the model still rests on two people with no fallback, which is thinner than the field-sales
+   model it replaced. Worth holding rather than solving.
 3. **Pruning the distributor network vacates territories we cannot yet serve.** C1c removes dead appointments
    because they are barriers — correct — but a barrier removed is not a market covered. **The decision created a
    gap that nothing currently fills**, and the direct capability it assumes is the same undone documentation and
