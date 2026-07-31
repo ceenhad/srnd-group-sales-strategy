@@ -183,9 +183,9 @@ decisions rather than projects, and the lane does not start without them.
 
 *Surfaced by filling the schema (`brands/c-ats/product-records.md`), so they are specific rather than general.*
 
-1. **The marine panel has no absorption data of its own.** The BSRIA report doesn't cover `REF-CP-MAR`, so it needs
-   establishing whether it is acoustically identical to the REF-CP with a marine finish or requires its own test.
-   That gap matters more for a compliance product than a standard one.
+1. **~~The marine panel has no absorption data of its own.~~ Corrected — a marine absorption coefficient sheet is
+   published on `c-ats.co.uk`.** So the `panels.json` note is wrong as stated. What remains open is whether that
+   sheet derives from the same BSRIA report or a separate test. Worth establishing, but not a data absence.
 2. **The REF-CP has two different absorption figures and nobody had noticed.** The default in `panels.json` comes
    from the **legacy CATS Calculator (entry 3084)**; **BSRIA test 6** — the intended plane configuration — gives
    roughly double at 250 Hz and 500 Hz (0.20 and 0.54 against 0.08 and 0.28). Plausibly both are right for

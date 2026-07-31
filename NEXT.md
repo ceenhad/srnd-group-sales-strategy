@@ -245,6 +245,16 @@ months and the lane most likely to stall stalls. So: start publishing to the kno
 channels, and let the rebuild follow the content rather than precede it.
 
 - **Smallest next move:** one brand's knowledge base, structured by the questions the archive says recur.
+- **And a specific, cheap fix worth doing first.** The C-ATS Shopify site is generated and structurally right, but
+  its hero is still the Shopify placeholder — *"this signature bestseller exceeds all expectations"*, which is
+  verbatim what the brand rules prohibit — and the **3 Rs has disappeared from the homepage** that the old site led
+  with. Also live: £0.00 with "Sale price" labels on every item, "exclusive deals" in the email capture, the Room
+  Selector still in the nav after the decision to remove it, SKU-first product names, and marine at equal
+  prominence. **None of these needs a rebuild.** See `group/../brands/c-ats/brand-data.md`.
+- **The most under-used asset on either C-ATS site:** the **full BSRIA report is published as a public PDF**, with
+  five per-panel coefficient sheets beside it — specifier-grade third-party proof, freely available, sitting behind
+  a nav item called "Technical Information." That is what a doubting specifier wants and what AI engines cite
+  (lane 6). Surfacing it costs nothing.
 - Rides on: nothing. This one costs time, as does lane 9. They are the two that do.
 
 ### 9. The other genuine build: productise the Screen Wall
