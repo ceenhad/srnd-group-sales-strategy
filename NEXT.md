@@ -245,6 +245,9 @@ months and the lane most likely to stall stalls. So: start publishing to the kno
 channels, and let the rebuild follow the content rather than precede it.
 
 - **Smallest next move:** one brand's knowledge base, structured by the questions the archive says recur.
+- **The copy is written and ready to paste — `brands/c-ats/copy.md`.** Homepage hero, the 3 Rs block, the depth
+  argument, the proof block, the two routes, three product on-ramps, the four services, and a nine-point fix list.
+  Generated from the product record rather than composed page by page, which is the method (`decided.md` S19).
 - **And a specific, cheap fix worth doing first.** The C-ATS Shopify site is generated and structurally right, but
   its hero is still the Shopify placeholder — *"this signature bestseller exceeds all expectations"*, which is
   verbatim what the brand rules prohibit — and the **3 Rs has disappeared from the homepage** that the old site led
