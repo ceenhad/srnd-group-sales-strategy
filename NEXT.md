@@ -32,10 +32,9 @@ Nothing starts until these are agreed, because an unowned critical path is how t
 | **Ben** | Editorial ownership. Drafting and ranking the list, briefing, producing, publishing, keeping it current. | Real, ongoing, and the one genuine reallocation on this page. |
 | **Olivier** | The trade view — which questions dealers actually ask, and the follow-up nobody currently owns. | Light, and it is already his job. |
 
-**The honest trade, which should be decided rather than discovered:** Ben's renders are the group's primary visual
-language and its only unencumbered proof asset. He cannot own editorial *and* keep render output at current volume.
-**Something comes off his plate, or the cadence is set to what is genuinely left over.** Either is fine; assuming
-both is not.
+**Settled: nothing comes off anyone's plate.** Ben is the visualisation specialist but not rendering all day, and
+the new responsibilities get fitted in as everyone's do. So the cadence is set to what the work actually
+allows — a floor met in a busy month rather than an ambitious rate — and Ben keeps visualisation.
 
 ### B. The documentation pilot: C-ATS, because the data already exists
 
