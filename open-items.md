@@ -6,59 +6,64 @@ Group-level decisions and build order. Brand-specific open items live in each
 > **What is *settled* lives in `decided.md`, not here.** This file is the open half of the ledger. New data lands
 > as evidence against an item; it does not reopen a closed decision (`CLAUDE.md`).
 
-## Stress test — where the strategy is weakest
+## Stress test — re-run 2026-07-31, against what is now decided
 
-*Written after the strategy was settled and condensed, deliberately looking for holes rather than
-confirmation. The structure held; these are the places it rests on unverified ground. Ordered by
-seriousness, and staged below.*
+*The original test was written before the last two days of real data — the distributor roster, the US opening,
+content as the sales motion, the product record. Re-running it is the only honest way to know what is left, and it
+replaces the earlier list rather than sitting beside it. **Ordered by how much damage each would do.***
 
-1. **Buyer truth is parked everywhere, and everything rests on it.** Every brand document honestly records
-   that who specifies, who signs off and why is unverified — while the whole strategy is centred on the AV
-   integrator. If the real specifier is more often an architect, a cinema contractor or the end client, a
-   lot of positioning needs rework. Coherent structure, unverified foundation. **The cheapest fix in the
-   repo, and only Neil can supply it:** two or three real recent jobs, described in his own words.
-   **Update — the archive can supply much of it.** Years of sent mail record who asked, what they asked and what
-   they hesitated over, which is the discovery channel run backwards
-   (`group/08-sales-motion.md`). Cheaper than recollection and better evidence, subject to the
-   confidentiality constraints recorded there.
-2. **DT's decline is named but never sized.** Projection shrinking is a fact; the three growth lines are
-   directions, and only the Screen Wall has substance. We call the projection base "the cash engine, not
-   the future" with no view of how fast it erodes against how fast the replacements arrive.
-3. **Pro-Fi carries growth expectations while being almost entirely pre-shipping** — range largely
-   design-intent, Pantheon pre-beta, no distribution, no track record, amp in development. Each fact is
-   recorded honestly; the dependency is never confronted. *(2 and 3 are really one question: what carries
-   the business over the next two years?)*
-4. **The two most differentiating claims are both currently unavailable by our own account.** Whole-room
-   ease and cross-sell both wait on unfragmenting the data — Engine work, outside this repo and outside our
-   control to schedule. **Possible unlock:** what "unfragmented data" means concretely is a canonical product
-   record, which is what `product-data-schema.md` defines. If that is right, this item is less blocked than it
-   reads — the schema is a strategy artefact we can write, even though the database behind it is engine's.
-5. **Beyond-cinema has no on-ramp of its own.** Non-cinema proof is correctly identified as the binding
-   constraint, and the plan for proof is "photograph jobs as they happen" — but if the jobs are cinema jobs,
-   that produces more cinema proof. Nothing generates a first non-cinema job.
-6. **There is no answer to price.** Cinema Build Systems publishes ballpark figures; we gate everything.
-   Nothing says what a dealer hears when they say the Yorkshire lot are cheaper.
-7. **Light Walls means the whole-room claim is currently four-fifths**, and lighting is a layer we assert we
-   own. Deferred by choice, but it is a hole in the central story.
-8. **The trade distributors were never examined, and they compete for the dealer relationship.** Habitech,
-   Pulse Cinemas, Invision, CAVD, Karma AV (`group/06-competitors.md`). Three consequences: much of our
-   partner programme is their standard offer rather than a differentiator; our competitors reach dealers
-   through them while we are absent from all of them (Habitech carries Artnovion and Screen Research — note
-   the CBS/Karma case is ownership, not distribution, and proves nothing about routes); and **"one
-   relationship, whole room" overclaims**, because a distributor offers one account across thirty-plus brands
-   while we make five layers of the room. A dealer always needs a distributor for the rest, so we can never be
-   the only relationship — the honest claim is the room's integrated fabric, not its equipment list.
-   **Status: their competitive position is settled (item 9), and consequence 1 was misjudged and is
-   corrected.** The overlap between our partner programme and the standard distributor offer is not a gap to
-   close — this business has been a distributor for twenty years, so credit, logistics, reps, demo rooms and
-   training are the day job. **We are a distributor; one that owns its brands, its factory and what the
-   products do.** That is the only structural advantage in the picture, and what follows from it now opens
-   `group/03-partner-programme.md`. **The overclaim still needs fixing in published material.**
-9. **~~Unanswered fork: is SRND Distribution becoming a Habitech, or the sales arm for our own brands?~~
-   ANSWERED — sales arm, and we don't sell through firms like these.** See below and
-   `group/01-commercial-model.md`.
+### Closed since the first test
 
-### The distribution history — item 9 answered, from experience rather than analysis
+- **The distributor fork** — settled (`decided.md` C1a–C1f). Sales arm, dead appointments removed, dealer-
+  distributors treated as dealers, US direct.
+- **What the sales motion is** — settled (S1–S19). Content does the reach and proof, tools qualify, the spec
+  conversation discovers, very few people ask.
+- **Where the documentation debt sits** — concentrated on DT, with C-ATS as the standard (S11a, S18).
+- **US fulfilment** — solved (C1g). Events settled (E1–E3).
+
+### Live weaknesses, in order
+
+1. **Everything now routes through one workstream that has not started.** Documentation is the critical path for
+   support, US entry, the site rebuild, the partner programme and the content cadence — all four. Two days ago
+   that was a lane; it is now a single point of failure, and nothing has been produced. **If one thing gets fixed
+   from this list, it is this.**
+2. **The plan depends on two named people and neither role is confirmed.** Neil authoring on camera, Ben owning
+   editorial. Both are sensible; neither is agreed, scheduled or resourced, and the model has no fallback if
+   either does not happen. **Thinner than the field-sales model it replaced**, which is worth saying plainly.
+3. **Pruning the distributor network vacates territories we cannot yet serve.** C1c removes dead appointments
+   because they are barriers — correct — but a barrier removed is not a market covered. **The decision created a
+   gap that nothing currently fills**, and the direct capability it assumes is the same undone documentation and
+   content work as item 1. Sequence the removals against readiness, or the coverage simply goes.
+4. **Nothing is instrumented, still.** The cross-brand dealer count — the one number the group thesis is measured
+   by — remains unknown, and it is a store query. Everything else in this list is judgement; this one is a fact
+   nobody has fetched.
+5. **The US has no owner and no date.** The largest opportunity in the strategy, unencumbered for the first time,
+   and it exists as a lane rather than as anybody's job.
+6. **What carries the next two years is still unanswered** — the old items 2 and 3. DT's projection base is
+   declining with the trend unsized, Pro-Fi is pre-shipping, and the international network is built almost
+   entirely on the declining brand. Unit counts of masking screens per year would answer half of it cheaply.
+7. **Pre-tender specification is untouched.** Named as the route to both specifiers and adjacent markets, and
+   nothing has been done — no NBS, no Revit, no CPD. It was Stage 2 and never started.
+8. **There is still no answer to price.** Unchanged, cheap, independent of everything else, and it will be asked.
+9. **Light Walls remains deferred**, so the whole-room claim is still four-fifths.
+10. **The partner-programme parity problem survives** in published material — "one relationship, whole room"
+    overclaims, and a dealer always needs a distributor for the rest.
+
+### And a discipline failure of my own, recorded
+
+**The repo was supposed to stop growing.** Since then it has gained `decided.md`, `current-state.md`,
+`product-data-schema.md`, a group document, and three brand files. Each had a stated reason, and the ratchet and
+the baseline were genuinely missing — but that is five additions against a rule that said no additions without
+one, and the pattern is the same one that produced twenty-three documents the first time. **Nothing new gets added
+until something on the list above is done.**
+
+### What follows, in order
+
+The list above *is* the staging; the earlier Stages 1–5 are superseded by it. The first three items are one piece
+of work — **documentation, with the roles agreed and the territory sequence set against it.** Item 4 is a query
+somebody runs this week. Items 5 to 10 wait, and are named so they read as choices.
+
+### Background: the distribution history, which closed the fork
 
 *Neil's account, and the strongest evidence in the repo for any position in it, because it was lived rather
 than reasoned.*

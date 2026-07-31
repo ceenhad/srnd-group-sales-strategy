@@ -1,7 +1,9 @@
 # C-ATS — deployable copy
 
-*Ready to paste. Generated from `product-records.md`, which is the point — this is what having the record produces
-(`../../decided.md` S19). It replaces the Shopify placeholder hero and restores the 3 Rs to the homepage.*
+*Ready to paste — but read its status correctly. **This is a by-product, not the direction.** It exists to
+demonstrate that copy falls out of a filled product record (`../../decided.md` S19) rather than being composed page
+by page, and to remove a live embarrassment on the Shopify site. **The method is what matters; this is one output
+of it.** Do not treat copy production as the workstream.*
 
 **Checked against the brand rules:** no diffusion claim, no superlative without a measurement, "C-ATS" rather than
 the "Complete" expansion, marine absent, no discontinued products, nothing about the commercial range, no figure
