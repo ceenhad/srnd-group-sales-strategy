@@ -133,15 +133,53 @@ has a presenter. Legacy playlists still promote discontinued carried lines.
 
 ---
 
+## The measurement problem — recorded as a fact, not a failing
+
+**Revenue and dealer numbers are tangled across SRND's own sales and various distributor routes**, so the two
+questions that matter most cannot currently be answered as measurements. That is worth stating plainly, because
+it has a consequence: **the metric the entire group thesis rests on — cross-brand dealer depth — is not
+instrumented.** We are asking whether the strategy works without the means to tell.
+
+**But most of it doesn't actually need the accounts.** The two hard questions each contain an easy half, and the
+easy half is a count of accounts or units rather than an allocation of money:
+
+- **Cross-brand dealers → count accounts, not revenue.** *How many distinct accounts ordered from more than one
+  brand in the last twelve months?* That is a store or engine query and it sidesteps the attribution tangle
+  entirely, because it never touches the money. It is the single most valuable number in the strategy and it is
+  probably a morning's work.
+- **DT's direction of travel → count units, not value.** *How many masking screens shipped per year over the last
+  three or four years?* Unit counts survive the tangle in a way revenue split does not, and the trend is what
+  stress-test item 2 actually needs — not a precise share.
+
+**What stays genuinely blocked:** revenue split by brand, and margin by route. Those need the accounting
+untangled, which is an operations project rather than a strategy one. Note it and move on; the strategy does not
+stall for want of them.
+
+## Targets — what the numbers need to be
+
+*Neil can give guidance on what these **need** to be even where they can't yet be measured. That is useful and it
+belongs here — but labelled honestly: **a target is a decision, an actual is a fact**, and they must never be
+read as the same thing. To be filled in.*
+
+| Measure | Target | Basis for the target | Actual |
+|---|---|---|---|
+| Dealers buying more than one brand | **[to come]** | | Not instrumented |
+| Revenue split by brand | **[to come]** | | Attribution tangled |
+| DT projection trend | **[to come]** | | Unit counts available |
+| Share of revenue direct vs distributor | **[to come]** | | Tangled |
+| Registrations per period | **[to come]** | | **[?]** |
+
+*Note also, and it needs confirming: **"various distributors" implies live distributor routes today**, which sits
+alongside the direct-first decision (`decided.md` C1) rather than contradicting it — that decision governs new
+appointments. What exists now should be listed here rather than assumed away.*
+
 ## What to do with this
 
-Correct it, strike the wrong inferences, and fill what matters. **The four numbers that would change decisions
-rather than just inform them:**
+Correct it, strike the wrong inferences, and fill what matters. Two of the four original questions survive
+unchanged and are cheap:
 
-1. **How many dealers buy more than one brand** — the group thesis is measured by this and nothing else.
-2. **Revenue split by brand, and DT projection's trend** — closes stress-test items 2 and 3.
-3. **Lead sources, ranked** — decides where content and channel effort goes.
-4. **Whether the design service is charged, and how often it is taken** — the hinge for the partner programme
+1. **Lead sources, ranked** — decides where content and channel effort goes.
+2. **Whether the design service is charged, and how often it is taken** — the hinge for the partner programme
    and the value ladder.
 
 Everything else can stay **[?]** without blocking anything.
