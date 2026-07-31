@@ -15,7 +15,89 @@ by-products of ordinary business do most of the strategic work. One test governs
 Almost nothing should need the second. Where something genuinely does, it is named as such and there is
 only one of them.
 
+## The critical path — one piece of work
+
+*Stress-test items 1, 2 and 3 (`open-items.md`) are not three problems. Documentation is the critical path for
+support, US entry, the site rebuild, the partner programme and the content cadence; it depends on two unconfirmed
+roles; and the distributor pruning assumes a direct capability that the same documentation would create. **One
+piece, and everything in "the lanes" below is secondary until it is moving.***
+
+### A. The roles, as commitments rather than titles
+
+Nothing starts until these are agreed, because an unowned critical path is how this becomes next year's problem.
+
+| Who | What they commit to | Cost to them |
+|---|---|---|
+| **Neil** | Judgement and voice. Approving a ranked list, confirming what is true today, recording answers in batches. Never authoring the list. | Minutes per approval; **one recording session per batch.** |
+| **Ben** | Editorial ownership. Drafting and ranking the list, briefing, producing, publishing, keeping it current. | Real, ongoing, and the one genuine reallocation on this page. |
+| **Olivier** | The trade view — which questions dealers actually ask, and the follow-up nobody currently owns. | Light, and it is already his job. |
+
+**The honest trade, which should be decided rather than discovered:** Ben's renders are the group's primary visual
+language and its only unencumbered proof asset. He cannot own editorial *and* keep render output at current volume.
+**Something comes off his plate, or the cadence is set to what is genuinely left over.** Either is fine; assuming
+both is not.
+
+### B. The documentation pilot: C-ATS, because the data already exists
+
+**Not DT first**, even though DT carries the debt. C-ATS has three SKUs and the data, so it is where the standard
+gets set cheaply against a real example — and the record is already written (`brands/c-ats/product-records.md`).
+
+What is actually left for C-ATS, in order:
+
+1. **The two critical one-pagers.** The REF-CP bond-versus-screw page and the REV-CP 18 °C adhesive page. These are
+   the two predictable site failures in the range. **An afternoon**, and the highest-return documentation the group
+   can produce.
+2. **Three "how do you do X" recordings** — the same two points plus corner placement for the RES-CP. One session,
+   short, unscripted, one frame.
+3. **Rewrite the three install guides to the standard** — organised by moment (unboxing, mounting, conditions,
+   fault-finding), not by product structure.
+4. **Resolve the figure disagreement** before anything is published: legacy calculator versus BSRIA test 6
+   (`open-items.md`). A decision, not a project, and it blocks publication rather than the writing.
+5. **Publish to `cinema-expert.com`** under Instructions and Knowledge Base, which already exist as empty headings —
+   so the canonical home needs no build.
+
+**Then DT, and the first DT task is not writing.** It is **grouping the range by mechanism** — Dynamic 4/2TB/2S
+families, mounts, mirrors, portholes, hush boxes — so fifty-odd products collapse into a manual set of maybe a
+dozen. That is an hour of Neil's knowledge, and it converts DT from a year of work into a finite list.
+
+### C. Territory removals, sequenced against readiness
+
+**A barrier removed is not a market covered.** So the removals are tiered by what we would actually lose, and only
+one tier needs the documentation first.
+
+- **Remove now — nothing to lose.** No business *and* no contact in months: **Atlas Sound & Vision**, **Audiogene**,
+  **Synergy AV**. Plus **CUK** (UK, no business, and our home market is direct anyway) and **Qualtron** (yachting,
+  no business, and marine is an edge case rather than a segment). **No readiness required, because no business is
+  flowing through them.** This is the cheap half of item 3 and it can happen this month.
+- **Wait for the documentation.** Low business in low-potential territories: **SoundClub**, **Nam Long**,
+  **Lucas Audio**, **NAVS**. Little is lost either way, so there is no reason to move before we can serve them
+  directly.
+- **Do not remove — support instead.** The producers, including every high-maintenance one: **AV Nirvana**,
+  **Prime Theaters**, **AV Daksma**, **Tectrade Brun**, **United Audio**, **Deco 2000**, **GR Media**, **Laios AV**.
+  **These need the documentation more than anyone**, because their maintenance load *is* the questions the corpus
+  answers. The pilot serves them first, not last.
+- **Separate decision:** **Screen Innovations** is a white-label arrangement, not a territory appointment, so it
+  does not belong in this sequence at all.
+
+**The consequence worth noticing:** the removals that would create a real coverage gap are precisely the ones we
+should not be rushing, and the ones we should remove immediately create no gap at all. **Item 3 is smaller than it
+looked** — provided the tiers are respected rather than the roster being cleared in one pass.
+
+### D. What "done" looks like, and how to tell it is moving
+
+- **Two weeks:** the roles agreed, Ben's trade named, the two C-ATS one-pagers published, the immediate removals
+  issued.
+- **Six weeks:** C-ATS complete to the standard on `cinema-expert.com`, the first recording batch published, DT
+  grouped by mechanism.
+- **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
+  publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
+
+---
+
 ## The lanes
+
+*Secondary to the critical path above. They continue where they ride on work already happening; none of them
+competes with it for Neil's or Ben's time.*
 
 ### 1. Proof, in a market where the best work can't be shown
 
