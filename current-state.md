@@ -120,6 +120,16 @@ while still occupying the territory.
 - **AV Daksma sells Screen Research**, a direct DT competitor, while also holding a Fabric Walls demo room.
   Recorded neutrally as a fact about the account.
 
+### US readiness, and the events position
+
+- **US logistics are solved.** Goods can be moved as if we were located there, and a **warehouse and logistics
+  partner handles spares.** This removes what would otherwise be the binding limit on entering the market —
+  freighting a part from Yorkshire while an installer waits.
+- **Support is the open question**, and now the biggest one: how to handle it efficiently at distance.
+- **Events: ISE is the show, and we are booked.** **CEDIA Expo is out** — a dying show, and too late in the year
+  to consider. **InfoComm US** is a possibility for next year. *(Corrects the neutral list in
+  `group/05-channels.md`.)*
+
 ### Commercials as they run today
 
 - **Direct in the UK; distributor-led internationally** — 21 live appointments, above. DBM closed; CUK remains on

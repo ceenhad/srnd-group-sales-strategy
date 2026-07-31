@@ -188,12 +188,17 @@ market, and the US as the priority territory approached directly with the whole 
 
 **What remains open:**
 
-1. **The US approach itself.** The largest market is now unencumbered — Apex-Tech resigned and the white-label
-   deal never gave us presence. This is the first real test of the content-led model at scale: no body on the
-   ground, content as the rep, the whole group presented rather than one brand. **Two things must be settled
-   before demand is created, not after:** whether we can fulfil US orders properly (freight, duty, lead time —
-   the binding limit on global scale, `group/08-sales-motion.md`), and whether CEDIA Expo is part of the answer.
-   Creating awareness we cannot serve produces a bad first order, which is the order that tests us.
+1. **The US support model — the only thing in the way.** Logistics are solved and spares run through a partner
+   warehouse (`decided.md` C1g), and the events question is closed: CEDIA Expo is out, ISE is the show, InfoComm
+   possibly next year. So US entry is content-led, which suits the model — and **support is the open question.**
+   Worked into four tiers in `NEXT.md` lane 7. The two things genuinely undecided inside it:
+   - **Remote diagnostics.** DT's control platform is the un-copyable half of the moat and could double as the
+     support model — a unit reporting its own state turns a badly-described fault into an observable one. How far
+     that capability already goes needs establishing rather than assuming.
+   - **Whether a US support engineer is eventually needed.** A US installer mid-commissioning is calling outside
+     UK hours; published answers and diagnostics shrink that gap without closing it. **This is the one role a
+     body might justify — a support engineer, not a salesperson**, which does not contradict having no field
+     force. Decide it when the volume says so, not before.
 2. **The high-maintenance producers** — AV Nirvana, Prime Theaters, AV Daksma. They work, and they cost owner
    attention. Since they are effectively dealers (C1d), the content corpus is the lever: their questions are the
    same questions, so **a partner-facing knowledge base may be the highest-return content of all** and it serves

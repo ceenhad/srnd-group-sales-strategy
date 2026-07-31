@@ -168,14 +168,34 @@ in the world is unrepresented and unencumbered (`current-state.md`). Taken as an
 present the whole group there rather than one brand under somebody else's badge, and the first real test of the
 content-led model at scale.
 
-- **Smallest next move, and it comes before any marketing: establish whether we can fulfil US orders well** —
-  freight, duty, lead time, returns. Fulfilment is the binding limit on global scale
-  (`group/08-sales-motion.md`), and awareness that outruns operations produces a bad first order, which is the
-  order that tests us rather than the product.
-- **Then decide whether CEDIA Expo is part of the answer**, since it is the US trade moment and we are absent.
+**Logistics are already solved** — goods move as if we were located there, and a partner warehouse handles
+spares. So the usual barrier to entering a distant market is down, and **the binding constraint is support.**
+
+- **Smallest next move: settle the support model, because it is now the only thing in the way.** Four tiers, in
+  order of leverage (`group/08-sales-motion.md`):
+  1. **Published answers** — install guides, commissioning walkthroughs, troubleshooting, video. Most support
+     volume is repeat questions, so this is the same corpus work as lane 6 pointed at a different audience.
+  2. **Spares and physical** — done, via the warehouse and logistics partner.
+  3. **Remote diagnostics.** DT's control platform already does network integration and closed-loop
+     precision. **If a unit can report its own state, support scales without people** — it turns "an installer
+     describes a fault badly" into "we can see what it is doing." This is the un-copyable half of the moat
+     doubling as the support model, and it is the strongest argument for investing in the diagnostics side.
+  4. **The live problem on site**, which is the genuine gap: a US installer mid-commissioning is calling
+     outside UK hours. Published answers and diagnostics shrink it; they do not close it. **This is the one
+     role a body might justify — a support engineer, not a salesperson.** Different job, different economics,
+     and it does not contradict having no field force.
+- **Certification cuts support load**, so the training programme is a support investment as much as a partner
+  benefit — which sharpens why it is owed.
+- **And support quality is part of the sales proposition, not a cost behind it.** The reason a US dealer buys
+  from a British manufacturer with no local office is that support is credible. Answer it well and it becomes a
+  reason to buy.
+- **Events: CEDIA Expo is out** — dying, and too late in the year. ISE is the show and we are booked; InfoComm
+  US is a possibility for next year (`decided.md` E1–E3). So the US entry is content-led, not event-led, which
+  suits the model.
 - **It also corrects the DT-only exposure** in the international network, because presenting the whole group is
   the plan rather than a retrofit.
-- Rides on: an opening we did not create. The work is fulfilment readiness, then content.
+- Rides on: an opening we did not create, and logistics already built. The work is the support model, then
+  content.
 
 ### 8. The properties get restarted — but the addresses and the history are kept
 

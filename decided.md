@@ -30,12 +30,21 @@ add the evidence and move on — or overturns it, which has to be stated explici
 | C1d | **Most appointments are really dealer-distributors, and are treated as dealers** — the partner programme, the content, no exclusivity. "Distributor" is reserved for the rare case that genuinely multiplies. | Neil's account. Explains both the high-maintenance producers and why the 2× test bites: a hybrid multiplies nothing while still holding the territory. | 2026-07 |
 | C1e | **Screen Innovations is white label, not a route to market.** They own the relationship; we supply product. DT has no brand presence in the US through it. | Neil's clarification. Internal only — OEM relationships are not named publicly. | 2026-07 |
 | C1f | **The US is the priority territory and is approached directly, with the whole group.** Apex-Tech has resigned from DT and the white-label deal gives us nothing in market, so the largest market is open and unencumbered. | Neil's decision. | 2026-07 |
+| C1g | **US logistics are solved** — goods move as if we were located there, and a warehouse and logistics partner handles spares. **The binding constraint on US entry is therefore support, not fulfilment.** | Neil's account. | 2026-07 |
 | C2 | **SRND Distribution is the sales arm for our own brands**, not an attempt to become a multi-brand distributor. | Same. | 2026-07 |
 | C3 | **The UK is representative of the global market structure** — large distributors, a long tail of small and dealer-distributors, regional manufacturers. So C1 and the competitor analysis travel. | Neil's account. | 2026-07 |
 | C4 | **Pricing is registered-partner-only, including end users.** No public prices in the trade channel. | Settled. | 2026-07 |
 | C5 | **Two stores, split by the self-evidence test.** If a buyer already knows what it is, Cinema Store; if it must be explained, specified or commissioned, `srnd.store`. **No product exists in both.** | Settled; AVshop.no as the DIY reference. | 2026-07 |
 | C6 | **Carried lines are Leyard, MadVR (as a Leyard accessory) and Advatek.** Nothing that competes with our own brands. | Settled. | 2026-07 |
 | C7 | **Beyond cinema in trade; B2C stays cinema.** | Settled. | 2026-07 |
+
+## Events
+
+| # | Decision | Evidence / basis | Date |
+|---|---|---|---|
+| E1 | **ISE is the show, and we are booked.** | The largest European AV-integration show. | 2026-07 |
+| E2 | **CEDIA Expo is out** — a dying show, and too late in the year to consider. | Neil's judgement. | 2026-07 |
+| E3 | **InfoComm US is a possibility for next year**, not this one. | Open, not committed. | 2026-07 |
 
 ## The sales motion
 
