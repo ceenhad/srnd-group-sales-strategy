@@ -18,6 +18,49 @@ Both are true in principle and neither is automatic. Most of this document is ab
 them actually hold, because our own estate is proof that they don't hold by default: 54 videos on the group
 YouTube channel have produced 1,471 lifetime views (`04-content.md`).
 
+## Marketing and support are one estate — this is where the loop closes
+
+Everything in this document converges on a single realisation, and it is the organising principle rather than an
+observation: **there is one content estate, not a marketing estate and a support estate.** The same material does
+four jobs at four points in the journey, which is why it compounds as hard as it does — each piece earns its cost
+several times over.
+
+**The shape, per product and per brand:**
+
+1. **The marketing layer is the on-ramp.** What problem does this solve, what opportunities does it open, what
+   time or labour does it save. That is the reason to look, and it is all the top of funnel has to do.
+2. **The technical layer is the site itself** — drawings, manuals, videos, data. Its job is not persuasion; it is
+   **removing doubt.** A dealer specifying a product is putting their own reputation on somebody else's box, so
+   what they are actually asking is *can I trust this enough to put it in my project?* De-risking is the
+   conversion mechanism at this level, not argument.
+3. **Make it easy to contact us.** The handoff, which most of the estate currently lacks.
+4. **And filling that out answers the support questions as a by-product** — because the support question and the
+   pre-purchase doubt **are the same question asked at different times.** "How do you do X" is what a specifier
+   needs before committing and what an installer needs at three in the afternoon on site.
+
+### Why documentation ended up poor: it fell between two budgets
+
+This is the useful diagnosis. **Marketing didn't own documentation because it looked like support; support
+didn't invest in it because it looked like marketing.** So the most load-bearing content in the business was
+nobody's priority. Recognising it as one estate removes the excuse — and removes the false choice between
+investing in marketing content and investing in support material, because they are the same work.
+
+### "How do you do X" is the atom of the corpus
+
+Short, high-utility, and it does every job at once:
+
+- **The dealer values it strongly**, because the dealer is the installer. It saves them time on a real job.
+- **It is support**, and it retires a recurring question permanently.
+- **It is sales enablement**, because it removes exactly the doubt that stops a specification.
+- **And it is marketing gold**, because it demonstrates competence instead of claiming it — the opposite of
+  asserting depth, which is the thing we have said reads as arrogance.
+- **It is also the format our own numbers already endorse** (`04-content.md`): the pieces that worked were short
+  and useful; the two dozen product films that asserted rather than helped sat between 1 and 26 views. **Utility
+  is what separated them, not production value.**
+
+So the unit of work is not "a marketing campaign" or "a manual." It is **one question, answered well, published
+where it can be found** — and the ranked list of those questions is the whole plan.
+
 ## What content takes outright — and wins on
 
 - **Being found.** A rep knocks on doors; content is what gets knocked on. Search and AI answers reach dealers

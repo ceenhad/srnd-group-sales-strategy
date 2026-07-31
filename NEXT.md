@@ -215,9 +215,12 @@ decided.
 
 **Two things that make this smaller than it sounds.**
 
-- **The information architecture is already written.** The buyer journey's six stages, the placement rules and
-  the content map (`group/02-buyer-journey.md`, `group/04-content.md`) are a sitemap in prose. This is not a
-  design project starting from a blank sheet; it is building what the strategy already specifies.
+- **The information architecture is already written, and now it is simple.** Per brand and per product:
+  **marketing on-ramp → technical depth → easy contact** (`decided.md` S15). The on-ramp states the problem
+  solved, the opportunity opened, the time or labour saved; the depth is drawings, manuals, videos and data,
+  there to remove doubt rather than to persuade; the contact route is explicit. That, plus the placement rules
+  and the content map (`group/02-buyer-journey.md`, `group/04-content.md`), is a sitemap in prose. Not a design
+  project from a blank sheet.
 - **The minimum viable property is a knowledge base, not a finished brand site.** The corpus needs somewhere
   canonical to live (`group/08-sales-motion.md`), and that is a well-structured, searchable set of answers per
   brand. Far smaller than a site rebuild, and it is the part that compounds.
