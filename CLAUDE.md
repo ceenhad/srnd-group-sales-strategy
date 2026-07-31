@@ -55,6 +55,11 @@ here: we don't triage dealers by any single brand's order size. See `group/00-st
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
   performance figures; no supplier names; no NDA install details; don't tease the commercial range;
   don't hard-code the "Complete" name expansion. See `brands/c-ats/`.)
+- **The work ratchets; it does not spiral.** `decided.md` records what is closed. New data from real work lands
+  as **evidence** against a decision or an open item — it does not reopen the reasoning that produced the
+  decision. A decision changes only when someone says it changes, recorded as a dated reversal. After logging
+  evidence, the next move is `NEXT.md`, not another pass through `group/`. **Prefer amending the plan over
+  re-arguing the strategy.**
 - **Flag, don't guess.** Buyer-truth, channel validation, pricing tiers, name expansions — where a
   fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
   `open-items.md`. Don't invent personas, figures, or roadmaps.

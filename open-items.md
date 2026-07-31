@@ -3,6 +3,9 @@
 Group-level decisions and build order. Brand-specific open items live in each
 `brands/<brand>/open-items.md`.
 
+> **What is *settled* lives in `decided.md`, not here.** This file is the open half of the ledger. New data lands
+> as evidence against an item; it does not reopen a closed decision (`CLAUDE.md`).
+
 ## Stress test — where the strategy is weakest
 
 *Written after the strategy was settled and condensed, deliberately looking for holes rather than

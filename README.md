@@ -58,7 +58,8 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
 3. **`brands/_template/`** — the starting point for a new brand playbook.
-4. **`open-items.md`** — decisions still outstanding.
+4. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.
+5. **`open-items.md`** — decisions still outstanding.
 
 ## Group vs brand responsibilities
 
