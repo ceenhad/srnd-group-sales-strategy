@@ -12,8 +12,9 @@ the source.** Wording is drafted for correction; distribution follows the placem
 
 ## 1. Canonical article — `cinema-expert.com`, Instructions
 
-**Title (the installer's question):** *Why do self-adhesive acoustic panels let go weeks after the install —
-and how do you stop it?*
+**Title (instruction, not failure):** *Fitting the Reverberation Control Panel: the warm-room rule.*
+*(Corrected at truth-check — a failure-framed title reads negative in public and imagines a search nobody
+runs. The let-go recovery lives inside the article as fault-finding, not as the headline.)*
 
 The body is the source page essentially as it stands — its own footer says it can go out without figures.
 What the canonical version adds is the frame and the handoff:
@@ -30,20 +31,19 @@ service is your choice, never a requirement — talk to us."
 
 ## 2. Derivative pieces by reader's stage
 
-*Corrected at truth-check (Neil, 2026-07-31): an install atom mostly serves people who already know us or
-already bought — the screw tip is not a hook, because a stranger wouldn't stop for it. The rule is now in
-the design (`../../group/09-motion-design.md`, "the hook test"). Re-slotted:*
+*Corrected twice at truth-check (Neil, 2026-07-31), and both corrections are now design rules
+(`../../group/09-motion-design.md`, "the hook test" and "hooks are evidenced and positive"):*
 
-**The one genuine hook this atom yields (G1):**
-
-| Appeal | Draft hook | Placement | Audience note |
-|---|---|---|---|
-| The problem named | *Self-adhesive panels that let go weeks after the job — the wall was cold when you fitted them.* | Search/AI (the article title above) | The installer with the live problem — a stranger in pain, and that includes people who bought panels elsewhere. A narrow but real door |
+**Hooks this atom yields: none — and that is the honest answer.** The screw tip presumes ownership; the
+"panels let go" angle imagined a search nobody runs and reads more negative than positive in public. An
+install atom is support and reassurance material; the reverberation door's hooks come from other atoms
+(the pathway's matrix — the 3 Rs, the 50 mm argument, why-to-spec).
 
 **Stage 2–3 — for the dealer deciding (proposition and reassurance):**
 
-- *No fixings: peel, press, done. One condition — the room above 18 °C for 24 hours first.* (Ease of
-  install as a reason to choose C-ATS — proposition support, not a cold hook.)
+- *Fitted without fixings: peel, press, done. One condition — the room above 18 °C for 24 hours first.*
+  Framed positively as ease. **Honesty note:** peel-and-stick is not unique to us — few offer it, which is
+  worth saying plainly and never as "unique" (the register).
 - The existence of this note itself is stage-3 proof: documentation this specific is what a dealer weighing
   an unfamiliar manufacturer reads to judge whether the job will go badly.
 
@@ -80,13 +80,14 @@ the design (`../../group/09-motion-design.md`, "the hook test"). Re-slotted:*
 ## What this batch demonstrates
 
 - **One atom → five surfaces.** The owner's total cost is one truth-check of this file — minutes.
-- **The truth-check works.** The first check caught a mis-slotted piece (the screw tip drafted as a hook),
-  and the correction became a standing design rule — the hook test. That is the line improving itself at
-  the cost of one sentence from an owner.
-- **An install atom is mostly not hook material, and that is fine.** Its derivatives serve stages 2–5,
-  where this door's journey currently breaks; the hooks for this door come from other atoms (the pathway's
-  matrix — the 3 Rs, the 50 mm argument, why-to-spec).
-- **The matrix fills only where substance supports it** — most appeal categories left honestly empty here.
+- **The truth-check works, and it improved the design twice.** The first check caught a mis-slotted piece
+  (the screw tip drafted as a hook → the hook test); the second caught an invented search behaviour and a
+  negative frame (→ hooks are evidenced and positive). Two standing rules for the cost of two sentences
+  from an owner.
+- **An install atom yields no hooks, and that is fine.** Its derivatives serve stages 2–5, where this
+  door's journey currently breaks; the hooks for this door come from other atoms (the pathway's matrix —
+  the 3 Rs, the 50 mm argument, why-to-spec).
+- **The matrix fills only where substance supports it** — here, not at all.
 - **Every piece carries its destination**: all hooks → the canonical article → the product page → contact.
   No dead ends.
 - **The queue when approved:** canonical article to `cinema-expert.com` first, then the datasheet paragraph
