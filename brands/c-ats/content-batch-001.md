@@ -28,17 +28,30 @@ What the canonical version adds is the frame and the handoff:
 **Handoff:** the Reverberation Control Panel product page → the install guide → "planning a room? The design
 service is your choice, never a requirement — talk to us."
 
-## 2. Hook variants — for the reverberation door's matrix
+## 2. Derivative pieces by reader's stage
 
-*Per S23: candidates, categorised by appeal, each handing to the canonical article above. Two categories
-(better results, more revenue) are left unfilled — this atom doesn't honestly support them, and the matrix
-is never stretched.*
+*Corrected at truth-check (Neil, 2026-07-31): an install atom mostly serves people who already know us or
+already bought — the screw tip is not a hook, because a stranger wouldn't stop for it. The rule is now in
+the design (`../../group/09-motion-design.md`, "the hook test"). Re-slotted:*
 
-| Appeal | Draft hook | Placement |
-|---|---|---|
-| The problem named | *Self-adhesive panels that let go weeks after the job — the wall was cold when you fitted them.* | Search/AI (article title above), LinkedIn |
-| Easier to do | *No fixings: peel, press, done. One condition — the room above 18 °C for 24 hours first.* | Instagram, LinkedIn |
-| Time saved | *One 25 mm screw, two-thirds in, backed off until the dimple disappears. Seconds now, against a return visit after the fabric's on.* | LinkedIn, trade press tip |
+**The one genuine hook this atom yields (G1):**
+
+| Appeal | Draft hook | Placement | Audience note |
+|---|---|---|---|
+| The problem named | *Self-adhesive panels that let go weeks after the job — the wall was cold when you fitted them.* | Search/AI (the article title above) | The installer with the live problem — a stranger in pain, and that includes people who bought panels elsewhere. A narrow but real door |
+
+**Stage 2–3 — for the dealer deciding (proposition and reassurance):**
+
+- *No fixings: peel, press, done. One condition — the room above 18 °C for 24 hours first.* (Ease of
+  install as a reason to choose C-ATS — proposition support, not a cold hook.)
+- The existence of this note itself is stage-3 proof: documentation this specific is what a dealer weighing
+  an unfamiliar manufacturer reads to judge whether the job will go badly.
+
+**Stage 5 — for the installer fitting (support snippets):**
+
+- *One 25 mm screw, two-thirds in, backed off until the dimple disappears. Seconds now, against a return
+  visit after the fabric's on.* (Order-confirmation insert, product-page install tab, partner email — the
+  datasheet paragraph and email item below.)
 
 ## 3. Recording prompt — for a batch session, when one happens
 
@@ -67,7 +80,13 @@ is never stretched.*
 ## What this batch demonstrates
 
 - **One atom → five surfaces.** The owner's total cost is one truth-check of this file — minutes.
-- **The matrix fills only where substance supports it** — two appeal categories left honestly empty.
+- **The truth-check works.** The first check caught a mis-slotted piece (the screw tip drafted as a hook),
+  and the correction became a standing design rule — the hook test. That is the line improving itself at
+  the cost of one sentence from an owner.
+- **An install atom is mostly not hook material, and that is fine.** Its derivatives serve stages 2–5,
+  where this door's journey currently breaks; the hooks for this door come from other atoms (the pathway's
+  matrix — the 3 Rs, the 50 mm argument, why-to-spec).
+- **The matrix fills only where substance supports it** — most appeal categories left honestly empty here.
 - **Every piece carries its destination**: all hooks → the canonical article → the product page → contact.
   No dead ends.
 - **The queue when approved:** canonical article to `cinema-expert.com` first, then the datasheet paragraph

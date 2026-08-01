@@ -87,6 +87,13 @@ honestly supports (`../decided.md` S23).*
 - **Every hook has a purpose and a roadmap position.** A hook that catches interest and hands to nothing is
   a wasted bite. Each hook is the head of a pathway and names its next slot — no hook is approved without
   its destination.
+- **The hook test: would someone who hasn't bought and doesn't know us stop for this?** Detail that
+  presumes ownership or imminent install — fixings, site conditions, fitting tips — is not a hook: it is
+  stage-3 reassurance for someone deciding and stage-5 support for someone fitting. One atom's derivative
+  set therefore lands at *different* stages by design: S13's one-estate rule means one **material** doing
+  four jobs, not one **piece** doing them. Every derivative is tagged with its reader's stage, and only the
+  pieces that pass the test go in the water as hooks. (The correction that produced this rule: a screw-tip
+  variant drafted as a hook in batch 001 — interesting to a buyer or an installer, invisible to a stranger.)
 
 ## Pathways — content chained gateway to gateway, and back round
 
