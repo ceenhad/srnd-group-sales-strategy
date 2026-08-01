@@ -149,7 +149,49 @@ Nobody invents new types per brand, and no piece is made without its row.*
 
 Three rules travel with the grid: **one job per piece** (its gateway, nothing else); **every piece carries
 its target explicitly** — the handoff is written into the piece, not hoped for; and pieces are counted
-against the grid, so a stage with an empty row is a visible break, not a surprise.
+against the grid, so a stage with an empty row is a visible break, not a surprise. And the sharper way to
+say the second rule: **every piece is a temptation** — it exists to make one action the reader's obvious
+next move.
+
+## The hinge splits the job in two — tempting strangers, addressing partners
+
+*At every point we are tempting one action. Registration divides how we are allowed to tempt (Neil,
+2026-08-01) — and the division is already in the journey as the two campaign programmes
+(`02-buyer-journey.md`): brand acquisition before the hinge, partner development after it.*
+
+**Before the hinge — anonymous.** We can address nobody, so we tempt through placement: public, brand-led,
+problem-led, no cross-sell. The tempted actions are the grid's stages 1–3: *look* (G1), *go deeper* (G2),
+*register* (G3). Registration has to be worth the permission it asks for — that is what the whole stage-3
+row is tempting toward.
+
+**After the hinge — known, and permissioned.** From registration we can target a named person directly.
+"With what, and with what aim" has a designed answer per state:
+
+| Their state | We send | Tempting — the aim |
+|---|---|---|
+| **Registered, no order yet** | The welcome: what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom | The first order (**G4**) |
+| **Ordered, job ahead** | The install pack — in the box and by email; a check-in after delivery | A first job that succeeds, and telling us how it went (**G5**) |
+| **First job done** | The adjacency-aware partner email — timed to what they actually bought, never a blast; reorder ease; the appreciation acts | The next layer of the same room, the next project — a second brand's stage 2 (**G6**) |
+| **Gone quiet** | A person asks. The one touch that is never automated | The order — the human residue (`08-sales-motion.md`) |
+
+Four disciplines bind the direct half: **permissioned only**; **state-triggered, never
+schedule-triggered** (`02-buyer-journey.md`); **cross-brand cadence coordinated**, so a shared contact is
+not oversaturated by six brands; and the whole-room story becomes appropriate only here — earned, never the
+cold open.
+
+## How progress is recorded — three ledgers
+
+1. **Before the hinge: aggregate only.** No dealer record exists yet, so progress is funnel counts per
+   gateway — tagged arrivals, depth events, registrations per period — read monthly.
+2. **After the hinge: the account carries its stage.** Every registered account has a journey state, a last
+   touch, and a next tempted action. The state is set **by events where a signal exists** (an order updates
+   itself) and **by a person where it doesn't** (G5, gone-quiet). The 2023 programme ran exactly this — the
+   compulsory RAPS column in Infinity (`2023-buyer-journey-archive.md`) — and this is the field engine
+   inherits. Per the standing discipline, what engine already holds gets checked first (JNY-1).
+3. **The published-piece log** records the content side: what is live, where, tagged how (the per-brand
+   plan's log).
+
+In one line: **content progress per piece, dealer progress per account, funnel health per gateway.**
 
 ## The process — the rep's mechanics, systematised
 

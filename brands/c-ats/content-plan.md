@@ -59,6 +59,9 @@ Target = what the piece points at — its gateway's threshold action, written in
 |---|---|---|---|---|---|
 | 45 | The adjacency prompt page (treatment → fabric → front-of-room) | 6 | **Fabric Walls stage 2** — the loop | XS-1, one page | missing — the only authored gap in the reverberation pathway |
 | 46 | Registration-worth-crossing copy (what a partner account grants, honestly — no unbuilt promises) | 3→4 | Registration completed → the store | `03-partner-programme.md` | missing |
+| 49 | The registered-welcome set: what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom. Direct, permissioned | 4 | The first order | `03-partner-programme.md` + store | missing |
+| 50 | The install pack and post-delivery check-in — order-confirmation email + in-box sheet, assembled from items 1, 2, 37–39 | 5 | A first job that succeeds, and telling us | items 1–2, 37–39 | missing (assembly, once the parts exist) |
+| 51 | The adjacency-aware partner email set — timed to what was bought, never a blast; includes reorder ease | 6 | The next layer — Fabric Walls stage 2 | item 45 + purchase data | missing (blocked: item 45) |
 
 ### Tranche 5 — hooks, after evidence
 
@@ -77,13 +80,13 @@ queue above.*
 | **1 — Unaware** | 33, 34, 47, 48+ | 2 (both end dead) | Seeded by the explainers; hooks correctly wait on evidence. Wire the handoffs first |
 | **2 — Interested** | 3–20 (part), 21–31, 35, 43 | **0** | The fullest row on paper and nothing is live — the stage-2 break is a publishing job, not a writing job |
 | **3 — Evaluating** | 3–20 (part), 32, 35, 40, 44 | 1 (buried) | Strong material; the proof exists and is invisible. Surface before making anything new |
-| **4 — Registered** | 46 (+ store listing fixes, EST-4) | mechanism live | **The thinnest row** — one planned piece. The store's listing copy has no plan item beyond the fix list; decide if it needs one |
-| **5 — First job** | 1, 2, 37–42, 39 | **0** | The deepest row once published — and today an installer finds none of it |
-| **6 — Next order** | 45 (+ email items from batch derivatives) | 0 | One planned piece. Reorder prompts and always-on formats have no C-ATS items yet — matches the journey map's "next order unowned" |
+| **4 — Registered** | 46, 49 (+ store listing fixes, EST-4) | mechanism live | The direct welcome now planned (49). The store's listing copy has no plan item beyond the fix list; decide if it needs one |
+| **5 — First job** | 1, 2, 37–42, 50 | **0** | The deepest row once published — and today an installer finds none of it. The install pack (50) assembles it into the order itself |
+| **6 — Next order** | 45, 51 | 0 | The loop's two pieces now planned — the adjacency page and the permissioned partner email. Always-on formats still have no C-ATS items |
 | *Specifier (parked)* | — | — | Empty, correctly — parked by choice, visible by design |
 
-**What the check says:** stage 2 breaks on publishing, stage 5 on publishing, stages 4 and 6 on planning —
-two rows genuinely need pieces adding, and both are small. Nothing anywhere needs a campaign.
+**What the check says:** stages 2 and 5 break on publishing, not writing; stages 4 and 6 now have their
+direct, permissioned pieces planned (49–51) and nothing live. Nothing anywhere needs a campaign.
 
 ## Record the outputs — the apply loop
 
