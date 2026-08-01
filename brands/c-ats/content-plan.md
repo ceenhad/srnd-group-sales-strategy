@@ -59,9 +59,9 @@ Target = what the piece points at — its gateway's threshold action, written in
 |---|---|---|---|---|---|
 | 45 | The adjacency prompt page (treatment → fabric → front-of-room) | 6 | **Fabric Walls stage 2** — the loop | XS-1, one page | missing — the only authored gap in the reverberation pathway |
 | 46 | Registration-worth-crossing copy (what a partner account grants, honestly — no unbuilt promises) | 3→4 | Registration completed → the store | `03-partner-programme.md` | missing |
-| 49 | The registered-welcome sequence — several small useful touches, not one email (S26): what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom. Direct, permissioned | 4 | The first order | `03-partner-programme.md` + store | missing |
-| 50 | The install pack and post-delivery check-in — order-confirmation email + in-box sheet, assembled from items 1, 2, 37–39 | 5 | A first job that succeeds, and telling us | items 1–2, 37–39 | missing (assembly, once the parts exist) |
-| 51 | The adjacency-aware partner email set — timed to what was bought, never a blast; includes reorder ease | 6 | The next layer — Fabric Walls stage 2 | item 45 + purchase data | missing (blocked: item 45) |
+| 49 | The registered-welcome sequence — several small useful touches, not one email (S26): what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom. Direct, permissioned | 4 | The first order | `03-partner-programme.md` + store | drafted — `sequences.md` A |
+| 50 | The install pack and post-delivery check-in — order-confirmation email + in-box sheet, assembled from items 1, 2, 37–39 | 5 | A first job that succeeds, and telling us | items 1–2, 37–39 | drafted — `sequences.md` B |
+| 51 | The adjacency-aware partner email set — timed to what was bought, never a blast; includes reorder ease | 6 | The next layer — Fabric Walls stage 2 | item 45 + purchase data | drafted — `sequences.md` C (C2 blocked: item 45) |
 
 ### Tranche 5 — hooks, after evidence
 
