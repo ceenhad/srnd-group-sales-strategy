@@ -231,7 +231,10 @@ once.
 5. **Light Walls** — RGBW addressable lighting. **Strategy deliberately deferred**, worked separately.
 6. **SRND Distribution** — the trade channel and the sales arm for our own brands, not a product brand with
    its own story. **Settled: it is not an attempt to become a multi-brand distributor.** Carried lines stay a
-   short deliberate roster (below), chosen to complete jobs rather than to build a portfolio.
+   short deliberate roster (below), chosen to complete jobs rather than to build a portfolio. The operation
+   itself is long-running: GT → Apex-Tech UK (rebranded July 2021) → SRND Distribution — the same trade
+   business throughout, and distinct from the US distributor of similar name in `../current-state.md`
+   (`2023-buyer-journey-archive.md`).
 
 **SRND Solutions** (own-made sensors and interfaces — the connective glue of an install) is in development
 and deliberately doesn't fit inside a brand. How it reaches the trade is open; don't write it up as

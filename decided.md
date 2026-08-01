@@ -78,6 +78,10 @@ add the evidence and move on — or overturns it, which has to be stated explici
 | S8 | **Authorship is never scaled.** No bulk or generic content; volume is not the goal. The archive is legitimate because it is our own authored answers. | `group/08-sales-motion.md`. | 2026-07 |
 | S9 | **Show what can be shown; explain what cannot.** Short pieces that make an argument. The catalogue fails. | ~9,500 views on a 52-second reverberation explainer; DT's mechanisms-in-motion at 600–1,500; two dozen product films at 1–26. | 2026-07 |
 | S10 | **Websites and social restart; URLs, indexed pages and channel history are kept.** The rebuild must not gate the content cadence. | Neil's acceptance, plus the compounding argument. | 2026-07 |
+| S22 | **The journey runs as a process.** The buyer journey is defined with **gateways** between its stages; content is generated as **pathways** that move a dealer through each gateway, start to finish and back round the loop. Most of a rep's job is pure mechanics, and the mechanics become process; the judgement residue stays human. | Neil's proposition, 2026-07-31. Design: `group/09-motion-design.md`. **Ancestor evidence (2026-08-01):** the March 2023 programme — nine "bridges", explicit stage-end definitions, "get each CRM company to the next bridge" — `group/2023-buyer-journey-archive.md`. | 2026-07 |
+| S23 | **Hooks are multiplied and categorised; every piece has a roadmap position; the funnel tracks like e-commerce; elevation is engineered early.** G1 is a *set* of hooks per product — categorised by appeal (more revenue, time saved, easier to do, better results, the problem named), placed indirectly, each the head of a pathway with a named destination. The journey reads as an e-commerce funnel because every gateway lives in systems — hook-level attribution turns the hook matrix into evidence. Elevation runs product → brand → group as early as the dealer's state allows: brand at the proposition, group at the hinge — never at the cold open, and cross-sell prompts still wait for the first job. | Neil's articulation, 2026-07-31. Design: `group/09-motion-design.md`. **Ancestor evidence (2026-08-01):** the appeal categories appear near-verbatim in Neil's 2023 *Purchase Events* map — solve a problem, save time, earn more revenue, a good experience (`group/2023-buyer-journey-archive.md`). | 2026-07 |
+| S25 | **The destination is engine.** The journey process ultimately runs automatically on top of the CRM and the product database in engine: signals observed, triggers fired, the content queue churned, outputs logged, results applied. This repo owes engine the state model, the content-plan and log shapes, the pathway structure and the schema's sales layer — and specifies nothing of engine itself (S16a discipline; check what engine holds first). | Neil, 2026-08-01. | 2026-08 |
+| S24 | **Content is produced at volume on a Claude-assisted line.** The substance is human and never scaled (S8 stands): the records, the measured data, the archive, the decided positions. From each substance atom Claude drafts the derivative set — canonical article, hook variants, recording prompts, datasheet copy, email items — an owner truth-checks in minutes, and distribution is batched, source-tagged and efficient. **No cadence ceremony:** no set floor rate, no formal role confirmations. Volume of pieces, never volume of assertions; nothing needs to be fancy — no fresh ten-minute video every day. | Neil, 2026-07-31. Completes S5: the labour moves — to Claude. Design: `group/09-motion-design.md` component 2. | 2026-07 |
 
 ## Partner programme
 
@@ -105,5 +109,10 @@ add the evidence and move on — or overturns it, which has to be stated explici
 
 ## Reversals
 
-*None yet. When a decision above is overturned, it is recorded here with the date and the fact that did it —
-never edited away silently.*
+*When a decision above is overturned, it is recorded here with the date and the fact that did it — never
+edited away silently.*
+
+- **2026-07-31 — S20, partially reversed (Neil).** The ceremony half of S20 — a formally set floor rate and
+  a formal confirmation of editorial ownership — is struck as "spurious dross": decisions the documents
+  invented, not ones anybody needed. Production volume comes from the Claude-assisted line instead (S24).
+  What survives of S20: the roles are fitted in, and nothing comes off anyone's plate.

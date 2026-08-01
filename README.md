@@ -42,7 +42,7 @@ down to execution.
 
 Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
 
-1. **`group/`** — the group strategy and standards, in nine documents. Brand-agnostic, and the source of
+1. **`group/`** — the group strategy and standards, in ten documents. Brand-agnostic, and the source of
    truth; brands apply it, they do not fork it.
    - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
      disciplines. Read this one if you read nothing else.
@@ -54,6 +54,11 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
    - `07-tools.md` — where calculators and design tools fit commercially.
    - `08-sales-motion.md` — how a sale is made with no salesforce: what content takes, what substitutes for
      the rest, and why it compounds and scales.
+   - `09-motion-design.md` — how a sale gets made, journey-first: the six stages mapped to what serves each
+     one; the **gateways** between stages with their observable signals; the **content pathways** that move a
+     dealer gateway to gateway and back round the loop (`decided.md` S22); then the five pieces of machinery
+     designed once as the group standard the brands inherit — with the decisions that remain marked, not
+     guessed.
    - `store-split-worklist.md` — a working execution list, not strategy.
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
@@ -64,6 +69,10 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
    exist, with gaps marked rather than guessed.
 6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.
 7. **`open-items.md`** — decisions still outstanding.
+8. **`backlog.md`** — the action register: every discrete action in the repo extracted into one working
+   surface (do / decide / fetch, with owners, effort and status), each workstream tagged by the motion
+   component it develops (`group/09-motion-design.md`), prerequisite, or independent. `NEXT.md` holds the
+   reasoning; this holds the trackable work. Deliberately no dates and no weeks.
 
 ## Group vs brand responsibilities
 
