@@ -179,12 +179,29 @@ schedule-triggered** (`02-buyer-journey.md`); **cross-brand cadence coordinated*
 not oversaturated by six brands; and the whole-room story becomes appropriate only here — earned, never the
 cold open.
 
+## Many bites per stage — the coin-pusher
+
+**A single touch rarely converts, at any stage** (`../decided.md` S26). One email doesn't generate; neither
+does one article. Each stage is therefore worked as a **repertoire at a rhythm**: small touches, regular,
+value every time — the coin-pusher, little investments going in until the pile falls. Four consequences:
+
+- **The stage-4–6 pieces are sequences and streams, not single sends.** The welcome is a sequence; the
+  adjacency email is a stream of genuinely useful touches timed to their state.
+- **A touch with no value in it is not a coin.** Every touch gives something — an answer, a saving, a
+  useful thing — and the ask rides along as the handoff, never as the payload. Generosity is what does the
+  tempting.
+- **Judge the pile, not the coin.** Per-touch conversion is the wrong measure. The account ledger counts
+  touches, so how many coins a gateway typically takes stops being a guess and becomes a number we learn.
+- **Regularity is the mechanism.** The familiarity rule (`04-content.md` — frequency and rhythm beat
+  weight) generalised beyond the face: it applies at every stage, on both sides of the hinge.
+
 ## How progress is recorded — three ledgers
 
 1. **Before the hinge: aggregate only.** No dealer record exists yet, so progress is funnel counts per
    gateway — tagged arrivals, depth events, registrations per period — read monthly.
 2. **After the hinge: the account carries its stage.** Every registered account has a journey state, a last
-   touch, and a next tempted action. The state is set **by events where a signal exists** (an order updates
+   touch, a next tempted action — and the touch count, how many coins have gone in, so the tipping point
+   per gateway becomes learnable (S26). The state is set **by events where a signal exists** (an order updates
    itself) and **by a person where it doesn't** (G5, gone-quiet). The 2023 programme ran exactly this — the
    compulsory RAPS column in Infinity (`2023-buyer-journey-archive.md`) — and this is the field engine
    inherits. Per the standing discipline, what engine already holds gets checked first (JNY-1).
