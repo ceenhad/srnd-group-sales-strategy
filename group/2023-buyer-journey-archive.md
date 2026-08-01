@@ -14,9 +14,11 @@ Neil's journey notes and directives, a purchase-decision question tree, the **RA
 (Research – Approach – Present – Secure) fully specified with per-step scripts and CRM discipline, and
 awareness campaign templates.
 
-> **[?] To clarify with Neil:** the relationship between *Apex-Tech UK* here (the group's own operation,
-> ex-GT) and the *Apex-Tech* recorded in `../current-state.md` as the resigned **US** DT distributor. Same
-> name, apparently different things — the repo should not conflate them, and currently might.
+> **Resolved (Neil, 2026-08-01):** Apex-Tech UK is effectively the **forerunner of SRND Distribution** —
+> the group's own trade operation, GT → Apex-Tech UK (July 2021) → SRND Distribution. "We have been doing
+> this a long time." Distinct from the *Apex-Tech* recorded in `../current-state.md` as the resigned US DT
+> distributor; the two must not be conflated. Consequence: everything in this archive — RAPS, the CRM base,
+> the templates — is the group's own prior work, freely reusable.
 
 ## The 2023 journey — and how it maps to today's
 
