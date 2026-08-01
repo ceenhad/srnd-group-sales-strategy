@@ -73,6 +73,17 @@ form, superseded by the states table above in the deck's own words.
    (CRM-known base, "get each company to the next bridge") is close to directly reusable for the **US
    conversion thread** (US-4) — the exact same job: known dealers, direct approach, move them a stage.
 
+## Neil's caveat on folding it in (2026-08-01)
+
+**The archive is a shortcut, not a standard.** "The contents was never perfect either but has helped us
+shortcut" — so JNY-5 imports selectively, on merit, never wholesale. Content-as-the-rep is older than this
+archive for the group. **And the diagnosis of what always went missing, in Neil's words: "a filled out plan
+of content per brand and the mechanical means to churn through it, record the outputs and then apply
+them."** Three parts: the filled plan, the churn machinery, the record-and-apply loop. The 2023 programme
+had none of the three; the current design has the machinery (S24) and the tracking (S23) — the filled
+per-brand plan is the part that has still never existed, and it is the deliverable
+(`../brands/c-ats/content-plan.md` is the first).
+
 ## What it warns (the honest half)
 
 **This programme was built, agreed — "set in stone", start date 6 March, results monthly — and the estate
