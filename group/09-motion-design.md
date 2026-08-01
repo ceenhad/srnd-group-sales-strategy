@@ -152,9 +152,15 @@ and the journey's health reads as funnel conversion per gateway rather than as a
 accordingly: the signal map includes source attribution on hooks, checked against what the store and engine
 already capture before anything is built.
 
-**Where it runs:** eventually engine — the standing rule holds (strategy here, operations there). What this
-document owes engine is the state model: the stages, the gateways, the signals. Nothing more is specified
-here.
+**Where it runs: engine, and that is the destination, not a footnote** (`../decided.md` S25). The end state
+is that most of this happens automatically on top of the CRM and the product database engine already holds:
+gateway signals observed, triggers fired, the queue churned, outputs logged, results applied. The standing
+rule holds — strategy here, operations there, and engine is never specified from this repo. **What engine is
+owed from this work, when the time comes:** the state model (stages, gateways, signals, source attribution);
+the per-brand content plan shape (the queue and the published-piece log); the pathway/slot structure that
+gives every piece a destination; and the product-record sales layer (`../product-data-schema.md`). All of it
+is built as stable IDs and regular tables precisely so it lifts. And per the standing discipline (S16a,
+JNY-1), what engine already models gets checked before any of it is designed twice.
 
 ---
 
