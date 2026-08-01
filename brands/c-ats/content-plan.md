@@ -4,8 +4,10 @@
 mechanical means to churn through it, record the outputs and then apply them." The machinery exists
 (`../../decided.md` S24 — the production line) and the tracking is designed (S23). **This is the filled
 plan for the first brand**: every content piece C-ATS needs, enumerated against the journey, with its
-source atom, its state, and its churn order. The line works this queue top to bottom; nothing here requires
-ideation. Drafted for correction — states are claims, strike wrong ones. Other brands copy the shape.*
+source atom, its state, its stage-grid row and its target — the thing it points at, written into the piece
+(`../../group/09-motion-design.md`, "the actions at each stage"). The line works this queue top to bottom;
+nothing here requires ideation. Drafted for correction — states and targets are claims, strike wrong ones.
+Other brands copy the shape.*
 
 ## How the queue is ordered
 
@@ -16,54 +18,72 @@ the archive count says what to multiply.** The dead ends (handoffs) get wired as
 ## The queue
 
 *State: `live` · `staged` (written, unpublished) · `written` (in repo, no home yet) · `buried` (published,
-unfindable) · `draft` (Claude-drafted, awaiting truth-check) · `missing`. Stage = journey stage / pathway
-slot.*
+unfindable) · `draft` (Claude-drafted, awaiting truth-check) · `missing`. Stage = journey stage / grid row.
+Target = what the piece points at — its gateway's threshold action, written into the piece.*
 
 ### Tranche 1 — already written: publish (days of churn, no authoring)
 
-| # | Piece | Stage | Source atom | State |
-|---|---|---|---|---|
-| 1 | REV-CP warm-room instruction page ("the warm-room rule") | 5 | `install-critical-notes.md` p2 | written + derivative set in `content-batch-001.md` (draft) |
-| 2 | REF-CP bond-vs-screw instruction page | 5 | `install-critical-notes.md` p1 | written — next through the line |
-| 3–20 | The 18 knowledge-base articles across 8 pillars (RT60, first reflections, panel thickness, slim-vs-deep, absorbers/diffusers/bass, checkerboard placement, reading an absorption table, BSRIA results, fire ratings, mounting, spec mistakes, concealment → Fabric Walls, verification, + the rest — inventory the full list from `c-ats-shopify`) | 2–3 | staged KB, `c-ats-shopify` | staged |
-| 21–31 | The paste-ready site blocks: hero, 3 Rs block, depth argument, proof block, the two routes, three product on-ramps, four services | 2 | `copy.md` | written (deploy = EST-4/EST-6) |
+| # | Piece | Stage | Target | Source atom | State |
+|---|---|---|---|---|---|
+| 1 | REV-CP warm-room instruction page ("the warm-room rule") | 5 | Verification offer → REV-CP product page | `install-critical-notes.md` p2 | written + derivative set in `content-batch-001.md` (draft) |
+| 2 | REF-CP bond-vs-screw instruction page | 5 | Verification offer → REF-CP product page | `install-critical-notes.md` p1 | written — next through the line |
+| 3–20 | The 18 knowledge-base articles across 8 pillars (RT60, first reflections, panel thickness, slim-vs-deep, absorbers/diffusers/bass, checkerboard placement, reading an absorption table, BSRIA results, fire ratings, mounting, spec mistakes, concealment → Fabric Walls, verification, + the rest — inventory the full list from `c-ats-shopify`) | 2–3 | Each → its product's on-ramp; the proof articles → registration; concealment → Fabric Walls stage 2 | staged KB, `c-ats-shopify` | staged |
+| 21–31 | The paste-ready site blocks: hero, 3 Rs block, depth argument, proof block, the two routes, three product on-ramps, four services | 2 | The depth layer: knowledge base, measured data, the design service | `copy.md` | written (deploy = EST-4/EST-6) |
 
 ### Tranche 2 — already published: surface and wire (hours)
 
-| # | Piece | Stage | Source atom | State |
-|---|---|---|---|---|
-| 32 | BSRIA report + five coefficient sheets, surfaced and linked from product pages and proof block | 3 | live `c-ats.co.uk` PDFs | buried (EST-5) |
-| 33 | The reverberation explainer — description + end-card handoff to its fuller answer | 1→2 | live, ~9,500 views | live, ends dead (CON-8) |
-| 34 | The 3 Rs explainer set — same handoff wiring | 1→2 | live `@Complete_ATS` | live, ends dead |
-| 35 | Pre-planned reference layouts (three 7.1.4 rooms) | 2–3 | built in `c-ats-shopify` | staged (blocked: CLI re-auth, EST-6) |
+| # | Piece | Stage | Target | Source atom | State |
+|---|---|---|---|---|---|
+| 32 | BSRIA report + five coefficient sheets, surfaced and linked from product pages and proof block | 3 | Registration ("see partner pricing") + a Zoom for the doubtful | live `c-ats.co.uk` PDFs | buried (EST-5) |
+| 33 | The reverberation explainer — description + end-card handoff | 1 | The RT60 article (the fuller answer) | live, ~9,500 views | live, ends dead (CON-8) |
+| 34 | The 3 Rs explainer set — same handoff wiring | 1 | Each → its fuller KB answer | live `@Complete_ATS` | live, ends dead |
+| 35 | Pre-planned reference layouts (three 7.1.4 rooms) | 2–3 | The design service enquiry | built in `c-ats-shopify` | staged (blocked: CLI re-auth, EST-6) |
 
 ### Tranche 3 — derivatives from existing atoms (the line drafts; owner truth-checks)
 
-| # | Piece | Stage | Source atom | State |
-|---|---|---|---|---|
-| 36 | REF-CP derivative set (article frame, stage-2/3 pieces, site-conditions paragraph, email item) — batch 002 | 2–5 | item 2 + `product-records.md` | queued |
-| 37 | RES-CP corner-placement instruction + derivative set | 5 | `product-records.md` | missing (the third predictable question) |
-| 38 | Site-conditions paragraphs for all three panels, into the product records (schema group 1) | record | batches 001/002 | draft (REV-CP only) |
-| 39 | Three "how do you do X" recordings: bond-vs-screw, warm room, corner placement — prompts ready | 5 | batch prompts | missing (one session, DOC-2) |
-| 40 | "Reading the Reflection A/B chart" — the two-install-types story as a stage-3 proof piece | 3 | `decided.md` S21 + published chart | queued (check DOC-4 first) |
-| 41 | Three rewritten install guides, organised by moment | 5 | existing guides + records | missing (DOC-3) |
-| 42 | Fault-finding one-pagers per panel | 5 | `product-records.md` §doubt | missing |
-| 43 | Virtual case studies — room stories around renders, C-ATS-led | 2–3 | render library | missing (CON-11; renders exist) |
-| 44 | "Hear the difference" Experience Centre demo film | 3 | the facility | missing (CON-12) |
+| # | Piece | Stage | Target | Source atom | State |
+|---|---|---|---|---|---|
+| 36 | REF-CP derivative set (article frame, stage-2/3 pieces, site-conditions paragraph, email item) — batch 002 | 2–5 | Per piece, per its row | item 2 + `product-records.md` | queued |
+| 37 | RES-CP corner-placement instruction + derivative set | 5 | Verification offer → RES-CP product page | `product-records.md` | missing (the third predictable question) |
+| 38 | Site-conditions paragraphs for all three panels, into the product records (schema group 1) | 5 (+3 reassurance) | The install manual | batches 001/002 | draft (REV-CP only) |
+| 39 | Three "how do you do X" recordings: bond-vs-screw, warm room, corner placement — prompts ready | 5 | Embedded in items 1, 2, 37; each → its product page | batch prompts | missing (one session, DOC-2) |
+| 40 | "Reading the Reflection A/B chart" — the two-install-types story as proof | 3 | Registration | `decided.md` S21 + published chart | queued (check DOC-4 first) |
+| 41 | Three rewritten install guides, organised by moment | 5 | Verification offer; fault-finding | existing guides + records | missing (DOC-3) |
+| 42 | Fault-finding one-pagers per panel | 5 | Support contact ("tell us before commissioning") | `product-records.md` §doubt | missing |
+| 43 | Virtual case studies — room stories around renders, C-ATS-led | 2–3 | The product on-ramps; the design service | render library | missing (CON-11; renders exist) |
+| 44 | "Hear the difference" Experience Centre demo film | 3 | The sample kit; a visit; registration | the facility | missing (CON-12) |
 
 ### Tranche 4 — genuinely missing, small
 
-| # | Piece | Stage | Source atom | State |
-|---|---|---|---|---|
-| 45 | The adjacency prompt page (treatment → fabric → front-of-room) | 6 | XS-1, one page | missing — the only authored gap in the reverberation pathway |
-| 46 | Registration-worth-crossing copy (what a partner account grants, honestly — no unbuilt promises) | 4 | `03-partner-programme.md` | missing |
+| # | Piece | Stage | Target | Source atom | State |
+|---|---|---|---|---|---|
+| 45 | The adjacency prompt page (treatment → fabric → front-of-room) | 6 | **Fabric Walls stage 2** — the loop | XS-1, one page | missing — the only authored gap in the reverberation pathway |
+| 46 | Registration-worth-crossing copy (what a partner account grants, honestly — no unbuilt promises) | 3→4 | Registration completed → the store | `03-partner-programme.md` | missing |
 
 ### Tranche 5 — hooks, after evidence
 
-| # | Piece | Stage | Source atom | State |
-|---|---|---|---|---|
-| 47 | The four uncast hook angles from the reverberation matrix, worded by Neil | 1 | `pathway-reverberation.md` | candidates |
-| 48+ | Hook variants multiplied per what the archive count ranks and what the bites show | 1 | CON-3 + published-piece log | waits on evidence |
+| # | Piece | Stage | Target | Source atom | State |
+|---|---|---|---|---|---|
+| 47 | The four uncast hook angles from the reverberation matrix, worded by Neil | 1 | Each → its fuller answer (items 3–20) | `pathway-reverberation.md` | candidates |
+| 48+ | Hook variants multiplied per what the archive count ranks and what the bites show | 1 | Each → its fuller answer | CON-3 + published-piece log | waits on evidence |
+
+## The grid check — items counted per row
+
+*The point of the fill: a stage with an empty or all-unpublished row is a visible break. Counted from the
+queue above.*
+
+| Grid row | Items | Live today | Verdict |
+|---|---|---|---|
+| **1 — Unaware** | 33, 34, 47, 48+ | 2 (both end dead) | Seeded by the explainers; hooks correctly wait on evidence. Wire the handoffs first |
+| **2 — Interested** | 3–20 (part), 21–31, 35, 43 | **0** | The fullest row on paper and nothing is live — the stage-2 break is a publishing job, not a writing job |
+| **3 — Evaluating** | 3–20 (part), 32, 35, 40, 44 | 1 (buried) | Strong material; the proof exists and is invisible. Surface before making anything new |
+| **4 — Registered** | 46 (+ store listing fixes, EST-4) | mechanism live | **The thinnest row** — one planned piece. The store's listing copy has no plan item beyond the fix list; decide if it needs one |
+| **5 — First job** | 1, 2, 37–42, 39 | **0** | The deepest row once published — and today an installer finds none of it |
+| **6 — Next order** | 45 (+ email items from batch derivatives) | 0 | One planned piece. Reorder prompts and always-on formats have no C-ATS items yet — matches the journey map's "next order unowned" |
+| *Specifier (parked)* | — | — | Empty, correctly — parked by choice, visible by design |
+
+**What the check says:** stage 2 breaks on publishing, stage 5 on publishing, stages 4 and 6 on planning —
+two rows genuinely need pieces adding, and both are small. Nothing anywhere needs a campaign.
 
 ## Record the outputs — the apply loop
 
