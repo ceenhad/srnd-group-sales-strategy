@@ -130,6 +130,27 @@ the end of each piece *is* the pathway.
   that is a C-ATS door, where every slot's material either exists or is nearest to existing. Written once, it
   is the template every other door copies.
 
+## The actions at each stage — content type, placement, target
+
+*The pathway, generalised: what kind of piece serves each stage, where it is placed, and what it points at.
+Every piece on this grid has one job — to move its reader through one gateway — and the target column is
+that gateway's threshold action. **The types are the group standard; the substance is each brand's.**
+Nobody invents new types per brand, and no piece is made without its row.*
+
+| Stage | The reader's question | Content types | Placed | Points at |
+|---|---|---|---|---|
+| **1 — Unaware** | "That's my problem" | Text-forward hooks; short explainers (under a minute); mechanism-in-motion clips; problem-named articles written for search and AI answers | Off-site, where strangers look: search/AI, LinkedIn, Instagram, YouTube, trade press, the EI microsite | The fuller answer on the brand site (**G1**) |
+| **2 — Interested** | "What is this — could it work for me?" | The on-ramp page (problem solved, opportunity opened, time saved); range and data cards; render-led room stories | The brand site | The depth layer: knowledge base, tools, samples (**G2**) |
+| **3 — Evaluating** | "Can I trust this enough to put it in my project?" | Knowledge-base answers; measured data and third-party reports; recorded demos — the Experience Centre, filmed; worked examples; the sample kit; the offer of a Zoom | Brand site + knowledge base + YouTube | Registration (**G3**) |
+| **4 — Registered** | "How do I buy, and what do I risk?" | The entry-product page; listings with clear scope of supply; the quote and checkout; a Zoom for the considered sale | The store | The first order (**G4**) |
+| **5 — First job** | "How do I fit this right?" | Install manuals organised by moment; "how do you do X" videos; site-conditions notes; fault-finding guides; the verification offer | The canonical home; in the box; the order confirmation; the product's install tab | A first job that succeeds (**G5**) |
+| **6 — Next order** | "What else — and how easily?" | The adjacency prompt in the spec conversation; the recurring formats, always on; reorder prompts; the whole-room story — earned by now; the partner email | Email + store + the spec conversation itself | A second brand's stage 2 (**G6** — the loop) |
+| *Specifier (parallel, parked)* | "Can I name this pre-tender?" | CPD seminars; NBS clauses; BIM/Revit objects; specifier-grade downloads | The specifier's own machinery | Named in the specification before tender |
+
+Three rules travel with the grid: **one job per piece** (its gateway, nothing else); **every piece carries
+its target explicitly** — the handoff is written into the piece, not hoped for; and pieces are counted
+against the grid, so a stage with an empty row is a visible break, not a surprise.
+
 ## The process — the rep's mechanics, systematised
 
 **Most of what a rep does is mechanics: notice the state, choose the next right touch, make it, note the
