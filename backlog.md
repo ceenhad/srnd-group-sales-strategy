@@ -44,6 +44,12 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism. **The deb
 described:** `product-record-template.md` is the form, `product-register.md` the roster — 38 record scopes across the
 group, 3 filled, 9 skeletoned, 25 with nothing at all, of which **15 are being sold today**.*
 
+***And the knowledge half is the binding one (`KNW-*`).** The records are step 1 of the production line — the
+substance Claude multiplies from (`group/09-motion-design.md` component 2). Measured as fuel rather than as
+inventory: **the line has substance for 3 products out of 38**, and on those three it can multiply **2 answers out
+of 13 questions**. `DOC-*` fills the definition; `KNW-*` fills what the rep actually says, and nothing downstream
+of content-as-the-rep runs without it.*
+
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to **the C-ATS brand-site knowledge base** — the canonical home per S29. Content written; held by Neil (Q3) pending the home going live | producer (publication) | Hours | blocked (EST-6; home per S29) | `brands/c-ats/install-critical-notes.md`, `decided.md` S29 |
@@ -66,6 +72,12 @@ group, 3 filled, 9 skeletoned, 25 with nothing at all, of which **15 are being s
 | DOC-18 | Decide | Whether the Mistral Commander is an exception to *"control stays embedded, never a line item"* or follows the Actuator Commander off the store. It is a live standalone SKU today and the rule says "no exceptions" | owner | Minutes | ready | `brands/display-technologies/product-records.md` (`DT-08`) |
 | DOC-19 | Do | Fill `D5` (*what it is not for*) and `D7` (*what it requires from others*) across the DT families. `D5` prevents the range's characteristic failure — right product, wrong size; `D7` is the specifier's coordination story and exists nowhere | authority | Rides on DOC-11 | blocked (DOC-11) | `brands/display-technologies/product-records.md` |
 | DOC-20 | Do | Confirm the register's roster against engine and the stores, then fill the remaining brands' rows — Fabric Walls, Light Walls, Pro-Fi and Distribution have no records at all | — | Small per brand | blocked (DOC-12) | `product-register.md` |
+| KNW-1 | Do | **Turn the six `known` C-ATS answers into written ones** — behind fabric, ~300 mm tolerance, why the figures look low, why the RES-CP is bigger, corner-only, checkerboard. The answers are already in the record's definitional fields; each is a paragraph. **Highest-return work in the brand** | producer (drafting), owner (truth-check) | An afternoon | ready | `brands/c-ats/product-records.md` (`N3`) |
+| KNW-2 | Do | **Write `N1` and `N2` for C-ATS — how many do I need, and a worked example.** Three of the four unanswered questions reduce to this, and `positioning.md` §1 already committed to worked examples as the self-serve route in place of a calculator. Raw material staged (three 7.1.4 reference layouts) | authority (the rule), producer | Small; unblocks the most-asked question | blocked (EST-6 for the layouts) | `brands/c-ats/product-records.md` (`N1`, `N2`) |
+| KNW-3 | Do | **Fill `R3` and `N3` for the nine DT families — one conversation with whoever answers DT support, transcribed.** DT has no question list at all, so no DT content backlog can be ranked and `DOC-14` has no running order. **The brand with three-quarters of the audience** | authority / trade view, producer | One session | ready | `brands/display-technologies/product-records.md` |
+| KNW-4 | Decide | **`N9` as one list, not five rows.** Four of the five things C-ATS cannot answer are measurement gaps (DOC-6…DOC-10) — so it is one decision: commission the further testing, or declare the current data the limit and say so plainly. Cheaper and clearer than five separate deferrals | owner | Minutes | ready | `brands/c-ats/product-records.md` (`N9`) |
+| KNW-5 | Do | **`N7` — the thing a dealer hands their own client.** Empty for all 38 record scopes, and it is the group's stated advantage (*depth spent on the dealer's customer*) with no artefact behind it. Start with one product in one brand and see whether dealers use it | producer | One piece, then judge | ready | `product-register.md` (the knowledge gap), `group/00-strategy.md` |
+| KNW-6 | Do | **`N6` — project timing, per brand.** When in a project this is decided, what it blocks if decided late, who is in the room. It is what a rep knows and the prompt list for the spec conversation; DT's version (openings, load paths, extract routes decided before the wall closes) is the strongest and is written nowhere | authority | Small per brand | ready | `brands/display-technologies/product-records.md`, `NEXT.md` lane 4 |
 
 ## W2 — US entry — *parked: commercial questions are not germane to establishing the processes (2026-08-02)*
 

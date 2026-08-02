@@ -208,8 +208,60 @@ they will ever be, and it is what the Screen Wall shows the cost of skipping.
 
 ---
 
+## The knowledge gap — what the record shows the moment you look
+
+*Added 2026-08-02. **Content is the sales rep** (`decided.md` S1–S9), and the production line's step 1 is
+*"substance in — the atoms that already exist: **the product records**…"* with Claude multiplying pieces from that
+substance and never inventing claims (`group/09-motion-design.md` component 2). **So the line's fuel tank is this
+register.** Reading it as fuel rather than as inventory is what this section does, and the picture is worse than the
+record counts suggest.*
+
+### Three tiers of ignorance, not one gap
+
+| Tier | Scopes | State | What the line can do with it |
+|---|---|---|---|
+| **1 — questions indexed, answers missing** | **3** (the C-ATS panels) | 26/39 fields, **knowledge 2/9**, **2 of 13 questions answered in writing** | Multiply the two answers we have. Six more are a paragraph each away. The rest is not there |
+| **2 — definition only, questions not even asked** | **9** (the DT families) | ~13/39 fields, **`R3` unfilled throughout** | **Nothing.** With no question list there is no content backlog for DT at all — and DT owns the channel with 8 years and ~41,000 views |
+| **3 — nothing** | **25** | No record | Nothing |
+
+### What that means, stated plainly
+
+- **The production line has fuel for three products out of thirty-eight**, and on those three it can multiply two
+  answers. **Volume of pieces was never the constraint; substance is**, and the constraint is now measured rather
+  than suspected.
+- **DT is the sharper problem, and it is not the one that looks urgent.** C-ATS is short of *answers*; DT is short
+  of the *questions* — `R3` is unfilled across every family, so nobody can rank a DT content backlog, because there
+  is no list to rank. **And DT has the audience.** Three-quarters of the estate's viewers are on a channel we
+  cannot currently feed with anything but product descriptions — which is precisely the catalogue content that
+  already failed at 1 to 26 views a piece (`group/04-content.md`).
+- **`N7` — what the dealer tells their client — is empty for all 38.** The group's stated advantage is depth spent
+  on the dealer's behalf, and *"the dealer is the hero, always"* (`CLAUDE.md`). **There is not one artefact in the
+  estate that a dealer can hand to their own client.** Of everything on this page, this is the gap most directly
+  opposite to what the strategy says the group is.
+- **`N1`/`N2` — how many do I need, and show me — is the commonest question in every brand and answered in none.**
+  In C-ATS three of four unanswered questions reduce to it; in DT it is the sizing question the whole range turns
+  on; in Fabric Walls it is the kit level; in Light Walls it is the module count. **One field shape, five brands,
+  zero answers.**
+- **The C-ATS content plan cannot be copied to another brand yet.** It says *"other brands copy the shape after
+  their pathways"* (`brands/c-ats/content-plan.md`) — but its ~48 items derive from three filled records, and no
+  other brand has one. **The blocker on a second brand's content plan is upstream of its pathway: it is the record.**
+
+### The one that should be uncomfortable
+
+**Every question in a `R3` field is a question we already receive.** Naming it does not create work — the work is
+already happening, one email at a time, uncounted. A `known`-but-unwritten answer means **someone here answers it
+repeatedly and it has never been made findable**; an `unanswered` one means **a dealer asks and we improvise.**
+Thirteen questions on the best-documented product in the group, two of them answered in writing. **That ratio, not
+the record count, is the size of the job** — and mining the sent-mail archive (`backlog.md` CON-3) is the cheapest
+way to find out how much bigger thirteen becomes when it is counted from real traffic instead of from our own
+reading of the products.
+
+---
+
 ## What this register is for next
 
+0. **It says what the content operation can actually be fed.** Read the knowledge gap above first; the record
+   counts below it are the lesser number.
 1. **It orders the work.** The `current` + `none` rows are the queue, ranked by `R3` once the sent-mail archive says
    what actually recurs (`backlog.md` CON-3) — not alphabetically and not by whichever product someone is currently
    annoyed about.

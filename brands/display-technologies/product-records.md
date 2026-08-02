@@ -273,6 +273,40 @@ worth a look when someone is in the store data anyway.
 
 ---
 
+## The knowledge layer — `N1`–`N9` — and why DT's version is a different problem
+
+*Group D across the whole DT range: **0 of 9, and `R3` is unfilled on every family**, which is worse than it
+sounds.*
+
+**C-ATS is short of answers. DT is short of the questions.** The C-ATS record names thirteen questions and answers
+two; a content backlog exists there and is merely thin. **For DT there is no list at all** — nothing says what a
+dealer asks about a hush box, a port hole or a masking screen, so nothing can be ranked, and the production line
+has nothing to draft from but the catalogue description. That is the same catalogue content that already failed:
+two dozen competent product films at between 1 and 26 views (`../../group/04-content.md`).
+
+**And DT owns the audience.** Three-quarters of the estate's viewers are on DT's channel, running since 2018 with
+~41,000 views. **The brand with the audience is the brand with no question list** — which is the most consequential
+sentence on this page.
+
+| ID | Field | State | Note |
+|---|---|---|---|
+| `N1` | Selection logic | **`[?]` — and it is DT's central question** | The whole range is **size-driven**: what determines a mount, an enclosure or a port hole is the dimensions of the unit and the room. **So "which one do I need?" is *the* DT question**, the site answers it today with projector-model tags, and `positioning.md` §1 explicitly says those tags are a sizing aid and **not** a claim of per-model engineering. There is no written sizing rule to replace them with |
+| `N2` | The worked example | **`missing`** | No worked sizing example exists for any family |
+| `N3` | The answers | **`missing` — no questions to answer** | `R3` unfilled on all nine families. **This is the first thing to fix, and it is an hour of listening rather than an hour of writing** |
+| `N4` | Comparison | **`[?]`** | Future Automation and Screen Research are named in the strategy; nothing per product. Note the standing rule — position by capability, never disparagement, and **FA-copied-CAD is internal only** |
+| `N5` | Compatibility & pairing | **partly derivable** | The cross-brand links are real and stated: acoustically transparent surfaces put C-ATS treatment and Pro-Fi speakers behind the image; concealment sits behind the Fabric Walls surface; the Screen Wall contains four brands. **Never written as pairing guidance a dealer could use** |
+| `N6` | Project timing | **`[?]`, and it is DT's strongest unclaimed argument** | A port hole is an opening the builder must leave; a mount is a load path; a hush box is an extract route. **These are decided before the wall is closed** — far earlier than the AV order. Knowing that is exactly what a rep is for, and it is written nowhere |
+| `N7` | What the dealer tells their client | **`missing`** | And DT is the brand where it matters most, because `positioning.md` §2 says the audience widens to **the architect and designer** — people the *dealer* has to persuade, in the dealer's own meeting, without us there |
+| `N8` | Field learning | **`[?]`** | Prestigious installs exist; nothing captured |
+| `N9` | What we are asked and cannot answer | **`[?]`** | Two candidates already visible: how far DT's remote diagnostics actually goes (`../../backlog.md` US-6, capability assumed rather than known), and what the LED variant of the Screen Wall can be claimed to do |
+
+**The cheapest thing on this page, and it is not writing.** `R3` and `N3` for nine families is **one conversation
+with whoever answers DT support calls**, transcribed. It produces the DT content backlog, the fault-finding
+priorities and the manual set's running order in a single pass — and until it happens, `DOC-14` (write the DT manual
+set, *"large, finite"*) has no ranking to work to.
+
+---
+
 ## What building the skeleton produced
 
 **Four findings, none of which needed new research** — only somewhere to put what the repo already held:
@@ -290,6 +324,12 @@ worth a look when someone is in the store data anyway.
 4. **`DT-03` and possibly `FW-02` are mis-scoped**, which is the grouping doing its job: acoustic transparency and
    ambient-light rejection are different mechanisms, and the template's own test separates them.
 
-**And the number that matters: ~13 of 30 fields, before anyone did any work.** The definitional layer was already
+**And the number that matters: ~13 of 39 fields, before anyone did any work.** The definitional layer was already
 sitting in the repo, unassembled. What remains is genuinely unknown here and genuinely known by the people who build
 these things — which is exactly the shape the record was designed to convert into questions.
+
+**A fifth finding, from adding the knowledge layer:** the definitional gaps above are real but ordinary — they get
+filled by someone who knows the products writing down what they know. **The knowledge gap is different in kind.**
+`R3` and `N3` cannot be filled from the building; they are filled from *what dealers ask*, which means listening to
+support and mining sent mail (`../../backlog.md` CON-3), not consulting the engineering. **Those are two different
+people and two different sessions**, and treating DT documentation as one job is why it has never started.

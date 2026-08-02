@@ -9,6 +9,14 @@ a record can be filled by anyone, diffed, scored for completeness, and read by a
 interpretation. Same discipline as `backlog.md`: **IDs are stable and rows are regular** so the whole set can be
 lifted into engine when the process gets a system home.
 
+> **Corrected 2026-08-02, and it changes what the record is for.** The first cut treated this as *product data*.
+> But **content is the sales rep** (`decided.md` S1–S9), and the production line's step 1 is *"substance in — the
+> atoms that already exist: **the product records**, the measured data, the archive…"* with the standing rule that
+> Claude *"multiplies pieces from that substance; it never invents claims"* (`group/09-motion-design.md`,
+> component 2). **So the record is not a specification. It is the database the rep speaks from** — and a record
+> holding only definition and an index of questions gives the line nothing to multiply but the definition. Hence
+> **group D, the knowledge layer**, below. It is the half that was missing, and it is the half that matters.
+
 **Three rules carried down from the schema, unchanged:**
 
 - **Engine owns the mechanical record.** SKU, name, weight, dimensions, stock, price. Not here, not duplicated
@@ -17,6 +25,8 @@ lifted into engine when the process gets a system home.
   made concrete. A field no output needs should be struck from the form, not filled in.
 - **Definition before pitch.** Group A gets filled first. You cannot honestly say what problem a product solves
   until you have said what it is.
+- **And knowledge before content.** Group D is what a rep carries. Nothing downstream of it can be produced
+  without it, and no amount of production capacity substitutes for it.
 
 ---
 
@@ -31,13 +41,17 @@ Every field carries one of four states. **This is what turns "the documentation 
 | **Not applicable** | `n/a — reason` | Genuinely does not apply. The reason is mandatory; without it `n/a` is just a blank with confidence | Out of the denominator |
 | **Untouched** | blank | Nobody has looked | Not complete, **not identified** — the worst state, and the one the form exists to eliminate |
 
-**Two meters, and they measure different things.** Keep them apart:
+**Three meters, and they measure different things.** Keep them apart:
 
-- **Record completeness** = filled ÷ (applicable fields). The sales-and-marketing layer.
-- **Asset completeness** = assets `current` ÷ applicable assets (group G). What a dealer can actually be given.
+- **Record completeness** = filled ÷ applicable fields. The sales-and-marketing layer.
+- **Knowledge completeness** = group D filled ÷ 9, plus **`R3` questions answered ÷ `R3` questions named**. What the
+  rep can actually say.
+- **Asset completeness** = assets `current` ÷ applicable assets (group H). What a dealer can be given.
 
-A product can be 100 % record-complete and 20 % asset-complete. That is a normal and useful state: it means we know
-exactly what to make.
+A product can be 100 % record-complete and 20 % asset-complete: normal and useful — it means we know what to make.
+**But a product that is record-complete and knowledge-empty is the dangerous state**, because it looks finished. It
+has a definition, an on-ramp and a list of the questions it provokes, and it still cannot hold a conversation.
+**Report the knowledge meter first.**
 
 ## Scope of a record — per mechanism, not per SKU
 
@@ -85,7 +99,8 @@ Copy the block at the bottom. Fields in order; **do not reorder or renumber** �
 
 ### C. The doubt it has to remove — `R1`–`R4`
 
-*The most valuable group here, and the one no operational system would ever hold.*
+*The index of what the product has to overcome. **It names the questions; group D holds the answers**, and the two
+are only useful together — `R3` without `N3` is a list of things we are known to be asked and known not to answer.*
 
 | ID | Field | Fill rule |
 |---|---|---|
@@ -94,7 +109,37 @@ Copy the block at the bottom. Fields in order; **do not reorder or renumber** �
 | `R3` | **The questions it generates** | Pre-sale and on site. The same question at different moments. This is the content backlog, per product |
 | `R4` | **What goes wrong on site** | The installer's real fear, and what peer reputation is made of |
 
-### D. Who decides on it — `W1`–`W2`
+### D. The knowledge layer — `N1`–`N9`
+
+***This is the group the whole exercise exists for.*** Group C names the questions; **this group holds the
+answers**, plus everything else a good rep carries in their head. It is the substance the production line runs on,
+and **it is the only group that cannot be derived from any other** — engine does not hold it, the website does not
+hold it, and it is currently distributed across two or three people's memories and a decade of sent mail.
+
+**The test for whether a record is worth anything: could someone who has never seen the product hold a competent
+conversation with a dealer using only group D?** Today, for every product in the group, the answer is no.
+
+| ID | Field | Fill rule |
+|---|---|---|
+| `N1` | **Selection logic** | How you choose it, and how many. The rule stated so a dealer can apply it themselves — quantity per room size, placement rule, the "it depends" made explicit. **The single commonest live question in every brand** |
+| `N2` | **The worked example** | One real room, start to finish, with the numbers shown. Not a case study — an arithmetic demonstration. C-ATS has already *decided* this is the self-serve route in place of a public calculator (`brands/c-ats/positioning.md` §1) |
+| `N3` | **The answers** | **One row per question in `R3`**: the question, the answer in the owner's words, its source, and where it is published. An unanswered `R3` entry is a question we are known to receive and known not to answer |
+| `N4` | **Comparison** | Versus the named alternatives (`group/06-competitors.md`), dimension by dimension. What we genuinely do better, **and where a competitor is genuinely better** — a rep who cannot say that is not trusted twice |
+| `N5` | **Compatibility & pairing** | What it works with, ours and other people's; what it must never be paired with; the physical adjacency that justifies the cross-sell |
+| `N6` | **Project timing** | When in a project this is decided, what it blocks if decided late, and who is in the room at that moment. **A rep's real value is knowing when to be there** |
+| `N7` | **What the dealer tells their client** | The non-technical explanation the dealer repeats to someone who is paying and cannot judge it. **Depth spent on the dealer's customer reads as generosity** (`CLAUDE.md`) — this field is that principle made into a deliverable, and it is empty for every product in the group |
+| `N8` | **Field learning** | What real jobs have taught since launch. Accumulates; never rewritten, only added to. The record of a product actually being used |
+| `N9` | **What we are asked and cannot answer** | The honest edge. **Every entry is a decision waiting**: commission the test, or stop being asked by saying plainly that we do not claim it |
+
+**Two rules specific to this group, because it is the one that can go wrong.**
+
+- **`N3` is transcription, not authorship.** The answer comes from whoever actually knows it — recorded, not
+  composed. *"Ten minutes of an owner talking, once"* (`NEXT.md` lane 6) fills more of this group than a week of
+  writing, and it is the only version that is true.
+- **`N9` is filled honestly or not at all.** A record that claims no unanswerable questions is a record nobody has
+  tested against a real dealer.
+
+### E. Who decides on it — `W1`–`W2`
 
 *Engine knows who bought it. It does not know who specified it, and those are different people.*
 
@@ -103,7 +148,7 @@ Copy the block at the bottom. Fields in order; **do not reorder or renumber** �
 | `W1` | **Purchaser vs specifier** | Who buys, who specifies, and whether they are the same. Names roles, never companies |
 | `W2` | **Who signs it off, and what convinces them** | Different parties are reassured by different things — a finish sample, a measured report, an install time |
 
-### E. What we may and may not say — `G1`–`G4`
+### F. What we may and may not say — `G1`–`G4`
 
 *Governance, and it belongs in the record rather than in someone's memory.*
 
@@ -114,14 +159,14 @@ Copy the block at the bottom. Fields in order; **do not reorder or renumber** �
 | `G3` | **Marketing status** | One of: `pre-release` · `demonstrable, undocumented` · `current` · `discontinued`. **Build it, then say it** |
 | `G4` | **Proof available, and publishable?** | What exists, and whether it may be shown. At this tier the best jobs are the least publishable |
 
-### F. Where it is sold — `C1`–`C2`
+### G. Where it is sold — `C1`–`C2`
 
 | ID | Field | Fill rule |
 |---|---|---|
 | `C1` | **Channel** | One of: `srnd.store` (trade) · `Cinema Store` · `trade-only, not listed` · `embedded — not sold separately`. **No product exists in two places** |
 | `C2` | **Territory availability** | Any restriction or exclusivity. A vacated territory should be visibly open |
 
-### G. The asset audit — `A1`–`A11`
+### H. The asset audit — `A1`–`A11`
 
 *Each carries a state: **`current`** · **`exists — stale`** · **`missing`** · **`n/a — reason`**. This group is what
 makes the debt countable.*
@@ -140,7 +185,7 @@ makes the debt countable.*
 | `A10` | Training module | Certification — assembled from the above, never authored separately |
 | `A11` | Spares and service instructions | Installer, support |
 
-### H. Record keeping — `K1`–`K3`
+### I. Record keeping — `K1`–`K3`
 
 | ID | Field | Fill rule |
 |---|---|---|
@@ -160,21 +205,35 @@ consequences, both deliberate:
 2. **You fill against demand, not alphabetically.** Filling `O1`, `R1` and `R3` across a whole range unlocks the
    hooks and the content backlog for every product in it. Filling one product to 100 % unlocks one product.
 
+**The table is ordered deliberately, and the divider in it is the finding.**
+
 | Output | Fields required | Notes |
 |---|---|---|
-| **Hook / campaign silo** | `O1` `R1` `R3` | Wording set by an owner, never generic (`backlog.md` JNY-4) |
-| **Site on-ramp block** (S15) | `D1` `O1` `O2` `O3` | The on-ramp half of the information architecture |
-| **Product page — technical depth** (S15) | `D1`–`D10` `G1` `G2` | The depth half. There to remove doubt, not to persuade |
 | **Store listing** | `D1` `D6` `D8` `C1` `G3` | `G3` gates it: nothing `pre-release` gets listed |
 | **Datasheet** | `D1`–`D9` `G1` `G2` `G3` `A2` | The first doubt-removal document anyone opens |
-| **Install manual** | `D6` `D7` `D8` `R4` | Organised by moment, not by product structure |
-| **"How do you do X" video** | `R4` `R3` | One failure mode per piece. The cheapest thing we make |
-| **Fault-finding guide** | `R4` `R3` `D7` | Most support volume, answered once |
-| **Comparison / objection content** | `O4` `R1` `G1` `G2` | The dealer is choosing between options, including doing nothing |
-| **Cross-sell prompt** (`backlog.md` XS-1) | `D10` `D7` `O3` | The physical adjacency is what justifies the prompt |
-| **Specifier pack decision** | `W1` `W2` `A3`–`A5` | Whether this product needs NBS/Revit/samples at all, or only an install guide |
-| **Case study** | `G4` | Publishability is the gate, and it is checked before writing, not after |
-| **Training module** | `A6`–`A9` | Assembled from the corpus (`decided.md` S12), never authored separately |
+| **Product page — technical depth** (S15) | `D1`–`D10` `G1` `G2` | The depth half. There to remove doubt, not to persuade |
+| **Site on-ramp block** (S15) | `D1` `O1` `O2` `O3` | The on-ramp half of the information architecture |
+| **Install manual** | `D6` `D7` `D8` `R4` **`N1`** | Organised by moment, not by product structure. `N1` is why it is installed *right*, not merely installed |
+| **Specifier pack decision** | `W1` `W2` `A3`–`A5` | Whether this needs NBS/Revit/samples at all, or only an install guide |
+| **Case study** | `G4` **`N8`** | Publishability is the gate, checked before writing. `N8` is what the job actually taught |
+| — *the line above generates from definition; below, nothing generates without group D* — | | |
+| **The knowledge base** — the corpus itself | **`N3`** `R3` | **One article per answered question.** This is the whole content estate, and it is one field |
+| **Hook / campaign silo** | `O1` `R1` `R3` **`N3`** | A hook with no answer behind it sends a dealer to a dead end (`backlog.md` CON-8) |
+| **"How do you do X" video** | `R4` `R3` **`N3`** | One failure mode per piece. The cheapest thing we make — and it is a *person answering*, so `N3` is the script |
+| **Fault-finding guide** | `R4` `D7` **`N3`** | Most support volume, answered once |
+| **"How many do I need" / selection guide** | **`N1` `N2`** | The commonest live question in every brand, and there is no output for it today |
+| **Design tool / calculator spec** (`group/07-tools.md`) | **`N1` `N2`** `D9` | A tool is `N1` made executable. Building one without `N1` written down is how a tool contradicts the design service |
+| **Comparison / objection content** | `O4` `R1` `G1` `G2` **`N4`** | The dealer is choosing between options, including doing nothing |
+| **Cross-sell prompt** (`backlog.md` XS-1) | `D10` `D7` `O3` **`N5` `N6`** | Physical adjacency justifies it; **`N6` says when to say it**, which is the whole trick |
+| **The spec-conversation prompt list** | **`N5` `N6`** | Our only discovery channel, and it runs on timing knowledge (`NEXT.md` lane 4) |
+| **Dealer-facing sales material** — what they tell their client | **`N7`** | **Nothing in the estate produces this today.** It is the moat expressed as a deliverable |
+| **Training module** | `A6`–`A9` **`N1`–`N4`** | Assembled from the corpus (`decided.md` S12), never authored separately |
+| **The testing / commissioning decisions** | **`N9`** | Each unanswerable is either a test to buy or a claim to stop making. Not content — a spending decision |
+
+**Read that table as one fact:** everything above the divider can be produced from the record as it stands today, and
+**every one of those outputs is a document.** Everything below the divider is what a *rep* does — answering, sizing,
+comparing, timing, arming the dealer — and none of it can be produced at all. **The estate can currently generate
+paperwork and cannot generate a salesperson**, which is precisely the thing content was supposed to replace.
 
 **Two hard gates, and they are not stylistic.**
 
@@ -192,7 +251,7 @@ consequences, both deliberate:
 ```markdown
 ## <Product or mechanism family> — `<ID>`
 
-**Record:** __ / __ fields · **Assets:** __ / __ current · **Status (G3):** ___
+**Record:** __ / 39 fields · **Knowledge:** __ / 9 + __ of __ questions answered · **Assets:** __ / 11 current · **Status (G3):** ___
 
 ### A. What it actually is
 | ID | Field | Value |
@@ -225,13 +284,32 @@ consequences, both deliberate:
 | R3 | Questions it generates | |
 | R4 | What goes wrong on site | |
 
-### D. Who decides
+### D. The knowledge layer
+| ID | Field | Value |
+|---|---|---|
+| N1 | Selection logic — which, and how many | |
+| N2 | The worked example | |
+| N4 | Comparison, versus named alternatives | |
+| N5 | Compatibility & pairing | |
+| N6 | Project timing — when it is decided | |
+| N7 | What the dealer tells their client | |
+| N8 | Field learning | |
+| N9 | What we are asked and cannot answer | |
+
+**N3 — the answers.** One row per `R3` question. *State: `answered` (written down) · `known` (in someone's head,
+unrecorded) · `unanswered`.*
+
+| Question (from `R3`) | Answer | Source / whose words | State | Published where |
+|---|---|---|---|---|
+| | | | | |
+
+### E. Who decides
 | ID | Field | Value |
 |---|---|---|
 | W1 | Purchaser vs specifier | |
 | W2 | Who signs off, and what convinces them | |
 
-### E. What we may and may not say
+### F. What we may and may not say
 | ID | Field | Value |
 |---|---|---|
 | G1 | Claims supported | |
@@ -239,18 +317,18 @@ consequences, both deliberate:
 | G3 | Marketing status | |
 | G4 | Proof, and publishable? | |
 
-### F. Where it is sold
+### G. Where it is sold
 | ID | Field | Value |
 |---|---|---|
 | C1 | Channel | |
 | C2 | Territory | |
 
-### G. Assets
+### H. Assets
 | A1 datasheet | A2 drawings | A3 CAD | A4 BIM | A5 NBS | A6 install | A7 commissioning | A8 fault-finding | A9 video | A10 training | A11 spares |
 |---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | |
 
-### H. Record keeping
+### I. Record keeping
 **Owner:** — · **Last reviewed:** — · **Review interval:** —
 ```
 
@@ -266,6 +344,11 @@ consequences, both deliberate:
    archive says actually recurs (`backlog.md` CON-3), is the order to work in.
 4. **Fill a field group across a range before filling one product deeply**, unless a specific output is waiting on
    it. The gates above say which unlocks most.
+5. **`N3` is filled by recording, not by writing.** Take the ranked `R3` list into a session, ask the questions, and
+   transcribe. **Ten minutes of an owner talking fills more of group D than a week of drafting**, and it is the only
+   version that carries the authority — the substance stays human, the multiplication does not
+   (`group/09-motion-design.md` component 2). Filling `N3` by composition would be inventing claims, which the line
+   forbids.
 5. **Completeness gates new products** (`decided.md` S16). A product without `D1`–`D10` and `G3` does not get a
    store listing. That is the only version of this that stops the debt returning.
 

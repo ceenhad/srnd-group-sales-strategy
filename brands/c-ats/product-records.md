@@ -4,11 +4,16 @@
 three C-ATS treatment panels. First worked example, so it sets the standard for the rest of the group. Field IDs
 below (`D1`, `O2`, `R4`…) are the form's; they are what downstream generation refers to.*
 
-**Where the three panels stand: 24 of 30 fields each · assets 2 of 11 known · `G3` current.**
+**Where the three panels stand: 26 of 39 fields each · assets 2 of 11 known · `G3` current.**
+**Knowledge (report this first): 2 of 9 fields · 2 of 13 questions answered.**
 
-The six unfilled fields are the same six on all three, which is itself the finding — **they are not per-product
-gaps, they are one missing input** (`O1`, `O3`, `W2`) and one unmade decision (`O5`), plus record ownership. See
-"what is still missing, and why it is the same six" at the end.
+Two findings sit behind those numbers, and the second is the serious one:
+
+- The six unfilled *record* fields are the same six on all three panels — **not per-product gaps but one missing
+  input** (`O1`, `O3`, `W2`), one unmade decision (`O5`), and record ownership.
+- **The knowledge layer is nearly empty on the group's best-documented product.** These records can produce a
+  datasheet and cannot hold a conversation. See "the knowledge layer" below — it is the half that content-as-the-rep
+  actually runs on.
 
 ## Provenance — read this before using any figure
 
@@ -278,6 +283,65 @@ current EN 13501-1 classification, which should be in the record rather than loo
   needs its own report. **[?]**
 - **Design service and Verification** — services, so most of the schema does not apply. But the doubt-removal and
   questions-generated fields do, and they are worth filling.
+
+---
+
+## The knowledge layer — `N1`–`N9`
+
+*Added 2026-08-02 with the form's group D. **This is the substance the production line runs on**
+(`../../group/09-motion-design.md` component 2, step 1: "the atoms that already exist: the product records…").
+Filled across the three panels together, because most of it is range-level. **Knowledge: 2 of 9 fields · 2 of the 13
+questions answered in writing.***
+
+| ID | Field | Value |
+|---|---|---|
+| `N1` | **Selection logic** | **`[?]` — partial, and the gap is the important half.** *Placement* is known and written: lowest panel no higher than **30 % of room height**, rooms over 3 m need proportionally more, RES-CP in corners, REV-CP checkerboarded toward the rear, ~300 mm tolerance, quantities round up to whole 1.44 m² boxes. ***Quantity* is not written anywhere** — it lives inside the legacy CATS Calculator and the design service. So we can tell a dealer where to put them and not how many to buy |
+| `N2` | **The worked example** | **`missing` — and it is a commitment already made.** `positioning.md` §1 withdrew the no-public-calculator rule on the basis that *"C-ATS publishes worked examples showing how quantities are derived"* as the self-serve route. **None exists.** The raw material does: three pre-planned 7.1.4 reference layouts are built and blocked on a CLI re-auth (`../../backlog.md` EST-6) |
+| `N3` | **The answers** | **2 of 13 written.** Table below |
+| `N4` | **Comparison** | **`[?]` — price band only.** `positioning.md` §1 places C-ATS above direct-sell GIK, comparable to RPG, slightly below Artnovion. **That is a commercial position, not a comparison** — nothing says what a dealer gets or gives up choosing one over another, per panel, per dimension |
+| `N5` | **Compatibility & pairing** | **Filled.** Sits behind any stretch-fabric finish — **Fabric Walls pairs naturally and is never a dependency**. Works behind acoustically transparent projection screens, which puts DT's image surface, Pro-Fi's speakers and the treatment in one wall. The commercial/large-format range is likely built on Fabric Walls Acoustic Core PET. **Never paired with:** isolation as a substitute — resonance is a treatment problem, isolation is a different one |
+| `N6` | **Project timing** | **`[?]`, with one thing derivable and load-bearing.** The panels are concealed behind the fabric layer, so **the treatment must be decided before the wall is built** — which makes it *earlier* in the project than the fabric, the lighting or the screen. That is the cross-sell moment and the argument for being in the spec conversation, and it has never been stated. When the acoustic decision actually gets made on a real job is `[?]` |
+| `N7` | **What the dealer tells their client** | **`missing`, for all three panels.** The raw material is one sentence away — `positioning.md` §4: *"acoustics is usually the one part of a room nobody can see or prove; C-ATS makes it the part you can."* **That is a client-facing line and there is no client-facing deliverable containing it.** The dealer is left to explain our product in their own words, unaided |
+| `N8` | **Field learning** | **`[?]`.** A decade of cinema work and the Cornflake IMAX install; nothing captured as learning. The two failure modes in `install-critical-notes.md` *are* field learning, and they are the only entries that exist |
+| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) Installed-effective versus raw lab figures: both in circulation, neither declared authoritative |
+
+> **`N9` was already in the repo as five separate backlog rows** (DOC-6 to DOC-10) and had never been read as one
+> list. As a set it says something the rows individually do not: **four of the five are measurement gaps, so one
+> decision — commission the further testing, or declare the current data the limit and say so plainly — closes most
+> of them.** `positioning.md` §4 already frames expanded testing as *"an option for later."* This is what makes it a
+> decision rather than an option: it is the answer to five live questions, not a nice-to-have.
+
+### `N3` — the answers, against the 13 questions the record says we get asked
+
+*State: **`answered`** (written down somewhere a dealer could reach it) · **`known`** (the answer is in this record
+or in someone's head, and has never been turned into an answer) · **`unanswered`**.*
+
+| # | Question (from `R3`) | Panel | State | Where the answer is, or why not |
+|---|---|---|---|---|
+| 1 | Bond or screw? | REF-CP | **`answered`** | `install-critical-notes.md` p1 — written, unpublished (`../../backlog.md` DOC-1) |
+| 2 | How far off the designed position is acceptable? | REF-CP | `known` | ~300 mm, in this record. Never published; also the brand's best unused `O2` |
+| 3 | Can it go behind fabric? | REF-CP | `known` | Yes, any stretch fabric — `N5`. Never stated as an answer |
+| 4 | Why do the absorption figures look low? | REF-CP | `known` | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. Queued as content, blocked on DOC-4 |
+| 5 | **How many, and where?** | RES-CP | **`unanswered`** | Placement known; **quantity is not written down anywhere** — `N1` |
+| 6 | Does it replace bass traps? | RES-CP | **`unanswered`** | A comparison question with no `N4` behind it |
+| 7 | Why is it bigger than the others? | RES-CP | `known` | Corner loading needs area — in `D8`. Never stated as an answer |
+| 8 | Can it go anywhere other than a corner? | RES-CP | `known` | Much weaker away from a corner — in `D9` |
+| 9 | **How much coverage?** | REV-CP | **`unanswered`** | The same quantity question as 5 |
+| 10 | Checkerboard or continuous? | REV-CP | `known` | Checkerboarded toward the rear — in `D4` |
+| 11 | Will the adhesive hold? | REV-CP | **`answered`** | The warm-room rule — written, derivative set drafted (`content-batch-001.md`) |
+| 12 | Is it fire rated? | REV-CP | `known`, partly | Class 0 core is known; **the current EN 13501-1 classification is `[?]`** (DOC-7) |
+| 13 | Can it be painted or covered? | REV-CP | **`unanswered`** | Nobody has answered this |
+
+**Three things this table says that nothing else in the repo did:**
+
+1. **Two of thirteen are written down.** The brand with the best data in the group, three SKUs, a decade of
+   deployment — and a dealer can find our answer to two of the thirteen questions we know we get asked.
+2. **Six are `known` and unwritten — and they are the cheap ones.** The answers are already in this file, in the
+   definitional fields. **Turning a `known` into an `answered` is a paragraph, not research**, and six paragraphs is
+   an afternoon. That is the single highest-return work available in the brand right now.
+3. **Three of the four unanswered questions are the same question: *how many do I need?*** (5, 6, 9). **The
+   commonest question in the range has no answer, no worked example, and no owner** — and `positioning.md` already
+   decided how to serve it. `N1` and `N2` are one piece of work, and it is the biggest content gap C-ATS has.
 
 ---
 

@@ -29,6 +29,14 @@ is why the same questions keep arriving.
 > states, completeness rules and the generation gates that say which fields each output needs. Fill records against
 > the form; change the argument here and the form follows. The roster of what needs filling is
 > `product-register.md`.
+>
+> **One group the form adds, and the argument above did not have: the knowledge layer.** The seven groups here
+> describe a product. But **content is the sales rep**, and the production line's step 1 is *"substance in — the
+> atoms that already exist: the product records…"* (`group/09-motion-design.md` component 2) — so the record has to
+> hold what a rep knows, not only what a product is: the answers to the questions in group 3, the sizing rule, the
+> worked example, the comparison, the timing, and what the dealer tells their own client. **Group 3 names the
+> questions; nothing here held the answers**, which meant the estate could generate documents and not a
+> salesperson. See `product-record-template.md` group D.
 
 ---
 
