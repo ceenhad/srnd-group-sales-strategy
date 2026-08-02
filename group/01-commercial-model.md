@@ -141,7 +141,9 @@ own; the job can be priced rather than the line item; and nobody sits between th
 
 **What they lose, and pretending otherwise wastes the conversation:** local credit, local stock, somebody in their
 own working hours, and one purchase order covering many brands. **Spares and logistics are already answered**
-(`../decided.md` C1g). Support hours and credit are not, and those are the two objections to expect.
+(`../decided.md` C1g), and **credit has a uniform answer** (C8): we run no dealer credit accounts anywhere —
+the UK included — and a dealer who wants credit uses a credit card. Stated plainly, it is a position, not an
+apology. Support hours remain the objection genuinely still to answer.
 
 **This is also where the price question stops being deferrable.** A dealer who bought DT through Apex-Tech has a
 price they know. Approaching them direct without a settled position on what they now pay and what they make is not
@@ -190,7 +192,8 @@ better learned in a market we are not currently earning from than in one we are.
 Not obstacles to argue with; gaps to answer or accept.
 
 - **Credit terms and a familiar buying process.** US integrators are used to distributor credit. Ours is a store
-  account.
+  account, and the credit answer is uniform (C8): none anywhere, card if wanted — the same footing as every
+  UK dealer.
 - **Someone reachable in their working hours.** Documentation shrinks this; it does not remove it. The support
   engineer question sits here (`../NEXT.md` lane 7).
 - **A peer who will vouch for us.** The hardest of the three, and the reason the first few dealers matter more than

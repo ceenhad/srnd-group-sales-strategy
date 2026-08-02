@@ -56,8 +56,9 @@ What is actually left for C-ATS, in order:
    fault-finding), not by product structure.
 4. **Resolve the figure disagreement** before anything is published: legacy calculator versus BSRIA test 6
    (`open-items.md`). A decision, not a project, and it blocks publication rather than the writing.
-5. **Publish to `cinema-expert.com`** under Instructions and Knowledge Base, which already exist as empty headings —
-   so the canonical home needs no build.
+5. **Publish to the C-ATS brand-site knowledge base** — the canonical home is each brand's own site
+   (`decided.md` S29, 2026-08-02; this supersedes the `cinema-expert.com` references elsewhere in this
+   file, which carried an incorrect assumption).
 
 **Then DT, and the first DT task is not writing.** It is **grouping the range by mechanism** — Dynamic 4/2TB/2S
 families, mounts, mirrors, portholes, hush boxes — so fifty-odd products collapse into a manual set of maybe a
@@ -90,8 +91,8 @@ looked** — provided the tiers are respected rather than the roster being clear
 
 - **Two weeks:** the roles agreed and filled, the two C-ATS one-pagers published, the immediate removals
   issued.
-- **Six weeks:** C-ATS complete to the standard on `cinema-expert.com`, the first recording batch published, DT
-  grouped by mechanism.
+- **Six weeks:** C-ATS complete to the standard on its own knowledge base (S29), the first recording batch
+  published, DT grouped by mechanism.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
 

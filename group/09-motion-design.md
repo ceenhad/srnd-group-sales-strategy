@@ -175,9 +175,12 @@ row is tempting toward.
 | **Gone quiet** | A person asks. The one touch that is never automated | The order — the human residue (`08-sales-motion.md`) |
 
 Four disciplines bind the direct half: **permissioned only**; **state-triggered, never
-schedule-triggered** (`02-buyer-journey.md`); **cross-brand cadence coordinated**, so a shared contact is
-not oversaturated by six brands; and the whole-room story becomes appropriate only here — earned, never the
-cold open.
+schedule-triggered** (`02-buyer-journey.md`); **cross-brand cadence coordinated** — concretely, per-brand
+subscriptions at ~monthly per brand (S29), so a partner chooses what they receive; and the whole-room story
+becomes appropriate only here — earned, never the cold open. And the tempo rule over all of it (S28):
+**communication has no start and no end** — sequences open relationships and merge into the continuous
+stream; dedicated campaigns are capped at three mails in two weeks unless transactional; the human ask
+triggers on a signal, not a calendar, because a year to first order is normal in this trade.
 
 ## Many bites per stage — the coin-pusher
 
@@ -276,12 +279,9 @@ point of ingest, never later.
 **When an answer's job is done:** the question stops arriving. An owner answering a *published* question
 twice is a findability failure — a different and cheaper problem than the answer not existing.
 
-**Still to develop — the canonical-home map.** `cinema-expert.com` already stands scaffolded (Instructions /
-Knowledge Base / Certification) and is the first home; the brand-site knowledge bases are the eventual
-pattern (`../decided.md` S15). **Decision:** whether `cinema-expert.com` is the group-wide canonical home for
-the install/support corpus with brand sites pointing in, or each brand's knowledge base is canonical with
-`cinema-expert.com` as the aggregate. One answer must not live in two places for the same reason no product
-does.
+**The canonical-home map — answered (`../decided.md` S29, 2026-08-02): each brand's own site.** Every
+answer lives canonically in its brand's knowledge base; one answer never lives in two places.
+`cinema-expert.com` is not the home — an assumption carried from the plan, struck.
 
 ## Component 2 — The operation: a production line, not a ceremony
 
@@ -420,12 +420,9 @@ turn. One cascade, not six adoptions — and no brand's early results re-open th
 
 *All small; none is a project. Register IDs from `../backlog.md`.*
 
-| Decision | Whose | Register |
-|---|---|---|
-| The canonical-home map (`cinema-expert.com` vs per-brand knowledge bases) | — | CON-14 |
-| The channel architecture | — | CON-7 |
-| Where the spec-conversation notes land, and the habit confirmed | — | XS-2 |
-| Who owns "wanting the order" | — | XS-3 |
-
-*(Two earlier entries — the floor rate and a formal confirmation of editorial ownership — are struck as
-ceremony: `../decided.md`, reversal of 2026-07-31. The production line replaces them.)*
+*All four resolved or struck in the decisions run of 2026-08-02: the canonical home is each brand's own
+site and every brand gets its own channel (S29); the spec-note and wanting-the-order items were struck —
+their premises were wrong, engine already holds the data and follow-up already happens (`../decided.md`,
+Reversals). Earlier, the floor rate and a formal editorial-ownership confirmation were struck as ceremony
+(reversal of 2026-07-31); the production line replaces them. What remains open group-wide lives in
+`../backlog.md`, and the largest genuinely unprocessed piece is the commercial-terms discussion (US-2).*

@@ -1,5 +1,9 @@
 # C-ATS — production batch 001 (the line, demonstrated)
 
+*Truth-checked by Neil, 2026-08-02: **passes on truth, with a caveat — this is support material, not a
+selling point of the product.** Weight it accordingly: the selling weight stays on the 3 Rs and the
+measured performance; this batch exists to make the first job go right.*
+
 *One substance atom through the production line (`../../decided.md` S24; `../../group/09-motion-design.md`
 component 2). **The atom:** the Reverberation Control Panel warm-room install note
 (`install-critical-notes.md`, page 2) — human-authored, true, and publication-unblocked by its own footer.
@@ -10,7 +14,7 @@ the source.** Wording is drafted for correction; distribution follows the placem
 
 ---
 
-## 1. Canonical article — `cinema-expert.com`, Instructions
+## 1. Canonical article — the C-ATS knowledge base (brand site, per S29)
 
 **Title (instruction, not failure):** *Fitting the Reverberation Control Panel: the warm-room rule.*
 *(Corrected at truth-check — a failure-framed title reads negative in public and imagines a search nobody
@@ -90,7 +94,7 @@ install atom is support and reassurance material; the reverberation door's hooks
 - **The matrix fills only where substance supports it** — here, not at all.
 - **Every piece carries its destination**: all hooks → the canonical article → the product page → contact.
   No dead ends.
-- **The queue when approved:** canonical article to `cinema-expert.com` first, then the datasheet paragraph
+- **The queue when approved:** canonical article to the C-ATS knowledge base first (S29), then the datasheet paragraph
   to the product record (schema group 1's "what it requires from others"), then hooks released to placements
   over time, source-tagged.
 - **The line's next atoms, in order:** the REF-CP bond-vs-screw note (the sibling page, ready now), then the

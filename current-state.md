@@ -31,8 +31,10 @@ strike.
 - **[?] Lead sources, ranked.** Referral, existing dealers, search, trade press, events, the tools — no view of
   the actual split.
 - **[?] Enquiry volume**, and **[?] who receives and answers enquiries first.**
-- **[?] Is there a pipeline or CRM at all**, or does it live in email and engine?
-- **[?] Who follows up when a dealer goes quiet** — recorded as unowned in the sales motion.
+- **Engine is the CRM** — years of real project and prospect data, stored and trackable as required
+  (Neil, 2026-08-02). *(Replaces an earlier [?].)*
+- **Follow-up when a dealer goes quiet already happens** as normal work (Neil, 2026-08-02). *(Replaces an
+  earlier claim that this was unowned.)*
 
 ### The dealer base
 
@@ -134,8 +136,11 @@ while still occupying the territory.
 
 - **Direct in the UK; distributor-led internationally** — 21 live appointments, above. DBM closed; CUK remains on
   the roster with no business.
-- **Pricing gated to registered partners**, mechanism already running in engine; the policy behind it is unset —
-  approval criteria, tiers, MOQs.
+- **Pricing gated to registered partners**, mechanism already running in engine — including finely tuned
+  pricing per partner and per country (Neil, 2026-08-02). The policy behind it (approval criteria, tiers,
+  MOQs) remains unset.
+- **No dealer credit accounts, anywhere — the UK included** (Neil, 2026-08-02). Payment through the store;
+  a dealer wanting credit uses a credit card.
 - **Registration exists; a partner programme does not.** Trade pricing is all registration currently grants.
 - **`srnd.store`** is the trade destination. **`cinema-store.com`** is live but a test, mid clean-up.
 - **Pro-Fi is not on the store yet** — not ready to sell online.
@@ -147,10 +152,10 @@ while still occupying the territory.
 
 ### Known weak points already recorded
 
-- No follow-up motion; nobody owns wanting the order.
 - No market intelligence route now that there are no reps.
 - Cross-selling is poor while the group thesis depends on it.
-- Nothing captured from the specification conversations.
+- *(Two earlier entries struck 2026-08-02 — "nobody owns wanting the order" and "nothing captured from the
+  spec conversations" — both wrong: follow-up already happens, and engine holds the project data.)*
 
 ---
 

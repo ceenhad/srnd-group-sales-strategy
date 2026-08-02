@@ -17,6 +17,10 @@ unassigned, which is information rather than a gap to guess at. **When an item c
 don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
 engine or any tracker when the process gets a system home.
 
+**The goal of this effort is establishing the initial sales and marketing processes.** Commercial-model
+points (terms, credit, territory questions) get recorded in `decided.md` when they surface — cheaply, so
+they aren't lost — but they are **not germane to this goal and are not worked here** (Neil, 2026-08-02).
+
 **Runs alongside, outside the motion** — work that proceeds on its own merits and should never be confused
 with the motion's development: US DT recovery (conversion of a warm base, personal and terms-led — `C1j`,
 `C1k`); store and site hygiene (W5); network pruning (W3); partner acts (W7); the Screen Wall page (W10).
@@ -40,7 +44,7 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to `cinema-expert.com` Instructions — the content is already written. The first two answers into the canonical home | producer (publication) | Hours | ready | `NEXT.md` §B.1, `brands/c-ats/install-critical-notes.md` |
+| DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to **the C-ATS brand-site knowledge base** — the canonical home per S29. Content written; held by Neil (Q3) pending the home going live | producer (publication) | Hours | blocked (EST-6; home per S29) | `brands/c-ats/install-critical-notes.md`, `decided.md` S29 |
 | DOC-2 | Do | Record three "how do you do X" pieces: the two failure modes above plus RES-CP corner placement. One session, unscripted, one frame | authority | One session | ready | `NEXT.md` §B.2 |
 | DOC-3 | Do | Rewrite the three C-ATS install guides organised by moment (unboxing, mounting, conditions, fault-finding), not by product structure | — | Days | ready | `NEXT.md` §B.3 |
 | DOC-4 | Fetch | Read the exact Reflection A and B values off the published chart before tabulating them (residual of S21) | — | Minutes | ready | `decided.md` S21 |
@@ -56,16 +60,19 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 | DOC-14 | Do | Write the DT manual set to the C-ATS standard, by mechanism, ranked by support load and sales volume | — | Large, finite | blocked (DOC-11, DOC-12) | `NEXT.md` lane 7, `group/08-sales-motion.md` |
 | DOC-15 | Do | Operationalise the completeness gate: record asset state per product (schema §7) and gate new products on it | — | Ongoing | blocked (DOC-12) | `decided.md` S16 |
 
-## W2 — US entry — *DT half independent of the motion; C-ATS half is the motion's first new-market application*
+## W2 — US entry — *parked: commercial questions are not germane to establishing the processes (2026-08-02)*
+
+*The territory is real and awaits motion (C1f softened), but nothing in it is part of standing up the sales
+and marketing process. Recorded, not worked.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| US-1 | Decide | Price and trade terms for direct US dealers — what they now pay and what they make. Gates the fastest revenue in the strategy; a conversation that cannot be had twice | — | A decision | ready | `open-items.md` item 8, `group/01-commercial-model.md` |
-| US-2 | Decide | Position on support hours and credit terms — the two objections to expect | — | A decision | ready | `group/01-commercial-model.md` |
-| US-3 | Decide | Name the US owner. The largest opportunity in the strategy is currently nobody's job | — | Minutes | ready | `open-items.md` item 5 |
-| US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign, no announcement | per US-3 | Ongoing | blocked (US-1, US-2, US-3) | `decided.md` C1j, `group/01-commercial-model.md` |
-| US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless. The motion's first application in a market with nothing else behind it | per US-3 | Ongoing | blocked (US-3) | `group/01-commercial-model.md` |
-| US-6 | Fetch | Establish how far DT remote diagnostics actually goes today — the capability is assumed, not known | — | Small | ready | `open-items.md` (distributor §1) |
+| US-1 | ~~Decide~~ | ~~The US price position~~ — **struck as a gate** (2026-08-02): engine prices per partner and per country natively. What pricing to *set* folds into US-2's terms discussion | — | — | dropped | `decided.md` (Reversals) |
+| US-2 | Decide | Support hours and remaining trade terms for direct international dealers — genuinely open, and per Neil this class of critical discussion has not yet been processed in depth. **Credit is resolved (C8): no dealer credit anywhere; card if they want credit** | — | Real work | parked | Q10 of the decisions run, `decided.md` C8 |
+| US-3 | Decide | Who moves the US forward, and when — real, awaiting motion, and **not privileged**: "so is the entire world; it's just another place" (C1f softened, 2026-08-02) | — | Minutes | parked | `decided.md` (Reversals) |
+| US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign, no announcement | per US-3 | Ongoing | parked | `decided.md` C1j, `group/01-commercial-model.md` |
+| US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless. The motion's first application in a market with nothing else behind it | per US-3 | Ongoing | parked | `group/01-commercial-model.md` |
+| US-6 | Fetch | Establish how far DT remote diagnostics actually goes today — the capability is assumed, not known | — | Small | parked | `open-items.md` (distributor §1) |
 
 *Guardrails, not tasks: no launch or announcement until there is a US reference and a support record; InfoComm
 and the US support engineer are parked below.*
@@ -105,14 +112,14 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 | CON-4 | Do | First batch recording session against the corrected ranked list. Component 3: the first presenter-led content in the estate's history | authority (face), producer | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
 | CON-5 | Do | Estate hygiene: remove MAG Theatron and Barco playlists; fix the `@Complete_ATS` description (hard-coded "Complete…" expansion); fix DT's projector-screen-company description | — | Hours | ready | `NEXT.md` lane 6, `group/04-content.md` |
 | CON-6 | Do | Establish what is on the locked old SRND Group YouTube account and pursue recovery (Workspace admin reset / remaining manager / YouTube's route) | — | Small, admin | ready | `open-items.md`, `group/04-content.md` |
-| CON-7 | Decide | Channel architecture: every brand gets a channel and the group's goes group-only, or consolidate. DT's eight-year history and the C-ATS educational set must not be orphaned either way | — | A decision | ready | `group/04-content.md`, `group/09-motion-design.md` |
+| CON-7 | Decide | ~~Channel architecture~~ — **answered (S29): a channel per brand; the group channel group-only.** DT's history and the C-ATS educational set are not orphaned | — | — | done | `decided.md` S29 |
 | CON-8 | Do | Retrofit the handoff across the estate: every piece carries its next step (explainer → fuller answer → product/registration → store). Component 1's missing rule, cheap and mechanical | — | Ongoing | ready | `group/08-sales-motion.md` |
 | CON-9 | Do | Feed the EI microsite (`essentialinstall.com/srnd/`): company pages + virtual case studies linking back to brand sites; push through EI news/newsletter/podcast. Paid for, near-empty | — | Ongoing, light | ready | `group/05-channels.md` |
 | CON-10 | Decide | Spend the ~£10k AVForums credit: video first, briefed rather than scripted, pointed at Cinema Store and never the trade brands | — | A decision | ready | `open-items.md`, `group/05-channels.md` |
 | CON-11 | Do | Virtual case studies: write the room stories around the renders — the render is the hook, the story is the content | producer (renders), authority/relationship (narration) | Ongoing | ready | `group/04-content.md` |
 | CON-12 | Do | Virtualise the Experience Centre: film the demos, capture "hear the difference" — the demonstration load-bearer while field work is unpublishable | — | Ongoing | ready | `NEXT.md` lane 1, `group/04-content.md` |
 | CON-13 | Do | On the next pass through EI material, correct the three printed contradictions: Pro-Fi as "spatial audio," the superlative lead, the spelled-out "Complete" expansion | — | With CON-9 | ready | `open-items.md` ("What is already public") |
-| CON-14 | Decide | The canonical-home map: `cinema-expert.com` as the group-wide home for the install/support corpus, or per-brand knowledge bases as canonical with it aggregating. One answer never lives in two places | — | A decision | ready | `group/09-motion-design.md` (component 1) |
+| CON-14 | Decide | ~~The canonical-home map~~ — **answered (S29): each brand's own site.** `cinema-expert.com` was an incorrect assumption, struck | — | — | done | `decided.md` S29 |
 
 ## W5 — Stores & sites — *independent: executing settled decisions*
 
@@ -132,8 +139,8 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | XS-1 | Do | Write the adjacency map: per entry point, the next layer, the physical adjacency that justifies it, the project moment it is relevant. A prompt list for a conversation already happening | — | One page | ready | `NEXT.md` lane 4 |
-| XS-2 | Do | After each spec conversation, note three lines: the project, what the dealer was unsure about, what they were afraid of. Component 5's discovery mechanism — currently nothing is captured. Decide where the notes land | whoever specs | Three lines each | ready | `NEXT.md` lane 4, `group/09-motion-design.md` |
-| XS-3 | Decide | Who owns "wanting the order" — noticing a dealer has gone quiet and asking. Component 5: the design is incomplete until this is a name | — | Minutes | ready | `group/08-sales-motion.md`, `group/09-motion-design.md` |
+| XS-2 | ~~Do~~ | ~~The three-line spec note~~ — **struck: premise wrong** (2026-08-02). Engine already holds years of project and prospect data, trackable as required. Anything more is a question about engine's existing fields, checked there first | — | — | dropped | `decided.md` (Reversals) |
+| XS-3 | ~~Decide~~ | ~~Who owns "wanting the order"~~ — **struck: premise wrong** (2026-08-02). Follow-up already happens as normal work | — | — | dropped | `decided.md` (Reversals) |
 | XS-4 | Fetch | Whether spec help is free or chargeable today, and whether that is deliberate. Hinge for the partner programme and the value ladder | — | Small | ready | `open-items.md` Stage 1, `current-state.md` |
 
 ## W7 — Partner programme & appreciation — *independent: acts, not announcements*
