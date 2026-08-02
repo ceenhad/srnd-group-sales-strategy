@@ -12,8 +12,8 @@ process. This document does three things beneath the journey: it maps **what ser
 and where that stands today**; it defines **the gateways, their signals, and the pathways** that chain
 content through them; and it designs the five pieces of machinery the pathways draw on — each designed once,
 here, at group level, with every brand inheriting the design and supplying the substance. No brand forks the loop, sets its own rate, or runs its
-own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only Neil or
-Olivier can make are marked as decisions, not filled in. Almost everything below is assembled from positions
+own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only the owners
+can make are marked as decisions, not filled in. Almost everything below is assembled from positions
 already settled in `02-buyer-journey.md`, `04-content.md`, `08-sales-motion.md` and `../decided.md`; the
 assembly is what was missing.*
 
@@ -78,7 +78,7 @@ honestly supports (`../decided.md` S23).*
 - **Hooks are categorised by appeal**, because the same product bites differently for different dealers:
   **more revenue** (the job won by knowing why to spec it), **time saved**, **easier to do** (install,
   retrofit, fit), **better results** (the client experiences the difference), and **the problem named** (the
-  searchable version, in the dealer's words). The category set is Neil's to extend — and it is the journey's
+  searchable version, in the dealer's words). The category set is the owners' to extend — and it is the journey's
   own finding formalised: what engages a dealer is what the product does *for them*
   (`02-buyer-journey.md`).
 - **Placement is indirect by definition.** Before the hinge we don't know the dealer, so hooks live where
@@ -327,17 +327,21 @@ fast; continuity, callbacks, a running conversation; be seen to change your mind
 
 **The casting — three people, three jobs, not interchangeable:**
 
-- **Neil — the authority.** The technical answer, the impossible project, and later the only route to the
+*Roles, never names (`../decided.md` S27): who fills each is a separate decision, and one person may hold
+more than one role.*
+
+- **The authority.** The technical answer, the impossible project, and later the only route to the
   specifier (a CPD seminar is a person).
-- **Olivier — the relationship.** The welcome, the walkthrough, the invitation, the follow-up, the
-  conversation formats — anything that ends in a conversation.
-- **Ben — off camera.** The producer's judgement is the scarcer skill; putting him on screen would spend a
-  scarce skill on an abundant one.
+- **The relationship.** The welcome, the walkthrough, the invitation, the follow-up, the conversation
+  formats — anything that ends in a conversation.
+- **The producer — off camera.** Knowing what needs to be discussed is the scarcer skill; putting the
+  producer on screen would spend a scarce skill on an abundant one.
 
 **The slate — the group's format set** (each brand fills it with its own substance, no brand invents its
-own): the answer (Neil) · the render-led room story (Ben's renders, Neil or Olivier narrating) · the demo /
-"hear the difference" (Neil) · install and how-to (either) · the conversation, with a dealer or peer as guest
-(Olivier) · training modules (Neil — deferred with the training programme).
+own): the answer (the authority) · the render-led room story (the producer's renders, authority or
+relationship narrating) · the demo / "hear the difference" (the authority) · install and how-to (either) ·
+the conversation, with a dealer or peer as guest (the relationship) · training modules (the authority —
+deferred with the training programme).
 
 **The disciplines:** a dormant channel is worse than none, so the floor applies hardest here; never
 on-camera cleverness — answering a question is inherently generous, a monologue about our engineering is not;

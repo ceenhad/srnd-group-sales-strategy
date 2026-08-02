@@ -67,7 +67,7 @@ Target = what the piece points at — its gateway's threshold action, written in
 
 | # | Piece | Stage | Target | Source atom | State |
 |---|---|---|---|---|---|
-| 47 | The four uncast hook angles from the reverberation matrix, worded by Neil | 1 | Each → its fuller answer (items 3–20) | `pathway-reverberation.md` | candidates |
+| 47 | The four uncast hook angles from the reverberation matrix, worded by an owner | 1 | Each → its fuller answer (items 3–20) | `pathway-reverberation.md` | candidates |
 | 48+ | Hook variants multiplied per what the archive count ranks and what the bites show | 1 | Each → its fuller answer | CON-3 + published-piece log | waits on evidence |
 
 ## The grid check — items counted per row
