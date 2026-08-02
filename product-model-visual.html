@@ -210,6 +210,28 @@
   .sw.g { background: var(--warn-soft); border-color: var(--warn); }
   .sw.e { border-style: dashed; background: transparent; }
 
+  /* ---------- tasks ---------- */
+  .verdicts { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); background: var(--line); border: 1px solid var(--line); }
+  .vd { background: var(--surface); padding: 0.85rem 1rem 0.95rem; display: flex; flex-direction: column; gap: 0.3rem; }
+  .vd .vn { font-family: var(--f-mono); font-size: 1.75rem; letter-spacing: -0.035em; line-height: 1; }
+  .vd .vt { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; }
+  .vd .vs { font-size: 0.78rem; color: var(--muted); line-height: 1.45; }
+  .vd.a  .vn, .vd.a  .vt { color: var(--accent); }
+  .vd.ab .vn, .vd.ab .vt { color: var(--ink-2); }
+  .vd.as .vn, .vd.as .vt { color: var(--warn); }
+  .vd.mn .vn, .vd.mn .vt { color: var(--crit); }
+  .vbar { display: flex; height: 10px; border: 1px solid var(--line); }
+  .vbar i { display: block; }
+  .vbar .s-a  { background: var(--accent); }
+  .vbar .s-ab { background: var(--accent-soft); }
+  .vbar .s-as { background: var(--warn); }
+  .vbar .s-mn { background: var(--crit); }
+  .unowned { border: 1px solid var(--crit); background: var(--crit-soft); padding: 0.95rem 1.05rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .unowned .uh { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--crit); }
+  .urow { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; font-size: 0.85rem; }
+  .urow b { font-family: var(--f-mono); font-size: 0.72rem; color: var(--crit); flex: none; }
+  .urow .kind { margin-left: auto; font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
   /* ---------- gates ---------- */
   .gates { border: 1px solid var(--line); background: var(--surface); }
   .gate-col { padding: 1rem 1.05rem; display: flex; flex-direction: column; gap: 0.55rem; }
@@ -297,6 +319,7 @@
       <div class="meter"><span class="n">58</span><span class="l">fields, 13 groups</span></div>
       <div class="meter"><span class="n">12</span><span class="l">knowledge domains</span></div>
       <div class="meter"><span class="n">6</span><span class="l">capture routes · 5 already happening</span></div>
+      <div class="meter"><span class="n">45</span><span class="l">tasks · 12 irreducibly manual</span></div>
       <div class="meter"><span class="n">38</span><span class="l">record scopes in the group</span></div>
       <div class="meter"><span class="n">3</span><span class="l">records filled</span></div>
       <div class="meter"><span class="n">15</span><span class="l">products sold with no record</span></div>
@@ -324,7 +347,7 @@
         <h3>What they do all week</h3>
         <p>The sales rep's week and the marketing executive's, each task mapped to the fields it consumes — and the
           ones it feeds back.</p>
-        <span class="cnt">30 tasks · 5 unowned</span>
+        <span class="cnt">45 tasks · 6 unowned</span>
       </div>
       <div class="link">
         <span class="step">3 · domains</span>
@@ -672,6 +695,67 @@
           <strong>The estate can generate paperwork and cannot generate a salesperson</strong>, which is precisely the
           thing content was meant to replace.</p>
       </div>
+    </div>
+  </section>
+
+
+  <!-- ============ TASKS ============ -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="eyebrow">the task register · group/10-tasks.md</span>
+      <h2>45 tasks, and which of them a system can actually do</h2>
+      <p class="note">A sales person's week and a marketing person's, listed exhaustively rather than selectively,
+        each with an automation verdict. <strong>Every row is an unverified claim</strong> until someone who does
+        the work confirms it — that is the register's own first action, not a caveat on it.</p>
+    </div>
+
+    <div class="verdicts">
+      <div class="vd a">
+        <span class="vn">9</span><span class="vt">automated</span>
+        <span class="vs">Runs today with nobody in the loop — engine, the store, the tools, published content.</span>
+      </div>
+      <div class="vd ab">
+        <span class="vn">9</span><span class="vt">automatable</span>
+        <span class="vs">Could run without a person given the record filled. The blocker is build or data, not judgement.</span>
+      </div>
+      <div class="vd as">
+        <span class="vn">15</span><span class="vt">assisted</span>
+        <span class="vs">A person is required, but the system carries the labour. Minutes, not hours — the judgement stays.</span>
+      </div>
+      <div class="vd mn">
+        <span class="vn">12</span><span class="vt">manual</span>
+        <span class="vs">Irreducibly human. Automating it would destroy the thing that makes it work.</span>
+      </div>
+    </div>
+    <div class="vbar">
+      <i class="s-a" style="flex:9"></i><i class="s-ab" style="flex:9"></i><i class="s-as" style="flex:15"></i><i class="s-mn" style="flex:12"></i>
+    </div>
+
+    <p class="note"><strong><span class="mono">assisted</span> is the largest category, and that is the model
+      working as designed.</strong> The question was never <em class="q">does content replace a rep?</em> — it is
+      whether the labour can move while the judgement stays. <strong>Content, the store and the tools cover 73 % of
+      the two jobs</strong>, outright or with a person's minutes on top; the remaining 27 % is named rather than
+      assumed away, and it is small enough to staff.</p>
+
+    <p class="note"><strong>And this is where the record fits into the rest of the system.</strong> Assisted work is
+      exactly the work where a person reviews what the system drafted — and the system can only draft from the
+      record. <strong>An empty record silently reverts every assisted task to manual</strong>, which is the
+      difference between 73 % coverage and 20 %.</p>
+
+    <div class="unowned">
+      <span class="uh">six tasks have no performer at all</span>
+      <div class="urow"><b>T-S11</b>Defend against a named competitor<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-S22</b>Bring back market intelligence<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-S23</b>Feed product development<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-M02</b>Competitor tracking<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-M12</b>Dealer marketing support — material a partner hands their own client<span class="kind">execution</span></div>
+      <div class="urow"><b>T-M17</b>Product launch<span class="kind">execution</span></div>
+      <p class="note" style="font-size:0.86rem;">The four sensing tasks are <strong>one job, not four gaps</strong>
+        — nobody is looking at the market, at rivals, or at why we lose. The two execution tasks are different in
+        kind and more immediately expensive, because they are ordinary work nobody was assigned: <strong>the Screen
+        Wall is what an unowned product launch costs</strong>, and <span class="mono">N7</span> empty across all 38
+        scopes is what unowned dealer support costs.</p>
     </div>
   </section>
 
