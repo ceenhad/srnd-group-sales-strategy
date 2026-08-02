@@ -293,7 +293,7 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 ## The knowledge layer — `N1`–`N9`
 
-*Added 2026-08-02 with the form's group D. **This is the substance the production line runs on**
+*Added 2026-08-02 with the form's group 04. **This is the substance the production line runs on**
 (`../../group/09-motion-design.md` component 2, step 1: "the atoms that already exist: the product records…").
 Filled across the three panels together, because most of it is range-level. **Knowledge: 2 of 9 fields · 2 of the 13
 questions answered in writing.***

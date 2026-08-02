@@ -281,7 +281,7 @@ worth a look when someone is in the store data anyway.
 
 ## The knowledge layer — `N1`–`N9` — and why DT's version is a different problem
 
-*Group D across the whole DT range: **0 of 9, and `R3` is unfilled on every family**, which is worse than it
+*Group 04 across the whole DT range: **0 of 9, and `R3` is unfilled on every family**, which is worse than it
 sounds.*
 
 **C-ATS is short of answers. DT is short of the questions.** The C-ATS record names thirteen questions and answers

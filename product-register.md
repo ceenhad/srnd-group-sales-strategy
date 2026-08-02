@@ -78,7 +78,7 @@ differs, engine is right and this file is wrong — reconciling the two is `back
 - `CAT-08` is `pre-release` and **must not be written up as shipping** — the `G3` gate exists for exactly this row.
 - **`C-ATS-REV-CP-12` is discontinued and still listed.** Not given a row, because it is not a product; recorded
   here so the delisting is not forgotten (`group/store-split-worklist.md`).
-- `CAT-06` and `CAT-07` are services, so groups A and G apply only in part — but `O1`–`O4` and `R1`–`R4` apply in
+- `CAT-06` and `CAT-07` are services, so groups 01 and 07 apply only in part — but `O1`–`O4` and `R1`–`R4` apply in
   full, and are the reason they are on this list rather than excluded from it.
 
 ## Display Technologies — `brands/display-technologies/product-records.md`

@@ -21,15 +21,15 @@ record is done when it can do all four without them:
 
 | Job | Test | Groups that serve it |
 |---|---|---|
-| **1 · Attract** — make it as attractive as it honestly is | Can you start a conversation a dealer wants to have? **Every hook comes from here** | **H**, B, D |
-| **2 · Defend** — hold it against the alternatives | Can you win the comparison, including against the incumbent and against doing nothing? | **E**, D, J |
-| **3 · Build trust** | Can you be believed — proof, honest limits, what we decline to claim? | C, J, D |
-| **4 · Deliver** — every question answered, through to a working install | Can a dealer reach a working room without asking us anything? | A, **G**, D, L |
+| **1 · Attract** — make it as attractive as it honestly is | Can you start a conversation a dealer wants to have? **Every hook comes from here** | **08** hook · 02 on-ramp · 04 knowledge |
+| **2 · Defend** — hold it against the alternatives | Can you win the comparison, including against the incumbent and against doing nothing? | **05** competitive · 04 knowledge · 10 claims |
+| **3 · Build trust** | Can you be believed — proof, honest limits, what we decline to claim? | 03 doubt · 10 claims · 04 knowledge |
+| **4 · Deliver** — every question answered, through to a working install | Can a dealer reach a working room without asking us anything? | 01 definition · **07** lifecycle · 04 knowledge · 12 assets |
 
-**Jobs 1 and 2 are one piece of work.** A claim you cannot defend is a hook that costs you the dealer the moment it
-meets a competitor's answer. **Groups E, F, G and H were added because the first cut had almost no fields for the
-front half** — one line for the whole job of defending, and nothing at all for the dealer's business case or for
-what a product can honestly be hooked on.
+**Jobs 1 and 2 are one piece of work.** A claim you cannot defend is a hook that costs you the dealer the moment
+it meets a competitor's answer. **Groups 05–08 were added because the first cut had almost no fields for the front
+half** — one line for the whole job of defending, and nothing at all for the dealer's business case or for what a
+product can honestly be hooked on.
 
 **Three rules carried down from the schema, unchanged:**
 
@@ -37,10 +37,14 @@ what a product can honestly be hooked on.
   here. A record that restates engine is a record that will go stale against it.
 - **Every field has a stated consumer.** The generation gates at the bottom of this file are that stated consumer,
   made concrete. A field no output needs should be struck from the form, not filled in.
-- **Definition before pitch.** Group A gets filled first. You cannot honestly say what problem a product solves
-  until you have said what it is.
-- **And knowledge before content.** Group D is what a rep carries. Nothing downstream of it can be produced
+- **Definition before pitch.** Group **01** gets filled first. You cannot honestly say what problem a product
+  solves until you have said what it is.
+- **And knowledge before content.** Group **04** is what a rep carries. Nothing downstream of it can be produced
   without it, and no amount of production capacity substitutes for it.
+- **Two namespaces, kept apart deliberately.** **Groups are numbered `01`–`13`; fields are lettered** (`D1`, `X6`,
+  `N3`). An earlier draft numbered groups `A`–`M` and they collided with the field prefixes — group `M` against the
+  commercial fields `M1`–`M5`, group `L` against lifecycle `L1`–`L5`. **No field ID is numeric and no group ID is
+  lettered**, so a reference is now unambiguous on sight. Keep it that way.
 
 ---
 
@@ -59,10 +63,10 @@ Every field carries one of four states. **This is what turns "the documentation 
 
 - **Rep-test coverage** — can it attract · defend · be believed · deliver? **Four yes/no answers, and the only
   measure that matters.** A record can be most of the way full and fail three of them.
-- **Knowledge completeness** = group D filled ÷ 9, plus **`R3` questions answered ÷ `R3` questions named**. What
+- **Knowledge completeness** = group 04 filled ÷ 9, plus **`R3` questions answered ÷ `R3` questions named**. What
   the rep can actually say.
 - **Record completeness** = filled ÷ applicable fields (58 in total). The breadth measure.
-- **Asset completeness** = assets `current` ÷ applicable assets (group L). What a dealer can be given.
+- **Asset completeness** = assets `current` ÷ applicable assets (group 12). What a dealer can be given.
 
 A product can be 100 % record-complete and 20 % asset-complete: normal and useful — it means we know what to make.
 **The dangerous states are the ones that look finished:** record-complete and knowledge-empty (it has a definition,
@@ -84,7 +88,7 @@ into roughly a dozen records, and the variant list lives in D8 where it belongs.
 
 Copy the block at the bottom. Fields in order; **do not reorder or renumber** — downstream generation refers to IDs.
 
-### A. What it actually is — `D1`–`D10`
+### 01 · What it actually is — `D1`–`D10`
 
 *The foundation. Filled before anything below it.*
 
@@ -101,7 +105,7 @@ Copy the block at the bottom. Fields in order; **do not reorder or renumber** �
 | `D9` | **Limits** | Maximum and minimum sizes, loads, environmental range. The honest edge of the envelope |
 | `D10` | **Where it sits** | The layer of the room or system it belongs to, and what it meets |
 
-### B. Why to buy it — `O1`–`O5`
+### 02 · Why to buy it — `O1`–`O5`
 
 *The on-ramp. Nothing operational needs these, which is exactly why they are missing everywhere.*
 
@@ -113,9 +117,9 @@ Copy the block at the bottom. Fields in order; **do not reorder or renumber** �
 | `O4` | **What it replaces or avoids** | Including doing nothing, which is the commonest alternative |
 | `O5` | **Entry or flagship** | One of: `entry` · `flagship` · `neither`. Every brand needs a door-opener distinct from its showpiece |
 
-### C. The doubt it has to remove — `R1`–`R4`
+### 03 · The doubt it has to remove — `R1`–`R4`
 
-*The index of what the product has to overcome. **It names the questions; group D holds the answers**, and the two
+*The index of what the product has to overcome. **It names the questions; group 04 holds the answers**, and the two
 are only useful together — `R3` without `N3` is a list of things we are known to be asked and known not to answer.*
 
 | ID | Field | Fill rule |
@@ -125,15 +129,15 @@ are only useful together — `R3` without `N3` is a list of things we are known 
 | `R3` | **The questions it generates** | Pre-sale and on site. The same question at different moments. This is the content backlog, per product |
 | `R4` | **What goes wrong on site** | The installer's real fear, and what peer reputation is made of |
 
-### D. The knowledge layer — `N1`–`N9`
+### 04 · The knowledge layer — `N1`–`N9`
 
-***This is the group the whole exercise exists for.*** Group C names the questions; **this group holds the
+***This is the group the whole exercise exists for.*** Group 03 names the questions; **this group holds the
 answers**, plus everything else a good rep carries in their head. It is the substance the production line runs on,
 and **it is the only group that cannot be derived from any other** — engine does not hold it, the website does not
 hold it, and it is currently distributed across two or three people's memories and a decade of sent mail.
 
 **The test for whether a record is worth anything: could someone who has never seen the product hold a competent
-conversation with a dealer using only group D?** Today, for every product in the group, the answer is no.
+conversation with a dealer using only group 04?** Today, for every product in the group, the answer is no.
 
 | ID | Field | Fill rule |
 |---|---|---|
@@ -155,7 +159,7 @@ conversation with a dealer using only group D?** Today, for every product in the
 - **`N9` is filled honestly or not at all.** A record that claims no unanswerable questions is a record nobody has
   tested against a real dealer.
 
-### E. Competitive — how it is defended — `X1`–`X6`
+### 05 · Competitive — how it is defended — `X1`–`X6`
 
 *Rep job 2. **The record previously did this whole job with one field.** Making something attractive and defending
 it are the same work: a claim that cannot survive a competitor's answer is a hook that costs you the dealer.
@@ -171,7 +175,7 @@ copy as an attack.*
 | `X5` | **The switch argument** | What to say to a dealer who already buys the alternative — an incumbent relationship, not a cold pitch |
 | `X6` | **Why deals are lost** | One line per loss, accumulating: which competitor, which dimension, which stage. **The only outside view we have, and it ranks everything above it** |
 
-### F. Commercial — the dealer's business case — `M1`–`M5`
+### 06 · Commercial — the dealer's business case — `M1`–`M5`
 
 *Rep job 1 and 4. **Not price.** Price is engine's, is partner-gated and is never published. This is the argument
 around it — and group commercial policy (terms, credit, territory) is not product data and stays in `decided.md`.*
@@ -184,9 +188,9 @@ around it — and group commercial policy (terms, credit, territory) is not prod
 | `M4` | **The dealer's business case** | Margin position against the alternative, **plus what it costs them in labour** to install and support. *A cheaper product that takes two more days on site is not cheaper* |
 | `M5` | **What not specifying it costs them** | The callback, the room that underperforms, the unhappy client. The honest version of urgency |
 
-### G. Lifecycle & support — the way to install, and after — `L1`–`L5`
+### 07 · Lifecycle & support — the way to install, and after — `L1`–`L5`
 
-*Rep job 4. The asset audit (group L) records whether the **documents** exist; this group holds the **facts** — and
+*Rep job 4. The asset audit (group 12) records whether the **documents** exist; this group holds the **facts** — and
 a dealer on the way to install asks for the facts.*
 
 | ID | Field | Fill rule |
@@ -197,7 +201,7 @@ a dealer on the way to install asks for the facts.*
 | `L4` | **Serviceability** | What can be replaced without pulling the assembly. A purchasing argument as much as a support one |
 | `L5` | **What we support, and for how long** | The substance behind *"support is part of the sales proposition, not a cost behind it"* |
 
-### H. Hook material — `H1`–`H3`
+### 08 · Hook material — `H1`–`H3`
 
 *Rep job 1, and **the source the hook machinery does not currently have.** `group/09-motion-design.md` designs many
 hooks per door by appeal category; volume is deliberate. **Volume without a source means hooks get invented per
@@ -210,7 +214,7 @@ campaign**, which the production line forbids. This group holds the material; **
 | `H2` | **The single most interesting true thing about it** | Every product has one, and it is rarely what the datasheet leads with. C-ATS's ~300 mm tolerance sat unused for years |
 | `H3` | **What has actually bitten** | Hooks issued and which caught, source-tagged (`decided.md` S23). Turns hook volume from guesswork into evidence |
 
-### I. Who decides on it — `W1`–`W2`
+### 09 · Who decides on it — `W1`–`W2`
 
 *Engine knows who bought it. It does not know who specified it, and those are different people.*
 
@@ -219,7 +223,7 @@ campaign**, which the production line forbids. This group holds the material; **
 | `W1` | **Purchaser vs specifier** | Who buys, who specifies, and whether they are the same. Names roles, never companies |
 | `W2` | **Who signs it off, and what convinces them** | Different parties are reassured by different things — a finish sample, a measured report, an install time |
 
-### J. What we may and may not say — `G1`–`G4`
+### 10 · What we may and may not say — `G1`–`G4`
 
 *Governance, and it belongs in the record rather than in someone's memory.*
 
@@ -230,14 +234,14 @@ campaign**, which the production line forbids. This group holds the material; **
 | `G3` | **Marketing status** | One of: `pre-release` · `demonstrable, undocumented` · `current` · `discontinued`. **Build it, then say it** |
 | `G4` | **Proof available, and publishable?** | What exists, and whether it may be shown. At this tier the best jobs are the least publishable |
 
-### K. Where it is sold — `C1`–`C2`
+### 11 · Where it is sold — `C1`–`C2`
 
 | ID | Field | Fill rule |
 |---|---|---|
 | `C1` | **Channel** | One of: `srnd.store` (trade) · `Cinema Store` · `trade-only, not listed` · `embedded — not sold separately`. **No product exists in two places** |
 | `C2` | **Territory availability** | Any restriction or exclusivity. A vacated territory should be visibly open |
 
-### L. The asset audit — `A1`–`A11`
+### 12 · The asset audit — `A1`–`A11`
 
 *Each carries a state: **`current`** · **`exists — stale`** · **`missing`** · **`n/a — reason`**. This group is what
 makes the debt countable.*
@@ -256,7 +260,7 @@ makes the debt countable.*
 | `A10` | Training module | Certification — assembled from the above, never authored separately |
 | `A11` | Spares and service instructions | Installer, support |
 
-### M. Record keeping — `K1`–`K3`
+### 13 · Record keeping — `K1`–`K3`
 
 | ID | Field | Fill rule |
 |---|---|---|
@@ -287,7 +291,7 @@ consequences, both deliberate:
 | **Install manual** | `D6` `D7` `D8` `R4` **`N1`** | Organised by moment, not by product structure. `N1` is why it is installed *right*, not merely installed |
 | **Specifier pack decision** | `W1` `W2` `A3`–`A5` | Whether this needs NBS/Revit/samples at all, or only an install guide |
 | **Case study** | `G4` **`N8`** | Publishability is the gate, checked before writing. `N8` is what the job actually taught |
-| — *the line above generates from definition; below, nothing generates without group D* — | | |
+| — *the line above generates from definition; below, nothing generates without group 04* — | | |
 | **The knowledge base** — the corpus itself | **`N3`** `R3` | **One article per answered question.** This is the whole content estate, and it is one field |
 | **Hook / campaign silo** | `O1` `R1` `R3` **`N3`** | A hook with no answer behind it sends a dealer to a dead end (`backlog.md` CON-8) |
 | **"How do you do X" video** | `R4` `R3` **`N3`** | One failure mode per piece. The cheapest thing we make — and it is a *person answering*, so `N3` is the script |
@@ -338,7 +342,7 @@ the thing also tells you what to fix about it**, and that is a reason to keep it
 **Rep test:** attract __ · defend __ · trust __ · deliver __
 **Knowledge:** __ / 9 + __ of __ questions answered · **Record:** __ / 58 · **Assets:** __ / 11 · **Status (G3):** ___
 
-### A. What it actually is
+### 01 · What it actually is
 | ID | Field | Value |
 |---|---|---|
 | D1 | What it is | |
@@ -352,7 +356,7 @@ the thing also tells you what to fix about it**, and that is a reason to keep it
 | D9 | Limits | |
 | D10 | Where it sits | |
 
-### B. Why to buy it
+### 02 · Why to buy it
 | ID | Field | Value |
 |---|---|---|
 | O1 | Problem, in the dealer's words | |
@@ -361,7 +365,7 @@ the thing also tells you what to fix about it**, and that is a reason to keep it
 | O4 | What it replaces or avoids | |
 | O5 | Entry or flagship | |
 
-### C. The doubt it removes
+### 03 · The doubt it removes
 | ID | Field | Value |
 |---|---|---|
 | R1 | The doubt it meets | |
@@ -369,7 +373,7 @@ the thing also tells you what to fix about it**, and that is a reason to keep it
 | R3 | Questions it generates | |
 | R4 | What goes wrong on site | |
 
-### D. The knowledge layer
+### 04 · The knowledge layer
 | ID | Field | Value |
 |---|---|---|
 | N1 | Selection logic — which, and how many | |
@@ -388,7 +392,7 @@ unrecorded) · `unanswered`.*
 |---|---|---|---|---|
 | | | | | |
 
-### E. Competitive
+### 05 · Competitive
 | ID | Field | Value |
 |---|---|---|
 | X1 | The named alternatives | |
@@ -398,7 +402,7 @@ unrecorded) · `unanswered`.*
 | X5 | The switch argument | |
 | X6 | Why deals are lost *(append one line per loss)* | |
 
-### F. Commercial
+### 06 · Commercial
 | ID | Field | Value |
 |---|---|---|
 | M1 | Order unit and minimum | |
@@ -407,7 +411,7 @@ unrecorded) · `unanswered`.*
 | M4 | The dealer's business case | |
 | M5 | What not specifying it costs them | |
 
-### G. Lifecycle & support
+### 07 · Lifecycle & support
 | ID | Field | Value |
 |---|---|---|
 | L1 | Order to site | |
@@ -416,7 +420,7 @@ unrecorded) · `unanswered`.*
 | L4 | Serviceability | |
 | L5 | What we support, and for how long | |
 
-### H. Hook material
+### 08 · Hook material
 | Appeal | Carries? | The substance behind it |
 |---|---|---|
 | More revenue | | |
@@ -428,13 +432,13 @@ unrecorded) · `unanswered`.*
 **H2 — the most interesting true thing:**
 **H3 — what has bitten:**
 
-### I. Who decides
+### 09 · Who decides
 | ID | Field | Value |
 |---|---|---|
 | W1 | Purchaser vs specifier | |
 | W2 | Who signs off, and what convinces them | |
 
-### J. What we may and may not say
+### 10 · What we may and may not say
 | ID | Field | Value |
 |---|---|---|
 | G1 | Claims supported | |
@@ -442,18 +446,18 @@ unrecorded) · `unanswered`.*
 | G3 | Marketing status | |
 | G4 | Proof, and publishable? | |
 
-### K. Where it is sold
+### 11 · Where it is sold
 | ID | Field | Value |
 |---|---|---|
 | C1 | Channel | |
 | C2 | Territory | |
 
-### L. Assets
+### 12 · Assets
 | A1 datasheet | A2 drawings | A3 CAD | A4 BIM | A5 NBS | A6 install | A7 commissioning | A8 fault-finding | A9 video | A10 training | A11 spares |
 |---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | |
 
-### M. Record keeping
+### 13 · Record keeping
 **Owner:** — · **Last reviewed:** — · **Review interval:** —
 ```
 
@@ -481,7 +485,7 @@ one).
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
    reason those fail is that they ask one person to hold all twelve domains.
 2. **The lost deal is the highest-value capture event in the business and nothing catches it.** It is the only
-   outside view of which competitor, on which dimension, at which stage — the entire content of group E. **One
+   outside view of which competitor, on which dimension, at which stage — the entire content of group 05. **One
    line at the moment of losing** beats any amount of desk research on rivals.
 3. **The two daily routes already produce this and throw it away.** Every spec conversation fills the application
    domain; every support answer fills the answers domain. Both happen anyway, both get written into an email and
@@ -499,7 +503,7 @@ one).
 4. **Fill a field group across a range before filling one product deeply**, unless a specific output is waiting on
    it. The gates above say which unlocks most.
 5. **`N3` is filled by recording, not by writing.** Take the ranked `R3` list into a session, ask the questions, and
-   transcribe. **Ten minutes of an owner talking fills more of group D than a week of drafting**, and it is the only
+   transcribe. **Ten minutes of an owner talking fills more of group 04 than a week of drafting**, and it is the only
    version that carries the authority — the substance stays human, the multiplication does not
    (`group/09-motion-design.md` component 2). Filling `N3` by composition would be inventing claims, which the line
    forbids.

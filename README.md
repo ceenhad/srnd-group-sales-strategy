@@ -68,7 +68,7 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
      will be used. Engine holds the mechanical record; this is the layer above it.
    - `product-record-template.md` — **the form.** The same fields with stable IDs, fill states and completeness
      rules, plus the **generation gates**: which fields each piece of content or campaign material needs before it
-     can be produced. What makes a record fillable by anyone and countable by anybody. **Group D is the knowledge
+     can be produced. What makes a record fillable by anyone and countable by anybody. **Group 04 is the knowledge
      layer** — the answers, the sizing rule, the comparison, the timing, what the dealer tells their client. Since
      content is the sales rep and the records are step 1 of the production line, **that group is the database the
      rep speaks from**, and it is the half that decides whether any of the rest is worth filling.
