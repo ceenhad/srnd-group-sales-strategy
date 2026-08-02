@@ -63,6 +63,9 @@ What is actually left for C-ATS, in order:
 **Then DT, and the first DT task is not writing.** It is **grouping the range by mechanism** — Dynamic 4/2TB/2S
 families, mounts, mirrors, portholes, hush boxes — so fifty-odd products collapse into a manual set of maybe a
 dozen. That is an hour of the owner's knowledge, and it converts DT from a year of work into a finite list.
+**That grouping is now drafted** (`brands/display-technologies/product-records.md`): 52 catalogue lines into twelve
+record scopes, with the definitional layer filled from what the repo already held and everything else named as a
+counted gap. It needs the hour to confirm, not to invent.
 
 ### C. Territory removals, sequenced against readiness
 

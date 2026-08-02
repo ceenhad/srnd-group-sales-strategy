@@ -20,6 +20,9 @@ forked.
 - `content.md` — the brand's content, guardrails (from its `CLAUDE.md`), creative, layered build
   mapped to buyer-journey stages.
 - `product-pricing.md` — the range and the (gated) tier numbers behind the shared gate.
+- `product-records.md` — **the brand's products on the group form** (`../../product-record-template.md`), one
+  record per mechanism family rather than per SKU. The form is group; the fill is brand. Add the brand's record
+  scopes to `../../product-register.md` at the same time — the roster is what says a record is missing.
 - `open-items.md` — brand-specific decisions and sequencing.
 - *(optional)* `competition-matrix.md` — where the brand outclasses competitors, dimension by
   dimension, with our column real and competitor columns filled from verified research. Useful
@@ -32,4 +35,5 @@ forked.
 2. **Brand truth binds.** Carry the brand's hard don'ts into `content.md` guardrails; the group
    layer never licences overriding them.
 3. **Flag, don't guess.** Unsourced buyer-truth, unvalidated channels, unset pricing tiers → into
-   `open-items.md`, not into copy.
+   `open-items.md`, not into copy. In a product record this is the `[?]` state, and **a named gap counts as
+   progress** — a composed answer does not.

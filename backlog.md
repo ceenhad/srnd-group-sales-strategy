@@ -40,7 +40,9 @@ with the motion's development: US DT recovery (conversion of a warm base, person
 ## W1 — Documentation & product data — *prerequisite: the corpus the motion speaks from*
 
 *Gates support, the site rebuild, the partner programme's substance and the content cadence — but not US DT
-entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
+entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism. **The debt is now counted rather than
+described:** `product-record-template.md` is the form, `product-register.md` the roster — 38 record scopes across the
+group, 3 filled, 9 skeletoned, 25 with nothing at all, of which **15 are being sold today**.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
@@ -54,11 +56,16 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 | DOC-8 | Fetch | Marine absorption sheet provenance — same BSRIA report or a separate test | — | Small | ready | `open-items.md` (C-ATS records §1) |
 | DOC-9 | Decide | Whether to commission a below-125 Hz RES-CP measurement | owner | Minutes | ready | `open-items.md` (C-ATS records §5) |
 | DOC-10 | Decide | Whether to commission ISO 17497 scattering data for the REF-CP | owner | Minutes | ready | `open-items.md` (C-ATS records §6) |
-| DOC-11 | Do | Group the DT range by mechanism (Dynamic 4/2TB/2S families, mounts, mirrors, port holes, hush boxes) — fifty-odd SKUs collapse to ~a dozen manuals | authority | An hour | ready | `NEXT.md` §B, `decided.md` S11a |
-| DOC-12 | Fetch | Check what Engine already models against `product-data-schema.md`; the gap list is the deliverable. Precedes any DT writing | — | Small | ready | `decided.md` S16a |
-| DOC-13 | Do | Fill schema groups 1–2 (definition, on-ramp) for the three C-ATS panels so site copy generates from the record | — | Small | ready | `decided.md` S19, `product-data-schema.md` |
+| DOC-11 | Do | Group the DT range by mechanism (Dynamic 4/2TB/2S families, mounts, mirrors, port holes, hush boxes) — fifty-odd SKUs collapse to ~a dozen manuals. **Proposed: 52 catalogue lines → twelve record scopes**; needs the owner's hour to confirm the families | authority | An hour | drafted — for confirmation | `brands/display-technologies/product-records.md`, `decided.md` S11a |
+| DOC-12 | Fetch | Check what Engine already models against `product-data-schema.md`; the gap list is the deliverable. Precedes any DT writing. **Now has a roster to hold up against engine's** rather than a conversation about whether one exists | — | Small | ready | `decided.md` S16a, `product-register.md` |
+| DOC-13 | Do | Fill schema groups 1–2 (definition, on-ramp) for the three C-ATS panels so site copy generates from the record. **Group 1 done; group 2 filled where sourceable** — `O2`, `O4` answered per panel, `O1`/`O3` blocked on parked buyer-truth and left empty rather than composed | — | Small | part done — see DOC-17 | `decided.md` S19, `brands/c-ats/product-records.md` |
 | DOC-14 | Do | Write the DT manual set to the C-ATS standard, by mechanism, ranked by support load and sales volume | — | Large, finite | blocked (DOC-11, DOC-12) | `NEXT.md` lane 7, `group/08-sales-motion.md` |
-| DOC-15 | Do | Operationalise the completeness gate: record asset state per product (schema §7) and gate new products on it | — | Ongoing | blocked (DOC-12) | `decided.md` S16 |
+| DOC-15 | Do | Operationalise the completeness gate: record asset state per product (schema §7) and gate new products on it. **The form defines both meters**; no product gets a store listing without `D1`–`D10` and `G3` | — | Ongoing | blocked (DOC-12) | `decided.md` S16, `product-record-template.md` |
+| DOC-16 | Do | Audit the C-ATS assets against `A1`–`A11` — 2 of 11 states are known. Twenty minutes with the documentation folder open, and it turns "the manuals are poor" into a list | — | Twenty minutes | ready | `brands/c-ats/product-records.md` |
+| DOC-17 | Fetch | Source `O1`, `O3` and `W2` — the dealer's own words, the opportunity, and who signs off. **One input unblocks eleven fields across the three C-ATS panels**, and the source already exists in CON-3's archive and in spec conversations happening anyway | producer | Rides on CON-3 | blocked (CON-3) | `brands/c-ats/product-records.md` |
+| DOC-18 | Decide | Whether the Mistral Commander is an exception to *"control stays embedded, never a line item"* or follows the Actuator Commander off the store. It is a live standalone SKU today and the rule says "no exceptions" | owner | Minutes | ready | `brands/display-technologies/product-records.md` (`DT-08`) |
+| DOC-19 | Do | Fill `D5` (*what it is not for*) and `D7` (*what it requires from others*) across the DT families. `D5` prevents the range's characteristic failure — right product, wrong size; `D7` is the specifier's coordination story and exists nowhere | authority | Rides on DOC-11 | blocked (DOC-11) | `brands/display-technologies/product-records.md` |
+| DOC-20 | Do | Confirm the register's roster against engine and the stores, then fill the remaining brands' rows — Fabric Walls, Light Walls, Pro-Fi and Distribution have no records at all | — | Small per brand | blocked (DOC-12) | `product-register.md` |
 
 ## W2 — US entry — *parked: commercial questions are not germane to establishing the processes (2026-08-02)*
 
@@ -187,7 +194,7 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 |---|---|---|---|---|---|
 | DEC-1 | Decide | C-ATS naming: resolve the "Complete" expansion vs the legal "Cinema Acoustic Treatment Systems"; align brand truth, group site, store and channel. Affects all C-ATS-facing copy | — | ready | `open-items.md`, `brands/c-ats/open-items.md` |
 | DEC-2 | Decide | Leyard's role — on-ramp door, LED credibility, margin line — and whether it needs its own material | — | ready | `open-items.md` |
-| DEC-3 | Decide | The entry product per brand, distinct from each flagship; some obvious, Fabric Walls' open | — | ready | `open-items.md`, `group/02-buyer-journey.md` |
+| DEC-3 | Decide | The entry product per brand, distinct from each flagship; some obvious, Fabric Walls' open. **Field `O5`, and it blocks the on-ramp for a whole brand.** The C-ATS record suggests its own answer on the evidence — REV-CP entry, RES-CP flagship | — | ready | `open-items.md`, `brands/c-ats/product-records.md` |
 | DEC-4 | Decide | Channel selection, priority, spend and ownership from the candidate landscape; verify current status; evaluate online-first, EI-style | — | ready | `open-items.md`, `group/05-channels.md` |
 | DEC-5 | Decide | CAD and design data: publish what a specifier needs, gate what a manufacturer would need — decide the line deliberately | — | ready | `group/02-buyer-journey.md`, `product-data-schema.md` §7 |
 

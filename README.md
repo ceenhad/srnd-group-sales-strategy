@@ -63,8 +63,16 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
 3. **`brands/_template/`** — the starting point for a new brand playbook.
-4. **`product-data-schema.md`** — the sales and marketing layer of product data: what is needed, why, and how it
-   will be used. Engine holds the mechanical record; this is the layer above it.
+4. **The product layer**, in three files that do different jobs and should not be merged:
+   - `product-data-schema.md` — **the argument.** What data the sales and marketing layer needs, why, and how it
+     will be used. Engine holds the mechanical record; this is the layer above it.
+   - `product-record-template.md` — **the form.** The same fields with stable IDs, fill states and completeness
+     rules, plus the **generation gates**: which fields each piece of content or campaign material needs before it
+     can be produced. What makes a record fillable by anyone and countable by anybody.
+   - `product-register.md` — **the roster.** Every product in the group as a record scope, with its record state
+     and marketing status. Says which record to open next, and which live products have no canonical account at all.
+   - Filled records live with the brand — `brands/c-ats/product-records.md` (the worked standard) and
+     `brands/display-technologies/product-records.md` (a skeleton, where the counted gaps are the deliverable).
 5. **`current-state.md`** — the factual baseline: the sales side as it runs today and the marketing assets that
    exist, with gaps marked rather than guessed.
 6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.

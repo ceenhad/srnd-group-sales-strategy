@@ -25,6 +25,11 @@ is why the same questions keep arriving.
 
 *A first cut, for correction. Every row is a claim about how the estate works, so a wrong row is worth striking.*
 
+> **This file is the argument; the form is `product-record-template.md`.** Same fields, given stable IDs, fill
+> states, completeness rules and the generation gates that say which fields each output needs. Fill records against
+> the form; change the argument here and the form follows. The roster of what needs filling is
+> `product-register.md`.
+
 ---
 
 ## 1. What the product actually is
@@ -134,7 +139,9 @@ dealer acts on it, so a record with no review date is not complete.
    own legacy source, the marine panel having no acoustic data of its own, and a ~300 mm layout tolerance that is a
    real selling point appearing in no marketing.
 3. **Then DT, by mechanism rather than by SKU.** The range is variant-heavy; document the mechanism once and table
-   the variants.
+   the variants. **The grouping is now proposed and skeletoned** — `brands/display-technologies/product-records.md`
+   collapses 52 catalogue lines into twelve record scopes and fills the definitional layer, leaving the rest as
+   named gaps. It needs an hour of the owner's knowledge to confirm the families.
 4. **Rank by the questions-generated field**, cross-checked against the archive's question frequency. Not
    alphabetically, and not by whichever product someone is currently annoyed about.
 5. **Make completeness a gate on new products.** The only version of this that stops the debt returning.
