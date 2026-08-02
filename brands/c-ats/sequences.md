@@ -19,7 +19,7 @@ with no order, the account goes to the gone-quiet list — a person asks, nothin
 | A2 | ~Day 2 | **The proof, handed over.** The BSRIA report and the how-to-read-an-absorption-table article | Specifier-grade third-party data they can reuse in their own client conversations | The panel pages |
 | A3 | ~Day 5 | **"Spec your first room."** The two routes — specify from the documentation, or take the design service, their choice — with the three reference room layouts | A shortcut to a real spec | The entry order, or a Zoom |
 | A4 | ~Day 10 | **What the good installers know.** The two critical install notes (bond-vs-screw; the warm-room rule) | The two predictable failures, avoided before they've bought | Quiet — the product pages |
-| A5 | ~Day 14 | **A named person.** A short note from Olivier: how we work, what he can help with, book a call if useful | A human, before they need one | The Zoom booking |
+| A5 | ~Day 14 | **A named person.** A short note from whoever owns the relationship: how we work, what they can help with, book a call if useful | A human, before they need one | The Zoom booking |
 | — | ~Week 4, no order ⚑ | To the gone-quiet list. **A person asks.** Nothing further is sent | — | The order |
 
 ## Sequence B — the install pack and check-in (state: ordered, job ahead · tempting G5)
@@ -53,8 +53,8 @@ machinery: a C-ATS account being walked, gently and usefully, to the next layer 
 
 ## Notes for the truth-check
 
-- **A5 and the check-ins assume Olivier's name and time** — his to confirm, and the one recurring human
-  cost in the three sequences.
+- **A5 and the check-ins assume a named person's time** — the one recurring human cost in the three
+  sequences. Whose name is deliberately not written here: nothing is formally decided about who does what.
 - **B4's three-line capture is the discovery mechanism** (XS-2) arriving through a sequence rather than a
   form — the same act serves them and informs us.
 - **C3's interval is the rhythm question** — set it to what the production line actually sustains; a
