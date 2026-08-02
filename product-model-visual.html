@@ -308,7 +308,7 @@
 
   <header class="masthead">
     <div class="rule-top">
-      <span class="eyebrow">SRND Group · product record · model v2 · 2026-08-02</span>
+      <span class="eyebrow">SRND Group · product record · model v2 · rev 4 — adds the task register</span>
       <span class="eyebrow">for correction, not adoption</span>
     </div>
     <h1>What the database must hold for content to act as the rep</h1>
@@ -413,6 +413,66 @@
           </tr>
         </tbody>
       </table>
+    </div>
+  </section>
+
+  <!-- ============ TASKS ============ -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="eyebrow">the task register · group/10-tasks.md</span>
+      <h2>45 tasks, and which of them a system can actually do</h2>
+      <p class="note">A sales person's week and a marketing person's, listed exhaustively rather than selectively,
+        each with an automation verdict. <strong>Every row is an unverified claim</strong> until someone who does
+        the work confirms it — that is the register's own first action, not a caveat on it.</p>
+    </div>
+
+    <div class="verdicts">
+      <div class="vd a">
+        <span class="vn">9</span><span class="vt">automated</span>
+        <span class="vs">Runs today with nobody in the loop — engine, the store, the tools, published content.</span>
+      </div>
+      <div class="vd ab">
+        <span class="vn">9</span><span class="vt">automatable</span>
+        <span class="vs">Could run without a person given the record filled. The blocker is build or data, not judgement.</span>
+      </div>
+      <div class="vd as">
+        <span class="vn">15</span><span class="vt">assisted</span>
+        <span class="vs">A person is required, but the system carries the labour. Minutes, not hours — the judgement stays.</span>
+      </div>
+      <div class="vd mn">
+        <span class="vn">12</span><span class="vt">manual</span>
+        <span class="vs">Irreducibly human. Automating it would destroy the thing that makes it work.</span>
+      </div>
+    </div>
+    <div class="vbar">
+      <i class="s-a" style="flex:9"></i><i class="s-ab" style="flex:9"></i><i class="s-as" style="flex:15"></i><i class="s-mn" style="flex:12"></i>
+    </div>
+
+    <p class="note"><strong><span class="mono">assisted</span> is the largest category, and that is the model
+      working as designed.</strong> The question was never <em class="q">does content replace a rep?</em> — it is
+      whether the labour can move while the judgement stays. <strong>Content, the store and the tools cover 73 % of
+      the two jobs</strong>, outright or with a person's minutes on top; the remaining 27 % is named rather than
+      assumed away, and it is small enough to staff.</p>
+
+    <p class="note"><strong>And this is where the record fits into the rest of the system.</strong> Assisted work is
+      exactly the work where a person reviews what the system drafted — and the system can only draft from the
+      record. <strong>An empty record silently reverts every assisted task to manual</strong>, which is the
+      difference between 73 % coverage and 20 %.</p>
+
+    <div class="unowned">
+      <span class="uh">six tasks have no performer at all</span>
+      <div class="urow"><b>T-S11</b>Defend against a named competitor<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-S22</b>Bring back market intelligence<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-S23</b>Feed product development<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-M02</b>Competitor tracking<span class="kind">outward-sensing</span></div>
+      <div class="urow"><b>T-M12</b>Dealer marketing support — material a partner hands their own client<span class="kind">execution</span></div>
+      <div class="urow"><b>T-M17</b>Product launch<span class="kind">execution</span></div>
+      <p class="note" style="font-size:0.86rem;">The four sensing tasks are <strong>one job, not four gaps</strong>
+        — nobody is looking at the market, at rivals, or at why we lose. The two execution tasks are different in
+        kind and more immediately expensive, because they are ordinary work nobody was assigned: <strong>the Screen
+        Wall is what an unowned product launch costs</strong>, and <span class="mono">N7</span> empty across all 38
+        scopes is what unowned dealer support costs.</p>
     </div>
   </section>
 
@@ -698,66 +758,6 @@
     </div>
   </section>
 
-
-  <!-- ============ TASKS ============ -->
-  <section>
-    <div class="sec-head">
-      <div class="bar"></div>
-      <span class="eyebrow">the task register · group/10-tasks.md</span>
-      <h2>45 tasks, and which of them a system can actually do</h2>
-      <p class="note">A sales person's week and a marketing person's, listed exhaustively rather than selectively,
-        each with an automation verdict. <strong>Every row is an unverified claim</strong> until someone who does
-        the work confirms it — that is the register's own first action, not a caveat on it.</p>
-    </div>
-
-    <div class="verdicts">
-      <div class="vd a">
-        <span class="vn">9</span><span class="vt">automated</span>
-        <span class="vs">Runs today with nobody in the loop — engine, the store, the tools, published content.</span>
-      </div>
-      <div class="vd ab">
-        <span class="vn">9</span><span class="vt">automatable</span>
-        <span class="vs">Could run without a person given the record filled. The blocker is build or data, not judgement.</span>
-      </div>
-      <div class="vd as">
-        <span class="vn">15</span><span class="vt">assisted</span>
-        <span class="vs">A person is required, but the system carries the labour. Minutes, not hours — the judgement stays.</span>
-      </div>
-      <div class="vd mn">
-        <span class="vn">12</span><span class="vt">manual</span>
-        <span class="vs">Irreducibly human. Automating it would destroy the thing that makes it work.</span>
-      </div>
-    </div>
-    <div class="vbar">
-      <i class="s-a" style="flex:9"></i><i class="s-ab" style="flex:9"></i><i class="s-as" style="flex:15"></i><i class="s-mn" style="flex:12"></i>
-    </div>
-
-    <p class="note"><strong><span class="mono">assisted</span> is the largest category, and that is the model
-      working as designed.</strong> The question was never <em class="q">does content replace a rep?</em> — it is
-      whether the labour can move while the judgement stays. <strong>Content, the store and the tools cover 73 % of
-      the two jobs</strong>, outright or with a person's minutes on top; the remaining 27 % is named rather than
-      assumed away, and it is small enough to staff.</p>
-
-    <p class="note"><strong>And this is where the record fits into the rest of the system.</strong> Assisted work is
-      exactly the work where a person reviews what the system drafted — and the system can only draft from the
-      record. <strong>An empty record silently reverts every assisted task to manual</strong>, which is the
-      difference between 73 % coverage and 20 %.</p>
-
-    <div class="unowned">
-      <span class="uh">six tasks have no performer at all</span>
-      <div class="urow"><b>T-S11</b>Defend against a named competitor<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-S22</b>Bring back market intelligence<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-S23</b>Feed product development<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-M02</b>Competitor tracking<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-M12</b>Dealer marketing support — material a partner hands their own client<span class="kind">execution</span></div>
-      <div class="urow"><b>T-M17</b>Product launch<span class="kind">execution</span></div>
-      <p class="note" style="font-size:0.86rem;">The four sensing tasks are <strong>one job, not four gaps</strong>
-        — nobody is looking at the market, at rivals, or at why we lose. The two execution tasks are different in
-        kind and more immediately expensive, because they are ordinary work nobody was assigned: <strong>the Screen
-        Wall is what an unowned product launch costs</strong>, and <span class="mono">N7</span> empty across all 38
-        scopes is what unowned dealer support costs.</p>
-    </div>
-  </section>
 
   <!-- ============ ESTATE ============ -->
   <section>
