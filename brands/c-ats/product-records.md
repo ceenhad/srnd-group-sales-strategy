@@ -4,8 +4,13 @@
 three C-ATS treatment panels. First worked example, so it sets the standard for the rest of the group. Field IDs
 below (`D1`, `O2`, `R4`…) are the form's; they are what downstream generation refers to.*
 
-**Where the three panels stand: 26 of 39 fields each · assets 2 of 11 known · `G3` current.**
-**Knowledge (report this first): 2 of 9 fields · 2 of 13 questions answered.**
+**Rep test: attract — no · defend — no · trust — yes · deliver — partly.**
+**Knowledge: 2 of 9 fields · 2 of 13 questions answered · Record: 28 of 58 · Assets: 2 of 11 known · `G3` current.**
+
+*The form gained the front half on 2026-08-02 — competitive (`X`), commercial (`M`), lifecycle (`L`) and hook
+material (`H`). **Those four groups are unfilled here**, which is why two of the four rep tests fail. Only `M1`
+(whole boxes of 1.44 m²) and `H2` (the ~300 mm tolerance — the most interesting true thing about the range) are
+already answered above. Filling the rest is `backlog.md` SYS-3.*
 
 Two findings sit behind those numbers, and the second is the serious one:
 

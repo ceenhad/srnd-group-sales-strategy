@@ -6,8 +6,14 @@ sellable families documented below.*
 
 **What this file is, stated plainly: the definitional layer, filled from what the repo already holds — and every
 other field counted as a gap.** That is not a shortfall, it is the deliverable. DT's documentation debt has been
-described for months; this turns it into **~13 of 30 fields per family**, with the missing seventeen named
+described for months; this turns it into **~13 of 58 fields per family**, with the definitional gaps named
 individually so each is a question someone can be sent to answer rather than a project someone has to scope.
+
+> **Scope note (2026-08-02).** The `Gaps:` lists under each family below enumerate the *definitional* gaps only.
+> The form has since gained the front half — competitive (`X1`–`X6`), commercial (`M1`–`M5`), lifecycle
+> (`L1`–`L5`) and hook material (`H1`–`H3`) — and **all four groups are empty for every DT family**. So on the rep
+> test DT currently reads: **attract — no · defend — no · trust — partly · deliver — no.** Filling the front half
+> is `../../backlog.md` SYS-3.
 
 **Provenance — read before using anything here.**
 
@@ -50,7 +56,7 @@ confirming the family grouping below — same session, same person.
 
 ## `DT-01` — Dynamic masking screens
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -74,7 +80,7 @@ sentence. Nowhere in the DT estate is that sentence written down.
 
 ## `DT-02` — Fixed-frame screens
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -93,7 +99,7 @@ sentence. Nowhere in the DT estate is that sentence written down.
 
 ## `DT-03` — Image surfaces
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -120,7 +126,7 @@ sentence. Nowhere in the DT estate is that sentence written down.
 
 ## `DT-04` — Ceiling & vertical projector mounts
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -139,7 +145,7 @@ sentence. Nowhere in the DT estate is that sentence written down.
 
 ## `DT-05` — Mirror concealment
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -158,7 +164,7 @@ sentence. Nowhere in the DT estate is that sentence written down.
 
 ## `DT-06` — Hush Box enclosures
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -182,7 +188,7 @@ envelope should be captured in the same pass.
 
 ## `DT-07` — Projector port holes
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 | ID | Field | Value |
 |---|---|---|
@@ -201,7 +207,7 @@ envelope should be captured in the same pass.
 
 ## `DT-08` — Airflow (Mistral)
 
-**Record: 12 / 30 · Assets: not audited · `G3`: current · `C1`: `[?]` — see below**
+**Record: 12 / 58 · Assets: not audited · `G3`: current · `C1`: `[?]` — see below**
 
 | ID | Field | Value |
 |---|---|---|
@@ -238,7 +244,7 @@ to the thing it governs.
 
 ## `DT-10` — The Screen Wall
 
-**Record: 0 / 30 · `G3`: `demonstrable, undocumented`**
+**Record: 0 / 58 · `G3`: `demonstrable, undocumented`**
 
 **No record, deliberately not skeletoned here.** The flagship — a modular front-wall carrying screen, speakers,
 acoustics and structure as one product, in projection and LED variants, demonstrable since **ISE 2023** and with no
@@ -251,7 +257,7 @@ what the absence of a product record costs.
 
 ## `DT-11` — Artmask
 
-**Record: 0 / 30 · `G3`: `[?]`**
+**Record: 0 / 58 · `G3`: `[?]`**
 
 Appears on the DT site but **not in the product feed**. Whether it is a product, a category or an intention is
 unresolved, as is how it sits against Screen Research's art masking (`positioning.md` §7). `[?]` throughout, and the
@@ -259,7 +265,7 @@ first question is not a field — it is whether this row should exist at all.
 
 ## `DT-12` — Spares & components
 
-**Record: 13 / 30 · Assets: not audited · `G3`: current**
+**Record: 13 / 58 · Assets: not audited · `G3`: current**
 
 Tension bands · linear actuator 200 mm · 1500 mm draw-wire sensor · AC→12 V DC 8 A power supply.
 
@@ -324,7 +330,7 @@ set, *"large, finite"*) has no ranking to work to.
 4. **`DT-03` and possibly `FW-02` are mis-scoped**, which is the grouping doing its job: acoustic transparency and
    ambient-light rejection are different mechanisms, and the template's own test separates them.
 
-**And the number that matters: ~13 of 39 fields, before anyone did any work.** The definitional layer was already
+**And the number that matters: ~13 of 58 fields, before anyone did any work.** The definitional layer was already
 sitting in the repo, unassembled. What remains is genuinely unknown here and genuinely known by the people who build
 these things — which is exactly the shape the record was designed to convert into questions.
 

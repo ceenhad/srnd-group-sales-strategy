@@ -220,8 +220,8 @@ record counts suggest.*
 
 | Tier | Scopes | State | What the line can do with it |
 |---|---|---|---|
-| **1 — questions indexed, answers missing** | **3** (the C-ATS panels) | 26/39 fields, **knowledge 2/9**, **2 of 13 questions answered in writing** | Multiply the two answers we have. Six more are a paragraph each away. The rest is not there |
-| **2 — definition only, questions not even asked** | **9** (the DT families) | ~13/39 fields, **`R3` unfilled throughout** | **Nothing.** With no question list there is no content backlog for DT at all — and DT owns the channel with 8 years and ~41,000 views |
+| **1 — questions indexed, answers missing** | **3** (the C-ATS panels) | 28/58 fields, **knowledge 2/9**, **2 of 13 questions answered in writing**; front half (`X`/`M`/`L`/`H`) empty | Multiply the two answers we have. Six more are a paragraph each away. The rest is not there |
+| **2 — definition only, questions not even asked** | **9** (the DT families) | ~13/58 fields, **`R3` unfilled throughout**; front half empty | **Nothing.** With no question list there is no content backlog for DT at all — and DT owns the channel with 8 years and ~41,000 views |
 | **3 — nothing** | **25** | No record | Nothing |
 
 ### What that means, stated plainly

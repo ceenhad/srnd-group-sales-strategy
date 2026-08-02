@@ -25,18 +25,115 @@ is why the same questions keep arriving.
 
 *A first cut, for correction. Every row is a claim about how the estate works, so a wrong row is worth striking.*
 
-> **This file is the argument; the form is `product-record-template.md`.** Same fields, given stable IDs, fill
-> states, completeness rules and the generation gates that say which fields each output needs. Fill records against
-> the form; change the argument here and the form follows. The roster of what needs filling is
-> `product-register.md`.
->
-> **One group the form adds, and the argument above did not have: the knowledge layer.** The seven groups here
-> describe a product. But **content is the sales rep**, and the production line's step 1 is *"substance in — the
-> atoms that already exist: the product records…"* (`group/09-motion-design.md` component 2) — so the record has to
-> hold what a rep knows, not only what a product is: the answers to the questions in group 3, the sizing rule, the
-> worked example, the comparison, the timing, and what the dealer tells their own client. **Group 3 names the
-> questions; nothing here held the answers**, which meant the estate could generate documents and not a
-> salesperson. See `product-record-template.md` group D.
+> **This file is the model and the argument; the form is `product-record-template.md`; the roster is
+> `product-register.md`.** Fill records against the form; change the model here and the form follows.
+
+---
+
+# Part one — the model
+
+*Added 2026-08-02, and it reorders everything below it. **The question is not "what data does a product have?" It
+is "what must the database hold for content to act as the sales and marketing rep?"** (Neil). Those produce
+different lists, and the first version of this file answered the first question.*
+
+## The rep test — what "done" means
+
+A rep does **four jobs**. The database is complete when it can do all four without the rep.
+
+| # | The job | The test | Where in the journey |
+|---|---|---|---|
+| **1** | **Attract** — make the solution as attractive as it honestly is | Can you start a conversation a dealer actually wants to have? **This is where every hook comes from** | Stages 1–2 · gateways G1, G2 |
+| **2** | **Defend** — hold it against the alternatives | Can you win the comparison, including against doing nothing and against the dealer's incumbent supplier? | Stages 2–3 · G2, G3 |
+| **3** | **Build trust** | Can you be believed — proof, honest limits, and the things we decline to claim? | Stage 3 · **G3, the hinge** |
+| **4** | **Deliver** — answer every question clearly, all the way to a working install | Can a dealer get from interest to a room that works without asking us anything? | Stages 4–6 · G4, G5, G6 |
+
+**Jobs 1 and 2 are the front half and they are joined:** you cannot make something attractive for long without
+being able to defend it, and **a claim you cannot defend is a hook that costs you the dealer** when it meets a
+competitor's answer. Jobs 3 and 4 are the back half — trust, then the questions answered clearly on the way to
+install. **The front half starts things; the back half is what makes them repeat.**
+
+## The domains — what the database must hold
+
+*Twelve subject areas. Each is here because a rep carries it and one of the four jobs fails without it. The
+right-hand column is the honest state of the form today — **the model's job is to show what the form does not yet
+have fields for**, which is the real gap and it is not a data gap.*
+
+| # | Domain | What it holds | Serves | Feeds which appeals | In the form today |
+|---|---|---|---|---|---|
+| 1 | **Physical** | What it is, materially: construction, materials, finishes, sizes, weights, what is supplied | 4 | *problem named* | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
+| 2 | **Functional & performance** | What it does, the mechanism, measured behaviour, test basis, the envelope and its limits | 2, 3 | *better results* | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
+| 3 | **Application** | Where it is used and where it is not; **selection and sizing**; layout; quantity; worked examples; misapplication | 1, 4 | *easier to do · better results* | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
+| 4 | **Integration & compatibility** | What it works with, ours and other people's; interfaces; prerequisites; what the builder must leave; adjacency | 4, 1 | *easier to do · more revenue* | `D7` `D10` `N5` |
+| 5 | **Competitive** | Named alternatives, dimension by dimension; where we win; **where they win**; the switch argument; what to watch for in their spec | **2** | all five | **`N4` only — one field for the whole job of defending** |
+| 6 | **Commercial** | The dealer's business case: order unit, lead time, availability, margin position, what it costs them in labour, what not specifying it costs | 1, 4 | *more revenue · time saved* | **nothing** |
+| 7 | **Evidence & proof** | Measured reports, references, demonstrations, renders — and what may be shown | **3** | *better results* | `G4` |
+| 8 | **Risk & objection** | The doubt, the objection behind it, the failure modes, the cost of getting it wrong | 3, 4 | *the problem named* | `R1` `R2` `R4` |
+| 9 | **The answers** | The questions actually received, ranked, answered in the owner's words, with where each is published | **all four** | all five | `R3` `N3` |
+| 10 | **Lifecycle & support** | Lead time to site, install sequence, commissioning and verification, spares, serviceability, replacement | **4** | *easier to do* | **assets only (`A1`–`A11`) — the documents, not the facts** |
+| 11 | **Narrative & hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | — *it is the appeals* | **nothing** — hooks are designed in `group/09-motion-design.md` with no product-level source |
+| 12 | **Governance & provenance** | What may and may not be said, marketing status, source, owner, review date | all four | — | `G2` `G3` `K1`–`K3` |
+
+**What that table says, and it is the answer to "what must be in the database":**
+
+- **The form covers the back half well and the front half barely.** Jobs 3 and 4 — trust and delivery — have
+  fields. **Job 2, defend, has one field. Job 1, attract, has no source at all** beyond the on-ramp group. Which is
+  the wrong way round, because the front half is where things start.
+- **Domain 5 is one field doing a whole job.** *"A rep must be able to defend it against the competition"* — and
+  the record offers a single line called "comparison". Defending needs the named alternative, the dimension, where
+  we lose, and what to say when the dealer already buys from them.
+- **Domain 6 is absent entirely**, and it is half of why a dealer specifies anything. Not price — **price is
+  engine's and is gated** — but lead time, order unit, availability and the dealer's own business case.
+- **Domain 11 is the missing link to the hook machinery.** `group/09-motion-design.md` designs hooks by appeal
+  category — *more revenue · time saved · easier to do · better results · the problem named* — and **nothing at
+  product level says which appeals a given product can honestly carry.** So hook volume, which the design says is
+  the point of G1, currently has no source and would be invented per campaign. That is exactly the failure the
+  production line forbids.
+- **Domain 10 holds documents where it should hold facts.** The asset audit says whether an install manual exists.
+  It does not say the lead time, the install sequence, or whether a part can be replaced without pulling the
+  assembly — which are the things a dealer asks *on the way to install*.
+
+## Where each domain comes from — the capture routes
+
+***This is the process half, and it is the part that decides whether any of it ever gets filled.*** A rep's
+knowledge is not written in a documentation project; it accretes from the work. **So does this.** Twelve domains do
+not need twelve projects — they need **six routes**, and five of the six ride on work that already happens every
+week.
+
+| Route | Fills domains | Who holds it | The capture event | Rides on |
+|---|---|---|---|---|
+| **The build** | 1, 2 (physical half), 4 | Design & production | A product is made or changed | Work already happening |
+| **The test** | 2 (measured half), 7 | The lab, the report | A test is commissioned or a report lands | Already happening, rarely |
+| **The design desk** | 3, 4 | Whoever specs jobs — **and we help spec routinely** | A job is designed or spec help is given | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
+| **The support line** | 8, 9, 10 | Whoever answers questions | A question is answered, pre-sale or on site | **Daily**, and already answered once by email |
+| **The deal** | **5, 6** | Whoever quotes | A quote goes out — **and above all, a deal is lost** | Already happening, **captured nowhere** |
+| **The owners** | 11, 12 | The owners | A review, or a position being settled | **The only added habit** |
+
+**Three things follow, and they change what this work is.**
+
+1. **Documentation is not one job, it is six habits.** Treating it as a single writing project is why it has never
+   started: it asks one person to hold all twelve domains, and nobody does. Split by route and each is small,
+   owned by whoever already does that work, and attached to an event that already occurs.
+2. **The lost deal is the highest-value capture event in the business and nothing catches it.** It is the only
+   moment that tells you, from outside, which competitor, on which dimension, at which stage — the entire content
+   of domain 5. **One line at the moment of losing** is worth more to the competitive domain than any amount of
+   desk research on rivals.
+3. **The two daily routes are already producing this knowledge and discarding it.** Every spec conversation fills
+   domain 3; every support answer fills domain 9. Both happen anyway, both are currently written into an email and
+   lost. **The archive is the proof** — years of sent mail already containing the answers (`backlog.md` CON-3).
+
+**And the standing boundary is unchanged.** Engine owns the mechanical record and the numbers — SKU, dimensions,
+stock, pricing, lead times as data. **The record holds the argument, not the number**: not the price but the
+dealer's business case, not the stock level but what to say about availability. Where a domain touches engine, it
+defers and records the mapping (`decided.md` S16a). **And group commercial policy — terms, credit, territory —
+stays out of the record entirely**; it is settled in `decided.md` and is not product data (Neil, 2026-08-02).
+
+---
+
+# Part two — the fields
+
+*The detail beneath the model. Sections 1–8 are the original groups; **9–12 add the domains the model showed were
+missing.** Read in the domain table's order, not in number order — the numbers are anchors, kept stable because
+other files cite them.*
 
 ---
 
@@ -133,7 +230,70 @@ are poor" into a completeness percentage per product.*
 **Owner of the record · last reviewed · review interval.** A stale answer is worse than no answer because a
 dealer acts on it, so a record with no review date is not complete.
 
----
+## 9. Competitive — how it is defended *(domain 5)*
+
+*The job the record currently does with one field. **A rep who cannot answer "why not theirs?" is not a rep**, and
+this is where the durable hooks come from — a comparison the dealer has not thought of is the most reliable way to
+start a conversation.*
+
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **The named alternatives, per product** | The dealer is not choosing between us and nothing; they are choosing between us and a specific thing, usually one they already buy | Comparison content, objection handling, the answer in the spec conversation |
+| **The dimensions the comparison actually turns on** | Every category has two or three that decide it. Arguing the others is noise | Choosing what a comparison piece argues; what a data card leads with |
+| **Where we genuinely win, dimension by dimension** | The defensible half. **With the measurement behind it or it is not a claim** | The comparison, the datasheet emphasis, the hook |
+| **Where they genuinely win** | **The field that makes the rest believable.** A rep who concedes nothing is not trusted twice, and the dealer already knows the answer | Honest comparison; knowing which jobs not to chase; where to improve the product |
+| **The switch argument** — what to say to a dealer who already buys the alternative | Different from a cold pitch: there is an incumbent relationship, a stocked shelf and a habit to overcome | Direct outreach after a territory opens; the conversation with a rival's dealer |
+| **What to watch for in their specification** | Where a rival's product creates a problem the dealer will own later — stated as a caution, never as an attack | Specifier conversations; the honest technical answer |
+| **Why deals are lost** — accumulating, one line each | The only outside view of the market we have | Ranks everything above; tells you what is actually wrong |
+
+> **The discipline binds hardest here.** Position by capability, never disparagement; never attack a competitor in
+> public copy; **no superlative without a measurement**; and never claim to be *the* most anything
+> (`CLAUDE.md`). *Where they win* is not a concession bolted on for balance — it is what makes the rest of the
+> comparison worth reading.
+
+## 10. Commercial — the dealer's business case *(domain 6)*
+
+*Absent from the record entirely, and it is half of why anything gets specified. **Not price.** Price is engine's,
+is partner-gated, and is never published (`decided.md`, settled). This is the argument around it.*
+
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **Order unit and minimum** | The commonest cause of a wrong first order after scope of supply. Boxes, not panels; sheets, not metres | Quoting, the store listing, the first-order conversation |
+| **Lead time, and what changes it** | The question that decides whether we are specified on a live project at all | Feasibility answers, the spec conversation, honest expectation setting |
+| **Availability posture** — stocked, made to order, made to size | Different products want different promises, and one wrong assumption loses a job | What may be said about delivery; the store |
+| **The dealer's business case** | Their margin position relative to the alternative, plus **what it costs them in labour** to install and to support. **A cheaper product that takes two more days on site is not cheaper** | The `more revenue` and `time saved` appeals; the comparison; partner conversations |
+| **What not specifying it costs them** | The risk side of the same argument — the callback, the room that underperforms, the client who is unhappy | Objection handling; the honest version of urgency |
+| **Where the numbers live** | Engine, per partner and per country. **The record points; it never copies** | Prevents a stale price in a marketing asset — the failure mode this boundary exists to stop |
+
+## 11. Lifecycle & support — the way to install, and after *(domain 10)*
+
+*Today the record holds the *documents* (`A1`–`A11`) and none of the *facts*. **A dealer on the way to install asks
+about the facts.***
+
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **What happens between order and site** | Lead time to delivery, what arrives, in what state, and what has to be ready | The order confirmation; the pre-install conversation |
+| **The install sequence, and who does it** | Where it sits in the build order, and whether it needs a specialist. **Fabric Walls' whole proposition is the answer to this** — no upholsterers, predictable times | Install manual structure; the `easier to do` appeal; the programme conversation |
+| **Commissioning and verification** | Where a good product still becomes a bad room. The step that decides whether it worked | Commissioning guide; the verification service; the G5 signal |
+| **Serviceability** — what can be replaced without pulling the assembly | **Buying a part instead of replacing an assembly is a form of backing a dealer**, and it is a purchasing argument as much as a support one | Spares listing; the service-replacement rule; the support proposition |
+| **What we support and for how long** | The claim behind "support is part of the sales proposition, not a cost behind it" | The partner conversation; the international dealer's real question |
+
+## 12. Narrative & hook material *(domain 11)*
+
+*The missing source under the hook machinery. `group/09-motion-design.md` designs hooks by **appeal category**, and
+**many hooks per door is deliberate** — volume is part of the G1 design (`decided.md` S23). **But volume needs a
+source, or hooks get invented per campaign**, which is precisely what the production line forbids.*
+
+| Field | Why it is needed | How it is used |
+|---|---|---|
+| **Which of the five appeals this product can honestly carry**, and the substance behind each — *more revenue · time saved · easier to do · better results · the problem named* | **Not every product carries every appeal**, and stretching one it cannot carry is how a hook becomes a claim we cannot defend. Marking which are *empty* is as useful as filling the others | The hook matrix per door (`backlog.md` JNY-4); deciding which products lead a campaign |
+| **The single most interesting true thing about it** | Every product has one, and it is usually not what the datasheet leads with. C-ATS's ~300 mm tolerance sat unused for years | The lead hook; the explainer's opening; what a piece is *about* |
+| **What has actually bitten** — hooks issued, and which caught | The loop that turns hook volume from guesswork into evidence, and the reason source-tagging exists (S23) | Ranks the next batch; retires hooks that never bite |
+
+> **This section holds material, never wording.** The hook matrix and the wording stay where they are designed —
+> per door, set by an owner, never generic (`backlog.md` JNY-4). **The record says what a product can honestly be
+> hooked on; the matrix says what is said and where.** Keeping those apart is what stops the record becoming
+> marketing copy.
 
 ## How to use it
 
@@ -153,3 +313,17 @@ dealer acts on it, so a record with no review date is not complete.
 4. **Rank by the questions-generated field**, cross-checked against the archive's question frequency. Not
    alphabetically, and not by whichever product someone is currently annoyed about.
 5. **Make completeness a gate on new products.** The only version of this that stops the debt returning.
+
+**And the order the model changes, which supersedes points 2–4 as the *sequence* while leaving them true as the
+*standard*:**
+
+6. **Stand up the routes before filling any more fields.** Six capture events, five of them attached to work that
+   already happens. **A route that is running fills its domains forever; a field filled by a push decays from the
+   day it is written.** The cheapest two are the ones that fire daily — the support answer and the spec
+   conversation — and the highest-value one is the one that fires rarely and is currently caught nowhere: **the
+   lost deal.**
+7. **Fill the front half first, against the model, one brand at a time.** Domains 5, 6 and 11 — defend, the
+   business case, and what a product can honestly be hooked on — because that is where the journey is entered and
+   where the record has almost no fields today. The back half is better covered and less urgent than it looks.
+8. **Judge the record by the rep test, not by the meter.** A record at 90 % that cannot win a comparison or say
+   what a job costs the dealer in labour is not 90 % of a rep. **The four jobs are the pass mark.**
