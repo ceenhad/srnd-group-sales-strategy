@@ -61,7 +61,7 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | US-1 | ~~Decide~~ | ~~The US price position~~ — **struck as a gate** (2026-08-02): engine prices per partner and per country natively. What pricing to *set* folds into US-2's terms discussion | — | — | dropped | `decided.md` (Reversals) |
-| US-2 | Decide | Support hours, credit and trade terms for direct international dealers — genuinely open, and per Neil (2026-08-02) this class of critical commercial discussion has not yet been processed in any depth | — | Real work | ready | Q10 of the decisions run |
+| US-2 | Decide | Support hours and remaining trade terms for direct international dealers — genuinely open, and per Neil this class of critical discussion has not yet been processed in depth. **Credit is resolved (C8): no dealer credit anywhere; card if they want credit** | — | Real work | ready | Q10 of the decisions run, `decided.md` C8 |
 | US-3 | Decide | Who moves the US forward, and when — real, awaiting motion, and **not privileged**: "so is the entire world; it's just another place" (C1f softened, 2026-08-02) | — | Minutes | ready | `decided.md` (Reversals) |
 | US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign, no announcement | per US-3 | Ongoing | blocked (US-1, US-2, US-3) | `decided.md` C1j, `group/01-commercial-model.md` |
 | US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless. The motion's first application in a market with nothing else behind it | per US-3 | Ongoing | blocked (US-3) | `group/01-commercial-model.md` |

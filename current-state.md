@@ -139,6 +139,8 @@ while still occupying the territory.
 - **Pricing gated to registered partners**, mechanism already running in engine — including finely tuned
   pricing per partner and per country (Neil, 2026-08-02). The policy behind it (approval criteria, tiers,
   MOQs) remains unset.
+- **No dealer credit accounts, anywhere — the UK included** (Neil, 2026-08-02). Payment through the store;
+  a dealer wanting credit uses a credit card.
 - **Registration exists; a partner programme does not.** Trade pricing is all registration currently grants.
 - **`srnd.store`** is the trade destination. **`cinema-store.com`** is live but a test, mid clean-up.
 - **Pro-Fi is not on the store yet** — not ready to sell online.
