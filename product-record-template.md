@@ -15,8 +15,9 @@ lifted into engine when the process gets a system home.
 > Claude *"multiplies pieces from that substance; it never invents claims"* (`group/09-motion-design.md`,
 > component 2). **So the record is not a specification. It is the database the rep speaks from.**
 
-**The form is built against the rep test** (`product-data-schema.md`, part one). A rep does four jobs; the record
-is done when it can do all four without them:
+**The form is built against the rep test** (`product-data-schema.md`, part one — which also maps a rep's and a
+marketing executive's actual weekly tasks onto the fields each one consumes and feeds). A rep does four jobs; the
+record is done when it can do all four without them:
 
 | Job | Test | Groups that serve it |
 |---|---|---|

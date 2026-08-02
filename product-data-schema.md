@@ -52,6 +52,89 @@ being able to defend it, and **a claim you cannot defend is a hook that costs yo
 competitor's answer. Jobs 3 and 4 are the back half — trust, then the questions answered clearly on the way to
 install. **The front half starts things; the back half is what makes them repeat.**
 
+## The tasks — what the database has to serve
+
+*The jobs above are what a rep is **for**. **These are what they actually do all week**, and the record has to be
+the substrate for each one — otherwise it is a reference book rather than a working system.*
+
+**The sales half is already settled and is not restated here.** `group/08-sales-motion.md` divides a rep's work
+into what content takes outright, what it cannot do and what substitutes, and what stays human; component 5 of
+`group/09-motion-design.md` gives each substitute a mechanism and a name. **What this section adds is three
+things:** the *marketing* executive's task list, which nothing in the repo has ever inventoried; the **mapping of
+every task to the record fields it consumes and feeds**; and the residue — the tasks with no performer at all.
+
+**Performer vocabulary:** `content` · `store/engine` · `the tools` · `a person` · **`nobody`**.
+
+### The sales rep's week
+
+| Task | Performer here | Consumes | Feeds back |
+|---|---|---|---|
+| Get in front of a stranger | `content` — hooks | `H1` `H2` `O1` `R1` | `H3` |
+| Qualify — is the dealer and the project real | `the tools` | `D4` `D5` `N1` | `R3` `N1` |
+| Present the range | `content` — on-ramp, data cards | `D1` `O1`–`O4` `H2` | — |
+| **Discover** — what they're building, what went wrong last time | **the spec conversation** | — | **`O1` `N1` `N5` `R3` `W2`** — the richest feeder we have |
+| Help specify on a live job | `the design desk` + `content` | `D1`–`D10` `N1` `N2` `N5` | `N1` `N2` `N8` |
+| Quote | `store/engine` | `M1`–`M3` | `M2` `X6` |
+| Handle objections | `content` — comparison, proof | `R1` `X1`–`X5` `G1` | `R3` `X2` |
+| **Respond to a competitive threat** | **`nobody`** | `X1`–`X5` | `X6` |
+| Close · want the order · ask | `a person` — **unnamed** (component 5) | `M4` `O3` | `X6` |
+| Onboard the account | `store/engine` + the welcome piece | `M1` `L1` | `R3` |
+| **Make the first install succeed** | `content` — manuals, how-do-you-do-X | `L1`–`L3` `R4` `N3` | `R4` `N3` `N8` |
+| Account management, staying recalled | `content` + `a person` | `N5` `N6` | — |
+| Cross-sell at the spec moment | the adjacency prompt | `D10` `N5` `N6` `O3` | `N5` |
+| Recover a failure | thinly covered | `R4` `L4` `L5` | `N8` `X6` |
+| **Bring back market intelligence** | **`nobody`** — recorded hole (`08-sales-motion.md`) | — | `X1`–`X6` |
+| **Feed product development** | **`nobody`** | — | `X4` `N9` |
+
+### The marketing executive's week
+
+*Not inventoried anywhere before this, and SRND has no marketing department — so the point of the list is to see
+which tasks have a performer and which have simply never been assigned.*
+
+| Task | Performer here | Consumes | Feeds back |
+|---|---|---|---|
+| Positioning & messaging | done — `brands/<brand>/positioning.md` | `D1` `O1`–`O4` | `G2` |
+| **Competitor tracking** | **`nobody`** | — | `X1`–`X4` |
+| Campaign planning | the pathways + hook matrix (`09-motion-design.md`) | `H1` `O1` `R1` | `H3` |
+| Content production | **the production line** — component 2 | **the whole record** | — |
+| Editorial calendar & cadence | the churn queue (`brands/c-ats/content-plan.md`) | `R3` `N3` | — |
+| Channel management | per brand; estate hygiene in the register | — | — |
+| **Discoverability — search and AI answers** | `content`, **owner unclear** | **`O1` `N3`** | — |
+| Lead capture & nurture | `the tools` + `store/engine` | `N1` | `R3` |
+| Collateral — datasheets, case studies | the generation gates | `D`/`G`/`A` groups | — |
+| **Dealer marketing support** — material a dealer uses with their own client | **`nobody`** | **`N7`** | — |
+| Brand consistency | guardrails, enforced at drafting time | `G2` | — |
+| Measurement | defined (questions retired, bites per hook); **instrumentation partly unowned** (`backlog.md` W8) | `H3` | `H3` |
+| **Product launch** | **`nobody` — and the Screen Wall is what that costs** | `G3` `D1`–`D10` `H2` | — |
+| Trade press & PR | thin — the EI microsite runs near-empty | `H2` `G4` | — |
+
+### What the task map says
+
+**1. The record is the substrate, not a reference book.** Nearly every task above consumes fields. That is the
+difference between a product database and a filing cabinet: **the tasks are what the fields are *for*, and a field
+no task consumes should be struck.**
+
+**2. Tasks are the capture routes — so removing the rep removes the *learning*, not just the labour.** Look at the
+right-hand columns: discovery, the install, the quote, the lost deal, the failure recovery. **A rep gets smarter by
+doing the job.** Content does not, unless the task's output is deliberately caught. The repo already noticed one
+instance of this — *"market intelligence: no substitute exists"* — but it is **not one hole, it is a pattern**, and
+the routes in the next section are the answer to it.
+
+**3. The unowned tasks cluster, and they are all one thing: nobody is looking outward.** Competitive response ·
+market intelligence · competitor tracking · product feedback · why deals are lost. **Five tasks, one job.**
+
+> **And that is the third independent route to the same conclusion.** The domain map said the form had one field
+> for the whole job of defending. The generation gates said comparison content cannot be produced at all. The task
+> map now says nobody performs the tasks that would feed it. **Three different ways of looking, one gap** — which
+> is about as strong a signal as this kind of analysis produces.
+
+**4. `N7` is confirmed from a second direction.** *"Dealer marketing support"* is a standard, unremarkable
+marketing-executive task — material a partner uses with their own client. It has no performer, no artefact and an
+empty field, in a group whose stated advantage is depth spent on the dealer's behalf.
+
+**5. Product launch has no owner, and the Screen Wall is the invoice.** Demonstrable since ISE 2023, no page, no
+datasheet, no record. Not a content failure — **an unassigned task.**
+
 ## The domains — what the database must hold
 
 *Twelve subject areas. Each is here because a rep carries it and one of the four jobs fails without it. The
@@ -98,6 +181,10 @@ have fields for**, which is the real gap and it is not a data gap.*
 knowledge is not written in a documentation project; it accretes from the work. **So does this.** Twelve domains do
 not need twelve projects — they need **six routes**, and five of the six ride on work that already happens every
 week.
+
+**The routes are the tasks, read the other way round.** The task map's right-hand column is the same list from the
+worker's side; this table is it from the database's side. **A route is simply a task whose output is caught instead
+of discarded** — which is why standing them up costs so little: the work is being done either way.
 
 | Route | Fills domains | Who holds it | The capture event | Rides on |
 |---|---|---|---|---|
