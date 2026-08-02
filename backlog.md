@@ -17,6 +17,10 @@ unassigned, which is information rather than a gap to guess at. **When an item c
 don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
 engine or any tracker when the process gets a system home.
 
+**The goal of this effort is establishing the initial sales and marketing processes.** Commercial-model
+points (terms, credit, territory questions) get recorded in `decided.md` when they surface — cheaply, so
+they aren't lost — but they are **not germane to this goal and are not worked here** (Neil, 2026-08-02).
+
 **Runs alongside, outside the motion** — work that proceeds on its own merits and should never be confused
 with the motion's development: US DT recovery (conversion of a warm base, personal and terms-led — `C1j`,
 `C1k`); store and site hygiene (W5); network pruning (W3); partner acts (W7); the Screen Wall page (W10).
@@ -56,16 +60,19 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 | DOC-14 | Do | Write the DT manual set to the C-ATS standard, by mechanism, ranked by support load and sales volume | — | Large, finite | blocked (DOC-11, DOC-12) | `NEXT.md` lane 7, `group/08-sales-motion.md` |
 | DOC-15 | Do | Operationalise the completeness gate: record asset state per product (schema §7) and gate new products on it | — | Ongoing | blocked (DOC-12) | `decided.md` S16 |
 
-## W2 — US entry — *real, not privileged (C1f softened): the same motion serves every territory*
+## W2 — US entry — *parked: commercial questions are not germane to establishing the processes (2026-08-02)*
+
+*The territory is real and awaits motion (C1f softened), but nothing in it is part of standing up the sales
+and marketing process. Recorded, not worked.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | US-1 | ~~Decide~~ | ~~The US price position~~ — **struck as a gate** (2026-08-02): engine prices per partner and per country natively. What pricing to *set* folds into US-2's terms discussion | — | — | dropped | `decided.md` (Reversals) |
-| US-2 | Decide | Support hours and remaining trade terms for direct international dealers — genuinely open, and per Neil this class of critical discussion has not yet been processed in depth. **Credit is resolved (C8): no dealer credit anywhere; card if they want credit** | — | Real work | ready | Q10 of the decisions run, `decided.md` C8 |
-| US-3 | Decide | Who moves the US forward, and when — real, awaiting motion, and **not privileged**: "so is the entire world; it's just another place" (C1f softened, 2026-08-02) | — | Minutes | ready | `decided.md` (Reversals) |
-| US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign, no announcement | per US-3 | Ongoing | blocked (US-1, US-2, US-3) | `decided.md` C1j, `group/01-commercial-model.md` |
-| US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless. The motion's first application in a market with nothing else behind it | per US-3 | Ongoing | blocked (US-3) | `group/01-commercial-model.md` |
-| US-6 | Fetch | Establish how far DT remote diagnostics actually goes today — the capability is assumed, not known | — | Small | ready | `open-items.md` (distributor §1) |
+| US-2 | Decide | Support hours and remaining trade terms for direct international dealers — genuinely open, and per Neil this class of critical discussion has not yet been processed in depth. **Credit is resolved (C8): no dealer credit anywhere; card if they want credit** | — | Real work | parked | Q10 of the decisions run, `decided.md` C8 |
+| US-3 | Decide | Who moves the US forward, and when — real, awaiting motion, and **not privileged**: "so is the entire world; it's just another place" (C1f softened, 2026-08-02) | — | Minutes | parked | `decided.md` (Reversals) |
+| US-4 | Do | Approach the Apex-Tech dealer base directly (DT). Personal, list-driven, no campaign, no announcement | per US-3 | Ongoing | parked | `decided.md` C1j, `group/01-commercial-model.md` |
+| US-5 | Do | Land a small number of new US dealers on C-ATS, chosen for willingness; make the first order faultless. The motion's first application in a market with nothing else behind it | per US-3 | Ongoing | parked | `group/01-commercial-model.md` |
+| US-6 | Fetch | Establish how far DT remote diagnostics actually goes today — the capability is assumed, not known | — | Small | parked | `open-items.md` (distributor §1) |
 
 *Guardrails, not tasks: no launch or announcement until there is a US reference and a support record; InfoComm
 and the US support engineer are parked below.*
