@@ -32,13 +32,13 @@ Nothing starts until these are agreed, because an unowned critical path is how t
 
 | Who | What they commit to | Cost to them |
 |---|---|---|
-| **Neil** | Judgement and voice. Approving a ranked list, confirming what is true today, recording answers in batches. Never authoring the list. | Minutes per approval; **one recording session per batch.** |
-| **Ben** | Editorial ownership. Drafting and ranking the list, briefing, producing, publishing, keeping it current. | Real, ongoing, and the one genuine reallocation on this page. |
-| **Olivier** | The trade view — which questions dealers actually ask, and the follow-up nobody currently owns. | Light, and it is already his job. |
+| **The owner** | Judgement and voice. Approving a ranked list, confirming what is true today, recording answers in batches. Never authoring the list. | Minutes per approval; **one recording session per batch.** |
+| **The producer** | Editorial ownership. Drafting and ranking the list, briefing, producing, publishing, keeping it current. | Real, ongoing, and the one genuine reallocation on this page. |
+| **The trade view** | Which questions dealers actually ask, and the follow-up nobody currently owns. | Light, and already part of the sales job. |
 
-**Settled: nothing comes off anyone's plate.** Ben is the visualisation specialist but not rendering all day, and
-the new responsibilities get fitted in as everyone's do. So the cadence is set to what the work actually
-allows — a floor met in a busy month rather than an ambitious rate — and Ben keeps visualisation.
+**Settled: nothing comes off anyone's plate.** The responsibilities get fitted in alongside everyone's
+existing work. So the cadence is set to what the work actually allows — a floor met in a busy month rather
+than an ambitious rate. *(Roles, never names — who fills each is a separate decision: `decided.md` S27.)*
 
 ### B. The documentation pilot: C-ATS, because the data already exists
 
@@ -61,7 +61,7 @@ What is actually left for C-ATS, in order:
 
 **Then DT, and the first DT task is not writing.** It is **grouping the range by mechanism** — Dynamic 4/2TB/2S
 families, mounts, mirrors, portholes, hush boxes — so fifty-odd products collapse into a manual set of maybe a
-dozen. That is an hour of Neil's knowledge, and it converts DT from a year of work into a finite list.
+dozen. That is an hour of the owner's knowledge, and it converts DT from a year of work into a finite list.
 
 ### C. Territory removals, sequenced against readiness
 
@@ -88,7 +88,7 @@ looked** — provided the tiers are respected rather than the roster being clear
 
 ### D. What "done" looks like, and how to tell it is moving
 
-- **Two weeks:** the roles agreed, Ben's trade named, the two C-ATS one-pagers published, the immediate removals
+- **Two weeks:** the roles agreed and filled, the two C-ATS one-pagers published, the immediate removals
   issued.
 - **Six weeks:** C-ATS complete to the standard on `cinema-expert.com`, the first recording batch published, DT
   grouped by mechanism.
@@ -100,7 +100,7 @@ looked** — provided the tiers are respected rather than the roster being clear
 ## The lanes
 
 *Secondary to the critical path above. They continue where they ride on work already happening; none of them
-competes with it for Neil's or Ben's time.*
+competes with it for the owners' or the producer's time.*
 
 ### 1. Proof, in a market where the best work can't be shown
 
@@ -222,14 +222,13 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
   of gigabytes of Dropbox — that is proof material, much of it encumbered, and it waits.
 - **A floor, not a target.** Set the rate as the minimum that can be sustained through a busy month rather
   than an ambitious cadence that collapses at the first big project. A weekly floor met all year beats a
-  fortnightly aspiration abandoned in March. The number itself is Neil and Olivier's to set — but set it as a
+  fortnightly aspiration abandoned in March. The number itself is the owners' to set — but set it as a
   floor, and derive it from what the studio already produces rather than from what a marketing plan would like.
 - **Someone other than the answerer owns publication.** Not the person with the knowledge; the person who
   gets it out. If nobody is accountable for publishing, this lane silently becomes the deferred one. **The
-  obvious fit is Ben** — the visual language is already his and he is increasingly the person who understands
-  what needs to be discussed, which is the producer's judgement and the scarcer skill
-  (`group/04-content.md`). Neil's and Olivier's faces carry the authority and the relationship; the editorial
-  ownership should sit with neither of them.
+  fit is the producer role** — understanding what needs to be discussed is the producer's judgement and the
+  scarcer skill (`group/04-content.md`). The faces carry the authority and the relationship; the editorial
+  ownership should sit with neither.
 - **Start with the formats that already work, because we have eight years of numbers** (`group/04-content.md`).
   **Show what can be shown, explain what cannot:** a 52-second C-ATS explainer on reverberation has done ~9,500
   views, and DT's best pieces are mechanisms in motion at 600–1,500. Both are short, both make an argument, and

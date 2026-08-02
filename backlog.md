@@ -11,8 +11,9 @@ closed; this file is the one allowed to change constantly. Deliberately no dates
 **How to read it.** Not everything is a project, and the Type column is doing real work: **Do** = work that
 takes time; **Decide** = a choice only a named person can make, usually minutes; **Fetch** = a fact to look
 up, no judgement required. **Status:** `ready` · `in progress` · `blocked` (named blocker) · `done` ·
-`parked`. **Owners are named only where the repo names them** — `—` means unowned, which is information
-rather than a gap to guess at. **When an item completes:** mark it done here, land evidence in `decided.md`,
+`parked`. **The owner column carries roles, never names** — owner / authority / relationship / producer, defined in
+`group/09-motion-design.md` (`decided.md` S27); who fills each role is a separate decision. `—` means
+unassigned, which is information rather than a gap to guess at. **When an item completes:** mark it done here, land evidence in `decided.md`,
 don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
 engine or any tracker when the process gets a system home.
 
@@ -29,8 +30,8 @@ with the motion's development: US DT recovery (conversion of a warm base, person
 | JNY-1 | Fetch | Map the six gateway signals against what engine, the store and the tools already capture — G3/G4/G6 look observable now, G2 partly, G5 needs defining. Include source attribution on hooks (which hook caught which dealer). Check before designing anything twice (S16a discipline) | — | Small | ready | `group/09-motion-design.md` (gateways, process) |
 | JNY-2 | Do | Write the first content pathway end to end for one entry door (a C-ATS door — every slot's material exists or is nearest): hook → proposition → proof → registration → first order → first job → adjacency, each piece handing to the next. Written once, it is the template every door copies | — | Days | drafted — for correction | `brands/c-ats/pathway-reverberation.md` |
 | JNY-3 | Do | The Fabric Walls pathway — next, because the reverberation pathway's loop exits onto it at stage 2 and its strongest asset (the factory-versus-site film) already exists | — | Days | blocked (JNY-2 corrected) | `brands/c-ats/pathway-reverberation.md` |
-| JNY-4 | Do | Build the hook matrix per door — appeal category × placement, each hook naming its destination slot; wording set by Neil, never generic. First door drafted as candidates in the reverberation pathway | Neil (wording), Ben (production) | Small per door | drafted — first door | `group/09-motion-design.md` (hook layer), `decided.md` S23 |
-| JNY-5 | Do | Fold the 2023 archive in: the two stage-boundary signals (contact; proposal request) into the gateway table, the four awareness sub-goals as the test for awareness pieces, the *Purchase Events* tree into the schema's doubt fields, and RAPS 2023 dusted off as the working process for the US conversion (US-4). Naming resolved: Apex-Tech UK = SRND Distribution's forerunner, distinct from the US Apex-Tech | Neil (confirmations) | Small | ready | `group/2023-buyer-journey-archive.md` |
+| JNY-4 | Do | Build the hook matrix per door — appeal category × placement, each hook naming its destination slot; wording set by an owner, never generic. First door drafted as candidates in the reverberation pathway | owner (wording), producer | Small per door | drafted — first door | `group/09-motion-design.md` (hook layer), `decided.md` S23 |
+| JNY-5 | Do | Fold the 2023 archive in: the two stage-boundary signals (contact; proposal request) into the gateway table, the four awareness sub-goals as the test for awareness pieces, the *Purchase Events* tree into the schema's doubt fields, and RAPS 2023 dusted off as the working process for the US conversion (US-4). Naming resolved: Apex-Tech UK = SRND Distribution's forerunner, distinct from the US Apex-Tech | owner (confirmations) | Small | ready | `group/2023-buyer-journey-archive.md` |
 
 ## W1 — Documentation & product data — *prerequisite: the corpus the motion speaks from*
 
@@ -39,17 +40,17 @@ entry (`decided.md` C1k). Standard set on C-ATS, then DT by mechanism.*
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to `cinema-expert.com` Instructions — the content is already written. The first two answers into the canonical home | Ben (publication) | Hours | ready | `NEXT.md` §B.1, `brands/c-ats/install-critical-notes.md` |
-| DOC-2 | Do | Record three "how do you do X" pieces: the two failure modes above plus RES-CP corner placement. One session, unscripted, one frame | Neil | One session | ready | `NEXT.md` §B.2 |
+| DOC-1 | Do | Publish the two critical one-pagers (REF-CP bond-vs-screw, REV-CP 18 °C adhesive) to `cinema-expert.com` Instructions — the content is already written. The first two answers into the canonical home | producer (publication) | Hours | ready | `NEXT.md` §B.1, `brands/c-ats/install-critical-notes.md` |
+| DOC-2 | Do | Record three "how do you do X" pieces: the two failure modes above plus RES-CP corner placement. One session, unscripted, one frame | authority | One session | ready | `NEXT.md` §B.2 |
 | DOC-3 | Do | Rewrite the three C-ATS install guides organised by moment (unboxing, mounting, conditions, fault-finding), not by product structure | — | Days | ready | `NEXT.md` §B.3 |
 | DOC-4 | Fetch | Read the exact Reflection A and B values off the published chart before tabulating them (residual of S21) | — | Minutes | ready | `decided.md` S21 |
 | DOC-5 | Do | Review `panels.json` (marked DRAFT) — nothing from it reaches a datasheet until reviewed | — | Small | ready | `open-items.md` (C-ATS records §3) |
-| DOC-6 | Decide | Which figure set is authoritative for quotes and design: installed-effective vs raw lab. Both in circulation is worse than either | Neil | Minutes | ready | `open-items.md` (C-ATS records §4) |
+| DOC-6 | Decide | Which figure set is authoritative for quotes and design: installed-effective vs raw lab. Both in circulation is worse than either | owner | Minutes | ready | `open-items.md` (C-ATS records §4) |
 | DOC-7 | Fetch | Current EN 13501-1 classification for the REV-CP foam, into the record | — | Small | ready | `open-items.md` (C-ATS records §7) |
 | DOC-8 | Fetch | Marine absorption sheet provenance — same BSRIA report or a separate test | — | Small | ready | `open-items.md` (C-ATS records §1) |
-| DOC-9 | Decide | Whether to commission a below-125 Hz RES-CP measurement | Neil | Minutes | ready | `open-items.md` (C-ATS records §5) |
-| DOC-10 | Decide | Whether to commission ISO 17497 scattering data for the REF-CP | Neil | Minutes | ready | `open-items.md` (C-ATS records §6) |
-| DOC-11 | Do | Group the DT range by mechanism (Dynamic 4/2TB/2S families, mounts, mirrors, port holes, hush boxes) — fifty-odd SKUs collapse to ~a dozen manuals | Neil | An hour | ready | `NEXT.md` §B, `decided.md` S11a |
+| DOC-9 | Decide | Whether to commission a below-125 Hz RES-CP measurement | owner | Minutes | ready | `open-items.md` (C-ATS records §5) |
+| DOC-10 | Decide | Whether to commission ISO 17497 scattering data for the REF-CP | owner | Minutes | ready | `open-items.md` (C-ATS records §6) |
+| DOC-11 | Do | Group the DT range by mechanism (Dynamic 4/2TB/2S families, mounts, mirrors, port holes, hush boxes) — fifty-odd SKUs collapse to ~a dozen manuals | authority | An hour | ready | `NEXT.md` §B, `decided.md` S11a |
 | DOC-12 | Fetch | Check what Engine already models against `product-data-schema.md`; the gap list is the deliverable. Precedes any DT writing | — | Small | ready | `decided.md` S16a |
 | DOC-13 | Do | Fill schema groups 1–2 (definition, on-ramp) for the three C-ATS panels so site copy generates from the record | — | Small | ready | `decided.md` S19, `product-data-schema.md` |
 | DOC-14 | Do | Write the DT manual set to the C-ATS standard, by mechanism, ranked by support load and sales volume | — | Large, finite | blocked (DOC-11, DOC-12) | `NEXT.md` lane 7, `group/08-sales-motion.md` |
@@ -98,16 +99,17 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 | CON-2 | ~~Decide~~ | ~~Confirm Ben's editorial ownership~~ — **struck as ceremony** (same reversal); the line needs an operator, not a ceremony | — | — | dropped | `decided.md` (Reversals) |
 | CON-15 | Do | Stand up the production line (S24): substance inventory → Claude drafts the derivative set per atom → owner truth-check in minutes → batched, source-tagged distribution to the placements | — | Small to start | in progress | `group/09-motion-design.md` (component 2) |
 | CON-16 | Do | Run production batches atom by atom, filling pathway slots — batch 001 (the REV-CP warm-room note) drafted and awaiting truth-check | Claude (drafting), owner (truth-check) | Minutes per batch to check | in progress | `brands/c-ats/content-batch-001.md` |
-| CON-17 | Do | The filled content plan per brand — the piece that has always been missing (Neil): every item enumerated against the journey with source atom, state and churn order, plus the published-piece log for record-and-apply. C-ATS drafted (~48 items, five tranches, majority already written or staged); other brands copy the shape after their pathways | Claude (drafting), Neil (correction) | Small per brand | drafted — C-ATS | `brands/c-ats/content-plan.md` |
-| CON-3 | Do | Mine sent mail (the two or three people who answer technical questions, last two or three years) and count which questions recur. The ranked list is the publishing schedule | Ben | Days | ready | `NEXT.md` lane 6, `group/08-sales-motion.md` |
-| CON-4 | Do | First batch recording session against the corrected ranked list. Component 3: the first presenter-led content in the estate's history | Neil (face), Ben (production) | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
+| CON-18 | Do | The post-hinge direct touch set as standard pieces — the welcome, the install pack and check-in, the adjacency-aware partner email, the human ask on gone-quiet. Designed once (`group/09-motion-design.md`, "the hinge splits the job in two"), filled per brand; C-ATS items 49–51 added. Progress recorded per account (journey state, last touch, next tempted action) — check what engine holds first | — | Small per brand | drafted — C-ATS | `group/09-motion-design.md`, `brands/c-ats/content-plan.md` |
+| CON-17 | Do | The filled content plan per brand — the piece that has always been missing (Neil): every item enumerated against the journey with source atom, state and churn order, plus the published-piece log for record-and-apply. C-ATS drafted (~48 items, five tranches, majority already written or staged); other brands copy the shape after their pathways | Claude (drafting), owner (correction) | Small per brand | drafted — C-ATS | `brands/c-ats/content-plan.md` |
+| CON-3 | Do | Mine sent mail (the two or three people who answer technical questions, last two or three years) and count which questions recur. The ranked list is the publishing schedule | producer | Days | ready | `NEXT.md` lane 6, `group/08-sales-motion.md` |
+| CON-4 | Do | First batch recording session against the corrected ranked list. Component 3: the first presenter-led content in the estate's history | authority (face), producer | One afternoon | blocked (CON-1…3) | `decided.md` S4–S6 |
 | CON-5 | Do | Estate hygiene: remove MAG Theatron and Barco playlists; fix the `@Complete_ATS` description (hard-coded "Complete…" expansion); fix DT's projector-screen-company description | — | Hours | ready | `NEXT.md` lane 6, `group/04-content.md` |
 | CON-6 | Do | Establish what is on the locked old SRND Group YouTube account and pursue recovery (Workspace admin reset / remaining manager / YouTube's route) | — | Small, admin | ready | `open-items.md`, `group/04-content.md` |
 | CON-7 | Decide | Channel architecture: every brand gets a channel and the group's goes group-only, or consolidate. DT's eight-year history and the C-ATS educational set must not be orphaned either way | — | A decision | ready | `group/04-content.md`, `group/09-motion-design.md` |
 | CON-8 | Do | Retrofit the handoff across the estate: every piece carries its next step (explainer → fuller answer → product/registration → store). Component 1's missing rule, cheap and mechanical | — | Ongoing | ready | `group/08-sales-motion.md` |
 | CON-9 | Do | Feed the EI microsite (`essentialinstall.com/srnd/`): company pages + virtual case studies linking back to brand sites; push through EI news/newsletter/podcast. Paid for, near-empty | — | Ongoing, light | ready | `group/05-channels.md` |
 | CON-10 | Decide | Spend the ~£10k AVForums credit: video first, briefed rather than scripted, pointed at Cinema Store and never the trade brands | — | A decision | ready | `open-items.md`, `group/05-channels.md` |
-| CON-11 | Do | Virtual case studies: write the room stories around the renders — the render is the hook, the story is the content | Ben (renders), Neil/Olivier (narration) | Ongoing | ready | `group/04-content.md` |
+| CON-11 | Do | Virtual case studies: write the room stories around the renders — the render is the hook, the story is the content | producer (renders), authority/relationship (narration) | Ongoing | ready | `group/04-content.md` |
 | CON-12 | Do | Virtualise the Experience Centre: film the demos, capture "hear the difference" — the demonstration load-bearer while field work is unpublishable | — | Ongoing | ready | `NEXT.md` lane 1, `group/04-content.md` |
 | CON-13 | Do | On the next pass through EI material, correct the three printed contradictions: Pro-Fi as "spatial audio," the superlative lead, the spelled-out "Complete" expansion | — | With CON-9 | ready | `open-items.md` ("What is already public") |
 | CON-14 | Decide | The canonical-home map: `cinema-expert.com` as the group-wide home for the install/support corpus, or per-brand knowledge bases as canonical with it aggregating. One answer never lives in two places | — | A decision | ready | `group/09-motion-design.md` (component 1) |
@@ -153,7 +155,7 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 | FACT-2 | Fetch | Masking screens shipped per year, last three or four years — the DT trend, sized in units. Answers half of stress-test item 6 cheaply | — | Small | ready | `current-state.md`, `open-items.md` item 6 |
 | FACT-3 | Fetch | Lead sources, ranked — decides where content and channel effort goes | — | Small | ready | `current-state.md` |
 | FACT-4 | Fetch | Registrations per period — the baseline for the on-ramp metric | — | Small | ready | `current-state.md` |
-| FACT-5 | Decide | Fill the targets table in `current-state.md` — a target is a decision, an actual is a fact | Neil | Minutes | ready | `current-state.md` |
+| FACT-5 | Decide | Fill the targets table in `current-state.md` — a target is a decision, an actual is a fact | owner | Minutes | ready | `current-state.md` |
 | FACT-6 | Fetch | Audit for other paid-but-unused assets beyond the AVForums credit and the EI microsite — a known pattern, checked deliberately | — | Small | ready | `open-items.md` |
 | FACT-7 | Fetch | CEDIA membership standing, and any awards held | — | Small | ready | `current-state.md`, `group/05-channels.md` |
 | FACT-8 | Fetch | Establish what proof material is publishable at all — a permissions question, cheap to answer, and the gate on the whole proof stack | — | Small | ready | `NEXT.md` lane 1 |
@@ -193,7 +195,7 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 | BR-5 | C-ATS | Parked | Lever-2 channel validation (pro install / commercial cinema / fit-out) — after proof exists to carry in | parked | `brands/c-ats/growth-levers.md` |
 | BR-6 | DT | Decide | The lead story — what DT *says* versus the current "world leading" product-list framing; how hard to lean on the Commanders and DT Create | ready | `brands/display-technologies/brand-data.md` |
 | BR-7 | Pro-Fi | Watch | Store listing gated on range and platform readiness; the two international appointments have not started | — | `brands/pro-fi/`, `current-state.md` |
-| BR-8 | Light Walls | Parked | Deferred, worked separately by Neil | parked | `decided.md` B7 |
+| BR-8 | Light Walls | Parked | Deferred, worked separately | parked | `decided.md` B7 |
 
 ## Parked — deliberately not now
 

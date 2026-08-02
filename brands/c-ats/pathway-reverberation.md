@@ -32,7 +32,7 @@ panels, easy to specify, quick to prove — which is exactly what the journey as
 
 *Per the hook layer (`../../group/09-motion-design.md`; `../../decided.md` S23): many hooks per door,
 categorised by appeal, placed where strangers look, each naming its destination. **These are candidate
-angles, not copy** — every one is backed by real substance already in the record, and the wording is Neil's
+angles, not copy** — every one is backed by real substance already in the record, and the wording is an owner's
 to set. All hand to slot 2.*
 
 | Appeal | Candidate hook angle (the substance behind it) | Placement candidates |

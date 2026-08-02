@@ -183,17 +183,17 @@ Administrative rather than strategic, and in the way.
   solutions" — the projection-company framing the brand strategy deliberately rejects
   (`../brands/display-technologies/positioning.md`). Same class of fix as the store clean-up.
 
-### Casting: three people, three distinct jobs
+### Casting: three roles, three distinct jobs
 
-The team on the sales side is Neil, Olivier and Ben. They are not interchangeable presenters, and the value
-comes from not treating them as such.
+The sales side is specified as three roles — roles, never names: who fills each is a separate decision, and
+one person may hold more than one (`../decided.md` S27). They are not interchangeable, and the value comes
+from not treating them as such.
 
-- **Neil — the authority.** The designer, and the face of the technical answer and the impossible project. His
-  presence carries *we know what we are doing*, and it is also the only route to the specifier: a CPD seminar
-  is a person, not a document (`05-channels.md`).
-- **Olivier — the relationship.** Sales leadership, trade-facing, based in Europe. His presence carries *we
-  are on your side*, so he belongs on anything that ends in a conversation — the welcome, the walkthrough, the
-  invitation, the follow-up.
+- **The authority.** The face of the technical answer and the impossible project. This presence carries *we
+  know what we are doing*, and it is also the only route to the specifier: a CPD seminar is a person, not a
+  document (`05-channels.md`).
+- **The relationship.** Trade-facing, and the presence that carries *we are on your side* — it belongs on
+  anything that ends in a conversation: the welcome, the walkthrough, the invitation, the follow-up.
 **And the constraint is planning, not performing.** Being on camera is not the hard part; arriving at the list is.
 That does **not** mean planning leaves the person who knows the products — it means the *labour* of planning does,
 while the judgement stays (`08-sales-motion.md`). The rule is that the presenter never faces a blank page:
@@ -202,12 +202,12 @@ the recording.** Several answers in one sitting means one afternoon produces wee
 setting stay identical — which is what builds recognition — and the cadence stops depending on finding a free hour
 in a bad week.
 
-- **Ben — the editorial owner, and mostly not on camera.** He is the rendering expert, so the visual language
-  is already his, and he is increasingly the person who understands *what needs to be discussed*. That is the
-  producer's judgement, and it is scarcer than presenting ability. His output is a **ranked proposal** — the
-  drafting, counting, briefing, scheduling and publishing — which the owners then correct and reorder. That is
-  the answer to the open accountability question (`../NEXT.md` lane 6): the plan is still theirs, the work of
-  arriving at it is not. Putting him in front of the camera would spend a scarce skill on an abundant one.
+- **The producer — the editorial owner, and mostly not on camera.** The scarce skill here is understanding
+  *what needs to be discussed* — the producer's judgement, worth more than presenting ability. The output is a
+  **ranked proposal** — the drafting, counting, briefing, scheduling and publishing — which the owners then
+  correct and reorder. That is the answer to the open accountability question (`../NEXT.md` lane 6): the plan
+  is still theirs, the work of arriving at it is not. Putting the producer in front of the camera would spend
+  a scarce skill on an abundant one.
 
 ### The recurring slate
 
@@ -215,12 +215,12 @@ A small set of repeatable formats, each with an owner, rather than a commissioni
 
 | Format | Face | Job |
 |---|---|---|
-| The answer — one recurring dealer question | Neil | Retires a question permanently; the lane-6 engine |
-| Render-led room story | Ben's renders, Neil or Olivier narrating | Virtual case studies where photography is impossible |
-| The demo — "hear the difference" | Neil | Virtualises the Experience Centre |
+| The answer — one recurring dealer question | The authority | Retires a question permanently; the lane-6 engine |
+| Render-led room story | The producer's renders; authority or relationship narrating | Virtual case studies where photography is impossible |
+| The demo — "hear the difference" | The authority | Virtualises the Experience Centre |
 | Install and how-to | Either | Removes support load; makes the dealer better |
-| The conversation — a dealer or peer as guest | Olivier | Builds relationship, and the guest supplies half the content |
-| Training modules | Neil | Highest leverage of all; currently deferred |
+| The conversation — a dealer or peer as guest | The relationship | Builds relationship, and the guest supplies half the content |
+| Training modules | The authority | Highest leverage of all; currently deferred |
 
 ### The disciplines that keep it working
 

@@ -12,8 +12,8 @@ process. This document does three things beneath the journey: it maps **what ser
 and where that stands today**; it defines **the gateways, their signals, and the pathways** that chain
 content through them; and it designs the five pieces of machinery the pathways draw on — each designed once,
 here, at group level, with every brand inheriting the design and supplying the substance. No brand forks the loop, sets its own rate, or runs its
-own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only Neil or
-Olivier can make are marked as decisions, not filled in. Almost everything below is assembled from positions
+own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only the owners
+can make are marked as decisions, not filled in. Almost everything below is assembled from positions
 already settled in `02-buyer-journey.md`, `04-content.md`, `08-sales-motion.md` and `../decided.md`; the
 assembly is what was missing.*
 
@@ -78,7 +78,7 @@ honestly supports (`../decided.md` S23).*
 - **Hooks are categorised by appeal**, because the same product bites differently for different dealers:
   **more revenue** (the job won by knowing why to spec it), **time saved**, **easier to do** (install,
   retrofit, fit), **better results** (the client experiences the difference), and **the problem named** (the
-  searchable version, in the dealer's words). The category set is Neil's to extend — and it is the journey's
+  searchable version, in the dealer's words). The category set is the owners' to extend — and it is the journey's
   own finding formalised: what engages a dealer is what the product does *for them*
   (`02-buyer-journey.md`).
 - **Placement is indirect by definition.** Before the hinge we don't know the dealer, so hooks live where
@@ -129,6 +129,86 @@ the end of each piece *is* the pathway.
 - **The smallest complete version is one pathway, end to end, for one door** — and per the sequencing rule
   that is a C-ATS door, where every slot's material either exists or is nearest to existing. Written once, it
   is the template every other door copies.
+
+## The actions at each stage — content type, placement, target
+
+*The pathway, generalised: what kind of piece serves each stage, where it is placed, and what it points at.
+Every piece on this grid has one job — to move its reader through one gateway — and the target column is
+that gateway's threshold action. **The types are the group standard; the substance is each brand's.**
+Nobody invents new types per brand, and no piece is made without its row.*
+
+| Stage | The reader's question | Content types | Placed | Points at |
+|---|---|---|---|---|
+| **1 — Unaware** | "That's my problem" | Text-forward hooks; short explainers (under a minute); mechanism-in-motion clips; problem-named articles written for search and AI answers | Off-site, where strangers look: search/AI, LinkedIn, Instagram, YouTube, trade press, the EI microsite | The fuller answer on the brand site (**G1**) |
+| **2 — Interested** | "What is this — could it work for me?" | The on-ramp page (problem solved, opportunity opened, time saved); range and data cards; render-led room stories | The brand site | The depth layer: knowledge base, tools, samples (**G2**) |
+| **3 — Evaluating** | "Can I trust this enough to put it in my project?" | Knowledge-base answers; measured data and third-party reports; recorded demos — the Experience Centre, filmed; worked examples; the sample kit; the offer of a Zoom | Brand site + knowledge base + YouTube | Registration (**G3**) |
+| **4 — Registered** | "How do I buy, and what do I risk?" | The entry-product page; listings with clear scope of supply; the quote and checkout; a Zoom for the considered sale | The store | The first order (**G4**) |
+| **5 — First job** | "How do I fit this right?" | Install manuals organised by moment; "how do you do X" videos; site-conditions notes; fault-finding guides; the verification offer | The canonical home; in the box; the order confirmation; the product's install tab | A first job that succeeds (**G5**) |
+| **6 — Next order** | "What else — and how easily?" | The adjacency prompt in the spec conversation; the recurring formats, always on; reorder prompts; the whole-room story — earned by now; the partner email | Email + store + the spec conversation itself | A second brand's stage 2 (**G6** — the loop) |
+| *Specifier (parallel, parked)* | "Can I name this pre-tender?" | CPD seminars; NBS clauses; BIM/Revit objects; specifier-grade downloads | The specifier's own machinery | Named in the specification before tender |
+
+Three rules travel with the grid: **one job per piece** (its gateway, nothing else); **every piece carries
+its target explicitly** — the handoff is written into the piece, not hoped for; and pieces are counted
+against the grid, so a stage with an empty row is a visible break, not a surprise. And the sharper way to
+say the second rule: **every piece is a temptation** — it exists to make one action the reader's obvious
+next move.
+
+## The hinge splits the job in two — tempting strangers, addressing partners
+
+*At every point we are tempting one action. Registration divides how we are allowed to tempt (Neil,
+2026-08-01) — and the division is already in the journey as the two campaign programmes
+(`02-buyer-journey.md`): brand acquisition before the hinge, partner development after it.*
+
+**Before the hinge — anonymous.** We can address nobody, so we tempt through placement: public, brand-led,
+problem-led, no cross-sell. The tempted actions are the grid's stages 1–3: *look* (G1), *go deeper* (G2),
+*register* (G3). Registration has to be worth the permission it asks for — that is what the whole stage-3
+row is tempting toward.
+
+**After the hinge — known, and permissioned.** From registration we can target a named person directly.
+"With what, and with what aim" has a designed answer per state:
+
+| Their state | We send | Tempting — the aim |
+|---|---|---|
+| **Registered, no order yet** | The welcome: what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom | The first order (**G4**) |
+| **Ordered, job ahead** | The install pack — in the box and by email; a check-in after delivery | A first job that succeeds, and telling us how it went (**G5**) |
+| **First job done** | The adjacency-aware partner email — timed to what they actually bought, never a blast; reorder ease; the appreciation acts | The next layer of the same room, the next project — a second brand's stage 2 (**G6**) |
+| **Gone quiet** | A person asks. The one touch that is never automated | The order — the human residue (`08-sales-motion.md`) |
+
+Four disciplines bind the direct half: **permissioned only**; **state-triggered, never
+schedule-triggered** (`02-buyer-journey.md`); **cross-brand cadence coordinated**, so a shared contact is
+not oversaturated by six brands; and the whole-room story becomes appropriate only here — earned, never the
+cold open.
+
+## Many bites per stage — the coin-pusher
+
+**A single touch rarely converts, at any stage** (`../decided.md` S26). One email doesn't generate; neither
+does one article. Each stage is therefore worked as a **repertoire at a rhythm**: small touches, regular,
+value every time — the coin-pusher, little investments going in until the pile falls. Four consequences:
+
+- **The stage-4–6 pieces are sequences and streams, not single sends.** The welcome is a sequence; the
+  adjacency email is a stream of genuinely useful touches timed to their state.
+- **A touch with no value in it is not a coin.** Every touch gives something — an answer, a saving, a
+  useful thing — and the ask rides along as the handoff, never as the payload. Generosity is what does the
+  tempting.
+- **Judge the pile, not the coin.** Per-touch conversion is the wrong measure. The account ledger counts
+  touches, so how many coins a gateway typically takes stops being a guess and becomes a number we learn.
+- **Regularity is the mechanism.** The familiarity rule (`04-content.md` — frequency and rhythm beat
+  weight) generalised beyond the face: it applies at every stage, on both sides of the hinge.
+
+## How progress is recorded — three ledgers
+
+1. **Before the hinge: aggregate only.** No dealer record exists yet, so progress is funnel counts per
+   gateway — tagged arrivals, depth events, registrations per period — read monthly.
+2. **After the hinge: the account carries its stage.** Every registered account has a journey state, a last
+   touch, a next tempted action — and the touch count, how many coins have gone in, so the tipping point
+   per gateway becomes learnable (S26). The state is set **by events where a signal exists** (an order updates
+   itself) and **by a person where it doesn't** (G5, gone-quiet). The 2023 programme ran exactly this — the
+   compulsory RAPS column in Infinity (`2023-buyer-journey-archive.md`) — and this is the field engine
+   inherits. Per the standing discipline, what engine already holds gets checked first (JNY-1).
+3. **The published-piece log** records the content side: what is live, where, tagged how (the per-brand
+   plan's log).
+
+In one line: **content progress per piece, dealer progress per account, funnel health per gateway.**
 
 ## The process — the rep's mechanics, systematised
 
@@ -247,17 +327,21 @@ fast; continuity, callbacks, a running conversation; be seen to change your mind
 
 **The casting — three people, three jobs, not interchangeable:**
 
-- **Neil — the authority.** The technical answer, the impossible project, and later the only route to the
+*Roles, never names (`../decided.md` S27): who fills each is a separate decision, and one person may hold
+more than one role.*
+
+- **The authority.** The technical answer, the impossible project, and later the only route to the
   specifier (a CPD seminar is a person).
-- **Olivier — the relationship.** The welcome, the walkthrough, the invitation, the follow-up, the
-  conversation formats — anything that ends in a conversation.
-- **Ben — off camera.** The producer's judgement is the scarcer skill; putting him on screen would spend a
-  scarce skill on an abundant one.
+- **The relationship.** The welcome, the walkthrough, the invitation, the follow-up, the conversation
+  formats — anything that ends in a conversation.
+- **The producer — off camera.** Knowing what needs to be discussed is the scarcer skill; putting the
+  producer on screen would spend a scarce skill on an abundant one.
 
 **The slate — the group's format set** (each brand fills it with its own substance, no brand invents its
-own): the answer (Neil) · the render-led room story (Ben's renders, Neil or Olivier narrating) · the demo /
-"hear the difference" (Neil) · install and how-to (either) · the conversation, with a dealer or peer as guest
-(Olivier) · training modules (Neil — deferred with the training programme).
+own): the answer (the authority) · the render-led room story (the producer's renders, authority or
+relationship narrating) · the demo / "hear the difference" (the authority) · install and how-to (either) ·
+the conversation, with a dealer or peer as guest (the relationship) · training modules (the authority —
+deferred with the training programme).
 
 **The disciplines:** a dormant channel is worse than none, so the floor applies hardest here; never
 on-camera cleverness — answering a question is inherently generous, a monologue about our engineering is not;
