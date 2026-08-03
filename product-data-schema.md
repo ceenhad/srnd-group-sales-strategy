@@ -82,26 +82,26 @@ and the order arriving**, which is automatable and sits directly on the revenue 
 
 ## The domains — what the database must hold
 
-*Twelve subject areas. Each is here because a rep carries it and one of the four jobs fails without it. The
-right-hand column is the honest state of the form today — **the model's job is to show what the form does not yet
-have fields for**, which is the real gap and it is not a data gap.*
+*Twelve subject areas, each named by the question a dealer asks. A rep carries all twelve; one of the four jobs
+fails without each. The right-hand column is the state of the form today, which is what shows where the form has
+no fields at all.*
 
-| # | Domain | What it holds | Serves | Feeds which appeals | In the form today |
+| # | The dealer's question | Domain | What it holds | Serves | In the form today |
 |---|---|---|---|---|---|
-| 1 | **Physical** | What it is, materially: construction, materials, finishes, sizes, weights, what is supplied | 4 | *problem named* | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
-| 2 | **Functional & performance** | What it does, the mechanism, measured behaviour, test basis, the envelope and its limits | 2, 3 | *better results* | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
-| 3 | **Application** | Where it is used and where it is not; **selection and sizing**; layout; quantity; worked examples; misapplication | 1, 4 | *easier to do · better results* | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
-| 4 | **Integration & compatibility** | What it works with, ours and other people's; interfaces; prerequisites; what the builder must leave; adjacency | 4, 1 | *easier to do · more revenue* | `D7` `D10` `N5` |
-| 5 | **Competitive** | Named alternatives, dimension by dimension; where we win; **where they win**; the switch argument; what to watch for in their spec | **2** | all five | **`N4` only — one field for the whole job of defending** |
-| 6 | **Commercial** | The dealer's business case: order unit, lead time, availability, margin position, what it costs them in labour, what not specifying it costs | 1, 4 | *more revenue · time saved* | **nothing** |
-| 7 | **Evidence & proof** | Measured reports, references, demonstrations, renders — and what may be shown | **3** | *better results* | `G4` |
-| 8 | **Risk & objection** | The doubt, the objection behind it, the failure modes, the cost of getting it wrong | 3, 4 | *the problem named* | `R1` `R2` `R4` |
-| 9 | **The answers** | The questions actually received, ranked, answered in the owner's words, with where each is published | **all four** | all five | `R3` `N3` |
-| 10 | **Lifecycle & support** | Lead time to site, install sequence, commissioning and verification, spares, serviceability, replacement | **4** | *easier to do* | **assets only (`A1`–`A11`) — the documents, not the facts** |
-| 11 | **Narrative & hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | — *it is the appeals* | **nothing** — hooks are designed in `group/09-motion-design.md` with no product-level source |
-| 12 | **Governance & provenance** | What may and may not be said, marketing status, source, owner, review date | all four | — | `G2` `G3` `K1`–`K3` |
+| 1 | *"What is it?"* | **Physical** | Construction, materials, finishes, sizes, weights, what arrives in the box | 4 | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
+| 2 | *"What does it do, and how well?"* | **Performance** | The function, the mechanism, the measured numbers, the test they came from, the limits | 2, 3 | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
+| 3 | *"Where does it go, and how many do I need?"* | **Application** | Which rooms and positions, the sizing rule, the quantity, a worked example, where it does not belong | 1, 4 | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
+| 4 | *"What does it need from everything else?"* | **Integration** | Power, structure, clearance, what the builder must leave, what it pairs with | 4, 1 | `D7` `D10` `N5` |
+| 5 | *"Why this one and not theirs?"* | **Competitive** | The named alternatives, what decides between them, where we win, **where they win**, what to say to a dealer who already buys the other | **2** | **`N4` only — one field for the whole job of defending** |
+| 6 | *"What does it cost me to sell and fit?"* | **Commercial** | Order unit, lead time, availability, margin position, the labour it takes on site, what skipping it costs. **Never the price** | 1, 4 | **nothing** |
+| 7 | *"How do I know it works?"* | **Evidence** | Test reports, reference rooms, demonstrations, renders — and which we may show | **3** | `G4` |
+| 8 | *"What could go wrong?"* | **Risk** | The doubt behind the question, the failure modes on site, what a mistake costs | 3, 4 | `R1` `R2` `R4` |
+| 9 | *The questions we actually get asked* | **Answers** | Each one written down, answered in the answerer's own words, with where it is published | **all four** | `R3` `N3` |
+| 10 | *"What happens after I order it?"* | **Lifecycle** | Delivery, install sequence, commissioning, spares, what can be replaced, how long we support it | **4** | **assets only (`A1`–`A11`) — the documents, not the facts** |
+| 11 | *"What is interesting enough to lead with?"* | **Hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | **nothing** — hooks are designed in `group/09-motion-design.md` with no product-level source |
+| 12 | *"What are we allowed to say?"* | **Governance** | Claims supported and by what, claims we refuse to make, whether it is released yet, when the record was last checked | all four | `G2` `G3` `K1`–`K3` |
 
-**What that table says, and it is the answer to "what must be in the database":**
+**What that table says:**
 
 - **The form covers the back half well and the front half barely.** Jobs 3 and 4 — trust and delivery — have
   fields. **Job 2, defend, has one field. Job 1, attract, has no source at all** beyond the on-ramp group. Which is
