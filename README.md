@@ -42,7 +42,7 @@ down to execution.
 
 Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
 
-1. **`group/`** — the group strategy and standards, in eleven documents. Brand-agnostic, and the source of
+1. **`group/`** — the group strategy and standards, in twelve documents. Brand-agnostic, and the source of
    truth; brands apply it, they do not fork it.
    - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
      disciplines. Read this one if you read nothing else.
@@ -64,6 +64,9 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
      today, where it sits in the journey, and the record fields it consumes and feeds. The exhaustive version of
      `08-sales-motion.md`'s selective account. **Every row is an unverified claim until someone who does the work
      confirms it.**
+   - `11-work-items.md` — **the layer beneath the tasks.** Each of the 46 tasks opened up into the steps it is
+     actually made of — 168 work items, each one wholly machine or wholly human. Thirteen recurring primitives,
+     and a build order that follows from counting them: **build primitives, not tasks.**
    - `store-split-worklist.md` — a working execution list, not strategy.
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
