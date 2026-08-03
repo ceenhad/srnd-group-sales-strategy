@@ -398,8 +398,9 @@ The real risk is not overestimating content's reach; it is assuming it covers th
   assumed away. **Evidence, 2026-08-02: the hole is wider than this one line.** Inventorying a rep's and a
   marketing executive's actual week against the product record (`../product-data-schema.md`, the task map) finds
   **five unowned tasks, all outward-facing** — competitive response, market intelligence, competitor tracking,
-  product feedback, and capturing why deals are lost. They are one job rather than five gaps, and the same gap the
-  record's competitive group and the generation gates independently point at. Recorded at its true size; the
+  product feedback. They are one job rather than four gaps, and the same gap the record's competitive group and the
+  generation gates independently point at. **Corrected same day: win/loss itself is not a gap — engine's CRM does
+  classic pipeline management and already holds it** (Neil). What is unowned is *using* it. Recorded at its true size; the
   decision is `backlog.md` SYS-6.
 
 **The novel problem stays with an owner.** *"I have an impossible project, can you do it?"* is the business's

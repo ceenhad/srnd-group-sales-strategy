@@ -322,7 +322,8 @@ currently generate paperwork and cannot generate a salesperson**, which is preci
 to replace.
 
 **And the last row is not content.** `X4`, `X6` and `N9` — where competitors beat us, why deals are lost, what we
-are asked and cannot answer — feed the product and the testing budget, not the corpus. **A database built to sell
+are asked and cannot answer — feed the product and the testing budget, not the corpus. **`X6` is largely a read
+from engine's pipeline rather than something to capture afresh.** **A database built to sell
 the thing also tells you what to fix about it**, and that is a reason to keep it honest rather than flattering.
 
 **Two hard gates, and they are not stylistic.**
@@ -477,7 +478,7 @@ is six triggers, five of which already fire every week (`product-data-schema.md`
 | **R2** | A test result or report arrives | `D9` · `G1` · `G4` | Rarely |
 | **R3** | We help specify a job | `N1` `N2` `N5` · `D4` `D5` | **Daily** |
 | **R4** | We answer a question, pre-sale or on site | `R3` `R4` `N3` · `L3` `L4` | **Daily** |
-| **R5** | We quote — **and above all, when we lose** | `X1`–`X6` · `M1`–`M5` · `O1` | Per quote |
+| **R5** | We quote, and when we win or lose | `X1`–`X6` · `M1`–`M5` · `O1` | Per quote — **already runs in engine's CRM** |
 | **R6** | A position is settled or reviewed | `H1`–`H3` · `G2` `G3` · `K1`–`K3` | The one new habit |
 
 **Three consequences worth stating plainly.**
@@ -485,9 +486,9 @@ is six triggers, five of which already fire every week (`product-data-schema.md`
 1. **A running route fills its fields forever; a field filled by a push starts decaying the day it is written.**
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
    reason those fail is that they ask one person to hold everything.
-2. **The lost deal is the highest-value trigger in the business and nothing catches it.** It is the only outside
-   view of which competitor, on which dimension, at which stage — the entire content of group 05. **One line at
-   the moment of losing** beats any amount of desk research on rivals.
+2. **R5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. The live
+   question is whether the recorded loss reason carries **which competitor, on which dimension** — the structure
+   group 05 needs — or only the fact of the loss. Check engine before designing anything (`decided.md` S16a).
 3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the
    application fields; every support answer fills the knowledge fields. Both happen anyway, both get written into
    an email and lost. The archive is the proof (`backlog.md` CON-3) — **the knowledge exists, it has just never

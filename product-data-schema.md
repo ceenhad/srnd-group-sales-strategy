@@ -139,7 +139,7 @@ run.*
 | **R2** | **A test result or report arrives** | The measured performance, the test basis, and what may be shown as proof — domains 2, 7 | Whoever commissioned it | Rarely |
 | **R3** | **We help specify a job** | How you choose it and how many, the layout, what it pairs with — domains 3, 4 | Whoever specs jobs, **and we help spec routinely** | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
 | **R4** | **We answer a question** — pre-sale or on site | The question itself, the answer in the answerer's words, and what went wrong — domains 8, 9, 10 | Whoever answered it | **Daily**, and already answered once by email |
-| **R5** | **We quote — and above all, when we lose** | The commercial case, and which competitor beat us on which dimension — domains 5, 6 | Whoever quoted | Per quote. **Captured nowhere today** |
+| **R5** | **We quote, and when we win or lose** | The commercial case, and which competitor beat us on which dimension — domains 5, 6 | Whoever quoted | Per quote. **Already runs — engine's CRM is classic pipeline management** |
 | **R6** | **A position is settled or reviewed** | What may and may not be claimed, and what a product can honestly be hooked on — domains 11, 12 | The owners | **The one genuinely new habit** |
 
 **Three consequences worth stating plainly.**
@@ -147,9 +147,11 @@ run.*
 1. **A running route fills its domains forever; a field filled by a push starts decaying the day it is written.**
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
    reason those fail is that they ask one person to hold all twelve domains.
-2. **The lost deal (R5) is the highest-value trigger in the business and nothing catches it.** It is the only
-   outside view of which competitor, on which dimension, at which stage — the entire content of domain 5. **One
-   line at the moment of losing** beats any amount of desk research on rivals.
+2. **R5 already runs, and this file previously said it did not.** **SRND Engine's CRM does classic pipeline
+   management** (Neil, 2026-08-02), so quotes, stages and win/loss are captured today. The corrected question is
+   narrower and is a question *for* engine, not an assumption about it: **does the recorded loss reason carry which
+   competitor and which dimension** — the structure domain 5 needs — or only that the deal was lost? If it does,
+   `X6` is a read from engine rather than a new habit. **Checking that is `backlog.md` SYS-2**, and it is a Fetch.
 3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the
    application domain; every support answer fills the answers domain. Both happen anyway, both get written into an
    email and lost. The archive is the proof (`backlog.md` CON-3) — **the knowledge exists, it has just never had
@@ -354,8 +356,8 @@ source, or hooks get invented per campaign**, which is precisely what the produc
 6. **Stand up the routes before filling any more fields.** Six capture events, five of them attached to work that
    already happens. **A route that is running fills its domains forever; a field filled by a push decays from the
    day it is written.** The cheapest two are the ones that fire daily — the support answer and the spec
-   conversation — and the highest-value one is the one that fires rarely and is currently caught nowhere: **the
-   lost deal.**
+   conversation. **R5 is not a gap** — engine's pipeline already holds win/loss; what is worth checking is whether
+   the loss reason is structured enough for domain 5 to read.
 7. **Fill the front half first, against the model, one brand at a time.** Domains 5, 6 and 11 — defend, the
    business case, and what a product can honestly be hooked on — because that is where the journey is entered and
    where the record has almost no fields today. The back half is better covered and less urgent than it looks.

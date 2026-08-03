@@ -58,7 +58,7 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S08` | Produce a quote | **`automated`** | `store/engine` | Stage 4 · G4 | `M1`–`M3` | claim |
 | `T-S09` | **Follow up through the project's lead time** — projects run long, so quote to order is often months of staying present without nagging | **`automatable`** | **`nobody` systematically** | Stage 4 · **the gap between G4's quote and its order** | `M2` `N6` `O3` | **added by Neil, 2026-08-02** |
 | `T-S10` | Handle objections | `automatable` **once group 05 is filled** | `content` | Stage 3 · G3 | `R1` `X1`–`X5` `G1` | claim |
-| `T-S11` | **Defend against a named competitor** | `assisted` — **impossible today** | **`nobody`** | Stage 3 · G3 | `X1`–`X5` → `X6` | claim |
+| `T-S11` | **Defend against a named competitor** | `assisted` — no comparison material exists to defend with | **`nobody`** | Stage 3 · G3 | `X1`–`X5`; **`X6` reads from engine's pipeline** | claim |
 | `T-S12` | Negotiate terms | `manual` | `person` | Stage 4 | `M4` | claim — *largely settled: pricing gated, no dealer credit (`../decided.md` C8)* |
 | `T-S13` | **Close — want the order and ask for it** | **`manual`** | `person` — **unnamed** (component 5) | Stage 4 · G4 | `M4` `O3` | claim |
 | `T-S14` | Onboard the account | **`automated`** + assisted welcome | `store/engine` | G3→G4 | `M1` `L1` | claim |
@@ -70,7 +70,7 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S20` | Recover a failure | **`manual`** | `person`, thinly covered | Stage 5 | `R4` `L4` `L5` → `N8` `X6` | claim |
 | `T-S21` | Train the dealer's staff | `automatable` | `content` — assembled from the corpus (`../decided.md` S12) | Stage 5–6 | `A6`–`A9` `N1`–`N4` | claim — *parked with the training programme* |
 | `T-S22` | Pipeline and forecast | **`automated`** | `store/engine` | — | — | claim |
-| `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | **`nobody`** | — | feeds `X1`–`X6` | **confirmed (Neil)** |
+| `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | **`nobody`** | — | feeds `X1`–`X5`; **win/loss already in engine** | **confirmed (Neil)** |
 | `T-S24` | **Feed product development** | `assisted` — capture manual, aggregation automatic | **`nobody`** | — | feeds `X4` `N9` | claim |
 | `T-S25` | Events and keeping relationships warm | `manual` | `person` | Stage 1–2, 6 | `H2` | claim — *ISE booked; CEDIA out (`../decided.md` E1–E3)* |
 | `T-S26` | Territory planning | **`assisted`** | `person` | — | `C2` | **confirmed (Neil)** |
@@ -155,8 +155,9 @@ noticeably — see the note below.*
 | `T-M12` | **Dealer marketing support** | execution |
 | `T-M17` | **Product launch** | execution |
 
-**The four sensing tasks are one job, not four gaps.** Nobody is looking at the market, at rivals, or at why we
-lose. Recorded as evidence that component 5's *"market intelligence: no substitute exists"* hole is wider than the
+**The four sensing tasks are one job, not four gaps.** Nobody is looking at the market or at rivals. **Not "at why
+we lose" — that was wrong**: engine's CRM does classic pipeline management and already records win/loss (Neil,
+2026-08-02). The gap is that nothing *reads* it into the competitive group. Recorded as evidence that component 5's *"market intelligence: no substitute exists"* hole is wider than the
 one line it was logged as — **and, per the first verification pass, shallower than it was logged as too**: market
 intelligence is at worst `assisted` and possibly `automatable`, so it is a build rather than a wall. Role, standing
 habit, or accepted hole is `../backlog.md` SYS-6.
