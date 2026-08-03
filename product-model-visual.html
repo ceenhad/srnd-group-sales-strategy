@@ -198,6 +198,20 @@
   .trow .tv { font-family: var(--f-mono); font-size: 0.64rem; flex: none; padding: 0.04rem 0.34rem; border: 1px solid currentColor; }
   .trow .tno { font-family: var(--f-mono); font-size: 0.62rem; color: var(--crit); flex: none; letter-spacing: 0.06em; }
 
+
+  /* ---------- primitives ---------- */
+  .prim { display: grid; gap: 2px; grid-template-columns: repeat(auto-fit, minmax(112px, 1fr)); }
+  .pc { border: 1px solid var(--line); padding: 0.55rem 0.6rem 0.6rem; display: flex; flex-direction: column; gap: 0.15rem; background: var(--ground); }
+  .pc .pn { font-family: var(--f-mono); font-size: 1.35rem; line-height: 1; letter-spacing: -0.03em; }
+  .pc .pv { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.06em; }
+  .pc .pd { font-size: 0.68rem; color: var(--muted); line-height: 1.3; }
+  .pc.mach .pn, .pc.mach .pv { color: var(--accent); }
+  .pc.hum .pn, .pc.hum .pv { color: var(--warn); }
+  .splitbar { display: flex; height: 12px; border: 1px solid var(--line); margin-top: 0.6rem; }
+  .splitbar i { display: block; }
+  .splitbar .sm { background: var(--accent); }
+  .splitbar .sh2 { background: var(--warn); }
+
   footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: 0.8rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -819,6 +833,61 @@
     <p class="note">Stage 4 carries the two tasks the register marks as never automatable — negotiating, and
       asking for the order — alongside the lead-time follow-up, which is marked automatable and is not built.</p>
 
+  </section>
+
+
+  <!-- WORK ITEMS -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">beneath the tasks · 168 work items</span>
+      <h2>What each task is actually made of</h2>
+      <p class="note">A task is too big to automate. <span class="mono">T-S09</span> — follow up through the
+        project's lead time — is one row in the register and six pieces of work, four of which a machine does and
+        two of which it cannot. <strong>A work item is the smallest step that is wholly machine or wholly
+        human.</strong> Opening all 46 tasks up gives 168 of them, and they resolve into thirteen recurring verbs.</p>
+    </div>
+
+    <div class="diagram">
+      <div class="dcap">the thirteen primitives — number of work items, and tasks that need each</div>
+      <div class="prim">
+        <div class="pc mach"><span class="pn">30</span><span class="pv">record</span><span class="pd">write the outcome back · 30 tasks</span></div>
+        <div class="pc mach"><span class="pn">29</span><span class="pv">assemble</span><span class="pd">build it from the fields · 29 tasks</span></div>
+        <div class="pc mach"><span class="pn">29</span><span class="pv">retrieve</span><span class="pd">pull the right fields · 28 tasks</span></div>
+        <div class="pc mach"><span class="pn">20</span><span class="pv">detect</span><span class="pd">notice a change · 20 tasks</span></div>
+        <div class="pc mach"><span class="pn">11</span><span class="pv">route</span><span class="pd">put it in front of the right person · 11 tasks</span></div>
+        <div class="pc mach"><span class="pn">7</span><span class="pv">send</span><span class="pd">deliver it · 7 tasks</span></div>
+        <div class="pc mach"><span class="pn">4</span><span class="pv">schedule</span><span class="pd">fire at a time · 4 tasks</span></div>
+        <div class="pc mach"><span class="pn">3</span><span class="pv">rank</span><span class="pd">order by a rule · 3 tasks</span></div>
+        <div class="pc hum"><span class="pn">12</span><span class="pv">judge</span><span class="pd">is this real, is this right · 12 tasks</span></div>
+        <div class="pc hum"><span class="pn">9</span><span class="pv">relate</span><span class="pd">the human contact · 9 tasks</span></div>
+        <div class="pc hum"><span class="pn">7</span><span class="pv">decide</span><span class="pd">an owner's call · 7 tasks</span></div>
+        <div class="pc hum"><span class="pn">3</span><span class="pv">answer</span><span class="pd">substance only they hold · 3 tasks</span></div>
+        <div class="pc hum"><span class="pn">3</span><span class="pv">word</span><span class="pd">the phrasing itself · 3 tasks</span></div>
+      </div>
+      <div class="splitbar"><i class="sm" style="flex:133"></i><i class="sh2" style="flex:34"></i></div>
+      <div class="gwkey" style="margin-top:0.5rem">
+        <span><i style="border-color:var(--accent);background:var(--accent)"></i>133 machine-side</span>
+        <span><i style="border-color:var(--warn);background:var(--warn)"></i>34 human-side</span>
+      </div>
+    </div>
+
+    <div class="list">
+      <div class="sub-head"><h3>The build order this implies</h3><span class="c">primitives, not tasks</span></div>
+      <div class="row"><span class="id">1</span><span class="txt"><strong>detect</strong> — a way to notice state changes and fire on them<span class="sub">20 tasks. Most of the signals sit in engine already; what can be subscribed to is a question for engine, not a design problem here</span></span></div>
+      <div class="row"><span class="id">2</span><span class="txt"><strong>retrieve</strong> — the product record, queryable by product, dealer and project<span class="sub">28 tasks. <strong>Blocked on the record being filled</strong> — which is why that comes first, and why filling it is not a documentation chore beside the automation</span></span></div>
+      <div class="row"><span class="id">3</span><span class="txt"><strong>assemble</strong> — generation from fields, against the generation gates<span class="sub">29 tasks</span></span></div>
+      <div class="row"><span class="id">4</span><span class="txt"><strong>record</strong> — somewhere every outcome lands<span class="sub">30 tasks. The capture routes, seen from the other side</span></span></div>
+    </div>
+
+    <p class="note"><strong>Those four are 108 of the 168 work items.</strong> Building them once addresses most of
+      the machine side of nearly every task, which is a shorter plan than automating tasks one at a time.</p>
+    <p class="note"><strong>And a <span class="mono">manual</span> task is not automation-proof.</strong> Asking
+      for the order stays human — but noticing a dealer has gone quiet is a <span class="mono">detect</span>, and
+      it is buildable. Same for recovering a failure, and for spotting a milestone worth thanking someone for. The
+      verdict describes the task; the work items describe what you can build.</p>
+    <p class="note">All 168 are listed in <span class="mono">group/11-work-items.md</span>. None has been checked
+      with anyone who does the work.</p>
   </section>
 
   <footer>
