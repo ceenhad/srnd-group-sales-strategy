@@ -160,6 +160,33 @@
   .ap { border: 1px solid var(--accent); color: var(--accent); padding: 0.35rem 0.7rem; font-size: 0.82rem; }
   .ap b { font-family: var(--f-mono); font-size: 0.62rem; display: block; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; }
 
+
+  /* ---------- stage map ---------- */
+  .smap { display: flex; min-width: 820px; gap: 2px; align-items: flex-end; }
+  .scol { flex: 1; display: flex; flex-direction: column; gap: 0.3rem; }
+  .scol .sbar { display: flex; flex-direction: column-reverse; gap: 1px; height: 108px; justify-content: flex-start; }
+  .scol .sbar i { display: block; width: 100%; }
+  .b-au { background: var(--accent); }
+  .b-ab { background: var(--accent-soft); border: 1px solid var(--accent); box-sizing: border-box; }
+  .b-as { background: var(--warn); }
+  .b-mn { background: var(--crit); }
+  .scol .slab { border-top: 2px solid var(--ink); padding-top: 0.35rem; display: flex; flex-direction: column; gap: 0.1rem; }
+  .scol .slab .sno { font-family: var(--f-mono); font-size: 0.66rem; color: var(--accent); font-weight: 640; }
+  .scol .slab .snm { font-size: 0.76rem; font-weight: 600; line-height: 1.25; }
+  .scol .slab .sct { font-family: var(--f-mono); font-size: 0.64rem; color: var(--muted); }
+
+  .stageblk { border: 1px solid var(--line); background: var(--surface); }
+  .stageblk .sh { display: flex; align-items: baseline; gap: 0.6rem; padding: 0.5rem 0.95rem; background: var(--surface-2); border-bottom: 1px solid var(--line); }
+  .stageblk .sh .n { font-family: var(--f-mono); font-size: 0.74rem; color: var(--accent); font-weight: 640; }
+  .stageblk .sh .t { font-weight: 620; font-size: 0.88rem; }
+  .stageblk .sh .c { margin-left: auto; font-family: var(--f-mono); font-size: 0.66rem; color: var(--muted); }
+  .trow { display: flex; gap: 0.7rem; padding: 0.34rem 0.95rem; border-bottom: 1px solid var(--line-soft); align-items: baseline; font-size: 0.85rem; }
+  .trow:last-child { border-bottom: 0; }
+  .trow .tid { font-family: var(--f-mono); font-size: 0.68rem; color: var(--muted); flex: none; min-width: 3.2rem; }
+  .trow .tnm { flex: 1; min-width: 10rem; }
+  .trow .tv { font-family: var(--f-mono); font-size: 0.64rem; flex: none; padding: 0.04rem 0.34rem; border: 1px solid currentColor; }
+  .trow .tno { font-family: var(--f-mono); font-size: 0.62rem; color: var(--crit); flex: none; letter-spacing: 0.06em; }
+
   footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: 0.8rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -170,7 +197,7 @@
 
   <header class="masthead">
     <div class="rule-top">
-      <span class="eyebrow">SRND Group · the approach, listed · rev 14 — diagrams added</span>
+      <span class="eyebrow">SRND Group · the approach, listed · rev 15 — tasks mapped to stages</span>
       <span class="eyebrow">9 verdicts changed · 1 task added</span>
     </div>
     <h1>The strategy, and the system that serves it</h1>
@@ -663,6 +690,118 @@
       <div class="row"><span class="txt"><strong>Don't fence the group to cinema — in trade</strong><span class="sub">Cinema is the heartland of revenue and credibility and should lead where it is strongest, but none of the underlying competences are cinema-specific. Name the problem, never the room type. The reverse holds in consumer, where the proposition stays DIY home cinema deliberately</span></span></div>
       <div class="row"><span class="txt"><strong>Engine owns operations</strong><span class="sub">Partner registrations, pricing, jobs, the CRM. The strategy owns the mechanics and checks engine before specifying anything that touches it</span></span></div>
     </div>
+  </section>
+
+
+  <!-- STAGE MAP -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the mapping · tasks against stages</span>
+      <h2>Where each task fires in the journey</h2>
+      <p class="note">The tasks in list 2, placed against the six stages. A task can span more than one stage, so
+        it appears at each. Bar height is the number of tasks at that stage, split by automation verdict.</p>
+    </div>
+
+    <div class="diagram">
+      <div class="dcap">task load per stage, by verdict</div>
+        <div class="smap">
+          <div class="scol"><div class="sbar"><i class="b-au" style="height:12px"></i><i class="b-ab" style="height:12px"></i><i class="b-as" style="height:24px"></i><i class="b-mn" style="height:24px"></i></div><div class="slab"><span class="sno">STAGE 1</span><span class="snm">Get in front of them</span><span class="sct">6 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-as" style="height:72px"></i><i class="b-mn" style="height:12px"></i></div><div class="slab"><span class="sno">STAGE 2</span><span class="snm">Land the proposition</span><span class="sct">7 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-au" style="height:12px"></i><i class="b-ab" style="height:12px"></i><i class="b-as" style="height:48px"></i><i class="b-mn" style="height:12px"></i></div><div class="slab"><span class="sno">STAGE 3</span><span class="snm">Prove it</span><span class="sct">7 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-au" style="height:24px"></i><i class="b-ab" style="height:12px"></i><i class="b-as" style="height:12px"></i><i class="b-mn" style="height:24px"></i></div><div class="slab"><span class="sno">STAGE 4</span><span class="snm">Register, then buy</span><span class="sct">6 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-ab" style="height:24px"></i><i class="b-as" style="height:12px"></i><i class="b-mn" style="height:12px"></i></div><div class="slab"><span class="sno">STAGE 5</span><span class="snm">Make the first job succeed</span><span class="sct">4 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-ab" style="height:48px"></i><i class="b-as" style="height:24px"></i><i class="b-mn" style="height:24px"></i></div><div class="slab"><span class="sno">STAGE 6</span><span class="snm">The next order</span><span class="sct">8 tasks</span></div></div>
+        </div>
+      <div class="gwkey" style="margin-top:0.8rem">
+        <span><i style="border-color:var(--accent);background:var(--accent)"></i>automated</span>
+        <span><i style="border-color:var(--accent);background:var(--accent-soft)"></i>automatable</span>
+        <span><i style="border-color:var(--warn);background:var(--warn)"></i>assisted</span>
+        <span><i style="border-color:var(--crit);background:var(--crit)"></i>manual</span>
+      </div>
+    </div>
+
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 1</span><span class="t">Get in front of them</span><span class="c">6 tasks</span></div>
+        <div class="trow"><span class="tid">T-S01</span><span class="tnm">Build the target list</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S02</span><span class="tnm">Reach a dealer who has never heard of us</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M08</span><span class="tnm">Discoverability — search and AI answers</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M14</span><span class="tnm">Trade press and PR</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S25</span><span class="tnm">Events and keeping relationships warm</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M13</span><span class="tnm">Events and exhibitions</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 2</span><span class="t">Land the proposition</span><span class="c">7 tasks</span></div>
+        <div class="trow"><span class="tid">T-S04</span><span class="tnm">Qualify the project</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S05</span><span class="tnm">Present the range</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S06</span><span class="tnm">Discover — their business, their fears</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M10</span><span class="tnm">Collateral — datasheets, case studies</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M14</span><span class="tnm">Trade press and PR</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M17</span><span class="tnm">Product launch</span><span class="tv t-assisted">assisted</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-S25</span><span class="tnm">Events and keeping relationships warm</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 3</span><span class="t">Prove it</span><span class="c">7 tasks</span></div>
+        <div class="trow"><span class="tid">T-M09</span><span class="tnm">Lead capture and nurture</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S10</span><span class="tnm">Handle objections</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S06</span><span class="tnm">Discover — their business, their fears</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S07</span><span class="tnm">Technical selling — help specify a live job</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M10</span><span class="tnm">Collateral — datasheets, case studies</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S11</span><span class="tnm">Defend against a named competitor</span><span class="tv t-assisted">assisted</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-S27</span><span class="tnm">The novel problem</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 4</span><span class="t">Register, then buy</span><span class="c">6 tasks</span></div>
+        <div class="trow"><span class="tid">T-S08</span><span class="tnm">Produce a quote</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S14</span><span class="tnm">Onboard the account</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S09</span><span class="tnm">Follow up through the project's lead time</span><span class="tv t-automatable">automatable</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-S03</span><span class="tnm">Qualify the dealer</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S12</span><span class="tnm">Negotiate terms</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S13</span><span class="tnm">Close — want the order and ask for it</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 5</span><span class="t">Make the first job succeed</span><span class="c">4 tasks</span></div>
+        <div class="trow"><span class="tid">T-S16</span><span class="tnm">Post-delivery follow-up</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S21</span><span class="tnm">Train the dealer's staff</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S15</span><span class="tnm">Make the first install succeed</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S20</span><span class="tnm">Recover a failure</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 6</span><span class="t">The next order</span><span class="c">8 tasks</span></div>
+        <div class="trow"><span class="tid">T-S18</span><span class="tnm">Cross-sell the rest of the group</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S19</span><span class="tnm">Prompt the reorder</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S16</span><span class="tnm">Post-delivery follow-up</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S21</span><span class="tnm">Train the dealer's staff</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S17</span><span class="tnm">Account management — stay recalled</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M12</span><span class="tnm">Dealer marketing support</span><span class="tv t-assisted">assisted</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-S28</span><span class="tnm">Recognition and thanks</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S25</span><span class="tnm">Events and keeping relationships warm</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">—</span><span class="t">Runs across the whole journey, or sits outside it</span><span class="c">15 tasks</span></div>
+        <div class="trow"><span class="tid">T-S22</span><span class="tnm">Pipeline and forecast</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M11</span><span class="tnm">Brand consistency</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M16</span><span class="tnm">CRM and data hygiene</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M06</span><span class="tnm">Editorial calendar and cadence</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M15</span><span class="tnm">Measurement and reporting</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M02</span><span class="tnm">Competitor tracking</span><span class="tv t-automatable">automatable</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-M05</span><span class="tnm">Content production</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M04</span><span class="tnm">Campaign planning</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M07</span><span class="tnm">Channel management</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M03</span><span class="tnm">Positioning and messaging</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M01</span><span class="tnm">Market and segment research</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S26</span><span class="tnm">Territory planning</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S23</span><span class="tnm">Bring back market intelligence</span><span class="tv t-assisted">assisted</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-S24</span><span class="tnm">Feed product development</span><span class="tv t-assisted">assisted</span><span class="tno">nobody</span></div>
+        <div class="trow"><span class="tid">T-M18</span><span class="tnm">Budget and spend allocation</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+
+    <p class="note"><strong>Four of the six stages carry a task nobody performs</strong> — product launch at 2,
+      defending against a named competitor at 3, the lead-time follow-up at 4, and dealer marketing support at 6.
+      Stage 4 also holds most of the irreducibly manual work: negotiating and asking for the order.</p>
+    <p class="note">The three outward-sensing tasks — market intelligence, product feedback, competitor tracking —
+      <strong>sit at no stage at all.</strong> No stage visibly fails when they are not done, which is a fair
+      explanation of how they came to have no performer.</p>
   </section>
 
   <footer>
