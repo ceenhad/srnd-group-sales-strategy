@@ -212,6 +212,20 @@
   .splitbar .sm { background: var(--accent); }
   .splitbar .sh2 { background: var(--warn); }
 
+  .wblk { border: 1px solid var(--line); background: var(--surface); margin-bottom: -1px; }
+  .wblk .wh { display: flex; align-items: baseline; gap: 0.5rem; padding: 0.45rem 0.9rem; background: var(--surface-2); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  .wblk .wh .wid { font-family: var(--f-mono); font-size: 0.72rem; color: var(--accent); font-weight: 640; }
+  .wblk .wh .wnm { font-weight: 620; font-size: 0.85rem; }
+  .wblk .wh .wv { margin-left: auto; font-family: var(--f-mono); font-size: 0.62rem; padding: 0.04rem 0.34rem; border: 1px solid currentColor; }
+  .wrow { display: flex; gap: 0.7rem; padding: 0.32rem 0.9rem; border-bottom: 1px solid var(--line-soft); font-size: 0.85rem; align-items: baseline; }
+  .wrow:last-child { border-bottom: 0; }
+  .wrow .wp { font-family: var(--f-mono); font-size: 0.65rem; flex: none; min-width: 5.4rem; letter-spacing: 0.04em; }
+  .wrow .wd { flex: 1; line-height: 1.4; min-width: 12rem; }
+  .wrow.m .wp { color: var(--accent); }
+  .wrow.h .wp { color: var(--warn); }
+  .wrow.q .wp { color: var(--muted); }
+  .wrow.h { background: var(--ground); }
+
   footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: 0.8rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -886,8 +900,319 @@
       for the order stays human — but noticing a dealer has gone quiet is a <span class="mono">detect</span>, and
       it is buildable. Same for recovering a failure, and for spotting a milestone worth thanking someone for. The
       verdict describes the task; the work items describe what you can build.</p>
-    <p class="note">All 168 are listed in <span class="mono">group/11-work-items.md</span>. None has been checked
-      with anyone who does the work.</p>
+
+    <div class="sec-head" style="margin-top:1.6rem">
+      <span class="count">the full list · 168 work items</span>
+      <h3 style="font-size:1.05rem">Every task, opened up</h3>
+      <p class="note">Machine-side primitives in green, human-side in amber. Nothing here has been checked with anyone who does the work.</p>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S01</span><span class="wnm">Build the target list</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Pull the accounts already known — who buys, what, how recently</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Establish which brands each one already buys and which they do not</span></div>
+      <div class="wrow m"><span class="wp">rank</span><span class="wd">Order by cross-sell headroom, or by whatever rule the owner sets</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">Is this dealer worth approaching, and on which brand</span></div>
+      <div class="wrow q"><span class="wp">[?]</span><span class="wd">Where a list of dealers we do *not* already know comes from — a question for engine, not an assumption</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S02</span><span class="wnm">Reach a dealer who has never heard of us</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">Publish the answer against the problem, in the dealer's words</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">Place it where strangers look — search, AI answers, social, press</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A visit arriving from a hook</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Which hook caught which dealer — source tagging</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S03</span><span class="wnm">Qualify the dealer</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">What engine already holds on them</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">A short profile — what they buy, what they build, who they are</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">Are they real, and are they the kind of dealer this suits</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S04</span><span class="wnm">Qualify the project</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A tool use or enquiry that indicates a live project</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">What the tool captured about the room and the requirement</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">Is the project real, is it live, is it worth the time</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S05</span><span class="wnm">Present the range</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The on-ramp fields for the products in play — D1, O1–O4, H2</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The material for this dealer and this room</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The conversation itself, and reading the room</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S06</span><span class="wnm">Discover — their business, their fears, last job's failure</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The spec conversation itself</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">The project, what they were unsure about, what they were afraid of</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">Into the record — O1, N1, N5, R3, W2</span></div>
+      <div class="wrow m"><span class="wp">rank</span><span class="wd">What recurs across conversations, so the content queue orders itself</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S07</span><span class="wnm">Technical selling — help specify a live job</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The product records for everything in the room</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">A specification from N1, N2 and the definition fields</span></div>
+      <div class="wrow h"><span class="wp">answer</span><span class="wd">The part the record does not hold</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">That new answer back into N3, and what it taught into N8</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S08</span><span class="wnm">Produce a quote</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Products, quantities, partner pricing</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The quote</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">To the dealer</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Into the pipeline</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S09</span><span class="wnm">Follow up through the project's lead time</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">Quote issued, no order, time elapsed</span></div>
+      <div class="wrow m"><span class="wp">schedule</span><span class="wd">The next touch, at an interval matched to how long the project runs</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Something relevant to *this* project rather than a generic nudge</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The touch</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">To the dealer</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Sent, opened, replied</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">When to stop, and when to hand it to a person</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S10</span><span class="wnm">Handle objections</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">Which objection this is, against R1 and R3</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The answer from N3 and the claim that supports it from G1</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The response</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">Or publish, if it recurs</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Whether it settled the point</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S11</span><span class="wnm">Defend against a named competitor</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">X1–X5 for the product, and the loss history from engine's pipeline</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The comparison, dimension by dimension</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">What is fair to say to this dealer about this rival</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">The outcome — X6 reads from the pipeline</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S12</span><span class="wnm">Negotiate terms</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The negotiation</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">What may be conceded</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What was agreed</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S13</span><span class="wnm">Close — want the order and ask for it</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A dealer who has gone quiet, or a quote sitting past its window</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">Asking for the order</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">The answer, either way</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S14</span><span class="wnm">Onboard the account</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A registration</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The welcome and what registration grants</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">To the new partner</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Account state</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S15</span><span class="wnm">Make the first install succeed</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">An order placed, and for what</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">L1–L3, R4 and N3 for those products</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The install pack — what arrives, what must be ready, what goes wrong</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">Ahead of delivery, not with it</span></div>
+      <div class="wrow h"><span class="wp">answer</span><span class="wd">The live question from site</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What went wrong, into R4 and N8</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S16</span><span class="wnm">Post-delivery follow-up</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">Delivery, or completion</span></div>
+      <div class="wrow m"><span class="wp">schedule</span><span class="wd">The touch, far enough after to be useful</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The check-in</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">To the dealer</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">The response</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">Escalate a problem to a person</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S17</span><span class="wnm">Account management — stay recalled</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">Gone quiet, or a change in what they buy</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">What they buy and what they have never bought</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">A reason to make contact that is not a nag</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The contact</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S18</span><span class="wnm">Cross-sell the rest of the group</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A spec conversation or an order in progress</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The adjacency — D10, N5, N6 for what they are already buying</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The prompt, with the physical reason it belongs</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To whoever is in the conversation, at the moment it is relevant</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Whether a second brand followed — the G6 signal</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S19</span><span class="wnm">Prompt the reorder</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">The reorder interval, or a consumption pattern</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The prompt</span></div>
+      <div class="wrow m"><span class="wp">send</span><span class="wd">To the dealer</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Whether it converted</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S20</span><span class="wnm">Recover a failure</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">An escalation</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The recovery</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What actually failed, into N8 and X6</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S21</span><span class="wnm">Train the dealer's staff</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">A6–A9 and N1–N4 for the range</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The module from material that already exists</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To registered partners</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Completion, and certification</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S22</span><span class="wnm">Pipeline and forecast</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Open quotes, stages, values</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The view</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Movement</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S23</span><span class="wnm">Bring back market intelligence</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Win/loss from engine's pipeline</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The picture — which rival, which dimension, which stage</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">What it means, and whether it is a pattern or a one-off</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Into X1–X5</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S24</span><span class="wnm">Feed product development</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">X4, X6 and N9 aggregated across the range</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The list, ordered by how often each thing costs us</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">What to change, and what to commission</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S25</span><span class="wnm">Events and keeping relationships warm</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The event itself</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Who was met, and what was said</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S26</span><span class="wnm">Territory planning</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">Where dealers are, where orders come from, where they do not</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The coverage picture</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">Where to push, and where to leave alone</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S27</span><span class="wnm">The novel problem</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow h"><span class="wp">answer</span><span class="wd">The impossible project</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What it taught, into N8 and N9</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-S28</span><span class="wnm">Recognition and thanks</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A milestone worth marking</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The thanks itself</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M01</span><span class="wnm">Market and segment research</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">What we sell, where, and to whom</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The segment picture</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">What it means for where to aim</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M02</span><span class="wnm">Competitor tracking</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A change on a rival's public surfaces — range, claims, pricing posture</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">What changed against what we held before</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Into X1–X4</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">Whether the change matters</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M03</span><span class="wnm">Positioning and messaging</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The record's D and O fields, and the brand's own truth</span></div>
+      <div class="wrow h"><span class="wp">word</span><span class="wd">The positioning itself</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">What the brand will and will not say — G2</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M04</span><span class="wnm">Campaign planning</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">H1 — which appeals each product can honestly carry</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The hook matrix per door: appeal by placement</span></div>
+      <div class="wrow h"><span class="wp">word</span><span class="wd">The hooks themselves</span></div>
+      <div class="wrow m"><span class="wp">schedule</span><span class="wd">The run</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M05</span><span class="wnm">Content production</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The substance — the record, the measured data, the archive</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The derivative set from each atom</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">The truth-check: is it true today, may it be published</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To the canonical home, then the placements</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What went out, tagged to its source</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M06</span><span class="wnm">Editorial calendar and cadence</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">rank</span><span class="wd">The queue, by what recurs and what is blocking</span></div>
+      <div class="wrow m"><span class="wp">schedule</span><span class="wd">What goes out when</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">What actually published</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">The log</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M07</span><span class="wnm">Channel management</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">The right piece to the right channel</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What is live where</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">What suits a channel and what does not</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M08</span><span class="wnm">Discoverability — search and AI answers</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">O1 and N3 — the dealer's words, and our answers to them</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">Published answers in the form an engine can cite</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">What is being found, and for what</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">Where we are absent and should not be</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M09</span><span class="wnm">Lead capture and nurture</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">A tool used, a download taken, a form completed</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Into engine</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To the nurture sequence, or to a person</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M10</span><span class="wnm">Collateral — datasheets, case studies</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The fields each output needs — the generation gates</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The draft</span></div>
+      <div class="wrow h"><span class="wp">judge</span><span class="wd">Approval, against G1 and G2</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Version and review date</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M11</span><span class="wnm">Brand consistency</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">G2 for the product, and the brand's hard don'ts</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">Applied at drafting time, not policed afterwards</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M12</span><span class="wnm">Dealer marketing support</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">N7 — what the dealer tells their own client</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">Material the partner can hand over, in their name not ours</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To registered partners</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What gets used</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M13</span><span class="wnm">Events and exhibitions</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow h"><span class="wp">relate</span><span class="wd">The stand, and the conversations on it</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">Which shows, and what to show</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M14</span><span class="wnm">Trade press and PR</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">H2 — the most interesting true thing — and G4, what may be shown</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The piece</span></div>
+      <div class="wrow h"><span class="wp">word</span><span class="wd">The pitch to the title</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To the outlet</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M15</span><span class="wnm">Measurement and reporting</span><span class="wv t-automatable">automatable</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">The gateway signals — G1 to G6</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The view: what moved, what did not</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Against the period</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M16</span><span class="wnm">CRM and data hygiene</span><span class="wv t-automated">automated</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">Account, contact and project state</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">Duplicates, staleness, missing fields</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M17</span><span class="wnm">Product launch</span><span class="wv t-assisted">assisted</span></div>
+      <div class="wrow m"><span class="wp">detect</span><span class="wd">G3 changing from pre-release to current</span></div>
+      <div class="wrow m"><span class="wp">retrieve</span><span class="wd">The full record, and the asset audit</span></div>
+      <div class="wrow m"><span class="wp">assemble</span><span class="wd">The launch set — page, datasheet, hooks, announcement</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">That it is ready to be said</span></div>
+      <div class="wrow m"><span class="wp">route</span><span class="wd">To every placement at once</span></div>
+      <div class="wrow m"><span class="wp">record</span><span class="wd">What went out</span></div>
+    </div>
+    <div class="wblk">
+      <div class="wh"><span class="wid">T-M18</span><span class="wnm">Budget and spend allocation</span><span class="wv t-manual">manual</span></div>
+      <div class="wrow h"><span class="wp">decide</span><span class="wd">Where the money goes</span></div>
+    </div>
+
   </section>
 
   <footer>
