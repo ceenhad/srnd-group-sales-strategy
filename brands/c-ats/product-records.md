@@ -1,7 +1,23 @@
 # C-ATS product records — the sales and marketing layer, filled
 
-*The schema in `../../product-data-schema.md`, applied to the three C-ATS treatment panels. First worked example,
-so it sets the standard for the rest of the group.*
+*The schema in `../../product-data-schema.md`, on the form in `../../product-record-template.md`, applied to the
+three C-ATS treatment panels. First worked example, so it sets the standard for the rest of the group. Field IDs
+below (`D1`, `O2`, `R4`…) are the form's; they are what downstream generation refers to.*
+
+**Knowledge: 2 of 9 fields · 2 of 13 questions answered · Record: 28 of 58 · Assets: 5 of 11 states known · `G3` current.**
+
+*The form gained the front half on 2026-08-02 — competitive (`X`), commercial (`M`), lifecycle (`L`) and hook
+material (`H`). **Those four groups are unfilled here**, which is why the front half is unanswered. Only `M1`
+(whole boxes of 1.44 m²) and `H2` (the ~300 mm tolerance — the most interesting true thing about the range) are
+already answered above. Filling the rest is `backlog.md` SYS-3.*
+
+Two findings sit behind those numbers, and the second is the serious one:
+
+- The six unfilled *record* fields are the same six on all three panels — **not per-product gaps but one missing
+  input** (`O1`, `O3`, `W2`), one unmade decision (`O5`), and record ownership.
+- **The knowledge layer is nearly empty on the group's best-documented product.** These records can produce a
+  datasheet and cannot hold a conversation. See "the knowledge layer" below — it is the half that content-as-the-rep
+  actually runs on.
 
 ## Provenance — read this before using any figure
 
@@ -50,7 +66,11 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | **Channel** | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (`../../decided.md` C5) |
 | **Test basis** | BSRIA, BS EN ISO 354:2003, **free/unfixed mounting** — design-stage reference figures, not installed-effective values |
 | **Marketing status** | Current. REV-CP-12 is discontinued and must not be listed. The commercial cinema range is in development and must not be written up as shipping |
-| **Who specifies** | The integrator, typically with our help. Acoustic consultants write pre-tender specs on larger projects and are **not** a non-audience — the product is optimised for the integrator, which is a different question from who influences specification |
+| **Who specifies** (`W1`) | The integrator, typically with our help. Acoustic consultants write pre-tender specs on larger projects and are **not** a non-audience — the product is optimised for the integrator, which is a different question from who influences specification |
+| **Who signs off** (`W2`) | **`[?]` — deliberately parked.** Who signs off and what convinces them comes from real recent jobs in the owners' words, not personas or file archaeology (`positioning.md` §2, §7) |
+| **Territory** (`C2`) | Direct to dealer globally through the store; distributor appointments are case-by-case exceptions. **The live constraint is distribution, not territory** — C-ATS is widely deployed and thinly distributed, which `positioning.md` §7 calls the headline problem |
+| **Proof, and publishable?** (`G4`) | **Strong and unusually unencumbered.** The full BSRIA report is published as a public PDF with five per-panel coefficient sheets beside it — specifier-grade third-party proof, freely available (`../../NEXT.md` lane 8). Install photography is thin; the Cornflake IMAX private cinema is public and easy to find, though years old |
+| **Record keeping** (`K1`–`K3`) | Owner **`[?]` — unassigned** · last reviewed **2026-08-02** · review interval **`[?]`** |
 
 **Known data gaps, shared:** installed-effective (derated) values may exist in the legacy calculator and need
 reconciling against the raw lab figures, with a decision on which are authoritative for quotes and design. **[?]**
@@ -106,14 +126,24 @@ behaves differently from the design, and the fault will be attributed to the pro
 one-page manual fix and a sixty-second video**, and it is the single highest-return piece of documentation in the
 C-ATS range.
 
+### Why to buy it — the on-ramp
+
+| ID | Field | Value |
+|---|---|---|
+| `O1` | Problem, in the dealer's words | **`[?]`** — drafted phrasing exists in `copy.md` (*"the sound arriving off the side walls competes with the sound from the speakers; detail smears"*), but **it is ours, not a dealer's.** Buyer-truth is parked until it comes from real jobs |
+| `O2` | Time or labour saved | **The ~300 mm layout tolerance** — panels can move that far from the designed position without material performance impact, so the install does not need set-out precision. Plus whole-box quantities (1.44 m²) making take-off arithmetic trivial. **Neither appears in any marketing** |
+| `O3` | Opportunity it opens | **`[?]`** — not established at product level. The group-level answer exists (acoustics is a strong way in, `positioning.md` §6); what job this panel helps a dealer *win* does not |
+| `O4` | What it replaces or avoids | Deeper competing scatterers that cost floor area; commodity foam used at reflection points, which is the wrong device for the problem; and doing nothing, which is the commonest alternative. C-ATS exists because competitors were awkward to handle, awkward to cut on site, supplied in unsuitable volumes, and too deep (`positioning.md` §1) |
+| `O5` | Entry or flagship | **`[?]`** — the entry product per brand is an open decision (`../../backlog.md` DEC-3) |
+
 ### The doubt it removes, and the questions it generates
 
-| Field | Value |
-|---|---|
-| **The doubt it meets** | *"Will this actually change what I hear, or is it a decorative panel?"* — and, from consultants, *"is this a real acoustic device?"* |
-| **Load-bearing asset** | The install guide (Type A versus B) and the measured data. Not the datasheet's appearance |
-| **Questions it generates** | Bond or screw; how far off the designed position is acceptable; whether it can go behind fabric; why the absorption figures look low |
-| **What goes wrong on site** | Screwed without bonding; placed by eye rather than at the reflection point; expected to do a reverberation job |
+| ID | Field | Value |
+|---|---|---|
+| `R1` | **The doubt it meets** | *"Will this actually change what I hear, or is it a decorative panel?"* — and, from consultants, *"is this a real acoustic device?"* |
+| `R2` | **Load-bearing asset** | The install guide (Type A versus B) and the measured data. Not the datasheet's appearance |
+| `R3` | **Questions it generates** | Bond or screw; how far off the designed position is acceptable; whether it can go behind fabric; why the absorption figures look low |
+| `R4` | **What goes wrong on site** | Screwed without bonding; placed by eye rather than at the reflection point; expected to do a reverberation job |
 
 ### What we may and may not say
 
@@ -160,14 +190,24 @@ before anyone quotes it.
 must not also apply a corner factor — that double-counts. A caveat living in a JSON comment today, and it belongs
 in the published data note.
 
+### Why to buy it — the on-ramp
+
+| ID | Field | Value |
+|---|---|---|
+| `O1` | Problem, in the dealer's words | **`[?]`** — same parked buyer-truth. The bass problem is the one dealers most often cannot solve, but that is our reading of it, not their phrasing |
+| `O2` | Time or labour saved | Whole-box quantities (4 per box, 1.44 m²). **The ~300 mm tolerance does not transfer here** — this panel's effectiveness depends on corner placement, so it is the one product in the range where position is not forgiving. Worth stating rather than inheriting |
+| `O3` | Opportunity it opens | **`[?]`** — not established at product level |
+| `O4` | What it replaces or avoids | Deep bass traps that consume corner volume the room cannot spare. Corner loading is what lets 50 mm do work that would otherwise need far greater depth — **the depth argument made concrete**, and the product where it is most defensible |
+| `O5` | Entry or flagship | **`[?]`** — `../../backlog.md` DEC-3. *Candidate flagship on the evidence:* it is the product with the strongest measured case and the hardest problem, which is what a flagship is for |
+
 ### The doubt it removes, and the questions it generates
 
-| Field | Value |
-|---|---|
-| **The doubt it meets** | *"Can 50 mm do anything at low frequency?"* — the objection the whole depth argument exists to answer, and the one where measured data does the work |
-| **Load-bearing asset** | The measured per-panel Sabines with the test configuration stated. This product cannot be sold on description |
-| **Questions it generates** | How many, and where; whether it replaces bass traps; why it is bigger than the others; can it go anywhere other than a corner |
-| **What goes wrong on site** | Placed away from corners; too few for the room volume; expected to fix a subwoofer-placement problem |
+| ID | Field | Value |
+|---|---|---|
+| `R1` | **The doubt it meets** | *"Can 50 mm do anything at low frequency?"* — the objection the whole depth argument exists to answer, and the one where measured data does the work |
+| `R2` | **Load-bearing asset** | The measured per-panel Sabines with the test configuration stated. This product cannot be sold on description |
+| `R3` | **Questions it generates** | How many, and where; whether it replaces bass traps; why it is bigger than the others; can it go anywhere other than a corner |
+| `R4` | **What goes wrong on site** | Placed away from corners; too few for the room volume; expected to fix a subwoofer-placement problem |
 
 ### What we may and may not say
 
@@ -209,14 +249,24 @@ Surface absorption coefficient by octave band:
 in Europe, IMO/SOLAS at sea. **Always confirm the certificate for the exact product and finish**, and **[?]** the
 current EN 13501-1 classification, which should be in the record rather than looked up each time.
 
+### Why to buy it — the on-ramp
+
+| ID | Field | Value |
+|---|---|---|
+| `O1` | Problem, in the dealer's words | **`[?]`** — same parked buyer-truth |
+| `O2` | Time or labour saved | **Pre-applied adhesive backing** — peel and stick, no fixings and no cutting on site, against a competing set that was awkward to handle and awkward to cut (`positioning.md` §1). Whole-box coverage at 1.44 m². **The strongest `O2` in the range, and it carries a condition** — the 18 °C rule below, which must travel with the claim |
+| `O3` | Opportunity it opens | **`[?]`** — not established at product level |
+| `O4` | What it replaces or avoids | **Commodity foam bought by the sheet**, which is the real competitor. The difference is not the material — it is measured performance plus a system that says how much to use and where |
+| `O5` | Entry or flagship | **`[?]`** — `../../backlog.md` DEC-3. *Candidate entry product on the evidence:* the simplest to specify, the easiest to install, and the one a dealer is likeliest to try first |
+
 ### The doubt it removes, and the questions it generates
 
-| Field | Value |
-|---|---|
-| **The doubt it meets** | *"Is this just foam?"* — the objection that matters most, because commodity foam is the competitor. The answer is measured performance and a system that says how much to use and where, not the material |
-| **Load-bearing asset** | The measured absorption table, and the fire certificate. A specifier will ask for both |
-| **Questions it generates** | How much coverage; checkerboard or continuous; will the adhesive hold; is it fire rated; can it be painted or covered |
-| **What goes wrong on site** | Installed in a cold room and the adhesive lets go — **the most predictable and preventable failure in the range**; over-coverage making a dead room; used where resonance was the problem |
+| ID | Field | Value |
+|---|---|---|
+| `R1` | **The doubt it meets** | *"Is this just foam?"* — the objection that matters most, because commodity foam is the competitor. The answer is measured performance and a system that says how much to use and where, not the material |
+| `R2` | **Load-bearing asset** | The measured absorption table, and the fire certificate. A specifier will ask for both |
+| `R3` | **Questions it generates** | How much coverage; checkerboard or continuous; will the adhesive hold; is it fire rated; can it be painted or covered |
+| `R4` | **What goes wrong on site** | Installed in a cold room and the adhesive lets go — **the most predictable and preventable failure in the range**; over-coverage making a dead room; used where resonance was the problem |
 
 ### What we may and may not say
 
@@ -240,6 +290,113 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 ---
 
+## The knowledge layer — `N1`–`N9`
+
+*Added 2026-08-02 with the form's group 04. **This is the substance the production line runs on**
+(`../../group/09-motion-design.md` component 2, step 1: "the atoms that already exist: the product records…").
+Filled across the three panels together, because most of it is range-level. **Knowledge: 2 of 9 fields · 2 of the 13
+questions answered in writing.***
+
+| ID | Field | Value |
+|---|---|---|
+| `N1` | **Selection logic** | **`[?]` — partial, and the gap is the important half.** *Placement* is known and written: lowest panel no higher than **30 % of room height**, rooms over 3 m need proportionally more, RES-CP in corners, REV-CP checkerboarded toward the rear, ~300 mm tolerance, quantities round up to whole 1.44 m² boxes. ***Quantity* is not written anywhere** — it lives inside the legacy CATS Calculator and the design service. So we can tell a dealer where to put them and not how many to buy |
+| `N2` | **The worked example** | **`missing` — and it is a commitment already made.** `positioning.md` §1 withdrew the no-public-calculator rule on the basis that *"C-ATS publishes worked examples showing how quantities are derived"* as the self-serve route. **None exists.** The raw material does: three pre-planned 7.1.4 reference layouts are built and blocked on a CLI re-auth (`../../backlog.md` EST-6) |
+| `N3` | **The answers** | **2 of 13 written.** Table below |
+| `N4` | **Comparison** | **`[?]` — price band only.** `positioning.md` §1 places C-ATS above direct-sell GIK, comparable to RPG, slightly below Artnovion. **That is a commercial position, not a comparison** — nothing says what a dealer gets or gives up choosing one over another, per panel, per dimension |
+| `N5` | **Compatibility & pairing** | **Filled.** Sits behind any stretch-fabric finish — **Fabric Walls pairs naturally and is never a dependency**. Works behind acoustically transparent projection screens, which puts DT's image surface, Pro-Fi's speakers and the treatment in one wall. The commercial/large-format range is likely built on Fabric Walls Acoustic Core PET. **Never paired with:** isolation as a substitute — resonance is a treatment problem, isolation is a different one |
+| `N6` | **Project timing** | **`[?]`, with one thing derivable and load-bearing.** The panels are concealed behind the fabric layer, so **the treatment must be decided before the wall is built** — which makes it *earlier* in the project than the fabric, the lighting or the screen. That is the cross-sell moment and the argument for being in the spec conversation, and it has never been stated. When the acoustic decision actually gets made on a real job is `[?]` |
+| `N7` | **What the dealer tells their client** | **`missing`, for all three panels.** The raw material is one sentence away — `positioning.md` §4: *"acoustics is usually the one part of a room nobody can see or prove; C-ATS makes it the part you can."* **That is a client-facing line and there is no client-facing deliverable containing it.** The dealer is left to explain our product in their own words, unaided |
+| `N8` | **Field learning** | **`[?]`.** A decade of cinema work and the Cornflake IMAX install; nothing captured as learning. The two failure modes in `install-critical-notes.md` *are* field learning, and they are the only entries that exist |
+| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) Installed-effective versus raw lab figures: both in circulation, neither declared authoritative |
+
+> **`N9` was already in the repo as five separate backlog rows** (DOC-6 to DOC-10) and had never been read as one
+> list. As a set it says something the rows individually do not: **four of the five are measurement gaps, so one
+> decision — commission the further testing, or declare the current data the limit and say so plainly — closes most
+> of them.** `positioning.md` §4 already frames expanded testing as *"an option for later."* This is what makes it a
+> decision rather than an option: it is the answer to five live questions, not a nice-to-have.
+
+### `N3` — the answers, against the 13 questions the record says we get asked
+
+*State: **`answered`** (written down somewhere a dealer could reach it) · **`known`** (the answer is in this record
+or in someone's head, and has never been turned into an answer) · **`unanswered`**.*
+
+| # | Question (from `R3`) | Panel | State | Where the answer is, or why not |
+|---|---|---|---|---|
+| 1 | Bond or screw? | REF-CP | **`answered`** | `install-critical-notes.md` p1 — written, unpublished (`../../backlog.md` DOC-1) |
+| 2 | How far off the designed position is acceptable? | REF-CP | `known` | ~300 mm, in this record. Never published; also the brand's best unused `O2` |
+| 3 | Can it go behind fabric? | REF-CP | `known` | Yes, any stretch fabric — `N5`. Never stated as an answer |
+| 4 | Why do the absorption figures look low? | REF-CP | `known` | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. Queued as content, blocked on DOC-4 |
+| 5 | **How many, and where?** | RES-CP | **`unanswered`** | Placement known; **quantity is not written down anywhere** — `N1` |
+| 6 | Does it replace bass traps? | RES-CP | **`unanswered`** | A comparison question with no `N4` behind it |
+| 7 | Why is it bigger than the others? | RES-CP | `known` | Corner loading needs area — in `D8`. Never stated as an answer |
+| 8 | Can it go anywhere other than a corner? | RES-CP | `known` | Much weaker away from a corner — in `D9` |
+| 9 | **How much coverage?** | REV-CP | **`unanswered`** | The same quantity question as 5 |
+| 10 | Checkerboard or continuous? | REV-CP | `known` | Checkerboarded toward the rear — in `D4` |
+| 11 | Will the adhesive hold? | REV-CP | **`answered`** | The warm-room rule — written, derivative set drafted (`content-batch-001.md`) |
+| 12 | Is it fire rated? | REV-CP | `known`, partly | Class 0 core is known; **the current EN 13501-1 classification is `[?]`** (DOC-7) |
+| 13 | Can it be painted or covered? | REV-CP | **`unanswered`** | Nobody has answered this |
+
+**Three things this table says that nothing else in the repo did:**
+
+1. **Two of thirteen are written down.** The brand with the best data in the group, three SKUs, a decade of
+   deployment — and a dealer can find our answer to two of the thirteen questions we know we get asked.
+2. **Six are `known` and unwritten — and they are the cheap ones.** The answers are already in this file, in the
+   definitional fields. **Turning a `known` into an `answered` is a paragraph, not research**, and six paragraphs is
+   an afternoon. That is the single highest-return work available in the brand right now.
+3. **Three of the four unanswered questions are the same question: *how many do I need?*** (5, 6, 9). **The
+   commonest question in the range has no answer, no worked example, and no owner** — and `positioning.md` already
+   decided how to serve it. `N1` and `N2` are one piece of work, and it is the biggest content gap C-ATS has.
+
+---
+
+## The asset audit — `A1`–`A11`
+
+*Shared across the three panels; states are **`current` · `exists — stale` · `missing` · `n/a`**. **Two of eleven are
+known**, which is the honest position: the audit itself has not been done, and it should not be guessed.*
+
+| ID | Asset | State | Note |
+|---|---|---|---|
+| `A1` | Datasheet | `[?]` | Per-panel absorption coefficient sheets are published; whether a datasheet proper exists per panel is unverified |
+| `A2` | Dimensioned drawings | `[?]` | |
+| `A3` | CAD | `[?]` | Publish-versus-gate is an open decision (`../../backlog.md` DEC-5) |
+| `A4` | BIM / Revit | **`missing`** | Pre-tender specifier machinery is parked group-wide, so this is a choice rather than a debt |
+| `A5` | NBS clause | **`missing`** | Same |
+| `A6` | Install manual | **`exists — stale`** | Three guides exist and are to be rewritten by moment rather than by product structure (`../../backlog.md` DOC-3) |
+| `A7` | Commissioning guide | `[?]` | Arguably `n/a` for passive panels — but the *design* is what needs verifying, and that is `CAT-07` |
+| `A8` | Fault-finding guide | `[?]` | The two known failure modes are documented in `install-critical-notes.md` but not as a guide |
+| `A9` | "How do you do X" video | **`missing`** | Three are specified and unrecorded (`../../backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
+| `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (`../../decided.md` S12) |
+| `A11` | Spares & service | `[?]` | |
+
+**Filling this table is perhaps twenty minutes with the documentation folder open**, and it converts every "the
+manuals are poor" conversation into a list. It is the cheapest unstarted thing in this file.
+
+## What is still missing, and why it is the same six
+
+Six fields are unfilled on all three panels, and **the pattern matters more than the count**:
+
+| Missing | On | Why |
+|---|---|---|
+| `O1` — the problem in the dealer's words | all three | **Buyer-truth is parked by decision**, not by neglect (`positioning.md` §2, §7). Drafted phrasing exists in `copy.md`, but it is ours |
+| `O3` — the opportunity it opens | all three | Never established at product level; the group-level version exists and does not substitute |
+| `W2` — who signs off, and what convinces them | all three | Same parked buyer-truth |
+| `O5` — entry or flagship | all three | An unmade decision, not a missing fact (`../../backlog.md` DEC-3) |
+| `K1`, `K3` — record owner and review interval | all three | Unassigned |
+
+**Three consequences, and the first one changes a backlog item.**
+
+- **`../../backlog.md` DOC-13 cannot complete as written.** It asks for schema groups 1 and 2 filled so site copy
+  generates from the record (`../../decided.md` S19). **Group 1 is done; group 2 is half-blocked on parked
+  buyer-truth.** That is not a reason to compose the missing half — it is the reason the field exists. The honest
+  move is to generate the copy that `O2` and `O4` support and leave the `O1` slot empty until a dealer fills it.
+- **One input unblocks eleven fields across three products.** `O1`, `O3` and `W2` are the same question asked three
+  times. **The cheapest source is the one already identified** — what dealers actually ask, from the sent-mail
+  archive and from spec conversations already happening (`../../backlog.md` CON-3).
+- **`O5` is a five-minute decision holding up the on-ramp for a whole brand.** The record even suggests its own
+  answer: the REV-CP is the likeliest entry product and the RES-CP the likeliest flagship, on the evidence above.
+
+---
+
 ## What filling this in produced
 
 Seven findings, none of which needed new research — only somewhere to put what we already knew:
@@ -254,3 +411,12 @@ Seven findings, none of which needed new research — only somewhere to put what
 7. **~300 mm layout tolerance is a genuine selling point that appears in no marketing.** It says the system is
    forgiving on site — exactly what an integrator wants to hear, and exactly the kind of thing that gets lost
    when nobody owns the definitional layer.
+
+**And two more from putting it on the form** (2026-08-02):
+
+8. **The tolerance does not transfer to the RES-CP.** Corner placement is what makes that panel work, so it is the
+   one product in the range where position is *not* forgiving. Inheriting the shared claim onto all three would have
+   been a wrong statement in a datasheet — caught only because `O2` had to be answered per product rather than once.
+9. **The on-ramp is half-blocked on one parked input, not on three products' worth of work.** `O1`, `O3` and `W2`
+   are the same missing buyer-truth asked three times, and it is already being sourced (`../../backlog.md` CON-3).
+   Before the form, that read as "group 2 is unfilled"; it now reads as one question with a known source.

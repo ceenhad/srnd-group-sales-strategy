@@ -42,7 +42,7 @@ down to execution.
 
 Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
 
-1. **`group/`** — the group strategy and standards, in ten documents. Brand-agnostic, and the source of
+1. **`group/`** — the group strategy and standards, in eleven documents. Brand-agnostic, and the source of
    truth; brands apply it, they do not fork it.
    - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
      disciplines. Read this one if you read nothing else.
@@ -59,12 +59,28 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
      dealer gateway to gateway and back round the loop (`decided.md` S22); then the five pieces of machinery
      designed once as the group standard the brands inherit — with the decisions that remain marked, not
      guessed.
+   - `10-tasks.md` — **the task register**: every task a sales person and a marketing person performs, 46 of them,
+     each with an **automation verdict** (`automated` · `automatable` · `assisted` · `manual`), its performer
+     today, where it sits in the journey, and the record fields it consumes and feeds. The exhaustive version of
+     `08-sales-motion.md`'s selective account. **Every row is an unverified claim until someone who does the work
+     confirms it.**
    - `store-split-worklist.md` — a working execution list, not strategy.
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
 3. **`brands/_template/`** — the starting point for a new brand playbook.
-4. **`product-data-schema.md`** — the sales and marketing layer of product data: what is needed, why, and how it
-   will be used. Engine holds the mechanical record; this is the layer above it.
+4. **The product layer**, in three files that do different jobs and should not be merged:
+   - `product-data-schema.md` — **the argument.** What data the sales and marketing layer needs, why, and how it
+     will be used. Engine holds the mechanical record; this is the layer above it.
+   - `product-record-template.md` — **the form.** The same fields with stable IDs, fill states and completeness
+     rules, plus the **generation gates**: which fields each piece of content or campaign material needs before it
+     can be produced. What makes a record fillable by anyone and countable by anybody. **Group 04 is the knowledge
+     layer** — the answers, the sizing rule, the comparison, the timing, what the dealer tells their client. Since
+     content is the sales rep and the records are step 1 of the production line, **that group is the database the
+     rep speaks from**, and it is the half that decides whether any of the rest is worth filling.
+   - `product-register.md` — **the roster.** Every product in the group as a record scope, with its record state
+     and marketing status. Says which record to open next, and which live products have no canonical account at all.
+   - Filled records live with the brand — `brands/c-ats/product-records.md` (the worked standard) and
+     `brands/display-technologies/product-records.md` (a skeleton, where the counted gaps are the deliverable).
 5. **`current-state.md`** — the factual baseline: the sales side as it runs today and the marketing assets that
    exist, with gaps marked rather than guessed.
 6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.
