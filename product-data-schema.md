@@ -44,7 +44,7 @@ A rep does **four jobs**. The database is complete when it can do all four witho
 |---|---|---|---|
 | **1** | **Attract** — make the solution as attractive as it honestly is | Can you start a conversation a dealer actually wants to have? **This is where every hook comes from** | Stages 1–2 · gateways G1, G2 |
 | **2** | **Defend** — hold it against the alternatives | Can you win the comparison, including against doing nothing and against the dealer's incumbent supplier? | Stages 2–3 · G2, G3 |
-| **3** | **Build trust** | Can you be believed — proof, honest limits, and the things we decline to claim? | Stage 3 · **G3, the hinge** |
+| **3** | **Build trust** | Can you be believed? The proof, the honest limits, **and the claims we refuse to make** | Stage 3 · **G3, the hinge** |
 | **4** | **Deliver** — answer every question clearly, all the way to a working install | Can a dealer get from interest to a room that works without asking us anything? | Stages 4–6 · G4, G5, G6 |
 
 **Jobs 1 and 2 are the front half and they are joined:** you cannot make something attractive for long without
@@ -57,14 +57,14 @@ install. **The front half starts things; the back half is what makes them repeat
 *The jobs above are what a rep is **for**. **The tasks are what they actually do all week**, and the record has to
 be the substrate for each one — otherwise it is a reference book rather than a working system.*
 
-**The tasks are enumerated once, in [`group/10-tasks.md`](group/10-tasks.md)** — 45 of them across a sales person's
+**The tasks are enumerated once, in [`group/10-tasks.md`](group/10-tasks.md)** — 46 of them across a sales person's
 week and a marketing person's, each with an automation verdict (`automated` · `automatable` · `assisted` ·
 `manual`), the performer today, where it fits in the journey, and the record fields it consumes and feeds. Not
 repeated here.
 
 **Three things from it bear directly on this model:**
 
-1. **`assisted` is the largest verdict at a third of all tasks** — a person reviewing what the system drafted.
+1. **`assisted` is the largest verdict at 46 % of all tasks** — a person reviewing what the system drafted.
    **The system can only draft from the record**, so an empty record silently reverts every assisted task to
    manual. That is where the tasks fit: **the record is the automation substrate.**
 2. **A field no task consumes should be struck.** The tasks are what the fields are *for*, and that is the
@@ -73,11 +73,12 @@ repeated here.
    not, unless the task's output is caught. **Every task removed from a human also removes a learning input** — the
    routes in the next section exist to catch what would otherwise be discarded.
 
-**And the register's own finding, which the domain map reached independently:** six tasks have no performer at all.
-**Four are outward-sensing** — competitive response, market intelligence, competitor tracking, product feedback —
-and they are one job rather than four gaps, the same gap this model's competitive domain and the form's generation
-gates both point at. The other two are ordinary execution nobody was assigned: **product launch** and **dealer
-marketing support**.
+**And the register's own finding, which the domain map reached independently:** seven tasks have no performer at
+all. **Four are outward-sensing** — competitive response, market intelligence, competitor tracking, product
+feedback — and they are one job rather than four gaps, the same gap this model's competitive domain and the form's
+generation gates both point at. Three are ordinary execution nobody was assigned: **product launch**, **dealer
+marketing support**, and — added at the first verification pass — **the long follow-up between a quote going out
+and the order arriving**, which is automatable and sits directly on the revenue path.
 
 ## The domains — what the database must hold
 
@@ -123,34 +124,36 @@ have fields for**, which is the real gap and it is not a data gap.*
 
 ***This is the process half, and it is the part that decides whether any of it ever gets filled.*** A rep's
 knowledge is not written in a documentation project; it accretes from the work. **So does this.** Twelve domains do
-not need twelve projects — they need **six routes**, and five of the six ride on work that already happens every
-week.
+not need twelve projects.
 
-**The routes are the tasks, read the other way round.** The task map's right-hand column is the same list from the
-worker's side; this table is it from the database's side. **A route is simply a task whose output is caught instead
-of discarded** — which is why standing them up costs so little: the work is being done either way.
+**A route is a rule of the form: *when this happens, this gets written down.*** That is all one is. It has a
+trigger, a thing captured, and a person who is already present at the moment it fires. **Five of the six triggers
+are events that already happen every week** — the work is being done either way; only the writing-down is new.
 
-| Route | Fills domains | Who holds it | The capture event | Rides on |
+*Named by the trigger, deliberately: a route whose name does not say when it fires is a route nobody remembers to
+run.*
+
+| # | When this happens… | …this gets written down | Who is already there | How often |
 |---|---|---|---|---|
-| **The build** | 1, 2 (physical half), 4 | Design & production | A product is made or changed | Work already happening |
-| **The test** | 2 (measured half), 7 | The lab, the report | A test is commissioned or a report lands | Already happening, rarely |
-| **The design desk** | 3, 4 | Whoever specs jobs — **and we help spec routinely** | A job is designed or spec help is given | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
-| **The support line** | 8, 9, 10 | Whoever answers questions | A question is answered, pre-sale or on site | **Daily**, and already answered once by email |
-| **The deal** | **5, 6** | Whoever quotes | A quote goes out — **and above all, a deal is lost** | Already happening, **captured nowhere** |
-| **The owners** | 11, 12 | The owners | A review, or a position being settled | **The only added habit** |
+| **R1** | **A product is made or changed** | What it is, what it is supplied with, what it needs from the building, how it goes in — domains 1, 2, 4 | Design & production | Per change |
+| **R2** | **A test result or report arrives** | The measured performance, the test basis, and what may be shown as proof — domains 2, 7 | Whoever commissioned it | Rarely |
+| **R3** | **We help specify a job** | How you choose it and how many, the layout, what it pairs with — domains 3, 4 | Whoever specs jobs, **and we help spec routinely** | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
+| **R4** | **We answer a question** — pre-sale or on site | The question itself, the answer in the answerer's words, and what went wrong — domains 8, 9, 10 | Whoever answered it | **Daily**, and already answered once by email |
+| **R5** | **We quote — and above all, when we lose** | The commercial case, and which competitor beat us on which dimension — domains 5, 6 | Whoever quoted | Per quote. **Captured nowhere today** |
+| **R6** | **A position is settled or reviewed** | What may and may not be claimed, and what a product can honestly be hooked on — domains 11, 12 | The owners | **The one genuinely new habit** |
 
-**Three things follow, and they change what this work is.**
+**Three consequences worth stating plainly.**
 
-1. **Documentation is not one job, it is six habits.** Treating it as a single writing project is why it has never
-   started: it asks one person to hold all twelve domains, and nobody does. Split by route and each is small,
-   owned by whoever already does that work, and attached to an event that already occurs.
-2. **The lost deal is the highest-value capture event in the business and nothing catches it.** It is the only
-   moment that tells you, from outside, which competitor, on which dimension, at which stage — the entire content
-   of domain 5. **One line at the moment of losing** is worth more to the competitive domain than any amount of
-   desk research on rivals.
-3. **The two daily routes are already producing this knowledge and discarding it.** Every spec conversation fills
-   domain 3; every support answer fills domain 9. Both happen anyway, both are currently written into an email and
-   lost. **The archive is the proof** — years of sent mail already containing the answers (`backlog.md` CON-3).
+1. **A running route fills its domains forever; a field filled by a push starts decaying the day it is written.**
+   Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
+   reason those fail is that they ask one person to hold all twelve domains.
+2. **The lost deal (R5) is the highest-value trigger in the business and nothing catches it.** It is the only
+   outside view of which competitor, on which dimension, at which stage — the entire content of domain 5. **One
+   line at the moment of losing** beats any amount of desk research on rivals.
+3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the
+   application domain; every support answer fills the answers domain. Both happen anyway, both get written into an
+   email and lost. The archive is the proof (`backlog.md` CON-3) — **the knowledge exists, it has just never had
+   anywhere to land.**
 
 **And the standing boundary is unchanged.** Engine owns the mechanical record and the numbers — SKU, dimensions,
 stock, pricing, lead times as data. **The record holds the argument, not the number**: not the price but the
@@ -226,7 +229,7 @@ box.*
 | Field | Why it is needed | How it is used |
 |---|---|---|
 | **Claims supported, with the test standard and report reference** | No superlative without a measurement behind it | Copy approval; specifier-grade downloads |
-| **Claims deliberately not made** | C-ATS is why: scattering is not diffusion, and the line is a credibility boundary with specifiers | Stops a writer crossing it later without knowing it exists |
+| **The claims we refuse to make** — the wording boundary | **Not modesty: these are claims that would be untrue or unsupported.** C-ATS is why — scattering is not diffusion, and saying otherwise loses a specifier's trust permanently | Written next to the product, so a writer cannot cross the line without seeing it |
 | **Marketing status** — pre-release, demonstrable but undocumented, current, discontinued | Build it, then say it. This field alone would have caught three live errors | The Screen Wall (demonstrable since ISE 2023, no datasheet), the commercial range (not to be written up as shipping), REV-CP-12 (discontinued, still listed) |
 | **Proof available, and whether it is publishable** | At this tier the best jobs are the least publishable — NDA'd documents, no photography | What may appear in a case study; prevents someone reaching for an encumbered asset |
 

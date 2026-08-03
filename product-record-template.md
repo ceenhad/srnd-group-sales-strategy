@@ -23,7 +23,7 @@ record is done when it can do all four without them:
 |---|---|---|
 | **1 · Attract** — make it as attractive as it honestly is | Can you start a conversation a dealer wants to have? **Every hook comes from here** | **08** hook · 02 on-ramp · 04 knowledge |
 | **2 · Defend** — hold it against the alternatives | Can you win the comparison, including against the incumbent and against doing nothing? | **05** competitive · 04 knowledge · 10 claims |
-| **3 · Build trust** | Can you be believed — proof, honest limits, what we decline to claim? | 03 doubt · 10 claims · 04 knowledge |
+| **3 · Build trust** | Can you be believed? The proof, the honest limits, **and the claims we refuse to make** | 03 doubt · 10 claims · 04 knowledge |
 | **4 · Deliver** — every question answered, through to a working install | Can a dealer reach a working room without asking us anything? | 01 definition · **07** lifecycle · 04 knowledge · 12 assets |
 
 **Jobs 1 and 2 are one piece of work.** A claim you cannot defend is a hook that costs you the dealer the moment
@@ -232,7 +232,7 @@ campaign**, which the production line forbids. This group holds the material; **
 | ID | Field | Fill rule |
 |---|---|---|
 | `G1` | **Claims supported** | Each with its test standard and report reference. No superlative without a measurement behind it |
-| `G2` | **Claims deliberately not made** | The credibility boundary, written down so a writer cannot cross it without knowing it exists |
+| `G2` | **The claims we refuse to make** | **A wording boundary, not modesty.** These are claims that would be untrue or unsupported — written next to the product so a writer cannot cross the line without seeing it. C-ATS never says *diffusion*, because the mechanism is scattering. DT never says *engineered to your exact projector*, because the products are size-driven |
 | `G3` | **Marketing status** | One of: `pre-release` · `demonstrable, undocumented` · `current` · `discontinued`. **Build it, then say it** |
 | `G4` | **Proof available, and publishable?** | What exists, and whether it may be shown. At this tier the best jobs are the least publishable |
 
@@ -330,7 +330,7 @@ the thing also tells you what to fix about it**, and that is a reason to keep it
 - **`G3` gates publication of anything.** A product that is `pre-release` or `demonstrable, undocumented` generates
   internal material only. This one field would have caught three live errors: the Screen Wall, the C-ATS commercial
   range, and REV-CP-12.
-- **`G2` gates every claim.** A writer working from a record with `G2` filled cannot cross a credibility boundary
+- **`G2` gates every claim.** A writer working from a record with `G2` filled cannot cross the wording boundary
   without seeing it first. That is the entire mechanism — *scattering, never diffusion* only survives if it is
   written next to the product it applies to.
 
@@ -444,7 +444,7 @@ unrecorded) · `unanswered`.*
 | ID | Field | Value |
 |---|---|---|
 | G1 | Claims supported | |
-| G2 | Claims not made | |
+| G2 | The claims we refuse to make | |
 | G3 | Marketing status | |
 | G4 | Proof, and publishable? | |
 
@@ -467,32 +467,31 @@ unrecorded) · `unanswered`.*
 
 ## How it gets filled — the six routes
 
-***The system half, and it decides whether any of the above ever happens.*** Fifty-eight fields across twelve
-domains is not twelve projects and not one documentation push. **A rep's knowledge accretes from the work; so does
-this.** Six capture routes, five of them attached to events that already occur (`product-data-schema.md`, part
-one).
+***The system half, and it decides whether any of the above ever happens.*** **A route is a rule: *when this
+happens, this gets written down.*** Fifty-eight fields is not twelve projects and not one documentation push — it
+is six triggers, five of which already fire every week (`product-data-schema.md`, part one).
 
-| Route | Fills | The event | Frequency |
+| # | When this happens… | …this gets written down | How often |
 |---|---|---|---|
-| **The build** | `D1`–`D10` (physical half), `L1`, `L2` | A product is made or changed | Per change |
-| **The test** | `D9`, `G1`, `G4` | A test is commissioned; a report lands | Rare |
-| **The design desk** | `N1`, `N2`, `N5`, `D4`, `D5` | A job is designed, or spec help is given | **Daily** |
-| **The support line** | `R3`, `R4`, `N3`, `L3`, `L4` | A question is answered, pre-sale or on site | **Daily** |
-| **The deal** | `X1`–`X6`, `M1`–`M5`, `O1` | A quote goes out — **and above all, a deal is lost** | Per quote |
-| **The owners** | `H1`–`H3`, `G2`, `G3`, `K1`–`K3` | A review; a position settled | The one added habit |
+| **R1** | A product is made or changed | `D1`–`D10` · `L1` `L2` | Per change |
+| **R2** | A test result or report arrives | `D9` · `G1` · `G4` | Rarely |
+| **R3** | We help specify a job | `N1` `N2` `N5` · `D4` `D5` | **Daily** |
+| **R4** | We answer a question, pre-sale or on site | `R3` `R4` `N3` · `L3` `L4` | **Daily** |
+| **R5** | We quote — **and above all, when we lose** | `X1`–`X6` · `M1`–`M5` · `O1` | Per quote |
+| **R6** | A position is settled or reviewed | `H1`–`H3` · `G2` `G3` · `K1`–`K3` | The one new habit |
 
 **Three consequences worth stating plainly.**
 
-1. **A running route fills its domains forever; a field filled by a push starts decaying the day it is written.**
+1. **A running route fills its fields forever; a field filled by a push starts decaying the day it is written.**
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
-   reason those fail is that they ask one person to hold all twelve domains.
-2. **The lost deal is the highest-value capture event in the business and nothing catches it.** It is the only
-   outside view of which competitor, on which dimension, at which stage — the entire content of group 05. **One
-   line at the moment of losing** beats any amount of desk research on rivals.
-3. **The two daily routes already produce this and throw it away.** Every spec conversation fills the application
-   domain; every support answer fills the answers domain. Both happen anyway, both get written into an email and
-   lost. The archive is the proof (`backlog.md` CON-3) — **the knowledge exists, it has just never had anywhere to
-   land.**
+   reason those fail is that they ask one person to hold everything.
+2. **The lost deal is the highest-value trigger in the business and nothing catches it.** It is the only outside
+   view of which competitor, on which dimension, at which stage — the entire content of group 05. **One line at
+   the moment of losing** beats any amount of desk research on rivals.
+3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the
+   application fields; every support answer fills the knowledge fields. Both happen anyway, both get written into
+   an email and lost. The archive is the proof (`backlog.md` CON-3) — **the knowledge exists, it has just never
+   had anywhere to land.**
 
 ## How this gets used
 
