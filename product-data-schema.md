@@ -73,8 +73,8 @@ repeated here.
    not, unless the task's output is caught. **Every task removed from a human also removes a learning input** — the
    routes in the next section exist to catch what would otherwise be discarded.
 
-**And the register's own finding, which the domain map reached independently:** seven tasks have no performer at
-all. **Four are outward-sensing** — competitive response, market intelligence, competitor tracking, product
+**And the register's own finding, which the domain map reached independently:** seven tasks have no owner in the
+model. They are being done informally; what is missing is a role that owns them and somewhere the output lands. **Four are outward-sensing** — competitive response, market intelligence, competitor tracking, product
 feedback — and they are one job rather than four gaps, the same gap this model's competitive domain and the form's
 generation gates both point at. Three are ordinary execution nobody was assigned: **product launch**, **dealer
 marketing support**, and — added at the first verification pass — **the long follow-up between a quote going out

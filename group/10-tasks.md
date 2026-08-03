@@ -41,12 +41,19 @@ A task marked `assisted` is one where that split works. A task marked `manual` i
 
 ## The sales person's tasks
 
-*Performer today: `content` · `store/engine` · `tools` · `person` · **`nobody`**.*
+*Assigned to: `content` · `store/engine` · `tools` · `person` · **`unassigned`**.*
+
+> **What `unassigned` means, and what it does not.** It means **no role owns the task and its output lands
+> nowhere.** It does **not** mean the work is not happening — in a business this size most of it happens
+> informally, by whoever is there. **Correction, 2026-08-02:** an earlier version of this file read `nobody` and
+> was taken to claim the work was not being done. That was never checked and is not true. Who actually performs
+> each one is unverified; what is recorded here is the absence of an owner and of a place for the output to
+> accumulate.
 
 **Renumbered once, at the first verification pass (2026-08-02), so the sequence follows the actual order of work.
 Nothing cited these IDs yet; from here they are stable.**
 
-| ID | Task | Verdict | Performer today | Where it fits | Record fields | Verified? |
+| ID | Task | Verdict | Assigned to | Where it fits | Record fields | Verified? |
 |---|---|---|---|---|---|---|
 | `T-S01` | Build the target list | `automatable` | `content` inbound; `person` for cold | Stage 1 | `O1` `H1` | claim |
 | `T-S02` | **Reach a dealer who has never heard of us** — be findable when they search the problem, and be the answer an AI engine returns | **`automated`** | `content` — search, AI answers, social, press | Stage 1 · G1 | `H1` `H2` `O1` `R1` | claim |
@@ -56,9 +63,9 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S06` | **Discover** — their business, their fears, last job's failure | `assisted` — the conversation is human, **the capture is not** | the spec conversation | Stage 2–3 · **our only discovery channel** | feeds `O1` `N1` `N5` `R3` `W2` | **confirmed** |
 | `T-S07` | Technical selling — help specify a live job | `assisted` | the design desk + `content` | Stage 3 | `D1`–`D10` `N1` `N2` `N5` | **confirmed** |
 | `T-S08` | Produce a quote | **`automated`** | `store/engine` | Stage 4 · G4 | `M1`–`M3` | claim |
-| `T-S09` | **Follow up through the project's lead time** — projects run long, so quote to order is often months of staying present without nagging | **`automatable`** | **`nobody` systematically** | Stage 4 · **the gap between G4's quote and its order** | `M2` `N6` `O3` | **added by Neil, 2026-08-02** |
+| `T-S09` | **Follow up through the project's lead time** — projects run long, so quote to order is often months of staying present without nagging | **`automatable`** | **`unassigned` — happens, but not systematically** | Stage 4 · **the gap between G4's quote and its order** | `M2` `N6` `O3` | **added by Neil, 2026-08-02** |
 | `T-S10` | Handle objections | `automatable` **once group 05 is filled** | `content` | Stage 3 · G3 | `R1` `X1`–`X5` `G1` | claim |
-| `T-S11` | **Defend against a named competitor** | `assisted` — no comparison material exists to defend with | **`nobody`** | Stage 3 · G3 | `X1`–`X5`; **`X6` reads from engine's pipeline** | claim |
+| `T-S11` | **Defend against a named competitor** | `assisted` — no comparison material exists to defend with | **`unassigned`** | Stage 3 · G3 | `X1`–`X5`; **`X6` reads from engine's pipeline** | claim |
 | `T-S12` | Negotiate terms | `manual` | `person` | Stage 4 | `M4` | claim — *largely settled: pricing gated, no dealer credit (`../decided.md` C8)* |
 | `T-S13` | **Close — want the order and ask for it** | **`manual`** | `person` — **unnamed** (component 5) | Stage 4 · G4 | `M4` `O3` | claim |
 | `T-S14` | Onboard the account | **`automated`** + assisted welcome | `store/engine` | G3→G4 | `M1` `L1` | claim |
@@ -70,8 +77,8 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S20` | Recover a failure | **`manual`** | `person`, thinly covered | Stage 5 | `R4` `L4` `L5` → `N8` `X6` | claim |
 | `T-S21` | Train the dealer's staff | `automatable` | `content` — assembled from the corpus (`../decided.md` S12) | Stage 5–6 | `A6`–`A9` `N1`–`N4` | claim — *parked with the training programme* |
 | `T-S22` | Pipeline and forecast | **`automated`** | `store/engine` | — | — | claim |
-| `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | **`nobody`** | — | feeds `X1`–`X5`; **win/loss already in engine** | **confirmed (Neil)** |
-| `T-S24` | **Feed product development** | `assisted` — capture manual, aggregation automatic | **`nobody`** | — | feeds `X4` `N9` | claim |
+| `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | **`unassigned`** | — | feeds `X1`–`X5`; **win/loss already in engine** | **confirmed (Neil)** |
+| `T-S24` | **Feed product development** | `assisted` — capture manual, aggregation automatic | **`unassigned`** | — | feeds `X4` `N9` | claim |
 | `T-S25` | Events and keeping relationships warm | `manual` | `person` | Stage 1–2, 6 | `H2` | claim — *ISE booked; CEDIA out (`../decided.md` E1–E3)* |
 | `T-S26` | Territory planning | **`assisted`** | `person` | — | `C2` | **confirmed (Neil)** |
 | `T-S27` | **The novel problem** — *"can you do this impossible project?"* | **`manual`** | the authority | Stage 3 | feeds `N8` `N9` | claim — *the business's best work* |
@@ -79,13 +86,13 @@ Nothing cited these IDs yet; from here they are stable.**
 
 ## The marketing person's tasks
 
-*Never inventoried before. SRND has no marketing department, so the point of the list is to see which tasks have a
-performer and which have simply never been assigned.*
+*Never inventoried before. SRND has no marketing department, so the point of the list is to see which tasks have
+an owner and which are simply picked up by whoever is there.*
 
-| ID | Task | Verdict | Performer today | Where it fits | Record fields | Verified? |
+| ID | Task | Verdict | Assigned to | Where it fits | Record fields | Verified? |
 |---|---|---|---|---|---|---|
 | `T-M01` | Market and segment research | **`assisted`** | `person`, thin | — | — | **confirmed (Neil)** |
-| `T-M02` | **Competitor tracking** | `automatable` in part — public sources | **`nobody`** | Component 5 | feeds `X1`–`X4` | claim |
+| `T-M02` | **Competitor tracking** | `automatable` in part — public sources | **`unassigned`** | Component 5 | feeds `X1`–`X4` | claim |
 | `T-M03` | Positioning and messaging | **`assisted`** | the owner — done, in `brands/<brand>/positioning.md` | — | `D1` `O1`–`O4` → `G2` | **confirmed (Neil)** |
 | `T-M04` | Campaign planning | `assisted` | the pathways + hook matrix | Component 1 | `H1` `O1` `R1` | claim |
 | `T-M05` | **Content production** | **`assisted`** — drafting automated, truth-check never | **the production line** (component 2) | Every stage | **the whole record** | **confirmed** (`../decided.md` S24) |
@@ -95,12 +102,12 @@ performer and which have simply never been assigned.*
 | `T-M09` | Lead capture and nurture | **`automated`** | `tools` + `store/engine` | G2 · G3 | `N1` | claim |
 | `T-M10` | Collateral — datasheets, case studies | `assisted` | the generation gates | Stage 2–3 | `D`/`G`/`A` groups | claim |
 | `T-M11` | Brand consistency | **`automated` at drafting time** | guardrails baked into the line | Component 2 | `G2` | claim |
-| `T-M12` | **Dealer marketing support** — material a partner uses with their own client | `assisted` | **`nobody`** | Stage 6 | **`N7`** | claim |
+| `T-M12` | **Dealer marketing support** — material a partner uses with their own client | `assisted` | **`unassigned`** | Stage 6 | **`N7`** | claim |
 | `T-M13` | Events and exhibitions | `manual` | `person` | Stage 1 | — | claim |
 | `T-M14` | Trade press and PR | `assisted` | thin — the EI microsite runs near-empty | Stage 1–2 | `H2` `G4` | claim |
 | `T-M15` | Measurement and reporting | `automatable` | defined; **instrumentation partly unowned** (`../backlog.md` W8) | Every gateway | `H3` | claim |
 | `T-M16` | CRM and data hygiene | **`automated`** | `store/engine` | — | — | claim |
-| `T-M17` | **Product launch** | `assisted` | **`nobody`** | Stage 2 | `G3` `D1`–`D10` `H2` | claim |
+| `T-M17` | **Product launch** | `assisted` | **`unassigned`** | Stage 2 | `G3` `D1`–`D10` `H2` | claim |
 | `T-M18` | Budget and spend allocation | `manual` | the owner | — | — | claim |
 
 ---
@@ -141,9 +148,10 @@ noticeably — see the note below.*
   the system can only draft from the record. **An empty record silently reverts every assisted task to manual** —
   and with `assisted` now the largest category by some way, that dependency got stronger, not weaker.
 
-### The unowned tasks, in one place
+### The unassigned tasks, in one place
 
-**Seven tasks have no performer at all**, and they split three ways:
+**Seven tasks have no owner in the model.** They are being done — informally, by whoever is there. What is missing
+is a role that owns them and somewhere their output lands, so nothing accumulates from the doing:
 
 | | Task | Kind |
 |---|---|---|
@@ -155,14 +163,15 @@ noticeably — see the note below.*
 | `T-M12` | **Dealer marketing support** | execution |
 | `T-M17` | **Product launch** | execution |
 
-**The four sensing tasks are one job, not four gaps.** Nobody is looking at the market or at rivals. **Not "at why
-we lose" — that was wrong**: engine's CRM does classic pipeline management and already records win/loss (Neil,
-2026-08-02). The gap is that nothing *reads* it into the competitive group. Recorded as evidence that component 5's *"market intelligence: no substitute exists"* hole is wider than the
+**The four sensing tasks are one job, not four gaps.** Looking outward happens — in conversations, at shows, when
+a deal is lost — but it is nobody's job and it lands nowhere, so it does not compound. **Not "at why we lose" —
+that was wrong**: engine's CRM does classic pipeline management and already records win/loss (Neil, 2026-08-02).
+The gap is that nothing *reads* it into the competitive group. Recorded as evidence that component 5's *"market intelligence: no substitute exists"* hole is wider than the
 one line it was logged as — **and, per the first verification pass, shallower than it was logged as too**: market
 intelligence is at worst `assisted` and possibly `automatable`, so it is a build rather than a wall. Role, standing
 habit, or accepted hole is `../backlog.md` SYS-6.
 
-**The three execution tasks are ordinary work nobody was assigned**, and one of them is new:
+**The three execution tasks are ordinary work with no owner**, and one of them is new:
 
 - **`T-S09` follow-up through the lead time.** Projects run for months; the quote goes out and then the stage that
   decides whether it converts belongs to nobody. **Automatable, unbuilt, and sitting directly on the revenue
