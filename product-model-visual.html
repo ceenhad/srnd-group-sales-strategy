@@ -1,4 +1,4 @@
-<title>SRND — the approach, listed</title>
+<title>SRND — the strategy and the system, listed</title>
 
 <style>
   :root {
@@ -81,6 +81,17 @@
   .sub-head h3 { flex: 1; }
   .sub-head .c { font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); }
 
+  .colhdr { display: flex; gap: 0.85rem; padding: 0.35rem 0.95rem; border-bottom: 1px solid var(--line); background: var(--surface-2); font-family: var(--f-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .colhdr .h1c { flex: none; min-width: 3.4rem; }
+  .colhdr .h2c { flex: 1; min-width: 12rem; }
+  .colhdr .h3c { flex: none; min-width: 5.6rem; }
+  .colhdr .h4c { flex: none; min-width: 6.5rem; text-align: right; }
+  .colhdr.t { }
+  .colhdr.t .h1c { min-width: 3.2rem; }
+  .colhdr.t .h2c { min-width: 10rem; }
+  .colhdr.t .h3c { min-width: 5.2rem; }
+  .colhdr.t .h4c { min-width: 5.4rem; text-align: left; }
+
   .legend { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.76rem; color: var(--muted); }
   .legend span { display: inline-flex; align-items: baseline; gap: 0.35rem; }
   .legend b { font-family: var(--f-mono); font-size: 0.68rem; padding: 0.06rem 0.36rem; border: 1px solid currentColor; font-weight: 400; }
@@ -101,6 +112,92 @@
   .frow:last-child { border-bottom: 0; }
   .frow .fid { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); flex: none; min-width: 2.6rem; }
 
+
+  /* ---------- diagrams ---------- */
+  .diagram { border: 1px solid var(--line); background: var(--surface); padding: 1rem 0.9rem; overflow-x: auto; }
+  .dcap { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.7rem; }
+
+  /* moat */
+  .moat { display: flex; align-items: stretch; gap: 0.6rem; flex-wrap: wrap; }
+  .mbox { flex: 1 1 200px; border: 1px solid var(--line); padding: 0.7rem 0.8rem; display: flex; flex-direction: column; gap: 0.25rem; background: var(--ground); }
+  .mbox .mt { font-weight: 640; font-size: 0.88rem; }
+  .mbox .ms { font-size: 0.79rem; color: var(--muted); line-height: 1.4; }
+  .mjoin { display: flex; align-items: center; justify-content: center; font-family: var(--f-mono); font-size: 1.1rem; color: var(--accent); flex: none; padding: 0 0.15rem; }
+  .mout { flex: 1 1 220px; border: 2px solid var(--accent); background: var(--accent-soft); padding: 0.7rem 0.8rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .mout .mt { color: var(--ink); }
+
+  /* journey rail */
+  .rail { display: flex; align-items: stretch; min-width: 780px; }
+  .stg { flex: 1; border: 1px solid var(--line); background: var(--ground); padding: 0.6rem 0.55rem 0.65rem; display: flex; flex-direction: column; gap: 0.2rem; }
+  .stg .sn { font-family: var(--f-mono); font-size: 0.68rem; color: var(--accent); font-weight: 640; }
+  .stg .st { font-size: 0.78rem; font-weight: 600; line-height: 1.3; }
+  .stg .sw { font-size: 0.72rem; color: var(--muted); line-height: 1.35; }
+  .gw { flex: none; width: 62px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.2rem; padding: 0 0.15rem; }
+  .gw .gcode { font-family: var(--f-mono); font-size: 0.72rem; font-weight: 640; padding: 0.08rem 0.32rem; border: 1px solid currentColor; }
+  .gw .gsig { font-family: var(--f-mono); font-size: 0.56rem; letter-spacing: 0.05em; text-transform: uppercase; text-align: center; line-height: 1.2; }
+  .gw::before { content: ""; display: block; width: 100%; height: 1px; background: var(--line); margin-bottom: 0.15rem; }
+  .g-live { color: var(--accent); }
+  .g-part { color: var(--warn); }
+  .g-none { color: var(--crit); }
+  .g-none .gcode { border-style: dashed; }
+  .hinge-mark { position: relative; }
+  .hinge-mark::after { content: "THE HINGE"; position: absolute; top: -0.55rem; left: 50%; transform: translateX(-50%); font-family: var(--f-mono); font-size: 0.5rem; letter-spacing: 0.12em; color: var(--accent); white-space: nowrap; }
+  .loopback { display: flex; align-items: center; gap: 0.5rem; min-width: 780px; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed var(--accent); font-family: var(--f-mono); font-size: 0.64rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+  .loopback .arw { font-size: 0.9rem; }
+  .gwkey { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 0.7rem; font-size: 0.72rem; color: var(--muted); }
+  .gwkey span { display: inline-flex; align-items: center; gap: 0.32rem; }
+  .gwkey i { width: 14px; height: 10px; border: 1px solid currentColor; flex: none; }
+
+  /* hinge split */
+  .split { display: flex; align-items: stretch; gap: 0; flex-wrap: wrap; }
+  .side { flex: 1 1 260px; padding: 0.8rem 0.9rem; border: 1px solid var(--line); display: flex; flex-direction: column; gap: 0.3rem; background: var(--ground); }
+  .side .sl { font-family: var(--f-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  .side .sb { font-size: 0.82rem; line-height: 1.45; }
+  .gate { flex: none; width: 100%; background: var(--accent); color: var(--ground); padding: 0.5rem; text-align: center; font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; }
+  @media (min-width: 720px) {
+    .gate { width: 130px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; padding: 0.6rem 0.4rem; }
+  }
+
+  /* machinery */
+  .mach { display: grid; gap: 0.5rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .mc { border: 1px solid var(--line); background: var(--ground); padding: 0.6rem 0.7rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .mc .mcn { font-family: var(--f-mono); font-size: 0.62rem; letter-spacing: 0.1em; color: var(--accent); }
+  .mc .mct { font-size: 0.84rem; font-weight: 620; }
+  .mc .mcs { font-size: 0.72rem; color: var(--muted); line-height: 1.35; }
+  .mc .mcstg { font-family: var(--f-mono); font-size: 0.62rem; color: var(--ink-2); margin-top: auto; padding-top: 0.4rem; border-top: 1px dashed var(--line); }
+
+  /* appeals */
+  .appeals { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  .ap { border: 1px solid var(--accent); color: var(--accent); padding: 0.35rem 0.7rem; font-size: 0.82rem; }
+  .ap b { font-family: var(--f-mono); font-size: 0.62rem; display: block; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; }
+
+
+  /* ---------- stage map ---------- */
+  .smap { display: flex; min-width: 820px; gap: 2px; align-items: flex-end; }
+  .scol { flex: 1; display: flex; flex-direction: column; gap: 0.3rem; }
+  .scol .sbar { display: flex; flex-direction: column-reverse; gap: 1px; height: 108px; justify-content: flex-start; }
+  .scol .sbar i { display: block; width: 100%; }
+  .b-au { background: var(--accent); }
+  .b-ab { background: var(--accent-soft); border: 1px solid var(--accent); box-sizing: border-box; }
+  .b-as { background: var(--warn); }
+  .b-mn { background: var(--crit); }
+  .scol .slab { border-top: 2px solid var(--ink); padding-top: 0.35rem; display: flex; flex-direction: column; gap: 0.1rem; }
+  .scol .slab .sno { font-family: var(--f-mono); font-size: 0.66rem; color: var(--accent); font-weight: 640; }
+  .scol .slab .snm { font-size: 0.76rem; font-weight: 600; line-height: 1.25; }
+  .scol .slab .sct { font-family: var(--f-mono); font-size: 0.64rem; color: var(--muted); }
+
+  .stageblk { border: 1px solid var(--line); background: var(--surface); }
+  .stageblk .sh { display: flex; align-items: baseline; gap: 0.6rem; padding: 0.5rem 0.95rem; background: var(--surface-2); border-bottom: 1px solid var(--line); }
+  .stageblk .sh .n { font-family: var(--f-mono); font-size: 0.74rem; color: var(--accent); font-weight: 640; }
+  .stageblk .sh .t { font-weight: 620; font-size: 0.88rem; }
+  .stageblk .sh .c { margin-left: auto; font-family: var(--f-mono); font-size: 0.66rem; color: var(--muted); }
+  .trow { display: flex; gap: 0.7rem; padding: 0.34rem 0.95rem; border-bottom: 1px solid var(--line-soft); align-items: baseline; font-size: 0.85rem; }
+  .trow:last-child { border-bottom: 0; }
+  .trow .tid { font-family: var(--f-mono); font-size: 0.68rem; color: var(--muted); flex: none; min-width: 3.2rem; }
+  .trow .tnm { flex: 1; min-width: 10rem; }
+  .trow .tv { font-family: var(--f-mono); font-size: 0.64rem; flex: none; padding: 0.04rem 0.34rem; border: 1px solid currentColor; }
+  .trow .tno { font-family: var(--f-mono); font-size: 0.62rem; color: var(--crit); flex: none; letter-spacing: 0.06em; }
+
   footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: 0.8rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -111,13 +208,14 @@
 
   <header class="masthead">
     <div class="rule-top">
-      <span class="eyebrow">SRND Group · the approach, listed · rev 11 — numbering swept</span>
+      <span class="eyebrow">SRND Group · the approach, listed · rev 15 — tasks mapped to stages</span>
       <span class="eyebrow">9 verdicts changed · 1 task added</span>
     </div>
-    <h1>Jobs, tasks, domains, routes</h1>
-    <p class="lede">The four lists the approach is built from. <strong>A rep does four jobs. To do them they perform
-      46 tasks. To perform those they need to know twelve things. Those twelve get filled by six routes.</strong>
-      The product record, the form and the register all follow from these four lists.</p>
+    <h1>The strategy, and the system that serves it</h1>
+    <p class="lede"><strong>A rep does four jobs. To do them they perform 46 tasks. To perform those they need to
+      know twelve things. Those twelve get filled by six routes.</strong> Those four lists come first. The strategy
+      they serve — the moat, the buyer journey, the hinge, the gateways, the machinery and the standing rules —
+      follows at the end.</p>
     <div class="caveat"><strong>Every row is a claim, not a finding.</strong> Assembled from the strategy documents,
       not from watching anyone work. Verdicts and performers are proposals: strike what is wrong. One verification
       pass has been done — nine verdicts changed and one task was added.</div>
@@ -170,8 +268,8 @@
       <div class="bar"></div>
       <span class="count">list 2 of 4 · forty-six tasks</span>
       <h2>The tasks — what they actually do all week</h2>
-      <p class="note">Each carries an automation verdict and whoever performs it today.
-        <span class="mono">nobody</span> means no one currently does it.</p>
+      <p class="note">The verdict is whether the task <em>could</em> run without a person. Where a task is carried by
+        content, the store, engine or the tools, that is named alongside it.</p>
     </div>
     <div class="legend">
       <span><b class="t-automated">automated</b>runs today with no person in the loop</span>
@@ -182,6 +280,7 @@
 
     <div class="list">
       <div class="sub-head"><h3>Sales</h3><span class="c">28 tasks</span></div>
+      <div class="colhdr"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
       <div class="row"><span class="id">T-S01</span><span class="txt">Build the target list</span><span class="tag t-automatable">automatable</span><span class="who">content · person</span></div>
       <div class="row"><span class="id">T-S02</span><span class="txt">Reach a dealer who has never heard of us<span class="sub">be findable when they search the problem; be the answer an AI engine returns</span></span><span class="tag t-automated">automated</span><span class="who">content</span></div>
       <div class="row"><span class="id">T-S03</span><span class="txt">Qualify the dealer<span class="sub">instinct and rapport</span></span><span class="tag t-assisted">assisted</span><span class="who">person + engine</span></div>
@@ -190,9 +289,9 @@
       <div class="row"><span class="id">T-S06</span><span class="txt">Discover — their business, their fears, last job's failure<span class="sub">the conversation is human; the capture is not</span></span><span class="tag t-assisted">assisted</span><span class="who">spec conversation</span></div>
       <div class="row"><span class="id">T-S07</span><span class="txt">Technical selling — help specify a live job</span><span class="tag t-assisted">assisted</span><span class="who">design desk</span></div>
       <div class="row"><span class="id">T-S08</span><span class="txt">Produce a quote</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
-      <div class="row"><span class="id">T-S09</span><span class="txt">Follow up through the project's lead time<span class="sub">projects run for months — quote to order is a long stage nobody runs systematically</span></span><span class="tag t-automatable">automatable</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-S09</span><span class="txt">Follow up through the project's lead time<span class="sub">projects run for months — quote to order is a long stage nobody runs systematically</span></span><span class="tag t-automatable">automatable</span><span class="who"></span></div>
       <div class="row"><span class="id">T-S10</span><span class="txt">Handle objections</span><span class="tag t-automatable">automatable</span><span class="who">content</span></div>
-      <div class="row"><span class="id">T-S11</span><span class="txt">Defend against a named competitor<span class="sub">no comparison material exists to defend with</span></span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-S11</span><span class="txt">Defend against a named competitor<span class="sub">no comparison material exists to defend with</span></span><span class="tag t-assisted">assisted</span><span class="who"></span></div>
       <div class="row"><span class="id">T-S12</span><span class="txt">Negotiate terms</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
       <div class="row"><span class="id">T-S13</span><span class="txt">Close — want the order and ask for it</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
       <div class="row"><span class="id">T-S14</span><span class="txt">Onboard the account</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
@@ -204,15 +303,16 @@
       <div class="row"><span class="id">T-S20</span><span class="txt">Recover a failure</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
       <div class="row"><span class="id">T-S21</span><span class="txt">Train the dealer's staff</span><span class="tag t-automatable">automatable</span><span class="who">content</span></div>
       <div class="row"><span class="id">T-S22</span><span class="txt">Pipeline and forecast</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
-      <div class="row"><span class="id">T-S23</span><span class="txt">Bring back market intelligence<span class="sub">possibly automatable</span></span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
-      <div class="row"><span class="id">T-S24</span><span class="txt">Feed product development</span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-S23</span><span class="txt">Bring back market intelligence<span class="sub">possibly automatable</span></span><span class="tag t-assisted">assisted</span><span class="who"></span></div>
+      <div class="row"><span class="id">T-S24</span><span class="txt">Feed product development</span><span class="tag t-assisted">assisted</span><span class="who"></span></div>
       <div class="row"><span class="id">T-S25</span><span class="txt">Events and keeping relationships warm</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
       <div class="row"><span class="id">T-S26</span><span class="txt">Territory planning</span><span class="tag t-assisted">assisted</span><span class="who">person</span></div>
       <div class="row"><span class="id">T-S27</span><span class="txt">The novel problem — “can you do this impossible project?”</span><span class="tag t-manual">manual</span><span class="who">the authority</span></div>
       <div class="row"><span class="id">T-S28</span><span class="txt">Recognition and thanks</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
     <div class="sub-head"><h3>Marketing</h3><span class="c">18 tasks</span></div>
+      <div class="colhdr"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
       <div class="row"><span class="id">T-M01</span><span class="txt">Market and segment research</span><span class="tag t-assisted">assisted</span><span class="who">person</span></div>
-      <div class="row"><span class="id">T-M02</span><span class="txt">Competitor tracking</span><span class="tag t-automatable">automatable</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-M02</span><span class="txt">Competitor tracking</span><span class="tag t-automatable">automatable</span><span class="who"></span></div>
       <div class="row"><span class="id">T-M03</span><span class="txt">Positioning and messaging</span><span class="tag t-assisted">assisted</span><span class="who">the owner</span></div>
       <div class="row"><span class="id">T-M04</span><span class="txt">Campaign planning</span><span class="tag t-assisted">assisted</span><span class="who">pathways</span></div>
       <div class="row"><span class="id">T-M05</span><span class="txt">Content production<span class="sub">drafting automated; the truth-check never is</span></span><span class="tag t-assisted">assisted</span><span class="who">production line</span></div>
@@ -222,12 +322,12 @@
       <div class="row"><span class="id">T-M09</span><span class="txt">Lead capture and nurture</span><span class="tag t-automated">automated</span><span class="who">tools · engine</span></div>
       <div class="row"><span class="id">T-M10</span><span class="txt">Collateral — datasheets, case studies</span><span class="tag t-assisted">assisted</span><span class="who">generation gates</span></div>
       <div class="row"><span class="id">T-M11</span><span class="txt">Brand consistency</span><span class="tag t-automated">automated</span><span class="who">guardrails</span></div>
-      <div class="row"><span class="id">T-M12</span><span class="txt">Dealer marketing support<span class="sub">material a partner uses with their own client</span></span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-M12</span><span class="txt">Dealer marketing support<span class="sub">material a partner uses with their own client</span></span><span class="tag t-assisted">assisted</span><span class="who"></span></div>
       <div class="row"><span class="id">T-M13</span><span class="txt">Events and exhibitions</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
       <div class="row"><span class="id">T-M14</span><span class="txt">Trade press and PR</span><span class="tag t-assisted">assisted</span><span class="who">thin</span></div>
       <div class="row"><span class="id">T-M15</span><span class="txt">Measurement and reporting</span><span class="tag t-automatable">automatable</span><span class="who">partly unowned</span></div>
       <div class="row"><span class="id">T-M16</span><span class="txt">CRM and data hygiene</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
-      <div class="row"><span class="id">T-M17</span><span class="txt">Product launch</span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-M17</span><span class="txt">Product launch</span><span class="tag t-assisted">assisted</span><span class="who"></span></div>
       <div class="row"><span class="id">T-M18</span><span class="txt">Budget and spend allocation</span><span class="tag t-manual">manual</span><span class="who">the owner</span></div>
     </div>
   </section>
@@ -420,6 +520,305 @@
       <div class="frow"><span class="fid">K2</span>Last reviewed</div>
       <div class="frow"><span class="fid">K3</span>Review interval</div>
     </div>
+  </section>
+
+
+  <!-- THE STRATEGY -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · what the four lists serve</span>
+      <h2>The moat, and the three beats it reduces to</h2>
+      <p class="note">Set at group level and brand-agnostic. Brands apply it; they do not fork it.</p>
+    </div>
+    <div class="diagram">
+      <div class="dcap">why the position is hard to copy</div>
+      <div class="moat">
+        <div class="mbox"><span class="mt">Understanding the dealer's job</span><span class="ms">Twenty years of distribution — selling to these people before we made anything</span></div>
+        <div class="mjoin">+</div>
+        <div class="mbox"><span class="mt">The ability to act on it</span><span class="ms">Owning the brands, the factory, and what the products do</span></div>
+        <div class="mjoin">=</div>
+        <div class="mout"><span class="mt">Depth spent on the dealer</span><span class="ms">A distributor has the first without the second and can only pass a request upstream. A manufacturer without the channel history has the second without the first</span></div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="row"><span class="txt"><strong>Unmatched technical depth, plus a real understanding of the dealer's job, spent on the dealer.</strong><span class="sub">Not depth for its own sake — depth aimed at making the dealer more capable than their competitors. The evidence is what already arrives: <em>“I have an impossible project, can you do it?”</em></span></span></div>
+      <div class="row"><span class="txt"><strong>Both halves come from somewhere specific</strong><span class="sub">The understanding of the dealer's job comes from twenty years of distribution — selling to these people before we made anything. The ability to act on it comes from owning the brands, the factory and what the products do. A distributor has the first without the second; a manufacturer without the channel history has the second without the first</span></span></div>
+      <div class="row"><span class="txt"><strong>The dealer relationship is the asset</strong><span class="sub">Counted across every brand and over years. A dealer won through one brand is a doorway the whole group cross-sells through, because the brands serve the same room. Which is why dealers are not triaged by any single brand's order size</span></span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · six stages</span>
+      <h2>The buyer journey</h2>
+      <p class="note">From a dealer who has never heard of us to one who orders across the group. Every task in
+        list 2 sits at one of these stages.</p>
+    </div>
+    <div class="diagram">
+      <div class="dcap">the six stages, the gateways between them, and the loop</div>
+      <div class="rail">
+        <div class="stg"><span class="sn">1</span><span class="st">Unaware</span><span class="sw">Get in front of them</span></div>
+        <div class="gw g-part"><span class="gcode">G1</span><span class="gsig">hook<br>landed</span></div>
+        <div class="stg"><span class="sn">2</span><span class="st">Name lands</span><span class="sw">Land the proposition</span></div>
+        <div class="gw g-part"><span class="gcode">G2</span><span class="gsig">depth<br>engaged</span></div>
+        <div class="stg"><span class="sn">3</span><span class="st">Could this work?</span><span class="sw">Prove it</span></div>
+        <div class="gw g-live hinge-mark"><span class="gcode">G3</span><span class="gsig">registers</span></div>
+        <div class="stg"><span class="sn">4</span><span class="st">Wants to buy</span><span class="sw">Register, then buy</span></div>
+        <div class="gw g-live"><span class="gcode">G4</span><span class="gsig">first<br>order</span></div>
+        <div class="stg"><span class="sn">5</span><span class="st">Job on site</span><span class="sw">Make it succeed</span></div>
+        <div class="gw g-none"><span class="gcode">G5</span><span class="gsig">job<br>went well</span></div>
+        <div class="stg"><span class="sn">6</span><span class="st">The next order</span><span class="sw">Recalled, and easy to act on</span></div>
+      </div>
+      <div class="loopback"><span class="arw">↺</span><span>G6 — an order from a second brand — returns the dealer to stage 2 on another brand's door</span></div>
+      <div class="gwkey">
+        <span><i style="border-color:var(--accent);background:var(--accent)"></i>instrumented today — G3, G4, G6</span>
+        <span><i style="border-color:var(--warn)"></i>signal partly exists — G1, G2</span>
+        <span><i style="border-color:var(--crit);border-style:dashed"></i>needs defining before anything can trigger — G5</span>
+      </div>
+    </div>
+    <div class="list">
+      <div class="row"><span class="id">1</span><span class="txt"><strong>Unaware → get in front of them</strong><span class="sub">The relationship can start at any brand or at the group. Warmest of all is a dealer who already buys another SRND brand. The top of funnel is deliberately wide — spread the contact load rather than funnelling everyone through one door. <em>Content: the hook — the core problem, stated boldly</em></span></span></div>
+      <div class="row"><span class="id">2</span><span class="txt"><strong>Name lands, means nothing → land the proposition</strong><span class="sub">One system, a real problem, made easy. They are on a brand site, meeting a brand backed by a group that covers the whole room. <em>Content: range and possibility</em></span></span></div>
+      <div class="row"><span class="id">3</span><span class="txt"><strong>“Could this work for me?” → prove it</strong><span class="sub">It works, it is easy to spec and install, and it will not embarrass them in front of a client. The brand site's real job, backed by shared proof: knowledge base, virtual case studies, recorded demos, sample kits, the Experience Centre, measured data, a Zoom</span></span></div>
+      <div class="row"><span class="id">4</span><span class="txt"><strong>Wants to buy → register, then buy</strong><span class="sub">Pricing is partner-only, so registration is the gate — and one account covers every brand. Register once, buy the whole room</span></span></div>
+      <div class="row"><span class="id">5</span><span class="txt"><strong>First order, job on site → make the first job succeed</strong><span class="sub">Install support, verification, make the dealer look good. The project often already spans brands, so support what they actually bought. Outcome: a satisfied dealer and a public-safe reference</span></span></div>
+      <div class="row"><span class="id">6</span><span class="txt"><strong>The next order</strong> — the hardest stage, and the group's payoff<span class="sub">Process, not hope: reorder ease on a group-wide account; new reasons; cross-brand expansion, where the whole-room story finally belongs; and persistent presence, because the dealer's next project lands on <em>their client's</em> clock, not ours. Not a push — being recalled the moment it lands, and being effortless to act on</span></span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · the hinge</span>
+      <h2>Registration splits the job in two</h2>
+      <p class="note">One moment turns an unknown contact into a potential partner: <strong>they register and give
+        permission to market to them.</strong> Everything arranges around that boundary, because it is the point
+        at which what we are allowed to do changes.</p>
+    </div>
+    <div class="diagram">
+      <div class="dcap">what we are allowed to do, either side of registration</div>
+      <div class="split">
+        <div class="side"><span class="sl">before — anonymous</span><span class="sb"><strong>Brand-led, public, attraction only.</strong> No permission and no relationship, so nothing can be direct and nothing can be a group pitch. The brands do it in their own categories. Progress is a funnel count</span></div>
+        <div class="gate">registration</div>
+        <div class="side"><span class="sl">after — known and permissioned</span><span class="sb"><strong>Group can act directly.</strong> One account covers every brand. Progress is tracked per account — journey state, last touch, next action</span></div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="row"><span class="txt"><strong>Before the hinge — brand-led, public, attraction only</strong><span class="sub">No permission and no relationship, so it cannot be direct and cannot be a group pitch. The brands do it in their own categories: sites, content, channels, search and AI visibility</span></span></div>
+      <div class="row"><span class="txt"><strong>The hinge — registration is the conversion that matters</strong><span class="sub">Not the first order. It should be the primary metric of the on-ramp, and it has to be worth something to the dealer so permission is given willingly rather than extracted</span></span></div>
+      <div class="row"><span class="txt"><strong>After the hinge — partner development, permissioned</strong><span class="sub">Now the group can act directly, and progress is tracked per account rather than as a funnel count</span></span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · six gateways</span>
+      <h2>The gateways between stages</h2>
+      <p class="note">A gateway is the state change between two stages. A process needs three things at each: the
+        change itself, a signal we can observe, and the touch that moves a dealer through.</p>
+    </div>
+    <div class="list">
+      <div class="row"><span class="id">G1</span><span class="txt"><strong>The hook landed</strong> — a stranger with a problem found us and looked<span class="sub">Signal: a brand-site visit arriving from a hook — search, an AI answer, social, press, a referral</span></span><span class="who">1 → 2</span></div>
+      <div class="row"><span class="id">G2</span><span class="txt"><strong>The proposition landed</strong> — “could this work for me?” became worth their time<span class="sub">Signal: depth engagement — knowledge-base reads, a tool used, a download taken, a sample or enquiry requested</span></span><span class="who">2 → 3</span></div>
+      <div class="row"><span class="id">G3</span><span class="txt"><strong>Convinced enough to commit</strong> — registration, the hinge<span class="sub">Signal: a registration in engine. The one gateway already formally defined and instrumented</span></span><span class="who">3 → 4</span></div>
+      <div class="row"><span class="id">G4</span><span class="txt"><strong>The first order placed</strong> — the relationship becomes real<span class="sub">Signal: an order in engine</span></span><span class="who">4 → 5</span></div>
+      <div class="row"><span class="id">G5</span><span class="txt"><strong>The first job succeeded</strong> — the install went right and the dealer looked good<span class="sub">Signal: the weakest today — an uneventful order, a reorder, a verification completed. Needs defining</span></span><span class="who">5 → 6</span></div>
+      <div class="row"><span class="id">G6</span><span class="txt"><strong>Recalled and expanded</strong> — the next project lands and a second layer of the room is ours<span class="sub">Signal: an order from a second brand</span></span><span class="who">6 → loop</span></div>
+    </div>
+    <p class="note">G3, G4 and G6 are cleanly observable today. G2's signals partly exist. <strong>G5 needs
+      defining before anything can trigger on it.</strong></p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · five components</span>
+      <h2>The machinery that serves the journey</h2>
+      <p class="note">Designed once at group level; every brand inherits the design and supplies its own
+        substance. No brand forks the loop, sets its own rate, or runs its own version.</p>
+    </div>
+    <div class="diagram">
+      <div class="dcap">five components, and the stages each one serves</div>
+      <div class="mach">
+        <div class="mc"><span class="mcn">component 1</span><span class="mct">The answer</span><span class="mcs">A question answered once, properly, by whoever knows</span><span class="mcstg">every stage</span></div>
+        <div class="mc"><span class="mcn">component 2</span><span class="mct">The production line</span><span class="mcs">Substance in, drafted at volume, truth-checked in minutes, distributed</span><span class="mcstg">every stage</span></div>
+        <div class="mc"><span class="mcn">component 3</span><span class="mct">The face</span><span class="mcs">Familiarity doing what a rep's repeat visits used to do</span><span class="mcstg">stages 1–3</span></div>
+        <div class="mc"><span class="mcn">component 4</span><span class="mct">Being found</span><span class="mcs">Search, AI answers, channels, trade press</span><span class="mcstg">stage 1 · G1</span></div>
+        <div class="mc"><span class="mcn">component 5</span><span class="mct">The substitutes</span><span class="mcs">What content cannot do, each owned by name</span><span class="mcstg">stages 2–6</span></div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="row"><span class="id">1</span><span class="txt"><strong>The answer</strong> — the unit of the motion<span class="sub">A question answered once, properly, by whoever knows. Everything else is a derivative of it. Every piece carries its next step</span></span></div>
+      <div class="row"><span class="id">2</span><span class="txt"><strong>The operation</strong> — a production line, not a ceremony<span class="sub">Substance in → drafted at volume → truth-checked in minutes → distributed. The labour moves; the judgement stays. Volume of pieces, never volume of assertions</span></span></div>
+      <div class="row"><span class="id">3</span><span class="txt"><strong>The face</strong> — familiarity doing what repeat visits did<span class="sub">A dealer feels they know a presenter they watch regularly. Frequency and regularity beat production value; same face, same room, same frame</span></span></div>
+      <div class="row"><span class="id">4</span><span class="txt"><strong>Being found</strong> — reach without a body<span class="sub">Search, AI answers, the channels and the trade press. Content is what gets knocked on, in territories we will never have a person in</span></span></div>
+      <div class="row"><span class="id">5</span><span class="txt"><strong>The substitutes</strong> — what content cannot do, owned by name<span class="sub">Qualification → the tools. Discovery → the spec conversation. Closing → a Zoom or the store. Wanting the order → a person. Market intelligence → a recorded hole</span></span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · five appeals</span>
+      <h2>How a hook is categorised</h2>
+      <p class="note">The same product bites differently for different dealers, so hooks are grouped by appeal.
+        Field <span class="mono">H1</span> records which of these a given product can honestly carry — and
+        marking one empty matters as much as filling it.</p>
+    </div>
+    <div class="diagram">
+      <div class="dcap">the five categories a hook is grouped by — field H1 records which a product can carry</div>
+      <div class="appeals">
+        <span class="ap"><b>appeal 1</b>More revenue</span>
+        <span class="ap"><b>appeal 2</b>Time saved</span>
+        <span class="ap"><b>appeal 3</b>Easier to do</span>
+        <span class="ap"><b>appeal 4</b>Better results</span>
+        <span class="ap"><b>appeal 5</b>The problem named</span>
+      </div>
+    </div>
+    <div class="list">
+      <div class="row"><span class="txt"><strong>More revenue</strong><span class="sub">The job won by knowing why to specify it</span></span></div>
+      <div class="row"><span class="txt"><strong>Time saved</strong><span class="sub">Hours off the programme, or off the install</span></span></div>
+      <div class="row"><span class="txt"><strong>Easier to do</strong><span class="sub">Install, retrofit, fit — the work itself made simpler</span></span></div>
+      <div class="row"><span class="txt"><strong>Better results</strong><span class="sub">The client experiences the difference</span></span></div>
+      <div class="row"><span class="txt"><strong>The problem named</strong><span class="sub">The searchable version, in the dealer's own words</span></span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the strategy · standing rules</span>
+      <h2>The disciplines that bind everything above</h2>
+    </div>
+    <div class="list">
+      <div class="row"><span class="txt"><strong>Coherence, not invention</strong><span class="sub">The substance is real and already exists. The job is to surface what is genuinely there and make one true story flow group → brand → product, not to manufacture claims</span></span></div>
+      <div class="row"><span class="txt"><strong>Build it, then say it</strong><span class="sub">Where the group has the intent but not yet the reality, the reality comes first and the claim waits. Announcing something we do not yet practise costs more than silence</span></span></div>
+      <div class="row"><span class="txt"><strong>Lead with the dealer's win, never our own brilliance</strong><span class="sub">Depth spent on the dealer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always</span></span></div>
+      <div class="row"><span class="txt"><strong>Flag, don't guess</strong><span class="sub">Where a fact is not sourced from real jobs or a settled decision, leave it out and mark it. No invented personas, figures or dates</span></span></div>
+      <div class="row"><span class="txt"><strong>Restraint over superlatives</strong><span class="sub">Substance carried in plain language, not genericised adjectives. No superlative without a measurement behind it. Accept being underestimated on first read</span></span></div>
+      <div class="row"><span class="txt"><strong>Pricing is never public</strong><span class="sub">Registered-partner-only, fully gated — no public prices and no end-user prices. Public claims stay qualitative: performance, depth, measured data</span></span></div>
+      <div class="row"><span class="txt"><strong>Don't fence the group to cinema — in trade</strong><span class="sub">Cinema is the heartland of revenue and credibility and should lead where it is strongest, but none of the underlying competences are cinema-specific. Name the problem, never the room type. The reverse holds in consumer, where the proposition stays DIY home cinema deliberately</span></span></div>
+      <div class="row"><span class="txt"><strong>Engine owns operations</strong><span class="sub">Partner registrations, pricing, jobs, the CRM. The strategy owns the mechanics and checks engine before specifying anything that touches it</span></span></div>
+    </div>
+  </section>
+
+
+  <!-- STAGE MAP -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">the mapping · tasks against stages</span>
+      <h2>Where each task fires in the journey</h2>
+      <p class="note">The tasks in list 2, placed against the six stages. A task can span more than one stage, so
+        it appears at each. Bar height is the number of tasks at that stage, split by automation verdict.</p>
+    </div>
+
+    <div class="diagram">
+      <div class="dcap">task load per stage, by verdict</div>
+        <div class="smap">
+          <div class="scol"><div class="sbar"><i class="b-au" style="height:12px"></i><i class="b-ab" style="height:12px"></i><i class="b-as" style="height:24px"></i><i class="b-mn" style="height:24px"></i></div><div class="slab"><span class="sno">STAGE 1</span><span class="snm">Get in front of them</span><span class="sct">6 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-as" style="height:72px"></i><i class="b-mn" style="height:12px"></i></div><div class="slab"><span class="sno">STAGE 2</span><span class="snm">Land the proposition</span><span class="sct">7 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-au" style="height:12px"></i><i class="b-ab" style="height:12px"></i><i class="b-as" style="height:48px"></i><i class="b-mn" style="height:12px"></i></div><div class="slab"><span class="sno">STAGE 3</span><span class="snm">Prove it</span><span class="sct">7 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-au" style="height:24px"></i><i class="b-ab" style="height:12px"></i><i class="b-as" style="height:12px"></i><i class="b-mn" style="height:24px"></i></div><div class="slab"><span class="sno">STAGE 4</span><span class="snm">Register, then buy</span><span class="sct">6 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-ab" style="height:24px"></i><i class="b-as" style="height:12px"></i><i class="b-mn" style="height:12px"></i></div><div class="slab"><span class="sno">STAGE 5</span><span class="snm">Make the first job succeed</span><span class="sct">4 tasks</span></div></div>
+          <div class="scol"><div class="sbar"><i class="b-ab" style="height:48px"></i><i class="b-as" style="height:24px"></i><i class="b-mn" style="height:24px"></i></div><div class="slab"><span class="sno">STAGE 6</span><span class="snm">The next order</span><span class="sct">8 tasks</span></div></div>
+        </div>
+      <div class="gwkey" style="margin-top:0.8rem">
+        <span><i style="border-color:var(--accent);background:var(--accent)"></i>automated</span>
+        <span><i style="border-color:var(--accent);background:var(--accent-soft)"></i>automatable</span>
+        <span><i style="border-color:var(--warn);background:var(--warn)"></i>assisted</span>
+        <span><i style="border-color:var(--crit);background:var(--crit)"></i>manual</span>
+      </div>
+    </div>
+
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 1</span><span class="t">Get in front of them</span><span class="c">6 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-S01</span><span class="tnm">Build the target list</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S02</span><span class="tnm">Reach a dealer who has never heard of us</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M08</span><span class="tnm">Discoverability — search and AI answers</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M14</span><span class="tnm">Trade press and PR</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S25</span><span class="tnm">Events and keeping relationships warm</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M13</span><span class="tnm">Events and exhibitions</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 2</span><span class="t">Land the proposition</span><span class="c">7 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-S04</span><span class="tnm">Qualify the project</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S05</span><span class="tnm">Present the range</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S06</span><span class="tnm">Discover — their business, their fears</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M10</span><span class="tnm">Collateral — datasheets, case studies</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M14</span><span class="tnm">Trade press and PR</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M17</span><span class="tnm">Product launch</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S25</span><span class="tnm">Events and keeping relationships warm</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 3</span><span class="t">Prove it</span><span class="c">7 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-M09</span><span class="tnm">Lead capture and nurture</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S10</span><span class="tnm">Handle objections</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S06</span><span class="tnm">Discover — their business, their fears</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S07</span><span class="tnm">Technical selling — help specify a live job</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M10</span><span class="tnm">Collateral — datasheets, case studies</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S11</span><span class="tnm">Defend against a named competitor</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S27</span><span class="tnm">The novel problem</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 4</span><span class="t">Register, then buy</span><span class="c">6 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-S08</span><span class="tnm">Produce a quote</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S14</span><span class="tnm">Onboard the account</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S09</span><span class="tnm">Follow up through the project's lead time</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S03</span><span class="tnm">Qualify the dealer</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S12</span><span class="tnm">Negotiate terms</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S13</span><span class="tnm">Close — want the order and ask for it</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 5</span><span class="t">Make the first job succeed</span><span class="c">4 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-S16</span><span class="tnm">Post-delivery follow-up</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S21</span><span class="tnm">Train the dealer's staff</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S15</span><span class="tnm">Make the first install succeed</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S20</span><span class="tnm">Recover a failure</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">STAGE 6</span><span class="t">The next order</span><span class="c">8 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-S18</span><span class="tnm">Cross-sell the rest of the group</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S19</span><span class="tnm">Prompt the reorder</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S16</span><span class="tnm">Post-delivery follow-up</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S21</span><span class="tnm">Train the dealer's staff</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S17</span><span class="tnm">Account management — stay recalled</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M12</span><span class="tnm">Dealer marketing support</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S28</span><span class="tnm">Recognition and thanks</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S25</span><span class="tnm">Events and keeping relationships warm</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+      <div class="stageblk">
+        <div class="sh"><span class="n">—</span><span class="t">Runs across the whole journey, or sits outside it</span><span class="c">15 tasks</span></div>
+        <div class="colhdr t"><span class="h1c">id</span><span class="h2c">the task</span><span class="h3c">can it be automated?</span><span class="h4c">carried by</span></div>
+        <div class="trow"><span class="tid">T-S22</span><span class="tnm">Pipeline and forecast</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M11</span><span class="tnm">Brand consistency</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M16</span><span class="tnm">CRM and data hygiene</span><span class="tv t-automated">automated</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M06</span><span class="tnm">Editorial calendar and cadence</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M15</span><span class="tnm">Measurement and reporting</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M02</span><span class="tnm">Competitor tracking</span><span class="tv t-automatable">automatable</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M05</span><span class="tnm">Content production</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M04</span><span class="tnm">Campaign planning</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M07</span><span class="tnm">Channel management</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M03</span><span class="tnm">Positioning and messaging</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M01</span><span class="tnm">Market and segment research</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S26</span><span class="tnm">Territory planning</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S23</span><span class="tnm">Bring back market intelligence</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-S24</span><span class="tnm">Feed product development</span><span class="tv t-assisted">assisted</span><span class="tno"></span></div>
+        <div class="trow"><span class="tid">T-M18</span><span class="tnm">Budget and spend allocation</span><span class="tv t-manual">manual</span><span class="tno"></span></div>
+      </div>
+
+    <p class="note">Stage 4 carries the two tasks the register marks as never automatable — negotiating, and
+      asking for the order — alongside the lead-time follow-up, which is marked automatable and is not built.</p>
+
   </section>
 
   <footer>

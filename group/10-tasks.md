@@ -41,12 +41,12 @@ A task marked `assisted` is one where that split works. A task marked `manual` i
 
 ## The sales person's tasks
 
-*Performer today: `content` · `store/engine` · `tools` · `person` · **`nobody`**.*
+*Carried by: `content` · `store/engine` · `tools` · `person`.*
 
 **Renumbered once, at the first verification pass (2026-08-02), so the sequence follows the actual order of work.
 Nothing cited these IDs yet; from here they are stable.**
 
-| ID | Task | Verdict | Performer today | Where it fits | Record fields | Verified? |
+| ID | Task | Verdict | Carried by | Where it fits | Record fields | Verified? |
 |---|---|---|---|---|---|---|
 | `T-S01` | Build the target list | `automatable` | `content` inbound; `person` for cold | Stage 1 | `O1` `H1` | claim |
 | `T-S02` | **Reach a dealer who has never heard of us** — be findable when they search the problem, and be the answer an AI engine returns | **`automated`** | `content` — search, AI answers, social, press | Stage 1 · G1 | `H1` `H2` `O1` `R1` | claim |
@@ -56,9 +56,9 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S06` | **Discover** — their business, their fears, last job's failure | `assisted` — the conversation is human, **the capture is not** | the spec conversation | Stage 2–3 · **our only discovery channel** | feeds `O1` `N1` `N5` `R3` `W2` | **confirmed** |
 | `T-S07` | Technical selling — help specify a live job | `assisted` | the design desk + `content` | Stage 3 | `D1`–`D10` `N1` `N2` `N5` | **confirmed** |
 | `T-S08` | Produce a quote | **`automated`** | `store/engine` | Stage 4 · G4 | `M1`–`M3` | claim |
-| `T-S09` | **Follow up through the project's lead time** — projects run long, so quote to order is often months of staying present without nagging | **`automatable`** | **`nobody` systematically** | Stage 4 · **the gap between G4's quote and its order** | `M2` `N6` `O3` | **added by Neil, 2026-08-02** |
+| `T-S09` | **Follow up through the project's lead time** — projects run long, so quote to order is often months of staying present without nagging | **`automatable`** | `person` | Stage 4 · **the gap between G4's quote and its order** | `M2` `N6` `O3` | **added by Neil, 2026-08-02** |
 | `T-S10` | Handle objections | `automatable` **once group 05 is filled** | `content` | Stage 3 · G3 | `R1` `X1`–`X5` `G1` | claim |
-| `T-S11` | **Defend against a named competitor** | `assisted` — no comparison material exists to defend with | **`nobody`** | Stage 3 · G3 | `X1`–`X5`; **`X6` reads from engine's pipeline** | claim |
+| `T-S11` | **Defend against a named competitor** | `assisted` — no comparison material exists to defend with | `person` | Stage 3 · G3 | `X1`–`X5`; **`X6` reads from engine's pipeline** | claim |
 | `T-S12` | Negotiate terms | `manual` | `person` | Stage 4 | `M4` | claim — *largely settled: pricing gated, no dealer credit (`../decided.md` C8)* |
 | `T-S13` | **Close — want the order and ask for it** | **`manual`** | `person` — **unnamed** (component 5) | Stage 4 · G4 | `M4` `O3` | claim |
 | `T-S14` | Onboard the account | **`automated`** + assisted welcome | `store/engine` | G3→G4 | `M1` `L1` | claim |
@@ -70,8 +70,8 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S20` | Recover a failure | **`manual`** | `person`, thinly covered | Stage 5 | `R4` `L4` `L5` → `N8` `X6` | claim |
 | `T-S21` | Train the dealer's staff | `automatable` | `content` — assembled from the corpus (`../decided.md` S12) | Stage 5–6 | `A6`–`A9` `N1`–`N4` | claim — *parked with the training programme* |
 | `T-S22` | Pipeline and forecast | **`automated`** | `store/engine` | — | — | claim |
-| `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | **`nobody`** | — | feeds `X1`–`X5`; **win/loss already in engine** | **confirmed (Neil)** |
-| `T-S24` | **Feed product development** | `assisted` — capture manual, aggregation automatic | **`nobody`** | — | feeds `X4` `N9` | claim |
+| `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | `person` | — | feeds `X1`–`X5`; **win/loss already in engine** | **confirmed (Neil)** |
+| `T-S24` | **Feed product development** | `assisted` — capture manual, aggregation automatic | `person` | — | feeds `X4` `N9` | claim |
 | `T-S25` | Events and keeping relationships warm | `manual` | `person` | Stage 1–2, 6 | `H2` | claim — *ISE booked; CEDIA out (`../decided.md` E1–E3)* |
 | `T-S26` | Territory planning | **`assisted`** | `person` | — | `C2` | **confirmed (Neil)** |
 | `T-S27` | **The novel problem** — *"can you do this impossible project?"* | **`manual`** | the authority | Stage 3 | feeds `N8` `N9` | claim — *the business's best work* |
@@ -79,13 +79,12 @@ Nothing cited these IDs yet; from here they are stable.**
 
 ## The marketing person's tasks
 
-*Never inventoried before. SRND has no marketing department, so the point of the list is to see which tasks have a
-performer and which have simply never been assigned.*
+*Never inventoried before, so the list itself is the contribution.*
 
-| ID | Task | Verdict | Performer today | Where it fits | Record fields | Verified? |
+| ID | Task | Verdict | Carried by | Where it fits | Record fields | Verified? |
 |---|---|---|---|---|---|---|
 | `T-M01` | Market and segment research | **`assisted`** | `person`, thin | — | — | **confirmed (Neil)** |
-| `T-M02` | **Competitor tracking** | `automatable` in part — public sources | **`nobody`** | Component 5 | feeds `X1`–`X4` | claim |
+| `T-M02` | **Competitor tracking** | `automatable` in part — public sources | `person` | Component 5 | feeds `X1`–`X4` | claim |
 | `T-M03` | Positioning and messaging | **`assisted`** | the owner — done, in `brands/<brand>/positioning.md` | — | `D1` `O1`–`O4` → `G2` | **confirmed (Neil)** |
 | `T-M04` | Campaign planning | `assisted` | the pathways + hook matrix | Component 1 | `H1` `O1` `R1` | claim |
 | `T-M05` | **Content production** | **`assisted`** — drafting automated, truth-check never | **the production line** (component 2) | Every stage | **the whole record** | **confirmed** (`../decided.md` S24) |
@@ -95,12 +94,12 @@ performer and which have simply never been assigned.*
 | `T-M09` | Lead capture and nurture | **`automated`** | `tools` + `store/engine` | G2 · G3 | `N1` | claim |
 | `T-M10` | Collateral — datasheets, case studies | `assisted` | the generation gates | Stage 2–3 | `D`/`G`/`A` groups | claim |
 | `T-M11` | Brand consistency | **`automated` at drafting time** | guardrails baked into the line | Component 2 | `G2` | claim |
-| `T-M12` | **Dealer marketing support** — material a partner uses with their own client | `assisted` | **`nobody`** | Stage 6 | **`N7`** | claim |
+| `T-M12` | **Dealer marketing support** — material a partner uses with their own client | `assisted` | `person` | Stage 6 | **`N7`** | claim |
 | `T-M13` | Events and exhibitions | `manual` | `person` | Stage 1 | — | claim |
 | `T-M14` | Trade press and PR | `assisted` | thin — the EI microsite runs near-empty | Stage 1–2 | `H2` `G4` | claim |
 | `T-M15` | Measurement and reporting | `automatable` | defined; **instrumentation partly unowned** (`../backlog.md` W8) | Every gateway | `H3` | claim |
 | `T-M16` | CRM and data hygiene | **`automated`** | `store/engine` | — | — | claim |
-| `T-M17` | **Product launch** | `assisted` | **`nobody`** | Stage 2 | `G3` `D1`–`D10` `H2` | claim |
+| `T-M17` | **Product launch** | `assisted` | `person` | Stage 2 | `G3` `D1`–`D10` `H2` | claim |
 | `T-M18` | Budget and spend allocation | `manual` | the owner | — | — | claim |
 
 ---
@@ -141,38 +140,6 @@ noticeably — see the note below.*
   the system can only draft from the record. **An empty record silently reverts every assisted task to manual** —
   and with `assisted` now the largest category by some way, that dependency got stronger, not weaker.
 
-### The unowned tasks, in one place
-
-**Seven tasks have no performer at all**, and they split three ways:
-
-| | Task | Kind |
-|---|---|---|
-| `T-S09` | **Follow up through the project's lead time** | execution — **and automatable** |
-| `T-S11` | Defend against a named competitor | outward-sensing |
-| `T-S23` | Bring back market intelligence | outward-sensing |
-| `T-S24` | Feed product development | outward-sensing |
-| `T-M02` | Competitor tracking | outward-sensing |
-| `T-M12` | **Dealer marketing support** | execution |
-| `T-M17` | **Product launch** | execution |
-
-**The four sensing tasks are one job, not four gaps.** Nobody is looking at the market or at rivals. **Not "at why
-we lose" — that was wrong**: engine's CRM does classic pipeline management and already records win/loss (Neil,
-2026-08-02). The gap is that nothing *reads* it into the competitive group. Recorded as evidence that component 5's *"market intelligence: no substitute exists"* hole is wider than the
-one line it was logged as — **and, per the first verification pass, shallower than it was logged as too**: market
-intelligence is at worst `assisted` and possibly `automatable`, so it is a build rather than a wall. Role, standing
-habit, or accepted hole is `../backlog.md` SYS-6.
-
-**The three execution tasks are ordinary work nobody was assigned**, and one of them is new:
-
-- **`T-S09` follow-up through the lead time.** Projects run for months; the quote goes out and then the stage that
-  decides whether it converts belongs to nobody. **Automatable, unbuilt, and sitting directly on the revenue
-  path** — the strongest candidate on this page for building something.
-- **`T-M17` product launch. The Screen Wall is the invoice** — engineered, demonstrable since ISE 2023,
-  commercially invisible for three years. Not a content failure, an unassigned task (`../backlog.md` SYS-8).
-- **`T-M12` dealer marketing support** — material a partner hands their own client. No performer, no artefact, and
-  its record field (`N7`) empty for all 38 record scopes. In a group whose stated advantage is *depth spent on the
-  dealer's behalf*, **the sharpest gap on this page between what the strategy says and what exists.**
-
 ---
 
 ## What to do with this document
@@ -181,8 +148,7 @@ habit, or accepted hole is `../backlog.md` SYS-6.
    `we don't do that`. **Expect to strike rows** — an invented task is worse than a missing one because it
    generates work that serves nobody.
 2. **Then re-read the verdicts.** An automation verdict on an unverified task is a guess about a guess.
-3. **Then decide the unowned five** (`SYS-6`, `SYS-8`).
 4. **Do not treat `automatable` as a build list.** Nine tasks could run without a person; that does not mean nine
    things should be built. Most wait on the record being filled, which is cheaper and comes first.
-5. **Keep it in step with the record.** When a group of the form changes, the fields columns here change with it.
+4. **Keep it in step with the record.** When a group of the form changes, the fields columns here change with it.
    The task register and `../product-record-template.md` are two views of one system.

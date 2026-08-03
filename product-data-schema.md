@@ -73,13 +73,6 @@ repeated here.
    not, unless the task's output is caught. **Every task removed from a human also removes a learning input** — the
    routes in the next section exist to catch what would otherwise be discarded.
 
-**And the register's own finding, which the domain map reached independently:** seven tasks have no performer at
-all. **Four are outward-sensing** — competitive response, market intelligence, competitor tracking, product
-feedback — and they are one job rather than four gaps, the same gap this model's competitive domain and the form's
-generation gates both point at. Three are ordinary execution nobody was assigned: **product launch**, **dealer
-marketing support**, and — added at the first verification pass — **the long follow-up between a quote going out
-and the order arriving**, which is automatable and sits directly on the revenue path.
-
 ## The domains — what the database must hold
 
 *Twelve subject areas, each named by the question a dealer asks. A rep carries all twelve; one of the four jobs
@@ -96,7 +89,7 @@ no fields at all.*
 | *"What does it cost me to sell and fit?"* | **Commercial** | Order unit, lead time, availability, margin position, the labour it takes on site, what skipping it costs. **Never the price** | 1, 4 | **nothing** |
 | *"How do I know it works?"* | **Evidence** | Test reports, reference rooms, demonstrations, renders — and which we may show | **3** | `G4` |
 | *"What could go wrong?"* | **Risk** | The doubt behind the question, the failure modes on site, what a mistake costs | 3, 4 | `R1` `R2` `R4` |
-| 9 | *The questions we actually get asked* | **Answers** | Each one written down, answered in the answerer's own words, with where it is published | **all four** | `R3` `N3` |
+| *The questions we actually get asked* | **Answers** | Each one written down, answered in the answerer's own words, with where it is published | **all four** | `R3` `N3` |
 | *"What happens after I order it?"* | **Lifecycle** | Delivery, install sequence, commissioning, spares, what can be replaced, how long we support it | **4** | **assets only (`A1`–`A11`) — the documents, not the facts** |
 | *"What is interesting enough to lead with?"* | **Hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | **nothing** — hooks are designed in `group/09-motion-design.md` with no product-level source |
 | *"What are we allowed to say?"* | **Governance** | Claims supported and by what, claims we refuse to make, whether it is released yet, when the record was last checked | all four | `G2` `G3` `K1`–`K3` |
