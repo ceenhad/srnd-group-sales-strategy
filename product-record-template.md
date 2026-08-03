@@ -41,10 +41,11 @@ product can honestly be hooked on.
   solves until you have said what it is.
 - **And knowledge before content.** Group **04** is what a rep carries. Nothing downstream of it can be produced
   without it, and no amount of production capacity substitutes for it.
-- **Two namespaces, kept apart deliberately.** **Groups are numbered `01`–`13`; fields are lettered** (`D1`, `X6`,
-  `N3`). An earlier draft numbered groups `A`–`M` and they collided with the field prefixes — group `M` against the
-  commercial fields `M1`–`M5`, group `L` against lifecycle `L1`–`L5`. **No field ID is numeric and no group ID is
-  lettered**, so a reference is now unambiguous on sight. Keep it that way.
+- **Four identifier sets, none of them overlapping.** Groups are numbered `01`–`13`; **fields are lettered**
+  (`D1`, `X6`, `N3`); capture routes are `RT1`–`RT6`; tasks are `T-S…` / `T-M…` (`group/10-tasks.md`). Jobs are
+  plain ordinals 1–4, and **domains carry no identifier at all** — the dealer's question names them. Two
+  collisions were swept out on the way here: groups were once lettered `A`–`M` and clashed with the field
+  prefixes, and routes were once `R1`–`R6` and clashed with the doubt fields `R1`–`R4`. Keep the sets apart.
 
 ---
 
@@ -474,19 +475,19 @@ is six triggers, five of which already fire every week (`product-data-schema.md`
 
 | # | When this happens… | …this gets written down | How often |
 |---|---|---|---|
-| **R1** | A product is made or changed | `D1`–`D10` · `L1` `L2` | Per change |
-| **R2** | A test result or report arrives | `D9` · `G1` · `G4` | Rarely |
-| **R3** | We help specify a job | `N1` `N2` `N5` · `D4` `D5` | **Daily** |
-| **R4** | We answer a question, pre-sale or on site | `R3` `R4` `N3` · `L3` `L4` | **Daily** |
-| **R5** | We quote, and when we win or lose | `X1`–`X6` · `M1`–`M5` · `O1` | Per quote — **already runs in engine's CRM** |
-| **R6** | A position is settled or reviewed | `H1`–`H3` · `G2` `G3` · `K1`–`K3` | The one new habit |
+| **RT1** | A product is made or changed | `D1`–`D10` · `L1` `L2` | Per change |
+| **RT2** | A test result or report arrives | `D9` · `G1` · `G4` | Rarely |
+| **RT3** | We help specify a job | `N1` `N2` `N5` · `D4` `D5` | **Daily** |
+| **RT4** | We answer a question, pre-sale or on site | `R3` `R4` `N3` · `L3` `L4` | **Daily** |
+| **RT5** | We quote, and when we win or lose | `X1`–`X6` · `M1`–`M5` · `O1` | Per quote — **already runs in engine's CRM** |
+| **RT6** | A position is settled or reviewed | `H1`–`H3` · `G2` `G3` · `K1`–`K3` | The one new habit |
 
 **Three consequences worth stating plainly.**
 
 1. **A running route fills its fields forever; a field filled by a push starts decaying the day it is written.**
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
    reason those fail is that they ask one person to hold everything.
-2. **R5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. The live
+2. **RT5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. The live
    question is whether the recorded loss reason carries **which competitor, on which dimension** — the structure
    group 05 needs — or only the fact of the loss. Check engine before designing anything (`decided.md` S16a).
 3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the

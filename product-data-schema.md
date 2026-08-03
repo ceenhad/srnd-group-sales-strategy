@@ -86,20 +86,20 @@ and the order arriving**, which is automatable and sits directly on the revenue 
 fails without each. The right-hand column is the state of the form today, which is what shows where the form has
 no fields at all.*
 
-| # | The dealer's question | Domain | What it holds | Serves | In the form today |
-|---|---|---|---|---|---|
-| 1 | *"What is it?"* | **Physical** | Construction, materials, finishes, sizes, weights, what arrives in the box | 4 | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
-| 2 | *"What does it do, and how well?"* | **Performance** | The function, the mechanism, the measured numbers, the test they came from, the limits | 2, 3 | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
-| 3 | *"Where does it go, and how many do I need?"* | **Application** | Which rooms and positions, the sizing rule, the quantity, a worked example, where it does not belong | 1, 4 | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
-| 4 | *"What does it need from everything else?"* | **Integration** | Power, structure, clearance, what the builder must leave, what it pairs with | 4, 1 | `D7` `D10` `N5` |
-| 5 | *"Why this one and not theirs?"* | **Competitive** | The named alternatives, what decides between them, where we win, **where they win**, what to say to a dealer who already buys the other | **2** | **`N4` only — one field for the whole job of defending** |
-| 6 | *"What does it cost me to sell and fit?"* | **Commercial** | Order unit, lead time, availability, margin position, the labour it takes on site, what skipping it costs. **Never the price** | 1, 4 | **nothing** |
-| 7 | *"How do I know it works?"* | **Evidence** | Test reports, reference rooms, demonstrations, renders — and which we may show | **3** | `G4` |
-| 8 | *"What could go wrong?"* | **Risk** | The doubt behind the question, the failure modes on site, what a mistake costs | 3, 4 | `R1` `R2` `R4` |
+| The dealer's question | Domain | What it holds | Serves | In the form today |
+|---|---|---|---|---|
+| *"What is it?"* | **Physical** | Construction, materials, finishes, sizes, weights, what arrives in the box | 4 | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
+| *"What does it do, and how well?"* | **Performance** | The function, the mechanism, the measured numbers, the test they came from, the limits | 2, 3 | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
+| *"Where does it go, and how many do I need?"* | **Application** | Which rooms and positions, the sizing rule, the quantity, a worked example, where it does not belong | 1, 4 | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
+| *"What does it need from everything else?"* | **Integration** | Power, structure, clearance, what the builder must leave, what it pairs with | 4, 1 | `D7` `D10` `N5` |
+| *"Why this one and not theirs?"* | **Competitive** | The named alternatives, what decides between them, where we win, **where they win**, what to say to a dealer who already buys the other | **2** | **`N4` only — one field for the whole job of defending** |
+| *"What does it cost me to sell and fit?"* | **Commercial** | Order unit, lead time, availability, margin position, the labour it takes on site, what skipping it costs. **Never the price** | 1, 4 | **nothing** |
+| *"How do I know it works?"* | **Evidence** | Test reports, reference rooms, demonstrations, renders — and which we may show | **3** | `G4` |
+| *"What could go wrong?"* | **Risk** | The doubt behind the question, the failure modes on site, what a mistake costs | 3, 4 | `R1` `R2` `R4` |
 | 9 | *The questions we actually get asked* | **Answers** | Each one written down, answered in the answerer's own words, with where it is published | **all four** | `R3` `N3` |
-| 10 | *"What happens after I order it?"* | **Lifecycle** | Delivery, install sequence, commissioning, spares, what can be replaced, how long we support it | **4** | **assets only (`A1`–`A11`) — the documents, not the facts** |
-| 11 | *"What is interesting enough to lead with?"* | **Hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | **nothing** — hooks are designed in `group/09-motion-design.md` with no product-level source |
-| 12 | *"What are we allowed to say?"* | **Governance** | Claims supported and by what, claims we refuse to make, whether it is released yet, when the record was last checked | all four | `G2` `G3` `K1`–`K3` |
+| *"What happens after I order it?"* | **Lifecycle** | Delivery, install sequence, commissioning, spares, what can be replaced, how long we support it | **4** | **assets only (`A1`–`A11`) — the documents, not the facts** |
+| *"What is interesting enough to lead with?"* | **Hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | **nothing** — hooks are designed in `group/09-motion-design.md` with no product-level source |
+| *"What are we allowed to say?"* | **Governance** | Claims supported and by what, claims we refuse to make, whether it is released yet, when the record was last checked | all four | `G2` `G3` `K1`–`K3` |
 
 **What that table says:**
 
@@ -135,19 +135,19 @@ run.*
 
 | # | When this happens… | …this gets written down | Who is already there | How often |
 |---|---|---|---|---|
-| **R1** | **A product is made or changed** | What it is, what it is supplied with, what it needs from the building, how it goes in — domains 1, 2, 4 | Design & production | Per change |
-| **R2** | **A test result or report arrives** | The measured performance, the test basis, and what may be shown as proof — domains 2, 7 | Whoever commissioned it | Rarely |
-| **R3** | **We help specify a job** | How you choose it and how many, the layout, what it pairs with — domains 3, 4 | Whoever specs jobs, **and we help spec routinely** | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
-| **R4** | **We answer a question** — pre-sale or on site | The question itself, the answer in the answerer's words, and what went wrong — domains 8, 9, 10 | Whoever answered it | **Daily**, and already answered once by email |
-| **R5** | **We quote, and when we win or lose** | The commercial case, and which competitor beat us on which dimension — domains 5, 6 | Whoever quoted | Per quote. **Already runs — engine's CRM is classic pipeline management** |
-| **R6** | **A position is settled or reviewed** | What may and may not be claimed, and what a product can honestly be hooked on — domains 11, 12 | The owners | **The one genuinely new habit** |
+| **RT1** | **A product is made or changed** | What it is, what it is supplied with, what it needs from the building, how it goes in — Physical, Performance, Integration | Design & production | Per change |
+| **RT2** | **A test result or report arrives** | The measured performance, the test basis, and what may be shown as proof — Performance, Evidence | Whoever commissioned it | Rarely |
+| **RT3** | **We help specify a job** | How you choose it and how many, the layout, what it pairs with — Application, Integration | Whoever specs jobs, **and we help spec routinely** | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
+| **RT4** | **We answer a question** — pre-sale or on site | The question itself, the answer in the answerer's words, and what went wrong — Risk, Answers, Lifecycle | Whoever answered it | **Daily**, and already answered once by email |
+| **RT5** | **We quote, and when we win or lose** | The commercial case, and which competitor beat us on which dimension — Competitive, Commercial | Whoever quoted | Per quote. **Already runs — engine's CRM is classic pipeline management** |
+| **RT6** | **A position is settled or reviewed** | What may and may not be claimed, and what a product can honestly be hooked on — Hook material, Governance | The owners | **The one genuinely new habit** |
 
 **Three consequences worth stating plainly.**
 
 1. **A running route fills its domains forever; a field filled by a push starts decaying the day it is written.**
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
    reason those fail is that they ask one person to hold all twelve domains.
-2. **R5 already runs, and this file previously said it did not.** **SRND Engine's CRM does classic pipeline
+2. **RT5 already runs, and this file previously said it did not.** **SRND Engine's CRM does classic pipeline
    management** (Neil, 2026-08-02), so quotes, stages and win/loss are captured today. The corrected question is
    narrower and is a question *for* engine, not an assumption about it: **does the recorded loss reason carry which
    competitor and which dimension** — the structure domain 5 needs — or only that the deal was lost? If it does,
@@ -356,7 +356,7 @@ source, or hooks get invented per campaign**, which is precisely what the produc
 6. **Stand up the routes before filling any more fields.** Six capture events, five of them attached to work that
    already happens. **A route that is running fills its domains forever; a field filled by a push decays from the
    day it is written.** The cheapest two are the ones that fire daily — the support answer and the spec
-   conversation. **R5 is not a gap** — engine's pipeline already holds win/loss; what is worth checking is whether
+   conversation. **RT5 is not a gap** — engine's pipeline already holds win/loss; what is worth checking is whether
    the loss reason is structured enough for domain 5 to read.
 7. **Fill the front half first, against the model, one brand at a time.** Domains 5, 6 and 11 — defend, the
    business case, and what a product can honestly be hooked on — because that is where the journey is entered and
