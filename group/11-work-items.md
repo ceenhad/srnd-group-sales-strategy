@@ -11,6 +11,11 @@ each task up.
 **Same standing caution as the task register.** These are decompositions proposed from the tasks and the strategy
 documents. They have not been checked against anyone doing the work. **Strike what is wrong.**
 
+**And the harder half: this list can only contain work items somebody thought of.** A decomposition confirms what
+is in it; it says nothing about steps nobody wrote down. So `108 of 168` is a real ratio of *this list* and not a
+measure of the work. Read the counts as a shape, never as a coverage figure — **the items missing from here are
+invisible from here.**
+
 ---
 
 ## What a work item is

@@ -68,13 +68,34 @@ Every field carries one of four states. **This is what turns "the documentation 
   arithmetic result.
 - **Knowledge completeness** = group 04 filled ÷ 9, plus **`R3` questions answered ÷ `R3` questions named**. What
   the rep can actually say.
-- **Record completeness** = filled ÷ applicable fields (58 in total). The breadth measure.
+- **Record completeness** = filled ÷ applicable fields (58 in total). The breadth measure — **of the form, not of
+  what is known about the product.** See below.
 - **Asset completeness** = assets `current` ÷ applicable assets (group 12). What a dealer can be given.
 
 A product can be 100 % record-complete and 20 % asset-complete: normal and useful — it means we know what to make.
 **The dangerous states are the ones that look finished:** record-complete and knowledge-empty (it has a definition,
 an on-ramp and a list of the questions it provokes, and cannot hold a conversation), or well-filled on the back
 half and empty on the front (it can answer a dealer who already wants it, and cannot get one).
+
+## What the meters can and cannot tell you
+
+**A database confirms what you know. It cannot report what you do not know** (Neil, 2026-08-02). Three
+consequences, and they bind every count in this repo:
+
+- **A filled field confirms something.** An empty one confirms nothing — it means the answer does not exist, or
+  nobody has looked, **or the field is the wrong question.** The record cannot tell you which, and reading a blank
+  as a finding is how this work has gone wrong more than once.
+- **The denominator is a claim.** *28 of 58* assumes 58 is the right list of things to know about a product. It is
+  the list this form currently proposes. **Completeness measures the form, not the knowledge** — a record at 100 %
+  against a wrong field list is complete and useless.
+- **Only contact with the world finds the missing fields.** The capture routes are the only input that can
+  introduce something the form did not anticipate — **and only if they are open-ended.** A route that records
+  solely against known fields returns only known things.
+
+**So every route carries an overflow.** Alongside the fields it fills, one free line: *what came up that no field
+covers.* That line is where new fields come from, and it is the only part of this system that can grow the form
+rather than fill it. The clearest case is `R3`: the questions dealers actually ask will include ones no field
+anticipated, and those are the valuable ones.
 
 ## Scope of a record — per mechanism, not per SKU
 
