@@ -11,9 +11,7 @@ individually so each is a question someone can be sent to answer rather than a p
 
 > **Scope note (2026-08-02).** The `Gaps:` lists under each family below enumerate the *definitional* gaps only.
 > The form has since gained the front half — competitive (`X1`–`X6`), commercial (`M1`–`M5`), lifecycle
-> (`L1`–`L5`) and hook material (`H1`–`H3`) — and **all four groups are empty for every DT family**. So on the rep
-> test DT currently reads: **attract — no · defend — no · trust — partly · deliver — no.** Filling the front half
-> is `../../backlog.md` SYS-3.
+> (`L1`–`L5`) and hook material (`H1`–`H3`) — and **all four groups are empty for every DT family**. Filling the front half is `../../backlog.md` SYS-3.
 
 **Provenance — read before using anything here.**
 

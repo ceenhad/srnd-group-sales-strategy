@@ -62,7 +62,9 @@ Every field carries one of four states. **This is what turns "the documentation 
 **Four meters, and they measure different things.** Keep them apart, and **report them in this order**:
 
 - **Rep-test coverage** — can it attract · defend · be believed · deliver? **Four yes/no answers, and the only
-  measure that matters.** A record can be most of the way full and fail three of them.
+  measure that matters.** A record can be most of the way full and fail three of them. **Whoever owns the record
+  answers these, not whoever built the form** — a coverage verdict is a judgement about the business, not an
+  arithmetic result.
 - **Knowledge completeness** = group 04 filled ÷ 9, plus **`R3` questions answered ÷ `R3` questions named**. What
   the rep can actually say.
 - **Record completeness** = filled ÷ applicable fields (58 in total). The breadth measure.

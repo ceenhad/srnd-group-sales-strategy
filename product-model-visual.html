@@ -1,304 +1,107 @@
-<title>SRND — the product record model</title>
+<title>SRND — the approach, listed</title>
 
 <style>
   :root {
-    --ground:      #F1F4F4;
-    --surface:     #FFFFFF;
-    --surface-2:   #E7ECEC;
-    --ink:         #0F1518;
-    --ink-2:       #38474B;
-    --muted:       #5B6A6E;
-    --line:        #C9D3D3;
-    --line-soft:   #DDE4E4;
-    --accent:      #0B6357;
-    --accent-soft: #D8E6E3;
-    --warn:        #A8721A;
-    --warn-soft:   #F0E3CB;
-    --crit:        #9E3B2B;
-    --crit-soft:   #F0D9D4;
-
+    --ground:#F1F4F4; --surface:#FFFFFF; --surface-2:#E7ECEC;
+    --ink:#0F1518; --ink-2:#38474B; --muted:#5B6A6E;
+    --line:#C9D3D3; --line-soft:#DDE4E4;
+    --accent:#0B6357; --accent-soft:#D8E6E3;
+    --warn:#A8721A; --crit:#9E3B2B;
     --f-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --f-read: Georgia, "Iowan Old Style", "Times New Roman", serif;
     --f-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-
-    --measure: 66ch;
+    --measure: 68ch;
     --pad: clamp(1.1rem, 4vw, 2.6rem);
   }
-
   @media (prefers-color-scheme: dark) {
     :root {
-      --ground:      #0E1416;
-      --surface:     #141C1F;
-      --surface-2:   #1D272A;
-      --ink:         #E8EFEF;
-      --ink-2:       #B7C6C7;
-      --muted:       #85989A;
-      --line:        #2C393D;
-      --line-soft:   #222D31;
-      --accent:      #5FB8A6;
-      --accent-soft: #1A3733;
-      --warn:        #D6A75B;
-      --warn-soft:   #33290F;
-      --crit:        #D98675;
-      --crit-soft:   #35201B;
+      --ground:#0E1416; --surface:#141C1F; --surface-2:#1D272A;
+      --ink:#E8EFEF; --ink-2:#B7C6C7; --muted:#85989A;
+      --line:#2C393D; --line-soft:#222D31;
+      --accent:#5FB8A6; --accent-soft:#1A3733;
+      --warn:#D6A75B; --crit:#D98675;
     }
   }
-
   :root[data-theme="light"] {
     --ground:#F1F4F4; --surface:#FFFFFF; --surface-2:#E7ECEC; --ink:#0F1518; --ink-2:#38474B;
     --muted:#5B6A6E; --line:#C9D3D3; --line-soft:#DDE4E4; --accent:#0B6357; --accent-soft:#D8E6E3;
-    --warn:#A8721A; --warn-soft:#F0E3CB; --crit:#9E3B2B; --crit-soft:#F0D9D4;
+    --warn:#A8721A; --crit:#9E3B2B;
   }
   :root[data-theme="dark"] {
     --ground:#0E1416; --surface:#141C1F; --surface-2:#1D272A; --ink:#E8EFEF; --ink-2:#B7C6C7;
     --muted:#85989A; --line:#2C393D; --line-soft:#222D31; --accent:#5FB8A6; --accent-soft:#1A3733;
-    --warn:#D6A75B; --warn-soft:#33290F; --crit:#D98675; --crit-soft:#35201B;
+    --warn:#D6A75B; --crit:#D98675;
   }
 
-  body {
-    background: var(--ground);
-    color: var(--ink);
-    font-family: var(--f-ui);
-    font-size: 16px;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-  }
+  body { background: var(--ground); color: var(--ink); font-family: var(--f-ui); font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: var(--pad); display: flex; flex-direction: column; gap: clamp(2.6rem, 6vw, 4rem); }
 
-  .wrap {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: var(--pad);
-    display: flex;
-    flex-direction: column;
-    gap: clamp(2.4rem, 6vw, 4.2rem);
-  }
-
-  /* ---------- type ---------- */
-  h1, h2, h3 { text-wrap: balance; font-weight: 640; letter-spacing: -0.018em; line-height: 1.15; }
-  h1 { font-size: clamp(1.75rem, 4.2vw, 2.6rem); }
-  h2 { font-size: clamp(1.15rem, 2.4vw, 1.4rem); }
-  h3 { font-size: 1rem; letter-spacing: -0.008em; }
-
-  .eyebrow {
-    font-family: var(--f-mono);
-    font-size: 0.66rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
-  .lede {
-    font-family: var(--f-read);
-    font-size: clamp(1rem, 1.6vw, 1.09rem);
-    line-height: 1.62;
-    max-width: var(--measure);
-    color: var(--ink-2);
-  }
-  .note {
-    font-family: var(--f-read);
-    font-size: 0.95rem;
-    line-height: 1.6;
-    max-width: var(--measure);
-    color: var(--ink-2);
-  }
+  h1, h2, h3 { text-wrap: balance; font-weight: 640; letter-spacing: -0.018em; line-height: 1.18; }
+  h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); }
+  h2 { font-size: clamp(1.2rem, 2.4vw, 1.45rem); }
+  h3 { font-size: 0.95rem; letter-spacing: 0; }
+  .eyebrow { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+  .lede { font-family: var(--f-read); font-size: 1.05rem; line-height: 1.62; max-width: var(--measure); color: var(--ink-2); }
+  .note { font-family: var(--f-read); font-size: 0.93rem; line-height: 1.6; max-width: var(--measure); color: var(--ink-2); }
   .mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
-  em.q { font-family: var(--f-read); font-style: italic; color: var(--ink); }
   strong { font-weight: 640; color: var(--ink); }
 
-  /* ---------- head ---------- */
-  .masthead {
-    display: flex; flex-direction: column; gap: 1.1rem;
-    padding-bottom: 1.6rem;
-    border-bottom: 2px solid var(--ink);
-  }
-  .masthead .rule-top {
-    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
-    align-items: baseline;
-  }
-  .meters {
-    display: grid; gap: 1px;
-    grid-template-columns: repeat(auto-fit, minmax(122px, 1fr));
-    background: var(--line);
-    border: 1px solid var(--line);
-    margin-top: 0.4rem;
-  }
-  .meter { background: var(--surface); padding: 0.7rem 0.85rem; display: flex; flex-direction: column; gap: 0.15rem; }
-  .meter .n { font-family: var(--f-mono); font-size: 1.42rem; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
-  .meter .l { font-size: 0.72rem; color: var(--muted); line-height: 1.3; }
+  .masthead { display: flex; flex-direction: column; gap: 1rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--ink); }
+  .rule-top { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
+  .caveat { border-left: 3px solid var(--warn); padding: 0.6rem 0 0.6rem 0.9rem; font-family: var(--f-read); font-size: 0.93rem; line-height: 1.55; max-width: var(--measure); color: var(--ink-2); }
 
-  /* ---------- section scaffold ---------- */
-  section { display: flex; flex-direction: column; gap: 1.15rem; }
-  .sec-head { display: flex; flex-direction: column; gap: 0.35rem; }
-  .sec-head .bar { width: 34px; height: 3px; background: var(--accent); }
+  section { display: flex; flex-direction: column; gap: 1rem; }
+  .sec-head { display: flex; flex-direction: column; gap: 0.3rem; }
+  .sec-head .bar { width: 32px; height: 3px; background: var(--accent); }
+  .sec-head .count { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 
-  /* ---------- the chain ---------- */
-  .chain { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); background: var(--line); border: 1px solid var(--line); }
-  .link { background: var(--surface); padding: 1rem 1.05rem 1.15rem; display: flex; flex-direction: column; gap: 0.4rem; }
-  .link .step { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.14em; color: var(--accent); text-transform: uppercase; }
-  .link h3 { margin-top: 0.1rem; }
-  .link p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
-  .link .cnt { font-family: var(--f-mono); font-size: 0.74rem; color: var(--ink-2); border-top: 1px dashed var(--line); padding-top: 0.5rem; margin-top: auto; }
+  /* chain strip */
+  .chain { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); background: var(--line); border: 1px solid var(--line); }
+  .link { background: var(--surface); padding: 0.85rem 1rem 0.95rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .link .step { font-family: var(--f-mono); font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  .link .q { font-size: 0.9rem; font-weight: 620; }
+  .link .n { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); margin-top: 0.15rem; }
 
-  /* ---------- rep test ---------- */
-  .scorecard { border: 1px solid var(--line); background: var(--surface); overflow-x: auto; }
-  table { border-collapse: collapse; width: 100%; font-size: 0.87rem; }
-  th, td { text-align: left; padding: 0.66rem 0.85rem; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
-  thead th {
-    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
-    border-bottom: 1px solid var(--line); font-weight: 600; white-space: nowrap;
-  }
-  tbody tr:last-child td { border-bottom: 0; }
-  td.job { font-weight: 620; white-space: nowrap; }
-  td.why { color: var(--muted); }
-  .verdict { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--f-mono); font-size: 0.74rem; letter-spacing: 0.02em; white-space: nowrap; }
-  .dot { width: 9px; height: 9px; border: 1.5px solid currentColor; border-radius: 50%; flex: none; }
-  .v-no   { color: var(--crit); }
-  .v-no .dot { background: transparent; }
-  .v-part { color: var(--warn); }
-  .v-part .dot { background: linear-gradient(90deg, currentColor 50%, transparent 50%); }
-  .v-yes  { color: var(--accent); }
-  .v-yes .dot { background: currentColor; }
+  /* generic list block */
+  .list { border: 1px solid var(--line); background: var(--surface); }
+  .row { display: flex; gap: 0.85rem; padding: 0.62rem 0.95rem; border-bottom: 1px solid var(--line-soft); align-items: baseline; }
+  .row:last-child { border-bottom: 0; }
+  .row .id { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); flex: none; min-width: 3.4rem; font-variant-numeric: tabular-nums; }
+  .row .txt { flex: 1; font-size: 0.92rem; line-height: 1.45; min-width: 12rem; }
+  .row .txt .sub { display: block; color: var(--muted); font-size: 0.83rem; margin-top: 0.1rem; }
+  .row .tag { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.06em; flex: none; white-space: nowrap; padding: 0.1rem 0.42rem; border: 1px solid currentColor; }
+  .t-automated   { color: var(--accent); }
+  .t-automatable { color: var(--ink-2); }
+  .t-assisted    { color: var(--warn); }
+  .t-manual      { color: var(--crit); }
+  .row .who { font-family: var(--f-mono); font-size: 0.68rem; color: var(--muted); flex: none; white-space: nowrap; min-width: 6.5rem; text-align: right; }
+  .row .who.none { color: var(--crit); }
 
-  /* ---------- roles ---------- */
-  .roles { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); background: var(--line); border: 1px solid var(--line); }
-  .role { background: var(--surface); padding: 0.95rem 1.05rem 1.1rem; display: flex; flex-direction: column; gap: 0.45rem; }
-  .role .rl { font-family: var(--f-mono); font-size: 0.74rem; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
-  .role .rd { font-size: 0.87rem; line-height: 1.5; color: var(--ink-2); }
-  .role .rf { font-size: 0.76rem; color: var(--ink-2); border-top: 1px dashed var(--line); padding-top: 0.5rem; margin-top: auto; }
-  .role .rc { font-size: 0.72rem; color: var(--muted); font-style: italic; }
+  .sub-head { display: flex; align-items: baseline; gap: 0.6rem; padding: 0.55rem 0.95rem; background: var(--surface-2); border-bottom: 1px solid var(--line); }
+  .sub-head h3 { flex: 1; }
+  .sub-head .c { font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); }
 
-  /* ---------- field map ---------- */
-  .half { border: 1px solid var(--line); background: var(--surface); padding: 1rem 1.05rem 1.15rem; display: flex; flex-direction: column; gap: 0.9rem; }
-  .half-head { display: flex; justify-content: space-between; align-items: baseline; gap: 0.8rem; border-bottom: 1px solid var(--line); padding-bottom: 0.6rem; }
-  .half-head .tag { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-  .groups { display: flex; flex-direction: column; gap: 0.75rem; }
-  .grp { display: flex; flex-direction: column; gap: 0.34rem; }
-  .grp-l { display: flex; align-items: baseline; gap: 0.45rem; font-size: 0.78rem; }
-  .grp-l .letter { font-family: var(--f-mono); font-weight: 640; color: var(--accent); }
-  .grp-l .name { font-weight: 560; }
-  .grp-l .ct { margin-left: auto; font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .cells { display: flex; flex-wrap: wrap; gap: 4px; }
-  .cell {
-    width: 30px; height: 21px; border: 1px solid var(--line);
-    font-family: var(--f-mono); font-size: 0.6rem; line-height: 19px; text-align: center;
-    color: var(--muted); background: var(--surface-2);
-  }
-  .cell.f { background: var(--accent); border-color: var(--accent); color: var(--ground); }
-  .cell.g { background: var(--warn-soft); border-color: var(--warn); color: var(--warn); }
-  .cell.e { background: transparent; border-style: dashed; }
+  .legend { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.76rem; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: baseline; gap: 0.35rem; }
+  .legend b { font-family: var(--f-mono); font-size: 0.68rem; padding: 0.06rem 0.36rem; border: 1px solid currentColor; font-weight: 400; }
 
-  .chip {
-    display: inline-flex; align-items: baseline; gap: 0.42rem;
-    border: 1px solid var(--line); background: var(--surface-2);
-    padding: 0.22rem 0.5rem 0.24rem 0.32rem;
-    font-size: 0.79rem; line-height: 1.3; color: var(--ink-2);
-  }
-  .chip b {
-    font-family: var(--f-mono); font-size: 0.7rem; font-weight: 640;
-    color: var(--muted); letter-spacing: 0.01em; flex: none;
-  }
-  .chip em { font-style: italic; }
-  .chip.f { background: var(--accent); border-color: var(--accent); color: var(--ground); }
-  .chip.f b { color: var(--ground); opacity: 0.75; }
-  .chip.g { background: var(--warn-soft); border-color: var(--warn); color: var(--warn); }
-  .chip.g b { color: var(--warn); opacity: 0.8; }
-  .chip.e { background: transparent; border-style: dashed; color: var(--muted); }
+  .job { display: flex; gap: 0.9rem; padding: 0.85rem 0.95rem; border-bottom: 1px solid var(--line-soft); }
+  .job:last-child { border-bottom: 0; }
+  .job .jn { font-family: var(--f-mono); font-size: 1.5rem; line-height: 1; color: var(--accent); flex: none; letter-spacing: -0.03em; }
+  .job .jt { display: flex; flex-direction: column; gap: 0.2rem; }
+  .job .jname { font-weight: 640; font-size: 1rem; }
+  .job .jq { font-family: var(--f-read); font-size: 0.92rem; color: var(--ink-2); line-height: 1.5; }
 
-  .key { display: flex; flex-wrap: wrap; gap: 0.9rem; font-size: 0.74rem; color: var(--muted); }
-  .key span { display: inline-flex; align-items: center; gap: 0.36rem; }
-  .sw { width: 15px; height: 12px; border: 1px solid var(--line); flex: none; }
-  .sw.f { background: var(--accent); border-color: var(--accent); }
-  .sw.g { background: var(--warn-soft); border-color: var(--warn); }
-  .sw.e { border-style: dashed; background: transparent; }
+  .grpblock { border: 1px solid var(--line); background: var(--surface); margin-bottom: -1px; }
+  .grpblock .gh { display: flex; align-items: baseline; gap: 0.55rem; padding: 0.5rem 0.9rem; background: var(--surface-2); border-bottom: 1px solid var(--line); }
+  .grpblock .gh .gn { font-family: var(--f-mono); font-weight: 640; color: var(--accent); font-size: 0.78rem; }
+  .grpblock .gh .gt { font-weight: 600; font-size: 0.86rem; }
+  .grpblock .gh .gc { margin-left: auto; font-family: var(--f-mono); font-size: 0.68rem; color: var(--muted); }
+  .frow { display: flex; gap: 0.7rem; padding: 0.38rem 0.9rem; border-bottom: 1px solid var(--line-soft); font-size: 0.87rem; }
+  .frow:last-child { border-bottom: 0; }
+  .frow .fid { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); flex: none; min-width: 2.6rem; }
 
-  /* ---------- tasks ---------- */
-  .verdicts { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); background: var(--line); border: 1px solid var(--line); }
-  .vd { background: var(--surface); padding: 0.85rem 1rem 0.95rem; display: flex; flex-direction: column; gap: 0.3rem; }
-  .vd .vn { font-family: var(--f-mono); font-size: 1.75rem; letter-spacing: -0.035em; line-height: 1; }
-  .vd .vt { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; }
-  .vd .vs { font-size: 0.78rem; color: var(--muted); line-height: 1.45; }
-  .vd.a  .vn, .vd.a  .vt { color: var(--accent); }
-  .vd.ab .vn, .vd.ab .vt { color: var(--ink-2); }
-  .vd.as .vn, .vd.as .vt { color: var(--warn); }
-  .vd.mn .vn, .vd.mn .vt { color: var(--crit); }
-  .vbar { display: flex; height: 10px; border: 1px solid var(--line); }
-  .vbar i { display: block; }
-  .vbar .s-a  { background: var(--accent); }
-  .vbar .s-ab { background: var(--accent-soft); }
-  .vbar .s-as { background: var(--warn); }
-  .vbar .s-mn { background: var(--crit); }
-  .unowned { border: 1px solid var(--crit); background: var(--crit-soft); padding: 0.95rem 1.05rem; display: flex; flex-direction: column; gap: 0.6rem; }
-  .unowned .uh { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--crit); }
-  .urow { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; font-size: 0.85rem; }
-  .urow b { font-family: var(--f-mono); font-size: 0.72rem; color: var(--crit); flex: none; }
-  .urow .kind { margin-left: auto; font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-
-  /* ---------- gates ---------- */
-  .gates { border: 1px solid var(--line); background: var(--surface); }
-  .gate-col { padding: 1rem 1.05rem; display: flex; flex-direction: column; gap: 0.55rem; }
-  .gate-col h3 { display: flex; align-items: baseline; gap: 0.5rem; }
-  .gate-col h3 .n { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); margin-left: auto; }
-  .gate-list { display: flex; flex-direction: column; gap: 0.3rem; }
-  .gate {
-    display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap;
-    font-size: 0.83rem; padding: 0.32rem 0.5rem; border: 1px solid var(--line-soft); background: var(--ground);
-  }
-  .gate .lbl { font-weight: 560; }
-  .gate .req { font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); margin-left: auto; white-space: nowrap; }
-  .gates .divider {
-    display: flex; align-items: center; gap: 0.75rem;
-    padding: 0.55rem 1.05rem; background: var(--accent-soft);
-    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-    font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent);
-  }
-  .gates .divider::after { content: ""; flex: 1; height: 1px; background: currentColor; opacity: 0.4; }
-  .below .gate { border-style: dashed; opacity: 0.92; }
-  .below .gate .lbl { color: var(--ink-2); }
-
-  /* ---------- tiers ---------- */
-  .tiers { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); background: var(--line); border: 1px solid var(--line); }
-  .tier { background: var(--surface); padding: 1rem 1.05rem 1.15rem; display: flex; flex-direction: column; gap: 0.5rem; }
-  .tier .n { font-family: var(--f-mono); font-size: 2rem; letter-spacing: -0.04em; line-height: 1; }
-  .tier .sub { font-size: 0.74rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-family: var(--f-mono); }
-  .tier p { font-size: 0.85rem; color: var(--ink-2); line-height: 1.5; }
-  .bars { display: flex; gap: 2px; height: 7px; margin-top: 0.15rem; }
-  .bars i { display: block; height: 100%; }
-  .b-fill { background: var(--accent); }
-  .b-skel { background: var(--warn); }
-  .b-none { background: var(--line); }
-
-  /* ---------- convergence ---------- */
-  .converge { display: grid; gap: 1px; grid-template-columns: 1fr; background: var(--line); border: 1px solid var(--line); }
-  @media (min-width: 780px) { .converge { grid-template-columns: repeat(3, 1fr); } }
-  .lens { background: var(--surface); padding: 0.95rem 1.05rem; display: flex; flex-direction: column; gap: 0.4rem; }
-  .lens .src { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-  .lens p { font-size: 0.87rem; line-height: 1.5; }
-  .landing {
-    border: 2px solid var(--accent); background: var(--accent-soft);
-    padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.45rem;
-  }
-  .landing .hd { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
-  .landing p { font-size: 0.95rem; line-height: 1.55; }
-  .tasklist { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.2rem; }
-  .tasklist span { font-family: var(--f-mono); font-size: 0.72rem; border: 1px solid var(--accent); color: var(--accent); padding: 0.16rem 0.44rem; }
-
-  /* ---------- routes ---------- */
-  .routes { display: grid; gap: 1px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); background: var(--line); border: 1px solid var(--line); }
-  .route { background: var(--surface); padding: 0.9rem 1rem; display: flex; flex-direction: column; gap: 0.4rem; }
-  .route .rname { font-weight: 620; font-size: 0.93rem; }
-  .route .ev { font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
-  .route .freq { font-family: var(--f-mono); font-size: 0.67rem; letter-spacing: 0.09em; text-transform: uppercase; margin-top: auto; padding-top: 0.5rem; border-top: 1px dashed var(--line); }
-  .freq.daily { color: var(--accent); }
-  .freq.rare  { color: var(--muted); }
-  .freq.new   { color: var(--warn); }
-  .route .flds { font-family: var(--f-mono); font-size: 0.7rem; color: var(--ink-2); }
-
-  /* ---------- queue ---------- */
-  .queue { border: 1px solid var(--line); background: var(--surface); overflow-x: auto; }
-  td.id { font-family: var(--f-mono); font-size: 0.76rem; color: var(--accent); white-space: nowrap; font-weight: 600; }
-  td.eff { font-family: var(--f-mono); font-size: 0.74rem; color: var(--muted); white-space: nowrap; }
-
-  footer { border-top: 1px solid var(--line); padding-top: 1.1rem; font-size: 0.78rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
-
+  footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: 0.8rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
@@ -308,666 +111,318 @@
 
   <header class="masthead">
     <div class="rule-top">
-      <span class="eyebrow">SRND Group · product record · model v2 · rev 4 — adds the task register</span>
-      <span class="eyebrow">for correction, not adoption</span>
+      <span class="eyebrow">SRND Group · the approach, listed · rev 5</span>
+      <span class="eyebrow">reference — nothing here is scored</span>
     </div>
-    <h1>What the database must hold for content to act as the rep</h1>
-    <p class="lede">Not <em class="q">what data does a product have?</em> — that question produces a datasheet. The
-      working question is what a sales and marketing rep carries in their head, and whether the record can do the
-      four things a rep does without them. This is that model, and where the estate currently sits against it.</p>
-    <div class="meters">
-      <div class="meter"><span class="n">58</span><span class="l">fields, 13 groups</span></div>
-      <div class="meter"><span class="n">12</span><span class="l">knowledge domains</span></div>
-      <div class="meter"><span class="n">6</span><span class="l">capture routes · 5 already happening</span></div>
-      <div class="meter"><span class="n">45</span><span class="l">tasks · 12 irreducibly manual</span></div>
-      <div class="meter"><span class="n">38</span><span class="l">record scopes in the group</span></div>
-      <div class="meter"><span class="n">3</span><span class="l">records filled</span></div>
-      <div class="meter"><span class="n">15</span><span class="l">products sold with no record</span></div>
-    </div>
+    <h1>Jobs, tasks, domains, routes</h1>
+    <p class="lede">The four lists the approach is built from. <strong>A rep does four jobs. To do them they perform
+      45 tasks. To perform those they need to know twelve things. Those twelve get filled by six routes.</strong>
+      Everything else in the document set — the product record, the form, the register — is downstream of these
+      four lists.</p>
+    <div class="caveat"><strong>Every row is a claim, not a finding.</strong> This was assembled from the strategy
+      documents, not from watching anyone work. Verdicts and performers are proposals for correction — strike what
+      is wrong. Nothing here has been verified with the people who do the work, and no assessment of any brand or
+      product is made on this page.</div>
   </header>
 
-  <!-- ============ THE CHAIN ============ -->
+  <!-- CHAIN -->
   <section>
-    <div class="sec-head">
-      <div class="bar"></div>
-      <span class="eyebrow">the spine</span>
-      <h2>Four questions, in order — each one answers the next</h2>
-      <p class="note">The chain is the model. Skip a link and the one after it has nothing to stand on: fields
-        without tasks are a filing cabinet, tasks without routes are a documentation project that never starts.</p>
-    </div>
     <div class="chain">
-      <div class="link">
-        <span class="step">1 · jobs</span>
-        <h3>What a rep is <em>for</em></h3>
-        <p>Attract · defend · build trust · deliver. Four yes/no tests, and the only measure that matters.</p>
-        <span class="cnt">4 jobs</span>
+      <div class="link"><span class="step">1</span><span class="q">Jobs</span><span class="n">what a rep is for · 4</span></div>
+      <div class="link"><span class="step">2</span><span class="q">Tasks</span><span class="n">what they do · 45</span></div>
+      <div class="link"><span class="step">3</span><span class="q">Domains</span><span class="n">what they must know · 12</span></div>
+      <div class="link"><span class="step">4</span><span class="q">Routes</span><span class="n">how it gets captured · 6</span></div>
+    </div>
+  </section>
+
+  <!-- JOBS -->
+  <section>
+    <div class="sec-head">
+      <div class="bar"></div>
+      <span class="count">list 1 of 4 · four jobs</span>
+      <h2>The jobs — what a sales and marketing rep is for</h2>
+    </div>
+    <div class="list">
+      <div class="job">
+        <span class="jn">1</span>
+        <span class="jt"><span class="jname">Attract</span>
+          <span class="jq">Make the solution as attractive as it honestly is. Every hook comes from here.</span></span>
       </div>
-      <div class="link">
-        <span class="step">2 · tasks</span>
-        <h3>What they do all week</h3>
-        <p>The sales rep's week and the marketing executive's, each task mapped to the fields it consumes — and the
-          ones it feeds back.</p>
-        <span class="cnt">45 tasks · 6 unowned</span>
+      <div class="job">
+        <span class="jn">2</span>
+        <span class="jt"><span class="jname">Defend</span>
+          <span class="jq">Hold it against the alternatives — including the dealer's incumbent supplier, and doing nothing.</span></span>
       </div>
-      <div class="link">
-        <span class="step">3 · domains</span>
-        <h3>What they must know</h3>
-        <p>Twelve subject areas. Each is here because a task fails without it — physical, application, competitive,
-          commercial, and the rest.</p>
-        <span class="cnt">12 domains → 58 fields</span>
+      <div class="job">
+        <span class="jn">3</span>
+        <span class="jt"><span class="jname">Build trust</span>
+          <span class="jq">Be believed. Proof, honest limits, and the things we decline to claim.</span></span>
       </div>
-      <div class="link">
-        <span class="step">4 · routes</span>
-        <h3>How it gets in</h3>
-        <p>The tasks read from the database's side. A route is a task whose output is caught instead of discarded.</p>
-        <span class="cnt">6 routes · 1 new habit</span>
+      <div class="job">
+        <span class="jn">4</span>
+        <span class="jt"><span class="jname">Deliver</span>
+          <span class="jq">Every question answered clearly, all the way to a working install.</span></span>
       </div>
     </div>
   </section>
 
-  <!-- ============ REP TEST ============ -->
+  <!-- TASKS -->
   <section>
     <div class="sec-head">
       <div class="bar"></div>
-      <span class="eyebrow">the pass mark</span>
-      <h2>The rep test, and where two brands sit against it</h2>
-      <p class="note">A record can be most of the way full and still fail three of these. Jobs 1 and 2 are one piece
-        of work — a claim you cannot defend is a hook that costs you the dealer the moment it meets a competitor's
-        answer.</p>
+      <span class="count">list 2 of 4 · forty-five tasks</span>
+      <h2>The tasks — what they actually do all week</h2>
+      <p class="note">Each carries a proposed automation verdict and the performer as things stand.
+        <span class="mono">nobody</span> means the task has no performer at all.</p>
     </div>
-    <div class="scorecard">
-      <table>
-        <thead>
-          <tr>
-            <th>Job</th><th>The test</th><th>Groups that serve it</th><th>C-ATS</th><th>Display Tech.</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="job">1 · Attract</td>
-            <td class="why">Can you start a conversation a dealer wants to have? <strong>Every hook comes from here.</strong></td>
-            <td class="mono">08 · 02 · 04</td>
-            <td><span class="verdict v-no"><span class="dot"></span>no</span></td>
-            <td><span class="verdict v-no"><span class="dot"></span>no</span></td>
-          </tr>
-          <tr>
-            <td class="job">2 · Defend</td>
-            <td class="why">Can you win the comparison — against their incumbent, and against doing nothing?</td>
-            <td class="mono">05 · 04 · 10</td>
-            <td><span class="verdict v-no"><span class="dot"></span>no</span></td>
-            <td><span class="verdict v-no"><span class="dot"></span>no</span></td>
-          </tr>
-          <tr>
-            <td class="job">3 · Build trust</td>
-            <td class="why">Can you be believed — proof, honest limits, what we decline to claim?</td>
-            <td class="mono">03 · 10 · 04</td>
-            <td><span class="verdict v-yes"><span class="dot"></span>yes</span></td>
-            <td><span class="verdict v-part"><span class="dot"></span>partly</span></td>
-          </tr>
-          <tr>
-            <td class="job">4 · Deliver</td>
-            <td class="why">Can a dealer reach a working room without asking us anything?</td>
-            <td class="mono">01 · 07 · 04 · 12</td>
-            <td><span class="verdict v-part"><span class="dot"></span>partly</span></td>
-            <td><span class="verdict v-no"><span class="dot"></span>no</span></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="legend">
+      <span><b class="t-automated">automated</b>runs today with no person in the loop</span>
+      <span><b class="t-automatable">automatable</b>could, given the record filled — not built</span>
+      <span><b class="t-assisted">assisted</b>person required, system carries the labour</span>
+      <span><b class="t-manual">manual</b>irreducibly human</span>
+    </div>
+
+    <div class="list">
+      <div class="sub-head"><h3>Sales</h3><span class="c">27 tasks</span></div>
+      <div class="row"><span class="id">T-S01</span><span class="txt">Build the target list</span><span class="tag t-automatable">automatable</span><span class="who">content · person</span></div>
+      <div class="row"><span class="id">T-S02</span><span class="txt">Get in front of a stranger</span><span class="tag t-automated">automated</span><span class="who">content</span></div>
+      <div class="row"><span class="id">T-S03</span><span class="txt">Qualify the dealer</span><span class="tag t-automatable">automatable</span><span class="who">store/engine</span></div>
+      <div class="row"><span class="id">T-S04</span><span class="txt">Qualify the project</span><span class="tag t-automated">automated</span><span class="who">tools</span></div>
+      <div class="row"><span class="id">T-S05</span><span class="txt">Present the range</span><span class="tag t-automated">automated</span><span class="who">content</span></div>
+      <div class="row"><span class="id">T-S06</span><span class="txt">Discover — their business, their fears, last job's failure<span class="sub">the conversation is human; the capture is not</span></span><span class="tag t-assisted">assisted</span><span class="who">spec conversation</span></div>
+      <div class="row"><span class="id">T-S07</span><span class="txt">Technical selling — help specify a live job</span><span class="tag t-assisted">assisted</span><span class="who">design desk</span></div>
+      <div class="row"><span class="id">T-S08</span><span class="txt">Produce a quote</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
+      <div class="row"><span class="id">T-S09</span><span class="txt">Negotiate terms</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-S10</span><span class="txt">Handle objections</span><span class="tag t-automatable">automatable</span><span class="who">content</span></div>
+      <div class="row"><span class="id">T-S11</span><span class="txt">Defend against a named competitor</span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-S12</span><span class="txt">Close — want the order and ask for it</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-S13</span><span class="txt">Onboard the account</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
+      <div class="row"><span class="id">T-S14</span><span class="txt">Make the first install succeed</span><span class="tag t-assisted">assisted</span><span class="who">content</span></div>
+      <div class="row"><span class="id">T-S15</span><span class="txt">Post-delivery follow-up</span><span class="tag t-automatable">automatable</span><span class="who">touch set</span></div>
+      <div class="row"><span class="id">T-S16</span><span class="txt">Account management — stay recalled</span><span class="tag t-assisted">assisted</span><span class="who">content · person</span></div>
+      <div class="row"><span class="id">T-S17</span><span class="txt">Cross-sell the rest of the group</span><span class="tag t-assisted">assisted</span><span class="who">adjacency prompt</span></div>
+      <div class="row"><span class="id">T-S18</span><span class="txt">Prompt the reorder</span><span class="tag t-automatable">automatable</span><span class="who">store/engine</span></div>
+      <div class="row"><span class="id">T-S19</span><span class="txt">Recover a failure</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-S20</span><span class="txt">Train the dealer's staff</span><span class="tag t-automatable">automatable</span><span class="who">content</span></div>
+      <div class="row"><span class="id">T-S21</span><span class="txt">Pipeline and forecast</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
+      <div class="row"><span class="id">T-S22</span><span class="txt">Bring back market intelligence</span><span class="tag t-manual">manual</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-S23</span><span class="txt">Feed product development</span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-S24</span><span class="txt">Events and keeping relationships warm</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-S25</span><span class="txt">Territory planning</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-S26</span><span class="txt">The novel problem — "can you do this impossible project?"</span><span class="tag t-manual">manual</span><span class="who">the authority</span></div>
+      <div class="row"><span class="id">T-S27</span><span class="txt">Recognition and thanks</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+    </div>
+
+    <div class="list">
+      <div class="sub-head"><h3>Marketing</h3><span class="c">18 tasks</span></div>
+      <div class="row"><span class="id">T-M01</span><span class="txt">Market and segment research</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-M02</span><span class="txt">Competitor tracking</span><span class="tag t-automatable">automatable</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-M03</span><span class="txt">Positioning and messaging</span><span class="tag t-manual">manual</span><span class="who">the owner</span></div>
+      <div class="row"><span class="id">T-M04</span><span class="txt">Campaign planning</span><span class="tag t-assisted">assisted</span><span class="who">pathways</span></div>
+      <div class="row"><span class="id">T-M05</span><span class="txt">Content production<span class="sub">drafting automated; the truth-check never is</span></span><span class="tag t-assisted">assisted</span><span class="who">production line</span></div>
+      <div class="row"><span class="id">T-M06</span><span class="txt">Editorial calendar and cadence</span><span class="tag t-automatable">automatable</span><span class="who">churn queue</span></div>
+      <div class="row"><span class="id">T-M07</span><span class="txt">Channel management</span><span class="tag t-assisted">assisted</span><span class="who">per brand</span></div>
+      <div class="row"><span class="id">T-M08</span><span class="txt">Discoverability — search and AI answers</span><span class="tag t-assisted">assisted</span><span class="who">content</span></div>
+      <div class="row"><span class="id">T-M09</span><span class="txt">Lead capture and nurture</span><span class="tag t-automated">automated</span><span class="who">tools · engine</span></div>
+      <div class="row"><span class="id">T-M10</span><span class="txt">Collateral — datasheets, case studies</span><span class="tag t-assisted">assisted</span><span class="who">generation gates</span></div>
+      <div class="row"><span class="id">T-M11</span><span class="txt">Brand consistency</span><span class="tag t-automated">automated</span><span class="who">guardrails</span></div>
+      <div class="row"><span class="id">T-M12</span><span class="txt">Dealer marketing support<span class="sub">material a partner uses with their own client</span></span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-M13</span><span class="txt">Events and exhibitions</span><span class="tag t-manual">manual</span><span class="who">person</span></div>
+      <div class="row"><span class="id">T-M14</span><span class="txt">Trade press and PR</span><span class="tag t-assisted">assisted</span><span class="who">thin</span></div>
+      <div class="row"><span class="id">T-M15</span><span class="txt">Measurement and reporting</span><span class="tag t-automatable">automatable</span><span class="who">partly unowned</span></div>
+      <div class="row"><span class="id">T-M16</span><span class="txt">CRM and data hygiene</span><span class="tag t-automated">automated</span><span class="who">store/engine</span></div>
+      <div class="row"><span class="id">T-M17</span><span class="txt">Product launch</span><span class="tag t-assisted">assisted</span><span class="who none">nobody</span></div>
+      <div class="row"><span class="id">T-M18</span><span class="txt">Budget and spend allocation</span><span class="tag t-manual">manual</span><span class="who">the owner</span></div>
     </div>
   </section>
 
-  <!-- ============ TASKS ============ -->
+  <!-- DOMAINS -->
   <section>
     <div class="sec-head">
       <div class="bar"></div>
-      <span class="eyebrow">the task register · group/10-tasks.md</span>
-      <h2>45 tasks, and which of them a system can actually do</h2>
-      <p class="note">A sales person's week and a marketing person's, listed exhaustively rather than selectively,
-        each with an automation verdict. <strong>Every row is an unverified claim</strong> until someone who does
-        the work confirms it — that is the register's own first action, not a caveat on it.</p>
+      <span class="count">list 3 of 4 · twelve domains</span>
+      <h2>The domains — what the database must hold</h2>
+      <p class="note">Each is here because a task above fails without it. These become the fields of the product
+        record.</p>
     </div>
-
-    <div class="verdicts">
-      <div class="vd a">
-        <span class="vn">9</span><span class="vt">automated</span>
-        <span class="vs">Runs today with nobody in the loop — engine, the store, the tools, published content.</span>
-      </div>
-      <div class="vd ab">
-        <span class="vn">9</span><span class="vt">automatable</span>
-        <span class="vs">Could run without a person given the record filled. The blocker is build or data, not judgement.</span>
-      </div>
-      <div class="vd as">
-        <span class="vn">15</span><span class="vt">assisted</span>
-        <span class="vs">A person is required, but the system carries the labour. Minutes, not hours — the judgement stays.</span>
-      </div>
-      <div class="vd mn">
-        <span class="vn">12</span><span class="vt">manual</span>
-        <span class="vs">Irreducibly human. Automating it would destroy the thing that makes it work.</span>
-      </div>
-    </div>
-    <div class="vbar">
-      <i class="s-a" style="flex:9"></i><i class="s-ab" style="flex:9"></i><i class="s-as" style="flex:15"></i><i class="s-mn" style="flex:12"></i>
-    </div>
-
-    <p class="note"><strong><span class="mono">assisted</span> is the largest category, and that is the model
-      working as designed.</strong> The question was never <em class="q">does content replace a rep?</em> — it is
-      whether the labour can move while the judgement stays. <strong>Content, the store and the tools cover 73 % of
-      the two jobs</strong>, outright or with a person's minutes on top; the remaining 27 % is named rather than
-      assumed away, and it is small enough to staff.</p>
-
-    <p class="note"><strong>And this is where the record fits into the rest of the system.</strong> Assisted work is
-      exactly the work where a person reviews what the system drafted — and the system can only draft from the
-      record. <strong>An empty record silently reverts every assisted task to manual</strong>, which is the
-      difference between 73 % coverage and 20 %.</p>
-
-    <div class="unowned">
-      <span class="uh">six tasks have no performer at all</span>
-      <div class="urow"><b>T-S11</b>Defend against a named competitor<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-S22</b>Bring back market intelligence<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-S23</b>Feed product development<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-M02</b>Competitor tracking<span class="kind">outward-sensing</span></div>
-      <div class="urow"><b>T-M12</b>Dealer marketing support — material a partner hands their own client<span class="kind">execution</span></div>
-      <div class="urow"><b>T-M17</b>Product launch<span class="kind">execution</span></div>
-      <p class="note" style="font-size:0.86rem;">The four sensing tasks are <strong>one job, not four gaps</strong>
-        — nobody is looking at the market, at rivals, or at why we lose. The two execution tasks are different in
-        kind and more immediately expensive, because they are ordinary work nobody was assigned: <strong>the Screen
-        Wall is what an unowned product launch costs</strong>, and <span class="mono">N7</span> empty across all 38
-        scopes is what unowned dealer support costs.</p>
+    <div class="list">
+      <div class="row"><span class="id">01</span><span class="txt"><strong>Physical</strong><span class="sub">Construction, materials, finishes, sizes, weights, what is supplied</span></span></div>
+      <div class="row"><span class="id">02</span><span class="txt"><strong>Functional &amp; performance</strong><span class="sub">What it does, the mechanism, measured behaviour, test basis, the envelope and its limits</span></span></div>
+      <div class="row"><span class="id">03</span><span class="txt"><strong>Application</strong><span class="sub">Where it is used and where it is not; selection and sizing; layout; quantity; worked examples; misapplication</span></span></div>
+      <div class="row"><span class="id">04</span><span class="txt"><strong>Integration &amp; compatibility</strong><span class="sub">What it works with, ours and other people's; interfaces; prerequisites; what the builder must leave</span></span></div>
+      <div class="row"><span class="id">05</span><span class="txt"><strong>Competitive</strong><span class="sub">Named alternatives dimension by dimension; where we win; where they win; the switch argument; why deals are lost</span></span></div>
+      <div class="row"><span class="id">06</span><span class="txt"><strong>Commercial</strong><span class="sub">Order unit, lead time, availability, margin position, what it costs in labour, what not specifying it costs. Never price</span></span></div>
+      <div class="row"><span class="id">07</span><span class="txt"><strong>Evidence &amp; proof</strong><span class="sub">Measured reports, references, demonstrations, renders — and what may be shown</span></span></div>
+      <div class="row"><span class="id">08</span><span class="txt"><strong>Risk &amp; objection</strong><span class="sub">The doubt, the objection behind it, the failure modes on site, the cost of getting it wrong</span></span></div>
+      <div class="row"><span class="id">09</span><span class="txt"><strong>The answers</strong><span class="sub">The questions actually received, ranked, answered in the owner's words, with where each is published</span></span></div>
+      <div class="row"><span class="id">10</span><span class="txt"><strong>Lifecycle &amp; support</strong><span class="sub">Lead time to site, install sequence, commissioning and verification, spares, serviceability, replacement</span></span></div>
+      <div class="row"><span class="id">11</span><span class="txt"><strong>Narrative &amp; hook material</strong><span class="sub">Which of the five appeals a product can honestly carry, and the substance behind each</span></span></div>
+      <div class="row"><span class="id">12</span><span class="txt"><strong>Governance &amp; provenance</strong><span class="sub">What may and may not be said, marketing status, source, owner, review date</span></span></div>
     </div>
   </section>
 
-  <!-- ============ ROLES ============ -->
+  <!-- ROUTES -->
   <section>
     <div class="sec-head">
       <div class="bar"></div>
-      <span class="eyebrow">who</span>
-      <h2>Four roles, never names</h2>
-      <p class="note">The whole system is specified in roles — one person may hold several, and who fills each is a
-        separate decision made later. Provenance keeps names; assignments do not.</p>
+      <span class="count">list 4 of 4 · six routes</span>
+      <h2>The routes — how the domains get filled</h2>
+      <p class="note">A route is a task whose output is caught instead of discarded. Five of the six attach to
+        events that already happen.</p>
     </div>
-    <div class="roles">
-      <div class="role">
-        <span class="rl">the owner</span>
-        <p class="rd">Judgement, truth-check, and what may be published. Approves a ranked list, confirms what is
-          true today, records answers in batches — <strong>never authors the list</strong>.</p>
-        <span class="rf">Supplies <span class="mono">H1–H3 · G2 G3 · K1–K3</span> · runs the review route</span>
-        <span class="rc">minutes per approval; one recording session per batch</span>
-      </div>
-      <div class="role">
-        <span class="rl">the authority</span>
-        <p class="rd">The technical face and voice. The technical answer, the impossible project, and later the only
-          route to the specifier — a CPD seminar is a person.</p>
-        <span class="rf">Supplies <span class="mono">N1–N4 · D1–D10 · X2 X3 X4</span> · the voice behind every
-          <span class="mono">N3</span> answer</span>
-        <span class="rc">the scarce input; spend it on substance, never on production</span>
-      </div>
-      <div class="role">
-        <span class="rl">the relationship</span>
-        <p class="rd">The trade-facing human. The welcome, the walkthrough, the invitation, the follow-up — anything
-          that ends in a conversation.</p>
-        <span class="rf">Supplies <span class="mono">O1 · R3 · X1 X5 X6 · W2</span> · runs the deal route</span>
-        <span class="rc">light, and already part of the sales job</span>
-      </div>
-      <div class="role">
-        <span class="rl">the producer</span>
-        <p class="rd">Editorial and production, off camera. Drafts and ranks the list, briefs, produces, publishes,
-          keeps it current. <strong>Knowing what needs discussing is the scarcer skill</strong> — which is why this
-          role stays behind the camera.</p>
-        <span class="rf">Owns the record itself · turns <span class="mono">N3</span> into the corpus</span>
-        <span class="rc">real and ongoing — the one genuine reallocation</span>
-      </div>
-    </div>
-    <p class="note" style="font-size:0.86rem;">A fifth commitment sits alongside these in the plan — <strong>the
-      trade view</strong>: which questions dealers actually ask, and the follow-up nobody currently owns. It is not
-      a casting role, but it is the input <span class="mono">R3</span> depends on.</p>
-  </section>
-
-  <!-- ============ FIELD MAP ============ -->
-  <section>
-    <div class="sec-head">
-      <div class="bar"></div>
-      <span class="eyebrow">the form · all 58 fields</span>
-      <h2>Every field, and the half that was missing</h2>
-      <p class="note">This is also the decoder for every ID used elsewhere on the page. The state shown is C-ATS —
-        the group's <em class="q">best</em> documented product, 28 of 58. The shape of the emptiness is the point:
-        the back half is well covered, and the front half, where the journey is actually entered, is almost bare.</p>
-    </div>
-
-    <div class="key">
-      <span><i class="sw f"></i>filled — known, sourced, current</span>
-      <span><i class="sw g"></i>named gap <span class="mono">[?]</span> — we know we don't know</span>
-      <span><i class="sw e"></i>untouched — nobody has looked</span>
-    </div>
-
-    <div class="half">
-      <div class="half-head">
-        <div>
-          <h3>Front half — attract &amp; defend</h3>
-          <span class="tag">where things start · groups 02 05 06 08, plus 04 which serves all four jobs</span>
-        </div>
-        <span class="mono" style="font-size:0.85rem;">6 / 28 filled</span>
-      </div>
-      <div class="groups">
-        <div class="grp">
-          <div class="grp-l"><span class="letter">02</span><span class="name">Why to buy it — the on-ramp</span><span class="ct">2/5</span></div>
-          <div class="cells">
-            <span class="chip g"><b>O1</b>The problem, in the dealer's words</span>
-            <span class="chip f"><b>O2</b>Time or labour saved</span>
-            <span class="chip g"><b>O3</b>The opportunity it opens</span>
-            <span class="chip f"><b>O4</b>What it replaces or avoids</span>
-            <span class="chip g"><b>O5</b>Entry or flagship</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">05</span><span class="name">Competitive — how it is defended</span><span class="ct">0/6</span></div>
-          <div class="cells">
-            <span class="chip e"><b>X1</b>The named alternatives</span>
-            <span class="chip e"><b>X2</b>The dimensions it turns on</span>
-            <span class="chip e"><b>X3</b>Where we win</span>
-            <span class="chip e"><b>X4</b>Where <em>they</em> win</span>
-            <span class="chip e"><b>X5</b>The switch argument</span>
-            <span class="chip e"><b>X6</b>Why deals are lost</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">06</span><span class="name">Commercial — the dealer's business case</span><span class="ct">1/5</span></div>
-          <div class="cells">
-            <span class="chip f"><b>M1</b>Order unit and minimum</span>
-            <span class="chip e"><b>M2</b>Lead time, and what changes it</span>
-            <span class="chip e"><b>M3</b>Availability posture</span>
-            <span class="chip e"><b>M4</b>The dealer's business case</span>
-            <span class="chip e"><b>M5</b>What not specifying it costs them</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">08</span><span class="name">Hook material</span><span class="ct">1/3</span></div>
-          <div class="cells">
-            <span class="chip e"><b>H1</b>Which of the five appeals it can honestly carry</span>
-            <span class="chip f"><b>H2</b>The most interesting true thing about it</span>
-            <span class="chip e"><b>H3</b>What has actually bitten</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">04</span><span class="name">The knowledge layer — what a rep carries</span><span class="ct">2/9</span></div>
-          <div class="cells">
-            <span class="chip e"><b>N1</b>Selection logic — which, and how many</span>
-            <span class="chip e"><b>N2</b>The worked example</span>
-            <span class="chip e"><b>N3</b>The answers, one per question</span>
-            <span class="chip e"><b>N4</b>Comparison</span>
-            <span class="chip f"><b>N5</b>Compatibility &amp; pairing</span>
-            <span class="chip e"><b>N6</b>Project timing — when it is decided</span>
-            <span class="chip e"><b>N7</b>What the dealer tells their client</span>
-            <span class="chip e"><b>N8</b>Field learning</span>
-            <span class="chip f"><b>N9</b>What we are asked and cannot answer</span>
-          </div>
-        </div>
-      </div>
-      <p class="note" style="font-size:0.86rem;"><strong>N3 is the corpus.</strong> One row per question the product
-        actually generates. C-ATS names 13 questions and has written the answer to <strong>2</strong>; six more are
-        already sitting in its own definitional fields, a paragraph each.</p>
-    </div>
-
-    <div class="half">
-      <div class="half-head">
-        <div>
-          <h3>Back half — trust &amp; deliver</h3>
-          <span class="tag">better covered than it feels</span>
-        </div>
-        <span class="mono" style="font-size:0.85rem;">22 / 30 filled · assets 5 / 11 known</span>
-      </div>
-      <div class="groups">
-        <div class="grp">
-          <div class="grp-l"><span class="letter">01</span><span class="name">What it actually is</span><span class="ct">10/10</span></div>
-          <div class="cells">
-            <span class="chip f"><b>D1</b>What it is</span>
-            <span class="chip f"><b>D2</b>What it does</span>
-            <span class="chip f"><b>D3</b>How it works</span>
-            <span class="chip f"><b>D4</b>What it is for</span>
-            <span class="chip f"><b>D5</b>What it is <em>not</em> for</span>
-            <span class="chip f"><b>D6</b>Scope of supply</span>
-            <span class="chip f"><b>D7</b>What it requires from others</span>
-            <span class="chip f"><b>D8</b>Configuration space</span>
-            <span class="chip f"><b>D9</b>Limits</span>
-            <span class="chip f"><b>D10</b>Where it sits</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">03</span><span class="name">The doubt it has to remove</span><span class="ct">4/4</span></div>
-          <div class="cells">
-            <span class="chip f"><b>R1</b>The doubt it meets</span>
-            <span class="chip f"><b>R2</b>The load-bearing asset</span>
-            <span class="chip f"><b>R3</b>The questions it generates</span>
-            <span class="chip f"><b>R4</b>What goes wrong on site</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">07</span><span class="name">Lifecycle &amp; support</span><span class="ct">0/5</span></div>
-          <div class="cells">
-            <span class="chip e"><b>L1</b>Order to site</span>
-            <span class="chip e"><b>L2</b>Install sequence, and who does it</span>
-            <span class="chip e"><b>L3</b>Commissioning &amp; verification</span>
-            <span class="chip e"><b>L4</b>Serviceability</span>
-            <span class="chip e"><b>L5</b>What we support, and for how long</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">09</span><span class="name">Who decides on it</span><span class="ct">1/2</span></div>
-          <div class="cells">
-            <span class="chip f"><b>W1</b>Purchaser vs specifier</span>
-            <span class="chip g"><b>W2</b>Who signs off, and what convinces them</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">10</span><span class="name">What we may and may not say</span><span class="ct">4/4</span></div>
-          <div class="cells">
-            <span class="chip f"><b>G1</b>Claims supported</span>
-            <span class="chip f"><b>G2</b>Claims deliberately not made</span>
-            <span class="chip f"><b>G3</b>Marketing status</span>
-            <span class="chip f"><b>G4</b>Proof, and publishable?</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">11</span><span class="name">Where it is sold</span><span class="ct">2/2</span></div>
-          <div class="cells">
-            <span class="chip f"><b>C1</b>Channel</span>
-            <span class="chip f"><b>C2</b>Territory availability</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">12</span><span class="name">The asset audit — do the documents exist</span><span class="ct">5/11 known</span></div>
-          <div class="cells">
-            <span class="chip e"><b>A1</b>Datasheet</span>
-            <span class="chip e"><b>A2</b>Dimensioned drawings</span>
-            <span class="chip e"><b>A3</b>CAD</span>
-            <span class="chip g"><b>A4</b>BIM / Revit — missing</span>
-            <span class="chip g"><b>A5</b>NBS clause — missing</span>
-            <span class="chip g"><b>A6</b>Install manual — stale</span>
-            <span class="chip e"><b>A7</b>Commissioning guide</span>
-            <span class="chip e"><b>A8</b>Fault-finding guide</span>
-            <span class="chip g"><b>A9</b>"How do you do X" video — missing</span>
-            <span class="chip g"><b>A10</b>Training module — missing</span>
-            <span class="chip e"><b>A11</b>Spares &amp; service</span>
-          </div>
-        </div>
-        <div class="grp">
-          <div class="grp-l"><span class="letter">13</span><span class="name">Record keeping</span><span class="ct">1/3</span></div>
-          <div class="cells">
-            <span class="chip e"><b>K1</b>Record owner</span>
-            <span class="chip f"><b>K2</b>Last reviewed</span>
-            <span class="chip e"><b>K3</b>Review interval</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <p class="note" style="font-size:0.86rem;"><strong>Two namespaces, kept apart deliberately.</strong> Groups
-      are numbered <span class="mono">01–13</span>; fields are lettered — <span class="mono">D1</span>,
-      <span class="mono">X6</span>, <span class="mono">N3</span>. An earlier draft lettered the groups
-      <span class="mono">A–M</span> and they collided with the field prefixes: group <span class="mono">M</span>
-      against commercial <span class="mono">M1–M5</span>, group <span class="mono">L</span> against lifecycle
-      <span class="mono">L1–L5</span>. <strong>No field ID is numeric and no group ID is lettered</strong>, so a
-      reference is unambiguous on sight.</p>
-  </section>
-
-  <!-- ============ GATES ============ -->
-  <section>
-    <div class="sec-head">
-      <div class="bar"></div>
-      <span class="eyebrow">generation gates</span>
-      <h2>What can be produced today, and what cannot</h2>
-      <p class="note">Each output names the fields it needs. Sorted by whether those fields exist, the list splits
-        cleanly — and the split is the finding, not the sorting.</p>
-    </div>
-    <div class="gates">
-      <div class="gate-col">
-        <h3>Producible from the record as it stands <span class="n">7 outputs</span></h3>
-        <div class="gate-list">
-          <div class="gate"><span class="lbl">Store listing</span><span class="req">D1 D6 D8 C1 G3</span></div>
-          <div class="gate"><span class="lbl">Datasheet</span><span class="req">D1–D9 G1 G2 G3 A2</span></div>
-          <div class="gate"><span class="lbl">Product page — technical depth</span><span class="req">D1–D10 G1 G2</span></div>
-          <div class="gate"><span class="lbl">Site on-ramp block</span><span class="req">D1 O1 O2 O3</span></div>
-          <div class="gate"><span class="lbl">Install manual</span><span class="req">D6 D7 D8 R4 N1</span></div>
-          <div class="gate"><span class="lbl">Specifier pack decision</span><span class="req">W1 W2 A3–A5</span></div>
-          <div class="gate"><span class="lbl">Case study</span><span class="req">G4 N8</span></div>
-        </div>
-      </div>
-
-      <div class="divider">every one of those is a document</div>
-
-      <div class="gate-col below">
-        <h3>Cannot be produced at all <span class="n">12 outputs</span></h3>
-        <div class="gate-list">
-          <div class="gate"><span class="lbl">The knowledge base — the corpus itself</span><span class="req">N3 R3</span></div>
-          <div class="gate"><span class="lbl">Hooks &amp; campaign silos</span><span class="req">H1 H2 O1 R1</span></div>
-          <div class="gate"><span class="lbl">"How do you do X" video</span><span class="req">R4 R3 N3</span></div>
-          <div class="gate"><span class="lbl">Fault-finding guide</span><span class="req">R4 D7 N3</span></div>
-          <div class="gate"><span class="lbl">"How many do I need" — selection guide</span><span class="req">N1 N2</span></div>
-          <div class="gate"><span class="lbl">Design tool / calculator spec</span><span class="req">N1 N2 D9</span></div>
-          <div class="gate"><span class="lbl">Comparison content, per named rival</span><span class="req">X1–X5 G1 G2</span></div>
-          <div class="gate"><span class="lbl">The switch approach</span><span class="req">X5 X1 M4</span></div>
-          <div class="gate"><span class="lbl">Business-case argument</span><span class="req">M4 M5 M2 O2</span></div>
-          <div class="gate"><span class="lbl">Cross-sell prompt at the spec moment</span><span class="req">D10 N5 N6 O3</span></div>
-          <div class="gate"><span class="lbl">Dealer-facing material for their own client</span><span class="req">N7</span></div>
-          <div class="gate"><span class="lbl">Training module</span><span class="req">A6–A9 N1–N4</span></div>
-        </div>
-        <p class="note" style="font-size:0.86rem;margin-top:0.4rem;">Everything below the line is what a
-          <em class="q">rep</em> does — answering, sizing, comparing, arming the dealer, defending the choice.
-          <strong>The estate can generate paperwork and cannot generate a salesperson</strong>, which is precisely the
-          thing content was meant to replace.</p>
-      </div>
+    <div class="list">
+      <div class="row"><span class="id">R1</span><span class="txt"><strong>The build</strong><span class="sub">Event: a product is made or changed</span></span><span class="who">fills 01 · 02 · 04</span></div>
+      <div class="row"><span class="id">R2</span><span class="txt"><strong>The test</strong><span class="sub">Event: a test is commissioned, or a report lands</span></span><span class="who">fills 02 · 07</span></div>
+      <div class="row"><span class="id">R3</span><span class="txt"><strong>The design desk</strong><span class="sub">Event: a job is designed, or spec help is given — daily</span></span><span class="who">fills 03 · 04</span></div>
+      <div class="row"><span class="id">R4</span><span class="txt"><strong>The support line</strong><span class="sub">Event: a question is answered, pre-sale or on site — daily</span></span><span class="who">fills 08 · 09 · 10</span></div>
+      <div class="row"><span class="id">R5</span><span class="txt"><strong>The deal</strong><span class="sub">Event: a quote goes out — and above all, a deal is lost</span></span><span class="who">fills 05 · 06</span></div>
+      <div class="row"><span class="id">R6</span><span class="txt"><strong>The owners</strong><span class="sub">Event: a review, or a position being settled — the one added habit</span></span><span class="who">fills 11 · 12</span></div>
     </div>
   </section>
 
-
-  <!-- ============ ESTATE ============ -->
+  <!-- ROLES -->
   <section>
     <div class="sec-head">
       <div class="bar"></div>
-      <span class="eyebrow">the estate</span>
-      <h2>Three tiers of ignorance, not one gap</h2>
-      <p class="note">Measured as fuel for the production line rather than as inventory — the records are step one of
-        that line, the substance it multiplies from.</p>
+      <span class="count">supporting · four roles</span>
+      <h2>The roles the work is assigned to</h2>
+      <p class="note">Roles, never names. One person may hold several; who fills each is a separate decision.</p>
     </div>
-    <div class="tiers">
-      <div class="tier">
-        <span class="n">3</span>
-        <span class="sub">questions indexed · answers missing</span>
-        <div class="bars"><i class="b-fill" style="flex:3"></i></div>
-        <p><strong>The C-ATS panels.</strong> 28/58 fields, knowledge 2/9, <strong>2 of 13 questions answered in
-          writing</strong>. Six more are a paragraph each away. The line can multiply two answers.</p>
-      </div>
-      <div class="tier">
-        <span class="n">9</span>
-        <span class="sub">definition only · questions never asked</span>
-        <div class="bars"><i class="b-skel" style="flex:9"></i></div>
-        <p><strong>The DT families.</strong> <span class="mono">R3</span> unfilled throughout — so there is no
-          question list to rank and no DT content backlog can exist. <strong>And DT owns three-quarters of the
-          audience</strong>, on a channel running since 2018.</p>
-      </div>
-      <div class="tier">
-        <span class="n">25</span>
-        <span class="sub">nothing at all</span>
-        <div class="bars"><i class="b-none" style="flex:25"></i></div>
-        <p><strong>Fabric Walls, Light Walls, Pro-Fi, Distribution, Solutions</strong> — plus the Screen Wall and the
-          marine panel. <strong>15 of them are being sold today</strong> and described on a live site with no
-          canonical account of what they are.</p>
-      </div>
+    <div class="list">
+      <div class="row"><span class="id">—</span><span class="txt"><strong>The owner</strong><span class="sub">Judgement, truth-check, and what may be published. Approves a ranked list; never authors it</span></span></div>
+      <div class="row"><span class="id">—</span><span class="txt"><strong>The authority</strong><span class="sub">The technical face and voice. The technical answer, the impossible project, the route to the specifier</span></span></div>
+      <div class="row"><span class="id">—</span><span class="txt"><strong>The relationship</strong><span class="sub">The trade-facing human. The welcome, the walkthrough, the invitation, the follow-up</span></span></div>
+      <div class="row"><span class="id">—</span><span class="txt"><strong>The producer</strong><span class="sub">Editorial and production, off camera. Drafts, ranks, briefs, publishes, keeps it current</span></span></div>
     </div>
   </section>
 
-  <!-- ============ CONVERGENCE ============ -->
+  <!-- FIELDS -->
   <section>
     <div class="sec-head">
       <div class="bar"></div>
-      <span class="eyebrow">the finding</span>
-      <h2>Three ways of looking, one answer</h2>
+      <span class="count">supporting · fifty-eight fields</span>
+      <h2>The product record — the twelve domains as fields</h2>
+      <p class="note">Thirteen groups, numbered <span class="mono">01–13</span>. Field IDs are lettered, so a
+        reference is unambiguous. This is the form a record gets filled against.</p>
     </div>
-    <div class="converge">
-      <div class="lens">
-        <span class="src">the domain map said</span>
-        <p><strong>Defending had one field.</strong> Twelve domains mapped against the form, and the whole job of
-          holding a product against its rivals was a single line called <em class="q">comparison</em>.</p>
-      </div>
-      <div class="lens">
-        <span class="src">the generation gates said</span>
-        <p><strong>Comparison content cannot be produced.</strong> Not thin, not stale — there is no source in the
-          record from which to draft it at all.</p>
-      </div>
-      <div class="lens">
-        <span class="src">the task map said</span>
-        <p><strong>Nobody performs the work that would feed it.</strong> Inventorying a rep's and a marketing
-          executive's actual week turns up five tasks with no performer.</p>
-      </div>
-    </div>
-    <div class="landing">
-      <span class="hd">five tasks · one job · nobody is looking outward</span>
-      <div class="tasklist">
-        <span>competitive response</span><span>market intelligence</span><span>competitor tracking</span>
-        <span>product feedback</span><span>why deals are lost</span>
-      </div>
-      <p>Recorded as <strong>evidence that an existing hole is wider than it was logged as</strong> — not as a
-        reopening of the decision. Whether it becomes a role, a standing habit, or an accepted hole recorded at its
-        true size is <span class="mono">SYS-6</span>, and it belongs to the owners.</p>
-      <p class="note" style="font-size:0.86rem;">Two more confirmations from a second direction:
-        <span class="mono">N7</span> — material a dealer hands their own client — is an ordinary marketing task with
-        no performer and an empty field, in a group whose stated advantage is depth spent on the dealer's behalf. And
-        <strong>product launch has no owner at all</strong>: the Screen Wall, demonstrable since ISE 2023 with no page
-        and no datasheet, is an unassigned task rather than a content failure.</p>
-    </div>
-  </section>
 
-  <!-- ============ ROUTES ============ -->
-  <section>
-    <div class="sec-head">
-      <div class="bar"></div>
-      <span class="eyebrow">how it gets filled</span>
-      <h2>Six routes — a route is a task whose output is caught</h2>
-      <p class="note">Fifty-eight fields is not twelve projects and not one documentation push. A running route fills
-        its domains forever; a field filled by a push starts decaying the day it is written. <strong>Five of the six
-        ride on events that already happen.</strong></p>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">01</span><span class="gt">What it actually is</span><span class="gc">D1–D10</span></div>
+      <div class="frow"><span class="fid">D1</span>What it is — one sentence, category not pitch</div>
+      <div class="frow"><span class="fid">D2</span>What it does</div>
+      <div class="frow"><span class="fid">D3</span>How it works — the mechanism</div>
+      <div class="frow"><span class="fid">D4</span>What it is for</div>
+      <div class="frow"><span class="fid">D5</span>What it is <em>not</em> for</div>
+      <div class="frow"><span class="fid">D6</span>Scope of supply</div>
+      <div class="frow"><span class="fid">D7</span>What it requires from others</div>
+      <div class="frow"><span class="fid">D8</span>Configuration space</div>
+      <div class="frow"><span class="fid">D9</span>Limits</div>
+      <div class="frow"><span class="fid">D10</span>Where it sits in the room or system</div>
     </div>
-    <div class="routes">
-      <div class="route">
-        <span class="rname">The build</span>
-        <span class="ev">A product is made or changed</span>
-        <span class="flds">D1–D10 · L1 L2</span>
-        <span class="freq rare">per change</span>
-      </div>
-      <div class="route">
-        <span class="rname">The test</span>
-        <span class="ev">A test is commissioned; a report lands</span>
-        <span class="flds">D9 · G1 · G4</span>
-        <span class="freq rare">rare</span>
-      </div>
-      <div class="route">
-        <span class="rname">The design desk</span>
-        <span class="ev">A job is designed, or spec help given — our only discovery channel</span>
-        <span class="flds">N1 N2 N5 · D4 D5</span>
-        <span class="freq daily">daily</span>
-      </div>
-      <div class="route">
-        <span class="rname">The support line</span>
-        <span class="ev">A question is answered, pre-sale or on site</span>
-        <span class="flds">R3 R4 N3 · L3 L4</span>
-        <span class="freq daily">daily</span>
-      </div>
-      <div class="route">
-        <span class="rname">The deal</span>
-        <span class="ev">A quote goes out — and above all, <strong>a deal is lost</strong></span>
-        <span class="flds">X1–X6 · M1–M5 · O1</span>
-        <span class="freq new">caught nowhere today</span>
-      </div>
-      <div class="route">
-        <span class="rname">The owners</span>
-        <span class="ev">A review; a position settled</span>
-        <span class="flds">H1–H3 · G2 G3 · K1–K3</span>
-        <span class="freq new">the one added habit</span>
-      </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">02</span><span class="gt">Why to buy it — the on-ramp</span><span class="gc">O1–O5</span></div>
+      <div class="frow"><span class="fid">O1</span>The problem it solves, in the dealer's words</div>
+      <div class="frow"><span class="fid">O2</span>The time or labour it saves</div>
+      <div class="frow"><span class="fid">O3</span>The opportunity it opens</div>
+      <div class="frow"><span class="fid">O4</span>What it replaces or avoids</div>
+      <div class="frow"><span class="fid">O5</span>Entry product or flagship</div>
     </div>
-    <p class="note"><strong>The lost deal is the highest-value capture event in the business and nothing catches
-      it.</strong> It is the only outside view of which competitor, on which dimension, at which stage — one line at
-      the moment of losing, worth more than any amount of desk research on rivals.</p>
-  </section>
-
-  <!-- ============ QUEUE ============ -->
-  <section>
-    <div class="sec-head">
-      <div class="bar"></div>
-      <span class="eyebrow">next</span>
-      <h2>What the model says to do, in order</h2>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">03</span><span class="gt">The doubt it has to remove</span><span class="gc">R1–R4</span></div>
+      <div class="frow"><span class="fid">R1</span>The doubt it meets</div>
+      <div class="frow"><span class="fid">R2</span>The load-bearing asset</div>
+      <div class="frow"><span class="fid">R3</span>The questions it generates</div>
+      <div class="frow"><span class="fid">R4</span>What goes wrong on site</div>
     </div>
-    <div class="queue">
-      <table>
-        <thead>
-          <tr><th>ID</th><th>Move</th><th>Why it is first</th><th>Effort</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="id">SYS-1</td>
-            <td>Stand up the six capture routes</td>
-            <td class="why">Before filling any more fields. Five ride on work already happening; the record is just
-              where the output lands.</td>
-            <td class="eff">small each</td>
-          </tr>
-          <tr>
-            <td class="id">SYS-2</td>
-            <td>Capture the lost deal — one line</td>
-            <td class="why">Which competitor, which dimension, which stage. Cheapest high-value habit available.</td>
-            <td class="eff">one line</td>
-          </tr>
-          <tr>
-            <td class="id">KNW-1</td>
-            <td>Write the six <em>known</em> C-ATS answers</td>
-            <td class="why">Already sitting in the record's own definitional fields. A paragraph each.</td>
-            <td class="eff">an afternoon</td>
-          </tr>
-          <tr>
-            <td class="id">KNW-3</td>
-            <td>Fill <span class="mono">R3</span> + <span class="mono">N3</span> for the nine DT families</td>
-            <td class="why">One transcribed conversation with whoever answers DT support. Unblocks the whole DT
-              backlog — and DT has the audience.</td>
-            <td class="eff">one session</td>
-          </tr>
-          <tr>
-            <td class="id">KNW-2</td>
-            <td>Answer <em class="q">how many do I need?</em></td>
-            <td class="why">Three of C-ATS's four unanswered questions reduce to it, and worked examples were already
-              committed to as the self-serve route.</td>
-            <td class="eff">small</td>
-          </tr>
-          <tr>
-            <td class="id">SYS-6</td>
-            <td>Decide on the outward-looking job</td>
-            <td class="why">Role, habit, or accepted hole at its true size. Five tasks, one decision.</td>
-            <td class="eff">minutes</td>
-          </tr>
-          <tr>
-            <td class="id">DOC-11</td>
-            <td>Confirm the DT family grouping</td>
-            <td class="why">52 catalogue lines into twelve record scopes is proposed, not confirmed. The hour turns a
-              year of writing into a finite list.</td>
-            <td class="eff">an hour</td>
-          </tr>
-          <tr>
-            <td class="id">DOC-18</td>
-            <td>Settle the Mistral Commander</td>
-            <td class="why">A live standalone SKU against a <em class="q">control is never a line item, no
-              exceptions</em> rule. Exception or oversight.</td>
-            <td class="eff">minutes</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">04</span><span class="gt">The knowledge layer</span><span class="gc">N1–N9</span></div>
+      <div class="frow"><span class="fid">N1</span>Selection logic — which, and how many</div>
+      <div class="frow"><span class="fid">N2</span>The worked example</div>
+      <div class="frow"><span class="fid">N3</span>The answers — one per question in R3</div>
+      <div class="frow"><span class="fid">N4</span>Comparison</div>
+      <div class="frow"><span class="fid">N5</span>Compatibility &amp; pairing</div>
+      <div class="frow"><span class="fid">N6</span>Project timing — when it is decided</div>
+      <div class="frow"><span class="fid">N7</span>What the dealer tells their client</div>
+      <div class="frow"><span class="fid">N8</span>Field learning</div>
+      <div class="frow"><span class="fid">N9</span>What we are asked and cannot answer</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">05</span><span class="gt">Competitive — how it is defended</span><span class="gc">X1–X6</span></div>
+      <div class="frow"><span class="fid">X1</span>The named alternatives</div>
+      <div class="frow"><span class="fid">X2</span>The dimensions it turns on</div>
+      <div class="frow"><span class="fid">X3</span>Where we win</div>
+      <div class="frow"><span class="fid">X4</span>Where <em>they</em> win</div>
+      <div class="frow"><span class="fid">X5</span>The switch argument</div>
+      <div class="frow"><span class="fid">X6</span>Why deals are lost</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">06</span><span class="gt">Commercial — the dealer's business case</span><span class="gc">M1–M5</span></div>
+      <div class="frow"><span class="fid">M1</span>Order unit and minimum</div>
+      <div class="frow"><span class="fid">M2</span>Lead time, and what changes it</div>
+      <div class="frow"><span class="fid">M3</span>Availability posture</div>
+      <div class="frow"><span class="fid">M4</span>The dealer's business case</div>
+      <div class="frow"><span class="fid">M5</span>What not specifying it costs them</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">07</span><span class="gt">Lifecycle &amp; support</span><span class="gc">L1–L5</span></div>
+      <div class="frow"><span class="fid">L1</span>Order to site</div>
+      <div class="frow"><span class="fid">L2</span>Install sequence, and who does it</div>
+      <div class="frow"><span class="fid">L3</span>Commissioning &amp; verification</div>
+      <div class="frow"><span class="fid">L4</span>Serviceability</div>
+      <div class="frow"><span class="fid">L5</span>What we support, and for how long</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">08</span><span class="gt">Hook material</span><span class="gc">H1–H3</span></div>
+      <div class="frow"><span class="fid">H1</span>Which of the five appeals it can honestly carry</div>
+      <div class="frow"><span class="fid">H2</span>The most interesting true thing about it</div>
+      <div class="frow"><span class="fid">H3</span>What has actually bitten</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">09</span><span class="gt">Who decides on it</span><span class="gc">W1–W2</span></div>
+      <div class="frow"><span class="fid">W1</span>Purchaser vs specifier</div>
+      <div class="frow"><span class="fid">W2</span>Who signs off, and what convinces them</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">10</span><span class="gt">What we may and may not say</span><span class="gc">G1–G4</span></div>
+      <div class="frow"><span class="fid">G1</span>Claims supported, with standard and report reference</div>
+      <div class="frow"><span class="fid">G2</span>Claims deliberately not made</div>
+      <div class="frow"><span class="fid">G3</span>Marketing status</div>
+      <div class="frow"><span class="fid">G4</span>Proof available, and whether it is publishable</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">11</span><span class="gt">Where it is sold</span><span class="gc">C1–C2</span></div>
+      <div class="frow"><span class="fid">C1</span>Channel</div>
+      <div class="frow"><span class="fid">C2</span>Territory availability and any exclusivity</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">12</span><span class="gt">The asset audit</span><span class="gc">A1–A11</span></div>
+      <div class="frow"><span class="fid">A1</span>Datasheet</div>
+      <div class="frow"><span class="fid">A2</span>Dimensioned drawings</div>
+      <div class="frow"><span class="fid">A3</span>CAD</div>
+      <div class="frow"><span class="fid">A4</span>BIM / Revit object</div>
+      <div class="frow"><span class="fid">A5</span>NBS clause</div>
+      <div class="frow"><span class="fid">A6</span>Install manual</div>
+      <div class="frow"><span class="fid">A7</span>Commissioning / calibration guide</div>
+      <div class="frow"><span class="fid">A8</span>Fault-finding guide</div>
+      <div class="frow"><span class="fid">A9</span>"How do you do X" video</div>
+      <div class="frow"><span class="fid">A10</span>Training module</div>
+      <div class="frow"><span class="fid">A11</span>Spares and service instructions</div>
+    </div>
+    <div class="grpblock">
+      <div class="gh"><span class="gn">13</span><span class="gt">Record keeping</span><span class="gc">K1–K3</span></div>
+      <div class="frow"><span class="fid">K1</span>Record owner</div>
+      <div class="frow"><span class="fid">K2</span>Last reviewed</div>
+      <div class="frow"><span class="fid">K3</span>Review interval</div>
     </div>
   </section>
 
   <footer>
-    <span>Sources in the repo: <span class="mono">product-data-schema.md</span> (the model) ·
-      <span class="mono">product-record-template.md</span> (the form) ·
-      <span class="mono">product-register.md</span> (the roster) · brand records under
-      <span class="mono">brands/</span>. Counts are as at 2026-08-02 and reflect the public catalogues, not engine.</span>
-    <span>Several rows are explicit claims rather than facts — the DT family grouping, the twelve Fabric Walls
-      elements held in one row, the entry/flagship candidates, and the roster itself. Strike them rather than work
-      around them.</span>
+    <span>In the repo: <span class="mono">group/10-tasks.md</span> (jobs, tasks) ·
+      <span class="mono">product-data-schema.md</span> (domains, routes) ·
+      <span class="mono">product-record-template.md</span> (the 58 fields) ·
+      <span class="mono">product-register.md</span> (which products have records).</span>
+    <span>Nothing on this page is verified. Correcting the task list — striking what we don't do, adding what is
+      missing — comes before anything is built on it.</span>
   </footer>
 
 </div>
