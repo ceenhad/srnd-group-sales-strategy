@@ -73,10 +73,6 @@ repeated here.
    not, unless the task's output is caught. **Every task removed from a human also removes a learning input** — the
    routes in the next section exist to catch what would otherwise be discarded.
 
-**One caution about that register, learned the hard way.** Seven of its rows have a blank in the assignment
-column. **That is a blank in the document, not a gap in the business** — people are doing all of it. Two earlier
-drafts turned those blanks into findings and both were wrong. Fill the blanks first; draw conclusions after.
-
 ## The domains — what the database must hold
 
 *Twelve subject areas, each named by the question a dealer asks. A rep carries all twelve; one of the four jobs
