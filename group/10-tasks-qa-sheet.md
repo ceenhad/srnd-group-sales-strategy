@@ -87,21 +87,35 @@ answer and the reason together is two questions again, and it is what turns an h
 | `T-M17` | Product launch | **`from scratch`** |
 | `T-M18` | Budget and spend allocation | **`from scratch`** |
 
-### Sweep B — back over the answers, for detail
+### Sweep B — the reasons, named cold — **done 2026-08-04 (Neil)**
 
-**Which rows:** Every row answered **`varies`** or **`from scratch`**.
+**Which rows:** the 40 answered `varies` or `from scratch`.
 
-**What to add:** **What differs between two goes at it?** One line. If the answer is "nothing really, we just never wrote it down", say that — it is the cheapest fix on the sheet.
+**Method:** the reasons were named before any row was looked at, so the vocabulary is the answerer's and not
+the sheet's. Six were proposed for correction; **two survived.**
 
-| ID | The answer from sweep A | The detail |
+| Tag | Means | The fix it implies |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| **`no template`** | Nothing to copy from. No template, and last time's version wasn't kept, so you start from a blank page having already done it before | Make the template — or keep the last one |
+| **`no standard`** | Nobody decided what good looks like, so there is nothing to be consistent with | Decide what done means, once |
 
-*Add rows as needed. Leave it short — one line per row beats a paragraph on three.*
+**What was struck, and it matters more than what survived:**
+
+- ~~Depends who picks it up~~ — **not a people problem.** Inconsistency is not coming from who does the work.
+- ~~The facts aren't in one place~~ — **not a data-assembly problem**, at least not at this altitude.
+- ~~Too infrequent to have a habit~~ — **not a frequency problem.**
+- ~~**Genuinely different each time**~~ — **struck, and this is the finding.** The escape hatch was offered and
+  refused: **none of the 40 is legitimate variation.** There is no row here where doing it the same way would be
+  wrong. All of it is fixable.
+
+**So the whole of pass 1 reduces to two missing artefacts per task — a template and a definition of done.**
+Both are written, not built. That is a materially cheaper conclusion than the primitives build, and it lands
+before any of it.
+
+| ID | Answer | Tag |
+|---|---|---|
+
+*To fill: the 40 rows tagged `no template`, `no standard`, or both.*
 
 ---
 
