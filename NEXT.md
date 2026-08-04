@@ -59,22 +59,30 @@ existence would confirm nearly every row and change nothing.
 tasks under other names, and the work items are those tasks decomposed. Graded from the bottom you argue about
 168 items beneath tasks nobody has characterised. From the top it collapses.
 
-**And the session runs by column, never by row** — the run sheet is `group/10-tasks-qa-sheet.md`. A row asks
-three questions at once, so answering row-wise means switching between them 46 times and the standard drifts;
-the instrument measuring consistency ends up inconsistent itself. **One question, held once, run down all 46.**
-Then the next. Four passes:
+**The session has two structural rules, and the run sheet is `group/10-tasks-qa-sheet.md`.**
 
-1. **Same every time?** across all 46.
-2. **What starts it?** across all 46.
-3. **Where does the output land?** across all 46.
-4. **What is missing?** — its own pass, because asked during the others it becomes an interruption and gets
-   skipped, and tacked on at the end it gets rushed. It is the only pass that can find what the list cannot.
+**One question at a time — down a column, never across a row.** A row asks three questions at once, so answering
+row-wise means switching between them 46 times and the standard drifts; the instrument measuring consistency ends
+up inconsistent itself. Hold one question, answer it 46 times, then pick up the next.
 
-**Answer from the fixed vocabulary, never in prose** — fixed words are comparable and sentences are not. First
-instinct; a row needing discussion is marked `?` and left, because it is telling you the task as written isn't
-one real thing. **If more than one person answers, they answer independently and compare afterwards:** two
-people disagreeing about a task is not a problem to iron out, it is pass 1's answer arriving from a different
-direction.
+**Answer first, detail second.** Each pass is two sweeps. **Sweep A** is the answer alone — one word from a fixed
+list, all 46, fast. **Sweep B** goes back for detail, and only over the rows whose answer earned it: the `varies`
+and `from scratch` rows in pass 1, the `remembered` rows in pass 2, the `a head` and `nowhere` rows in pass 3.
+Asking for the answer and the reason together is two questions again, and it is what turns an hour into an
+afternoon.
+
+Four passes: **same every time?** · **what starts it?** · **where does the output land?** · and **what is
+missing?** — the last one separate, because asked during the others it becomes an interruption and gets skipped,
+and tacked on at the end it gets rushed. It is the only pass that can find what the list cannot contain.
+
+**Sweep A takes one word, never a sentence** — fixed words are comparable and prose is where the consistency
+goes; the sentences belong in sweep B. First instinct; a row needing discussion is marked `?` and left, because
+it is telling you the task as written isn't one real thing. **If more than one person answers, they answer
+independently and compare afterwards:** two people disagreeing about a task is not a problem to iron out, it is
+pass 1's answer arriving from a different direction.
+
+**Pass 3's sweep B writes the `record` build list directly** — it names, in a few words per row, exactly what is
+being lost each time.
 
 **Then resolve the other two registers by block.** Work items beneath a task reading
 `standard / a system / a system` need nothing built. Backlog rows mapping to no surviving task go as a group,
