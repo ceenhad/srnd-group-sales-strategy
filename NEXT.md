@@ -22,12 +22,98 @@ by-products of ordinary business do most of the strategic work. One test governs
 Almost nothing should need the second. Where something genuinely does, it is named as such and there is
 only one of them.
 
-## The critical path — one piece of work
+## The critical path, in the order rev 1 puts it
 
 *Stress-test items 1, 2 and 3 (`open-items.md`) are not three problems. Documentation is the critical path for
 support, US entry, the site rebuild, the partner programme and the content cadence; it depends on two unconfirmed
 roles; and the distributor pruning assumes a direct capability that the same documentation would create. **One
 piece, and everything in "the lanes" below is secondary until it is moving.***
+
+**What rev 1 adds is the order.** `backlog.md` files the work by workstream, which says nothing about what has to
+happen before what. The chain — four jobs, 46 tasks, 168 work items, one record they all read from — produces a
+real dependency sequence.
+
+**But the first step is not in that sequence, and it is the one that decides whether the rest is real.**
+
+### Step 0 — the QA session, and it grades consistency rather than existence
+
+**Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
+`group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
+work.** Fewer than a quarter of the backlog rows cite a recorded decision as their source. **75 are marked
+`ready`**, which reads as agreed and means only that nothing blocks them. Only the task register has had a human
+pass, and only one. So the registers are a proposal nobody has read.
+
+**But the obvious QA question is the wrong one.** *"Do you do this?"* mostly answers yes — **SRND does the work.
+It is structure and consistency that kill it, not the idea** (Neil, 2026-08-04). A pass that only confirms
+existence would confirm nearly every row and change nothing.
+
+**So grade how the work behaves.** Three answers per task, seconds each:
+
+| Column | Values | What it tells you |
+|---|---|---|
+| **Same every time?** | `standard` · `varies` · `from scratch` | Whether there is a process to automate, or only a habit |
+| **What starts it** | `a system` · `someone remembers` · `a customer asks` | Whether it happens reliably, or on whoever is paying attention |
+| **Where the output lands** | `a system` · `a file` · `a head` · `nowhere` | Whether doing it once makes the next one cheaper — or the work evaporates |
+
+**Top-down, in one sitting.** The three registers are three altitudes of the same material: most backlog rows are
+tasks under other names, and the work items are those tasks decomposed. Graded from the bottom you argue about
+168 items beneath tasks nobody has characterised. From the top it collapses.
+
+**The session has two structural rules, and the run sheet is `group/10-tasks-qa-sheet.md`.**
+
+**One question at a time — down a column, never across a row.** A row asks three questions at once, so answering
+row-wise means switching between them 46 times and the standard drifts; the instrument measuring consistency ends
+up inconsistent itself. Hold one question, answer it 46 times, then pick up the next.
+
+**Answer first, detail second.** Each pass is two sweeps. **Sweep A** is the answer alone — one word from a fixed
+list, all 46, fast. **Sweep B** goes back for detail, and only over the rows whose answer earned it: the `varies`
+and `from scratch` rows in pass 1, the `remembered` rows in pass 2, the `a head` and `nowhere` rows in pass 3.
+Asking for the answer and the reason together is two questions again, and it is what turns an hour into an
+afternoon.
+
+Four passes: **same every time?** · **what starts it?** · **where does the output land?** · and **what is
+missing?** — the last one separate, because asked during the others it becomes an interruption and gets skipped,
+and tacked on at the end it gets rushed. It is the only pass that can find what the list cannot contain.
+
+**Sweep A takes one word, never a sentence** — fixed words are comparable and prose is where the consistency
+goes; the sentences belong in sweep B. First instinct; a row needing discussion is marked `?` and left, because
+it is telling you the task as written isn't one real thing. **If more than one person answers, they answer
+independently and compare afterwards:** two people disagreeing about a task is not a problem to iron out, it is
+pass 1's answer arriving from a different direction.
+
+**Pass 3's sweep B writes the `record` build list directly** — it names, in a few words per row, exactly what is
+being lost each time.
+
+**Then resolve the other two registers by block.** Work items beneath a task reading
+`standard / a system / a system` need nothing built. Backlog rows mapping to no surviving task go as a group,
+unread.
+
+**What the grading produces is the build list, and it is not the automation verdict.** A task reading
+**`from scratch` · `someone remembers` · `nowhere`** is work done well and lost every time — repeated from zero
+next month by whoever is around. That is where a machine pays most, whatever its `automated`/`assisted`/`manual`
+verdict says, and `record` is the cheapest thing in the system: it does not need the task automated to pay.
+
+**Expect the repo to get shorter, and the priorities to move.** A row that restates a strategy document in
+imperative mood is not work, and a good deal of the derived material is that.
+
+### Then the sequence
+
+| | Step | Why it comes here | Rows |
+|---|---|---|---|
+| **1** | **Agree the roles** | An unowned critical path becomes next year's problem | §A below |
+| **2** | **Ask engine what it already does** | `detect`, `record` and `route` appear in 20, 30 and 11 tasks, and most of those signals sit in engine already. This repo has assumed an engine gap twice and been wrong both times (`decided.md` S16a) | `TSK-5` |
+| **3** | **Fill the record** | `retrieve` reads from it in **28 of 46 tasks**. Nothing downstream drafts without it, and an empty record silently reverts every `assisted` task to manual | §B below · surviving `SYS-` and `KNW-` rows |
+| **4** | **Open the capture routes, with their overflow lines** | A running route fills its domains forever; a documentation push decays from the day it is written. The overflow is the only part that can grow the form rather than fill it | `SYS-1` `SYS-9` |
+| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record | `TSK-6` |
+
+**Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
+always called documentation — the product record is what it turned into once it had a form. **The row references
+above are provisional until step 0 has run.**
+
+**One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
+for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
+on the revenue path between a quote and its order. It is also one of the few items that came out of a real pass
+rather than a derivation, which is why it survives step 0 on its own merits.
 
 ### A. The roles, as commitments rather than titles
 
@@ -43,10 +129,15 @@ Nothing starts until these are agreed, because an unowned critical path is how t
 existing work. So the cadence is set to what the work actually allows — a floor met in a busy month rather
 than an ambitious rate. *(Roles, never names — who fills each is a separate decision: `decided.md` S27.)*
 
-### B. The documentation pilot: C-ATS, because the data already exists
+### B. Step 3 in practice — C-ATS first, because the data already exists
 
 **Not DT first**, even though DT carries the debt. C-ATS has three SKUs and the data, so it is where the standard
-gets set cheaply against a real example — and the record is already written (`brands/c-ats/product-records.md`).
+gets set cheaply against a real example — and the record is already written (`brands/c-ats/product-records.md`),
+at 28 of 58 fields with the knowledge layer at 2 of 9.
+
+**The knowledge layer is the half that matters** (group 04 of the form). It is what a rep speaks from, and
+everything else in the record is inert without it. `KNW-1`–`KNW-6` are that half; `SYS-3`–`SYS-5` are the front
+half — the competitive argument, the business case, the hook material — which is how the journey is *entered*.
 
 What is actually left for C-ATS, in order:
 
@@ -60,8 +151,7 @@ What is actually left for C-ATS, in order:
 4. **Resolve the figure disagreement** before anything is published: legacy calculator versus BSRIA test 6
    (`open-items.md`). A decision, not a project, and it blocks publication rather than the writing.
 5. **Publish to the C-ATS brand-site knowledge base** — the canonical home is each brand's own site
-   (`decided.md` S29, 2026-08-02; this supersedes the `cinema-expert.com` references elsewhere in this
-   file, which carried an incorrect assumption).
+   (`decided.md` S29).
 
 **Then DT, and the first DT task is not writing.** It is **grouping the range by mechanism** — Dynamic 4/2TB/2S
 families, mounts, mirrors, portholes, hush boxes — so fifty-odd products collapse into a manual set of maybe a
@@ -95,19 +185,24 @@ looked** — provided the tiers are respected rather than the roster being clear
 
 ### D. What "done" looks like, and how to tell it is moving
 
-- **Two weeks:** the roles agreed and filled, the two C-ATS one-pagers published, the immediate removals
-  issued.
-- **Six weeks:** C-ATS complete to the standard on its own knowledge base (S29), the first recording batch
-  published, DT grouped by mechanism.
+- **Two weeks:** the roles agreed and filled; steps 1 and 2 done — the task register and the work items corrected
+  with whoever does the work, and engine asked what it already covers; the two C-ATS one-pagers published; the
+  immediate removals issued.
+- **Six weeks:** C-ATS complete to the standard on its own knowledge base (S29), the knowledge layer no longer at
+  2 of 9; the first recording batch published; DT grouped by mechanism; the capture routes running with their
+  overflow lines, so the record keeps filling without anyone pushing it.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
+- **The signal the sequence is being skipped:** something gets built against an unverified row. Steps 1 and 2 cost
+  hours; skipping them costs the build.
 
 ---
 
-## The lanes
+## The lanes — continuing regardless
 
 *Secondary to the critical path above. They continue where they ride on work already happening; none of them
-competes with it for the owners' or the producer's time.*
+competes with it for the owners' or the producer's time. Nothing here waits on rev 1, and rev 1 does not wait on
+any of it.*
 
 ### 1. Proof, in a market where the best work can't be shown
 
@@ -264,20 +359,14 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
 
 - **Smallest next move: settle the support model, because it is now the only thing in the way.** Four tiers, in
   order of leverage (`group/08-sales-motion.md`):
-  1. **Documentation, and it dominates the rest — but the schema comes before the writing.** Support reduces to
-     the dealer being trained and the answer being available when needed, so most support load is a manual that
-     didn't answer the question. **Manuals are currently poor and it costs us more than it should**
-     (`decided.md` S11). **Smallest first move is not a manual, and not writing a schema
-     either — it is checking what SRND Engine already models** (`decided.md` S16a). Much of this is likely
-     already under consideration there, and two competing product schemas would be worse than none. Engine will
-     have the mechanical record — SKU, name, weight — and nothing built for sales or marketing, so **the gap
-     between it and `../product-data-schema.md` is the deliverable**: why a product sells, what doubt it must
-     remove, who specifies it, what we may claim, and what assets are missing. Capturing what
-     needs to be documented has to precede what is documented, and it turns the gap into a completeness
-     percentage per product instead of an opinion. **Start on C-ATS, which already
-     has the data, to set the standard — then DT by mechanism, not by SKU** (S11a). The variant-heavy range means
-     fifty-odd products collapse into far fewer manuals. Then the writing, ranked by support load and sales
-     volume.
+  1. **Documentation, and it dominates the rest — which makes US support step 3 of the critical path, not a
+     separate programme.** Support reduces to the dealer being trained and the answer being available when
+     needed, so most support load is a manual that didn't answer the question. **Manuals are currently poor and
+     it costs us more than it should** (`decided.md` S11). The schema, the form and the register now exist, so
+     the gap is a counted one per product rather than an opinion: `product-register.md` says which records are
+     open and which live products have no canonical account at all. **C-ATS sets the standard, then DT by
+     mechanism, not by SKU** (S11a) — fifty-odd products collapse into far fewer manuals. Then the writing,
+     ranked by support load and sales volume.
   2. **Spares and physical** — done, via the warehouse and logistics partner.
   3. **Remote diagnostics.** DT's control platform already does network integration and closed-loop
      precision. **If a unit can report its own state, support scales without people** — it turns "an installer
@@ -298,9 +387,8 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
   suits the model.
 - **It also corrects the DT-only exposure** in the international network, because presenting the whole group is
   the plan rather than a retrofit.
-- **And the home already exists as a skeleton.** `cinema-expert.com` has *Instructions* and *Knowledge Base*
-  headings and nothing behind them. So the manual estate and the corpus are **one build on a property already
-  scaffolded**, not two projects — which also answers lane 8's "minimum viable property" question.
+- **The home is each brand's own site** (`decided.md` S29), so the manual estate and the corpus are **one build
+  per brand**, not two projects — which is also lane 8's "minimum viable property" answer.
 - Rides on: an opening we did not create, logistics already built, and a property already scaffolded. The work
   is documentation.
 
@@ -366,8 +454,10 @@ since ISE 2023.
 
 Named so they read as choices rather than debt:
 
-- **The training programme.** Owed, and the biggest thing implied by the partner programme. It needs real
-  time, `cinema-expert.com` is probably its home, and it waits.
+- **The training programme.** Owed, and the biggest thing implied by the partner programme. It needs real time,
+  and its raw material is the manuals (`decided.md` S12) — so it waits on step 3 regardless. `cinema-expert.com`
+  remains the likely home for *certification*; S29 settled the canonical home for *answers*, which is a different
+  question.
 - **Non-cinema channels.** Commercial fit-out, hospitality and workplace reach different people through
   different places (`group/05-channels.md` is cinema-shaped). Wait until there's non-cinema proof to carry
   into them — lane 1 produces it.
@@ -380,10 +470,11 @@ Named so they read as choices rather than debt:
 
 ## And the repo stops growing
 
-The clear-strategy phase is finished for four brands and the group layer, and it has been **condensed to
-nine group documents** (from twenty-three, and roughly half the words) precisely because the first version
-was unreadable at length. Fifty thousand words nobody opens is worth less than eight documents somebody does.
+The clear-strategy phase is finished for four brands and the group layer, and it was **condensed from
+twenty-three group documents to a numbered set** precisely because the first version was unreadable at length.
+Fifty thousand words nobody opens is worth less than a dozen documents somebody does. Rev 1 is the marker that
+the argument is finished.
 
 So: no new strategy documents without a reason that can be stated in a sentence, and corrections go into the
 document they belong to rather than beside it. What gets added from here should mostly be *evidence* — the
-photographs, the case studies, the adjacency map — not further argument.
+photographs, the case studies, the adjacency map, the verified task rows — not further argument.

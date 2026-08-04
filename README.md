@@ -138,6 +138,20 @@ assembled from these documents rather than from watching the work happen, and th
 Rev 1 is the shape being fixed, not the facts. **From here the plan is amended, not re-argued** — evidence
 lands against a decision or an open item, and a decision changes only as a dated reversal in `decided.md`.
 
+What rev 1 produced that the repo did not have before is an **order**, in `NEXT.md`: ask engine, fill the
+record, open the routes, build the primitives.
+
+**Ahead of all of it sits step 0 — the QA session.** Three registers hold **329 rows** (115 backlog, 46 tasks,
+168 work items) and every one was assembled from these documents rather than from watching anyone work. Only
+the task register has had a human pass, so until the QA runs the registers are a proposal nobody has read and
+the sequence's row references are provisional.
+
+**It grades consistency, not existence.** *"Do you do this?"* answers yes almost everywhere — SRND does the
+work; it is structure and consistency that kill it. So each task gets three answers instead: is it the same
+every time, what starts it, and where does the output land. Run top-down over the 46 tasks in one sitting,
+that resolves the other two registers by block — and it produces a build list ordered by what inconsistency
+costs rather than by what a machine could theoretically take over.
+
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,
 per-brand playbooks beyond C-ATS) are partially built and partially still to build, and are headed

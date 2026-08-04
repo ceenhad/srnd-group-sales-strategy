@@ -1,5 +1,15 @@
 # Backlog — the register
 
+> **Unreviewed. Read this before using any row.** These 115 rows were extracted from the documents in this
+> repo by a working session; **nobody has been through them.** Fewer than a quarter cite a recorded decision
+> as their source — the rest were derived from other documents, which means a row can be a genuine action, a
+> strategy document restated in imperative mood, or a duplicate of a task in `group/10-tasks.md` under another
+> name. **`ready` means "nothing blocks it", never "agreed".**
+>
+> **The QA session is step 0 of [`NEXT.md`](NEXT.md)**, and it runs top-down: finish the task register first,
+> then strike from here by block — anything that maps to no surviving task — rather than reading 115 rows.
+> Expect this file to get considerably shorter.
+
 *Content as the sales rep is committed (`decided.md` S1–S9). The buyer journey is the spine
 (`group/02-buyer-journey.md`), and [`group/09-motion-design.md`](group/09-motion-design.md) maps what serves
 each of its stages and designs the machinery **once, at group level** — the standard every brand inherits. This file is the register beneath that: every discrete action in the repo, extracted into one
@@ -15,7 +25,12 @@ up, no judgement required. **Status:** `ready` · `in progress` · `blocked` (na
 `group/09-motion-design.md` (`decided.md` S27); who fills each role is a separate decision. `—` means
 unassigned, which is information rather than a gap to guess at. **When an item completes:** mark it done here, land evidence in `decided.md`,
 don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
-engine or any tracker when the process gets a system home.
+engine or any tracker when the process gets a system home. **A retired ID is never reused** — gaps in a
+sequence are expected, and `TSK-2` is one of them.
+
+**This register files the work; it does not order it.** The workstreams `W0`–`W10` are a filing scheme.
+**The order the critical-path items run in is in [`NEXT.md`](NEXT.md)** — steps 0 to 5, with the dependencies
+between them. Read the order there and pick the rows here.
 
 **The goal of this effort is establishing the initial sales and marketing processes.** Commercial-model
 points (terms, credit, territory questions) get recorded in `decided.md` when they surface — cheaply, so
@@ -81,7 +96,7 @@ of content-as-the-rep runs without it.*
 | SYS-2 | Fetch | ~~Capture the lost deal~~ — **premise wrong (Neil, 2026-08-02): engine's CRM already does classic pipeline management**, so quotes, stages and win/loss are captured. **Rewritten as the real question:** does engine's recorded loss reason carry *which competitor* and *which dimension*, the structure `X1`–`X6` needs — or only the fact of the loss? If it does, `X6` is a read from engine, not a habit to build | — | Small | ready | `product-data-schema.md` §9 (`X6`), `decided.md` S16a |
 | SYS-3 | Do | Fill the **front half** — competitive (`X1`–`X6`), commercial (`M1`–`M5`) and hook material (`H1`–`H3`) — one brand at a time. The record had one field for defending and nothing for the dealer's business case; the journey is *entered* through these | authority (the arguments), producer | Per brand | ready | `product-data-schema.md` §§9, 10, 12 |
 | SYS-4 | Do | **`H1` per product: which of the five appeals it can honestly carry, and the substance behind each** — marking the empty ones too. The hook matrix (JNY-4) currently has no product-level source, so hook volume would be invented per campaign, which the production line forbids | owner (judgement) | Small per product | ready | `product-data-schema.md` §12, `group/09-motion-design.md` (hook layer) |
-| TSK-1 | Do | **Verify the task register** (`group/10-tasks.md`) — 46 tasks across a sales person's and a marketing person's week. **Pass 1 done (Neil, 2026-08-02): nine verdicts changed, one task added.** Remaining rows still read `claim`; continue with whoever does the work | owner, relationship | An hour or two | in progress — pass 1 done | `group/10-tasks.md` |
+| TSK-1 | Do | **Grade the task register on consistency** (`group/10-tasks.md`) — 46 tasks, three columns each: same every time? · what starts it · where the output lands. **Not "do you do this"** — nearly all of it gets done; it is structure and consistency that kill it. One sitting, and it resolves the other two registers by block. Pass 1 done (Neil, 2026-08-02): nine verdicts changed, one task added | owner, relationship | One sitting | in progress — existence pass done, consistency pass to run | `group/10-tasks.md` (the consistency read), `NEXT.md` step 0 |
 | SYS-9 | Do | **Give every capture route an overflow line** — *what came up that no field covers*. Without it the routes only ever return answers the form already anticipated, and the form can never grow. The clearest case is `R3`: the questions dealers actually ask include ones no field expected, and those are the valuable ones | — | Small | ready | `product-record-template.md` ("what the meters can and cannot tell you") |
 | TSK-4 | Do | **Correct the work-item decomposition** (`group/11-work-items.md`) — 168 items proposed beneath the 46 tasks, none checked with anyone who does the work. Strike what does not exist, add what is missing. Comes before any build | owner, relationship | An hour or two | ready | `group/11-work-items.md` |
 | TSK-5 | Fetch | **Check what engine already does of `detect`, `record` and `route`** before designing any of it. These three appear in 20, 30 and 11 tasks respectively, and most of the signals sit in engine already. S16a discipline — this repo has assumed an engine gap twice and been wrong both times | — | Small | ready | `group/11-work-items.md`, `decided.md` S16a |

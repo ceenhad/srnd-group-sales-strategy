@@ -12,7 +12,8 @@ Four things per task, and the order matters:
 
 1. **Listed** — the whole job, not the interesting parts of it.
 2. **Verified** — every row is a **claim about how SRND works today** until someone who does the work confirms it.
-   One pass has been made; the column carries the state of each row.
+   One pass has been made; the column carries the state of each row. **Existence is the weaker question** —
+   most of these get done. See the consistency read at the foot of this document.
 3. **Automation verdict** — one of four, defined below.
 4. **Where it fits** — the journey stage or motion component it serves, and the record fields it consumes and
    feeds.
@@ -141,13 +142,40 @@ noticeably — see the note below.*
 
 ---
 
-## What to do with this document
+## What to do with this document — the consistency read
 
-1. **Finish verifying it.** Sit with whoever does the work and mark each row `confirmed`, `wrong` or
-   `we don't do that`. **Expect to strike rows** — a task that isn't really performed is worse than a missing one,
-   because it generates work that serves nobody.
-2. **Then re-read the verdicts.** An automation verdict on an unverified task is a guess about a guess.
-3. **Do not treat `automatable` as a build list.** Ten tasks could run without a person; that does not mean ten
-   things should be built. Most wait on the record being filled, which is cheaper and comes first.
-4. **Keep it in step with the record.** When a group of the form changes, the fields columns here change with it.
-   The task register and `../product-record-template.md` are two views of one system.
+**Start from what is actually true: nearly all of these get done.** SRND does the work. *"It is structure and
+consistency that kill it, not the idea"* (Neil, 2026-08-04). So **"do you do this?" is the wrong question**, and
+the `Verified?` column asks it. The answer is mostly yes, and knowing that changes nothing.
+
+**The question that pays is how the work behaves.** Three per task, each answerable in seconds:
+
+| Column | Values | What it tells you |
+|---|---|---|
+| **Same every time?** | `standard` · `varies` · `from scratch` | Whether there is a process to automate, or only a habit |
+| **What starts it** | `a system` · `someone remembers` · `a customer asks` | Whether it happens reliably, or on whoever is paying attention |
+| **Where the output lands** | `a system` · `a file` · `a head` · `nowhere` | Whether doing it once makes the next one cheaper — or the work evaporates |
+
+**Run it top-down.** These three answers per task, across 46 rows, is one sitting. Everything below resolves from
+it: a work item beneath a task that reads `standard / a system / a system` needs nothing built, and a backlog row
+that maps to no surviving task goes as a block.
+
+**The diagnosis to look for.** A task that is **`from scratch` · `someone remembers` · `nowhere`** is work being
+done well and lost every time — done again next month from zero, by whoever is around. That combination is the
+group's characteristic failure in miniature, and it is where a machine pays most, whatever its automation verdict
+says.
+
+**Which means the automation verdict is the second question, not the first.** `automated` / `automatable` /
+`assisted` / `manual` asks *can a machine do this?* The consistency read asks *what does the inconsistency cost?*
+A `manual` task that lands nowhere may be worth more attention than an `automatable` one that already runs
+cleanly — because `record` is cheap and it does not need the task automated to pay.
+
+**Two rules that still hold:**
+
+- **Strike what is not real.** A task that isn't performed generates work that serves nobody. Expect fewer of
+  these than the register implies, given the above — but not none.
+- **Keep it in step with the record.** When a group of the form changes, the fields columns here change with it.
+  The task register and `../product-record-template.md` are two views of one system.
+
+**And ask the question the register cannot ask itself:** *what do you do that isn't on this list?* A list only
+contains what somebody thought of, and the rows that matter most are the ones nobody wrote down.
