@@ -59,13 +59,26 @@ existence would confirm nearly every row and change nothing.
 tasks under other names, and the work items are those tasks decomposed. Graded from the bottom you argue about
 168 items beneath tasks nobody has characterised. From the top it collapses.
 
-1. **Grade the 46 tasks** on the three columns (`TSK-1`, reframed). One sitting, and it is the only altitude
-   where the questions are directly answerable.
-2. **Then resolve the other two by block.** Work items beneath a task that already reads
-   `standard / a system / a system` need nothing built. Backlog rows that map to no surviving task go as a group,
-   unread.
-3. **Add what is missing.** *What do you do that isn't on this list?* A list only contains what somebody thought
-   of. Ask it first, not last.
+**And the session runs by column, never by row** — the run sheet is `group/10-tasks-qa-sheet.md`. A row asks
+three questions at once, so answering row-wise means switching between them 46 times and the standard drifts;
+the instrument measuring consistency ends up inconsistent itself. **One question, held once, run down all 46.**
+Then the next. Four passes:
+
+1. **Same every time?** across all 46.
+2. **What starts it?** across all 46.
+3. **Where does the output land?** across all 46.
+4. **What is missing?** — its own pass, because asked during the others it becomes an interruption and gets
+   skipped, and tacked on at the end it gets rushed. It is the only pass that can find what the list cannot.
+
+**Answer from the fixed vocabulary, never in prose** — fixed words are comparable and sentences are not. First
+instinct; a row needing discussion is marked `?` and left, because it is telling you the task as written isn't
+one real thing. **If more than one person answers, they answer independently and compare afterwards:** two
+people disagreeing about a task is not a problem to iron out, it is pass 1's answer arriving from a different
+direction.
+
+**Then resolve the other two registers by block.** Work items beneath a task reading
+`standard / a system / a system` need nothing built. Backlog rows mapping to no surviving task go as a group,
+unread.
 
 **What the grading produces is the build list, and it is not the automation verdict.** A task reading
 **`from scratch` · `someone remembers` · `nowhere`** is work done well and lost every time — repeated from zero
