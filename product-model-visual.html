@@ -226,6 +226,11 @@
   .wrow.q .wp { color: var(--muted); }
   .wrow.h { background: var(--ground); }
 
+  figure { margin: 0; }
+  figure svg { max-width: 100%; height: auto; display: block; color: var(--ink-2); }
+  figcaption { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 0.6rem; }
+  .kind { font-family: var(--f-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 0.15rem; }
+
   footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: 0.8rem; color: var(--muted); display: flex; flex-direction: column; gap: 0.4rem; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -665,28 +670,85 @@
   <section>
     <div class="sec-head">
       <div class="bar"></div>
-      <span class="count">the strategy · five components</span>
-      <h2>The machinery that serves the journey</h2>
-      <p class="note">Designed once at group level; every brand inherits the design and supplies its own
-        substance. No brand forks the loop, sets its own rate, or runs its own version.</p>
+      <span class="count">the strategy · the machinery</span>
+      <h2>How one answer reaches a dealer</h2>
+      <p class="note">The five components are usually listed as five parallel things. They are not.
+        <strong>Four of them are one chain</strong> — a unit, the process that multiplies it, and the two ways
+        the results reach a dealer. <strong>The fifth is what the chain never touches</strong>, and it needs a
+        person.</p>
     </div>
+
     <div class="diagram">
-      <div class="dcap">five components, and the stages each one serves</div>
-      <div class="mach">
-        <div class="mc"><span class="mcn">component 1</span><span class="mct">The answer</span><span class="mcs">A question answered once, properly, by whoever knows</span><span class="mcstg">every stage</span></div>
-        <div class="mc"><span class="mcn">component 2</span><span class="mct">The production line</span><span class="mcs">Substance in, drafted at volume, truth-checked in minutes, distributed</span><span class="mcstg">every stage</span></div>
-        <div class="mc"><span class="mcn">component 3</span><span class="mct">The face</span><span class="mcs">Familiarity doing what a rep's repeat visits used to do</span><span class="mcstg">stages 1–3</span></div>
-        <div class="mc"><span class="mcn">component 4</span><span class="mct">Being found</span><span class="mcs">Search, AI answers, channels, trade press</span><span class="mcstg">stage 1 · G1</span></div>
-        <div class="mc"><span class="mcn">component 5</span><span class="mct">The substitutes</span><span class="mcs">What content cannot do, each owned by name</span><span class="mcstg">stages 2–6</span></div>
-      </div>
+      <figure>
+        <svg viewBox="0 0 880 320" role="img" aria-label="One question answered once is multiplied by the production line into many pieces, which reach a dealer either through familiarity with a regular presenter or through search and AI discovery. Separately, five things content cannot do reach the dealer only through a person.">
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+            </marker>
+            <marker id="ahw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="var(--warn)"/>
+            </marker>
+          </defs>
+
+          <rect x="16" y="52" width="156" height="76" fill="none" stroke="currentColor"/>
+          <text x="26" y="72" font-size="11" fill="var(--accent)" font-family="ui-monospace,monospace">COMPONENT 1</text>
+          <text x="26" y="92" font-size="13" font-weight="600" fill="currentColor">One question,</text>
+          <text x="26" y="108" font-size="13" font-weight="600" fill="currentColor">answered once</text>
+          <text x="26" y="122" font-size="11" fill="var(--muted)">by whoever knows</text>
+
+          <line x1="172" y1="90" x2="248" y2="90" stroke="currentColor" marker-end="url(#ah)"/>
+          <text x="210" y="80" font-size="11" text-anchor="middle" fill="var(--muted)">multiplied</text>
+
+          <rect x="256" y="32" width="176" height="116" fill="none" stroke="currentColor"/>
+          <text x="266" y="52" font-size="11" fill="var(--accent)" font-family="ui-monospace,monospace">COMPONENT 2</text>
+          <text x="266" y="72" font-size="13" font-weight="600" fill="currentColor">Many pieces</text>
+          <text x="266" y="92" font-size="11" fill="var(--muted)">the article · the hook</text>
+          <text x="266" y="108" font-size="11" fill="var(--muted)">the video · the email</text>
+          <text x="266" y="124" font-size="11" fill="var(--muted)">the datasheet paragraph</text>
+
+          <path d="M432 70 L500 44" fill="none" stroke="currentColor" marker-end="url(#ah)"/>
+          <path d="M432 112 L500 140" fill="none" stroke="currentColor" marker-end="url(#ah)"/>
+
+          <rect x="508" y="18" width="184" height="56" fill="none" stroke="currentColor"/>
+          <text x="518" y="36" font-size="11" fill="var(--accent)" font-family="ui-monospace,monospace">COMPONENT 3</text>
+          <text x="518" y="54" font-size="13" font-weight="600" fill="currentColor">Familiarity</text>
+          <text x="518" y="68" font-size="11" fill="var(--muted)">same face, seen regularly</text>
+
+          <rect x="508" y="112" width="184" height="56" fill="none" stroke="currentColor"/>
+          <text x="518" y="130" font-size="11" fill="var(--accent)" font-family="ui-monospace,monospace">COMPONENT 4</text>
+          <text x="518" y="148" font-size="13" font-weight="600" fill="currentColor">Discovery</text>
+          <text x="518" y="162" font-size="11" fill="var(--muted)">search, AI answers, channels</text>
+
+          <path d="M692 46 L764 84" fill="none" stroke="currentColor" marker-end="url(#ah)"/>
+          <path d="M692 140 L764 102" fill="none" stroke="currentColor" marker-end="url(#ah)"/>
+
+          <rect x="772" y="62" width="94" height="62" fill="none" stroke="currentColor" stroke-width="2"/>
+          <text x="819" y="90" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">A dealer</text>
+          <text x="819" y="106" font-size="11" text-anchor="middle" fill="var(--muted)">reached</text>
+
+          <rect x="256" y="216" width="436" height="76" fill="none" stroke="var(--warn)" stroke-dasharray="5 3"/>
+          <text x="266" y="236" font-size="11" fill="var(--warn)" font-family="ui-monospace,monospace">COMPONENT 5 — CONTENT CANNOT CARRY THESE</text>
+          <text x="266" y="257" font-size="12" fill="currentColor">qualification · discovery · closing · wanting the order</text>
+          <text x="266" y="275" font-size="12" fill="currentColor">product in hand · market intelligence</text>
+
+          <path d="M692 254 L800 254 L800 130" fill="none" stroke="var(--warn)" stroke-dasharray="5 3" marker-end="url(#ahw)"/>
+          <text x="746" y="245" font-size="11" text-anchor="middle" fill="var(--warn)">a person</text>
+        </svg>
+        <figcaption>Components 1 to 4 are one chain; component 5 is a second supply line the chain never touches</figcaption>
+      </figure>
     </div>
+
     <div class="list">
-      <div class="row"><span class="id">1</span><span class="txt"><strong>The answer</strong> — the unit of the motion<span class="sub">A question answered once, properly, by whoever knows. Everything else is a derivative of it. Every piece carries its next step</span></span></div>
-      <div class="row"><span class="id">2</span><span class="txt"><strong>The operation</strong> — a production line, not a ceremony<span class="sub">Substance in → drafted at volume → truth-checked in minutes → distributed. The labour moves; the judgement stays. Volume of pieces, never volume of assertions</span></span></div>
-      <div class="row"><span class="id">3</span><span class="txt"><strong>The face</strong> — familiarity doing what repeat visits did<span class="sub">A dealer feels they know a presenter they watch regularly. Frequency and regularity beat production value; same face, same room, same frame</span></span></div>
-      <div class="row"><span class="id">4</span><span class="txt"><strong>Being found</strong> — reach without a body<span class="sub">Search, AI answers, the channels and the trade press. Content is what gets knocked on, in territories we will never have a person in</span></span></div>
-      <div class="row"><span class="id">5</span><span class="txt"><strong>The substitutes</strong> — what content cannot do, owned by name<span class="sub">Qualification → the tools. Discovery → the spec conversation. Closing → a Zoom or the store. Wanting the order → a person. Market intelligence → a recorded hole</span></span></div>
+      <div class="row"><span class="id">1</span><span class="txt"><span class="kind">the unit</span><strong>The answer — one question, answered well, published where it can be found</strong><span class="sub">Not a campaign and not a manual: a question retired. The test on every piece is <em>does this answer something that would otherwise land on an owner?</em> Four rules make it canonical — titled in the dealer's own words for the problem, not our product vocabulary; existing canonically once, on the brand's own site; carrying its next step so there are no dead ends; and carrying an author, a date and a review interval, because a stale answer is worse than none.</span></span></div>
+      <div class="row"><span class="id">2</span><span class="txt"><span class="kind">the process that multiplies it</span><strong>The production line — one answer becomes the whole derivative set</strong><span class="sub">Substance in, drafted at volume, truth-checked in minutes, distributed. The judgement stays human and the labour does not. What is never multiplied is the substance itself: <strong>volume of pieces, never volume of assertions.</strong></span></span></div>
+      <div class="row"><span class="id">3</span><span class="txt"><span class="kind">first way it reaches a dealer</span><strong>The face — familiarity, doing what a rep's repeat visits used to do</strong><span class="sub">A dealer who watches someone regularly feels they know them. Frequency and regularity beat production value; same face, same room, same frame; speak to one person. This is how a dealer who already found us keeps coming back.</span></span></div>
+      <div class="row"><span class="id">4</span><span class="txt"><span class="kind">second way it reaches a dealer</span><strong>Being found — reach without a body</strong><span class="sub">The corpus is the asset and channels are only surfaces: canonical on our own properties, syndicated outward. The dealer's words are the search terms, and deep first-party data is what AI engines cite. Feed the channels that already have history rather than starting new ones. And show what can be shown, explain what cannot — a masking screen moving is its own argument; acoustics has to be explained.</span></span></div>
+      <div class="row"><span class="id">5</span><span class="txt"><span class="kind">what the chain never touches</span><strong>The substitutes — the part that needs a person, each one named</strong><span class="sub">Qualification goes to the tools. Discovery goes to the spec conversation. Closing goes to a Zoom or the store. Product in hand goes to the sample kit and the Experience Centre. <strong>Wanting the order goes to a person</strong> — content cannot want it. And market intelligence has no substitute at all, which is recorded rather than assumed away.</span></span></div>
     </div>
+
+    <p class="note">The order matters. <strong>Nothing downstream works without component 1</strong> — the line has
+      nothing to multiply, the face has nothing to say, and discovery surfaces nothing worth finding. Which is why
+      the product record sits underneath all of it: the record is where an answer comes from.</p>
   </section>
 
   <section>
