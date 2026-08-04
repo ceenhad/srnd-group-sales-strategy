@@ -35,30 +35,45 @@ real dependency sequence.
 
 **But the first step is not in that sequence, and it is the one that decides whether the rest is real.**
 
-### Step 0 — the QA session, because most of this repo has never been read
+### Step 0 — the QA session, and it grades consistency rather than existence
 
 **Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
 `group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
-work.** Fewer than a quarter of the backlog rows cite a recorded decision as their source; the rest were derived
-from other documents. **75 backlog rows are marked `ready`** — a claim that unauthorised work is ready to start.
-Only the task register has had a human pass, and only one.
+work.** Fewer than a quarter of the backlog rows cite a recorded decision as their source. **75 are marked
+`ready`**, which reads as agreed and means only that nothing blocks them. Only the task register has had a human
+pass, and only one. So the registers are a proposal nobody has read.
 
-So the registers are not a plan. They are a proposal nobody has read, and building against them is how a
-synthetic list becomes a year of work.
+**But the obvious QA question is the wrong one.** *"Do you do this?"* mostly answers yes — **SRND does the work.
+It is structure and consistency that kill it, not the idea** (Neil, 2026-08-04). A pass that only confirms
+existence would confirm nearly every row and change nothing.
 
-**Do it top-down, not row by row.** The three registers are three altitudes of the same material — most backlog
-rows are tasks under other names, and the work items are those tasks decomposed. QA'd from the bottom you argue
-about 168 items beneath tasks that may not exist. From the top it collapses:
+**So grade how the work behaves.** Three answers per task, seconds each:
 
-1. **Finish the task register** (`TSK-1`). 46 rows, 21 already confirmed. It is the only altitude where the
-   question is answerable in one sitting: *do you do this, in a week?*
-2. **Then strike by block, not by row.** A backlog row or work item that maps to no surviving task goes as a
-   group. The question is never "is this row right?" — it is **"what do you actually do, and what here
-   corresponds to it?"**
-3. **What survives is the plan.** Everything below assumes that has happened.
+| Column | Values | What it tells you |
+|---|---|---|
+| **Same every time?** | `standard` · `varies` · `from scratch` | Whether there is a process to automate, or only a habit |
+| **What starts it** | `a system` · `someone remembers` · `a customer asks` | Whether it happens reliably, or on whoever is paying attention |
+| **Where the output lands** | `a system` · `a file` · `a head` · `nowhere` | Whether doing it once makes the next one cheaper — or the work evaporates |
 
-**The expected outcome is a much shorter repo.** A row that restates a strategy document in imperative mood is
-not work, and a good deal of the derived material is that.
+**Top-down, in one sitting.** The three registers are three altitudes of the same material: most backlog rows are
+tasks under other names, and the work items are those tasks decomposed. Graded from the bottom you argue about
+168 items beneath tasks nobody has characterised. From the top it collapses.
+
+1. **Grade the 46 tasks** on the three columns (`TSK-1`, reframed). One sitting, and it is the only altitude
+   where the questions are directly answerable.
+2. **Then resolve the other two by block.** Work items beneath a task that already reads
+   `standard / a system / a system` need nothing built. Backlog rows that map to no surviving task go as a group,
+   unread.
+3. **Add what is missing.** *What do you do that isn't on this list?* A list only contains what somebody thought
+   of. Ask it first, not last.
+
+**What the grading produces is the build list, and it is not the automation verdict.** A task reading
+**`from scratch` · `someone remembers` · `nowhere`** is work done well and lost every time — repeated from zero
+next month by whoever is around. That is where a machine pays most, whatever its `automated`/`assisted`/`manual`
+verdict says, and `record` is the cheapest thing in the system: it does not need the task automated to pay.
+
+**Expect the repo to get shorter, and the priorities to move.** A row that restates a strategy document in
+imperative mood is not work, and a good deal of the derived material is that.
 
 ### Then the sequence
 
