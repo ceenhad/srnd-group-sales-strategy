@@ -4,10 +4,9 @@ C-ATS's moat is its **own measured, engineered acoustics** — not a software pl
 `ceenhad/c-ats-shopify` docs, 2026-07-24. Respect the brand-truth guardrails throughout (scattering
 never diffusion; no invented figures).
 
-> **Scope correction.** An earlier version of this file framed the RT60 design *engine* as C-ATS's
-> differentiator. That was wrong: that engine lives in a **separate project (cinema-tools), which is
-> NOT the C-ATS brand** and is **not being pulled in.** C-ATS *feeds* measured data to such tools; the
-> tools are not part of C-ATS's brand story. This file is about what C-ATS itself owns.
+> **Scope.** The RT60 design *engine* is **not** C-ATS's differentiator and is not part of its brand story.
+> That engine lives in a **separate project (cinema-tools), which is NOT the C-ATS brand** and is **not being
+> pulled in.** C-ATS *feeds* measured data to such tools. This file is about what C-ATS itself owns.
 
 ## The thesis (what C-ATS owns)
 

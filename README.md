@@ -126,7 +126,17 @@ of record for anything operational the strategy relies on. The long-term goal is
 process to run in engine, but **we don't document or specify engine here** — we only note where the
 strategy hands off to it.
 
-## Status
+## Status — plan rev 1
+
+**Rev 1 is the marker in the sand, set 2026-08-04.** It is the first point at which the whole chain holds
+together in one set: the strategy, the four jobs a rep does, the 46 tasks beneath them, the 168 work items
+beneath those, and the product record every one of them reads from. The visual summary of rev 1 is
+`product-model-visual.html`.
+
+What rev 1 does *not* mean is that the contents are verified. Most of the task and work-item rows are claims
+assembled from these documents rather than from watching the work happen, and they say so where they stand.
+Rev 1 is the shape being fixed, not the facts. **From here the plan is amended, not re-argued** — evidence
+lands against a decision or an open item, and a decision changes only as a dated reversal in `decided.md`.
 
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,

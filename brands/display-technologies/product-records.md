@@ -4,14 +4,14 @@
 (`../../decided.md` S11a). Fifty-two live catalogue lines resolve into **twelve record scopes**, of which nine are
 sellable families documented below.*
 
-**What this file is, stated plainly: the definitional layer, filled from what the repo already holds — and every
-other field counted as a gap.** That is not a shortfall, it is the deliverable. DT's documentation debt has been
-described for months; this turns it into **~13 of 58 fields per family**, with the definitional gaps named
-individually so each is a question someone can be sent to answer rather than a project someone has to scope.
+**What this file is: the definitional layer, filled from what the repo already holds — and every other field
+counted as a gap.** The counted gaps are the deliverable. DT's documentation debt has been described for months;
+this states it as **~13 of 58 fields per family**, with the definitional gaps named individually so each is a
+question someone can be sent to answer rather than a project someone has to scope.
 
-> **Scope note (2026-08-02).** The `Gaps:` lists under each family below enumerate the *definitional* gaps only.
-> The form has since gained the front half — competitive (`X1`–`X6`), commercial (`M1`–`M5`), lifecycle
-> (`L1`–`L5`) and hook material (`H1`–`H3`) — and **all four groups are empty for every DT family**. Filling the front half is `../../backlog.md` SYS-3.
+> **Scope of the gap lists.** The `Gaps:` lists under each family enumerate the *definitional* gaps only. The
+> front half of the form — competitive (`X1`–`X6`), commercial (`M1`–`M5`), lifecycle (`L1`–`L5`) and hook
+> material (`H1`–`H3`) — is **empty for every DT family**. Filling it is `../../backlog.md` SYS-3.
 
 **Provenance — read before using anything here.**
 

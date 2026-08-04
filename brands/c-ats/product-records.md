@@ -32,16 +32,16 @@ Two findings sit behind those numbers, and the second is the serious one:
 **Test basis:** BSRIA Report 100241/1, BS EN ISO 354:2003, BSRIA Bracknell, 210 m³ chamber, tested 24 July 2019,
 reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not installed-effective.
 
-> **Two provenance warnings, and the first one is a correction to an earlier draft of this file.**
+> **Two provenance warnings on the source data.**
 >
 > 1. **`panels.json` is marked "DRAFT — generated from BSRIA data; pending review."** Nothing here should reach a
 >    datasheet before that review happens.
 > 2. **Not every figure in it is BSRIA.** The REF-CP default surface coefficient is sourced from the **legacy CATS
->    Calculator (catalogue entry 3084)**, not from the report — an earlier version of this file wrongly attributed
->    it to BSRIA. Both figures are given below, labelled. **This is precisely the failure the record exists to
->    prevent**, and it happened on the first attempt, which is the strongest argument for the exercise.
+>    Calculator (catalogue entry 3084)**, not from the report. Both figures are given below, labelled. **Mixing the
+>    two sources under one label is exactly the failure the record exists to prevent** — every figure carries its
+>    source here for that reason.
 
-**Two things this exercise proved immediately, which is the argument for doing it:**
+**Two things this record surfaced on the first product, which is the argument for filling the rest:**
 
 1. **It found a real and expensive gap** — the REF-CP performs differently depending on how it is fixed, and the
    *recommended* method deliberately gives **less** absorption. An installer who screws it without bonding gets

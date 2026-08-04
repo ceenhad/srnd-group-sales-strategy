@@ -1,5 +1,8 @@
 # What happens next
 
+*Plan **rev 1**, set 2026-08-04 — see the Status section of [`README.md`](README.md) for what the marker
+covers. Amend this file; do not re-argue it.*
+
 *The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The sales motion's
 five components are designed group level down in [`group/09-motion-design.md`](group/09-motion-design.md) —
 the standard the brands inherit — and the discrete actions extracted from this plan and the rest of the repo

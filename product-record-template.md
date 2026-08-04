@@ -9,11 +9,11 @@ a record can be filled by anyone, diffed, scored for completeness, and read by a
 interpretation. Same discipline as `backlog.md`: **IDs are stable and rows are regular** so the whole set can be
 lifted into engine when the process gets a system home.
 
-> **Corrected 2026-08-02, and it changes what the record is for.** The first cut treated this as *product data*.
-> But **content is the sales rep** (`decided.md` S1–S9), and the production line's step 1 is *"substance in — the
-> atoms that already exist: **the product records**, the measured data, the archive…"* with the standing rule that
-> Claude *"multiplies pieces from that substance; it never invents claims"* (`group/09-motion-design.md`,
-> component 2). **So the record is not a specification. It is the database the rep speaks from.**
+> **What the record is for.** **Content is the sales rep** (`decided.md` S1–S9), and the production line's step 1
+> is *"substance in — the atoms that already exist: **the product records**, the measured data, the archive…"*
+> with the standing rule that Claude *"multiplies pieces from that substance; it never invents claims"*
+> (`group/09-motion-design.md`, component 2). **So the record is not a specification. It is the database the rep
+> speaks from.**
 
 **The form is built against the rep test** (`product-data-schema.md`, part one — which also maps a rep's and a
 marketing executive's actual weekly tasks onto the fields each one consumes and feeds). A rep does four jobs; the
@@ -27,9 +27,8 @@ record is done when it can do all four without them:
 | **4 · Deliver** — every question answered, through to a working install | Can a dealer reach a working room without asking us anything? | 01 definition · **07** lifecycle · 04 knowledge · 12 assets |
 
 **Jobs 1 and 2 are one piece of work.** A claim you cannot defend is a hook that costs you the dealer the moment
-it meets a competitor's answer. **Groups 05–08 were added because the first cut had almost no fields for the front
-half** — one line for the whole job of defending, and nothing at all for the dealer's business case or for what a
-product can honestly be hooked on.
+it meets a competitor's answer. **Groups 05–08 carry the front half** — the competitive comparison, the dealer's
+business case, and what a product can honestly be hooked on.
 
 **Three rules carried down from the schema, unchanged:**
 
@@ -43,9 +42,8 @@ product can honestly be hooked on.
   without it, and no amount of production capacity substitutes for it.
 - **Four identifier sets, none of them overlapping.** Groups are numbered `01`–`13`; **fields are lettered**
   (`D1`, `X6`, `N3`); capture routes are `RT1`–`RT6`; tasks are `T-S…` / `T-M…` (`group/10-tasks.md`). Jobs are
-  plain ordinals 1–4, and **domains carry no identifier at all** — the dealer's question names them. Two
-  collisions were swept out on the way here: groups were once lettered `A`–`M` and clashed with the field
-  prefixes, and routes were once `R1`–`R6` and clashed with the doubt fields `R1`–`R4`. Keep the sets apart.
+  plain ordinals 1–4, and **domains carry no identifier at all** — the dealer's question names them. Keep the
+  sets apart: any new identifier goes in one of these shapes or it collides with an existing one.
 
 ---
 
@@ -83,8 +81,8 @@ half and empty on the front (it can answer a dealer who already wants it, and ca
 consequences, and they bind every count in this repo:
 
 - **A filled field confirms something.** An empty one confirms nothing — it means the answer does not exist, or
-  nobody has looked, **or the field is the wrong question.** The record cannot tell you which, and reading a blank
-  as a finding is how this work has gone wrong more than once.
+  nobody has looked, **or the field is the wrong question.** The record cannot tell you which, so a blank is a
+  prompt to go and ask, never a finding in itself.
 - **The denominator is a claim.** *28 of 58* assumes 58 is the right list of things to know about a product. It is
   the list this form currently proposes. **Completeness measures the form, not the knowledge** — a record at 100 %
   against a wrong field list is complete and useless.
@@ -531,8 +529,8 @@ is six triggers, five of which already fire every week (`product-data-schema.md`
    version that carries the authority — the substance stays human, the multiplication does not
    (`group/09-motion-design.md` component 2). Filling `N3` by composition would be inventing claims, which the line
    forbids.
-5. **Completeness gates new products** (`decided.md` S16). A product without `D1`–`D10` and `G3` does not get a
+6. **Completeness gates new products** (`decided.md` S16). A product without `D1`–`D10` and `G3` does not get a
    store listing. That is the only version of this that stops the debt returning.
 
-*First cut, for correction. Every field is a claim that some output needs it — a field no output needs should be
-struck, and a missing field that an output needs should be added.*
+*Every field is a claim that some output needs it — a field no output needs should be struck, and a missing field
+that an output needs should be added.*

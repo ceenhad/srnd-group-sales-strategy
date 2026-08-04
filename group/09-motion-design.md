@@ -92,11 +92,11 @@ honestly supports (`../decided.md` S23).*
   stage-3 reassurance for someone deciding and stage-5 support for someone fitting. One atom's derivative
   set therefore lands at *different* stages by design: S13's one-estate rule means one **material** doing
   four jobs, not one **piece** doing them. Every derivative is tagged with its reader's stage, and only the
-  pieces that pass the test go in the water as hooks. (The correction that produced this rule: a screw-tip
+  pieces that pass the test go in the water as hooks. (The case that produced this rule: a screw-tip
   variant drafted as a hook in batch 001 — interesting to a buyer or an installer, invisible to a stranger.)
 - **Hooks are evidenced and positive.** A search hook is a claim that people actually type those words — and
   that claim comes from the archive and real questions, never from imagining a searcher (batch 001's second
-  correction: nobody is searching for panels that let go weeks later). And early-journey pieces lead with
+  case: nobody is searching for panels that let go weeks later). And early-journey pieces lead with
   the win — more revenue, easier, better results — never the fear: failure-mode material is support
   content inside the owned estate, where the reader already owns the product. Public negativity casts a
   shadow the brand pays for, and it flirts with insinuating the dealer can't (B6). A real advantage few

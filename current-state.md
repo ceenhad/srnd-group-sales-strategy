@@ -154,8 +154,9 @@ while still occupying the territory.
 
 - No market intelligence route now that there are no reps.
 - Cross-selling is poor while the group thesis depends on it.
-- *(Two earlier entries struck 2026-08-02 — "nobody owns wanting the order" and "nothing captured from the
-  spec conversations" — both wrong: follow-up already happens, and engine holds the project data.)*
+
+*(Two entries were struck from this list on 2026-08-02 — follow-up already happens, and engine holds the spec
+and project data. Recorded in `decided.md`, Reversals.)*
 
 ---
 
