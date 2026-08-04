@@ -23,7 +23,7 @@ the pitch, and nothing holds the canonical account of what the thing actually is
 email describes the product slightly differently — which is most of what makes a range feel unprofessional, and it
 is why the same questions keep arriving.
 
-*A first cut, for correction. Every row is a claim about how the estate works, so a wrong row is worth striking.*
+*Every row is a claim about how the estate works. A wrong row is worth striking.*
 
 > **This file is the model and the argument; the form is `product-record-template.md`; the roster is
 > `product-register.md`.** Fill records against the form; change the model here and the form follows.
@@ -32,9 +32,9 @@ is why the same questions keep arriving.
 
 # Part one — the model
 
-*Added 2026-08-02, and it reorders everything below it. **The question is not "what data does a product have?" It
-is "what must the database hold for content to act as the sales and marketing rep?"** (Neil). Those produce
-different lists, and the first version of this file answered the first question.*
+***The question is not "what data does a product have?" It is "what must the database hold for content to act as
+the sales and marketing rep?"** (Neil, 2026-08-02). Those produce different lists, and the second one orders
+everything below.*
 
 ## The rep test — what "done" means
 
@@ -340,7 +340,7 @@ source, or hooks get invented per campaign**, which is precisely what the produc
    collapses 52 catalogue lines into twelve record scopes and fills the definitional layer, leaving the rest as
    named gaps. It needs an hour of the owner's knowledge to confirm the families.
 4. **Rank by the questions-generated field**, cross-checked against the archive's question frequency. Not
-   alphabetically, and not by whichever product someone is currently annoyed about.
+   alphabetically, and not by whichever product is loudest this week.
 5. **Make completeness a gate on new products.** The only version of this that stops the debt returning.
 
 **And the order the model changes, which supersedes points 2–4 as the *sequence* while leaving them true as the

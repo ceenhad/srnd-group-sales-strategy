@@ -1,8 +1,7 @@
 # The tasks — what a sales person and a marketing person actually do
 
-*Why this document exists, in one sentence: **"content is the sales rep" is a claim about tasks, and the tasks had
-never been listed** — so nobody could say which of them the system performs, which it assists, and which stay
-irreducibly human.*
+*Why this document exists, in one sentence: **"content is the sales rep" is a claim about tasks**, so the tasks are
+listed here — which of them the system performs, which it assists, and which stay irreducibly human.*
 
 `08-sales-motion.md` divides a rep's work into what content takes, what substitutes, and what stays human — but
 selectively, naming the interesting cases rather than enumerating the job. `09-motion-design.md` component 5 gives
@@ -13,14 +12,14 @@ Four things per task, and the order matters:
 
 1. **Listed** — the whole job, not the interesting parts of it.
 2. **Verified** — every row is a **claim about how SRND works today** until someone who does the work confirms it.
-   Nothing here is verified yet. That is the point of the column, not an apology for it.
+   One pass has been made; the column carries the state of each row.
 3. **Automation verdict** — one of four, defined below.
 4. **Where it fits** — the journey stage or motion component it serves, and the record fields it consumes and
    feeds.
 
-> **Read the verification column first.** This was assembled from the repo, not from watching anyone work. A wrong
-> row is cheap to strike and expensive to build on — and *"we don't do that"* or *"that isn't how it happens"* is
-> the most valuable thing this document can produce.
+> **Read the verification column first.** The register was assembled from the strategy documents, not from
+> watching anyone work. A wrong row is cheap to strike and expensive to build on — so *"we don't do that"* or
+> *"that isn't how it happens"* is the most valuable thing this document can produce.
 
 ---
 
@@ -121,7 +120,7 @@ noticeably — see the note below.*
 
 **What the first verification pass changed, and it is worth reading as a finding in itself.**
 
-- **The front of the funnel is more human than the desk version assumed.** Qualifying a dealer, qualifying a
+- **The front of the funnel is more human than a desk reading suggests.** Qualifying a dealer, qualifying a
   project and presenting the range all moved from `automated`/`automatable` to **`assisted`** — *"human instinct
   and rapport are needed there"* (Neil). The system supplies the record and the reach; **a person still reads the
   room.**
@@ -135,20 +134,20 @@ noticeably — see the note below.*
 - **Net effect: `assisted` is now 46 % and `manual` is down to 8 tasks.** The irreducible residue is
   **negotiating · asking for the order · recovering a failure · events (sales and marketing) · the novel problem ·
   recognition · budget.** Every one of them is relationship or judgement, which is a coherent list rather than an
-  arbitrary one — and it is a smaller residue than the desk version claimed.
+  arbitrary one.
 - **Every `assisted` task depends on the record.** Assisted work is a person reviewing what the system drafted, and
   the system can only draft from the record. **An empty record silently reverts every assisted task to manual** —
-  and with `assisted` now the largest category by some way, that dependency got stronger, not weaker.
+  and with `assisted` the largest category by some way, that dependency carries most of the register.
 
 ---
 
 ## What to do with this document
 
-1. **Verify it.** Every row is `claim`. Sit with whoever does the work and mark each `confirmed`, `wrong` or
-   `we don't do that`. **Expect to strike rows** — an invented task is worse than a missing one because it
-   generates work that serves nobody.
+1. **Finish verifying it.** Sit with whoever does the work and mark each row `confirmed`, `wrong` or
+   `we don't do that`. **Expect to strike rows** — a task that isn't really performed is worse than a missing one,
+   because it generates work that serves nobody.
 2. **Then re-read the verdicts.** An automation verdict on an unverified task is a guess about a guess.
-4. **Do not treat `automatable` as a build list.** Nine tasks could run without a person; that does not mean nine
+3. **Do not treat `automatable` as a build list.** Ten tasks could run without a person; that does not mean ten
    things should be built. Most wait on the record being filled, which is cheaper and comes first.
 4. **Keep it in step with the record.** When a group of the form changes, the fields columns here change with it.
    The task register and `../product-record-template.md` are two views of one system.

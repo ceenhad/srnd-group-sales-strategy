@@ -263,8 +263,8 @@ reading of the products.
 0. **It says what the content operation can actually be fed.** Read the knowledge gap above first; the record
    counts below it are the lesser number.
 1. **It orders the work.** The `current` + `none` rows are the queue, ranked by `R3` once the sent-mail archive says
-   what actually recurs (`backlog.md` CON-3) — not alphabetically and not by whichever product someone is currently
-   annoyed about.
+   what actually recurs (`backlog.md` CON-3) — not alphabetically, and not by whichever product is loudest this
+   week.
 2. **It is the input to reconciliation with engine** (`backlog.md` DOC-12). A roster to hold up against engine's,
    rather than a conversation about whether one exists.
 3. **It says what cannot be generated yet, and why.** Every `none` row is a brand page, a store listing and a
@@ -272,5 +272,5 @@ reading of the products.
 4. **It is amended, not re-argued.** New products get a row when they get a SKU; a filled record changes its state
    here and nowhere else.
 
-*First cut, from the public catalogues. **The roster itself needs checking against engine** before anyone treats a
+*Drawn from the public catalogues. **The roster itself needs checking against engine** before anyone treats a
 count on this page as final.*

@@ -130,6 +130,6 @@ edited away silently.*
   US support hours and credit terms — and Neil's wider calibration that **this class of critical commercial
   discussion has not yet been processed in any depth**.
 - **2026-07-31 — S20, partially reversed (Neil).** The ceremony half of S20 — a formally set floor rate and
-  a formal confirmation of editorial ownership — is struck as "spurious dross": decisions the documents
-  invented, not ones anybody needed. Production volume comes from the Claude-assisted line instead (S24).
+  a formal confirmation of editorial ownership — is struck: neither was a decision anybody needed.
+  Production volume comes from the Claude-assisted line instead (S24).
   What survives of S20: the roles are fitted in, and nothing comes off anyone's plate.
