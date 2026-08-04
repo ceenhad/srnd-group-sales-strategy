@@ -31,24 +31,53 @@ piece, and everything in "the lanes" below is secondary until it is moving.***
 
 **What rev 1 adds is the order.** `backlog.md` files the work by workstream, which says nothing about what has to
 happen before what. The chain — four jobs, 46 tasks, 168 work items, one record they all read from — produces a
-real dependency sequence, and it is short:
+real dependency sequence.
+
+**But the first step is not in that sequence, and it is the one that decides whether the rest is real.**
+
+### Step 0 — the QA session, because most of this repo has never been read
+
+**Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
+`group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
+work.** Fewer than a quarter of the backlog rows cite a recorded decision as their source; the rest were derived
+from other documents. **75 backlog rows are marked `ready`** — a claim that unauthorised work is ready to start.
+Only the task register has had a human pass, and only one.
+
+So the registers are not a plan. They are a proposal nobody has read, and building against them is how a
+synthetic list becomes a year of work.
+
+**Do it top-down, not row by row.** The three registers are three altitudes of the same material — most backlog
+rows are tasks under other names, and the work items are those tasks decomposed. QA'd from the bottom you argue
+about 168 items beneath tasks that may not exist. From the top it collapses:
+
+1. **Finish the task register** (`TSK-1`). 46 rows, 21 already confirmed. It is the only altitude where the
+   question is answerable in one sitting: *do you do this, in a week?*
+2. **Then strike by block, not by row.** A backlog row or work item that maps to no surviving task goes as a
+   group. The question is never "is this row right?" — it is **"what do you actually do, and what here
+   corresponds to it?"**
+3. **What survives is the plan.** Everything below assumes that has happened.
+
+**The expected outcome is a much shorter repo.** A row that restates a strategy document in imperative mood is
+not work, and a good deal of the derived material is that.
+
+### Then the sequence
 
 | | Step | Why it comes here | Rows |
 |---|---|---|---|
-| **0** | **Agree the roles** | An unowned critical path becomes next year's problem | §A below |
-| **1** | **Verify before building anything** | 46 tasks and 168 work items are claims assembled from documents, not from watching the work. Building on a wrong row is the expensive mistake | `TSK-1` `TSK-4` |
+| **1** | **Agree the roles** | An unowned critical path becomes next year's problem | §A below |
 | **2** | **Ask engine what it already does** | `detect`, `record` and `route` appear in 20, 30 and 11 tasks, and most of those signals sit in engine already. This repo has assumed an engine gap twice and been wrong both times (`decided.md` S16a) | `TSK-5` |
-| **3** | **Fill the record** | `retrieve` reads from it in **28 of 46 tasks**. Nothing downstream drafts without it, and an empty record silently reverts every `assisted` task to manual | §B below · `SYS-3` `SYS-4` `SYS-5` `KNW-1`–`KNW-6` |
+| **3** | **Fill the record** | `retrieve` reads from it in **28 of 46 tasks**. Nothing downstream drafts without it, and an empty record silently reverts every `assisted` task to manual | §B below · surviving `SYS-` and `KNW-` rows |
 | **4** | **Open the capture routes, with their overflow lines** | A running route fills its domains forever; a documentation push decays from the day it is written. The overflow is the only part that can grow the form rather than fill it | `SYS-1` `SYS-9` |
 | **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record | `TSK-6` |
 
-**Steps 1 and 2 are hours, not projects, and they gate everything after them.** Step 3 is the bulk of the work and
-is the same work this page has always called documentation — the product record is what it turned into once it had
-a form.
+**Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
+always called documentation — the product record is what it turned into once it had a form. **The row references
+above are provisional until step 0 has run.**
 
 **One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
-on the revenue path between a quote and its order. It does not wait for step 5.
+on the revenue path between a quote and its order. It is also one of the few items that came out of a real pass
+rather than a derivation, which is why it survives step 0 on its own merits.
 
 ### A. The roles, as commitments rather than titles
 

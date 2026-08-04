@@ -1,5 +1,15 @@
 # Backlog — the register
 
+> **Unreviewed. Read this before using any row.** These 115 rows were extracted from the documents in this
+> repo by a working session; **nobody has been through them.** Fewer than a quarter cite a recorded decision
+> as their source — the rest were derived from other documents, which means a row can be a genuine action, a
+> strategy document restated in imperative mood, or a duplicate of a task in `group/10-tasks.md` under another
+> name. **`ready` means "nothing blocks it", never "agreed".**
+>
+> **The QA session is step 0 of [`NEXT.md`](NEXT.md)**, and it runs top-down: finish the task register first,
+> then strike from here by block — anything that maps to no surviving task — rather than reading 115 rows.
+> Expect this file to get considerably shorter.
+
 *Content as the sales rep is committed (`decided.md` S1–S9). The buyer journey is the spine
 (`group/02-buyer-journey.md`), and [`group/09-motion-design.md`](group/09-motion-design.md) maps what serves
 each of its stages and designs the machinery **once, at group level** — the standard every brand inherits. This file is the register beneath that: every discrete action in the repo, extracted into one

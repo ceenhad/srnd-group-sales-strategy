@@ -138,10 +138,14 @@ assembled from these documents rather than from watching the work happen, and th
 Rev 1 is the shape being fixed, not the facts. **From here the plan is amended, not re-argued** — evidence
 lands against a decision or an open item, and a decision changes only as a dated reversal in `decided.md`.
 
-What rev 1 produced that the repo did not have before is an **order**. `backlog.md` files the work by
-workstream, which says nothing about what comes before what; the chain gives a real dependency sequence —
-verify, ask engine, fill the record, open the routes, build the primitives. It is in `NEXT.md`, and it is
-six steps long.
+What rev 1 produced that the repo did not have before is an **order**, in `NEXT.md`: ask engine, fill the
+record, open the routes, build the primitives.
+
+**Ahead of all of it sits step 0 — the QA session.** Three registers hold **329 rows** (115 backlog, 46 tasks,
+168 work items) and every one of them was assembled from these documents rather than from watching anyone work.
+Only the task register has had a human pass. Until that QA has run, the registers are a proposal nobody has
+read, and the row references in the sequence are provisional. It runs top-down — finish the task register,
+then strike from the other two by block — and it should leave the repo considerably shorter.
 
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,
