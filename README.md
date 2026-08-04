@@ -138,6 +138,11 @@ assembled from these documents rather than from watching the work happen, and th
 Rev 1 is the shape being fixed, not the facts. **From here the plan is amended, not re-argued** — evidence
 lands against a decision or an open item, and a decision changes only as a dated reversal in `decided.md`.
 
+What rev 1 produced that the repo did not have before is an **order**. `backlog.md` files the work by
+workstream, which says nothing about what comes before what; the chain gives a real dependency sequence —
+verify, ask engine, fill the record, open the routes, build the primitives. It is in `NEXT.md`, and it is
+six steps long.
+
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,
 per-brand playbooks beyond C-ATS) are partially built and partially still to build, and are headed

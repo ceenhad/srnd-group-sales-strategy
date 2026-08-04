@@ -15,7 +15,12 @@ up, no judgement required. **Status:** `ready` · `in progress` · `blocked` (na
 `group/09-motion-design.md` (`decided.md` S27); who fills each role is a separate decision. `—` means
 unassigned, which is information rather than a gap to guess at. **When an item completes:** mark it done here, land evidence in `decided.md`,
 don't pass back through `group/`. **IDs are stable and rows regular** so the register can be lifted into
-engine or any tracker when the process gets a system home.
+engine or any tracker when the process gets a system home. **A retired ID is never reused** — gaps in a
+sequence are expected, and `TSK-2` is one of them.
+
+**This register files the work; it does not order it.** The workstreams `W0`–`W10` are a filing scheme.
+**The order the critical-path items run in is in [`NEXT.md`](NEXT.md)** — steps 0 to 5, with the dependencies
+between them. Read the order there and pick the rows here.
 
 **The goal of this effort is establishing the initial sales and marketing processes.** Commercial-model
 points (terms, credit, territory questions) get recorded in `decided.md` when they surface — cheaply, so
