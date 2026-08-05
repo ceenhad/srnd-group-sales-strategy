@@ -125,18 +125,18 @@ before any of it.
 
 *Only this: what causes it to happen at all? Not who does it, and not how well.*
 
-### Sweep A — the answer, all 46
+### Sweep A — the answer, all 46 — **in progress: 8 of 46 answered 2026-08-04 (Neil)**
 
 | ID | Task | |
 |---|---|---|
-| `T-S01` | Build the target list | |
-| `T-S02` | Reach a dealer who has never heard of us | |
-| `T-S03` | Qualify the dealer | |
-| `T-S04` | Qualify the project | |
-| `T-S05` | Present the range | |
-| `T-S06` | Discover | |
-| `T-S07` | Technical selling | |
-| `T-S08` | Produce a quote | |
+| `T-S01` | Build the target list | **`remembered`** |
+| `T-S02` | Reach a dealer who has never heard of us | **`remembered`** |
+| `T-S03` | Qualify the dealer | **`a system`** |
+| `T-S04` | Qualify the project | **`remembered`** |
+| `T-S05` | Present the range | **`remembered`** |
+| `T-S06` | Discover | **`asked`** |
+| `T-S07` | Technical selling | **`a system`** |
+| `T-S08` | Produce a quote | **`a system`** |
 | `T-S09` | Follow up through the project's lead time | |
 | `T-S10` | Handle objections | |
 | `T-S11` | Defend against a named competitor | |
