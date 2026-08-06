@@ -37,6 +37,10 @@ real dependency sequence.
 
 ### Step 0 — the QA session, and it grades consistency rather than existence
 
+> **▶ The session is running.** Started 2026-08-04. **Pass 1 complete** (both sweeps); **pass 2 is 8 of 46
+> answered, resuming at `T-S09`.** State, results so far and how to run it: the RESUME block at the top of
+> [`group/10-tasks-qa-sheet.md`](group/10-tasks-qa-sheet.md).
+
 **Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
 `group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
 work.** Fewer than a quarter of the backlog rows cite a recorded decision as their source. **75 are marked
