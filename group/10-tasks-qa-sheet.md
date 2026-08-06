@@ -39,7 +39,12 @@
 >    `remembered` → `a system` fix reads less like a trigger and more like *an owner and a destination* — pass 2
 >    sweep B should frame those that way rather than hunting for a firing event. **(b)** *Duplication / re-work* is
 >    a cost this sheet can't yet name: pass 3 asks "what is lost", but the sharper loss here is the same work done
->    twice by people blind to each other — worse than lost, negative. Watch for it in pass 3 sweep B and pass 4.
+>    twice by people blind to each other — worse than lost, negative. And it is not hypothetical. Given the work
+>    provably happens and (a) says nothing owns or routes it, *some* duplication is arithmetically forced — the
+>    only duplication-free world is one with a single owner or one shared destination, and pass 2 says we have
+>    neither. What's forced is its **existence**, not its **size**: this sheet can name the mechanism, it can't
+>    measure how often or how dear (that needs watching real work). It strengthens the reading table's
+>    `… · nowhere → record first` — it does not reopen it. Watch for it in pass 3 sweep B and pass 4.
 
 ## The two rules that make it work
 
