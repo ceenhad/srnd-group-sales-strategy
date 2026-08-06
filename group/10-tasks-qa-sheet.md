@@ -277,56 +277,58 @@ before any of it.
 
 *Only this: when it is done, what is left behind that makes the next one cheaper?*
 
-### Sweep A — the answer, all 46
+### Sweep A — the answer, all 46 — **done 2026-08-06 (Neil)**
+
+**Spread:** `a file` 17 · `a system` 14 · `a head` 10 · `nowhere` 5. The `a head` + `nowhere` rows (15) go to sweep B.
 
 | ID | Task | |
 |---|---|---|
-| `T-S01` | Build the target list | |
-| `T-S02` | Reach a dealer who has never heard of us | |
-| `T-S03` | Qualify the dealer | |
-| `T-S04` | Qualify the project | |
-| `T-S05` | Present the range | |
-| `T-S06` | Discover | |
-| `T-S07` | Technical selling | |
-| `T-S08` | Produce a quote | |
-| `T-S09` | Follow up through the project's lead time | |
-| `T-S10` | Handle objections | |
-| `T-S11` | Defend against a named competitor | |
-| `T-S12` | Negotiate terms | |
-| `T-S13` | Close | |
-| `T-S14` | Onboard the account | |
-| `T-S15` | Make the first install succeed | |
-| `T-S16` | Post-delivery follow-up | |
-| `T-S17` | Account management | |
-| `T-S18` | Cross-sell the rest of the group | |
-| `T-S19` | Prompt the reorder | |
-| `T-S20` | Recover a failure | |
-| `T-S21` | Train the dealer's staff | |
-| `T-S22` | Pipeline and forecast | |
-| `T-S23` | Bring back market intelligence | |
-| `T-S24` | Feed product development | |
-| `T-S25` | Events and keeping relationships warm | |
-| `T-S26` | Territory planning | |
-| `T-S27` | The novel problem | |
-| `T-S28` | Recognition and thanks | |
-| `T-M01` | Market and segment research | |
-| `T-M02` | Competitor tracking | |
-| `T-M03` | Positioning and messaging | |
-| `T-M04` | Campaign planning | |
-| `T-M05` | Content production | |
-| `T-M06` | Editorial calendar and cadence | |
-| `T-M07` | Channel management | |
-| `T-M08` | Discoverability | |
-| `T-M09` | Lead capture and nurture | |
-| `T-M10` | Collateral | |
-| `T-M11` | Brand consistency | |
-| `T-M12` | Dealer marketing support | |
-| `T-M13` | Events and exhibitions | |
-| `T-M14` | Trade press and PR | |
-| `T-M15` | Measurement and reporting | |
-| `T-M16` | CRM and data hygiene | |
-| `T-M17` | Product launch | |
-| `T-M18` | Budget and spend allocation | |
+| `T-S01` | Build the target list | **`a system`** |
+| `T-S02` | Reach a dealer who has never heard of us | **`a system`** |
+| `T-S03` | Qualify the dealer | **`a system`** |
+| `T-S04` | Qualify the project | **`a system`** |
+| `T-S05` | Present the range | **`a system`** |
+| `T-S06` | Discover | **`a system`** |
+| `T-S07` | Technical selling | **`a file`** |
+| `T-S08` | Produce a quote | **`a system`** |
+| `T-S09` | Follow up through the project's lead time | **`a file`** |
+| `T-S10` | Handle objections | **`a head`** |
+| `T-S11` | Defend against a named competitor | **`a head`** |
+| `T-S12` | Negotiate terms | **`a system`** |
+| `T-S13` | Close | **`a system`** |
+| `T-S14` | Onboard the account | **`a head`** |
+| `T-S15` | Make the first install succeed | **`nowhere`** |
+| `T-S16` | Post-delivery follow-up | **`nowhere`** |
+| `T-S17` | Account management | **`a system`** |
+| `T-S18` | Cross-sell the rest of the group | **`a head`** |
+| `T-S19` | Prompt the reorder | **`nowhere`** |
+| `T-S20` | Recover a failure | **`a head`** |
+| `T-S21` | Train the dealer's staff | **`a file`** |
+| `T-S22` | Pipeline and forecast | **`a system`** |
+| `T-S23` | Bring back market intelligence | **`nowhere`** |
+| `T-S24` | Feed product development | **`a head`** |
+| `T-S25` | Events and keeping relationships warm | **`a file`** |
+| `T-S26` | Territory planning | **`a file`** |
+| `T-S27` | The novel problem | **`a file`** |
+| `T-S28` | Recognition and thanks | **`a head`** |
+| `T-M01` | Market and segment research | **`a head`** |
+| `T-M02` | Competitor tracking | **`a head`** |
+| `T-M03` | Positioning and messaging | **`a file`** |
+| `T-M04` | Campaign planning | **`a file`** |
+| `T-M05` | Content production | **`a file`** |
+| `T-M06` | Editorial calendar and cadence | **`a file`** |
+| `T-M07` | Channel management | **`a system`** |
+| `T-M08` | Discoverability | **`nowhere`** |
+| `T-M09` | Lead capture and nurture | **`a system`** |
+| `T-M10` | Collateral | **`a file`** |
+| `T-M11` | Brand consistency | **`a file`** |
+| `T-M12` | Dealer marketing support | **`a file`** |
+| `T-M13` | Events and exhibitions | **`a file`** |
+| `T-M14` | Trade press and PR | **`a file`** |
+| `T-M15` | Measurement and reporting | **`a file`** |
+| `T-M16` | CRM and data hygiene | **`a system`** |
+| `T-M17` | Product launch | **`a file`** |
+| `T-M18` | Budget and spend allocation | **`a head`** |
 
 ### Sweep B — back over the answers, for detail
 
