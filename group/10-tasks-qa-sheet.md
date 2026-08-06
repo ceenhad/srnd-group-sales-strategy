@@ -2,6 +2,34 @@
 
 **Three questions, asked one at a time over the same 46 tasks. Then a fourth pass for what is missing.**
 
+> ## ▶ RESUME HERE — session state, 2026-08-04
+>
+> **The next session picks up at `T-S09` — pass 2, sweep A, "what starts it?"**
+>
+> | | State |
+> |---|---|
+> | **Pass 1 sweep A** — is it the same every time? | **Done.** All 46. `from scratch` 21 · `varies` 19 · `standard` 6 |
+> | **Pass 1 sweep B** — the reasons | **Done.** Two tags survived of six proposed: `no template`, `no standard` |
+> | **Pass 2 sweep A** — what starts it? | **8 of 46.** `T-S01`–`T-S08` answered; **resume at `T-S09`** |
+> | **Pass 2 sweep B** — what would have to fire it? | Not started |
+> | **Pass 3** — where does the output land? | Not started |
+> | **Pass 4** — what is missing? | Not started |
+>
+> **How to run it.** Ask with question boxes (`AskUserQuestion`), **four tasks per box**, one word each from the
+> pass's fixed list. That format is working — any unanswered box in the history was a timeout while the answerer
+> was elsewhere, not a problem with the method. Do not switch to prose and do not re-ask what is already
+> answered above.
+>
+> **Two things deliberately parked, not forgotten:**
+>
+> 1. **The pass 1 tag spread.** Whether `no template` and `no standard` split across the 40 rows or apply to
+>    nearly all of them. Deferred to after pass 3, which may settle it without asking.
+> 2. **No cross-pass interpretation yet**, by this sheet's own rule. Reading waits for all four passes. One
+>    pattern is worth watching but not acting on: of the first eight, the only three that fire on their own —
+>    qualify the dealer, technical selling, produce a quote — are all downstream of a dealer already being in
+>    contact. If that holds across the remaining 38 it says the machine only starts things once somebody else
+>    has, which is not a problem the task register was built around.
+
 ## The two rules that make it work
 
 **1. One question at a time — go down a column, never across a row.** A row asks three different questions at
