@@ -2,18 +2,19 @@
 
 **Three questions, asked one at a time over the same 46 tasks. Then a fourth pass for what is missing.**
 
-> ## ▶ RESUME HERE — session state, 2026-08-04
+> ## ▶ RESUME HERE — session state, 2026-08-06
 >
-> **The next session picks up at `T-S09` — pass 2, sweep A, "what starts it?"**
+> **The next session picks up at pass 4 — "what is missing?" — then the reading.**
 >
 > | | State |
 > |---|---|
 > | **Pass 1 sweep A** — is it the same every time? | **Done.** All 46. `from scratch` 21 · `varies` 19 · `standard` 6 |
 > | **Pass 1 sweep B** — the reasons | **Done.** Two tags survived of six proposed: `no template`, `no standard` |
-> | **Pass 2 sweep A** — what starts it? | **8 of 46.** `T-S01`–`T-S08` answered; **resume at `T-S09`** |
-> | **Pass 2 sweep B** — what would have to fire it? | Not started |
-> | **Pass 3** — where does the output land? | Not started |
-> | **Pass 4** — what is missing? | Not started |
+> | **Pass 2 sweep A** — what starts it? | **Done.** All 46. `remembered` 29 · `asked` 10 · `a system` 7 |
+> | **Pass 2 sweep B** — what would have to fire it? | **Done.** 29 rows. **An owner is needed for all 29** (Neil, on review); the split is *automatable event exists* (11) vs *not* (18); 3 of the 18 also need a destination |
+> | **Pass 3 sweep A** — where does the output land? | **Done.** All 46. `a file` 17 · `a system` 14 · `a head` 10 · `nowhere` 5 |
+> | **Pass 3 sweep B** — what is lost? | **Done.** 15 rows (`a head`/`nowhere`) — this is the `record` build list; 3 are duplication rows |
+> | **Pass 4** — what is missing? | **Not started.** The only pass with no word list — what do you do that isn't on the 46 |
 >
 > **How to run it.** Ask with question boxes (`AskUserQuestion`), **four tasks per box**, one word each from the
 > pass's fixed list. That format is working — any unanswered box in the history was a timeout while the answerer
@@ -24,11 +25,30 @@
 >
 > 1. **The pass 1 tag spread.** Whether `no template` and `no standard` split across the 40 rows or apply to
 >    nearly all of them. Deferred to after pass 3, which may settle it without asking.
-> 2. **No cross-pass interpretation yet**, by this sheet's own rule. Reading waits for all four passes. One
->    pattern is worth watching but not acting on: of the first eight, the only three that fire on their own —
->    qualify the dealer, technical selling, produce a quote — are all downstream of a dealer already being in
->    contact. If that holds across the remaining 38 it says the machine only starts things once somebody else
->    has, which is not a problem the task register was built around.
+> 2. **No cross-pass interpretation yet**, by this sheet's own rule. Reading waits for all four passes. The
+>    pattern flagged at eight rows now has all 46 behind it and it mostly held: of the 7 rows that fire on their
+>    own (`a system`), five are downstream of a dealer already in contact — qualify the dealer, technical selling,
+>    produce a quote, negotiate terms, onboard the account. The two exceptions are both marketing housekeeping,
+>    not sales motion — events/exhibitions and CRM/data hygiene — things a calendar or a database fires
+>    regardless of any dealer. So the sales machine still only starts once somebody else has; the only
+>    self-starting parts of the whole register are the two that run on a clock. Watch, don't act.
+> 3. **A texture behind the `remembered` answers, from Neil (2026-08-06).** These tasks aren't unknown —
+>    everyone's aware of them — but none is a specific person's job and nothing routes them. Example: research the
+>    masking-screen market and you now *know* it, but nothing feeds that back; for all you know someone else
+>    researched the same thing — the least efficient case, effort spent, re-spent, retained nowhere. Two things to
+>    carry forward, not act on: **(a)** for the research-type rows (`T-M01`, `T-S23`, `T-S24`) the
+>    `remembered` → `a system` fix reads less like a trigger and more like *an owner and a destination* — pass 2
+>    sweep B should frame those that way rather than hunting for a firing event. **(a) — confirmed and broader
+>    than expected (sweep B, 2026-08-06):** not 3 rows but 18 of the 29 `remembered` rows had no firing event and
+>    were answered *needs an owner*; the trigger question misframed most of them. The owner gap, not the trigger
+>    gap, is the through-line of pass 2. **(b)** *Duplication / re-work* is
+>    a cost this sheet can't yet name: pass 3 asks "what is lost", but the sharper loss here is the same work done
+>    twice by people blind to each other — worse than lost, negative. And it is not hypothetical. Given the work
+>    provably happens and (a) says nothing owns or routes it, *some* duplication is arithmetically forced — the
+>    only duplication-free world is one with a single owner or one shared destination, and pass 2 says we have
+>    neither. What's forced is its **existence**, not its **size**: this sheet can name the mechanism, it can't
+>    measure how often or how dear (that needs watching real work). It strengthens the reading table's
+>    `… · nowhere → record first` — it does not reopen it. Watch for it in pass 3 sweep B and pass 4.
 
 ## The two rules that make it work
 
@@ -153,7 +173,9 @@ before any of it.
 
 *Only this: what causes it to happen at all? Not who does it, and not how well.*
 
-### Sweep A — the answer, all 46 — **in progress: 8 of 46 answered 2026-08-04 (Neil)**
+### Sweep A — the answer, all 46 — **done 2026-08-06 (Neil)**
+
+**Spread:** `remembered` 29 · `asked` 10 · `a system` 7.
 
 | ID | Task | |
 |---|---|---|
@@ -165,60 +187,88 @@ before any of it.
 | `T-S06` | Discover | **`asked`** |
 | `T-S07` | Technical selling | **`a system`** |
 | `T-S08` | Produce a quote | **`a system`** |
-| `T-S09` | Follow up through the project's lead time | |
-| `T-S10` | Handle objections | |
-| `T-S11` | Defend against a named competitor | |
-| `T-S12` | Negotiate terms | |
-| `T-S13` | Close | |
-| `T-S14` | Onboard the account | |
-| `T-S15` | Make the first install succeed | |
-| `T-S16` | Post-delivery follow-up | |
-| `T-S17` | Account management | |
-| `T-S18` | Cross-sell the rest of the group | |
-| `T-S19` | Prompt the reorder | |
-| `T-S20` | Recover a failure | |
-| `T-S21` | Train the dealer's staff | |
-| `T-S22` | Pipeline and forecast | |
-| `T-S23` | Bring back market intelligence | |
-| `T-S24` | Feed product development | |
-| `T-S25` | Events and keeping relationships warm | |
-| `T-S26` | Territory planning | |
-| `T-S27` | The novel problem | |
-| `T-S28` | Recognition and thanks | |
-| `T-M01` | Market and segment research | |
-| `T-M02` | Competitor tracking | |
-| `T-M03` | Positioning and messaging | |
-| `T-M04` | Campaign planning | |
-| `T-M05` | Content production | |
-| `T-M06` | Editorial calendar and cadence | |
-| `T-M07` | Channel management | |
-| `T-M08` | Discoverability | |
-| `T-M09` | Lead capture and nurture | |
-| `T-M10` | Collateral | |
-| `T-M11` | Brand consistency | |
-| `T-M12` | Dealer marketing support | |
-| `T-M13` | Events and exhibitions | |
-| `T-M14` | Trade press and PR | |
-| `T-M15` | Measurement and reporting | |
-| `T-M16` | CRM and data hygiene | |
-| `T-M17` | Product launch | |
-| `T-M18` | Budget and spend allocation | |
+| `T-S09` | Follow up through the project's lead time | **`remembered`** |
+| `T-S10` | Handle objections | **`asked`** |
+| `T-S11` | Defend against a named competitor | **`asked`** |
+| `T-S12` | Negotiate terms | **`a system`** |
+| `T-S13` | Close | **`remembered`** |
+| `T-S14` | Onboard the account | **`a system`** |
+| `T-S15` | Make the first install succeed | **`asked`** |
+| `T-S16` | Post-delivery follow-up | **`asked`** |
+| `T-S17` | Account management | **`remembered`** |
+| `T-S18` | Cross-sell the rest of the group | **`remembered`** |
+| `T-S19` | Prompt the reorder | **`asked`** |
+| `T-S20` | Recover a failure | **`asked`** |
+| `T-S21` | Train the dealer's staff | **`asked`** |
+| `T-S22` | Pipeline and forecast | **`remembered`** |
+| `T-S23` | Bring back market intelligence | **`remembered`** |
+| `T-S24` | Feed product development | **`asked`** |
+| `T-S25` | Events and keeping relationships warm | **`remembered`** |
+| `T-S26` | Territory planning | **`remembered`** |
+| `T-S27` | The novel problem | **`asked`** |
+| `T-S28` | Recognition and thanks | **`remembered`** |
+| `T-M01` | Market and segment research | **`remembered`** |
+| `T-M02` | Competitor tracking | **`remembered`** |
+| `T-M03` | Positioning and messaging | **`remembered`** |
+| `T-M04` | Campaign planning | **`remembered`** |
+| `T-M05` | Content production | **`remembered`** |
+| `T-M06` | Editorial calendar and cadence | **`remembered`** |
+| `T-M07` | Channel management | **`remembered`** |
+| `T-M08` | Discoverability | **`remembered`** |
+| `T-M09` | Lead capture and nurture | **`remembered`** |
+| `T-M10` | Collateral | **`remembered`** |
+| `T-M11` | Brand consistency | **`remembered`** |
+| `T-M12` | Dealer marketing support | **`remembered`** |
+| `T-M13` | Events and exhibitions | **`a system`** |
+| `T-M14` | Trade press and PR | **`remembered`** |
+| `T-M15` | Measurement and reporting | **`remembered`** |
+| `T-M16` | CRM and data hygiene | **`a system`** |
+| `T-M17` | Product launch | **`remembered`** |
+| `T-M18` | Budget and spend allocation | **`remembered`** |
 
-### Sweep B — back over the answers, for detail
+### Sweep B — back over the answers, for detail — **done 2026-08-06 (Neil)**
 
-**Which rows:** Every row answered **`remembered`**.
+**Which rows:** Every row answered **`remembered`** (29).
 
 **What to add:** **What would have to happen for it to fire on its own?** Name the trigger, not the build — *"when a quote passes 30 days"*, not *"a reminder system"*.
 
-| ID | The answer from sweep A | The detail |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+**Method note:** candidate triggers were drafted per row and confirmed or overwritten one at a time. A recurring option was offered — *"no natural event, needs an owner"* — because for many rows the honest answer to "what fires it" is "nothing does."
 
-*Add rows as needed. Leave it short — one line per row beats a paragraph on three.*
+**Spread:** of 29, **18 have no firing event** — the answer was *needs an owner on a cadence*, not a trigger; **11 have a genuine event**. Of the 18, **3 also need a shared destination** (`T-S23`, `T-M01`, `T-M02`) — the duplication rows from parked note 3(b). Recorded as a spread only; the reading waits for all four passes.
+
+**On review (Neil, 2026-08-06):** *needs an owner* is arguably true for **all 29** — the 11 "event" rows have a trigger available, but nothing acts on it without someone owning it; the event fires into the void otherwise. So the split is not *owner vs. not* (an owner is universal across the `remembered` class) — it is *whether an automatable event exists (11) or not (18)*. The owner gap is the whole class; the event, where present, is only what could later let **a system** stand in for the owner. The 11 can graduate toward `a system`; the 18 can only ever be an owned cadence. Answers left as recorded — this sharpens the reading, it does not rewrite the rows. The Pass 2 primitive it points at is **assign owners**, not add triggers.
+
+| ID | Sweep A | The trigger — or why there isn't one |
+|---|---|---|
+| `T-S01` | `remembered` | **No event — needs an owner** on a cadence |
+| `T-S02` | `remembered` | **No event — needs an owner** (standing outreach) |
+| `T-S04` | `remembered` | When discovery starts on an opportunity |
+| `T-S05` | `remembered` | When a dealer engages a brand they haven't bought |
+| `T-S09` | `remembered` | **No event — needs an owner** working live projects on a cadence |
+| `T-S13` | `remembered` | As the decision / install date approaches |
+| `T-S17` | `remembered` | **No event — needs an owner** holding accounts on a cadence |
+| `T-S18` | `remembered` | **No event — needs an owner** watching each account's brand coverage |
+| `T-S22` | `remembered` | When opportunities move stage or value |
+| `T-S23` | `remembered` | **No event — needs an owner + a shared destination** (duplication row) |
+| `T-S25` | `remembered` | **No event — needs an owner** keeping relationships warm on a cadence |
+| `T-S26` | `remembered` | When a territory's shape, coverage or ownership changes |
+| `T-S28` | `remembered` | **No event — needs an owner** deciding who to thank on a cadence |
+| `T-M01` | `remembered` | **No event — needs an owner + a shared destination** (duplication row) |
+| `T-M02` | `remembered` | **No event — needs an owner + a shared destination** (duplication row) |
+| `T-M03` | `remembered` | **No event — needs an owner** on a cadence |
+| `T-M04` | `remembered` | **No event — needs an owner** planning on a cadence |
+| `T-M05` | `remembered` | When a campaign is approved |
+| `T-M06` | `remembered` | At the start of each planning cycle |
+| `T-M07` | `remembered` | When a channel's performance drops below its norm |
+| `T-M08` | `remembered` | **No event — needs an owner** on a cadence |
+| `T-M09` | `remembered` | When a lead is captured (form fill, event scan) |
+| `T-M10` | `remembered` | **No event — needs an owner** maintaining the set |
+| `T-M11` | `remembered` | **No event — needs an owner** holding the standard |
+| `T-M12` | `remembered` | **No event — needs an owner** supporting dealers on a cadence |
+| `T-M14` | `remembered` | **No event — needs an owner** working press on a cadence |
+| `T-M15` | `remembered` | **No event — needs an owner** producing reports on a cadence |
+| `T-M17` | `remembered` | When a product reaches launch-ready |
+| `T-M18` | `remembered` | When spend hits a threshold and needs reallocation |
 
 ---
 
@@ -228,72 +278,84 @@ before any of it.
 
 *Only this: when it is done, what is left behind that makes the next one cheaper?*
 
-### Sweep A — the answer, all 46
+### Sweep A — the answer, all 46 — **done 2026-08-06 (Neil)**
+
+**Spread:** `a file` 17 · `a system` 14 · `a head` 10 · `nowhere` 5. The `a head` + `nowhere` rows (15) go to sweep B.
 
 | ID | Task | |
 |---|---|---|
-| `T-S01` | Build the target list | |
-| `T-S02` | Reach a dealer who has never heard of us | |
-| `T-S03` | Qualify the dealer | |
-| `T-S04` | Qualify the project | |
-| `T-S05` | Present the range | |
-| `T-S06` | Discover | |
-| `T-S07` | Technical selling | |
-| `T-S08` | Produce a quote | |
-| `T-S09` | Follow up through the project's lead time | |
-| `T-S10` | Handle objections | |
-| `T-S11` | Defend against a named competitor | |
-| `T-S12` | Negotiate terms | |
-| `T-S13` | Close | |
-| `T-S14` | Onboard the account | |
-| `T-S15` | Make the first install succeed | |
-| `T-S16` | Post-delivery follow-up | |
-| `T-S17` | Account management | |
-| `T-S18` | Cross-sell the rest of the group | |
-| `T-S19` | Prompt the reorder | |
-| `T-S20` | Recover a failure | |
-| `T-S21` | Train the dealer's staff | |
-| `T-S22` | Pipeline and forecast | |
-| `T-S23` | Bring back market intelligence | |
-| `T-S24` | Feed product development | |
-| `T-S25` | Events and keeping relationships warm | |
-| `T-S26` | Territory planning | |
-| `T-S27` | The novel problem | |
-| `T-S28` | Recognition and thanks | |
-| `T-M01` | Market and segment research | |
-| `T-M02` | Competitor tracking | |
-| `T-M03` | Positioning and messaging | |
-| `T-M04` | Campaign planning | |
-| `T-M05` | Content production | |
-| `T-M06` | Editorial calendar and cadence | |
-| `T-M07` | Channel management | |
-| `T-M08` | Discoverability | |
-| `T-M09` | Lead capture and nurture | |
-| `T-M10` | Collateral | |
-| `T-M11` | Brand consistency | |
-| `T-M12` | Dealer marketing support | |
-| `T-M13` | Events and exhibitions | |
-| `T-M14` | Trade press and PR | |
-| `T-M15` | Measurement and reporting | |
-| `T-M16` | CRM and data hygiene | |
-| `T-M17` | Product launch | |
-| `T-M18` | Budget and spend allocation | |
+| `T-S01` | Build the target list | **`a system`** |
+| `T-S02` | Reach a dealer who has never heard of us | **`a system`** |
+| `T-S03` | Qualify the dealer | **`a system`** |
+| `T-S04` | Qualify the project | **`a system`** |
+| `T-S05` | Present the range | **`a system`** |
+| `T-S06` | Discover | **`a system`** |
+| `T-S07` | Technical selling | **`a file`** |
+| `T-S08` | Produce a quote | **`a system`** |
+| `T-S09` | Follow up through the project's lead time | **`a file`** |
+| `T-S10` | Handle objections | **`a head`** |
+| `T-S11` | Defend against a named competitor | **`a head`** |
+| `T-S12` | Negotiate terms | **`a system`** |
+| `T-S13` | Close | **`a system`** |
+| `T-S14` | Onboard the account | **`a head`** |
+| `T-S15` | Make the first install succeed | **`nowhere`** |
+| `T-S16` | Post-delivery follow-up | **`nowhere`** |
+| `T-S17` | Account management | **`a system`** |
+| `T-S18` | Cross-sell the rest of the group | **`a head`** |
+| `T-S19` | Prompt the reorder | **`nowhere`** |
+| `T-S20` | Recover a failure | **`a head`** |
+| `T-S21` | Train the dealer's staff | **`a file`** |
+| `T-S22` | Pipeline and forecast | **`a system`** |
+| `T-S23` | Bring back market intelligence | **`nowhere`** |
+| `T-S24` | Feed product development | **`a head`** |
+| `T-S25` | Events and keeping relationships warm | **`a file`** |
+| `T-S26` | Territory planning | **`a file`** |
+| `T-S27` | The novel problem | **`a file`** |
+| `T-S28` | Recognition and thanks | **`a head`** |
+| `T-M01` | Market and segment research | **`a head`** |
+| `T-M02` | Competitor tracking | **`a head`** |
+| `T-M03` | Positioning and messaging | **`a file`** |
+| `T-M04` | Campaign planning | **`a file`** |
+| `T-M05` | Content production | **`a file`** |
+| `T-M06` | Editorial calendar and cadence | **`a file`** |
+| `T-M07` | Channel management | **`a system`** |
+| `T-M08` | Discoverability | **`nowhere`** |
+| `T-M09` | Lead capture and nurture | **`a system`** |
+| `T-M10` | Collateral | **`a file`** |
+| `T-M11` | Brand consistency | **`a file`** |
+| `T-M12` | Dealer marketing support | **`a file`** |
+| `T-M13` | Events and exhibitions | **`a file`** |
+| `T-M14` | Trade press and PR | **`a file`** |
+| `T-M15` | Measurement and reporting | **`a file`** |
+| `T-M16` | CRM and data hygiene | **`a system`** |
+| `T-M17` | Product launch | **`a file`** |
+| `T-M18` | Budget and spend allocation | **`a head`** |
 
-### Sweep B — back over the answers, for detail
+### Sweep B — back over the answers, for detail — **done 2026-08-06 (Neil)**
 
-**Which rows:** Every row answered **`a head`** or **`nowhere`**.
+**Which rows:** Every row answered **`a head`** or **`nowhere`** (15).
 
 **What to add:** **What exactly is lost?** The thing itself, in a few words — *"which competitor they were comparing against"*, *"the answer we gave"*. This sweep writes the `record` build list directly.
 
-| ID | The answer from sweep A | The detail |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+**This table is the `record` build list.** 15 items — the specific thing each task should leave behind and currently doesn't. The three marked **(duplication)** are the rows from parked note 3(b) whose loss is not just "gone" but "redone".
 
-*Add rows as needed. Leave it short — one line per row beats a paragraph on three.*
+| ID | Sweep A | What is lost — the thing to capture |
+|---|---|---|
+| `T-S10` | `a head` | Which objections recur across dealers, and the answer that worked |
+| `T-S11` | `a head` | Where we win and lose against each named competitor |
+| `T-S14` | `a head` | What was agreed, set up and promised at onboarding |
+| `T-S15` | `nowhere` | What went right and wrong on the first install |
+| `T-S16` | `nowhere` | The relationship state after delivery |
+| `T-S18` | `a head` | Cross-sell attempts and how the account responded |
+| `T-S19` | `nowhere` | Each account's reorder cadence |
+| `T-S20` | `a head` | What failed, the root cause, and the fix |
+| `T-S23` | `nowhere` | What the field learned about the market — **(duplication)** |
+| `T-S24` | `a head` | The feature and gap requests coming back from the field |
+| `T-S28` | `a head` | Which accounts are owed recognition |
+| `T-M01` | `a head` | Who researched what — **(duplication)** |
+| `T-M02` | `a head` | The competitor picture over time — **(duplication)** |
+| `T-M08` | `nowhere` | What was tried for discoverability, and what worked |
+| `T-M18` | `a head` | The spend decisions and their rationale |
 
 ---
 
