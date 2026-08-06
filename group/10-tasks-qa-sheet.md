@@ -4,15 +4,15 @@
 
 > ## ▶ RESUME HERE — session state, 2026-08-06
 >
-> **The next session picks up at pass 2, sweep B — the 29 `remembered` rows, "what would have to fire it?"**
+> **The next session picks up at pass 3, sweep A — "where does the output land?", all 46.**
 >
 > | | State |
 > |---|---|
 > | **Pass 1 sweep A** — is it the same every time? | **Done.** All 46. `from scratch` 21 · `varies` 19 · `standard` 6 |
 > | **Pass 1 sweep B** — the reasons | **Done.** Two tags survived of six proposed: `no template`, `no standard` |
 > | **Pass 2 sweep A** — what starts it? | **Done.** All 46. `remembered` 29 · `asked` 10 · `a system` 7 |
-> | **Pass 2 sweep B** — what would have to fire it? | **Not started.** Covers the 29 rows answered `remembered` |
-> | **Pass 3** — where does the output land? | Not started |
+> | **Pass 2 sweep B** — what would have to fire it? | **Done.** 29 rows. **18 have no firing event (need an owner)** · 11 a genuine event · 3 of the 18 also need a destination |
+> | **Pass 3** — where does the output land? | **Not started.** All 46 |
 > | **Pass 4** — what is missing? | Not started |
 >
 > **How to run it.** Ask with question boxes (`AskUserQuestion`), **four tasks per box**, one word each from the
@@ -37,7 +37,10 @@
 >    researched the same thing — the least efficient case, effort spent, re-spent, retained nowhere. Two things to
 >    carry forward, not act on: **(a)** for the research-type rows (`T-M01`, `T-S23`, `T-S24`) the
 >    `remembered` → `a system` fix reads less like a trigger and more like *an owner and a destination* — pass 2
->    sweep B should frame those that way rather than hunting for a firing event. **(b)** *Duplication / re-work* is
+>    sweep B should frame those that way rather than hunting for a firing event. **(a) — confirmed and broader
+>    than expected (sweep B, 2026-08-06):** not 3 rows but 18 of the 29 `remembered` rows had no firing event and
+>    were answered *needs an owner*; the trigger question misframed most of them. The owner gap, not the trigger
+>    gap, is the through-line of pass 2. **(b)** *Duplication / re-work* is
 >    a cost this sheet can't yet name: pass 3 asks "what is lost", but the sharper loss here is the same work done
 >    twice by people blind to each other — worse than lost, negative. And it is not hypothetical. Given the work
 >    provably happens and (a) says nothing owns or routes it, *some* duplication is arithmetically forced — the
@@ -222,21 +225,47 @@ before any of it.
 | `T-M17` | Product launch | **`remembered`** |
 | `T-M18` | Budget and spend allocation | **`remembered`** |
 
-### Sweep B — back over the answers, for detail
+### Sweep B — back over the answers, for detail — **done 2026-08-06 (Neil)**
 
-**Which rows:** Every row answered **`remembered`**.
+**Which rows:** Every row answered **`remembered`** (29).
 
 **What to add:** **What would have to happen for it to fire on its own?** Name the trigger, not the build — *"when a quote passes 30 days"*, not *"a reminder system"*.
 
-| ID | The answer from sweep A | The detail |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+**Method note:** candidate triggers were drafted per row and confirmed or overwritten one at a time. A recurring option was offered — *"no natural event, needs an owner"* — because for many rows the honest answer to "what fires it" is "nothing does."
 
-*Add rows as needed. Leave it short — one line per row beats a paragraph on three.*
+**Spread:** of 29, **18 have no firing event** — the answer was *needs an owner on a cadence*, not a trigger; **11 have a genuine event**. Of the 18, **3 also need a shared destination** (`T-S23`, `T-M01`, `T-M02`) — the duplication rows from parked note 3(b). Recorded as a spread only; the reading waits for all four passes.
+
+| ID | Sweep A | The trigger — or why there isn't one |
+|---|---|---|
+| `T-S01` | `remembered` | **No event — needs an owner** on a cadence |
+| `T-S02` | `remembered` | **No event — needs an owner** (standing outreach) |
+| `T-S04` | `remembered` | When discovery starts on an opportunity |
+| `T-S05` | `remembered` | When a dealer engages a brand they haven't bought |
+| `T-S09` | `remembered` | **No event — needs an owner** working live projects on a cadence |
+| `T-S13` | `remembered` | As the decision / install date approaches |
+| `T-S17` | `remembered` | **No event — needs an owner** holding accounts on a cadence |
+| `T-S18` | `remembered` | **No event — needs an owner** watching each account's brand coverage |
+| `T-S22` | `remembered` | When opportunities move stage or value |
+| `T-S23` | `remembered` | **No event — needs an owner + a shared destination** (duplication row) |
+| `T-S25` | `remembered` | **No event — needs an owner** keeping relationships warm on a cadence |
+| `T-S26` | `remembered` | When a territory's shape, coverage or ownership changes |
+| `T-S28` | `remembered` | **No event — needs an owner** deciding who to thank on a cadence |
+| `T-M01` | `remembered` | **No event — needs an owner + a shared destination** (duplication row) |
+| `T-M02` | `remembered` | **No event — needs an owner + a shared destination** (duplication row) |
+| `T-M03` | `remembered` | **No event — needs an owner** on a cadence |
+| `T-M04` | `remembered` | **No event — needs an owner** planning on a cadence |
+| `T-M05` | `remembered` | When a campaign is approved |
+| `T-M06` | `remembered` | At the start of each planning cycle |
+| `T-M07` | `remembered` | When a channel's performance drops below its norm |
+| `T-M08` | `remembered` | **No event — needs an owner** on a cadence |
+| `T-M09` | `remembered` | When a lead is captured (form fill, event scan) |
+| `T-M10` | `remembered` | **No event — needs an owner** maintaining the set |
+| `T-M11` | `remembered` | **No event — needs an owner** holding the standard |
+| `T-M12` | `remembered` | **No event — needs an owner** supporting dealers on a cadence |
+| `T-M14` | `remembered` | **No event — needs an owner** working press on a cadence |
+| `T-M15` | `remembered` | **No event — needs an owner** producing reports on a cadence |
+| `T-M17` | `remembered` | When a product reaches launch-ready |
+| `T-M18` | `remembered` | When spend hits a threshold and needs reallocation |
 
 ---
 
