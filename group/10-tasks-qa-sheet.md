@@ -11,7 +11,7 @@
 > | **Pass 1 sweep A** — is it the same every time? | **Done.** All 46. `from scratch` 21 · `varies` 19 · `standard` 6 |
 > | **Pass 1 sweep B** — the reasons | **Done.** Two tags survived of six proposed: `no template`, `no standard` |
 > | **Pass 2 sweep A** — what starts it? | **Done.** All 46. `remembered` 29 · `asked` 10 · `a system` 7 |
-> | **Pass 2 sweep B** — what would have to fire it? | **Done.** 29 rows. **18 have no firing event (need an owner)** · 11 a genuine event · 3 of the 18 also need a destination |
+> | **Pass 2 sweep B** — what would have to fire it? | **Done.** 29 rows. **An owner is needed for all 29** (Neil, on review); the split is *automatable event exists* (11) vs *not* (18); 3 of the 18 also need a destination |
 > | **Pass 3** — where does the output land? | **Not started.** All 46 |
 > | **Pass 4** — what is missing? | Not started |
 >
@@ -234,6 +234,8 @@ before any of it.
 **Method note:** candidate triggers were drafted per row and confirmed or overwritten one at a time. A recurring option was offered — *"no natural event, needs an owner"* — because for many rows the honest answer to "what fires it" is "nothing does."
 
 **Spread:** of 29, **18 have no firing event** — the answer was *needs an owner on a cadence*, not a trigger; **11 have a genuine event**. Of the 18, **3 also need a shared destination** (`T-S23`, `T-M01`, `T-M02`) — the duplication rows from parked note 3(b). Recorded as a spread only; the reading waits for all four passes.
+
+**On review (Neil, 2026-08-06):** *needs an owner* is arguably true for **all 29** — the 11 "event" rows have a trigger available, but nothing acts on it without someone owning it; the event fires into the void otherwise. So the split is not *owner vs. not* (an owner is universal across the `remembered` class) — it is *whether an automatable event exists (11) or not (18)*. The owner gap is the whole class; the event, where present, is only what could later let **a system** stand in for the owner. The 11 can graduate toward `a system`; the 18 can only ever be an owned cadence. Answers left as recorded — this sharpens the reading, it does not rewrite the rows. The Pass 2 primitive it points at is **assign owners**, not add triggers.
 
 | ID | Sweep A | The trigger — or why there isn't one |
 |---|---|---|
