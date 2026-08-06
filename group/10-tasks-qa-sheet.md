@@ -4,7 +4,7 @@
 
 > ## ▶ RESUME HERE — session state, 2026-08-06
 >
-> **The next session picks up at pass 3, sweep A — "where does the output land?", all 46.**
+> **The next session picks up at pass 4 — "what is missing?" — then the reading.**
 >
 > | | State |
 > |---|---|
@@ -12,8 +12,9 @@
 > | **Pass 1 sweep B** — the reasons | **Done.** Two tags survived of six proposed: `no template`, `no standard` |
 > | **Pass 2 sweep A** — what starts it? | **Done.** All 46. `remembered` 29 · `asked` 10 · `a system` 7 |
 > | **Pass 2 sweep B** — what would have to fire it? | **Done.** 29 rows. **An owner is needed for all 29** (Neil, on review); the split is *automatable event exists* (11) vs *not* (18); 3 of the 18 also need a destination |
-> | **Pass 3** — where does the output land? | **Not started.** All 46 |
-> | **Pass 4** — what is missing? | Not started |
+> | **Pass 3 sweep A** — where does the output land? | **Done.** All 46. `a file` 17 · `a system` 14 · `a head` 10 · `nowhere` 5 |
+> | **Pass 3 sweep B** — what is lost? | **Done.** 15 rows (`a head`/`nowhere`) — this is the `record` build list; 3 are duplication rows |
+> | **Pass 4** — what is missing? | **Not started.** The only pass with no word list — what do you do that isn't on the 46 |
 >
 > **How to run it.** Ask with question boxes (`AskUserQuestion`), **four tasks per box**, one word each from the
 > pass's fixed list. That format is working — any unanswered box in the history was a timeout while the answerer
@@ -330,21 +331,31 @@ before any of it.
 | `T-M17` | Product launch | **`a file`** |
 | `T-M18` | Budget and spend allocation | **`a head`** |
 
-### Sweep B — back over the answers, for detail
+### Sweep B — back over the answers, for detail — **done 2026-08-06 (Neil)**
 
-**Which rows:** Every row answered **`a head`** or **`nowhere`**.
+**Which rows:** Every row answered **`a head`** or **`nowhere`** (15).
 
 **What to add:** **What exactly is lost?** The thing itself, in a few words — *"which competitor they were comparing against"*, *"the answer we gave"*. This sweep writes the `record` build list directly.
 
-| ID | The answer from sweep A | The detail |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+**This table is the `record` build list.** 15 items — the specific thing each task should leave behind and currently doesn't. The three marked **(duplication)** are the rows from parked note 3(b) whose loss is not just "gone" but "redone".
 
-*Add rows as needed. Leave it short — one line per row beats a paragraph on three.*
+| ID | Sweep A | What is lost — the thing to capture |
+|---|---|---|
+| `T-S10` | `a head` | Which objections recur across dealers, and the answer that worked |
+| `T-S11` | `a head` | Where we win and lose against each named competitor |
+| `T-S14` | `a head` | What was agreed, set up and promised at onboarding |
+| `T-S15` | `nowhere` | What went right and wrong on the first install |
+| `T-S16` | `nowhere` | The relationship state after delivery |
+| `T-S18` | `a head` | Cross-sell attempts and how the account responded |
+| `T-S19` | `nowhere` | Each account's reorder cadence |
+| `T-S20` | `a head` | What failed, the root cause, and the fix |
+| `T-S23` | `nowhere` | What the field learned about the market — **(duplication)** |
+| `T-S24` | `a head` | The feature and gap requests coming back from the field |
+| `T-S28` | `a head` | Which accounts are owed recognition |
+| `T-M01` | `a head` | Who researched what — **(duplication)** |
+| `T-M02` | `a head` | The competitor picture over time — **(duplication)** |
+| `T-M08` | `nowhere` | What was tried for discoverability, and what worked |
+| `T-M18` | `a head` | The spend decisions and their rationale |
 
 ---
 
