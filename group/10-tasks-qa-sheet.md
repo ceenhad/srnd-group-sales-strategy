@@ -2,16 +2,16 @@
 
 **Three questions, asked one at a time over the same 46 tasks. Then a fourth pass for what is missing.**
 
-> ## ▶ RESUME HERE — session state, 2026-08-04
+> ## ▶ RESUME HERE — session state, 2026-08-06
 >
-> **The next session picks up at `T-S09` — pass 2, sweep A, "what starts it?"**
+> **The next session picks up at pass 2, sweep B — the 29 `remembered` rows, "what would have to fire it?"**
 >
 > | | State |
 > |---|---|
 > | **Pass 1 sweep A** — is it the same every time? | **Done.** All 46. `from scratch` 21 · `varies` 19 · `standard` 6 |
 > | **Pass 1 sweep B** — the reasons | **Done.** Two tags survived of six proposed: `no template`, `no standard` |
-> | **Pass 2 sweep A** — what starts it? | **8 of 46.** `T-S01`–`T-S08` answered; **resume at `T-S09`** |
-> | **Pass 2 sweep B** — what would have to fire it? | Not started |
+> | **Pass 2 sweep A** — what starts it? | **Done.** All 46. `remembered` 29 · `asked` 10 · `a system` 7 |
+> | **Pass 2 sweep B** — what would have to fire it? | **Not started.** Covers the 29 rows answered `remembered` |
 > | **Pass 3** — where does the output land? | Not started |
 > | **Pass 4** — what is missing? | Not started |
 >
@@ -24,11 +24,13 @@
 >
 > 1. **The pass 1 tag spread.** Whether `no template` and `no standard` split across the 40 rows or apply to
 >    nearly all of them. Deferred to after pass 3, which may settle it without asking.
-> 2. **No cross-pass interpretation yet**, by this sheet's own rule. Reading waits for all four passes. One
->    pattern is worth watching but not acting on: of the first eight, the only three that fire on their own —
->    qualify the dealer, technical selling, produce a quote — are all downstream of a dealer already being in
->    contact. If that holds across the remaining 38 it says the machine only starts things once somebody else
->    has, which is not a problem the task register was built around.
+> 2. **No cross-pass interpretation yet**, by this sheet's own rule. Reading waits for all four passes. The
+>    pattern flagged at eight rows now has all 46 behind it and it mostly held: of the 7 rows that fire on their
+>    own (`a system`), five are downstream of a dealer already in contact — qualify the dealer, technical selling,
+>    produce a quote, negotiate terms, onboard the account. The two exceptions are both marketing housekeeping,
+>    not sales motion — events/exhibitions and CRM/data hygiene — things a calendar or a database fires
+>    regardless of any dealer. So the sales machine still only starts once somebody else has; the only
+>    self-starting parts of the whole register are the two that run on a clock. Watch, don't act.
 
 ## The two rules that make it work
 
@@ -153,7 +155,9 @@ before any of it.
 
 *Only this: what causes it to happen at all? Not who does it, and not how well.*
 
-### Sweep A — the answer, all 46 — **in progress: 8 of 46 answered 2026-08-04 (Neil)**
+### Sweep A — the answer, all 46 — **done 2026-08-06 (Neil)**
+
+**Spread:** `remembered` 29 · `asked` 10 · `a system` 7.
 
 | ID | Task | |
 |---|---|---|
@@ -165,44 +169,44 @@ before any of it.
 | `T-S06` | Discover | **`asked`** |
 | `T-S07` | Technical selling | **`a system`** |
 | `T-S08` | Produce a quote | **`a system`** |
-| `T-S09` | Follow up through the project's lead time | |
-| `T-S10` | Handle objections | |
-| `T-S11` | Defend against a named competitor | |
-| `T-S12` | Negotiate terms | |
-| `T-S13` | Close | |
-| `T-S14` | Onboard the account | |
-| `T-S15` | Make the first install succeed | |
-| `T-S16` | Post-delivery follow-up | |
-| `T-S17` | Account management | |
-| `T-S18` | Cross-sell the rest of the group | |
-| `T-S19` | Prompt the reorder | |
-| `T-S20` | Recover a failure | |
-| `T-S21` | Train the dealer's staff | |
-| `T-S22` | Pipeline and forecast | |
-| `T-S23` | Bring back market intelligence | |
-| `T-S24` | Feed product development | |
-| `T-S25` | Events and keeping relationships warm | |
-| `T-S26` | Territory planning | |
-| `T-S27` | The novel problem | |
-| `T-S28` | Recognition and thanks | |
-| `T-M01` | Market and segment research | |
-| `T-M02` | Competitor tracking | |
-| `T-M03` | Positioning and messaging | |
-| `T-M04` | Campaign planning | |
-| `T-M05` | Content production | |
-| `T-M06` | Editorial calendar and cadence | |
-| `T-M07` | Channel management | |
-| `T-M08` | Discoverability | |
-| `T-M09` | Lead capture and nurture | |
-| `T-M10` | Collateral | |
-| `T-M11` | Brand consistency | |
-| `T-M12` | Dealer marketing support | |
-| `T-M13` | Events and exhibitions | |
-| `T-M14` | Trade press and PR | |
-| `T-M15` | Measurement and reporting | |
-| `T-M16` | CRM and data hygiene | |
-| `T-M17` | Product launch | |
-| `T-M18` | Budget and spend allocation | |
+| `T-S09` | Follow up through the project's lead time | **`remembered`** |
+| `T-S10` | Handle objections | **`asked`** |
+| `T-S11` | Defend against a named competitor | **`asked`** |
+| `T-S12` | Negotiate terms | **`a system`** |
+| `T-S13` | Close | **`remembered`** |
+| `T-S14` | Onboard the account | **`a system`** |
+| `T-S15` | Make the first install succeed | **`asked`** |
+| `T-S16` | Post-delivery follow-up | **`asked`** |
+| `T-S17` | Account management | **`remembered`** |
+| `T-S18` | Cross-sell the rest of the group | **`remembered`** |
+| `T-S19` | Prompt the reorder | **`asked`** |
+| `T-S20` | Recover a failure | **`asked`** |
+| `T-S21` | Train the dealer's staff | **`asked`** |
+| `T-S22` | Pipeline and forecast | **`remembered`** |
+| `T-S23` | Bring back market intelligence | **`remembered`** |
+| `T-S24` | Feed product development | **`asked`** |
+| `T-S25` | Events and keeping relationships warm | **`remembered`** |
+| `T-S26` | Territory planning | **`remembered`** |
+| `T-S27` | The novel problem | **`asked`** |
+| `T-S28` | Recognition and thanks | **`remembered`** |
+| `T-M01` | Market and segment research | **`remembered`** |
+| `T-M02` | Competitor tracking | **`remembered`** |
+| `T-M03` | Positioning and messaging | **`remembered`** |
+| `T-M04` | Campaign planning | **`remembered`** |
+| `T-M05` | Content production | **`remembered`** |
+| `T-M06` | Editorial calendar and cadence | **`remembered`** |
+| `T-M07` | Channel management | **`remembered`** |
+| `T-M08` | Discoverability | **`remembered`** |
+| `T-M09` | Lead capture and nurture | **`remembered`** |
+| `T-M10` | Collateral | **`remembered`** |
+| `T-M11` | Brand consistency | **`remembered`** |
+| `T-M12` | Dealer marketing support | **`remembered`** |
+| `T-M13` | Events and exhibitions | **`a system`** |
+| `T-M14` | Trade press and PR | **`remembered`** |
+| `T-M15` | Measurement and reporting | **`remembered`** |
+| `T-M16` | CRM and data hygiene | **`a system`** |
+| `T-M17` | Product launch | **`remembered`** |
+| `T-M18` | Budget and spend allocation | **`remembered`** |
 
 ### Sweep B — back over the answers, for detail
 
