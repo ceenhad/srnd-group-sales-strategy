@@ -31,6 +31,15 @@
 >    not sales motion — events/exhibitions and CRM/data hygiene — things a calendar or a database fires
 >    regardless of any dealer. So the sales machine still only starts once somebody else has; the only
 >    self-starting parts of the whole register are the two that run on a clock. Watch, don't act.
+> 3. **A texture behind the `remembered` answers, from Neil (2026-08-06).** These tasks aren't unknown —
+>    everyone's aware of them — but none is a specific person's job and nothing routes them. Example: research the
+>    masking-screen market and you now *know* it, but nothing feeds that back; for all you know someone else
+>    researched the same thing — the least efficient case, effort spent, re-spent, retained nowhere. Two things to
+>    carry forward, not act on: **(a)** for the research-type rows (`T-M01`, `T-S23`, `T-S24`) the
+>    `remembered` → `a system` fix reads less like a trigger and more like *an owner and a destination* — pass 2
+>    sweep B should frame those that way rather than hunting for a firing event. **(b)** *Duplication / re-work* is
+>    a cost this sheet can't yet name: pass 3 asks "what is lost", but the sharper loss here is the same work done
+>    twice by people blind to each other — worse than lost, negative. Watch for it in pass 3 sweep B and pass 4.
 
 ## The two rules that make it work
 
