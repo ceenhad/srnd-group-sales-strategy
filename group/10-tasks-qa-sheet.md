@@ -4,7 +4,7 @@
 
 > ## ▶ RESUME HERE — session state, 2026-08-06
 >
-> **The next session picks up at pass 4 — "what is missing?" — then the reading.**
+> **All four passes are complete. The next move is the reading.**
 >
 > | | State |
 > |---|---|
@@ -14,7 +14,7 @@
 > | **Pass 2 sweep B** — what would have to fire it? | **Done.** 29 rows. **An owner is needed for all 29** (Neil, on review); the split is *automatable event exists* (11) vs *not* (18); 3 of the 18 also need a destination |
 > | **Pass 3 sweep A** — where does the output land? | **Done.** All 46. `a file` 17 · `a system` 14 · `a head` 10 · `nowhere` 5 |
 > | **Pass 3 sweep B** — what is lost? | **Done.** 15 rows (`a head`/`nowhere`) — this is the `record` build list; 3 are duplication rows |
-> | **Pass 4** — what is missing? | **Not started.** The only pass with no word list — what do you do that isn't on the 46 |
+> | **Pass 4** — what is missing? | **Done.** Two additions, both reactive triggers — inbound mail, a colleague's question; no tasks struck |
 >
 > **How to run it.** Ask with question boxes (`AskUserQuestion`), **four tasks per box**, one word each from the
 > pass's fixed list. That format is working — any unanswered box in the history was a timeout while the answerer
@@ -370,13 +370,17 @@ These 46 rows were assembled from the documents in this repo, not from watching 
 contains only what somebody thought of. Anything named here is a genuine addition. Anything above that turns out
 not to be one real thing gets struck. Both are worth more than a filled cell.
 
+### Answered 2026-08-08 (Neil) — only two, and both reactive
+
 | # | The task, in your words | Closest existing row, if any |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | **Inbound mail** from a project lead, customer or support — it triggers the work, and is where the same work gets done again and again | No clean match. Pieces touch `T-M09` (lead capture), `T-S04`/`T-S06` (qualify/discover), `T-S17` (account mgmt), `T-S20` (recover, for support). **Genuine addition** — no row for triaging inbound, and none for support at all |
+| 2 | **A colleague asking a question** — a price, a lead time, a competitive analysis — which exposes a knowledge or process gap that could be closed | Subjects map to `T-S11`/`T-M02` (competitive), `T-S08`/`T-S09` (lead time); price has no row (policy, gated). **Genuine addition** — no row for the internal question itself |
+
+**What pass 4 found — and what it didn't.** It found no missing *tasks*: the 46 rows hold up, nothing struck. It found the two **reactive triggers** the register was built without — one external, one internal — and both are where the earlier findings bite:
+
+- **Inbound mail** is the general trigger behind the whole `asked` class in pass 2 (`T-S06`, `T-S10`, `T-S11`, `T-S15`, `T-S16`, `T-S19`, `T-S24`, `T-S27`). Neil named its defining feature unprompted — *"the same work done multiple times"* — the duplication finding (note 3(b)) arriving a third time, now from the front door.
+- **A colleague's question** is the internal face of pass 3's `a head`/`nowhere`: when the answer to *"what's the price, the lead time, the competitive picture"* lives in a head and not a record, the only way to get it is to ask — and re-ask. The question *is* the missing record, made audible.
 
 ---
 
