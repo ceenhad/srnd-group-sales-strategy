@@ -398,6 +398,40 @@ detail.
 | **`?`** | The row isn't one real thing | Split it or strike it. Do not build against it |
 | **Two people disagreeing** | The task varies by person | Pass 1's answer, arriving from a different direction |
 
+---
+
+## The result — read 2026-08-08
+
+**One root, found four ways.** Every pass pointed at the same mechanism from a different side:
+**no owner → nothing kept → nowhere → the work redone.** Pass 2 found the *owner* gap (an owner is needed for
+all 29 `remembered` rows; 18 have no firing event at all). Pass 3 found the *landing* gap (15 rows end in
+`a head` or `nowhere`). The three duplication rows and both pass-4 triggers are that same mechanism again. It is
+not five findings — it is one. And it is **cheaper than the primitives build assumed**, because the fix is
+mostly *write it down and give it an owner*, not *build a system*.
+
+**In cost order — what to do:**
+
+1. **`record` — build first; it pays before anything is automated.** Capture the 15 things pass 3 sweep B
+   named. The 5 acute ones (`nowhere`) are `T-S15`, `T-S16`, `T-S19`, `T-S23`, `T-M08`. This one primitive kills
+   the duplication and answers *both* pass-4 triggers — inbound work stops being redone, and the colleague's
+   question has somewhere to look before it's asked.
+2. **Write the shape — a template and a definition of done.** The 19 `varies` rows are habits, not processes;
+   pass 1 says the shape is already there and merely unwritten. Written, not built.
+3. **Assign owners — not triggers.** All 29 `remembered` rows need an owner. Only the **11** with a real firing
+   event can later graduate to `a system`: `T-S04`, `T-S05`, `T-S13`, `T-S22`, `T-S26`, `T-M05`, `T-M06`,
+   `T-M07`, `T-M09`, `T-M17`, `T-M18`. The other 18 will always need a person on a cadence.
+4. **Skip — already handled.** `T-S08`, `T-S12`, `T-M16` read `standard · a system · a system`. Build nothing,
+   and strike every work item beneath them.
+
+**The two registers then resolve by block.** In `11-work-items.md`, the items beneath the three skip-tasks
+(#4) need nothing built. In `backlog.md`, no task was struck in pass 4, so all 46 survive — the by-block strike
+applies only to backlog rows that map to *no* surviving task, which is a single read of backlog against the 46,
+not 115 individual judgements.
+
+**What this is not.** Not an automation programme. Three of the four moves are writing — a captured record, a
+template, a named owner. Automation is the *last* mile and only for the 11 event-triggered rows. "Build it,
+then say it" applies: the record and the owner come first; the system, if ever, comes after they exist.
+
 **Then the other two registers resolve by block.** A work item in `11-work-items.md` beneath a task reading
 `standard / a system / a system` needs nothing built. A row in `backlog.md` mapping to no surviving task is
 struck as a group, unread — which is how 115 unreviewed rows get resolved without anyone reading 115 rows.
