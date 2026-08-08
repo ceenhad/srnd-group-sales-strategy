@@ -37,9 +37,9 @@ real dependency sequence.
 
 ### Step 0 — the QA session, and it grades consistency rather than existence
 
-> **▶ The session is running.** Started 2026-08-04. **Pass 1 complete** (both sweeps); **pass 2 is 8 of 46
-> answered, resuming at `T-S09`.** State, results so far and how to run it: the RESUME block at the top of
-> [`group/10-tasks-qa-sheet.md`](group/10-tasks-qa-sheet.md).
+> **▶ The session is complete.** Started 2026-08-04, finished 2026-08-08. **All four passes and the reading are
+> done.** Full results and the reading: [`group/10-tasks-qa-sheet.md`](group/10-tasks-qa-sheet.md). The outcome
+> is below, under "What the QA produced."
 
 **Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
 `group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
@@ -100,6 +100,34 @@ verdict says, and `record` is the cheapest thing in the system: it does not need
 **Expect the repo to get shorter, and the priorities to move.** A row that restates a strategy document in
 imperative mood is not work, and a good deal of the derived material is that.
 
+### What the QA produced — 2026-08-08, and it confirms the sequence
+
+All four passes ran; the 46-row register **held** (no task struck), and pass 4 added only two items — both
+*reactive triggers*, not tasks: **inbound mail** (a lead, a customer, support), and **a colleague's question**.
+The reading is one finding, not five: **no owner → nothing kept → nowhere → the work redone.** Pass 2 found the
+owner gap, pass 3 the landing gap, and the duplication rows and both pass-4 triggers are the same mechanism
+again.
+
+**The build list, in cost order** (full detail: the reading in `group/10-tasks-qa-sheet.md`):
+
+1. **`record` — first, and it pays before anything is automated.** Capture the 15 things pass 3 sweep B named
+   (5 acute: `T-S15`, `T-S16`, `T-S19`, `T-S23`, `T-M08`). This one primitive kills the duplication and answers
+   *both* pass-4 triggers — inbound stops being redone, and the colleague's question has somewhere to look
+   before it is asked.
+2. **Write the shape — a template and a definition of done** for the 19 `varies` tasks. The shape is already
+   there and merely unwritten (pass 1's sweep B). Written, not built.
+3. **Assign owners — not triggers.** All 29 `remembered` tasks need an owner; only 11 have a real firing event
+   and can ever become `a system`. This **widens step 1 below**: the roles are not only the three programme
+   roles — every remembered task needs someone who owns it.
+4. **Skip — already handled.** `T-S08`, `T-S12`, `T-M16` (`standard · a system · a system`) need nothing built,
+   and neither do the work items beneath them (resolved by block in `group/11-work-items.md`).
+
+**This confirms rev 1's order rather than changing it** — roles, then the record, then the primitives, with
+`record` the cheapest thing in the system and the one that pays on its own. Two sharpenings only: the owner gap
+is broader than the three roles (move 3), and the record-first case is now evidenced from three independent
+directions rather than asserted. **Three of the four moves are writing, not building**; automation is the last
+mile, and only for the 11 event-triggered tasks.
+
 ### Then the sequence
 
 | | Step | Why it comes here | Rows |
@@ -112,7 +140,7 @@ imperative mood is not work, and a good deal of the derived material is that.
 
 **Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
 always called documentation — the product record is what it turned into once it had a form. **The row references
-above are provisional until step 0 has run.**
+above were provisional until step 0; it has now run — see "What the QA produced" above.**
 
 **One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly

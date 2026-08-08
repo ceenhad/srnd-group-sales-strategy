@@ -16,6 +16,12 @@ is in it; it says nothing about steps nobody wrote down. So `108 of 168` is a re
 measure of the work. Read the counts as a shape, never as a coverage figure — **the items missing from here are
 invisible from here.**
 
+> **Resolved by block after the QA (2026-08-08).** The QA graded all 46 tasks (`group/10-tasks-qa-sheet.md`).
+> Three read `standard · a system · a system` — **already handled** — so every work item beneath them needs
+> nothing built: **`T-S08`, `T-S12`, `T-M16`** (marked in place below). No task was struck, so nothing else
+> resolves out of this register by block; the remaining correction (strike what's wrong, add what's missing) is
+> still the row-by-row pass `TSK-4`, done with whoever does the work.
+
 ---
 
 ## What a work item is
@@ -167,7 +173,7 @@ Not task by task. **Primitive by primitive**, because each one unlocks work in d
 
 ### `T-S08` — Produce a quote
 
-**Task verdict: `automated`** · 4 work items
+**Task verdict: `automated`** · 4 work items · **QA: `standard · a system · a system` — already handled; skip these work items.**
 
 | Primitive | Work item |
 |---|---|
@@ -215,7 +221,7 @@ Not task by task. **Primitive by primitive**, because each one unlocks work in d
 
 ### `T-S12` — Negotiate terms
 
-**Task verdict: `manual`** · 3 work items
+**Task verdict: `manual`** · 3 work items · **QA: `standard · a system · a system` — already handled; skip these work items.**
 
 | Primitive | Work item |
 |---|---|
@@ -552,7 +558,7 @@ Not task by task. **Primitive by primitive**, because each one unlocks work in d
 
 ### `T-M16` — CRM and data hygiene
 
-**Task verdict: `automated`** · 2 work items
+**Task verdict: `automated`** · 2 work items · **QA: `standard · a system · a system` — already handled; skip these work items.**
 
 | Primitive | Work item |
 |---|---|
