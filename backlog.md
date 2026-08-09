@@ -120,7 +120,7 @@ not the cell: these 15 are the aggregate finding, not fifteen equally certain ve
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| REC-0 | Fetch | **The gating audit.** For each REC row below, does engine already hold it, and in what structure? Extends `TSK-5`/`DOC-12`/`SYS-2` to the operational record. Deliverable is the gap list; nothing below is built before it | — | Small | ready | qa-sheet pass 3, `decided.md` S16a |
+| REC-0 | Fetch | **The gating audit.** For each REC row below, does engine already hold it, and in what structure? Extends `TSK-5`/`DOC-12`/`SYS-2` to the operational record. **Per-row questions prepared — the checklist below.** Deliverable is the gap list; nothing below is built before it | — | Small | ready (needs engine access) | qa-sheet pass 3, `decided.md` S16a |
 | REC-1 | Do | Capture **which objections recur and the answer that worked** (T-S10) → a rep stops re-deriving a reply, and the recurring ones rank the content queue | — | Small | blocked (REC-0) | qa-sheet pass 3 |
 | REC-2 | Do | Capture **where we win and lose against each named competitor** (T-S11) → defence is armed from history, not memory (likely engine pipeline — `SYS-2`) | — | Small | blocked (REC-0) | qa-sheet pass 3 |
 | REC-3 | Do | Capture **what was agreed, set up and promised at onboarding** (T-S14) → the promise is honoured, not re-litigated | — | Small | blocked (REC-0) | qa-sheet pass 3 |
@@ -140,6 +140,32 @@ not the cell: these 15 are the aggregate finding, not fifteen equally certain ve
 *The capture mechanism for genuine gaps is `SYS-1` (the six routes) with `SYS-9` (the overflow line); the
 destination is engine wherever `REC-0` says it already fits. The sequence per row is one of two: `REC-0` finds
 engine already holds it — done — or a route fills it.*
+
+#### `REC-0` — the audit questions, one per row
+
+*Prepared from what the repo already says engine holds — **engine is the CRM: years of project, prospect,
+pipeline, order, registration and pricing data** (`current-state.md`; `decided.md` S25, S16a, S16b). Take these
+into an engine session and it is a checklist, not an exploration. For each: does engine hold it, and in what
+structure? A "no" is a genuine gap for a capture route (`SYS-1`); don't build for a "yes". These are prior
+beliefs to test, not answers — the audit corrects them.*
+
+| For | Ask engine | Repo's prior belief / likely home |
+|---|---|---|
+| REC-1 | Are the objections/questions raised on a deal, and the response given, in a structured field — or only free-text notes, or nowhere? | Likely a gap; the *answer* half is the product record's `N3`, not engine |
+| REC-2 | Does the win/loss reason on a quote carry **which competitor** and **which dimension** — the `X1`–`X6` structure — or only the fact of the loss? | Engine does classic pipeline incl. win/loss (`SYS-2`); the competitor/dimension structure is the open question |
+| REC-3 | Per account at onboarding, what was agreed/granted/promised (terms, tier, commitments) — structured, or implicit in registration + pricing config? | Registrations and per-partner/country pricing are in engine; the explicit promises may be partial |
+| REC-4 | Does a job/project record capture the **install outcome** — what went well or badly, snags — structured, or not at all? | Likely a gap; maps to product-record `R4`/`N8` |
+| REC-5 | Is there a **post-delivery status/health** per account or job (satisfied, issues open), or does the CRM track only pipeline and orders? | Accounts/projects tracked; relationship state likely unstructured |
+| REC-6 | Brand coverage per account is derivable (`FACT-1`) — but are **cross-sell attempts and the response** recorded, or only the resulting orders? | Coverage derivable from orders; attempts/responses likely a gap (the `G6` signal) |
+| REC-7 | Can **reorder cadence** be derived from order history per account, and does anything fire on it — or is the history there but unused? | Order history in engine; cadence derivable, prompt likely not firing |
+| REC-8 | Are **failure/escalation events** on a job recorded with root cause and resolution — or is support handled outside engine? | Likely a gap; maps to `N8`/`X6` |
+| REC-9 | Any structured home for **field/market intelligence** (what a rep learned), or is that not a CRM concept here? | Almost certainly a gap — the duplication row; engine won't hold unstructured learning |
+| REC-10 | Are **dealer feature/product requests** captured as a log tied to account/product, or only in inboxes? | Likely a gap |
+| REC-11 | Can **recognition triggers** — first order, Nth order, anniversary, £ thresholds — be computed from order history, and is anything surfaced? | Data is there; nothing likely computed |
+| REC-12 | Any shared register of **research done and by whom** that engine touches — or none? | Gap by nature — internal knowledge, not CRM (the duplication row) |
+| REC-13 | Beyond per-deal loss reasons (REC-2), does anything hold a **standing competitor profile that accretes** — or only per-deal fragments? | Per-deal in pipeline; a standing record is product-record `X1`–`X4`, not engine |
+| REC-14 | Does engine hold **search/discoverability performance**, or does it live in site/store/GA/YouTube analytics outside engine? | Outside engine — note the real home in the audit |
+| REC-15 | Does engine hold **marketing spend and its rationale**, or is spend in finance/accounting outside engine? | Likely outside engine; the *rationale* specifically is a gap |
 
 ## W2 — US entry — *parked: commercial questions are not germane to establishing the processes (2026-08-02)*
 
