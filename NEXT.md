@@ -37,9 +37,9 @@ real dependency sequence.
 
 ### Step 0 — the QA session, and it grades consistency rather than existence
 
-> **▶ The session is running.** Started 2026-08-04. **Pass 1 complete** (both sweeps); **pass 2 is 8 of 46
-> answered, resuming at `T-S09`.** State, results so far and how to run it: the RESUME block at the top of
-> [`group/10-tasks-qa-sheet.md`](group/10-tasks-qa-sheet.md).
+> **▶ The session is complete.** Started 2026-08-04, finished 2026-08-08. **All four passes and the reading are
+> done.** Full results and the reading: [`group/10-tasks-qa-sheet.md`](group/10-tasks-qa-sheet.md). The outcome
+> is below, under "What the QA produced."
 
 **Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
 `group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
@@ -100,6 +100,34 @@ verdict says, and `record` is the cheapest thing in the system: it does not need
 **Expect the repo to get shorter, and the priorities to move.** A row that restates a strategy document in
 imperative mood is not work, and a good deal of the derived material is that.
 
+### What the QA produced — 2026-08-08
+
+All four passes ran; the 46-row register held (no task struck), and pass 4 added only two items — both reactive
+triggers rather than tasks: **inbound mail**, and **a colleague's question**.
+
+**Read the shape, not the cell** (Neil). Many single-word answers had two or three equally defensible choices, so
+the weight is in the aggregate, never in one row's verdict. Taken that way the result is a forward chain, not a
+verdict on the past:
+
+**do these tasks → to enable this result → which maps to the plan → and empowers automation later.**
+
+| Do | To enable | Maps to | Automation it unlocks |
+|---|---|---|---|
+| **Fill the record** — the product record, plus the 15 things pass 3 named as kept nowhere | one corpus the motion reads from, so an answer is made once | W1 · step 3 · `group/09-motion-design.md` component 2 | `retrieve` (28 tasks) and `assemble` read from it — most of the 168 work items |
+| **Write the shape** — a template and a definition of done for the 19 `varies` tasks | a repeatable form in place of a habit | `group/09-motion-design.md` (the machinery, designed once); `JNY-2` as the template | a shaped process is the precondition for automating one |
+| **Skip** — `T-S08`, `T-S12`, `T-M16`, already `standard · a system · a system` | — | resolved by block in `group/11-work-items.md` | nothing to build |
+
+**It confirms rev 1's order** — the record is still the cheapest, highest-leverage thing and automation is the
+last mile. Two things are logged as findings, not actioned here: the two reactive triggers are **answered by the
+record** (inbound work is made once; a colleague's question gains somewhere to look), and the owner question the
+passes raised belongs to the **roles decision** (step 1 · `PAR-3`), not to a role allocated per task now.
+
+**And the record's home is engine, not a file in a Dropbox** (Neil). For much of it the system destination
+already exists — which is precisely what turns pass 3's 17 `a file` rows from *findable* into *read by the
+automation* (`a system`, the 14 that already land there). Which store holds which field is the check-engine step
+(step 2 below · `TSK-5` · `DOC-12`), taken before building any store of our own — S16a discipline: this repo has
+assumed an engine gap twice and been wrong both times.
+
 ### Then the sequence
 
 | | Step | Why it comes here | Rows |
@@ -112,7 +140,7 @@ imperative mood is not work, and a good deal of the derived material is that.
 
 **Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
 always called documentation — the product record is what it turned into once it had a form. **The row references
-above are provisional until step 0 has run.**
+above were provisional until step 0; it has now run — see "What the QA produced" above.**
 
 **One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
