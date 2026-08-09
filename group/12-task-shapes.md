@@ -33,11 +33,15 @@ already says (`group/11-work-items.md`, `08-sales-motion.md`, `09-motion-design.
 filled. *Definition of done is often a decision* — `[decide]`, once. *Read the shape, not the cell* — the 19 are
 the aggregate; several share a shape and will be grouped.
 
+**And don't gold-plate the tracking.** Where a shape needs to show currency, that is a **last-updated date** —
+not a version history or a change-log (Neil, 2026-08-09).
+
 **The 19 `varies` tasks:** `T-S03`, `T-S04`, `T-S05`, `T-S07`, `T-S09`, `T-S13`, `T-S23`, `T-S24`, `T-S25`,
 `T-S27`, `T-S28`, `T-M02`, `T-M03`, `T-M06`, `T-M07`, `T-M09`, `T-M10`, `T-M14`, `T-M15`.
 
-> **Status — 2026-08-09: format + first tranche (3 of 19), rebuilt for depth.** The remaining 16 follow once the
-> depth is confirmed. Owners are not assigned here — that is the roles decision (`PAR-3`).
+> **Status — 2026-08-09: all 19 written, at depth, grouped by shared shape.** The `[decide]` calls are collected
+> at the end — the one-time decisions that turn a template into a standard. Owners are not assigned here — that
+> is the roles decision (`PAR-3`).
 
 ---
 
@@ -49,20 +53,20 @@ position without rebuilding it from memory.
 **Output:** a **comparison matrix** — rows are the fixed dimensions a dealer actually weighs (measured
 performance, integration/control, support model, lead time, price posture, …); columns are **us + each named
 competitor**. Every populated cell carries the claim **and its source** — a measured figure, an `X1`–`X5`
-field, a pipeline win/loss. Plus a dated change-log line whenever a competitor's public surface moves.
+field, a pipeline win/loss. Each record carries a **last-updated date** — that is the whole of the tracking.
 
 **Rules the output must satisfy:**
 - **Comparative, never absolute.** Every entry is *us vs a named competitor on a named dimension* —
   "on lead time, us 6–8 wks vs them 12+." A bare "they're weaker" is not a permitted entry; the form has no cell
   for it.
 - **Sourced.** No cell without its evidence. An unsourced claim is a marked gap, not an assertion.
-- **Accretes.** The prior state is retained, so change is visible rather than overwritten.
+- **Current and dated.** Each record carries a last-updated date — no version history or change-log to maintain.
 
 **Steps — each time a competitor is looked at:** detect the change on their surfaces → enter it against the
-fixed dimensions, sourced, into `X1`–`X4` → judge one-off vs pattern → date it.
+fixed dimensions, sourced, into `X1`–`X4` → judge one-off vs pattern → stamp the last-updated date.
 
 **Definition of done:** the matrix is current as of the look; every populated cell is comparative and sourced;
-prior state retained. **`[decide]`** the fixed dimension list per product category (so every competitor is
+last-updated date stamped. **`[decide]`** the fixed dimension list per product category (so every competitor is
 compared on the *same* axes — this is what makes the analysis comparable across deals) and which competitors are
 tracked. *(Where the record lands: the engine audit — `REC-13` / `REC-0`.)*
 
@@ -114,14 +118,201 @@ type. *(Depends on the on-ramp fields being filled — `DOC-13`, `KNW-*`.)*
 
 ---
 
-## Still to write — the other 16
+## `T-S04` — Qualify the project *(shares the qualification shape with `T-S03`)*
 
-`T-S04` qualify the project · `T-S07` technical selling · `T-S09` follow up through lead time · `T-S13` close ·
-`T-S23` bring back market intelligence · `T-S24` feed product development · `T-S25` events and keeping
-relationships warm · `T-S27` the novel problem · `T-S28` recognition and thanks · `T-M03` positioning and
-messaging · `T-M06` editorial calendar and cadence · `T-M07` channel management · `T-M09` lead capture and
-nurture · `T-M10` collateral · `T-M14` trade press and PR · `T-M15` measurement and reporting.
+**For:** deciding whether a live project is real, live and worth the time — consistently, not on instinct.
 
-*Shared shapes to group: the two "qualify" tasks (`T-S03`/`T-S04`); the intelligence tasks
-(`T-S23`/`T-M02`) — both comparison-matrix-shaped; the cadence tasks (`T-M06`/`T-M07`); the
-draft-from-the-record tasks (`T-M03`/`T-M10`/`T-M14`).*
+**Output:** a **project qualification record** — fixed fields: the room and requirement (from the tool use or
+enquiry that flagged it), stage, value band, the dealer it sits with, and a **verdict** (pursue / watch / pass)
+with the reason that follows from the fields.
+
+**Rules the output must satisfy:**
+- **Scored against a fixed bar** — as `T-S03`: same inputs, same verdict.
+- **Linked, never floating** — it ties to the qualified dealer (`T-S03`) and the room's product set.
+
+**Steps — each time:** detect the signal of a live project → pull what it captured about room and requirement →
+apply the bar → record verdict + reason.
+
+**Definition of done:** a project record with a verdict traceable to the criteria, linked to its dealer.
+**`[decide]`** the bar for "worth the time" — value band, stage, fit.
+
+---
+
+## `T-S23` — Bring back market intelligence *(shares the comparison-matrix shape with `T-M02`)*
+
+**For:** turning what the pipeline and the field reveal into the same standing picture `T-M02` holds — so
+intelligence is pooled, not carried in one head. *(Duplication row; record side `REC-9`.)*
+
+**Output:** entries into the **same comparison matrix** as `T-M02` — which rival, which dimension, at which stage
+we won or lost — sourced from the pipeline (`X1`–`X5`), plus a market-level note where it is a pattern and not a
+single deal.
+
+**Rules the output must satisfy:**
+- **Comparative and sourced** — as `T-M02`; each datum enters against a named dimension with its source.
+- **Pattern vs one-off is marked** — a single loss is a data point; a repeated one is a finding, and the shape
+  distinguishes them.
+
+**Steps — each time:** retrieve win/loss from the pipeline → enter against the matrix dimensions, sourced →
+judge pattern vs one-off → stamp last-updated.
+
+**Definition of done:** the matrix reflects the latest pipeline evidence, comparative and sourced, patterns
+flagged. **`[decide]`** the threshold at which a run of losses becomes a "pattern" worth acting on. *(Record
+home: `REC-9` / `REC-0`.)*
+
+---
+
+## `T-S07`, `T-S24`, `T-S27` — the learning-capture shape
+
+*Their output is two things: the answer or action now, **and** what it taught, captured back into the record so
+the next person starts from it. The capture is the half that currently evaporates — so in this shape it is not
+optional.*
+
+**`T-S07` — Technical selling (help specify a live job)**
+- **Output:** a specification for the room, assembled from the product records (`N1`, `N2`, the definition
+  fields), **plus** the new answer captured back — into `N3` (the answer) and `N8` (what it taught).
+- **Rules:** *from the record where it exists* (don't re-derive what's held); *the novel answer is captured, not
+  just given* — an answer that leaves only in an email is the gap.
+- **Steps:** retrieve the room's product records → assemble the spec → answer the part the record doesn't hold →
+  record that answer into `N3`/`N8`.
+- **Done:** the dealer has the spec, and any answer the record didn't hold is now in it. **`[decide]`** what
+  counts as "worth capturing" vs a one-off, so `N3` doesn't fill with noise.
+
+**`T-S24` — Feed product development**
+- **Output:** a **ranked list of product gaps and requests**, aggregated across the range from `X4`, `X6`,
+  `N9`, ordered by how often each one costs us.
+- **Rules:** *ranked by cost/frequency, not recency or loudest voice*; *sourced* — each item cites the deals or
+  answers it aggregates.
+- **Steps:** retrieve `X4`/`X6`/`N9` across the range → assemble → order by frequency/cost → hand to the
+  `decide`.
+- **Done:** a current ranked list, each item sourced. **`[decide]`** what to change or commission — the owner's
+  call; the shape prepares it, it does not make it.
+
+**`T-S27` — The novel problem**
+- **Output:** the answer to the one-off, **plus** what it taught, captured into `N8` (what it taught) and `N9`
+  (what we still can't answer).
+- **Rules:** *the capture is mandatory* — the whole value of a novel problem is what it teaches; an uncaptured
+  one is paid for and lost.
+- **Steps:** answer the problem → record the lesson into `N8`/`N9`.
+- **Done:** answer given, lesson recorded. No `[decide]` — the shape is simply "always capture."
+
+---
+
+## `T-M03`, `T-M10`, `T-M14` — the draft-from-the-record shape
+
+*Each produces a written artefact from record fields, against the brand gates, truth-checked before it ships.
+Same shape, different output and gate.*
+
+**Shared Output:** a draft **generated from named record fields**, carrying its **source tags** and a
+**review/approval stamp**.
+**Shared Rules:** *generated from fields, not composed from scratch* (consistent, and regenerable when a field
+changes); *gated before publication* — nothing ships without the truth-check against `G1`/`G2`/`G4` and the
+brand's hard don'ts; *sourced* — every claim traces to a field or a measurement.
+
+- **`T-M03` — Positioning and messaging** · Output: the brand/product positioning, from the `D` and `O` fields
+  plus the brand's own truth. Added rule: obeys **`[decide]` `G2`** — what the brand will and will not say.
+  Done: positioning stated, `G2`-obedient, sourced.
+- **`T-M10` — Collateral** · Output: datasheet / case study from the generation-gate fields, versioned with a
+  review date. Done: draft approved against `G1`/`G2`, versioned. **`[decide]`** the re-review cadence.
+- **`T-M14` — Trade press and PR** · Output: the piece + the pitch to the outlet, from `H2` (the most
+  interesting true thing) and `G4` (what may be shown). Added rule: **nothing NDA'd or unpublishable passes
+  `G4`**. Done: piece and pitch ready, `G4`-cleared.
+
+---
+
+## `T-M06`, `T-M07` — the cadence shape
+
+*Both run on a rhythm (their trigger is a clock — pass 2): order a queue by a rule, place items, log what went
+where. The shape is a schedule plus a log.*
+
+**Shared Output:** a **scheduled queue** (what goes out, when, where) and a **log** of what actually published
+where, last-updated dated.
+**Shared Rules:** *ordered by a stated rule, not by whim*; *logged* — the record of what is live where is what
+stops duplication and orphaning.
+
+- **`T-M06` — Editorial calendar and cadence** · Output: the ranked queue + schedule + published log. Rule:
+  ranked by *what recurs and what is blocking* (the archive-derived demand, `CON-3`). Done: a current queue and
+  a log of what published. **`[decide]`** the floor rate (the sustainable minimum — `NEXT.md` lane 6).
+- **`T-M07` — Channel management** · Output: a map of what is live on which channel + the routing rule. Rule:
+  *right piece to the right channel* against a stated fit (brand channel vs group; the estate rules in
+  `04`/`05`). Done: current live-where map, routing rule applied. **`[decide]`** the channel-fit rules, if not
+  already set.
+
+---
+
+## `T-S09`, `T-S13`, `T-S25`, `T-S28` — the contact-and-record shape
+
+*Human contact whose outcome must be recorded or it evaporates. `T-S09` can run as a scheduled sequence
+(`automatable` — it is build item `TSK-3`); the other three are human in the contact, machine-recordable in the
+outcome.*
+
+- **`T-S09` — Follow up through the project's lead time** · Output: a **scheduled sequence of touches** across
+  the quote-to-order window, each relevant to *this* project, with sent/opened/replied logged and a
+  hand-to-a-person rule. Rules: *fires on elapsed time, not memory*; *relevant, not a generic nudge*; *logged*.
+  Done: touches firing on schedule, logged, escalating when the rule says. **`[decide]`** the interval and the
+  stop/hand-over rule. *(This is `TSK-3`.)*
+- **`T-S13` — Close** · Output: the ask made, and **the answer recorded either way** against the opportunity.
+  Rule: *a "no" and its reason is recorded, not just a "yes"*. Done: outcome recorded. The detect-side (gone
+  quiet / past window) is buildable; the ask is human.
+- **`T-S25` — Events and keeping relationships warm** · Output: **who was met and what was said**, recorded
+  against the account. Rule: *the contact is captured* — an event whose conversations aren't recorded is a cost
+  with no asset. Done: contacts logged against accounts. **`[decide]`** the minimum a post-event note must
+  capture.
+- **`T-S28` — Recognition and thanks** · Output: the thanks given, triggered by a **milestone the record can
+  detect** (first order, Nth, anniversary, £ threshold). Rule: *triggered by a signal, not a calendar* (`S28`).
+  Done: milestones surfaced and acted on. **`[decide]`** which milestones warrant recognition. *(Record side:
+  `REC-11`.)*
+
+---
+
+## `T-M09` — Lead capture and nurture
+
+**For:** a captured lead never sits in an inbox — it enters the record and routes onward. *(Largely `automated`
+already.)*
+
+**Output:** a **lead record** in engine — source, what they did (tool use, download, form), and the route taken
+(nurture sequence, or a person).
+**Rules:** *captured on the event, not later*; *source-tagged* — which hook caught them (`JNY-1` attribution);
+*routed, never parked*.
+**Steps:** detect the capture event → record into engine → route to nurture or to a person.
+**Definition of done:** every lead in the record, source-tagged, with a route assigned. **`[decide]`** the
+routing rule — what goes to nurture vs a person.
+
+---
+
+## `T-M15` — Measurement and reporting
+
+**For:** the same view of what moved each period, from the gateway signals, so trends are readable rather than
+re-derived.
+
+**Output:** a **period report** from the gateway signals `G1`–`G6`: what moved, what didn't, against the prior
+period.
+**Rules:** *the same signals every period* — so periods are comparable, the measurement form of "comparative";
+*sourced to the gateways*, not hand-assembled; *dated to the period*.
+**Steps:** detect the `G1`–`G6` signals → assemble the what-moved view → record against the period.
+**Definition of done:** a report on the fixed signals, comparable to prior periods. **`[decide]`** the reporting
+period, and which of `G1`–`G6` are the headline measures.
+
+---
+
+## The standards to set — the `[decide]` calls, collected
+
+*Pass 1's `no standard` in one place: the small, one-time decisions that turn these templates into standards.
+Each is minutes, and each makes a task consistent whoever does it. The owner's to set — not guessed here.*
+
+- **Qualify (`T-S03` / `T-S04`):** the bar — what makes a *dealer*, and a *project*, worth pursuing.
+- **Present the range (`T-S05`):** the minimum set every presentation must include, per room type.
+- **Competitor / intelligence (`T-M02` / `T-S23`):** the fixed dimension list per category (the axes every
+  comparison uses); which competitors are tracked and how often; the threshold at which a run of losses is a
+  "pattern."
+- **Technical selling (`T-S07`):** what counts as "worth capturing" into `N3`, vs a one-off.
+- **Positioning (`T-M03`):** `G2` — what each brand will and will not say.
+- **Collateral (`T-M10`):** the re-review cadence.
+- **Cadence (`T-M06` / `T-M07`):** the floor rate (sustainable minimum publish rate); the channel-fit rules.
+- **Follow-up (`T-S09`):** the touch interval, and the stop / hand-to-a-person rule.
+- **Events (`T-S25`):** the minimum a post-event note must capture.
+- **Recognition (`T-S28`):** which milestones warrant a thank-you.
+- **Lead routing (`T-M09`):** what goes to nurture vs to a person.
+- **Measurement (`T-M15`):** the reporting period, and which of `G1`–`G6` are the headline measures.
+
+*Not a standard but a standing decision: `T-S24` — what to change or commission — is the owner's recurring call
+the ranked list feeds, not a one-time bar.*
