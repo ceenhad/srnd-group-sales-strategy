@@ -428,9 +428,17 @@ mostly *write it down and give it an owner*, not *build a system*.
 applies only to backlog rows that map to *no* surviving task, which is a single read of backlog against the 46,
 not 115 individual judgements.
 
-**What this is not.** Not an automation programme. Three of the four moves are writing — a captured record, a
-template, a named owner. Automation is the *last* mile and only for the 11 event-triggered rows. "Build it,
-then say it" applies: the record and the owner come first; the system, if ever, comes after they exist.
+**What this is not.** Not an automation programme. The moves are mostly writing — a captured record, a template.
+Automation is the *last* mile and only for the 11 event-triggered rows. "Build it, then say it" applies: the
+record comes first; the system, if ever, comes after it exists.
+
+**Two cautions from Neil (2026-08-08), which govern how the result is used:**
+- **Read the shape, not the cell.** Many sweep-A answers had two or three equally defensible options, so the
+  aggregate carries the signal and no single row's word should bear weight on its own.
+- **Owners are the roles decision, not a task to allocate now.** The owner gap (pass 2) is a real finding, but
+  allocating a role to each task at this stage would be spurious. It feeds step 1 / `PAR-3` and waits there — it
+  is not one of the moves. Accordingly the carry into `NEXT.md` is framed forward — *tasks → result → plan
+  section → automation* — not as a verdict on lost work.
 
 **Then the other two registers resolve by block.** A work item in `11-work-items.md` beneath a task reading
 `standard / a system / a system` needs nothing built. A row in `backlog.md` mapping to no surviving task is

@@ -100,33 +100,27 @@ verdict says, and `record` is the cheapest thing in the system: it does not need
 **Expect the repo to get shorter, and the priorities to move.** A row that restates a strategy document in
 imperative mood is not work, and a good deal of the derived material is that.
 
-### What the QA produced — 2026-08-08, and it confirms the sequence
+### What the QA produced — 2026-08-08
 
-All four passes ran; the 46-row register **held** (no task struck), and pass 4 added only two items — both
-*reactive triggers*, not tasks: **inbound mail** (a lead, a customer, support), and **a colleague's question**.
-The reading is one finding, not five: **no owner → nothing kept → nowhere → the work redone.** Pass 2 found the
-owner gap, pass 3 the landing gap, and the duplication rows and both pass-4 triggers are the same mechanism
-again.
+All four passes ran; the 46-row register held (no task struck), and pass 4 added only two items — both reactive
+triggers rather than tasks: **inbound mail**, and **a colleague's question**.
 
-**The build list, in cost order** (full detail: the reading in `group/10-tasks-qa-sheet.md`):
+**Read the shape, not the cell** (Neil). Many single-word answers had two or three equally defensible choices, so
+the weight is in the aggregate, never in one row's verdict. Taken that way the result is a forward chain, not a
+verdict on the past:
 
-1. **`record` — first, and it pays before anything is automated.** Capture the 15 things pass 3 sweep B named
-   (5 acute: `T-S15`, `T-S16`, `T-S19`, `T-S23`, `T-M08`). This one primitive kills the duplication and answers
-   *both* pass-4 triggers — inbound stops being redone, and the colleague's question has somewhere to look
-   before it is asked.
-2. **Write the shape — a template and a definition of done** for the 19 `varies` tasks. The shape is already
-   there and merely unwritten (pass 1's sweep B). Written, not built.
-3. **Assign owners — not triggers.** All 29 `remembered` tasks need an owner; only 11 have a real firing event
-   and can ever become `a system`. This **widens step 1 below**: the roles are not only the three programme
-   roles — every remembered task needs someone who owns it.
-4. **Skip — already handled.** `T-S08`, `T-S12`, `T-M16` (`standard · a system · a system`) need nothing built,
-   and neither do the work items beneath them (resolved by block in `group/11-work-items.md`).
+**do these tasks → to enable this result → which maps to the plan → and empowers automation later.**
 
-**This confirms rev 1's order rather than changing it** — roles, then the record, then the primitives, with
-`record` the cheapest thing in the system and the one that pays on its own. Two sharpenings only: the owner gap
-is broader than the three roles (move 3), and the record-first case is now evidenced from three independent
-directions rather than asserted. **Three of the four moves are writing, not building**; automation is the last
-mile, and only for the 11 event-triggered tasks.
+| Do | To enable | Maps to | Automation it unlocks |
+|---|---|---|---|
+| **Fill the record** — the product record, plus the 15 things pass 3 named as kept nowhere | one corpus the motion reads from, so an answer is made once | W1 · step 3 · `group/09-motion-design.md` component 2 | `retrieve` (28 tasks) and `assemble` read from it — most of the 168 work items |
+| **Write the shape** — a template and a definition of done for the 19 `varies` tasks | a repeatable form in place of a habit | `group/09-motion-design.md` (the machinery, designed once); `JNY-2` as the template | a shaped process is the precondition for automating one |
+| **Skip** — `T-S08`, `T-S12`, `T-M16`, already `standard · a system · a system` | — | resolved by block in `group/11-work-items.md` | nothing to build |
+
+**It confirms rev 1's order** — the record is still the cheapest, highest-leverage thing and automation is the
+last mile. Two things are logged as findings, not actioned here: the two reactive triggers are **answered by the
+record** (inbound work is made once; a colleague's question gains somewhere to look), and the owner question the
+passes raised belongs to the **roles decision** (step 1 · `PAR-3`), not to a role allocated per task now.
 
 ### Then the sequence
 
