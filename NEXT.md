@@ -122,6 +122,12 @@ last mile. Two things are logged as findings, not actioned here: the two reactiv
 record** (inbound work is made once; a colleague's question gains somewhere to look), and the owner question the
 passes raised belongs to the **roles decision** (step 1 · `PAR-3`), not to a role allocated per task now.
 
+**And the record's home is engine, not a file in a Dropbox** (Neil). For much of it the system destination
+already exists — which is precisely what turns pass 3's 17 `a file` rows from *findable* into *read by the
+automation* (`a system`, the 14 that already land there). Which store holds which field is the check-engine step
+(step 2 below · `TSK-5` · `DOC-12`), taken before building any store of our own — S16a discipline: this repo has
+assumed an engine gap twice and been wrong both times.
+
 ### Then the sequence
 
 | | Step | Why it comes here | Rows |
