@@ -117,6 +117,11 @@ add the evidence and move on — or overturns it, which has to be stated explici
 *When a decision above is overturned, it is recorded here with the date and the fact that did it — never
 edited away silently.*
 
+- **2026-08-12 — C8 softened (Neil; surfaced by the OS sync).** "The UK included" was too absolute. What
+  stands: SRND extends no credit *directly*, anywhere. What C8 omitted: a **UK-only 90-day interest-free
+  facility is provided through IWOCA** — a third-party finance provider, unavailable outside the UK. Raised
+  as a conflict by the srnd-os promotion sync (2026-08-11) and resolved by Simon the same day; the OS's
+  `practices/sales/` already records the reconciled fact.
 - **2026-08-02 — C1f softened (Neil).** The US is real and awaits being moved forward — "but so is the
   entire world. It's just another place." The open-and-unencumbered facts stand; the priority-territory and
   closing-window urgency framing does not. The motion is global by nature; no territory is privileged.
