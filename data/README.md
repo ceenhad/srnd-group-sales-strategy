@@ -51,8 +51,16 @@ measured audio from 30.8 % to 38.7 % of the distribution era.**
 
 **Eight lines remain unidentified, £1,265,278:** GTUK `OTHERS` (£509,343), DT store rows with no SKU (£306,647),
 DT `Others` (£234,135), GTUK `CINEMA PARTNERS MATERIALS` (£135,598), Light Walls `Sales` (£79,256), SRND `Sales`
-(£299), and two blank lines carrying nil. **They are listed in `derived/consolidation-review.csv` rather than
-guessed at** — three of them are catch-all accounts that may not be resolvable at all.
+(£299), and two blank lines carrying **1,188 rows at nil** — accounting noise, not missing revenue. They are listed
+in `derived/consolidation-review.csv` rather than guessed at.
+
+> **And most of it is recoverable by a re-export, not by more rules — `backlog.md` MON-11.** The two Xero reports
+> carry different columns and **every entity is missing half its detail**: Sales Analysis (GTUK, DT) has `Item Code`
+> and `Quantity` but **no description** — verified, both workbooks hold exactly 12 columns; Account Transactions
+> (C-ATS, SRND, Light Walls) has `Description` but no item code or quantity. **Re-running GTUK and DT as Account
+> Transactions would give descriptions for all 8,944 of their rows and should resolve ~£1.05m of the £1.27m**, because
+> a generic account code still had a real product typed on the invoice line. **The formats join on invoice number, so
+> they merge rather than compete.**
 
 **Two known limits of the `supply` split.** `unknown` (2.6 %) is mostly those same unidentified lines. And the
 own-made/carried call is at *line* level, so a line that mixes both is assigned wholesale — GTUK's `DT SCREENS` and
