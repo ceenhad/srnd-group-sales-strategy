@@ -204,7 +204,7 @@ above were provisional until step 0; it has now run — see "What the QA produce
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
 on the revenue path between a quote and its order. **And it now has its interval, measured** (`archive-findings.md`
 finding 24): **a won deal takes a median 153 days from creation; a lost one dies at 105.** So a deal quiet past
-roughly a hundred days is behaving like a lost one, and the median winner needs aboutseven more weeks of attention
+roughly a hundred days is behaving like a lost one, and the median winner needs about seven more weeks of attention
 after that point. **About a third of qualified deals close** — the base rate to plan against. It is also one of the few items that came out of a real pass
 rather than a derivation, which is why it survives step 0 on its own merits.
 
