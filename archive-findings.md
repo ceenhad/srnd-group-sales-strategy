@@ -18,6 +18,7 @@ lives, what it covers, and what it cannot answer.
 | 2b | **C-ATS account transactions** — *different report type, see below* | `data/source/C-ATS - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Cinema Acoustic Treatment Systems Limited, incl. intra-group | stated 2016-01-01 → 2026-08-31 |
 | 2c | **SRND Group account transactions** | `data/source/SRND Group - Account Transactions.xlsx` (supplied locally, 2026-08-13) | SRND Group Ltd — **the current trading entity, from when it took over from the Apex businesses.** Hybrid distributor/manufacturer selling to distributors and dealers globally (Neil) | stated 2020-01-01 → 2026-08-31; data 2023 → 2026 |
 | 3 | **Engine** *(live, not an extract)* | Supabase project **`vzgdhfsmxteoxxsuexyg`** (`SRND Engine`, eu-west-2). Testbed is `bpsaxuwitlycubnvmfrr`. Read-only MCP is pinned to the production ref | Current accounts, quotes, orders, products, documents | Accounts migrated; transactions from **2026-05-28** |
+| — | **Pro-Fi** | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
 | 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
 | 5 | **Old Monday.com CRM logs** | **Not yet handed over** — `backlog.md` `MON-1` | Historic pipeline: quotes, stages, win/loss | Pre-engine |
 | 6 | **Sent-mail archive** | Not yet worked — `backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
@@ -48,6 +49,25 @@ that will silently produce wrong numbers if missed:
    (`INV-0013`), sometimes free text (`Stock Catchup`, `Jay Demo Pack`). Treat it as a label, not a key.
 
 Both report types are normalised to the same column contract in `data/derived/` — see `data/README.md`.
+
+### Pro-Fi — no sales, and no source
+
+**Pro-Fi has no sales and therefore no report to load** (Neil, 2026-08-13). What appears across the four sources is
+**£13,156 of Pro-Fi-branded product invoiced through SRND Group**, five lines in 2025, and **neither part of it is
+ordinary revenue:**
+
+| Date | Dealer | Lines | Net | What it is |
+|---|---|---|---|---|
+| 2025-04-29 | De Opera Domotica | Dot 1, Dash 2, Boxer 1 surface-mount | **£8,128** | **A very early prototype system** (Neil) — not a product sale |
+| 2025-11-11 | Cornflake | `PF-A-16-700D`, `PF-A-4-350D` amplifiers | £5,029 | Amplifiers |
+
+**So the brand is pre-revenue**, which matches engine: Pro-Fi has a brand, a store and a `profi_speaker_datasheet`
+template, but **`product_speaker_technical` holds zero rows** (`engine-audit.md` §1). Two consequences for anyone
+using this data: **do not read £13,156 as a product-revenue baseline** — most of it is one prototype — and any
+per-brand analysis of Pro-Fi will be noise at this scale.
+
+*Search caution for anyone repeating this:* a regex of `pro-?fi` also matches "**profi**le", so LED-profile lines
+count as Pro-Fi and inflate the total roughly threefold. Use `pro-fi|\bprofi\b|\bpf-a-`.
 
 ### Method, so the numbers reproduce
 
