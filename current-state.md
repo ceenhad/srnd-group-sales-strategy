@@ -93,6 +93,27 @@ strike.
 - **Follow-up when a dealer goes quiet already happens** as normal work (Neil, 2026-08-02). *(Replaces an
   earlier claim that this was unowned.)*
 
+### The commercial shape, as Neil states it (2026-08-13)
+
+*New facts, and several of them reframe the revenue tables above. Recorded here because they are the present state,
+not an argument about it.*
+
+- **The group runs at roughly break-even**, so **10–20 % growth is a tangible target** rather than an ambition.
+  On 2025's £1.44m that is **£150–300k** — small against the opportunities the archive already identifies, which
+  makes **focus, not scale, the binding problem.**
+- **LED walls carry 20 % margin**, and the category is *"impossible to get into as a manufacturer."* The relationship
+  with **the industry number one** is what holds the category, and its purpose is *"a very nice revenue that supports
+  our own lines"* — infrastructure for the P&L rather than the strategic centre (`archive-findings.md` finding 18).
+- **No own speaker line is shipping, and Pro-Fi is the big bet.** The archive sizes the gap: **audio was 30.8 % of
+  the distribution era's revenue and speakers alone 22.3 %** — £2.62m, the second-largest category the group ever
+  sold. Today audio is 9.3 % and entirely carried (finding 17).
+- **C-ATS has been treated as little more than a hobby business**, and in that context is *"valuable pocket
+  money."* **It is not unknown to dealers — it is massively undersold**, which Neil describes as true of *"pretty
+  much all we have."*
+- **And the one-line diagnosis of the whole marketing problem, in his words:** *"no one can buy what they don't even
+  know exists."* **This is the demand-side statement of the same gap `product-register.md` counts on the supply
+  side** — the estate cannot answer what it has never written down.
+
 ### The dealer base
 
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**

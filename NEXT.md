@@ -34,6 +34,52 @@ opposite directions:**
   share roughly tripled, 11 % to 34 %.** So the plan is written for a business that is **rebuilding on a narrower
   base**, not one in retreat, and that is why breadth rather than revenue is the metric §D now adds.
 
+## One strategy applied, not a strategy per brand — and the repo already said so
+
+*Neil, 2026-08-13: "the critical question is do we need to be doing a strategy per brand or is the much more
+realistic one good strategy done well and applied to all viable."* **Answer: one, applied — and this is a
+confirmation rather than a new decision.** `CLAUDE.md` already binds it: *"Group strategy is brand-agnostic… A brand
+playbook applies the group strategy; it must not re-invent it."* What follows is the evidence that the discipline was
+right, plus the part that was missing — **which brands qualify as viable.**
+
+**Four reasons from the numbers, in order of force:**
+
+1. **Capacity settles it before preference does.** Two founders, no marketing department, roughly break-even at
+   £1.44m (2025). **Six brand strategies is precisely the "programme of projects" this page's one test forbids.**
+2. **The dealer, not the brand, is the unit that earns.** Across twelve years **multi-line dealers were 44 % of the
+   base and 87.7 % of revenue** (`archive-findings.md` finding 2), with the second line arriving a median eight
+   months later. A per-brand strategy optimises the wrong unit and makes six brands compete for one dealer's
+   attention.
+3. **The problem is common, so the fix is common.** *"Massively undersold in the way of pretty much all we have. No
+   one can buy what they don't even know exists"* (Neil). **That is one problem with one remedy** — the record, then
+   the corpus, then the knowledge base — and it does not vary by brand.
+4. **What genuinely differs by brand is content, not strategy**, which is already how the machinery is built: the
+   form is group and the fill is brand (`product-record-template.md`); the motion is designed once and inherited
+   (`group/09-motion-design.md`).
+
+**And the growth arithmetic makes focus decisive rather than optional.** 10–20 % on £1.44m is **£150–300k**. The
+archive already names several single opportunities of that size or larger — the **50-dealer reactivation list at
+£2.33m of historic net** (`MON-6`), the **Apex US dealer base** (`US-4`, `C1j`), **C-ATS reaching 12 dealers where
+distribution reached 354**. **The risk is not a shortage of opportunity; it is spreading one team across six brand
+plans and landing none of them.**
+
+### Which brands are "viable", from the data
+
+**This is the filter the question implies, and the numbers give it.** Four tiers, and the strategy is applied to the
+first three in this order:
+
+| Tier | Brands | Evidence |
+|---|---|---|
+| **Apply now — revenue and dealers exist** | **DT**, **Fabric Walls** | DT £4.22m / 76 dealers, though breadth is thinning; Fabric Walls £276k product in under three years, **32 dealers — the broadest own-made line — and flat rather than declining** |
+| **Apply now — the cheapest possible win** | **C-ATS** | £254k / 12 dealers and *"massively undersold"* rather than unknown. **Already has the record and the copy written.** Twelve dealers against distribution's 354 is the gap; the standard is already set here |
+| **Apply early because the gap is measured** | **Pro-Fi** | Pre-revenue, but **audio was 30.8 % of the distribution era and speakers alone 22.3 %** (finding 17). **The big bet** (Neil). It does not need its own strategy — it needs step 3 applied to it before launch, so it ships with a record instead of acquiring one later |
+| **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines at 20 % margin**, not as a brand to build (finding 18) |
+
+**Two consequences for the sequence above.** Step 3's C-ATS-first ordering stands and gets cheaper — it is now also
+the *undersold* argument, not only the data-exists one. And **Pro-Fi joins step 3 rather than waiting for a launch
+plan**: the record is what turns a pre-revenue brand into a sellable one, and building it before launch is the only
+version of *"build it, then say it"* that does not cost a re-do.
+
 ## The critical path, in the order rev 1 puts it
 
 *Stress-test items 1, 2 and 3 (`open-items.md`) are not three problems. Documentation is the critical path for

@@ -698,3 +698,57 @@ Worth stating plainly before any of it is used for planning:
 - **Uneven scope.** GTUK is **UK-only**; the others include international. So the pre-2024 series understates the
   group's true geography while the post-2024 series does not.
 - **2024–25 distribution is thinner than it looks**, pending `MON-8` (Shopify).
+
+---
+
+## Finding 17 — audio was the group's second business, and it is now absent
+
+*Measured at Neil's prompt (2026-08-13): "look at how much of our historic revenue was speakers, amps and
+processing to see why we see [Pro-Fi] as such an important gap to fill."*
+
+**In the distribution era, audio was 30.8 % of revenue — £3,613,784 of GTUK's £11,742,315.**
+
+| | Net | Share of GTUK |
+|---|---|---|
+| **Speakers** (Stealth, Leon, Wisdom, Phase Technology, SolidDrive, Quested, Aerial) | **£2,620,620** | **22.3 %** |
+| Amplifiers (ADA, Acurus, Storm Audio, Aragon, Integra) | £485,334 | 4.1 % |
+| Audio processing (Datasat) | £187,105 | 1.6 % |
+| `PRO AUDIO` — a generic line, unclassified | £320,725 | 2.7 % |
+| **Audio subtotal** | **£3,613,784** | **30.8 %** |
+| Video processing (madVR, Lumagen) | £280,357 | 2.4 % |
+
+**Speakers alone were the second-largest thing the group ever sold** — behind Barco projection at £2,976,976
+(25.4 %) and ahead of its own DT screens at £1,165,218 (9.9 %).
+
+**Today that business is 9.3 % and carried.** SRND's audio is £254,151 — speakers £188,465 (MAG Theatron,
+PhaseTech, DCB Flyte, all third-party) and amplifiers £65,686. **No own speaker line is shipping** (Neil).
+
+**Across both eras: audio is £3,867,935, 19.9 % of all group external revenue — 21.8 % with video processing.**
+
+**So the Pro-Fi bet is sized by history rather than by hope.** The group sold roughly £3.6m of other people's audio,
+knows the dealers who bought it, and now has no own line in the category. *That is a measured gap, not a
+speculative one — and it is the largest single category the group has vacated.*
+
+*Classification caveat: these are my groupings of carried-brand account names and are reviewable. `PRO AUDIO`
+(£320,725) is generic and could be any of the three; `SolidDrive` is a transducer rather than a conventional
+speaker; `Aerial` is assumed to be Aerial Acoustics.*
+
+## Finding 18 — margin changes the LED reading, and margin is the data we do not have
+
+**LED video walls carry 20 % margin** (Neil, 2026-08-13). Applied to the £610,885 of LED wall revenue in SRND, that
+is **roughly £122,000 of gross margin** — against **22.4 % of revenue.**
+
+**This is the first hard evidence that the revenue tables in findings 14–16 overstate the carried lines' importance
+to the business**, and it cannot be corrected further because **no margin data has been loaded for any other line.**
+The consequence is specific and worth stating before anyone ranks work by revenue:
+
+- **A carried line at 20 % needs five times the revenue of a 100 %-margin service, and roughly double that of a
+  50 %-margin own-made product, to contribute the same money.**
+- On that basis **Fabric Walls (£276,470 product revenue) may already out-earn LED walls (£610,885)** in margin
+  terms — *may*, because the own-made margin is unknown. **This is a hypothesis the data cannot yet test.**
+- **Neil's framing is the right one and the numbers support it:** LED walls are *"a very nice revenue that supports
+  our own lines"* — infrastructure for the P&L, not the strategic centre, and *"an impossible category to get into as
+  a manufacturer"* so the carried relationship with the industry number one is the only way to hold the category.
+
+**`MON-10` is therefore the highest-value missing dataset now** — a margin or cost column against these lines would
+re-rank every priority the revenue view suggests.
