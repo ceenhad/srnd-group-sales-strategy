@@ -54,13 +54,16 @@ distort per-dealer figures.
 | `is_product_revenue` | `1` if the row counts toward product revenue: a sales account, status not `Deleted`/`Draft`, with a net, date and contact. **GTUK 4,909 of 4,992 · DT 3,460 of 3,952** |
 | `is_intra_group` | `1` for Apex Tech Scotland Ltd, SRND Group Ltd, Apex Tech International Ltd / Apex Technologies International, Dzyn Ltd, Display Technologies Ltd. **Filter these out before counting dealers** — missing it overstates the dealer base and understates concentration |
 
-> **One classification unconfirmed — `[?]`.** The C-ATS file contains **Genesis Technologies AG** (£13,083) and
-> **Genesis Technologies AG (Deutschland)** (£64,398), together **£77,481 — 30 % of what is currently counted as
-> C-ATS external revenue.** They are treated as **external** pending confirmation. The lineage note in
-> `group/01-commercial-model.md` has *GT* as the forerunner of Apex-Tech UK / SRND Distribution, and C-ATS invoices to
-> Apex Tech Scotland carry the description "Genesis Technologies Ltd" — so the name is used for a group entity
-> somewhere. Whether these two AG companies are group entities or independent distributors changes the external
-> figure materially. **Ask before relying on C-ATS external totals.**
+> **Confirmed external, do not re-ask (Neil, 2026-08-13): Genesis Technologies AG** (£13,083) and **Genesis
+> Technologies AG (Deutschland)** (£64,398) **are not group entities.** Together £77,481 of genuine external C-ATS
+> revenue. The name is easy to misread because *GT* was the forerunner of Apex-Tech UK / SRND Distribution
+> (`group/01-commercial-model.md`) and C-ATS invoices to Apex Tech Scotland carry "Genesis Technologies Ltd" in the
+> description — **the description is not the counterparty.** Likewise `Genesis Home Technologies SL` is external
+> (it appears in DT's file as a Spanish dealer).
+>
+> **So the intra-group list is now settled and complete for all three sources:** Apex Tech Scotland Ltd, SRND Group
+> Ltd, Apex Tech International Ltd / Apex Technologies International, Dzyn Ltd, Display Technologies Ltd.
+> **Everything else is external.**
 
 **To reproduce any figure in `archive-findings.md`:** filter `is_product_revenue = 1`, then split on `is_intra_group`,
 then group by `contact_canonical`, `product_line` and `year`, summing `net`.
