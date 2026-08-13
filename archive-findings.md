@@ -610,3 +610,91 @@ equivalents first.**
 
 *Method note: a regex for fabric-wall terms also catches DT image-surface lines described as "no silicon edge". One
 such line (£601) was excluded by hand. Any repeat of this slice should filter on `category`, not on description text.*
+
+---
+
+## The consolidated view — fifteen years in one series
+
+*All tranches joined. **This is the artefact the per-tranche sections could not give**: one group-level series, with
+intra-group flows excluded on the selling side so nothing is double-counted (a DT→SRND sale is dropped from DT and
+picked up when SRND sells it onward). Still pure numbers — revenue only, no margin.*
+
+### Finding 14 — group external revenue, 2012–2026
+
+| Year | UK distribution | DT | C-ATS | Light Walls | SRND Group | **Group** |
+|---|---|---|---|---|---|---|
+| 2012 | £1,369,480 | — | — | — | — | **£1,369,480** |
+| 2013 | £1,101,397 | — | — | — | — | £1,101,397 |
+| 2014 | £1,044,627 | — | — | — | — | £1,044,627 |
+| 2015 | £506,174 | — | — | — | — | £506,174 |
+| 2016 | £515,402 | £23,221 | £3,520 | — | — | £542,142 |
+| 2017 | £559,460 | £147,004 | £71,244 | — | — | £777,708 |
+| 2018 | £740,106 | £282,224 | £33,148 | — | — | £1,055,479 |
+| 2019 | £1,019,659 | £447,241 | £11,960 | — | — | £1,478,860 |
+| 2020 | £876,115 | £592,272 | £36,153 | £9,178 | — | £1,513,719 |
+| **2021** | £1,884,000 | £549,357 | £22,978 | £174,263 | — | **£2,630,599** ← peak |
+| 2022 | £1,242,364 | £601,347 | £24,385 | £236,222 | — | £2,104,317 |
+| 2023 | £883,531 | £530,378 | £6,338 | £83,191 | £10,670 | £1,514,108 |
+| 2024 | — | £439,770 | £40,507 | — | £790,971 | £1,271,247 |
+| 2025 | — | £386,918 | £3,978 | — | £1,048,315 | £1,439,211 |
+| 2026 *(part)* | — | £219,539 | — | — | £875,327 | £1,094,866 |
+| **All** | **£11,742,315** | **£4,219,271** | **£254,210** | **£502,855** | **£2,725,282** | **£19,443,934** |
+
+**Three phases, and the numbers date them.** Pure UK distribution to 2015, and declining. Own brands appear in 2016
+(DT and C-ATS in the same year) and grow alongside distribution to a **2021 group peak of £2.63m**. The handover runs
+through 2023 — GTUK's last invoice 2023-12-04, SRND's first revenue that same year — and from 2024 the group is
+SRND-led.
+
+**On 2026: it is running ahead, but on lumpy revenue.** £1,094,866 to mid-August is roughly 7.5 months, which
+annualises near **£1.7m against 2025's £1.44m**. Treat that with care: **three Leyard Komodo LED-wall lines alone are
+£472,320 — 54 % of SRND's 2026** — so the annualisation rests on a handful of large orders rather than a broad rate.
+*(Source cut-offs differ slightly: DT 2026-08-12, SRND 2026-08-10, C-ATS 2026-07-31, Light Walls 2026-03-31.)*
+
+### Finding 15 — the own-brand shift is real and incomplete
+
+**GTUK's own-brand share of its own revenue was 11.1 %** (`DT SCREENS` + `CATS`, £1,307,062 of £11,742,315). For the
+current entity, classifying SRND's categories into own-made, carried and services:
+
+| | Net | Share |
+|---|---|---|
+| Carried / third-party | £1,381,327 | **50.7 %** |
+| Own-made | £936,980 | **34.4 %** |
+| Services | £246,276 | 9.0 % |
+| Other (shipping, surcharges, adjustments) | £160,700 | 5.9 % |
+
+**So own-brand share roughly tripled — 11 % to 34 % — and the current entity is still majority carried.** By year,
+own-made was £260,162 (2024) → £401,532 (2025) → £275,286 (2026 part), while carried was £443,818 → £386,441 →
+£551,068. **2026 is more carried than 2025, not less**, because of the Leyard orders. *"Hybrid distributor/
+manufacturer" is exactly right as a description of today; "manufacturer" is not yet true of the revenue.*
+
+*This split is my classification of category names and is reviewable — the own/carried lists are at the top of the
+query, and `Fabrics` (Ultrasuede) is counted as carried even though it is consumed inside a Fabric Walls product.*
+
+### Finding 16 — dealer breadth, side by side, is the one consistent weakness
+
+| Entity | Period | External dealers | Top 1 | Top 5 |
+|---|---|---|---|---|
+| GTUK / UK distribution | 2012–23 | **354** | 5.3 % | 22.3 % |
+| SRND Group | 2023–26 | **147** | 22.4 % | 45.2 % |
+| DT | 2016–26 | 76 | 31.5 % | 61.0 % |
+| Light Walls | 2020–26 | 19 | 54.5 % | 85.2 % |
+| C-ATS | 2016–26 | 12 | 25.3 % | 85.9 % |
+
+**The distribution business was broad and the own-brand businesses are narrow.** GTUK's largest account was 5.3 % of
+its revenue; every own-brand entity has a single account at a quarter to a half. **SRND is rebuilding breadth
+fastest** — 147 dealers in three years, the widest of the own-brand era — and is the least concentrated of them.
+
+**Fabric Walls is the broadest own-made line at 32 dealers** (as a slice of SRND), against DT's 76 across ten years
+and C-ATS's 12.
+
+### What the consolidated view still cannot answer
+
+Worth stating plainly before any of it is used for planning:
+
+- **No margin.** Revenue only. A carried LED wall and an own-made screen at the same revenue are not the same
+  business, and nothing here says which is worth more.
+- **No why.** No loss reasons, no competitors, no lead source — `X6`/`REC-2` remain uncaptured (`engine-audit.md`).
+- **No territory.** No country field in any source; dealer names imply geography but that is inference.
+- **Uneven scope.** GTUK is **UK-only**; the others include international. So the pre-2024 series understates the
+  group's true geography while the post-2024 series does not.
+- **2024–25 distribution is thinner than it looks**, pending `MON-8` (Shopify).
