@@ -57,8 +57,12 @@ right, plus the part that was missing — **which brands qualify as viable.**
    form is group and the fill is brand (`product-record-template.md`); the motion is designed once and inherited
    (`group/09-motion-design.md`).
 
-**And the growth arithmetic makes focus decisive rather than optional.** 10–20 % on £1.44m is **£150–300k**. The
-archive already names several single opportunities of that size or larger — the **50-dealer reactivation list at
+**And the growth arithmetic makes focus decisive rather than optional.** 10–20 % on £1.44m is **£150–300k** — and
+**the whole of it is available from partners who have already signed** (`archive-findings.md` finding 27). **348 hold
+an engine account, meaning signed T&Cs and pricing access; 159 have ever bought; 189 have not.** At the mean
+first-year value the target is **10–20 first orders**, at the median **32–64** — 5 % to 34 % of that pool. **No new
+capture, no new content, no new system.** The
+archive already names several other opportunities of that size or larger — the **50-dealer reactivation list at
 £2.33m of historic net** (`MON-6`), the **Apex US dealer base** (`US-4`, `C1j`), **C-ATS reaching 12 dealers where
 distribution reached 354**. **The risk is not a shortage of opportunity; it is spreading one team across six brand
 plans and landing none of them.**

@@ -1295,3 +1295,83 @@ since June.** New-account creation is countable per month regardless (roughly 4�
 Lifestyles, Boca Theater & Automation, Cinema Lusso, Genesis AV, Glo Audio Visual, Holburn Hi-Fi, Heag Soluções and
 31 more) are **worth checking precisely because the account is a strict gate**: if they hold signed terms and no
 engine account, they cannot see pricing. That is `MON-12`.
+
+---
+
+## Finding 27 — the growth is already inside the building
+
+*Neil, 2026-08-14: "Key is that we just expose again how easily we could grow by simply actively working this
+audience we have." This is that, costed.*
+
+### The audience
+
+| | Accounts |
+|---|---|
+| **Hold an engine account** — signed T&Cs, can see pricing | **348** |
+| Matched to any purchase across fifteen years | 159 |
+| **Signed, able to buy, and never bought** | **189** |
+
+**189 partners have completed the hardest step in the whole funnel — agreeing terms — and then bought nothing.**
+They are not prospects. They are not cold. They have signed.
+
+### What one converted dealer is worth
+
+From the fifteen-year record, 518 dealers with positive net:
+
+| | Median | Mean | Upper quartile |
+|---|---|---|---|
+| **First twelve months** | **£4,470** | **£14,559** | — |
+| Lifetime | £6,652 | £37,537 | £27,696 |
+
+*The mean is pulled by the large accounts and the median by the long tail of one-order dealers; the truth for any
+particular conversion sits between them, which is why both are carried below.*
+
+### What 10–20 % growth actually requires
+
+**Target: 10–20 % of 2025's £1,439,211 = £143,921 to £287,842.**
+
+| Assumption | Conversions needed | As a share of the 189 |
+|---|---|---|
+| Each converts at the **mean** first year (£14,559) | **10 – 20** | **5 – 11 %** |
+| Each converts at the **median** first year (£4,470) | 32 – 64 | 17 – 34 % |
+
+> **So the whole growth target is between ten and sixty-four first orders, from a pool of 189 who have already
+> signed.** On the pessimistic reading it needs a third of them; on the optimistic, one in twenty. **Neither is a
+> campaign. Both are a list and a reason to call.**
+
+### And it is not the only pool
+
+Three other audiences the archive has already named, none of them cold:
+
+| Pool | Size | Evidence |
+|---|---|---|
+| Signed accounts that never bought | **189** | this finding |
+| Lapsed dealers still trading in 2021–23, no engine account | **50**, £2.33m historic net | finding 7 |
+| Monday approved dealers never matched to a purchase | 162 *(overlaps the 189)* | finding 25 |
+| **Approved dealers with signed terms and no engine account** | **40** | finding 26 |
+
+**Set against finding 20 — only 24 to 73 accounts have ever been *presented* any given brand — these pools are not
+a mystery.** The reason 189 signed partners have not bought is visible in the same CRM: **most of them were never
+shown anything.** *"No one can buy what they don't even know exists"* (Neil) is not a metaphor here; it is the
+recorded state of the account base.
+
+### ▲ And the 40 are urgent, not tidy-up
+
+**Neil, 2026-08-14: "Those 40 are probably some of our key people so some gap has appeared we need to address."**
+
+Because the account is a strict gate (finding 26), **an approved dealer with no engine account cannot see pricing at
+all.** If they are key people, the gap is not administrative — **it is a live inability to buy**, sitting quietly
+across a migration boundary. `MON-12` carries the list; this raises it from a reconciliation to a fix.
+
+### What this changes in the plan
+
+**Nothing in the strategy, and one thing in the ordering.** `NEXT.md` already puts the record and the corpus first
+because content is the rep. **This finding does not dispute that — it prices the alternative.** The record work
+compounds and is the durable answer; **working the existing audience is the fastest £150–300k available**, needs no
+new capture, no new content and no new system, and the plan's own test — *does this ride on something already
+happening?* — it passes outright, because the accounts, the pricing access and the CRM statuses all exist.
+
+**The honest statement of the trade-off:** the audience work buys time and revenue; the record work buys the ability
+to do it at scale and without the owners in the room. **They are not competing for the same hours** — one is sales
+activity, the other is documentation — **which is precisely why both can run, and why `MON-6` sits in the plan
+already.**
