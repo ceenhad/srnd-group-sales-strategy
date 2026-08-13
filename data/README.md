@@ -11,6 +11,7 @@ numbers, so a moved Dropbox file or a closed account cannot cost us the history.
 | `GTUK - Sales Analysis Report - All.xlsx` | `/GTUK Staff/Sales/Reports/` · `id:F15NlnKOA1AAAAAAAAAo8w` | 1,043,526 b | `ab9ead0e0ef338c2b750d66099a660dfe6fd0f9689f558fa2febb19f8945c08e` |
 | `DT - Sales Analysis Report - All.xlsx` | `/DT Management/Sales/` · `id:F15NlnKOA1AAAAAAAAAo-Q` | 881,262 b | `9c9df2b93d5f3be812eeff64efc83a686fc90d7d3ada8f0e6691bff921fbbcad` |
 | `C-ATS - Account Transactions.xlsx` | supplied locally 2026-08-13 (`Cinema_Acoustic_Treatment_Systems_Limited_-_Account_Transactions.xlsx`) | 22,551 b | `1c630431b99daef6fd1cfe0f53b3ba235845643f6db86a3058b3fc4203bba02a` |
+| `SRND Group - Account Transactions.xlsx` | supplied locally 2026-08-13 (`SRND_Group_Ltd_-_Account_Transactions.xlsx`) | 71,112 b | `07d0233f1d535d17536d84ebe380d1c8792dca61e44bef8b179eac64c6233891` |
 
 **Both verified byte-identical to Dropbox** on 2026-08-13 using Dropbox's own block-hash algorithm (SHA-256 per
 4 MiB block, then SHA-256 of the concatenated digests). Re-verify any time with that method rather than a plain
@@ -21,11 +22,22 @@ findings, never by editing a source file — otherwise provenance is gone.
 
 ## `derived/` — analysis-ready, and lossless
 
-| File | Rows | Source report type |
-|---|---|---|
-| `gtuk-invoice-lines.csv` | 4,992 | Sales Analysis (`Raw Data` sheet) |
-| `dt-invoice-lines.csv` | 3,952 | Sales Analysis (`Raw Data` sheet) |
-| `cats-account-transactions.csv` | 268 | **Account Transactions** — different shape, normalised to the same columns |
+| File | Rows | Source report type | Period |
+|---|---|---|---|
+| `gtuk-invoice-lines.csv` | 4,992 | Sales Analysis (`Raw Data` sheet) | 2012 → 2023 |
+| `dt-invoice-lines.csv` | 3,952 | Sales Analysis (`Raw Data` sheet) | 2016 → 2026 |
+| `cats-account-transactions.csv` | 268 | **Account Transactions** | 2016 → 2026 |
+| `srnd-account-transactions.csv` | 730 | **Account Transactions** | 2023 → 2026 |
+
+**All four are produced by `data/normalise.py`** — one command per source, so the contract below is enforced by code
+rather than by hand:
+
+```bash
+python data/normalise.py account-txns "data/source/SRND Group - Account Transactions.xlsx" data/derived/srnd-account-transactions.csv
+```
+
+Regenerating all four reproduces the published totals to the pound. The script carries the settled intra-group list
+and the account-exclusion rules, so **a new tranche is one line, not a fresh set of judgements.**
 
 One row per transaction, UTF-8 CSV, **all three on the same column contract below.** Every row from the source is
 present. The cleaning decisions are carried as *columns* rather than applied as deletions, so nothing is silently
@@ -37,9 +49,20 @@ dealer); amounts arrive as **`Debit (GBP)` / `Credit (GBP)`**, so `net` here is 
 the credit; and there is **no item code or quantity**, while `Reference` holds an invoice number only sometimes —
 elsewhere free text like `Stock Catchup`. Treat `invoice_number` from this source as a label, not a key.
 
-**Three no-contact manual journals** in the C-ATS file (a sales accrual, its reversal, and a suspense write-off,
-netting **−£815**) are preserved with `is_product_revenue = 0`, since they carry no dealer and would otherwise
-distort per-dealer figures.
+### What the exclusions actually cost — quantified, so no one has to wonder
+
+`is_product_revenue = 0` rows are kept in the files. Their weight:
+
+| Source | Excluded rows | Net effect | Made up of |
+|---|---|---|---|
+| C-ATS | 5 | **+£968** | 2 `Other Revenue` (+£1,782); 3 no-contact journals (−£815: an accrual, its reversal, a suspense write-off) |
+| SRND | 43 | **−£28,021** | 15 `Payable Invoice` postings to revenue accounts (−£42,358); 4 `Other Revenue` (+£15,126); 2 `Spend Money` (−£789); **22 no-contact manual journals netting exactly £0** — accrual/reversal pairs, so nothing is lost by dropping them |
+
+**One of these is a judgement rather than a rule, and it is the largest single item.** The 15 SRND `Payable Invoice`
+rows sit in revenue accounts and net **−£42,358**, about 1.6 % of SRND's total. They are excluded as not-a-sale-to-a-
+customer, which is right if they are supplier-side postings or miscodings, and **overstates revenue by that amount if
+they are genuine reductions** such as distributor rebates. Flip `NON_SALE_SOURCES` in `normalise.py` to test the
+other reading.
 
 | Column | Meaning |
 |---|---|
