@@ -14,7 +14,7 @@ numbers, so a moved Dropbox file or a closed account cannot cost us the history.
 | `SRND Group - Account Transactions.xlsx` | supplied locally 2026-08-13 (`SRND_Group_Ltd_-_Account_Transactions.xlsx`) | 71,112 b | `07d0233f1d535d17536d84ebe380d1c8792dca61e44bef8b179eac64c6233891` |
 | `Light Walls - Account Transactions.xlsx` | supplied locally 2026-08-13 (`Light_Walls_Ltd_-_Account_Transactions.xlsx`) | 36,314 b | `4d667a97ea1cd7eba526f8669ebfe6870c3394b205f0fc752b20e1f8ebeccb92` |
 
-**Both verified byte-identical to Dropbox** on 2026-08-13 using Dropbox's own block-hash algorithm (SHA-256 per
+**The two Dropbox files were verified byte-identical to source** on 2026-08-13 using Dropbox's own block-hash algorithm (SHA-256 per
 4 MiB block, then SHA-256 of the concatenated digests). Re-verify any time with that method rather than a plain
 file hash, which will not match what the Dropbox API reports.
 
@@ -54,7 +54,7 @@ DT `Others` (£234,135), GTUK `CINEMA PARTNERS MATERIALS` (£135,598), Light Wal
 (£299), and two blank lines carrying nil. **They are listed in `derived/consolidation-review.csv` rather than
 guessed at** — three of them are catch-all accounts that may not be resolvable at all.
 
-**Two known limits of the `supply` split.** `unknown` (10.3 %) is mostly those same unidentified lines. And the
+**Two known limits of the `supply` split.** `unknown` (2.6 %) is mostly those same unidentified lines. And the
 own-made/carried call is at *line* level, so a line that mixes both is assigned wholesale — GTUK's `DT SCREENS` and
 `CATS` are counted own-made even though the entity selling them was the distributor.
 
@@ -74,17 +74,17 @@ python data/consolidate.py                                                      
 | `srnd-account-transactions.csv` | 730 | **Account Transactions** | 2023 → 2026 |
 | `lightwalls-account-transactions.csv` | 418 | **Account Transactions** | 2020 → 2026 |
 
-**All four are produced by `data/normalise.py`** — one command per source, so the contract below is enforced by code
+**All five are produced by `data/normalise.py`** — one command per source, so the contract below is enforced by code
 rather than by hand:
 
 ```bash
 python data/normalise.py account-txns "data/source/SRND Group - Account Transactions.xlsx" data/derived/srnd-account-transactions.csv
 ```
 
-Regenerating all four reproduces the published totals to the pound. The script carries the settled intra-group list
+Regenerating all five reproduces the published totals to the pound. The script carries the settled intra-group list
 and the account-exclusion rules, so **a new tranche is one line, not a fresh set of judgements.**
 
-One row per transaction, UTF-8 CSV, **all three on the same column contract below.** Every row from the source is
+One row per transaction, UTF-8 CSV, **all five on the same column contract below.** Every row from the source is
 present. The cleaning decisions are carried as *columns* rather than applied as deletions, so nothing is silently
 dropped and anyone can disagree with a decision without re-deriving the file.
 
