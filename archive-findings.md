@@ -21,7 +21,7 @@ lives, what it covers, and what it cannot answer.
 | 3 | **Engine** *(live, not an extract)* | Supabase project **`vzgdhfsmxteoxxsuexyg`** (`SRND Engine`, eu-west-2). Testbed is `bpsaxuwitlycubnvmfrr`. Read-only MCP is pinned to the production ref | Current accounts, quotes, orders, products, documents | Accounts migrated; transactions from **2026-05-28** |
 | — | **Pro-Fi** | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
 | 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
-| 5 | **Old Monday.com CRM logs** | **Not yet handed over** — `backlog.md` `MON-1` | Historic pipeline: quotes, stages, win/loss | Pre-engine |
+| 5 | **Monday.com CRM — four board exports** ✔ | `data/source/Monday - {SRND Deals, SRND Accounts, Leads, SRND Contacts}.xlsx` (supplied 2026-08-13) | **Deals 155** + 226 sub-deals, **Accounts 1,658** with per-brand status, **Leads 1,233**, **Contacts 1,371**. See tranche 4 | **Deals 2025 → 2026 only** — eighteen months, not years |
 | 6 | **Sent-mail archive** | Not yet worked — `backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
 
 > **▶ One consolidated table now sits above all of it — `data/derived/all-transactions.csv`** (2026-08-13).
@@ -29,8 +29,8 @@ lives, what it covers, and what it cannot answer.
 > every per-entity file. **Use it for any group-level question**; the per-entity extracts remain for single-company
 > work. It is built by `data/consolidate.py`, which maps GTUK's third-party *brand* lines and DT's store SKUs onto
 > the same categories the other sources use, and adds `supply` (own-made / carried / services) and `carried_brand`.
-> **14.6 % of product revenue stays `Unclassified` by design** — fifteen lines that cannot be read from an account
-> name are listed in `data/derived/consolidation-review.csv` instead of guessed at. See `data/README.md`.
+> **6.0 % of product revenue stays `Unclassified` by design** — six lines that cannot be read from an account name
+> are listed in `data/derived/consolidation-review.csv` instead of guessed at. See `data/README.md`.
 >
 > **▶ The data itself is stored in the repo, not just pointed at — `data/`** (2026-08-13, at Neil's
 > instruction). Sources 1 and 2 are held verbatim in `data/source/`, **verified byte-identical to Dropbox**, with
@@ -761,3 +761,111 @@ The consequence is specific and worth stating before anyone ranks work by revenu
 
 **`MON-10` is therefore the highest-value missing dataset now** — a margin or cost column against these lines would
 re-rank every priority the revenue view suggests.
+
+---
+
+## Tranche 4 — the Monday.com CRM boards (`MON-1`)
+
+**Source.** Four board exports supplied 2026-08-13, held in `data/source/Monday - *.xlsx`, flattened by
+`data/normalise_monday.py` into `data/derived/monday-{deals,deal-subitems,accounts,leads,contacts}.csv`.
+
+| Board | Items | Columns |
+|---|---|---|
+| Deals | **155** + 226 sub-deals | 18 |
+| Accounts | **1,658** | 29 |
+| Leads | **1,233** | 39 |
+| Contacts | **1,371** | 31 |
+
+**Format note, because it bites hard.** Monday exports grouped boards, so the sheet is not a table: a group name
+row, then a *repeated* column-header row, then items — and on the Deals board **sub-item blocks sit between parent
+rows.** A latching parser produced 6 deals instead of 155. **Column A is the discriminator** — parents populate it,
+sub-items start at column B. The group name is kept as `board_group` because on Deals **it is the only win/loss
+signal in the export.** Row counts reconcile exactly (Deals: 462 source rows = 2 title + 4 groups + 4 headers +
+67 sub-item headers + 155 items + 226 sub-items + 4 blank).
+
+### Finding 19 — the pipeline exists, is 18 months old, and still has no loss reason
+
+**Correcting what this repo expected of `MON-1`.** `current-state.md` recorded that *"the historical pipeline is in
+the old Monday.com CRM logs"* and that this was where "the years" were. **The deals board runs 2025–2026 only** — 93
+deals created in 2025, 62 in 2026. **It is eighteen months of pipeline, not years.**
+
+| Group | Deals | Value |
+|---|---|---|
+| Active | 47 | £4,133,340 |
+| **Closed Lost** | **74** | **£5,994,922** |
+| Closed Won | 9 | £1,004,875 |
+| Complete | 25 | £194,882 |
+
+**This is the first win/loss data the group has ever had**, and it is sobering: **74 lost against 34 won-or-complete**
+by count, **£6.0m lost against £1.2m won.** Treat the values as *stated deal value* — aspirational on lost deals and
+never invoiced — so the ratio is a signal about pipeline hygiene and qualification, not a lost-revenue figure.
+
+**And `X6` is still not answered.** There is **no loss-reason and no competitor field.** `Description` is populated on
+67 of 74 lost deals but describes **what the deal was**, not why it went — *"VDS and Komodo options"*, *"Basement
+cinema project"*, *"Acoustic isolation + FW + C-ATS"*. A keyword sweep for reasons or rivals hit 7 of 74, and every
+hit was a product mention (Barco, Sony) rather than a competitive loss.
+
+> **So the answer to `REC-2`/`X6` is now definitive across all three systems.** Engine records `won_at` and no
+> counterpart; Monday records the *fact* of loss as a board group and no reason; the invoice archive records only what
+> was sold. **Nothing anywhere holds why a deal was lost, to whom, on what dimension. `X6` must be captured going
+> forward — there is nothing to mine.** `SYS-2`'s original premise was right all along.
+
+### Finding 20 — the Accounts board holds a per-brand awareness funnel, and nobody has used it
+
+**This is the most valuable thing in the tranche.** Every one of the 1,658 accounts carries a status for **each of six
+brands** — `Barco Status`, `DT Status`, `Fabric Walls Status`, `Mag Status`, `CATS Status`, `Leyard Status` — on a
+vocabulary that *is* an awareness funnel: **Not Customer → Approached → Presented → Demonstrated → Current Customer**
+(plus `Historic Customer`, `Not Interested`, `Out of Territory`).
+
+| Brand | Current | Historic | Demonstrated | Presented | Approached | Not Customer |
+|---|---|---|---|---|---|---|
+| **DT** | **52** | 14 | 2 | 53 | 20 | 1,493 |
+| Fabric Walls | 16 | — | 3 | **73** | 19 | 1,544 |
+| C-ATS | 16 | 4 | 1 | 49 | 16 | 1,568 |
+| Barco | 14 | — | — | 24 | 15 | 1,504 |
+| MAG | 3 | — | — | 26 | 18 | 1,573 |
+| Leyard | 2 | — | 1 | 17 | 15 | 1,612 |
+
+**Read the last column, then Neil's diagnosis** — *"no one can buy what they don't even know exists."* **Between
+1,493 and 1,612 of 1,658 accounts are `Not Customer` for every brand**, and the funnel says why: only 24–73 accounts
+have ever been *presented* any given brand. **The undersold claim is not an impression; it is recorded, per brand, per
+account, and has been all along.**
+
+**Two specifics worth carrying into the plan.** **Fabric Walls has been presented to more accounts (73) than any
+other brand** — the widest active selling effort, consistent with it being the broadest own-made line in the invoice
+data. And **all 266 Approved Dealers carry a status for all six brands**, so cross-brand coverage per dealer is
+directly countable — which is `FACT-1`, answerable now without building anything.
+
+### Finding 21 — reach is five times narrower for the own brands than for DT
+
+The Contacts board holds per-brand subscribe flags across 1,371 contacts:
+
+| List | Subscribers |
+|---|---|
+| SRND | 985 |
+| **DT** | **926** |
+| Pro-Fi | 193 |
+| Light Walls | 195 |
+| Fabric Walls | 193 |
+| C-ATS | 191 |
+
+**C-ATS can reach 191 people; DT can reach 926.** The same asymmetry shows in declared relationships — SRND `Dealer`
+104, DT `Dealer` 42 plus `Distributor` 29, then Fabric Walls 8, C-ATS 9, Light Walls 5, Pro-Fi 4. **This is the
+"massively undersold" problem expressed as a distribution list**, and it is the cheapest thing on this page to change:
+the audience exists and is already consented.
+
+**And the Leads board points at the US.** Of 1,233 leads, **348 are United States** — the largest single country
+by a wide margin, ahead of Italy (53), Spain (46) and France (44), with 647 blank. **901 leads carry an email.**
+Set against `US-4`, that is a warm-ish list already in hand, though **908 of the 1,233 are flagged `Not Active`** and
+only 39 have any call logged.
+
+### Two things this tranche adds that were not in the repo
+
+- **Two people in sales who are not in `current-state.md`.** `Primary Sales` on the Accounts board is **Olivier
+  Dedek (298 accounts), Mark Franks (225), Erica Johnson (19), Neil (4)**, and Mark Franks also owns a lead. The
+  people list records Neil, Olivier, Ben and Simon. **Worth correcting — a 225-account owner is not a detail.**
+- **Segment data for the beyond-cinema question.** `Enviroments` is populated on 355 accounts with combinations of
+  **Home Cinema and Media Rooms, Luxury Living, Commercial, Outdoor, DCI Screening Rooms** — and `Work Areas` on the
+  Leads board carries Residential AV, Commercial AV, Hospitality, Office Spaces. **`group/05-channels.md` is
+  cinema-shaped and notes non-cinema needs evidence; this is the first structured non-cinema segmentation the repo
+  has seen.** Sparse (355 of 1,658) but real.
