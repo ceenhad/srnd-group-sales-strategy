@@ -878,3 +878,87 @@ only 39 have any call logged.
   Leads board carries Residential AV, Commercial AV, Hospitality, Office Spaces. **`group/05-channels.md` is
   cinema-shaped and notes non-cinema needs evidence; this is the first structured non-cinema segmentation the repo
   has seen.** Sparse (355 of 1,658) but real.
+
+---
+
+## Finding 22 — the margin policy is in engine; the costs to apply it to are not
+
+*Read from engine 2026-08-13 at Neil's direction ("margin data for our brands in engine"). Partly answers
+`MON-10`. **Note the timestamps: `brand_tier_margins` was written at 16:44 the same day**, so this is fresh policy,
+not settled history.*
+
+### What is there
+
+Engine models pricing two ways, and both are populated:
+
+**`brand_tier_margins` — a margin per brand per tier**, versioned through `price_lists` as named scenarios:
+
+| Brand | Dealer | Distributor | |
+|---|---|---|---|
+| C-ATS | 0.40 | 0.40 | |
+| Pro-Fi | 0.40 | 0.40 | |
+| DT | 0.35 | 0.40 | |
+| Fabric Walls | 0.30 | 0.25 | |
+| **Leyard** | **0.20** | **0.20** | *archived scenario only — see the flag below* |
+| SRND | 0.40 | 0.40 | *archived scenario only* |
+
+**`brand_tier_cost_multipliers` — cost × multiplier = price**, for the own-made brands: **distributor 1.6 ·
+dealer 2.1 · 3.0 with no tier** (read as RRP). Present for Fabric Walls, Pro-Fi and SRND; absent for DT and C-ATS.
+
+### The ambiguity, and it is material — `[?]`
+
+**Is `margin` *our* margin or the *channel's*?** Both readings are supported and they give different answers:
+
+- **Reading A — it is the channel's resale margin.** The Fabric Walls arithmetic fits almost exactly: if RRP is
+  cost × 3.0 and a dealer buys at cost × 2.1, the dealer's margin is (3.0 − 2.1)/3.0 = **30 %**, matching
+  `fabricwalls dealer 0.30`; a distributor buying at 1.6 and selling on at 2.1 earns (2.1 − 1.6)/2.1 = **23.8 %**,
+  near `0.25`. **Under A our own margin comes from the multipliers: 52.4 % selling to a dealer, 37.5 % to a
+  distributor.**
+- **Reading B — it is our margin at that tier.** Supported by the thing that matters most: **Neil states LED walls
+  earn us 20 %, and engine's Leyard rows are exactly 0.20/0.20.** Under B, own-made earns us 30–40 %.
+
+**Reading A cannot be reconciled with Neil's 20 % unless Leyard is a special case; reading B cannot be reconciled
+with the cost multipliers.** Flagged rather than resolved — one sentence from Neil settles it.
+
+### What survives the ambiguity, which is the decision-relevant part
+
+**Finding 18's open hypothesis is now answered, and the answer holds under both readings.**
+
+| | Revenue | Margin under A | Margin under B |
+|---|---|---|---|
+| LED video walls *(carried, Leyard)* | £610,885 | £122,177 *(20 %)* | £122,177 *(20 %)* |
+| **Fabric Walls** *(own-made)* | **£276,470** | **£144,870** *(52.4 %)* | £82,941 *(30 %)* |
+
+**Under reading A, Fabric Walls out-earns LED walls on under half the revenue.** Under B it does not, but the gap
+narrows from 2.2× on revenue to 1.5× on margin. **Either way the revenue tables in findings 14–16 overstate the
+carried lines**, and Neil's framing — LED as *"revenue that supports our own lines"* — is what the numbers support.
+
+### The limitation that keeps `MON-10` open
+
+**Engine holds the policy but almost none of the inputs. Of 165 live products, 6 carry a cost:**
+
+| Brand | Products | With cost | With RRP |
+|---|---|---|---|
+| DT | 85 | **0** | 4 |
+| Fabric Walls | 37 | **0** | 0 |
+| SRND | 10 | 3 | 0 |
+| Light Walls | 6 | 0 | 0 |
+| Pro-Fi | 5 | 1 | 0 |
+| C-ATS | 4 | 0 | 0 |
+
+**So per-line realised margin still cannot be computed** — only policy margins applied to revenue, which assumes
+every sale went at list. **`MON-10` moves from "no margin data" to "policy yes, actuals no", and what would close it
+is a cost column on the Xero exports** (`MON-11` covers the same re-export) **or costs populated in engine.**
+
+### ▲ And an operational flag worth ten seconds of someone's time
+
+**Two price-list scenarios were activated today; the one left `active` looks like the wrong one.**
+
+- **Active: `Scenario 04/06/2026`** — 8 entries. **No Leyard row and no SRND row**, so the two carried-heavy lines
+  have no active margin policy at all.
+- **Archived: `Scenario 13/08/2026`** — 12 entries, the same brands **plus Leyard 0.20 and SRND 0.40**.
+
+**And DT's tiers are inverted between them:** active says dealer 0.35 / distributor 0.40; the archived one says
+dealer 0.40 / distributor 0.35. **Every other brand gives the dealer the higher figure**, so the active list is the
+odd one out on DT as well as being incomplete. **Not corrected here — read-only access, and it is a live pricing
+control.**
