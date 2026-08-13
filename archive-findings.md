@@ -789,6 +789,15 @@ signal in the export.** Row counts reconcile exactly (Deals: 462 source rows = 2
 the old Monday.com CRM logs"* and that this was where "the years" were. **The deals board runs 2025–2026 only** — 93
 deals created in 2025, 62 in 2026. **It is eighteen months of pipeline, not years.**
 
+> **And that is a retention practice, not an export limit** (Neil, 2026-08-13): *"I don't have older records of deals.
+> Once they are lost there seems little point keeping them."* So the eighteen months is all there is, and older lost
+> deals were discarded rather than archived. **Recorded because it changes what `X6` can ever be:** it can only be
+> built forward, never recovered, and every lost deal removed takes with it the one thing
+> `product-record-template.md` calls *"the only outside view we have."* **The fix is close to free and belongs in the
+> capture routes, not in a policy argument — keep the closed-lost record with a reason on it rather than deleting the
+> row.** At 74 lost deals in eighteen months that is a few seconds each, and it is the difference between `X6`
+> existing in a year and this same finding being written again.
+
 | Group | Deals | Value |
 |---|---|---|
 | Active | 47 | £4,133,340 |

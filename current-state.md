@@ -18,7 +18,11 @@ strike.
   the design work.
 - **Olivier** (Marbella) — sales leader.
 - **Ben** — rendering expert, increasingly strategy and communications.
-- **Simon Ridley** — co-founder. **[?]** current role in sales.
+- **Simon Ridley** — co-founder. **[?]** current role in sales. Wrote engine, operations-first (see below).
+- **Former sales staff, and the reason Monday's ownership data reads oddly:** **Mark Franks** (primary sales on 225
+  accounts) and **Erica Johnson** (19) **have both left** (Neil, 2026-08-13). So the list above is current and
+  complete; the Monday CRM records their ownership historically. **Worth knowing before reading account ownership as
+  live coverage** — 244 of 547 owned accounts sit with people who are gone.
 - Factory in Kirkbymoorside, North Yorkshire. **[?]** headcount, and who else touches customer contact.
 - **No field sales force**, and none being sought (`decided.md` S1).
 
