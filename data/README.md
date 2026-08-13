@@ -49,6 +49,44 @@ dealer); amounts arrive as **`Debit (GBP)` / `Credit (GBP)`**, so `net` here is 
 the credit; and there is **no item code or quantity**, while `Reference` holds an invoice number only sometimes —
 elsewhere free text like `Stock Catchup`. Treat `invoice_number` from this source as a label, not a key.
 
+### The `SRND Store Sales` problem, and how it is fixed
+
+**The Shopify integration posts every store order to a single nominal account,
+`SRND Store Sales`** — 416 rows and **£1,385,960, just over half of SRND Group's revenue**, arriving with no product
+category at all. It is a chart-of-accounts mapping failure at source, not a data problem: **the item description
+survives**, in the form `<Contact> - <Item>`.
+
+`data/classify_store_items.py` recovers the category by ordered keyword rule and adds four columns:
+
+| Column | Meaning |
+|---|---|
+| `description` | The raw `Description` cell, as received |
+| `item_description` | The same with the contact-name prefix stripped — the item alone |
+| `category` | **Product category.** For store rows, derived from `item_description`; for every other row, the account's own line |
+| `category_source` | `account` · `description-rule` · `unclassified` — always visible which is which |
+
+**All 416 store rows classify; nothing is left unmatched**, across 266 distinct item descriptions. Two needed rules
+added after a first pass (a `DYN4XL` model prefix with no word boundary, and a named cinema-interior supply), and
+both are commented in the script.
+
+**Three things to know before relying on `category`:**
+
+1. **It is a derived classification, assigned by rule here — not the business's own.**
+   `data/derived/srnd-store-item-categories.csv` lists every distinct item against its assigned category with row
+   count and value, **for review and correction.** Corrections belong in the rules, then re-run.
+2. **Rule order matters and encodes real decisions.** Logistics, refunds and surcharges are matched *first* because
+   they name products without being product sales; services precede the goods they mention; `Fabric Walls Tool` is a
+   tool, not a fabric wall; an Ultrasuede *sample* is a sample, not fabric revenue; a Leyard *services* line is a
+   service, not an LED wall.
+3. **Some store categories are deliberately finer than the Xero account set** — masking screens, fixed and
+   specialist screens, image surfaces, screen accessories, port holes, hush boxes and fabric wall frames have no
+   account line of their own, or are lumped into `Projection Screens`. Recovering that detail is the point, so it is
+   kept rather than flattened. Pure case and synonym collisions between rule names and account names **are**
+   harmonised onto the account name (`CANONICAL` in the script) so no category appears twice in an aggregate.
+
+**One thing to fix at source:** the Xero account is spelled **`Sales - Materials - Audio Amplfiers`**. The
+classifier corrects it to `Audio Amplifiers`; the account itself still has the typo.
+
 ### What the exclusions actually cost — quantified, so no one has to wonder
 
 `is_product_revenue = 0` rows are kept in the files. Their weight:
