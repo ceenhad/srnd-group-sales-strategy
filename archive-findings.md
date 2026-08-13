@@ -596,10 +596,17 @@ and a **£9,000** downpayment on the Mexico City showroom — **£305,018 in tot
 have bought it** — the broadest dealer base of any own-made line in the loaded data, against DT's 76 across ten years
 and C-ATS's 16.
 
-**A possible antecedent, flagged not asserted.** GTUK carries **£46,761 across 5 lines of `Sales - BARRISOL
-COUTURE`** (2012–2023). Barrisol is a stretch-fabric ceiling system, so this may be the distribution-era forerunner
-of the Fabric Walls proposition — **or simply a carried third-party line with no relation to it.** Worth one sentence
-from Neil; it is not counted in the figures above.
+**Antecedent confirmed, and it is older than the group** (Neil, 2026-08-13). GTUK's **£46,761 across 5 lines of
+`Sales - BARRISOL COUTURE`** is the tail of real prior work: **Simon worked for Neil then and led Barrisol Couture
+and High Tech Couture.** So stretch-fabric wall and ceiling work is not a new competence — *"it's not new work."*
+The same holds across the range: the group sold **third-party acoustic systems** exactly as it sold other companies'
+projector screens, which is what GTUK's `STEALTH`, `LEON`, `AGATH`, `ADA`, `WISDOM`, `ACURUS`, `DATASAT`, `STEWART`
+and `PHASE TECHNOLOGY` lines are. **Own-made C-ATS and DT products grew out of distributing the third-party
+equivalents first.**
+
+> **Neil's caveat, and it governs how this is used:** *"all just history to be aware of but not plan around too
+> much."* **Recorded as provenance only.** It explains why the competences are deeper than the brands' ages suggest;
+> it is not a basis for planning, and the £46,761 is not counted in the Fabric Walls figures above.
 
 *Method note: a regex for fabric-wall terms also catches DT image-surface lines described as "no silicon edge". One
 such line (£601) was excluded by hand. Any repeat of this slice should filter on `category`, not on description text.*
