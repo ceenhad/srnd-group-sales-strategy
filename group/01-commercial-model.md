@@ -33,6 +33,15 @@ twenty years on the wrong side we should be slow to hand our own brands to someo
 brand cannot reach on its own. This is a small market and we know the names of the players in it, so paying
 margin for introductions is paying for something we already have.
 
+> **The exception now has a number — measured 2026-08-13** (`../archive-findings.md` finding 23). Each step of the
+> chain the group occupies is a margin it keeps: through a distributor **cost × 1.6 — 37.5 %, £0.60 per £1 of cost**;
+> direct to a dealer **cost × 2.1 — 52.4 %, £1.10**; direct to a consumer at RRP **cost × 3.0 — 66.7 %, £2.00**.
+> **So a distributor must deliver roughly twice the volume to leave the group no worse off** (£1.10 ÷ £0.60 = 1.83),
+> before any allowance for the relationship being theirs rather than ours. **The case-by-case test is therefore
+> quantifiable: does this distributor plausibly double the volume?** The same ladder explains why the group makes
+> rather than only buys — a carried line holds one step at 20 %, an own-made line holds two — and why Cinema Store
+> exists at all, since selling direct to a consumer is the only route that holds all three.
+
 **The alternative has been tested twice, and neither worked.** UK distributors were appointed for our own
 brands: **DBM**, since closed, and **CUK**, which sold nothing beyond the equipment for its own demonstration
 room. Two appointments is not a statistical case, but it is more evidence than most positions in this

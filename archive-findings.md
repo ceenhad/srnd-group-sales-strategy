@@ -1013,3 +1013,72 @@ ranked by margin rather than revenue*, is answered.
 *A cost column on the exports (`MON-11`) would still add something, but it is a smaller thing than the row implied:
 per-line realised margin, showing where discounting moved an actual sale away from these rates. It would refine the
 picture, not correct these figures.*
+
+---
+
+## Finding 23 — the margin ladder, and it explains the group's shape
+
+*Neil, 2026-08-13, drawing the consequence out of finding 22: "the margin illustrates why we started to make not just
+buy. It illustrates why a distributor has to add at least 2x to be worth considering. It shows why the cinema store
+exists."*
+
+**Three settled positions in this repo were arguments. The margin ladder makes them arithmetic.** Each step of the
+chain the group occupies is a margin it keeps, so the question is always *how many steps do we hold?*
+
+| Route | Price to the buyer | Steps we hold | Our margin | Per £1 of cost |
+|---|---|---|---|---|
+| Through a distributor | cost × **1.6** | manufacture | **37.5 %** | £0.60 |
+| **Direct to a dealer** | cost × **2.1** | manufacture + distribution | **52.4 %** | **£1.10** |
+| **Direct to a consumer** (RRP) | cost × **3.0** | all three | **66.7 %** | **£2.00** |
+| **Carried line** (Leyard) | — | distribution only | **20 %** | *ceiling of the position* |
+
+*(Multipliers are engine's own `brand_tier_cost_multipliers` for the own-made brands; the tier margins compound to the
+same place — finding 22.)*
+
+### 1. Why make and not just buy
+
+**Making adds a step that buying cannot.** A carried line lets the group hold **one** step at 20 %; an own-made line
+sold to the same dealer holds **two**, at ~52 %. **That is the whole economic case for the 2016 shift**, and the
+consolidated series shows it happening: own-brand share went from **11.1 % of the distribution era to 34.4 % today**
+(finding 15). **The evolution was not a change of taste — it was a move up the ladder.**
+
+### 2. Why a distributor must add at least 2×
+
+**Selling through a distributor gives away the distribution step**: £0.60 of margin per £1 of cost instead of £1.10.
+**£1.10 ÷ £0.60 = 1.83, so a distributor must deliver roughly twice the volume to leave the group no worse off** —
+before any allowance for the relationship being theirs rather than ours. **Neil's "at least 2x" is the arithmetic,
+and it is conservative.**
+
+**This puts a number on two positions that were previously stated as judgement.** `group/01-commercial-model.md`
+holds that distributors are *"a deliberate case-by-case exception (scale or language barrier only), never the
+default"* — **the test for that exception is now quantified: does this distributor plausibly double the volume?**
+And `group/00-strategy.md`'s *"direct is asset-building, not cost-saving"* gains its cost side: **the asset argument
+and the margin argument point the same way, which is not something the repo had established.**
+
+**It also explains the DT history in finding 9 without needing a story.** DT leaned on a distributor for a third of
+its revenue while its own dealer base thinned — that is the low rung of the ladder taken for volume, and the
+measured erosion is what it cost.
+
+### 3. Why the Cinema Store exists
+
+**Direct to a consumer holds all three steps — 66.7 %, £2.00 per £1 of cost, more than three times the distributor
+route.** That is the answer to a question the repo describes structurally but never economically: `decided.md` keeps
+the consumer proposition as DIY home cinema deliberately, and `group/01-commercial-model.md` gives Cinema Store its
+own product list — *"a Cinema Store product is a specific product for that channel"*, with the DIY range and plastic
+track exclusive to it.
+
+**So the channel split is not merely tidy, it is the top rung.** And the constraint on it follows from the same
+arithmetic: **the store can only hold the third step on products a consumer can actually buy and fit alone**, which
+is exactly why the trade range is not simply listed there — and why *"no product exists in two places"* protects
+margin as well as clarity.
+
+### What this changes, and what it does not
+
+**Nothing here reverses anything.** Three positions already decided — make rather than buy, direct rather than
+distributor, a separate consumer store — now share **one measured explanation** instead of three separate arguments.
+That is coherence in the sense `CLAUDE.md` means it: the substance was already there; this draws it out.
+
+**The one thing it adds that is genuinely new is a test.** *How many steps does this route let us hold?* It ranks
+channel decisions, it prices the distributor exception at 2× volume, and it explains why £100k of own-made revenue is
+worth two to three times £100k of carried (finding 22). **Worth carrying into `group/01-commercial-model.md` as the
+reason behind the exception rule rather than leaving it here as a finding.**
