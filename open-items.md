@@ -363,6 +363,25 @@ direct-first reasoning and the distributor analysis both travel; neither needs a
 
 ## Decisions needed (flag, don't guess)
 
+- **▲ Is Apex-Tech actually gone? — evidence against `C1f`/`C1j`, 2026-08-13, and it gates workstream W2.**
+  DT's own sales record (`archive-findings.md` finding 10) shows Apex USA — **one counterparty across two account
+  names, per Neil** — trading continuously for seven years to a **last order of 2026-07-16, four weeks ago**, and
+  engine shows the account with 11 sales orders in its eleven weeks. **It is £1,329,564: 31.4 % of DT's external
+  revenue ever, 2.8× the next largest account, and the only dealer that ever bought all thirteen product lines.**
+  **The one qualifier pointing the other way: 2026 is running at roughly half rate** (£62,499 to mid-August against
+  £201,987 for 2025) — the shape of a wind-down under notice rather than a clean stop. The repo meanwhile records the
+  reason the US is *"open and unencumbered"* (`decided.md` C1f) with the dealer base *"unserved"* and the *"fastest
+  revenue in the strategy"* (C1j), and `US-1`–`US-6` follow from that. **Several readings fit — a resignation only
+  weeks old, notice served with trading continuing, or a changed arrangement under a persisting account name — and
+  only Neil can say which.** *Not treated as a reversal; a decision changes when someone says it changes.* **But the
+  dependency is worth naming either way:** if it is ending, finding 9's five-year erosion in DT's non-Apex dealer
+  base stops being background and becomes the main event.
+- **What "no product exists in two places" actually means — evidence from engine, 2026-08-13.** The record form's
+  `C1` rule states it flatly, but engine shows **13 DT product codes published on both the `dt` store and
+  `srnd_store`** (DT-DYN, DT-HB, DT-MMD, DT-VMM, DT-PHG and eight more — `engine-audit.md` §1, group 11). Either the
+  rule means something narrower than it says — a brand store *plus* the group store being the intended arrangement,
+  which is what "six brands, one group, one relationship" would imply — or 13 listings contradict a settled rule.
+  **A wording decision, minutes not work**, and it gates whether `C1` can be filled honestly for any DT record.
 - **Group identity line / positioning statement** — unresolved, but now anchored. Both current lines
   are weak (the store's "luxury solutions for high-tech environments"; the group site's "British
   manufacturing for high-end environments"). It should **derive from the moat** (`group/00-strategy.md`):

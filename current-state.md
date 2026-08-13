@@ -31,8 +31,60 @@ strike.
 - **[?] Lead sources, ranked.** Referral, existing dealers, search, trade press, events, the tools — no view of
   the actual split.
 - **[?] Enquiry volume**, and **[?] who receives and answers enquiries first.**
-- **Engine is the CRM** — years of real project and prospect data, stored and trackable as required
-  (Neil, 2026-08-02). *(Replaces an earlier [?].)*
+- **Engine is the CRM** — real project and prospect data, stored and trackable as required
+  (Neil, 2026-08-02). *(Replaces an earlier [?].)* **Refined against engine itself, 2026-08-13
+  (`engine-audit.md` §0): the accounts are deep and migrated — 348 customers, 591 contacts — but engine's own
+  transactional history is eleven weeks** (77 sales orders from 2026-05-28; 12 quotes, 2 won, 0 rejected;
+  activities from 2026-06-11).
+- **The account data is unusually trustworthy, and the reason is structural** (Neil, 2026-08-13). It came from the
+  Shopify database, **where a record only exists once a customer has signed a form** — so it is about as clean as
+  this data gets. Treat it as reliable rather than as an import of unknown quality.
+- **The historical pipeline is in the old Monday.com CRM logs, not in engine** (Neil, 2026-08-13). Not yet handed
+  over. So the archive exists and is simply somewhere else — which is what makes `X6`, win/loss history and several
+  of the **[?]** items above answerable rather than lost (`backlog.md` MON-1).
+- **The data sources are now registered rather than remembered** — every historical sales source, its location, its
+  scope and the method needed to reproduce the figures is in **`archive-findings.md` § "the source register"**
+  (Neil, 2026-08-13: *"important to store these data sources so we don't have to go looking again"*). Outstanding
+  sources are named there too, each with its backlog row.
+- **History reaches back to 2012 at least, "if we want it"** (Neil, 2026-08-13). **So the group's founding premise
+  is measurable for the first time** — whether dealer relationships genuinely compound across brands over years
+  (`group/00-strategy.md`; `backlog.md` MON-3). It predates the group's formation in March 2023, so it spans
+  predecessor companies and engine's three `business_entities` — cross-entity counting is a deliberate choice, not
+  an incidental one. **The volume is also the risk:** fourteen years rides on nothing, so it is worked as four
+  named counts, not as a mining project (`MON-2`).
+- **▶ Tranche 1 measured, 2026-08-13 — `archive-findings.md`.** The entity is **Apex Tech Scotland Ltd**, i.e.
+  **GT → Apex-Tech UK → SRND Distribution** (Neil, 2026-08-13) — *not* the resigned US Apex-Tech — so this is **one
+  of the six brands' own twelve-year record**, and it puts numbers on the repo's "twenty years of distribution":
+  **2012–2023, £11.75m net, 367 customers, 55 lines. UK dealers only** — the international network is not in it, so
+  this is a domestic figure and domestic behaviour, not the group's historic total.
+- **▶ Tranche 2 — Display Technologies, 2016 to 2026-08-12** (`archive-findings.md`). **£4.24m external revenue plus
+  £1.38m intra-group — a quarter of DT's output goes through group entities** (Apex Tech Scotland, SRND Group Ltd,
+  and Apex Tech International, which *"served Europe mainly but was pointless as a third company, so we rolled it
+  into SRND"* — Neil, 2026-08-13). **DT is far more concentrated than distribution: 77 external dealers ever, 11–27
+  active in a year, one account at 31.4 % and the top five at 60.7 %** against distribution's 22.3 %.
+- **DT's non-Apex dealer revenue has fallen every year since 2020** — £484,405 then, £184,931 in 2025, a **62 %
+  decline** masked until 2024 by Apex's growth. New dealers: 14 in 2024, then 5 in 2025 and 2 in 2026. **This is the
+  "a distributor owns the relationship instead of us" argument measured on DT itself** (`group/00-strategy.md`).
+- **▲ And the Apex-Tech position needs confirming.** Apex USA — one counterparty across two account names
+  (Neil, 2026-08-13) — is **£1,329,564, 31.4 % of DT's external revenue ever**, seven unbroken years, **the only
+  dealer that bought all 13 product lines**, and still ordering **2026-07-16**. **But 2026 is running at about half
+  rate** (£62,499 to mid-August against £201,987 for 2025), which looks like a wind-down in progress. That sits
+  awkwardly against the resignation recorded above and the decisions built on it. **Flagged in `open-items.md`, not
+  resolved** — see `archive-findings.md` finding 10.
+- **Of that historic dealer base, only 93 of 355 (26 %) hold an account in engine today** — but they represent
+  **45 % of historic revenue**, so retention favoured the valuable end. **Just under half the top fifty accounts of
+  twelve years are absent.** And **50 dealers who were still trading in 2021–23 have no engine account at all,
+  £2.33m of historic net between them** (`backlog.md` MON-6). Matching is fuzzy, so those are **floors** pending
+  `MON-7`. **The founding premise holds:** first-order size predicts nothing — the £1–5k first-order
+  cohort out-earned the £50k+ cohort on later revenue, 71 % of all dealers started under £5k, and those dealers
+  produced 61 % of twelve years' revenue *after* that first order. Cross-sell is real but **slow: median eight
+  months** to a second line. **There is a data gap for 2024–2025** — after this file ends and before engine begins.
+- **Everyone in the company now works in engine** (Neil, 2026-08-13). **This is the baseline the whole automation
+  argument needed:** a capture route becomes a field on a screen people already use daily, not a new habit competing
+  with the day job — and the platform is owned outright, so extending it is a decision rather than a negotiation.
+- **Engine was written by Simon, whose frame is operations-first** (Neil, 2026-08-13). It explains the audit's whole
+  shape: the operational record is thorough, the selling and knowledge record is absent. **Useful as a predictive
+  rule** — operational, assume engine has it; selling, assume it does not (`engine-audit.md` §0).
 - **Follow-up when a dealer goes quiet already happens** as normal work (Neil, 2026-08-02). *(Replaces an
   earlier claim that this was unowned.)*
 
@@ -40,7 +92,9 @@ strike.
 
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**
 - **One dealer at roughly £500,000 in a year** — a substantial share of group revenue.
-- **[?] Concentration** — what share the top five accounts represent.
+- ~~**[?] Concentration**~~ — **answered for the GTUK era, 2012–2023** (`archive-findings.md` tranche 1): top 5
+  accounts **22.3 %** of net, top 20 **49.8 %**, top 50 **71 %**, across 355 paying dealers. **Half the revenue in
+  twenty accounts, and a long real tail behind it.** Still **[?]** for the current group post-2023.
 - **Territory spread** — 21 international appointments across 20-odd territories (above). **[?]** the direct
   dealer count behind them, and how much of group revenue is UK-direct.
 - **[?] How many dealers buy more than one brand** — the cross-sell number the whole group thesis rests on, and

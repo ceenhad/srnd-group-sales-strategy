@@ -133,10 +133,10 @@ assumed an engine gap twice and been wrong both times.
 | | Step | Why it comes here | Rows |
 |---|---|---|---|
 | **1** | **Agree the roles** | An unowned critical path becomes next year's problem | §A below |
-| **2** | **Ask engine what it already does** | `detect`, `record` and `route` appear in 20, 30 and 11 tasks, and most of those signals sit in engine already. This repo has assumed an engine gap twice and been wrong both times (`decided.md` S16a) | `TSK-5` |
+| **2** | ~~**Ask engine what it already does**~~ **▶ Done 2026-08-13 — `engine-audit.md`** | Asked directly. **Wrong a third time in the same direction:** engine holds a document-generation layer and a question→answer→gap mechanism this plan never mentioned, `detect` and `route` have spines already, and **`X6` cannot be read from the pipeline as assumed**. But group 04 is confirmed homeless, which is what step 3 rests on | `TSK-5` `DOC-12` `REC-0` |
 | **3** | **Fill the record** | `retrieve` reads from it in **28 of 46 tasks**. Nothing downstream drafts without it, and an empty record silently reverts every `assisted` task to manual | §B below · surviving `SYS-` and `KNW-` rows |
 | **4** | **Open the capture routes, with their overflow lines** | A running route fills its domains forever; a documentation push decays from the day it is written. The overflow is the only part that can grow the form rather than fill it | `SYS-1` `SYS-9` |
-| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record | `TSK-6` |
+| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record. **Resized by step 2: build the *rules*, not the plumbing** — `detect`'s signals, `route`'s notification/task/referral spine and a host for `assemble` (engine's agent layer, with budgets and an audit trail) all exist; `record` splits into "use engine" for the operational two-thirds and the genuine gap for the knowledge third (`engine-audit.md` §2) | `TSK-6` |
 
 **Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
 always called documentation — the product record is what it turned into once it had a form. **The row references
