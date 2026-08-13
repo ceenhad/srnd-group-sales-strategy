@@ -299,10 +299,13 @@ looked** — provided the tiers are respected rather than the roster being clear
   overflow lines, so the record keeps filling without anyone pushing it.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
-- **Use the trading count, not the approved one** (`archive-findings.md` finding 25). The Accounts board lists **266
-  approved dealers**, but only **104 have ever bought anything and 62 are flagged `Current Customer`.** *"Approved
-  dealer"* is an administrative state that has come loose from commercial reality — **any count using 266 overstates
-  by about 4×.**
+- **Name the definition, or the metric will report growth that is only a change of definition** (`archive-findings.md`
+  findings 25–26). **Four "dealer counts" are in circulation and they differ by a factor of five:** engine accounts
+  marked `approved` **340**, Monday `Approved Dealers` **266**, approved dealers ever matched to a purchase **104**,
+  flagged `Current Customer` **62**. *"Approved"* means different things in the two systems — in engine it is nearly
+  universal, because engine only holds accounts that completed registration. **The measure to use is a purchase in
+  the period**: countable from the transaction record and from engine, and immune to how an account was once
+  categorised.
 - **And now one number that does have a baseline — active dealers per year** (`archive-findings.md` finding 16).
   Breadth is the measured weakness across every own-brand entity: the distribution business ran **354 dealers with
   its largest at 5.3 % of revenue**; DT runs **76 across ten years with one account at 31.5 %**, and only

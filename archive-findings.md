@@ -1098,8 +1098,9 @@ reason behind the exception rule rather than leaving it here as a finding.**
 | Proposal | 6 | £202,594 |
 | Discovery | 3 | £9,520 |
 
-**Three-quarters of the deals and 84 % of the value sit in `In Engine`.** `[?]` **The stage name needs one word of
-explanation** — whether it means *in engineering* (being designed) or *moved into engine* (the platform). It changes
+**Three-quarters of the deals and 84 % of the value sit in `In Engine`.** ~~`[?]`~~ **Answered in finding 26: it
+means migrated into engine, not a sales stage — so this is not deep-funnel pipeline.** The original question, kept
+because the reasoning holds: **the stage name needed one word of explanation** — whether it means *in engineering* (being designed) or *moved into engine* (the platform). It changes
 the reading completely: the first is a genuine pipeline stage, the second is a holding pen for everything migrated
 into the new system. **The sub-deals suggest the second: 216 of 226 sit at `Proposal` with only 4 `Agreed`.**
 
@@ -1178,3 +1179,80 @@ second reactivation list sitting alongside the 50 lapsed historic dealers of fin
 said yes to the relationship.**
 
 *Matching caveat as before: fuzzy name joins, so 104 is a floor and 162 a ceiling.*
+
+---
+
+## Finding 26 — `In Engine` confirmed, and the two systems have drifted apart
+
+*Checked against engine directly, at Neil's suggestion.*
+
+### The stage name means what Neil expected
+
+**`In Engine` means the deal has been migrated into engine as a project — it is not a sales stage.** Of the 34
+deals in that stage, nearly all appear in engine's `projects` table by name, account and often exact value: *Evermore*
+(Cornflake, £1,245,000 in both), *Komodo 4K* (£304,000 in both), *Cinema Hungary*, *Project LA*, *ABE6516 Hush Box*,
+*JOLO fit-out*, *MMD-S NZ900*, *Skeisvang VGS*, *Project Stenton* and the rest.
+
+**So the £3,480,152 sitting in `In Engine` is not deep-funnel pipeline — it is "everything we moved across."** The
+sub-deals confirm it: **216 of 226 remain at `Proposal`**, because the sub-item statuses were never worked after the
+migration. **Read the active pipeline as £4.13m of mixed maturity, not as £3.5m near the line.**
+
+### But engine and Monday now disagree, and engine is the one that moved on
+
+**Engine holds 58 projects; Monday holds 34 `In Engine` deals.** The gap is not migration lag — **engine contains
+live work that never went back into Monday**: *Harehope* (£100,000), *Oman outdoor LED wall* (£175,000), *Voisins —
+LED wall window display* (£162,800), *45 Park Lane — The Dorchester* (£50,000), *5880 Chalet Balagan* (£100,000),
+*G12 Cinema* (£100,000), *Leadenhall projector replacement* (£59,000), *Pro-Fi project* (£60,000), *DYN-4-XXL*,
+*Project Ziggy*, *Creed Farm*, *23Q Cinema fit-out* and more.
+
+**And several deals Monday still shows as open are closed in engine:**
+
+| Deal | Monday | Engine |
+|---|---|---|
+| The Grove Cinema | Active · In Engine | **won** |
+| Ballroom project | Active · In Engine | **won** |
+| Showroom | Active · In Engine | **lost** |
+| Sylvox Cinema Pro 75" *(Tokyo TV)* | Active · In Engine | **lost** |
+| Cinema Pro 75" *(Potters Home Digital)* | Active · In Engine | **lost** |
+
+**Values disagree too:** The Shard £1,000,000 in Monday against £800,000 in engine; Galileo £187,000 against
+£93,000; Focal demo Joppa £17,380 against £2,500.
+
+> **The consequence is simple and worth acting on: the answer to "what is in the pipeline?" depends on which system
+> you open, and Monday is the stale one.** Everyone works in engine now (`current-state.md`), so **engine is the
+> live record and the Monday boards are a snapshot of the moment of migration.** Every pipeline figure in finding 24
+> should be read that way — the win/loss counts and cycle times are sound as *history*, but the £4.13m "active"
+> is not a current number.
+
+### The accounts comparison — and "approved" means two different things
+
+| | Count |
+|---|---|
+| Monday accounts, all groups | 1,658 |
+| **Monday `Approved Dealers`** | **266** |
+| Engine accounts | 348 |
+| **Engine accounts with status `approved`** | **340** |
+| Monday approved dealers **found in engine** | **225 of 265 — 85 %** |
+| Monday approved dealers **absent from engine** | 40 |
+| Engine accounts **absent from Monday entirely** | 80 |
+
+**The carry-over is good — 85 % of approved dealers made it across.** The 40 that did not are a concrete list
+(1install Group, AV6, Amplified Lifestyles, Boca Theater & Automation, Cinema Lusso, Genesis AV, Glo Audio Visual,
+Holburn Hi-Fi, Heag Soluções and 31 more) and are worth a migration check rather than an assumption.
+
+**But the two systems do not mean the same thing by "approved", and this is the trap.** In engine **340 of 348
+accounts are `approved`** — it is not a filter, because engine only holds accounts that completed registration. In
+Monday, `Approved Dealers` is a curated 266 out of 1,658. **Neither number is the trading base.**
+
+> **So four different "dealer counts" are now in circulation, and they differ by a factor of five:**
+>
+> | Definition | Count |
+> |---|---|
+> | Engine accounts marked `approved` | **340** |
+> | Monday `Approved Dealers` | **266** |
+> | Approved dealers ever matched to a purchase | **104** |
+> | Flagged `Current Customer` on ≥1 brand | **62** |
+>
+> **`NEXT.md` §D's dealer metric must name which one it means, or it will report growth that is only a change of
+> definition.** The defensible measure is a purchase in the period — countable from the transaction record and from
+> engine, and immune to how an account was once categorised.
