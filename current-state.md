@@ -104,9 +104,11 @@ not an argument about it.*
 - **LED walls carry 20 % margin**, and the category is *"impossible to get into as a manufacturer."* The relationship
   with **the industry number one** is what holds the category, and its purpose is *"a very nice revenue that supports
   our own lines"* — infrastructure for the P&L rather than the strategic centre (`archive-findings.md` finding 18).
-- **No own speaker line is shipping, and Pro-Fi is the big bet.** The archive sizes the gap: **audio was 30.8 % of
-  the distribution era's revenue and speakers alone 22.3 %** — £2.62m, the second-largest category the group ever
-  sold. Today audio is 9.3 % and entirely carried (finding 17).
+- **No own speaker line is shipping, and Pro-Fi is the big bet.** The archive sizes the gap and it is larger than
+  first measured: **audio was 38.7 % of the distribution era's revenue — the group's largest category, ahead of
+  projection** — and **£4.8m, 24.7 %, across the whole group.** Today it is 9.3 % of SRND and entirely carried.
+  **The sharpest number is `NEXTGENTECH`: £779,979 of audio over IP, which is exactly where Pro-Fi is aiming**
+  (Neil) — a matched precedent rather than an adjacent one (`archive-findings.md` finding 17).
 - **C-ATS has been treated as little more than a hobby business**, and in that context is *"valuable pocket
   money."* **It is not unknown to dealers — it is massively undersold**, which Neil describes as true of *"pretty
   much all we have."*

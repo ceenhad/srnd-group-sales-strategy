@@ -43,11 +43,16 @@ source's own wording (`account_raw` and `product_line` are carried through uncha
 **It reconciles exactly.** Every entity's total and external revenue matches its per-entity file to the pound —
 verified on each run. Row count is the exact sum of the five sources; nothing is merged, deduplicated or dropped.
 
-**14.6 % of product revenue is `Unclassified`, and that is deliberate.** Fifteen lines could not be categorised from
-the account name alone and are **listed in `derived/consolidation-review.csv` rather than guessed at.** The largest
-are GTUK's `NEXTGENTECH` (£779,979), `OTHERS` (£509,343), `PRO AUDIO` (£320,725), `AGATH` (£216,342) and DT store
-rows with no SKU (£306,647). **A few minutes from someone who knows those lines would move roughly £2.8m into real
-categories** — the single cheapest improvement available to this dataset.
+**6.0 % of product revenue is `Unclassified`, down from 14.6 %.** Neil identified seven of the fifteen unknown lines
+on 2026-08-13 — `NEXTGENTECH` is **audio over IP**, `PRO AUDIO` and `TPI Cinema` are **speakers and amps** (each a
+literal brand name), `AGATH` is **mirror TVs**, `IMAGE` is **projection screens**, `LEAF` is **HDMI switches and
+cables**, and `HTC` is **High Tech Couture**, fabric-wall work. **That moved £1.8m into real categories and raised
+measured audio from 30.8 % to 38.7 % of the distribution era.**
+
+**Eight lines remain unidentified, £1,265,278:** GTUK `OTHERS` (£509,343), DT store rows with no SKU (£306,647),
+DT `Others` (£234,135), GTUK `CINEMA PARTNERS MATERIALS` (£135,598), Light Walls `Sales` (£79,256), SRND `Sales`
+(£299), and two blank lines carrying nil. **They are listed in `derived/consolidation-review.csv` rather than
+guessed at** — three of them are catch-all accounts that may not be resolvable at all.
 
 **Two known limits of the `supply` split.** `unknown` (10.3 %) is mostly those same unidentified lines. And the
 own-made/carried call is at *line* level, so a line that mixes both is assigned wholesale — GTUK's `DT SCREENS` and

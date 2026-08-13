@@ -72,7 +72,7 @@ first three in this order:
 |---|---|---|
 | **Apply now — revenue and dealers exist** | **DT**, **Fabric Walls** | DT £4.22m / 76 dealers, though breadth is thinning; Fabric Walls £276k product in under three years, **32 dealers — the broadest own-made line — and flat rather than declining** |
 | **Apply now — the cheapest possible win** | **C-ATS** | £254k / 12 dealers and *"massively undersold"* rather than unknown. **Already has the record and the copy written.** Twelve dealers against distribution's 354 is the gap; the standard is already set here |
-| **Apply early because the gap is measured** | **Pro-Fi** | Pre-revenue, but **audio was 30.8 % of the distribution era and speakers alone 22.3 %** (finding 17). **The big bet** (Neil). It does not need its own strategy — it needs step 3 applied to it before launch, so it ships with a record instead of acquiring one later |
+| **Apply early because the gap is measured** | **Pro-Fi** | Pre-revenue, but **audio was 38.7 % of the distribution era — the group's largest category** — and **£779,979 of that was audio over IP, exactly where Pro-Fi aims** (finding 17). **The big bet** (Neil). It does not need its own strategy — it needs step 3 applied to it before launch, so it ships with a record instead of acquiring one later |
 | **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines at 20 % margin**, not as a brand to build (finding 18) |
 
 **Two consequences for the sequence above.** Step 3's C-ATS-first ordering stands and gets cheaper — it is now also

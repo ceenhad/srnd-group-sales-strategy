@@ -70,15 +70,28 @@ GTUK = {
     'KEY DIGITAL':      ('Cables & distribution', 'Key Digital',      'carried'),
     'ARAGON':           ('Amplifiers',            'Aragon',           'carried'),
     'SEATING':          ('Seating',               None,               'carried'),
-    'PRO AUDIO':        (None,                    None,               'carried'),   # generic line
     'SERVICES':         ('Services',              None,               'services'),
     'CINEMA PARTNERS SERVICES': ('Services',       None,              'services'),
     'CINEMA PARTNERS MATERIALS':(None,             None,              'carried'),
-    # genuinely unidentified — see review file
-    'NEXTGENTECH': (None, None, None), 'OTHERS': (None, None, None), 'AGATH': (None, None, None),
-    'TPI Cinema': (None, None, None),  'IMAGE': (None, None, None),  'LEAF': (None, None, None),
-    'HTC': (None, None, None),
+    # --- identified by Neil, 2026-08-13
+    'NEXTGENTECH':      ('Audio over IP',         'NextGen Tech',     'carried'),
+    'PRO AUDIO':        ('Speakers & amplifiers', 'Pro Audio',        'carried'),
+    'AGATH':            ('Mirror TVs',            'Agath',            'carried'),
+    'TPI Cinema':       ('Speakers & amplifiers', 'TPI',              'carried'),
+    'IMAGE':            ('Projection screens',    'Image',            'carried'),
+    'LEAF':             ('Cables & distribution', 'Leaf',             'carried'),
+    # High Tech Couture — Simon's operation under Neil, fabric-wall work. Marked own-made
+    # on that basis; Barrisol stays carried because the underlying product is Barrisol's.
+    'HTC':              ('Fabric wall frames',    None,               'own-made'),
+    # still unidentified — see review file
+    'OTHERS': (None, None, None),
 }
+
+# `Speakers & amplifiers` exists because two carried lines — Pro Audio and TPI — are each
+# "speakers and amps" (Neil) and cannot be split. It rolls into audio alongside Speakers,
+# Amplifiers, Audio processing and Audio over IP; treat it as audio, never as speakers alone.
+AUDIO_CATEGORIES = {'Speakers', 'Amplifiers', 'Audio processing',
+                    'Speakers & amplifiers', 'Audio over IP'}
 
 # ---------------------------------------------------------------- DT SKU prefixes
 # DT's store blob (372 rows, GBP 905k) carries structured SKUs on 257 of them.

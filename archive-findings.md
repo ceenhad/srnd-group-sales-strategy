@@ -709,37 +709,38 @@ Worth stating plainly before any of it is used for planning:
 
 ---
 
-## Finding 17 — audio was the group's second business, and it is now absent
+## Finding 17 — audio was the group's largest business, and it is now absent
 
 *Measured at Neil's prompt (2026-08-13): "look at how much of our historic revenue was speakers, amps and
-processing to see why we see [Pro-Fi] as such an important gap to fill."*
+processing to see why we see [Pro-Fi] as such an important gap to fill." **Revised upward the same day** once Neil
+identified four carried lines the account names did not explain — `NEXTGENTECH`, `PRO AUDIO`, `TPI Cinema` and
+`AGATH`. The first estimate of 30.8 % was too low.*
 
-**In the distribution era, audio was 30.8 % of revenue — £3,613,784 of GTUK's £11,742,315.**
+**In the distribution era, audio was 38.7 % of revenue — £4,548,710 of GTUK's £11,742,315.** That makes it the
+group's **largest** business by category, ahead of projection.
 
-| | Net | Share of GTUK |
-|---|---|---|
-| **Speakers** (Stealth, Leon, Wisdom, Phase Technology, SolidDrive, Quested, Aerial) | **£2,620,620** | **22.3 %** |
-| Amplifiers (ADA, Acurus, Storm Audio, Aragon, Integra) | £485,334 | 4.1 % |
-| Audio processing (Datasat) | £187,105 | 1.6 % |
-| `PRO AUDIO` — a generic line, unclassified | £320,725 | 2.7 % |
-| **Audio subtotal** | **£3,613,784** | **30.8 %** |
-| Video processing (madVR, Lumagen) | £280,357 | 2.4 % |
+**Across the whole group, 2012–2026: £4,802,861 — 24.7 % of all external revenue.**
 
-**Speakers alone were the second-largest thing the group ever sold** — behind Barco projection at £2,976,976
-(25.4 %) and ahead of its own DT screens at £1,165,218 (9.9 %).
+| Category | Group net | Share | Carried brands |
+|---|---|---|---|
+| **Speakers** | **£2,809,085** | 14.4 % | Stealth, Leon, Wisdom, Phase Technology, SolidDrive, Quested, Aerial |
+| **Audio over IP** | **£779,979** | **4.0 %** | NextGen Tech |
+| Amplifiers | £548,019 | 2.8 % | ADA, Acurus, Aragon, Integra, StormAudio |
+| Speakers & amplifiers *(mixed lines, unsplittable)* | £475,672 | 2.4 % | Pro Audio, TPI |
+| Audio processing | £190,105 | 1.0 % | Datasat |
+| **Audio total** | **£4,802,861** | **24.7 %** | |
 
-**Today that business is 9.3 % and carried.** SRND's audio is £254,151 — speakers £188,465 (MAG Theatron,
-PhaseTech, DCB Flyte, all third-party) and amplifiers £65,686. **No own speaker line is shipping** (Neil).
+**Today it is 9.3 % of SRND and entirely carried** — £254,151, all third-party (MAG Theatron, PhaseTech, DCB Flyte).
+**No own speaker line is shipping** (Neil).
 
-**Across both eras: audio is £3,867,935, 19.9 % of all group external revenue — 21.8 % with video processing.**
+**The strongest single number for the Pro-Fi case is the second row.** `NEXTGENTECH` is **audio over IP, and that is
+exactly where Pro-Fi is aiming** (Neil). So the group has already sold **£779,979 into the specific category the big
+bet targets** — not an adjacent one — to dealers it can still name. **That is a matched precedent rather than a
+hopeful analogy**, and it is the difference between entering a category and returning to one.
 
-**So the Pro-Fi bet is sized by history rather than by hope.** The group sold roughly £3.6m of other people's audio,
-knows the dealers who bought it, and now has no own line in the category. *That is a measured gap, not a
-speculative one — and it is the largest single category the group has vacated.*
-
-*Classification caveat: these are my groupings of carried-brand account names and are reviewable. `PRO AUDIO`
-(£320,725) is generic and could be any of the three; `SolidDrive` is a transducer rather than a conventional
-speaker; `Aerial` is assumed to be Aerial Acoustics.*
+*Two classification notes. `Speakers & amplifiers` exists because Pro Audio and TPI were each "speakers and amps"
+and cannot be split — it rolls into audio but must never be read as speakers alone. `AGATH` turned out to be
+**mirror TVs** (£216,342), so it is not audio at all and is excluded here.*
 
 ## Finding 18 — margin changes the LED reading, and margin is the data we do not have
 
