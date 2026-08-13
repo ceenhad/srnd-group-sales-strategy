@@ -1082,3 +1082,99 @@ That is coherence in the sense `CLAUDE.md` means it: the substance was already t
 channel decisions, it prices the distributor exception at 2× volume, and it explains why £100k of own-made revenue is
 worth two to three times £100k of carried (finding 22). **Worth carrying into `group/01-commercial-model.md` as the
 reason behind the exception rule rather than leaving it here as a finding.**
+
+---
+
+## Finding 24 — the deals board, worked properly
+
+*The first pass counted the groups and stopped. This is what the 155 deals and 226 sub-deals actually contain.*
+
+### The live pipeline is £4,133,340 across 47 deals — and it is stacked in one stage
+
+| Stage | Deals | Value |
+|---|---|---|
+| **In Engine** | **34** | **£3,480,152** |
+| Discussion | 4 | £441,075 |
+| Proposal | 6 | £202,594 |
+| Discovery | 3 | £9,520 |
+
+**Three-quarters of the deals and 84 % of the value sit in `In Engine`.** `[?]` **The stage name needs one word of
+explanation** — whether it means *in engineering* (being designed) or *moved into engine* (the platform). It changes
+the reading completely: the first is a genuine pipeline stage, the second is a holding pen for everything migrated
+into the new system. **The sub-deals suggest the second: 216 of 226 sit at `Proposal` with only 4 `Agreed`.**
+
+### The sales cycle now has a number, and `TSK-3` is what it is for
+
+| Outcome | Deals | Median days, creation → last interaction |
+|---|---|---|
+| **Closed Won** | 9 | **153** |
+| Complete | 25 | 126 |
+| Closed Lost | 74 | **105** |
+| Active *(so far)* | 47 | 66 |
+
+**A won deal takes about five months; a lost one dies at three and a half.** `NEXT.md` puts `TSK-3` — the lead-time
+follow-up — outside the sequence because *"projects run for months, so quote-to-order is a long stage nobody runs
+systematically."* **That is now measured rather than asserted, and it gives the follow-up its interval:** a deal
+quiet past ~105 days is behaving like a lost one, and the median winner needs another seven weeks of attention after
+that point. **The active deals sit at a median of 66 days, so most of the current pipeline has not yet reached the
+age at which deals start dying.**
+
+### Win rate, by the person who owned it
+
+| Owner | Active | Won + complete | Lost | Win rate |
+|---|---|---|---|---|
+| Olivier Dedek | 45 | 26 | 54 | **32 %** |
+| Mark Franks *(left)* | 0 | 6 | 18 | 25 % |
+| Neil Davidson | 2 | 2 | 2 | *50 %, n=4* |
+
+**About a third of qualified deals close.** Read it as a base rate to plan against rather than a judgement on anyone
+— and note that **Mark Franks holds no active deals, consistent with having left**, so 24 of his closed deals are in
+the denominator with nothing in flight behind them.
+
+### The deals are multi-brand already, and more so than history
+
+**67 of 155 deals carry a component list, and 52 of those — 78 % — name more than one line.** Against the twelve-year
+invoice record, where **44 % of dealers ever bought more than one line** (finding 2), **the current pipeline is
+markedly more cross-brand than the historic base.** Whole-room selling is happening now, in the deals as written.
+
+**What the deals are made of**, by component frequency:
+
+| Component | Deals | | Component | Deals |
+|---|---|---|---|---|
+| Video | 14 | | Screen Wall | 5 |
+| Acoustic treatment | 9 | | C-ATS | 4 |
+| Screen | 9 | | Video processor | 2 |
+| **Audio** | **8** | | Projector | 2 |
+| Room fit-out | 6 | | Gold install | 2 |
+
+> **`Audio` appears in eight live deals and the group has no own speaker line to put in them** (finding 17,
+> `current-state.md`). **That is the Pro-Fi gap showing up as present demand rather than as history** — the strongest
+> argument yet for the viability tier that puts Pro-Fi in step 3 before launch rather than after it.
+
+## Finding 25 — 266 approved dealers, 62 current, 162 who never bought anything
+
+Joining the Accounts board to the fifteen-year transaction record, on the same fuzzy name matching used in finding 6:
+
+| | Count | Share |
+|---|---|---|
+| **Approved Dealers on the board** | **266** | |
+| Matched to any purchase, ever | **104** | 39 % |
+| **Flagged `Current Customer` on ≥1 brand** | **62** | **23 %** |
+| Never matched to any purchase | **162** | 61 % |
+
+Those 104 who did trade are worth **£4,583,030** of lifetime spend between them.
+
+**Two things follow, and they point in opposite directions.**
+
+**The approved network is three times larger than the trading one.** *"Approved dealer"* is an administrative state —
+262 hold a signed SRND Group agreement — and **it has come loose from commercial reality.** Any count of "our
+dealers" that uses 266 is overstating by about 4×. **§D's dealer-count metric should use `Current Customer` or a
+purchase in the period, never the approved list.**
+
+**But 162 approved dealers who have never bought are not a failure — they are a list.** They were qualified enough to
+be approved and to sign an agreement; they have simply never been sold to. **Set beside finding 20 — that only 24–73
+accounts have ever been *presented* any given brand — this is the same story from the other end**, and it is a
+second reactivation list sitting alongside the 50 lapsed historic dealers of finding 7. **These ones have already
+said yes to the relationship.**
+
+*Matching caveat as before: fuzzy name joins, so 104 is a floor and 162 a ceiling.*

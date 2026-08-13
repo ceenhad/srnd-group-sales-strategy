@@ -202,7 +202,10 @@ above were provisional until step 0; it has now run — see "What the QA produce
 
 **One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
-on the revenue path between a quote and its order. It is also one of the few items that came out of a real pass
+on the revenue path between a quote and its order. **And it now has its interval, measured** (`archive-findings.md`
+finding 24): **a won deal takes a median 153 days from creation; a lost one dies at 105.** So a deal quiet past
+roughly a hundred days is behaving like a lost one, and the median winner needs aboutseven more weeks of attention
+after that point. **About a third of qualified deals close** — the base rate to plan against. It is also one of the few items that came out of a real pass
 rather than a derivation, which is why it survives step 0 on its own merits.
 
 ### A. The roles, as commitments rather than titles
@@ -296,6 +299,10 @@ looked** — provided the tiers are respected rather than the roster being clear
   overflow lines, so the record keeps filling without anyone pushing it.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
+- **Use the trading count, not the approved one** (`archive-findings.md` finding 25). The Accounts board lists **266
+  approved dealers**, but only **104 have ever bought anything and 62 are flagged `Current Customer`.** *"Approved
+  dealer"* is an administrative state that has come loose from commercial reality — **any count using 266 overstates
+  by about 4×.**
 - **And now one number that does have a baseline — active dealers per year** (`archive-findings.md` finding 16).
   Breadth is the measured weakness across every own-brand entity: the distribution business ran **354 dealers with
   its largest at 5.3 % of revenue**; DT runs **76 across ten years with one account at 31.5 %**, and only
