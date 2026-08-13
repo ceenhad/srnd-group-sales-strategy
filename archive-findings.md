@@ -569,3 +569,37 @@ are regenerated together** after any addition to it.
   International Ltd`.
 - **Neil notes work in progress on the lighting side** — *"something special… that can really help us get back into
   that lighting business."* Recorded as a pointer only; there is nothing about it in the data.
+
+---
+
+## Fabric Walls — no separate source; it is inside SRND Group
+
+**Fabric Walls has no entity report to load: its sales are already under SRND Group Ltd** (Neil, 2026-08-13). So it
+is a *slice* of tranche 2c rather than a tranche of its own, and it is recoverable because the store-item
+classification (`data/classify_store_items.py`) split the store blob into categories.
+
+**The product is three components — "metal frame and fabric… and fabric track"** (Neil) — and the accounts separate
+them:
+
+| Component | Categories | Net | % of SRND | Dealers |
+|---|---|---|---|---|
+| Fabric track | `Metal Fabric Track`, `Plastic Fabric Track`, `Fabric track` | **£197,476** | 7.2 % | 21 |
+| Metal frame | `Fabric wall frames & panels` | £62,729 | 2.3 % | 8 |
+| Fabric | `Fabrics`, `Fabric samples` (Ultrasuede, Showtex, Aura Flex) | £15,136 | 0.6 % | 8 |
+| Installation tools | `Tools` | £1,128 | 0.0 % | 4 |
+| **Product total** | | **£276,470** | **10.1 %** | **32 distinct** |
+
+Plus, sitting in other categories: **£19,548** of Fabric Walls design services (the Seattle and Madrid room designs)
+and a **£9,000** downpayment on the Mexico City showroom — **£305,018 in total, 11.2 % of SRND's product revenue.**
+
+**Revenue is flat and current:** £107,991 (2024), £108,206 (2025), £60,273 (2026 part-year). **Thirty-two dealers
+have bought it** — the broadest dealer base of any own-made line in the loaded data, against DT's 76 across ten years
+and C-ATS's 16.
+
+**A possible antecedent, flagged not asserted.** GTUK carries **£46,761 across 5 lines of `Sales - BARRISOL
+COUTURE`** (2012–2023). Barrisol is a stretch-fabric ceiling system, so this may be the distribution-era forerunner
+of the Fabric Walls proposition — **or simply a carried third-party line with no relation to it.** Worth one sentence
+from Neil; it is not counted in the figures above.
+
+*Method note: a regex for fabric-wall terms also catches DT image-surface lines described as "no silicon edge". One
+such line (£601) was excluded by hand. Any repeat of this slice should filter on `category`, not on description text.*
