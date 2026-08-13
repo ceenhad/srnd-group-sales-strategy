@@ -351,11 +351,33 @@ headline.
 **New-dealer acquisition tells the same story from the other end:** 14 new dealers in 2024 — the best year on
 record — then **5 in 2025 and 2 so far in 2026.**
 
+**But the full-year view above misleads on 2026, and like-for-like corrects it.** Comparing 1 January to 12 August
+in each year — the period 2026 actually covers:
+
+| YTD to 12 Aug | Apex USA | **non-Apex** | Total | non-Apex dealers active |
+|---|---|---|---|---|
+| 2022 | £170,285 | £229,706 | £399,991 | 19 |
+| 2023 | £198,891 | £179,067 | £377,957 | 20 |
+| 2024 | £129,064 | £165,499 | £294,563 | 19 |
+| 2025 | £143,463 | £98,222 | £241,685 | 13 |
+| **2026** | £62,499 | **£157,040** | £219,539 | **10** |
+
+**The five-year slide has broken: non-Apex revenue is up 60 % year-on-year YTD** (£98,222 → £157,040), while Apex
+is down 56 % as the grace period runs. **That is a much better position than the full-year table suggests**, and it
+is the number to watch rather than the annual one until 2026 closes.
+
+**The caution is in the last column, and it is the strategically important half.** That 60 % recovery came from
+**ten dealers, against thirteen last year and nineteen or twenty in 2022–24.** Revenue per non-Apex dealer has
+roughly doubled while the count keeps thinning. **So DT's revenue is recovering by concentrating, not by
+broadening** — which is precisely what `group/00-strategy.md` says the group exists *not* to do: the asset is
+*"valuable dealer relationships, counted across every brand, over years,"* and the count is still going the wrong
+way. **Good news on the revenue line, unchanged news on the asset.**
+
 **This is `group/00-strategy.md`'s second consequence, measured on DT itself:** *"Direct is asset-building, not
 cost-saving. A distributor owns the relationship instead of us."* The years DT leaned hardest on a distributor are
 the years its own dealer base thinned. **The strategy already argues this; DT's own numbers now evidence it.**
 
-### Finding 10 — **the Apex-Tech position needs checking, and it gates a whole workstream**
+### Finding 10 — **the Apex-Tech position: asked, answered, and the repo was right**
 
 **Merged as Neil confirms — one counterparty across both account names — Apex USA is £1,329,564: 31.4 % of DT's
 entire external revenue, over seven unbroken years, and 2.8× the next largest account.** It bought **13 of the 13
@@ -374,27 +396,44 @@ product lines**, which no other dealer did.
 **Still buying four weeks ago — last order 2026-07-16** — and engine independently shows the account with **11 sales
 orders** inside its eleven weeks of history (`engine-audit.md`).
 
-**The one number that may be the actual signal: 2026 is running at roughly half rate.** £62,499 over seven-and-a-half
-months annualises to about £100,000 against £201,987 for the full year 2025. **That is the shape of a wind-down in
-progress rather than a clean stop** — consistent with a resignation served recently and trading continuing through
-notice, which is one of the readings below.
+> **▶ Resolved (Neil, 2026-08-13). The agreement officially ended 1 July 2026.** The resignation is in effect, *"but
+> it's not a brickwall filter as they have projects in play and it is common to give 90 days grace for them to tidy
+> that up while we are starting our own push."* **So the repo was right and this finding raised a false alarm** —
+> `C1f` and `C1j` stand unchanged, and the trading that looked like a live relationship was notice and grace.
+
+**And the data says the grace is already spent.** Splitting 2026 at the 1 July end date:
+
+| 2026 | Apex USA |
+|---|---|
+| 1 Jan – 30 Jun *(agreement live)* | £62,143 |
+| **From 1 July *(grace)*** | **£356** — one order, 2026-07-16, one mount line |
+
+**Apex is effectively at zero already.** Grace nominally runs to about 29 September, but £356 in six weeks says there
+is nothing material left to come. **The cliff is behind us, not ahead of us** — which also means the wind-down began
+well before the formal end: H1 2026 ran £62,143 against £143,463 in the same period of 2025, a 57 % fall while the
+agreement was still live.
+
+**The consequence is the good news in this tranche.** DT absorbed the loss of a third of its external revenue *and*
+its total YTD is down only 9 % (£241,685 → £219,539), because non-Apex revenue grew 60 % over the same period
+(finding 9). **The replacement is already happening.** What has not recovered is the dealer *count* — ten active
+non-Apex dealers against nineteen or twenty in 2022–24 — so the exposure now is breadth, not the missing distributor.
 
 **The repo says something different.** `current-state.md` records Apex-Tech as having **resigned from DT**;
 `decided.md` **C1f** treats the US as *"open and unencumbered"* because of it; **C1j** calls the Apex dealer base
 *"unserved"* and *"the fastest revenue in the strategy"*; `NEXT.md` lane 7 opens on *"the largest market in the
 world is unrepresented."* **Workstream W2 (`US-1`–`US-6`) rests on that reading.**
 
-**Not resolved here, and deliberately not.** Two readings still fit and only Neil can say which: a resignation
-served recently with trading continuing through notice — which the half-rate 2026 supports — or a relationship still
-running in some changed form. **Flagged as evidence against `C1f`/`C1j`, logged in `open-items.md`, and not treated
-as a reversal** — a decision changes when someone says it changes, not because a spreadsheet disagrees with it.
+**The size of the dependency is still worth stating plainly: 31.4 % of DT's external revenue over seven years was one
+counterparty, and it was the only dealer that ever bought the whole range.** `decided.md` C1j describes that dealer
+base as *"warm"* and its recovery as *"the fastest revenue in the strategy"* — **on these numbers that is right about
+the prize, and the window is now open rather than closing.** Those dealers lost their supply route on 1 July and are
+being tidied up by a departing distributor as we speak.
 
-**But the size of the dependency is worth stating plainly whatever the answer: 31.4 % of DT's external revenue is
-one counterparty, and it is the only dealer that ever bought the whole range.** `decided.md` C1j describes the Apex
-dealer base as *"warm"* and its recovery as *"the fastest revenue in the strategy"* — **on these numbers that is
-right about the prize and understates the exposure.** If the relationship is ending, the erosion in finding 9 stops
-being a background trend and becomes the main event: DT would be left with £184,931 of non-Apex dealer revenue
-against £484,405 in 2020.
+**A method note worth keeping, because it nearly produced a wrong conclusion.** Two account names for one
+counterparty, a partial current year, and an annual table together made a completed departure look like a live
+relationship. **Splitting on the date the arrangement actually ended — and comparing like-for-like YTD rather than
+annualising — reversed the reading.** Neither correction was available from the spreadsheet alone; both came from
+asking. **Flagging rather than concluding was the right call, and the flag is now cleared.**
 
 ### Finding 11 — the first-order result replicates
 
