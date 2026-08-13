@@ -17,6 +17,7 @@ lives, what it covers, and what it cannot answer.
 | 2 | **DT sales analysis** | Dropbox — `/DT Management/Sales/DT - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo-Q` | Display Technologies, incl. international dealers and intra-group | 2016-07-12 → 2026-08-12 |
 | 2b | **C-ATS account transactions** — *different report type, see below* | `data/source/C-ATS - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Cinema Acoustic Treatment Systems Limited, incl. intra-group | stated 2016-01-01 → 2026-08-31 |
 | 2c | **SRND Group account transactions** | `data/source/SRND Group - Account Transactions.xlsx` (supplied locally, 2026-08-13) | SRND Group Ltd — **the current trading entity, from when it took over from the Apex businesses.** Hybrid distributor/manufacturer selling to distributors and dealers globally (Neil) | stated 2020-01-01 → 2026-08-31; data 2023 → 2026 |
+| 2d | **Light Walls account transactions** | `data/source/Light Walls - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Light Walls Ltd, incl. intra-group | stated 2016-08-01 → 2026-08-31; data 2020 → 2026 |
 | 3 | **Engine** *(live, not an extract)* | Supabase project **`vzgdhfsmxteoxxsuexyg`** (`SRND Engine`, eu-west-2). Testbed is `bpsaxuwitlycubnvmfrr`. Read-only MCP is pinned to the production ref | Current accounts, quotes, orders, products, documents | Accounts migrated; transactions from **2026-05-28** |
 | — | **Pro-Fi** | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
 | 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
@@ -114,7 +115,7 @@ values and are left in so they net off. 619 lines carry no account code — kept
 per-line breadth counts. **Dealer identity is the `Contact` field**, unnormalised, so a company appearing under two
 spellings counts twice; the effect on the aggregates below is small but non-zero.
 
-**Scale.** **£11,745,315 net over twelve years**, across **367 customers** (355 with positive net) and **55 revenue
+**Scale.** **£11,745,315 net over twelve years** (£11,742,315 external), across **367 customers** (354 external with positive net) and **55 revenue
 lines**.
 
 | Year | Net | | Year | Net |
@@ -151,7 +152,7 @@ for the six-brand question until engine's own history is long enough to answer i
 | Top 20 | **49.8 %** |
 | Top 50 | 71.0 % |
 
-**Half the revenue sits in twenty accounts, and the tail is long and real** — 355 paying dealers, of whom about 200
+**Half the revenue sits in twenty accounts, and the tail is long and real** — 354 paying external dealers, of whom about 200
 bought a single line. Note the top account here reached **£623,422 over nine years**; that is *not* the
 "£500,000 in a year" dealer in `current-state.md`, which is a current SRND account. **Different eras, different
 businesses — do not conflate the two figures.**
@@ -183,17 +184,17 @@ Banding every dealer by the value of their **first invoice**, then measuring onl
 | First order | Dealers | Reordered | Median later revenue | **Mean later revenue** | New lines added later |
 |---|---|---|---|---|---|
 | < £1k | 91 | 52 % | £0 | £12,477 | 0.8 |
-| **£1–5k** | **162** | 62 % | £2,235 | **£36,914** | **1.7** |
+| **£1–5k** | **161** | 62 % | £2,235 | **£37,143** | **1.7** |
 | £5–20k | 77 | 51 % | £0 | £13,011 | 0.6 |
 | £20–50k | 20 | 70 % | £3,131 | £30,915 | 0.9 |
 | £50k+ | 5 | 80 % | £12,200 | £27,618 | 1.4 |
 
-**The £1–5k cohort went on to earn more than the £50k+ cohort — £36,914 against £27,618 in mean later revenue.**
+**The £1–5k cohort went on to earn more than the £50k+ cohort — £37,143 against £27,618 in mean later revenue.**
 The relationship between first-order size and everything that follows is not weak; it is absent.
 
 Three numbers make it concrete:
 
-- **253 of 355 dealers — 71 % — started with a first order under £5,000.**
+- **252 of 354 dealers — 71 % — started with a first order under £5,000.**
 - **40 of those (16 %) went on to exceed £50,000 lifetime.**
 - **They generated £7,115,374 after that first order — 61 % of all revenue in the file.**
 - **The single largest account in twelve years began with a first order under £5,000.**
@@ -250,7 +251,7 @@ Level"*, and *"Glo Audio Visual Ltd."* against *"GLO AV Ltd"*.
 | | Dealers | Share |
 |---|---|---|
 | Historic dealers **found in engine** | **93** | 26 % of the base — **but 45 % of historic revenue (£5,262,007)** |
-| Historic dealers **not found** | 262 | 74 % of the base, 55 % of revenue |
+| Historic dealers **not found** | 261 | 74 % of the base, 55 % of revenue |
 | Of the **top 50** historic dealers | **24 in engine** | Just under half |
 
 **Read together, those two lines are the finding.** A quarter of the base carried across, and it is
@@ -323,7 +324,7 @@ warehousing, payroll, VAT, cost-of-sales, inter-company postings) leaving 3,460 
 **One structural difference from tranche 1 that must be handled, not averaged away.** DT sold heavily **to its own
 group**: of £5,620,592 total product revenue, **£1,381,762 (24.6 %) went to intra-group entities** — Apex Tech
 Scotland Ltd £782,537, SRND Group Ltd £470,031 and Apex Tech International Ltd £129,194. **Every figure below is
-external-only (£4,238,830)** unless it says otherwise.
+external-only (£4,219,271)** unless it says otherwise.
 
 > **Two entity corrections from Neil, 2026-08-13, applied throughout.** *"Apex Technologies USA"* and *"Apex
 > Technologies USA LLC"* are **the same counterparty** — the April 2024 split is a re-registration in the books, not
@@ -348,11 +349,11 @@ this revenue set, engine's 14 `product_families`, and the twelve record scopes d
 
 | | DT (2016–2026) | SRND Distribution (2012–2023) |
 |---|---|---|
-| External dealers, ever | **77** | 355 |
+| External dealers, ever | **76** | 354 |
 | Active in a typical year | **11–27** | — |
-| Top 1 account | **31.4 %** | — |
-| Top 5 accounts | **60.7 %** | 22.3 % |
-| Top 10 accounts | **76.4 %** | 36.2 % |
+| Top 1 account | **31.5 %** | — |
+| Top 5 accounts | **61.0 %** | 22.3 % |
+| Top 10 accounts | **76.8 %** | 36.2 % |
 
 **These are two different businesses wearing one group's clothes.** Distribution was a broad dealer base where the
 top five held a fifth of revenue; **DT is one account holding nearly a third, five holding over sixty per cent, and
@@ -390,7 +391,7 @@ in each year — the period 2026 actually covers:
 
 | YTD to 12 Aug | Apex USA | **non-Apex** | Total | non-Apex dealers active |
 |---|---|---|---|---|
-| 2022 | £170,285 | £229,706 | £399,991 | 19 |
+| 2022 | £170,285 | £220,806 | £391,091 | 19 |
 | 2023 | £198,891 | £179,067 | £377,957 | 20 |
 | 2024 | £129,064 | £165,499 | £294,563 | 19 |
 | 2025 | £143,463 | £98,222 | £241,685 | 13 |
@@ -413,7 +414,7 @@ the years its own dealer base thinned. **The strategy already argues this; DT's 
 
 ### Finding 10 — **the Apex-Tech position: asked, answered, and the repo was right**
 
-**Merged as Neil confirms — one counterparty across both account names — Apex USA is £1,329,564: 31.4 % of DT's
+**Merged as Neil confirms — one counterparty across both account names — Apex USA is £1,329,564: 31.5 % of DT's
 entire external revenue, over seven unbroken years, and 2.8× the next largest account.** It bought **13 of the 13
 product lines**, which no other dealer did.
 
@@ -457,7 +458,7 @@ non-Apex dealers against nineteen or twenty in 2022–24 — so the exposure now
 *"unserved"* and *"the fastest revenue in the strategy"*; `NEXT.md` lane 7 opens on *"the largest market in the
 world is unrepresented."* **Workstream W2 (`US-1`–`US-6`) rests on that reading.**
 
-**The size of the dependency is still worth stating plainly: 31.4 % of DT's external revenue over seven years was one
+**The size of the dependency is still worth stating plainly: 31.5 % of DT's external revenue over seven years was one
 counterparty, and it was the only dealer that ever bought the whole range.** `decided.md` C1j describes that dealer
 base as *"warm"* and its recovery as *"the fastest revenue in the strategy"* — **on these numbers that is right about
 the prize, and the window is now open rather than closing.** Those dealers lost their supply route on 1 July and are
@@ -488,3 +489,83 @@ independent datasets now say first-order size does not predict relationship valu
 - **The distribution 2024–25 gap remains** (`MON-8`, Shopify).
 - **Territory is inferable but not stated** — dealer names imply geography (USA, India, Spain, Canada) but there is
   no country field, so any international split is inference, not data.
+
+---
+
+## Tranche 3 — Light Walls, 2020–2026
+
+**Source.** `Light Walls - Account Transactions.xlsx` (Neil, 2026-08-13). Account Transactions format, as C-ATS and
+SRND. Stated period 2016-08-01 → 2026-08-31; **the data begins in 2020.** 418 rows, 380 product-revenue,
+**£574,683 = £502,855 external + £71,828 intra-group**, 26 counterparties.
+
+### Finding 12 — the shape: three good years, then a stop
+
+| Year | Total | External |
+|---|---|---|
+| 2020 | £9,178 | £9,178 |
+| 2021 | £199,313 | £174,263 |
+| **2022** | **£250,859** | **£236,222** ← peak |
+| 2023 | £96,870 | £83,191 |
+| 2024 | — | — |
+| 2025 | — | — |
+| 2026 | £18,463 | **£0** (intra-group only) |
+
+**External trading stops after 2023.** The 2024–26 rows are not trade at all: a £35,750 inter-company journal, a
+pair of offsetting Protopixel journals, and a single **£18,463 invoice to SRND Group Ltd in March 2026** which moves
+the residual Protopixel position into SRND. **So the brand's commercial life in this data is 2021–2023, with 2022 its
+best year.**
+
+**The reason is on the record and is not in this file** (Neil, 2026-08-13): *"it was going so well but the pain of
+the protopixel nodes all breaking and needing replaced left us gun shy."* The invoice ledger shows the stop; it does
+not show the replacement cost, which would sit in purchases and warranty rather than in sales.
+
+### Finding 13 — two concentrations, and one of them is the same account as DT's
+
+| Counterparty | Net | Share of external |
+|---|---|---|
+| **Apex Technologies USA** | **£273,866** | **54.5 %** |
+| Cinema Partners | £63,567 | 12.6 % |
+| INT3 Ltd | £35,325 | 7.0 % |
+| Wakefields Smarter Home Technology | £33,570 | 6.7 % |
+| Chevalier | £22,252 | 4.4 % |
+
+**Over half of Light Walls' external revenue went through Apex USA** — the same counterparty that carried 31.5 % of
+DT's. Recorded as a fact about channel structure, not a claim about cause: Light Walls stopped in 2023, the Apex
+agreement ended 1 July 2026, and nothing here connects them.
+
+**And a quarter of revenue was the bought-in component.** By account line: `Light Walls` £350,912, **`Protopixel`
+£144,515** (25 %), generic `Sales` £79,256. Protopixel ran £21,855 (2021) → £68,448 (2022) → £34,221 (2023), then
+the journal reversals. **`ProtoPixel SL` appears as both customer and supplier** — five sales invoices to them in
+2020, then payable invoices and negative postings against the Protopixel sales account — so the relationship was
+two-way in the books.
+
+### What tranche 3 changed elsewhere — two figures I had published
+
+**Light Walls Ltd is itself a group entity**, so adding it to the intra-group list reclassified revenue in two
+already-loaded sources. Both corrected in place:
+
+| | Was | Now | Moved |
+|---|---|---|---|
+| DT external | £4,238,830 | **£4,219,271** | £19,559 of DT→Light Walls sales (2021–23) |
+| GTUK external | £11,745,315 | **£11,742,315** | £3,000 |
+
+Knock-on: DT's dealer count 77 → **76**, top-1 share 31.4 % → **31.5 %**, top-5 60.7 % → **61.0 %**, top-10 76.4 % →
+**76.8 %**, and 2022's non-Apex YTD £229,706 → £220,806. GTUK's dealer count 355 → **354**, its cohort counts by one
+dealer, and its concentration percentages are unchanged at one decimal place. **No finding reverses; the £1–5k
+cohort's mean later revenue moves from £36,914 to £37,143 and still exceeds the £50k+ cohort's £27,618.**
+
+**The lesson for the remaining tranches:** each new group entity can reclassify earlier ones, because it may have
+been a *customer* of them. The loader holds one shared intra-group list for exactly this reason, and **all sources
+are regenerated together** after any addition to it.
+
+### Loose ends in this tranche
+
+- **`Complete-ATS` is unresolved but immaterial — £222.** It is left external. "Complete ATS" is the C-ATS vendor
+  name on the store, which suggests a group entity, but the C-ATS company is *Cinema Acoustic Treatment Systems
+  Limited*. Flagged in `data/normalise.py` (`UNRESOLVED_ENTITIES`); at this value it changes nothing either way.
+- **`UNKNOWN_CONTACT`** appears as a literal placeholder on one £12 `Other Revenue` row — excluded from revenue.
+- **Three new spellings of group entities** were introduced by this file and are now canonicalised in the loader:
+  `Apex Tech Scotland Ltd / Apex-Tech UK`, `Display Technologies Limited`, and a lower-case `apex Tech
+  International Ltd`.
+- **Neil notes work in progress on the lighting side** — *"something special… that can really help us get back into
+  that lighting business."* Recorded as a pointer only; there is nothing about it in the data.

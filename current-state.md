@@ -57,18 +57,18 @@ strike.
   of the six brands' own twelve-year record**, and it puts numbers on the repo's "twenty years of distribution":
   **2012–2023, £11.75m net, 367 customers, 55 lines. UK dealers only** — the international network is not in it, so
   this is a domestic figure and domestic behaviour, not the group's historic total.
-- **▶ Tranche 2 — Display Technologies, 2016 to 2026-08-12** (`archive-findings.md`). **£4.24m external revenue plus
+- **▶ Tranche 2 — Display Technologies, 2016 to 2026-08-12** (`archive-findings.md`). **£4.22m external revenue plus
   £1.38m intra-group — a quarter of DT's output goes through group entities** (Apex Tech Scotland, SRND Group Ltd,
   and Apex Tech International, which *"served Europe mainly but was pointless as a third company, so we rolled it
-  into SRND"* — Neil, 2026-08-13). **DT is far more concentrated than distribution: 77 external dealers ever, 11–27
-  active in a year, one account at 31.4 % and the top five at 60.7 %** against distribution's 22.3 %.
+  into SRND"* — Neil, 2026-08-13). **DT is far more concentrated than distribution: 76 external dealers ever, 11–27
+  active in a year, one account at 31.5 % and the top five at 61.0 %** against distribution's 22.3 %.
 - **DT's non-Apex dealer revenue has fallen every year since 2020** — £484,405 then, £184,931 in 2025, a **62 %
   decline** masked until 2024 by Apex's growth. New dealers: 14 in 2024, then 5 in 2025 and 2 in 2026. **This is the
   "a distributor owns the relationship instead of us" argument measured on DT itself** (`group/00-strategy.md`).
 - **The Apex-Tech resignation is dated: the agreement officially ended 1 July 2026**, with the customary **90 days'
   grace** for projects already in play while our own push starts (Neil, 2026-08-13). **Grace runs to about 29
   September but is already spent — £356 since 1 July, one order.** So Apex is effectively at zero and **the cliff is
-  behind us, not ahead.** For scale: Apex was **£1,329,564 over seven years, 31.4 % of DT's external revenue ever**,
+  behind us, not ahead.** For scale: Apex was **£1,329,564 over seven years, 31.5 % of DT's external revenue ever**,
   and the only dealer that ever bought all 13 product lines. The wind-down began before the formal end — H1 2026 ran
   £62,143 against £143,463 in H1 2025.
 - **And DT has largely absorbed it already.** Total external revenue YTD is down only **9 %** (£241,685 → £219,539)
@@ -76,7 +76,7 @@ strike.
   **But it grew on a thinning base: ten active non-Apex dealers against nineteen or twenty in 2022–24.** Revenue is
   recovering by concentrating rather than broadening — *"counted across every brand, over years"* is the count that
   still needs fixing (`archive-findings.md` findings 9–10).
-- **Of that historic dealer base, only 93 of 355 (26 %) hold an account in engine today** — but they represent
+- **Of that historic dealer base, only 93 of 354 (26 %) hold an account in engine today** — but they represent
   **45 % of historic revenue**, so retention favoured the valuable end. **Just under half the top fifty accounts of
   twelve years are absent.** And **50 dealers who were still trading in 2021–23 have no engine account at all,
   £2.33m of historic net between them** (`backlog.md` MON-6). Matching is fuzzy, so those are **floors** pending
@@ -98,7 +98,7 @@ strike.
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**
 - **One dealer at roughly £500,000 in a year** — a substantial share of group revenue.
 - ~~**[?] Concentration**~~ — **answered for the GTUK era, 2012–2023** (`archive-findings.md` tranche 1): top 5
-  accounts **22.3 %** of net, top 20 **49.8 %**, top 50 **71 %**, across 355 paying dealers. **Half the revenue in
+  accounts **22.3 %** of net, top 20 **49.8 %**, top 50 **71 %**, across 354 paying dealers. **Half the revenue in
   twenty accounts, and a long real tail behind it.** Still **[?]** for the current group post-2023.
 - **Territory spread** — 21 international appointments across 20-odd territories (above). **[?]** the direct
   dealer count behind them, and how much of group revenue is UK-direct.
@@ -127,7 +127,7 @@ network is almost entirely a DT network.*
 | DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
 | DT | Qualtron | Yachting | On-board entertainment | No business so far |
 | DT | Screen Innovations | USA | **White label — they own the relationship, not us** | Not a route to market for DT as a brand |
-| DT | ~~Apex-Tech~~ | USA | Our largest distributor — **£1.33m over seven years, 31.4 % of DT's external revenue ever** (`archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
+| DT | ~~Apex-Tech~~ | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
 | DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
 | DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
 | DT | Tectrade Brun | Switzerland | Strong in cinema, complete portfolio | Starting to grow, high-potential territory |
@@ -147,7 +147,7 @@ network is almost entirely a DT network.*
   **the US — the largest market in the world — is now unrepresented and unencumbered.** Read as an opportunity
   rather than a loss: it is the first chance to present the whole group there rather than one brand through
   somebody else's badge. **Now dated and sized** (2026-08-13): the agreement ended **1 July 2026** with 90 days'
-  grace, and it was **£1.33m over seven years — 31.4 % of DT's external revenue ever, the only dealer that bought
+  grace, and it was **£1.33m over seven years — 31.5 % of DT's external revenue ever, the only dealer that bought
   the whole range.** The exposure is real and already largely absorbed: DT's non-Apex revenue grew 60 % YTD, leaving
   total external down just 9 % (`archive-findings.md` findings 9–10).
 

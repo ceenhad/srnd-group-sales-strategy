@@ -28,13 +28,22 @@ COLUMNS = ['entity','invoice_number','invoice_date','year','item_code','quantity
 # despite "Genesis Technologies Ltd" appearing as a DESCRIPTION on group invoices.
 INTRA_GROUP = {
     'apex tech scotland ltd',
+    'apex tech scotland ltd / apex-tech uk',      # Light Walls spelling
     'apex tech international ltd',
     'apex technologies international',
     'srnd group ltd',
     'dzyn ltd',
     'display technologies ltd',
+    'display technologies limited',               # Light Walls spelling
+    'light walls ltd',
     'cinema acoustic treatment systems limited',
 }
+
+# [?] UNRESOLVED — 'Complete-ATS' appears as a Light Walls counterparty. "Complete ATS" is
+# the C-ATS vendor name on the store (group/store-split-worklist.md), which suggests a group
+# entity, but the C-ATS company is "Cinema Acoustic Treatment Systems Limited". Left EXTERNAL
+# pending confirmation; see archive-findings.md. Add it above if it is ours.
+UNRESOLVED_ENTITIES = {'complete-ats'}
 
 # Accounts that are not product revenue. Matched as a prefix on the raw account name.
 NON_REVENUE_PREFIXES = (
@@ -42,6 +51,7 @@ NON_REVENUE_PREFIXES = (
     'Cost of Sales','Motor Vehicle','Advertising','Postage','Inter Company',
     'Inter-Company','Other Revenue','General Expenses','Bank Fees','Travel',
     'Rounding','Suspense',
+    'Sales - Inter Company',    # Light Walls posts group trade to its own sales account
 )
 
 # Xero source types that are not a sale to a customer.
@@ -53,6 +63,12 @@ def canon(contact: str) -> str:
     c = contact.strip()
     if c.lower().startswith('apex technologies us'):
         return 'Apex Technologies USA'   # "USA" and "USA LLC" are one entity (Neil)
+    if c.lower().startswith('apex tech scotland'):
+        return 'Apex Tech Scotland Ltd'  # collapses ".../ Apex-Tech UK"
+    if c.lower() == 'display technologies limited':
+        return 'Display Technologies Ltd'
+    if c.lower() == 'apex tech international ltd':
+        return 'Apex Tech International Ltd'   # normalises the lower-case 'apex' spelling
     return c
 
 

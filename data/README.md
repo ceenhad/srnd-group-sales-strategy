@@ -12,6 +12,7 @@ numbers, so a moved Dropbox file or a closed account cannot cost us the history.
 | `DT - Sales Analysis Report - All.xlsx` | `/DT Management/Sales/` · `id:F15NlnKOA1AAAAAAAAAo-Q` | 881,262 b | `9c9df2b93d5f3be812eeff64efc83a686fc90d7d3ada8f0e6691bff921fbbcad` |
 | `C-ATS - Account Transactions.xlsx` | supplied locally 2026-08-13 (`Cinema_Acoustic_Treatment_Systems_Limited_-_Account_Transactions.xlsx`) | 22,551 b | `1c630431b99daef6fd1cfe0f53b3ba235845643f6db86a3058b3fc4203bba02a` |
 | `SRND Group - Account Transactions.xlsx` | supplied locally 2026-08-13 (`SRND_Group_Ltd_-_Account_Transactions.xlsx`) | 71,112 b | `07d0233f1d535d17536d84ebe380d1c8792dca61e44bef8b179eac64c6233891` |
+| `Light Walls - Account Transactions.xlsx` | supplied locally 2026-08-13 (`Light_Walls_Ltd_-_Account_Transactions.xlsx`) | 36,314 b | `4d667a97ea1cd7eba526f8669ebfe6870c3394b205f0fc752b20e1f8ebeccb92` |
 
 **Both verified byte-identical to Dropbox** on 2026-08-13 using Dropbox's own block-hash algorithm (SHA-256 per
 4 MiB block, then SHA-256 of the concatenated digests). Re-verify any time with that method rather than a plain
@@ -28,6 +29,7 @@ findings, never by editing a source file — otherwise provenance is gone.
 | `dt-invoice-lines.csv` | 3,952 | Sales Analysis (`Raw Data` sheet) | 2016 → 2026 |
 | `cats-account-transactions.csv` | 268 | **Account Transactions** | 2016 → 2026 |
 | `srnd-account-transactions.csv` | 730 | **Account Transactions** | 2023 → 2026 |
+| `lightwalls-account-transactions.csv` | 418 | **Account Transactions** | 2020 → 2026 |
 
 **All four are produced by `data/normalise.py`** — one command per source, so the contract below is enforced by code
 rather than by hand:
@@ -122,9 +124,19 @@ other reading.
 > description — **the description is not the counterparty.** Likewise `Genesis Home Technologies SL` is external
 > (it appears in DT's file as a Spanish dealer).
 >
-> **So the intra-group list is now settled and complete for all three sources:** Apex Tech Scotland Ltd, SRND Group
-> Ltd, Apex Tech International Ltd / Apex Technologies International, Dzyn Ltd, Display Technologies Ltd.
-> **Everything else is external.**
+> **The intra-group list, as it stands:** Apex Tech Scotland Ltd (incl. the `/ Apex-Tech UK` spelling), Apex Tech
+> International Ltd / Apex Technologies International, SRND Group Ltd, Dzyn Ltd, Display Technologies Ltd (incl.
+> `Limited`), Light Walls Ltd, Cinema Acoustic Treatment Systems Limited. **Everything else is external**, and
+> `Complete-ATS` (£222, Light Walls only) is the one unresolved case — see `UNRESOLVED_ENTITIES` in `normalise.py`.
+
+> **Each new entity can reclassify earlier sources, so regenerate them all.** A newly-recognised group company may
+> have been a *customer* of an already-loaded one. Adding Light Walls Ltd moved £19,559 out of DT's external revenue
+> and £3,000 out of GTUK's. The loader therefore holds **one shared intra-group list**, and every source is
+> regenerated together after any addition to it:
+>
+> ```bash
+> for f in data/source/*.xlsx; do echo "$f"; done   # then re-run normalise.py per source, and classify_store_items.py
+> ```
 
 **To reproduce any figure in `archive-findings.md`:** filter `is_product_revenue = 1`, then split on `is_intra_group`,
 then group by `contact_canonical`, `product_line` and `year`, summing `net`.
