@@ -299,13 +299,13 @@ looked** — provided the tiers are respected rather than the roster being clear
   overflow lines, so the record keeps filling without anyone pushing it.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
-- **Name the definition, or the metric will report growth that is only a change of definition** (`archive-findings.md`
-  findings 25–26). **Four "dealer counts" are in circulation and they differ by a factor of five:** engine accounts
-  marked `approved` **340**, Monday `Approved Dealers` **266**, approved dealers ever matched to a purchase **104**,
-  flagged `Current Customer` **62**. *"Approved"* means different things in the two systems — in engine it is nearly
-  universal, because engine only holds accounts that completed registration. **The measure to use is a purchase in
-  the period**: countable from the transaction record and from engine, and immune to how an account was once
-  categorised.
+- **Report the ladder, not one number** (`archive-findings.md` findings 25–26). **The account is the unambiguous
+  milestone: nobody sees pricing without one, and an account exists only after signed T&Cs** (Neil, 2026-08-14) —
+  so the many statuses either side of it are progress tracking, not looseness. The four counts are **sequential
+  milestones on one journey**: **has an account 348** → curated as an approved dealer 266 → **ever purchased 104** →
+  **currently purchasing 62**. **The gate is passed 348 times and converts 104 times, and that gap is the sales
+  problem in one line.** Both ends are countable in engine today with no new capture — **accounts created per
+  period, and how many convert to a first purchase.**
 - **And now one number that does have a baseline — active dealers per year** (`archive-findings.md` finding 16).
   Breadth is the measured weakness across every own-brand entity: the distribution business ran **354 dealers with
   its largest at 5.3 % of revenue**; DT runs **76 across ten years with one account at 31.5 %**, and only

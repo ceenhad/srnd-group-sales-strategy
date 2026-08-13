@@ -1240,19 +1240,58 @@ LED wall window display* (£162,800), *45 Park Lane — The Dorchester* (£50,00
 (1install Group, AV6, Amplified Lifestyles, Boca Theater & Automation, Cinema Lusso, Genesis AV, Glo Audio Visual,
 Holburn Hi-Fi, Heag Soluções and 31 more) and are worth a migration check rather than an assumption.
 
-**But the two systems do not mean the same thing by "approved", and this is the trap.** In engine **340 of 348
-accounts are `approved`** — it is not a filter, because engine only holds accounts that completed registration. In
-Monday, `Approved Dealers` is a curated 266 out of 1,658. **Neither number is the trading base.**
+**But the two systems do not count the same population, and that is the thing to hold on to.**
 
-> **So four different "dealer counts" are now in circulation, and they differ by a factor of five:**
+> **▶ Corrected by Neil, 2026-08-14 — the account is the milestone, and it is a strict one.** *"No one can access
+> pricing until they have an account. Literally signed and agreeing T&Cs. It's exactly the sort of unambiguous
+> milestone we want. Note there are lots of potential states for accounts as that is where we try to track
+> progress."*
 >
-> | Definition | Count |
-> |---|---|
-> | Engine accounts marked `approved` | **340** |
-> | Monday `Approved Dealers` | **266** |
-> | Approved dealers ever matched to a purchase | **104** |
-> | Flagged `Current Customer` on ≥1 brand | **62** |
+> **My framing above was wrong in a way worth naming.** I read *"340 of 348 approved"* as evidence that `approved`
+> had come loose from commercial reality. **It is the reverse.** Engine holds **only** accounts, an account exists
+> **only** after signed terms, and signed terms are what unlock pricing — so **every one of the 348 is a partner who
+> has agreed T&Cs.** That is not a soft category; it is the cleanest gateway in the business, and it is exactly the
+> unambiguous milestone `group/09-motion-design.md` asks the gateway signals to be built on (`JNY-1`).
 >
-> **`NEXT.md` §D's dealer metric must name which one it means, or it will report growth that is only a change of
-> definition.** The defensible measure is a purchase in the period — countable from the transaction record and from
-> engine, and immune to how an account was once categorised.
+> **And the many statuses are a feature, not drift** — they are where progress is tracked *after* the milestone, in
+> both systems: engine's `pending → approved → active → suspended → non_trading`, and Monday's per-brand
+> `Not Customer → Approached → Presented → Demonstrated → Current Customer` (finding 20).
+
+**So the counts are not competing definitions of one thing. They are sequential milestones on one journey**, and the
+right move is to report the whole ladder rather than pick a number:
+
+| Milestone | Count | What it means |
+|---|---|---|
+| **Has an account** | **348** *(engine)* | **Signed T&Cs; can see pricing.** The unambiguous gate |
+| Curated as an approved dealer | 266 *(Monday)* | A judgement laid over the gate |
+| Has ever purchased | 104 | Converted at least once |
+| Currently purchasing | 62 | Live trading relationship |
+
+**Read that way it is a funnel with a clear diagnosis: the gate is passed 348 times and converts 104 times.** The
+drop from *signed and able to see prices* to *ever bought* is the sales problem stated in one line — and it is the
+same gap finding 20 shows from the presentation side.
+
+### The milestone is dated in engine, but only from June 2026
+
+| | Accounts |
+|---|---|
+| Accounts | 348 |
+| With `terms_accepted_at` | **12** — all between 2026-06-09 and 2026-08-11 |
+| With `approved_at` | 17 |
+| With a signed terms document and signature image | 12 |
+| With a pricing tier set | 18 |
+
+**The signature exists for all 348** — it is how they got a record at all, via the Shopify form
+(`current-state.md`) — **but the date of it only lives in engine for those who registered through engine's own flow
+since June.** New-account creation is countable per month regardless (roughly 4–14, back to at least March 2025).
+
+> **So the metric §D needs is already running and needs no new capture: accounts created per period, and of those,
+> how many convert to a first purchase.** Both sides are in engine today. **The only thing missing is the signing
+> date on the 336 migrated accounts**, which matters for cohort analysis and not for the forward count.
+
+### The reconciliation that follows
+
+**225 of 265 Monday approved dealers are in engine — 85 %.** The 40 that are not (1install Group, AV6, Amplified
+Lifestyles, Boca Theater & Automation, Cinema Lusso, Genesis AV, Glo Audio Visual, Holburn Hi-Fi, Heag Soluções and
+31 more) are **worth checking precisely because the account is a strict gate**: if they hold signed terms and no
+engine account, they cannot see pricing. That is `MON-12`.
