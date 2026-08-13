@@ -18,7 +18,11 @@ strike.
   the design work.
 - **Olivier** (Marbella) — sales leader.
 - **Ben** — rendering expert, increasingly strategy and communications.
-- **Simon Ridley** — co-founder. **[?]** current role in sales.
+- **Simon Ridley** — co-founder. **[?]** current role in sales. Wrote engine, operations-first (see below).
+- **Former sales staff, and the reason Monday's ownership data reads oddly:** **Mark Franks** (primary sales on 225
+  accounts) and **Erica Johnson** (19) **have both left** (Neil, 2026-08-13). So the list above is current and
+  complete; the Monday CRM records their ownership historically. **Worth knowing before reading account ownership as
+  live coverage** — 244 of 547 owned accounts sit with people who are gone.
 - Factory in Kirkbymoorside, North Yorkshire. **[?]** headcount, and who else touches customer contact.
 - **No field sales force**, and none being sought (`decided.md` S1).
 
@@ -31,16 +35,103 @@ strike.
 - **[?] Lead sources, ranked.** Referral, existing dealers, search, trade press, events, the tools — no view of
   the actual split.
 - **[?] Enquiry volume**, and **[?] who receives and answers enquiries first.**
-- **Engine is the CRM** — years of real project and prospect data, stored and trackable as required
-  (Neil, 2026-08-02). *(Replaces an earlier [?].)*
+- **Engine is the CRM** — real project and prospect data, stored and trackable as required
+  (Neil, 2026-08-02). *(Replaces an earlier [?].)* **Refined against engine itself, 2026-08-13
+  (`engine-audit.md` §0): the accounts are deep and migrated — 348 customers, 591 contacts — but engine's own
+  transactional history is eleven weeks** (77 sales orders from 2026-05-28; 12 quotes, 2 won, 0 rejected;
+  activities from 2026-06-11).
+- **The account data is unusually trustworthy, and the reason is structural** (Neil, 2026-08-13). It came from the
+  Shopify database, **where a record only exists once a customer has signed a form** — so it is about as clean as
+  this data gets. Treat it as reliable rather than as an import of unknown quality.
+- **The historical pipeline is in the old Monday.com CRM logs, not in engine** (Neil, 2026-08-13). Not yet handed
+  over. So the archive exists and is simply somewhere else — which is what makes `X6`, win/loss history and several
+  of the **[?]** items above answerable rather than lost (`backlog.md` MON-1).
+- **The data sources are now registered rather than remembered** — every historical sales source, its location, its
+  scope and the method needed to reproduce the figures is in **`archive-findings.md` § "the source register"**
+  (Neil, 2026-08-13: *"important to store these data sources so we don't have to go looking again"*). Outstanding
+  sources are named there too, each with its backlog row.
+- **History reaches back to 2012 at least, "if we want it"** (Neil, 2026-08-13). **So the group's founding premise
+  is measurable for the first time** — whether dealer relationships genuinely compound across brands over years
+  (`group/00-strategy.md`; `backlog.md` MON-3). It predates the group's formation in March 2023, so it spans
+  predecessor companies and engine's three `business_entities` — cross-entity counting is a deliberate choice, not
+  an incidental one. **The volume is also the risk:** fourteen years rides on nothing, so it is worked as four
+  named counts, not as a mining project (`MON-2`).
+- **▶ Tranche 1 measured, 2026-08-13 — `archive-findings.md`.** The entity is **Apex Tech Scotland Ltd**, i.e.
+  **GT → Apex-Tech UK → SRND Distribution** (Neil, 2026-08-13) — *not* the resigned US Apex-Tech — so this is **one
+  of the six brands' own twelve-year record**, and it puts numbers on the repo's "twenty years of distribution":
+  **2012–2023, £11.75m net, 367 customers, 55 lines. UK dealers only** — the international network is not in it, so
+  this is a domestic figure and domestic behaviour, not the group's historic total.
+- **▶ Tranche 2 — Display Technologies, 2016 to 2026-08-12** (`archive-findings.md`). **£4.22m external revenue plus
+  £1.38m intra-group — a quarter of DT's output goes through group entities** (Apex Tech Scotland, SRND Group Ltd,
+  and Apex Tech International, which *"served Europe mainly but was pointless as a third company, so we rolled it
+  into SRND"* — Neil, 2026-08-13). **DT is far more concentrated than distribution: 76 external dealers ever, 11–27
+  active in a year, one account at 31.5 % and the top five at 61.0 %** against distribution's 22.3 %.
+- **DT's non-Apex dealer revenue has fallen every year since 2020** — £484,405 then, £184,931 in 2025, a **62 %
+  decline** masked until 2024 by Apex's growth. New dealers: 14 in 2024, then 5 in 2025 and 2 in 2026. **This is the
+  "a distributor owns the relationship instead of us" argument measured on DT itself** (`group/00-strategy.md`).
+- **The Apex-Tech resignation is dated: the agreement officially ended 1 July 2026**, with the customary **90 days'
+  grace** for projects already in play while our own push starts (Neil, 2026-08-13). **Grace runs to about 29
+  September but is already spent — £356 since 1 July, one order.** So Apex is effectively at zero and **the cliff is
+  behind us, not ahead.** For scale: Apex was **£1,329,564 over seven years, 31.5 % of DT's external revenue ever**,
+  and the only dealer that ever bought all 13 product lines. The wind-down began before the formal end — H1 2026 ran
+  £62,143 against £143,463 in H1 2025.
+- **And DT has largely absorbed it already.** Total external revenue YTD is down only **9 %** (£241,685 → £219,539)
+  despite losing a third of the business, because **non-Apex revenue grew 60 % year-on-year** (£98,222 → £157,040).
+  **But it grew on a thinning base: ten active non-Apex dealers against nineteen or twenty in 2022–24.** Revenue is
+  recovering by concentrating rather than broadening — *"counted across every brand, over years"* is the count that
+  still needs fixing (`archive-findings.md` findings 9–10).
+- **Of that historic dealer base, only 93 of 354 (26 %) hold an account in engine today** — but they represent
+  **45 % of historic revenue**, so retention favoured the valuable end. **Just under half the top fifty accounts of
+  twelve years are absent.** And **50 dealers who were still trading in 2021–23 have no engine account at all,
+  £2.33m of historic net between them** (`backlog.md` MON-6). Matching is fuzzy, so those are **floors** pending
+  `MON-7`. **The founding premise holds:** first-order size predicts nothing — the £1–5k first-order
+  cohort out-earned the £50k+ cohort on later revenue, 71 % of all dealers started under £5k, and those dealers
+  produced 61 % of twelve years' revenue *after* that first order. Cross-sell is real but **slow: median eight
+  months** to a second line. **There is a data gap for 2024–2025** — after this file ends and before engine begins.
+- **Everyone in the company now works in engine** (Neil, 2026-08-13). **This is the baseline the whole automation
+  argument needed:** a capture route becomes a field on a screen people already use daily, not a new habit competing
+  with the day job — and the platform is owned outright, so extending it is a decision rather than a negotiation.
+- **Engine was written by Simon, whose frame is operations-first** (Neil, 2026-08-13). It explains the audit's whole
+  shape: the operational record is thorough, the selling and knowledge record is absent. **Useful as a predictive
+  rule** — operational, assume engine has it; selling, assume it does not (`engine-audit.md` §0).
 - **Follow-up when a dealer goes quiet already happens** as normal work (Neil, 2026-08-02). *(Replaces an
   earlier claim that this was unowned.)*
+
+### The commercial shape, as Neil states it (2026-08-13)
+
+*New facts, and several of them reframe the revenue tables above. Recorded here because they are the present state,
+not an argument about it.*
+
+- **The group runs at roughly break-even**, so **10–20 % growth is a tangible target** rather than an ambition.
+  On 2025's £1.44m that is **£150–300k** — small against the opportunities the archive already identifies, which
+  makes **focus, not scale, the binding problem.**
+- **LED walls carry 20 % margin, and that is a structural ceiling rather than a negotiated rate** — the group
+  occupies only the distribution step because it does not make the product, and *"we don't sell Leyard to another
+  distributor, so that's not a case that could ever happen"* (Neil, 2026-08-13). **Own-made sold direct to a dealer
+  earns two steps — manufacture and distribution — which stack to roughly 47–64 % depending on brand**
+  (`archive-findings.md` finding 22). So **£100k of own-made revenue is worth two to three times £100k of carried.**
+  The category is *"impossible to get into as a manufacturer."* The relationship
+  with **the industry number one** is what holds the category, and its purpose is *"a very nice revenue that supports
+  our own lines"* — infrastructure for the P&L rather than the strategic centre (`archive-findings.md` finding 18).
+- **No own speaker line is shipping, and Pro-Fi is the big bet.** The archive sizes the gap and it is larger than
+  first measured: **audio was 38.7 % of the distribution era's revenue — the group's largest category, ahead of
+  projection** — and **£4.8m, 24.7 %, across the whole group.** Today it is 9.3 % of SRND and entirely carried.
+  **The sharpest number is `NEXTGENTECH`: £779,979 of audio over IP, which is exactly where Pro-Fi is aiming**
+  (Neil) — a matched precedent rather than an adjacent one (`archive-findings.md` finding 17).
+- **C-ATS has been treated as little more than a hobby business**, and in that context is *"valuable pocket
+  money."* **It is not unknown to dealers — it is massively undersold**, which Neil describes as true of *"pretty
+  much all we have."*
+- **And the one-line diagnosis of the whole marketing problem, in his words:** *"no one can buy what they don't even
+  know exists."* **This is the demand-side statement of the same gap `product-register.md` counts on the supply
+  side** — the estate cannot answer what it has never written down.
 
 ### The dealer base
 
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**
 - **One dealer at roughly £500,000 in a year** — a substantial share of group revenue.
-- **[?] Concentration** — what share the top five accounts represent.
+- ~~**[?] Concentration**~~ — **answered for the GTUK era, 2012–2023** (`archive-findings.md` tranche 1): top 5
+  accounts **22.3 %** of net, top 20 **49.8 %**, top 50 **71 %**, across 354 paying dealers. **Half the revenue in
+  twenty accounts, and a long real tail behind it.** Still **[?]** for the current group post-2023.
 - **Territory spread** — 21 international appointments across 20-odd territories (above). **[?]** the direct
   dealer count behind them, and how much of group revenue is UK-direct.
 - **[?] How many dealers buy more than one brand** — the cross-sell number the whole group thesis rests on, and
@@ -68,7 +159,7 @@ network is almost entirely a DT network.*
 | DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
 | DT | Qualtron | Yachting | On-board entertainment | No business so far |
 | DT | Screen Innovations | USA | **White label — they own the relationship, not us** | Not a route to market for DT as a brand |
-| DT | ~~Apex-Tech~~ | USA | Our largest distributor | **Resigned from DT.** The US is now open |
+| DT | ~~Apex-Tech~~ | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
 | DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
 | DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
 | DT | Tectrade Brun | Switzerland | Strong in cinema, complete portfolio | Starting to grow, high-potential territory |
@@ -87,7 +178,10 @@ network is almost entirely a DT network.*
 - **Apex-Tech, the largest distributor in the network, has resigned from DT.** Combined with the point above,
   **the US — the largest market in the world — is now unrepresented and unencumbered.** Read as an opportunity
   rather than a loss: it is the first chance to present the whole group there rather than one brand through
-  somebody else's badge.
+  somebody else's badge. **Now dated and sized** (2026-08-13): the agreement ended **1 July 2026** with 90 days'
+  grace, and it was **£1.33m over seven years — 31.5 % of DT's external revenue ever, the only dealer that bought
+  the whole range.** The exposure is real and already largely absorbed: DT's non-Apex revenue grew 60 % YTD, leaving
+  total external down just 9 % (`archive-findings.md` findings 9–10).
 
 **And most of these are not really distributors.** In practice most are **dealer-distributors** — they buy for
 their own projects like a dealer while holding a territory like a distributor. That collapses a distinction the

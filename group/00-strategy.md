@@ -15,6 +15,13 @@ through one brand is a natural buyer for the others. Three consequences run thro
 
 - **There is no long tail to service cheaply.** A small order in one brand isn't a low-value account; it's
   the opening of a group relationship. We don't triage dealers by any single brand's order size.
+  > **Measured, and it holds — 2026-08-13** (`../archive-findings.md`, twelve years of GTUK invoices).
+  > **First-order size predicts nothing:** the £1–5k first-order cohort went on to out-earn the £50k+ cohort;
+  > 71 % of all dealers started under £5,000 and produced **61 % of twelve years' revenue after that first order**;
+  > the largest account of the period opened under £5,000. About half of small first orders never reorder — so the
+  > defensible form of this rule is **not** that small orders grow, but that **nothing in a first order tells you
+  > which half you are looking at.** Triage by opening order size discards a signal we do not have.
+  > *Caveat: distribution lines rather than the six brands — a strong analogue, not the direct measure.*
 - **Direct is asset-building, not cost-saving.** A distributor owns the relationship instead of us, and the
   group knows what that costs from the other side: twenty years spent distributing other companies' brands,
   where doing the job badly and doing it well both end the same way (`01-commercial-model.md`).

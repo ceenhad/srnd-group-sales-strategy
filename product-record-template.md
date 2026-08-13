@@ -268,6 +268,13 @@ campaign**, which the production line forbids. This group holds the material; **
 *Each carries a state: **`current`** · **`exists — stale`** · **`missing`** · **`n/a — reason`**. This group is what
 makes the debt countable.*
 
+> **This group has a system home, found 2026-08-13 (`engine-audit.md` §1, group 12).** Engine's `doc_document`
+> already carries `status`, **`stale`** and `last_published_at` — this group's state vocabulary, implemented — with
+> templates that *generate* `A1` and `A6` (a Pro-Fi speaker datasheet, a DT screen manual), a `content_snapshot`
+> freezing the fields that produced each PDF, and `coverage_rule` + `coverage_snapshot` computing the completeness
+> meter. **So this group is read from engine, not maintained by hand**, and `A4`, `A5` and `A7`–`A11` are new
+> `doc_kind`s rather than a new system.
+
 | ID | Asset | Primarily for |
 |---|---|---|
 | `A1` | Datasheet | Specifier, dealer evaluating |
@@ -342,9 +349,12 @@ currently generate paperwork and cannot generate a salesperson**, which is preci
 to replace.
 
 **And the last row is not content.** `X4`, `X6` and `N9` — where competitors beat us, why deals are lost, what we
-are asked and cannot answer — feed the product and the testing budget, not the corpus. **`X6` is largely a read
-from engine's pipeline rather than something to capture afresh.** **A database built to sell
-the thing also tells you what to fix about it**, and that is a reason to keep it honest rather than flattering.
+are asked and cannot answer — feed the product and the testing budget, not the corpus. ~~**`X6` is largely a read
+from engine's pipeline rather than something to capture afresh.**~~ **Struck 2026-08-13 against engine itself
+(`engine-audit.md` §1, group 05): a quote carries `won_at` and nothing else — no loss reason, no competitor, no
+dimension — and there is no loss history to read regardless. `X6` must be captured, not read.** **A database built
+to sell the thing also tells you what to fix about it**, and that is a reason to keep it honest rather than
+flattering.
 
 **Two hard gates, and they are not stylistic.**
 
@@ -506,9 +516,11 @@ is six triggers, five of which already fire every week (`product-data-schema.md`
 1. **A running route fills its fields forever; a field filled by a push starts decaying the day it is written.**
    Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
    reason those fail is that they ask one person to hold everything.
-2. **RT5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. The live
-   question is whether the recorded loss reason carries **which competitor, on which dimension** — the structure
-   group 05 needs — or only the fact of the loss. Check engine before designing anything (`decided.md` S16a).
+2. **RT5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. ~~The live
+   question is whether the recorded loss reason carries **which competitor, on which dimension**~~ — **answered
+   2026-08-13 (`engine-audit.md` §3, REC-2): neither. Only the fact of a loss has a home** (`project_statuses.lost`,
+   an unused `rejected` quote status); there is no loss-reason, competitor or dimension field anywhere in engine.
+   **RT5 fills `M1`–`M5` and `O1` from live quoting, but `X1`–`X6` needs capture built.**
 3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the
    application fields; every support answer fills the knowledge fields. Both happen anyway, both get written into
    an email and lost. The archive is the proof (`backlog.md` CON-3) — **the knowledge exists, it has just never

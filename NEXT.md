@@ -22,6 +22,68 @@ by-products of ordinary business do most of the strategic work. One test governs
 Almost nothing should need the second. Where something genuinely does, it is named as such and there is
 only one of them.
 
+**The archive now puts a size on the business this plan is for** (`archive-findings.md` finding 14, added
+2026-08-13). Fifteen years, five entities, **£19,443,934 of external revenue** — with a **2021 peak of £2.63m**, a
+**2025 of £1.44m**, and 2026 annualising near **£1.7m** on lumpy orders. **Two things follow, and they pull in
+opposite directions:**
+
+- **The constraint above is confirmed, not softened.** This is a business of a few million, so the parallel-path
+  test stands and a programme of projects is still not affordable.
+- **But the decline was structural, not a loss of demand.** The fall from 2021 is the **UK distribution business
+  winding down** — £1.88m that year, nil after 2023 — while the own-brand and SRND lines grew into it. **Own-brand
+  share roughly tripled, 11 % to 34 %.** So the plan is written for a business that is **rebuilding on a narrower
+  base**, not one in retreat, and that is why breadth rather than revenue is the metric §D now adds.
+
+## One strategy applied, not a strategy per brand — and the repo already said so
+
+*Neil, 2026-08-13: "the critical question is do we need to be doing a strategy per brand or is the much more
+realistic one good strategy done well and applied to all viable."* **Answer: one, applied — and this is a
+confirmation rather than a new decision.** `CLAUDE.md` already binds it: *"Group strategy is brand-agnostic… A brand
+playbook applies the group strategy; it must not re-invent it."* What follows is the evidence that the discipline was
+right, plus the part that was missing — **which brands qualify as viable.**
+
+**Four reasons from the numbers, in order of force:**
+
+1. **Capacity settles it before preference does.** Two founders, no marketing department, roughly break-even at
+   £1.44m (2025). **Six brand strategies is precisely the "programme of projects" this page's one test forbids.**
+2. **The dealer, not the brand, is the unit that earns.** Across twelve years **multi-line dealers were 44 % of the
+   base and 87.7 % of revenue** (`archive-findings.md` finding 2), with the second line arriving a median eight
+   months later. A per-brand strategy optimises the wrong unit and makes six brands compete for one dealer's
+   attention.
+3. **The problem is common, so the fix is common.** *"Massively undersold in the way of pretty much all we have. No
+   one can buy what they don't even know exists"* (Neil). **That is one problem with one remedy** — the record, then
+   the corpus, then the knowledge base — and it does not vary by brand.
+4. **What genuinely differs by brand is content, not strategy**, which is already how the machinery is built: the
+   form is group and the fill is brand (`product-record-template.md`); the motion is designed once and inherited
+   (`group/09-motion-design.md`).
+
+**And the growth arithmetic makes focus decisive rather than optional.** 10–20 % on £1.44m is **£150–300k** — and
+**the whole of it is available from partners who have already signed** (`archive-findings.md` finding 27). **348 hold
+an engine account, meaning signed T&Cs and pricing access; 159 have ever bought; 189 have not.** At the mean
+first-year value the target is **10–20 first orders**, at the median **32–64** — 5 % to 34 % of that pool. **No new
+capture, no new content, no new system.** The
+archive already names several other opportunities of that size or larger — the **50-dealer reactivation list at
+£2.33m of historic net** (`MON-6`), the **Apex US dealer base** (`US-4`, `C1j`), **C-ATS reaching 12 dealers where
+distribution reached 354**. **The risk is not a shortage of opportunity; it is spreading one team across six brand
+plans and landing none of them.**
+
+### Which brands are "viable", from the data
+
+**This is the filter the question implies, and the numbers give it.** Four tiers, and the strategy is applied to the
+first three in this order:
+
+| Tier | Brands | Evidence |
+|---|---|---|
+| **Apply now — revenue and dealers exist** | **DT**, **Fabric Walls** | DT £4.22m / 76 dealers, though breadth is thinning; Fabric Walls £276k product in under three years, **32 dealers — the broadest own-made line — and flat rather than declining** |
+| **Apply now — the cheapest possible win** | **C-ATS** | £254k / 12 dealers and *"massively undersold"* rather than unknown. **Already has the record and the copy written.** Twelve dealers against distribution's 354 is the gap; the standard is already set here |
+| **Apply early because the gap is measured** | **Pro-Fi** | Pre-revenue, but **audio was 38.7 % of the distribution era — the group's largest category** — and **£779,979 of that was audio over IP, exactly where Pro-Fi aims** (finding 17). **The big bet** (Neil). It does not need its own strategy — it needs step 3 applied to it before launch, so it ships with a record instead of acquiring one later |
+| **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines**, not as a brand to build. **And the 20 % is a structural ceiling, not a rate to improve:** we occupy only the distribution step because we do not make the product, whereas own-made sold direct earns manufacture *and* distribution, stacking to **≈ 47–64 %** (finding 22). **£100k of own-made revenue is worth two to three times £100k of carried** — which is the arithmetic case for ranking work by margin rather than revenue |
+
+**Two consequences for the sequence above.** Step 3's C-ATS-first ordering stands and gets cheaper — it is now also
+the *undersold* argument, not only the data-exists one. And **Pro-Fi joins step 3 rather than waiting for a launch
+plan**: the record is what turns a pre-revenue brand into a sellable one, and building it before launch is the only
+version of *"build it, then say it"* that does not cost a re-do.
+
 ## The critical path, in the order rev 1 puts it
 
 *Stress-test items 1, 2 and 3 (`open-items.md`) are not three problems. Documentation is the critical path for
@@ -133,10 +195,10 @@ assumed an engine gap twice and been wrong both times.
 | | Step | Why it comes here | Rows |
 |---|---|---|---|
 | **1** | **Agree the roles** | An unowned critical path becomes next year's problem | §A below |
-| **2** | **Ask engine what it already does** | `detect`, `record` and `route` appear in 20, 30 and 11 tasks, and most of those signals sit in engine already. This repo has assumed an engine gap twice and been wrong both times (`decided.md` S16a) | `TSK-5` |
+| **2** | ~~**Ask engine what it already does**~~ **▶ Done 2026-08-13 — `engine-audit.md`** | Asked directly. **Wrong a third time in the same direction:** engine holds a document-generation layer and a question→answer→gap mechanism this plan never mentioned, `detect` and `route` have spines already, and **`X6` cannot be read from the pipeline as assumed**. But group 04 is confirmed homeless, which is what step 3 rests on | `TSK-5` `DOC-12` `REC-0` |
 | **3** | **Fill the record** | `retrieve` reads from it in **28 of 46 tasks**. Nothing downstream drafts without it, and an empty record silently reverts every `assisted` task to manual | §B below · surviving `SYS-` and `KNW-` rows |
 | **4** | **Open the capture routes, with their overflow lines** | A running route fills its domains forever; a documentation push decays from the day it is written. The overflow is the only part that can grow the form rather than fill it | `SYS-1` `SYS-9` |
-| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record | `TSK-6` |
+| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record. **Resized by step 2: build the *rules*, not the plumbing** — `detect`'s signals, `route`'s notification/task/referral spine and a host for `assemble` (engine's agent layer, with budgets and an audit trail) all exist; `record` splits into "use engine" for the operational two-thirds and the genuine gap for the knowledge third (`engine-audit.md` §2) | `TSK-6` |
 
 **Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
 always called documentation — the product record is what it turned into once it had a form. **The row references
@@ -144,7 +206,10 @@ above were provisional until step 0; it has now run — see "What the QA produce
 
 **One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
-on the revenue path between a quote and its order. It is also one of the few items that came out of a real pass
+on the revenue path between a quote and its order. **And it now has its interval, measured** (`archive-findings.md`
+finding 24): **a won deal takes a median 153 days from creation; a lost one dies at 105.** So a deal quiet past
+roughly a hundred days is behaving like a lost one, and the median winner needs about seven more weeks of attention
+after that point. **About a third of qualified deals close** — the base rate to plan against. It is also one of the few items that came out of a real pass
 rather than a derivation, which is why it survives step 0 on its own merits.
 
 ### A. The roles, as commitments rather than titles
@@ -166,6 +231,19 @@ than an ambitious rate. *(Roles, never names — who fills each is a separate de
 **Not DT first**, even though DT carries the debt. C-ATS has three SKUs and the data, so it is where the standard
 gets set cheaply against a real example — and the record is already written (`brands/c-ats/product-records.md`),
 at 28 of 58 fields with the knowledge layer at 2 of 9.
+
+> **The archive qualifies this without overturning it — `archive-findings.md` findings 14–16.** The C-ATS-first
+> reason was always **cost of setting the standard**, not size, and that still holds. But the numbers say C-ATS is
+> the group's **smallest line by every measure**: £254,210 across ten years, **12 external dealers**, top five at
+> 85.9 %, and £3,978 in the whole of 2025. **So the standard is being set on the least representative product.**
+> Two consequences worth carrying into the work rather than reordering it:
+>
+> - **Validate the form against a second, unlike product before treating it as settled.** A form proven only on
+>   three acoustic SKUs sold to twelve dealers may not survive a DT mechanism family or a Fabric Walls room.
+> - **Fabric Walls is the strongest candidate for that second pass, and it has no record at all.** It is the
+>   **broadest own-made line — 32 dealers**, more than DT's 76 across ten years relative to its age, at £276,470
+>   product revenue in under three years and **flat rather than declining** (£107,991 → £108,206 → £60,273 part-year).
+>   `product-register.md` has no Fabric Walls rows; `DOC-20` already asks for them.
 
 **The knowledge layer is the half that matters** (group 04 of the form). It is what a rep speaks from, and
 everything else in the record is inert without it. `KNW-1`–`KNW-6` are that half; `SYS-3`–`SYS-5` are the front
@@ -225,6 +303,20 @@ looked** — provided the tiers are respected rather than the roster being clear
   overflow lines, so the record keeps filling without anyone pushing it.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
+- **Report the ladder, not one number** (`archive-findings.md` findings 25–26). **The account is the unambiguous
+  milestone: nobody sees pricing without one, and an account exists only after signed T&Cs** (Neil, 2026-08-14) —
+  so the many statuses either side of it are progress tracking, not looseness. The four counts are **sequential
+  milestones on one journey**: **has an account 348** → curated as an approved dealer 266 → **ever purchased 104** →
+  **currently purchasing 62**. **The gate is passed 348 times and converts 104 times, and that gap is the sales
+  problem in one line.** Both ends are countable in engine today with no new capture — **accounts created per
+  period, and how many convert to a first purchase.**
+- **And now one number that does have a baseline — active dealers per year** (`archive-findings.md` finding 16).
+  Breadth is the measured weakness across every own-brand entity: the distribution business ran **354 dealers with
+  its largest at 5.3 % of revenue**; DT runs **76 across ten years with one account at 31.5 %**, and only
+  **10 non-Apex dealers were active by mid-2026** against 19–20 in 2022–24. SRND is rebuilding fastest at **147 in
+  three years**. **Count it annually from engine** — it needs no new capture, it is the asset the strategy claims to
+  accumulate, and unlike "questions retired" it cannot be told a flattering story. *A rising revenue line on a
+  falling dealer count is the failure mode this metric exists to catch, and DT showed exactly that in 2026.*
 - **The signal the sequence is being skipped:** something gets built against an unverified row. Steps 1 and 2 cost
   hours; skipping them costs the build.
 
@@ -313,6 +405,12 @@ cross-sell problem is not access. We have the access and don't use it.
   future campaigns but **a prompt list for a conversation already happening**: when you're helping spec the
   acoustics, the fabric and the front-of-room structure are the natural next questions, and you are the
   person being asked.
+- **And the archive says when to say it, which changes the trigger** (`archive-findings.md` finding 4; `MON-4`).
+  Across twelve years, **74 % of multi-line dealers bought their second line on a later date, median 246 days —
+  eight months** — and 43 of them took over a year. **So the prompt fires on an established account, not at the
+  first order**, where three-quarters of the opportunity isn't there yet. That makes it a `detect` rule computable
+  from order history in engine (`engine-audit.md` §2) rather than a habit to remember. Cross-sell also *works*:
+  multi-line dealers were **44 % of the base and 87.7 % of revenue.**
 - **And start learning from it, not only helping through it.** With no field force, the spec conversation is
   our only discovery channel — the substitute for a rep sitting in a dealer's office
   (`group/08-sales-motion.md`). Today nothing is captured from it. **Smallest possible version:** after a
@@ -385,6 +483,15 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 in the world is unrepresented and unencumbered (`current-state.md`). Taken as an opportunity: the first chance to
 present the whole group there rather than one brand under somebody else's badge, and the first real test of the
 content-led model at scale.
+
+> **Now dated and sized, and the exposure is already absorbed** (`archive-findings.md` findings 9–10). The agreement
+> **ended 1 July 2026** with 90 days' grace, and the grace is spent — **£356 since**. Apex was **£1,329,564 over
+> seven years, 31.5 % of DT's external revenue ever, and the only dealer that ever bought all thirteen product
+> lines.** Yet DT's total external revenue is down only **9 % year-on-year to mid-August**, because **non-Apex revenue
+> grew 60 %** (£98,222 → £157,040). **So the cliff is behind us**, and `US-4` is live rather than parked.
+> **The catch is breadth, not the missing distributor:** that 60 % came from **ten active dealers against nineteen or
+> twenty in 2022–24.** Recovering Apex's dealer base is therefore both the fastest revenue *and* the fix for the
+> thinning count — which is why `C1j` and §D's new dealer-count metric point at the same work.
 
 **Logistics are already solved** — goods move as if we were located there, and a partner warehouse handles
 spares. So the usual barrier to entering a distant market is down, and **the binding constraint is support.**
@@ -480,6 +587,16 @@ since ISE 2023.
 
 - **Smallest next move:** a datasheet and a product page. Not a re-engineering — a description of what
   already exists, in projection and LED variants.
+- **The archive now sizes the LED shift this lane exists to answer, and margin sharpens it** (`archive-findings.md`
+  findings 14–15, 22). **At 20 % carried against ≈47 % own-made direct, the £610,885 of LED wall revenue earns about
+  what £260k of own-made would** — so the Screen Wall is not only the answer to the LED shift, it is the answer to
+  the margin dilution the shift causes.
+  **LED video walls are the single largest category in SRND's revenue — £610,885, 22.4 %** — and in 2026 three Leyard
+  Komodo lines alone were **£472,320, 54 % of SRND's year to mid-August.** Against that, own-made **Screen Walls are
+  £38,452.** So the demand is demonstrated and currently met almost entirely by **a carried brand**; the Screen Wall
+  is the own-made answer to the group's biggest revenue category and has no datasheet. **That is the strongest
+  evidence any lane on this page has**, and it also explains why the group's own-brand share fell in 2026 rather
+  than rising.
 - Rides on: nothing. This one costs time. It is worth it.
 
 ## Deliberately not now
@@ -495,7 +612,12 @@ Named so they read as choices rather than debt:
   into them — lane 1 produces it.
 - **The group identity line.** Unresolved, and better drafted once the beyond-cinema position has some
   evidence behind it.
-- **Light Walls.** Being worked separately.
+- **Light Walls.** Being worked separately. **And the archive now records why it needs to be**
+  (`archive-findings.md` tranche 3): external trading was **2021–2023 only** — £174,263, £236,222, £83,191 — and
+  **stopped**, with the residual Protopixel position invoiced across to SRND in March 2026. Over half its revenue
+  went through one counterparty, and a quarter of it was the bought-in Protopixel component whose failure caused the
+  stop. Neil reports work in progress on a replacement approach. **Nothing to plan here until that lands** — but the
+  three-year run is proof the demand existed, which is a different position from an untested brand.
 - **Whole-room ease.** The fragmentation fix is Engine and canonical-data work, not this repo's, and not
   something we can schedule from here.
 - **Deploying anything.** Still the last step, still deliberate.

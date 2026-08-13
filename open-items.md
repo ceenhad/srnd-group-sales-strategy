@@ -363,6 +363,21 @@ direct-first reasoning and the distributor analysis both travel; neither needs a
 
 ## Decisions needed (flag, don't guess)
 
+- ~~**▲ Is Apex-Tech actually gone?**~~ — **asked and answered, 2026-08-13. `C1f` and `C1j` stand unchanged.** The
+  agreement **officially ended 1 July 2026**, with the customary **90 days' grace** for projects already in play
+  *"while we are starting our own push"* (Neil). The trading that looked live in DT's record was notice and grace,
+  and the data confirms **the grace is already spent — £356 since 1 July, one order.** *Kept as a closed entry rather
+  than deleted, because the reasoning is the useful part: two account names for one counterparty, plus a part-year
+  row in an annual table, made a completed departure read as a live relationship. Flagging rather than concluding was
+  correct.* **The live exposure is the dealer count, not the missing distributor** — ten active non-Apex dealers
+  against nineteen or twenty in 2022–24, even though non-Apex revenue grew 60 % year-on-year
+  (`archive-findings.md` findings 9–10).
+- **What "no product exists in two places" actually means — evidence from engine, 2026-08-13.** The record form's
+  `C1` rule states it flatly, but engine shows **13 DT product codes published on both the `dt` store and
+  `srnd_store`** (DT-DYN, DT-HB, DT-MMD, DT-VMM, DT-PHG and eight more — `engine-audit.md` §1, group 11). Either the
+  rule means something narrower than it says — a brand store *plus* the group store being the intended arrangement,
+  which is what "six brands, one group, one relationship" would imply — or 13 listings contradict a settled rule.
+  **A wording decision, minutes not work**, and it gates whether `C1` can be filled honestly for any DT record.
 - **Group identity line / positioning statement** — unresolved, but now anchored. Both current lines
   are weak (the store's "luxury solutions for high-tech environments"; the group site's "British
   manufacturing for high-end environments"). It should **derive from the moat** (`group/00-strategy.md`):
