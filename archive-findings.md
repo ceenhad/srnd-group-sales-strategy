@@ -1005,7 +1005,11 @@ ceiling of the position.** Neil's framing follows directly: *"a very nice revenu
 strongest single argument in this file for ranking work by margin rather than by revenue. **On the same arithmetic,
 £100k of own-made revenue is worth roughly £47–64k, against £20k carried** — a factor of two to three.
 
-*One check I could not run: none of the six sold LED-wall lines has a cost in engine. The costed Leyard products are
-`LE-21:9-81` (landed £4,678) and `LE-URW105`; the Komodo cabinets that produced the £610,885 are not in engine's
-product table at all. **So the 20 % is Neil's figure applied to revenue, not a realised margin measured per line** —
-which is exactly what `MON-10` still needs a cost column for.*
+**These rates are owner-supplied and are treated as authoritative** (Neil, 2026-08-13). That is the same standing as
+every other commercial fact in this repo — the pricing gate, the terms, the territory positions — and it needs no
+corroboration from the ledger. **`MON-10` is closed on that basis:** the question it existed to answer, *can work be
+ranked by margin rather than revenue*, is answered.
+
+*A cost column on the exports (`MON-11`) would still add something, but it is a smaller thing than the row implied:
+per-line realised margin, showing where discounting moved an actual sale away from these rates. It would refine the
+picture, not correct these figures.*
