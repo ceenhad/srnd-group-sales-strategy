@@ -15,6 +15,7 @@ lives, what it covers, and what it cannot answer.
 |---|---|---|---|---|
 | 1 | **GTUK / Apex Tech Scotland sales analysis** | Dropbox — `/GTUK Staff/Sales/Reports/GTUK - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo8w` | SRND Distribution's forerunner. **UK dealers only** | 2012-01-11 → 2023-12-04 |
 | 2 | **DT sales analysis** | Dropbox — `/DT Management/Sales/DT - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo-Q` | Display Technologies, incl. international dealers and intra-group | 2016-07-12 → 2026-08-12 |
+| 2b | **C-ATS account transactions** — *different report type, see below* | `data/source/C-ATS - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Cinema Acoustic Treatment Systems Limited, incl. intra-group | stated 2016-01-01 → 2026-08-31 |
 | 3 | **Engine** *(live, not an extract)* | Supabase project **`vzgdhfsmxteoxxsuexyg`** (`SRND Engine`, eu-west-2). Testbed is `bpsaxuwitlycubnvmfrr`. Read-only MCP is pinned to the production ref | Current accounts, quotes, orders, products, documents | Accounts migrated; transactions from **2026-05-28** |
 | 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
 | 5 | **Old Monday.com CRM logs** | **Not yet handed over** — `backlog.md` `MON-1` | Historic pipeline: quotes, stages, win/loss | Pre-engine |
@@ -30,10 +31,22 @@ lives, what it covers, and what it cannot answer.
 links; those carry an access token, expire, and are revocable, so they are **deliberately not recorded here.** The
 file id is stable across renames and moves and resolves directly through the Dropbox tooling.
 
-**A note on what these files are.** Sources 1 and 2 are the same Xero-derived report run for two entities: one row
-per invoice line, twelve columns, with a `Raw Data` sheet plus pivot sheets. **The `Raw Data` sheet always reaches
-further back than the pivots** — GTUK's pivots start at 2019 while its raw data starts at 2012 — so **work from
-`Raw Data`, never from the pivots.** If a third entity's report appears, expect the same shape.
+**A note on what these files are.** Sources 1 and 2 are the same Xero-derived **Sales Analysis Report** run for two
+entities: one row per invoice line, twelve columns, with a `Raw Data` sheet plus pivot sheets. **The `Raw Data` sheet
+always reaches further back than the pivots** — GTUK's pivots start at 2019 while its raw data starts at 2012 — so
+**work from `Raw Data`, never from the pivots.**
+
+**Source 2b is a different Xero report — Account Transactions — and needs different handling.** Three differences
+that will silently produce wrong numbers if missed:
+
+1. **The contact is a group header row, not a column.** Transactions sit under a bare row naming the contact, closed
+   by a `Total <contact>` row. Parsing row-wise without tracking the current group loses the dealer entirely.
+2. **Amounts are `Debit (GBP)` / `Credit (GBP)`, not `Net`.** Revenue is a **credit**; reversals, write-offs and
+   credit notes are debits. **Net = credit − debit.**
+3. **No item code or quantity**, and the `Reference` column carries the invoice number — sometimes a real one
+   (`INV-0013`), sometimes free text (`Stock Catchup`, `Jay Demo Pack`). Treat it as a label, not a key.
+
+Both report types are normalised to the same column contract in `data/derived/` — see `data/README.md`.
 
 ### Method, so the numbers reproduce
 
