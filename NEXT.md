@@ -73,7 +73,7 @@ first three in this order:
 | **Apply now — revenue and dealers exist** | **DT**, **Fabric Walls** | DT £4.22m / 76 dealers, though breadth is thinning; Fabric Walls £276k product in under three years, **32 dealers — the broadest own-made line — and flat rather than declining** |
 | **Apply now — the cheapest possible win** | **C-ATS** | £254k / 12 dealers and *"massively undersold"* rather than unknown. **Already has the record and the copy written.** Twelve dealers against distribution's 354 is the gap; the standard is already set here |
 | **Apply early because the gap is measured** | **Pro-Fi** | Pre-revenue, but **audio was 38.7 % of the distribution era — the group's largest category** — and **£779,979 of that was audio over IP, exactly where Pro-Fi aims** (finding 17). **The big bet** (Neil). It does not need its own strategy — it needs step 3 applied to it before launch, so it ships with a record instead of acquiring one later |
-| **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines at 20 % margin**, not as a brand to build (finding 18) |
+| **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines**, not as a brand to build. **And the 20 % is a structural ceiling, not a rate to improve:** we occupy only the distribution step because we do not make the product, whereas own-made sold direct earns manufacture *and* distribution, stacking to **≈ 47–64 %** (finding 22). **£100k of own-made revenue is worth two to three times £100k of carried** — which is the arithmetic case for ranking work by margin rather than revenue |
 
 **Two consequences for the sequence above.** Step 3's C-ATS-first ordering stands and gets cheaper — it is now also
 the *undersold* argument, not only the data-exists one. And **Pro-Fi joins step 3 rather than waiting for a launch
@@ -573,7 +573,10 @@ since ISE 2023.
 
 - **Smallest next move:** a datasheet and a product page. Not a re-engineering — a description of what
   already exists, in projection and LED variants.
-- **The archive now sizes the LED shift this lane exists to answer** (`archive-findings.md` findings 14–15).
+- **The archive now sizes the LED shift this lane exists to answer, and margin sharpens it** (`archive-findings.md`
+  findings 14–15, 22). **At 20 % carried against ≈47 % own-made direct, the £610,885 of LED wall revenue earns about
+  what £260k of own-made would** — so the Screen Wall is not only the answer to the LED shift, it is the answer to
+  the margin dilution the shift causes.
   **LED video walls are the single largest category in SRND's revenue — £610,885, 22.4 %** — and in 2026 three Leyard
   Komodo lines alone were **£472,320, 54 % of SRND's year to mid-August.** Against that, own-made **Screen Walls are
   £38,452.** So the demand is demonstrated and currently met almost entirely by **a carried brand**; the Screen Wall

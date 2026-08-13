@@ -905,7 +905,7 @@ Engine models pricing two ways, and both are populated:
 **`brand_tier_cost_multipliers` — cost × multiplier = price**, for the own-made brands: **distributor 1.6 ·
 dealer 2.1 · 3.0 with no tier** (read as RRP). Present for Fabric Walls, Pro-Fi and SRND; absent for DT and C-ATS.
 
-### The ambiguity, and it is material — `[?]`
+### The ambiguity, and it is material — ~~`[?]`~~ **resolved below**
 
 **Is `margin` *our* margin or the *channel's*?** Both readings are supported and they give different answers:
 
@@ -929,7 +929,7 @@ with the cost multipliers.** Flagged rather than resolved — one sentence from 
 | LED video walls *(carried, Leyard)* | £610,885 | £122,177 *(20 %)* | £122,177 *(20 %)* |
 | **Fabric Walls** *(own-made)* | **£276,470** | **£144,870** *(52.4 %)* | £82,941 *(30 %)* |
 
-**Under reading A, Fabric Walls out-earns LED walls on under half the revenue.** Under B it does not, but the gap
+*(Superseded by the resolution below: the answer is the A-shaped one, arrived at differently.)* Under reading A, Fabric Walls out-earns LED walls on under half the revenue; under B it does not, but the gap
 narrows from 2.2× on revenue to 1.5× on margin. **Either way the revenue tables in findings 14–16 overstate the
 carried lines**, and Neil's framing — LED as *"revenue that supports our own lines"* — is what the numbers support.
 
@@ -962,3 +962,50 @@ is a cost column on the Xero exports** (`MON-11` covers the same re-export) **or
 dealer 0.40 / distributor 0.35. **Every other brand gives the dealer the higher figure**, so the active list is the
 odd one out on DT as well as being incomplete. **Not corrected here — read-only access, and it is a live pricing
 control.**
+
+### ▶ Resolved (Neil, 2026-08-13) — the margins are per-step and they stack
+
+Two sentences settled it: *"we don't sell Leyard to another distributor so that's not a case that could ever
+happen"* and **"a DT screen sold direct to dealer nets us both margins."**
+
+**So `margin` is the margin earned at each step of the chain — manufacture → distribution → dealer — and because the
+group owns both the manufacturing and the distribution arm, a direct-to-dealer sale earns both steps.** Neither
+Reading A nor Reading B above was right on its own; the structure is stacking, not either/or.
+
+| What we sell | Steps we occupy | Our margin |
+|---|---|---|
+| **Own-made, direct to dealer** | manufacture **and** distribution | **both margins stack** |
+| Own-made, through a distributor | manufacture only | the manufacturing step alone |
+| **Carried (Leyard)** | distribution only — we do not make it | **one step: 20 %** |
+
+**Worked from the stored figures**, compounding the two steps (1 − (1 − m₁)(1 − m₂)):
+
+| Brand | Distributor step | Dealer step | **Direct-to-dealer margin** |
+|---|---|---|---|
+| DT | 0.40 | 0.35 | **≈ 61 %** |
+| C-ATS · Pro-Fi | 0.40 | 0.40 | **64 %** |
+| Fabric Walls | 0.25 | 0.30 | **≈ 47 %** |
+| **Leyard** | *n/a — never happens* | 0.20 | **20 %** |
+
+**Sense-checked against the other mechanism:** the own-made cost multipliers give 1 − 1/2.1 = **52.4 %** at the
+dealer tier, which sits inside the 47–64 % range the stacked margins imply. **The two mechanisms agree.**
+
+**And this is why the carried lines are structurally different, not just lower-margin.** On Leyard the group can only
+ever occupy one step, because it does not manufacture the product — so **20 % is not a negotiating outcome, it is the
+ceiling of the position.** Neil's framing follows directly: *"a very nice revenue that supports our own lines."*
+
+### The comparison, now settled
+
+| | Revenue | Margin rate | **Margin** |
+|---|---|---|---|
+| LED video walls *(carried)* | £610,885 | 20 % | £122,177 |
+| **Fabric Walls** *(own-made, direct)* | **£276,470** | **≈ 47 %** | **≈ £131,000** |
+
+**Fabric Walls out-earns LED walls on less than half the revenue** — finding 18's hypothesis confirmed, and the
+strongest single argument in this file for ranking work by margin rather than by revenue. **On the same arithmetic,
+£100k of own-made revenue is worth roughly £47–64k, against £20k carried** — a factor of two to three.
+
+*One check I could not run: none of the six sold LED-wall lines has a cost in engine. The costed Leyard products are
+`LE-21:9-81` (landed £4,678) and `LE-URW105`; the Komodo cabinets that produced the £610,885 are not in engine's
+product table at all. **So the 20 % is Neil's figure applied to revenue, not a realised margin measured per line** —
+which is exactly what `MON-10` still needs a cost column for.*

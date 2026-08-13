@@ -105,7 +105,12 @@ not an argument about it.*
 - **The group runs at roughly break-even**, so **10–20 % growth is a tangible target** rather than an ambition.
   On 2025's £1.44m that is **£150–300k** — small against the opportunities the archive already identifies, which
   makes **focus, not scale, the binding problem.**
-- **LED walls carry 20 % margin**, and the category is *"impossible to get into as a manufacturer."* The relationship
+- **LED walls carry 20 % margin, and that is a structural ceiling rather than a negotiated rate** — the group
+  occupies only the distribution step because it does not make the product, and *"we don't sell Leyard to another
+  distributor, so that's not a case that could ever happen"* (Neil, 2026-08-13). **Own-made sold direct to a dealer
+  earns two steps — manufacture and distribution — which stack to roughly 47–64 % depending on brand**
+  (`archive-findings.md` finding 22). So **£100k of own-made revenue is worth two to three times £100k of carried.**
+  The category is *"impossible to get into as a manufacturer."* The relationship
   with **the industry number one** is what holds the category, and its purpose is *"a very nice revenue that supports
   our own lines"* — infrastructure for the P&L rather than the strategic centre (`archive-findings.md` finding 18).
 - **No own speaker line is shipping, and Pro-Fi is the big bet.** The archive sizes the gap and it is larger than
