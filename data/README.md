@@ -21,7 +21,45 @@ file hash, which will not match what the Dropbox API reports.
 **Treat these as read-only.** They are the received artefacts. Corrections belong in the derived extracts or in the
 findings, never by editing a source file — otherwise provenance is gone.
 
-## `derived/` — analysis-ready, and lossless
+## Start here — `derived/all-transactions.csv`
+
+**One table, five entities, fifteen years: 10,360 rows.** Built by `data/consolidate.py` from the per-entity extracts
+below. **Use this for any group-level question**; use the per-entity files only when you specifically want one
+company's ledger in its own vocabulary.
+
+**It exists because the five sources had three different notions of "product line"** — GTUK's are third-party *brand*
+names, DT's and SRND's are product *categories*, C-ATS's and Light Walls' are internal lines. Every group question
+needed a bespoke script. This table adds four columns that make the vocabulary uniform, without touching the
+source's own wording (`account_raw` and `product_line` are carried through unchanged):
+
+| Column | Meaning |
+|---|---|
+| `category` | **Harmonised product category** across all entities — `Speakers`, `Projectors`, `Masking screens`, … |
+| `category_source` | How it was derived: `account` · `brand-map` (GTUK brand → category) · `sku-prefix` (DT store SKUs) · `description-rule` (SRND store items) · `unclassified` |
+| `carried_brand` | The third-party brand where the line names one — Barco, Stealth Acoustics, Leyard, … Blank for own-made |
+| `supply` | `own-made` · `carried` · `services` · `other` · `unknown` |
+| `source_file`, `entity`, `entity_role` | Provenance, and the entity's role: UK distribution / own-brand manufacturer / hybrid |
+
+**It reconciles exactly.** Every entity's total and external revenue matches its per-entity file to the pound —
+verified on each run. Row count is the exact sum of the five sources; nothing is merged, deduplicated or dropped.
+
+**14.6 % of product revenue is `Unclassified`, and that is deliberate.** Fifteen lines could not be categorised from
+the account name alone and are **listed in `derived/consolidation-review.csv` rather than guessed at.** The largest
+are GTUK's `NEXTGENTECH` (£779,979), `OTHERS` (£509,343), `PRO AUDIO` (£320,725), `AGATH` (£216,342) and DT store
+rows with no SKU (£306,647). **A few minutes from someone who knows those lines would move roughly £2.8m into real
+categories** — the single cheapest improvement available to this dataset.
+
+**Two known limits of the `supply` split.** `unknown` (10.3 %) is mostly those same unidentified lines. And the
+own-made/carried call is at *line* level, so a line that mixes both is assigned wholesale — GTUK's `DT SCREENS` and
+`CATS` are counted own-made even though the entity selling them was the distributor.
+
+```bash
+python data/normalise.py account-txns "data/source/<file>.xlsx" data/derived/<out>.csv   # per source
+python data/classify_store_items.py                                                     # SRND store items
+python data/consolidate.py                                                              # then rebuild the table
+```
+
+## `derived/` — the per-entity extracts, analysis-ready and lossless
 
 | File | Rows | Source report type | Period |
 |---|---|---|---|

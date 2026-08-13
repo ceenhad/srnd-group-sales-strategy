@@ -24,7 +24,15 @@ lives, what it covers, and what it cannot answer.
 | 5 | **Old Monday.com CRM logs** | **Not yet handed over** — `backlog.md` `MON-1` | Historic pipeline: quotes, stages, win/loss | Pre-engine |
 | 6 | **Sent-mail archive** | Not yet worked — `backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
 
-> **▶ The data itself is now stored in the repo, not just pointed at — `data/`** (2026-08-13, at Neil's
+> **▶ One consolidated table now sits above all of it — `data/derived/all-transactions.csv`** (2026-08-13).
+> **10,360 rows, five entities, fifteen years, one harmonised category vocabulary**, reconciled to the pound against
+> every per-entity file. **Use it for any group-level question**; the per-entity extracts remain for single-company
+> work. It is built by `data/consolidate.py`, which maps GTUK's third-party *brand* lines and DT's store SKUs onto
+> the same categories the other sources use, and adds `supply` (own-made / carried / services) and `carried_brand`.
+> **14.6 % of product revenue stays `Unclassified` by design** — fifteen lines that cannot be read from an account
+> name are listed in `data/derived/consolidation-review.csv` instead of guessed at. See `data/README.md`.
+>
+> **▶ The data itself is stored in the repo, not just pointed at — `data/`** (2026-08-13, at Neil's
 > instruction). Sources 1 and 2 are held verbatim in `data/source/`, **verified byte-identical to Dropbox**, with
 > lossless analysis-ready extracts in `data/derived/` and the column contract in `data/README.md`. **A moved,
 > renamed or deleted Dropbox file can no longer cost us the history.** When the outstanding sources arrive they land
