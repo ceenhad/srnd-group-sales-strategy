@@ -215,3 +215,20 @@ there is nothing else to configure.
 dedicated key and revoke it when a one-off pull is done; the script issues only GETs. And **join this data to engine
 on email domain, never on the `COMPANY` merge field**: only 1,233 of 2,844 members carry a company, and the weak join
 produced the opposite conclusion on a live question (`archive-findings.md` finding 28).
+
+### Personal data in `mailchimp-members-*.json` — read before sharing this repo
+
+**That file holds 2,845 individual records including named contacts and their email addresses**, retained in full at
+Neil's instruction (2026-08-14) so the received artefact is preserved like every other source.
+
+**Three consequences worth knowing:**
+
+- **It is personal data, not just commercial data.** The invoice sources name companies; this one names people. Treat
+  any decision to share, clone or grant access to this repo as a decision about personal data.
+- **It is permanent in git history.** Removing the file later does not remove it from earlier commits.
+- **No finding depends on it in that form.** Every result in `archive-findings.md` findings 28–29 uses only the
+  **domain** of the address plus status, opt-in date, tags, stats and company. The person's name and the local part
+  are used nowhere, so a redacted copy would reproduce the analysis exactly.
+
+**If it ever needs removing**, `data/fetch_mailchimp.py` re-pulls the full data from the API in seconds, so deleting
+it costs nothing operationally — only the git history would need rewriting.
