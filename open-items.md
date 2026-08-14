@@ -522,6 +522,11 @@ change of emphasis in it.*
 
 ## Decisions needed (flag, don't guess)
 
+> **This list is the single home for open decisions; other files point here.** And it is not complete on this
+> page alone: **sixteen further `[decide]` calls live in `group/13-standards-decision-sheet.md`** — the dealer
+> bar, the competitor roster, the floor rate, the follow-up interval and twelve more, collected from the task
+> shapes on 2026-08-09 and not previously surfaced here. They are part of this ledger by reference.
+
 - ~~**▲ Is Apex-Tech actually gone?**~~ — **asked and answered, 2026-08-13. `C1f` and `C1j` stand unchanged.** The
   agreement **officially ended 1 July 2026**, with the customary **90 days' grace** for projects already in play
   *"while we are starting our own push"* (Neil). The trading that looked live in DT's record was notice and grace,
@@ -569,12 +574,10 @@ change of emphasis in it.*
   PhaseTech/SoundTube, dARTS) is deleted everywhere. Pro-Fi is the group's audio brand, and the roster
   principle is now general: **we carry nothing that competes with our own brands.** See
   `group/01-commercial-model.md`.
-- **Store roster — DECIDED; execution outstanding.** The carried roster is settled at three lines in three
-  roles: **Leyard** (the distributed brand, trade only), **MadVR** (SRND Store only, as an accessory to
-  Leyard), **Advatek** (both stores, small-range component necessity). **Sylvox, Poet and Stealth Acoustics
-  are removed.** What remains is doing it: delist those three, take Leyard and MadVR off Cinema Store, fix
-  the "Complete ATS" vendor name on both stores, and re-attribute the isolation products (MIRS, penetration
-  back boxes) from "SRND Store" to C-ATS. See `group/01-commercial-model.md`.
+- ~~**Store roster**~~ — **not an open decision; moved out of this list 2026-08-14.** The roster is settled
+  (three lines in three roles — `group/01-commercial-model.md`) and what remains is execution only, tracked as
+  `EST-1`/`EST-2` in `backlog.md` and `group/store-split-worklist.md`. It sat here under "Decisions needed"
+  while being headed "DECIDED", which is the kind of miscategorisation this ledger exists to prevent.
 - **Pro-Fi on `srnd.store` — sequencing, not a decision.** Pro-Fi isn't listed because it isn't ready to be
   sold online yet. When it is, the Pro-Fi site drives to SRND Store exactly as every other brand does; the
   one-account-one-checkout model is unchanged. Gated on range and platform readiness

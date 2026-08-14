@@ -42,7 +42,7 @@ down to execution.
 
 Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
 
-1. **`group/`** — the group strategy and standards, in twelve documents. Brand-agnostic, and the source of
+1. **`group/`** — the group strategy and standards, numbered. Brand-agnostic, and the source of
    truth; brands apply it, they do not fork it.
    - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
      disciplines. Read this one if you read nothing else.
@@ -64,9 +64,19 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
      today, where it sits in the journey, and the record fields it consumes and feeds. The exhaustive version of
      `08-sales-motion.md`'s selective account. **Every row is an unverified claim until someone who does the work
      confirms it.**
+   - `10-tasks-qa-sheet.md` — **the QA run, closed 2026-08-08.** The four passes over the 46 tasks and the
+     reading that came out of them. Historical record, not a live sheet.
    - `11-work-items.md` — **the layer beneath the tasks.** Each of the 46 tasks opened up into the steps it is
      actually made of — 168 work items, each one wholly machine or wholly human. Thirteen recurring primitives,
      and a build order that follows from counting them: **build primitives, not tasks.**
+   - `12-task-shapes.md` — the QA's "write the shape" deliverable: template, rules and definition-of-done for
+     the 19 `varies` tasks.
+   - `13-standards-decision-sheet.md` — **sixteen open `[decide]` calls** collected from the task shapes,
+     awaiting Neil. Part of the open-decisions ledger by reference from `open-items.md`.
+   - `14-engine-as-hub.md` — the KPI framework (agreed 2026-08-14), the reconciliation map of every system
+     boundary, and the consolidation shape under the no-third-party goal.
+   - `adjacency-map.md` — the cross-sell prompt list for the spec conversation (`NEXT.md` lane 4).
+   - `2023-buyer-journey-archive.md` — evidence archive; validated S22/S23, awaiting its fold-in (`JNY-5`).
    - `store-split-worklist.md` — a working execution list, not strategy.
 2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
    Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
@@ -92,6 +102,13 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
    surface (do / decide / fetch, with owners, effort and status), each workstream tagged by the motion
    component it develops (`group/09-motion-design.md`), prerequisite, or independent. `NEXT.md` holds the
    reasoning; this holds the trackable work. Deliberately no dates and no weeks.
+9. **The measured layer, added 2026-08-13/14** — the facts the plan is now amended against:
+   - `archive-findings.md` — **the main evidence artefact**: 30 numbered findings from six data sources over
+     fifteen years, opening with the source register. Read the register first.
+   - `engine-audit.md` — engine audited field by field against the 58-field product record.
+   - `data/` — the sales history itself, stored not referenced: source files, lossless extracts, loaders.
+     Sensitive — see `data/README.md`.
+   - `HANDOFF.md` — the cold-start brief for a new session: what happened, what is open, how to work here.
 
 ## Group vs brand responsibilities
 
@@ -141,16 +158,10 @@ lands against a decision or an open item, and a decision changes only as a dated
 What rev 1 produced that the repo did not have before is an **order**, in `NEXT.md`: ask engine, fill the
 record, open the routes, build the primitives.
 
-**Ahead of all of it sits step 0 — the QA session.** Three registers hold **329 rows** (115 backlog, 46 tasks,
-168 work items) and every one was assembled from these documents rather than from watching anyone work. Only
-the task register has had a human pass, so until the QA runs the registers are a proposal nobody has read and
-the sequence's row references are provisional.
-
-**It grades consistency, not existence.** *"Do you do this?"* answers yes almost everywhere — SRND does the
-work; it is structure and consistency that kill it. So each task gets three answers instead: is it the same
-every time, what starts it, and where does the output land. Run top-down over the 46 tasks in one sitting,
-that resolves the other two registers by block — and it produces a build list ordered by what inconsistency
-costs rather than by what a machine could theoretically take over.
+**Step 0 — the QA session — has run.** Completed 2026-08-08 (`group/10-tasks-qa-sheet.md`): all four passes
+over the 46 tasks, no task struck, and the reading produced the forward chain *fill the record → write the
+shape → skip what already works* (`NEXT.md` § "What the QA produced"). The work-item register was resolved by
+block; the backlog prune the QA directed was executed 2026-08-14.
 
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,

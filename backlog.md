@@ -12,7 +12,12 @@
 > all survived. What the QA *did* produce is the record-first build list (`group/10-tasks-qa-sheet.md`), which
 > **reprioritises** rows here rather than deleting them. The register that resolved by block was the work items
 > (`group/11-work-items.md`: three skip-tasks). Pruning genuine orphan rows here — backlog rows mapping to no
-> task at all — is a separate row-by-row read, not a block operation, and is **not yet done.**
+> task at all — is a separate row-by-row read, not a block operation. **Done 2026-08-14:** every row read against
+> the 46 for the category the QA named — a pure restatement of a strategy document in imperative mood, with no
+> surviving task, no decision and no fetch behind it. **Zero rows met all three conditions, so zero were
+> removed** — each row anchors to a decision, a fetch, a done/parked ledger entry, or a specific artefact, even
+> where its source is a strategy document. Rows in doubt were kept, per the instruction that a wrongly kept row
+> costs a line and a wrongly deleted one loses work.
 
 *Content as the sales rep is committed (`decided.md` S1–S9). The buyer journey is the spine
 (`group/02-buyer-journey.md`), and [`group/09-motion-design.md`](group/09-motion-design.md) maps what serves
@@ -263,7 +268,7 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
-| XS-1 | Do | Write the adjacency map: per entry point, the next layer, the physical adjacency that justifies it, the project moment it is relevant. A prompt list for a conversation already happening | — | One page | ready | `NEXT.md` lane 4 |
+| XS-1 | Do | Write the adjacency map: per entry point, the next layer, the physical adjacency that justifies it, the project moment it is relevant. A prompt list for a conversation already happening | — | One page | ▶ Done 2026-08-14 — `group/adjacency-map.md` | `NEXT.md` lane 4 |
 | XS-2 | ~~Do~~ | ~~The three-line spec note~~ — **struck: premise wrong** (2026-08-02). Engine already holds years of project and prospect data, trackable as required. Anything more is a question about engine's existing fields, checked there first | — | — | dropped | `decided.md` (Reversals) |
 | XS-3 | ~~Decide~~ | ~~Who owns "wanting the order"~~ — **struck: premise wrong** (2026-08-02). Follow-up already happens as normal work | — | — | dropped | `decided.md` (Reversals) |
 | XS-4 | Fetch | Whether spec help is free or chargeable today, and whether that is deliberate. Hinge for the partner programme and the value ladder | — | Small | ready | `open-items.md` Stage 1, `current-state.md` |
