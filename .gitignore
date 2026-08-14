@@ -1,0 +1,14 @@
+# Secrets — never commit. The repo already carries commercially sensitive data
+# (data/source, data/derived); credentials must not join it.
+.env
+.env.*
+*.key
+*.pem
+*_secret*
+*_token*
+credentials.json
+secrets.*
+
+# Local scratch
+*.tmp
+~$*

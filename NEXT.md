@@ -472,6 +472,13 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 - **And sort the estate first, because it is administrative and it blocks everything.** Pursue recovery of the
   locked old SRND Group account; remove the MAG Theatron and Barco playlists; fix the "Complete Acoustic
   Treatment System" description and DT's projector-screen-company one. Hours, not weeks.
+- **And there is now a demand signal, which this lane has never had** (`archive-findings.md` finding 29). The click
+  detail across 29 campaigns says what the audience actually opens things for: **the store 946 clicks, booking links
+  226** — of which **82 unique to book a factory visit**, evidence for lane 1's Experience Centre claim rather than
+  argument — **YouTube 231**, Fabric Walls 195, DT 191, **and c-ats.co.uk 6.** **The single most-clicked link is a
+  carried Barco projector at 219**, so the pull that exists is aimed at the lowest-margin rung and no own-made
+  equivalent has been offered. **Publish against that list rather than guessing**, and note the best campaign ever
+  sent — the Fabric Walls site launch, 63 % open, 652 clicks — **was also the last one sent** (`MON-16`).
 - **The measure is questions retired, not reach.** A useful leading indicator: an owner answering the same
   question twice after it was published means the piece exists but isn't findable, which is a different and
   cheaper problem.

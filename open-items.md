@@ -133,7 +133,12 @@ the Screen Wall has no datasheet is more awkward than it looked.
 
 **Three live contradictions to fix in published material:**
 1. Pro-Fi described as "SRND Group's dedicated **spatial audio** brand" — a phrase Pro-Fi's own voice code
-   forbids as a claim about Pro-Fi (`brands/pro-fi/positioning.md` §5).
+   forbids as a claim about Pro-Fi (`brands/pro-fi/positioning.md` §5). **▲ And it went further than the website
+   — measured 2026-08-14** (`archive-findings.md` finding 28): three Mailchimp campaigns in January and February 2026
+   carried it to the list — *"ISE 2026: Introducing Pro-Fi Spatial Audio Series"* (1,633 recipients), *"Pro-Fi
+   Spatial Audio Series - Small Speakers…"* (1,622) and *"Pro-Fi Speakers Impress at ISE 2026"* (1,581 + 287).
+   **So the forbidden framing is not a stray line on a page; it is the brand's introduction to roughly 1,600 people,
+   three times.** Correcting the site alone will not undo it.
 2. "only solutions that can genuinely claim to be the **best and most innovative** in their category" —
    superlative-led, against the Scandinavian register (`group/00-strategy.md`).
 3. "**Complete Acoustic Treatment Systems**" spelled out — the naming we agreed not to hard-code. *Also in the
@@ -360,6 +365,30 @@ direct-first reasoning and the distributor analysis both travel; neither needs a
 - **Light Walls (item 7)** stays with Neil, worked separately.
 
 ---
+
+## A proposed refinement to `CLAUDE.md` — for Neil, not applied unilaterally
+
+**`CLAUDE.md` records the group's characteristic failure mode as *"build it, then say it"*** — the risk of announcing
+something not yet practised — with three instances: dealer appreciation, the partner programme, and the whole room
+being easier to buy. **The rule is sound and should stay.**
+
+**But everything measured on 13–14 August 2026 is the same gap running the other way: built, and never said.**
+Nine instances, counted in `archive-findings.md` finding 30 — C-ATS at six clicks across twenty-nine campaigns with
+its record filled and a BSRIA report published; the best campaign ever sent being the last one sent; 189 partners
+holding signed T&Cs and pricing access who were never sold anything; engine's document-generation layer absent from
+the plan until it was audited; Monday's per-brand subscribe flags never reaching the system that sends the mail;
+forty approved dealers who cannot see a price.
+
+**So the steering document guards one direction while the evidence runs the other.** A suggested addition to that
+bullet, in the same voice, for Neil to accept, reword or reject:
+
+> *And the mirror of it, measured 2026-08-14: **the more common failure has been building and never saying.** The
+> record filled and never published, the list warm and never mailed, the partner signed and never sold to. Both are
+> the same gap between what is true and what has been said — **check which direction you are failing in before
+> applying the rule.***
+
+*Recorded here rather than edited into `CLAUDE.md`, because the steering document is the constitution and this is a
+change of emphasis in it.*
 
 ## Decisions needed (flag, don't guess)
 
