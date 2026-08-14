@@ -88,6 +88,10 @@ strike.
   cohort out-earned the £50k+ cohort on later revenue, 71 % of all dealers started under £5k, and those dealers
   produced 61 % of twelve years' revenue *after* that first order. Cross-sell is real but **slow: median eight
   months** to a second line. **There is a data gap for 2024–2025** — after this file ends and before engine begins.
+- **Calls run over Zoom** (Neil, 2026-08-14) — so call activity is capturable in principle: logs as countable
+  interactions, and transcripts of owner answers as raw material for the recurring-question list
+  (`group/14-engine-as-hub.md`). **[?]** which Zoom products/licences are in use, and whether recording and
+  transcription are enabled.
 - **Everyone in the company now works in engine** (Neil, 2026-08-13). **This is the baseline the whole automation
   argument needed:** a capture route becomes a field on a screen people already use daily, not a new habit competing
   with the day job — and the platform is owned outright, so extending it is a decision rather than a negotiation.
@@ -113,6 +117,13 @@ not an argument about it.*
   The category is *"impossible to get into as a manufacturer."* The relationship
   with **the industry number one** is what holds the category, and its purpose is *"a very nice revenue that supports
   our own lines"* — infrastructure for the P&L rather than the strategic centre (`archive-findings.md` finding 18).
+- **The Komodo revenue is staged-payment revenue, and part-paid is the normal state of a live project** (Neil,
+  2026-08-14). Roughly **60 % has been received to date** on the Komodo business (the three 2026 lines ran £472,320
+  to mid-August) — long lead times on expensive equipment pay in stages, so this is not late payment and not a
+  cashflow problem, and no exposure reading should be taken from it. And the category is wanted, plainly: *"every
+  Leyard sale is a good number… the revenue matters greatly and leads to attachment sales"* (Neil, 2026-08-14).
+  Whether the attachment has historically followed is measurable, but needs the careful cross-entity account join
+  (`MON-7`), so it stands here as Neil's statement rather than a measured rate.
 - **No own speaker line is shipping, and Pro-Fi is the big bet.** The archive sizes the gap and it is larger than
   first measured: **audio was 38.7 % of the distribution era's revenue — the group's largest category, ahead of
   projection** — and **£4.8m, 24.7 %, across the whole group.** Today it is 9.3 % of SRND and entirely carried.
