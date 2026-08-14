@@ -1,0 +1,1490 @@
+[
+ {
+  "id": "46472f21b2",
+  "web_id": 16578624,
+  "type": "regular",
+  "status": "save",
+  "send_time": "",
+  "recipients": {
+   "list_id": "",
+   "list_is_active": false,
+   "list_name": "",
+   "segment_text": "",
+   "recipient_count": 0
+  },
+  "settings": {
+   "title": "",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "simon@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  }
+ },
+ {
+  "id": "0f32dceea9",
+  "web_id": 16578652,
+  "type": "regular",
+  "status": "save",
+  "send_time": "",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "",
+   "recipient_count": 2027
+  },
+  "settings": {
+   "title": "test email",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "simon@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  }
+ },
+ {
+  "id": "a1f5d19e9b",
+  "web_id": 16578689,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-06-30T11:05:16+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>809</strong> emails sent.</span>",
+   "recipient_count": 809,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Sylvox Outdoor TVs Now at SRND",
+   "preview_text": "Discover the new addition to our top brands: Sylvox Outdoor TVs.",
+   "title": "Sylvox Launch 1",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 506,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 885,
+   "unique_opens": 376,
+   "open_rate": 0.5497076023391813,
+   "clicks": 49,
+   "subscriber_clicks": 23,
+   "click_rate": 0.033625730994152045,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "47dd14acba",
+  "web_id": 16578736,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-07-02T09:40:22+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>763</strong> emails sent.</span>",
+   "recipient_count": 763,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Sylvox Outdoor TVs at SRND Group",
+   "preview_text": "Discover the key features of the Sylvox Outdoor TV range.",
+   "title": "Sylvox Launch 2",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 506,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 718,
+   "unique_opens": 345,
+   "open_rate": 0.508100147275405,
+   "clicks": 44,
+   "subscriber_clicks": 20,
+   "click_rate": 0.029455081001472753,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "5a02f9cd90",
+  "web_id": 16578794,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-07-04T08:32:56+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>759</strong> emails sent.</span>",
+   "recipient_count": 759,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Sylvox Outdoor TVs at SRND Store Now",
+   "preview_text": "Explore the range of Sylvox Outdoor TVs available.",
+   "title": "Sylvox Launch 3",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 506,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 676,
+   "unique_opens": 355,
+   "open_rate": 0.526706231454006,
+   "clicks": 51,
+   "subscriber_clicks": 21,
+   "click_rate": 0.03115727002967359,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "38efd8fb95",
+  "web_id": 16579354,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-07-30T13:23:38+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>752</strong> emails sent.</span>",
+   "recipient_count": 752,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Transform Spaces with SRND's Stretch Fabric Walls",
+   "preview_text": "Explore innovative stretch fabric solutions from SRND Group.",
+   "title": "Fabric Walls Stretch Fabric Systems",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 506,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 721,
+   "unique_opens": 355,
+   "open_rate": 0.5338345864661654,
+   "clicks": 100,
+   "subscriber_clicks": 33,
+   "click_rate": 0.04962406015037594,
+   "ecommerce": {
+    "total_orders": 1,
+    "total_spent": 12600,
+    "total_revenue": 10500
+   }
+  }
+ },
+ {
+  "id": "86e25d5c92",
+  "web_id": 16579529,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-08-06T13:30:21+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>749</strong> emails sent.</span>",
+   "recipient_count": 749,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Stretch Fabric Systems - No Tuck Tools Needed!",
+   "preview_text": "Explore innovative stretch fabric solutions from SRND Group.",
+   "title": "Fabric Walls - No Tuck Tools Needed!",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 506,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 728,
+   "unique_opens": 347,
+   "open_rate": 0.5257575757575758,
+   "clicks": 161,
+   "subscriber_clicks": 44,
+   "click_rate": 0.06666666666666667,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "9e7cef3f08",
+  "web_id": 16581746,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-03T10:46:40+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>784</strong> emails sent.</span>",
+   "recipient_count": 784,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Weekly Highlights and Friday Forum Details from SRND",
+   "preview_text": "Checkout the latest highlights, news and Friday Forum session details",
+   "title": "",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 807,
+   "unique_opens": 376,
+   "open_rate": 0.5433526011560693,
+   "clicks": 67,
+   "subscriber_clicks": 19,
+   "click_rate": 0.02745664739884393,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "24e0c836b2",
+  "web_id": 16581836,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-03T15:52:54+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - Image Surfaces",
+   "preview_text": "This week we turn the spotlight on the complete range of DT Image Surfaces",
+   "title": "",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 43,
+   "unique_opens": 16,
+   "open_rate": 0.6956521739130435,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "0ac78b2e05",
+  "web_id": 16581908,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-05T11:48:51+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>710</strong> emails sent.</span>",
+   "recipient_count": 710,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "SRND Newsletter - Barco Heimdall Projector Now Available",
+   "preview_text": "The incredible new Barco Heimdall 4K RGB Laser Projector is now available to order!",
+   "title": "",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "simon@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 747,
+   "unique_opens": 377,
+   "open_rate": 0.5527859237536656,
+   "clicks": 379,
+   "subscriber_clicks": 59,
+   "click_rate": 0.08651026392961877,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "24b7cd0d99",
+  "web_id": 16581936,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-06T17:30:05+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>1652</strong> emails sent.</span>",
+   "recipient_count": 1652,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Subscriber News - No Tuck Tools Needed!",
+   "preview_text": "In this month's DT subscriber newsletter, exciting news on a major upgrade and a highlight feature on our range of image surfaces.",
+   "title": "",
+   "from_name": "Display Technologies",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 1598,
+   "unique_opens": 828,
+   "open_rate": 0.5341935483870968,
+   "clicks": 284,
+   "subscriber_clicks": 66,
+   "click_rate": 0.04258064516129032,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "1146b25d5b",
+  "web_id": 16581985,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-10T10:15:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>689</strong> emails sent.</span>",
+   "recipient_count": 689,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Weekly Highlights and Friday Forum Details from SRND",
+   "preview_text": "Checkout the latest highlights, news and Friday Forum session details",
+   "title": "Highlights and Friday Forum - 10th November",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 739,
+   "unique_opens": 344,
+   "open_rate": 0.5088757396449705,
+   "clicks": 71,
+   "subscriber_clicks": 18,
+   "click_rate": 0.026627218934911243,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "c0e24e8b6e",
+  "web_id": 16581995,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-10T11:30:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - Image Surfaces",
+   "preview_text": "This week we turn the spotlight on the complete range of DT Image Surfaces",
+   "title": " (copy 01)",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": true,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 49,
+   "unique_opens": 15,
+   "open_rate": 0.6521739130434783,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "0497bb1039",
+  "web_id": 16582170,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-18T10:30:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - Sales and Learning Videos",
+   "preview_text": "This week we highlight the resources available on our YouTube channel",
+   "title": "DT Distributor Updates - DT YouTube",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": true,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 40,
+   "unique_opens": 16,
+   "open_rate": 0.6956521739130435,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "c6207bf900",
+  "web_id": 16582172,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-17T12:00:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>679</strong> emails sent.</span>",
+   "recipient_count": 679,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Home Cinema LED Walls and Weekly Updates",
+   "preview_text": "Checkout the latest highlights, news and Friday Forum session details from SRND Group. This week, LED Walls for Home Cinema.",
+   "title": "Highlights and Friday Forum - 17th November",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 770,
+   "unique_opens": 362,
+   "open_rate": 0.5411061285500748,
+   "clicks": 80,
+   "subscriber_clicks": 28,
+   "click_rate": 0.04185351270553064,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "470932735c",
+  "web_id": 16582408,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-24T08:45:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>672</strong> emails sent.</span>",
+   "recipient_count": 672,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Complete Fabric Walls Cinema Interiors and Weekly Updates",
+   "preview_text": "Checkout the latest highlights, news and Friday Forum session details from SRND Group. This week, Fabric Walls Complete Cinema Interiors",
+   "title": "Highlights and Friday Forum - 24th November",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 688,
+   "unique_opens": 348,
+   "open_rate": 0.5217391304347826,
+   "clicks": 67,
+   "subscriber_clicks": 20,
+   "click_rate": 0.029985007496251874,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "23cd25aa55",
+  "web_id": 16582409,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-11-24T06:00:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - Sales and Learning Videos",
+   "preview_text": "This week we highlight the resources available on our YouTube channel",
+   "title": "DT Distributor Updates - Mask Position Logic",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 40,
+   "unique_opens": 16,
+   "open_rate": 0.6956521739130435,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "9e1ebdbf38",
+  "web_id": 16582588,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-12-01T10:30:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - IP and RS232 Control",
+   "preview_text": "This week we highlight the control capabilities of our Dynamic Screens",
+   "title": "DT Distributor Updates - Mask Position Logic (copy 01)",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": true,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 91,
+   "unique_opens": 16,
+   "open_rate": 0.6956521739130435,
+   "clicks": 8,
+   "subscriber_clicks": 2,
+   "click_rate": 0.08695652173913043,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "4761b6476c",
+  "web_id": 16582589,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-12-01T12:21:36+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>663</strong> emails sent.</span>",
+   "recipient_count": 663,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Masking Screens for Home Cinema and Weekly Updates",
+   "preview_text": "Checkout the latest highlights, news and Friday Forum session details from SRND Group. This week, Masking Screens for Home Cinema",
+   "title": "Highlights and Friday Forum - 1st December 2025",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 575,
+   "unique_opens": 326,
+   "open_rate": 0.4946889226100152,
+   "clicks": 119,
+   "subscriber_clicks": 24,
+   "click_rate": 0.036418816388467376,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "7d51494c18",
+  "web_id": 16583033,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2025-12-16T19:30:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>1597</strong> emails sent.</span>",
+   "recipient_count": 1597,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Subscriber News - The Importance of Masking Screens",
+   "preview_text": "In this month's DT subscriber newsletter, a detailed overview of the importance of masking projector screens and a look ahead to 2026.",
+   "title": "DT Subscriber Newsletter - December - Importance of Masking Screens",
+   "from_name": "Display Technologies",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": true,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 1606,
+   "unique_opens": 806,
+   "open_rate": 0.5323645970937912,
+   "clicks": 296,
+   "subscriber_clicks": 43,
+   "click_rate": 0.028401585204755615,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "90d81536df",
+  "web_id": 16583421,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-01-07T11:45:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>1643</strong> emails sent.</span>",
+   "recipient_count": 1643,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "2026 - The Year or Experiential and Wellness AV",
+   "preview_text": "SRND Group has the solutions you need to address these key opportunities in 2026!",
+   "title": "2026 - The Year of Experiential and Wellness",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 1727,
+   "unique_opens": 884,
+   "open_rate": 0.5684887459807074,
+   "clicks": 602,
+   "subscriber_clicks": 44,
+   "click_rate": 0.02829581993569132,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "86d9c97da1",
+  "web_id": 16583810,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-01-21T16:34:39+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>1633</strong> emails sent.</span>",
+   "recipient_count": 1633,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "ISE 2026: Introducing Pro-Fi Spatial Audio Series",
+   "preview_text": "Get ready for SRND Group's audio innovation at ISE 2026.",
+   "title": "ISE - 2026 - Pro-Fi Spatial Audio Series Official Launch",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 1594,
+   "unique_opens": 826,
+   "open_rate": 0.5363636363636364,
+   "clicks": 170,
+   "subscriber_clicks": 37,
+   "click_rate": 0.024025974025974027,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "1f17471ae4",
+  "web_id": 16583908,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-01-26T12:39:25+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - Meet Us at ISE",
+   "preview_text": "Meet the team from DT and SRND Group at ISE Stand 2A280",
+   "title": "DT Distributor Updates - ISE SRND Group",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 42,
+   "unique_opens": 12,
+   "open_rate": 0.5217391304347826,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "bb9065aa2d",
+  "web_id": 16584028,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-01-30T11:15:19+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>1622</strong> emails sent.</span>",
+   "recipient_count": 1622,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "ISE 2026: Pro-Fi Spatial Audio Series - Small Speakers, Big Sound!",
+   "preview_text": "Get ready for SRND Group's audio innovation at ISE 2026.",
+   "title": "SE 2026: Pro-Fi Spatial Audio Series - Small Speakers, Big Sound!",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 1532,
+   "unique_opens": 813,
+   "open_rate": 0.529986962190352,
+   "clicks": 150,
+   "subscriber_clicks": 29,
+   "click_rate": 0.018904823989569754,
+   "ecommerce": {
+    "total_orders": 1,
+    "total_spent": 2465.34,
+    "total_revenue": 2054.45
+   }
+  }
+ },
+ {
+  "id": "2e97557d6c",
+  "web_id": 16584271,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-02-09T15:20:38+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>any</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Tags contact is tagged <strong>ISE2026</strong></li></ol><span>For a total of <strong>154</strong> emails sent.</span>",
+   "recipient_count": 154,
+   "segment_opts": {
+    "saved_segment_id": 8840710,
+    "match": "any",
+    "conditions": [
+     {
+      "condition_type": "StaticSegment",
+      "field": "static_segment",
+      "op": "static_is",
+      "value": 8840710
+     }
+    ]
+   }
+  },
+  "settings": {
+   "subject_line": "Pro-Fi ISE 2026 - Prospective Partner Follow Up",
+   "preview_text": "Thanks for visiting Pro-Fi at ISE 2026. Now is the time to act if you want to partner as a dealer or distributor!",
+   "title": "Pro-Fi ISE Follow Up",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 279,
+   "unique_opens": 105,
+   "open_rate": 0.6907894736842105,
+   "clicks": 21,
+   "subscriber_clicks": 11,
+   "click_rate": 0.07236842105263158,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "1bbc68d798",
+  "web_id": 16584272,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-02-12T09:00:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>7</strong> emails sent.</span>",
+   "recipient_count": 7,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Pro-Fi ISE 2026 - Prospective Partner Follow Up",
+   "preview_text": "Thanks for visiting Pro-Fi at ISE 2026. Now is the time to act if you want to partner as a dealer or distributor!",
+   "title": "Resend: Pro-Fi ISE Follow Up",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 4,
+   "unique_opens": 4,
+   "open_rate": 0.5714285714285714,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "caeaebfd48",
+  "web_id": 16584297,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-02-10T11:51:26+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>1581</strong> emails sent.</span>",
+   "recipient_count": 1581,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Pro-Fi Speakers Impress at ISE 2026",
+   "preview_text": "Small speakers, big sound! Pro-Fi wows the crowds at ISE 2026",
+   "title": "Pro-Fi Impresses at ISE 2026",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 1564,
+   "unique_opens": 805,
+   "open_rate": 0.5384615384615384,
+   "clicks": 188,
+   "subscriber_clicks": 59,
+   "click_rate": 0.03946488294314381,
+   "ecommerce": {
+    "total_orders": 1,
+    "total_spent": 5035.39,
+    "total_revenue": 4805.67
+   }
+  }
+ },
+ {
+  "id": "9ba990d56b",
+  "web_id": 16584298,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-02-13T09:00:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>287</strong> emails sent.</span>",
+   "recipient_count": 287,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "Pro-Fi Speakers Impress at ISE 2026",
+   "preview_text": "Small speakers, big sound! Pro-Fi wows the crowds at ISE 2026",
+   "title": "Resend: Pro-Fi Impresses at ISE 2026",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 178,
+   "unique_opens": 95,
+   "open_rate": 0.33807829181494664,
+   "clicks": 2,
+   "subscriber_clicks": 2,
+   "click_rate": 0.0071174377224199285,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "8df1184b7b",
+  "web_id": 16584496,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-02-20T11:05:15+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>639</strong> emails sent.</span>",
+   "recipient_count": 639,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "SRND Group Factory Experience Centre - Opening March 16th",
+   "preview_text": "Exciting news as our experience centre officially opens its doors from 16th March.",
+   "title": "SRND Experience Centre",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "team@srnd.group",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 666,
+   "unique_opens": 343,
+   "open_rate": 0.5444444444444444,
+   "clicks": 222,
+   "subscriber_clicks": 29,
+   "click_rate": 0.046031746031746035,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "47702a5336",
+  "web_id": 16584969,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-03-09T12:41:10+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Matches a custom advanced segment</li></ol><span>For a total of <strong>23</strong> emails sent.</span>",
+   "recipient_count": 23,
+   "segment_opts": {
+    "match": "all"
+   }
+  },
+  "settings": {
+   "subject_line": "DT Distributor Highlights - Retiral of Mistral Series",
+   "preview_text": "Notice of the retiral of the Mistral series from the DT product line.",
+   "title": "DT Distributor Updates - Product Retiral - Mistral Series",
+   "from_name": "Display Technologies Ltd",
+   "reply_to": "info@displaytechnologies.co.uk",
+   "use_conversation": false,
+   "to_name": "*|FNAME|* *|LNAME|*",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 32,
+   "unique_opens": 13,
+   "open_rate": 0.5652173913043478,
+   "clicks": 0,
+   "subscriber_clicks": 0,
+   "click_rate": 0,
+   "ecommerce": {
+    "total_orders": 0,
+    "total_spent": 0,
+    "total_revenue": 0
+   }
+  }
+ },
+ {
+  "id": "d37b8c2500",
+  "web_id": 16585870,
+  "type": "regular",
+  "status": "save",
+  "send_time": "",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "",
+   "recipient_count": 2027
+  },
+  "settings": {
+   "title": "MC TEST",
+   "from_name": "SRND Group Ltd",
+   "reply_to": "simon@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 559,
+   "drag_and_drop": false
+  }
+ },
+ {
+  "id": "34e4159313",
+  "web_id": 16585878,
+  "type": "regular",
+  "status": "sent",
+  "send_time": "2026-04-16T11:48:00+00:00",
+  "recipients": {
+   "list_id": "a9c4508863",
+   "list_is_active": true,
+   "list_name": "SRND Group Ltd",
+   "segment_text": "",
+   "recipient_count": 1982
+  },
+  "settings": {
+   "subject_line": "The New Fabric Walls Website Is Now Live",
+   "preview_text": "Fabric Walls Update: New Website, Experience Centre Visits and SRND Group Overview",
+   "title": "",
+   "from_name": "Fabric Walls - A SRND Group Brand",
+   "reply_to": "fabricwalls@srnd.group",
+   "use_conversation": false,
+   "to_name": "",
+   "folder_id": "",
+   "authenticate": true,
+   "auto_footer": false,
+   "inline_css": false,
+   "auto_tweet": false,
+   "fb_comments": true,
+   "timewarp": false,
+   "template_id": 13,
+   "drag_and_drop": false
+  },
+  "report_summary": {
+   "opens": 2582,
+   "unique_opens": 1217,
+   "open_rate": 0.6295913088463528,
+   "clicks": 1299,
+   "subscriber_clicks": 93,
+   "click_rate": 0.04811174340403518,
+   "ecommerce": {
+    "total_orders": 2,
+    "total_spent": 3198.48,
+    "total_revenue": 2615.4
+   }
+  }
+ }
+]

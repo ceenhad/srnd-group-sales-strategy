@@ -133,7 +133,12 @@ the Screen Wall has no datasheet is more awkward than it looked.
 
 **Three live contradictions to fix in published material:**
 1. Pro-Fi described as "SRND Group's dedicated **spatial audio** brand" — a phrase Pro-Fi's own voice code
-   forbids as a claim about Pro-Fi (`brands/pro-fi/positioning.md` §5).
+   forbids as a claim about Pro-Fi (`brands/pro-fi/positioning.md` §5). **▲ And it went further than the website
+   — measured 2026-08-14** (`archive-findings.md` finding 28): three Mailchimp campaigns in January and February 2026
+   carried it to the list — *"ISE 2026: Introducing Pro-Fi Spatial Audio Series"* (1,633 recipients), *"Pro-Fi
+   Spatial Audio Series - Small Speakers…"* (1,622) and *"Pro-Fi Speakers Impress at ISE 2026"* (1,581 + 287).
+   **So the forbidden framing is not a stray line on a page; it is the brand's introduction to roughly 1,600 people,
+   three times.** Correcting the site alone will not undo it.
 2. "only solutions that can genuinely claim to be the **best and most innovative** in their category" —
    superlative-led, against the Scandinavian register (`group/00-strategy.md`).
 3. "**Complete Acoustic Treatment Systems**" spelled out — the naming we agreed not to hard-code. *Also in the

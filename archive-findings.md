@@ -22,7 +22,8 @@ lives, what it covers, and what it cannot answer.
 | — | **Pro-Fi** | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
 | 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
 | 5 | **Monday.com CRM — four board exports** ✔ | `data/source/Monday - {SRND Deals, SRND Accounts, Leads, SRND Contacts}.xlsx` (supplied 2026-08-13) | **Deals 155** + 226 sub-deals, **Accounts 1,658** with per-brand status, **Leads 1,233**, **Contacts 1,371**. See tranche 4 | **Deals 2025 → 2026 only** — eighteen months, not years |
-| 6 | **Sent-mail archive** | Not yet worked — `backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
+| 6 | **Mailchimp** ✔ *(API, not an export)* | `data/source/mailchimp-{lists,members-a9c4508863,campaigns}.json`, pulled by `data/fetch_mailchimp.py`. **Key read from the `MAILCHIMP_API_KEY` environment variable — never in the repo, a file, or an argument** | **One audience, 2,027 subscribed** (2,844 records); **29 campaigns** | list built 2025; sends 2025-06-30 → 2026-04-16 |
+| 7 | **Sent-mail archive** | Not yet worked — `backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
 
 > **▶ One consolidated table now sits above all of it — `data/derived/all-transactions.csv`** (2026-08-13).
 > **10,360 rows, five entities, fifteen years, one harmonised category vocabulary**, reconciled to the pound against
@@ -1049,6 +1050,12 @@ consolidated series shows it happening: own-brand share went from **11.1 % of th
 before any allowance for the relationship being theirs rather than ours. **Neil's "at least 2x" is the arithmetic,
 and it is conservative.**
 
+> **And the 2× test was already in the repo, as a lived rule rather than a calculation.** `open-items.md`, from
+> Neil's account of the distribution history: *"The 2× test kills most candidates instantly, and that is the
+> intent"* — alongside the two UK distributors appointed for the group's own brands that both failed. **So this
+> finding did not discover the rule; it supplied its arithmetic.** The judgement came first and the numbers agree
+> with it, which is the strongest form of corroboration available here.
+
 **This puts a number on two positions that were previously stated as judgement.** `group/01-commercial-model.md`
 holds that distributors are *"a deliberate case-by-case exception (scale or language barrier only), never the
 default"* — **the test for that exception is now quantified: does this distributor plausibly double the volume?**
@@ -1375,3 +1382,87 @@ happening?* — it passes outright, because the accounts, the pricing access and
 to do it at scale and without the owners in the room. **They are not competing for the same hours** — one is sales
 activity, the other is documentation — **which is precisely why both can run, and why `MON-6` sits in the plan
 already.**
+
+---
+
+## Finding 28 — Mailchimp: reach is solved, targeting does not exist
+
+*Pulled from the Mailchimp API 2026-08-14 (`data/fetch_mailchimp.py`; datacentre us7). Source files in
+`data/source/mailchimp-*.json`.*
+
+### What is there
+
+**One audience, not six.** `SRND Group Ltd` — **2,027 subscribed**, plus 446 transactional, 244 cleaned and 126
+unsubscribed: **2,844 records.** Opt-in dates are **2025 (2,513) and 2026 (323) only**, so the list was built in
+2025 and carries no older history.
+
+**29 campaigns sent, 2025-06-30 to 2026-04-16.** Mean **723 recipients** per send, though the newsletters reach
+1,600–1,982 and a `DT Distributor Highlights` segment reaches exactly 23.
+
+| | Mean | Median |
+|---|---|---|
+| Open rate | **56.4 %** | 54.1 % |
+| Click rate | **3.1 %** | 2.9 % |
+
+**Read the click rate, not the open rate.** A consistent 50–55 % open across every single campaign is the signature of
+**Apple Mail Privacy Protection auto-opening messages**, which has inflated open rates industry-wide since 2021. The
+**3.1 % click rate is the honest engagement number, and it is ordinary for B2B** — neither a triumph nor a problem.
+
+### The question this was pulled to answer
+
+**Have the signed-and-never-bought accounts ever actually been emailed? Yes — almost all of them.**
+
+Joining engine's 348 accounts to Mailchimp on **email domain** (338 accounts carry an identifiable business domain;
+free-mail domains excluded):
+
+| Engine accounts | On the mailing list |
+|---|---|
+| **No order in engine** — 301 | **295 — 98 %** |
+| Ordered in engine — 37 | 33 — 89 % |
+
+**Only six accounts are absent from the list entirely** (Adeo Group, Consult Acustic, Delta Pelio, IAC Acoustic, LCG
+Intégration, Zene Private Theaters).
+
+> **A correction to my own first pass, because it gave the opposite answer.** Matching on the `COMPANY` merge field
+> suggested only 13 % of never-bought accounts were on the list. **That join was too weak to use** — just 1,233 of
+> 2,844 members have a company recorded at all — and matching on email domain, where coverage is near-complete,
+> reverses it. **The lesson is worth keeping: on this dataset, join on domain, never on company name.**
+
+### So the diagnosis changes — and sharpens
+
+**The problem is not that the audience has never been contacted. It is that it has never been *targeted*.**
+
+**There is no working brand segmentation in Mailchimp.** The brand tags exist and are used on **one member each**:
+
+| Tag | Members |
+|---|---|
+| B2B | 277 |
+| show restricted pricing | 238 |
+| Login with Shop / Shop | 164 |
+| ISE2026 | 156 |
+| No Barco | 117 |
+| **CATS · DT · FWALLS · LWALLS · SRND** | **1 each** |
+
+**So Monday's per-brand subscribe flags — DT 926, C-ATS 191, Fabric Walls 193, Light Walls 195, Pro-Fi 193
+(finding 21) — have no counterpart in the system that actually sends the mail.** Everyone gets the group newsletter;
+nobody gets a brand proposition.
+
+**Set against finding 20, the two sources now agree from opposite directions.** Monday says only 24–73 accounts have
+ever been *presented* any given brand. Mailchimp says 98 % of accounts receive the general mailing. **Broadcast reach
+is solved; brand-specific presentation does not happen.** That is a much more tractable problem than an
+uncontacted audience, and it reframes `MON-14`: the 189 do not need finding, they need **segmenting and presenting**.
+
+### Two things worth acting on
+
+**1. Nothing has been sent since 2026-04-16 — four months.** `NEXT.md` lane 6 names its stall signal as *"a month
+with no publication."* **This is four**, on a list of 2,027 with a 54 % open rate. The audience is warm and idle.
+
+**2. ▲ A brand-truth breach, dated and sized.** Two campaigns in January and February 2026 went out as
+**"ISE 2026: Introducing Pro-Fi Spatial Audio Series"** (1,633 recipients) and **"Pro-Fi Spatial Audio Series -
+Small Speakers…"** (1,622), plus **"Pro-Fi Speakers Impress at ISE 2026"** (1,581 + 287). `open-items.md` already
+records *"Pro-Fi described as SRND Group's dedicated spatial audio brand"* as a **live contradiction that Pro-Fi's own
+voice code forbids** — the phrasing was flagged from the group site. **It also went to the mailing list, three times,
+to roughly 1,600 people each.** The flag stands; this gives it dates and reach.
+
+*Also visible and consistent with the archive: Pro-Fi has had more campaign airtime than any other brand while being
+pre-revenue with no shipping speaker line (finding 17).*
