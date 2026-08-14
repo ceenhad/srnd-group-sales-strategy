@@ -107589,5 +107589,41 @@
     "name": "Shop"
    }
   ]
+ },
+ {
+  "email_address": "claire.goldthorp@ideaworks.co.uk",
+  "status": "subscribed",
+  "merge_fields": {
+   "FNAME": "Claire",
+   "LNAME": "Goldthorp",
+   "PHONE": "+442036689870",
+   "COMPANY": "",
+   "MMERGE16": "",
+   "MMERGE17": "",
+   "MMERGE18": "",
+   "MMERGE19": "",
+   "MMERGE20": "",
+   "MMERGE21": "",
+   "MMERGE3": "",
+   "MMERGE5": "",
+   "MMERGE7": "",
+   "MMERGE8": "",
+   "MMERGE9": "",
+   "MMERGE10": "",
+   "MMERGE11": "",
+   "SHOPB2BCO": "Ideaworks (London) Limited"
+  },
+  "stats": {
+   "avg_open_rate": 0,
+   "avg_click_rate": 0,
+   "ecommerce_data": {
+    "total_revenue": 0,
+    "number_of_orders": 0,
+    "currency_code": "GBP"
+   }
+  },
+  "timestamp_opt": "2026-08-14T08:25:15+00:00",
+  "last_changed": "2026-08-14T08:25:26+00:00",
+  "tags": []
  }
 ]

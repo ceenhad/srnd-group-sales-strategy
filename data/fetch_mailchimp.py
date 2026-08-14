@@ -87,6 +87,20 @@ def main():
                               'members.stats,total_items')
         write(f"mailchimp-members-{l['id']}.json", members)
 
+    # per-campaign click detail: which URLs were actually clicked, and how often.
+    # This is the demand signal — aggregate open/click rates say how many engaged,
+    # the click URLs say what they engaged WITH.
+    def click_details(sent_ids):
+        out = []
+        for cid in sent_ids:
+            d = get(f'/reports/{cid}/click-details', count=1000)
+            for u in d.get('urls_clicked', []):
+                out.append(dict(campaign_id=cid, url=u.get('url'),
+                                total_clicks=u.get('total_clicks'),
+                                unique_clicks=u.get('unique_clicks'),
+                                click_percentage=u.get('click_percentage')))
+        return out
+
     campaigns = page('/campaigns', 'campaigns',
                      fields='campaigns.id,campaigns.web_id,campaigns.type,campaigns.status,'
                             'campaigns.send_time,campaigns.settings,campaigns.recipients,'
@@ -94,6 +108,9 @@ def main():
     write('mailchimp-campaigns.json', campaigns)
     sent = [c for c in campaigns if c.get('status') == 'sent']
     print(f'  campaigns: {len(campaigns)} total, {len(sent)} sent')
+
+    clicks = click_details([c['id'] for c in sent])
+    write('mailchimp-click-details.json', clicks)
 
 
 if __name__ == '__main__':

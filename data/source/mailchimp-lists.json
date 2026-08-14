@@ -35,7 +35,7 @@
   "marketing_permissions": false,
   "modules": [],
   "stats": {
-   "member_count": 2027,
+   "member_count": 2028,
    "unsubscribe_count": 126,
    "cleaned_count": 244,
    "member_count_since_send": 0,
@@ -49,7 +49,7 @@
    "target_sub_rate": 27,
    "open_rate": 52.1888759552609,
    "click_rate": 3.5123234981527403,
-   "last_sub_date": "2026-08-13T09:29:42+00:00",
+   "last_sub_date": "2026-08-14T08:25:15+00:00",
    "last_unsub_date": "2026-07-08T17:31:01+00:00"
   },
   "_links": [

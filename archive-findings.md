@@ -22,7 +22,7 @@ lives, what it covers, and what it cannot answer.
 | — | **Pro-Fi** | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
 | 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
 | 5 | **Monday.com CRM — four board exports** ✔ | `data/source/Monday - {SRND Deals, SRND Accounts, Leads, SRND Contacts}.xlsx` (supplied 2026-08-13) | **Deals 155** + 226 sub-deals, **Accounts 1,658** with per-brand status, **Leads 1,233**, **Contacts 1,371**. See tranche 4 | **Deals 2025 → 2026 only** — eighteen months, not years |
-| 6 | **Mailchimp** ✔ *(API, not an export)* | `data/source/mailchimp-{lists,members-a9c4508863,campaigns}.json`, pulled by `data/fetch_mailchimp.py`. **Key read from the `MAILCHIMP_API_KEY` environment variable — never in the repo, a file, or an argument** | **One audience, 2,027 subscribed** (2,844 records); **29 campaigns** | list built 2025; sends 2025-06-30 → 2026-04-16 |
+| 6 | **Mailchimp** ✔ *(API, not an export)* | `data/source/mailchimp-{lists,members-a9c4508863,campaigns}.json`, pulled by `data/fetch_mailchimp.py`. **Key read from the `MAILCHIMP_API_KEY` environment variable — never in the repo, a file, or an argument** | **One audience, ~2,028 subscribed** (2,845 records); **29 campaigns**; **416 click-detail URL records** | list built 2025; sends 2025-06-30 → 2026-04-16 |
 | 7 | **Sent-mail archive** | Not yet worked — `backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
 
 > **▶ One consolidated table now sits above all of it — `data/derived/all-transactions.csv`** (2026-08-13).
@@ -1466,3 +1466,77 @@ to roughly 1,600 people each.** The flag stands; this gives it dates and reach.
 
 *Also visible and consistent with the archive: Pro-Fi has had more campaign airtime than any other brand while being
 pre-revenue with no shipping speaker line (finding 17).*
+
+---
+
+## Finding 29 — the click detail, which is the first real demand signal in the repo
+
+*Pulled 2026-08-14: `data/source/mailchimp-click-details.json`, **416 URL records across all 29 sent campaigns.**
+Aggregate open and click rates say how many people engaged; **these say what they engaged with**, and that is the
+question `group/04-content.md` and lane 6 have never had an answer to.*
+
+### Where the clicks went, by destination
+
+| Destination | Unique clicks |
+|---|---|
+| **srnd.store** | **946** |
+| **tidycal.com** — booking a call or a factory visit | **226** |
+| fabricwalls.uk | 195 |
+| **YouTube** (`youtu.be` + `youtube.com`) | **231** |
+| displaytechnologies.co.uk | 191 |
+| srnd.group | 170 |
+| pro-fi.uk | 86 |
+| facebook.com · linkedin.com | 88 · 54 |
+| **c-ats.co.uk** | **6** |
+
+### The most-clicked individual links
+
+| Unique | Total | Link |
+|---|---|---|
+| **219** | 258 | `srnd.store/collections/barco-heimdall` |
+| **179** | **652** | `fabricwalls.uk` — the new-site announcement |
+| **82** | 345 | **`tidycal.com/srnd-neil/srnd-group-factory-visit`** |
+| 71 + 60 | 163 | ISE 2026 booking calendars |
+| 65 | 70 | `pro-fi.uk` |
+| 57 · 34 · 33 | | three YouTube videos |
+| **53** | 55 | **`srnd.store/pages/trade-account-partner-application`** |
+| 43 | 115 | `srnd.store/pages/immersive-environments` |
+| 40 | 42 | `srnd.store/products/dynamic-2s-side-masking-projection-screen` |
+
+### Five things this says
+
+**1. C-ATS received six clicks in twenty-nine campaigns.** Against 946 to the store, 195 to Fabric Walls and 191 to
+DT. **This is the "massively undersold" diagnosis with a mechanism attached** — not that the audience rejected C-ATS,
+but that **almost no email ever pointed at it.** Finding 20 said only 49 accounts were ever *presented* C-ATS;
+finding 28 said the brand tag carries one member. **All three sources now say the same thing, and this is the
+cheapest of them to fix.**
+
+**2. The single most-clicked link in the whole dataset is a carried projector** — Barco Heimdall, 219 unique. **The
+audience pulls hardest on 20 %-margin product** (finding 22), which is the demand-side face of the margin ladder. It
+does not mean stop selling Barco; it means **the pull that exists is currently aimed at the least profitable rung**,
+and no equivalent own-made hook has been offered.
+
+**3. Booking links are the second-biggest destination — 226 clicks, of which 82 unique for a factory visit.**
+`NEXT.md` lane 1 calls the Experience Centre *"disproportionately important… the one room we can show, film and
+measure freely."* **This is the first evidence for that claim rather than argument** — a link to book a visit
+out-pulls every product page except one. **High-intent, and it costs nothing to include.**
+
+**4. YouTube drew 231 clicks across a handful of videos.** Lane 6's *"record, don't write"* rests on the eight-year
+channel history and the ~9,500-view C-ATS explainer. **Emails that point at video get clicked**, which supports the
+cheapest content format the group has.
+
+**5. The trade-account application drew 53 unique clicks.** That is the strict gate from finding 26 — signed T&Cs,
+pricing access — **being clicked 53 times from email alone.** Worth reconciling against how many accounts were
+actually created in the same window: **engine shows 4–14 new accounts a month**, so the application link is
+plausibly a material share of new-account origin, and it is the one link that directly advances the milestone
+`NEXT.md` §D now measures.
+
+### And the best-performing campaign was a website launch
+
+*"The New Fabric Walls Website Is Now Live"* (2026-04-16) reached **1,982 recipients** — the widest send — at a
+**63 % open rate, the highest of the 29**, and produced **652 total clicks to fabricwalls.uk, the highest of any
+link.** It is also **the last campaign sent.** `MON-16` already flags the four months of silence since; this says the
+silence began immediately after the best result the list has produced.
+
+*Caveat carried from finding 28: open rates are inflated by Apple Mail Privacy Protection, so compare campaigns on
+clicks. The click figures above are unaffected.*
