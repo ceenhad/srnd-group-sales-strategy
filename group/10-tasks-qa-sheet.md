@@ -2,9 +2,12 @@
 
 **Three questions, asked one at a time over the same 46 tasks. Then a fourth pass for what is missing.**
 
-> ## ▶ RESUME HERE — session state, 2026-08-06
+> ## ▶ CLOSED — the session is complete, 2026-08-08
 >
-> **All four passes are complete. The next move is the reading.**
+> **All four passes and the reading are done.** This sheet is the historical record of the run; nothing in it
+> is live. The outcome lives in `NEXT.md` § "What the QA produced"; the shapes it directed are in
+> `12-task-shapes.md`; the decisions it surfaced are in `13-standards-decision-sheet.md`. *(Banner updated
+> 2026-08-14 — it previously read "RESUME HERE", which made a finished run look in-progress.)*
 >
 > | | State |
 > |---|---|
