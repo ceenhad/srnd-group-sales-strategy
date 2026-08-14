@@ -1540,3 +1540,42 @@ silence began immediately after the best result the list has produced.
 
 *Caveat carried from finding 28: open rates are inflated by Apple Mail Privacy Protection, so compare campaigns on
 clicks. The click figures above are unaffected.*
+
+---
+
+## Finding 30 — the pattern, and it runs the opposite way to the one the repo names
+
+*Not new data. The same shape, counted across everything measured on 13–14 August 2026, because eight instances of
+one thing is a finding and eight separate findings are a list.*
+
+**`CLAUDE.md` names the group's characteristic failure mode as "build it, then say it"** — announcing something not
+yet practised — and records it surfacing three times: dealer appreciation, the partner programme, and the whole room
+being genuinely easier to buy.
+
+**Everything measured this week is the same gap running the other way: built, and never said.**
+
+| Built | Never said | Evidence |
+|---|---|---|
+| C-ATS record filled, copy written, **BSRIA report published** | **6 clicks in 29 campaigns**; 49 accounts ever presented it; brand tag on one member | findings 20, 28, 29 |
+| A mailing list of 2,027 at a 54 % open rate | **Best campaign ever sent was the last one sent** — four months of silence | findings 28, 29 |
+| **348 partners with signed T&Cs and pricing access** | **189 never sold anything**; 24–73 accounts ever presented any brand | findings 20, 27 |
+| 266 approved dealers, 262 with signed agreements | **62 currently trading**; 162 never bought | findings 25, 26 |
+| Engine's document-generation layer, staleness flags, coverage rules | **Not mentioned anywhere in the plan** until it was audited | `engine-audit.md` |
+| Engine's question → answer → gap mechanism, 257 topics | Pointed at engine's own UI, never at products | `engine-audit.md` §2 |
+| A new Fabric Walls website | Announced once, brilliantly, then nothing | finding 29 |
+| **40 approved dealers** | **Cannot see a price at all** | finding 26 |
+| Monday's per-brand subscribe flags — DT 926, C-ATS 191 | **Never reached the system that sends the mail** | finding 28 |
+
+**So the failure mode is not over-claiming. It is under-telling** — and the two are opposites with the same root: a
+gap between what is true and what has been said. **`CLAUDE.md`'s rule guards one direction and the measured evidence
+runs the other**, which is worth a line in the steering document rather than a finding buried here. *Flagged in
+`open-items.md`; not edited unilaterally.*
+
+**Why it matters more than a tidy observation.** Every entry in that table is **cheap to fix and already paid for.**
+Nothing needs building, buying or hiring: the record exists, the list exists, the accounts exist, the mechanism
+exists, the report is published. **This is the arithmetic behind finding 27** — the growth target is 10 to 64 first
+orders from people who already signed — **and behind Neil's own diagnosis: *"no one can buy what they don't even know
+exists."***
+
+> **The one-line version, for whoever reads this file next: the group's problem is not capability and it is not
+> demand. It is that the work stops one step before anybody hears about it.**
