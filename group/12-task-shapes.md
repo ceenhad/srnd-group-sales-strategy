@@ -6,6 +6,11 @@ per task: **`no template`** (nothing to copy from) and **`no standard`** (nobody
 This file writes both. It needs no engine and builds nothing — it surfaces the shape pass 1 said is "already
 there and merely unwritten."*
 
+> **The `Direction (2026-08-14)` markers below are first-pass directions, not qualified decisions** — Neil ran
+> all 16 `[decide]` calls in one sitting (`13-standards-decision-sheet.md`) and was explicit that the
+> substantial ones each need their own session. Treat a direction as the working answer until its session
+> refines it; treat nothing below as closed.
+
 ## What a shape is — and the depth test
 
 **A list of steps is not a shape; steps written down are still a habit.** A shape has depth only when it
@@ -66,9 +71,11 @@ field, a pipeline win/loss. Each record carries a **last-updated date** — that
 fixed dimensions, sourced, into `X1`–`X4` → judge one-off vs pattern → stamp the last-updated date.
 
 **Definition of done:** the matrix is current as of the look; every populated cell is comparative and sourced;
-last-updated date stamped. **`[decide]`** the fixed dimension list per product category (so every competitor is
-compared on the *same* axes — this is what makes the analysis comparable across deals) and which competitors are
-tracked. *(Where the record lands: the engine audit — `REC-13` / `REC-0`.)*
+last-updated date stamped. **Direction (2026-08-14):** the fixed dimensions are performance and features ·
+integration/control · support model · lead time · price posture · reference/credibility — amended from the
+proposed default because measured performance is a hard metric to claim. **Open:** which competitors are
+tracked — the current roster is wrong and the real one is pending from Neil; cadence (quarterly + on any surface
+change) stands once it is named. *(Where the record lands: the engine audit — `REC-13` / `REC-0`.)*
 
 ---
 
@@ -89,9 +96,10 @@ decline — with brand and the reason that follows from the fields.
 **Steps — each time:** retrieve engine history → populate the fixed fields → apply the bar → record verdict +
 brand + reason.
 
-**Definition of done:** a complete qualification record with a verdict traceable to the criteria. **`[decide]`**
-the bar itself — the criteria and thresholds that turn the fields into a verdict (this is the `no standard`;
-once set, the scoring is a rule a machine can run).
+**Definition of done:** a complete qualification record with a verdict traceable to the criteria.
+**Direction (2026-08-14) — reframed:** the bar is ability to pay, not size or build-type — "much of our best
+projects have come from smaller dealers that get max value from our combined product and service offer."
+Pursue any dealer with the means to pay; small is fine; the disqualifier is inability to pay, not scale.
 
 ---
 
@@ -113,8 +121,10 @@ assembled per brand in a fixed order, covering the minimum set every presentatio
 fixed order → flag any brand whose fields are missing.
 
 **Definition of done:** a pack covering the minimum set for every relevant brand, generated from the record,
-with gaps flagged not hidden. **`[decide]`** the minimum set a "presentation" must always include, per room
-type. *(Depends on the on-ramp fields being filled — `DOC-13`, `KNW-*`.)*
+with gaps flagged not hidden. **Direction (2026-08-14) — reframed, build item:** not a minimum-set rule; the
+standard to build is how the proposal should be presented to maximise the upsell — a proposal design/template
+task, working with `group/adjacency-map.md`. Not yet built. *(Depends on the on-ramp fields being filled —
+`DOC-13`, `KNW-*`.)*
 
 ---
 
@@ -134,7 +144,10 @@ with the reason that follows from the fields.
 apply the bar → record verdict + reason.
 
 **Definition of done:** a project record with a verdict traceable to the criteria, linked to its dealer.
-**`[decide]`** the bar for "worth the time" — value band, stage, fit.
+**Direction (2026-08-14) — reframed:** every project is worth the time — "always." The bar to define is not this
+one but the boundary between pre-sales (free) and consulting (paid): "consulting needs to be paid." That
+boundary is a new open decision, not yet set. (Answers backlog `XS-4` in principle: spec help beyond pre-sales
+is chargeable.)
 
 ---
 
@@ -156,8 +169,10 @@ single deal.
 judge pattern vs one-off → stamp last-updated.
 
 **Definition of done:** the matrix reflects the latest pipeline evidence, comparative and sourced, patterns
-flagged. **`[decide]`** the threshold at which a run of losses becomes a "pattern" worth acting on. *(Record
-home: `REC-9` / `REC-0`.)*
+flagged. **Direction (2026-08-14) — struck:** no threshold rule; unmeasurable — "people don't reply with the
+actual list they did buy when you lose a bid." Replacement standard: record a competitor only when one is
+actually named in the deal; the picture accretes slowly; no pretence of systematic loss attribution (consistent
+with the `X6` finding that no loss reason exists in any system). *(Record home: `REC-9` / `REC-0`.)*
 
 ---
 
@@ -174,8 +189,9 @@ optional.*
   just given* — an answer that leaves only in an email is the gap.
 - **Steps:** retrieve the room's product records → assemble the spec → answer the part the record doesn't hold →
   record that answer into `N3`/`N8`.
-- **Done:** the dealer has the spec, and any answer the record didn't hold is now in it. **`[decide]`** what
-  counts as "worth capturing" vs a one-off, so `N3` doesn't fill with noise.
+- **Done:** the dealer has the spec, and any answer the record didn't hold is now in it. **Settled
+  (2026-08-14):** capture into `N3` any answer that isn't already in the record and could recur (a general
+  technical point) — not one-off project arithmetic.
 
 **`T-S24` — Feed product development**
 - **Output:** a **ranked list of product gaps and requests**, aggregated across the range from `X4`, `X6`,
@@ -209,10 +225,13 @@ changes); *gated before publication* — nothing ships without the truth-check a
 brand's hard don'ts; *sourced* — every claim traces to a field or a measurement.
 
 - **`T-M03` — Positioning and messaging** · Output: the brand/product positioning, from the `D` and `O` fields
-  plus the brand's own truth. Added rule: obeys **`[decide]` `G2`** — what the brand will and will not say.
-  Done: positioning stated, `G2`-obedient, sourced.
+  plus the brand's own truth. Added rule: obeys `G2` — what the brand will and will not say. **Settled
+  (2026-08-14) — confirmed in principle, build item:** inherit each brand's `CLAUDE.md` hard don'ts plus the
+  group rule (no superlative without a measurement) — but the actual per-brand `G2` lists don't exist yet;
+  "none of this is done." Done: positioning stated, `G2`-obedient, sourced.
 - **`T-M10` — Collateral** · Output: datasheet / case study from the generation-gate fields, versioned with a
-  review date. Done: draft approved against `G1`/`G2`, versioned. **`[decide]`** the re-review cadence.
+  review date. Done: draft approved against `G1`/`G2`, versioned. **Direction (2026-08-14):** re-review on change
+  (a product or data change triggers it), with an annual backstop.
 - **`T-M14` — Trade press and PR** · Output: the piece + the pitch to the outlet, from `H2` (the most
   interesting true thing) and `G4` (what may be shown). Added rule: **nothing NDA'd or unpublishable passes
   `G4`**. Done: piece and pitch ready, `G4`-cleared.
@@ -231,11 +250,15 @@ stops duplication and orphaning.
 
 - **`T-M06` — Editorial calendar and cadence** · Output: the ranked queue + schedule + published log. Rule:
   ranked by *what recurs and what is blocking* (the archive-derived demand, `CON-3`). Done: a current queue and
-  a log of what published. **`[decide]`** the floor rate (the sustainable minimum — `NEXT.md` lane 6).
+  a log of what published. **Direction (2026-08-14) — reset:** the actual demand is daily per brand — "if you
+  take all the content needed it's daily per brand" — servable only by the record + AI production line; the
+  owner's batch model is unchanged (owner minutes stay at the answer step), daily-per-brand is the production
+  system's target, not an owner promise.
 - **`T-M07` — Channel management** · Output: a map of what is live on which channel + the routing rule. Rule:
   *right piece to the right channel* against a stated fit (brand channel vs group; the estate rules in
-  `04`/`05`). Done: current live-where map, routing rule applied. **`[decide]`** the channel-fit rules, if not
-  already set.
+  `04`/`05`). Done: current live-where map, routing rule applied. **Direction (2026-08-14):** publish to brand
+  channels, not the group one; short argument-making pieces to video, method/data to the knowledge base; the
+  group channel stays group-level only.
 
 ---
 
@@ -248,19 +271,21 @@ outcome.*
 - **`T-S09` — Follow up through the project's lead time** · Output: a **scheduled sequence of touches** across
   the quote-to-order window, each relevant to *this* project, with sent/opened/replied logged and a
   hand-to-a-person rule. Rules: *fires on elapsed time, not memory*; *relevant, not a generic nudge*; *logged*.
-  Done: touches firing on schedule, logged, escalating when the rule says. **`[decide]`** the interval and the
-  stop/hand-over rule. *(This is `TSK-3`.)*
+  Done: touches firing on schedule, logged, escalating when the rule says. **Direction (2026-08-14):** a 30-day
+  default via the one-tap status email (`group/14-engine-as-hub.md` §1 Q4), and the receiver adjusts their own
+  next-contact interval; two ignored pokes escalate to a human call; stop at order or explicit no. *(This is
+  `TSK-3`.)*
 - **`T-S13` — Close** · Output: the ask made, and **the answer recorded either way** against the opportunity.
   Rule: *a "no" and its reason is recorded, not just a "yes"*. Done: outcome recorded. The detect-side (gone
   quiet / past window) is buildable; the ask is human.
 - **`T-S25` — Events and keeping relationships warm** · Output: **who was met and what was said**, recorded
   against the account. Rule: *the contact is captured* — an event whose conversations aren't recorded is a cost
-  with no asset. Done: contacts logged against accounts. **`[decide]`** the minimum a post-event note must
-  capture.
+  with no asset. Done: contacts logged against accounts. **Direction (2026-08-14):** per contact — who, which
+  account, what they were unsure about, what they were afraid of, the next step.
 - **`T-S28` — Recognition and thanks** · Output: the thanks given, triggered by a **milestone the record can
   detect** (first order, Nth, anniversary, £ threshold). Rule: *triggered by a signal, not a calendar* (`S28`).
-  Done: milestones surfaced and acted on. **`[decide]`** which milestones warrant recognition. *(Record side:
-  `REC-11`.)*
+  Done: milestones surfaced and acted on. **Direction (2026-08-14):** first order · a big-£ threshold (the
+  £500k-dealer class) · an Nth-order or anniversary mark · a standout project. *(Record side: `REC-11`.)*
 
 ---
 
@@ -274,8 +299,9 @@ already.)*
 **Rules:** *captured on the event, not later*; *source-tagged* — which hook caught them (`JNY-1` attribution);
 *routed, never parked*.
 **Steps:** detect the capture event → record into engine → route to nurture or to a person.
-**Definition of done:** every lead in the record, source-tagged, with a route assigned. **`[decide]`** the
-routing rule — what goes to nurture vs a person.
+**Definition of done:** every lead in the record, source-tagged, with a route assigned. **Settled
+(2026-08-14):** an explicit ask, a qualified high-value lead, or a live project routes to a person; everything
+else to the nurture sequence.
 
 ---
 
@@ -289,8 +315,10 @@ period.
 **Rules:** *the same signals every period* — so periods are comparable, the measurement form of "comparative";
 *sourced to the gateways*, not hand-assembled; *dated to the period*.
 **Steps:** detect the `G1`–`G6` signals → assemble the what-moved view → record against the period.
-**Definition of done:** a report on the fixed signals, comparable to prior periods. **`[decide]`** the reporting
-period, and which of `G1`–`G6` are the headline measures.
+**Definition of done:** a report on the fixed signals, comparable to prior periods. **Direction (2026-08-14) —
+amended:** live anytime and emailed on a Monday morning — the KPI dashboard (`group/14-engine-as-hub.md` §1)
+live in engine at any time, plus a Monday-morning email digest; headline content is the six-question KPI set
+(Q1–Q6), not `G1`–`G6`/`FACT-1`. The digest is another engine-owned-mail use case.
 
 ---
 
@@ -298,6 +326,11 @@ period, and which of `G1`–`G6` are the headline measures.
 
 *Pass 1's `no standard` in one place: the small, one-time decisions that turn these templates into standards.
 Each is minutes, and each makes a task consistent whoever does it. The owner's to set — not guessed here.*
+
+> **First pass run 2026-08-14 — directions set, not settled.** All 16 taken; outcomes are inline above and in
+> full in `group/13-standards-decision-sheet.md` (9 accepted/amended, 3 reframed, 1 struck, 2 left as build
+> items, 1 still pending a roster from Neil — and per Neil's caveat, the substantial ones each still need their
+> own session). The bullets below are the original asks, kept for reference.
 
 - **Qualify (`T-S03` / `T-S04`):** the bar — what makes a *dealer*, and a *project*, worth pursuing.
 - **Present the range (`T-S05`):** the minimum set every presentation must include, per room type.
