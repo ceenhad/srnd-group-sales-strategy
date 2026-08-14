@@ -626,7 +626,13 @@ Named so they read as choices rather than debt:
   stop. Neil reports work in progress on a replacement approach. **Nothing to plan here until that lands** — but the
   three-year run is proof the demand existed, which is a different position from an untested brand.
 - **Whole-room ease.** The fragmentation fix is Engine and canonical-data work, not this repo's, and not
-  something we can schedule from here.
+  something we can schedule from here. **▲ Being reconsidered by the person who parked it, 2026-08-14** (Neil:
+  *"we are happy to invest the time and tokens to extend engine so that our social media, our mail campaigns, our
+  websites, our reporting… all are either in engine or closely coupled to engine"*). **If that proceeds, this stops
+  being out of scope and the strategy repo and the platform work become one programme** — see `open-items.md`
+  § "the direction set 2026-08-14", which also names what it changes: `TSK-6`'s primitives gain their context,
+  `SYS-1`'s routes gain their home, and `decided.md` S29 needs re-reading because it assumed the brand sites were
+  separate.
 - **Deploying anything.** Still the last step, still deliberate.
 
 ## And the repo stops growing

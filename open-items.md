@@ -366,6 +366,76 @@ direct-first reasoning and the distributor analysis both travel; neither needs a
 
 ---
 
+## The direction set 2026-08-14 — engine as the hub, and why the three questions are one
+
+*Neil, closing the measurement session: "I don't think we are ready for that yet. We haven't discussed KPIs yet,
+there is a whole question about data reconciliation that could win us a LOT, and then there is the doing question.
+How do we do it when right now it's basted over 100 tools and apps and files. We are happy to invest the time and
+tokens to extend engine so that our social media, our mail campaigns, our websites, our reporting… all are either in
+engine or closely coupled to engine."*
+
+**Recorded before designing anything, because this is a change of scope and it should be visible as one.**
+
+### The three are one question
+
+**KPIs, reconciliation and the tool sprawl are not three workstreams. They are one, and this week's findings show
+why.**
+
+- **A KPI is only real if it has one uncontested definition and a system that computes it.** We found **four dealer
+  counts differing by a factor of five** — 340 engine-approved, 266 Monday-approved, 104 ever purchased, 62 current
+  (findings 25–26). That is not a measurement problem, it is a **source-of-truth** problem.
+- **Reconciliation is what that problem looks like when it costs money.** Engine and Monday disagree on which deals
+  are open (finding 26); **40 approved dealers cannot see a price** (`MON-13`); Monday's per-brand subscribe flags
+  never reached Mailchimp, so nobody gets a brand proposition (finding 28); 6 % of revenue is unclassified because
+  two report formats each carry half the detail (`MON-11`).
+- **And both are symptoms of the sprawl.** Every one of those failures happens **at a boundary between systems**, not
+  inside one.
+
+**So the fix is architectural, and Neil has named it: engine as the hub, with social, mail, sites and reporting either
+in it or closely coupled to it.** Then a KPI has one definition because it has one home, and reconciliation stops
+being a periodic clean-up because there is nothing to reconcile.
+
+### This reverses something the plan had parked, deliberately
+
+**`NEXT.md` "Deliberately not now" currently reads:** *"**Whole-room ease.** The fragmentation fix is Engine and
+canonical-data work, not this repo's, and not something we can schedule from here."*
+
+**That parking is now being reconsidered by the person who set it.** Worth stating plainly rather than letting it
+drift: **if engine consolidation becomes the plan, the strategy repo and the platform work become one programme
+rather than two**, and several things change:
+
+- **The `detect` / `record` / `route` primitives (`TSK-6`) stop being abstract.** `engine-audit.md` §2 already found
+  their spine exists — notifications, tasks, approvals, lead→dealer referral, and an agent layer with budgets and an
+  audit trail. **Consolidation is the context those were always waiting for.**
+- **The capture routes (`SYS-1`) get their home.** Their whole premise was *"a route is a field on a screen people
+  already use"* — which only holds if the screen is engine, and everyone now works in engine.
+- **`decided.md` S29** put the canonical home for answers on each brand's own site. **If sites become
+  engine-coupled, that decision needs re-reading** — not necessarily reversing, but it was made assuming the site was
+  separate.
+- **The one-strategy-applied conclusion holds and gets easier.** One strategy over one platform is the same argument
+  twice.
+
+### What the next session should establish, in order
+
+**Not the build. The decisions that make the build definable.**
+
+1. **The KPI set — definitions first, dashboards never.** For each: one sentence of definition, the single system
+   that owns it, and whether it is computable today. The account ladder (348 → 159 → 62) is the spine and already
+   works; **accounts created per period and first-order conversion are the two that matter most** and both are live
+   in engine now.
+2. **The reconciliation map — every boundary, and what leaks at it.** Nine are already documented in
+   `archive-findings.md`; the job is to complete the list, price each leak, and mark which disappear under
+   consolidation and which need fixing regardless. **`MON-13` is the proof this pays: forty partners who cannot buy.**
+3. **The consolidation shape — what moves into engine, what couples to it, and what stays out.** The honest test is
+   the one this page already applies: **does it ride on something already happening?** Mail and reporting look like
+   coupling; websites look like a bigger question; social looks like the least certain.
+4. **And one sequencing question that decides the rest:** does the record (step 3) get filled *into* engine's
+   knowledge mechanism now that we know it exists (`engine-audit.md` §2), rather than into files that later migrate?
+   **That is a fork worth resolving before more of the record is written.**
+
+*No design in this note deliberately. The point is that the direction is recorded, the reversal is visible, and the
+next session starts from decisions rather than from a blank sheet.*
+
 ## A proposed refinement to `CLAUDE.md` — for Neil, not applied unilaterally
 
 **`CLAUDE.md` records the group's characteristic failure mode as *"build it, then say it"*** — the risk of announcing
