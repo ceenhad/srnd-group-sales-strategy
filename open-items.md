@@ -520,6 +520,26 @@ bullet, in the same voice, for Neil to accept, reword or reject:
 *Recorded here rather than edited into `CLAUDE.md`, because the steering document is the constitution and this is a
 change of emphasis in it.*
 
+## Sessions needed — the work that is session-sized, in order
+
+*Added 2026-08-16. **The standards run established the pattern**: sixteen calls were taken in one sitting and
+six were named as needing their own session; all six have since been worked. **This is the standing version of
+that list** — what remains session-sized, what each one is blocked on, and roughly what it costs. Single-line
+answers live in "Decisions needed" below; these are the ones that don't fit there.*
+
+| | Session | What it needs | Blocked on |
+|---|---|---|---|
+| **1** | **The service offer** (`XS-5`) | Define it, document it, price it, publish it. **Not a pricing exercise** — outside C-ATS the service was ad hoc, so the accounts give precedent and range, not a list (Neil, 2026-08-16). Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7` and the partner-programme value question |
+| **2** | **The roles** (`NEXT.md` step 1, `PAR-3`) | Who fills owner · producer · trade view. **Roles, never names, was settled — the filling was not** | Nothing. **Named as the first step of the critical path since rev 1 and still undone; an unowned critical path is how this becomes next year's problem** |
+| **3** | **Sensing — line, layer, or brand** | The three questions above. Market size, buyer, channel, competitors, price and timing are **[?]** everywhere and must not be guessed | Neil's judgement on scope; possibly on evidence that does not exist yet |
+| **4** | **The competitor roster** (standard 5 ⚑) | Names per brand — C-ATS behind its price band, Fabric Walls and Pro-Fi at all. **It cannot be derived: no loss reason exists in any system** | **Entirely Neil.** Nothing else gates `T-M02`; the axes and the output shape are set |
+| **5** | **The upsell proposal build** (standard 3) | The design is written; what remains is one document or core-plus-appendix, who builds one today, and whether the layer list is fixed per room type | Partly a fetch — *what goes out today* is unknown |
+| **6** | **The content floor** (standard 10) | The floor **in beat-sheet briefs per period**, and who owns publication | **Neil and Olivier only.** The lane does not start without it |
+
+**And two that are not sessions but sit at the head of the queue anyway:** **`MON-13`** — forty approved dealers
+with no engine account, *"a fault to fix today"* — and the **`C1` dual-listing wording**, minutes of work that
+gates whether `C1` can be filled honestly for any DT record.
+
 ## Decisions needed (flag, don't guess)
 
 > **This list is the single home for open decisions; other files point here.** And it is not complete on this
