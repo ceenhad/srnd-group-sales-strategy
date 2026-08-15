@@ -140,10 +140,15 @@ trade caution gets applied here by reflex and removes an advantage.
 
 ## Noted, deliberately not pulled in
 
-The platform is wider than tools: **Folio** (configuration), **Probata** (measurement-driven commissioning that
-proves an installed room meets its design targets), and **Auctor** (runtime and telemetry). Probata is
-recognisably C-ATS verification and Pro-Fi calibration as a product, and Tessellate is shared substrate consumed
-by Pro-Fi's Lattice and Apollo — the group's technical depth as common code. ADR 017 is explicit that the
-platform play is the durable bet and the design-phase win alone isn't the long-term moat.
+The platform is wider than tools: **Folio** (configuration) and **Probata** (measurement-driven commissioning
+that proves an installed room meets its design targets). Probata is recognisably C-ATS verification and Pro-Fi
+calibration as a product, and Tessellate is shared substrate consumed by Pro-Fi's Lattice and Apollo — the
+group's technical depth as common code. ADR 017 is explicit that the platform play is the durable bet and the
+design-phase win alone isn't the long-term moat.
 
 Significant, and **out of scope here** while the brand strategies settle. Flagged so it isn't forgotten.
+
+> **Correction, 2026-08-15 (Neil):** this list previously also named **Auctor** as a platform component
+> (runtime and telemetry). **It carries no commercial value — a background experiment — and should not be
+> counted as part of the platform play.** Removed rather than struck, so no future pass reinstates it from a
+> half-sentence.

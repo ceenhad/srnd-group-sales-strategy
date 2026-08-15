@@ -1858,7 +1858,12 @@ already says what finding 31 derived from fifteen years of invoices today:
 
 > *"Boutique design services — the cashflow and the wedge… **Highest margin, lowest infrastructure risk,
 > near-zero customer-acquisition cost.**"* And: *"**the design fee is the smallest number in the deal**"* — the
-> recurring lifecycle tail (Folio → Probata → Auctor) is the prize the design buys.
+> recurring lifecycle tail is the prize the design buys.
+
+*(That document names a specific product chain for the tail. **One of the three named carries no commercial
+value** — Neil, 2026-08-15 — so the chain is not reproduced here; **the argument survives it**, since
+configuration and commissioning are real and recurring on their own. See the correction in
+`group/07-tools.md`.)*
 
 It also settles a boundary the group repo has never stated: **SRND owns the design, the IP and the client
 relationship; partners own the install** — *"the design authority at the top of the market, with the partner
@@ -1882,3 +1887,183 @@ obviously agree. *Neil noted at the time that he would be "introducing another l
 this" — ADR 073's superseded text, folded into 017, is about **Cinema Expert**, an independently accredited
 cinema credential reoccupying ground CEDIA abandoned. That is very likely the thing, and it would resolve the
 tension by making training a product with a partner-facing tier rather than either/or.*
+
+---
+
+## Finding 32 — the future the archive cannot see: LWCP, reviewed 2026-08-15
+
+*Neil: "one more for you to fill the future gap as well as history. Please review the LWCP repo." **The archive
+measures fifteen years of what was sold. This is the only thing in the group large enough to change what gets
+sold next, and the strategy repo currently records it as dormant.** Read-only review of `d:/dev/lwcp` — README,
+`docs/STRATEGY.md`, `docs/PRODUCT-TIERS.md`, ADR summaries and the git history. No files were modified.*
+
+### 1. It is not dormant, and it is not a fixture brand
+
+`NEXT.md` places Light Walls in the **Hold** tier — *"stopped in 2023 pending the replacement approach"* — and
+"Deliberately not now" says **"nothing to plan here until that lands."** **It has landed.** Architecture and
+commercial strategy are settled, the software layer is end-to-end exercisable, **freedom-to-operate is cleared
+on the two patents that threatened the moat**, and the git history runs to **2026-08-02** — a fortnight ago,
+with a whole dynamic-content workstream (`F1`–`F4`, `G1`) merged after the README's own "parked" note.
+
+**But the more important correction is what it became.** A posture update dated **2026-07-17** re-weights the
+whole thing:
+
+- **Per-pixel demotes from headline to feature.** *"~98 % of the professional lighting market is non-pixel and
+  mostly white."* **Calibrated white is the volume P&L; pixel — Light Walls — is the halo that proves the
+  colour science.**
+- **The unit of product is the driver plus its measured profile, not the fixture.** Own light demotes to a
+  reference engine.
+- **LWCP is a lighting control system**, competing with **Lutron, Rako, Crestron, Control4** — not with tape
+  vendors.
+
+**So "Light Walls" is now one tier of a platform, not a brand being restarted.** Tier 1 retrofit/event · Tier 2
+DT8 architectural luminaire · **Tier 3 full system, which is where the Light Walls name lives.** Same hardware
+throughout; tiers separated by firmware flags and licensing.
+
+### 2. Three things the group strategy has no account of at all
+
+**a. A fourth revenue shape — licensing.** Finding 31 put services at ≈100 % margin above product. LWCP adds
+**software licensing**: the design tool seat- or project-licensed, Path B enablement licensed per install, tier
+gating by firmware flag. **Same hardware, three price points, differentiated in software** — and Tier 3 ships
+**commissioning and calibration as part of the deliverable**, which is precisely the lifecycle service tail
+`cinema-platform`'s `08-service-lines.md` calls the recurring prize. *The group repo has no concept of licence
+revenue anywhere.*
+
+**b. Prices, written down.** *"There is no price list anywhere"* was the conclusion three sources ago. **LWCP
+has indicative pricing**: master receiver **£150–300**, coordinator **£800–2,500** by SKU, and a typical
+high-end residential cove install at **£4,000–8,000** — positioned below Ketra and against Color Kinetics and
+Lumaris. **Which sharpens the pattern rather than contradicting it: the numbers live in the product repos, and
+the strategy repo is the only place that doesn't have them.**
+
+**c. A competitor set that does not appear in `06-competitors.md`.** Lutron (Lumaris and Ketra), Color
+Kinetics, Traxon, Anolis, Lumenpulse, Saco, Advatek, Pharos, ENTTEC, Madrix, Dresden Elektronik, Philips Hue —
+each assessed for what it does well. **Session 5's roster ask did not even list Light Walls as a brand needing
+names.** *It needs them least of all: it already has the best competitor document in the group.*
+
+### 3. The group-level consequence, and it is the largest thing in this review
+
+**LWCP is the group's most credible route out of cinema, and the strategy has been looking for one.**
+`NEXT.md` is explicit that the group will not remain a cinema-only trade supplier and that the adjacent markets
+— **commercial fit-out, hospitality, premium residential** — are larger; lane 1 adds that **those clients often
+want the publicity**, which is the answer to a proof problem the cinema work structurally cannot solve.
+**LWCP's three tiers aim at exactly those buyers**, through the **architectural specifier and BMS-integrator
+channel** — which is also the pre-tender specification route `open-items.md` has had staged since Stage 2 and
+never started. **One product line addresses the beyond-cinema gap, the specifier gap and the publishable-proof
+gap simultaneously.** *Nothing else in the group does that.*
+
+### 4. And the pattern across three repos is now unmistakable
+
+- **DT** — the Commander control platform, *"the un-copyable half"*, mechanisms plus control.
+- **Cinema Tools** — engine depth as the IP; Pro is **internal tooling** whose purpose is to make the method
+  reproducible by fewer people (ADR 017 §4).
+- **LWCP** — *"every driver measures the light it powers and holds it calibrated for life."*
+
+**Three brands, three measurement-and-control platforms, each behind a thin brand front.** The group's stated
+moat is technical depth; **the specific form that depth takes is measurement and control**, and it is the same
+form three times. *That is a group-level statement `group/00-strategy.md` does not make, and it also explains
+why this repo keeps discovering the product repos are ahead of it: the depth is being built where the
+engineering is, and the strategy layer is downstream of it.*
+
+### 5. Two hard constraints that must survive into any commercial decision
+
+**Freedom-to-operate rests on two design invariants**, and they are cheap to honour and expensive to
+rediscover:
+
+1. **No optical sensing element** — no photodetector, no LED-as-sensor, no optical feedback at runtime. This is
+   what clears the **Ketra/Lutron** portfolio, including a patent **in force to 2034**.
+2. **Single RGB triangle plus free W** — never tessellate the gamut into three-coordinate mixing zones.
+
+**Colour correction runs open-loop from a stored measured profile.** *These belong in Light Walls' `G2`
+(session 6) as hard don'ts the moment the brand says anything public — a marketing claim about "sensing" or
+"closed-loop" colour would be a patent problem, not a tone problem.* **Counsel review is still outstanding on
+three narrow items and is named as gating the premium-driver certification spend.**
+
+### 6. Two staleness notes inside LWCP itself, flagged not fixed
+
+- **The README's status line is two weeks behind its own repository** — *"work parked ~1 week"* dated
+  2026-07-20, with substantial work merged on 2026-08-02.
+- **`docs/STRATEGY.md` contradicts itself.** Its posture box says ADR 0039 supersedes ADR 0005 so that **DALI
+  and Matter coexist by tier**; its "What LWCP is not" section still says *"not running DT8 and Matter on the
+  same coordinator: each coordinator is one or the other per ADR 0005."* **Same file, superseded rule.** *The
+  same class of error as `07-tools.md` citing ADR 019 — a superseded citation left standing inside a document
+  that elsewhere knows better.*
+
+### 7. LWCP's spatial sensing — missed on the first pass, and it corrects a guardrail
+
+*Neil: "did you also note the sensing in LWCP?" **No — the sensing documents were in the tree and were not
+opened, and the omission produced a wrong rule.** The first draft of Light Walls' `G2` said "never claim
+optical sensing," which would have denied a real capability. **The freedom-to-operate ban is narrow: optical
+feedback on the luminaire's own output, inside the colour loop.** Corrected in place in
+`group/13-standards-decision-sheet.md`.*
+
+**LWCP has a spatial-sensing layer, ratified.** ADRs **0044** (the category and its allocation), **0045** (the
+sensing head), **0046** (a UWB anchor fabric) and **0047** (the embedded platform), all accepted 2026-07-26.
+The stack is **mmWave, time-of-flight depth, UWB, audio events and environment** — and **camera-free by
+ratified privacy posture**, which is a saleable position in itself for residential and hospitality work.
+
+**The claim it makes is a category claim, and it has the shape of the group's best ones.** *"Nobody has made
+position computational; sensors report **what**, never **where**."* Spatial sensing is defined as **measurement
+resolved into the installation's shared coordinate frame and computed against its authored model**, laddered
+L0 (positioned telemetry — any scalar reading gains its node's pose and becomes an environment field over the
+room) through L3. **The coordinator is the spatial computer and the fixture never learns its position**
+(ADR 0015 Principle 2), which is the same allocation the colour pipeline uses.
+
+**It also sharpens LWCP as a control system.** Against Lutron, Rako, Crestron and Control4 the differentiator
+is depth of exactly this kind: **lighting that responds to where people actually are in a modelled room**, not
+to which zone a PIR covers.
+
+### 8. But sensing is not a feature of the lighting — Neil, 2026-08-15
+
+> *"Sensing is a potential giant market in its own right."*
+
+**Recorded as the owner's position, because this repo holds nothing else on it and would otherwise file a
+market under a feature.** *An earlier draft of this finding did exactly that — demoted sensing to a capability
+of the lighting platform — and it was wrong in the opposite direction to the draft before it. Both errors are
+kept visible here because the shape matters: the first over-read a document, the second over-corrected from a
+single instruction.*
+
+**What the LWCP work supplies that supports a market rather than a feature:**
+
+- **A category claim, and it is the kind this group is good at.** *"Nobody has made position computational;
+  sensors report **what**, never **where**."* **That is a named absence with a ladder over it** — L0 positioned
+  telemetry through L3 — structurally the same move as C-ATS's 3 Rs or measured colour. **The group's best
+  positions have all been of this form.**
+- **Camera-free by ratified posture.** In residential, hospitality and workplace, *knowing where people are
+  without watching them* is a saleable position on its own, and it is a choice competitors using vision cannot
+  reverse cheaply.
+- **The architecture is already allocated.** The coordinator is the spatial computer; the device never learns
+  its position (ADR 0015 Principle 2). **That is a platform shape, not a product feature** — the same shape as
+  DT's Commander and Cinema Tools' engines (§4).
+- **And it is the least cinema-shaped thing the group has.** Presence and position in a modelled room serve
+  **commercial fit-out, hospitality and workplace** — the markets `NEXT.md` says the group wants and cannot yet
+  prove. **LWCP at least carries a lighting heritage; sensing carries none, which is an advantage here.**
+
+**What is not known, and must not be filled in:** the size of the market **[?]**, who buys **[?]**, through
+which channel **[?]**, against whom **[?]**, at what price **[?]**, and on what timing **[?]**. **None of that
+is in any repo**, and a plausible answer would be worse than the gap.
+
+**Three decisions this creates, none of them takeable here** — recorded in `open-items.md`:
+
+1. **Is sensing a line of its own, or a layer of LWCP?** The engineering is currently inside LWCP; the market
+   claim is not lighting-shaped. *These can both be true and the answer is a commercial choice, not an
+   architectural one.*
+2. **How does it relate to `SRND Solutions`** — the own-made *"sensors and interfaces"* line
+   `group/01-commercial-model.md` already names as in development and `open-items.md` still records as an
+   unanswered go-to-market question? **Same thing, adjacent things, or one inside the other is undetermined**,
+   and the repo currently describes SRND Solutions in words that could equally describe this.
+3. **Does it get a brand, and whose?** The six-brand roster has no slot for it, and the group model makes
+   brands the marketing surface.
+
+> **What this finding is for.** The archive answered *what has been sold*. This answers *what could be sold
+> next*, and it turns up **two** forward positions rather than one: **LWCP, filed under "Hold" for a 2023 stop
+> the work has since overtaken — and sensing, which the plan does not mention at all.** *One is
+> mis-prioritised; the other is missing.*
+
+> **A withdrawal, recorded because the reasoning is the useful part.** This finding first carried two further
+> sections, drawing group-level conclusions — about SRND Solutions' go-to-market and about the cross-sell
+> thesis being engineered rather than asserted — **from a platform document that also governs a separate
+> background project with no commercial value** (Neil, 2026-08-15). **The premise was wrong and the sections
+> are removed rather than struck**, along with the `open-items.md` note they produced. *The error is the one
+> `06-competitors.md` opens by warning about, in a new place: **a document's existence and its ratification
+> were read as commercial weight**, and nobody had said it carried any. **Ask what a document is for before
+> building on it** — the same check this repo already applies to competitors' marketing sites.*

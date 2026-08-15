@@ -594,10 +594,33 @@ change of emphasis in it.*
   holes, Pro-Fi's shipping Spatial cabinets); others need deciding, including whether a small Fabric Walls
   element can serve as one. Fulfilment on these must be exemplary — the first order tests us, not the
   product.
+- **▲ NEW — sensing as a market in its own right.** Neil, 2026-08-15: ***"Sensing is a potential giant market
+  in its own right."*** **This repo has no position on it at all**, which is the largest single blank in the
+  strategy. **What exists is engineering, and it is substantial**: LWCP holds a ratified spatial-sensing
+  architecture (ADRs 0044–0047 — mmWave, time-of-flight depth, UWB anchor fabric, environment; **camera-free by
+  ratified posture**), built on the category claim that ***"nobody has made position computational — sensors
+  report what, never where."*** See `archive-findings.md` finding 32 §§7–8.
+  **Three decisions, in order:**
+  1. **Is it a line of its own, or a layer of LWCP?** The engineering sits inside LWCP; the market claim is not
+     lighting-shaped. Both can be true — it is a commercial choice, not an architectural one.
+  2. **How does it relate to `SRND Solutions`** (below)? The repo describes that line in words —
+     *"sensors and interfaces"* — that could equally describe this. **Same thing, adjacent, or one inside the
+     other is undetermined.**
+  3. **Does it get a brand, and whose?** The six-brand roster has no slot for it, and the model makes brands
+     the marketing surface.
+  **And what must not be guessed:** market size, buyer, channel, competitors, price and timing are all **[?]**
+  in every repo. **A plausible answer here would be worse than the gap** — this is the flag-don't-guess rule at
+  its most load-bearing, because a market this size would reorder the plan if it were real and waste the group's
+  scarcest year if it were not.
+  **One thing already in its favour, and it is not a small one:** presence and position in a modelled room serve
+  **commercial fit-out, hospitality and workplace** — the beyond-cinema markets `NEXT.md` wants and cannot yet
+  prove. **Sensing carries no cinema heritage to fence it**, which is an advantage LWCP itself does not have.
+
 - **SRND Solutions go-to-market** — the forthcoming own-made sensors/interfaces line
   (`group/01-commercial-model.md`) deliberately doesn't fit inside a brand, yet the model makes
   brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a
   cross-brand group line attached to installs. Also its launch timing (don't market before it ships).
+  **Now entangled with the item above** — decide the sensing question first, because it may absorb this one.
 - ~~**Third-party audio versus Pro-Fi**~~ — **RESOLVED.** All carried cinema audio (Mag Theatron,
   PhaseTech/SoundTube, dARTS) is deleted everywhere. Pro-Fi is the group's audio brand, and the roster
   principle is now general: **we carry nothing that competes with our own brands.** See

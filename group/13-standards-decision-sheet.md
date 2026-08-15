@@ -596,7 +596,11 @@ gating the matrix.**
 ### The ask — five short questions
 
 1. **Per brand, who do we actually meet?** DT has a roster and half a matrix; **C-ATS needs a roster behind its
-   price band, and Fabric Walls and Pro-Fi need names at all.**
+   price band, and Fabric Walls and Pro-Fi need names at all.** *(**Light Walls needs nothing** — reviewed
+   2026-08-15, LWCP's `docs/STRATEGY.md` already assesses **Lutron Lumaris and Ketra, Color Kinetics, Traxon,
+   Anolis, Lumenpulse, Saco, Advatek, Pharos, ENTTEC, Madrix, Dresden Elektronik and Philips Hue** — each for
+   what it does well. **It is the best competitor document in the group and this sheet did not know it
+   existed**; finding 32.)*
 2. **Which of the names above are wrong** — in the document but not competitors we meet?
 3. **Who is missing entirely?**
 4. **Which are competitors for the *dealer* rather than for the product?** Kept as a separate list, because the
@@ -683,11 +687,33 @@ honesty rule; **one voice across all audiences.**
 the list in **three campaigns to roughly 1,600 recipients** in January–February 2026 (`open-items.md`; finding
 28). **Correcting the site will not undo it** — which is the strongest existing argument for these lists.
 
-### Light Walls *(deferred — and the honest `G2` is short)*
+### Light Walls *(deferred — and the honest `G2` is short, but no longer empty)*
 
-**Won't say:** anything. **It is not a shipping product line**, external trading ran 2021–2023 and stopped, the
-brand-versus-platform scoping decision is open, and the physical layer waits on fab. **Rule: name it as an
-absence, never a pitch** (`adjacency-map.md`). Nothing may be claimed until the replacement approach lands.
+**Won't say:** anything, yet. **It is not a shipping product line**, external trading ran 2021–2023 and
+stopped, and the physical layer waits on fab. **Rule: name it as an absence, never a pitch**
+(`adjacency-map.md`).
+
+**▲ But two hard don'ts now exist and bind from the first public word** — LWCP's freedom-to-operate rests on
+them (`archive-findings.md` finding 32):
+
+- **Never claim optical feedback in the colour loop.** No photodetector, no LED-as-sensor, no optical sensing
+  of the light's *own output* at runtime — deliberately, and it is what clears a competitor portfolio **in
+  force to 2034**. Correction runs **open-loop from a stored measured profile** plus thermal and electrical
+  telemetry.
+- **Never describe the gamut as tessellated into three-coordinate mixing zones.** The design is **a single RGB
+  triangle plus a free W channel**, and the distinction is what clears a second patent.
+
+> **⚠ Correction, 2026-08-15 — the first draft of this entry got it dangerously wrong.** It read *"never claim
+> optical sensing"*, which would deny a real capability. **LWCP has a ratified spatial-sensing layer** —
+> mmWave, time-of-flight depth, UWB, audio and environment, camera-free by posture, under ADRs 0044–0047.
+> **The ban is narrow and specific: optical feedback on the luminaire's own output inside the colour loop.**
+> Presence, position and environment sensing are **capability to describe, not a claim to avoid.** *Recorded
+> rather than silently edited, because a guardrail that over-reaches suppresses real work, and this one nearly
+> did.*
+
+**Says instead, when it says anything:** *measured per-unit, and held on target for life.* **These are patent
+constraints wearing brand-guardrail clothing** — a careless marketing sentence here is a legal problem rather
+than a tone problem, which makes this the one `G2` list where the stakes are not reputational.
 
 ### SRND Distribution and the carried lines
 
