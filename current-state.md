@@ -246,13 +246,28 @@ while still occupying the territory.
   MOQs) remains unset.
 - **No dealer credit accounts, anywhere — the UK included** (Neil, 2026-08-02). Payment through the store;
   a dealer wanting credit uses a credit card.
+  - **▲ Corrected and extended, 2026-08-15 (Neil).** Credit *is* available to dealers — **just not from us:
+    Iwoca Pay is offered at the store as a third-party credit route.** So "no credit accounts" is about our
+    balance sheet, not about the dealer's options. **The consequence is the commercially important half: a
+    third party carries the receivable, so the group has no bad-debt exposure while a dealer's ability to pay
+    is materially wider than their cash position** — which is why a small dealer with a large project is not a
+    risk to take. Worked through in `group/13-standards-decision-sheet.md` session 1.
+- **Account approval runs a legitimacy check, and it is objective** (Neil, 2026-08-15): **VAT registration and
+  company identity, verified against the IDs the applicant supplies.** Not a credit check and not a size
+  judgement. Together with the checkout, this *is* the dealer bar as it actually operates — previously recorded
+  in this repo as unset policy.
 - **Registration exists; a partner programme does not.** Trade pricing is all registration currently grants.
 - **`srnd.store`** is the trade destination. **`cinema-store.com`** is live but a test, mid clean-up.
 - **Pro-Fi is not on the store yet** — not ready to sell online.
 - **[?] Revenue split by brand**, and **[?] the trend on DT projection** — named as declining, never sized.
 - **[?] Quote-to-order process**: who quotes, how long it takes, what proportion converts.
-- **[?] Design service and verification** — chargeable, free, or case by case, and what proportion of jobs take
-  it. *(Also open in `open-items.md` Stage 1.)*
+- **~~[?] Design service and verification~~ — answered 2026-08-15, and the answer is the problem.** Neil:
+  *"We have been terrible at working out what is paid work and what is free pre-sales."* **So it is case by
+  case and not deliberate.** Policy now set in principle — **charged, fixed fee, not credited against the
+  order, and published to dealers** — with the paid-services list assembled in
+  `group/13-standards-decision-sheet.md` session 2. **Only one service in the group carries a price today**
+  (£500 Pro Design); the design service, verification and both isolation services are real and unpriced. *(What
+  proportion of jobs take it remains **[?]**.)*
 - Design work is real revenue and expected to grow with verification attached.
 
 ### Known weak points already recorded
@@ -384,7 +399,8 @@ Correct it, strike the wrong inferences, and fill what matters. Two of the four 
 unchanged and are cheap:
 
 1. **Lead sources, ranked** — decides where content and channel effort goes.
-2. **Whether the design service is charged, and how often it is taken** — the hinge for the partner programme
-   and the value ladder.
+2. ~~**Whether the design service is charged, and how often it is taken**~~ — **half answered 2026-08-15.**
+   Charged, fixed fee, no credit against the order, published; but *how often it is taken* is still unknown,
+   and only one paid service in the group carries a price. See above.
 
 Everything else can stay **[?]** without blocking anything.

@@ -77,7 +77,7 @@ first three in this order:
 | **Apply now — revenue and dealers exist** | **DT**, **Fabric Walls** | DT £4.22m / 76 dealers, though breadth is thinning; Fabric Walls £276k product in under three years, **32 dealers — the broadest own-made line — and flat rather than declining** |
 | **Apply now — the cheapest possible win** | **C-ATS** | £254k / 12 dealers and *"massively undersold"* rather than unknown. **Already has the record and the copy written.** Twelve dealers against distribution's 354 is the gap; the standard is already set here |
 | **Apply early because the gap is measured** | **Pro-Fi** | Pre-revenue, but **audio was 38.7 % of the distribution era — the group's largest category** — and **£779,979 of that was audio over IP, exactly where Pro-Fi aims** (finding 17). **The big bet** (Neil). It does not need its own strategy — it needs step 3 applied to it before launch, so it ships with a record instead of acquiring one later |
-| **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines**, not as a brand to build. **And the 20 % is a structural ceiling, not a rate to improve:** we occupy only the distribution step because we do not make the product, whereas own-made sold direct earns manufacture *and* distribution, stacking to **≈ 47–64 %** (finding 22). **£100k of own-made revenue is worth two to three times £100k of carried** — which is the arithmetic case for ranking work by margin rather than revenue |
+| **Hold** | **Light Walls**, **SRND Distribution / carried lines** | Light Walls stopped in 2023 pending the replacement approach. The carried lines — Leyard above all — are **held deliberately as revenue that funds the own lines**, not as a brand to build. **And the 20 % is a structural ceiling, not a rate to improve:** we occupy only the distribution step because we do not make the product, whereas own-made sold direct earns manufacture *and* distribution, stacking to **≈ 47–64 %** (finding 22). **£100k of own-made revenue is worth two to three times £100k of carried** — which is the arithmetic case for ranking work by margin rather than revenue. **▲ And the ladder has a rung above both** (Neil, 2026-08-15; finding 31): **services run at ≈100 %, so £100k of services is worth five times £100k of carried and about twice £100k of own-made.** In 2025 services were **35 % of gross margin on 17 % of revenue** |
 
 **Two consequences for the sequence above.** Step 3's C-ATS-first ordering stands and gets cheaper — it is now also
 the *undersold* argument, not only the data-exists one. And **Pro-Fi joins step 3 rather than waiting for a launch
@@ -623,8 +623,29 @@ Named so they read as choices rather than debt:
   (`archive-findings.md` tranche 3): external trading was **2021–2023 only** — £174,263, £236,222, £83,191 — and
   **stopped**, with the residual Protopixel position invoiced across to SRND in March 2026. Over half its revenue
   went through one counterparty, and a quarter of it was the bought-in Protopixel component whose failure caused the
-  stop. Neil reports work in progress on a replacement approach. **Nothing to plan here until that lands** — but the
+  stop. Neil reports work in progress on a replacement approach. ~~**Nothing to plan here until that lands**~~ — but the
   three-year run is proof the demand existed, which is a different position from an untested brand.
+  - **▲ It has landed — reviewed 2026-08-15, `archive-findings.md` finding 32.** LWCP's architecture and
+    commercial strategy are settled, **freedom-to-operate is cleared**, and the repository was active a
+    fortnight ago. **Three corrections follow.** *It is not a fixture brand* — the unit of product is **the
+    driver plus its measured profile**, calibrated white is the volume and **pixel (Light Walls) is Tier 3, the
+    halo**. *It is a lighting control system*, competing with **Lutron, Rako, Crestron, Control4** — a
+    competitor set `group/06-competitors.md` does not hold. And *it carries a revenue shape this repo has no
+    account of* — **software licensing**, plus per-project commissioning and calibration.
+    **The consequence for this page is larger than the brand.** LWCP aims at **commercial fit-out, hospitality
+    and premium residential**, through the **architectural specifier and BMS-integrator channel** — so it
+    addresses the **beyond-cinema gap, the untouched pre-tender specification route (stress-test item 7) and
+    lane 1's publishable-proof problem at once.** **Nothing else in the group does that**, and the "Hold" tier
+    above was set against the 2023 stop, which this work has overtaken. **Still not a call to schedule it
+    here** — it is Neil's, and the physical layer waits on fab — **but "nothing to plan" is no longer true, and
+    the plan should stop saying it.**
+  - **▲ And a second forward position this page does not mention at all: sensing.** Neil, 2026-08-15:
+    ***"Sensing is a potential giant market in its own right."*** LWCP holds the ratified architecture
+    (finding 32 §§7–8); **the strategy holds nothing.** Whether it is a line of its own or a layer of LWCP,
+    how it relates to `SRND Solutions`, and whether it carries a brand are **open in `open-items.md`** — and
+    size, buyer, channel, competitors, price and timing are **[?]** everywhere. **Named here so it reads as a
+    gap rather than an omission**, since a market of that description would reorder this page if it proved
+    real.
 - **Whole-room ease.** The fragmentation fix is Engine and canonical-data work, not this repo's, and not
   something we can schedule from here. **▲ Being reconsidered by the person who parked it, 2026-08-14** (Neil:
   *"we are happy to invest the time and tokens to extend engine so that our social media, our mail campaigns, our
