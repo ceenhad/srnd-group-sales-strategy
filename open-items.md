@@ -546,7 +546,13 @@ change of emphasis in it.*
   deliberate. Policy set in principle: **charged · a fixed fee, not a rate · not credited against the order ·
   published to dealers.** *(The no-credit call overrides the session's recommendation and is recorded as an
   override, not adopted quietly.)*
-  **What remains is a list, not an argument.** Neil: *"an actual list of all the paid services would help that
+  **▲ And what remains is a session, not a list — Neil, 2026-08-16.** ***"Other than C-ATS the service was all
+  ad hoc. We have a pretty good idea what a service offer should be overall, but documenting it and pricing it
+  is a dedicated session."*** **So the inventory below is precedent rather than an offer**, the boundary
+  cannot publish until the offer exists, and `XS-5` is re-scoped from a small read-and-ratify to **a session of
+  its own**. *The £672,915 was earned with no offer, no published price and no promotion at all — which is the
+  argument for holding one, not against.*
+  **The inventory itself.** Neil: *"an actual list of all the paid services would help that
   a lot"* — assembled in session 2 from what the repo evidences, and it exposes the real state:
   **only one service in the group carries a price** (£500 Pro Design); **four are real and unpriced** (acoustic
   treatment design, acoustic verification, isolation design, isolation verification — all four also absent from

@@ -307,6 +307,13 @@ which the published-boundary decision now requires.
 that was not already priced, and the empty cells are the actual state of the question.** *When priced and
 confirmed, this graduates into `group/01-commercial-model.md` and becomes the published list.*
 
+> **▲ Read this as an inventory, not an offer — Neil, 2026-08-16.** ***"Other than C-ATS the service was all
+> ad hoc."*** **So the priced cells are precedents from individual jobs, not tiers anyone could buy**, and the
+> C-ATS design service is the only row that was ever a repeated, nominal-coded product. **The offer is a
+> dedicated session** (`XS-5`) — *"we have a pretty good idea what a service offer should be overall, but
+> documenting it and pricing it is a dedicated session."* **What this table is for is to stop that session
+> starting from a blank page.**
+
 | # | Service | What it is | Today | Price |
 |---|---|---|---|---|
 | **Free by decision — the pre-sales side** ||||
@@ -358,7 +365,12 @@ only evidence that it is a rule rather than a phrase.
 
 ### Still open on this session
 
-1. **Price rows 6–9**, the four real services (`XS-5`). The shortest path from here to a published boundary.
+1. **The service offer itself — a dedicated session, not a pricing exercise** (`XS-5`; Neil, 2026-08-16:
+   ***"other than C-ATS the service was all ad hoc. We have a pretty good idea what a service offer should be
+   overall, but documenting it and pricing it is a dedicated session."***) **The table below is a list of
+   things that have been invoiced, not an offer** — outside C-ATS's design service nothing was repeated, so the
+   prices in it are precedents rather than a price list. **The published boundary waits on the offer, not the
+   other way round.**
 2. **Classify rows 10 and 11** (`XS-6`) — partner-network escalation and recipe packs are the two left.
 3. **Price bespoke drawings**, row 14's paid half.
 4. **What is missing from the list?** It was assembled from the repo, so it holds only what the repo knows.

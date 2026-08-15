@@ -1636,11 +1636,21 @@ at a **median of £1,560**, almost all to Apex-Tech.
 
 ### Three consequences, all landing on items open right now
 
-1. **`XS-5` — pricing the four "unpriced" services — is a derivation, not a decision.**
-   `group/13-standards-decision-sheet.md` session 2 said only £500 Pro Design carries a price. **That is true of
-   the repo's written record and false of the accounts:** three of the four have been invoiced at a price,
-   repeatedly, and one of them is invoiced under exactly the name the strategy gives it. **Read the history and
-   ratify it; do not invent a number.** *(Correction applied in place in that session.)*
+1. ~~**`XS-5` — pricing the four "unpriced" services — is a derivation, not a decision.** Read the history and
+   ratify it.~~ **Over-claimed, and corrected by Neil, 2026-08-16:** ***"Other than C-ATS the service was all
+   ad hoc. We have a pretty good idea what a service offer should be overall, but documenting it and pricing it
+   is a dedicated session."***
+   **So the accounts are precedent, not a price list.** The C-ATS exception is visible in the data and is the
+   one that proves the rule — a dedicated `Sales - Design Services` nominal running from 2019, **22 engagements
+   at a median of £1,560**, which is a repeated service. **Everything else — the Fabric Walls room designs, the
+   fit-out, install support by the day, commissioning, calibration, project management — was priced job by
+   job.** What the history gives the pricing session is **a range and a set of real precedents**; what it
+   cannot give is an offer, because there wasn't one.
+   **This makes the underlying finding stronger, not weaker.** **£672,915 was earned with no service offer,
+   no published price and no promotion** — ad hoc, on demand that arrived anyway. *And it explains
+   `XS-4`'s answer exactly: "terrible at working out what is paid work and what is free" is what necessarily
+   happens when there is a boundary but no offer to apply it to.*
+   **Re-scoped: `XS-5` is a dedicated session, not a small read-and-ratify.**
 2. **The group sells more services than the strategy describes.** Fit-out, installation support by the day,
    commissioning, calibration and project management are all real invoiced revenue and **none appears in the
    paid-services list** — because that list was assembled from strategy documents and this is the accounts.
