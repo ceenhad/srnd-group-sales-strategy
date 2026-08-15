@@ -1579,3 +1579,306 @@ exists."***
 
 > **The one-line version, for whoever reads this file next: the group's problem is not capability and it is not
 > demand. It is that the work stops one step before anybody hears about it.**
+
+---
+
+## Finding 31 — service revenue was identified but never opened, and the prices were in it all along
+
+*Asked by Neil, 2026-08-15: was service revenue identified in the revenue work? **Yes — and only as a bucket.***
+*No new source; this is the loaded data queried a second time, prompted by a live decision it turns out to
+answer.*
+
+**The consolidated file has carried a `services` value in its `supply` column since it was built**, and finding
+15 used it — but only to report **one number for one entity**: services at 9.0 % of SRND Group. **The group
+total was never stated, and the bucket was never broken down.**
+
+**The group total is £672,915 across fifteen years, on 153 invoice lines:**
+
+| Kind | GTUK | SRND Group | C-ATS | Total |
+|---|---:|---:|---:|---:|
+| **Unlabelled** — nominal says only *"Services"* | £376,977 | £45,000 | — | **£421,977** |
+| **Design** | — | £96,076 | £49,662 | **£145,738** |
+| **Fit-out** | — | £62,495 | — | £62,495 |
+| **Install / commissioning** | — | £39,005 | — | £39,005 |
+| **Project management** | — | £8,750 | — | £8,750 |
+| Payment mechanics (advances, reversals) | — | −£5,050 | — | −£5,050 |
+| **Total** | **£376,977** | **£246,276** | **£49,662** | **£672,915** |
+
+**DT and Light Walls carry no service lines at all**, so services are a GTUK, SRND and C-ATS phenomenon.
+
+**63 % of it cannot be read, and it is almost entirely the distribution era.** GTUK's export shape carries no
+description, and its nominals say only `Sales - SERVICES` and `Sales - CINEMA PARTNERS SERVICES`. **So
+£376,977 of service revenue is opaque without a re-export — the `MON-11` problem again, in a different
+account.** *(C-ATS's lines carry no description either, but its nominal is specific — `Sales - Design Services`
+— so they classify on the account name alone.)*
+
+### What the readable 37 % contains, and it changes a decision that was open this morning
+
+**Named services, already invoiced, at real prices:**
+
+| Service | Invoiced | Year |
+|---|---|---|
+| **Acoustic Treatment Design Service — Basic** | **£3,000** | 2026 |
+| **Sound Isolation Design Project** | **£7,500** | 2025 |
+| Fabric Walls room design — Seattle | £13,068 | 2025 |
+| Fabric Walls room design — Madrid | £6,480 | 2026 |
+| Light Walls pixel layout, one rectangular room | £750 · £505 | 2025 |
+| Installation support, **per day** | £4,800 | 2025 |
+| Commissioning support, SRND display products | £1,000 | 2025 |
+| Reference audio calibration | £838 | 2025 |
+| Leyard Gold tier — commissioning, assisted install, on-site | £6,000 · £5,040 | 2026 |
+| Cinema fit-out (Kildrummy) | £45,450, plus £12,500 interim and £4,545 of design | 2024–25 |
+| Consulting — project design phase | £5,000 | 2023 |
+| System design and schematic layouts, CAD/PDF | quoted **per hour** | 2025 |
+
+**Forty-one design engagements: median £2,400, mean £3,580, range £260 to £29,195.** C-ATS's own twenty-two run
+at a **median of £1,560**, almost all to Apex-Tech.
+
+### Three consequences, all landing on items open right now
+
+1. **`XS-5` — pricing the four "unpriced" services — is a derivation, not a decision.**
+   `group/13-standards-decision-sheet.md` session 2 said only £500 Pro Design carries a price. **That is true of
+   the repo's written record and false of the accounts:** three of the four have been invoiced at a price,
+   repeatedly, and one of them is invoiced under exactly the name the strategy gives it. **Read the history and
+   ratify it; do not invent a number.** *(Correction applied in place in that session.)*
+2. **The group sells more services than the strategy describes.** Fit-out, installation support by the day,
+   commissioning, calibration and project management are all real invoiced revenue and **none appears in the
+   paid-services list** — because that list was assembled from strategy documents and this is the accounts.
+   **Fit-out is the striking one: £62,495 of it, and the repo does not describe the group as doing fit-out at
+   all.**
+3. **Services are not marginal, and 2025 was the biggest year on record.** £149,284 (2022) · £74,774 (2023) ·
+   £34,925 (2024) · **£178,472 (2025)** · £37,876 (2026 part-year). **In the current entity services are the
+   third-largest revenue class after carried and own-made** — which puts a number behind `current-state.md`'s
+   *"design work is real revenue and expected to grow with verification attached."*
+
+**Two caveats on the totals.** The bucket has noise — **at least one product sits in it** (a £6,646 video
+processor, inside SRND's unlabelled £45,000) — and the kind-splitting above is keyword classification of
+descriptions and nominals, reviewable and not authoritative. **Neither affects the conclusion**, which is about
+what exists rather than about the last few thousand pounds.
+
+> **And the shape of this is familiar.** The number was in the file, correctly classified, and used once for a
+> percentage. **A smaller instance of finding 30** — not built and never said, but *measured and never read* —
+> and worth noticing because the fix was one query prompted by somebody asking a live question of the data.
+
+### The margin ladder was missing its top rung — Neil, 2026-08-15
+
+*"Services are 100% margin effectively — think on that."* **So finding 23's ladder is incomplete**, and the rung
+it is missing is the highest one:
+
+| Route | Steps held | Margin |
+|---|---|---|
+| Carried line (Leyard) | distribution only | 20 % |
+| Own-made through a distributor | manufacture | 37.5 % |
+| Own-made direct to a dealer | manufacture + distribution | 52.4 % |
+| Own-made direct to a consumer | all three | 66.7 % |
+| **Services** | **no goods to make, buy, hold or ship** | **≈ 100 %** |
+
+**The equivalences are the part worth sitting with:**
+
+- **£672,915 of services is the margin of £3.36m of carried revenue**, or £1.28m of own-made sold direct.
+- **One median design engagement — £2,400 — earns what a £12,000 Leyard order earns.**
+- And in the current entity, **2025**: services **£178,472** against carried **£385,652** and own-made
+  **£485,754**. At the ladder's rates that is **£178,472 of margin from services, £77,130 from carried,
+  £254,535 from own-made** — so **services were 35 % of the group's gross margin on 17 % of its revenue, and
+  earned more than twice what the entire carried book earned.**
+
+**Which reframes several things that were argued on other grounds:**
+
+1. **The free/paid boundary is now the most expensive open item in this repo.** Free pre-sales is not
+   generosity — **it is the group's highest-margin product, given away.** Every median engagement done free
+   forgoes the margin of a £12,000 order. *How many happen is unknown* (`current-state.md` **[?]**), and it has
+   just become the most valuable unknown on that page.
+2. **It vindicates the no-credit-against-the-order call** (2026-08-15) **with arithmetic the session did not
+   have.** Crediting a £3,000 fee converts 100 %-margin revenue into revenue at 52.4 %, so the credit must win
+   roughly **£5,700 of incremental own-made order just to break even.** *The recommendation to credit it was
+   wrong, and the instinct that overruled it was right.*
+3. **The attach metric is aimed one rung too low.** Q5 measures own-made attach on carried sales — but
+   **service attach earns about twice as much per pound and needs no product to exist**, and it already
+   happens: Leyard Gold-tier commissioning at **£5,040–£6,000** against Komodo orders. On a £472,320 Komodo
+   year, **the best attach is not a Screen Wall; it is commissioning and calibration on every one.**
+4. **It is the strongest business case yet for filling the record.** The record turns a repeated answer into a
+   published one — **which converts hours from unpaid answering into paid design.** Not "fewer support calls":
+   *the highest-margin capacity in the business, freed.*
+5. **Acoustic verification is the un-sold service with the best economics.** It is the only one of the four
+   never invoiced, and it attaches to every design, is measurement-based (so repeatable and tool-supported),
+   carries no goods, and is the thing that proves the product worked.
+
+**Three honest qualifications, because the number invites over-reading:**
+
+- **100 % is gross, and the input is the binding constraint.** Services consume owner and engineer hours — the
+  exact resource the whole strategy is short of. **So services are simultaneously the highest-margin and the
+  least scalable revenue**, and the useful conclusion is not *sell more services* but **an hour of design is the
+  most valuable hour in the business, so anything else competing for it must clear that bar.** That is an
+  argument for the record and the tooling, which are what make an hour of design produce more design.
+- **Split the rung: desk services are near-100 %, on-site services are not.** £4,800-a-day installation support
+  carries a person and their travel; a design produced against a tooled engine carries almost nothing.
+- **The n is small and the years are lumpy.** Forty-one design engagements across fifteen years is about three
+  a year, and **2025's £178,472 is substantially one job** — Kildrummy at £57,950 including the interim. Read
+  it as *what a service pound is worth*, not as a trend.
+
+### Checked against the live site — `cinema-tools.com`, 2026-08-15
+
+*Neil pointed at it. Per `CLAUDE.md`'s check-the-platform rule, and it corrects this finding as well as the
+strategy.*
+
+> **▲ Context that changes how everything below should be read, and it arrived after the observations were
+> written: the site went live two days ago, forced — the old one was hacked** (Neil, 2026-08-15). **So this is
+> a two-day-old emergency rebuild, not a settled surface**, and the gaps listed further down are a launch
+> punch-list rather than decisions anyone made. *Recorded as a correction to my own framing, and as an instance
+> of the error `06-competitors.md` opens by warning about: reading a published surface as though it reflected
+> settled intent.*
+>
+> **Two things follow, and they pull opposite ways.**
+>
+> - **The service architecture is now more impressive, not less.** Four coherent tiers were articulated under
+>   emergency conditions in two days, and they are **better than the version this repo derived deliberately
+>   over weeks.** Where the strategy documents produced a C-ATS-shaped list, the forced rebuild produced the
+>   right group-level one. **That is worth noticing about where the truth actually lives.**
+> - **But it is live now, so the capture gap is costing from today.** Every day the seven PDFs download without
+>   an email and both forms post to a mailbox, leads for the group's **highest-margin product** arrive
+>   uncounted. **Not a criticism of the launch — a reason the punch-list is urgent rather than tidy.**
+>
+> **And one question the hack raises that is not in the list below: what happened to the discoverability?**
+> `NEXT.md` lane 8's firm rule is *restart the presentation, never discard the discoverability* — URLs, indexed
+> pages, accumulated search position. **A forced rebuild is exactly the circumstance in which that gets lost by
+> accident.** Worth establishing whether the old URLs still resolve and what, if anything, went with the old
+> site. *(The group already carries one estate loss of this kind — the locked YouTube account.)*
+
+**The service is already articulated publicly, at group level, and better than this repo's version of it.**
+`cinema-tools.com/project-support/` sells **four named tiers, individually or as a full sequence**:
+
+| Tier | What the site says it is |
+|---|---|
+| **Design review** | A remote review of a room, drawings, or a space the client is considering — what the room needs to meet, where it stands, what it would take |
+| **Performance design** | A full specification: audio, video, acoustic treatment, finishes, lighting, seating and services |
+| **Calibration** | Levels, delays, EQ and bass management; brightness, colour and gamma |
+| **Verification** | Measuring the finished room against the targets it was designed to, and documenting the result |
+
+**Three corrections to what is written above and in `group/13-standards-decision-sheet.md` session 2:**
+
+1. **The service architecture is whole-room and group-level, not C-ATS-shaped.** The paid-services list was
+   assembled from strategy documents and came out as acoustic design / acoustic verification / isolation
+   design / isolation verification. **The live one is the better model** and the strategy should adopt it.
+2. **Verification is offered, and has still never been invoiced.** *"The un-sold service with the best
+   economics"* is right and the sharper form is: **it is on sale, publicly, and has never sold once.**
+3. **"Design review" is the missing first rung** — a low-commitment paid entry that is the direct paid
+   equivalent of the free spec help the boundary decision is about. **It already exists; nobody knew.**
+
+**And three gaps at the same joint — a launch punch-list, not a set of decisions** (see the context note
+above; the site is two days old and was forced by a hack).
+
+- **The free calculators capture nothing.** Seven tools, each producing an A4 PDF, and **no form and no email
+  field anywhere on the page** — the PDF downloads unconditionally. **ADR 020 specifies lead capture on PDF
+  download landing in engine's `leads` table, and `07-tools.md` calls that trade "the on-ramp hinge in product
+  form." It is not happening.**
+- **Both enquiry forms are `mailto:`** — *"This opens a completed email in your own mail client."* So the
+  group's own lead-magnet front door delivers its best-qualified leads **into a mailbox, not into engine.**
+  That is `14-engine-as-hub.md` §1's *"inbound is currently uncountable"* made concrete on the one page
+  designed to generate it.
+- **No prices, on any tier.** Consistent with the gated-pricing rule for products — but the boundary decision
+  of 2026-08-15 was **published**, and a dealer currently cannot tell what a design review costs. **The service
+  invoice history is the answer** (`XS-5`).
+
+**The site itself is good, and the bounded-tool discipline is being kept.** The Room Resonances calculator
+states its own limits plainly — *"assumes a rigid rectangular room… surface treatments, damping and RT60 need
+physics-grade material data that this calculator does not ask for"* and *"optimising sub placement numerically
+is design work"* — which is exactly `07-tools.md`'s three tests, passed. **Under emergency conditions, and
+that is the more impressive version of it.** So the shop window for the highest-margin product in the group is
+well built and honest; **what it does not yet have is prices, capture, or a form that posts anywhere but a
+mailbox** — and those are finishing work on a two-day-old build.
+
+*Two smaller observations, recorded rather than actioned: the reflection-point calculator `07-tools.md` names
+as the obvious gap is **still missing** from the set of seven; and the site is attributed personally —
+"Cinema Tools was created by Neil Davidson, one of the owners of SRND Group" — which is a credibility choice
+worth being deliberate about against the master-brand rule.*
+
+### And the platform repo already holds most of this — checked 2026-08-15
+
+*Neil: "now you can look into the cinema platform repo at cinema tools pro." **The check-the-platform rule
+earning its place again** — and this time what it finds is not a gap but a duplication.*
+
+**`ADR 017` was revised to version 2 on 2026-08-13, five days ago, consolidating five ADRs into one — 001, 014,
+019 and 073 all fold into it.** `group/07-tools.md` cites **ADR 019**, which no longer exists as a separate
+rule. *That document's own header warns it once "leaned on ADR 014, whose substance had been retired." **It has
+happened again**, which suggests the citation should be to 017 alone and re-read rather than pinned.*
+
+**Five decisions in the current ADR 017 that this repo either does not hold or contradicts:**
+
+| ADR 017 v2 | What it says | What this repo says |
+|---|---|---|
+| **Decision 4** | **Cinema Tools Pro is internal tooling.** No external user logs into it; **its purpose is "to make the method reproducible by fewer people in less time."** | Nothing. Pro appears nowhere in the group strategy |
+| **Decision 10** | **"Four revenue lines carry the business — training, design services, the partner channel, product."** | Product is the business; services are a `[?]` in `current-state.md` |
+| **Decision 9** | The free calculators exist to put qualified people in the funnel, **"which makes lead capture launch-blocking"** (mechanism: ADR 011) | `07-tools.md` calls capture the on-ramp hinge, but not a launch gate |
+| **Decision 3** | *"Commercial cinema is the **lead market**"* — **the ranking is rejected, not the market** (Neil, 2026-08-15). See the note below | High-end **residential** cinema is the heartland and day 1; commercial cinema is real upside, later |
+| **Decision 12** | **Demand is measured before the curriculum or the partner programme is built** — calculator traffic first, then one module published to see who buys | The partner programme is designed and awaiting build; no measure-first gate |
+
+**On decision 3 — it is the ranking that is wrong, not the market.** Neil, 2026-08-15: *"There is a lot of
+business opportunity in commercial cinema. It's just not the day 1 target above all other things."* **So this
+is a sequencing correction, and it should not be recorded as a scope one.**
+
+- **The archive cannot speak to opportunity, only to history.** It carries no market-type field and shows no
+  commercial cinema revenue in fifteen years — **but absence of past revenue is not absence of a market**, and
+  reading it that way would be precisely the inference error `06-competitors.md` opens by warning about.
+- **What the archive does settle is where day 1 is, and it is not a market at all.** **348 partners hold signed
+  T&Cs and pricing access; 189 have never bought** (finding 27), and the 10–20 % growth target is 10 to 64
+  first orders from inside that base. **Day 1 is the base already signed** — which beats any new market on
+  cost, certainty and speed, commercial cinema included.
+- **And the group's existing position already has a slot for it.** `NEXT.md` is explicit that the group will
+  not remain a cinema-only trade supplier, that the adjacent markets are larger, and — lane 1 — that
+  **commercial and hospitality clients often want the publicity**, so a first commercial room *"may be worth
+  more as a showable reference than as revenue."* **In a market where the best residential work is unshowable,
+  that is not a small thing.** Commercial cinema belongs in that upside, not in the day-1 slot.
+- **The capability is already being built toward it**, and correctly: commercial-Atmos reach, the cabinet
+  catalogue, the CLA layouts, the full RP22 scorecard. **Building the engine ahead of the market is fine.
+  Sequencing the go-to-market ahead of the signed base is not.**
+
+*So a reissued ADR 017 does not need to lose the commercial ambition — it needs to demote "lead market" to a
+named future market, which also leaves ADR 021's engine work standing on its own competitive argument.*
+
+**What it touches, checked rather than assumed — and it is nearly nothing.** The phrase *"lead market"* appears
+**exactly once in the whole platform documentation set**: ADR 017 §3 itself. Nothing cites it. **One
+dependency exists and it is live:** **ADR 021** — the commercial-Atmos engine, revised to **version 3 on
+2026-08-14** — opens *"Implements: ADR 017, **which promoted the commercial-Atmos / DARDT-replacement path to
+the primary product surface**."* **So one actively-worked ADR hangs its priority off the struck line.**
+
+**The engineering does not move at all.** Commercial-Atmos reach, the cabinet catalogue and the CLA layouts are
+**engine depth**, and their justification is competitive — **replacing DARDT** — not market-size. **What
+changes is the sentence explaining why 021 is first, not the value of anything it built**, and the capability
+is what makes the commercial upside reachable when it is wanted. *Whether ADR 017 is reissued at version 3 with
+§3 demoted, and whether 021's "Implements" line is restated, is Neil's call in the platform repo — ADR 079 says
+ADRs are versioned, not amended, and neither file has been touched from here.*
+
+**And decision 4 is the answer to the constraint this finding raised.** The margin note above concluded that
+services are the highest-margin and least scalable revenue, so the useful move is *making an hour of design
+produce more design.* **That is Cinema Tools Pro's stated purpose, already built and running.** The lever was
+identified from the accounts this afternoon and has existed as a platform decision since at least June.
+
+**Which is the real headline of this check.** `docs/product/08-service-lines.md`, **proposed 2026-06-03**,
+already says what finding 31 derived from fifteen years of invoices today:
+
+> *"Boutique design services — the cashflow and the wedge… **Highest margin, lowest infrastructure risk,
+> near-zero customer-acquisition cost.**"* And: *"**the design fee is the smallest number in the deal**"* — the
+> recurring lifecycle tail (Folio → Probata → Auctor) is the prize the design buys.
+
+It also settles a boundary the group repo has never stated: **SRND owns the design, the IP and the client
+relationship; partners own the install** — *"the design authority at the top of the market, with the partner
+network as the delivery arm, not a competitor."*
+
+**So the two repos reached the same place from opposite directions** — the platform from strategy in June, this
+one from the accounts in August — **and neither knew.** *That is not a contradiction to resolve; it is
+corroboration, and the strongest kind, because the methods were independent.* **The action is to stop
+re-deriving: `group/07-tools.md` should read from the current ADR 017 and `docs/product/` rather than restate
+them.**
+
+**One thing all three sources agree on by omission: there is no price list anywhere.** Strategy repo, platform
+docs and live site all carry exactly one price — **the £500 Pro Design escalation**, which
+`docs/product/08-service-lines.md` is careful to define narrowly as *"a review of a partner's tool design"*,
+not a design service. **`XS-5` therefore stands, and the invoice history remains the only source of prices the
+group has.**
+
+**And one live tension, flagged for Neil rather than resolved.** ADR 017 decision 10 makes **training a revenue
+line**; the standards run on 2026-08-15 set training as **free to registered partners**. Those do not
+obviously agree. *Neil noted at the time that he would be "introducing another later tomorrow that impacts on
+this" — ADR 073's superseded text, folded into 017, is about **Cinema Expert**, an independently accredited
+cinema credential reoccupying ground CEDIA abandoned. That is very likely the thing, and it would resolve the
+tension by making training a product with a partner-facing tier rather than either/or.*

@@ -7,6 +7,18 @@
 017, 019, 020 and 036. Read from the platform's current ADRs before acting — an earlier version of this
 document leaned on ADR 014, whose substance had been retired.*
 
+> **▲ Checked against the platform 2026-08-15, and this document is behind again — the same way.**
+> **ADR 017 went to version 2 on 2026-08-13, consolidating 001, 014, 019 and 073 into it**, so the citation to
+> **ADR 019 above is to a rule that no longer exists separately.** Five decisions in the current 017 are not
+> reflected below, and they matter commercially: **Pro is internal tooling** whose stated purpose is *"to make
+> the method reproducible by fewer people in less time"* (§4) · **four revenue lines carry the business —
+> training, design services, the partner channel, product** (§10) · **lead capture is launch-blocking** (§9) ·
+> **commercial cinema is the lead market** (§3) · **demand is measured before the curriculum or the partner
+> programme is built** (§12). Prices and tiers live in the platform's `docs/product/`, not here.
+> **The fix is not to restate them.** This page should cite current 017 and read from `docs/product/`;
+> duplicating a live decision is what `CLAUDE.md` warns is worse than no artefact. Divergences and the
+> corroboration behind them are set out in `archive-findings.md` finding 31.
+
 ## Calculators are central, not a risk
 
 Calculators are the single most important driver of engagement and time saving we have. They answer a real

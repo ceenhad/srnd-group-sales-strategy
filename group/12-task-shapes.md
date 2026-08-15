@@ -10,6 +10,11 @@ there and merely unwritten."*
 > all 16 `[decide]` calls in one sitting (`13-standards-decision-sheet.md`) and was explicit that the
 > substantial ones each need their own session. Treat a direction as the working answer until its session
 > refines it; treat nothing below as closed.
+>
+> **Six of those sessions have since been worked** — `T-S03`, `T-S04`, `T-S05`, `T-M02`, `T-M03`, `T-M06`. Each
+> shape below carries a **▶ Session** pointer into `13-standards-decision-sheet.md` § "The worked sessions,"
+> where the proposal and the questions only Neil can answer both sit. **The sessions propose; they do not
+> settle** — nothing has entered `decided.md`.
 
 ## What a shape is — and the depth test
 
@@ -76,6 +81,12 @@ integration/control · support model · lead time · price posture · reference/
 proposed default because measured performance is a hard metric to claim. **Open:** which competitors are
 tracked — the current roster is wrong and the real one is pending from Neil; cadence (quarterly + on any surface
 change) stands once it is named. *(Where the record lands: the engine audit — `REC-13` / `REC-0`.)*
+**▶ Session 5** (`13-standards-decision-sheet.md`): the roster is the only thing still gating this shape, and it
+**cannot be derived** — no loss reason exists in any system, so it is name-them or nothing. What the repo holds
+is tabulated by front and the gap named per brand: **DT is covered and `brands/display-technologies/competition-matrix.md`
+is already this shape half-built** — the model to copy; **C-ATS has a price band (GIK, RPG, Artnovion) but no
+roster**, which `product-records.md` `N4` already flags as *"a commercial position, not a comparison"*;
+**Fabric Walls appears only through Cinema Build Systems; Pro-Fi has nothing.** The ask is five questions.
 
 ---
 
@@ -100,6 +111,14 @@ brand + reason.
 **Direction (2026-08-14) — reframed:** the bar is ability to pay, not size or build-type — "much of our best
 projects have come from smaller dealers that get max value from our combined product and service offer."
 Pursue any dealer with the means to pay; small is fine; the disqualifier is inability to pay, not scale.
+**▶ Session 1, answered 2026-08-15** (`13-standards-decision-sheet.md`): **the verdict field splits in two — an
+admit test and a priority band for attention**, recomputed from engine signals, with first-order value and any
+size-derived band as **prohibited inputs** (measured twice). The admit test is **objective and already
+running**: VAT registration and company identity verified against supplied IDs, plus ability to pay enforced at
+checkout — **and credit is available via Iwoca Pay, from a third party rather than from us**, so there is no
+bad-debt exposure to underwrite. Two named exclusions on top: **a competitor buying to copy**, and a
+**discretionary refusal** — *"if we simply decide not to"* — which is **logged as discretion, never written as
+a rule.** The priority band is the automatable half.
 
 ---
 
@@ -125,6 +144,17 @@ with gaps flagged not hidden. **Direction (2026-08-14) — reframed, build item:
 standard to build is how the proposal should be presented to maximise the upsell — a proposal design/template
 task, working with `group/adjacency-map.md`. Not yet built. *(Depends on the on-ramp fields being filled —
 `DOC-13`, `KNW-*`.)*
+**▶ Session 3** (`13-standards-decision-sheet.md`): designed — **the unit is the room, not the enquiry**;
+sections are the room's layers in build order; **every layer carries one of four statuses** (specified ·
+offered · not applicable · not ours) so the form has no blank cell; the justification is **physical, never
+commercial**, quoted from `adjacency-map.md`; the increment is priced **inside the same document**. Its
+acceptance test is Q5's **own-made attach rate on carried sales**, baselined at **£472,320 Komodo against
+£38,452 Screen Wall**. Note the timing distinction the session draws: finding 4's 246-day lag governs
+*dealer-level* cross-sell, **not** the room in front of you.
+**Answered 2026-08-15:** an unrequested layer is shown as a **priced increment** — so *offered* carries a
+number, in the same document. **Which couples this shape to the record's fill state:** pricing an increment for
+a layer whose record is empty is a number we cannot stand behind, so `product-register.md`'s gaps now bear
+directly on the proposal.
 
 ---
 
@@ -148,6 +178,16 @@ apply the bar → record verdict + reason.
 one but the boundary between pre-sales (free) and consulting (paid): "consulting needs to be paid." That
 boundary is a new open decision, not yet set. (Answers backlog `XS-4` in principle: spec help beyond pre-sales
 is chargeable.)
+**▶ Session 2, answered 2026-08-15** (`13-standards-decision-sheet.md`): the test is **free pre-sales is work
+that becomes content; consulting is work that cannot** — standard 7's reusable-versus-one-off cut, doing double
+duty as the price line — with three tie-breakers (bespoke · accountable · sustained). **Charged · fixed fee ·
+not credited against the order · published to dealers.** `XS-4` is closed and the answer is the problem: today
+it varies and is not deliberate. **What remains is the paid-services list**, assembled in that session —
+**one priced service in the whole group, four real and unpriced** (`XS-5`), and of five unclassified rungs
+**three now settled free** (training · Experience Centre hosting · standard drawings) **with two left**
+(`XS-6`). Also
+flagged here: the one place payment risk is genuinely ours is the **staged-payment project**, which belongs to
+this shape rather than to `T-S03`.
 
 ---
 
@@ -229,6 +269,11 @@ brand's hard don'ts; *sourced* — every claim traces to a field or a measuremen
   (2026-08-14) — confirmed in principle, build item:** inherit each brand's `CLAUDE.md` hard don'ts plus the
   group rule (no superlative without a measurement) — but the actual per-brand `G2` lists don't exist yet;
   "none of this is done." Done: positioning stated, `G2`-obedient, sourced.
+  **▶ Session 6** (`13-standards-decision-sheet.md`): **built — six lists** (group floor, C-ATS, DT, Fabric
+  Walls, Pro-Fi, Light Walls, Distribution), surfaced from rules the repo already holds rather than authored.
+  Two by-products: **no `brands/*/CLAUDE.md` exists in this repo**, so the standard points at a file that isn't
+  there; and applied to what is published today the lists catch **five live breaches** already logged in
+  `open-items.md`. Needs only Neil's "nothing missing" confirmation.
 - **`T-M10` — Collateral** · Output: datasheet / case study from the generation-gate fields, versioned with a
   review date. Done: draft approved against `G1`/`G2`, versioned. **Direction (2026-08-14):** re-review on change
   (a product or data change triggers it), with an annual backstop.
@@ -254,6 +299,20 @@ stops duplication and orphaning.
   take all the content needed it's daily per brand" — servable only by the record + AI production line; the
   owner's batch model is unchanged (owner minutes stay at the answer step), daily-per-brand is the production
   system's target, not an owner promise.
+  **▶ Session 4** (`13-standards-decision-sheet.md`): sized — four viable brands at a weekday piece each is
+  **20 a week, ~1,000 a year, against 109 videos in eight years**, so it is a different machine rather than a
+  faster cadence. Decomposed as **answers per period × derivatives per answer**, which makes it reachable at
+  roughly **two owner recording sessions a month** (both figures marked hypothesis). Two rules the line needs:
+  **every piece makes an argument** (the catalogue's 1–26 views is what a line without that rule produces at
+  speed), and **the answer carries the face, the derivative carries the pointer.** ~~And a correction: express
+  the floor in answers per month.~~
+  **Answered 2026-08-15 — scope is the four viable brands, and the floor's unit was rejected, rightly.** Neil:
+  *"I'm pretty efficient at the making part — it's the planning that makes videos difficult. With a plan and
+  script you can bash out loads in a day."* **The owner's output is not the constraint; the planning upstream of
+  him is.** So **the floor belongs to the production line and its unit is scripted briefs delivered**, while the
+  owner's commitment is a booked slot rather than a quantity. This is `04-content.md`'s *"never faces a blank
+  page"* rule confirmed by the owner rather than argued at him — **and it re-points the whole build: the hard
+  part is producing briefs good enough to record from, which is step 3 again.**
 - **`T-M07` — Channel management** · Output: a map of what is live on which channel + the routing rule. Rule:
   *right piece to the right channel* against a stated fit (brand channel vs group; the estate rules in
   `04`/`05`). Done: current live-where map, routing rule applied. **Direction (2026-08-14):** publish to brand

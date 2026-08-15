@@ -526,6 +526,34 @@ change of emphasis in it.*
 > page alone: **sixteen further `[decide]` calls live in `group/13-standards-decision-sheet.md`** — the dealer
 > bar, the competitor roster, the floor rate, the follow-up interval and twelve more, collected from the task
 > shapes on 2026-08-09 and not previously surfaced here. They are part of this ledger by reference.
+>
+> **Six of those sixteen were worked into sessions on 2026-08-14** (same file, § "The worked sessions"). Each
+> ends in a proposal and a short list of what only Neil can answer; **nothing entered `decided.md`.** The one
+> item that is genuinely *new* rather than a refinement is surfaced in full below — the pre-sales/consulting
+> boundary. The rest remain part of this ledger by reference.
+
+- **▲ NEW — where free pre-sales ends and paid consulting begins.** Raised by the standards run (`T-S04`
+  reframed: *"every project is worth the time — always,"* but *"consulting needs to be paid"*), and worked in
+  `group/13-standards-decision-sheet.md` session 2. **A priced ladder already exists on the tools side** —
+  free calculators → the partner-gated tool → **£500 Pro Design, invoiced per engagement** → the full design
+  service (`group/07-tools.md`). What has no line at all is **human spec help**, which is where the cost
+  actually falls, because the resource it spends is owner minutes.
+  **The proposed test: free pre-sales is work that becomes content; consulting is work that cannot** — the same
+  cut standard 7 already made between a reusable answer and one-off project arithmetic. Three tie-breakers:
+  bespoke · accountable · sustained.
+  **▶ Largely answered, 2026-08-15 (Neil).** `XS-4` is closed and **the answer is the problem** — *"we have
+  been terrible at working out what is paid work and what is free pre-sales,"* so today it varies and is not
+  deliberate. Policy set in principle: **charged · a fixed fee, not a rate · not credited against the order ·
+  published to dealers.** *(The no-credit call overrides the session's recommendation and is recorded as an
+  override, not adopted quietly.)*
+  **What remains is a list, not an argument.** Neil: *"an actual list of all the paid services would help that
+  a lot"* — assembled in session 2 from what the repo evidences, and it exposes the real state:
+  **only one service in the group carries a price** (£500 Pro Design); **four are real and unpriced** (acoustic
+  treatment design, acoustic verification, isolation design, isolation verification — all four also absent from
+  the live C-ATS site); and **five rungs are neither paid nor free but unclassified**, three of them inside the
+  partner programme. Tracked as `XS-5` and `XS-6` in `backlog.md`.
+  **Constraint on the manner, not the price:** `decided.md` B6 — the route is offered, never a refusal, and
+  never an implication that the dealer can't.
 
 - ~~**▲ Is Apex-Tech actually gone?**~~ — **asked and answered, 2026-08-13. `C1f` and `C1j` stand unchanged.** The
   agreement **officially ended 1 July 2026**, with the customary **90 days' grace** for projects already in play
@@ -592,8 +620,23 @@ change of emphasis in it.*
   access layer; discretionary top-partner recognition; and the deliberate exclusion of tiered discount
   ladders and any accrual scheme). Still to decide: the qualifying line for Partner (judgement-based,
   reviewed — not an automatic threshold), who is accountable for the recognition acts, lead-referral
-  mechanics, and Experience Centre access/hosting. MOQs and design-tool access remain open where they
+  mechanics, and ~~Experience Centre access/hosting~~. MOQs and design-tool access remain open where they
   are brand-specific.
+  - **▶ Two of these closed 2026-08-15 (Neil), and together they answer "what is registration actually
+    worth?"** **Experience Centre hosting is a free partner benefit**, and **training is free to registered
+    partners** — certification cuts support load, so it pays in calls not received rather than in fees.
+    *(Training is **provisional**: Neil is introducing something that bears on it.)* **This matters more than
+    two line items:** the programme previously granted trade pricing and nothing else
+    (`current-state.md` — *"registration exists; a partner programme does not"*), and these are the first two
+    pieces of real depth spent rather than margin given. **Build it before saying it**, per `CLAUDE.md`.
+  - **▲ Tension found the same day, in the platform.** **Cinema Tools ADR 017 v2 (2026-08-13) decision 10 makes
+    training one of four revenue lines** — *"training, design services, the partner channel, product"* — and
+    decision 12 says **demand is measured before the curriculum or the partner programme is built** (calculator
+    traffic first, then one module published to see who buys). **Free-to-partners and a revenue line do not
+    obviously agree**, and the measure-first gate is not reflected anywhere in this repo's partner-programme
+    work. *Probably resolved by whatever Neil is introducing — the superseded ADR 073 text folded into 017 is
+    about **Cinema Expert**, an independently accredited cinema credential reoccupying ground CEDIA abandoned,
+    which would make training a product with a partner tier rather than either/or.* Flagged, not resolved.
 - **Channel selection, priority & spend** — from the candidate landscape (`group/05-channels.md`),
   decide which channels SRND actually promotes through, at what priority and budget, and who owns
   each. Verify current status/membership (names and events change). A decision, not a list.
