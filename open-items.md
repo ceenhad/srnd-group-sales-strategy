@@ -675,8 +675,8 @@ margin and buys nothing.
   buyers who do not want lighting.** *Sequenced, not deferred.* **Two consequences:** it **carries no brand of
   its own** (`Q24` — the question re-opens only if it splits out), and **nothing gets announced** until there
   is something shipped to announce, per build-it-then-say-it.
-  **One question remains open:** **how it relates to `SRND Solutions`** (below) — the repo describes that line
-  as *"sensors and interfaces"*, words that could equally describe this (`Q23`).
+  **And `Q23` closed it the other way: `SRND Solutions` is retired**, so there is nothing to reconcile it
+  with — see below.
   **And what must not be guessed:** market size, buyer, channel, competitors, price and timing are all **[?]**
   in every repo. **A plausible answer here would be worse than the gap** — this is the flag-don't-guess rule at
   its most load-bearing, because a market this size would reorder the plan if it were real and waste the group's
@@ -685,11 +685,12 @@ margin and buys nothing.
   **commercial fit-out, hospitality and workplace** — the beyond-cinema markets `NEXT.md` wants and cannot yet
   prove. **Sensing carries no cinema heritage to fence it**, which is an advantage LWCP itself does not have.
 
-- **SRND Solutions go-to-market** — the forthcoming own-made sensors/interfaces line
-  (`group/01-commercial-model.md`) deliberately doesn't fit inside a brand, yet the model makes
-  brands the marketing surface. Decide how it reaches the trade: its own brand/playbook, or a
-  cross-brand group line attached to installs. Also its launch timing (don't market before it ships).
-  **Now entangled with the item above** — decide the sensing question first, because it may absorb this one.
+- ~~**SRND Solutions go-to-market**~~ — **RETIRED 2026-08-16 (`Q23`): *"SRND Solutions is stale — drop it."***
+  Named before the work that would have filled it existed, and never defined. **The question retires
+  unanswered rather than unresolved**, and the roster is **six brands, not six plus one in waiting**.
+  *Kept as a struck entry rather than deleted, because a line that was carried for months as "in development"
+  should be visibly retired — otherwise the next pass reinstates it from `CLAUDE.md`, which still names it.*
+  **Propagation is a mechanical pass** — `DOC-26` in `backlog.md`.
 - ~~**Third-party audio versus Pro-Fi**~~ — **RESOLVED.** All carried cinema audio (Mag Theatron,
   PhaseTech/SoundTube, dARTS) is deleted everywhere. Pro-Fi is the group's audio brand, and the roster
   principle is now general: **we carry nothing that competes with our own brands.** See

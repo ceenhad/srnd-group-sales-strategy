@@ -248,9 +248,15 @@ once.
    business throughout, and distinct from the US distributor of similar name in `../current-state.md`
    (`2023-buyer-journey-archive.md`).
 
-**SRND Solutions** (own-made sensors and interfaces — the connective glue of an install) is in development
+~~**SRND Solutions** (own-made sensors and interfaces — the connective glue of an install) is in development
 and deliberately doesn't fit inside a brand. How it reaches the trade is open; don't write it up as
-shipping.
+shipping.~~
+
+> **▶ Retired 2026-08-16 (Neil, `questions.md` Q23): *"SRND Solutions is stale — drop it."*** It was named
+> before the work that would have filled it existed, and was never defined. **So the roster is six brands, not
+> six plus one in waiting**, and its go-to-market question retires unanswered rather than unresolved.
+> *The nearest real thing is LWCP's spatial sensing, and that is settled separately as **a layer of LWCP now,
+> a line of its own when it proves** (`Q22`) — carrying no brand of its own in the meantime.*
 
 ## The properties
 
