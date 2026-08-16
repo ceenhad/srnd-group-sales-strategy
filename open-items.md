@@ -528,6 +528,26 @@ bullet, in the same voice, for Neil to accept, reword or reject:
 *Recorded here rather than edited into `CLAUDE.md`, because the steering document is the constitution and this is a
 change of emphasis in it.*
 
+## ▲ The order of work, set 2026-08-16
+
+> **Neil:** *"In the end we are trying to do a **group strategy** here. We need to make our **group-level
+> plans**, then dive back down into the business. I think you have the data to understand the **direction of
+> travel at the group level**. Then we create **question series we sweep through for each brand**."*
+
+**Three consequences, and they reorder everything below.**
+
+1. **No brand is chosen next.** `Q28` asked which brand takes the second record pass and the answer was *none* —
+   **the question was at the wrong altitude.** Brand-level sessions are deferred, not cancelled.
+2. **The group-level direction gets stated first**, from what is now measured: fifteen years of revenue, the
+   margin ladder with services at its top, the four-brand tier, the platform positions in `cinema-platform` and
+   `lwcp`, and the dealer arithmetic. **The data is in; what is missing is the statement.**
+3. **Then the brand work runs as a swept question series, not as bespoke sessions.** *One list of questions,
+   asked of every brand in turn* — the same instrument as `questions.md`, applied per brand rather than per
+   topic. **That is a new artefact and it does not exist yet.**
+
+**Read the list below through that lens:** the group-level items are live; anything brand-shaped waits for the
+sweep.
+
 ## Sessions needed — the work that is session-sized, in order
 
 *Added 2026-08-16. **The standards run established the pattern**: sixteen calls were taken in one sitting and
