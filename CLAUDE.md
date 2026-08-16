@@ -27,9 +27,10 @@ audio/AV work at the core.
 Six specialist brands, each with its own site and range, covering the room system end to end:
 **Display Technologies** (projection), **Fabric Walls** (stretch-fabric wall/ceiling systems),
 **Light Walls** (addressable lighting), **C-ATS** (acoustic treatment — the 3 Rs), **Pro-Fi** (audio
-systems), and **SRND Distribution** (the trade distribution arm). A further own-made line,
-**SRND Solutions** (sensors and interfaces — the connective "glue" of a high-end install, not
-fitting inside any one brand), is in development. In distribution, **Leyard** is the only genuine
+systems), and **SRND Distribution** (the trade distribution arm). **Six is the roster — there is no seventh
+line in waiting.** *("SRND Solutions" was carried here as a forthcoming sensors-and-interfaces line; retired
+2026-08-16 as stale, having been named before the work that would fill it existed. The nearest real thing is
+LWCP's spatial sensing, which is a layer of LWCP until it proves otherwise.)* In distribution, **Leyard** is the only genuine
 third-party brand; other names on the store are carried lines or components (Ultrasuede is a fabric
 used within Fabric Walls, not a standalone brand). Full roster: `group/01-commercial-model.md`.
 
