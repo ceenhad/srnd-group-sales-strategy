@@ -127,6 +127,35 @@ whole thing.***
 
 ## 3 · The direction of travel, stated
 
+> ## ▲ Priority one, set by Neil in the group session, 2026-08-16
+>
+> ***"We know people but engagement is terrible. Increasing and maintaining engagement is priority one. We can
+> only sell to engaged partners."***
+>
+> **This sits above everything below, and the section under it was written a level too low.** The analysis
+> that follows — breadth, the second category, the missing artefact — describes **what selling to an engaged
+> base would look like.** *It presumes engagement. That presumption is what is wrong.*
+>
+> **And the measured record supports him bluntly.** The relationships exist and the contact does not:
+>
+> | | |
+> |---|---|
+> | **603 counterparties** ever; **~95 active** in any recent year | **16 %** |
+> | **348 hold an account**; **189 have never bought** | finding 27 |
+> | **29 email campaigns** produced **6 clicks** to `c-ats.co.uk` | finding 29 |
+> | **The best campaign ever sent was the last one sent** — four months ago | `MON-16` |
+> | Monday's per-brand subscribe flags **never reached the sending system** | finding 28 |
+> | **40 approved dealers cannot see a price** | `MON-13` |
+> | **Inbound is uncountable** — it lands in mailboxes, calls and heads | `14-engine-as-hub.md` §1 |
+>
+> **So "engagement is terrible" is not a mood, it is the one thing every measurement in this repo agrees on** —
+> and *"we can only sell to engaged partners"* explains why the 99 single-category accounts stay single-category.
+> **Nobody has spoken to them.**
+>
+> **What changes below:** breadth is not the priority — **it is the symptom, and the expected result of fixing
+> the priority.** The machinery still matters, but it is what you use *once a partner is engaged*, not what
+> creates engagement.
+
 **The group is a manufacturer that still sells like a distributor.**
 
 Manufacturing is 58 % of revenue and 69 % of margin. Acquisition is at a fifteen-year high. But **what happens
@@ -172,10 +201,13 @@ a new market.
   be weighted by that, not run evenly across six.*
 - **The record's job is now clearly commercial, not documentary.** It feeds the block library, `N10` prices the
   design work, and both exist to make an account's second and third category possible.
-- **Breadth is the group's headline metric**, not dealer count and not revenue. **Categories per account** is
-  computable today from the data already loaded, and nothing else in the repo tracks it.
-- **Acquisition needs no work.** *Nothing in the plan should spend effort on getting more dealers until the
-  second-category problem is solved* — 154 arrived in three years and 99 of them bought once.
+- **▲ Engagement is the headline, and breadth is how you read whether it worked.** *Revised in session,
+  2026-08-16.* **Categories per account** stays the lagging measure — computable today, tracked nowhere — but
+  the leading one is **engagement, which has no definition and no instrument yet.** *That is the next thing to
+  settle, and it is not a metric problem: `14-engine-as-hub.md` §1 already reset "engaged" to **active inbound
+  communication** and then found inbound uncountable.*
+- **Acquisition needs no work.** *Nothing in the plan should spend effort on getting more dealers* — 154
+  arrived in three years and **99 of them bought once, because nothing happened after they arrived.**
 - **The carried book is doing its job and should be left alone.** It funds the own lines and it brought in the
   account that buys the most services.
 
