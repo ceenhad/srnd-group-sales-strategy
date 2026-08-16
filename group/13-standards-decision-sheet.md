@@ -184,6 +184,13 @@ offered; neither was taken.
 Everything else remains a priority question computed from engine signals, with first-order value and any
 size-derived band still prohibited as inputs.
 
+> **▲ Qualified by `10-tasks.md`, read properly 2026-08-16.** `T-S03` is not an open claim — it is one of the
+> few rows marked **"confirmed — instinct and rapport (Neil)"**, verdict **`assisted`**: *"`store/engine` for
+> the record; **a person for the read**."* **So the computed band ranks attention; it does not make the
+> judgement**, and this session should not have implied otherwise. *The two are compatible — the record is
+> pulled, the read stays human — but the confirmed row is the authority and it says a person is required.*
+> `T-S04` and `T-S05` carry the same confirmation.
+
 ### Still open on this session
 
 1. **Where credit *is* extended by us — staged-payment projects — who assesses it, and against what?** The

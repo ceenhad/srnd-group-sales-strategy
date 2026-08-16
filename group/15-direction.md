@@ -207,6 +207,33 @@ better diagnosis than "we are undersold", because it says where.*
 
 ---
 
+## 3a · What the brand layer adds — read 2026-08-16
+
+**One connection the data alone could not make.** `brands/fabric-walls/positioning.md`: *"**The buyer widens
+beyond AV: integrator plus fit-out contractor**, both valuing predictability over craft"* — and *"not fenced,
+to cinema or to walls."*
+
+**Set that against the numbers and it is the most useful fact in this document.** Fabric Walls is **the
+broadest own-made line in the group — 32 dealers**, flat rather than declining, second only to DT in own-made
+revenue. **So the brand with the widest dealer base is also the one whose buyer already extends past the
+cinema trade.**
+
+> **Beyond cinema is not a market to open. It is a bridge the group is already standing on and has never
+> named.** `00-strategy.md` calls cinema-only proof *"the binding constraint"* and says the first non-cinema
+> room matters more than any repositioning — **and Fabric Walls is where a fit-out contractor is already
+> buying.** *What is missing is not access; it is that nobody has asked those accounts what else the room
+> needed.*
+
+**Two smaller ones worth carrying:**
+
+- **The mechanics differ by brand, deliberately** (`00-strategy.md`): C-ATS sells design as accountable paid
+  expertise and must not have a design-replacing calculator; **Fabric Walls is self-serve by design and should
+  have configurators.** *Do not propagate one brand's tooling rule to the other* — a trap this session walked
+  into once already with the service offer.
+- **The register says where the record goes after DT, and it is not a judgement call**: **fifteen rows are
+  `current` *and* `none`** — sold today, live on a site, with no canonical account — and **six of the fifteen
+  are Fabric Walls, four are Light Walls.**
+
 ## 4 · The growth arithmetic, three ways, all measured
 
 **The target is 10–20 % on ~£1.45m: £145–290k.** It is available three separate times over, and no route needs
