@@ -529,7 +529,7 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 
 | | Session | What it needs | Blocked on |
 |---|---|---|---|
-| **1** | **The service offer** (`XS-5`) | Define it, document it, price it, publish it. **Not a pricing exercise** — outside C-ATS the service was ad hoc, so the accounts give precedent and range, not a list (Neil, 2026-08-16). Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7` and the partner-programme value question |
+| **1** | **The service offer** (`XS-5`) | **Now has a method, from Neil 2026-08-16 — see the frame below the table.** Two categories, a sweep, and a costing rule. Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7`, the partner-programme value question and the incentive policy |
 | **2** | **The roles** (`NEXT.md` step 1, `PAR-3`) | Who fills owner · producer · trade view. **Roles, never names, was settled — the filling was not** | Nothing. **Named as the first step of the critical path since rev 1 and still undone; an unowned critical path is how this becomes next year's problem** |
 | **3** | **Sensing — line, layer, or brand** | The three questions above. Market size, buyer, channel, competitors, price and timing are **[?]** everywhere and must not be guessed | Neil's judgement on scope; possibly on evidence that does not exist yet |
 | **4** | **The competitor roster** (standard 5 ⚑) | Names per brand — C-ATS behind its price band, Fabric Walls and Pro-Fi at all. **It cannot be derived: no loss reason exists in any system** | **Entirely Neil.** Nothing else gates `T-M02`; the axes and the output shape are set |
@@ -539,6 +539,29 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 **And two that are not sessions but sit at the head of the queue anyway:** **`MON-13`** — forty approved dealers
 with no engine account, *"a fault to fix today"* — and the **`C1` dual-listing wording**, minutes of work that
 gates whether `C1` can be filled honestly for any DT record.
+
+### The frame session 1 runs on — Neil, 2026-08-16
+
+**Two categories, and they are not the same problem.**
+
+- **Product-attached design** — *"what specific project-specific design is needed for [a product] to be
+  successful."* Per product, then triaged: **can it be automated · can a tool be created · or is it really
+  labour, which does need paying for.**
+- **True services** — *"separate to true services like a sound isolation design."* Sold in their own right,
+  priced in their own right.
+
+**And the costing rule, which is the part that changes how the free question is answered.** *"An incentive can
+only work where the service is defined and costed — otherwise **in the customer's mind it's just work you
+needed to do as part of their sale.**"*
+
+> **So: you cannot give away something that has no price.** An undefined free service is not read as
+> generosity; it is read as an obligation the customer had already bought. **Which means everything gets
+> defined and costed first — including the things intended to be given away** — and *"a clearly defined policy
+> of what is and is not allowed on free things"* replaces case-by-case judgement.
+
+**Cross-selling with a free service incentive is legitimate** (Neil) — the earlier formulation of *no
+cross-line subsidy* was too strong. **What is not legitimate is an undefined giveaway**, because it costs
+margin and buys nothing.
 
 ## Decisions needed (flag, don't guess)
 
