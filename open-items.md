@@ -670,14 +670,13 @@ margin and buys nothing.
   architecture (ADRs 0044–0047 — mmWave, time-of-flight depth, UWB anchor fabric, environment; **camera-free by
   ratified posture**), built on the category claim that ***"nobody has made position computational — sensors
   report what, never where."*** See `archive-findings.md` finding 32 §§7–8.
-  **Three decisions, in order:**
-  1. **Is it a line of its own, or a layer of LWCP?** The engineering sits inside LWCP; the market claim is not
-     lighting-shaped. Both can be true — it is a commercial choice, not an architectural one.
-  2. **How does it relate to `SRND Solutions`** (below)? The repo describes that line in words —
-     *"sensors and interfaces"* — that could equally describe this. **Same thing, adjacent, or one inside the
-     other is undetermined.**
-  3. **Does it get a brand, and whose?** The six-brand roster has no slot for it, and the model makes brands
-     the marketing surface.
+  **▶ Decided 2026-08-16 (`Q22`): a layer of LWCP now, a line of its own when it proves.** Sold inside the
+  lighting control system first, because that route to market exists; **split out on evidence of demand from
+  buyers who do not want lighting.** *Sequenced, not deferred.* **Two consequences:** it **carries no brand of
+  its own** (`Q24` — the question re-opens only if it splits out), and **nothing gets announced** until there
+  is something shipped to announce, per build-it-then-say-it.
+  **One question remains open:** **how it relates to `SRND Solutions`** (below) — the repo describes that line
+  as *"sensors and interfaces"*, words that could equally describe this (`Q23`).
   **And what must not be guessed:** market size, buyer, channel, competitors, price and timing are all **[?]**
   in every repo. **A plausible answer here would be worse than the gap** — this is the flag-don't-guess rule at
   its most load-bearing, because a market this size would reorder the plan if it were real and waste the group's
