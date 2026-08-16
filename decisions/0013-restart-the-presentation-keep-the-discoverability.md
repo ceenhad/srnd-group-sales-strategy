@@ -4,16 +4,16 @@ scope: srnd-group-strategy
 slug: restart-the-presentation-keep-the-discoverability
 area: motion
 title: "Websites and social restart; URLs, indexed pages and channel history are kept"
-status: proposed
+status: superseded
 version: 1
 revised: 2026-08-16
 supersedes: []
-superseded_by: null
+superseded_by: 37
 ---
 
 # ADR 0013 — Websites and social restart; URLs, indexed pages and channel history are kept
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Superseded** — 2026-08-17, split into ADRs 0037–0038, one decision each, on Neil's instruction. *A bundle cannot be accepted or rejected cleanly.*
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*

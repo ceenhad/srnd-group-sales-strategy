@@ -4,16 +4,16 @@ scope: srnd-group-strategy
 slug: per-brand-homes-channels-and-cadence
 area: motion
 title: "Answers live on each brand's own site; every brand gets a channel; communication has no start and no end"
-status: proposed
+status: superseded
 version: 1
 revised: 2026-08-16
 supersedes: []
-superseded_by: null
+superseded_by: 35
 ---
 
 # ADR 0011 — Answers live on each brand's own site; every brand gets a channel; communication has no start and no end
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Superseded** — 2026-08-17, split into ADRs 0035–0036, one decision each, on Neil's instruction. *A bundle cannot be accepted or rejected cleanly.*
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*

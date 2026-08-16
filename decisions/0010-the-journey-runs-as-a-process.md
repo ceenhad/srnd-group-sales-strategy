@@ -4,16 +4,16 @@ scope: srnd-group-strategy
 slug: the-journey-runs-as-a-process
 area: motion
 title: "Gateways, pathways, many hooks, many bites — and the destination is engine"
-status: proposed
+status: superseded
 version: 1
 revised: 2026-08-16
 supersedes: []
-superseded_by: null
+superseded_by: 31
 ---
 
 # ADR 0010 — Gateways, pathways, many hooks, many bites — and the destination is engine
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Superseded** — 2026-08-17, split into ADRs 0031–0034, one decision each, on Neil's instruction. *A bundle cannot be accepted or rejected cleanly.*
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*

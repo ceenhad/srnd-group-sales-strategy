@@ -4,16 +4,16 @@ scope: srnd-group-strategy
 slug: no-field-force-content-is-the-rep
 area: motion
 title: "There is no field force; content does the rep's job, and cannot do four parts of it"
-status: proposed
+status: superseded
 version: 1
 revised: 2026-08-16
 supersedes: []
-superseded_by: null
+superseded_by: 19
 ---
 
 # ADR 0007 — There is no field force; content does the rep's job, and cannot do four parts of it
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Superseded** — 2026-08-17, split into ADRs 0019–0021, one decision each, on Neil's instruction. *A bundle cannot be accepted or rejected cleanly.*
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*
