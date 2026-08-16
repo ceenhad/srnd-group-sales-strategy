@@ -544,9 +544,10 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 | **5** | **The upsell proposal build** (standard 3) | The design is written; what remains is one document or core-plus-appendix, who builds one today, and whether the layer list is fixed per room type | Partly a fetch — *what goes out today* is unknown |
 | **6** | **The content floor** (standard 10) | The floor **in beat-sheet briefs per period**, and who owns publication | **Neil and Olivier only.** The lane does not start without it |
 
-**And two that are not sessions but sit at the head of the queue anyway:** **`MON-13`** — forty approved dealers
-with no engine account, *"a fault to fix today"* — and the **`C1` dual-listing wording**, minutes of work that
-gates whether `C1` can be filled honestly for any DT record.
+| **7** | **The store architecture** | ~~A wording fix~~ — **no.** Neil, 2026-08-16 (`Q27`): *"This is an ongoing improvement that needs to be made. **Part of strategy planning.**"* **What lives on a brand store, what lives on the group store, and what the relationship between them is.** The 13 DT codes published on both are the symptom, not the question | Nothing — but it **gates `C1` on every DT record**, so step 3 runs into it |
+
+**And one that is not a session but sits at the head of the queue anyway:** **`MON-13`** — forty approved
+dealers with no engine account, *"a fault to fix today"*.
 
 ### The roles are filled, and that changes what the machinery is for — 2026-08-16
 
