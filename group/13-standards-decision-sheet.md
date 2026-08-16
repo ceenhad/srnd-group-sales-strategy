@@ -613,11 +613,32 @@ it fast.
 things not to say (the brand's `G2`, session 6), and any figure that has to be exact. **That is generable from
 the record** — which is the whole argument of step 3 arriving at the content lane from a third direction.
 
+### ⚠ This whole session rests on a concept that was already struck — found 2026-08-16
+
+**There is no floor rate, and there has not been one since 2026-07-31.** `decided.md` **S24**: *"**No cadence
+ceremony: no set floor rate**, no formal role confirmations."* And the Reversals entry says it twice: *"the
+ceremony half of S20 — a formally set floor rate and a formal confirmation of editorial ownership — is struck:
+neither was a decision anybody needed. **Production volume comes from the Claude-assisted line instead**
+(S24)."*
+
+**So standard 10 was a decision that had already been retired**, this session re-derived it, and its
+"correction" — express the floor in briefs rather than publications — refined something that does not exist.
+*Found only when `decided.md` and `09-motion-design.md` were finally read end to end, which is the failure
+underneath the failure.*
+
+**What survives, and it is not nothing.** The session's *observations* stand and are consistent with S24:
+planning is the constraint rather than recording; the owner never faces a blank page; a brief is a beat sheet;
+**every piece must make an argument**; the answer carries the face and derivatives carry the pointer. **All of
+these belong to component 2 of `09-motion-design.md`, which had already designed the line** — substance in,
+draft at volume, truth-check in minutes, distribute efficiently.
+
+**The honest summary: session 4 rediscovered a designed system and mistook it for an open question.**
+
 ### Still open on this session
 
-1. **The floor, in beat-sheet briefs per period** — now that both the unit and the artefact are defined.
-2. **Do machine-derived pieces publish under a brand's name**, and does that change the gate?
-3. **Who owns publication** — still open, still the same decision as the floor.
+1. **Do machine-derived pieces publish under a brand's name**, and does that change the gate? *(The only one
+   of the three that was ever open — and `09-motion-design.md` component 2 arguably answers it: guardrails are
+   baked in at drafting time and the truth-check is the gate.)*
 
 ---
 

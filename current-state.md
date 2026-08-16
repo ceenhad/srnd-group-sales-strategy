@@ -248,7 +248,13 @@ while still occupying the territory.
   a dealer wanting credit uses a credit card.
   - **▲ Corrected and extended, 2026-08-15 (Neil).** Credit *is* available to dealers — **just not from us:
     Iwoca Pay is offered at the store as a third-party credit route.** So "no credit accounts" is about our
-    balance sheet, not about the dealer's options. **The consequence is the commercially important half: a
+    balance sheet, not about the dealer's options.
+    - **⚠ And this was already recorded, four days earlier.** `decided.md`'s Reversals log, **2026-08-12**:
+      *"C8 softened… a **UK-only 90-day interest-free facility is provided through IWOCA** — a third-party
+      finance provider, unavailable outside the UK. Raised as a conflict by the srnd-os promotion sync
+      (2026-08-11) and resolved by Simon the same day."* **So this was a rediscovery, not a discovery** — and
+      the recorded version is better than mine: it is **UK-only** and **90-day interest-free**, neither of
+      which I had. *The ratchet was working; I had not read it.* **The consequence is the commercially important half: a
     third party carries the receivable, so the group has no bad-debt exposure while a dealer's ability to pay
     is materially wider than their cash position** — which is why a small dealer with a large project is not a
     risk to take. Worked through in `group/13-standards-decision-sheet.md` session 1.
