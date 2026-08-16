@@ -7,12 +7,59 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 
 | | ADRs |
 |---|---:|
-| Proposed | 1 |
+| Proposed | 18 |
 
-> **1 ADR is `proposed` and binds nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
+> **18 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
 
 ## How this repo decides
 
 | ADR | Decision | Status | Ver | Revised |
 |---|---|---|---:|---|
 | 0001 | [ADRs in this repo: proposed until Neil accepts, versioned not amended, catalogue generated](0001-adrs-in-this-repo.md) | proposed | 1 | 2026-08-16 |
+
+## Commercial model, pricing and territory
+
+| ADR | Decision | Status | Ver | Revised |
+|---|---|---|---:|---|
+| 0002 | [Direct is the default; a distributor must plausibly double the volume](0002-direct-first-and-the-2x-distributor-test.md) | proposed | 1 | 2026-08-16 |
+| 0003 | [US entry is a conversion problem, approached directly with the whole group](0003-united-states-market-entry.md) | proposed | 1 | 2026-08-16 |
+| 0004 | [Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK](0004-pricing-credit-and-terms.md) | proposed | 1 | 2026-08-16 |
+| 0005 | [Two stores split by the self-evidence test; we carry nothing that competes with our own brands](0005-the-two-stores-and-the-carried-roster.md) | proposed | 1 | 2026-08-16 |
+| 0006 | [Beyond cinema in trade; B2C stays cinema, deliberately](0006-beyond-cinema-in-trade.md) | proposed | 1 | 2026-08-16 |
+
+## The sales motion and content
+
+| ADR | Decision | Status | Ver | Revised |
+|---|---|---|---:|---|
+| 0007 | [There is no field force; content does the rep's job, and cannot do four parts of it](0007-no-field-force-content-is-the-rep.md) | proposed | 1 | 2026-08-16 |
+| 0008 | [One content estate; the unit is a question answered well; authorship is never scaled](0008-the-unit-of-content-and-the-one-estate.md) | proposed | 1 | 2026-08-16 |
+| 0009 | [Judgement stays with the owner, labour moves to Claude, and there is no cadence ceremony](0009-how-content-gets-made.md) | proposed | 1 | 2026-08-16 |
+| 0010 | [Gateways, pathways, many hooks, many bites — and the destination is engine](0010-the-journey-runs-as-a-process.md) | proposed | 1 | 2026-08-16 |
+| 0011 | [Answers live on each brand's own site; every brand gets a channel; communication has no start and no end](0011-per-brand-homes-channels-and-cadence.md) | proposed | 1 | 2026-08-16 |
+| 0012 | [The system is specified in roles; who fills them is a separate decision](0012-roles-never-names.md) | proposed | 1 | 2026-08-16 |
+| 0013 | [Websites and social restart; URLs, indexed pages and channel history are kept](0013-restart-the-presentation-keep-the-discoverability.md) | proposed | 1 | 2026-08-16 |
+
+## The product record
+
+| ADR | Decision | Status | Ver | Revised |
+|---|---|---|---:|---|
+| 0014 | [A schema before documentation; engine owns the mechanical layer; definition comes first](0014-the-product-record-schema-first.md) | proposed | 1 | 2026-08-16 |
+| 0015 | [Support is a documentation problem; the debt is DT's, by mechanism not SKU](0015-documentation-is-the-load-bearing-content.md) | proposed | 1 | 2026-08-16 |
+
+## The partner programme
+
+| ADR | Decision | Status | Ver | Revised |
+|---|---|---|---:|---|
+| 0016 | [Spend the depth, not the margin; no ledgers; and the differentiator is owning the factory](0016-the-partner-programme.md) | proposed | 1 | 2026-08-16 |
+
+## Brands and alignment
+
+| ADR | Decision | Status | Ver | Revised |
+|---|---|---|---:|---|
+| 0017 | [Who owns what between adjacent brands, and the register they all share](0017-brand-alignment-and-voice.md) | proposed | 1 | 2026-08-16 |
+
+## Markets and events
+
+| ADR | Decision | Status | Ver | Revised |
+|---|---|---|---:|---|
+| 0018 | [ISE is the show; CEDIA Expo is out; InfoComm is a possibility](0018-events.md) | proposed | 1 | 2026-08-16 |

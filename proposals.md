@@ -14,6 +14,32 @@ authority. It was, repeatedly, including by the session that moved them here.
 - **`open-items.md`** holds what is open at group level; **`questions.md`** is the asking surface.
 - **Nothing goes into `decided.md` without Neil's explicit approval.**
 
+## ▶ Sorted into ADRs — 2026-08-16
+
+**All ~60 entries below are now consolidated into `decisions/0002`–`0018`**, each `status: proposed`, each
+carrying the old IDs in its Provenance section so existing citations resolve. **This file is kept as the
+source text until the ADRs are accepted or rejected** — then it goes.
+
+| Old IDs | ADR |
+|---|---|
+| `C1`, `C1a`–`C1d`, `C3` | **0002** direct-first and the 2x test |
+| `C1e`–`C1k` | **0003** US market entry |
+| `C4`, `C8` + the IWOCA reversal | **0004** pricing, credit and terms |
+| `C2`, `C5`, `C6` | **0005** the two stores and the carried roster |
+| `C7` | **0006** beyond cinema in trade |
+| `S1`, `S2`, `S3` | **0007** no field force; content is the rep |
+| `S7`, `S8`, `S9`, `S13`, `S14` | **0008** the unit of content and the one estate |
+| `S4`, `S5`, `S6`, `S24` + the `S20` reversal | **0009** how content gets made |
+| `S22`, `S23`, `S25`, `S26` | **0010** the journey runs as a process |
+| `S28`, `S29` | **0011** per-brand homes, channels and cadence |
+| `S27` | **0012** roles, never names |
+| `S10`, `S15` | **0013** restart the presentation, keep the discoverability |
+| `S16`, `S16a`, `S16b`, `S17`, `S19` | **0014** the product record, schema first |
+| `S11`, `S11a`, `S12`, `S18`, `S21` | **0015** documentation is the load-bearing content |
+| `P1`–`P4` | **0016** the partner programme |
+| `B1`–`B8` | **0017** brand alignment and voice |
+| `E1`–`E3` | **0018** events |
+
 ## What to do with it
 
 **Each entry needs one of four answers: *yours · not yours · reword · not yet*.** Most are answerable in a
