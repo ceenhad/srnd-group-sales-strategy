@@ -482,16 +482,32 @@ produces.
 > design-based proposals. Doesn't work.** **Speed of delivery of proposals is just as important as content**,
 > quite often."*
 
-**This session proposed a document assembled from record fields, section by section, per layer. That is
-per-product blocks dropped into a template — the thing that has already been tried with three people on staff
-and failed.** *Struck as a design.* **What survives is the content logic** — the room as the unit, every layer
-accounted for, physical justification, the dealer's win — **but it has to be produced in minutes by a machine,
-not composed.** Two consequences:
+~~**This session proposed a document assembled from record fields, per layer. That is per-product blocks
+dropped into a template — already tried with three people on staff, and failed. Struck as a design.**~~
 
-- **Speed is a first-class requirement, ranked with content, and it is measurable.** *Time from "we should
-  propose" to "it is sent"* is the acceptance test, alongside the attach rate.
-- **If it cannot be generated, it should not be designed.** Anything needing a person to lay out or select will
-  fail the same way it failed before, and the failure has already been paid for once.
+> **▲ Struck the wrong thing — corrected by Neil, same day.** ***"The content blocks thing works… if you have
+> the content blocks!"*** **The failure was never assembly. It was that the blocks were being *produced*, by
+> hand, by three designers, against each proposal.** *Assembly is cheap; authoring per proposal is what cost
+> three salaries and did not work.* **So block assembly is the right design — it just has a precondition
+> nobody had met.**
+
+**Which turns the proposal into two deliverables, and neither is a document-design exercise:**
+
+| | Deliverable | What it is | Where it rides |
+|---|---|---|---|
+| **1** | **The block library** | ***"All of our products and services are going to have to be listed in there."*** One block per product and **per service** — the presentation form of what the record already holds. *"To add a block seems achievable"* | **On the record** (step 3). A block is generated from a filled record, not authored beside it — same argument as `N10` |
+| **2** | **A document template that consumes blocks** | ***"That then needs a document template that can use it."*** The thing that turns a room's block set into a sent proposal | A build, and the smaller of the two once the library exists |
+
+**And this closes the loop between sessions 1 and 3, which were being worked as separate problems.** **A service
+cannot have a block until it is defined and costed** — Neil's own rule from `Q34`, arriving from the other
+direction. **So session 1 (the service offer) is a hard dependency of the proposal build**, not a neighbour of
+it: *undefined services cannot appear in a proposal, which is exactly why the attach never happens.*
+
+**Speed survives as a first-class requirement, and it is now achievable rather than aspirational.** *Time from
+"we should propose" to "it is sent"* is the acceptance test alongside attach rate — **and the whole point of a
+maintained library is that the marginal proposal costs minutes.** The rule that follows: **the per-proposal
+cost must be assembly only. Any design that puts authoring inside the proposal loop rebuilds the thing that
+already failed.**
 
 ### Still open on this session
 
