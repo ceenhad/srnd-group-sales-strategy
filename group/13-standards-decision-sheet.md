@@ -299,7 +299,7 @@ spine and nest the brand-specific services beneath them.
 **Three things it settles and three it exposes.** Settles: the architecture; that **verification is on sale
 and has never been invoiced once**; and that **"design review" is the missing paid first rung** — the direct
 paid equivalent of the free spec help this whole session is about, already built and unknown. Exposes: **the
-calculators capture no leads at all** (no form, no email field — against ADR 020), **both enquiry forms are
+calculators capture no leads at all** (no form, no email field — against **ADR 011 v2**, the lead-capture mechanism), **both enquiry forms are
 `mailto:`** so the best-qualified inbound lands in a mailbox rather than engine, and **no tier shows a price**,
 which the published-boundary decision now requires.
 

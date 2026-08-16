@@ -3,14 +3,14 @@
 *Where tools fit commercially, and what may be published where.*
 
 *The `ceenhad/cinema-platform` repo is authoritative for what the tools are and how they're built; this is the
-**group commercial** view, which is a wider frame because we are a manufacturer. Grounded in Cinema Tools ADRs
-017, 019, 020 and 036. Read from the platform's current ADRs before acting — an earlier version of this
-document leaned on ADR 014, whose substance had been retired.*
+**group commercial** view, which is a wider frame because we are a manufacturer. **Grounded in Cinema Tools
+ADR 017 v2, ADR 011 v2 and ADR 036 v2 — checked against the platform 2026-08-16.** Read from the platform's
+current ADRs before acting; this document has twice cited retired ones.*
 
-> **▲ Checked against the platform 2026-08-15, and this document is behind again — the same way.**
-> **ADR 017 went to version 2 on 2026-08-13, consolidating 001, 014, 019 and 073 into it**, so the citation to
-> **ADR 019 above is to a rule that no longer exists separately.** Five decisions in the current 017 are not
-> reflected below, and they matter commercially: **Pro is internal tooling** whose stated purpose is *"to make
+> **▲ Citations corrected 2026-08-16.** **ADR 017 went to version 2 on 2026-08-13, consolidating 001, 014,
+> 019 and 073 into it**, and **ADR 020 was superseded by ADR 011** (lead capture). Both stale references in
+> this document have been repointed. **What remains outstanding is the substance:** five decisions in the
+> current 017 are still not reflected below, and they matter commercially: **Pro is internal tooling** whose stated purpose is *"to make
 > the method reproducible by fewer people in less time"* (§4) · **four revenue lines carry the business —
 > training, design services, the partner channel, product** (§10) · **lead capture is launch-blocking** (§9) ·
 > **commercial cinema is the lead market** (§3) · **demand is measured before the curriculum or the partner
@@ -91,11 +91,11 @@ Three tests for any tool, drawn from tools we already run:
 
 ## Cinema Tools is the master brand for design tooling
 
-Per ADR 019, **Cinema Tools is the master brand across the whole design surface**, and `cinema-tools.com` is
+Per **ADR 017 v2 decision 8**, **Cinema Tools is the master brand for the design surface**, and `cinema-tools.com` is
 the lead-magnet front door. This is what resolves the implication problem structurally:
 
 - **Free calculators live on cinema-tools.com**, for discovery, SEO and authority — each a discrete SEO landing
-  page, with lead capture on PDF download landing in the **SRND Engine `leads` table** (ADR 020). That is the
+  page, with lead capture on PDF download landing in the **SRND Engine `leads` table** (**ADR 011 v2**). That is the
   on-ramp hinge in product form: a useful PDF traded for contact details, won willingly rather than extracted.
 - **The C-ATS partner tool inherits the Cinema Tools brand** rather than being C-ATS-branded, and its outputs
   carry **"Powered By Cinema Tools"** bylines — one brand across the whole free → partner lifecycle. It is the
@@ -148,8 +148,7 @@ trade caution gets applied here by reflex and removes an advantage.
 The platform is wider than tools: **Probata** — measurement-driven commissioning that proves an installed room
 meets its design targets. **Probata is recognisably C-ATS verification and Pro-Fi calibration as a product**,
 and Tessellate is shared substrate consumed by Pro-Fi's Lattice and Apollo — the group's technical depth as
-common code. ADR 017 is explicit that the platform play is the durable bet and the design-phase win alone isn't
-the long-term moat.
+common code. *(An earlier version of this paragraph attributed a "platform play is the durable bet" line to ADR 017. **That wording is not in 017 v2** — checked 2026-08-16 — so the claim is withdrawn rather than re-cited.)*
 
 **Out of scope here** while the brand strategies settle. Flagged so it isn't forgotten.
 
