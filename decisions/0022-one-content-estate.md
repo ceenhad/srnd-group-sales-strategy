@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: one-content-estate
 area: motion
 title: "One content estate, not a marketing estate and a support estate"
-status: proposed
+status: rejected
 version: 1
 revised: 2026-08-17
 supersedes: []
@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0022 — One content estate, not a marketing estate and a support estate
 
-- **Status:** **Proposed** — 2026-08-17. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Rejected** — 2026-08-17, Neil.
 - **Source:** `proposals.md` via ADR 0008, split to one decision per ADR.
 
 ## Decision
