@@ -496,7 +496,15 @@ audience work starts now at whatever rate it can, and the platform programme run
 *No design in this note deliberately. The point is that the direction is recorded, the reversal is visible, and the
 next session starts from decisions rather than from a blank sheet.*
 
-## A proposed refinement to `CLAUDE.md` — for Neil, not applied unilaterally
+## ~~A proposed refinement to `CLAUDE.md`~~ — **rejected 2026-08-16 (`Q29`)**
+
+> **Neil's decision: the original rule stands alone.** *"Build it, then say it" is the discipline that stops
+> overclaiming, and qualifying it invites the opposite error.* **The nine measured instances are evidence for
+> acting, not for changing the rule.**
+>
+> **So `CLAUDE.md` is unchanged on this point, finding 30 keeps its table and its argument, and this proposal
+> is closed rather than left pending.** *The reasoning below is kept because the evidence in it is still good —
+> what was wrong was the conclusion that the steering document needed amending to hold it.*
 
 **`CLAUDE.md` records the group's characteristic failure mode as *"build it, then say it"*** — the risk of announcing
 something not yet practised — with three instances: dealer appreciation, the partner programme, and the whole room
