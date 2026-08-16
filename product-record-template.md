@@ -83,12 +83,6 @@ consequences, and they bind every count in this repo:
 - **A filled field confirms something.** An empty one confirms nothing — it means the answer does not exist, or
   nobody has looked, **or the field is the wrong question.** The record cannot tell you which, so a blank is a
   prompt to go and ask, never a finding in itself.
-> **The denominator moved on 2026-08-16.** `N10` was added, so the form is **59 fields**. Every *"of 58"*
-> elsewhere in the repo — `brands/c-ats/product-records.md`, `brands/display-technologies/product-records.md`,
-> `engine-audit.md`, `product-register.md`, `NEXT.md`, `HANDOFF.md` — **is now one short.** Numerators are
-> unaffected. **Logged as a single mechanical pass rather than corrected file by file here**, per the rule that
-> a change should not be scattered across six documents in the moment it is made.
-
 - **The denominator is a claim.** *28 of 58* assumes 58 is the right list of things to know about a product. It is
   the list this form currently proposes. **Completeness measures the form, not the knowledge** — a record at 100 %
   against a wrong field list is complete and useless.
@@ -157,7 +151,7 @@ are only useful together — `R3` without `N3` is a list of things we are known 
 | `R3` | **The questions it generates** | Pre-sale and on site. The same question at different moments. This is the content backlog, per product |
 | `R4` | **What goes wrong on site** | The installer's real fear, and what peer reputation is made of |
 
-### 04 · The knowledge layer — `N1`–`N10`
+### 04 · The knowledge layer — `N1`–`N9`
 
 ***This is the group the whole exercise exists for.*** Group 03 names the questions; **this group holds the
 answers**, plus everything else a good rep carries in their head. It is the substance the production line runs on,
@@ -178,7 +172,6 @@ conversation with a dealer using only group 04?** Today, for every product in th
 | `N7` | **What the dealer tells their client** | The non-technical explanation the dealer repeats to someone who is paying and cannot judge it. **Depth spent on the dealer's customer reads as generosity** (`CLAUDE.md`) — this field is that principle made into a deliverable, and it is empty for every product in the group |
 | `N8` | **Field learning** | What real jobs have taught since launch. Accumulates; never rewritten, only added to. The record of a product actually being used |
 | `N9` | **What we are asked and cannot answer** | The honest edge. **Every entry is a decision waiting**: commission the test, or stop being asked by saying plainly that we do not claim it |
-| `N10` | **The design work this needs to succeed** | **New, 2026-08-16 (Neil).** *"What specific project-specific design is needed for it to be successful"* — then the triage: **automatable · a tool could do it · genuinely labour, which does need paying for.** Distinct from `N1` (which is selection: which one, and how many) and from **true services** like sound isolation design, which are sold in their own right rather than attached to a product. **This is the field the service offer is priced from** — and per Neil's costing rule, *an incentive only works where the service is defined and costed*, so a product whose `N10` is unfilled cannot have its design work given away meaningfully or charged for consistently |
 
 **Two rules specific to this group, because it is the one that can go wrong.**
 

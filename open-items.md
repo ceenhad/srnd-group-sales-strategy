@@ -582,7 +582,7 @@ now held by one of the two people who are also *the answer*.**
 **Which promotes three things from optimisation to load-bearing**, because they are the only things that can
 carry producer work when there is no producer:
 
-- **`N10` and the filled record** — the answer made once, retrievable, so it is not re-authored per job.
+- **The filled record** — the answer made once, retrievable, so it is not re-authored per job.
 - **The block library** — every product and service presentable without anyone composing anything.
 - **The production line** — briefs generated, so the owner's minutes go to the answer and nowhere else.
 
@@ -698,7 +698,7 @@ margin and buys nothing.
   strategy. **What exists is engineering, and it is substantial**: LWCP holds a ratified spatial-sensing
   architecture (ADRs 0044–0047 — mmWave, time-of-flight depth, UWB anchor fabric, environment; **camera-free by
   ratified posture**), built on the category claim that ***"nobody has made position computational — sensors
-  report what, never where."*** See `archive-findings.md` finding 32 §§7–8.
+  report what, never where."*** See the LWCP repo — ADRs 0044–0047.
   **▶ Decided 2026-08-16 (`Q22`): a layer of LWCP now, a line of its own when it proves.** Sold inside the
   lighting control system first, because that route to market exists; **split out on evidence of demand from
   buyers who do not want lighting.** *Sequenced, not deferred.* **Two consequences:** it **carries no brand of

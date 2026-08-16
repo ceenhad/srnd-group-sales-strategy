@@ -16,8 +16,7 @@ document leaned on ADR 014, whose substance had been retired.*
 > **commercial cinema is the lead market** (§3) · **demand is measured before the curriculum or the partner
 > programme is built** (§12). Prices and tiers live in the platform's `docs/product/`, not here.
 > **The fix is not to restate them.** This page should cite current 017 and read from `docs/product/`;
-> duplicating a live decision is what `CLAUDE.md` warns is worse than no artefact. Divergences and the
-> corroboration behind them are set out in `archive-findings.md` finding 31.
+> duplicating a live decision is what `CLAUDE.md` warns is worse than no artefact.
 
 ## Calculators are central, not a risk
 
@@ -165,12 +164,9 @@ the long-term moat.
 > **Keep the two apart** — an earlier draft here merged them, which is a mistake with different economics on
 > each side.
 >
-> **And it reframes a finding.** Acoustic verification is advertised on `cinema-tools.com` and **has never been
-> invoiced once** — but **the mandatory demand sits in commercial cinema, which the group does not currently
-> serve.** *So verification as a revenue line and commercial cinema as a market are the same opportunity, and
-> the never-invoiced number is a consequence of the segment served rather than of the service being unwanted.*
+> **Note alongside it:** acoustic verification is advertised on `cinema-tools.com`, and Neil's own point
+> (`questions.md` Q36) is that **verification is mandatory in commercial cinemas** and attaches to calibration
+> in residential.
 >
-> **The consequence worth carrying:** the platform's *"recurring lifecycle tail"* — configuration →
-> commissioning → runtime — **is now two-thirds removed and one-third undecided.** So the argument that
-> *"the design fee is the smallest number in the deal"* **has no established tail behind it**, and this repo
-> should stop repeating it as though it did.
+> **The consequence worth carrying:** with Auctor and Folio out and Probata undecided, the platform's
+> *"recurring lifecycle tail"* has little established behind it. **Do not repeat it as though it did.**

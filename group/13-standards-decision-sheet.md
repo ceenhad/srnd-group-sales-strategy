@@ -269,7 +269,7 @@ deliverable rather than the hours.
 
 **3. Charged, and *not* credited against the order.** **This overrides the session's recommendation — and the
 override was right.** ~~The session argued that crediting the fee charges for attention without taxing the
-manufacturer rung.~~ **Struck by the margin arithmetic** (Neil, 2026-08-15; `archive-findings.md` finding 31):
+manufacturer rung.~~ **Struck by the margin arithmetic** (Neil, 2026-08-15):
 **services run at ≈100 % margin against 52.4 % for own-made sold direct**, so **crediting a £3,000 fee converts
 100 %-margin revenue into 52.4 %-margin revenue and must win roughly £5,700 of incremental order merely to
 break even.** *The recommendation was wrong and the instinct that overruled it was right; recorded that way
@@ -292,7 +292,7 @@ on, but a dealer and a rep both need the list.
 
 **Checked 2026-08-15 at Neil's direction: `cinema-tools.com/project-support/` sells four named tiers** —
 **design review · performance design · calibration · verification** — individually or as a full sequence
-(`archive-findings.md` finding 31). **That is the real service architecture: whole-room and group-level, where
+**That is the real service architecture: whole-room and group-level, where
 the list below was assembled from strategy documents and came out C-ATS-shaped.** Adopt the live four as the
 spine and nest the brand-specific services beneath them.
 
@@ -331,11 +331,11 @@ confirmed, this graduates into `group/01-commercial-model.md` and becomes the pu
 | **Paid — priced today** ||||
 | 5 | **Pro Design escalation** | The escalation rung above the partner tool | Live | **£500, invoiced per engagement** |
 | **Paid — named but unpriced** ||||
-| 6 | **Acoustic Treatment Design Service** | *"Give us the room and the intent; we return the specification — what goes where, how much, and why"* (`brands/c-ats/copy.md`) | Real revenue, *"expected to grow with verification attached"* (`current-state.md`) | **Invoiced at £3,000** as *"Acoustic Treatment Design Service — Basic"*, 2026. C-ATS design overall: **22 engagements, median £1,560** (finding 31) |
+| 6 | **Acoustic Treatment Design Service** | *"Give us the room and the intent; we return the specification — what goes where, how much, and why"* (`brands/c-ats/copy.md`) | Real revenue, *"expected to grow with verification attached"* (`current-state.md`) | **Invoiced at £3,000** as *"Acoustic Treatment Design Service — Basic"*, 2026. C-ATS design overall: **22 engagements, median £1,560** (the service data) |
 | 7 | **Acoustic Verification** | Measurement after installation against the target the design was built to | Named service, absent from the live site | **[?]** — the one of the four with **no invoice history** |
 | 8 | **Isolation system design** | Isolation as distinct from treatment — *"the one that gets discovered late and costs the most"* | Named service, absent from the live site | **Invoiced at £7,500** as *"Sound Isolation Design Project"*, 2025 |
 | 9 | **Isolation verification** | Measurement of the isolation result | Named service, absent from the live site | **[?]** |
-| **Sold, invoiced, and missing from the strategy entirely** *(finding 31)* ||||
+| **Sold, invoiced, and missing from the strategy entirely** *(the service data)* ||||
 | 6b | **Room design, other brands** | Fabric Walls room designs; Light Walls pixel layouts | Real, repeated | Seattle **£13,068** · Madrid **£6,480** · pixel layout **£750 / £505** |
 | 6c | **Cinema fit-out** | The Kildrummy job — design and fit-out against a written proposal | **£62,495 of it, and the repo does not describe the group as doing fit-out at all** | £45,450 + £12,500 interim + £4,545 design |
 | 6d | **Installation support** | On-site support, charged by the day | Real, repeated | **£4,800 per day** |
@@ -443,7 +443,7 @@ sales**, against the £472,320 / £38,452 split as it stands today.
 
 > **▲ Amended 2026-08-15 — the attach metric was aimed one rung too low.** At ≈100 % margin,
 > **service attach earns about twice as much per pound as own-made attach and needs no product to exist**
-> (`archive-findings.md` finding 31). It also already happens: **Leyard Gold-tier commissioning at
+>. It also already happens: **Leyard Gold-tier commissioning at
 > £5,040–£6,000 against Komodo orders.** So on a £472,320 Komodo year **the best attach is not a Screen Wall —
 > it is commissioning and calibration on every one**, and the Screen Wall is the second ask rather than the
 > first. **Track service attach and own-made attach as co-equal metrics**, and note the consequence for rule 2:
@@ -478,7 +478,7 @@ invoice."* **The proposal is a separate, earlier, sales-stage artefact.** The ch
 | **B** | **The proposal** | The sales-stage document, earlier and persuasive rather than contractual | **A build** — a new object in engine, per-project |
 
 **Take A first.** It attaches the increment at the moment of formal acceptance, it needs no new document, and it
-is the direct mechanical answer to finding 31's attach gap — **a quote lists what was asked for, so a layer
+is the direct mechanical answer to the attach gap — **a quote lists what was asked for, so a layer
 nobody requested has nowhere to appear.** £472,320 of Komodo against £38,452 of Screen Wall is what that
 produces.
 
@@ -502,7 +502,7 @@ dropped into a template — already tried with three people on staff, and failed
 
 | | Deliverable | What it is | Where it rides |
 |---|---|---|---|
-| **1** | **The block library** | ***"All of our products and services are going to have to be listed in there."*** One block per product and **per service** — the presentation form of what the record already holds. *"To add a block seems achievable"* | **On the record** (step 3). A block is generated from a filled record, not authored beside it — same argument as `N10` |
+| **1** | **The block library** | ***"All of our products and services are going to have to be listed in there."*** One block per product and **per service** — the presentation form of what the record already holds. *"To add a block seems achievable"* | **On the record** (step 3). A block is generated from a filled record, not authored beside it — the same argument as the record's own fields |
 | **2** | **A document template that consumes blocks** | ***"That then needs a document template that can use it."*** The thing that turns a room's block set into a sent proposal | A build, and the smaller of the two once the library exists |
 
 **And this closes the loop between sessions 1 and 3, which were being worked as separate problems.** **A service
@@ -693,7 +693,7 @@ gating the matrix.**
    2026-08-15, LWCP's `docs/STRATEGY.md` already assesses **Lutron Lumaris and Ketra, Color Kinetics, Traxon,
    Anolis, Lumenpulse, Saco, Advatek, Pharos, ENTTEC, Madrix, Dresden Elektronik and Philips Hue** — each for
    what it does well. **It is the best competitor document in the group and this sheet did not know it
-   existed**; finding 32.)*
+   existed**.)*
 2. **Which of the names above are wrong** — in the document but not competitors we meet?
 3. **Who is missing entirely?**
 4. **Which are competitors for the *dealer* rather than for the product?** Kept as a separate list, because the
@@ -790,7 +790,7 @@ stopped, and the physical layer waits on fab. **Rule: name it as an absence, nev
 (`adjacency-map.md`).
 
 **▲ But two hard don'ts now exist and bind from the first public word** — LWCP's freedom-to-operate rests on
-them (`archive-findings.md` finding 32):
+them (reviewed read-only in the LWCP repo):
 
 - **Never claim optical feedback in the colour loop.** No photodetector, no LED-as-sensor, no optical sensing
   of the light's *own output* at runtime — deliberately, and it is what clears a competitor portfolio **in
