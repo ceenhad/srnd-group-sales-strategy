@@ -141,7 +141,7 @@ the Screen Wall has no datasheet is more awkward than it looked.
    three times.** Correcting the site alone will not undo it.
 2. "only solutions that can genuinely claim to be the **best and most innovative** in their category" —
    superlative-led, against the Scandinavian register (`group/00-strategy.md`).
-3. "**Complete Acoustic Treatment Systems**" spelled out — the naming we agreed not to hard-code. *Also in the
+3. ~~"**Complete Acoustic Treatment Systems**" spelled out~~ — **not a contradiction: the rule was dropped 2026-08-16 (`Q26`), the expansion is fine.** *Also in the
    `@Complete_ATS` YouTube channel description, so this is two places now.*
 4. **Playlists for MAG Theatron and Barco Residential** still live on `@SRNDGroupLtd`, both discontinued
    carried lines (`group/01-commercial-model.md`).
@@ -711,7 +711,7 @@ margin and buys nothing.
   sold online yet. When it is, the Pro-Fi site drives to SRND Store exactly as every other brand does; the
   one-account-one-checkout model is unchanged. Gated on range and platform readiness
   (`brands/pro-fi/positioning.md` §7).
-- **C-ATS naming** — the group site uses "C-ATS" and spells out "Complete Acoustic Treatment System"
+- ~~**C-ATS naming**~~ — **SETTLED 2026-08-16 (`Q26`): the expansion is fine and the rule is dropped.** ~~the group site uses "C-ATS" and spells out "Complete Acoustic Treatment System"
   openly, but the C-ATS brand-truth `CLAUDE.md` still flags the "Complete" expansion as unresolved
   and prefers "C-ATS"/"Cinema". Resolve the canonical name and align brand truth, the group site and
   the store. Affects all C-ATS-facing copy.

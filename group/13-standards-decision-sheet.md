@@ -701,11 +701,14 @@ is, or the file it names should exist.**
 
 **Won't say:** *diffusion* (**scattering, never diffusion**) · a panel named by its mechanism (*"Reflection
 Control Panel," never "diffuser"*) · any invented performance figure · a supplier name · an NDA install detail ·
-anything teasing the commercial range · the **"Complete" expansion** spelled out · the design service as a
-rescue rather than a choice · an install detail used as a hook.
+anything teasing the commercial range · the design service as a rescue rather than a choice · an install detail
+used as a hook.
 **Says instead:** the problem, named — the 3 Rs; one panel per problem; the constraint solved (50 mm); measured
 data from the published sheets; hooks evidenced and positive.
-**Open, and it affects everything C-ATS-facing:** the canonical name (`open-items.md`).
+**▶ Settled 2026-08-16 (`Q26`): the "Complete Acoustic Treatment System" expansion is fine and the rule against
+hard-coding it is dropped.** *It was carried as a `G2` prohibition and as an open naming question; it is
+neither now.* **This also retires one of the five live breaches** this list caught — the expansion on the group
+site and in the YouTube channel description was never a breach, and the rule was the thing that was wrong.
 
 ### Display Technologies
 

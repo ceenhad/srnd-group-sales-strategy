@@ -55,7 +55,8 @@ here: we don't triage dealers by any single brand's order size. See `group/00-st
   own hard don'ts apply and apply hardest — there's no group licence to override brand truth.
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
   performance figures; no supplier names; no NDA install details; don't tease the commercial range;
-  don't hard-code the "Complete" name expansion. See `brands/c-ats/`.)
+  ~~don't hard-code the "Complete" name expansion~~ — **rule dropped 2026-08-16: the expansion is fine.**
+  See `brands/c-ats/`.)
 - **Check the platform before specifying anything that touches it.** Engine, the canonical dataset and the
   Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
   settled, read the current state first — this work has already based a position on a superseded ADR once, and
