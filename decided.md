@@ -20,11 +20,14 @@ by this session on 2026-08-16.
   anything needing an answer.
 - **Nothing enters this file without Neil's explicit approval.**
 
-## What was here
+## Where the content went
 
-The removed content is in git history — `git log -p decided.md` — and is not reproduced anywhere else in
-this repo by design. **It should not be reinstated, in whole or in part, without explicit approval**, and
-that includes a session finding an old ID cited elsewhere and helpfully restoring the entry behind it.
+**`proposals.md`** — moved there, not deleted, on Neil's instruction. **Reframed as what it always was:
+unratified proposals**, each needing *yours · not yours · reword · not yet*. **What survives ratification
+belongs in SRND OS**, not back here.
+
+**Nothing returns to this file without explicit approval** — including a session that finds an old ID cited
+somewhere and helpfully restores the entry behind it.
 
 ## Consequence, flagged not fixed
 

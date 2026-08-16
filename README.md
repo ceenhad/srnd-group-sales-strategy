@@ -96,16 +96,17 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
      `brands/display-technologies/product-records.md` (a skeleton, where the counted gaps are the deliverable).
 5. **`current-state.md`** — the factual baseline: the sales side as it runs today and the marketing assets that
    exist, with gaps marked rather than guessed.
-6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.
-   **It opens with a topic index — look your subject up there before proposing anything about it.** Added
-   2026-08-16 after a session re-argued four settled decisions in a day; the rule against that already
-   existed, but nothing mapped a topic to the decisions binding it.
-7. **`open-items.md`** — decisions still outstanding.
-8. **`backlog.md`** — the action register: every discrete action in the repo extracted into one working
+6. **`decided.md`** — **emptied 2026-08-16.** Decisions are held and monitored in **SRND OS**; this repo is
+   not the source of record for them, and nothing enters this file without Neil's explicit approval.
+7. **`proposals.md`** — what `decided.md` used to hold, reframed as **unratified proposals**: ~60 entries
+   written by working sessions summarising conversations, each needing *yours · not yours · reword · not
+   yet*. **Cite an entry as "a previous session recorded this", never as settled.**
+8. **`open-items.md`** — decisions still outstanding.
+9. **`backlog.md`** — the action register: every discrete action in the repo extracted into one working
    surface (do / decide / fetch, with owners, effort and status), each workstream tagged by the motion
    component it develops (`group/09-motion-design.md`), prerequisite, or independent. `NEXT.md` holds the
    reasoning; this holds the trackable work. Deliberately no dates and no weeks.
-9. **The measured layer, added 2026-08-13/14** — the facts the plan is now amended against:
+10. **The measured layer, added 2026-08-13/14** — the facts the plan is now amended against:
    - `archive-findings.md` — **the main evidence artefact**: 30 numbered findings from six data sources over
      fifteen years, opening with the source register. Read the register first.
    - `engine-audit.md` — engine audited field by field against the 58-field product record.
