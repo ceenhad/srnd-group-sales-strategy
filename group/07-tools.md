@@ -159,10 +159,16 @@ the long-term moat.
 > along with **Lustre**, which the LWCP ADRs describe as an absorbed corpus. **Removed rather than struck**, so
 > no future pass reinstates them from a half-sentence.
 >
-> **And Probata is undecided** — *"cool, but I didn't decide if it's a commercial opportunity or internal
-> tooling"* (`questions.md` **Q36**). **Nothing should be built on it as a revenue line until that is
-> settled** — and note it is the same decision as whether **acoustic verification** is a real service, which
-> is already on sale and has never been invoiced.
+> **And Probata is undecided — but only as a tool.** *"Do we commercialise Probata is the unknown"*
+> (`questions.md` **Q38**). **The service it delivers is not in doubt:** *"**verification is mandatory in
+> commercial cinemas**, and probably interesting as part of a calibration in residential"* (`Q36`).
+> **Keep the two apart** — an earlier draft here merged them, which is a mistake with different economics on
+> each side.
+>
+> **And it reframes a finding.** Acoustic verification is advertised on `cinema-tools.com` and **has never been
+> invoiced once** — but **the mandatory demand sits in commercial cinema, which the group does not currently
+> serve.** *So verification as a revenue line and commercial cinema as a market are the same opportunity, and
+> the never-invoiced number is a consequence of the segment served rather than of the service being unwanted.*
 >
 > **The consequence worth carrying:** the platform's *"recurring lifecycle tail"* — configuration →
 > commissioning → runtime — **is now two-thirds removed and one-third undecided.** So the argument that
