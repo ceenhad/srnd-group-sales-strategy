@@ -20,45 +20,50 @@ write a novel every time or risking feedback being logged against the wrong poin
   foot.*
 - **`⚑` marks a question only Neil can answer** — business or brand truth, where a guess would be worse than
   the gap. **`⌕` marks a fetch** — a fact to look up, not a decision.
+- **Every question carries its source**, and the categories are deliberately unflattering:
+  **Platform** (an ADR or product doc — authoritative) · **Engine** (read from the live system) ·
+  **Observed** (seen in the accounts or the field) · **Repo** (this repo says so, which is weaker) ·
+  **Proposed here** (mine — you are ratifying a suggestion, not confirming a fact) · **Unknown**.
+  ***Added after Q2 was struck: it was built on a rung of the tools ladder that this repo invented, and asking
+  it cost Neil a turn on something that does not exist. A source column makes that visible before the question
+  is asked, not after.***
 
 ---
 
 ## Open
 
-| # | Area | Question | Proposed default |
-|---|---|---|---|
-| **Q1** ⚑ | Services | **Is fit-out something the group does deliberately?** £62,495 invoiced, and no strategy document mentions it | *No default — this is a fact about the business* |
-| **Q2** ⚑ | Services | What is **partner-network escalation** commercially — a paid product, a partner benefit, or not a service? | Partner benefit |
-| **Q3** ⚑ | Services | What are **brand-partnered recipe packs** commercially? | Paid product |
-| **Q4** | Services | Do **Partner-tier dealers get an allowance of free design time**? | No — training and Experience Centre hosting are already the depth spent |
-| **Q5** ⚑ | Credit | On **staged-payment projects** (shipped part-paid), who assesses ability to pay, and against what? | *No default* |
-| **Q6** | Dealer bar | Does the qualification record carry a **decline** at all, or admit + priority with discretionary refusals logged separately? | Admit + priority; discretion logged apart |
-| **Q7** | Dealer bar | Can the **priority band be overridden by hand**, and is the override recorded? | Yes, and yes — recorded |
-| **Q8** | Proposal | **One document, or core plus appendix?** | One document |
-| **Q9** ⌕ | Proposal | **What goes out today** — a store quote, or something else? | *Fetch* |
-| **Q10** | Proposal | Should the **layer list be fixed per room type** (cinema · media room · fit-out · hospitality)? | Yes — it is what makes the completeness rule checkable |
-| **Q11** | Proposal | Where a layer is offered but its **record is empty** — price it anyway, or drop to *named, ask*? | Named, ask |
-| **Q12** ⚑ | Content | **The floor, in beat-sheet briefs per period.** *(Neil and Olivier)* | *No default — yours to set* |
-| **Q13** ⚑ | Content | **Who owns publication?** *(Neil and Olivier)* | The producer role |
-| **Q14** | Content | Do **machine-derived pieces publish under a brand's name**, and does that change the gate? | Yes, and no — same `G2` gate |
-| **Q15** ⚑ | Competitors | **C-ATS** — who do we actually meet, behind the GIK / RPG / Artnovion price band? | *No default* |
-| **Q16** ⚑ | Competitors | **Fabric Walls** — who, beyond Cinema Build Systems and on-site fabric track? | *No default* |
-| **Q17** ⚑ | Competitors | **Pro-Fi** — who? Nothing is researched anywhere | *No default* |
-| **Q18** ⚑ | Competitors | Which of the **currently named** competitors are wrong — in the document but not met? | *No default* |
-| **Q19** | Competitors | Confirm the **cadence**: quarterly, plus on any surface change | Yes |
-| **Q20** ⚑ | `G2` | **Anything missing** from the six `G2` lists? | Nothing missing |
-| **Q21** | `G2` | Are the `G2` lists **published to dealers or held internally**? | Internal — their job is to gate drafting |
-| **Q22** ⚑ | Sensing | Is sensing **a line of its own, or a layer of LWCP**? | *No default* |
-| **Q23** ⚑ | Sensing | How does it relate to **SRND Solutions** — same, adjacent, or one inside the other? | *No default* |
-| **Q24** ⚑ | Sensing | Does it **carry a brand**, and whose? | *No default* |
-| **Q25** ⚑ | Roles | **Who fills owner · producer · trade view?** Roles were settled; the filling was not | *No default* |
-| **Q26** ⚑ | C-ATS | The **canonical name** — "C-ATS", "Cinema", or the expansion? Affects all C-ATS-facing copy | "C-ATS" |
-| **Q27** | Record | The **`C1` dual-listing wording** — is a brand store *plus* the group store the intended arrangement? | Yes — narrow the rule to say so |
-| **Q28** ⚑ | Record | Does **Fabric Walls take the second record pass**, validating the form against an unlike product? | Yes |
-| **Q29** ⚑ | Steering | The proposed **`CLAUDE.md` refinement** (*built, and never said* as the mirror failure mode) — accept, reword, or reject? | Accept as drafted |
-| **Q30** | Training | Pending — **what is being introduced** that bears on training being free to partners? | *Held* |
-| **Q31** ⚑ | Meta | **Which other repos hold commercial thinking** this one should read? Three for three so far — `cinema-platform`, `lwcp`, and prices in both. `dt-platform`, `pro-fi-design`, `pro-fi-pantheon`, `cinema-design-process`, `lustre`, `business-finance` are visible and unread | *No default* |
-| **Q32** ⚑ | Meta | **Is anything else background with no commercial value**, as Auctor turned out to be? | *No default* |
+| # | Area | Question | Proposed default | Source |
+|---|---|---|---|---|
+| **Q3** ⚑ | Services | The **Pro-Fi recipe pack** — three reference room classes from `recipe_generator.py`, which the platform calls *"the customer-facing source of truth"*, with any specific install getting its own. **Does a per-install recipe get bought, or come with the speakers?** | Comes with the speakers | **Platform** — `cinema-tools/docs/validation/tier1-briefs/recipe_pack.md` |
+| **Q4** | Services | Do **Partner-tier dealers get an allowance of free design time**? | No — training and Experience Centre hosting are the depth already spent | **Repo** — `group/03-partner-programme.md` *(the tier is designed here, not observed)* |
+| **Q5** ⚑ | Credit | On **staged-payment projects** (shipped part-paid), who assesses ability to pay, and against what? | *No default* | **Observed** — the Komodo at 60 % received, `current-state.md` |
+| **Q6** | Dealer bar | Does the qualification record carry a **decline** at all, or admit + priority with discretionary refusals logged separately? | Admit + priority; discretion logged apart | **Proposed here** — session 1 |
+| **Q7** | Dealer bar | Can the **priority band be overridden by hand**, and is the override recorded? | Yes, and yes | **Proposed here** — session 1 |
+| **Q8** | Proposal | **One document, or core plus appendix?** | One document | **Proposed here** — session 3 |
+| **Q9** ⌕ | Proposal | **What goes out today** — a store quote, or something else? | *Fetch, not a decision* | **Unknown** — nothing in any repo says |
+| **Q10** | Proposal | Should the **layer list be fixed per room type**? | Yes — it makes the completeness rule checkable | **Proposed here** — session 3 |
+| **Q11** | Proposal | Where a layer is offered but its **record is empty** — price it, or drop to *named, ask*? | Named, ask | **Proposed here** — session 3 |
+| **Q12** ⚑ | Content | **The floor, in beat-sheet briefs per period.** *(Neil and Olivier)* | *No default — yours to set* | **Repo** — `NEXT.md` lane 6; unit reset by Neil 2026-08-15 |
+| **Q13** ⚑ | Content | **Who owns publication?** *(Neil and Olivier)* | The producer role | **Repo** — `group/04-content.md` |
+| **Q14** | Content | Do **machine-derived pieces publish under a brand's name**, and does that change the gate? | Yes, and no | **Proposed here** — session 4 |
+| **Q15** ⚑ | Competitors | **C-ATS** — who do we actually meet, behind the GIK / RPG / Artnovion price band? | *No default* | **Repo** — `brands/c-ats/positioning.md` names the band only |
+| **Q16** ⚑ | Competitors | **Fabric Walls** — who, beyond Cinema Build Systems and on-site fabric track? | *No default* | **Repo** — `group/06-competitors.md` |
+| **Q17** ⚑ | Competitors | **Pro-Fi** — who? | *No default* | **Nothing researched anywhere** |
+| **Q18** ⚑ | Competitors | Which of the **currently named** competitors are wrong — in the document but not met? | *No default* | **Neil, 2026-08-14** — *"different roster"* |
+| **Q19** | Competitors | Confirm the **cadence**: quarterly, plus on any surface change | Yes | **Proposed here** — standard 5 |
+| **Q20** ⚑ | `G2` | **Anything missing** from the six `G2` lists? | Nothing missing | **Repo** — assembled from brand documents, session 6 |
+| **Q21** | `G2` | Are the `G2` lists **published to dealers or held internally**? | Internal | **Proposed here** — session 6 |
+| **Q22** ⚑ | Sensing | Is sensing **a line of its own, or a layer of LWCP**? | *No default* | **Neil, 2026-08-15** + LWCP ADRs 0044–0047 |
+| **Q23** ⚑ | Sensing | How does it relate to **SRND Solutions** — same, adjacent, or one inside the other? | *No default* | **Repo** — `group/01-commercial-model.md` names the line |
+| **Q24** ⚑ | Sensing | Does it **carry a brand**, and whose? | *No default* | **Follows from Q22** |
+| **Q25** ⚑ | Roles | **Who fills owner · producer · trade view?** | *No default* | **Repo** — `NEXT.md` step 1, `decided.md` S27 |
+| **Q26** ⚑ | C-ATS | The **canonical name** — "C-ATS", "Cinema", or the expansion? | "C-ATS" | **Repo** — C-ATS brand truth flags it unresolved |
+| **Q27** | Record | The **`C1` dual-listing wording** — is a brand store *plus* the group store intended? | Yes — narrow the rule to say so | **Engine** — 13 DT codes on both stores, `engine-audit.md` |
+| **Q28** ⚑ | Record | Does **Fabric Walls take the second record pass**? | Yes | **Repo** — `NEXT.md` §B, `DOC-20` |
+| **Q29** ⚑ | Steering | The proposed **`CLAUDE.md` refinement** — accept, reword, or reject? | Accept as drafted | **Proposed here** — `open-items.md`, 2026-08-14 |
+| **Q30** | Training | Pending — **what is being introduced** that bears on training being free to partners? | *Held* | **Neil, 2026-08-15** |
+| **Q31** ⚑ | Meta | **Which other repos hold commercial thinking** this one should read? `dt-platform`, `pro-fi-design`, `pro-fi-pantheon`, `cinema-design-process`, `lustre`, `business-finance` are visible and unread | *No default* | **Three for three so far** — `cinema-platform`, `lwcp` |
+| **Q32** ⚑ | Meta | **Is anything else background with no commercial value**, as Auctor turned out to be? | *No default* | **Neil, 2026-08-15** |
 
 ## Answered
 
@@ -67,6 +72,8 @@ the register opens 2026-08-16.*
 
 | # | Question | Answer | Date |
 |---|---|---|---|
+| **Q1** | Is fit-out something the group does deliberately? | **Only for our own rooms.** Fit-out where SRND product is the substance of the room; never a general contracting service. **A boundary, not a yes or no** — so it enters the service offer as a bounded line, and `XS-7` is answered for this row: not a gap in the strategy, a scope limit that was never written down | 2026-08-16 |
+| **Q2** | ~~What is "partner-network escalation" commercially?~~ | **STRUCK — the premise was invented.** Neil: *"this is something you have invented so the question lacks much info for me to answer usefully."* Confirmed: the phrase appears nowhere in the platform documentation. The rung is removed from `group/07-tools.md`'s ladder. **A question asked about something that does not exist** | 2026-08-16 |
 
 ---
 

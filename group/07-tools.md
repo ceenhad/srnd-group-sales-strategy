@@ -112,8 +112,14 @@ surface is Cinema Tools throughout; the brands sell products, services and accou
 ## The ladder
 
 Free calculators → the partner-gated C-ATS reporting tool → **Pro Design escalation at £500, invoiced per
-engagement** → partner-network escalation → brand-partnered recipe packs (Pro-Fi is the proof) → the full C-ATS
-design service and verification where a project warrants it → **and then the products that build the room.**
+engagement** → brand-partnered recipe packs (Pro-Fi is the proof) → the full C-ATS design service and
+verification where a project warrants it → **and then the products that build the room.**
+
+> **Correction, 2026-08-16 (Neil).** This ladder previously carried a **"partner-network escalation"** rung
+> between Pro Design and the recipe packs. **It was invented here** — the phrase appears nowhere in the
+> platform documentation, which is authoritative for what the tools are. **Removed.** *Recorded because the
+> failure is instructive: real rungs either side made an invented one in the middle read as sourced, and it
+> survived long enough to be put to Neil as a question about a thing that does not exist.*
 
 No subscription billing: partner access is gated by SRND-managed credentials. Which means **tool access as a
 partner benefit is already the operating model**, not a proposal — and precisely the currency the partner
