@@ -1,175 +1,38 @@
-# Decided — the ratchet
+# Decided — emptied 2026-08-16
 
-*Why this file exists: the repo had documents for the **argument** (`group/`), the **plan** (`NEXT.md`) and what
-is **open** (`open-items.md`), but nothing recording what is **closed**. So every new fact reopened the argument
-and the work spiralled instead of advancing. This is the ratchet: one line per settled decision, the evidence
-behind it, and the date. **A decision here is not re-argued.** New evidence either supports it — in which case
-add the evidence and move on — or overturns it, which has to be stated explicitly and dated as a reversal.*
+**On Neil's instruction: everything has been removed from this file.**
 
-## The topic index — start here, always
+> *"I want everything removed from decided since that is being monitored by SRND OS and all this shit is just
+> mess now."* — Neil, 2026-08-16
 
-*Added 2026-08-16 after a session re-argued four settled decisions in one day: the floor rate (**struck by
-S24 six weeks earlier**), editorial ownership (**struck in the same reversal**), the Iwoca credit facility
-(**already recorded**) and the content operating spec (**three-quarters designed**). **The rule against this
-already existed** — `CLAUDE.md`'s ratchet — **and was not enough, because nothing mapped a topic to the
-decisions that bind it.** `README.md` says what each file is; this says what is already closed about the thing
-you are working on.*
+## Why
 
-> **Look your topic up here before proposing, asking or writing anything about it.** If a row exists, the
-> question is probably answered.
+**Decisions are held and monitored in SRND OS.** This file was a parallel record of them, written by working
+sessions summarising conversations rather than ratified entry by entry — so it accumulated roughly sixty
+entries that read as settled fact and were not signed off as such. **A second, unratified copy of the
+decision record is worse than no copy**, because it gets cited as authority. It was, repeatedly, including
+by this session on 2026-08-16.
 
-| If you are working on… | Already settled | Where the reasoning lives |
-|---|---|---|
-| **Cadence, publishing rate, "how often"** | **S24 — there is NO floor rate**; the ceremony was struck (see Reversals, 2026-07-31). **S28** communication has no start or end; campaigns capped at three mails in two weeks. **S29** ~monthly per brand | `09-motion-design.md` c.2 |
-| **Who does what / roles** | **S27** roles never names. **S20** roles are fitted in, nothing comes off anyone's plate; **the formal confirmation of editorial ownership is struck** | `04-content.md`, Reversals |
-| **Content — what a piece is** | **S14** the unit is one question answered well. **S13** one estate, not marketing + support. **S9** show what can be shown, explain what cannot. **S8 authorship is never scaled** | `08-sales-motion.md`, `09` c.1 |
-| **Content — how it gets made** | **S24** produced at volume on a Claude-assisted line; **S5** judgement stays, labour moves; **S6** the four-step loop | `09-motion-design.md` c.2 |
-| **Where content lives** | **S29** each brand's own site and its own YouTube channel; **S7** corpus not channel, syndicate outward; **S10** rebuild behind the same addresses | `04-content.md`, `05-channels.md` |
-| **The buyer journey / triggers** | **S22** gateways and pathways; **S23** many hooks, elevation early; **S26** many bites, judge the pile; **S25** the destination is engine | `02-buyer-journey.md`, `09` |
-| **The product record / schema** | **S16** schema before documentation; **S16a** engine owns the mechanical layer; **S16b** definition comes first; **S17** the archive proposes, it does not close; **S18/S19** C-ATS sets the standard, copy is generated from the record | `product-data-schema.md`, the template, the register |
-| **Manuals and support** | **S11** support is a documentation problem; **S11a** the debt is DT's, by mechanism not SKU; **S12** manuals and training are one corpus | `08-sales-motion.md` |
-| **Services and design work** | **B1** acoustic design belongs to C-ATS; **B6** never insinuate the dealer can't; **B8** the report is the deliverable. **Services have record scopes — `CAT-06`, `CAT-07`** | `07-tools.md`, `product-register.md` |
-| **Price, credit, terms** | **C4** partner-only pricing, no public prices; **C8** no dealer credit from us — **softened 2026-08-12: a UK-only 90-day interest-free facility runs through IWOCA** | Reversals, `01-commercial-model.md` |
-| **Distributors and territory** | **C1** direct by default, the 2× test; **C1a–C1k** the roster, the US, the white label; **C3** the UK is representative | `01-commercial-model.md` |
-| **Stores** | **C5** two stores split by the self-evidence test; **C6** the carried roster | `01-commercial-model.md` |
-| **The partner programme** | **P1** spend the depth, not the margin; **P2** distributor services are our baseline; **P3** the differentiator is owning the factory; **P4** the named contact is bounded | `03-partner-programme.md` |
-| **Brand voice and claims** | **B5** no superlative without a measurement; **B2** no superlative arms race; **B6** never imply the dealer can't; **B7** Light Walls deferred | `13-standards-decision-sheet.md` session 6 |
-| **Beyond cinema** | **C7** beyond cinema in trade; B2C stays cinema | `00-strategy.md` |
-| **Events** | **E1** ISE, booked; **E2** CEDIA Expo out; **E3** InfoComm possible next year | `05-channels.md` |
+## What replaces it
 
-**Two things this index cannot do**, and both matter: it does not cover the **brand** layer (each brand's own
-document binds hardest — `CLAUDE.md`), and **an absent row is not permission** — it means nobody has decided,
-which is what `open-items.md` and `questions.md` are for.
+- **SRND OS is the source of record for what is decided.** Not this repo.
+- **`open-items.md`** holds what is open at group level, and **`questions.md`** is the asking surface for
+  anything needing an answer.
+- **Nothing enters this file without Neil's explicit approval.**
 
-## How to use it
+## What was here
 
-1. **New data from real work lands as evidence**, against a decision here or against an open item. It does not
-   trigger a rewrite of the reasoning that produced the decision.
-2. **A decision changes only when someone says it changes.** "This new fact means X is now wrong" — recorded as
-   a reversal with the date, not absorbed silently into a document.
-3. **If a fact touches nothing here and nothing open, it is context.** Note it in the relevant document once and
-   stop.
-4. **The plan moves, the argument stays put.** After recording evidence, the next step is `NEXT.md`, not another
-   pass through `group/`.
+The removed content is in git history — `git log -p decided.md` — and is not reproduced anywhere else in
+this repo by design. **It should not be reinstated, in whole or in part, without explicit approval**, and
+that includes a session finding an old ID cited elsewhere and helpfully restoring the entry behind it.
 
----
+## Consequence, flagged not fixed
 
-## Commercial model
+**Roughly 142 references to `decided.md` across 28 files now point at nothing**, along with the inline
+decision IDs (`S1`–`S29`, `C1`–`C8`, `B1`–`B8`, `P1`–`P4`, `E1`–`E3`) scattered through the group documents
+and brand playbooks. **Those citations are stale, not authoritative** — every one of them should be read as
+*"a previous session recorded this"* until the position is confirmed against SRND OS.
 
-| # | Decision | Evidence / basis | Date |
-|---|---|---|---|
-| C1 | **Direct is the default for new territories and appointments.** Distributors only on a 2× scale case or a genuine language barrier, and never at the cost of the direct relationship. | Twenty years inside distribution; and now 21 live appointments where 6 of 18 DT distributors produce nothing, 6 are low, and 3 of the 5 that work are high maintenance. | 2026-07 |
-| C1a | **Scope correction, dated 2026-07:** C1 was written as "direct to dealer, globally," which described an intention rather than the operating model. **The model today is direct in the UK and distributor-led internationally.** C1 governs new appointments and the UK; it does not describe the existing network. | The distributor roster (`current-state.md`). | 2026-07 |
-| C1b | **Selection criterion, from the roster:** appoint cinema specialists with complete portfolios, not Hi-Fi-rooted distributors. | Hi-Fi-background appointments are consistently no- or low-business; the producing accounts are all cinema specialists. | 2026-07 |
-| C1c | **Dead appointments, and any that fail the 2× test, are removed.** A dormant distributor is not neutral — it occupies a territory and blocks the direct approach, so it is a **barrier**. | Neil's decision; the roster shows six DT appointments producing nothing. | 2026-07 |
-| C1d | **Most appointments are really dealer-distributors, and are treated as dealers** — the partner programme, the content, no exclusivity. "Distributor" is reserved for the rare case that genuinely multiplies. | Neil's account. Explains both the high-maintenance producers and why the 2× test bites: a hybrid multiplies nothing while still holding the territory. | 2026-07 |
-| C1e | **Screen Innovations is white label, not a route to market.** They own the relationship; we supply product. DT has no brand presence in the US through it. | Neil's clarification. Internal only — OEM relationships are not named publicly. | 2026-07 |
-| C1f | **The US is the priority territory and is approached directly, with the whole group.** Apex-Tech has resigned from DT and the white-label deal gives us nothing in market, so the largest market is open and unencumbered. | Neil's decision. | 2026-07 |
-| S13 | **One content estate, not a marketing estate and a support estate.** The same material does four jobs: hook, de-risk, install support, next order. The support question and the pre-purchase doubt are the same question at different times. | Neil's synthesis. Also explains why documentation was underfunded — marketing didn't own it because it looked like support, and support didn't invest because it looked like marketing. | 2026-07 |
-| S14 | **The unit of work is one question, answered well, published where it can be found** — not a campaign and not a manual. "How do you do X" is the atom: support, sales enablement and marketing simultaneously. | Follows from S13; endorsed by the estate's own numbers, where utility rather than production value separated what worked. | 2026-07 |
-| S15 | **Site structure per brand and product: marketing on-ramp → technical depth → easy contact.** The on-ramp states the problem solved, the opportunity opened, the time or labour saved; the depth removes doubt; the contact route is explicit. | Neil's synthesis — and it is the information architecture for the rebuild (S10). | 2026-07 |
-| S11 | **Support is a documentation problem, not a staffing one.** It reduces to two things: the dealer being trained, and the answer being available when they need it. Manuals and instructions are therefore the priority content class, ahead of everything else in the corpus. | Neil's account: manuals are currently poor and it costs us more than it should. | 2026-07 |
-| S11a | **Correction: the documentation gap is concentrated, not group-wide.** C-ATS has the data — three SKUs, documented — and the debt sits mostly with DT, then Fabric Walls and Pro-Fi. **Set the standard on C-ATS, then apply it to DT by mechanism rather than by SKU**, since the range is variant-heavy and fifty-odd products collapse into far fewer manuals. | Neil's correction; C-ATS's own datasheets and BSRIA data. | 2026-07 |
-| S16 | **A product data schema comes before any documentation work.** Capturing what *needs* to be documented precedes what is and will be documented; without it, the gap is an opinion rather than a measurable one. Field list in `../product-data-schema.md`. **Completeness becomes a gate on new products.** | Neil's proposal. The Screen Wall — demonstrable since ISE 2023 with no page and no datasheet — is what its absence looks like. | 2026-07 |
-| S16a | **Engine owns the mechanical record; this repo specifies the sales and marketing layer above it.** Engine handles SKU, name, weight, dimensions, stock and pricing because that is what an operational system is built for; it was never designed to hold why a product sells, what doubt it must remove, who specifies it, or what we may claim. **That layer is the opportunity, and the deliverable is three answers per field — what data, why, and how it will be used.** A field with no stated consumer never gets filled in. | Neil's framing. | 2026-07 |
-| S16b | **Definition comes before everything else.** You cannot state what problem a product solves until you have stated what it is and what it does — and definition is not SKU, name and weight either. The definitional layer is **missing in the middle**: Engine holds the object, marketing holds the pitch, and nothing holds the canonical account of what the thing is. Without one, every datasheet, page, listing and email describes it slightly differently. | Neil's correction. | 2026-07 |
-| S21 | **The published absorption sheets on `c-ats.co.uk` are authoritative** — the figures that have been out for years. And the apparent conflict dissolves: the REF-CP chart already plots **Reflection A and Reflection B**, so the two number sets are the two install types (A glued/damped, B free/unfixed as BSRIA measured), not rival versions of one figure. | Neil's decision; confirmed by the published chart carrying both series. | 2026-07 |
-| S20 | **The roles are fitted in, not swapped out.** Ben keeps visualisation and adds editorial ownership; the same applies to everyone. So the publishing rate is a **floor set to what the work allows**, not a target requiring reallocation. | Neil, 2026-07-31. | 2026-07 |
-| S19 | **Website copy is generated from the product record, not written per page.** The C-ATS Shopify site kept its theme placeholder hero — *"this signature bestseller exceeds all expectations"* — because there was no canonical source for what belongs there, and the 3 Rs vanished from the homepage for the same reason. Fill groups 1 and 2 of the schema and the pages inherit; write page copy first and it drifts again. | Observed 2026-07-31 comparing `c-ats.co.uk` and `c-ats.myshopify.com` (`brands/c-ats/brand-data.md`). | 2026-07 |
-| S18 | **C-ATS is the worked example and sets the standard** — `brands/c-ats/product-records.md`. It validated the exercise: six actionable findings from data we already held, including two site-failure modes that belong in a manual in bold. | Filled 2026-07 from BSRIA Report 100241/1 and the C-ATS source repo. | 2026-07 |
-| S17 | **The archive seeds the corpus; it does not close it.** Correction of an overstatement: frequency data proposes a ranked list, and that is all it does. The schema defines the required set, and the answers still have to be written. | Neil's correction. | 2026-07 |
-| S12 | **Manuals and training are one corpus, differently packaged** — the manual is the reference version, training the structured version. So manuals come first and become the raw material for the training programme rather than competing with it. | Follows from S11. | 2026-07 |
-| C1g | **US logistics are solved** — goods move as if we were located there, and a warehouse and logistics partner handles spares. **The binding constraint on US entry is therefore support, not fulfilment.** | Neil's account. | 2026-07 |
-| C1h | **Two US entries, not one.** DT recovers the existing dealer base — warm, immediate, no campaign needed. C-ATS is the wide door for dealers we have never met: smallest first order, only brand documented to a standard, only content with demonstrated search pull, ships economically. Different jobs; neither waits for the other. | Revised 2026-07-31 after C1i — the earlier version had C-ATS leading because DT was thought blocked. | 2026-07 |
-| C1i | **No conflict: DT enters the US directly regardless of the white label.** It coexisted with Apex-Tech as DT distributor in the same market, so this is the arrangement that has always operated. Whether it continues is SI's decision. *(Supersedes an earlier reading of this as a fork to resolve first.)* | Neil, 2026-07-31. | 2026-07 |
-| C1k | **US entry is a conversion problem, not an acquisition problem.** We already know plenty of US dealers; the contacts exist, the direct relationships do not. So marketing is not the constraint — the offer and the trade terms are, and the work is personal rather than campaign-shaped. | Neil, 2026-07-31. | 2026-07 |
-| C1j | **The Apex-Tech dealer base is the priority in US entry, and it is warm.** A resigned distributor's dealers become unserved, not absent — they already specify DT and have lost their supply route. Fastest revenue in the strategy, a closing window, and **not dependent on the content programme.** | Follows from C1i. | 2026-07 |
-| C8 | **No dealer credit accounts, anywhere — the UK included.** Payment is taken through the store; a dealer who wants credit uses a credit card. A uniform, deliberate position — not a gap to close for any territory, but a position to state plainly when asked. | Neil, 2026-08-02. Narrows US-2 to support hours and trade-terms substance. | 2026-08 |
-| C2 | **SRND Distribution is the sales arm for our own brands**, not an attempt to become a multi-brand distributor. | Same. | 2026-07 |
-| C3 | **The UK is representative of the global market structure** — large distributors, a long tail of small and dealer-distributors, regional manufacturers. So C1 and the competitor analysis travel. | Neil's account. | 2026-07 |
-| C4 | **Pricing is registered-partner-only, including end users.** No public prices in the trade channel. | Settled. | 2026-07 |
-| C5 | **Two stores, split by the self-evidence test.** If a buyer already knows what it is, Cinema Store; if it must be explained, specified or commissioned, `srnd.store`. **No product exists in both.** | Settled; AVshop.no as the DIY reference. | 2026-07 |
-| C6 | **Carried lines are Leyard, MadVR (as a Leyard accessory) and Advatek.** Nothing that competes with our own brands. | Settled. | 2026-07 |
-| C7 | **Beyond cinema in trade; B2C stays cinema.** | Settled. | 2026-07 |
-
-## Events
-
-| # | Decision | Evidence / basis | Date |
-|---|---|---|---|
-| E1 | **ISE is the show, and we are booked.** | The largest European AV-integration show. | 2026-07 |
-| E2 | **CEDIA Expo is out** — a dying show, and too late in the year to consider. | Neil's judgement. | 2026-07 |
-| E3 | **InfoComm US is a possibility for next year**, not this one. | Open, not committed. | 2026-07 |
-
-## The sales motion
-
-| # | Decision | Evidence / basis | Date |
-|---|---|---|---|
-| S1 | **There is no field force and we have stopped looking for one.** | Very limited success with sales people over many years; the owner-driven model loads the scarce resource rather than relieving it; three bases (Glasgow, Yorkshire, Marbella). | 2026-07 |
-| S2 | **Content does the rep's job** — reach, recall, the technical answer, teaching, and the whole specifier route. | `group/08-sales-motion.md`. | 2026-07 |
-| S3 | **Content cannot qualify, discover, close or gather intelligence.** Substitutes: the tools qualify, the spec conversation discovers, Zoom and the store close. Market intelligence has no substitute — an open hole. | Same. | 2026-07 |
-| S4 | **An owner's primary sales output becomes authoring on camera**, scheduled like a customer meeting. | Neil's acceptance. | 2026-07 |
-| S5 | **Planning splits into judgement and labour; only the labour moves.** The owner never faces a blank page — the editorial output is a ranked proposal to correct, not a schedule handed down. | Neil's correction. | 2026-07 |
-| S6 | **The operating loop:** archive → ranked question list → batch recording → edited and published. | Same. | 2026-07 |
-| S7 | **The corpus is the asset, not the channel.** Publish canonically to owned properties, syndicate to platforms. | The locked YouTube account demonstrated platform and personnel risk in one incident. | 2026-07 |
-| S8 | **Authorship is never scaled.** No bulk or generic content; volume is not the goal. The archive is legitimate because it is our own authored answers. | `group/08-sales-motion.md`. | 2026-07 |
-| S9 | **Show what can be shown; explain what cannot.** Short pieces that make an argument. The catalogue fails. | ~9,500 views on a 52-second reverberation explainer; DT's mechanisms-in-motion at 600–1,500; two dozen product films at 1–26. | 2026-07 |
-| S10 | **Websites and social restart; URLs, indexed pages and channel history are kept.** The rebuild must not gate the content cadence. | Neil's acceptance, plus the compounding argument. | 2026-07 |
-| S22 | **The journey runs as a process.** The buyer journey is defined with **gateways** between its stages; content is generated as **pathways** that move a dealer through each gateway, start to finish and back round the loop. Most of a rep's job is pure mechanics, and the mechanics become process; the judgement residue stays human. | Neil's proposition, 2026-07-31. Design: `group/09-motion-design.md`. **Ancestor evidence (2026-08-01):** the March 2023 programme — nine "bridges", explicit stage-end definitions, "get each CRM company to the next bridge" — `group/2023-buyer-journey-archive.md`. | 2026-07 |
-| S23 | **Hooks are multiplied and categorised; every piece has a roadmap position; the funnel tracks like e-commerce; elevation is engineered early.** G1 is a *set* of hooks per product — categorised by appeal (more revenue, time saved, easier to do, better results, the problem named), placed indirectly, each the head of a pathway with a named destination. The journey reads as an e-commerce funnel because every gateway lives in systems — hook-level attribution turns the hook matrix into evidence. Elevation runs product → brand → group as early as the dealer's state allows: brand at the proposition, group at the hinge — never at the cold open, and cross-sell prompts still wait for the first job. | Neil's articulation, 2026-07-31. Design: `group/09-motion-design.md`. **Ancestor evidence (2026-08-01):** the appeal categories appear near-verbatim in Neil's 2023 *Purchase Events* map — solve a problem, save time, earn more revenue, a good experience (`group/2023-buyer-journey-archive.md`). | 2026-07 |
-| S29 | **Per brand: the home, the channel, the note, the subscription.** Answers live canonically on **each brand's own site**; every brand gets **its own YouTube channel** (the group channel carries group material only); the partner note runs **~monthly per brand**; and **subscriptions are managed per brand**, so a partner chooses what they receive and can silence what they don't — which is also the working answer to cross-brand cadence coordination. `cinema-expert.com` is **not** the canonical home (an incorrect assumption carried from the plan, struck). | Neil, 2026-08-02 (questions 2, 4, 5 of the decisions run). | 2026-08 |
-| S28 | **Communication has no start and no end.** Project lead times run to a year, so a sequence opens an ongoing relationship — never a campaign that stops. **Dedicated campaigns are capped at three mails in two weeks** unless transactional. The welcome flows into the continuous per-brand stream, and the human ask triggers on a signal, not a calendar. | Neil, 2026-08-02. | 2026-08 |
-| S27 | **Roles, never names.** The system is specified in roles — **the owner** (judgement, truth-check, what may be published), **the authority** (the technical face and voice), **the relationship** (the trade-facing human), **the producer** (editorial and production, off camera). No document assigns work to a named person; who fills each role — and one person may hold several — is a separate decision, made later. Provenance keeps names: who *decided* something is history, not an assignment. | Neil, 2026-08-01. | 2026-08 |
-| S26 | **Many bites per stage — conversion is cumulative.** A single touch rarely converts, at any stage. Each stage is worked as a repertoire of small touches at a regular rhythm, **value every time**, until the gateway tips — the coin-pusher: keep putting little investments in and eventually the pile falls. Consequences: touches are judged by the pile (account-level accumulation), never per-touch; a touch with no value in it is not a coin; regularity is part of the mechanism, not a nicety — the familiarity rule generalised beyond the face. | Neil, 2026-08-01. Extends S23's many-hooks to every stage. Design: `group/09-motion-design.md`. | 2026-08 |
-| S25 | **The destination is engine.** The journey process ultimately runs automatically on top of the CRM and the product database in engine: signals observed, triggers fired, the content queue churned, outputs logged, results applied. This repo owes engine the state model, the content-plan and log shapes, the pathway structure and the schema's sales layer — and specifies nothing of engine itself (S16a discipline; check what engine holds first). | Neil, 2026-08-01. | 2026-08 |
-| S24 | **Content is produced at volume on a Claude-assisted line.** The substance is human and never scaled (S8 stands): the records, the measured data, the archive, the decided positions. From each substance atom Claude drafts the derivative set — canonical article, hook variants, recording prompts, datasheet copy, email items — an owner truth-checks in minutes, and distribution is batched, source-tagged and efficient. **No cadence ceremony:** no set floor rate, no formal role confirmations. Volume of pieces, never volume of assertions; nothing needs to be fancy — no fresh ten-minute video every day. | Neil, 2026-07-31. Completes S5: the labour moves — to Claude. Design: `group/09-motion-design.md` component 2. | 2026-07 |
-
-## Partner programme
-
-| # | Decision | Evidence / basis | Date |
-|---|---|---|---|
-| P1 | **Spend the depth, not the margin. No ledgers** — every element is a discrete act. | `group/03-partner-programme.md`. | 2026-07 |
-| P2 | **Distributor services are our baseline, not our differentiator.** We have been a distributor for twenty years; credit, logistics, reps, demo rooms and training are the day job. | Correction of an earlier misjudgement. | 2026-07 |
-| P3 | **The differentiator is owning the brands, the factory and what the products do** — changing the product is the thing no distributor can do. | Same. | 2026-07 |
-| P4 | **The named technical contact is bounded**, or it rebuilds the trap that made field sales fail. | Same. | 2026-07 |
-
-## Brands and alignment
-
-| # | Decision | Evidence / basis | Date |
-|---|---|---|---|
-| B1 | **Acoustic treatment design belongs to C-ATS.** Others cross-sell it; none duplicates it. | `group/00-strategy.md`. | 2026-07 |
-| B2 | **No brand claims to be the most complex or critical part of the project.** | Neil's rule. | 2026-07 |
-| B3 | **DT is solutions for the architectural integration of technology** — deliberately not the projection company. | `brands/display-technologies/positioning.md`. | 2026-07 |
-| B4 | **Control is embedded in DT products, never a line item.** | Same. | 2026-07 |
-| B5 | **The Scandinavian register applies group-wide.** No superlative without a measurement behind it. | Neil's rule. | 2026-07 |
-| B6 | **Never insinuate the dealer can't.** The design service is their choice, never a rescue. | Neil's rule. | 2026-07 |
-| B7 | **Light Walls is deferred and worked separately.** | Neil's decision. | 2026-07 |
-| B8 | **Tools are never built around our own products**, and the report is the deliverable rather than tool access. | `group/07-tools.md`, ADR 017/019/020/036. | 2026-07 |
-
----
-
-## Reversals
-
-*When a decision above is overturned, it is recorded here with the date and the fact that did it — never
-edited away silently.*
-
-- **2026-08-12 — C8 softened (Neil; surfaced by the OS sync).** "The UK included" was too absolute. What
-  stands: SRND extends no credit *directly*, anywhere. What C8 omitted: a **UK-only 90-day interest-free
-  facility is provided through IWOCA** — a third-party finance provider, unavailable outside the UK. Raised
-  as a conflict by the srnd-os promotion sync (2026-08-11) and resolved by Simon the same day; the OS's
-  `practices/sales/` already records the reconciled fact.
-- **2026-08-02 — C1f softened (Neil).** The US is real and awaits being moved forward — "but so is the
-  entire world. It's just another place." The open-and-unencumbered facts stand; the priority-territory and
-  closing-window urgency framing does not. The motion is global by nature; no territory is privileged.
-- **2026-08-02 — five baseline premises struck (Neil, the decisions run).** Recorded here because the
-  strategy leaned on them: `cinema-expert.com` as the canonical home (wrong — answers live on brand sites,
-  S29); "nothing is captured from spec conversations" (wrong — engine holds years of project and prospect
-  data, trackable as required); "nobody owns wanting the order" (wrong — follow-up already happens); "the
-  price answer gates US entry" (wrong — engine prices per partner and per country natively); and the US
-  urgency framing (above). The common failure: the baseline was inferred instead of checked — the S16a
-  discipline applies to the business as much as to the platform. What remains genuinely open from that run:
-  US support hours and credit terms — and Neil's wider calibration that **this class of critical commercial
-  discussion has not yet been processed in any depth**.
-- **2026-07-31 — S20, partially reversed (Neil).** The ceremony half of S20 — a formally set floor rate and
-  a formal confirmation of editorial ownership — is struck: neither was a decision anybody needed.
-  Production volume comes from the Claude-assisted line instead (S24).
-  What survives of S20: the roles are fitted in, and nothing comes off anyone's plate.
+*Note the ID collision that makes a blind find-and-replace unsafe: `C1`, `G1`–`G6` and others are also
+**product-record field IDs** in `product-record-template.md`, and `G1`–`G6` are the **gateway** names in
+`group/09-motion-design.md`. The cleanup is a judged pass, not a script.*
