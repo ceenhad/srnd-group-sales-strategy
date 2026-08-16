@@ -7,10 +7,10 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 
 | | ADRs |
 |---|---:|
-| Proposed | 16 |
-| Accepted | 2 |
+| Proposed | 14 |
+| Accepted | 4 |
 
-> **16 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
+> **14 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
 
 ## How this repo decides
 
@@ -23,8 +23,8 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 | ADR | Decision | Status | Ver | Revised |
 |---|---|---|---:|---|
 | 0002 | [Direct is the default; a distributor must plausibly double the volume](0002-direct-first-and-the-2x-distributor-test.md) | accepted | 1 | 2026-08-16 |
-| 0003 | [US entry is a conversion problem, approached directly with the whole group](0003-united-states-market-entry.md) | proposed | 2 | 2026-08-16 |
-| 0004 | [Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK](0004-pricing-credit-and-terms.md) | proposed | 2 | 2026-08-16 |
+| 0003 | [US entry is a conversion problem, approached directly with the whole group](0003-united-states-market-entry.md) | accepted | 2 | 2026-08-16 |
+| 0004 | [Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK](0004-pricing-credit-and-terms.md) | accepted | 2 | 2026-08-16 |
 | 0005 | [Two stores split by the self-evidence test; we carry nothing that competes with our own brands](0005-the-two-stores-and-the-carried-roster.md) | proposed | 1 | 2026-08-16 |
 | 0006 | [Beyond cinema in trade; B2C stays cinema, deliberately](0006-beyond-cinema-in-trade.md) | proposed | 1 | 2026-08-16 |
 

@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: pricing-credit-and-terms
 area: commercial
 title: "Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK"
-status: proposed
+status: accepted
 version: 2
 revised: 2026-08-16
 supersedes: []

@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: united-states-market-entry
 area: commercial
 title: "US entry is a conversion problem, approached directly with the whole group"
-status: proposed
+status: accepted
 version: 2
 revised: 2026-08-16
 supersedes: []
