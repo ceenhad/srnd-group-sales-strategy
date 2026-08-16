@@ -1870,10 +1870,14 @@ already says what finding 31 derived from fifteen years of invoices today:
 > near-zero customer-acquisition cost.**"* And: *"**the design fee is the smallest number in the deal**"* — the
 > recurring lifecycle tail is the prize the design buys.
 
-*(That document names a specific product chain for the tail. **One of the three named carries no commercial
-value** — Neil, 2026-08-15 — so the chain is not reproduced here; **the argument survives it**, since
-configuration and commissioning are real and recurring on their own. See the correction in
-`group/07-tools.md`.)*
+> **⚠ The second half of that quotation no longer stands, and this repo should stop repeating it.** The
+> document names a three-part chain for the tail — configuration → commissioning → runtime. **Two of the three
+> carry no commercial value** (Neil, 2026-08-15/16) **and the third is undecided** (`questions.md` **Q36**).
+> ~~The argument survives it, since configuration and commissioning are real and recurring on their own.~~
+> **Struck — that was written before the status of each was known.** *So **"the design fee is the smallest
+> number in the deal" has no established tail behind it.** The first half — boutique design as highest margin,
+> lowest infrastructure risk, near-zero customer-acquisition cost — is unaffected and is the half finding 31
+> independently corroborates from the invoices.*
 
 It also settles a boundary the group repo has never stated: **SRND owns the design, the IP and the client
 relationship; partners own the install** — *"the design authority at the top of the market, with the partner

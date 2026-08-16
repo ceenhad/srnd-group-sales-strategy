@@ -146,15 +146,25 @@ trade caution gets applied here by reflex and removes an advantage.
 
 ## Noted, deliberately not pulled in
 
-The platform is wider than tools: **Folio** (configuration) and **Probata** (measurement-driven commissioning
-that proves an installed room meets its design targets). Probata is recognisably C-ATS verification and Pro-Fi
-calibration as a product, and Tessellate is shared substrate consumed by Pro-Fi's Lattice and Apollo — the
-group's technical depth as common code. ADR 017 is explicit that the platform play is the durable bet and the
-design-phase win alone isn't the long-term moat.
+The platform is wider than tools: **Probata** — measurement-driven commissioning that proves an installed room
+meets its design targets. **Probata is recognisably C-ATS verification and Pro-Fi calibration as a product**,
+and Tessellate is shared substrate consumed by Pro-Fi's Lattice and Apollo — the group's technical depth as
+common code. ADR 017 is explicit that the platform play is the durable bet and the design-phase win alone isn't
+the long-term moat.
 
-Significant, and **out of scope here** while the brand strategies settle. Flagged so it isn't forgotten.
+**Out of scope here** while the brand strategies settle. Flagged so it isn't forgotten.
 
-> **Correction, 2026-08-15 (Neil):** this list previously also named **Auctor** as a platform component
-> (runtime and telemetry). **It carries no commercial value — a background experiment — and should not be
-> counted as part of the platform play.** Removed rather than struck, so no future pass reinstates it from a
-> half-sentence.
+> **Correction, 2026-08-15 → 16 (Neil).** This list previously also named **Auctor** (runtime and telemetry)
+> and **Folio** (configuration). **Both carry no commercial value and are not part of the platform play** —
+> along with **Lustre**, which the LWCP ADRs describe as an absorbed corpus. **Removed rather than struck**, so
+> no future pass reinstates them from a half-sentence.
+>
+> **And Probata is undecided** — *"cool, but I didn't decide if it's a commercial opportunity or internal
+> tooling"* (`questions.md` **Q36**). **Nothing should be built on it as a revenue line until that is
+> settled** — and note it is the same decision as whether **acoustic verification** is a real service, which
+> is already on sale and has never been invoiced.
+>
+> **The consequence worth carrying:** the platform's *"recurring lifecycle tail"* — configuration →
+> commissioning → runtime — **is now two-thirds removed and one-third undecided.** So the argument that
+> *"the design fee is the smallest number in the deal"* **has no established tail behind it**, and this repo
+> should stop repeating it as though it did.
