@@ -5,7 +5,7 @@ slug: united-states-market-entry
 area: commercial
 title: "US entry is a conversion problem, approached directly with the whole group"
 status: proposed
-version: 1
+version: 2
 revised: 2026-08-16
 supersedes: []
 superseded_by: null
@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0003 — US entry is a conversion problem, approached directly with the whole group
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Accepted** — 2026-08-16, Neil, at version 2 with decision 7 removed.
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*
@@ -44,8 +44,10 @@ distributor in the same market, so this is the arrangement that has always opera
 contacts exist, the direct relationships do not. So marketing is not the constraint — the offer and the trade
 terms are, and the work is personal rather than campaign-shaped.
 
-**7. The Apex-Tech dealer base is the priority and it is warm.** A resigned distributor's dealers become
-unserved, not absent. **Not dependent on the content programme.**
+> **Decision 7 removed at ratification — Neil, 2026-08-16.** It read *"the Apex-Tech dealer base is the
+> priority and it is warm… not dependent on the content programme."* **Struck:** *"in general it's engagement
+> first before we can worry about the rest."* **So no dealer base is "the priority" ahead of engagement**, and
+> the claim that a recovery could run independently of the content programme does not hold.
 
 ### Recorded reversal
 

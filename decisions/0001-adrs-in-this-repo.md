@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: adrs-in-this-repo
 area: governance
 title: "ADRs in this repo: proposed until Neil accepts, versioned not amended, catalogue generated"
-status: proposed
+status: accepted
 version: 1
 revised: 2026-08-16
 supersedes: []
@@ -13,8 +13,7 @@ superseded_by: null
 
 # ADR 0001 — ADRs in this repo: proposed until Neil accepts, versioned not amended, catalogue generated
 
-- **Status:** **Proposed** — 2026-08-16. *Not accepted. This ADR is itself the first test of decision 3.*
-- **Decision-maker:** Neil.
+- **Status:** **Accepted** — 2026-08-16, Neil. *The first ADR ratified under its own decision 3.*
 - **Adopts:** the convention already running in `ceenhad/cinema-platform` — ADRs 001–079, frontmatter,
   permanent numbers, generated catalogue — and in particular **Cinema Tools ADR 079**, *"ADRs are versioned,
   not amended."*

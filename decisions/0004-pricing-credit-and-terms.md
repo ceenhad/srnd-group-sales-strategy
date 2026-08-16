@@ -5,7 +5,7 @@ slug: pricing-credit-and-terms
 area: commercial
 title: "Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK"
 status: proposed
-version: 1
+version: 2
 revised: 2026-08-16
 supersedes: []
 superseded_by: null
@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0004 — Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Accepted** — 2026-08-16, Neil, at version 2 with end-user pricing removed.
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*
@@ -25,7 +25,12 @@ then corrected.
 
 ## Decision
 
-**1. Pricing is registered-partner-only, including end users.** No public prices in the trade channel.
+**1. Pricing is registered-partner-only.** No public prices in the trade channel.
+
+> **Amended at ratification — Neil, 2026-08-16.** The original read *"registered-partner-only, **including end
+> users**"*, which does not make sense as written — an end user is not a registered partner. **End-user pricing
+> is removed from this ADR and dealt with on its own** (`questions.md` Q42). *What stands here is the trade
+> channel: no public prices, partner-gated.*
 
 **2. SRND extends no credit directly, anywhere.** Payment is taken through the store; a dealer who wants credit
 uses a credit card. A uniform, deliberate position — not a gap to close for any territory, but a position to
