@@ -156,6 +156,26 @@ whole thing.***
 > the priority.** The machinery still matters, but it is what you use *once a partner is engaged*, not what
 > creates engagement.
 
+> ### ▲ And the repo already names the answer — found on a proper read, 2026-08-16
+>
+> **`05-channels.md` has been carrying it, and this document was written without it:**
+>
+> > *"A search turns up **no interviews, no bylined technical writing and no speaking presence** under his own
+> > name, and nothing at all on the design or architecture side… **personal authority is not a side channel
+> > serving specifiers — it is the primary sales instrument**, serving dealers and specifiers with the same
+> > work. That is the strongest argument for building it, and the reason its absence is **the most expensive
+> > gap on this page**."*
+>
+> **So "engagement is terrible" and "the most expensive gap is dormant personal authority" are the same
+> finding, arrived at from two directions.** *Neil is credited on Cinema Tools as a well-known cinema
+> designer, the moat is explicitly person-concentrated (`00-strategy.md`), the EI feature was built on two
+> decades in the industry — and none of it is anywhere a dealer or a specifier would meet it.*
+>
+> **It is also the cheapest answer available**, because it plays to something that already exists rather than
+> building a programme: it is the face the content model needs (`04-content.md`, component 3), the route to
+> pre-tender specification (`02-buyer-journey.md`), and the thing that makes a dealer feel they know us before
+> they meet us. **One asset, three gaps.**
+
 **The group is a manufacturer that still sells like a distributor.**
 
 Manufacturing is 58 % of revenue and 69 % of margin. Acquisition is at a fifteen-year high. But **what happens
@@ -167,12 +187,23 @@ line-by-line.**
 
 | | Gap | Measured cost | Why it persists |
 |---|---|---|---|
-| **1** | **Breadth per account** | 79 % of revenue comes from 27 % of accounts. **99 accounts buy one category** | **There is no artefact that can carry an unrequested layer.** A store quote lists what was asked for (`Q9`) |
+| **1** | **Breadth per account** | 79 % of revenue comes from 27 % of accounts. **99 accounts buy one category** | **There is no artefact that can carry an unrequested layer.** A store quote lists what was asked for (`Q9`) — *but see the qualification below; some of those 99 are not a failure* |
 | **2** | **Services** | Highest margin in the group, **28 accounts, and the named ones are one account** | **There is no offer.** Nothing is defined or costed, so it cannot be sold *or* given away meaningfully (`Q34`) |
 | **3** | **Concentration** | One account is 15.8 %; **2026's whole mix moved on one order** | Nothing structural — but it is the reason breadth is a risk question, not only a growth one |
 
 **All three are the same shape: the group is good at getting dealers and poor at growing them.** *That is a
 better diagnosis than "we are undersold", because it says where.*
+
+> **One qualification the buyer journey already makes, and this document should not have needed reminding
+> of.** `02-buyer-journey.md`: ***"A single-brand dealer is not a failed dealer. Some accounts will only ever
+> be one brand, and that's a good outcome. If the trail treats them as incomplete it will push adjacency at
+> people who don't want it — the oversaturation risk."***
+>
+> **So "99 accounts buy one category" is a number, not a verdict.** *Some of those 99 are fabric contractors,
+> or acoustic specialists, or LED buyers, and always will be. What the number cannot distinguish is a dealer
+> who **won't** buy a second layer from one who **hasn't been asked** — and only the second is a problem.*
+> **That distinction is not in the data and cannot be got from it**; it comes from the engagement work, which
+> is another reason engagement precedes breadth rather than following it.
 
 ---
 
