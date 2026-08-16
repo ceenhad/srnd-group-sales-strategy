@@ -97,6 +97,9 @@ Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` 
 5. **`current-state.md`** — the factual baseline: the sales side as it runs today and the marketing assets that
    exist, with gaps marked rather than guessed.
 6. **`decided.md`** — the ratchet: what is settled, the evidence behind it, and closed to re-argument.
+   **It opens with a topic index — look your subject up there before proposing anything about it.** Added
+   2026-08-16 after a session re-argued four settled decisions in a day; the rule against that already
+   existed, but nothing mapped a topic to the decisions binding it.
 7. **`open-items.md`** — decisions still outstanding.
 8. **`backlog.md`** — the action register: every discrete action in the repo extracted into one working
    surface (do / decide / fetch, with owners, effort and status), each workstream tagged by the motion

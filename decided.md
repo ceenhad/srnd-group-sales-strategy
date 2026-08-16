@@ -6,6 +6,41 @@ and the work spiralled instead of advancing. This is the ratchet: one line per s
 behind it, and the date. **A decision here is not re-argued.** New evidence either supports it — in which case
 add the evidence and move on — or overturns it, which has to be stated explicitly and dated as a reversal.*
 
+## The topic index — start here, always
+
+*Added 2026-08-16 after a session re-argued four settled decisions in one day: the floor rate (**struck by
+S24 six weeks earlier**), editorial ownership (**struck in the same reversal**), the Iwoca credit facility
+(**already recorded**) and the content operating spec (**three-quarters designed**). **The rule against this
+already existed** — `CLAUDE.md`'s ratchet — **and was not enough, because nothing mapped a topic to the
+decisions that bind it.** `README.md` says what each file is; this says what is already closed about the thing
+you are working on.*
+
+> **Look your topic up here before proposing, asking or writing anything about it.** If a row exists, the
+> question is probably answered.
+
+| If you are working on… | Already settled | Where the reasoning lives |
+|---|---|---|
+| **Cadence, publishing rate, "how often"** | **S24 — there is NO floor rate**; the ceremony was struck (see Reversals, 2026-07-31). **S28** communication has no start or end; campaigns capped at three mails in two weeks. **S29** ~monthly per brand | `09-motion-design.md` c.2 |
+| **Who does what / roles** | **S27** roles never names. **S20** roles are fitted in, nothing comes off anyone's plate; **the formal confirmation of editorial ownership is struck** | `04-content.md`, Reversals |
+| **Content — what a piece is** | **S14** the unit is one question answered well. **S13** one estate, not marketing + support. **S9** show what can be shown, explain what cannot. **S8 authorship is never scaled** | `08-sales-motion.md`, `09` c.1 |
+| **Content — how it gets made** | **S24** produced at volume on a Claude-assisted line; **S5** judgement stays, labour moves; **S6** the four-step loop | `09-motion-design.md` c.2 |
+| **Where content lives** | **S29** each brand's own site and its own YouTube channel; **S7** corpus not channel, syndicate outward; **S10** rebuild behind the same addresses | `04-content.md`, `05-channels.md` |
+| **The buyer journey / triggers** | **S22** gateways and pathways; **S23** many hooks, elevation early; **S26** many bites, judge the pile; **S25** the destination is engine | `02-buyer-journey.md`, `09` |
+| **The product record / schema** | **S16** schema before documentation; **S16a** engine owns the mechanical layer; **S16b** definition comes first; **S17** the archive proposes, it does not close; **S18/S19** C-ATS sets the standard, copy is generated from the record | `product-data-schema.md`, the template, the register |
+| **Manuals and support** | **S11** support is a documentation problem; **S11a** the debt is DT's, by mechanism not SKU; **S12** manuals and training are one corpus | `08-sales-motion.md` |
+| **Services and design work** | **B1** acoustic design belongs to C-ATS; **B6** never insinuate the dealer can't; **B8** the report is the deliverable. **Services have record scopes — `CAT-06`, `CAT-07`** | `07-tools.md`, `product-register.md` |
+| **Price, credit, terms** | **C4** partner-only pricing, no public prices; **C8** no dealer credit from us — **softened 2026-08-12: a UK-only 90-day interest-free facility runs through IWOCA** | Reversals, `01-commercial-model.md` |
+| **Distributors and territory** | **C1** direct by default, the 2× test; **C1a–C1k** the roster, the US, the white label; **C3** the UK is representative | `01-commercial-model.md` |
+| **Stores** | **C5** two stores split by the self-evidence test; **C6** the carried roster | `01-commercial-model.md` |
+| **The partner programme** | **P1** spend the depth, not the margin; **P2** distributor services are our baseline; **P3** the differentiator is owning the factory; **P4** the named contact is bounded | `03-partner-programme.md` |
+| **Brand voice and claims** | **B5** no superlative without a measurement; **B2** no superlative arms race; **B6** never imply the dealer can't; **B7** Light Walls deferred | `13-standards-decision-sheet.md` session 6 |
+| **Beyond cinema** | **C7** beyond cinema in trade; B2C stays cinema | `00-strategy.md` |
+| **Events** | **E1** ISE, booked; **E2** CEDIA Expo out; **E3** InfoComm possible next year | `05-channels.md` |
+
+**Two things this index cannot do**, and both matter: it does not cover the **brand** layer (each brand's own
+document binds hardest — `CLAUDE.md`), and **an absent row is not permission** — it means nobody has decided,
+which is what `open-items.md` and `questions.md` are for.
+
 ## How to use it
 
 1. **New data from real work lands as evidence**, against a decision here or against an open item. It does not
