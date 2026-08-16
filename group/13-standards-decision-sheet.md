@@ -454,15 +454,52 @@ where `product-register.md` shows a gap, the proposal either prices it anyway or
 that inconsistency is exactly what rule 2 exists to prevent. **Pricing an increment is therefore also an
 argument for finishing the record** (step 3), which is the plan's critical path regardless.
 
+### ▲ Re-scoped by Neil, 2026-08-16 — two artefacts, two stages, and one design killed
+
+**What goes out today is a store quote** (`Q9`), and the quote is not a weak proposal — **it is a mechanical
+document with a contractual job**: *"it allows a customer to formally accept our offer before it goes to
+invoice."* **The proposal is a separate, earlier, sales-stage artefact.** The chain Neil describes:
+
+> **proposal → accepted (by the salesperson or the dealer) → formal quote → invoice** — *"engine stores sales
+> interactions by project, so it would be possible to have a separate proposal"* at the head of it.
+
+**So the upsell has two possible homes, and the cheap one is not the one this session designed.**
+
+| | Where | What it is | Cost to build |
+|---|---|---|---|
+| **A** | **Optional lines on the quote** | *"That mechanical quote can also contain optional 'have you also considered' type line items that would be added to the invoice"* | **Small** — a field on an artefact that already exists and already flows to invoice |
+| **B** | **The proposal** | The sales-stage document, earlier and persuasive rather than contractual | **A build** — a new object in engine, per-project |
+
+**Take A first.** It attaches the increment at the moment of formal acceptance, it needs no new document, and it
+is the direct mechanical answer to finding 31's attach gap — **a quote lists what was asked for, so a layer
+nobody requested has nowhere to appear.** £472,320 of Komodo against £38,452 of Screen Wall is what that
+produces.
+
+### And the constraint that kills this session's original design
+
+> *"The process of making the proposal has to be **quick and easy**, and is a loop we have [been] round a dozen
+> times. At one time we even had **three graphic designers on staff producing per-product blocks to drop into
+> design-based proposals. Doesn't work.** **Speed of delivery of proposals is just as important as content**,
+> quite often."*
+
+**This session proposed a document assembled from record fields, section by section, per layer. That is
+per-product blocks dropped into a template — the thing that has already been tried with three people on staff
+and failed.** *Struck as a design.* **What survives is the content logic** — the room as the unit, every layer
+accounted for, physical justification, the dealer's win — **but it has to be produced in minutes by a machine,
+not composed.** Two consequences:
+
+- **Speed is a first-class requirement, ranked with content, and it is measurable.** *Time from "we should
+  propose" to "it is sent"* is the acceptance test, alongside the attach rate.
+- **If it cannot be generated, it should not be designed.** Anything needing a person to lay out or select will
+  fail the same way it failed before, and the failure has already been paid for once.
+
 ### Still open on this session
 
-1. **One document, or a core plus an appendix?**
-2. **Who builds a proposal today, and out of what?** If what goes out is a store quote, "the proposal" is a new
-   artefact and this is a build rather than a template.
-3. **Should the layer list be fixed per room type** — cinema, media room, commercial fit-out, hospitality? It
+1. **Do the optional-lines-on-the-quote route (A) and the proposal (B) both proceed**, or does A make B wait?
+2. **Should the layer list be fixed per room type** — cinema, media room, commercial fit-out, hospitality? It
    is what makes rule 2 checkable, and the one narrow form in which the struck *minimum set per room type* idea
    survives and earns its place.
-4. **What happens where a layer is offered but its record is empty** — price it, or drop to *named, ask*?
+3. **What happens where a layer is offered but its record is empty** — price it, or drop to *named, ask*?
 
 ---
 
