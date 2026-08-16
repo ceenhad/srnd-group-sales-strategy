@@ -32,6 +32,47 @@
 
 ---
 
+## 1a · The bigger answer: this repo should use ADRs, and the group already has them
+
+*Added after Neil asked: "are we not using ADR in this repo yet?" **No. And the convention exists, works, and
+was written to counter exactly the failure this repo just had.***
+
+**`cinema-platform` runs ADRs 001–079** with frontmatter (`id · status · version · revised · supersedes ·
+superseded_by`), permanent numbers, content-based areas, and — the part that matters most here — **a
+generated catalogue** (`adr_catalogue.py`), not a hand-maintained index.
+
+**And `ADR 079` exists because of a diagnosis Neil made on 2026-08-13:**
+
+> *"You love to make an ADR a locked document which makes sense from version control but automatically leads
+> to a sprawl… **Trying to retire ADR docs doesn't work, you like to grep and thus miss any rules at the start
+> of docs** etc. Finally there is no content-based organisation of the documents."*
+
+**That is a description of this session.** I grepped, missed the rules at the tops of documents, and re-argued
+four settled positions.
+
+### What ADRs fix that today's scaffolding does not
+
+| Fault seen today | `decided.md` / `proposals.md` | An ADR |
+|---|---|---|
+| **Nothing was ratified** | An entry saying *"Neil's decision"* written by a session | **`status: proposed` → `accepted`, with a decision-maker and a date.** This *is* the "nothing without my approval" mechanism |
+| **The floor rate was struck invisibly** | A reversal buried in a list at the foot of a file | **`superseded_by: 0yy`** in the frontmatter, and in the catalogue |
+| **~142 citations now dangle** | IDs that vanished when the file was emptied | **A number is permanent and its content is versioned** — `ADR 017` still resolves at v2 |
+| **~350 inline flags nobody can track** | `▲ ⚑ ⚠ ▶`, "struck", "retired" scattered through prose | **A generated catalogue with a status column** |
+| **Two repos, two conventions** | Strategy decisions look nothing like platform decisions | **One convention across the group**, so they cross-cite |
+
+### What it means concretely
+
+- **`proposals.md`'s ~60 entries become candidate ADRs.** Each is proposed, and becomes `accepted` only when
+  Neil says so — which is the ratification pass, given a mechanism instead of a promise.
+- **`decided.md` stays empty and dies.** SRND OS holds what is decided; ADRs are how a decision gets *made*
+  and recorded here before it goes there.
+- **Most inline flags disappear.** A `▲` in prose is either an ADR, a `questions.md` row, or noise. *The 159
+  `[?]` markers are different — those are evidence gaps and stay in `current-state.md`.*
+- **The catalogue is generated, never hand-written.** A hand-maintained index is the thing that rots; the
+  platform already proved that with a script.
+
+**Adopting it is coherence, not invention** — the group's own convention, already working, already Neil's.
+
 ## 2 · The proposed structure
 
 **Folders by *kind*, because kind determines how a file is read, how fast it goes stale, and what may be
@@ -70,11 +111,15 @@ evidence/              WHAT IS TRUE. Append-only. No argument, ever.
   engine-audit.md
   direction.md             (15 — the group read; see §4, it may not survive)
 
+decisions/             ADRs — the group's existing convention (see §1a)
+  CATALOGUE.md             GENERATED, never hand-edited
+  0001-….md                one decision per file; number permanent, content versioned
+  …                        proposals.md's ~60 entries enter here as `status: proposed`
+
 ledgers/               WHAT IS OPEN. Short rows. No prose.
-  open-items.md            open decisions only
+  open-items.md            open items that are not yet decision-shaped
   questions.md             the asking surface
   backlog.md               the action register
-  proposals.md             unratified, awaiting Neil
 
 brands/                unchanged
 data/                  unchanged
@@ -142,6 +187,20 @@ Mixing the two is how a reorganisation becomes an unreviewable diff.*
 
 ---
 
-## 6 · The one-line version
+## 6 · What to do first, if any of it
 
-**Sort by kind, archive what is closed, keep ledgers to rows, and let no file both measure and argue.**
+**The ADRs matter more than the folders**, and they can start without the move:
+
+1. **Adopt the ADR convention** — copy the platform's frontmatter, meta-rules and catalogue script. *Half a
+   day, and it makes everything after it cheaper.*
+2. **Run `proposals.md` through it** — each entry proposed, then accepted or dropped by Neil, one at a time,
+   the way the register already works. **That is the ratification pass, with a mechanism instead of a
+   promise.**
+3. **Then the folders and the citation reconciliation**, as one pass over the same 28 files.
+
+*Doing 3 first would move ~350 flags and 142 dangling citations into a tidier arrangement of the same mess.*
+
+## 7 · The one-line version
+
+**Use the group's own ADRs for decisions; sort everything else by kind; archive what is closed; keep ledgers
+to rows; and let no file both measure and argue.**
