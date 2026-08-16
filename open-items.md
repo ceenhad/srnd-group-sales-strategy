@@ -530,7 +530,7 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 | | Session | What it needs | Blocked on |
 |---|---|---|---|
 | **1** | **The service offer** (`XS-5`) | **Now has a method, from Neil 2026-08-16 — see the frame below the table.** Two categories, a sweep, and a costing rule. Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7`, the partner-programme value question and the incentive policy |
-| **2** | **The roles** (`NEXT.md` step 1, `PAR-3`) | Who fills owner · producer · trade view. **Roles, never names, was settled — the filling was not** | Nothing. **Named as the first step of the critical path since rev 1 and still undone; an unowned critical path is how this becomes next year's problem** |
+| ~~**2**~~ | ~~**The roles**~~ | **▶ Closed 2026-08-16 (`Q25`): Neil and Simon cover all three.** No third party | — **but see below; closing it does not make it safe** |
 | **3** | **Sensing — line, layer, or brand** | The three questions above. Market size, buyer, channel, competitors, price and timing are **[?]** everywhere and must not be guessed | Neil's judgement on scope; possibly on evidence that does not exist yet |
 | **4** | **The competitor roster** (standard 5 ⚑) | Names per brand — C-ATS behind its price band, Fabric Walls and Pro-Fi at all. **It cannot be derived: no loss reason exists in any system** | **Entirely Neil.** Nothing else gates `T-M02`; the axes and the output shape are set |
 | **5** | **The upsell proposal build** (standard 3) | The design is written; what remains is one document or core-plus-appendix, who builds one today, and whether the layer list is fixed per room type | Partly a fetch — *what goes out today* is unknown |
@@ -539,6 +539,27 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 **And two that are not sessions but sit at the head of the queue anyway:** **`MON-13`** — forty approved dealers
 with no engine account, *"a fault to fix today"* — and the **`C1` dual-listing wording**, minutes of work that
 gates whether `C1` can be filled honestly for any DT record.
+
+### The roles are filled, and that changes what the machinery is for — 2026-08-16
+
+**`Q25`: Neil and Simon cover all three.** The critical path's first step is unblocked. **But the plan's own
+description of the producer was *"real, ongoing, and the one genuine reallocation on this page"* — and it is
+now held by one of the two people who are also *the answer*.**
+
+> **That is the owner-driven road model the strategy exists to escape, at a smaller scale.** `01-commercial-model.md`
+> diagnosed it precisely: headcount in that model *"loads the scarce resource instead of relieving it."* Here
+> there is no headcount to add — so the load lands on the same two people by default.
+
+**Which promotes three things from optimisation to load-bearing**, because they are the only things that can
+carry producer work when there is no producer:
+
+- **`N10` and the filled record** — the answer made once, retrievable, so it is not re-authored per job.
+- **The block library** — every product and service presentable without anyone composing anything.
+- **The production line** — briefs generated, so the owner's minutes go to the answer and nowhere else.
+
+**Stated plainly: the plan is no longer "do the record, then automate later." Automation is what makes the
+roles fillable at all**, and every hour spent on the record and the block library is an hour bought back from
+the two people the whole business already depends on.
 
 ### The frame session 1 runs on — Neil, 2026-08-16
 
