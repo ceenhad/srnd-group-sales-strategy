@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: the-unit-of-content-and-the-one-estate
 area: motion
 title: "One content estate; the unit is a question answered well; authorship is never scaled"
-status: proposed
+status: rejected
 version: 1
 revised: 2026-08-16
 supersedes: []
@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0008 — One content estate; the unit is a question answered well; authorship is never scaled
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Rejected** — 2026-08-16, Neil. *No reason recorded at the time. **Most likely the form rather than the substance:** this ADR bundles five separate decisions, and a bundle cannot be accepted or rejected cleanly. See the note below.*
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*
@@ -47,3 +47,16 @@ legitimate because it is our own authored answers.
 
 **Consolidates `S7`, `S8`, `S9`, `S13`, `S14`** — the old `decided.md` IDs, kept so existing citations across the repo resolve to this
 number (`DOC-28`).
+
+## Why this was rejected, and what to do with it
+
+**Rejected as a bundle.** It carries five decisions — one estate, the unit of work, show-versus-explain, the
+corpus as the asset, and authorship never scaled. **Rejecting it rejects all five, which is almost certainly
+not the intent.**
+
+**The fault is mine and it is structural:** ADR 0001 §6 says *consolidate, do not sprawl*, and I over-applied
+it — grouping by **topic** rather than by **decision**. A reader can accept "the unit is one question answered
+well" and reject "authorship is never scaled" independently; this file does not let them.
+
+**Proposed remedy: split into one decision per ADR** and re-put them individually. **Not done without
+instruction** — the same mistake in the other direction would be re-issuing five ADRs nobody asked for.

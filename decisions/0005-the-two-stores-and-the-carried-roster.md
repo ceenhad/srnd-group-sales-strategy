@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0005 — Two stores split by the self-evidence test; we carry nothing that competes with our own brands
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Proposed** — 2026-08-16. **Neil: accept with rewording, 2026-08-16** — the specific wording is not yet given, so this stays `proposed` until it is (`questions.md` Q43).
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*

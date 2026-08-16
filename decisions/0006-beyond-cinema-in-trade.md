@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: beyond-cinema-in-trade
 area: commercial
 title: "Beyond cinema in trade; B2C stays cinema, deliberately"
-status: proposed
+status: accepted
 version: 1
 revised: 2026-08-16
 supersedes: []
@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0006 — Beyond cinema in trade; B2C stays cinema, deliberately
 
-- **Status:** **Proposed** — 2026-08-16. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Accepted** — 2026-08-16, Neil.
 - **Source:** `proposals.md`, consolidated. **This is a sort, not a rewrite** — the decisions below are as they
   were recorded, with their original evidence. *Nothing has been added; where the original was thin it stays
   thin.*

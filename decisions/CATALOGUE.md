@@ -7,10 +7,11 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 
 | | ADRs |
 |---|---:|
-| Proposed | 14 |
-| Accepted | 4 |
+| Proposed | 12 |
+| Accepted | 5 |
+| Rejected | 1 |
 
-> **14 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
+> **12 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
 
 ## How this repo decides
 
@@ -26,14 +27,14 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 | 0003 | [US entry is a conversion problem, approached directly with the whole group](0003-united-states-market-entry.md) | accepted | 2 | 2026-08-16 |
 | 0004 | [Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK](0004-pricing-credit-and-terms.md) | accepted | 2 | 2026-08-16 |
 | 0005 | [Two stores split by the self-evidence test; we carry nothing that competes with our own brands](0005-the-two-stores-and-the-carried-roster.md) | proposed | 1 | 2026-08-16 |
-| 0006 | [Beyond cinema in trade; B2C stays cinema, deliberately](0006-beyond-cinema-in-trade.md) | proposed | 1 | 2026-08-16 |
+| 0006 | [Beyond cinema in trade; B2C stays cinema, deliberately](0006-beyond-cinema-in-trade.md) | accepted | 1 | 2026-08-16 |
 
 ## The sales motion and content
 
 | ADR | Decision | Status | Ver | Revised |
 |---|---|---|---:|---|
 | 0007 | [There is no field force; content does the rep's job, and cannot do four parts of it](0007-no-field-force-content-is-the-rep.md) | proposed | 1 | 2026-08-16 |
-| 0008 | [One content estate; the unit is a question answered well; authorship is never scaled](0008-the-unit-of-content-and-the-one-estate.md) | proposed | 1 | 2026-08-16 |
+| 0008 | [One content estate; the unit is a question answered well; authorship is never scaled](0008-the-unit-of-content-and-the-one-estate.md) | rejected | 1 | 2026-08-16 |
 | 0009 | [Judgement stays with the owner, labour moves to Claude, and there is no cadence ceremony](0009-how-content-gets-made.md) | proposed | 1 | 2026-08-16 |
 | 0010 | [Gateways, pathways, many hooks, many bites — and the destination is engine](0010-the-journey-runs-as-a-process.md) | proposed | 1 | 2026-08-16 |
 | 0011 | [Answers live on each brand's own site; every brand gets a channel; communication has no start and no end](0011-per-brand-homes-channels-and-cadence.md) | proposed | 1 | 2026-08-16 |
