@@ -7,12 +7,12 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 
 | | ADRs |
 |---|---:|
-| Proposed | 43 |
+| Proposed | 42 |
 | Accepted | 5 |
 | Superseded | 10 |
-| Rejected | 1 |
+| Rejected | 2 |
 
-> **43 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
+> **42 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
 
 ## How this repo decides
 
@@ -39,7 +39,7 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 | 0020 | [Content does the rep's job](0020-content-does-the-reps-job.md) | proposed | 1 | 2026-08-17 |
 | 0021 | [Content cannot qualify, discover, close or gather intelligence](0021-what-content-cannot-do.md) | proposed | 1 | 2026-08-17 |
 | 0022 | [One content estate, not a marketing estate and a support estate](0022-one-content-estate.md) | rejected | 1 | 2026-08-17 |
-| 0023 | [The unit of work is one question, answered well, published where it can be found](0023-the-unit-is-one-question-answered.md) | proposed | 1 | 2026-08-17 |
+| 0023 | [The unit of work is one question, answered well, published where it can be found](0023-the-unit-is-one-question-answered.md) | rejected | 1 | 2026-08-17 |
 | 0024 | [Show what can be shown; explain what cannot](0024-show-what-can-be-shown.md) | proposed | 1 | 2026-08-17 |
 | 0025 | [The corpus is the asset, not the channel](0025-the-corpus-is-the-asset.md) | proposed | 1 | 2026-08-17 |
 | 0026 | [Authorship is never scaled](0026-authorship-is-never-scaled.md) | proposed | 1 | 2026-08-17 |

@@ -4,7 +4,7 @@ scope: srnd-group-strategy
 slug: the-unit-is-one-question-answered
 area: motion
 title: "The unit of work is one question, answered well, published where it can be found"
-status: proposed
+status: rejected
 version: 1
 revised: 2026-08-17
 supersedes: []
@@ -13,7 +13,7 @@ superseded_by: null
 
 # ADR 0023 — The unit of work is one question, answered well, published where it can be found
 
-- **Status:** **Proposed** — 2026-08-17. **Not accepted.** Only Neil moves this to `accepted` (ADR 0001 §3).
+- **Status:** **Rejected** — 2026-08-17, Neil.
 - **Source:** `proposals.md` via ADR 0008, split to one decision per ADR.
 
 ## Decision
