@@ -49,7 +49,7 @@ write a novel every time or risking feedback being logged against the wrong poin
 | **Q17** ⚑ | Competitors | **Pro-Fi** — who? | *No default* | **Nothing researched anywhere** |
 | **Q18** ⚑ | Competitors | Which of the **currently named** competitors are wrong — in the document but not met? | *No default* | **Neil, 2026-08-14** — *"different roster"* |
 | **Q19** | Competitors | Confirm the **cadence**: quarterly, plus on any surface change | Yes | **Proposed here** — standard 5 |
-| **Q20** ⚑ | `G2` | **Anything missing** from the six `G2` lists? | Nothing missing | **Repo** — assembled from brand documents, session 6 |
+| **Q20** ⚑ | `G2` | **Anything missing from the six `G2` lists?** **⏸ Parked 2026-08-16 — Neil is reading them first.** They are in `group/13-standards-decision-sheet.md` session 6: group floor, C-ATS, DT, Fabric Walls, Pro-Fi, Light Walls, Distribution | Nothing missing | **Repo** — assembled from brand documents, session 6 |
 | **Q21** | `G2` | Are the `G2` lists **published to dealers or held internally**? | Internal | **Proposed here** — session 6 |
 | **Q26** ⚑ | C-ATS | The **canonical name** — "C-ATS", "Cinema", or the expansion? | "C-ATS" | **Repo** — C-ATS brand truth flags it unresolved |
 | **Q27** | Record | The **`C1` dual-listing wording** — is a brand store *plus* the group store intended? | Yes — narrow the rule to say so | **Engine** — 13 DT codes on both stores, `engine-audit.md` |
