@@ -116,9 +116,14 @@ governs everything about the file:
 | **Business or management** — pricing, territory, what we sell, who we sell to | `decided.md`, once Neil decides it | **SRND OS, every morning** |
 | **Repo management** — conventions, structure, how questions are logged, how a session runs | **this file** | Whoever is working in the repo |
 
-*The ADR convention drafted on 2026-08-16 as `decisions/0001` was repo management, so it lives here and the
-`decisions/` folder is gone. **If ADRs return, they return for business decisions** — and then the question is
-whether the OS should read them too, which is Neil's to answer, not this file's.*
+***ADRs were tried twice and the answer is settled: no `decisions/` folder, ever.*** *The first attempt
+(2026-08-16) scraped 59 stubs and was deleted entire. The second (2026-08-17) wrote three proper ADRs and was
+removed the same day, on Neil's challenge, for being a third copy of what the repo already holds. The decision
+record is what exists:* **`registers/questions.md` holds the act of deciding** *(permanent Q-ids, the answer
+verbatim, dated),* **the owning area or brand document states the current position** *(rewritten wholesale when
+it changes, organised by level — never a separate file per decision),* *and* **`decided.md` is the machine
+interface for SRND OS.** *A future session that finds itself creating a decisions folder is repeating a
+mistake made twice.*
 
 ### The three rules the deleted convention was worth keeping for
 
