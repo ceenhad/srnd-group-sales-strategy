@@ -22,9 +22,12 @@ by this session on 2026-08-16.
 
 ## Where the content went
 
-**`registers/proposals.md`** — moved there, not deleted, on Neil's instruction. **Reframed as what it always was:
-unratified proposals**, each needing *yours · not yours · reword · not yet*. **What survives ratification
-belongs in SRND OS**, not back here.
+**First to `registers/proposals.md`** (2026-08-16, on Neil's instruction), reframed as unratified proposals.
+**Then folded into the area documents and deleted, 2026-08-17** (`DOC-29`, on Neil's instruction of the same
+day): entries already stated in their owning area document went with the file; four orphans moved into
+`group-strategy/commercial-model.md` and `motion/content.md`; six contradictions between the record and the
+area documents were corrected on Neil's per-question approval. The full content survives in the git history of
+`registers/proposals.md`. **What survives ratification belongs in SRND OS**, not back here.
 
 **Nothing returns to this file without explicit approval** — including a session that finds an old ID cited
 somewhere and helpfully restores the entry behind it.

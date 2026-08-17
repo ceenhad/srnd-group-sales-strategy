@@ -24,10 +24,10 @@ write a novel every time or risking feedback being logged against the wrong poin
   whether Probata was commercial or internal and merged a **tool** with the **service** it delivers — the third
   conflation of the day, after service-versus-product pricing and "our room". **They have different economics
   and different answers**, and a question that blurs them cannot be answered in a line.*
-- **Check `registers/proposals.md` and the Answered table below before a question is added.** *(The check
-  originally named `decided.md`'s topic index; the file was emptied and the index dropped on 2026-08-16, and
-  the prior positions now sit in `proposals.md` as unratified proposals.)* The lesson stands as written
-  2026-08-16: *`Q12` and `Q13` sat in this register for a day asking about a floor rate and an editorial owner
+- **Check the owning area document and the Answered table below before a question is added.** *(The check
+  originally named `decided.md`'s topic index; the file was emptied 2026-08-16 and its contents were folded
+  into the area documents 2026-08-17 — `DOC-29` — so the area document is now where a prior position lives.)*
+  The lesson stands as written 2026-08-16: *`Q12` and `Q13` sat in this register for a day asking about a floor rate and an editorial owner
   that **S24 struck six weeks earlier**. A register that asks settled questions is worse than no register,
   because it spends the one resource it exists to protect.*
 - **Every question carries its source**, and the categories are deliberately unflattering:
