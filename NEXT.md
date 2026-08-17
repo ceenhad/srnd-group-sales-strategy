@@ -29,26 +29,28 @@ campaign ever sent was the last one sent, four months ago.
 
 ## The order of work
 
-1. **Fix the fault: `MON-13`.** Forty approved dealers hold no engine account and cannot see a price.
-   Today's work, not a project.
-2. **Build the engagement machinery.** The inbound log in engine (one field on a screen already in use —
-   it also feeds the recurring-question list and the spec-conversation capture). Segment the mail list by
-   brand and restart the cadence (`MON-15`/`MON-16`/`MON-17` — reach exists, targeting does not). The
-   one-tap deal-status email (`operations/engine-as-hub.md` §1 Q4 — the first use of engine-owned mail).
-3. **State the group direction (`GRP-1`).** The data is loaded and queryable; what is needed is a reading
-   Neil recognises, built from the measured findings only. Precedes all brand work.
-4. **Run the per-brand question sweep (`GRP-2`).** One question series, swept through every brand in turn —
-   the sibling of `registers/questions.md`. No bespoke brand sessions.
-5. **Keep filling the record — it is the content feed.** In this repo's files; **this repo never works
-   directly into engine** (Neil, Q47) — engine-side implementation is the platform's job. C-ATS is the
-   worked standard; Fabric Walls is the second pass candidate; DT goes by mechanism, twelve scopes drafted.
-   With the roles held by Neil and Simon alone, the record, the block library and the production line are
-   load-bearing — they are what carries producer work when there is no producer
-   (`registers/open-items.md` § "The roles are filled").
-6. **Work the sessions list** — `registers/open-items.md` § "Sessions needed". The service offer (`XS-5`)
-   is first: the offer is in Neil's head and the session is extraction; it gates the proposal build, the
-   incentive policy and the partner-programme value question. The store architecture session gates `C1` on
-   every DT record.
+*The order is the project's own statement (Neil): lock the group level first — strategy, channels, methods,
+KPIs — then drive down through each brand to establish the actual content and methods, then start generating
+and tracking. Execution items do not jump this queue, however focused or cheap; the start line is a locked
+group layer, and we are not at it yet.*
+
+1. **Lock the group layer.** Everything is drafted; almost none of it is locked.
+   - **The direction statement (`GRP-1`)** — a reading of the measured data Neil recognises, from the
+     findings only. The spine the rest hangs from.
+   - **The strategy and channels** — `group-strategy/` ratified against SRND OS, and the sessions that are
+     group strategy by nature: the service offer (`XS-5`), the store architecture, sensing, the competitor
+     roster (`registers/open-items.md` § "Sessions needed").
+   - **The methods** — the motion designs in `motion/` confirmed as the group standard the brands inherit.
+   - **The KPIs** — `operations/engine-as-hub.md` §1 is agreed; lock its remaining open decisions and adopt
+     it as the reporting practice.
+2. **Drive down through each brand (`GRP-2`).** One question series, swept through every brand in turn —
+   establishing the actual content and methods per brand: what is used, how, and when. No bespoke brand
+   sessions. The record fills as part of this — in this repo's files; **this repo never works directly into
+   engine** (Neil, Q47). C-ATS is the worked standard; Fabric Walls the second pass; DT by mechanism.
+3. **Generate and track.** Only now does execution start: the daily-per-brand cadence and the real
+   conversations, the inbound log, the brand-segmented mail restart (`MON-15`–`MON-17`), the one-tap
+   deal-status email, and the focused operational readiness items — `MON-13` (forty approved dealers with
+   no engine account) belongs here, done when the machine it feeds is ready to run.
 
 **Running beside, not instead:** the consolidation programme (`operations/engine-as-hub.md` §3 — no
 third-party operations software, replacements inheriting the old system's baselines). The finding-30
@@ -57,7 +59,8 @@ warning binds: building must not absorb the hours while 189 signed partners rece
 ## How to tell it is moving
 
 The KPI framework is agreed and lives in `operations/engine-as-hub.md` §1 — funnel spine, signal matrix,
-account types, the six questions. The numbers to say out loud:
+account types, the six questions. Tracking starts when step 3 does; steps 1 and 2 are measured the only way
+a locking phase can be — questions closed, not numbers. The numbers to say out loud once it runs:
 
 - **Communications per brand per day** against the once-a-day standard, and **real conversations per
   period** — the two drumbeats, directly.

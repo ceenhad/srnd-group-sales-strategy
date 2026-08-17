@@ -131,10 +131,11 @@ strategy hands off to it.
 ## Status — plan rev 2
 
 **Rev 2 was set 2026-08-17**, replacing rev 1 wholesale (`NEXT.md` carries the version note; git history
-holds rev 1). The plan now leads with engagement — priority one, per Neil — with two operating drumbeats:
+holds rev 1). The plan leads with engagement — priority one, per Neil — with two operating drumbeats:
 **one communication per brand per day** (marketing) and **real conversations as often as possible** (sales).
-The order of work: fix `MON-13`, build the engagement machinery, state the group direction (`GRP-1`), run
-the per-brand question sweep (`GRP-2`), keep filling the record as the content feed, work the sessions list.
+The order of work is the project's own: **lock the group layer** (the direction statement, strategy,
+channels, methods, KPIs), **then drive down through each brand** (the `GRP-2` question sweep, the record),
+**then generate and track** — execution items, however focused, do not jump that queue.
 
 **From here the plan is amended, not re-argued** — evidence lands against an area document or an open item,
 and a decision changes only when Neil says it changes; SRND OS is the source of record for decisions.
