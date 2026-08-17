@@ -7,108 +7,10 @@ A number is permanent and its content is versioned (ADR 0001), so a citation of 
 
 | | ADRs |
 |---|---:|
-| Proposed | 42 |
-| Accepted | 5 |
-| Superseded | 10 |
-| Rejected | 2 |
-
-> **42 ADRs are `proposed` and bind nothing.** Only Neil moves an ADR to `accepted` (ADR 0001 decision 3). A proposed ADR may not be cited as settled.
+| Accepted | 1 |
 
 ## How this repo decides
 
 | ADR | Decision | Status | Ver | Revised |
 |---|---|---|---:|---|
 | 0001 | [ADRs in this repo: proposed until Neil accepts, versioned not amended, catalogue generated](0001-adrs-in-this-repo.md) | accepted | 1 | 2026-08-16 |
-
-## Commercial model, pricing and territory
-
-| ADR | Decision | Status | Ver | Revised |
-|---|---|---|---:|---|
-| 0002 | [Direct is the default; a distributor must plausibly double the volume](0002-direct-first-and-the-2x-distributor-test.md) | accepted | 1 | 2026-08-16 |
-| 0003 | [US entry is a conversion problem, approached directly with the whole group](0003-united-states-market-entry.md) | accepted | 2 | 2026-08-16 |
-| 0004 | [Pricing is partner-only; SRND extends no credit directly, and IWOCA covers the UK](0004-pricing-credit-and-terms.md) | accepted | 2 | 2026-08-16 |
-| 0005 | [Two stores split by the self-evidence test; we carry nothing that competes with our own brands](0005-the-two-stores-and-the-carried-roster.md) | proposed | 1 | 2026-08-16 |
-| 0006 | [Beyond cinema in trade; B2C stays cinema, deliberately](0006-beyond-cinema-in-trade.md) | accepted | 1 | 2026-08-16 |
-
-## The sales motion and content
-
-| ADR | Decision | Status | Ver | Revised |
-|---|---|---|---:|---|
-| 0012 | [The system is specified in roles; who fills them is a separate decision](0012-roles-never-names.md) | proposed | 1 | 2026-08-16 |
-| 0019 | [There is no field force and we have stopped looking for one](0019-no-field-force.md) | proposed | 1 | 2026-08-17 |
-| 0020 | [Content does the rep's job](0020-content-does-the-reps-job.md) | proposed | 1 | 2026-08-17 |
-| 0021 | [Content cannot qualify, discover, close or gather intelligence](0021-what-content-cannot-do.md) | proposed | 1 | 2026-08-17 |
-| 0022 | [One content estate, not a marketing estate and a support estate](0022-one-content-estate.md) | rejected | 1 | 2026-08-17 |
-| 0023 | [The unit of work is one question, answered well, published where it can be found](0023-the-unit-is-one-question-answered.md) | rejected | 1 | 2026-08-17 |
-| 0024 | [Show what can be shown; explain what cannot](0024-show-what-can-be-shown.md) | proposed | 1 | 2026-08-17 |
-| 0025 | [The corpus is the asset, not the channel](0025-the-corpus-is-the-asset.md) | proposed | 1 | 2026-08-17 |
-| 0026 | [Authorship is never scaled](0026-authorship-is-never-scaled.md) | proposed | 1 | 2026-08-17 |
-| 0027 | [An owner's primary sales output is authoring on camera](0027-owner-authors-on-camera.md) | proposed | 1 | 2026-08-17 |
-| 0028 | [Planning splits into judgement and labour; only the labour moves](0028-judgement-stays-labour-moves.md) | proposed | 1 | 2026-08-17 |
-| 0029 | [The operating loop: archive, ranked list, batch recording, published](0029-the-operating-loop.md) | proposed | 1 | 2026-08-17 |
-| 0030 | [Content is produced at volume on a Claude-assisted line, and there is no cadence ceremony](0030-content-produced-on-a-claude-assisted-line.md) | proposed | 1 | 2026-08-17 |
-| 0031 | [The journey runs as a process, with gateways and pathways](0031-the-journey-runs-as-a-process.md) | proposed | 1 | 2026-08-17 |
-| 0032 | [Hooks are multiplied and categorised, and elevation is engineered early](0032-many-hooks-per-door.md) | proposed | 1 | 2026-08-17 |
-| 0033 | [Conversion is cumulative — many bites per stage](0033-many-bites-per-stage.md) | proposed | 1 | 2026-08-17 |
-| 0034 | [The destination is engine, and this repo specifies none of it](0034-the-destination-is-engine.md) | proposed | 1 | 2026-08-17 |
-| 0035 | [Per brand: the home, the channel, the note, the subscription](0035-per-brand-home-channel-note-subscription.md) | proposed | 1 | 2026-08-17 |
-| 0036 | [Communication has no start and no end](0036-communication-has-no-start-and-no-end.md) | proposed | 1 | 2026-08-17 |
-| 0037 | [Websites and social restart; URLs, indexed pages and channel history are kept](0037-websites-restart-discoverability-kept.md) | proposed | 1 | 2026-08-17 |
-| 0038 | [Site structure per brand and product: on-ramp, then depth, then easy contact](0038-site-structure-on-ramp-depth-contact.md) | proposed | 1 | 2026-08-17 |
-
-## The product record
-
-| ADR | Decision | Status | Ver | Revised |
-|---|---|---|---:|---|
-| 0039 | [A product data schema comes before any documentation work](0039-schema-before-documentation.md) | proposed | 1 | 2026-08-17 |
-| 0040 | [Engine owns the mechanical record; this repo specifies the layer above it](0040-engine-owns-the-mechanical-record.md) | proposed | 1 | 2026-08-17 |
-| 0041 | [Definition comes before pitch, and it is missing in the middle](0041-definition-comes-first.md) | proposed | 1 | 2026-08-17 |
-| 0042 | [The archive seeds the corpus; it does not close it](0042-the-archive-proposes-it-does-not-close.md) | proposed | 1 | 2026-08-17 |
-| 0043 | [Website copy is generated from the product record, not written per page](0043-copy-is-generated-from-the-record.md) | proposed | 1 | 2026-08-17 |
-| 0044 | [Support is a documentation problem, not a staffing one](0044-support-is-a-documentation-problem.md) | proposed | 1 | 2026-08-17 |
-| 0045 | [The documentation debt is concentrated on DT, and is documented by mechanism not SKU](0045-the-documentation-debt-is-dts-by-mechanism.md) | proposed | 1 | 2026-08-17 |
-| 0046 | [Manuals and training are one corpus, differently packaged](0046-manuals-and-training-are-one-corpus.md) | proposed | 1 | 2026-08-17 |
-| 0047 | [The published C-ATS absorption sheets are authoritative](0047-the-published-absorption-sheets-are-authoritative.md) | proposed | 1 | 2026-08-17 |
-
-## The partner programme
-
-| ADR | Decision | Status | Ver | Revised |
-|---|---|---|---:|---|
-| 0048 | [Spend the depth, not the margin, and keep no ledgers](0048-spend-the-depth-not-the-margin.md) | proposed | 1 | 2026-08-17 |
-| 0049 | [Distributor services are our baseline, not our differentiator](0049-distributor-services-are-our-baseline.md) | proposed | 1 | 2026-08-17 |
-| 0050 | [The differentiator is owning the brands, the factory and what the products do](0050-the-differentiator-is-owning-the-factory.md) | proposed | 1 | 2026-08-17 |
-| 0051 | [The named technical contact is bounded](0051-the-named-technical-contact-is-bounded.md) | proposed | 1 | 2026-08-17 |
-
-## Brands and alignment
-
-| ADR | Decision | Status | Ver | Revised |
-|---|---|---|---:|---|
-| 0052 | [Acoustic treatment design belongs to C-ATS](0052-acoustic-design-belongs-to-c-ats.md) | proposed | 1 | 2026-08-17 |
-| 0053 | [No brand claims to be the most complex or critical part of the project](0053-no-superlative-arms-race.md) | proposed | 1 | 2026-08-17 |
-| 0054 | [DT is solutions for the architectural integration of technology, not the projection company](0054-dt-is-architectural-integration-not-projection.md) | proposed | 1 | 2026-08-17 |
-| 0055 | [Control is embedded in DT products, never a line item](0055-control-is-embedded-never-a-line-item.md) | proposed | 1 | 2026-08-17 |
-| 0056 | [The Scandinavian register applies group-wide: no superlative without a measurement](0056-the-scandinavian-register.md) | proposed | 1 | 2026-08-17 |
-| 0057 | [Never insinuate the dealer can't](0057-never-insinuate-the-dealer-cant.md) | proposed | 1 | 2026-08-17 |
-| 0058 | [Light Walls is deferred and worked separately](0058-light-walls-is-deferred.md) | proposed | 1 | 2026-08-17 |
-| 0059 | [Tools are never built around our own products; the report is the deliverable](0059-tools-are-never-built-around-our-own-products.md) | proposed | 1 | 2026-08-17 |
-
-## Markets and events
-
-| ADR | Decision | Status | Ver | Revised |
-|---|---|---|---:|---|
-| 0018 | [ISE is the show; CEDIA Expo is out; InfoComm is a possibility](0018-events.md) | proposed | 1 | 2026-08-16 |
-
-## Superseded
-
-| ADR | Decision | Superseded by |
-|---|---|---|
-| 0007 | [There is no field force; content does the rep's job, and cannot do four parts of it](0007-no-field-force-content-is-the-rep.md) | 19 |
-| 0008 | [One content estate; the unit is a question answered well; authorship is never scaled](0008-the-unit-of-content-and-the-one-estate.md) | 22 |
-| 0009 | [Judgement stays with the owner, labour moves to Claude, and there is no cadence ceremony](0009-how-content-gets-made.md) | 27 |
-| 0010 | [Gateways, pathways, many hooks, many bites — and the destination is engine](0010-the-journey-runs-as-a-process.md) | 31 |
-| 0011 | [Answers live on each brand's own site; every brand gets a channel; communication has no start and no end](0011-per-brand-homes-channels-and-cadence.md) | 35 |
-| 0013 | [Websites and social restart; URLs, indexed pages and channel history are kept](0013-restart-the-presentation-keep-the-discoverability.md) | 37 |
-| 0014 | [A schema before documentation; engine owns the mechanical layer; definition comes first](0014-the-product-record-schema-first.md) | 39 |
-| 0015 | [Support is a documentation problem; the debt is DT's, by mechanism not SKU](0015-documentation-is-the-load-bearing-content.md) | 44 |
-| 0016 | [Spend the depth, not the margin; no ledgers; and the differentiator is owning the factory](0016-the-partner-programme.md) | 48 |
-| 0017 | [Who owns what between adjacent brands, and the register they all share](0017-brand-alignment-and-voice.md) | 52 |

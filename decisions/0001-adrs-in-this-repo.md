@@ -62,9 +62,22 @@ by `scripts/adr_catalogue.py`. *The hand-maintained equivalent in the platform d
 in three months, with nine rows disagreeing with their own files. A hand-maintained index here would rot
 faster, because this repo has fewer readers.*
 
-**6. Consolidate; do not sprawl.** `proposals.md`'s ~60 entries do **not** become ~60 ADRs. They group into
-coherent decisions — the distributor position is one ADR, not eleven `C1x` rows. *The platform learned this
-the expensive way: 70 ADRs consolidated to ~19 plus four standing.*
+**6. An ADR belongs to one functional area, and is written when a decision is made in it — never scraped out
+of a pile afterwards.** The areas are **Group · Motion · Brand · Registers · Evidence · Operations** (Neil,
+2026-08-17).
+
+> **⚠ This decision is written from a failure, on 2026-08-16.** `proposals.md`'s ~60 entries were extracted
+> into 18 ADRs, then split into 59, **by script, from a template**. Each was frontmatter, a boilerplate status
+> line, one bolded sentence and a provenance footer — **no context, no consequences, no reasoning.** Neil:
+> *"rarely did I see a worse interpretation."* **All 58 were deleted; only this ADR survives.**
+>
+> **What went wrong is worth keeping:** the source documents already held the reasoning, and the extraction
+> threw it away and kept the slogan. **An ADR is a document — the context that made the decision necessary,
+> the decision, and what follows.** A one-line restatement of something already written better elsewhere is
+> not an ADR; it is a worse copy with a number on it.
+>
+> **So: no retrospective ADR sweeps.** Where a position already lives in a group document, it stays there. An
+> ADR is written when something is actually decided, by the person deciding it.
 
 **7. SRND OS remains the source of record for what is decided.** ADRs are how a decision is **made and
 recorded here**; what is accepted belongs in SRND OS. **This repo is not a second decision database**, which
