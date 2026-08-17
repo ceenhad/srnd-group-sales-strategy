@@ -49,10 +49,19 @@ memory.
 
 ## Where it goes
 
-Each brand owns its channels: its own site with the knowledge base (the canonical home of the answers), its
-own YouTube channel, its own mail stream sent from engine to dealers who chose it. The group channel
-carries group material only. The store is where every path ultimately points. Social carries the hooks, not
-the substance. We feed the channels with history in them rather than starting new ones.
+Each brand owns its channels, and the cadence differs by channel (Neil, 2026-08-17, Q49):
+
+- **Social carries the daily drumbeat, three platforms as one** — LinkedIn, Facebook and Instagram get the
+  same content, scheduled, because a decent schedule tool makes three no more effort than one. Social
+  carries the hooks, not the substance.
+- **The brand site's knowledge base** is the canonical home of the answers, and **the brand YouTube
+  channel** carries the video — both run weekly, not daily.
+- **The brand mail stream** is the direct channel and follows **one group email policy** (drafted in
+  `motion/content.md`, awaiting Neil's correction) — sent from engine once engine mail exists, from the
+  existing tool with brand segmentation until then.
+
+The group channel carries group material only. The store is where every path ultimately points. We feed the
+channels with history in them rather than starting new ones.
 
 ## How it's created
 
