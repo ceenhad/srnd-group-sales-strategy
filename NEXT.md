@@ -1,7 +1,12 @@
 # What happens next
 
-*Plan **rev 1**, set 2026-08-04 — see the Status section of [`README.md`](README.md) for what the marker
-covers. Amend this file; do not re-argue it.*
+**Status: needs its own session** — Neil, 2026-08-17.
+
+> *Plan **rev 1** was set 2026-08-04. **Too much has moved since for this to be patched**: engagement is
+> priority one and breadth is its symptom, the six functional areas replaced the old structure, `decided.md`
+> was emptied with SRND OS as the source of record, and the service, sensing and LWCP positions all changed.
+> **Read rev 1 as the plan that was, not the plan that is.** It is reworked deliberately in a session of its
+> own rather than amended in passing.*
 
 *The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The sales motion's
 five components are designed group level down in [`motion/motion-design.md`](motion/motion-design.md) —

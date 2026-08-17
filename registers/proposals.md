@@ -40,6 +40,20 @@ source text until the ADRs are accepted or rejected** — then it goes.
 | `B1`–`B8` | **0017** brand alignment and voice |
 | `E1`–`E3` | **0018** events |
 
+## ▶ Fold into the area documents — Neil, 2026-08-17
+
+**Not another ADR sweep** (banned by `decisions/0001` §6) **and not kept as a parallel record.** Each entry is
+checked against the area document that owns its subject:
+
+- **If the position is already there** — most of them are, because these were written *from* those documents —
+  **the entry is redundant and goes.**
+- **If it is genuinely orphaned**, it moves into the owning area document as part of that document's own text,
+  in that document's voice.
+- **This file is deleted when the pass is done.** *Tracked as `DOC-29`.*
+
+**The discipline that makes this safe:** the area document is the home, so nothing is restated in two places —
+which is what `decided.md` became.
+
 ## What to do with it
 
 **Each entry needs one of four answers: *yours · not yours · reword · not yet*.** Most are answerable in a
