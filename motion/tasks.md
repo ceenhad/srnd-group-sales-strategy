@@ -30,7 +30,7 @@ Four things per task, and the order matters:
 |---|---|---|
 | **`automated`** | Runs today with no person in the loop — engine, the store, the tools, published content | It happens whether or not anyone is at their desk |
 | **`automatable`** | Could run with no person, given the record filled and engine's existing capability. **Not built** | The blocker is build or data, not judgement |
-| **`assisted`** | A person is required, but the system carries most of the labour. **The judgement stays; the work moves** | Minutes of a person, not hours — the production-line split (`../decided.md` S5, S24) |
+| **`assisted`** | A person is required, but the system carries most of the labour. **The judgement stays; the work moves** | Minutes of a person, not hours — the production-line split (S5 `sales-motion.md`, S24 `motion-design.md`) |
 | **`manual`** | Irreducibly human. No amount of system removes it | Automating it would destroy the thing that makes it work |
 
 **`assisted` is not a halfway house — it is the design.** The whole model rests on separating the judgement from
@@ -59,7 +59,7 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S09` | **Follow up through the project's lead time** — projects run long, so quote to order is often months of staying present without nagging | **`automatable`** | `person` | Stage 4 · **the gap between G4's quote and its order** | `M2` `N6` `O3` | **added by Neil, 2026-08-02** |
 | `T-S10` | Handle objections | `automatable` **once group 05 is filled** | `content` | Stage 3 · G3 | `R1` `X1`–`X5` `G1` | claim |
 | `T-S11` | **Defend against a named competitor** | `assisted` — no comparison material exists to defend with | `person` | Stage 3 · G3 | `X1`–`X5`; **`X6` reads from engine's pipeline** | claim |
-| `T-S12` | Negotiate terms | `manual` | `person` | Stage 4 | `M4` | claim — *largely settled: pricing gated, no dealer credit (`../decided.md` C8)* |
+| `T-S12` | Negotiate terms | `manual` | `person` | Stage 4 | `M4` | claim — *largely settled: pricing gated, no direct dealer credit (C8, `../group-strategy/commercial-model.md`)* |
 | `T-S13` | **Close — want the order and ask for it** | **`manual`** | `person` — **unnamed** (component 5) | Stage 4 · G4 | `M4` `O3` | claim |
 | `T-S14` | Onboard the account | **`automated`** + assisted welcome | `store/engine` | G3→G4 | `M1` `L1` | claim |
 | `T-S15` | Make the first install succeed | `assisted` | `content` — manuals, how-do-you-do-X | Stage 5 · G5 | `L1`–`L3` `R4` `N3` | claim |
@@ -68,11 +68,11 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-S18` | Cross-sell the rest of the group | **`automatable`** | the adjacency prompt at the spec moment | Stage 6 · G6 | `D10` `N5` `N6` `O3` | **confirmed (Neil)** |
 | `T-S19` | Prompt the reorder | `automatable` | `store/engine` triggers | Stage 6 | `M1` `M2` | claim |
 | `T-S20` | Recover a failure | **`manual`** | `person`, thinly covered | Stage 5 | `R4` `L4` `L5` → `N8` `X6` | claim |
-| `T-S21` | Train the dealer's staff | `automatable` | `content` — assembled from the corpus (`../decided.md` S12) | Stage 5–6 | `A6`–`A9` `N1`–`N4` | claim — *parked with the training programme* |
+| `T-S21` | Train the dealer's staff | `automatable` | `content` — assembled from the corpus (S12, `sales-motion.md`) | Stage 5–6 | `A6`–`A9` `N1`–`N4` | claim — *parked with the training programme* |
 | `T-S22` | Pipeline and forecast | **`automated`** | `store/engine` | — | — | claim |
 | `T-S23` | **Bring back market intelligence** | **`assisted`** — *possibly `automatable`; no worse than assisted* | `person` | — | feeds `X1`–`X5`; **win/loss already in engine** | **confirmed (Neil)** |
 | `T-S24` | **Feed product development** | `assisted` — capture manual, aggregation automatic | `person` | — | feeds `X4` `N9` | claim |
-| `T-S25` | Events and keeping relationships warm | `manual` | `person` | Stage 1–2, 6 | `H2` | claim — *ISE booked; CEDIA out (`../decided.md` E1–E3)* |
+| `T-S25` | Events and keeping relationships warm | `manual` | `person` | Stage 1–2, 6 | `H2` | claim — *ISE booked; CEDIA out (E1–E3, `../evidence/current-state.md`)* |
 | `T-S26` | Territory planning | **`assisted`** | `person` | — | `C2` | **confirmed (Neil)** |
 | `T-S27` | **The novel problem** — *"can you do this impossible project?"* | **`manual`** | the authority | Stage 3 | feeds `N8` `N9` | claim — *the business's best work* |
 | `T-S28` | Recognition and thanks | **`manual`** | `person` | Stage 6 | — | claim — *acts, not publications* |
@@ -87,7 +87,7 @@ Nothing cited these IDs yet; from here they are stable.**
 | `T-M02` | **Competitor tracking** | `automatable` in part — public sources | `person` | Component 5 | feeds `X1`–`X4` | claim |
 | `T-M03` | Positioning and messaging | **`assisted`** | the owner — done, in `brands/<brand>/positioning.md` | — | `D1` `O1`–`O4` → `G2` | **confirmed (Neil)** |
 | `T-M04` | Campaign planning | `assisted` | the pathways + hook matrix | Component 1 | `H1` `O1` `R1` | claim |
-| `T-M05` | **Content production** | **`assisted`** — drafting automated, truth-check never | **the production line** (component 2) | Every stage | **the whole record** | **confirmed** (`../decided.md` S24) |
+| `T-M05` | **Content production** | **`assisted`** — drafting automated, truth-check never | **the production line** (component 2) | Every stage | **the whole record** | **confirmed** (S24, `motion-design.md`) |
 | `T-M06` | Editorial calendar and cadence | `automatable` | the churn queue | Component 2 | `R3` `N3` | claim |
 | `T-M07` | Channel management | `assisted` | per brand | Component 4 | — | claim |
 | `T-M08` | **Discoverability — search *and* AI answers** | `assisted` | `content`, **owner unclear** | Stage 1 · G1 | **`O1` `N3`** | claim |

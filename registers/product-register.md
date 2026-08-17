@@ -48,7 +48,7 @@ differs, engine is right and this file is wrong — reconciling the two is `regi
 
 - **Three records out of thirty-eight.** The debt was known to be large; it is now a number, and the number is the
   argument for the mechanism-not-SKU rule — thirty-eight is finite, fifty-plus DT SKUs plus everything else is not.
-- **The debt is concentrated exactly where `decided.md` S11a said it was.** C-ATS is the only brand with anything
+- **The debt is concentrated exactly where S11a (`../motion/sales-motion.md`) said it was.** C-ATS is the only brand with anything
   filled; DT carries the volume; Fabric Walls, Light Walls and Pro-Fi have nothing at all.
 - **Fifteen rows are `current` *and* `none`** — sold today, described on a live site, with no canonical account of
   what they are. **That combination is the gap doing the damage**, and it is why every page describes the same
@@ -148,7 +148,7 @@ Kits → Levels — is already a record scope hierarchy; it has simply never bee
 
 ## Light Walls — no records
 
-*Deferred as a brand (`decided.md` B7), and the roster is recorded so the deferral is a choice with a known scope
+*Deferred as a brand (B7, `../group-strategy/the-group-play.md`), and the roster is recorded so the deferral is a choice with a known scope
 rather than a blank.*
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
@@ -210,7 +210,7 @@ they will ever be, and it is what the Screen Wall shows the cost of skipping.
 
 ## The knowledge gap — what the record shows the moment you look
 
-*Added 2026-08-02. **Content is the sales rep** (`decided.md` S1–S9), and the production line's step 1 is
+*Added 2026-08-02. **Content is the sales rep** (S1–S9, `../motion/sales-motion.md`), and the production line's step 1 is
 *"substance in — the atoms that already exist: **the product records**…"* with Claude multiplying pieces from that
 substance and never inventing claims (`motion/motion-design.md` component 2). **So the line's fuel tank is this
 register.** Reading it as fuel rather than as inventory is what this section does, and the picture is worse than the
@@ -268,7 +268,7 @@ reading of the products.
 2. **It is the input to reconciliation with engine** (`registers/backlog.md` DOC-12). A roster to hold up against engine's,
    rather than a conversation about whether one exists.
 3. **It says what cannot be generated yet, and why.** Every `none` row is a brand page, a store listing and a
-   campaign that currently has no canonical source — which is `decided.md` S19 restated as a list.
+   campaign that currently has no canonical source — which is S19 (`../motion/content.md`) restated as a list.
 4. **It is amended, not re-argued.** New products get a row when they get a SKU; a filled record changes its state
    here and nowhere else.
 

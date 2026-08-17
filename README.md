@@ -138,7 +138,7 @@ beneath those, and the product record every one of them reads from. The visual s
 What rev 1 does *not* mean is that the contents are verified. Most of the task and work-item rows are claims
 assembled from these documents rather than from watching the work happen, and they say so where they stand.
 Rev 1 is the shape being fixed, not the facts. **From here the plan is amended, not re-argued** — evidence
-lands against a decision or an open item, and a decision changes only as a dated reversal in `decided.md`.
+lands against a decision or an open item, and a decision changes only when Neil says it changes — SRND OS is the source of record for decisions.
 
 What rev 1 produced that the repo did not have before is an **order**, in `NEXT.md`: ask engine, fill the
 record, open the routes, build the primitives.

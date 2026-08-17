@@ -24,7 +24,7 @@ strike.
   complete; the Monday CRM records their ownership historically. **Worth knowing before reading account ownership as
   live coverage** — 244 of 547 owned accounts sit with people who are gone.
 - Factory in Kirkbymoorside, North Yorkshire. **[?]** headcount, and who else touches customer contact.
-- **No field sales force**, and none being sought (`decided.md` S1).
+- **No field sales force**, and none being sought (S1; `../group-strategy/commercial-model.md`).
 
 ### How business actually arrives
 
@@ -249,7 +249,7 @@ while still occupying the territory.
   - **▲ Corrected and extended, 2026-08-15 (Neil).** Credit *is* available to dealers — **just not from us:
     Iwoca Pay is offered at the store as a third-party credit route.** So "no credit accounts" is about our
     balance sheet, not about the dealer's options.
-    - **⚠ And this was already recorded, four days earlier.** `decided.md`'s Reversals log, **2026-08-12**:
+    - **⚠ And this was already recorded, four days earlier.** the old `decided.md`'s Reversals log, **2026-08-12** (the correction now lives in `../group-strategy/commercial-model.md`):
       *"C8 softened… a **UK-only 90-day interest-free facility is provided through IWOCA** — a third-party
       finance provider, unavailable outside the UK. Raised as a conflict by the srnd-os promotion sync
       (2026-08-11) and resolved by Simon the same day."* **So this was a rediscovery, not a discovery** — and
@@ -282,7 +282,7 @@ while still occupying the territory.
 - Cross-selling is poor while the group thesis depends on it.
 
 *(Two entries were struck from this list on 2026-08-02 — follow-up already happens, and engine holds the spec
-and project data. Recorded in `decided.md`, Reversals.)*
+and project data. Recorded as a reversal, 2026-08-02.)*
 
 ---
 
@@ -301,7 +301,7 @@ and project data. Recorded in `decided.md`, Reversals.)*
 
 | Property | State |
 |---|---|
-| `srnd.group` | Live; built ad hoc, to be restarted (`decided.md` S10) |
+| `srnd.group` | Live; built ad hoc, to be restarted (S10, `../motion/content.md`) |
 | Brand sites (DT, Fabric Walls, Light Walls, C-ATS, Pro-Fi) | Live; same |
 | `srnd.store` | Live, trade, gated pricing |
 | `cinema-store.com` | Live but a test, mid clean-up |
@@ -396,7 +396,7 @@ read as the same thing. To be filled in.*
 | Registrations per period | **[to come]** | | **[?]** |
 
 *Note also, and it needs confirming: **"various distributors" implies live distributor routes today**, which sits
-alongside the direct-first decision (`decided.md` C1) rather than contradicting it — that decision governs new
+alongside the direct-first decision (C1, `../group-strategy/commercial-model.md`) rather than contradicting it — that decision governs new
 appointments. What exists now should be listed here rather than assumed away.*
 
 ## What to do with this

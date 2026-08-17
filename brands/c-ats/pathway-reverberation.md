@@ -1,6 +1,6 @@
 # C-ATS — the reverberation pathway (the first, and the template)
 
-*The first content pathway written end to end (`../../motion/motion-design.md`; `../../decided.md` S22;
+*The first content pathway written end to end (S22, `../../motion/motion-design.md`;
 register JNY-2). One entry door: the dealer whose client's room sounds wrong — reverberation — and the panel
 that answers it, the **REV-CP**. Chosen because every slot's material either exists or is already written, so
 this is **assembly, not creation**. Each slot names the piece, its one job, its honest state, and the handoff
@@ -30,7 +30,7 @@ panels, easy to specify, quick to prove — which is exactly what the journey as
 
 ## The hook matrix — slot 1 is a set, not a piece
 
-*Per the hook layer (`../../motion/motion-design.md`; `../../decided.md` S23): many hooks per door,
+*Per the hook layer (S23, `../../motion/motion-design.md`): many hooks per door,
 categorised by appeal, placed where strangers look, each naming its destination. **These are candidate
 angles, not copy** — every one is backed by real substance already in the record, and the wording is an owner's
 to set. All hand to slot 2.*

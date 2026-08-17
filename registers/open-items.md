@@ -3,7 +3,7 @@
 Group-level decisions and build order. Brand-specific open items live in each
 `brands/<brand>/registers/open-items.md`.
 
-> **What is *settled* lives in `decided.md`, not here.** This file is the open half of the ledger. New data lands
+> **What is *settled* lives in SRND OS and the area documents, not here.** This file is the open half of the ledger. New data lands
 > as evidence against an item; it does not reopen a closed decision (`CLAUDE.md`).
 
 ## Stress test — re-run 2026-07-31, against what is now decided
@@ -14,7 +14,7 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
 
 ### Closed since the first test
 
-- **The distributor fork** — settled (`decided.md` C1a–C1f). Sales arm, dead appointments removed, dealer-
+- **The distributor fork** — settled (C1a–C1f, `../group-strategy/commercial-model.md`). Sales arm, dead appointments removed, dealer-
   distributors treated as dealers, US direct.
 - **What the sales motion is** — settled (S1–S19). Content does the reach and proof, tools qualify, the spec
   conversation discovers, very few people ask.
@@ -29,7 +29,7 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
    (`brands/c-ats/install-critical-notes.md`) and publication is unblocked (S21). **Scope correction:** US entry
    into known dealers is a conversion problem needing terms rather than content (C1k), so it does not wait for
    this — which is good news, because it removes the worst dependency in the plan.
-2. **~~The plan depends on two unconfirmed roles.~~ Settled (`decided.md` S20)** — the responsibilities get fitted
+2. **~~The plan depends on two unconfirmed roles.~~ Settled (S20; who fills the roles is `questions.md` Q25)** — the responsibilities get fitted
    in as everyone's do, nothing comes off anyone's plate, and the rate is therefore a floor rather than a target.
    **What survives:** the model still rests on two people with no fallback, which is thinner than the field-sales
    model it replaced. Worth holding rather than solving.
@@ -52,7 +52,7 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
 8. **Price is no longer deferrable, and it has moved up this list in practice.** A dealer who bought DT through
    Apex-Tech knows what they used to pay. Approaching them direct without a settled position on what they now pay
    and what they make is a conversation that cannot be had twice — so **the price answer now gates the fastest
-   revenue in the strategy** (`decided.md` C1k). Along with support hours and credit terms, it is one of the three
+   revenue in the strategy** (C1k, `../group-strategy/commercial-model.md`). Along with support hours and credit terms, it is one of the three
    things a known US dealer will weigh.
 9. **Light Walls remains deferred**, so the whole-room claim is still four-fifths.
 10. **The partner-programme parity problem survives** in published material — "one relationship, whole room"
@@ -212,7 +212,7 @@ decisions rather than projects, and the lane does not start without them.
 1. **~~The marine panel has no absorption data of its own.~~ Corrected — a marine absorption coefficient sheet is
    published on `c-ats.co.uk`.** So the `panels.json` note is wrong as stated. What remains open is whether that
    sheet derives from the same BSRIA report or a separate test. Worth establishing, but not a data absence.
-2. **~~The REF-CP has two different absorption figures.~~ Resolved (`decided.md` S21)** — they are the two install
+2. **~~The REF-CP has two different absorption figures.~~ Resolved (S21; and Q46, 2026-08-17)** — they are the two install
    types, and the published chart already plots both as Reflection A and B. Published sheets are authoritative.
    *Remaining check: read the exact A and B values off the chart before tabulating them.*
    ~~Previously recorded as:~~ The default in `panels.json` comes
@@ -238,14 +238,14 @@ decisions rather than projects, and the lane does not start without them.
 *Twenty-one live appointments recorded in `evidence/current-state.md` (July 2026). This is data, not yet a decision, and
 it needs one.*
 
-**Mostly decided already** (`decided.md` C1a–C1f): the scope correction, removal of dead and 2×-failing
+**Mostly decided already** (C1a–C1f, `../group-strategy/commercial-model.md`): the scope correction, removal of dead and 2×-failing
 appointments, treating dealer-distributors as dealers, Screen Innovations as white label rather than a route to
 market, and the US as the priority territory approached directly with the whole group.
 
 **What remains open:**
 
 1. **The US support model — the only thing in the way.** Logistics are solved and spares run through a partner
-   warehouse (`decided.md` C1g), and the events question is closed: CEDIA Expo is out, ISE is the show, InfoComm
+   warehouse (C1g, `../group-strategy/commercial-model.md`), and the events question is closed: CEDIA Expo is out, ISE is the show, InfoComm
    possibly next year. So US entry is content-led, which suits the model — and **support is the open question.**
    Worked into four tiers in `NEXT.md` lane 7. The two things genuinely undecided inside it:
    - **Remote diagnostics.** DT's control platform is the un-copyable half of the moat and could double as the
@@ -409,7 +409,7 @@ rather than two**, and several things change:
   audit trail. **Consolidation is the context those were always waiting for.**
 - **The capture routes (`SYS-1`) get their home.** Their whole premise was *"a route is a field on a screen people
   already use"* — which only holds if the screen is engine, and everyone now works in engine.
-- **`decided.md` S29** put the canonical home for answers on each brand's own site. **If sites become
+- **S29** (`../motion/motion-design.md`) put the canonical home for answers on each brand's own site. **If sites become
   engine-coupled, that decision needs re-reading** — not necessarily reversing, but it was made assuming the site was
   separate.
 - **The one-strategy-applied conclusion holds and gets easier.** One strategy over one platform is the same argument
@@ -651,7 +651,7 @@ margin and buys nothing.
   treatment design, acoustic verification, isolation design, isolation verification — all four also absent from
   the live C-ATS site); and **five rungs are neither paid nor free but unclassified**, three of them inside the
   partner programme. Tracked as `XS-5` and `XS-6` in `registers/backlog.md`.
-  **Constraint on the manner, not the price:** `decided.md` B6 — the route is offered, never a refusal, and
+  **Constraint on the manner, not the price:** B6 (`../brands/c-ats/positioning.md`) — the route is offered, never a refusal, and
   never an implication that the dealer can't.
 
 - ~~**▲ Is Apex-Tech actually gone?**~~ — **asked and answered, 2026-08-13. `C1f` and `C1j` stand unchanged.** The

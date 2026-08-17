@@ -290,7 +290,7 @@ The largest ten, with their last recorded order:
 | LiveSmarter Ltd | £69,060 | 2022-02-17 | 4 |
 | BATH CI | £58,043 | 2022-06-02 | 6 |
 
-**This is the same argument `decided.md` C1j already makes about the US, applied at home:** *"a resigned
+**This is the same argument C1j (`../group-strategy/commercial-model.md`) already makes about the US, applied at home:** *"a resigned
 distributor's dealers become unserved, not absent."* These are dealers who bought from this business — several of
 them across five or six lines — and who have no route to it now. **`C1j` calls that pattern "the fastest revenue in
 the strategy" and "not dependent on the content programme."** The same reasoning holds here, and unlike the US list
@@ -463,12 +463,12 @@ its total YTD is down only 9 % (£241,685 → £219,539), because non-Apex reven
 non-Apex dealers against nineteen or twenty in 2022–24 — so the exposure now is breadth, not the missing distributor.
 
 **The repo says something different.** `evidence/current-state.md` records Apex-Tech as having **resigned from DT**;
-`decided.md` **C1f** treats the US as *"open and unencumbered"* because of it; **C1j** calls the Apex dealer base
+**C1f** (`../group-strategy/commercial-model.md`) treats the US as *"open and unencumbered"* because of it; **C1j** calls the Apex dealer base
 *"unserved"* and *"the fastest revenue in the strategy"*; `NEXT.md` lane 7 opens on *"the largest market in the
 world is unrepresented."* **Workstream W2 (`US-1`–`US-6`) rests on that reading.**
 
 **The size of the dependency is still worth stating plainly: 31.5 % of DT's external revenue over seven years was one
-counterparty, and it was the only dealer that ever bought the whole range.** `decided.md` C1j describes that dealer
+counterparty, and it was the only dealer that ever bought the whole range.** C1j describes that dealer
 base as *"warm"* and its recovery as *"the fastest revenue in the strategy"* — **on these numbers that is right about
 the prize, and the window is now open rather than closing.** Those dealers lost their supply route on 1 July and are
 being tidied up by a departing distributor as we speak.
@@ -1069,7 +1069,7 @@ measured erosion is what it cost.
 ### 3. Why the Cinema Store exists
 
 **Direct to a consumer holds all three steps — 66.7 %, £2.00 per £1 of cost, more than three times the distributor
-route.** That is the answer to a question the repo describes structurally but never economically: `decided.md` keeps
+route.** That is the answer to a question the repo describes structurally but never economically: the group play keeps
 the consumer proposition as DIY home cinema deliberately, and `group-strategy/commercial-model.md` gives Cinema Store its
 own product list — *"a Cinema Store product is a specific product for that channel"*, with the DIY range and plastic
 track exclusive to it.

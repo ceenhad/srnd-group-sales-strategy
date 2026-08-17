@@ -79,7 +79,7 @@ group story**, rather than create from nothing — the opposite of the thin bran
 
 *Both read directly: `www.c-ats.co.uk` (WordPress, © 2024) and `c-ats.myshopify.com` (Shopify, © 2026, generated
 rather than authored). Between them they are the two halves of the on-ramp → depth → contact structure
-(`../../decided.md` S15), and **neither is whole.**
+(S15, `../../motion/sales-motion.md`), and **neither is whole.**
 
 ## The old site: depth without an on-ramp
 
@@ -120,7 +120,7 @@ and it is a real advance.
 - **The 3 Rs has disappeared from the homepage.** The old site led with it. The new one does not mention it, nor
   the 50 mm depth. That is a regression on the brand's single most important positioning device.
 - **£0.00 on every item, publicly, with "Sale price / Regular price" labels.** Gating policy is right
-  (`../../decided.md` C4) but the presentation reads as broken or free, which is worse than no price at all.
+  (C4, `../../group-strategy/commercial-model.md`) but the presentation reads as broken or free, which is worse than no price at all.
 - **"Join our email list — get exclusive deals and early access to new products."** Consumer-retail register, and
   "exclusive deals" directly contradicts gated trade pricing.
 - **The Room Selector is still in the navigation**, though the decision was to remove it because it cheapens the

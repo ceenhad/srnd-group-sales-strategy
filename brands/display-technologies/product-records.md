@@ -1,7 +1,7 @@
 # Display Technologies — product records (skeleton)
 
 *The form in `../../registers/record-form.md`, applied to the DT range **by mechanism rather than by SKU**
-(`../../decided.md` S11a). Fifty-two live catalogue lines resolve into **twelve record scopes**, of which nine are
+(S11a, `../../motion/sales-motion.md`). Fifty-two live catalogue lines resolve into **twelve record scopes**, of which nine are
 sellable families documented below.*
 
 **What this file is: the definitional layer, filled from what the repo already holds — and every other field
@@ -46,7 +46,7 @@ question someone can be sent to answer rather than a project someone has to scop
 **Shared: 6 of 9 filled.**
 
 **The asset audit (`A1`–`A11`) is `[?]` for every family.** It has not been done, and it should not be guessed:
-manuals are known to be poor (`../../decided.md` S11) but "poor" is not a state the form accepts. **Auditing the
+manuals are known to be poor (S11, `../../motion/sales-motion.md`) but "poor" is not a state the form accepts. **Auditing the
 current documentation folder against the eleven asset types is perhaps an hour**, and it is the natural companion to
 confirming the family grouping below — same session, same person.
 

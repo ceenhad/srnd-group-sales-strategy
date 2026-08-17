@@ -197,7 +197,7 @@ Administrative rather than strategic, and in the way.
 ### Casting: three roles, three distinct jobs
 
 The sales side is specified as three roles — roles, never names: who fills each is a separate decision, and
-one person may hold more than one (`../decided.md` S27). They are not interchangeable, and the value comes
+one person may hold more than one (S27, 2026-08-01). They are not interchangeable, and the value comes
 from not treating them as such.
 
 - **The authority.** The face of the technical answer and the impossible project. This presence carries *we

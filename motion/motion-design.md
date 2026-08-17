@@ -2,10 +2,10 @@
 
 *A "sales motion" is simply **how a sale gets made, end to end, as a repeatable pattern**. For most companies
 in this trade that pattern is a rep; ours is content, the tools, the store and a very few people
-(`sales-motion.md`, `../decided.md` S1–S9 — committed). **The starting point is not the machinery — it is
+(`sales-motion.md` — S1–S9, committed). **The starting point is not the machinery — it is
 the buyer journey.** The journey is defined once, at group level, in `buyer-journey.md`: six stages from a
 dealer who has never heard of us to one who orders across the group. **And the proposition this document runs
-on** (Neil, 2026-07-31; `../decided.md` S22): define the journey clearly, identify the **gateways** between
+on** (Neil, 2026-07-31 — S22): define the journey clearly, identify the **gateways** between
 its stages, and generate **pathways of content** that move a dealer through each gateway — start to finish,
 then back round the loop — because most of a rep's job is pure mechanics, and mechanics can be turned into a
 process. This document does three things beneath the journey: it maps **what serves the dealer at each stage
@@ -14,7 +14,7 @@ content through them; and it designs the five pieces of machinery the pathways d
 here, at group level, with every brand inheriting the design and supplying the substance. No brand forks the loop, sets its own rate, or runs its
 own version. **Drafted for correction, not adoption** — strike what is wrong; the decisions only the owners
 can make are marked as decisions, not filled in. Almost everything below is assembled from positions
-already settled in `buyer-journey.md`, `content.md`, `sales-motion.md` and `../decided.md`; the
+already settled in `buyer-journey.md`, `content.md` and `sales-motion.md`; the
 assembly is what was missing.*
 
 ---
@@ -70,7 +70,7 @@ discipline).
 
 *G1 is where the journey is entered, and it is the one gateway where **volume** is part of the design. Like
 fishing, luck and timing have to combine — so the job is to have as many hooks in the water as the substance
-honestly supports (`../decided.md` S23).*
+honestly supports (S23).*
 
 - **Many hooks per product, and multiplying them is cheap.** A hook is a *variation*, not a new answer — the
   text-forward hook discipline of the campaign template (`content.md`) exists exactly for this. What is
@@ -184,7 +184,7 @@ triggers on a signal, not a calendar, because a year to first order is normal in
 
 ## Many bites per stage — the coin-pusher
 
-**A single touch rarely converts, at any stage** (`../decided.md` S26). One email doesn't generate; neither
+**A single touch rarely converts, at any stage** (S26). One email doesn't generate; neither
 does one article. Each stage is therefore worked as a **repertoire at a rhythm**: small touches, regular,
 value every time — the coin-pusher, little investments going in until the pile falls. Four consequences:
 
@@ -235,7 +235,7 @@ and the journey's health reads as funnel conversion per gateway rather than as a
 accordingly: the signal map includes source attribution on hooks, checked against what the store and engine
 already capture before anything is built.
 
-**Where it runs: engine, and that is the destination, not a footnote** (`../decided.md` S25). The end state
+**Where it runs: engine, and that is the destination, not a footnote** (S25). The end state
 is that most of this happens automatically on top of the CRM and the product database engine already holds:
 gateway signals observed, triggers fired, the queue churned, outputs logged, results applied. The standing
 rule holds — strategy here, operations there, and engine is never specified from this repo. **What engine is
@@ -251,7 +251,7 @@ JNY-1), what engine already models gets checked before any of it is designed twi
 
 ## Component 1 — The answer: the unit of the motion
 
-**The unit of work is one question, answered well, published where it can be found** (`../decided.md` S14).
+**The unit of work is one question, answered well, published where it can be found** (S14, `sales-motion.md`).
 Not a campaign, not a manual, not a video strategy — a question retired. Everything else in the motion exists
 to produce, place and compound these.
 
@@ -279,7 +279,7 @@ point of ingest, never later.
 **When an answer's job is done:** the question stops arriving. An owner answering a *published* question
 twice is a findability failure — a different and cheaper problem than the answer not existing.
 
-**The canonical-home map — answered (`../decided.md` S29, 2026-08-02): each brand's own site.** Every
+**The canonical-home map — answered (S29, 2026-08-02): each brand's own site.** Every
 answer lives canonically in its brand's knowledge base; one answer never lives in two places.
 `cinema-expert.com` is not the home — an assumption carried from the plan, struck.
 
@@ -291,7 +291,7 @@ to a person. And nothing about that touches the authorship rule (S8), because wh
 *substance*: every piece derives from something a human here actually decided, measured, wrote or said — the
 product records, the measured data, the archive, the settled positions in this repo. Claude multiplies
 pieces from that substance; it never invents claims. **Volume of pieces, never volume of assertions**
-(`../decided.md` S24 — the earlier floor-rate and role-confirmation ceremonies are struck; see the
+(S24 — the earlier floor-rate and role-confirmation ceremonies are struck; see the
 reversal).
 
 **The line, in four steps:**
@@ -327,7 +327,7 @@ fast; continuity, callbacks, a running conversation; be seen to change your mind
 
 **The casting — three people, three jobs, not interchangeable:**
 
-*Roles, never names (`../decided.md` S27): who fills each is a separate decision, and one person may hold
+*Roles, never names (S27): who fills each is a separate decision, and one person may hold
 more than one role.*
 
 - **The authority.** The technical answer, the impossible project, and later the only route to the
@@ -421,7 +421,7 @@ turn. One cascade, not six adoptions — and no brand's early results re-open th
 
 *All four resolved or struck in the decisions run of 2026-08-02: the canonical home is each brand's own
 site and every brand gets its own channel (S29); the spec-note and wanting-the-order items were struck —
-their premises were wrong, engine already holds the data and follow-up already happens (`../decided.md`,
-Reversals). Earlier, the floor rate and a formal editorial-ownership confirmation were struck as ceremony
+their premises were wrong, engine already holds the data and follow-up already happens (reversals of
+2026-08-02). Earlier, the floor rate and a formal editorial-ownership confirmation were struck as ceremony
 (reversal of 2026-07-31); the production line replaces them. What remains open group-wide lives in
 `../registers/backlog.md`, and the largest genuinely unprocessed piece is the commercial-terms discussion (US-2).*

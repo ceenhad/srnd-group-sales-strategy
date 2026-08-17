@@ -1,7 +1,7 @@
 # C-ATS — deployable copy
 
 *Ready to paste — but read its status correctly. **This is a by-product, not the direction.** It exists to
-demonstrate that copy falls out of a filled product record (`../../decided.md` S19) rather than being composed page
+demonstrate that copy falls out of a filled product record (S19, `../../motion/content.md`) rather than being composed page
 by page, and to remove a live embarrassment on the Shopify site. **The method is what matters; this is one output
 of it.** Do not treat copy production as the workstream.*
 

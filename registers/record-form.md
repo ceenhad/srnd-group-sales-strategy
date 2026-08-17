@@ -9,7 +9,7 @@ a record can be filled by anyone, diffed, scored for completeness, and read by a
 interpretation. Same discipline as `registers/backlog.md`: **IDs are stable and rows are regular** so the whole set can be
 lifted into engine when the process gets a system home.
 
-> **What the record is for.** **Content is the sales rep** (`decided.md` S1–S9), and the production line's step 1
+> **What the record is for.** **Content is the sales rep** (S1–S9, `../motion/sales-motion.md`), and the production line's step 1
 > is *"substance in — the atoms that already exist: **the product records**, the measured data, the archive…"*
 > with the standing rule that Claude *"multiplies pieces from that substance; it never invents claims"*
 > (`motion/motion-design.md`, component 2). **So the record is not a specification. It is the database the rep
@@ -99,7 +99,7 @@ anticipated, and those are the valuable ones.
 
 **One record per thing that behaves differently**, not per line item. Nine Dynamic masking screens that differ only
 in size are **one** record with the sizes in D8; a Hush Box and a port hole are two records because they solve
-different problems and fail differently. This is `decided.md` S11a applied to the form: DT's fifty-odd SKUs collapse
+different problems and fail differently. This is S11a (`../motion/sales-motion.md`) applied to the form: DT's fifty-odd SKUs collapse
 into roughly a dozen records, and the variant list lives in D8 where it belongs.
 
 **The test:** if two items would produce the same install manual and the same failure modes, they are one record.
@@ -200,7 +200,7 @@ copy as an attack.*
 ### 06 · Commercial — the dealer's business case — `M1`–`M5`
 
 *Rep job 1 and 4. **Not price.** Price is engine's, is partner-gated and is never published. This is the argument
-around it — and group commercial policy (terms, credit, territory) is not product data and stays in `decided.md`.*
+around it — and group commercial policy (terms, credit, territory) is not product data and stays at group level (`../group-strategy/commercial-model.md`).*
 
 | ID | Field | Fill rule |
 |---|---|---|
@@ -234,7 +234,7 @@ campaign**, which the production line forbids. This group holds the material; **
 |---|---|---|
 | `H1` | **Which appeals it can honestly carry** | Against the five: *more revenue · time saved · easier to do · better results · the problem named*. Each marked `carries — substance` or `empty`. **Marking one empty is as useful as filling it** — it stops a hook being stretched into a claim we cannot defend |
 | `H2` | **The single most interesting true thing about it** | Every product has one, and it is rarely what the datasheet leads with. C-ATS's ~300 mm tolerance sat unused for years |
-| `H3` | **What has actually bitten** | Hooks issued and which caught, source-tagged (`decided.md` S23). Turns hook volume from guesswork into evidence |
+| `H3` | **What has actually bitten** | Hooks issued and which caught, source-tagged (S23, `../motion/motion-design.md`). Turns hook volume from guesswork into evidence |
 
 ### 09 · Who decides on it — `W1`–`W2`
 
@@ -293,7 +293,7 @@ makes the debt countable.*
 
 | ID | Field | Fill rule |
 |---|---|---|
-| `K1` | **Record owner** | A role, never a name (`decided.md` S27) |
+| `K1` | **Record owner** | A role, never a name (S27, `../motion/content.md`) |
 | `K2` | **Last reviewed** | Date |
 | `K3` | **Review interval** | **A record with no review date is not complete** — a stale answer is worse than no answer, because a dealer acts on it |
 
@@ -331,7 +331,7 @@ consequences, both deliberate:
 | **Cross-sell prompt** (`registers/backlog.md` XS-1) | `D10` `D7` `O3` **`N5` `N6`** | Physical adjacency justifies it; **`N6` says when to say it**, which is the whole trick |
 | **The spec-conversation prompt list** | **`N5` `N6`** | Our only discovery channel, and it runs on timing knowledge (`NEXT.md` lane 4) |
 | **Dealer-facing sales material** — what they tell their client | **`N7`** | **Nothing in the estate produces this today.** It is the moat expressed as a deliverable |
-| **Training module** | `A6`–`A9` **`N1`–`N4`** | Assembled from the corpus (`decided.md` S12), never authored separately |
+| **Training module** | `A6`–`A9` **`N1`–`N4`** | Assembled from the corpus (S12, `../motion/sales-motion.md`), never authored separately |
 | **The hook matrix per door** (`registers/backlog.md` JNY-4) | **`H1` `H2`** `O1` `R1` | `H1` says which of the five appeals this product can honestly carry; **the matrix must not invent one it cannot** |
 | **Comparison content, per named rival** | **`X1`–`X5`** `G1` `G2` | `X4` (where they win) is what makes the other four believable |
 | **The switch approach** — a rival's dealer, a vacated territory | **`X5` `X1`** `M4` | The conversation that is not a cold pitch, because there is an incumbent |
@@ -541,7 +541,7 @@ is six triggers, five of which already fire every week (`registers/record-schema
    version that carries the authority — the substance stays human, the multiplication does not
    (`motion/motion-design.md` component 2). Filling `N3` by composition would be inventing claims, which the line
    forbids.
-6. **Completeness gates new products** (`decided.md` S16). A product without `D1`–`D10` and `G3` does not get a
+6. **Completeness gates new products** (S16, `record-schema.md`). A product without `D1`–`D10` and `G3` does not get a
    store listing. That is the only version of this that stops the debt returning.
 
 *Every field is a claim that some output needs it — a field no output needs should be struck, and a missing field

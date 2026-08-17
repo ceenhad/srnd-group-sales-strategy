@@ -202,7 +202,7 @@ opens accounts that do not. Treating US entry as a single motion is what would f
 
 Worth separating, because the two entries test different things. Recovering Apex-Tech's dealers proves nothing
 about the sales motion; it is relationship recovery. **The C-ATS half is the real test:** no legacy relationships,
-no body on the ground, no distributor and no trade event this year (`../decided.md` E1–E3), so the only instruments
+no body on the ground, no distributor and no trade event this year (E1–E3, `../evidence/current-state.md`), so the only instruments
 are the corpus, search and AI visibility, the trade press, and personal authority.
 
 **So the US is a controlled test of "content is the rep."** If it produces dealers, the model is validated for

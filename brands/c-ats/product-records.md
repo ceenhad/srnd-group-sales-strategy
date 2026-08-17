@@ -63,7 +63,7 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | **Box rule** | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
 | **Layout tolerance** | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
 | **Where they sit** | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
-| **Channel** | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (`../../decided.md` C5) |
+| **Channel** | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (C5, `../../group-strategy/commercial-model.md`) |
 | **Test basis** | BSRIA, BS EN ISO 354:2003, **free/unfixed mounting** — design-stage reference figures, not installed-effective values |
 | **Marketing status** | Current. REV-CP-12 is discontinued and must not be listed. The commercial cinema range is in development and must not be written up as shipping |
 | **Who specifies** (`W1`) | The integrator, typically with our help. Acoustic consultants write pre-tender specs on larger projects and are **not** a non-audience — the product is optimised for the integrator, which is a different question from who influences specification |
@@ -368,7 +368,7 @@ known**, which is the honest position: the audit itself has not been done, and i
 | `A7` | Commissioning guide | `[?]` | Arguably `n/a` for passive panels — but the *design* is what needs verifying, and that is `CAT-07` |
 | `A8` | Fault-finding guide | `[?]` | The two known failure modes are documented in `install-critical-notes.md` but not as a guide |
 | `A9` | "How do you do X" video | **`missing`** | Three are specified and unrecorded (`../../registers/backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
-| `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (`../../decided.md` S12) |
+| `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (S12, `../../motion/sales-motion.md`) |
 | `A11` | Spares & service | `[?]` | |
 
 **Filling this table is perhaps twenty minutes with the documentation folder open**, and it converts every "the
@@ -389,7 +389,7 @@ Six fields are unfilled on all three panels, and **the pattern matters more than
 **Three consequences, and the first one changes a backlog item.**
 
 - **`../../registers/backlog.md` DOC-13 cannot complete as written.** It asks for schema groups 1 and 2 filled so site copy
-  generates from the record (`../../decided.md` S19). **Group 1 is done; group 2 is half-blocked on parked
+  generates from the record (S19, `../../motion/content.md`). **Group 1 is done; group 2 is half-blocked on parked
   buyer-truth.** That is not a reason to compose the missing half — it is the reason the field exists. The honest
   move is to generate the copy that `O2` and `O4` support and leave the `O1` slot empty until a dealer fills it.
 - **One input unblocks eleven fields across three products.** `O1`, `O3` and `W2` are the same question asked three

@@ -47,10 +47,10 @@ shape. Nothing here is settled until you say so.*
 | 8 ⚑ | **`G2` — what each brand will/won't say** (`T-M03`) | Inherit each brand's documented hard don'ts (its brand-truth `CLAUDE.md`) plus the group rule: no superlative without a measurement | **Brand truth**, stays per brand (e.g. C-ATS: scattering never diffusion, no invented figures, no supplier names). Confirm nothing's missing | **CONFIRMED in principle — build item.** The rule stands (inherit each brand's `CLAUDE.md` hard don'ts + no superlative without a measurement), but "none of this is done" — the actual per-brand `G2` lists don't exist yet. Not a settled artefact. **▶ Built — session 6; six lists, surfaced from existing rules. Needs only the "nothing missing" confirmation.** |
 | 9 | **Collateral re-review cadence** (`T-M10`) | Re-review on change (a product or data change triggers it) with an annual backstop | Event-driven beats calendar-driven | **ACCEPTED** as proposed. |
 | 10 | **Floor rate** — sustainable minimum publish cadence (`T-M06`) | A **weekly** floor, derived from what the studio already produces | `NEXT.md` lane 6: "a weekly floor met all year beats a fortnightly aspiration abandoned in March." The number is yours; weekly is the shape | **RESET.** "If you take all the content needed it's daily per brand" — the actual demand is daily per brand, servable only by the record + AI production line, not by the studio's current batch pace. The owner's batch model is unchanged (owner minutes stay at the answer step); daily-per-brand is the production system's target, not an owner promise. Both halves stand as recorded. **▶ Sized and worked — session 4, which also proposes the floor be set in *answers per month* rather than publications.** |
-| 11 | **Channel-fit rules** (`T-M07`) | Publish to **brand** channels, not the group one; short argument-making pieces to video, method/data to the knowledge base; group channel = group-level only | `decided.md` S29; DT's channel carries ~¾ of the audience | **ACCEPTED** as proposed. |
+| 11 | **Channel-fit rules** (`T-M07`) | Publish to **brand** channels, not the group one; short argument-making pieces to video, method/data to the knowledge base; group channel = group-level only | S29 (`motion-design.md`); DT's channel carries ~¾ of the audience | **ACCEPTED** as proposed. |
 | 12 | **Follow-up interval + stop rule** (`T-S09`) | A touch roughly every 30 days through the quote-to-order window; hand to a person as the decision date nears or after N unanswered touches; stop at the order or an explicit no | The lead-time build, `TSK-3`. Interval matched to project length | **ACCEPTED, with refinement.** 30-day default via the one-tap status email (`operations/engine-as-hub.md` §1 Q4), and the receiver adjusts their own next-contact interval — "let receiver adjust when they next want to hear." Two ignored pokes escalate to a human call; stop at order or explicit no. |
 | 13 | **Post-event note minimum** (`T-S25`) | Per contact: who, which account, what they were unsure about, what they were afraid of, the next step | Mirrors the `T-S06` discovery capture (`NEXT.md` lane 4) | **ACCEPTED** as proposed. |
-| 14 | **Recognition milestones** (`T-S28`) | First order · a big-£ threshold (the £500k-dealer class) · an Nth-order or anniversary mark · a standout project | Signal-triggered, never a calendar (`decided.md` S28). Record side: `REC-11` | **ACCEPTED** as proposed. |
+| 14 | **Recognition milestones** (`T-S28`) | First order · a big-£ threshold (the £500k-dealer class) · an Nth-order or anniversary mark · a standout project | Signal-triggered, never a calendar (S28, `motion-design.md`). Record side: `REC-11` | **ACCEPTED** as proposed. |
 | 15 | **Lead routing** (`T-M09`) | Explicit ask, a qualified high-value lead, or a live project → a person; everything else → the nurture sequence | Tunable once volumes are known | **ACCEPTED** as proposed. |
 | 16 | **Reporting period + headline signals** (`T-M15`) | Monthly; headline = the gateway signals `G1`–`G6`, plus the cross-brand-accounts number (`FACT-1`) | The fixed set is what makes periods comparable | **AMENDED.** "Live anytime and emailed on a Monday morning" — the KPI dashboard (`operations/engine-as-hub.md` §1) live in engine at any time, plus a Monday-morning email digest. Headline content is the six-question KPI set (Q1–Q6), not the `G1`–`G6`/`FACT-1` default. The digest is another engine-owned-mail use case. |
 
@@ -204,7 +204,7 @@ size-derived band still prohibited as inputs.
 ## Session 2 — the pre-sales / consulting boundary *(standard 2 · `T-S04`, and a new open decision)*
 
 **The question.** Where does free pre-sales end and paid consulting begin — and how is that line crossed inside
-a live conversation without breaking `decided.md` B6 (*never insinuate the dealer can't; the design service is
+a live conversation without breaking B6 (`../brands/c-ats/positioning.md`) (*never insinuate the dealer can't; the design service is
 their choice, never a rescue*)?
 
 ### What the repo already settles, unassembled
@@ -622,7 +622,7 @@ the record** — which is the whole argument of step 3 arriving at the content l
 
 ### ⚠ This whole session rests on a concept that was already struck — found 2026-08-16
 
-**There is no floor rate, and there has not been one since 2026-07-31.** `decided.md` **S24**: *"**No cadence
+**There is no floor rate, and there has not been one since 2026-07-31.** **S24** (now `motion-design.md`): *"**No cadence
 ceremony: no set floor rate**, no formal role confirmations."* And the Reversals entry says it twice: *"the
 ceremony half of S20 — a formally set floor rate and a formal confirmation of editorial ownership — is struck:
 neither was a decision anybody needed. **Production volume comes from the Claude-assisted line instead**
@@ -721,7 +721,7 @@ is, or the file it names should exist.**
 - **Never publish pricing** — partner or end-user — anywhere.
 - **Never name material suppliers, manufacturing partners or OEM relationships.** *One explicit exception:
   Fabric Walls' customer-chosen branded fabrics (below).*
-- **Never imply the dealer can't.** `decided.md` B6, and it recurs independently in three brands' own rules.
+- **Never imply the dealer can't.** B6 (`../brands/c-ats/positioning.md`), and it recurs independently in three brands' own rules.
 - **Never name a confidential client, and never hint in a way that identifies one.** Deployment depth is
   implied, never itemised (`NEXT.md` lane 1).
 
