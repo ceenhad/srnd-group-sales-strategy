@@ -140,7 +140,9 @@ big-ticket carried lines** (the Komodo runs at 60% received, and that is the ord
 per project milestone, living in accounting.
 
 **Q6 — is the motion running?**
-Publications per period against **the floor** (the floor is undecided — see below) · sends per period and
+**Communications per brand per day against the once-a-day standard** (Neil, 2026-08-17, `../registers/questions.md`
+Q48: every brand communicates something through our channels at least once a day — that is marketing; sales is
+real conversations with people as often as possible, also counted) · sends per period and
 brand-segmented share of sends (currently zero; the best send ever was the last one sent) · reach per output vs
 own baseline (63% open; explainers ~9,500 views; mechanisms 600–1,500; catalogue 1–26) · clicks by destination
 (store 946 · bookings 226 · c-ats.co.uk 6 · top single link a carried projector at 219, with no own-made
@@ -152,8 +154,9 @@ with no publication.
 
 ### Open decisions in §1
 
-1. **The floor rate, and who owns publication** — Neil and Olivier only (`registers/open-items.md`). The lane does not
-   start without them.
+1. ~~**The floor rate, and who owns publication**~~ **▶ Resolved 2026-08-17 (Q48):** the floor-rate framing is
+   dropped as noise. The standard is **one communication per brand per day**, and real sales conversations as
+   often as possible. The roles are Neil and Simon (Q25).
 2. **Threshold values** — the quiet-detection window and N days for status confirmation: set as starting
    hypotheses, tuned against the first quarter's false positives.
 3. **The poke email's wording, cadence cap and named sender** — settled at build time.
@@ -214,10 +217,10 @@ newsletter migration carries the 63%-open baseline.
 
 ### The decisions only Neil can make
 
-1. **The sequencing fork: does the product record (group 04, this repo's step 3) get filled directly into
-   engine's `knowledge_topics` → `knowledge_questions` → `knowledge_answers` → `knowledge_gaps` mechanism**
-   (`evidence/engine-audit.md` §2 — confirmed to exist) **rather than into files that later migrate?** Worth resolving
-   before more of the record is written.
+1. ~~**The sequencing fork: does the product record get filled directly into engine's knowledge mechanism
+   rather than into files that later migrate?**~~ **▶ Closed 2026-08-17 (Q47): no** — *"we are not working
+   directly into engine ever in this repo."* The record is specified here, in files; engine-side
+   implementation is the platform's job.
 2. **S29 (`../motion/motion-design.md`) — the canonical home for answers.** S29 settled that answers live on each brand's own site,
    assuming the site was separate from engine. Under the replacement goal the sites become engine-coupled
    properties, so S29 needs re-reading. **Flagged, not resolved** — it may not need reversing, but it was decided
