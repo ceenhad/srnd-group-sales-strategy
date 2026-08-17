@@ -4,6 +4,8 @@
 product feeds, 2026-07-28 (`cinema-store.com` 126 products, `srnd.store` 125). Gated items may not appear,
 so treat counts as indicative. This is a worklist, not strategy.*
 
+**Status: proposed — not discussed and not worked** (Neil, 2026-08-17). Nothing below has been executed.
+
 **Cinema Store today: 126 → 42 stay, 30 move to SRND Store, 42 delete, 12 duplicated/withdrawn.**
 
 > **Decisions applied (2026-07-28):** no C-ATS on Cinema Store. Fabric Walls splits by system — **plastic
@@ -47,7 +49,8 @@ moves or only the Small; whether DT provenance may still be stated).
 UltraRes 105" LCD and demo unit; MadVR Envy Core / Pro MK2 / Extreme MK2. Both lines are trade only.
 
 **Needs design or specification (22).**
-- **C-ATS (4)** — the Acoustic Treatment Design Service (£6,000–£12,000) and the three control panels.
+- **C-ATS (4)** — the Acoustic Treatment Design Service (£6,000–£12,000 as listed; the price is unsettled —
+  `registers/questions.md` Q45) and the three control panels.
   **Decided: no C-ATS on Cinema Store.**
 - **Fabric Walls (14)** — the 11 named Cinema Interiors, Cinema Room System Philadelphia, Aluminium Fabric
   Frame, Starlight Ceiling Panels. **SRND Store only** — the metal-frame system, complete rooms and star

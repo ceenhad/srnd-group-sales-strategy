@@ -153,21 +153,21 @@ not the cell: these 15 are the aggregate finding, not fifteen equally certain ve
 | ID | Type | Item | Owner | Effort | Status | Source |
 |---|---|---|---|---|---|---|
 | REC-0 | Fetch | **The gating audit.** For each REC row below, does engine already hold it, and in what structure? **▶ Done 2026-08-13 — `evidence/engine-audit.md` §3**, all 15 answered. **Nine priors right, four understated engine, two wrong.** Three rows are unused structure rather than build work (`REC-8`, `REC-10`, half of `REC-3`); nine are genuine gaps and all nine are conversational residue, which is what `SYS-1` is for; two live outside engine | — | Small | **done** | qa-sheet pass 3, `decided.md` S16a, `evidence/engine-audit.md` |
-| REC-1 | Do | Capture **which objections recur and the answer that worked** (T-S10) → a rep stops re-deriving a reply, and the recurring ones rank the content queue | — | Small | blocked (REC-0) | qa-sheet pass 3 |
+| REC-1 | Do | Capture **which objections recur and the answer that worked** (T-S10) → a rep stops re-deriving a reply, and the recurring ones rank the content queue | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
 | REC-2 | Do | Capture **where we win and lose against each named competitor** (T-S11) → defence is armed from history, not memory. **And it starts with retention, not a field.** Lost deals are currently discarded — *"once they are lost there seems little point keeping them"* (Neil, 2026-08-13) — which is why 74 lost deals in eighteen months is the entire record and nothing older exists. **Step one is to stop deleting the closed-lost row; step two is a reason on it.** At that volume it is seconds per deal. **`REC-0` found this emptier than assumed, not richer:** engine records `won_at` and no loss reason, competitor or dimension at all, and has 11 weeks of history with 0 rejected quotes. **Not an engine read — a genuine capture build**, and the highest-value gap of the fifteen | — | Small | **ready** | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
-| REC-3 | Do | Capture **what was agreed, set up and promised at onboarding** (T-S14) → the promise is honoured, not re-litigated | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-4 | Do | Capture **what went right and wrong on the first install** (T-S15) → into `R4`/`N8`, so the next install starts from it | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-5 | Do | Capture **the relationship state after delivery** (T-S16) → the next touch knows where things stand | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-6 | Do | Capture **cross-sell attempts and how the account responded** (T-S18) → we stop re-pitching blind; the `G6` signal | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-7 | Do | Capture **each account's reorder cadence** (T-S19) → the reorder prompt fires on time | — | Small | blocked (REC-0) | qa-sheet pass 3 |
+| REC-3 | Do | Capture **what was agreed, set up and promised at onboarding** (T-S14) → the promise is honoured, not re-litigated | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-4 | Do | Capture **what went right and wrong on the first install** (T-S15) → into `R4`/`N8`, so the next install starts from it | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-5 | Do | Capture **the relationship state after delivery** (T-S16) → the next touch knows where things stand | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-6 | Do | Capture **cross-sell attempts and how the account responded** (T-S18) → we stop re-pitching blind; the `G6` signal | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-7 | Do | Capture **each account's reorder cadence** (T-S19) → the reorder prompt fires on time. **Derivable from order history, not yet derived** — and engine had 11 weeks of history at audit, too little to establish cadence | — | Small | ready — derive from existing | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
 | REC-8 | Do | ~~Capture~~ **File into what exists** — engine already models this and it is **empty**: `rmas` (reason, inspection and resolution notes, `no_fault_found`), `support_tickets` (6 statuses, priorities, threaded messages), `eco_requests`. **Nothing to build; start using it** → into `N8`/`X6`, so a failure teaches once | — | Small | **ready — use existing** | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
-| REC-9 | Do | Capture **what the field learned about the market** (T-S23, duplication) → intel is pooled, not re-gathered by people blind to each other | — | Small | blocked (REC-0) | qa-sheet pass 3 |
+| REC-9 | Do | Capture **what the field learned about the market** (T-S23, duplication) → intel is pooled, not re-gathered by people blind to each other | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
 | REC-10 | Do | ~~Capture~~ **File into what exists** — `eco_requests` is exactly this (categories include `improvement` and `documentation`, with severity, affected items, events, attachments, 5 resolutions) and holds **0 rows**. **Nothing to build** → the recurring ones reach development ranked | — | Small | **ready — use existing** | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
-| REC-11 | Do | Capture **which accounts are owed recognition** (T-S28) → thanks isn't missed | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-12 | Do | Capture **who researched what** (T-M01, duplication) → a register, so the same market isn't researched twice | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-13 | Do | Capture **the competitor picture over time** (T-M02, duplication) → into `X1`–`X4`, so tracking accretes instead of restarting | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-14 | Do | Capture **what was tried for discoverability and what worked** (T-M08) → effort compounds instead of repeating | — | Small | blocked (REC-0) | qa-sheet pass 3 |
-| REC-15 | Do | Capture **the spend decisions and their rationale** (T-M18) → next year's allocation starts from evidence | — | Small | blocked (REC-0) | qa-sheet pass 3 |
+| REC-11 | Do | Capture **which accounts are owed recognition** (T-S28) → thanks isn't missed. **Computable from order history + `notifications`, nothing computed** | — | Small | ready — compute from existing | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-12 | Do | Capture **who researched what** (T-M01, duplication) → a register, so the same market isn't researched twice | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-13 | Do | Capture **the competitor picture over time** (T-M02, duplication) → into `X1`–`X4`, so tracking accretes instead of restarting | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-14 | Do | Capture **what was tried for discoverability and what worked** (T-M08) → effort compounds instead of repeating | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
+| REC-15 | Do | Capture **the spend decisions and their rationale** (T-M18) → next year's allocation starts from evidence | — | Small | ready | qa-sheet pass 3, `evidence/engine-audit.md` §3 |
 
 *The capture mechanism for genuine gaps is `SYS-1` (the six routes) with `SYS-9` (the overflow line); the
 destination is engine wherever `REC-0` says it already fits. The sequence per row is one of two: `REC-0` finds
@@ -179,7 +179,8 @@ engine already holds it — done — or a route fills it.*
 pipeline, order, registration and pricing data** (`evidence/current-state.md`; `decided.md` S25, S16a, S16b). Take these
 into an engine session and it is a checklist, not an exploration. For each: does engine hold it, and in what
 structure? A "no" is a genuine gap for a capture route (`SYS-1`); don't build for a "yes". These are prior
-beliefs to test, not answers — the audit corrects them.*
+beliefs to test, not answers — the audit corrects them. **The audit has run (2026-08-13): the verdicts are in
+`evidence/engine-audit.md` §3, and this table is kept as the priors it tested.***
 
 | For | Ask engine | Repo's prior belief / likely home |
 |---|---|---|

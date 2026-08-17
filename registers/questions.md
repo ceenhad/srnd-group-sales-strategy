@@ -24,10 +24,12 @@ write a novel every time or risking feedback being logged against the wrong poin
   whether Probata was commercial or internal and merged a **tool** with the **service** it delivers — the third
   conflation of the day, after service-versus-product pricing and "our room". **They have different economics
   and different answers**, and a question that blurs them cannot be answered in a line.*
-- **Check `decided.md`'s topic index before a question is added.** *Added 2026-08-16: `Q12` and `Q13` sat in
-  this register for a day asking about a floor rate and an editorial owner that **S24 struck six weeks
-  earlier**. A register that asks settled questions is worse than no register, because it spends the one
-  resource it exists to protect.*
+- **Check `registers/proposals.md` and the Answered table below before a question is added.** *(The check
+  originally named `decided.md`'s topic index; the file was emptied and the index dropped on 2026-08-16, and
+  the prior positions now sit in `proposals.md` as unratified proposals.)* The lesson stands as written
+  2026-08-16: *`Q12` and `Q13` sat in this register for a day asking about a floor rate and an editorial owner
+  that **S24 struck six weeks earlier**. A register that asks settled questions is worse than no register,
+  because it spends the one resource it exists to protect.*
 - **Every question carries its source**, and the categories are deliberately unflattering:
   **Platform** (an ADR or product doc — authoritative) · **Engine** (read from the live system) ·
   **Observed** (seen in the accounts or the field) · **Repo** (this repo says so, which is weaker) ·
@@ -55,6 +57,7 @@ write a novel every time or risking feedback being logged against the wrong poin
 | **Q20** ⚑ | `G2` | **Anything missing from the six `G2` lists?** **⏸ Parked 2026-08-16 — Neil is reading them first.** They are in `motion/standards.md` session 6: group floor, C-ATS, DT, Fabric Walls, Pro-Fi, Light Walls, Distribution | Nothing missing | **Repo** — assembled from brand documents, session 6 |
 | **Q21** | `G2` | Are the `G2` lists **published to dealers or held internally**? | Internal | **Proposed here** — session 6 |
 | **Q30** | Training | Pending — **what is being introduced** that bears on training being free to partners? | *Held* | **Neil, 2026-08-15** |
+| **Q45** ⚑ | Pricing | **What is the Acoustic Treatment Design Service's price?** The store feed (2026-07-28, `operations/store-split-worklist.md`) lists **£6,000–£12,000**; the invoices (finding 31) show it billed at **£3,000** ("Basic", 2026), median **£1,560** across 22 design engagements. List-versus-realised, or a stale figure? Asked 2026-08-17; Neil: *"not settled yet"* — neither figure changed | *No default* | **Observed** — store feed vs `evidence/archive-findings.md` finding 31 |
 
 ## Answered
 

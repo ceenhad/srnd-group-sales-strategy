@@ -13,6 +13,16 @@ numbers, so a moved Dropbox file or a closed account cannot cost us the history.
 | `C-ATS - Account Transactions.xlsx` | supplied locally 2026-08-13 (`Cinema_Acoustic_Treatment_Systems_Limited_-_Account_Transactions.xlsx`) | 22,551 b | `1c630431b99daef6fd1cfe0f53b3ba235845643f6db86a3058b3fc4203bba02a` |
 | `SRND Group - Account Transactions.xlsx` | supplied locally 2026-08-13 (`SRND_Group_Ltd_-_Account_Transactions.xlsx`) | 71,112 b | `07d0233f1d535d17536d84ebe380d1c8792dca61e44bef8b179eac64c6233891` |
 | `Light Walls - Account Transactions.xlsx` | supplied locally 2026-08-13 (`Light_Walls_Ltd_-_Account_Transactions.xlsx`) | 36,314 b | `4d667a97ea1cd7eba526f8669ebfe6870c3394b205f0fc752b20e1f8ebeccb92` |
+| `Monday - SRND Deals.xlsx` | supplied locally 2026-08-13 (Monday.com board export) | 58,441 b | `fa3b0aefedc439ccb458af8ee42418beb4acaf58b07e0951751117a3c8b64142` |
+| `Monday - SRND Accounts.xlsx` | supplied locally 2026-08-13 (Monday.com board export) | 383,422 b | `e5a195290884873e4d67791173f0a8d673d5e4e9304f3c03a3551935e722fa38` |
+| `Monday - Leads.xlsx` | supplied locally 2026-08-13 (Monday.com board export) | 260,374 b | `7dffef01de236e763e8dabf7ff42b74c8c7a95696ec1bae15442d4f4eb903c43` |
+| `Monday - SRND Contacts.xlsx` | supplied locally 2026-08-13 (Monday.com board export) | 277,925 b | `5f51fab2738c2d6b7658eb9df85b9bf33d5e64a05888fb987c5b56746397e7ba` |
+
+*The four `mailchimp-*.json` files also live in `source/` but are API pulls, regenerable in seconds — see the
+Mailchimp section below. They carry no hash because a fresh pull legitimately differs.*
+
+*Hashes for locally supplied files use the same Dropbox content-hash algorithm as the Dropbox rows (SHA-256 per
+4 MiB block, then SHA-256 of the concatenated digests), so one method verifies everything.*
 
 **The two Dropbox files were verified byte-identical to source** on 2026-08-13 using Dropbox's own block-hash algorithm (SHA-256 per
 4 MiB block, then SHA-256 of the concatenated digests). Re-verify any time with that method rather than a plain
@@ -192,12 +202,22 @@ other reading.
 **To reproduce any figure in `evidence/archive-findings.md`:** filter `is_product_revenue = 1`, then split on `is_intra_group`,
 then group by `contact_canonical`, `product_line` and `year`, summing `net`.
 
+## Monday.com CRM — the board exports
+
+`data/normalise_monday.py` converts the four board exports in `source/` into five flat extracts in `derived/`:
+`monday-deals.csv` (155 deals) and `monday-deal-subitems.csv` (226 sub-deals), `monday-accounts.csv` (1,658
+accounts with per-brand status), `monday-leads.csv` (1,233), `monday-contacts.csv` (1,371). Scope, period and
+caveats live in the register (`evidence/archive-findings.md` tranche 4) — the deals cover **2025 → 2026 only**.
+
+**The exports are grouped boards, not tables.** On the Deals board, sub-item blocks sit *between* parent rows, so
+column A is the discriminator when parsing — and **the board group is the only win/loss signal in the export.**
+
 ## What is not here
 
-Engine is live and not extracted — read it directly (project ref in the register). The three outstanding sources —
-Shopify, the Monday.com CRM logs, the sent-mail archive — are not obtained yet and have backlog rows (`MON-8`,
-`MON-1`, `CON-3`). **When they arrive, they land here the same way: the received file in `source/`, a lossless
-extract in `derived/`, a row in the register.**
+Engine is live and not extracted — read it directly (project ref in the register). Two sources remain
+outstanding — Shopify (`MON-8`) and the sent-mail archive (`CON-3`); the Monday.com board exports landed
+2026-08-13 and are documented above. **When the outstanding ones arrive, they land here the same way: the
+received file in `source/`, a lossless extract in `derived/`, a row in the register.**
 
 ## Sensitivity
 
@@ -206,8 +226,9 @@ and dealer names are not for publication in any form.
 
 ## Mailchimp — pulled by API, not exported
 
-`data/fetch_mailchimp.py` writes `mailchimp-lists.json`, `mailchimp-members-<list_id>.json` and
-`mailchimp-campaigns.json` into `source/`. **The API key is read from the `MAILCHIMP_API_KEY` environment variable and
+`data/fetch_mailchimp.py` writes `mailchimp-lists.json`, `mailchimp-members-<list_id>.json`,
+`mailchimp-campaigns.json` and `mailchimp-click-details.json` (the per-campaign clicked-URL detail — the demand
+signal behind finding 29) into `source/`. **The API key is read from the `MAILCHIMP_API_KEY` environment variable and
 never appears in the repo, in a file, or in a command argument.** The datacentre is derived from the key suffix, so
 there is nothing else to configure.
 
