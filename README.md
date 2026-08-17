@@ -52,7 +52,6 @@ not exist.*
 | **`registers/`** | the record schema and form, product register, backlog, questions, open items, proposals | **State, not prose.** Rows with a status |
 | **`evidence/`** | archive findings, engine audit, current state, closed runs | **Measured. Append-only, and it never argues** |
 | **`operations/`** | engine handoff, store worklist | **What leaves this repo** |
-| **`decisions/`** | ADRs and their generated catalogue | **What is decided, and by whom** |
 | **`data/`** | the sales history itself | Source, extracts, loaders. Sensitive |
 
 **Start with [`method.md`](method.md)** for how the work is done, then `group-strategy/the-group-play.md` for
@@ -61,8 +60,8 @@ why. *`NEXT.md` is the plan of record but is marked as needing its own session �
 **Two rules hold the shape:**
 
 - **One kind per file.** Evidence may not argue; registers may not narrate; strategy holds no work items.
-- **An ADR belongs to one area and is written when a decision is made in it** — never scraped out of a pile
-  afterwards (`decisions/0001`).
+- **`decided.md` is read by SRND OS every morning.** It holds business and management decisions only, nothing
+  enters it without Neil, and **repo management never goes near it** — that lives in [`method.md`](method.md).
 
 ## Group vs brand responsibilities
 

@@ -73,7 +73,7 @@ rule. **The status vocabulary above exists to say which it is.**
 
 ## The shape of a working session
 
-1. **Read what governs it, end to end.** Check `decisions/CATALOGUE.md` and the owning area document first.
+1. **Read what governs it, end to end.** The owning area document, and this file.
 2. **Work in the register.** Questions get IDs before they get asked.
 3. **Ask, apply, ask.** No essay between the answer and the next question.
 4. **Record the answer verbatim, and what it changed.** If it changed nothing, say so.
@@ -93,8 +93,39 @@ rule. **The status vocabulary above exists to say which it is.**
 
 **One kind per file**, and the folder says which kind: **`group-strategy/`** argument · **`motion/`** the
 machinery · **`brands/`** application · **`registers/`** state, in rows · **`evidence/`** measured,
-append-only · **`operations/`** what leaves the repo · **`decisions/`** ADRs · **`data/`** the source.
+append-only · **`operations/`** what leaves the repo · **`data/`** the source.
 
-**SRND OS is the source of record for what is decided.** `decided.md` is empty and nothing enters it without
-Neil. An ADR belongs to one area and is written when a decision is made in it — **never scraped out of a pile
-afterwards** (`decisions/0001` §6).
+## `decided.md` is a machine input, not a record
+
+**Neil, 2026-08-17: SRND OS reads `decided.md` every morning and tries to react to it.** That single fact
+governs everything about the file:
+
+- **It holds business process and management decisions only** — things the OS should act on.
+- **Repo management never goes in it.** How ADRs work, where files live, how questions are logged: **none of
+  that is the OS's business**, and putting it there makes a machine try to act on a filing convention. *That is
+  what the ~60 mixed entries were doing, and it is why they were mess.*
+- **Nothing enters it without Neil's explicit approval**, and nothing about the business has been decided yet,
+  so **it is empty and stays empty until something genuinely is.**
+- **SRND OS is the source of record for what is decided.** This repo is where a decision is *worked out*, not
+  where it is kept.
+
+**So there are two kinds of decision here and only one of them is the OS's:**
+
+| | Where it goes | Who acts on it |
+|---|---|---|
+| **Business or management** — pricing, territory, what we sell, who we sell to | `decided.md`, once Neil decides it | **SRND OS, every morning** |
+| **Repo management** — conventions, structure, how questions are logged, how a session runs | **this file** | Whoever is working in the repo |
+
+*The ADR convention drafted on 2026-08-16 as `decisions/0001` was repo management, so it lives here and the
+`decisions/` folder is gone. **If ADRs return, they return for business decisions** — and then the question is
+whether the OS should read them too, which is Neil's to answer, not this file's.*
+
+### The three rules the deleted convention was worth keeping for
+
+- **A number is permanent; content is versioned.** A decision that changes is rewritten in place — no
+  amendment notes, no "see also" chains. *This is why `ADR 017` still resolves at version 2 while
+  `decided.md`'s IDs vanished the moment the file was emptied.*
+- **A decision is written when it is made, by the person making it** — never scraped out of a pile afterwards.
+  *59 were, by script, and all 59 were deleted.*
+- **An index of decisions is generated, never hand-maintained.** *The platform's hand-written one drifted to
+  covering 41 of 70 in three months, with nine rows disagreeing with their own files.*

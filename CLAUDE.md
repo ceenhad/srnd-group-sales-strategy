@@ -65,7 +65,7 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
   what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
   reasoning about it.
 - **The work ratchets; it does not spiral.** **SRND OS is the source of record for what is decided**;
-  `decisions/` holds the ADRs that make a decision here, and **nothing enters `decided.md` without Neil's
+  **nothing enters `decided.md` without Neil's
   explicit approval** (it is empty by instruction, 2026-08-16). New data from real work lands as **evidence**
   against a decision or an open item — it does not reopen the reasoning that produced the decision. After
   logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
