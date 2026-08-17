@@ -128,25 +128,20 @@ of record for anything operational the strategy relies on. The long-term goal is
 process to run in engine, but **we don't document or specify engine here** — we only note where the
 strategy hands off to it.
 
-## Status — plan rev 1
+## Status — plan rev 2
 
-**Rev 1 is the marker in the sand, set 2026-08-04.** It is the first point at which the whole chain holds
-together in one set: the strategy, the four jobs a rep does, the 46 tasks beneath them, the 168 work items
-beneath those, and the product record every one of them reads from. The visual summary of rev 1 is
-`product-model-visual.html`.
+**Rev 2 was set 2026-08-17**, replacing rev 1 wholesale (`NEXT.md` carries the version note; git history
+holds rev 1). The plan now leads with engagement — priority one, per Neil — with two operating drumbeats:
+**one communication per brand per day** (marketing) and **real conversations as often as possible** (sales).
+The order of work: fix `MON-13`, build the engagement machinery, state the group direction (`GRP-1`), run
+the per-brand question sweep (`GRP-2`), keep filling the record as the content feed, work the sessions list.
 
-What rev 1 does *not* mean is that the contents are verified. Most of the task and work-item rows are claims
-assembled from these documents rather than from watching the work happen, and they say so where they stand.
-Rev 1 is the shape being fixed, not the facts. **From here the plan is amended, not re-argued** — evidence
-lands against a decision or an open item, and a decision changes only when Neil says it changes — SRND OS is the source of record for decisions.
+**From here the plan is amended, not re-argued** — evidence lands against an area document or an open item,
+and a decision changes only when Neil says it changes; SRND OS is the source of record for decisions.
 
-What rev 1 produced that the repo did not have before is an **order**, in `NEXT.md`: ask engine, fill the
-record, open the routes, build the primitives.
-
-**Step 0 — the QA session — has run.** Completed 2026-08-08 (`evidence/2026-08-08-tasks-qa-run.md`): all four passes
-over the 46 tasks, no task struck, and the reading produced the forward chain *fill the record → write the
-shape → skip what already works* (`NEXT.md` § "What the QA produced"). The work-item register was resolved by
-block; the backlog prune the QA directed was executed 2026-08-14.
+Rev 1's completed work is recorded where it happened: the 46-task QA run (`evidence/2026-08-08-tasks-qa-run.md`,
+closed 2026-08-08), the engine audit (`evidence/engine-audit.md`), and the registers.
+`product-model-visual.html` is rev 1's visual summary, kept as a dated artefact.
 
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,

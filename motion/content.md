@@ -43,9 +43,11 @@ per published answer rather than owner involvement.**
   video, a social hook and a paragraph of a datasheet. Writing the same thing costs an hour and usually doesn't happen.
   This is the studio's real purpose, and it is why the studio is described as what makes the direct-global
   model affordable.
-- ~~**Set a floor, not a target.**~~ *Struck per the S20 reversal (2026-07-31, confirmed 2026-08-17): a formally
-  set floor rate was a decision nobody needed. Volume comes from the Claude-assisted production line instead
-  (`motion-design.md` component 2).*
+- **The cadence standard** (Neil, 2026-08-17, `../registers/questions.md` Q48): **every brand communicates
+  something through our channels at least once a day** — that is marketing. **Sales is real conversations with
+  people, as often as possible.** The production line is what makes the daily standard affordable
+  (`motion-design.md` component 2). *(The earlier floor-rate debate — set a floor, strike the floor — is
+  retired as noise.)*
 - **Website copy is generated from the product record, not written per page.** The C-ATS Shopify site kept its
   theme placeholder hero because there was no canonical source for what belongs there, and the 3 Rs vanished
   from the homepage for the same reason. Fill the record's definition and problem groups and the pages inherit;
@@ -87,8 +89,8 @@ studio exists.*
 Worth being precise, because the instinct "make more video" misses what actually creates the effect.
 
 - **Frequency and regularity beat production value.** Rapport is built by repeated exposure, so a predictable
-  slot matters more than polish. Regularity comes from the production line's steady output, not from a set
-  floor rate (S20 reversal).
+  slot matters more than polish. The once-a-day-per-brand standard (Q48) supplies the regularity; the
+  production line makes it affordable.
 - **Same face, same room, same format.** Recognition is built out of consistency of frame. A recognisable
   setting is doing real work, which is a large part of what the studio buys us.
 - **Address one person.** Second person, no corporate plural. A dealer watching alone should be spoken to as
