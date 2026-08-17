@@ -55,7 +55,8 @@ not exist.*
 | **`decisions/`** | ADRs and their generated catalogue | **What is decided, and by whom** |
 | **`data/`** | the sales history itself | Source, extracts, loaders. Sensitive |
 
-**Start with [`NEXT.md`](NEXT.md)** for what to do, then `group-strategy/the-group-play.md` for why.
+**Start with [`method.md`](method.md)** for how the work is done, then `group-strategy/the-group-play.md` for
+why. *`NEXT.md` is the plan of record but is marked as needing its own session — read it as the plan that was.*
 
 **Two rules hold the shape:**
 
