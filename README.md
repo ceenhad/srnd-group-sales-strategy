@@ -86,8 +86,8 @@ not exist.*
 | **`operations/`** | engine handoff, store worklist | **What leaves this repo** |
 | **`data/`** | the sales history itself | Source, extracts, loaders. Sensitive |
 
-**Start with [`method.md`](method.md)** for how the work is done, then `group-strategy/the-group-play.md` for
-why. *`NEXT.md` is the plan of record but is marked as needing its own session — read it as the plan that was.*
+**Start with [`group-strategy/strategy.md`](group-strategy/strategy.md)** — the top-level strategy in one
+document (drafted with Neil 2026-08-17), then [`method.md`](method.md) for how the work is done here. *`NEXT.md` is the plan of record but is marked as needing its own session — read it as the plan that was.*
 
 **Two rules hold the shape:**
 
