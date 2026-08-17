@@ -44,7 +44,7 @@ practice. The full read — which formats actually work, the architecture decisi
 
 **ISE** (Barcelona) is *the* show and we are booked — the largest European AV-integration show and the one fixed
 point in the calendar. **CEDIA Expo is out**: a dying show, and too late in the year to be worth considering
-(`../decided.md` E2). **InfoComm** (US, pro AV) is a possibility for next year rather than a commitment. Then
+(E2, `../evidence/current-state.md`). **InfoComm** (US, pro AV) is a possibility for next year rather than a commitment. Then
 **EI Live!** and UK regional events, partner open days, and construction shows such as Futurebuild for the
 fit-out adjacency. Plus **the Experience Centre** as our own standing event — the highest-trust venue
 we own.

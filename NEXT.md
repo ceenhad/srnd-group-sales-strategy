@@ -229,7 +229,7 @@ Nothing starts until these are agreed, because an unowned critical path is how t
 
 **Settled: nothing comes off anyone's plate.** The responsibilities get fitted in alongside everyone's
 existing work. So the cadence is set to what the work actually allows — a floor met in a busy month rather
-than an ambitious rate. *(Roles, never names — who fills each is a separate decision: `decided.md` S27.)*
+than an ambitious rate. *(Roles, never names — who fills each is a separate decision: S27, `motion/content.md`.)*
 
 ### B. Step 3 in practice — C-ATS first, because the data already exists
 
@@ -266,7 +266,7 @@ What is actually left for C-ATS, in order:
 4. **Resolve the figure disagreement** before anything is published: legacy calculator versus BSRIA test 6
    (`registers/open-items.md`). A decision, not a project, and it blocks publication rather than the writing.
 5. **Publish to the C-ATS brand-site knowledge base** — the canonical home is each brand's own site
-   (`decided.md` S29).
+   (S29, `motion/motion-design.md`).
 
 **Then DT, and the first DT task is not writing.** It is **grouping the range by mechanism** — Dynamic 4/2TB/2S
 families, mounts, mirrors, portholes, hush boxes — so fifty-odd products collapse into a manual set of maybe a
@@ -513,7 +513,7 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
   1. **Documentation, and it dominates the rest — which makes US support step 3 of the critical path, not a
      separate programme.** Support reduces to the dealer being trained and the answer being available when
      needed, so most support load is a manual that didn't answer the question. **Manuals are currently poor and
-     it costs us more than it should** (`decided.md` S11). The schema, the form and the register now exist, so
+     it costs us more than it should** (S11, `motion/sales-motion.md`). The schema, the form and the register now exist, so
      the gap is a counted one per product rather than an opinion: `registers/product-register.md` says which records are
      open and which live products have no canonical account at all. **C-ATS sets the standard, then DT by
      mechanism, not by SKU** (S11a) — fifty-odd products collapse into far fewer manuals. Then the writing,
@@ -528,17 +528,17 @@ spares. So the usual barrier to entering a distant market is down, and **the bin
      role a body might justify — a support engineer, not a salesperson.** Different job, different economics,
      and it does not contradict having no field force.
 - **Certification cuts support load**, so the training programme is a support investment as much as a partner
-  benefit. And **manuals are its raw material** (`decided.md` S12) — same corpus, differently packaged — so
+  benefit. And **manuals are its raw material** (S12, `motion/sales-motion.md`) — same corpus, differently packaged — so
   documentation first makes training an assembly job rather than a new build.
 - **And support quality is part of the sales proposition, not a cost behind it.** The reason a US dealer buys
   from a British manufacturer with no local office is that support is credible. Answer it well and it becomes a
   reason to buy.
 - **Events: CEDIA Expo is out** — dying, and too late in the year. ISE is the show and we are booked; InfoComm
-  US is a possibility for next year (`decided.md` E1–E3). So the US entry is content-led, not event-led, which
+  US is a possibility for next year (E1–E3, `evidence/current-state.md`). So the US entry is content-led, not event-led, which
   suits the model.
 - **It also corrects the DT-only exposure** in the international network, because presenting the whole group is
   the plan rather than a retrofit.
-- **The home is each brand's own site** (`decided.md` S29), so the manual estate and the corpus are **one build
+- **The home is each brand's own site** (S29, `motion/motion-design.md`), so the manual estate and the corpus are **one build
   per brand**, not two projects — which is also lane 8's "minimum viable property" answer.
 - Rides on: an opening we did not create, logistics already built, and a property already scaffolded. The work
   is documentation.
@@ -554,7 +554,7 @@ decided.
 **Two things that make this smaller than it sounds.**
 
 - **The information architecture is already written, and now it is simple.** Per brand and per product:
-  **marketing on-ramp → technical depth → easy contact** (`decided.md` S15). The on-ramp states the problem
+  **marketing on-ramp → technical depth → easy contact** (S15, `motion/sales-motion.md`). The on-ramp states the problem
   solved, the opportunity opened, the time or labour saved; the depth is drawings, manuals, videos and data,
   there to remove doubt rather than to persuade; the contact route is explicit. That, plus the placement rules
   and the content map (`group-strategy/buyer-journey.md`, `motion/content.md`), is a sitemap in prose. Not a design
@@ -577,7 +577,7 @@ channels, and let the rebuild follow the content rather than precede it.
 - **Smallest next move:** one brand's knowledge base, structured by the questions the archive says recur.
 - **The copy is written and ready to paste — `brands/c-ats/copy.md`.** Homepage hero, the 3 Rs block, the depth
   argument, the proof block, the two routes, three product on-ramps, the four services, and a nine-point fix list.
-  Generated from the product record rather than composed page by page, which is the method (`decided.md` S19).
+  Generated from the product record rather than composed page by page, which is the method (S19, `motion/content.md`).
 - **And a specific, cheap fix worth doing first.** The C-ATS Shopify site is generated and structurally right, but
   its hero is still the Shopify placeholder — *"this signature bestseller exceeds all expectations"*, which is
   verbatim what the brand rules prohibit — and the **3 Rs has disappeared from the homepage** that the old site led
@@ -616,7 +616,7 @@ since ISE 2023.
 Named so they read as choices rather than debt:
 
 - **The training programme.** Owed, and the biggest thing implied by the partner programme. It needs real time,
-  and its raw material is the manuals (`decided.md` S12) — so it waits on step 3 regardless. `cinema-expert.com`
+  and its raw material is the manuals (S12, `motion/sales-motion.md`) — so it waits on step 3 regardless. `cinema-expert.com`
   remains the likely home for *certification*; S29 settled the canonical home for *answers*, which is a different
   question.
 - **Non-cinema channels.** Commercial fit-out, hospitality and workplace reach different people through
@@ -656,7 +656,7 @@ Named so they read as choices rather than debt:
   websites, our reporting… all are either in engine or closely coupled to engine"*). **If that proceeds, this stops
   being out of scope and the strategy repo and the platform work become one programme** — see `registers/open-items.md`
   § "the direction set 2026-08-14", which also names what it changes: `TSK-6`'s primitives gain their context,
-  `SYS-1`'s routes gain their home, and `decided.md` S29 needs re-reading because it assumed the brand sites were
+  `SYS-1`'s routes gain their home, and S29 (`motion/motion-design.md`) needs re-reading because it assumed the brand sites were
   separate.
 - **Deploying anything.** Still the last step, still deliberate.
 

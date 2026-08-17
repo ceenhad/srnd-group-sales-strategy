@@ -22,20 +22,22 @@ by this session on 2026-08-16.
 
 ## Where the content went
 
-**`registers/proposals.md`** — moved there, not deleted, on Neil's instruction. **Reframed as what it always was:
-unratified proposals**, each needing *yours · not yours · reword · not yet*. **What survives ratification
-belongs in SRND OS**, not back here.
+**First to `registers/proposals.md`** (2026-08-16, on Neil's instruction), reframed as unratified proposals.
+**Then folded into the area documents and deleted, 2026-08-17** (`DOC-29`, on Neil's instruction of the same
+day): entries already stated in their owning area document went with the file; four orphans moved into
+`group-strategy/commercial-model.md` and `motion/content.md`; six contradictions between the record and the
+area documents were corrected on Neil's per-question approval. The full content survives in the git history of
+`registers/proposals.md`. **What survives ratification belongs in SRND OS**, not back here.
 
 **Nothing returns to this file without explicit approval** — including a session that finds an old ID cited
 somewhere and helpfully restores the entry behind it.
 
-## Consequence, flagged not fixed
+## Consequence — fixed 2026-08-17
 
-**Roughly 142 references to `decided.md` across 28 files now point at nothing**, along with the inline
-decision IDs (`S1`–`S29`, `C1`–`C8`, `B1`–`B8`, `P1`–`P4`, `E1`–`E3`) scattered through the group documents
-and brand playbooks. **Those citations are stale, not authoritative** — every one of them should be read as
-*"a previous session recorded this"* until the position is confirmed against SRND OS.
-
-*Note the ID collision that makes a blind find-and-replace unsafe: `C1`, `G1`–`G6` and others are also
-**product-record field IDs** in `registers/record-form.md`, and `G1`–`G6` are the **gateway** names in
-`motion/motion-design.md`. The cleanup is a judged pass, not a script.*
+The ~142 references across 28 files that pointed here were **repointed on 2026-08-17** (`DOC-28`, on Neil's
+instruction to repoint everything, evidence files included): each citation now names the area document that
+holds the position, or a `registers/questions.md` Q-id where the point is open. The inline decision IDs
+(`S1`–`S29`, `C1`–`C8`, `B1`–`B8`, `P1`–`P4`, `E1`–`E3`) remain in use as labels beside those paths; the ID
+collision with the product-record field IDs and the gateway names meant the pass was judged per citation, not
+scripted. **The unratified-status caveat still applies**: an ID is a label for what a previous session
+recorded, and SRND OS is the source of record for what is decided.

@@ -51,6 +51,15 @@ document carry, and it points the same way as the reasoning.
 rather than an accident of the arithmetic: a distributor has to be worth more than the margin *and* the
 relationship, and very few can be.
 
+**Appointments that fail the test are removed.** A dormant distributor is not neutral — it occupies the
+territory and blocks the direct approach, so a dead appointment is a barrier. Dead appointments, and any that
+fail the 2× test, come off; the roster and the removal tiers are in `../evidence/current-state.md` and
+`../NEXT.md` §C.
+
+**And most appointments are really dealer-distributors, and are treated as dealers** — the partner programme,
+the content, no exclusivity. "Distributor" is reserved for the rare case that genuinely multiplies; a hybrid
+multiplies nothing while still holding the territory, which is exactly when the 2× test bites.
+
 **And there is no counter-example in the competitor set.** Cinema Build Systems reaching dealers through Karma
 AV looked like one, but Karma part-owns CBS — that is an owner selling through its own channel, which is
 structurally what we do, not a distribution appointment that worked. Nobody in the field is a whole-room
@@ -150,9 +159,11 @@ own; the job can be priced rather than the line item; and nobody sits between th
 
 **What they lose, and pretending otherwise wastes the conversation:** local credit, local stock, somebody in their
 own working hours, and one purchase order covering many brands. **Spares and logistics are already answered**
-(`../decided.md` C1g), and **credit has a uniform answer** (C8): we run no dealer credit accounts anywhere —
-the UK included — and a dealer who wants credit uses a credit card. Stated plainly, it is a position, not an
-apology. Support hours remain the objection genuinely still to answer.
+(`../evidence/current-state.md`), and **credit has one answer: we extend none directly, anywhere.** A dealer who
+wants credit uses a credit card; in the UK only, a **90-day interest-free facility is available through Iwoca Pay
+at the store** — a third-party route, unavailable outside the UK (raised by the OS sync 2026-08-11, resolved by
+Simon the same day). Stated plainly, it is a position, not an apology. Support hours remain the objection
+genuinely still to answer.
 
 **This is also where the price question stops being deferrable.** A dealer who bought DT through Apex-Tech has a
 price they know. Approaching them direct without a settled position on what they now pay and what they make is not
@@ -162,8 +173,10 @@ a conversation that can be had twice.
 
 - **It is the fastest revenue available anywhere in the strategy** — warm accounts, known product, an immediate
   reason to make contact.
-- **It is a limited window.** Unserved dealers find alternatives, and Stewart, Screen Research and Future
-  Automation are all present. The cost of waiting is measured in accounts lost rather than months.
+- ~~**It is a limited window.** The cost of waiting is measured in accounts lost rather than months.~~ **Softened
+  2026-08-02 (Neil): the US is not a privileged territory** — *"but so is the entire world. It's just another
+  place."* The motion is global by nature. What stands: unserved dealers can find alternatives, and Stewart,
+  Screen Research and Future Automation are all present.
 - **It does not depend on the content programme.** These dealers do not need persuading that DT works; they need to
   know where to buy it. So this half of US entry can start now and is not behind the documentation.
 
@@ -189,7 +202,7 @@ opens accounts that do not. Treating US entry as a single motion is what would f
 
 Worth separating, because the two entries test different things. Recovering Apex-Tech's dealers proves nothing
 about the sales motion; it is relationship recovery. **The C-ATS half is the real test:** no legacy relationships,
-no body on the ground, no distributor and no trade event this year (`../decided.md` E1–E3), so the only instruments
+no body on the ground, no distributor and no trade event this year (E1–E3, `../evidence/current-state.md`), so the only instruments
 are the corpus, search and AI visibility, the trade press, and personal authority.
 
 **So the US is a controlled test of "content is the rep."** If it produces dealers, the model is validated for
@@ -201,8 +214,8 @@ better learned in a market we are not currently earning from than in one we are.
 Not obstacles to argue with; gaps to answer or accept.
 
 - **Credit terms and a familiar buying process.** US integrators are used to distributor credit. Ours is a store
-  account, and the credit answer is uniform (C8): none anywhere, card if wanted — the same footing as every
-  UK dealer.
+  account, and we extend no credit directly: card if wanted. The UK's third-party Iwoca route does not travel —
+  it is UK-only — so a US dealer buys on card terms.
 - **Someone reachable in their working hours.** Documentation shrinks this; it does not remove it. The support
   engineer question sits here (`../NEXT.md` lane 7).
 - **A peer who will vouch for us.** The hardest of the three, and the reason the first few dealers matter more than
@@ -217,8 +230,9 @@ once.
 
 ### Sequence: land, deliver, then market
 
-- **Start with the Apex-Tech dealers, and start now.** Direct contact, DT, no campaign required. This is the
-  urgent half and the window closes as they find alternatives.
+- **Start with the Apex-Tech dealers.** Direct contact, DT, no campaign required. The soonest available revenue
+  in this entry. ~~This is the urgent half and the window closes as they find alternatives.~~ *Urgency framing
+  softened 2026-08-02 — no territory is privileged.*
 - **Do not announce.** A launch with no support history and no reference is a claim.
 - **In parallel, land a small number of new dealers on C-ATS**, chosen for willingness rather than size, and make
   the first order faultless. The first order tests us, not the product.
@@ -274,10 +288,14 @@ shipping.~~
 
 ## Pricing — fully gated
 
-**Pricing is registered-partner-only, and that includes end users.** No public prices anywhere in the trade
-channel; any £0.00 on a public page is not a placeholder awaiting a public number. End clients who buy
-direct do so by enquiry. One deliberate consequence: public marketing claims stay qualitative — performance,
-depth, measured data — never value- or price-led.
+**Pricing is registered-partner-only.** No public prices anywhere in the trade channel; any £0.00 on a public
+page is not a placeholder awaiting a public number. One deliberate consequence: public marketing claims stay
+qualitative — performance, depth, measured data — never value- or price-led.
+
+**What an end user sees** (Neil, 2026-08-17, closing `../registers/questions.md` Q42): **no published pricing
+online except on a defined B2C store** — that is `cinema-store.com`'s role below. **A quote can be sent to an
+end user, with list pricing only.** *(An earlier version of this section read "and that includes end users";
+Neil struck that clause at the ADR 0004 ratification — an end user is not a registered partner.)*
 
 The registration and gating *mechanism* already runs in engine. What needs setting is the policy behind it:
 approval criteria, tier numbers per brand, MOQs, tool access, co-marketing terms

@@ -2,7 +2,7 @@
 
 *The thing that has always been missing, in Neil's words: "a filled out plan of content per brand and the
 mechanical means to churn through it, record the outputs and then apply them." The machinery exists
-(`../../decided.md` S24 — the production line) and the tracking is designed (S23). **This is the filled
+(S24 — the production line, `../../motion/motion-design.md`) and the tracking is designed (S23). **This is the filled
 plan for the first brand**: every content piece C-ATS needs, enumerated against the journey, with its
 source atom, its state, its stage-grid row and its target — the thing it points at, written into the piece
 (`../../motion/motion-design.md`, "the actions at each stage"). The line works this queue top to bottom;
@@ -47,7 +47,7 @@ Target = what the piece points at — its gateway's threshold action, written in
 | 37 | RES-CP corner-placement instruction + derivative set | 5 | Verification offer → RES-CP product page | `product-records.md` | missing (the third predictable question) |
 | 38 | Site-conditions paragraphs for all three panels, into the product records (schema group 1) | 5 (+3 reassurance) | The install manual | batches 001/002 | draft (REV-CP only) |
 | 39 | Three "how do you do X" recordings: bond-vs-screw, warm room, corner placement — prompts ready | 5 | Embedded in items 1, 2, 37; each → its product page | batch prompts | missing (one session, DOC-2) |
-| 40 | "Reading the Reflection A/B chart" — the two-install-types story as proof | 3 | Registration | `decided.md` S21 + published chart | queued (check DOC-4 first) |
+| 40 | "Reading the Reflection A/B chart" — the two-install-types story as proof | 3 | Registration | S21 + published chart (and Q46, 2026-08-17) | queued (check DOC-4 first) |
 | 41 | Three rewritten install guides, organised by moment | 5 | Verification offer; fault-finding | existing guides + records | missing (DOC-3) |
 | 42 | Fault-finding one-pagers per panel | 5 | Support contact ("tell us before commissioning") | `product-records.md` §doubt | missing |
 | 43 | Virtual case studies — room stories around renders, C-ATS-led | 2–3 | The product on-ramps; the design service | render library | missing (CON-11; renders exist) |

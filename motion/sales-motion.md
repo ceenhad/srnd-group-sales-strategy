@@ -114,7 +114,9 @@ Everything above resolves into one loop with four steps and no new hires:
 
 > **Archive → a ranked question list → a batch recording session → edited and published.**
 
-Ben drafts and ranks, the owners correct the order, Neil answers on camera, Ben publishes. The archive supplies
+The producer drafts and ranks, the owners correct the order, the authority answers on camera, the producer
+publishes (roles, never names — who fills each is recorded in `../registers/questions.md` Q25, and whether the
+prior producer remains involved is Q39). The archive supplies
 the raw list, and the retired questions return the owner minutes that fund the next round. That is the entire
 sales motion, and it is small enough to actually run.
 

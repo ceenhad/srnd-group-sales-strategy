@@ -4,7 +4,7 @@
 selling point of the product.** Weight it accordingly: the selling weight stays on the 3 Rs and the
 measured performance; this batch exists to make the first job go right.*
 
-*One substance atom through the production line (`../../decided.md` S24; `../../motion/motion-design.md`
+*One substance atom through the production line (S24; `../../motion/motion-design.md`
 component 2). **The atom:** the Reverberation Control Panel warm-room install note
 (`install-critical-notes.md`, page 2) — human-authored, true, and publication-unblocked by its own footer.
 Below is its derivative set, drafted by Claude for an owner's truth-check. **No claim below is absent from

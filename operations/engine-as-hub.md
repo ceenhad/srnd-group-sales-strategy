@@ -218,7 +218,7 @@ newsletter migration carries the 63%-open baseline.
    engine's `knowledge_topics` → `knowledge_questions` → `knowledge_answers` → `knowledge_gaps` mechanism**
    (`evidence/engine-audit.md` §2 — confirmed to exist) **rather than into files that later migrate?** Worth resolving
    before more of the record is written.
-2. **`decided.md` S29 — the canonical home for answers.** S29 settled that answers live on each brand's own site,
+2. **S29 (`../motion/motion-design.md`) — the canonical home for answers.** S29 settled that answers live on each brand's own site,
    assuming the site was separate from engine. Under the replacement goal the sites become engine-coupled
    properties, so S29 needs re-reading. **Flagged, not resolved** — it may not need reversing, but it was decided
    under an assumption this direction changes.

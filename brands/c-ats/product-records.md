@@ -63,7 +63,7 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | **Box rule** | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
 | **Layout tolerance** | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
 | **Where they sit** | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
-| **Channel** | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (`../../decided.md` C5) |
+| **Channel** | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (C5, `../../group-strategy/commercial-model.md`) |
 | **Test basis** | BSRIA, BS EN ISO 354:2003, **free/unfixed mounting** — design-stage reference figures, not installed-effective values |
 | **Marketing status** | Current. REV-CP-12 is discontinued and must not be listed. The commercial cinema range is in development and must not be written up as shipping |
 | **Who specifies** (`W1`) | The integrator, typically with our help. Acoustic consultants write pre-tender specs on larger projects and are **not** a non-audience — the product is optimised for the integrator, which is a different question from who influences specification |
@@ -72,8 +72,11 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | **Proof, and publishable?** (`G4`) | **Strong and unusually unencumbered.** The full BSRIA report is published as a public PDF with five per-panel coefficient sheets beside it — specifier-grade third-party proof, freely available (`../../NEXT.md` lane 8). Install photography is thin; the Cornflake IMAX private cinema is public and easy to find, though years old |
 | **Record keeping** (`K1`–`K3`) | Owner **`[?]` — unassigned** · last reviewed **2026-08-02** · review interval **`[?]`** |
 
-**Known data gaps, shared:** installed-effective (derated) values may exist in the legacy calculator and need
-reconciling against the raw lab figures, with a decision on which are authoritative for quotes and design. **[?]**
+**Known data gaps, shared — the authoritative-figures question is answered** (Neil, 2026-08-17,
+`../../registers/questions.md` Q46): *"both options are used in our modelling tools with the glued style as
+default. in test they literally just lay them loose on the floor which is not reality in any case."* So the
+modelling tools carry both series (glued/Reflection A and free/Reflection B), **glued is the default for quotes
+and design**, and the loose-lay lab condition is not representative of a real install.
 
 ---
 
@@ -307,7 +310,7 @@ questions answered in writing.***
 | `N6` | **Project timing** | **`[?]`, with one thing derivable and load-bearing.** The panels are concealed behind the fabric layer, so **the treatment must be decided before the wall is built** — which makes it *earlier* in the project than the fabric, the lighting or the screen. That is the cross-sell moment and the argument for being in the spec conversation, and it has never been stated. When the acoustic decision actually gets made on a real job is `[?]` |
 | `N7` | **What the dealer tells their client** | **`missing`, for all three panels.** The raw material is one sentence away — `positioning.md` §4: *"acoustics is usually the one part of a room nobody can see or prove; C-ATS makes it the part you can."* **That is a client-facing line and there is no client-facing deliverable containing it.** The dealer is left to explain our product in their own words, unaided |
 | `N8` | **Field learning** | **`[?]`.** A decade of cinema work and the Cornflake IMAX install; nothing captured as learning. The two failure modes in `install-critical-notes.md` *are* field learning, and they are the only entries that exist |
-| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) Installed-effective versus raw lab figures: both in circulation, neither declared authoritative |
+| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) ~~Installed-effective versus raw lab figures: both in circulation, neither declared authoritative~~ **Answered 2026-08-17** — both are used in the modelling tools, glued default (Q46; note above the record) |
 
 > **`N9` was already in the repo as five separate backlog rows** (DOC-6 to DOC-10) and had never been read as one
 > list. As a set it says something the rows individually do not: **four of the five are measurement gaps, so one
@@ -365,7 +368,7 @@ known**, which is the honest position: the audit itself has not been done, and i
 | `A7` | Commissioning guide | `[?]` | Arguably `n/a` for passive panels — but the *design* is what needs verifying, and that is `CAT-07` |
 | `A8` | Fault-finding guide | `[?]` | The two known failure modes are documented in `install-critical-notes.md` but not as a guide |
 | `A9` | "How do you do X" video | **`missing`** | Three are specified and unrecorded (`../../registers/backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
-| `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (`../../decided.md` S12) |
+| `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (S12, `../../motion/sales-motion.md`) |
 | `A11` | Spares & service | `[?]` | |
 
 **Filling this table is perhaps twenty minutes with the documentation folder open**, and it converts every "the
@@ -386,7 +389,7 @@ Six fields are unfilled on all three panels, and **the pattern matters more than
 **Three consequences, and the first one changes a backlog item.**
 
 - **`../../registers/backlog.md` DOC-13 cannot complete as written.** It asks for schema groups 1 and 2 filled so site copy
-  generates from the record (`../../decided.md` S19). **Group 1 is done; group 2 is half-blocked on parked
+  generates from the record (S19, `../../motion/content.md`). **Group 1 is done; group 2 is half-blocked on parked
   buyer-truth.** That is not a reason to compose the missing half — it is the reason the field exists. The honest
   move is to generate the copy that `O2` and `O4` support and leave the `O1` slot empty until a dealer fills it.
 - **One input unblocks eleven fields across three products.** `O1`, `O3` and `W2` are the same question asked three

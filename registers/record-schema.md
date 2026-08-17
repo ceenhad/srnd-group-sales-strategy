@@ -153,8 +153,8 @@ run.*
 **And the standing boundary is unchanged.** Engine owns the mechanical record and the numbers — SKU, dimensions,
 stock, pricing, lead times as data. **The record holds the argument, not the number**: not the price but the
 dealer's business case, not the stock level but what to say about availability. Where a domain touches engine, it
-defers and records the mapping (`decided.md` S16a). **And group commercial policy — terms, credit, territory —
-stays out of the record entirely**; it is settled in `decided.md` and is not product data (Neil, 2026-08-02).
+defers and records the mapping (S16a — this file's own boundary rule). **And group commercial policy — terms, credit, territory —
+stays out of the record entirely**; it is settled at group level (`../group-strategy/commercial-model.md`) and is not product data (Neil, 2026-08-02).
 
 ---
 
@@ -283,7 +283,7 @@ start a conversation.*
 ## 10. Commercial — the dealer's business case *(domain 6)*
 
 *Absent from the record entirely, and it is half of why anything gets specified. **Not price.** Price is engine's,
-is partner-gated, and is never published (`decided.md`, settled). This is the argument around it.*
+is partner-gated, and is never published (`../group-strategy/commercial-model.md`, settled). This is the argument around it.*
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
@@ -310,7 +310,7 @@ about the facts.***
 ## 12. Narrative & hook material *(domain 11)*
 
 *The missing source under the hook machinery. `motion/motion-design.md` designs hooks by **appeal category**, and
-**many hooks per door is deliberate** — volume is part of the G1 design (`decided.md` S23). **But volume needs a
+**many hooks per door is deliberate** — volume is part of the G1 design (S23, `../motion/motion-design.md`). **But volume needs a
 source, or hooks get invented per campaign**, which is precisely what the production line forbids.*
 
 | Field | Why it is needed | How it is used |

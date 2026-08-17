@@ -2,7 +2,7 @@
 
 *Recovered 2026-08-01 from Neil's Dropbox ("BUYER JOURNEY ALL DOCS_MARCH2023", 34 files, dated 13 March
 2023 — the month SRND Group was formed — with the RAPS files touched as late as April 2025). This is
-**evidence, not new argument**: it lands against decisions already made (`../decided.md` S22, S23) per the
+**evidence, not new argument**: it lands against decisions already made (S22/S23, `../motion/motion-design.md`) per the
 ratchet, and it shows the current design has a three-year-old ancestor in Neil's own hand. What follows is
 the capture: what the archive contains, what it validates, what it refines, and what it warns.*
 

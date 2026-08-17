@@ -1,6 +1,6 @@
 # C-ATS — the three direct sequences, touch by touch
 
-*What the sequences actually look like (plan items 49–51; `../../decided.md` S26). Every touch carries value
+*What the sequences actually look like (plan items 49–51; S26, `../../motion/motion-design.md`). Every touch carries value
 on its own; the ask rides along, never as the payload. Every touch is built from material that already
 exists or is already planned — nothing invented, nothing promised that isn't built (no training claims, no
 discounts: the depth is spent, never the margin). **Timings are proposals for correction.** Triggers marked
