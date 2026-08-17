@@ -1,6 +1,6 @@
 # Light Walls — brand playbook
 
-Light Walls is one of the six SRND brands (`../../group/01-commercial-model.md`): **RGBW
+Light Walls is one of the six SRND brands (`../../group-strategy/commercial-model.md`): **RGBW
 individually-addressable lighting systems** ("light engines") for cinemas, interiors and
 installations.
 
@@ -18,5 +18,5 @@ Structural strategy inherited from `../../group/`. This playbook holds only Ligh
 
 ## To build (once messaging is agreed)
 
-`positioning.md`, `growth-levers.md`, `content.md`, `product-pricing.md`, `open-items.md` — stamped
+`positioning.md`, `growth-levers.md`, `content.md`, `product-pricing.md`, `registers/open-items.md` — stamped
 from `../_template/`.

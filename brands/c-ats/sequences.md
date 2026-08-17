@@ -50,7 +50,7 @@ machinery: a C-ATS account being walked, gently and usefully, to the next layer 
 | C4 | When a reorder is natural ⚑ | **Reorder ease.** "The same spec again is one order" — practical, short | Their time | The repeat order |
 
 *Off-sequence, deliberately: the appreciation acts. Recognition is personal and never automated
-(`../../group/03-partner-programme.md`) — it would stop being a coin the moment it became a template.*
+(`../../group-strategy/partner-programme.md`) — it would stop being a coin the moment it became a template.*
 
 ---
 

@@ -59,7 +59,7 @@ Per the note that each brand site carries social + YouTube links:
 - **YouTube:** `youtube.com/channel/UClKvQFB7kpgub1ANfRAuZ_g` (featured video `youtu.be/NxZHuOjPGGM`)
 
 These are DT's own social presence; they roll up into the group channel landscape
-(`../../group/05-channels.md`) once catalogued across all brands.
+(`../../group-strategy/channels.md`) once catalogued across all brands.
 
 ## Questions to resolve in messaging (flag, don't guess)
 

@@ -29,7 +29,7 @@ research — don't guess specs.
     room level, so relevant group-wide, not to DT alone.
 
 Several of these are group-level competitors, not DT-only — researched (what each does well) in the
-group competitor study `../../group/06-competitors.md`. This matrix stays DT/Commander-specific.
+group competitor study `../../group-strategy/competitors.md`. This matrix stays DT/Commander-specific.
 
 ## The matrix
 
@@ -58,7 +58,7 @@ Systems), **to validate per competitor before use in copy.**
 - Lead with the rows that matter most to the specific buyer/channel; don't dump the whole grid.
 - **On the masking row:** DT's 5th (Art) edge is a capability, not a selling point — art masking is
   a niche, compromise-laden solution in the field (Screen Research offer it too;
-  `../../group/06-competitors.md`). Lead on coordinated primary-edge masking done well + the control
+  `../../group-strategy/competitors.md`). Lead on coordinated primary-edge masking done well + the control
   behind it, not "we do Art."
 - Keep the DT column honest to the repo (and to the status caveats — some V5 boards are designed,
   not yet built).
@@ -66,6 +66,6 @@ Systems), **to validate per competitor before use in copy.**
 ## Open items
 
 - **Fill the competitor column with verified research** on the named set. First-pass public research
-  (what each does well) is captured in `../../group/06-competitors.md`; the per-capability cells here
+  (what each does well) is captured in `../../group-strategy/competitors.md`; the per-capability cells here
   still need the specific control-vs-control detail, from closer research + Neil's knowledge — no
   guessed specs.

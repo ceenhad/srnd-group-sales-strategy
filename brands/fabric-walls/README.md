@@ -1,6 +1,6 @@
 # Fabric Walls — brand playbook
 
-Fabric Walls is one of the six SRND brands (`../../group/01-commercial-model.md`): a productised
+Fabric Walls is one of the six SRND brands (`../../group-strategy/commercial-model.md`): a productised
 **modular aluminium stretch-fabric frame system** for walls, ceilings and other surfaces —
 factory-assembled and CNC-cut, so the result is settled in the factory rather than worked out on site.
 ("Walls" is only the name.)
@@ -33,6 +33,6 @@ First/second pass captured in `brand-data.md`. To revisit when we return:
 
 ## To build (once messaging is agreed)
 
-`positioning.md`, `growth-levers.md`, `content.md`, `product-pricing.md`, `open-items.md`, and
+`positioning.md`, `growth-levers.md`, `content.md`, `product-pricing.md`, `registers/open-items.md`, and
 optionally `competition-matrix.md` — stamped from `../_template/`. (Fabric Walls' clearest direct
-competitor is Cinema Build Systems' "Core" fabric-walling system — `../../group/06-competitors.md`.)
+competitor is Cinema Build Systems' "Core" fabric-walling system — `../../group-strategy/competitors.md`.)

@@ -1,6 +1,6 @@
 # C-ATS — the two growth levers
 
-The buyer journey (`../../group/02-buyer-journey.md`) converts and retains a dealer regardless of
+The buyer journey (`../../group-strategy/buyer-journey.md`) converts and retains a dealer regardless of
 channel. Growth is about **which channels C-ATS aims it at.** Two levers:
 
 **Lever 1 — win more in the residential installation channels we already know.** We know these firms
@@ -24,7 +24,7 @@ proof needs and objections, so each needs its own validation before spend — sa
 discipline as the residential buyer-truth. Don't assume the residential approach transfers wholesale.
 
 Both levers share **the same buyer journey and the same content operation
-(`../../group/04-content.md`).** A new channel mostly needs the proposition re-pointed
+(`../../motion/content.md`).** A new channel mostly needs the proposition re-pointed
 and channel-specific proof, not a separate operation — which is what makes lever 2 affordable to
 try.
 

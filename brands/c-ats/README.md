@@ -8,7 +8,7 @@ restated here.
 
 ## What C-ATS takes from the group strategy (do not duplicate)
 
-- The buyer journey (`../../group/02-buyer-journey.md`) — C-ATS runs its own version; content per
+- The buyer journey (`../../group-strategy/buyer-journey.md`) — C-ATS runs its own version; content per
   stage is in `content.md`.
 - Commercial model, portal, fully-gated pricing policy — `../../group/`.
 - Content production (studio + Experience Centre) — shared; C-ATS books output.
@@ -22,7 +22,7 @@ restated here.
 - `growth-levers.md` — which channels C-ATS prioritises.
 - `content.md` — the 3 Rs content, guardrails, creative approach, the layered build.
 - `product-pricing.md` — the range and the (gated) tier work.
-- `open-items.md` — C-ATS-specific decisions and sequencing.
+- `registers/open-items.md` — C-ATS-specific decisions and sequencing.
 - `brand-data.md` — the public front (`c-ats.co.uk` holding page) and live-site-vs-brand-truth
   tensions to reconcile.
 - `measured-acoustics.md` — the engineering differentiator C-ATS *owns*: measured (BSRIA) per-panel

@@ -40,7 +40,7 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
   tooling lives under the **Cinema Tools** master brand (including the partner-gated C-ATS reporting tool,
   with methodology black-boxed), C-ATS publishes worked examples showing how quantities are derived, and a
   reflection-point calculator (geometry, not design) is a good candidate. See
-  `../../group/07-tools.md`.
+  `../../motion/tools.md`.
 - **Shallow depth is a deliberate commercial decision, not a spec boast.** The cost that matters is
   the floor and wall area the treatment occupies — in most rooms far greater than the price of the
   panels. Depth removed is space returned to the client. Externally the claim is relative
@@ -169,7 +169,7 @@ governs anyone writing C-ATS copy.
 - **No design-replacing calculator on the C-ATS site** — because of what its presence would *imply*, not
   what it would reveal. Worked examples showing how quantities are derived are the self-serve route.
   Bounded tools (e.g. reflection points) belong on Cinema Tools. See
-  `../../group/07-tools.md`.
+  `../../motion/tools.md`.
 
 **Honesty**
 

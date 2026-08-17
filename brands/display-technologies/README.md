@@ -1,6 +1,6 @@
 # Display Technologies — brand playbook
 
-Display Technologies (DT) is one of the six SRND brands (`../../group/01-commercial-model.md`):
+Display Technologies (DT) is one of the six SRND brands (`../../group-strategy/commercial-model.md`):
 **solutions for the architectural integration of technology** — screens and masking, mounts and
 mirrors, airflow and enclosures, port holes, and the modular Screen Wall, with the control engineered
 inside the products. Deliberately **not** "the projection company": the competence is integration and
@@ -22,5 +22,5 @@ This playbook holds only what is specific to DT; the structural strategy is inhe
 
 ## To build
 
-`growth-levers.md`, `content.md`, `product-pricing.md`, `open-items.md` — stamped from `../_template/`.
+`growth-levers.md`, `content.md`, `product-pricing.md`, `registers/open-items.md` — stamped from `../_template/`.
 The open items currently live in `positioning.md` §7; the biggest is productising the Screen Wall.

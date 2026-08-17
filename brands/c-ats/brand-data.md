@@ -139,7 +139,7 @@ in a hero, so the theme default survived. Same for the disappearance of the 3 Rs
 definitional or on-ramp record to generate from, so a generated site produced generic copy in the right-shaped
 slots.
 
-**Which is the case for the product-data layer, demonstrated rather than argued** (`../../product-data-schema.md`).
+**Which is the case for the product-data layer, demonstrated rather than argued** (`../../registers/record-schema.md`).
 The fix is not "write better website copy." It is to fill **group 1 (what the product is)** and **group 2 (why to
 buy it)** for the three panels, at which point the hero, the product pages and the store listings have a source to
 inherit from. The old site has the depth; the new site has the shape; the schema supplies what connects them.

@@ -1,6 +1,6 @@
 # C-ATS — the reverberation pathway (the first, and the template)
 
-*The first content pathway written end to end (`../../group/09-motion-design.md`; `../../decided.md` S22;
+*The first content pathway written end to end (`../../motion/motion-design.md`; `../../decided.md` S22;
 register JNY-2). One entry door: the dealer whose client's room sounds wrong — reverberation — and the panel
 that answers it, the **REV-CP**. Chosen because every slot's material either exists or is already written, so
 this is **assembly, not creation**. Each slot names the piece, its one job, its honest state, and the handoff
@@ -13,7 +13,7 @@ The problem, in the dealer's words: *"the room sounds echoey — you can't make 
 to confirm from the archive count, CON-3 — the dealer's own words are the search terms and must come from
 real questions, not be invented]**. The product: the REV-CP. A low-value, low-risk first order — boxes of
 panels, easy to specify, quick to prove — which is exactly what the journey asks of a door
-(`../../group/02-buyer-journey.md`: the door is a product, not a brand).
+(`../../group-strategy/buyer-journey.md`: the door is a product, not a brand).
 
 ## The pathway, slot by slot
 
@@ -30,7 +30,7 @@ panels, easy to specify, quick to prove — which is exactly what the journey as
 
 ## The hook matrix — slot 1 is a set, not a piece
 
-*Per the hook layer (`../../group/09-motion-design.md`; `../../decided.md` S23): many hooks per door,
+*Per the hook layer (`../../motion/motion-design.md`; `../../decided.md` S23): many hooks per door,
 categorised by appeal, placed where strangers look, each naming its destination. **These are candidate
 angles, not copy** — every one is backed by real substance already in the record, and the wording is an owner's
 to set. All hand to slot 2.*
@@ -41,7 +41,7 @@ to set. All hand to slot 2.*
 | **Better results** | Dialogue you can actually follow — the client hears the difference (the 3 Rs argument) | Social, YouTube short |
 | **Easier to do** | 50 mm — treatment that fits rooms the deep products don't (the space-value argument, `content.md`) | Trade press, social |
 | **Time saved** | Specify from the documentation — the design service is a choice, not a requirement (the two routes) | Trade press, LinkedIn |
-| **More revenue** | The job won by knowing *why* to spec treatment — explaining why-to-spec is the most valuable public act (`../../group/02-buyer-journey.md`) | LinkedIn, EI microsite |
+| **More revenue** | The job won by knowing *why* to spec treatment — explaining why-to-spec is the most valuable public act (`../../group-strategy/buyer-journey.md`) | LinkedIn, EI microsite |
 
 *The e-commerce discipline applies from the first cast: source-tag the hooks, measure the bites, multiply
 what works, retire what doesn't (JNY-1).*

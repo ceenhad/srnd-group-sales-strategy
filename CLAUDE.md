@@ -20,25 +20,26 @@ audio/AV work at the core.
 
 > **Identity line is unresolved.** Neither the store's "luxury solutions for high-tech environments"
 > nor the group site's "British manufacturing for high-end environments" is felt to be strong enough
-> yet. Treat the description above as working context, not a settled tagline — see `open-items.md`.
+> yet. Treat the description above as working context, not a settled tagline — see `registers/open-items.md`.
 
 ## The brands
 
 Six specialist brands, each with its own site and range, covering the room system end to end:
 **Display Technologies** (projection), **Fabric Walls** (stretch-fabric wall/ceiling systems),
 **Light Walls** (addressable lighting), **C-ATS** (acoustic treatment — the 3 Rs), **Pro-Fi** (audio
-systems), and **SRND Distribution** (the trade distribution arm). A further own-made line,
-**SRND Solutions** (sensors and interfaces — the connective "glue" of a high-end install, not
-fitting inside any one brand), is in development. In distribution, **Leyard** is the only genuine
+systems), and **SRND Distribution** (the trade distribution arm). **Six is the roster — there is no seventh
+line in waiting.** *("SRND Solutions" was carried here as a forthcoming sensors-and-interfaces line; retired
+2026-08-16 as stale, having been named before the work that would fill it existed. The nearest real thing is
+LWCP's spatial sensing, which is a layer of LWCP until it proves otherwise.)* In distribution, **Leyard** is the only genuine
 third-party brand; other names on the store are carried lines or components (Ultrasuede is a fabric
-used within Fabric Walls, not a standalone brand). Full roster: `group/01-commercial-model.md`.
+used within Fabric Walls, not a standalone brand). Full roster: `group-strategy/commercial-model.md`.
 
 ## The core idea
 
 **The dealer relationship is the asset**, counted across every brand and over years, and — done
 well — compounding. A dealer won through one brand is a doorway the whole group cross-sells
 through, because the brands serve the **same room**. This changes the economics of everything
-here: we don't triage dealers by any single brand's order size. See `group/00-strategy.md`.
+here: we don't triage dealers by any single brand's order size. See `group-strategy/the-group-play.md`.
 
 ## Non-negotiable discipline
 
@@ -54,40 +55,42 @@ here: we don't triage dealers by any single brand's order size. See `group/00-st
   own hard don'ts apply and apply hardest — there's no group licence to override brand truth.
   (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
   performance figures; no supplier names; no NDA install details; don't tease the commercial range;
-  don't hard-code the "Complete" name expansion. See `brands/c-ats/`.)
+  ~~don't hard-code the "Complete" name expansion~~ — **rule dropped 2026-08-16: the expansion is fine.**
+  See `brands/c-ats/`.)
 - **Check the platform before specifying anything that touches it.** Engine, the canonical dataset and the
   Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
   settled, read the current state first — this work has already based a position on a superseded ADR once, and
   a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
-- **Facts about the present go in `current-state.md`.** The baseline — dealers, revenue shape, lead sources,
+- **Facts about the present go in `evidence/current-state.md`.** The baseline — dealers, revenue shape, lead sources,
   what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
   reasoning about it.
-- **The work ratchets; it does not spiral.** `decided.md` records what is closed. New data from real work lands
-  as **evidence** against a decision or an open item — it does not reopen the reasoning that produced the
-  decision. A decision changes only when someone says it changes, recorded as a dated reversal. After logging
-  evidence, the next move is `NEXT.md`, not another pass through `group/`. **Prefer amending the plan over
-  re-arguing the strategy.**
+- **The work ratchets; it does not spiral.** **SRND OS is the source of record for what is decided**;
+  **nothing enters `decided.md` without Neil's
+  explicit approval** (it is empty by instruction, 2026-08-16). New data from real work lands as **evidence**
+  against a decision or an open item — it does not reopen the reasoning that produced the decision. After
+  logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
+  the plan over re-arguing the strategy.**
 - **Flag, don't guess.** Buyer-truth, channel validation, pricing tiers, name expansions — where a
   fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
-  `open-items.md`. Don't invent personas, figures, or roadmaps.
+  `registers/open-items.md`. Don't invent personas, figures, or roadmaps.
 - **Build it, then say it.** Where the group has the intent but not yet the reality, the reality comes
   first and the claim waits. This has now surfaced three times independently — dealer appreciation, the
   partner programme, and the whole room being genuinely easier to buy — which makes it the group's
   characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
-  more than silence. See `group/03-partner-programme.md`, `group/00-strategy.md`.
+  more than silence. See `group-strategy/partner-programme.md`, `group-strategy/the-group-play.md`.
 - **Don't fence us to cinema — in trade.** High-end cinema is the heartland of revenue and credibility and
   should lead where it's strongest, but the group is explicitly determined not to remain a cinema-only trade
   supplier, and none of the underlying competences are cinema-specific. Name the *problem*, never the room
   type; lead with cinema credibility, never a cinema-only definition. **The reverse holds in B2C:** the
-  consumer proposition stays DIY home cinema, deliberately. See `group/00-strategy.md`.
+  consumer proposition stays DIY home cinema, deliberately. See `group-strategy/the-group-play.md`.
 
 ## The shared portal (settled policy)
 
 - **Pricing is registered-partner-only — fully gated.** No public prices, and no end-user prices
   either. Public marketing claims stay qualitative (performance, depth, measured data), never
-  value/price-led. This is decided, not deferred. See `group/01-commercial-model.md`.
+  value/price-led. This is decided, not deferred. See `group-strategy/commercial-model.md`.
 - **Direct to dealer, globally, through the store.** Distributors are a deliberate case-by-case
-  exception (scale or language barrier only), never the default. See `group/01-commercial-model.md`.
+  exception (scale or language barrier only), never the default. See `group-strategy/commercial-model.md`.
 
 ## Voice
 
@@ -99,7 +102,7 @@ here: we don't triage dealers by any single brand's order size. See `group/00-st
   genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
   niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
   customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
-  See `group/00-strategy.md`.
+  See `group-strategy/the-group-play.md`.
 - **The Scandinavian register (group-wide voice principle).** Restraint over superlatives; substance
   carried in plain language and in owned proper nouns, not genericised adjectives. Accept being
   underestimated on first read — let the work re-rate the brand. Voice does substance; imagery does

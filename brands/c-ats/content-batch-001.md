@@ -4,12 +4,12 @@
 selling point of the product.** Weight it accordingly: the selling weight stays on the 3 Rs and the
 measured performance; this batch exists to make the first job go right.*
 
-*One substance atom through the production line (`../../decided.md` S24; `../../group/09-motion-design.md`
+*One substance atom through the production line (`../../decided.md` S24; `../../motion/motion-design.md`
 component 2). **The atom:** the Reverberation Control Panel warm-room install note
 (`install-critical-notes.md`, page 2) — human-authored, true, and publication-unblocked by its own footer.
 Below is its derivative set, drafted by Claude for an owner's truth-check. **No claim below is absent from
 the source.** Wording is drafted for correction; distribution follows the placement rules
-(`../../group/04-content.md`), canonical first, every piece source-tagged and carrying its destination slot
+(`../../motion/content.md`), canonical first, every piece source-tagged and carrying its destination slot
 (the reverberation pathway, slot 7).*
 
 ---
@@ -36,7 +36,7 @@ service is your choice, never a requirement — talk to us."
 ## 2. Derivative pieces by reader's stage
 
 *Corrected twice at truth-check (Neil, 2026-07-31), and both corrections are now design rules
-(`../../group/09-motion-design.md`, "the hook test" and "hooks are evidenced and positive"):*
+(`../../motion/motion-design.md`, "the hook test" and "hooks are evidenced and positive"):*
 
 **Hooks this atom yields: none — and that is the honest answer.** The screw tip presumes ownership; the
 "panels let go" angle imagined a search nobody runs and reads more negative than positive in public. An

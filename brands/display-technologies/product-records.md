@@ -1,6 +1,6 @@
 # Display Technologies — product records (skeleton)
 
-*The form in `../../product-record-template.md`, applied to the DT range **by mechanism rather than by SKU**
+*The form in `../../registers/record-form.md`, applied to the DT range **by mechanism rather than by SKU**
 (`../../decided.md` S11a). Fifty-two live catalogue lines resolve into **twelve record scopes**, of which nine are
 sellable families documented below.*
 
@@ -11,7 +11,7 @@ question someone can be sent to answer rather than a project someone has to scop
 
 > **Scope of the gap lists.** The `Gaps:` lists under each family enumerate the *definitional* gaps only. The
 > front half of the form — competitive (`X1`–`X6`), commercial (`M1`–`M5`), lifecycle (`L1`–`L5`) and hook
-> material (`H1`–`H3`) — is **empty for every DT family**. Filling it is `../../backlog.md` SYS-3.
+> material (`H1`–`H3`) — is **empty for every DT family**. Filling it is `../../registers/backlog.md` SYS-3.
 
 **Provenance — read before using anything here.**
 
@@ -37,8 +37,8 @@ question someone can be sent to answer rather than a project someone has to scop
 | `W2` | **Who signs off, and what convinces them** | `[?]` — **deliberately parked.** The real split (integrator vs specialist cinema contractor vs architect/designer) comes from real jobs, not invention |
 | `G2` | **The claims we refuse to make** | No *"engineered to your exact projector"* — products are **size-driven, not per-model bespoke**. No lab regime or certifications DT does not hold. No claim that DT's element is *the* most complex part of a project. Forward/LED claims are **capability, not track record**. FA-copied-CAD is internal and attributed, never public |
 | `G3` | **Marketing status** | `current` for `DT-01`–`DT-08` and `DT-12`; see the individual rows for the exceptions |
-| `C1` | **Channel** | `srnd.store`, trade. **DT is trade-only** — the former Enthusiast tier has left the brand for the Cinema Store DIY range (`../../group/01-commercial-model.md`) |
-| `C2` | **Territory** | Direct to dealer globally through the store; distributor appointments are case-by-case exceptions. **The US is currently unrepresented** — Apex-Tech has resigned and the Screen Innovations arrangement is white label (`../../current-state.md`) |
+| `C1` | **Channel** | `srnd.store`, trade. **DT is trade-only** — the former Enthusiast tier has left the brand for the Cinema Store DIY range (`../../group-strategy/commercial-model.md`) |
+| `C2` | **Territory** | Direct to dealer globally through the store; distributor appointments are case-by-case exceptions. **The US is currently unrepresented** — Apex-Tech has resigned and the Screen Innovations arrangement is white label (`../../evidence/current-state.md`) |
 | `K1` | **Record owner** | `[?]` — unassigned |
 | `K2` | **Last reviewed** | 2026-08-02 (first capture) |
 | `K3` | **Review interval** | `[?]` |
@@ -181,7 +181,7 @@ sentence. Nowhere in the DT estate is that sentence written down.
 
 **`D9` here is a genuine commercial risk, not a documentation nicety.** A hush box specified against a projector it
 cannot cool is a failure discovered after the room is finished. **The store's de-duplication of this line is already
-a live worklist item** (`../../group/store-split-worklist.md`), so the range is being touched anyway — the thermal
+a live worklist item** (`../../operations/store-split-worklist.md`), so the range is being touched anyway — the thermal
 envelope should be captured in the same pass.
 
 ## `DT-07` — Projector port holes
@@ -226,7 +226,7 @@ envelope should be captured in the same pass.
 > never a line item, no exceptions"* (`positioning.md` §5), and the Actuator Commander is being withdrawn from the
 > store to make it hold without exception. **The Mistral Commander is a live standalone line item.** So either
 > airflow control is an unstated exception to the rule, or it follows the Actuator Commander off the store. Nobody
-> has said which. Recorded in `../../product-register.md` and worth a minute of the owner's time, not a project.
+> has said which. Recorded in `../../registers/product-register.md` and worth a minute of the owner's time, not a project.
 
 ## `DT-09` — The Commanders
 
@@ -249,7 +249,7 @@ acoustics and structure as one product, in projection and LED variants, demonstr
 page and no datasheet.
 
 **The `G3` gate applies in full: it generates internal material only until it has a record.** Writing that record is
-`backlog.md` SW-1 and it is a description of what already exists, not an engineering job. **It is also the best
+`registers/backlog.md` SW-1 and it is a description of what already exists, not an engineering job. **It is also the best
 possible argument for this whole exercise** — three years of a finished flagship being commercially invisible is
 what the absence of a product record costs.
 
@@ -286,7 +286,7 @@ sounds.*
 two; a content backlog exists there and is merely thin. **For DT there is no list at all** — nothing says what a
 dealer asks about a hush box, a port hole or a masking screen, so nothing can be ranked, and the production line
 has nothing to draft from but the catalogue description. That is the same catalogue content that already failed:
-two dozen competent product films at between 1 and 26 views (`../../group/04-content.md`).
+two dozen competent product films at between 1 and 26 views (`../../motion/content.md`).
 
 **And DT owns the audience.** Three-quarters of the estate's viewers are on DT's channel, running since 2018 with
 ~41,000 views. **The brand with the audience is the brand with no question list** — which is the most consequential
@@ -302,7 +302,7 @@ sentence on this page.
 | `N6` | Project timing | **`[?]`, and it is DT's strongest unclaimed argument** | A port hole is an opening the builder must leave; a mount is a load path; a hush box is an extract route. **These are decided before the wall is closed** — far earlier than the AV order. Knowing that is exactly what a rep is for, and it is written nowhere |
 | `N7` | What the dealer tells their client | **`missing`** | And DT is the brand where it matters most, because `positioning.md` §2 says the audience widens to **the architect and designer** — people the *dealer* has to persuade, in the dealer's own meeting, without us there |
 | `N8` | Field learning | **`[?]`** | Prestigious installs exist; nothing captured |
-| `N9` | What we are asked and cannot answer | **`[?]`** | Two candidates already visible: how far DT's remote diagnostics actually goes (`../../backlog.md` US-6, capability assumed rather than known), and what the LED variant of the Screen Wall can be claimed to do |
+| `N9` | What we are asked and cannot answer | **`[?]`** | Two candidates already visible: how far DT's remote diagnostics actually goes (`../../registers/backlog.md` US-6, capability assumed rather than known), and what the LED variant of the Screen Wall can be claimed to do |
 
 **The cheapest thing on this page, and it is not writing.** `R3` and `N3` for nine families is **one conversation
 with whoever answers DT support calls**, transcribed. It produces the DT content backlog, the fault-finding
@@ -335,5 +335,5 @@ these things — which is exactly the shape the record was designed to convert i
 **A fifth finding, from adding the knowledge layer:** the definitional gaps above are real but ordinary — they get
 filled by someone who knows the products writing down what they know. **The knowledge gap is different in kind.**
 `R3` and `N3` cannot be filled from the building; they are filled from *what dealers ask*, which means listening to
-support and mining sent mail (`../../backlog.md` CON-3), not consulting the engineering. **Those are two different
+support and mining sent mail (`../../registers/backlog.md` CON-3), not consulting the engineering. **Those are two different
 people and two different sessions**, and treating DT documentation as one job is why it has never started.

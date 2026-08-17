@@ -5,7 +5,7 @@ mechanical means to churn through it, record the outputs and then apply them." T
 (`../../decided.md` S24 — the production line) and the tracking is designed (S23). **This is the filled
 plan for the first brand**: every content piece C-ATS needs, enumerated against the journey, with its
 source atom, its state, its stage-grid row and its target — the thing it points at, written into the piece
-(`../../group/09-motion-design.md`, "the actions at each stage"). The line works this queue top to bottom;
+(`../../motion/motion-design.md`, "the actions at each stage"). The line works this queue top to bottom;
 nothing here requires ideation. Drafted for correction — states and targets are claims, strike wrong ones.
 Other brands copy the shape.*
 
@@ -58,8 +58,8 @@ Target = what the piece points at — its gateway's threshold action, written in
 | # | Piece | Stage | Target | Source atom | State |
 |---|---|---|---|---|---|
 | 45 | The adjacency prompt page (treatment → fabric → front-of-room) | 6 | **Fabric Walls stage 2** — the loop | XS-1, one page | missing — the only authored gap in the reverberation pathway |
-| 46 | Registration-worth-crossing copy (what a partner account grants, honestly — no unbuilt promises) | 3→4 | Registration completed → the store | `03-partner-programme.md` | missing |
-| 49 | The registered-welcome sequence — several small useful touches, not one email (S26): what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom. Direct, permissioned | 4 | The first order | `03-partner-programme.md` + store | drafted — `sequences.md` A |
+| 46 | Registration-worth-crossing copy (what a partner account grants, honestly — no unbuilt promises) | 3→4 | Registration completed → the store | `partner-programme.md` | missing |
+| 49 | The registered-welcome sequence — several small useful touches, not one email (S26): what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom. Direct, permissioned | 4 | The first order | `partner-programme.md` + store | drafted — `sequences.md` A |
 | 50 | The install pack and post-delivery check-in — order-confirmation email + in-box sheet, assembled from items 1, 2, 37–39 | 5 | A first job that succeeds, and telling us | items 1–2, 37–39 | drafted — `sequences.md` B |
 | 51 | The adjacency-aware partner email set — timed to what was bought, never a blast; includes reorder ease | 6 | The next layer — Fabric Walls stage 2 | item 45 + purchase data | drafted — `sequences.md` C (C2 blocked: item 45) |
 

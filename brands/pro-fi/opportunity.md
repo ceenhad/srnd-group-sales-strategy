@@ -59,6 +59,14 @@ Olympus — a fault is "a short diff against the sign-off snapshot, not a truck 
 
 ## v1 launch market: commercial cinema
 
+> **⚠ `Status: unestablished` — Neil, 2026-08-16.** This section was cited in a working session as Pro-Fi's
+> live launch plan and the reading was rejected. **It is a claim the project exists to establish, not the plan
+> of record** — and *"much of the point of this project is to establish these facts."*
+> **What would establish it:** a decision from Neil on Pro-Fi's launch sequence, against Pantheon's actual
+> readiness and what Dot 1 is selling into today.
+> *Kept, not deleted — the failure was reading an unestablished claim as a held position, and deleting it
+> would lose the agenda item along with the error.*
+
 Chosen because: the standalone cinema audio-processor category is **structurally collapsing** (ICMPs
 now embed AES67 decoders, making Dolby CP950 / Datasat / QSC DCP legacy); **AES67 source diversity**
 (Dolby vs Dante vs generic, PTP/DSCP/multicast fights) is a live pain Apollo's aggregation/bridging
@@ -92,4 +100,4 @@ measurement/DSP platform).
 
 > **Cross-brand pattern (now three-for-three):** DT wins on the Commander (control); Light Walls on
 > measured colour; Pro-Fi on measured/verified **voicing**. The group's real, repeated edge is the
-> **measurement + control + data layer** — the un-copyable part (`../../group/06-competitors.md`).
+> **measurement + control + data layer** — the un-copyable part (`../../group-strategy/competitors.md`).
