@@ -8,6 +8,38 @@ execution.
 > brands and the group layer; what remains runs as a **parallel path** alongside normal business, not as a
 > programme of projects. Everything else here is the reasoning behind it.
 
+## What this repo is for — Neil, 2026-08-17
+
+*In his words, recorded verbatim. **This is the statement of the project and the order of work; everything else
+in the repo serves it.***
+
+> This repo was created to allow SRND Group to create and implement a new sales and marketing process based on
+> the concept of content taking over much of the role of a traditional sales rep. Much ground has been covered
+> such as establishing the buyer journey, the need for increased engagement as a priority, kpi ideas to ensure
+> that improved performance is tracked and even general concepts of what content is. We now need to lock down
+> the strategy, the channels, the methods the kpis etc at our group level and then drive down through each
+> brand to establish the actual content and methods to be used how and when and start on generating and
+> tracking it. We have the SRND engine which is intended to take the place of third party tools giving us a
+> properly integrated sales and marketing system.
+
+**The order of work that follows from it:**
+
+1. **Lock down at group level** — the strategy, the channels, the methods, the KPIs.
+2. **Drive down through each brand** — the actual content and methods to be used, how and when.
+3. **Start generating and tracking it**, in engine.
+
+**Where the four group-level items stand today** — all four exist as drafts, none is locked:
+
+| | State | Where |
+|---|---|---|
+| **Strategy** | Written, unestablished — not missing | `group-strategy/` |
+| **Channels** | **A candidate landscape only.** Selection, priority, spend and owner were never decided | `group-strategy/channels.md` |
+| **Methods** | Thorough and unratified — six gateways with observable signals, pathways, five components | `motion/motion-design.md` |
+| **KPIs** | Closest to locked — the framework worked through 2026-08-14 | `operations/engine-as-hub.md` §1 |
+
+> **Locking is choosing, not writing.** All four have been drafted already; what they need is decisions, not
+> more documents. *A session that responds to this by authoring has misread it — see [`method.md`](method.md).*
+
 ## Why this exists — the core problem
 
 SRND's **external and internal stories are wildly divergent.** The engineering is world-class — the
