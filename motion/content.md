@@ -43,8 +43,13 @@ per published answer rather than owner involvement.**
   video, a social hook and a paragraph of a datasheet. Writing the same thing costs an hour and usually doesn't happen.
   This is the studio's real purpose, and it is why the studio is described as what makes the direct-global
   model affordable.
-- **Set a floor, not a target.** The sustainable minimum through a busy month, held all year, beats an
-  ambitious cadence abandoned at the first large project.
+- ~~**Set a floor, not a target.**~~ *Struck per the S20 reversal (2026-07-31, confirmed 2026-08-17): a formally
+  set floor rate was a decision nobody needed. Volume comes from the Claude-assisted production line instead
+  (`motion-design.md` component 2).*
+- **Website copy is generated from the product record, not written per page.** The C-ATS Shopify site kept its
+  theme placeholder hero because there was no canonical source for what belongs there, and the 3 Rs vanished
+  from the homepage for the same reason. Fill the record's definition and problem groups and the pages inherit;
+  write page copy first and it drifts again (`../registers/record-schema.md`).
 - **Publication is owned by someone other than the answerer.** Otherwise the bottleneck simply moves back.
 - **The measure is questions retired**, not reach. An owner answering a published question twice means the
   piece isn't findable — a different and cheaper problem than the piece not existing.
@@ -82,8 +87,8 @@ studio exists.*
 Worth being precise, because the instinct "make more video" misses what actually creates the effect.
 
 - **Frequency and regularity beat production value.** Rapport is built by repeated exposure, so a predictable
-  slot matters more than polish. This is the same argument as the floor rate above, arriving from the other
-  direction.
+  slot matters more than polish. Regularity comes from the production line's steady output, not from a set
+  floor rate (S20 reversal).
 - **Same face, same room, same format.** Recognition is built out of consistency of frame. A recognisable
   setting is doing real work, which is a large part of what the studio buys us.
 - **Address one person.** Second person, no corporate plural. A dealer watching alone should be spoken to as
@@ -173,9 +178,15 @@ Administrative rather than strategic, and in the way.
   channel's weakness is partly a lockout rather than neglect** — worth knowing before judging it. Establish
   what is on the old account and pursue recovery: a Workspace administrator can reset a managed account, a
   brand account can have owners re-added by any remaining manager, and YouTube has its own recovery route.
-- **Decide the channel architecture.** Three live channels, brand-shaped by accident. Either every brand gets
-  one and the group channel goes group-only, or the estate consolidates. Whichever way, the C-ATS educational
-  material and DT's eight-year history are the two things that must not be orphaned.
+- **The channel architecture is settled** (S29, Neil 2026-08-02; confirmed 2026-08-17): **every brand gets its
+  own channel, and the group channel carries group material only.** The C-ATS educational material and DT's
+  eight-year history are the two things that must not be orphaned in applying it.
+- **The properties restart; the addresses and the history are kept.** The websites and social accounts are
+  rebuilt to the settled structure rather than edited page by page — they were built ad hoc before any of this
+  was settled. URLs, indexed pages and channel history are the compounding asset the model rests on, so:
+  rebuild behind the same addresses, redirect anything that moves, keep the channels and change what goes on
+  them. And the rebuild must not gate the publishing cadence — publish to the knowledge base and the existing
+  channels first, and let the rebuild follow the content.
 - **The estate still advertises what we have removed or renamed.** Playlists for **MAG Theatron** and **Barco
   Residential** are live on the group channel, both discontinued carried lines. The C-ATS channel spells out
   "Complete Acoustic Treatment System," the naming we agreed not to hard-code. And DT's channel describes a

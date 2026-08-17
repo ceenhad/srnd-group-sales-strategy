@@ -365,9 +365,9 @@ method), and no distributor's rep appears in an AI answer. **Share of Model** is
 
 **The channel doctrine:** longevity compounds, so **feed the old channels, never start new ones** — DT's
 eight years and ~41,000 views against the group channel's 1,471 is our own proof. Brand content belongs on
-brand channels; the group channel carries group-level material or nothing. **Decision:** the channel
-architecture — every brand gets a channel and the group's goes group-only, or the estate consolidates; either
-way DT's history and the C-ATS educational set are not orphaned.
+brand channels; the group channel carries group-level material or nothing. **The architecture is settled**
+(S29, Neil 2026-08-02; confirmed 2026-08-17): every brand gets its own channel and the group's goes
+group-only; either way DT's history and the C-ATS educational set are not orphaned.
 
 **The format rule: show what can be shown, explain what cannot.** Acoustics is invisible, so C-ATS explains
 and wins; a masking screen moving is its own argument, so DT films the mechanism and wins. What fails on

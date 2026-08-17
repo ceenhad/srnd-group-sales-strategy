@@ -72,8 +72,11 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | **Proof, and publishable?** (`G4`) | **Strong and unusually unencumbered.** The full BSRIA report is published as a public PDF with five per-panel coefficient sheets beside it — specifier-grade third-party proof, freely available (`../../NEXT.md` lane 8). Install photography is thin; the Cornflake IMAX private cinema is public and easy to find, though years old |
 | **Record keeping** (`K1`–`K3`) | Owner **`[?]` — unassigned** · last reviewed **2026-08-02** · review interval **`[?]`** |
 
-**Known data gaps, shared:** installed-effective (derated) values may exist in the legacy calculator and need
-reconciling against the raw lab figures, with a decision on which are authoritative for quotes and design. **[?]**
+**Known data gaps, shared — the authoritative-figures question is answered** (Neil, 2026-08-17,
+`../../registers/questions.md` Q46): *"both options are used in our modelling tools with the glued style as
+default. in test they literally just lay them loose on the floor which is not reality in any case."* So the
+modelling tools carry both series (glued/Reflection A and free/Reflection B), **glued is the default for quotes
+and design**, and the loose-lay lab condition is not representative of a real install.
 
 ---
 
@@ -307,7 +310,7 @@ questions answered in writing.***
 | `N6` | **Project timing** | **`[?]`, with one thing derivable and load-bearing.** The panels are concealed behind the fabric layer, so **the treatment must be decided before the wall is built** — which makes it *earlier* in the project than the fabric, the lighting or the screen. That is the cross-sell moment and the argument for being in the spec conversation, and it has never been stated. When the acoustic decision actually gets made on a real job is `[?]` |
 | `N7` | **What the dealer tells their client** | **`missing`, for all three panels.** The raw material is one sentence away — `positioning.md` §4: *"acoustics is usually the one part of a room nobody can see or prove; C-ATS makes it the part you can."* **That is a client-facing line and there is no client-facing deliverable containing it.** The dealer is left to explain our product in their own words, unaided |
 | `N8` | **Field learning** | **`[?]`.** A decade of cinema work and the Cornflake IMAX install; nothing captured as learning. The two failure modes in `install-critical-notes.md` *are* field learning, and they are the only entries that exist |
-| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) Installed-effective versus raw lab figures: both in circulation, neither declared authoritative |
+| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) ~~Installed-effective versus raw lab figures: both in circulation, neither declared authoritative~~ **Answered 2026-08-17** — both are used in the modelling tools, glued default (Q46; note above the record) |
 
 > **`N9` was already in the repo as five separate backlog rows** (DOC-6 to DOC-10) and had never been read as one
 > list. As a set it says something the rows individually do not: **four of the five are measurement gaps, so one
