@@ -16,13 +16,13 @@ by this session on 2026-08-16.
 ## What replaces it
 
 - **SRND OS is the source of record for what is decided.** Not this repo.
-- **`open-items.md`** holds what is open at group level, and **`questions.md`** is the asking surface for
+- **`registers/open-items.md`** holds what is open at group level, and **`registers/questions.md`** is the asking surface for
   anything needing an answer.
 - **Nothing enters this file without Neil's explicit approval.**
 
 ## Where the content went
 
-**`proposals.md`** — moved there, not deleted, on Neil's instruction. **Reframed as what it always was:
+**`registers/proposals.md`** — moved there, not deleted, on Neil's instruction. **Reframed as what it always was:
 unratified proposals**, each needing *yours · not yours · reword · not yet*. **What survives ratification
 belongs in SRND OS**, not back here.
 
@@ -37,5 +37,5 @@ and brand playbooks. **Those citations are stale, not authoritative** — every 
 *"a previous session recorded this"* until the position is confirmed against SRND OS.
 
 *Note the ID collision that makes a blind find-and-replace unsafe: `C1`, `G1`–`G6` and others are also
-**product-record field IDs** in `product-record-template.md`, and `G1`–`G6` are the **gateway** names in
-`group/09-motion-design.md`. The cleanup is a judged pass, not a script.*
+**product-record field IDs** in `registers/record-form.md`, and `G1`–`G6` are the **gateway** names in
+`motion/motion-design.md`. The cleanup is a judged pass, not a script.*

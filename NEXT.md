@@ -4,9 +4,9 @@
 covers. Amend this file; do not re-argue it.*
 
 *The working plan. Read this first; the strategy behind it is in `group/` and `brands/`. The sales motion's
-five components are designed group level down in [`group/09-motion-design.md`](group/09-motion-design.md) —
+five components are designed group level down in [`motion/motion-design.md`](motion/motion-design.md) —
 the standard the brands inherit — and the discrete actions extracted from this plan and the rest of the repo
-live in [`backlog.md`](backlog.md), the register a planned process runs from. This file keeps the reasoning;
+live in [`registers/backlog.md`](registers/backlog.md), the register a planned process runs from. This file keeps the reasoning;
 those two hold the design and the work.*
 
 ## The constraint, stated honestly
@@ -22,7 +22,7 @@ by-products of ordinary business do most of the strategic work. One test governs
 Almost nothing should need the second. Where something genuinely does, it is named as such and there is
 only one of them.
 
-**The archive now puts a size on the business this plan is for** (`archive-findings.md` finding 14, added
+**The archive now puts a size on the business this plan is for** (`evidence/archive-findings.md` finding 14, added
 2026-08-13). Fifteen years, five entities, **£19,443,934 of external revenue** — with a **2021 peak of £2.63m**, a
 **2025 of £1.44m**, and 2026 annualising near **£1.7m** on lumpy orders. **Two things follow, and they pull in
 opposite directions:**
@@ -47,18 +47,18 @@ right, plus the part that was missing — **which brands qualify as viable.**
 1. **Capacity settles it before preference does.** Two founders, no marketing department, roughly break-even at
    £1.44m (2025). **Six brand strategies is precisely the "programme of projects" this page's one test forbids.**
 2. **The dealer, not the brand, is the unit that earns.** Across twelve years **multi-line dealers were 44 % of the
-   base and 87.7 % of revenue** (`archive-findings.md` finding 2), with the second line arriving a median eight
+   base and 87.7 % of revenue** (`evidence/archive-findings.md` finding 2), with the second line arriving a median eight
    months later. A per-brand strategy optimises the wrong unit and makes six brands compete for one dealer's
    attention.
 3. **The problem is common, so the fix is common.** *"Massively undersold in the way of pretty much all we have. No
    one can buy what they don't even know exists"* (Neil). **That is one problem with one remedy** — the record, then
    the corpus, then the knowledge base — and it does not vary by brand.
 4. **What genuinely differs by brand is content, not strategy**, which is already how the machinery is built: the
-   form is group and the fill is brand (`product-record-template.md`); the motion is designed once and inherited
-   (`group/09-motion-design.md`).
+   form is group and the fill is brand (`registers/record-form.md`); the motion is designed once and inherited
+   (`motion/motion-design.md`).
 
 **And the growth arithmetic makes focus decisive rather than optional.** 10–20 % on £1.44m is **£150–300k** — and
-**the whole of it is available from partners who have already signed** (`archive-findings.md` finding 27). **348 hold
+**the whole of it is available from partners who have already signed** (`evidence/archive-findings.md` finding 27). **348 hold
 an engine account, meaning signed T&Cs and pricing access; 159 have ever bought; 189 have not.** At the mean
 first-year value the target is **10–20 first orders**, at the median **32–64** — 5 % to 34 % of that pool. **No new
 capture, no new content, no new system.** The
@@ -86,12 +86,12 @@ version of *"build it, then say it"* that does not cost a re-do.
 
 ## The critical path, in the order rev 1 puts it
 
-*Stress-test items 1, 2 and 3 (`open-items.md`) are not three problems. Documentation is the critical path for
+*Stress-test items 1, 2 and 3 (`registers/open-items.md`) are not three problems. Documentation is the critical path for
 support, US entry, the site rebuild, the partner programme and the content cadence; it depends on two unconfirmed
 roles; and the distributor pruning assumes a direct capability that the same documentation would create. **One
 piece, and everything in "the lanes" below is secondary until it is moving.***
 
-**What rev 1 adds is the order.** `backlog.md` files the work by workstream, which says nothing about what has to
+**What rev 1 adds is the order.** `registers/backlog.md` files the work by workstream, which says nothing about what has to
 happen before what. The chain — four jobs, 46 tasks, 168 work items, one record they all read from — produces a
 real dependency sequence.
 
@@ -100,11 +100,11 @@ real dependency sequence.
 ### Step 0 — the QA session, and it grades consistency rather than existence
 
 > **▶ The session is complete.** Started 2026-08-04, finished 2026-08-08. **All four passes and the reading are
-> done.** Full results and the reading: [`group/10-tasks-qa-sheet.md`](group/10-tasks-qa-sheet.md). The outcome
+> done.** Full results and the reading: [`evidence/2026-08-08-tasks-qa-run.md`](evidence/2026-08-08-tasks-qa-run.md). The outcome
 > is below, under "What the QA produced."
 
-**Three registers hold 329 rows** — 115 in `backlog.md`, 46 tasks in `group/10-tasks.md`, 168 work items in
-`group/11-work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
+**Three registers hold 329 rows** — 115 in `registers/backlog.md`, 46 tasks in `motion/tasks.md`, 168 work items in
+`motion/work-items.md`. **All three were assembled from the documents in this repo, not from watching anyone
 work.** Fewer than a quarter of the backlog rows cite a recorded decision as their source. **75 are marked
 `ready`**, which reads as agreed and means only that nothing blocks them. Only the task register has had a human
 pass, and only one. So the registers are a proposal nobody has read.
@@ -125,7 +125,7 @@ existence would confirm nearly every row and change nothing.
 tasks under other names, and the work items are those tasks decomposed. Graded from the bottom you argue about
 168 items beneath tasks nobody has characterised. From the top it collapses.
 
-**The session has two structural rules, and the run sheet is `group/10-tasks-qa-sheet.md`.**
+**The session has two structural rules, and the run sheet is `evidence/2026-08-08-tasks-qa-run.md`.**
 
 **One question at a time — down a column, never across a row.** A row asks three questions at once, so answering
 row-wise means switching between them 46 times and the standard drifts; the instrument measuring consistency ends
@@ -175,9 +175,9 @@ verdict on the past:
 
 | Do | To enable | Maps to | Automation it unlocks |
 |---|---|---|---|
-| **Fill the record** — the product record, plus the 15 things pass 3 named as kept nowhere | one corpus the motion reads from, so an answer is made once | W1 · step 3 · `group/09-motion-design.md` component 2 | `retrieve` (28 tasks) and `assemble` read from it — most of the 168 work items |
-| **Write the shape** — a template and a definition of done for the 19 `varies` tasks | a repeatable form in place of a habit | `group/09-motion-design.md` (the machinery, designed once); `JNY-2` as the template | a shaped process is the precondition for automating one |
-| **Skip** — `T-S08`, `T-S12`, `T-M16`, already `standard · a system · a system` | — | resolved by block in `group/11-work-items.md` | nothing to build |
+| **Fill the record** — the product record, plus the 15 things pass 3 named as kept nowhere | one corpus the motion reads from, so an answer is made once | W1 · step 3 · `motion/motion-design.md` component 2 | `retrieve` (28 tasks) and `assemble` read from it — most of the 168 work items |
+| **Write the shape** — a template and a definition of done for the 19 `varies` tasks | a repeatable form in place of a habit | `motion/motion-design.md` (the machinery, designed once); `JNY-2` as the template | a shaped process is the precondition for automating one |
+| **Skip** — `T-S08`, `T-S12`, `T-M16`, already `standard · a system · a system` | — | resolved by block in `motion/work-items.md` | nothing to build |
 
 **It confirms rev 1's order** — the record is still the cheapest, highest-leverage thing and automation is the
 last mile. Two things are logged as findings, not actioned here: the two reactive triggers are **answered by the
@@ -195,10 +195,10 @@ assumed an engine gap twice and been wrong both times.
 | | Step | Why it comes here | Rows |
 |---|---|---|---|
 | **1** | **Agree the roles** | An unowned critical path becomes next year's problem | §A below |
-| **2** | ~~**Ask engine what it already does**~~ **▶ Done 2026-08-13 — `engine-audit.md`** | Asked directly. **Wrong a third time in the same direction:** engine holds a document-generation layer and a question→answer→gap mechanism this plan never mentioned, `detect` and `route` have spines already, and **`X6` cannot be read from the pipeline as assumed**. But group 04 is confirmed homeless, which is what step 3 rests on | `TSK-5` `DOC-12` `REC-0` |
+| **2** | ~~**Ask engine what it already does**~~ **▶ Done 2026-08-13 — `evidence/engine-audit.md`** | Asked directly. **Wrong a third time in the same direction:** engine holds a document-generation layer and a question→answer→gap mechanism this plan never mentioned, `detect` and `route` have spines already, and **`X6` cannot be read from the pipeline as assumed**. But group 04 is confirmed homeless, which is what step 3 rests on | `TSK-5` `DOC-12` `REC-0` |
 | **3** | **Fill the record** | `retrieve` reads from it in **28 of 46 tasks**. Nothing downstream drafts without it, and an empty record silently reverts every `assisted` task to manual | §B below · surviving `SYS-` and `KNW-` rows |
 | **4** | **Open the capture routes, with their overflow lines** | A running route fills its domains forever; a documentation push decays from the day it is written. The overflow is the only part that can grow the form rather than fill it | `SYS-1` `SYS-9` |
-| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record. **Resized by step 2: build the *rules*, not the plumbing** — `detect`'s signals, `route`'s notification/task/referral spine and a host for `assemble` (engine's agent layer, with budgets and an audit trail) all exist; `record` splits into "use engine" for the operational two-thirds and the genuine gap for the knowledge third (`engine-audit.md` §2) | `TSK-6` |
+| **5** | **Build the four primitives, not the tasks** | `detect`, `retrieve`, `assemble`, `record` account for 108 of the 168 work items. Three of the four are not blocked on the record. **Resized by step 2: build the *rules*, not the plumbing** — `detect`'s signals, `route`'s notification/task/referral spine and a host for `assemble` (engine's agent layer, with budgets and an audit trail) all exist; `record` splits into "use engine" for the operational two-thirds and the genuine gap for the knowledge third (`evidence/engine-audit.md` §2) | `TSK-6` |
 
 **Steps 1 and 2 are hours, not projects.** Step 3 is the bulk of the work and is the same work this page has
 always called documentation — the product record is what it turned into once it had a form. **The row references
@@ -206,7 +206,7 @@ above were provisional until step 0; it has now run — see "What the QA produce
 
 **One thing runs outside the sequence because it pays on its own:** `TSK-3`, the lead-time follow-up. Projects run
 for months, so quote-to-order is a long stage nobody runs systematically, it is `automatable`, and it sits directly
-on the revenue path between a quote and its order. **And it now has its interval, measured** (`archive-findings.md`
+on the revenue path between a quote and its order. **And it now has its interval, measured** (`evidence/archive-findings.md`
 finding 24): **a won deal takes a median 153 days from creation; a lost one dies at 105.** So a deal quiet past
 roughly a hundred days is behaving like a lost one, and the median winner needs about seven more weeks of attention
 after that point. **About a third of qualified deals close** — the base rate to plan against. It is also one of the few items that came out of a real pass
@@ -232,7 +232,7 @@ than an ambitious rate. *(Roles, never names — who fills each is a separate de
 gets set cheaply against a real example — and the record is already written (`brands/c-ats/product-records.md`),
 at 28 of 58 fields with the knowledge layer at 2 of 9.
 
-> **The archive qualifies this without overturning it — `archive-findings.md` findings 14–16.** The C-ATS-first
+> **The archive qualifies this without overturning it — `evidence/archive-findings.md` findings 14–16.** The C-ATS-first
 > reason was always **cost of setting the standard**, not size, and that still holds. But the numbers say C-ATS is
 > the group's **smallest line by every measure**: £254,210 across ten years, **12 external dealers**, top five at
 > 85.9 %, and £3,978 in the whole of 2025. **So the standard is being set on the least representative product.**
@@ -243,7 +243,7 @@ at 28 of 58 fields with the knowledge layer at 2 of 9.
 > - **Fabric Walls is the strongest candidate for that second pass, and it has no record at all.** It is the
 >   **broadest own-made line — 32 dealers**, more than DT's 76 across ten years relative to its age, at £276,470
 >   product revenue in under three years and **flat rather than declining** (£107,991 → £108,206 → £60,273 part-year).
->   `product-register.md` has no Fabric Walls rows; `DOC-20` already asks for them.
+>   `registers/product-register.md` has no Fabric Walls rows; `DOC-20` already asks for them.
 
 **The knowledge layer is the half that matters** (group 04 of the form). It is what a rep speaks from, and
 everything else in the record is inert without it. `KNW-1`–`KNW-6` are that half; `SYS-3`–`SYS-5` are the front
@@ -259,7 +259,7 @@ What is actually left for C-ATS, in order:
 3. **Rewrite the three install guides to the standard** — organised by moment (unboxing, mounting, conditions,
    fault-finding), not by product structure.
 4. **Resolve the figure disagreement** before anything is published: legacy calculator versus BSRIA test 6
-   (`open-items.md`). A decision, not a project, and it blocks publication rather than the writing.
+   (`registers/open-items.md`). A decision, not a project, and it blocks publication rather than the writing.
 5. **Publish to the C-ATS brand-site knowledge base** — the canonical home is each brand's own site
    (`decided.md` S29).
 
@@ -303,14 +303,14 @@ looked** — provided the tiers are respected rather than the roster being clear
   overflow lines, so the record keeps filling without anyone pushing it.
 - **The signal it is working:** a question stops arriving. **The signal it has stalled:** a month with no
   publication. That is the only metric worth watching at this stage, and it needs no instrumentation.
-- **Report the ladder, not one number** (`archive-findings.md` findings 25–26). **The account is the unambiguous
+- **Report the ladder, not one number** (`evidence/archive-findings.md` findings 25–26). **The account is the unambiguous
   milestone: nobody sees pricing without one, and an account exists only after signed T&Cs** (Neil, 2026-08-14) —
   so the many statuses either side of it are progress tracking, not looseness. The four counts are **sequential
   milestones on one journey**: **has an account 348** → curated as an approved dealer 266 → **ever purchased 104** →
   **currently purchasing 62**. **The gate is passed 348 times and converts 104 times, and that gap is the sales
   problem in one line.** Both ends are countable in engine today with no new capture — **accounts created per
   period, and how many convert to a first purchase.**
-- **And now one number that does have a baseline — active dealers per year** (`archive-findings.md` finding 16).
+- **And now one number that does have a baseline — active dealers per year** (`evidence/archive-findings.md` finding 16).
   Breadth is the measured weakness across every own-brand entity: the distribution business ran **354 dealers with
   its largest at 5.3 % of revenue**; DT runs **76 across ten years with one account at 31.5 %**, and only
   **10 non-Apex dealers were active by mid-2026** against 19–20 in 2022–24. SRND is rebuilding fastest at **147 in
@@ -357,7 +357,7 @@ So the proof stack is:
   publishable at all** — that is a permissions question, and it is cheap to answer.
 - **Commissioned dealer features**, where a client permits it. The only dependable route to finished-room
   photography is to buy it, which the partner programme already proposes
-  (`group/03-partner-programme.md`). Expect a low hit rate and value the ones that land.
+  (`group-strategy/partner-programme.md`). Expect a low hit rate and value the ones that land.
 - **Peer reputation.** In a confidential market this does much of the work a case study would. It is earned
   in delivery, not in marketing — which is an argument for the appreciation lane, not for a campaign.
 - Rides on: a facility we already own, and a library we already have.
@@ -374,7 +374,7 @@ depth is implied, never itemised.
 
 A clean-up is in progress. The settled decisions just get applied to it rather than run separately.
 
-- **Smallest next move:** work `group/store-split-worklist.md` — the delistings, the split, the "Complete
+- **Smallest next move:** work `operations/store-split-worklist.md` — the delistings, the split, the "Complete
   ATS" vendor name, the isolation attribution, the Actuator Commander.
 - Hours, not weeks. And it removes live contradictions between what we now say and what we currently show.
 - Rides on: the clean-up already underway.
@@ -382,7 +382,7 @@ A clean-up is in progress. The settled decisions just get applied to it rather t
 ### 3. The tools keep being built; the strategy only sets what they must satisfy
 
 The platform is in active development. Nothing here asks for new tools — only that the ones being built
-respect three rules already written down (`group/07-tools.md`): bounded and honest, not
+respect three rules already written down (`motion/tools.md`): bounded and honest, not
 built around our own products, and closing their own loop.
 
 - **Smallest next move:** finish the DT Create automation so lead capture stops costing twenty minutes a
@@ -393,7 +393,7 @@ built around our own products, and closing their own loop.
 
 ### 4. Cross-sell starts as a habit, not a system
 
-The weakest link (`open-items.md`) does not need a campaign platform to begin. It needs the adjacency to be
+The weakest link (`registers/open-items.md`) does not need a campaign platform to begin. It needs the adjacency to be
 mentioned at the moment it's relevant, in conversations that are happening anyway.
 
 **And the moment already exists.** Orders come from the integrator, and *we tend to help them spec* — so we
@@ -405,15 +405,15 @@ cross-sell problem is not access. We have the access and don't use it.
   future campaigns but **a prompt list for a conversation already happening**: when you're helping spec the
   acoustics, the fabric and the front-of-room structure are the natural next questions, and you are the
   person being asked.
-- **And the archive says when to say it, which changes the trigger** (`archive-findings.md` finding 4; `MON-4`).
+- **And the archive says when to say it, which changes the trigger** (`evidence/archive-findings.md` finding 4; `MON-4`).
   Across twelve years, **74 % of multi-line dealers bought their second line on a later date, median 246 days —
   eight months** — and 43 of them took over a year. **So the prompt fires on an established account, not at the
   first order**, where three-quarters of the opportunity isn't there yet. That makes it a `detect` rule computable
-  from order history in engine (`engine-audit.md` §2) rather than a habit to remember. Cross-sell also *works*:
+  from order history in engine (`evidence/engine-audit.md` §2) rather than a habit to remember. Cross-sell also *works*:
   multi-line dealers were **44 % of the base and 87.7 % of revenue.**
 - **And start learning from it, not only helping through it.** With no field force, the spec conversation is
   our only discovery channel — the substitute for a rep sitting in a dealer's office
-  (`group/08-sales-motion.md`). Today nothing is captured from it. **Smallest possible version:** after a
+  (`motion/sales-motion.md`). Today nothing is captured from it. **Smallest possible version:** after a
   spec conversation, note the project, what the dealer was unsure about and what they were afraid of. Three
   lines. That is simultaneously the cross-sell trigger, the content backlog and the buyer truth the strategy
   keeps parking.
@@ -422,7 +422,7 @@ cross-sell problem is not access. We have the access and don't use it.
 
 ### 5. Appreciation starts with acts, not a programme
 
-Same principle. The partner programme is designed (`group/03-partner-programme.md`); the recognition part
+Same principle. The partner programme is designed (`group-strategy/partner-programme.md`); the recognition part
 needs no build at all.
 
 - **Smallest next move:** thank the £500k dealer properly, in person, naming the number and the people who
@@ -432,7 +432,7 @@ needs no build at all.
 
 ### 6. Content becomes a cadence, and owner time stops being the bottleneck
 
-Content is the sales motion (`group/08-sales-motion.md`), which makes this the lane the strategy most
+Content is the sales motion (`motion/sales-motion.md`), which makes this the lane the strategy most
 depends on — and the one most likely not to happen, because it competes with the day job. The gap is not what
 to make; it is rate and accountability.
 
@@ -447,7 +447,7 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 - **The backlog is free and already exists, twice over.** Going forward: every time an owner explains something
   on a call, the question goes in one list — no research, no ideation. Looking back: **years of sent mail have
   already answered these questions in our own words**, so the log exists retrospectively
-  (`group/08-sales-motion.md`, "the archive is a running start").
+  (`motion/sales-motion.md`, "the archive is a running start").
 - **Smallest next move for the archive, and it is genuinely small.** Take sent mail from the two or three people
   who answer technical questions, over the last two or three years, and **count which questions recur.** The
   ranked list is the publishing schedule, and nobody currently knows what sits at the top of it. Not the hundreds
@@ -459,9 +459,9 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 - **Someone other than the answerer owns publication.** Not the person with the knowledge; the person who
   gets it out. If nobody is accountable for publishing, this lane silently becomes the deferred one. **The
   fit is the producer role** — understanding what needs to be discussed is the producer's judgement and the
-  scarcer skill (`group/04-content.md`). The faces carry the authority and the relationship; the editorial
+  scarcer skill (`motion/content.md`). The faces carry the authority and the relationship; the editorial
   ownership should sit with neither.
-- **Start with the formats that already work, because we have eight years of numbers** (`group/04-content.md`).
+- **Start with the formats that already work, because we have eight years of numbers** (`motion/content.md`).
   **Show what can be shown, explain what cannot:** a 52-second C-ATS explainer on reverberation has done ~9,500
   views, and DT's best pieces are mechanisms in motion at 600–1,500. Both are short, both make an argument, and
   both are cheap. What fails is the catalogue — two dozen competent product films between 1 and 26 views.
@@ -472,7 +472,7 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 - **And sort the estate first, because it is administrative and it blocks everything.** Pursue recovery of the
   locked old SRND Group account; remove the MAG Theatron and Barco playlists; fix the "Complete Acoustic
   Treatment System" description and DT's projector-screen-company one. Hours, not weeks.
-- **And there is now a demand signal, which this lane has never had** (`archive-findings.md` finding 29). The click
+- **And there is now a demand signal, which this lane has never had** (`evidence/archive-findings.md` finding 29). The click
   detail across 29 campaigns says what the audience actually opens things for: **the store 946 clicks, booking links
   226** — of which **82 unique to book a factory visit**, evidence for lane 1's Experience Centre claim rather than
   argument — **YouTube 231**, Fabric Walls 195, DT 191, **and c-ats.co.uk 6.** **The single most-clicked link is a
@@ -487,11 +487,11 @@ rule is: **minimise owner minutes per published answer, not owner involvement.**
 ### 7. The US, now that it is open
 
 **Apex-Tech has resigned from DT and the Screen Innovations arrangement is white label**, so the largest market
-in the world is unrepresented and unencumbered (`current-state.md`). Taken as an opportunity: the first chance to
+in the world is unrepresented and unencumbered (`evidence/current-state.md`). Taken as an opportunity: the first chance to
 present the whole group there rather than one brand under somebody else's badge, and the first real test of the
 content-led model at scale.
 
-> **Now dated and sized, and the exposure is already absorbed** (`archive-findings.md` findings 9–10). The agreement
+> **Now dated and sized, and the exposure is already absorbed** (`evidence/archive-findings.md` findings 9–10). The agreement
 > **ended 1 July 2026** with 90 days' grace, and the grace is spent — **£356 since**. Apex was **£1,329,564 over
 > seven years, 31.5 % of DT's external revenue ever, and the only dealer that ever bought all thirteen product
 > lines.** Yet DT's total external revenue is down only **9 % year-on-year to mid-August**, because **non-Apex revenue
@@ -504,12 +504,12 @@ content-led model at scale.
 spares. So the usual barrier to entering a distant market is down, and **the binding constraint is support.**
 
 - **Smallest next move: settle the support model, because it is now the only thing in the way.** Four tiers, in
-  order of leverage (`group/08-sales-motion.md`):
+  order of leverage (`motion/sales-motion.md`):
   1. **Documentation, and it dominates the rest — which makes US support step 3 of the critical path, not a
      separate programme.** Support reduces to the dealer being trained and the answer being available when
      needed, so most support load is a manual that didn't answer the question. **Manuals are currently poor and
      it costs us more than it should** (`decided.md` S11). The schema, the form and the register now exist, so
-     the gap is a counted one per product rather than an opinion: `product-register.md` says which records are
+     the gap is a counted one per product rather than an opinion: `registers/product-register.md` says which records are
      open and which live products have no canonical account at all. **C-ATS sets the standard, then DT by
      mechanism, not by SKU** (S11a) — fifty-odd products collapse into far fewer manuals. Then the writing,
      ranked by support load and sales volume.
@@ -552,10 +552,10 @@ decided.
   **marketing on-ramp → technical depth → easy contact** (`decided.md` S15). The on-ramp states the problem
   solved, the opportunity opened, the time or labour saved; the depth is drawings, manuals, videos and data,
   there to remove doubt rather than to persuade; the contact route is explicit. That, plus the placement rules
-  and the content map (`group/02-buyer-journey.md`, `group/04-content.md`), is a sitemap in prose. Not a design
+  and the content map (`group-strategy/buyer-journey.md`, `motion/content.md`), is a sitemap in prose. Not a design
   project from a blank sheet.
 - **The minimum viable property is a knowledge base, not a finished brand site.** The corpus needs somewhere
-  canonical to live (`group/08-sales-motion.md`), and that is a well-structured, searchable set of answers per
+  canonical to live (`motion/sales-motion.md`), and that is a well-structured, searchable set of answers per
   brand. Far smaller than a site rebuild, and it is the part that compounds.
 
 **The firm caveat: restart the presentation, never discard the discoverability.** URLs, indexed pages and the
@@ -594,7 +594,7 @@ since ISE 2023.
 
 - **Smallest next move:** a datasheet and a product page. Not a re-engineering — a description of what
   already exists, in projection and LED variants.
-- **The archive now sizes the LED shift this lane exists to answer, and margin sharpens it** (`archive-findings.md`
+- **The archive now sizes the LED shift this lane exists to answer, and margin sharpens it** (`evidence/archive-findings.md`
   findings 14–15, 22). **At 20 % carried against ≈47 % own-made direct, the £610,885 of LED wall revenue earns about
   what £260k of own-made would** — so the Screen Wall is not only the answer to the LED shift, it is the answer to
   the margin dilution the shift causes.
@@ -615,12 +615,12 @@ Named so they read as choices rather than debt:
   remains the likely home for *certification*; S29 settled the canonical home for *answers*, which is a different
   question.
 - **Non-cinema channels.** Commercial fit-out, hospitality and workplace reach different people through
-  different places (`group/05-channels.md` is cinema-shaped). Wait until there's non-cinema proof to carry
+  different places (`group-strategy/channels.md` is cinema-shaped). Wait until there's non-cinema proof to carry
   into them — lane 1 produces it.
 - **The group identity line.** Unresolved, and better drafted once the beyond-cinema position has some
   evidence behind it.
 - **Light Walls.** Being worked separately. **And the archive now records why it needs to be**
-  (`archive-findings.md` tranche 3): external trading was **2021–2023 only** — £174,263, £236,222, £83,191 — and
+  (`evidence/archive-findings.md` tranche 3): external trading was **2021–2023 only** — £174,263, £236,222, £83,191 — and
   **stopped**, with the residual Protopixel position invoiced across to SRND in March 2026. Over half its revenue
   went through one counterparty, and a quarter of it was the bought-in Protopixel component whose failure caused the
   stop. Neil reports work in progress on a replacement approach. ~~**Nothing to plan here until that lands**~~ — but the
@@ -630,7 +630,7 @@ Named so they read as choices rather than debt:
     fortnight ago. **Three corrections follow.** *It is not a fixture brand* — the unit of product is **the
     driver plus its measured profile**, calibrated white is the volume and **pixel (Light Walls) is Tier 3, the
     halo**. *It is a lighting control system*, competing with **Lutron, Rako, Crestron, Control4** — a
-    competitor set `group/06-competitors.md` does not hold. And *it carries a revenue shape this repo has no
+    competitor set `group-strategy/competitors.md` does not hold. And *it carries a revenue shape this repo has no
     account of* — **software licensing**, plus per-project commissioning and calibration.
     **The consequence for this page is larger than the brand.** LWCP aims at **commercial fit-out, hospitality
     and premium residential**, through the **architectural specifier and BMS-integrator channel** — so it
@@ -641,7 +641,7 @@ Named so they read as choices rather than debt:
     the plan should stop saying it.**
   - **▲ And a second forward position this page does not mention at all: sensing.** Neil, 2026-08-15:
     ***"Sensing is a potential giant market in its own right."*** LWCP holds the ratified architecture; **the strategy holds nothing.** Whether it is a line of its own or a layer of LWCP,
-    how it relates to `SRND Solutions`, and whether it carries a brand are **open in `open-items.md`** — and
+    how it relates to `SRND Solutions`, and whether it carries a brand are **open in `registers/open-items.md`** — and
     size, buyer, channel, competitors, price and timing are **[?]** everywhere. **Named here so it reads as a
     gap rather than an omission**, since a market of that description would reorder this page if it proved
     real.
@@ -649,7 +649,7 @@ Named so they read as choices rather than debt:
   something we can schedule from here. **▲ Being reconsidered by the person who parked it, 2026-08-14** (Neil:
   *"we are happy to invest the time and tokens to extend engine so that our social media, our mail campaigns, our
   websites, our reporting… all are either in engine or closely coupled to engine"*). **If that proceeds, this stops
-  being out of scope and the strategy repo and the platform work become one programme** — see `open-items.md`
+  being out of scope and the strategy repo and the platform work become one programme** — see `registers/open-items.md`
   § "the direction set 2026-08-14", which also names what it changes: `TSK-6`'s primitives gain their context,
   `SYS-1`'s routes gain their home, and `decided.md` S29 needs re-reading because it assumed the brand sites were
   separate.

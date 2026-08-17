@@ -1,6 +1,6 @@
 # C-ATS — open items (brand-specific)
 
-Group-level open items and sequencing live in `../../open-items.md`. These are C-ATS's own.
+Group-level open items and sequencing live in `../../registers/open-items.md`. These are C-ATS's own.
 
 **Decisions needed (flag, don't guess):**
 - Consolidate the global C-ATS dealer list + finer buyer-truth from real jobs (who specified vs

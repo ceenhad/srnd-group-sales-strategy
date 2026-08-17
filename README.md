@@ -25,7 +25,7 @@ ad-hoc, with no plan followed beyond "have more than nothing." So the existing s
 **placeholders to re-base on the plan, not strategy to preserve** — this is the first real plan, not
 a tidy-up of an existing one.
 
-**The spine that story flows from is the moat** (`group/00-strategy.md`): deep technical depth joined to
+**The spine that story flows from is the moat** (`group-strategy/the-group-play.md`): deep technical depth joined to
 a deep understanding of the dealer's job — *"we understand you, we make things to help, those things
 let you be better than anyone else."*
 
@@ -34,85 +34,34 @@ store sells.** `srnd.group` opens the funnel and introduces the company (the sta
 landing pages); the brands are how the sales & marketing is focused, each with its own fairly
 functional site; and every brand's purchase routes back to one shared store (`srnd.store`, the
 online face of distribution). Operations run in engine. (Web architecture:
-`group/01-commercial-model.md`.) This repo is where the shared half — the strategy, the buyer journey,
+`group-strategy/commercial-model.md`.) This repo is where the shared half — the strategy, the buyer journey,
 the commercial model, the owned content operation — is developed. Brand folders are where it filters
 down to execution.
 
-## How to read this repo
+## How to read this repo — six functional areas
 
-Start with **[`NEXT.md`](NEXT.md)** for what to do, then `group/00-strategy.md` for why.
+*Restructured 2026-08-17. **The folder says what kind of thing a file is**, which determines how it is read,
+how fast it goes stale, and what may be written in it. Numbering is gone: it implied a reading order that did
+not exist.*
 
-1. **`group/`** — the group strategy and standards, numbered. Brand-agnostic, and the source of
-   truth; brands apply it, they do not fork it.
-   - `00-strategy.md` — the spine: dealer-as-asset, the moat, the whole room, beyond cinema, the standing
-     disciplines. Read this one if you read nothing else.
-   - `01-commercial-model.md` — brands, properties, gated pricing, the two stores, carried lines.
-   - `02-buyer-journey.md` — the journey, the on-ramp, touchpoints, execution standards, metrics.
-   - `03-partner-programme.md` — what registration grants and how partners are valued.
-   - `04-content.md` — the owned assets, the rep with a face, placement rules, the campaign template.
-   - `05-channels.md` · `06-competitors.md` — the named landscape, and what rivals do well.
-   - `07-tools.md` — where calculators and design tools fit commercially.
-   - `08-sales-motion.md` — how a sale is made with no salesforce: what content takes, what substitutes for
-     the rest, and why it compounds and scales.
-   - `09-motion-design.md` — how a sale gets made, journey-first: the six stages mapped to what serves each
-     one; the **gateways** between stages with their observable signals; the **content pathways** that move a
-     dealer gateway to gateway and back round the loop (`decided.md` S22); then the five pieces of machinery
-     designed once as the group standard the brands inherit — with the decisions that remain marked, not
-     guessed.
-   - `10-tasks.md` — **the task register**: every task a sales person and a marketing person performs, 46 of them,
-     each with an **automation verdict** (`automated` · `automatable` · `assisted` · `manual`), its performer
-     today, where it sits in the journey, and the record fields it consumes and feeds. The exhaustive version of
-     `08-sales-motion.md`'s selective account. **Every row is an unverified claim until someone who does the work
-     confirms it.**
-   - `10-tasks-qa-sheet.md` — **the QA run, closed 2026-08-08.** The four passes over the 46 tasks and the
-     reading that came out of them. Historical record, not a live sheet.
-   - `11-work-items.md` — **the layer beneath the tasks.** Each of the 46 tasks opened up into the steps it is
-     actually made of — 168 work items, each one wholly machine or wholly human. Thirteen recurring primitives,
-     and a build order that follows from counting them: **build primitives, not tasks.**
-   - `12-task-shapes.md` — the QA's "write the shape" deliverable: template, rules and definition-of-done for
-     the 19 `varies` tasks.
-   - `13-standards-decision-sheet.md` — **sixteen open `[decide]` calls** collected from the task shapes,
-     awaiting Neil. Part of the open-decisions ledger by reference from `open-items.md`.
-   - `14-engine-as-hub.md` — the KPI framework (agreed 2026-08-14), the reconciliation map of every system
-     boundary, and the consolidation shape under the no-third-party goal.
-   - `adjacency-map.md` — the cross-sell prompt list for the spec conversation (`NEXT.md` lane 4).
-   - `2023-buyer-journey-archive.md` — evidence archive; validated S22/S23, awaiting its fold-in (`JNY-5`).
-   - `store-split-worklist.md` — a working execution list, not strategy.
-2. **`brands/<brand>/`** — each brand's playbook. Four are settled (C-ATS, Fabric Walls, Display
-   Technologies, Pro-Fi), each in its own `positioning.md`; Light Walls is deliberately deferred.
-3. **`brands/_template/`** — the starting point for a new brand playbook.
-4. **The product layer**, in three files that do different jobs and should not be merged:
-   - `product-data-schema.md` — **the argument.** What data the sales and marketing layer needs, why, and how it
-     will be used. Engine holds the mechanical record; this is the layer above it.
-   - `product-record-template.md` — **the form.** The same fields with stable IDs, fill states and completeness
-     rules, plus the **generation gates**: which fields each piece of content or campaign material needs before it
-     can be produced. What makes a record fillable by anyone and countable by anybody. **Group 04 is the knowledge
-     layer** — the answers, the sizing rule, the comparison, the timing, what the dealer tells their client. Since
-     content is the sales rep and the records are step 1 of the production line, **that group is the database the
-     rep speaks from**, and it is the half that decides whether any of the rest is worth filling.
-   - `product-register.md` — **the roster.** Every product in the group as a record scope, with its record state
-     and marketing status. Says which record to open next, and which live products have no canonical account at all.
-   - Filled records live with the brand — `brands/c-ats/product-records.md` (the worked standard) and
-     `brands/display-technologies/product-records.md` (a skeleton, where the counted gaps are the deliverable).
-5. **`current-state.md`** — the factual baseline: the sales side as it runs today and the marketing assets that
-   exist, with gaps marked rather than guessed.
-6. **`decided.md`** — **emptied 2026-08-16.** Decisions are held and monitored in **SRND OS**; this repo is
-   not the source of record for them, and nothing enters this file without Neil's explicit approval.
-7. **`proposals.md`** — what `decided.md` used to hold, reframed as **unratified proposals**: ~60 entries
-   written by working sessions summarising conversations, each needing *yours · not yours · reword · not
-   yet*. **Cite an entry as "a previous session recorded this", never as settled.**
-8. **`open-items.md`** — decisions still outstanding.
-9. **`backlog.md`** — the action register: every discrete action in the repo extracted into one working
-   surface (do / decide / fetch, with owners, effort and status), each workstream tagged by the motion
-   component it develops (`group/09-motion-design.md`), prerequisite, or independent. `NEXT.md` holds the
-   reasoning; this holds the trackable work. Deliberately no dates and no weeks.
-10. **The measured layer, added 2026-08-13/14** — the facts the plan is now amended against:
-   - `archive-findings.md` — **the main evidence artefact**: 30 numbered findings from six data sources over
-     fifteen years, opening with the source register. Read the register first.
-   - `engine-audit.md` — engine audited field by field against the 58-field product record.
-   - `data/` — the sales history itself, stored not referenced: source files, lossless extracts, loaders.
-     Sensitive — see `data/README.md`.
-   - `HANDOFF.md` — the cold-start brief for a new session: what happened, what is open, how to work here.
+| Area | Holds | Behaves like |
+|---|---|---|
+| **`group-strategy/`** | the group play, commercial model, buyer journey, partner programme, channels, competitors | **Argument.** Slow-changing, argued once |
+| **`motion/`** | sales motion, motion design, content, tools, tasks, work items, task shapes, standards, adjacency map | **The machinery of selling.** Changes when the design changes |
+| **`brands/`** | six brands, each applying the above | **Application.** Inherits, never forks |
+| **`registers/`** | the record schema and form, product register, backlog, questions, open items, proposals | **State, not prose.** Rows with a status |
+| **`evidence/`** | archive findings, engine audit, current state, closed runs | **Measured. Append-only, and it never argues** |
+| **`operations/`** | engine handoff, store worklist | **What leaves this repo** |
+| **`decisions/`** | ADRs and their generated catalogue | **What is decided, and by whom** |
+| **`data/`** | the sales history itself | Source, extracts, loaders. Sensitive |
+
+**Start with [`NEXT.md`](NEXT.md)** for what to do, then `group-strategy/the-group-play.md` for why.
+
+**Two rules hold the shape:**
+
+- **One kind per file.** Evidence may not argue; registers may not narrate; strategy holds no work items.
+- **An ADR belongs to one area and is written when a decision is made in it** — never scraped out of a pile
+  afterwards (`decisions/0001`).
 
 ## Group vs brand responsibilities
 
@@ -162,7 +111,7 @@ lands against a decision or an open item, and a decision changes only as a dated
 What rev 1 produced that the repo did not have before is an **order**, in `NEXT.md`: ask engine, fill the
 record, open the routes, build the primitives.
 
-**Step 0 — the QA session — has run.** Completed 2026-08-08 (`group/10-tasks-qa-sheet.md`): all four passes
+**Step 0 — the QA session — has run.** Completed 2026-08-08 (`evidence/2026-08-08-tasks-qa-run.md`): all four passes
 over the 46 tasks, no task struck, and the reading produced the forward chain *fill the record → write the
 shape → skip what already works* (`NEXT.md` § "What the QA produced"). The work-item register was resolved by
 block; the backlog prune the QA directed was executed 2026-08-14.
@@ -170,4 +119,4 @@ block; the backlog prune the QA directed was executed 2026-08-14.
 This is a build, not an optimisation. The strategy is substantially worked out; the operations to
 run it (partner registration and gated pricing, content production against the buyer journey,
 per-brand playbooks beyond C-ATS) are partially built and partially still to build, and are headed
-for engine. See `open-items.md`.
+for engine. See `registers/open-items.md`.

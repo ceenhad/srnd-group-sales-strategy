@@ -1,6 +1,6 @@
 # C-ATS product records — the sales and marketing layer, filled
 
-*The schema in `../../product-data-schema.md`, on the form in `../../product-record-template.md`, applied to the
+*The schema in `../../registers/record-schema.md`, on the form in `../../registers/record-form.md`, applied to the
 three C-ATS treatment panels. First worked example, so it sets the standard for the rest of the group. Field IDs
 below (`D1`, `O2`, `R4`…) are the form's; they are what downstream generation refers to.*
 
@@ -9,7 +9,7 @@ below (`D1`, `O2`, `R4`…) are the form's; they are what downstream generation 
 *The form gained the front half on 2026-08-02 — competitive (`X`), commercial (`M`), lifecycle (`L`) and hook
 material (`H`). **Those four groups are unfilled here**, which is why the front half is unanswered. Only `M1`
 (whole boxes of 1.44 m²) and `H2` (the ~300 mm tolerance — the most interesting true thing about the range) are
-already answered above. Filling the rest is `backlog.md` SYS-3.*
+already answered above. Filling the rest is `registers/backlog.md` SYS-3.*
 
 Two findings sit behind those numbers, and the second is the serious one:
 
@@ -134,7 +134,7 @@ C-ATS range.
 | `O2` | Time or labour saved | **The ~300 mm layout tolerance** — panels can move that far from the designed position without material performance impact, so the install does not need set-out precision. Plus whole-box quantities (1.44 m²) making take-off arithmetic trivial. **Neither appears in any marketing** |
 | `O3` | Opportunity it opens | **`[?]`** — not established at product level. The group-level answer exists (acoustics is a strong way in, `positioning.md` §6); what job this panel helps a dealer *win* does not |
 | `O4` | What it replaces or avoids | Deeper competing scatterers that cost floor area; commodity foam used at reflection points, which is the wrong device for the problem; and doing nothing, which is the commonest alternative. C-ATS exists because competitors were awkward to handle, awkward to cut on site, supplied in unsuitable volumes, and too deep (`positioning.md` §1) |
-| `O5` | Entry or flagship | **`[?]`** — the entry product per brand is an open decision (`../../backlog.md` DEC-3) |
+| `O5` | Entry or flagship | **`[?]`** — the entry product per brand is an open decision (`../../registers/backlog.md` DEC-3) |
 
 ### The doubt it removes, and the questions it generates
 
@@ -198,7 +198,7 @@ in the published data note.
 | `O2` | Time or labour saved | Whole-box quantities (4 per box, 1.44 m²). **The ~300 mm tolerance does not transfer here** — this panel's effectiveness depends on corner placement, so it is the one product in the range where position is not forgiving. Worth stating rather than inheriting |
 | `O3` | Opportunity it opens | **`[?]`** — not established at product level |
 | `O4` | What it replaces or avoids | Deep bass traps that consume corner volume the room cannot spare. Corner loading is what lets 50 mm do work that would otherwise need far greater depth — **the depth argument made concrete**, and the product where it is most defensible |
-| `O5` | Entry or flagship | **`[?]`** — `../../backlog.md` DEC-3. *Candidate flagship on the evidence:* it is the product with the strongest measured case and the hardest problem, which is what a flagship is for |
+| `O5` | Entry or flagship | **`[?]`** — `../../registers/backlog.md` DEC-3. *Candidate flagship on the evidence:* it is the product with the strongest measured case and the hardest problem, which is what a flagship is for |
 
 ### The doubt it removes, and the questions it generates
 
@@ -257,7 +257,7 @@ current EN 13501-1 classification, which should be in the record rather than loo
 | `O2` | Time or labour saved | **Pre-applied adhesive backing** — peel and stick, no fixings and no cutting on site, against a competing set that was awkward to handle and awkward to cut (`positioning.md` §1). Whole-box coverage at 1.44 m². **The strongest `O2` in the range, and it carries a condition** — the 18 °C rule below, which must travel with the claim |
 | `O3` | Opportunity it opens | **`[?]`** — not established at product level |
 | `O4` | What it replaces or avoids | **Commodity foam bought by the sheet**, which is the real competitor. The difference is not the material — it is measured performance plus a system that says how much to use and where |
-| `O5` | Entry or flagship | **`[?]`** — `../../backlog.md` DEC-3. *Candidate entry product on the evidence:* the simplest to specify, the easiest to install, and the one a dealer is likeliest to try first |
+| `O5` | Entry or flagship | **`[?]`** — `../../registers/backlog.md` DEC-3. *Candidate entry product on the evidence:* the simplest to specify, the easiest to install, and the one a dealer is likeliest to try first |
 
 ### The doubt it removes, and the questions it generates
 
@@ -293,14 +293,14 @@ current EN 13501-1 classification, which should be in the record rather than loo
 ## The knowledge layer — `N1`–`N9`
 
 *Added 2026-08-02 with the form's group 04. **This is the substance the production line runs on**
-(`../../group/09-motion-design.md` component 2, step 1: "the atoms that already exist: the product records…").
+(`../../motion/motion-design.md` component 2, step 1: "the atoms that already exist: the product records…").
 Filled across the three panels together, because most of it is range-level. **Knowledge: 2 of 9 fields · 2 of the 13
 questions answered in writing.***
 
 | ID | Field | Value |
 |---|---|---|
 | `N1` | **Selection logic** | **`[?]` — partial, and the gap is the important half.** *Placement* is known and written: lowest panel no higher than **30 % of room height**, rooms over 3 m need proportionally more, RES-CP in corners, REV-CP checkerboarded toward the rear, ~300 mm tolerance, quantities round up to whole 1.44 m² boxes. ***Quantity* is not written anywhere** — it lives inside the legacy CATS Calculator and the design service. So we can tell a dealer where to put them and not how many to buy |
-| `N2` | **The worked example** | **`missing` — and it is a commitment already made.** `positioning.md` §1 withdrew the no-public-calculator rule on the basis that *"C-ATS publishes worked examples showing how quantities are derived"* as the self-serve route. **None exists.** The raw material does: three pre-planned 7.1.4 reference layouts are built and blocked on a CLI re-auth (`../../backlog.md` EST-6) |
+| `N2` | **The worked example** | **`missing` — and it is a commitment already made.** `positioning.md` §1 withdrew the no-public-calculator rule on the basis that *"C-ATS publishes worked examples showing how quantities are derived"* as the self-serve route. **None exists.** The raw material does: three pre-planned 7.1.4 reference layouts are built and blocked on a CLI re-auth (`../../registers/backlog.md` EST-6) |
 | `N3` | **The answers** | **2 of 13 written.** Table below |
 | `N4` | **Comparison** | **`[?]` — price band only.** `positioning.md` §1 places C-ATS above direct-sell GIK, comparable to RPG, slightly below Artnovion. **That is a commercial position, not a comparison** — nothing says what a dealer gets or gives up choosing one over another, per panel, per dimension |
 | `N5` | **Compatibility & pairing** | **Filled.** Sits behind any stretch-fabric finish — **Fabric Walls pairs naturally and is never a dependency**. Works behind acoustically transparent projection screens, which puts DT's image surface, Pro-Fi's speakers and the treatment in one wall. The commercial/large-format range is likely built on Fabric Walls Acoustic Core PET. **Never paired with:** isolation as a substitute — resonance is a treatment problem, isolation is a different one |
@@ -322,7 +322,7 @@ or in someone's head, and has never been turned into an answer) · **`unanswered
 
 | # | Question (from `R3`) | Panel | State | Where the answer is, or why not |
 |---|---|---|---|---|
-| 1 | Bond or screw? | REF-CP | **`answered`** | `install-critical-notes.md` p1 — written, unpublished (`../../backlog.md` DOC-1) |
+| 1 | Bond or screw? | REF-CP | **`answered`** | `install-critical-notes.md` p1 — written, unpublished (`../../registers/backlog.md` DOC-1) |
 | 2 | How far off the designed position is acceptable? | REF-CP | `known` | ~300 mm, in this record. Never published; also the brand's best unused `O2` |
 | 3 | Can it go behind fabric? | REF-CP | `known` | Yes, any stretch fabric — `N5`. Never stated as an answer |
 | 4 | Why do the absorption figures look low? | REF-CP | `known` | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. Queued as content, blocked on DOC-4 |
@@ -358,13 +358,13 @@ known**, which is the honest position: the audit itself has not been done, and i
 |---|---|---|---|
 | `A1` | Datasheet | `[?]` | Per-panel absorption coefficient sheets are published; whether a datasheet proper exists per panel is unverified |
 | `A2` | Dimensioned drawings | `[?]` | |
-| `A3` | CAD | `[?]` | Publish-versus-gate is an open decision (`../../backlog.md` DEC-5) |
+| `A3` | CAD | `[?]` | Publish-versus-gate is an open decision (`../../registers/backlog.md` DEC-5) |
 | `A4` | BIM / Revit | **`missing`** | Pre-tender specifier machinery is parked group-wide, so this is a choice rather than a debt |
 | `A5` | NBS clause | **`missing`** | Same |
-| `A6` | Install manual | **`exists — stale`** | Three guides exist and are to be rewritten by moment rather than by product structure (`../../backlog.md` DOC-3) |
+| `A6` | Install manual | **`exists — stale`** | Three guides exist and are to be rewritten by moment rather than by product structure (`../../registers/backlog.md` DOC-3) |
 | `A7` | Commissioning guide | `[?]` | Arguably `n/a` for passive panels — but the *design* is what needs verifying, and that is `CAT-07` |
 | `A8` | Fault-finding guide | `[?]` | The two known failure modes are documented in `install-critical-notes.md` but not as a guide |
-| `A9` | "How do you do X" video | **`missing`** | Three are specified and unrecorded (`../../backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
+| `A9` | "How do you do X" video | **`missing`** | Three are specified and unrecorded (`../../registers/backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
 | `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (`../../decided.md` S12) |
 | `A11` | Spares & service | `[?]` | |
 
@@ -380,18 +380,18 @@ Six fields are unfilled on all three panels, and **the pattern matters more than
 | `O1` — the problem in the dealer's words | all three | **Buyer-truth is parked by decision**, not by neglect (`positioning.md` §2, §7). Drafted phrasing exists in `copy.md`, but it is ours |
 | `O3` — the opportunity it opens | all three | Never established at product level; the group-level version exists and does not substitute |
 | `W2` — who signs off, and what convinces them | all three | Same parked buyer-truth |
-| `O5` — entry or flagship | all three | An unmade decision, not a missing fact (`../../backlog.md` DEC-3) |
+| `O5` — entry or flagship | all three | An unmade decision, not a missing fact (`../../registers/backlog.md` DEC-3) |
 | `K1`, `K3` — record owner and review interval | all three | Unassigned |
 
 **Three consequences, and the first one changes a backlog item.**
 
-- **`../../backlog.md` DOC-13 cannot complete as written.** It asks for schema groups 1 and 2 filled so site copy
+- **`../../registers/backlog.md` DOC-13 cannot complete as written.** It asks for schema groups 1 and 2 filled so site copy
   generates from the record (`../../decided.md` S19). **Group 1 is done; group 2 is half-blocked on parked
   buyer-truth.** That is not a reason to compose the missing half — it is the reason the field exists. The honest
   move is to generate the copy that `O2` and `O4` support and leave the `O1` slot empty until a dealer fills it.
 - **One input unblocks eleven fields across three products.** `O1`, `O3` and `W2` are the same question asked three
   times. **The cheapest source is the one already identified** — what dealers actually ask, from the sent-mail
-  archive and from spec conversations already happening (`../../backlog.md` CON-3).
+  archive and from spec conversations already happening (`../../registers/backlog.md` CON-3).
 - **`O5` is a five-minute decision holding up the on-ramp for a whole brand.** The record even suggests its own
   answer: the REV-CP is the likeliest entry product and the RES-CP the likeliest flagship, on the evidence above.
 
@@ -418,5 +418,5 @@ Seven findings, none of which needed new research — only somewhere to put what
    one product in the range where position is *not* forgiving. Inheriting the shared claim onto all three would have
    been a wrong statement in a datasheet — caught only because `O2` had to be answered per product rather than once.
 9. **The on-ramp is half-blocked on one parked input, not on three products' worth of work.** `O1`, `O3` and `W2`
-   are the same missing buyer-truth asked three times, and it is already being sourced (`../../backlog.md` CON-3).
+   are the same missing buyer-truth asked three times, and it is already being sourced (`../../registers/backlog.md` CON-3).
    Before the form, that read as "group 2 is unfilled"; it now reads as one question with a known source.

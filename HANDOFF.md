@@ -16,8 +16,8 @@ Three deliverables landed:
 
 | File | What it is |
 |---|---|
-| **`engine-audit.md`** | Engine (the operations platform) audited against the 58-field product record. Closes `TSK-5`, `DOC-12`, `REC-0` |
-| **`archive-findings.md`** | **The main artefact.** 30 findings from six data sources, fifteen years. Starts with a **source register** — read that first |
+| **`evidence/engine-audit.md`** | Engine (the operations platform) audited against the 58-field product record. Closes `TSK-5`, `DOC-12`, `REC-0` |
+| **`evidence/archive-findings.md`** | **The main artefact.** 30 findings from six data sources, fifteen years. Starts with a **source register** — read that first |
 | **`data/`** | The data itself, stored not referenced: nine source files verbatim, lossless extracts, and the loaders as code |
 
 **Everything is merged to `main`.** PRs #17 and #18.
@@ -33,7 +33,7 @@ Three deliverables landed:
    campaigns**; the best campaign ever sent **was the last one sent**, four months ago; **348 partners hold signed
    T&Cs and pricing access and 189 have never bought anything**; **40 approved dealers cannot see a price at all.**
    *(Finding 30. Note this runs **opposite** to the failure mode `CLAUDE.md` names — a refinement is proposed in
-   `open-items.md` for Neil, not applied.)*
+   `registers/open-items.md` for Neil, not applied.)*
 2. **The growth target is already inside the building.** 10–20 % on 2025's £1.44m is £144–288k, which is **10 to 64
    first orders from the 189 who already signed.** No new capture, content or system needed. *(Finding 27.)*
 3. **Own-made revenue is worth two to three times carried revenue.** Each step of the chain the group holds is a
@@ -52,7 +52,7 @@ Three deliverables landed:
 
 ## 3. The current direction — and it is a change of scope
 
-**Read `open-items.md` § "the direction set 2026-08-14" in full before proposing work.** In short, Neil's position:
+**Read `registers/open-items.md` § "the direction set 2026-08-14" in full before proposing work.** In short, Neil's position:
 
 > Not ready to start executing. Three things come first — **KPIs** (never discussed), **data reconciliation**
 > (*"could win us a LOT"*), and **the doing question**: how to act when the work is *"basted over 100 tools and apps
@@ -86,7 +86,7 @@ read both.** The headline reservation: *storefront cheap, checkout expensive*, a
 | **6** | Decisions only Neil can make | The `CLAUDE.md` refinement; the `C1` dual-listing wording (13 DT codes on two stores); whether **Fabric Walls** takes the second record pass; **roles** (`NEXT.md` step 1, still undone) |
 
 **One fork worth resolving early:** does the product record get filled **into engine's knowledge mechanism** — which
-`engine-audit.md` §2 found already exists, pointed at engine's own UI — rather than into files that later migrate?
+`evidence/engine-audit.md` §2 found already exists, pointed at engine's own UI — rather than into files that later migrate?
 
 ---
 
@@ -138,9 +138,9 @@ share, clone or grant access as a decision about commercial and personal data.**
 So you do not mistake absence for oversight:
 
 - **No new strategy documents.** The repo is supposed to stop growing; every addition here has a stated reason.
-- **Nothing in `group/` was re-argued.** Two single-line evidence citations were added — `00-strategy.md` (the
-  measured "no long tail" claim) and `01-commercial-model.md` (the 2× distributor test) — and nothing else.
-- **`CLAUDE.md` was not edited.** A refinement is proposed in `open-items.md` for Neil to accept, reword or reject.
+- **Nothing in `group/` was re-argued.** Two single-line evidence citations were added — `the-group-play.md` (the
+  measured "no long tail" claim) and `commercial-model.md` (the 2× distributor test) — and nothing else.
+- **`CLAUDE.md` was not edited.** A refinement is proposed in `registers/open-items.md` for Neil to accept, reword or reject.
 - **No pricing was published anywhere**, and no supplier or OEM relationship was named in anything public-facing.
 - **The engine price-list state was not corrected**, despite looking wrong — access is read-only and it is a live
   commercial control.

@@ -27,7 +27,7 @@ summarising conversations, never ratified entry by entry — plus roughly **350 
 **On 2026-08-16 that failed measurably.** In one working day a session re-argued four settled positions,
 invented a rung in a documented ladder and put two questions to Neil about things that did not exist. The
 same day, `decided.md` was emptied on Neil's instruction — *"that is being monitored by SRND OS and all this
-shit is just mess now"* — and its contents moved to `proposals.md` as unratified.
+shit is just mess now"* — and its contents moved to `registers/proposals.md` as unratified.
 
 **The failure mode was diagnosed three days earlier, in another repo, by the same decision-maker**
 (Cinema Tools ADR 079, 2026-08-13):
@@ -66,7 +66,7 @@ faster, because this repo has fewer readers.*
 of a pile afterwards.** The areas are **Group · Motion · Brand · Registers · Evidence · Operations** (Neil,
 2026-08-17).
 
-> **⚠ This decision is written from a failure, on 2026-08-16.** `proposals.md`'s ~60 entries were extracted
+> **⚠ This decision is written from a failure, on 2026-08-16.** `registers/proposals.md`'s ~60 entries were extracted
 > into 18 ADRs, then split into 59, **by script, from a template**. Each was frontmatter, a boilerplate status
 > line, one bolded sentence and a provenance footer — **no context, no consequences, no reasoning.** Neil:
 > *"rarely did I see a worse interpretation."* **All 58 were deleted; only this ADR survives.**
@@ -83,8 +83,8 @@ of a pile afterwards.** The areas are **Group · Motion · Brand · Registers ·
 recorded here**; what is accepted belongs in SRND OS. **This repo is not a second decision database**, which
 is the mistake `decided.md` became.
 
-**8. Inline flags are not decisions.** A `▲` or a "struck" in prose is either an ADR, a `questions.md` row,
-or noise. **The `[?]` markers are different** — they are evidence gaps in `current-state.md` and stay exactly
+**8. Inline flags are not decisions.** A `▲` or a "struck" in prose is either an ADR, a `registers/questions.md` row,
+or noise. **The `[?]` markers are different** — they are evidence gaps in `evidence/current-state.md` and stay exactly
 where they are.
 
 **9. Every document carries a status line, because the corpus is mostly old thinking and nothing says so.**
@@ -131,13 +131,13 @@ safe, and the honest description of most of the repo.
   to walk each claim from `unestablished` to `established` or struck. **The sweep and the status vocabulary
   are the same mechanism**: the status says what is needed, the sweep is how it gets got.
 
-*And the `[?]` markers in `current-state.md` are this idea already working at field level — a named unknown
+*And the `[?]` markers in `evidence/current-state.md` are this idea already working at field level — a named unknown
 with a place to land. **They are the model, not the exception.***
 
 ## Consequences
 
 - **`decided.md` stays empty and is deleted once the citations are reconciled** (`DOC-28`).
-- **`proposals.md` is worked through into ADRs**, each `proposed`, then accepted or rejected one at a time —
+- **`registers/proposals.md` is worked through into ADRs**, each `proposed`, then accepted or rejected one at a time —
   the ratification pass, with a mechanism instead of a promise.
 - **~142 dangling `decided.md` citations** get repointed at ADR numbers as each is written, which is why the
   citation reconciliation and the ADR pass should run together rather than twice.

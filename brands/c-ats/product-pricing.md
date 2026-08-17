@@ -1,7 +1,7 @@
 # C-ATS — product & pricing (the range behind the group gate)
 
 The group pricing **policy** (fully gated, no public or end-user prices) is set in
-`../../group/01-commercial-model.md`. This file holds only C-ATS's range and the brand-level
+`../../group-strategy/commercial-model.md`. This file holds only C-ATS's range and the brand-level
 tier work that sits behind the shared gate.
 
 ## Range
@@ -24,7 +24,7 @@ Publication is settled (fully gated). What is *not* set is the tier structure it
 - MOQs, design-tool access, CE credits, co-marketing terms as they apply to C-ATS.
 
 These feed the shared portal's gated pricing; setting the numbers is a decision, flagged in
-`open-items.md`.
+`registers/open-items.md`.
 
 ## Commercial cinema range (in development)
 

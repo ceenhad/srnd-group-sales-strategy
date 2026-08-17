@@ -1,8 +1,8 @@
 # data — the stored sales history
 
-**The data itself, not links to it.** `archive-findings.md` holds what the numbers *mean*; this folder holds the
+**The data itself, not links to it.** `evidence/archive-findings.md` holds what the numbers *mean*; this folder holds the
 numbers, so a moved Dropbox file or a closed account cannot cost us the history. The register in
-`archive-findings.md` remains the index — scope, period and caveats per source live there, not here.
+`evidence/archive-findings.md` remains the index — scope, period and caveats per source live there, not here.
 
 ## `source/` — the files exactly as received
 
@@ -54,7 +54,7 @@ DT `Others` (£234,135), GTUK `CINEMA PARTNERS MATERIALS` (£135,598), Light Wal
 (£299), and two blank lines carrying **1,188 rows at nil** — accounting noise, not missing revenue. They are listed
 in `derived/consolidation-review.csv` rather than guessed at.
 
-> **And most of it is recoverable by a re-export, not by more rules — `backlog.md` MON-11.** The two Xero reports
+> **And most of it is recoverable by a re-export, not by more rules — `registers/backlog.md` MON-11.** The two Xero reports
 > carry different columns and **every entity is missing half its detail**: Sales Analysis (GTUK, DT) has `Item Code`
 > and `Quantity` but **no description** — verified, both workbooks hold exactly 12 columns; Account Transactions
 > (C-ATS, SRND, Light Walls) has `Description` but no item code or quantity. **Re-running GTUK and DT as Account
@@ -171,7 +171,7 @@ other reading.
 > **Confirmed external, do not re-ask (Neil, 2026-08-13): Genesis Technologies AG** (£13,083) and **Genesis
 > Technologies AG (Deutschland)** (£64,398) **are not group entities.** Together £77,481 of genuine external C-ATS
 > revenue. The name is easy to misread because *GT* was the forerunner of Apex-Tech UK / SRND Distribution
-> (`group/01-commercial-model.md`) and C-ATS invoices to Apex Tech Scotland carry "Genesis Technologies Ltd" in the
+> (`group-strategy/commercial-model.md`) and C-ATS invoices to Apex Tech Scotland carry "Genesis Technologies Ltd" in the
 > description — **the description is not the counterparty.** Likewise `Genesis Home Technologies SL` is external
 > (it appears in DT's file as a Spanish dealer).
 >
@@ -189,7 +189,7 @@ other reading.
 > for f in data/source/*.xlsx; do echo "$f"; done   # then re-run normalise.py per source, and classify_store_items.py
 > ```
 
-**To reproduce any figure in `archive-findings.md`:** filter `is_product_revenue = 1`, then split on `is_intra_group`,
+**To reproduce any figure in `evidence/archive-findings.md`:** filter `is_product_revenue = 1`, then split on `is_intra_group`,
 then group by `contact_canonical`, `product_line` and `year`, summing `net`.
 
 ## What is not here
@@ -214,7 +214,7 @@ there is nothing else to configure.
 **Two cautions.** A classic Mailchimp key has **full account access** — there is no read-only variant — so use a
 dedicated key and revoke it when a one-off pull is done; the script issues only GETs. And **join this data to engine
 on email domain, never on the `COMPANY` merge field**: only 1,233 of 2,844 members carry a company, and the weak join
-produced the opposite conclusion on a live question (`archive-findings.md` finding 28).
+produced the opposite conclusion on a live question (`evidence/archive-findings.md` finding 28).
 
 ### Personal data in `mailchimp-members-*.json` — read before sharing this repo
 
@@ -226,7 +226,7 @@ Neil's instruction (2026-08-14) so the received artefact is preserved like every
 - **It is personal data, not just commercial data.** The invoice sources name companies; this one names people. Treat
   any decision to share, clone or grant access to this repo as a decision about personal data.
 - **It is permanent in git history.** Removing the file later does not remove it from earlier commits.
-- **No finding depends on it in that form.** Every result in `archive-findings.md` findings 28–29 uses only the
+- **No finding depends on it in that form.** Every result in `evidence/archive-findings.md` findings 28–29 uses only the
   **domain** of the address plus status, opt-in date, tags, stats and company. The person's name and the local part
   are used nowhere, so a redacted copy would reproduce the analysis exactly.
 
