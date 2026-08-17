@@ -35,10 +35,8 @@ and tracking. Execution items do not jump this queue, however focused or cheap; 
 group layer, and we are not at it yet.*
 
 1. **Lock the group layer.** Everything is drafted; almost none of it is locked.
-   - **The direction statement (`GRP-1`)** — **▶ stated and ratified 2026-08-17:
-     `group-strategy/the-group-play.md` § "The direction of travel".** Twenty years of innovation held back
-     by a lack of dealer engagement; build and hold engagement, and the innovation already made does the
-     selling.
+   - **The direction statement (`GRP-1`)** — a reading of the measured data Neil recognises, from the
+     findings only. The spine the rest hangs from.
    - **The strategy and channels** — `group-strategy/` ratified against SRND OS, and the sessions that are
      group strategy by nature: the service offer (`XS-5`), the store architecture, sensing, the competitor
      roster (`registers/open-items.md` § "Sessions needed").
