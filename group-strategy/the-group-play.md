@@ -3,6 +3,31 @@
 *The spine, in one sitting. Everything else in `group/` is mechanics; the brands apply it in
 `brands/<brand>/positioning.md`. For what to actually do, see `../NEXT.md`.*
 
+## The direction of travel — stated 2026-08-17
+
+*Ratified by Neil in the `GRP-1` session, 2026-08-17; the spine sentence is his, verbatim. The material
+beneath it — fifteen years of data, the high-level brand reviews (gaps remain), the buyer journey and the
+motion designs — already exists; what it had lost was purpose and structure against the repo's stated goals.
+This statement is the anchor.*
+
+**"Twenty years of innovation held back by a lack of dealer engagement."** That is the position. The
+engineering was never the problem — the products, the platforms and the factory have run ahead of anyone
+hearing about them for two decades. Nobody can buy what they don't know exists.
+
+So the direction is single: **build and hold dealer engagement, and let the innovation already made do the
+selling.**
+
+- Everyone is a new contact on day 1 of this programme. History says who exists; it doesn't make anyone
+  engaged.
+- The drumbeats: every brand communicates something through our channels at least once a day; real
+  conversations with dealers as often as possible. Engagement means they contact us.
+- One strategy, applied across the brands. A dealer became multi-line for a reason — engagement did that
+  work.
+- The ladder holds as an idea — carried funds the build, own-made is the build, services above both,
+  everything defined and costed — with the real margin numbers per brand and product living in engine, not
+  in prose.
+- More customers, always.
+
 ## The group play
 
 SRND is a house of brands over one shared store. Awareness is built per brand — a dealer meets C-ATS as
