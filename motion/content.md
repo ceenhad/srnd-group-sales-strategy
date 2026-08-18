@@ -329,3 +329,30 @@ sequence.
 that makes design easy. Creative: text-forward statements over a close crop of twin panels and the metal
 frame, main text embossed for a premium feel. Room designs deliberately held to Phase 2 because they don't
 separate Fabric Walls from any other stretch-fabric system at the hook.
+
+## The group mail policy — drafted 2026-08-17, for Neil's correction
+
+*Named as missing by Neil in the channel-roster answer (Q49): "email as the direct has to follow a group
+level email policy that is probably not prepared." One policy, every brand. Items marked [proposal] are
+mine to correct or strike; everything else restates positions already recorded.*
+
+- **Per-brand streams, chosen and silenceable.** A partner picks which brand streams they receive and can
+  silence any of them; nobody receives mail for a brand they didn't choose. The Monday per-brand subscribe
+  flags are the starting segmentation; the first send of each stream carries preference management up front.
+- **Streams are continuous; campaigns are capped.** A stream has no start and no end — it is a relationship,
+  never a campaign that stops. Dedicated campaigns are capped at three mails in two weeks unless
+  transactional. [proposal] Across all brands combined, a partner receives at most two marketing mails a
+  week — the per-brand cadence coordinates through the subscription model.
+- **Every mail adds value.** The 1% rule applies to mail hardest, because it arrives uninvited: a mail with
+  nothing useful in it doesn't send. No manufactured urgency, no "exclusive deals" language, no filler.
+- **A named sender, and replies count.** Mail comes from a person; replies land in a monitored box and are
+  logged as inbound — a reply is the priority-one metric firing.
+- **Transactional is separate.** Order confirmations, the install pack, the one-tap status ask — exempt
+  from the caps, and the first mail engine sends itself.
+- **Everything is tagged and benchmarked.** Every link carries a campaign tag; every send is measured
+  against our own last send, never industry figures.
+- **The sending system.** Engine is the destination; until engine mail exists, the existing tool sends with
+  the brand segmentation applied. Each migration inherits the old system's baseline as its acceptance test.
+- **The list is personal data.** Handled accordingly: no exports beyond the tools that send, and the
+  repo's existing sensitivity rules apply.
+- **[proposal] Until this policy is ratified, nothing sends without an owner's nod.**
