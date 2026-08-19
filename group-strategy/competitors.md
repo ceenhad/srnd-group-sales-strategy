@@ -89,6 +89,50 @@ genuine advantage over us, and it is not one we can acquire by appointing anybod
 channel, which is what SRND Distribution already is at a smaller scale. The comparison to draw is therefore
 *our* channel against *theirs*, not our direct model against their distributed one.
 
+## The axes, reviewed against every category (2026-08-19)
+
+*Neil's instruction: **review all six properly**, not just the two that fell over on acoustics. Standard 4's axes
+tested against each category this file already holds — screens · motion · whole-build · design tools · distributors
+· acoustics. **The test is not "is the axis sensible" but "did it produce a finding here, and does it mean the same
+thing in every column."** Nothing below changes standard 4; it is a proposal to Neil.*
+
+| Axis | How it fared across the six | Verdict |
+|---|---|---|
+| **1. Performance and features** | Works for every **maker** — coatings and masking typologies, anti-fog port glass with a desiccant vent, RP22 grading, absorption coefficients. **Fails outright for distributors**, who have no product: that section compares portfolio breadth, training, showroom, reps | **Amend — it is a product axis.** A distributor's equivalent is **portfolio breadth**, which is a different question wearing the same heading |
+| **2. Integration and control** | **Load-bearing for motion** — *"FA sells hand-made mechanisms; DT sells mechanisms **plus the control**"*, the file's central competitive claim — and it caught CBS **buying FA's control board** rather than building one. **But it means nothing for design tools, distributors or acoustics**, where the same slot has to become export formats, or install method and concealment | **Amend — generalise to *what it must work with*.** Control is its form in motion and screens; **interoperability** in tools; **other trades and finishes** in acoustics. Same question, honest per category |
+| **3. Support model** | **Holds everywhere, and the distributor section is built entirely from it** — training, a demo showroom the dealer brings clients to, calibration, configurators, field reps. Also Stewart's educational content, CBS's monthly dealer training, C-ATS's design and verification | **Keep unchanged.** The most portable axis in the set |
+| **4. Lead time** | Produced **exactly one finding in the whole file** — Stewart's **QuickSHIP** fast-lead line. Silent for motion, whole-build and acoustics; meaningless for design tools; and for distributors it is really **stock availability**, which is a distributor's core proposition | **Keep, thinly, and rename per category.** *It is the first thing a dealer asks, so it earns its place even at one finding — but our own C-ATS figure is `[?]`, so the first cell to fill is ours* |
+| **5. Price posture** | **The most productive axis in the file.** Stewart's two-tier play (Cima as a value line below the flagship); *"compete on control and value"* for motion; CBS's **unusual pricing transparency** — ballpark figures for a media wall and a full room; SRP modes and multi-currency for distributors; direct-sell versus gated trade for acoustics | **Keep unchanged — and note why it works.** *Every finding it produced is an **observable posture**, never a price.* **This is Neil's own amendment generalising**: he struck *measured* performance because *"measured performance is a hard metric to claim"* — and the same holds for price. **Ask what is observable, not what is measurable in principle** |
+| **6. Reference and credibility** | Holds across all six — Screen Excellence's **named pro-audio endorsements with hard numbers** (8–10 dB, "ten times less power"), Screen Research's named showcases, Stewart's *"70 years"*, the design tools' **standards encoding** as their credibility, distributors' case studies and video, C-ATS's published report | **Keep unchanged** |
+
+### Two axes the file has been using without having
+
+**7. Route to market — proposed, and it is the one that changed a conclusion.** *Artnovion and Screen Research
+reach dealers through **an established distributor's relationships, credit, showroom and reps while we go
+direct**. And the correction that **Karma AV part-owns Cinema Build Systems** turned CBS from "a distribution
+appointment we could have competed for" into **a manufacturer with a captive distributor** — after which the file
+states its own conclusion in these terms: **"the comparison to draw is therefore *our* channel against *theirs*."***
+**Not covered by price posture** (what a buyer sees) **or support model** (what is offered). It is who carries the
+product to the dealer, and the file already reasons with it.
+
+**8. Defensibility — proposed, and less certain.** The motion section names its *"real takeaway"*: **"hardware is
+copyable; a corpus of field-verified control maps is not."** It recurs unprompted — CBS **buys** control rather
+than building it; C-ATS's credibility is **the systemised method** (`../brands/c-ats/claims.md` `C4.10`), which is
+black-boxed as IP (`../operations/decision-request-q52-cats-rules-publication.md`). *Flagged as the weaker
+proposal: it may be a **conclusion drawn from the axes** rather than an axis, and standard 4 exists to make
+analyses comparable rather than to hold strategy.*
+
+### What the review says about the axes as a set
+
+- **Three of six are portable as written** — support model, price posture, reference/credibility. **All three ask
+  what is *observable*.**
+- **Two need amending because they change meaning per category**, which defeats the purpose of fixing them:
+  performance-and-features has no meaning for a distributor, and integration/control has none for tools,
+  distributors or acoustics.
+- **One is thin but cheap** — lead time, one finding, and the missing cell is ours.
+- **The set was incomplete in the direction of its own best work.** The sharpest competitive finding in the file —
+  a rival with a captive channel — **had no axis to live on.**
+
 ## Design tools — a different competitive front
 
 Newly relevant, and not previously documented here.
