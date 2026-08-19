@@ -48,12 +48,16 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **the pathway rebuild — three files into one, in rows.** `PR-7` broke 2026-08-19 (`Q71`): **one way
-in, the room.** *A dealer is sold the room's acoustics, not a panel for a symptom.* **This merges with `MTH-1`**,
-the rewrite from prose-with-tables into rows that was queued behind the drill-down *because the drill-down might
-change what the pathways say* — **it did, so it is one rebuild rather than two.** Affects the three
-`brands/c-ats/pathway-*.md`, `hooks.md`'s structure, and `brands/_template/the-brand-run.md`, which is what every
-other brand inherits.
+**Resume at:** **`MTH-1` — the five deliverables are prose-with-tables and owe a rewrite into rows** (`PR-9`'s
+consequence). The three `brands/c-ats/pathway-*.md`, `hooks.md` and `segments.md`. **`PR-7` holds, so it is a
+reshaping into rows and not a collapse** — three entry points, one shared journey. *The drill-down is done and it
+did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mechanism), `Q63` (the depth figures),
+`PR-13` (no install trap), `C2.17`–`C2.23` (why an integrator buys). Fold those in as the rows are written.*
+
+**⚠ A warning for the next session, from today.** `PR-7` was broken and a rebuild planned off **two words I had
+invented and never defined** — *"the way in"* and *"the room"*. Neil asked what they meant; reading the files
+answered it, and `pathway-reflection.md` already contained the guard I thought was missing. **Withdrawn the same
+day** (`Q71`). *An answer to a specific question is not licence to reopen a structure.*
 
 `positioning.md` is drilled end to end: §1 both halves, §2–§7, **76 claim rows.** `Q70` dissolved as malformed —
 `C1.20` stands confirmed.
