@@ -325,10 +325,55 @@ The smallness of the number, stated and measured, is the argument.
   two sections' combined evidence the right move on a `discussion` row is **to ask**, and the answer goes either
   way.
 
-## Sections 6–7 — not yet drilled
+## Section 6 — How C-ATS fits the group
 
-`positioning.md` §6 (how C-ATS fits the group) · §7 (what's still open). **Both unconfirmed, both inherited from
-the same undated draft.** §6 is the one section whose content is *argument* — expect `discussion`, per §2. §7 is a
-list of open items and should mostly resolve to pointers at `../../registers/questions.md` IDs rather than to
-claims; **two of its seven are already answered elsewhere** (the canonical name, narrowed by `Q26`; *what
-convinces the integrator*, half-answered by `Q55`).
+**Not yet put to Neil.** *Drilled 2026-08-19. 19 rows from 20 lines. **§2's prediction held, and the shape is
+different from §5's.** Where §5 duplicated *rules*, §6 duplicates **strategy** — six rows restate the group play
+from inside a brand file. That is the sharper failure: `../../CLAUDE.md`'s first discipline is* **"Group ≠ brand.
+Keep the layers clean"** *, and a brand file asserting group strategy is how the group layer stops being the
+place the strategy lives.*
+
+| # | The claim | Kind | Status |
+|---|---|---|---|
+| **C6.1** | C-ATS is the acoustics within a room the group also builds — screen, lighting, fabric, speakers | `brand` | drafted — true and the section's premise |
+| **C6.2** | **So the treatment is designed to work with everything around it** | `brand` | **open → the section's load-bearing claim.** *It promises a mechanism. `pathway-resonance.md` names **surface-palette matching** and **the wall on isolation mounts as structural LF treatment**, which is real design-against-the-room — but nothing shows it is design against **the group's** products specifically. If any room's surfaces would do, the sentence is true of every acoustics supplier and distinctive of none* |
+| **C6.3** | Supplied and supported through one relationship rather than five | **`group`** | `../../CLAUDE.md`: *"six brands, one group, one relationship."* Duplication |
+| **C6.4** | For the integrator, the least visible part of the room comes from the same people, held to the same standard, as the rest | `brand` | drafted — **the best sentence in the section.** It is C6.3 said in C-ATS's terms rather than the group's, which is what a brand file is *for* |
+| **C6.5** | C-ATS is the group's acoustics brand | `brand` | drafted — **also stated in §1** (line 34) and in `product-pricing.md`. Three copies |
+| **C6.6** | Which is also why isolation lives here | `brand` | **open.** *The reasoning is sound and documented (`product-pricing.md`: isolation sits outside the 3 Rs, under C-ATS because acoustics lives here — **not by thesis expansion**). What is missing is the thing: `brand-data.md` line 99 — **"no services at all… design, verification, isolation and isolation verification are absent."** Same shape as `C1.16`* |
+| **C6.7** | The group's core strength is real technical depth plus understanding of the integrator's job | **`group`** | a claim about the **group**, made in a brand file. Belongs in `../../group-strategy/` |
+| **C6.8** | …expressed in acoustics | `brand` | drafted — the brand-level half of C6.7 |
+| **C6.9** | Acoustics is a strong way in | `brand` | **`discussion` candidate** — see below |
+| **C6.10** | It is the part of the room where the integrator most wants a partner they can trust | **`discussion`** | **unsourced buyer psychology**, the exact species struck at `Q56` (`C2.6`–`C2.8`). *"Most wants"* ranks the integrator's desires with nothing measuring them |
+| **C6.11** | It is hard and under-served | **`discussion`** | **an unsourced market claim**, the species struck at `Q57` (`C2.13`). *And it sits oddly beside §7's headline problem — "widely deployed, thinly distributed" — which says the **route** is missing, not the competition* |
+| **C6.12** | A dealer won on acoustics is a dealer the rest of the group's brands can then serve | **`group`** | `../../CLAUDE.md` § The core idea, verbatim in substance: *"a dealer won through one brand is a doorway the whole group cross-sells through."* Duplication |
+| **C6.13** | Fabric Walls is the most direct link | `brand` | **duplicate** of `C5.27` and `product-records.md` `N5` |
+| **C6.14** | The commercial / big-room extension is a group move, not a C-ATS-only one | `brand` | drafted |
+| **C6.15** | Larger-format panels **likely** built on Fabric Walls Acoustic Core PET | **`discussion`** | ***"Likely"* is doing load-bearing work in a strategy document.** §7 lists the extension's specs and timing as open, so this is a guess written into the reasoning layer — and `CLAUDE.md` forbids inventing roadmaps |
+| **C6.16** | Drawing in Cinema Tools and able to pull in Pro-Fi | **`discussion`** | same — a plan for something whose specs are open |
+| **C6.17** | C-ATS growth and group growth are the same step there | `brand` | drafted — the point C6.14 already makes |
+| **C6.18** | The cross-sell only works if the group feels like one group — a clean handoff, or the advantage leaks away | **`group`** | `../../group-strategy/the-group-play.md` owns this. **And the row says so itself** |
+| **C6.19** | That is a group-level execution standard, not a C-ATS one | **`group`** | **the section admitting the defect in its own last line.** Six rows are group claims; this one knows it |
+
+### What section 6 produced
+
+- **Six of nineteen rows are group strategy restated in a brand file** — C6.3, C6.7, C6.12, C6.18, C6.19, and C6.5
+  in triplicate. **§5 duplicated rules; §6 duplicates the strategy itself**, which `CLAUDE.md`'s first discipline
+  exists to prevent. *The `group` kind, invented for §5, turns out to matter more here.*
+- **Four rows are `discussion`, and §2 predicted exactly that** — C6.10 and C6.11 assert the integrator's
+  priorities and the state of the market with nothing behind them; C6.15 and C6.16 write *"likely"* into a plan
+  whose specs §7 lists as open.
+- **The section's two real contributions are C6.4 and C6.6's reasoning.** C6.4 says the group promise in C-ATS's
+  own terms — *the least visible part of the room, same people, same standard* — which is what a brand layer is
+  for. C6.6 explains why isolation sits here without stretching the 3 Rs thesis.
+- **And the load-bearing claim is C6.2, which nobody has evidenced.** *"Designed to work with everything around
+  it"* is the promise the whole section rests on. If it means designing against the room's surfaces, every
+  competent acoustics supplier can say it. **What would make it C-ATS's is a mechanism that reads the group's
+  other products** — and no document shows one.
+
+## Section 7 — not yet drilled
+
+`positioning.md` §7 (what's still open). **It is a list of open items, so it should mostly resolve to
+`../../registers/questions.md` pointers rather than to claims** — and three of its seven are already settled:
+the canonical name (`Q65`), *what convinces the integrator* (half-answered, `Q55`), and pricing tiers (still open
+but owned by `Q45`, not by this file).
