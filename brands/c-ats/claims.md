@@ -191,6 +191,23 @@ collapsed a real three, and it collapsed them onto a thing that does not exist y
 **Re-keying them to these three moments is the shape `MTH-1`'s rebuild should take** — not yet done, and not to be
 started on my reading alone.
 
+### The audience, settled (Neil, 2026-08-19)
+
+**The question I asked assumed content is delivered face to face**, so that adding actors meant choosing between
+them. ***"The incorrect assumption here is that the content is somehow being delivered face to face?"*** — see
+`../../registers/premises.md` `PR-17`.
+
+| # | The claim | Kind | Status |
+|---|---|---|---|
+| **C2.28** | **The content-as-sales-rep audience is the architect, the interior designer, the AV consultant and the integrator** | `brand` | **confirmed 2026-08-19** — *"the rest are fair targets for our content as sales rep approach."* **No ranking and no trade-off**: content is read by whoever reaches it, so serving four actors is not the dilution I assumed |
+| **C2.29** | **The end user is excluded from it** — B2C runs only through the strictly defined Cinema Store channels | `brand` | **confirmed 2026-08-19.** *Consistent with `../../CLAUDE.md`'s standing rule that the consumer proposition stays DIY home cinema, deliberately, and with `../../group-strategy/commercial-model.md` on Cinema Store's role. **So "the client" is an actor who influences a project (`C2.27`) and is not an audience for trade content** — two different things the same word had been covering* |
+| **C2.30** | **Face to face is a different channel with a narrower cast: the integrator, or at a push the AV consultant** | `brand` | **confirmed 2026-08-19** — *"we would likely only ever be face to face with integrator or, at a push, the AV consultant."* **This is what the register had been conflating.** `C2.9`'s "optimised for the integrator and no one else" was a true statement about **meetings** written as a statement about **audience** |
+
+**What this settles.** `C2.27`'s cast splits cleanly in two: **who influences a project** — client, architect,
+interior designer, AV consultant, integrator — and **who the content is written for**, which is the same list minus
+the client. **A third list, who we ever meet, is narrower still.** *Three questions that one word — "the buyer" —
+had been answering at once, which is why `C2.9` could be both right and wrong at the same time.*
+
 ### What section 2 produced
 
 - **Four of sixteen rows were `discussion`** — and they were the section's entire *reasoning* layer, the part
