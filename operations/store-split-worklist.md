@@ -6,6 +6,13 @@ so treat counts as indicative. This is a worklist, not strategy.*
 
 **Status: proposed — not discussed and not worked** (Neil, 2026-08-17). Nothing below has been executed.
 
+> **⚠ And the C-ATS rows read differently since 2026-08-19 (`../registers/premises.md` `PR-18`).** Neil: the
+> C-ATS site is ***"an in-play mockup pending this process being complete and learned from."*** **So a C-ATS
+> figure taken off the feed is a placeholder, not a live commercial fact** — which is how the design service's
+> **£6,000–£12,000** entered `../registers/questions.md` `Q45` and sat against the invoices as if the two
+> disagreed. *They never did.* **Treat every C-ATS price and listing state below as mockup, not as evidence.**
+> The split decisions themselves are unaffected — they came from an instruction, not from the feed.
+
 **Cinema Store today: 126 → 42 stay, 30 move to SRND Store, 42 delete, 12 duplicated/withdrawn.**
 
 > **Decisions applied (2026-07-28):** no C-ATS on Cinema Store. Fabric Walls splits by system — **plastic

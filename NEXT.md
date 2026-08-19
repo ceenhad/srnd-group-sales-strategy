@@ -68,9 +68,10 @@ throughout — `brand-data.md`'s "sources: the live site", its whole "live-site 
 `EST-4`'s "quick fixes", slot 6 on all three pathways, and `Q45`'s £6,000–£12,000.* **Consequences already applied:**
 `C1.22` confirmed (the store's silence about services proved nothing), `Q45` substantially resolved (the store
 figure is placeholder, so the invoices are the only evidence and the "list versus realised" conflict was never
-real), `brand-data.md` reframed at the head of the section. **Not yet swept:** `EST-4` and
-`operations/store-split-worklist.md` are still written as *fixing a broken site* rather than as *outputs of this
-process*, and slot 6 on the three pathways still reports the mockup's state as a defect.
+real), `brand-data.md` reframed at the head of the section. **Swept 2026-08-19:** `EST-4` reframed — its items are **outputs this process has to specify**, not defects to
+patch, so it cannot be "done" ahead of the positioning it presents; `operations/store-split-worklist.md` carries a
+head note that **every C-ATS price and listing state on it is mockup** (the split decisions themselves came from an
+instruction, not the feed, and are unaffected); slot 6 on all three pathways now reads *mockup, not a defect*.
 **`method.md` failure 3 names it** — *a document existing is not evidence that anyone holds it* — **a test this repo
 applied to competitors' sites and never to its own.**
 
