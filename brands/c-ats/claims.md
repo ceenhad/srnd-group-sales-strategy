@@ -236,7 +236,7 @@ the constitution can be edited to contradict it.
 | **C5.9** | State the problem plainly — three problems, three solutions | `brand` | **gated on `PR-7`** (challenged). `Q50` settled that the system is the product and no panel leads; whether three problems means three *solutions* to state is exactly what PR-7 leaves open. If PR-7 breaks, so does this row |
 | **C5.10** | Don't dazzle with science — that is what competitors do | `brand` | **duplicate of `C1.4`/`C1.5`**, both confirmed |
 | **C5.11** | Beating it is the whole positioning | `brand` | drafted — **and stronger than what §1 confirmed.** C1.4/C1.5 say what competitors do and what C-ATS does instead; *"the whole positioning"* makes the contrast the entire proposition. `C1.14` — the only row that says why the brand exists — gives the objective as honest and easy to specify, **not as beating jargon** |
-| **C5.12** | No design-replacing calculator on the C-ATS site — *because of what its presence would imply, not what it would reveal* | `brand`, with the reason **`discussion`** | **the rule may be right; the reason is authored here.** Unsourced, and the platform has since settled it from the other side: ADR 017 v2 §5 withdrew Level 2 and §4 makes Cinema Tools Pro internal, **so there is no calculator to place anywhere.** `[?]` whether the rule is still doing work or is a preference for a situation that no longer exists → **`Q66`** |
+| **C5.12** | No design-replacing calculator on the C-ATS site — *because of what its presence would imply, not what it would reveal* | `brand` | **CONFIRMED 2026-08-19** (Neil, `Q66`) — **rule and reason both.** *I had marked the reason `discussion` on the grounds that nobody sourced it. It was right, and it is Neil's: a calculator on the C-ATS site would undercut the paid design service, and the objection is what it **implies**, not what it reveals.* **So this is the one row of §5's reasoning layer that survives as authored** — and the lesson runs the other way from §2: `discussion` marks *unconfirmed*, not *wrong*, and the fix is to ask rather than to strike. **It also disentangles two things §1 had merged:** secrecy is `DR-Q52`'s question; the calculator stays off the C-ATS site either way. **And it outlives the tooling state** — it binds if a calculator is ever built, which is why the withdrawal of Level 2 does not retire it |
 | **C5.13** | Worked examples showing how quantities are derived are the self-serve route | `brand` | **open — this is the sentence `Q52` quotes**, gated on `DR-Q52`. `../../NEXT.md` records that the worked examples themselves exist in Cinema Tools; what is undecided is whether they may publish |
 | **C5.14** | Bounded tools (e.g. reflection points) belong on Cinema Tools | `brand` | **`[?]` platform not checked.** The cited source is `../../motion/tools.md` — this repo, the weaker category. Per `../../method.md` the ADR is the check, and no ADR is named here |
 | **C5.15** | Scattering, never diffusion — products named by the problem, never the mechanism | **`group`** | `../../CLAUDE.md` § Non-negotiable discipline, verbatim in substance. *And the underlying rule is C-ATS brand truth, which lives in the C-ATS product repo — so this is the third copy* |
@@ -320,6 +320,10 @@ The smallness of the number, stated and measured, is the argument.
   because every writer obeys it and nobody re-reads it.
 - **`discussion` was rarer here than §2 predicted** — one reason, not a reasoning layer. §5 is prose-as-rules
   rather than prose-as-argument, and its failure mode is duplication rather than inflation.
+- **And that one `discussion` row turned out to be right** (`C5.12`, confirmed at `Q66`). **Worth keeping against
+  §2, where all four were struck:** the mark means *nobody has confirmed this*, not *this is inflated*. On the
+  two sections' combined evidence the right move on a `discussion` row is **to ask**, and the answer goes either
+  way.
 
 ## Sections 6–7 — not yet drilled
 

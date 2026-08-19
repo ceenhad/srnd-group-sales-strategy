@@ -188,7 +188,9 @@ governs anyone writing C-ATS copy.
 - State the problem plainly — three problems, three solutions. Don't dazzle with science; that's what
   competitors do, and beating it is the whole positioning.
 - **No design-replacing calculator on the C-ATS site** — because of what its presence would *imply*, not
-  what it would reveal. Worked examples showing how quantities are derived are the self-serve route.
+  what it would reveal. **Confirmed by Neil, 2026-08-19 (`Q66`): it would undercut the paid design service.**
+  *Rule and reason both his. It binds whether or not a calculator exists to place, and it is separate from
+  whether the design rules may publish, which is `DR-Q52`.* Worked examples showing how quantities are derived are the self-serve route.
   Bounded tools (e.g. reflection points) belong on Cinema Tools. See
   `../../motion/tools.md`.
 
