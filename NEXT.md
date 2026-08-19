@@ -62,6 +62,15 @@ reshaping into rows and not a collapse** — three entry points, one shared jour
 did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mechanism), `Q63` (the depth figures),
 `PR-13` (no install trap), `C2.17`–`C2.23` (why an integrator buys). Fold those in as the rows are written.*
 
+**Training is now a deliverable of every brand run — Leg 4** (`brands/_template/the-brand-run.md`, Neil 2026-08-19:
+*"training and education is one of the most beneficial marketing types… a critical deliverable on all"*). One row
+per opportunity: audience from the confirmed actor cast, route, a subject **traced to the record**, the honest
+precondition, the publication limit, and its state. **`EDU-2` is the C-ATS instance and the shape is unproven until
+it exists.** *Two things make the leg cut differently from the others: the design-led competitor tier **publishes no
+measured data at all**, so teaching from measurement is available to us and not to them; and `EDU-1` is the one
+place in this repo where **build-it-then-say-it does not bite**, because the capability is long-held and only the
+activity lapsed. `strategy.md` still says three legs — `DOC-30`.*
+
 **The competitor work turned up one thing that is not a competitor finding at all.** **`EDU-1`: the education
 layer was held and vacated** — Neil ran cinema training and design classes for years and stopped roughly a decade
 ago, and the people who filled the void now hold the standard, the certification and the distributor training

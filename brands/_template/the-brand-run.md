@@ -5,9 +5,16 @@ which was done first precisely so the shape would be set by a real one rather th
 (`../../NEXT.md` item 2; `../../group-strategy/strategy.md`, "Then the brands"). **This file is shape, not
 substance** — it says what to produce and what each piece must contain, never what a brand should say.*
 
-**The run is three legs**, and they are the three named in the strategy: *pathways built stage by stage from the
-brand's material · hooks written from its products · segments cut from the database.* Everything else the brand
-needs is already group-level and is not re-derived.
+**The run is four legs.** Three are named in the strategy — *pathways built stage by stage from the brand's
+material · hooks written from its products · segments cut from the database* — and the fourth was added on
+2026-08-19: **training opportunities, identified per brand.** *Everything else the brand needs is already
+group-level and is not re-derived.*
+
+> **Note the departure.** `../../group-strategy/strategy.md` names **three** legs. Leg 4 is Neil's instruction of
+> 2026-08-19 — *"training and education is one of the most beneficial marketing types… a critical deliverable on
+> all"* — and **the strategy document has not yet been updated to match** (`../../registers/backlog.md` `DOC-30`).
+> *Recorded here rather than left implicit: a correction applied in one place and not the other is this repo's
+> most repeated defect.*
 
 ## The precondition
 
@@ -126,6 +133,52 @@ The cut is produced by a script into `../../data/derived/`, so it is reproducibl
 Segments are internal. They inform which pathway a dealer is offered; they are never described back to a dealer,
 and no piece of content refers to one.
 
+## Leg 4 — `training.md`, the brand's training opportunities
+
+**Added 2026-08-19 on Neil's instruction:** ***"Training and education is one of the most beneficial marketing
+types. We should add that as a critical deliverable on all — identifying training opportunities."*** *So every brand
+run produces a training file, and it is a leg rather than a line inside another one.*
+
+**Why it is a leg.** `../../group-strategy/the-group-play.md` already says **the route in is the specifier**, and
+`../../group-strategy/buyer-journey.md` already names **RIBA-approved CPD** as the standard route to architects in
+the UK. **In this channel teaching is not adjacent to the route to market — it is the route**, which the competitor
+work established from the other side: the people who filled the void SRND left now hold the standard, the
+certification and the distributor training academies (`../../group-strategy/competitors.md` § the education layer,
+`EDU-1`).
+
+**One row per opportunity. Each row states:**
+
+| Field | What it holds |
+|---|---|
+| **Audience** | **Which actor** — architect · interior designer · AV consultant · integrator. *From the confirmed cast (`../c-ats/claims.md` `C2.27`); **the end user is not an audience for this** (`C2.29`, B2C runs only through the defined Cinema Store channels)* |
+| **Route** | Where it would run: a CEDIA/CTA committee or session · RIBA-approved CPD · a distributor's academy · our own class · a show programme · recorded and published |
+| **Subject** | **Traced to a record field or a confirmed claim, never invented** — the same provenance rule the hook set runs under (Leg 2). *A subject with no trace is not a training opportunity, it is a topic* |
+| **What it needs to run** | The honest precondition — a written module, a room, an accreditation, an owner's time, a piece of measured data |
+| **Publication limit** | **What may not be shown.** *Where the subject touches a black-boxed method, the row cites the decision that gates it — for C-ATS, `../../operations/decision-request-q52-cats-rules-publication.md`* |
+| **State** | Runnable today · needs the module written · needs a decision · blocked, with the blocker named |
+
+**Four rules the first run's evidence produces.**
+
+1. **Teach from measured data, because the tier that competes on rooms does not publish any.** The acoustics scan
+   found **no coefficients, standard or report** on the design-led competitors' pages — a proprietary scorecard, or
+   nothing (`../../evidence/2026-08-19-acoustics-competitor-scan.md`). **Where a brand holds published third-party
+   measurement, teaching from it is available to us and not to them.**
+2. **A training subject and a proof asset fail in the same way.** Leg 1's finding 2 — a proof asset can be net
+   negative until its teaching piece exists — **is a training opportunity stated backwards.** Read the pathway's
+   proof slots first: *the pieces that make a weak-looking asset legible are usually the best training subjects.*
+3. **Do not teach what the brand does not do.** `../../CLAUDE.md`'s build-it-then-say-it applies to a syllabus as
+   much as to a claim — **with one exception this leg exists because of**: where the *capability* is long-held and
+   only the *activity* lapsed, the rule does not bite. **That is `EDU-1`'s whole point, and it is the one place in
+   this repo where the reverse failure applies.**
+4. **Name the competitor's session, not the competitor.** Training programmes are public, so who teaches what is
+   observable — and `../../CLAUDE.md` permits criticising the category in public while naming a rival only behind
+   the partner gate, measured. **An internal training row may name anyone; a published syllabus names nobody.**
+
+**Training is not content, and the distinction matters for who owns it.** A piece of content is produced by the
+line (`../../motion/motion-design.md`); **a class is delivered by a person, and `Q25` recorded that Neil and Simon
+cover every role.** *So a training row's *"what it needs to run"* field is usually an owner's calendar, which makes
+this the leg most likely to produce an honest **no** — and a named no is worth more than an unscheduled yes.*
+
 ## Four findings from the first run that are about the method, not about C-ATS
 
 1. **A door's material may not be in the brand folder.** Two C-ATS doors assembled from brand material; the third
@@ -147,6 +200,8 @@ and no piece of content refers to one.
 - `pathway-<door>.md` per entry door, every slot stated with its honest state and its handoff.
 - `hooks.md` — candidates with provenance, rejections with reasons, blocked hooks named.
 - `../../evidence/<date>-<brand>-segment-cut.md` and `segments.md`, with the script that reproduces the cut.
+- `training.md` — one row per training opportunity, each with its audience, route, traced subject, precondition,
+  publication limit and state.
 - The register items each pathway consumes, listed in order, so the run ends as a work queue rather than as a
   document.
 
