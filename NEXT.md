@@ -48,9 +48,13 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **`Q70` — the 3 Rs against the real engineering brief** (`claims.md` `C1.20`), the one row from the
-§1 pass that only Neil can settle. `positioning.md` is now drilled end to end: §1 both halves, §2–§7,
-**76 claim rows.**
+**Resume at:** **`PR-7` — does three problems mean three doors?** It is the last structural premise still
+challenged, and **Neil's `Q70` answer bears directly on it**: *"the 3 Rs is the design system."* With `Q50` (*the
+system is the product; no panel leads*), the case for one door — the room — is now stronger than the case for
+three, **and three pathway files may collapse into one.** *Put it as a premise to break, not as options.*
+
+`positioning.md` is drilled end to end: §1 both halves, §2–§7, **76 claim rows.** `Q70` dissolved as malformed —
+`C1.20` stands confirmed.
 
 **What the §1 pass found** (2026-08-19, closing `C5.29`): 22 more rows from the reasoning layer nobody had
 atomised. **Both of the day's factual errors had been living in it**, and so do the file's only figures and its
