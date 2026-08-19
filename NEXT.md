@@ -62,6 +62,18 @@ reshaping into rows and not a collapse** — three entry points, one shared jour
 did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mechanism), `Q63` (the depth figures),
 `PR-13` (no install trap), `C2.17`–`C2.23` (why an integrator buys). Fold those in as the rows are written.*
 
+**⚠ The biggest correction of the day, and it is retrospective.** **`PR-18`: the live C-ATS site and store feed
+are a mockup, not evidence of the offer** (Neil, 2026-08-19). *They had been read as the state of the business
+throughout — `brand-data.md`'s "sources: the live site", its whole "live-site vs brand-truth tensions" section,
+`EST-4`'s "quick fixes", slot 6 on all three pathways, and `Q45`'s £6,000–£12,000.* **Consequences already applied:**
+`C1.22` confirmed (the store's silence about services proved nothing), `Q45` substantially resolved (the store
+figure is placeholder, so the invoices are the only evidence and the "list versus realised" conflict was never
+real), `brand-data.md` reframed at the head of the section. **Not yet swept:** `EST-4` and
+`operations/store-split-worklist.md` are still written as *fixing a broken site* rather than as *outputs of this
+process*, and slot 6 on the three pathways still reports the mockup's state as a defect.
+**`method.md` failure 3 names it** — *a document existing is not evidence that anyone holds it* — **a test this repo
+applied to competitors' sites and never to its own.**
+
 **⚠ A warning for the next session, from today.** `PR-7` was broken and a rebuild planned off **two words I had
 invented and never defined** — *"the way in"* and *"the room"*. Neil asked what they meant; reading the files
 answered it, and `pathway-reflection.md` already contained the guard I thought was missing. **Withdrawn the same

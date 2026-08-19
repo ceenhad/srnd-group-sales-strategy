@@ -61,6 +61,14 @@ Reverberation 50 mm), Technical Information, Contact; ~50 mm depth story; **no s
 
 ## Live-site vs brand-truth tensions (flag — brand truth wins)
 
+> **⚠ Reframed 2026-08-19 (`../../registers/premises.md` `PR-18`).** Neil: ***"the C-ATS website being used as the
+> iron reference here is just an in-play mockup pending this process being complete and learned from."*** **So
+> these are not tensions and the site is not drifting** — it is a **placeholder awaiting this work**, and brand
+> truth wins because the site has not been written yet. **Read every row below as "the mockup does not yet say
+> this", never as "the business does this."** *In particular: "no services at all" is not evidence the services
+> are unsold (`claims.md` `C1.22`), and the £0.00 pricing is the gating policy showing through an unfinished
+> presentation, not a decision.*
+
 - ~~**"Complete Acoustic Treatment System"** used as canonical, but brand truth flags the "Complete" expansion
   as unresolved.~~ **NOT A TENSION — `Q26`/`Q65`: the expansion is permitted, C-ATS is the standard form, the
   legal name is for contracts.** *One of the five "live breaches" was never a breach; the rule was what was
