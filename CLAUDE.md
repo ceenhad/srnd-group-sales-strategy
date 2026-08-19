@@ -95,7 +95,13 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
 ## Voice
 
 - Confident, technical, honest, plainspoken. Problems solved, not mechanisms.
-- Speaks to the trade partner (the dealer/integrator) first — they are the reader and the asset.
+- **Speaks to the trade — and the trade is wider than the dealer.** Content is read by whoever it reaches:
+  architect, interior designer, AV consultant, integrator. **The dealer relationship remains the asset** and the
+  dealer remains the hero of the sentence; what widens is who is holding the page. **The end user is not in this
+  audience** — B2C runs only through the defined Cinema Store channels. *Face to face is narrower still: the
+  integrator, at a push the AV consultant.* (`registers/premises.md` `PR-17`; `brands/c-ats/claims.md`
+  `C2.27`–`C2.30`, 2026-08-19. ~~*Speaks to the trade partner (the dealer/integrator) first — they are the reader
+  and the asset.*~~ — the old line read "the reader" as exclusive, which is what `PR-17` broke.)
 - No manufactured urgency, no superlatives, no unbacked claims. The content *is* the rep; a rep who
   fumbles the pitch loses a valuable dealer.
 - **Never lead with our own brilliance — lead with the dealer's win.** Our technical depth is
