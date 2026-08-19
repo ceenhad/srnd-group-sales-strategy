@@ -93,6 +93,28 @@ both replacements are one sentence.
 | **C2.15** | ***"We need to engage with more AV integrators."*** | `brand` | **confirmed 2026-08-18 — Neil's own words, replacing C2.13.** A statement of what to do, not a theory of why we have not |
 | **C2.16** | ***"Distributors have to pass the standard distributor tests."*** | `brand` | **confirmed 2026-08-18** — *corrected by Neil the same minute: he wrote "integrator tests" and meant **distributor** tests, and I had already written a paragraph on the wrong reading.* **It reaffirms settled policy rather than adding a rule:** the answer to reach is engaging more AV integrators directly — **not appointing a distributor to do it**, unless that distributor clears the existing bar in `../../group-strategy/commercial-model.md` (the ~2× volume test; case-by-case exception, never the default). Nothing to carry across; the rule is already there |
 
+### `W2`'s second half — answered in substance, kept open (Neil, 2026-08-19)
+
+**The oldest live gap in the brand** — flagged when `Q55` answered *who* signs off, and named in the handover.
+Neil: *"That's an open item but more because it's the fundamental question that really deserves being picked at."*
+**So the substance below is recorded and the item stays open.**
+
+| # | The claim | Kind | Status |
+|---|---|---|---|
+| **C2.17** | It works well and reliably | `brand` | **confirmed 2026-08-19** — and it is `C2.14` from the buyer's side rather than ours |
+| **C2.18** | They trust us to do a good job | `brand` | **confirmed 2026-08-19** — *trust in the supplier, not in the product.* Nothing in the range communicates it; it is earned per relationship |
+| **C2.19** | It is efficient to transport | `brand` | **confirmed 2026-08-19** — the 1.44 m² box quantum, already in `product-records.md` and **never stated as a reason to buy** |
+| **C2.20** | It is easy to install | `brand` | **confirmed 2026-08-19** — *and the record's most important field says the opposite risk exists:* the `A`/`B` install trap is *"the most important thing in this record"*. **Easy to install and easy to install wrong are both true**, and only one is in the copy |
+| **C2.21** | It does not use up loads of space | `brand` | **confirmed 2026-08-19** — the depth argument, and `Q63` has just made the figures sayable |
+| **C2.22** | They can make money | `brand` | **confirmed 2026-08-19** — §1's channel economics: the price carries the integrator's margin. **A reason to buy that appears in no C-ATS document as a reason to buy** |
+| **C2.23** | ***"The true answer in a lot of cases may simply be that it is simply the option we gave them."*** | `brand` | **Neil's own words, 2026-08-19, and offered as a hypothesis — *"may"*.** **If it is right it moves where the effort goes**, because nothing on that list is doing the persuading: the choice is made when we produce the design, not when the dealer reads copy. *It fits `C6.20` exactly — the design in Cinema Tools Pro forces the whole room and creates the moment to present the elements — and it fits `C2.15`, engage more integrators, which is a reach problem rather than a persuasion problem.* **It is testable against the ledger** (`DAT-2`): if C-ATS orders follow design engagements, the hypothesis holds |
+
+**What this produced.** **Every one of the six reasons was already in the record, and not one was written down as a
+reason to buy.** Reliability sat in `C2.14`, transport in the box quantum, install in the trap field, space in the
+depth argument, margin in §1's channel economics. *The gap was never missing information — it was **information
+never assembled**, which is a different job and a much smaller one than the mining apparatus `PR-3` had proposed.*
+**And `C2.23` is the uncomfortable one:** it says the list may not be why anyone buys.
+
 ### What section 2 produced
 
 - **Four of sixteen rows were `discussion`** — and they were the section's entire *reasoning* layer, the part
@@ -389,7 +411,7 @@ table. The eighth is the finding.*
 | # | The item | Kind | Status |
 |---|---|---|---|
 | **C7.1** | ~~**Distribution is the headline problem** — *"widely deployed but thinly distributed; the install reputation runs ahead of the route to market"*~~ | **`discussion`** | **STRUCK 2026-08-19 — and it was struck once already.** This is `C2.13` almost word for word, **struck at `Q57`**: *"again just grossly inflated conversation."* **§2 was cleaned and §7 was not**, so the rejected diagnosis survived as *the headline problem* in the same file. *Replaced by `C2.15`, Neil's words: **"we need to engage with more AV integrators."*** **The lesson is `C5.24`'s a third time** — a correction applied where it was found rather than everywhere it lives. `Q57` struck §2's copy on 2026-08-18; this one sat four bullets further down the same document |
-| **C7.2** | What convinces the integrator to choose C-ATS is not written down | `gap` | **open — and it is the oldest live gap in the brand.** `W2`'s second half, flagged at `Q55` when its first half was answered, and named in the handover. *An owner's sentence, explicitly not a research project (`PR-3`, broken: the mining apparatus was ceremony)* |
+| **C7.2** | What convinces the integrator to choose C-ATS is not written down | `gap` | **ANSWERED IN SUBSTANCE 2026-08-19, KEPT OPEN** — `C2.17`–`C2.23`, and Neil's reason for keeping it open: *"the fundamental question that really deserves being picked at."* **`PR-3` is vindicated twice over:** the answer took one question, and **all six reasons were already in the record**, unassembled |
 | **C7.3** | The canonical name is unresolved | `brand` | **CLOSED** — `Q26`, `Q65` |
 | **C7.4** | Pricing tiers are to be set; the site is placeholder | `gap` | open, **owned by `Q45`** not by this file |
 | **C7.5** | Proof assets are thin — few install photos | `gap` | open — duplicate of `C2.11`, `C2.12`, `C4.13`. *Three rows in three sections for one gap* |

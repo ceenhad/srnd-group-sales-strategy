@@ -43,6 +43,11 @@ adopted.
 *Written so a session in a different account can pick up cold. **Everything below points at a register; nothing
 is restated.***
 
+**`W2`'s second half is answered in substance and stays open** (`Q69`, `C2.17`–`C2.23`) — six reasons, all of
+which were **already in the record and never written down as reasons to buy**. And one hypothesis in Neil's words
+that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
+simply the option we gave them."*** **Testable — `DAT-2`.**
+
 **Resume at:** **§1, properly.** The drill-down has run §1–§7 (`brands/c-ats/claims.md`), but `C5.29` records that
 §1's pass atomised its opening paragraph and the origin — **not its 55 lines** — and §1 is the section everything
 else cites as settled. **The depth rule `Q63` cut was living in the undrilled part**, so the residue is not
