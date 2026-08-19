@@ -336,7 +336,8 @@ place the strategy lives.*
 | # | The claim | Kind | Status |
 |---|---|---|---|
 | **C6.1** | C-ATS is the acoustics within a room the group also builds — screen, lighting, fabric, speakers | `brand` | drafted — true and the section's premise |
-| **C6.2** | **So the treatment is designed to work with everything around it** | `brand` | **open → the section's load-bearing claim.** *It promises a mechanism. `pathway-resonance.md` names **surface-palette matching** and **the wall on isolation mounts as structural LF treatment**, which is real design-against-the-room — but nothing shows it is design against **the group's** products specifically. If any room's surfaces would do, the sentence is true of every acoustics supplier and distinctive of none* |
+| **C6.2** | ~~**So the treatment is designed to work with everything around it**~~ | `brand` | **STRUCK AS A DISTINCTIVE CLAIM 2026-08-19** (Neil): ***"You need full data on the room finishes etc to do an acoustic design — that's not C-ATS specific."*** **So the sentence is true and it is true of everyone**, which makes it worth nothing as positioning. *My draft had proposed surface-palette matching as the group-specific mechanism; that was wrong in its key move — needing the finishes is universal, not an advantage of having supplied them.* **The real mechanism is a different thing entirely and runs the other way — `C6.20`** |
+| **C6.20** | ***"We have moved to doing the designs in Cinema Tools Pro, which forces a full room design (which was needed anyway) and gives us the chance to present any other elements that are relevant."*** | `brand` | **confirmed 2026-08-19 — Neil's own words, and it replaces `C6.2` as the section's mechanism.** **The cross-sell is a by-product of a requirement, not a design capability.** The acoustic design cannot be done without describing the whole room; describing the whole room is the moment other group elements become relevant to mention. *Three consequences.* **(1)** It is the named mechanism `C6.12` was missing — the group play's *"a dealer won through one brand is a doorway"* has an actual door here. **(2)** It is **our workflow, not a dealer-facing feature**: Cinema Tools Pro is internal (ADR 017 v2 §4), so nothing about it publishes as a capability. **(3)** It reframes what §6 is about — not *the treatment is designed around our products*, but *the design forces the whole room into view, and the group has something in every layer of it* |
 | **C6.3** | Supplied and supported through one relationship rather than five | **`group`** | `../../CLAUDE.md`: *"six brands, one group, one relationship."* Duplication |
 | **C6.4** | For the integrator, the least visible part of the room comes from the same people, held to the same standard, as the rest | `brand` | drafted — **the best sentence in the section.** It is C6.3 said in C-ATS's terms rather than the group's, which is what a brand file is *for* |
 | **C6.5** | C-ATS is the group's acoustics brand | `brand` | drafted — **also stated in §1** (line 34) and in `product-pricing.md`. Three copies |
@@ -366,10 +367,18 @@ place the strategy lives.*
 - **The section's two real contributions are C6.4 and C6.6's reasoning.** C6.4 says the group promise in C-ATS's
   own terms — *the least visible part of the room, same people, same standard* — which is what a brand layer is
   for. C6.6 explains why isolation sits here without stretching the 3 Rs thesis.
-- **And the load-bearing claim is C6.2, which nobody has evidenced.** *"Designed to work with everything around
-  it"* is the promise the whole section rests on. If it means designing against the room's surfaces, every
-  competent acoustics supplier can say it. **What would make it C-ATS's is a mechanism that reads the group's
-  other products** — and no document shows one.
+- **C6.2 was the load-bearing claim and it did not survive** (Neil, 2026-08-19). *"Designed to work with
+  everything around it"* is true of every competent acoustics supplier, because **you cannot do an acoustic design
+  without the room's finishes.** No document showed a group-specific mechanism because there is not one.
+- **What replaced it inverts the section** (`C6.20`). The designs now run in **Cinema Tools Pro, which forces a
+  full room design** — needed anyway — **and that is what creates the chance to present other relevant elements.**
+  So the group fit is not a property of the treatment; it is a **consequence of what the design work requires.**
+  *And it is internal: Cinema Tools Pro is not dealer-facing, so this is how we work rather than something we say.*
+- **Worth recording how the draft was wrong.** I proposed surface-palette matching as the mechanism, reasoning that
+  the group knows the finishes because it supplied them. The matching is real; **the advantage was invented** —
+  every acoustic designer needs those finishes. **A plausible mechanism assembled from real components is still an
+  invention**, and it is the failure mode `../../method.md` calls *inference wearing the voice of measurement*
+  arriving one more time.
 
 ## Section 7 — not yet drilled
 

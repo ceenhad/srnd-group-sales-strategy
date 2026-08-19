@@ -211,21 +211,32 @@ boundary.*
 
 **Positioning core**
 
-> C-ATS doesn't treat a room in isolation. It's the acoustics within a room the group also builds —
-> the screen, the lighting, the fabric, the speakers — so the treatment is designed to work with
-> everything around it, supplied and supported through one relationship rather than five. For the
+> C-ATS is the acoustics within a room the group also builds — the screen, the lighting, the fabric,
+> the speakers — supplied and supported through one relationship rather than five. For the
 > integrator, the least visible part of the room comes from the same people, held to the
 > same standard, as all the rest.
+
+> **Edited 2026-08-19 (`C6.2`).** It used to read *"so the treatment is designed to work with everything around
+> it."* Neil: ***"you need full data on the room finishes etc to do an acoustic design — that's not C-ATS
+> specific."*** **True of everyone, so worth nothing as positioning**, and it implied a group-only design
+> capability we do not have. What is real is below.
 
 **The reasoning under it**
 
 - **C-ATS is the group's acoustics brand** — which is also why isolation lives here. It's the group's
   core strength — real technical depth plus understanding of the integrator's job — expressed in
   acoustics.
-- **Acoustics is a strong way in.** It's the part of the room where the integrator most wants a
-  partner they can trust, and it's hard and under-served. A dealer won on acoustics is a dealer the
-  rest of the group's brands can then serve — screen, lighting, speakers, and the fabric that conceals
-  the treatment (the most direct link, Fabric Walls).
+- **The mechanism is the design process, not the treatment** (Neil, 2026-08-19, `claims.md` `C6.20`):
+  ***"We have moved to doing the designs in Cinema Tools Pro, which forces a full room design (which was needed
+  anyway) and gives us the chance to present any other elements that are relevant."*** **The cross-sell is a
+  by-product of a requirement.** The acoustic design cannot be done without describing the whole room, and
+  describing the whole room is the moment the group's other layers become relevant to raise. *Internal: Cinema
+  Tools Pro is not dealer-facing (ADR 017 v2 §4), so this is how we work, not something we claim.*
+- **Acoustics is a way in.** A dealer won on acoustics is a dealer the rest of the group's brands can then serve —
+  screen, lighting, speakers, and the fabric that conceals the treatment (the most direct link, Fabric Walls).
+  *`[?]` The stronger version of this — that acoustics is the part of the room where the integrator most wants a
+  partner, and that it is hard and under-served — is unsourced (`claims.md` `C6.10`, `C6.11`), and sits oddly
+  beside §7's reading that the missing thing is the route, not the competition.*
 - **The commercial / big-room extension is a group move, not a C-ATS-only one** — larger-format panels
   likely built on Fabric Walls Acoustic Core PET, drawing in Cinema Tools and able to pull in Pro-Fi.
   C-ATS growth and group growth are the same step there.
