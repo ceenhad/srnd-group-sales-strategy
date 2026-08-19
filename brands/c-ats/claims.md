@@ -432,6 +432,8 @@ place the strategy lives.*
 | **C6.18** | The cross-sell only works if the group feels like one group — a clean handoff, or the advantage leaks away | **`group`** | `../../group-strategy/the-group-play.md` owns this. **And the row says so itself** |
 | **C6.19** | That is a group-level execution standard, not a C-ATS one | **`group`** | **the section admitting the defect in its own last line.** Six rows are group claims; this one knows it |
 
+| **C6.21** | *(added 2026-08-19 from the platform, reference only)* **The sequence: a design is produced first, then graded.** The integrator has a project → a full room design is produced in Cinema Tools Pro (`C6.20`) → the design is **graded** against the standard the run selects, at a chosen performance level → deliverables. **The acoustics are specified inside the design, at design stage** — nothing is diagnosed | `brand` | **holds on the platform's own record.** ADR **056** (`accepted`, v3): *standards are report parameters, not design state*; ADR **042** (`accepted`, v5) owns the treatment objective model. *It is the mechanism under `PR-14`: the reason the pathways' remedial framing is wrong is not that dealers never have problem rooms — it is that **the specification happens before the room exists.*** **`PR-15` is the trap next to it:** RP22 grades the design and **is not a design input**, so C-ATS content may cite it for provenance and must never say a design is *designed to* or *compliant with* it |
+
 ### What section 6 produced
 
 - **Six of nineteen rows are group strategy restated in a brand file** — C6.3, C6.7, C6.12, C6.18, C6.19, and C6.5
