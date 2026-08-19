@@ -75,10 +75,12 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 - **Price reflects channel economics, not product cost.** It carries the integrator's margin — **which is also
   one of the six reasons an integrator buys** (`claims.md` `C2.22`, Neil at `Q69`: *"they can make money"*) —
   placing it in the integrator-supplied premium band.
-  **The posture, not a band** *(`C1.38`, replaced 2026-08-19)*: ~~above direct-sell GIK, comparable to RPG,
-  slightly below Artnovion~~ — unmeasured, and `Q64` requires a named comparison to be measured. **What it was
-  reaching for is observable without measuring anything: some competitors sell direct to the end user at published
-  prices; C-ATS is trade-only and gated.** *Axis `A5`, `../../group-strategy/competitors.md` § acoustic treatment.*
+  **The posture, not a band** *(`C1.38`, replaced and then evidenced 2026-08-19)*: ~~above direct-sell GIK,
+  comparable to RPG, slightly below Artnovion~~ — unmeasured, and `Q64` requires a named comparison to be measured.
+  **What is observable, and now sourced from four fetched sites**
+  (`../../evidence/2026-08-19-acoustics-competitor-scan.md`): **GIK publishes prices and sells direct; RPG sells
+  through representatives; Artnovion shows no public price and runs a partners area. C-ATS is trade-only and
+  gated.** *Axis `A5`. **The margin clause is deliberately not here** — `C1.36` is still `drafted`.*
 
 ---
 

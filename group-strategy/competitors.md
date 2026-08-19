@@ -180,6 +180,55 @@ coefficients with no mounting configuration is the jargon claim, evidenced.
 **`A4` and `A8` both catch us.** Our lead time is unrecorded, so the first empty cell is ours. And `A8` restates
 `DR-Q52` in competitive terms: **the least copyable thing we have is the thing we may not show.**
 
+### What the scan found (2026-08-19)
+
+*Four names researched from their own pages against the eight axes — facts in
+`../evidence/2026-08-19-acoustics-competitor-scan.md`, **the reading here.** Chosen by axis rather than
+reputation: Primacoustic (studio tier), RPG (specification tier), GIK (direct-sell tier), Artnovion (the
+price-tier peer already in this file).*
+
+**1. `C1.4` is not supported by these four, and it is a *confirmed* row.** *"Most competitors sell acoustics on
+science and jargon"* (`../brands/c-ats/claims.md` `C1.4`, confirmed 2026-08-18). **None of the four does that.**
+GIK does the **opposite** — one plain number, *"Free Expert Advice"*, a 3D designer. Primacoustic is rigorous and
+legible: per-band figures, the standard, the mounting class, the report itself. RPG publishes per-product data
+sheets. Artnovion leads on *"engineered for performance designed for emotion"* — design language, not physics.
+**Evidence against a confirmed claim, recorded as evidence and not acted on** (`../CLAUDE.md`: new data lands
+against a decision, it does not reopen the reasoning). *What would settle it: the tier nobody has sampled — the
+generic foam sellers, and the products `C1.14` describes as overclaiming "diffusion" that was really scattering.
+**`C1.14` names a real category charge; `C1.4` generalises it to "most competitors", and the generalisation is
+what the scan does not support.***
+
+**2. The `A1` differentiator survives, but it is much narrower than "we publish data".** Publishing measured data
+is **normal**, not distinctive: GIK cites **the same standard C-ATS does** (BS EN ISO 354:2003, at Salford against
+our BSRIA), and Primacoustic publishes more than we do. **What separates them is the condition:** Primacoustic
+names **ASTM Type A**, a defined mounting class; **GIK publishes `NRC=1.05` with no mounting stated at all.** A
+single aggregate number without its mounting is the honest version of the complaint `C1.4` was reaching for — **not
+jargon, but over-simplification**, and it is checkable rather than rhetorical.
+
+**3. C-ATS's genuinely unmatched move is one line nobody else writes.** The record calls its own figures
+***"free/unfixed mounting — design-stage reference figures, not installed-effective values."*** **Neither GIK nor
+Primacoustic caveats published figures that way** in anything the scan saw. *That is the Scandinavian register as a
+competitive position rather than a tone: the differentiator is not the data, it is **saying what the data is
+not**.* **It is also the smallest, most defensible claim available**, and it costs nothing to make.
+
+**4. `Q63`'s bounded depth wording was right, and the evidence proves the unbounded version would have been
+wrong.** C-ATS is **43–50 mm** against GIK's **70–89 mm** — genuinely shallow. But **Primacoustic makes a 25 mm
+panel**, shallower than anything C-ATS builds. *So **"one of the shallowest complete systems"** holds and **"the
+shallowest"** would have been false on the first competitor checked.* **Neil's instinct that the absolute claim
+*"is not checked and inevitably such a claim is never 100% certain"* was correct on the evidence.**
+
+**5. `A5` is now evidenced rather than assumed, which is what `C1.38` needed.** **GIK: prices public, £7.20–£899,
+direct-to-consumer checkout.** **RPG: no public price, sold through representatives. Artnovion: no public price, a
+partners area.** *So the posture split is real and observable — and it is the specification tier, not the whole
+category, that sits alongside C-ATS's gated model.*
+
+**6. The uncomfortable one: GIK gives away what C-ATS charges for.** *"Free Expert Advice"* from acoustic
+consultants, plus a self-serve **3D Room Acoustics Designer** — against a C-ATS design service invoiced at a
+**£2,400 median** (`../evidence/archive-findings.md` finding 31). **This is `Q34` arriving from outside**: free is
+legitimate only from a defined policy, and only where the service is defined and costed — and here a competitor's
+free offer is the alternative a buyer already has. *It also bears on `Q59`/`DR-Q52`: GIK ships the self-serve route
+C-ATS marked as aspiration.* **Not a call to match it — a fact the design service's positioning has to answer.**
+
 ### The shape of the roster the axes ask for
 
 *Not a list of competitors — the **kinds** of competitor each axis implies. **Nothing here is researched.***
