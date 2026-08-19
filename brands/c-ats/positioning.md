@@ -198,11 +198,13 @@ named by the problem, never the mechanism — *Reflection Control Panel*, never 
   yet.** Do not put *"specify it yourself"* in front of a dealer until it is (§3, `DR-Q52`).
 - **C-ATS is the standard form of the name.** "Complete Acoustic Treatment System" is fine on first use; the legal
   "Cinema Acoustic Treatment Systems" is for contracts.
-- **Never attack a competitor in public copy.**
 - **Fabric Walls is the natural concealment pairing and a genuine cross-sell — never a dependency.**
 
-*Open against this section: `PR-7` (whether three problems means three doors) · `Q64` (whether the competitor rule
-belongs at group level) · no ADR named for the Cinema Tools boundary.*
+*The competitor rule left this section on `Q64` (2026-08-19) and is now a group rule in `../../CLAUDE.md`:
+criticise the category in public, name a rival only behind the partner gate.*
+
+*Open against this section: `PR-7` (whether three problems means three doors) · no ADR named for the Cinema Tools
+boundary.*
 
 ---
 ## 6. How C-ATS fits the group

@@ -292,6 +292,10 @@ shipping.~~
 page is not a placeholder awaiting a public number. One deliberate consequence: public marketing claims stay
 qualitative — performance, depth, measured data — never value- or price-led.
 
+**The gate also carries named competitor comparison** (`../registers/questions.md` Q64, 2026-08-19). Criticising
+the category is public; **naming a rival is partner-only and must be measured.** So the gate holds two things
+now, for the same reason: both are what a registered partner is owed and a public page is not.
+
 **What an end user sees** (Neil, 2026-08-17, closing `../registers/questions.md` Q42): **no published pricing
 online except on a defined B2C store** — that is `cinema-store.com`'s role below. **A quote can be sent to an
 end user, with list pricing only.** *(An earlier version of this section read "and that includes end users";

@@ -112,6 +112,13 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
 - **No superlative arms race between brands.** No brand claims to be *the* most complex, critical or
   hardest part of a project. Each element is demanding in its own terms; state it plainly. Coherence
   across the brand docs matters more than any one brand's emphasis.
+- **Criticise the category in public; name a competitor only behind the partner gate.** What competitors
+  do *as a category* may be stated plainly wherever it is true — jargon-heavy, too deep, overclaiming
+  "diffusion" that is really scattering. **No competitor is named on a public page**, for or against.
+  **Named comparison is legitimate work and sits behind the same gate as pricing** — partner-only, and
+  measured. *And the measurement test applies to what we say about others exactly as it does to what we
+  say about ourselves: no unmeasured claim about a rival, gated or not.* Promoted from C-ATS's own rules
+  on `registers/questions.md` Q64, 2026-08-19 — it was never a one-brand obligation.
 
 ## Hard don'ts
 
