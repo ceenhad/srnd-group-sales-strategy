@@ -65,8 +65,13 @@ did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mech
 **Training is now a deliverable of every brand run — Leg 4** (`brands/_template/the-brand-run.md`, Neil 2026-08-19:
 *"training and education is one of the most beneficial marketing types… a critical deliverable on all"*). One row
 per opportunity: audience from the confirmed actor cast, route, a subject **traced to the record**, the honest
-precondition, the publication limit, and its state. **`EDU-2` is the C-ATS instance and the shape is unproven until
-it exists.** *Two things make the leg cut differently from the others: the design-led competitor tier **publishes no
+precondition, the publication limit, and its state. **`EDU-2` done** — `brands/c-ats/training.md`, five rows and three
+rejections, so the shape is tested rather than proposed. *`T5` (±300 mm layout tolerance) is runnable today; `T2`
+(deciding acoustics before the wall is built) is runnable as a class and is **the only row that reaches the specifier
+cast**; `T1` is blocked on **one missing EN 13501-1 classification in our own record** and is the strongest row,
+because it is the only subject a dealer cannot finish the job without; `T3` waits on `Q45`, `T4` on `DR-Q52`.* **The
+leg earned its place by making a queue visible, not by producing a syllabus** — and four of five rows speak to the
+integrator, which against `C2.27` is itself the finding. *Two things make the leg cut differently from the others: the design-led competitor tier **publishes no
 measured data at all**, so teaching from measurement is available to us and not to them; and `EDU-1` is the one
 place in this repo where **build-it-then-say-it does not bite**, because the capability is long-held and only the
 activity lapsed. `strategy.md` still says three legs — `DOC-30`.*
