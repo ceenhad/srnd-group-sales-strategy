@@ -24,6 +24,10 @@ forked.
   record per mechanism family rather than per SKU. The form is group; the fill is brand. Add the brand's record
   scopes to `../../registers/product-register.md` at the same time — the roster is what says a record is missing.
 - `registers/open-items.md` — brand-specific decisions and sequencing.
+- **`pathway-<door>.md`, `hooks.md`, `segments.md` — the brand run.** These three are not filled by hand from a
+  blank page: they are produced by working `the-brand-run.md`, which sets the shape all six brands inherit from
+  the C-ATS run. **Read that file before starting any of them**, and fill `product-records.md` first — all three
+  legs read from it.
 - *(optional)* `competition-matrix.md` — where the brand outclasses competitors, dimension by
   dimension, with our column real and competitor columns filled from verified research. Useful
   wherever the differentiation is capability-led (see `brands/display-technologies/`).

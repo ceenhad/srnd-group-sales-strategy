@@ -11,7 +11,7 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 
 **Positioning core**
 
-> C-ATS is a straightforward, high-performance acoustic treatment system, built for the AV
+> C-ATS is a straightforward acoustic treatment system, built for the AV
 > integrator. Most acoustic systems try to impress the buyer with science. C-ATS states the problem
 > plainly: three things decide how a room sounds — reflection, resonance and reverberation. It gives
 > one purpose-built panel for each. The panels are deliberately shallow, because in most rooms the
@@ -80,8 +80,9 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 - **Optimised for the integrator, no one else** — not acousticians, studio designers, or end
   clients. End clients occasionally buy by enquiry, but nothing is built for them, and no price is
   public to anyone.
-- **Buyer-truth below this line is parked, deliberately.** Who specifies, who signs off, why they
-  really choose — that comes from real recent jobs in your words, not personas or file archaeology.
+- **Who specifies and who signs off: the AV integrator, both** (Neil, 2026-08-18, `../../registers/questions.md`
+  Q55). One person, not a specifier who recommends and a client who approves. **What convinces them is not yet
+  written down — it is a question for an owner, not a research project.**
 - **Deployment credibility is real but under-documented.** There are genuine high-end installs — the
   Cornflake IMAX private cinema in London is public and easy to find, though years old now. The issue
   isn't confidentiality; it's a shortage of install photography. Not none, but not much. Building
@@ -101,6 +102,12 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 > proven — every time — with the method behind that proof set out plainly, in both the design service
 > and the technical documents. What the integrator delivers is a room that sounds as good as the
 > budget will allow, with the same certainty on every job.
+
+> ⚠ **The first route is aspiration, not truth** (Neil, 2026-08-18, `../../registers/questions.md` Q59).
+> **There is no self-serve sizing route today** — ADR 017 v2 §5 withdrew Level 2 and §4 makes Cinema Tools Pro
+> internal with no external login. **Do not put "specify it yourself" in front of a dealer until something
+> carries it** (`../../operations/decision-request-q52-cats-rules-publication.md`). *"Measured and proven, every
+> time" is confirmed and stays — it is a claim about capability, not about how many verifications were sold.*
 
 **The reasoning under it**
 
@@ -133,8 +140,13 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
   354, BSRIA) — more than many competitors lead with, but the essentials, not a comprehensive test
   regime. Further characterisation exists and hasn't been done. Don't present it as exhaustive.
   Expanding the testing is an option for later, not a claim to make now.
-- **A method, not a product list.** The 3 Rs, the layout methodology, and a design lineage going back
-  to 2014. The credibility is in the approach, not the SKU count.
+- **A method, not a product list — and the method is systemised, not just long-standing** (Neil, 2026-08-18,
+  `../../registers/questions.md` Q61: *"the systemised method — that's the real answer"*). The 3 Rs, per-axis
+  flatness, surface-palette matching, reflection triage, corner loading — **written down, encoded and
+  reproducible** in `cinema-platform` `products/cinema-tools/docs/product/c-ats-system-design-rules.md` and its
+  engine, validated on a real room. **The credibility is that the method is a system, not that it is old.**
+  Lineage back to 2014 is context. ⚠ **And the method is currently black-boxed as IP**, so the strongest thing
+  about the brand is the thing it may not show — `../../operations/decision-request-q52-cats-rules-publication.md`.
 - **Verification is the strongest proof** — it proves the finished room, and it's a chargeable
   service, not just a document.
 - **Honesty is a wording discipline, not a sales line.** C-ATS exists because competitors overclaimed
@@ -234,8 +246,8 @@ Internal only — the unresolved items to settle before they harden into copy. F
 - **Distribution — the headline problem.** C-ATS is widely deployed but thinly distributed; the
   install reputation runs ahead of the route to market. Building that route — getting to the
   integrators who would buy — is the central strategic job, not an afterthought.
-- **Buyer-truth.** Who specifies, who signs off, why they really choose. Deliberately parked; it comes
-  from real recent jobs in your words, not personas or file archaeology.
+- **What convinces the integrator to choose C-ATS.** Not written down. *Who* specifies and signs off is
+  answered (Q55). **Ask an owner.**
 - **The canonical name.** C-ATS vs "Complete Acoustic Treatment System" vs the Cinema-specific
   reading. Unresolved — settle it and align brand truth, the group site, and the store together.
 - **Pricing.** Gated tiers to be set; the current site is placeholder (£0.00).

@@ -3,8 +3,9 @@
 Group-level open items and sequencing live in `../../registers/open-items.md`. These are C-ATS's own.
 
 **Decisions needed (flag, don't guess):**
-- Consolidate the global C-ATS dealer list + finer buyer-truth from real jobs (who specified vs
-  bought vs installed, and why) before hard-coding into copy.
+- Consolidate the global C-ATS dealer list. *(The "finer buyer-truth from real jobs" half is struck,
+  2026-08-18: who specifies and signs off is the AV integrator, answered in one sentence when asked — Q55.
+  What convinces them is a question for an owner, not a job-history exercise.)*
 - Lever-2 channel validation — which of pro install / commercial cinema / fit-out to pursue first,
   and each one's real buyer and proof needs.
 - C-ATS partner pricing tiers — the numbers behind the shared gate (publication is settled group

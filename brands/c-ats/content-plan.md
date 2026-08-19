@@ -21,6 +21,16 @@ the archive count says what to multiply.** The dead ends (handoffs) get wired as
 unfindable) · `draft` (Claude-drafted, awaiting truth-check) · `missing`. Stage = journey stage / grid row.
 Target = what the piece points at — its gateway's threshold action, written into the piece.*
 
+> **Added 2026-08-18, by the template run.** All three doors now have a pathway — `pathway-reverberation.md`,
+> `pathway-reflection.md`, `pathway-resonance.md` — so every item below can be read against a slot rather than
+> only against a stage. **Two things the run changed about this queue.** The reflection pathway's proof slot needs
+> item 40 *before* EST-5 lands, not after, because the raw data argues against the panel until the reading is
+> explained. And ~~the resonance pathway surfaced the one genuinely new authoring job in the brand: `N1`/`N2` —
+> the quantity answer and the worked example~~ **— struck 2026-08-18. Both exist**, systemised and running in
+> Cinema Tools (`pathway-resonance.md`). **The queue's real missing item is a front door onto them** — and there is
+> currently no design for one: ADR 017 v2 withdrew Level 2 and made Cinema Tools Pro internal. What C-ATS's
+> self-serve sizing route should be is `../../registers/questions.md` Q52 / `../../operations/decision-request-q52-cats-rules-publication.md`.
+
 ### Tranche 1 — already written: publish (days of churn, no authoring)
 
 | # | Piece | Stage | Target | Source atom | State |
@@ -67,7 +77,7 @@ Target = what the piece points at — its gateway's threshold action, written in
 
 | # | Piece | Stage | Target | Source atom | State |
 |---|---|---|---|---|---|
-| 47 | The four uncast hook angles from the reverberation matrix, worded by an owner | 1 | Each → its fuller answer (items 3–20) | `pathway-reverberation.md` | candidates |
+| 47 | **The uncast hook angles, worded by an owner.** Now the full set across all three doors, not four from one: 19 angles, 2 live, 2 blocked, **15 castable** — each with the record field behind it, and the rejections recorded so they stay rejected | 1 | Each → its fuller answer (items 3–20) | `hooks.md` (2026-08-18), the three `pathway-*.md` | candidates — **waiting only on wording** |
 | 48+ | Hook variants multiplied per what the archive count ranks and what the bites show | 1 | Each → its fuller answer | CON-3 + published-piece log | waits on evidence |
 
 ## The grid check — items counted per row

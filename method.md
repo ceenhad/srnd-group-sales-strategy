@@ -71,14 +71,143 @@ rule. **The status vocabulary above exists to say which it is.**
 
 ---
 
+## The three that failed on 2026-08-18 — and the rules they produced
+
+*One session, one brand run, three failures with the same root: **filling a structure is not thinking.** Twenty-four
+pathway cells got filled, each with a citation, each defensible alone — and a contradiction between two of the
+sources never surfaced, because a contradiction has nowhere to appear when the job is populating cells. This is
+failure 4 above (*extraction is not thinking*) wearing different clothes, so it gets its own rules rather than a
+cross-reference.*
+
+**1. A premise carried the work and was never stated.**
+The C-ATS run stood on *nobody can size a room without ringing us*. It was false — the method is systemised and
+running in Cinema Tools — and it sat inside a product record for sixteen days. **It was never available to be
+broken, because it was never stated as a premise**; it was a sentence in a table that other work quietly leaned on.
+It surfaced because Neil read one line of a 640-line output and said four words.
+
+> **The rule: load-bearing premises are stated as rows before they carry anything** — `registers/premises.md`,
+> with a source, what rests on it, and **what would break it**. A premise buried in a deliverable can only be
+> caught by reading the deliverable. *And the corollary for asking: put premises to be broken, not options to be
+> chosen. Options smuggle the framing in — two questions were asked that day, both as multiple choice, and both
+> framings were wrong.*
+
+**2. An apparent gap was declared without checking the platform.**
+`CLAUDE.md` already required the platform check and it had no teeth, because it never said what *checked* means.
+The repo even held the contradiction: `brands/c-ats/positioning.md` §1 named the partner-gated tool in a sentence that was
+read, cited, and half-used.
+
+> **The rule: an apparent gap is not a gap until the relevant ADRs have been read and named in the artefact that
+> claims it.** Name them, or write `[?] platform not checked`. **And ask where the answer would live if it
+> existed** — a calculation lives in an engine, not in a marketing folder, and that one question resolves it in a
+> step. **Two documents disagreeing is the finding**, not an obstacle to filling a cell.
+
+**3a. The platform was then checked by reading its documents, and that was the same mistake again.**
+Hours after rule 2 was written, the correction built on it cited **ADR 043** (superseded by 042) and rested half
+its argument on `03-c-ats-partner-tool.md` — a 24 May product document framed throughout on **ADR 019**, which
+ADR 017 superseded on 13 August, describing a Level 2 surface **ADR 017 v2 decision 5 withdrew outright.** Three
+files then asserted a "Tier-0 free sizing route" that had been cancelled, not deferred. `CLAUDE.md` warned this
+had happened once before; it has now happened three times in one day, each time one layer deeper.
+
+> **The rule: the ADR is the check, not the document.** A document inside the platform is evidence of what
+> someone once planned, not of what is decided — `docs/` drifts, `docs/decisions/` is the record. **Before citing
+> any platform document, resolve its governing ADR and read that ADR's `status` and `superseded_by`.** A
+> superseded ADR is not a weaker source, it is the wrong one. *And this is failure 3 above — a document existing
+> is not evidence that anyone holds it — which the platform's own frontmatter can settle in one grep.*
+
+**3. The output was a pile of documents.**
+Neil, 2026-08-18: *"we are trying to create materials that are of a quality to share but even the data share must
+be of proper structured data not piles of documents. the ADRs need to manage that."*
+
+> **The rule is in "What the work produces" below.**
+
+## What the work produces
+
+**Rows with stable IDs, not prose.** The point is not tidiness — it is that **more than one person has to be able
+to work this process and be sure they are doing the same thing.** A narrative document cannot give that
+assurance: it cannot be diffed meaningfully, queried, checked for completeness, or lifted into engine. A register
+can.
+
+- **Default to a register.** `registers/` is state in rows. If the thing being produced has instances — pieces,
+  premises, questions, products, segments — it is rows, and prose is at most its preamble.
+- **Data leaves as data.** A measured cut is a script and a CSV (`data/derived/`), with the reading of it kept
+  separate. **Never a table typed into a document**, which is a copy that immediately starts drifting.
+- **Prose is for argument only** — `group-strategy/` and `motion/`. An argument is the one thing rows cannot hold.
+- **The test: could a second person work from this and be certain they were doing what the first did?** If the
+  answer needs them to have read a document end to end and taken the same reading from it, it is the wrong shape.
+
+**Decisions that bind the platform are ADRs, and this repo does not write them.** `cinema-platform` runs a real
+ADR set — `docs/decisions/` at platform level (0001–0016), `products/<product>/docs/decisions/` per product
+(cinema-tools: 87 files, all `scope: cinema-tools`) — governed by `docs/conventions.md` and by ADR 079, which
+versions rather than amends.
+
+**What leaves here is a decision request, not an ADR.** An ADR is a *record of a decision*, numbered in the repo
+that owns it. A file in `operations/` with a placeholder number and borrowed frontmatter is neither — it is a
+document in ADR costume, and it fails the same test as any other pile of prose. So:
+
+- **It carries an ID in this repo's namespace** (`DR-<question-id>`), keyed to its row in `registers/questions.md`.
+- **It never guesses the destination's number**, its frontmatter, or whether it supersedes anything. Whether it
+  lands as a new ADR or as a new *version* of an existing one is the owner's call under ADR 079.
+- **It states the contradiction, the proposed decision and the consequences as tables**, because that is what a
+  second person can act on without reading it end to end.
+- **If accepted, the owner creates the ADR in their repo.** That is the moment it becomes an ADR, and not before.
+
+*(First instance: `operations/decision-request-q52-cats-rules-publication.md`, 2026-08-18 — and it took a
+correction from Neil to get its shape right, having first been drafted as a fake ADR numbered `<n>`.)*
+
+**And the standing rule that survives all of this unchanged:** no `decisions/` folder in this repo, ever. Tried
+twice, deleted twice — see below. **Somebody else's ADR set is not this repo growing one.**
+
+## The drill-down — how a claim gets confirmed
+
+*Added 2026-08-18, from the C-ATS brand-truth run. **The method that produced more correction in twenty minutes
+than the preceding six hours of building.** Neil: "1 paragraph became 15 data points! …this is exactly the power
+of drilling down."*
+
+**The problem it solves:** a paragraph can be read, nodded at and marked settled while carrying a wrong claim
+inside it. `brands/c-ats/positioning.md` is 249 lines describing what the brand is, who it is for, what it
+promises and why it is credible — with **zero attributions to Neil in the whole file.** It was drafted by a
+session, never checked, and then cited as settled strategy by every piece of work that followed, including mine.
+**Nobody lied. The confirmation step was simply never performed, and prose is where that is invisible.**
+
+**The five steps:**
+
+1. **Take one section. Not a file, not a brand — a section.**
+2. **Atomise it.** Split until every row is a single claim that could be true or false on its own. One paragraph
+   of C-ATS positioning gave **fifteen**. The count being surprising is the point; that surprise is the measure
+   of how much was riding on an unexamined passage.
+3. **Sort each row by who owns it** — is this a **brand** claim, a **product** fact, a **service**, or a **gap**?
+   **This is where the duplication surfaces.** Five of C-ATS's fifteen were `product-records.md` reproduced word
+   for word, which means the strategy document was not standing on the record but copying it — two files free to
+   drift apart, and nobody would see it until they disagreed.
+4. **Put the rows to the owner, and record the words back.** Confirmed rows carry a date and a name. **A row is
+   not confirmed because the paragraph containing it was** — anything singled out keeps its own status.
+5. **Regroup only after confirming.** Grouping is safe once each atom is checked; grouping first is how fifteen
+   claims hide inside one sentence again.
+
+**Where the rows live:** `brands/<brand>/claims.md`, one register per brand. **The prose file stays** — it is
+where the argument lives, and rows cannot hold an argument — **but the register is what says which parts of it
+anyone has actually agreed to.**
+
+**Two things the first run showed, likely to repeat:**
+
+- **The real brand story is one or two rows.** Thirteen of C-ATS's sixteen were product facts, restatements, or
+  gaps. **The row that said why the brand exists was a single sentence** — and it had never been confirmed.
+- **Atomising finds holes, not just errors.** "A design service specifies them; verification proves they worked"
+  passed as ordinary prose. As rows it is immediate: both are named in every C-ATS document and **described in
+  none.**
+
 ## The shape of a working session
 
-1. **Read what governs it, end to end.** The owning area document, and this file.
-2. **Work in the register.** Questions get IDs before they get asked.
-3. **Ask, apply, ask.** No essay between the answer and the next question.
-4. **Record the answer verbatim, and what it changed.** If it changed nothing, say so.
-5. **Correct in place and visibly.** A struck line with its reason is worth more than a clean one that hides a
-   reversal.
+1. **Read what governs it, end to end.** The owning area document, this file — **and the platform's ADRs where
+   the work touches them.**
+2. **State the premises.** What is this about to stand on, and what would break each one — rows in
+   `registers/premises.md` before a line of the deliverable is written.
+3. **Work in the register.** Questions get IDs before they get asked.
+4. **Ask, apply, ask.** No essay between the answer and the next question. **Premises to break, not options to
+   pick.**
+5. **Record the answer verbatim, and what it changed.** If it changed nothing, say so.
+6. **Correct in place and visibly.** A struck line with its reason is worth more than a clean one that hides a
+   reversal — **and a broken premise is kept, never deleted**, because the work built on it has to be findable.
 
 ## Two things to say out loud rather than resolve quietly
 
@@ -93,7 +222,8 @@ rule. **The status vocabulary above exists to say which it is.**
 
 **One kind per file**, and the folder says which kind: **`group-strategy/`** argument · **`motion/`** the
 machinery · **`brands/`** application · **`registers/`** state, in rows · **`evidence/`** measured,
-append-only · **`operations/`** what leaves the repo · **`data/`** the source.
+append-only · **`operations/`** what leaves the repo, **including ADRs drafted for `cinema-platform`** ·
+**`data/`** the source, as scripts and derived files rather than as tables typed into documents.
 
 ## `decided.md` is a machine input, not a record
 

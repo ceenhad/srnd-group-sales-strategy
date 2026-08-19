@@ -15,6 +15,10 @@ real questions, not be invented]**. The product: the REV-CP. A low-value, low-ri
 panels, easy to specify, quick to prove — which is exactly what the journey asks of a door
 (`../../group-strategy/buyer-journey.md`: the door is a product, not a brand).
 
+**And a door is a way in, not a rank** (Neil, 2026-08-18, `../../registers/questions.md` Q50): C-ATS is a system
+and the 3 Rs is what defines it, so no panel leads and none is an entry product. Three doors exist because there
+are three problems.
+
 ## The pathway, slot by slot
 
 | # | Gateway | The piece | Its one job | State today | The handoff |
@@ -26,7 +30,7 @@ panels, easy to specify, quick to prove — which is exactly what the journey as
 | 5 | **G3** — the hinge | Registration: gated trade pricing, the tools, one account across every brand (training access later) | Make the gate worth crossing, so permission is given willingly | **Mechanism live in engine**; grants only pricing today | → the store (slot 6) |
 | 6 | **G4** — first order | The REV-CP listing on `srnd.store`: clear scope of supply, gated price, frictionless checkout | Take a small order faultlessly — the first order tests us, not the product | Listing exists; the **£0.00 "Sale price" presentation is broken** (EST-4) | Order confirmation → the install material (slot 7) |
 | 7 | **G5** — first job | The REV-CP 18 °C adhesive one-pager, the "how do you do X" recording, the install guide organised by moment | The known site-failure prevented; the dealer looks good in front of their client | **One-pager written, unpublished** (DOC-1); recording not made (DOC-2); guide not rewritten (DOC-3) | In the box and on the canonical home → the verification offer; then slot 8 |
-| 8 | **G6** — adjacency, the loop | The concealment story — the treatment goes behind the fabric (the staged KB concealment article already routes to Fabric Walls); the adjacency prompt in the spec conversation (XS-1) | Open the next layer of the same room, at the moment it is relevant | **Article staged**; adjacency map unwritten; the spec prompt not yet a habit | → exits onto the **Fabric Walls pathway at its stage 2** — whose best asset, the factory-versus-site install-time film, already exists |
+| 8 | **G6** — adjacency, the loop | The concealment story — the treatment goes behind the fabric (the staged KB concealment article already routes to Fabric Walls); the adjacency prompt in the spec conversation (XS-1) | Open the next layer of the same room, at the moment it is relevant | **Article staged**; ~~adjacency map unwritten~~ — **the map was written 2026-08-14 (`../../motion/adjacency-map.md`, XS-1); what is still missing is the C-ATS adjacency *page* (`content-plan.md` item 45)**; the spec prompt not yet a habit | → exits onto the **Fabric Walls pathway at its stage 2** — whose best asset, the factory-versus-site install-time film, already exists |
 
 ## The hook matrix — slot 1 is a set, not a piece
 
@@ -58,6 +62,9 @@ what works, retire what doesn't (JNY-1).*
   pathway; nothing new gets authored except the adjacency page.
 - **The loop lands on Fabric Walls at its stage 2** — so the Fabric Walls proposition layer is the next
   pathway to write, and its strongest asset already exists.
+- **Added 2026-08-18, from the segment cut:** the traffic runs the other way too, and more heavily. 142 dealers
+  bought from the group in 2024–26 and have never bought a C-ATS panel (`segments.md`). They enter this pathway
+  at slot 3, not slot 1.
 
 ## Guardrails (brand truth binds, hardest here)
 
