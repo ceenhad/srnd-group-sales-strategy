@@ -169,6 +169,27 @@ depth argument, margin in §1's channel economics. *The gap was never missing in
 never assembled**, which is a different job and a much smaller one than the mining apparatus `PR-3` had proposed.*
 **And `C2.23` is the uncomfortable one:** it says the list may not be why anyone buys.
 
+### `PR-14`'s replacement — the three design-stage moments (Neil, 2026-08-19)
+
+**Asked at what point an integrator first needs us. Answer: *"in fact all 3 should be valid."*** *So the entry
+points survive as three — but keyed on **where the project has got to**, not on what a room sounds like.*
+
+| # | The claim | Kind | Status |
+|---|---|---|---|
+| **C2.24** | **They have won, or are bidding, a cinema and need the acoustics specified.** The project exists on paper; the room does not | `brand` | **confirmed 2026-08-19** |
+| **C2.25** | **They are pricing the build and need a treatment budget** — they cannot quote the client without a number for acoustics | `brand` | **confirmed 2026-08-19.** *Connects to `C2.22` ("they can make money") and to the 1.44 m² box quantum, which is what makes an early number possible at all* |
+| **C2.26** | **An architect or client has asked for a spec and they cannot produce the acoustic part** — the demand comes from outside them | `brand` | **confirmed 2026-08-19.** *And this is where `C6.21`'s grading step is visible to the dealer: someone else may have set a performance level* |
+
+**What this settles.** `PR-14` broke the *symptom* framing — *"sounds echoey"*, *"detail smears"* — because the
+specification happens **before the room exists.** These three replace it, and **`PR-7` survives in a changed
+form**: still three ways in, still one shared journey, but **keyed on the project's stage rather than on an
+acoustic problem.** *Which is also why the earlier "one way in, the room" was wrong in both directions — it
+collapsed a real three, and it collapsed them onto a thing that does not exist yet.*
+
+**What it leaves as work.** The three `pathway-*.md` doors are keyed on symptom and their `G1` hooks with them.
+**Re-keying them to these three moments is the shape `MTH-1`'s rebuild should take** — not yet done, and not to be
+started on my reading alone.
+
 ### What section 2 produced
 
 - **Four of sixteen rows were `discussion`** — and they were the section's entire *reasoning* layer, the part

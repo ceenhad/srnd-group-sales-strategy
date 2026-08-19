@@ -48,7 +48,15 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **`MTH-1` — the five deliverables are prose-with-tables and owe a rewrite into rows** (`PR-9`'s
+**Resume at:** **re-keying the three pathway doors from symptom to project moment**, then the rest of `MTH-1`.
+`PR-14` broke the symptom framing (*"sounds echoey"*, *"detail smears"*) because **the specification happens before
+the room exists**, and `C2.24`–`C2.26` replace it with the three moments Neil confirmed: **the job is won or being
+bid and needs the acoustics specified · the build is being priced and needs a treatment budget · an architect or
+client has asked for a spec they cannot produce.** *`PR-7` survives in changed form — three ways in, one shared
+journey, keyed on the project's stage.* **Not started: the re-key is on my reading of the consequence, not on an
+instruction.**
+
+**Then: `MTH-1` — the five deliverables are prose-with-tables and owe a rewrite into rows** (`PR-9`'s
 consequence). The three `brands/c-ats/pathway-*.md`, `hooks.md` and `segments.md`. **`PR-7` holds, so it is a
 reshaping into rows and not a collapse** — three entry points, one shared journey. *The drill-down is done and it
 did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mechanism), `Q63` (the depth figures),
