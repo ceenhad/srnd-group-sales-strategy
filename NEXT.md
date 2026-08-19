@@ -48,9 +48,11 @@ drill-down, answers into `brands/c-ats/claims.md`. §1–§5 done; §6 and §7 (
 one remaining section whose content is genuinely **argument**, so expect `discussion` per §2. §7 is a list of
 open items and should mostly resolve to `registers/questions.md` pointers rather than to claims.*
 
-**Waiting on Neil:** `Q63`–`Q67`, all from the §5 drill-down and none yet put to him. **`Q63` is the one that
-changes copy** — the depth rule forbids stating 50 mm, which the product record states twelve times and which a
-dealer cannot buy without.
+**Waiting on Neil:** `Q64`–`Q67`, from the §5 drill-down. **`Q63` is answered and it found a wrong fact:
+`RES-CP` is 43 mm, not the 50 mm the canonical dataset holds** — `DAT-1` is the correction at source, `PR-12` the
+broken premise, and `C1.8` is the first `confirmed` claim row to turn out false. `C4.15` records the answer's
+other half: **the resonance panel's lab-verified result is the strongest single proof point in the measured
+data**, which is the first thing in §4 to say *which* result leads.
 
 **What changed on 2026-08-19.** §5 drilled — **28 rows, and almost nothing in the section is the brand's own.**
 Eight rows restate `CLAUDE.md` (**the new `group` kind**, which is §1's `product`-duplication defect one layer

@@ -59,7 +59,7 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | Field | Value |
 |---|---|
 | **What they are, collectively** | A three-panel acoustic treatment system, one panel per acoustic problem — reflection, resonance, reverberation |
-| **Depth** | **50 mm** on all three. The commercial argument is space: at this tier the floor area a deeper system consumes costs far more than the treatment itself |
+| **Depth** | ~~**50 mm** on all three.~~ **CORRECTED 2026-08-19 (Neil): REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** *The dimensions in this record are sourced from `c-ats-shopify:data/panels.json`, which gives 50 mm for RES-CP — **so the canonical dataset is wrong, or was, and the store is selling on it.** Verify and correct at source: `../../registers/backlog.md` `DAT-1`.* **And minimum depth is a stated design goal of the system, not a spec detail** (Neil, 2026-08-19) — it feeds the commercial argument directly: at this tier the floor area a deeper system consumes costs far more than the treatment itself |
 | **Box rule** | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
 | **Layout tolerance** | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
 | **Where they sit** | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
@@ -166,10 +166,10 @@ C-ATS range.
 |---|---|
 | **What it is** | A corner-loaded low-frequency absorber for room resonance |
 | **What it does** | Absorbs at low frequencies, where room modes make bass uneven from seat to seat |
-| **How it works** | Corner loading — placed where modal pressure is highest, so a 50 mm panel does work that would otherwise need far greater depth |
+| **How it works** | Corner loading — placed where modal pressure is highest, so a **43 mm** panel does work that would otherwise need far greater depth |
 | **What it is for** | Room corners and wall–ceiling junctions. The bass problem, which is the one dealers most often cannot solve |
 | **What it is *not* for** | Reflection control or general reverberation. Not isolation — resonance is a treatment problem, isolation is a different one entirely |
-| **Scope of supply** | 600 × 600 × 50 mm panel, 0.36 m² each; **4 per box = 1.44 m²**; moulded countersunk fixing holes |
+| **Scope of supply** | 600 × 600 × **43 mm** panel, 0.36 m² each; **4 per box = 1.44 m²**; moulded countersunk fixing holes *(depth corrected 2026-08-19 — see the shared `Depth` field)* |
 | **What it requires from others** | **4 × 3.5 × 60 mm bugle-head black drywall screws with threadless shank** per panel; corner access; a fabric layer if concealed |
 | **Configuration space** | One size. The larger 600 mm format is deliberate — corner loading needs area |
 | **Limits** | Effectiveness depends on corner placement; away from a corner it is a much weaker device |
@@ -200,21 +200,21 @@ in the published data note.
 | `O1` | Problem, in the dealer's words | **`[?]` — unasked.** The bass problem is the one dealers most often cannot solve, but that is our reading of it, not their phrasing |
 | `O2` | Time or labour saved | Whole-box quantities (4 per box, 1.44 m²). **The ~300 mm tolerance does not transfer here** — this panel's effectiveness depends on corner placement, so it is the one product in the range where position is not forgiving. Worth stating rather than inheriting |
 | `O3` | Opportunity it opens | **`[?]`** — not established at product level |
-| `O4` | What it replaces or avoids | Deep bass traps that consume corner volume the room cannot spare. Corner loading is what lets 50 mm do work that would otherwise need far greater depth — **the depth argument made concrete**, and the product where it is most defensible |
+| `O4` | What it replaces or avoids | Deep bass traps that consume corner volume the room cannot spare. Corner loading is what lets **43 mm** do work that would otherwise need far greater depth — **the depth argument made concrete**, and the product where it is most defensible. **Neil, 2026-08-19: *"a very, very unusual product delivering results much deeper panels would be proud of — and those results are lab verified, which is probably about the most important result and discussion point in the BSRIA results pack."*** So this is not merely the most defensible depth argument, it is **the strongest single proof point in the measured data** |
 | `O5` | Entry or flagship | ~~**`[?]`** — DEC-3~~ **ANSWERED 2026-08-18 (Q50): the question does not apply to C-ATS.** *"C-ATS is an acoustic treatment system… it's not that one panel is more or less important. The 3 Rs of acoustics is what defines the product"* (Neil). **No entry product, no flagship — the system is the product.** ~~*Candidate flagship on the evidence*~~ — that line was inference, and it is struck |
 
 ### The doubt it removes, and the questions it generates
 
 | ID | Field | Value |
 |---|---|---|
-| `R1` | **The doubt it meets** | *"Can 50 mm do anything at low frequency?"* — the objection the whole depth argument exists to answer, and the one where measured data does the work |
+| `R1` | **The doubt it meets** | *"Can **43 mm** do anything at low frequency?"* — the objection the whole depth argument exists to answer, and the one where measured data does the work. **Sharper than the record had it**: the panel is shallower than the 50 mm this field assumed, and the lab-verified answer is correspondingly more surprising (Neil, 2026-08-19) |
 | `R2` | **Load-bearing asset** | The measured per-panel Sabines with the test configuration stated. This product cannot be sold on description |
 | `R3` | **Questions it generates** | How many, and where; whether it replaces bass traps; why it is bigger than the others; can it go anywhere other than a corner |
 | `R4` | **What goes wrong on site** | Placed away from corners; too few for the room volume; expected to fix a subwoofer-placement problem |
 
 ### What we may and may not say
 
-- **Supported:** measured per-panel absorption, corner configuration stated; BSRIA-tested 2019; 50 mm depth.
+- **Supported:** measured per-panel absorption, corner configuration stated; BSRIA-tested 2019; **43 mm** depth.
 - **Not claimed:** any modal-region figure below 125 Hz — the report does not extend there. **The design tooling's
   resonance sizing has a known blind spot below ~80 Hz**, so no resonance numbers from that tool.
 - **[?]** Whether a below-125 Hz measurement is worth commissioning. It is the obvious next test and would

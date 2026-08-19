@@ -46,7 +46,7 @@ not mine.
 | **C1.5** | C-ATS instead states the problem plainly | `brand` | confirmed 2026-08-18 |
 | **C1.6** | Three things decide how a room sounds: reflection, resonance, reverberation | **`product`** | confirmed — **but it is `product-records.md` line 61 verbatim**. Duplication |
 | **C1.7** | One purpose-built panel per problem, not a range to choose from | **`product`** | confirmed — same table, same line. Duplication |
-| **C1.8** | The panels are deliberately shallow (50 mm) | **`product`** | confirmed — `product-records.md` line 62 (`Depth`) verbatim. Duplication |
+| **C1.8** | ~~The panels are deliberately shallow (50 mm)~~ **The panels are deliberately shallow — 50 mm REF-CP and REV-CP, 43 mm RES-CP** | **`product`** | **CORRECTED 2026-08-19 (Neil, `Q63`) — and it is the first `confirmed` row to turn out false.** It was confirmed on 2026-08-18 as `product-records.md` line 62 verbatim, and the line said *"50 mm on all three."* **Both files were wrong together, which is exactly what a verbatim duplicate guarantees** — the duplication did not merely risk drift, it propagated an error and doubled the confidence in it. *The substance survives: shallow by design, and Neil adds that **minimum depth was a key design goal of the system**, not a spec detail* |
 | **C1.9** | Because the floor area a deeper system consumes costs more than the treatment itself | **`product`** | confirmed — line 62, same sentence. Duplication |
 | **C1.10** | A design service specifies them | `service` | confirmed as true — **but neither file describes the service**. See C1.16 |
 | **C1.11** | Verification proves they worked | `service` | confirmed as true — same gap |
@@ -175,6 +175,7 @@ it moves what C-ATS leads with.
 | **C4.12** | Honesty is a wording discipline, never a public boast about our own restraint | `brand` | drafted — a good guardrail; restates `C1.14`'s origin as a rule |
 | **C4.13** | Track record is real but under-documented (Cornflake IMAX and others) | `gap` | a statement about our asset library, not a claim |
 | **C4.14** | Do not overclaim internally either — stand on measured data, not on a tool's output | `brand` | drafted — same |
+| **C4.15** | ***"Our resonance panel is a very, very unusual product delivering results much deeper panels would be proud of — and those results are lab verified, which is probably about the most important result and discussion point in the BSRIA results pack."*** | `brand` | **confirmed 2026-08-19 — Neil's own words** (`Q63`), and **the first row to say which measured result leads.** RES-CP is **43 mm** (not the 50 mm the record held), so the claim is sharper than the record could state it. *It does not reopen `Q61`: credibility still rests on the systemised method, and `PR-4` stays broken. What this adds is **which asset carries the proof once the method is the claim** — within the BSRIA pack, the resonance result is the discussion point, and it is the one part of C-ATS's proof that is already published and free of `DR-Q52`.* **Consequence for the content plan:** slot 4's proof asset has a subject now, where before it had only a report |
 
 ### C4.10, and what it costs
 
@@ -207,6 +208,9 @@ date the credibility claim rests on is unasked**, and it is one sentence to an o
   overclaim*. Three warnings in one section suggests whoever drafted it was uneasy about C4.1's confidence, and
   that unease was well founded: the section leads with evidence it had not read.
 - **The strongest row in the section is the one nobody had evidence for when they wrote it.**
+- **`C4.15` was added a day later and is the section's only row in Neil's own words.** §4 had fourteen rows about
+  *why* C-ATS is credible and not one saying **which result to lead with**. That is the shape of the whole file:
+  confident about the category of proof, silent on the specific.
 
 ## Section 5 — The discipline
 
@@ -240,7 +244,7 @@ the constitution can be edited to contradict it.
 | **C5.17** | Only claim what the data supports — the measured data is the basics, not an exhaustive regime | `brand` | **duplicate of `C4.8`** |
 | **C5.18** | No invented performance figures | **`group`** | `../../CLAUDE.md` § Hard don'ts |
 | **C5.19** | Stand on measured data, not a tool's output | `brand` | **duplicate of `C4.14`** — **and it reads differently after `Q61`.** Credibility now rests on the systemised method, which *is* the tool's rules layer. The distinction the sentence needs — a computed number for one room, versus the rules that computed it — is one it does not make. Wording, not substance |
-| **C5.20** | **Depth is expressed relatively (*"shallower than any competing product"*), never a bare millimetre figure** | `brand` | **OPEN — and it fails on three counts at once → `Q63`.** See below |
+| **C5.20** | ~~**Depth is expressed relatively (*"shallower than any competing product"*), never a bare millimetre figure**~~ **State the figures; bound the comparative to *"one of the shallowest complete systems on the market"*** | `brand` | **STRUCK AND REPLACED 2026-08-19** (Neil, `Q63`). **All three counts held, and the answer went further than the question asked**: the figures are not a boast to withhold but *"a key design goal of the system"* feeding the floorspace argument directly. The absolute superlative is out because it is **unchecked, not because it is a superlative** — *"I do believe it to be the most shallow total system on the market but that is not checked… certainly 'one of' would be valid."* **And the question's own premise was wrong**: RES-CP is 43 mm, not 50 mm. See below |
 | **C5.21** | Don't fence the brand to a named space; state the problem, which travels to any room that has it | **`group`** | `../../CLAUDE.md` § "Don't fence us to cinema — in trade": *"Name the problem, never the room type."* |
 | **C5.22** | Don't narrate isolation as the 3 Rs thesis expanding — it is here because C-ATS is the group's acoustics brand | `brand` | **duplicate of §6**, which states the same thing as the positioning rather than as a prohibition |
 | **C5.23** | Keep the commercial / big-room extension internal until it ships | **`group`** | `../../CLAUDE.md` § "Build it, then say it", applied. Also restated in §7 |
@@ -252,7 +256,30 @@ the constitution can be edited to contradict it.
 | **C5.29** | *(added by the drill-down)* The depth-expression rule appears **twice** — §5 and §1's shallow-depth bullet — and was atomised in **neither**: §1's pass produced 16 rows from its opening paragraph and the origin, leaving the rest of §1's 55 lines undrilled | `gap` | **open.** *"Take one section"* was carried out as *take one paragraph*. Residue, not error — but it means §1 is not finished, and a `confirmed` §1 reads as though it is |
 | **C5.30** | *(added by the drill-down)* Of §5's 28 claim rows, **eight restate a rule that lives in `CLAUDE.md`** and **nine duplicate a row already confirmed elsewhere in this file or in the product record** | `gap` | **open → `Q67`.** The same defect as §1's five product duplicates, one layer up |
 
-### C5.20 — the depth rule, and why it is the section's real finding
+### C5.20 — answered, and it broke the question's own premise
+
+**Neil, 2026-08-19 (`Q63`):** *"The Ref and Rev panels are 50mm and the Res is 43mm. Minimum depth was a key
+design goal of the system and feeds directly into discussion of the costs of floorspace from deeper systems. I do
+believe it to be the most shallow total system on the market but that is not checked and inevitably such a claim
+is never 100% certain — certainly 'one of' would be valid! Our resonance panel is a very, very unusual product
+delivering results much deeper panels would be proud of — and those results are lab verified, which is probably
+about the most important result and discussion point in the BSRIA results pack."*
+
+**Four things land, and the first is a fact nobody in the repo had.**
+
+1. **RES-CP is 43 mm.** `product-records.md` said *"50 mm on all three"*, sourced from
+   `c-ats-shopify:data/panels.json` — **so the canonical dataset is wrong, or was, and the store sells on it.**
+   `DAT-1` in `../../registers/backlog.md`; premise `PR-12` broken. **The argument for cutting the rule was built
+   on a figure that was itself wrong**, which is the drill-down catching an error it was not looking for.
+2. **Depth is a design goal, not a spec detail.** *"Minimum depth was a key design goal of the system."* The rule
+   suppressed the figures as a boast; they are the premise of the commercial argument.
+3. **The comparative is bounded, and for the honest reason.** Not *"no superlatives"* but **it is not checked** —
+   `"one of the shallowest complete systems on the market"` is sanctioned, the absolute is not, and the claim is
+   about the **whole system** rather than a panel. *That is the Scandinavian register doing real work: the limit
+   is the evidence, not the tone.*
+4. **RES-CP at 43 mm is the strongest single proof point in the measured data** → **`C4.15`**.
+
+### Why the rule failed on three counts — the reasoning that produced `Q63`
 
 *`positioning.md` §5: "Depth is expressed relatively ('shallower than any competing product'), not as a bare
 millimetre figure." §1 line 47 says it again with a reason: "a number means little to most buyers."*
@@ -260,7 +287,7 @@ millimetre figure." §1 line 47 says it again with a reason: "a number means lit
 **1. It forbids publishing a dimension the product cannot be sold without.** `product-records.md` states 50 mm
 **twelve times**, including in scope of supply — *300 × 300 × 50 mm panel, 0.09 m² each; 16 per box*. A dealer
 cannot specify, quote or fit the panel without it. And `C1.8` — *the panels are deliberately shallow (50 mm)* —
-is a **confirmed** row of §1. **§5 forbids what §1 states.**
+was a **confirmed** row of §1 — and was itself wrong on RES-CP. **§5 forbade what §1 states, and §1 mis-stated it.**
 
 **2. The replacement is an unmeasured superlative.** *"Shallower than any competing product"* is a claim about
 every competing range in the category, and nothing measures it. **`Q54` cut *"high-performance"* on precisely

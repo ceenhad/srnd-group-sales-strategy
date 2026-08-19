@@ -48,9 +48,13 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
   about, which is `C5.24`'s propagation failure repeating inside one file.*
 - **Shallow depth is a deliberate commercial decision, not a spec boast.** The cost that matters is
   the floor and wall area the treatment occupies — in most rooms far greater than the price of the
-  panels. Depth removed is space returned to the client. Externally the claim is relative
-  ("shallower than any competing product"), never a bare millimetre figure (~50 mm internally); a
-  number means little to most buyers.
+  panels. Depth removed is space returned to the client. ~~Externally the claim is relative ("shallower than
+  any competing product"), never a bare millimetre figure (~50 mm internally); a number means little to most
+  buyers.~~ **Struck — `Q63`, 2026-08-19.** *"A number means little to most buyers"* was unsourced buyer
+  psychology, the species struck at `Q56`; and **it is not a spec boast, it is a stated design goal** — *"minimum
+  depth was a key design goal of the system."* **State the figures — 50 mm REF and REV, 43 mm RES** — and bound
+  the comparative to *"one of the shallowest complete systems on the market"* until the field is measured.
+  Claims `C5.20`, `C1.8`.
 - **It applies to any room with these problems, not a named space.** Small rooms have all three;
   large rooms are reverberation-dominated. The commercial move is already defined: a market-led push
   into boutique commercial cinema — larger rooms and jobs, larger-format panels (likely built on
@@ -195,8 +199,17 @@ governs anyone writing C-ATS copy.
   public boast about our own restraint.
 - **Only claim what the data supports.** The measured data is the basics, not an exhaustive regime; no
   invented performance figures; stand on measured data, not a tool's output.
-- **Depth is expressed relatively** ("shallower than any competing product"), not as a bare millimetre
-  figure.
+- **State the depth.** ~~Depth is expressed relatively ("shallower than any competing product"), not as a bare
+  millimetre figure.~~ **Rule replaced — `Q63`, Neil, 2026-08-19.** **REF-CP and REV-CP are 50 mm; RES-CP is
+  43 mm**, and *"minimum depth was a key design goal of the system"* which *"feeds directly into discussion of
+  the costs of floorspace from deeper systems."* The figures are the argument, not a spec boast to withhold —
+  and a dealer cannot specify the panel without them.
+  - **The comparative is bounded: "one of the shallowest complete systems on the market."** Neil believes it to
+    be *the* shallowest total system *"but that is not checked and inevitably such a claim is never 100%
+    certain — certainly 'one of' would be valid."* **So no absolute superlative until somebody measures the
+    field**, and the claim is about the **whole system**, not a single panel.
+  - **RES-CP at 43 mm is the sharpest form of the argument** — *"a very, very unusual product delivering results
+    much deeper panels would be proud of, and those results are lab verified."* Claim `C4.15`.
 
 **Scope**
 
