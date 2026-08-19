@@ -159,10 +159,17 @@ certification and the distributor training academies (`../../group-strategy/comp
 
 **Four rules the first run's evidence produces.**
 
-1. **Teach from measured data, because the tier that competes on rooms does not publish any.** The acoustics scan
-   found **no coefficients, standard or report** on the design-led competitors' pages — a proprietary scorecard, or
-   nothing (`../../evidence/2026-08-19-acoustics-competitor-scan.md`). **Where a brand holds published third-party
-   measurement, teaching from it is available to us and not to them.**
+1. **Measured data is hygiene, not a syllabus.** Neil, 2026-08-19: ***"It's too tempting to scream and point at
+   measured data. Truthfully if it's not legal or safety no one gives a shit. Hardly any dealer cares about Sabines
+   or anything. All the others are the same — confirm it's not just made up, but don't go mad that you have some
+   tests either."*** **So measurement does one job: it proves the claim is not invented.** *Then it gets out of the
+   way.* **The exception is a compliance gate** — reaction-to-fire, structural, marine. *For C-ATS that is Class 0 /
+   EN 13501-1 / IMO-SOLAS, which a specified project **will** ask for, and which therefore belongs in training
+   because a dealer cannot finish the job without it (`../c-ats/product-records.md` § Fire — **and always confirm
+   the certificate for the exact product and finish**).* **A training subject is a thing that makes a dealer better
+   at their job. A coefficient table is not that.** *And `../../registers/premises.md` `PR-4` broke on this same
+   ground on 2026-08-18 — the data is real, published and free, and it is **not** what the brand rests on. **This
+   rule exists because that break was drifted back over within a day.***
 2. **A training subject and a proof asset fail in the same way.** Leg 1's finding 2 — a proof asset can be net
    negative until its teaching piece exists — **is a training opportunity stated backwards.** Read the pathway's
    proof slots first: *the pieces that make a weak-looking asset legible are usually the best training subjects.*

@@ -154,7 +154,7 @@ is a claim about a category nobody has enumerated.
 
 | Axis | What it asks in acoustic treatment | C-ATS, confirmed rows only | What fills a competitor cell |
 |---|---|---|---|
-| **A1** product performance and features | What data is published, **to what standard, in what mounting** — and what is not measured | BSRIA 100241/1, **BS EN ISO 354**, free/unfixed mounting, design-stage reference. Coefficients **deliberately low — it is a scatterer** (`C1.4`–`C1.5`). **ISO 17497 scattering: never measured** (`N9`) | Their own data sheet. **Absent data, or data with no mounting stated, is itself the finding** |
+| **A1** product performance and features | **A hygiene check: is there anything behind the claim** — what data exists, to what standard, in what mounting. *Not a scoreboard: dealers do not buy on coefficients (Neil, 2026-08-19). **Load-bearing only at a compliance gate** — reaction-to-fire, structural, marine* | BSRIA 100241/1, **BS EN ISO 354**, free/unfixed mounting, design-stage reference. Coefficients **deliberately low — it is a scatterer** (`C1.4`–`C1.5`). **ISO 17497 scattering: never measured** (`N9`) | Their own data sheet. **Absent data, or data with no mounting stated, is itself the finding** |
 | **A2** what it must work with | **Install method and concealment** — how it fixes, what it needs from other trades, whether it disappears | 50 mm REF/REV, **43 mm RES** (`Q63`); behind any stretch fabric, never dependent on one (`C5.28`); box quantum **1.44 m²**; ~300 mm layout tolerance | Fixing instructions, finish options, what trade has to be on site |
 | **A3** support model | Is there a design service, is the room sized for you, is the result verified | Design service (invoiced, 22 engagements); verification a **capability** (`C3.4`, `C4.5`); **the systemised method is the credibility claim** (`C4.10`, `Q61`) | Whether design and verification are offered at all, and whether either is priced |
 | **A4** lead time | Made to order or stocked; domestic or imported | **`[?]` — ours is not recorded anywhere.** Kirkbymoorside manufacture is a group fact; the C-ATS figure is not written down. **The first cell to fill is ours** | Their stated lead time; where it ships from |
@@ -172,13 +172,21 @@ direct to the end user at published prices; C-ATS is trade-only, gated, and carr
 **That is sayable, sourced, and names nobody.** *So `C1.38` never needed evidence — it needed replacing with the
 claim underneath it.*
 
-**`A1` is where C-ATS is strongest, and the axis runs backwards.** Most comparison axes reward the bigger number.
-This one rewards **publishing the number at all, with its mounting stated** — and C-ATS's numbers are deliberately
-low. It also makes `C1.4`'s *"jargon"* charge **checkable rather than rhetorical**: a competitor publishing
-coefficients with no mounting configuration is the jargon claim, evidenced.
+**`A1` is a hygiene check, not a strength — corrected 2026-08-19.** ~~*It is where C-ATS is strongest, and the axis
+runs backwards: it rewards publishing the number at all.*~~ **It asks one question — is there anything behind the
+claim — and then stops mattering.** *Neil: dealers do not care about Sabines; measurement proves a claim is not
+invented and nothing more.* **The one place `A1` is load-bearing is a compliance gate** — reaction-to-fire,
+structural, marine — *because a specified project cannot complete without the certificate.* **Everything else on
+this axis is a floor, not a differentiator**, and `../registers/premises.md` `PR-4` had already settled that.
 
 **`A4` and `A8` both catch us.** Our lead time is unrecorded, so the first empty cell is ours. And `A8` restates
 `DR-Q52` in competitive terms: **the least copyable thing we have is the thing we may not show.**
+
+**And a standing caution for anyone using this table.** *The axes make measurement easy to reach for and easy to
+over-weight — `A1` is the trap. **Three separate things in this repo drifted into treating tests as a selling
+point** (`PR-4`, the first `A1` reading here, and Leg 4's first rule in `../brands/_template/the-brand-run.md`), and
+all three were corrected by the same sentence. **Confirm the claim is not invented; then talk about the dealer's
+job.***
 
 ### What the scan found (2026-08-19)
 
@@ -281,8 +289,12 @@ down in frequency, which is the same physics the record's own `A`/`B` install ty
 tested **free/unfixed** mounting.
 
 **Separately, and verified on the page: no measured data at all.** Coefficients, standard, report — *absent*. **So
-the design-led tier competes without publishing numbers**, which is the sharpest thing the scan found about
-`A1`.
+the design-led tier competes without publishing numbers** — *and the right conclusion is the opposite of the one I
+first drew.* **Neil, 2026-08-19:** ***"if it's not legal or safety no one gives a shit. Hardly any dealer cares about
+Sabines… confirm it's not just made up, but don't go mad that you have some tests either."*** **A tier that sells
+successfully without publishing data is evidence that publishing it is not what wins the work.** *`A1`'s real job is
+a **hygiene check** — does the claim have anything behind it — not a scoreboard. `../registers/premises.md` `PR-4`
+broke on exactly this ground the day before, and this file drifted back over it.*
 
 **On *"diffusion"*: they do use it** — *"carefully balances reflection, broadband absorption and diffusion"*,
 verified on the page. **But that is not evidence of overclaiming.** *Real diffusers exist; C-ATS says **scattering**
