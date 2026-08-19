@@ -69,29 +69,42 @@ is recorded as a rule in `../registers/premises.md` `PR-19`.*
 | **A7 route to market** | End-user facing on its own pages — *"your private theater"*, *"build a theater"*. **Integrators and architects not named as audiences** | **A dealer locator exists**; the trade route is real but **the programme's terms are not published**. *Earlier trade coverage describes it as partnering with dealers* | **Via partners** — e.g. Ascend AV lists it as a partner line |
 | **A1 published data** | **Not published.** A proprietary **YATES Scorecard** measurement system is described; no coefficients, standard or report on the pages seen | **Not stated** — no coefficients, standard or test data | not captured |
 | **A6 credibility** | *"AVS Forum awards Keith Yates Design HOME THEATER of the DECADE"*; *"first to design the lowest-noise residential spaces measuring below human hearing threshold"* | **Certifications as credibility** — **HAA, CEDIA, THX, ISF** | *"the finest acoustic spaces in the world"* |
-| **A2 method** | Whole-room engineering; treatment is one specification among seating and HVAC | Panels plus track; **QuestTrac** implies a carrier system | **All four walls**, balancing *"reflection, broadband absorption and diffusion"*, and — stated as a contrast — ***"unlike traditional stretched fabric acoustic treatments, their system has an air gap between the panel and the wall behind"*** |
+| **A2 method** | Whole-room engineering; treatment is one specification among seating and HVAC | Panels plus track; **QuestTrac** implies a carrier system | **All four walls**, balancing *"reflection, broadband absorption and diffusion"*. **Verified from the page 2026-08-19:** ***"Unlike traditional stretched fabric 'hang on the wall' acoustic treatments, our system has an air gap between the panel and the wall behind. This gap allows us to play some really advanced acoustic tricks"***, and *"moving the acoustic material out into the room a little."* **`A1`: measured data, standard, coefficients — *absent*** |
 
 ## Two things this tier shows that the first tier could not
 
-**Officina Acustica positions explicitly against stretch-fabric treatment**, which is C-ATS's own install model
-(`../brands/c-ats/claims.md` `C1.12`, `C5.28`). **A named competitor differentiating against our concealment
-method is a first for this repo.**
+**⚠ CORRECTED 2026-08-19 — this row was first written from a search summary, not from the site.** *The summary
+dropped three words and I recorded a finding on it. Neil: **"this is a nonsensical statement — all stretch fabric
+systems have an air gap, and loads of acoustic treatment panels rely on an air gap."** Correct: a stretch-fabric
+wall is a cavity by construction. **The page says `'hang on the wall'`**, and that is the whole distinction — the
+contrast is with **absorbers fixed flat to the substrate**, not with stretch fabric. **A search summary is not a
+source; the site is.***
 
-**It also uses *"diffusion"* in its top-line description** — *"reflection, broadband absorption and diffusion"* —
-the word C-ATS's brand rules forbid in favour of **scattering** (`C5.15`). *Recorded as observed. Whether the
-usage is loose or accurate is not determinable from a summary line, and the honesty rule cuts both ways: `Q64`
-forbids an unmeasured claim about a rival as firmly as about ourselves.*
+**What the verified quote does show.** The contrast lands on **C-ATS's recommended install** — REF-CP
+adhesive-bonded to the wall, REV-CP with pre-applied adhesive backing — **and not on RES-CP**, which straddles a
+corner. *And the mechanism is real: a cavity behind an absorber shifts its effective absorption down in frequency,
+which is the physics behind the record's own `A`/`B` install types and the reason BSRIA tested free/unfixed
+mounting.*
+
+**They do use *"diffusion"*, verified on the page** — *"carefully balances reflection, broadband absorption and
+diffusion."* **This is not evidence of overclaiming.** *Real diffusers exist; C-ATS says **scattering** because its
+panels scatter (`C5.15`). Whether their product diffuses is unknown, `Q64` forbids an unmeasured claim about a rival,
+and **`C1.14`'s charge therefore has no named instance — I asserted one and withdrew it.***
+
+**The tier publishes no measured data at all.** Officina Acustica's engineering page: coefficients, standard,
+report — *absent*. Keith Yates: a proprietary Scorecard, nothing published. QuestAI: nothing stated. **That is the
+scan's sharpest `A1` finding.**
 
 ## Sources, second pass, fetched 2026-08-19
 
 - Keith Yates Design — https://www.keithyates.com/
 - QuestAI — https://questai.com/ and https://questai.com/dealers/
-- Officina Acustica — https://officinaacustica.com/ (via search summary; the site itself was not fetched)
+- Officina Acustica — https://officinaacustica.com/ and **https://officinaacustica.com/acoustics (fetched 2026-08-19 after the summary-derived error above)**
 - Residential Systems on the QuestAI configurator and the Acoustical Lens System — https://www.residentialsystems.com/archive/questai-reveals-acoustic-treatment-configurator
 
 **Not found: `AcoustiSmart`.** No matching company surfaced — the spelling may differ. **Left as an unfilled row
-rather than substituted with something similar-sounding.** Officina Acustica's own pages were summarised from
-search rather than fetched, and the `A1`/`A5` cells are unfilled for that reason.
+rather than substituted with something similar-sounding.** Officina Acustica's `A5` cell remains unfilled; its `A1`
+and `A2` cells are now filled from the fetched engineering page.
 
 ---
 

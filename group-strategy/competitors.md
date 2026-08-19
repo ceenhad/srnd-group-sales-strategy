@@ -235,21 +235,60 @@ C-ATS marked as aspiration.* **Not a call to match it — a fact the design serv
 it's almost certainly not for us"** (`../registers/premises.md` `PR-19`). That removes GIK (online), Primacoustic
 (studios) and RPG (architectural/institutional). The facts in the first pass stand; their relevance does not.*
 
-**1. The tier sells rooms, not panels — which changes what the comparison is about.** **Keith Yates Design**
+**0. The comparison was being made at the wrong layer, and that is the first thing to fix.** **Neil, 2026-08-19:**
+***"There is a critical bit that you miss — we lack nothing against these. On the contrary we offer much more. It's
+called SRND Group."*** *I had been comparing **C-ATS** against companies that deliver rooms, and concluding C-ATS
+was outmatched in scope. **The right comparison is the group.*** Officina Acustica delivers an acoustic interior;
+Keith Yates engineers one and specifies around it; QuestAI supplies product and design packages. **SRND delivers the
+acoustic interior *and* the projection, the screen and masking, the stretch-fabric walling, the addressable
+lighting, the audio and the control — designed together and manufactured in Kirkbymoorside, through one
+relationship and one account.** *That is `../CLAUDE.md`'s core idea, not a new claim: six brands, one group, one
+relationship, and the dealer relationship as the asset.* **And `../brands/c-ats/claims.md` `C6.20` is the mechanism:
+the design runs as a full room design, which is the moment every other layer becomes relevant.**
+
+**It is also the `§6` layer error running in reverse.** *There, a brand file restated group strategy. Here, I judged
+a brand against competitors that only the group is the right size to answer — and then recorded C-ATS's scope as a
+weakness. **The scope is not C-ATS's to have.*** *It reframes the `A8` finding below too: a competitor principal may
+chair the standard for **one layer of the room**; nobody in this set builds the room.*
+
+**1. The tier sells rooms of acoustics, not panels — and that is a layer, not a room.** **Keith Yates Design**
 engineers theatre interiors and issues specifications across treatment, seating and HVAC, in three named tiers
 (*Essentials · Red · Black Label*) with no published prices. **Officina Acustica** manufactures **a complete
 acoustic interior** — all four walls, Italian-made in Vicenza. **QuestAI** sells product **plus** engineering
-deliverables through a dealer network with gated pricing. **C-ATS sells three panels and a design service.** *So the
-competitive question is not whether our panel is better. It is whether **a panel system plus a design service**
-competes with **a delivered room** — and that question has never been asked in this repo.*
+deliverables through a dealer network with gated pricing. **C-ATS sells three panels and a design service — as one brand of six.** *So the competitive question is not
+whether our panel is better, and not whether a panel system plus a design service competes with a delivered
+acoustic interior. **It is whether their acoustic interior competes with our room** (see 0 above). On the axes, the
+comparison to draw is `A7` — **our channel and our range against theirs** — which is the same conclusion this file
+reached about Cinema Build Systems.*
 
-**2. Officina Acustica differentiates against C-ATS's own install method, by name.** *"Unlike traditional stretched
-fabric acoustic treatments, their system has an air gap between the panel and the wall behind."* **Concealment
-behind stretch fabric is C-ATS's model** (`../brands/c-ats/claims.md` `C1.12`, `C5.28`) — **the first time a named
-competitor has been found positioning against it.** *It also uses **"diffusion"** in its top-line framing —
-"reflection, broadband absorption and diffusion" — the word C-ATS's rules replace with **scattering** (`C5.15`).
-Recorded as observed: `Q64` forbids an unmeasured claim about a rival exactly as about ourselves, and whether the
-usage is loose is not determinable from a summary line.*
+**2. Officina Acustica positions against panels fixed flat to the wall — which is C-ATS's recommended install.**
+~~*"Unlike traditional stretched fabric acoustic treatments…"* — first named competitor positioning against
+concealment behind stretch fabric.~~ **Corrected 2026-08-19, and the correction is the useful part.** *I first
+recorded this from a **search summary rather than the site**, and the summary had dropped three words. Neil: **"this
+is a nonsensical statement — all stretch fabric systems have an air gap, and loads of acoustic treatment panels rely
+on an air gap."** He is right, and as I had it the claim was meaningless: a stretch-fabric wall is a cavity by
+construction.*
+
+**The page actually says:** ***"Unlike traditional stretched fabric 'hang on the wall' acoustic treatments, our
+system has an air gap between the panel and the wall behind. This gap allows us to play some really advanced
+acoustic tricks"*** — and *"moving the acoustic material out into the room a little."* **`'hang on the wall'` is the
+whole distinction.** They are not contrasting with stretch fabric; they are contrasting with **absorbers fixed flat
+to the substrate underneath it**, and holding theirs off the wall instead. **That is C-ATS's install:** REF-CP's
+recommended type is **adhesive-bonded** to the wall and REV-CP carries **pre-applied adhesive backing**
+(`../brands/c-ats/product-records.md`). *It does not apply to RES-CP, which straddles a corner across both adjoining
+walls.* **And it is a real mechanism, not marketing** — a cavity behind an absorber shifts its effective absorption
+down in frequency, which is the same physics the record's own `A`/`B` install types describe and the reason BSRIA
+tested **free/unfixed** mounting.
+
+**Separately, and verified on the page: no measured data at all.** Coefficients, standard, report — *absent*. **So
+the design-led tier competes without publishing numbers**, which is the sharpest thing the scan found about
+`A1`.
+
+**On *"diffusion"*: they do use it** — *"carefully balances reflection, broadband absorption and diffusion"*,
+verified on the page. **But that is not evidence of overclaiming.** *Real diffusers exist; C-ATS says **scattering**
+because its panels scatter (`C5.15`). Whether Officina Acustica's product diffuses is unknown, and `Q64` forbids an
+unmeasured claim about a rival exactly as about ourselves. **`C1.14`'s charge does not have a named instance — I
+claimed one and should not have.***
 
 **3. The structural finding, and it is the largest in this file.** **A principal of a direct competitor chaired the
 rewrite of the recommended practice we grade designs against.** Peter Aylett co-leads Officina Acustica and
