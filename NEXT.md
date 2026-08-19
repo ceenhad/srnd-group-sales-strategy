@@ -48,10 +48,12 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **`PR-7` — does three problems mean three doors?** It is the last structural premise still
-challenged, and **Neil's `Q70` answer bears directly on it**: *"the 3 Rs is the design system."* With `Q50` (*the
-system is the product; no panel leads*), the case for one door — the room — is now stronger than the case for
-three, **and three pathway files may collapse into one.** *Put it as a premise to break, not as options.*
+**Resume at:** **the pathway rebuild — three files into one, in rows.** `PR-7` broke 2026-08-19 (`Q71`): **one way
+in, the room.** *A dealer is sold the room's acoustics, not a panel for a symptom.* **This merges with `MTH-1`**,
+the rewrite from prose-with-tables into rows that was queued behind the drill-down *because the drill-down might
+change what the pathways say* — **it did, so it is one rebuild rather than two.** Affects the three
+`brands/c-ats/pathway-*.md`, `hooks.md`'s structure, and `brands/_template/the-brand-run.md`, which is what every
+other brand inherits.
 
 `positioning.md` is drilled end to end: §1 both halves, §2–§7, **76 claim rows.** `Q70` dissolved as malformed —
 `C1.20` stands confirmed.
