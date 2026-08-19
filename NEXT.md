@@ -48,10 +48,20 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **§1, properly.** The drill-down has run §1–§7 (`brands/c-ats/claims.md`), but `C5.29` records that
-§1's pass atomised its opening paragraph and the origin — **not its 55 lines** — and §1 is the section everything
-else cites as settled. **The depth rule `Q63` cut was living in the undrilled part**, so the residue is not
-cosmetic. Same method: atomise, sort by kind, put the rows to Neil.
+**Resume at:** **`Q70` — the 3 Rs against the real engineering brief** (`claims.md` `C1.20`), the one row from the
+§1 pass that only Neil can settle. `positioning.md` is now drilled end to end: §1 both halves, §2–§7,
+**76 claim rows.**
+
+**What the §1 pass found** (2026-08-19, closing `C5.29`): 22 more rows from the reasoning layer nobody had
+atomised. **Both of the day's factual errors had been living in it**, and so do the file's only figures and its
+only named competitors — `C1.27` (a £5,000 design fee that is one 2023 invoice against a £2,400 median),
+`C1.38` (a competitor price band with no measurement, which **`Q64` outlawed the same morning**), `C1.32` (an
+unsourced technical generalisation). Plus **two internal contradictions, one real and one only apparent**:
+`C1.33` said the commercial move was *"already defined"* where §7 says its specs are open, and `C1.25` reads as
+withdrawing the calculator rule §5 asserts, while actually agreeing with it. All corrected in place.
+**`C1.37` is the win:** *"it carries the integrator's margin"* had been in §1 all along, and `C2.22` — *"they can
+make money"* — arrived at `Q69` as one of six reasons an integrator buys. Same fact, two files, neither citing the
+other.
 
 **The repeated defect to watch for, now three instances:** a correction applied where it was spotted rather than
 everywhere the claim lives — `C5.24` (a rule dropped at group level, still governing brand copy three days later),

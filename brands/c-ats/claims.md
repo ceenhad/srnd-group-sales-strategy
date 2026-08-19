@@ -32,6 +32,10 @@ down."* A paragraph can be waved through as "correct" while carrying a wrong cla
 
 ## Section 1 — What C-ATS is
 
+*Two passes. `C1.1`–`C1.16` are the positioning core and the origin, confirmed by Neil 2026-08-18.
+`C1.17`–`C1.38` are the reasoning layer, drilled 2026-08-19 and **not yet put to him** — see the block below the
+first table.*
+
 **Neil, 2026-08-18, on the section as a whole: *"that is correct"*** — with two caveats he raised in the same
 breath: *"a couple of these we might discuss if they are really product"*, and *"you can probably decrease the
 count by grouping under the 3Rs idea."* So the substance is confirmed; the **kind** column is his open question,
@@ -67,6 +71,56 @@ not mine.
 - **The grouping Neil asked for:** C1.6–C1.9 and C1.12 collapse to one line — *the 3 Rs system, 50 mm,
   concealed* — **once they are cited from the record rather than restated.** That is the count reduction, and it
   comes from removing duplication, not from writing more tersely.
+
+### §1's reasoning layer — drilled 2026-08-19 (`C5.29`'s residue)
+
+**Not yet put to Neil.** *`C1.1`–`C1.16` came from the positioning core and the origin bullet. The rest of §1 —
+eight reasoning bullets, 45 lines — had never been atomised, and **it is where both of the day's factual errors were
+living.** Twenty-two more rows. **The section everything cites as settled contains the file's only figures, its only
+named competitors, and a contradiction with §7.***
+
+| # | The claim | Kind | Status |
+|---|---|---|---|
+| **C1.17** | Almost every competitor sells acoustics by burying the buyer in jargon | `brand` | **duplicate of `C1.4`** (confirmed) |
+| **C1.18** | Three problems stated, three solutions given | `brand` | **gated on `PR-7`**, with `C5.9` |
+| **C1.19** | That simplicity is the competitive weapon | `brand` | **duplicate of `C5.11`** (drafted) |
+| **C1.20** | **Because the 3 Rs is also the real engineering brief, it is truthful rather than a veneer** | `brand` | **open — and it is the justification the whole device rests on.** *`C1.15` calls the 3 Rs a deliberate marketing device; **this row is why that is honest rather than spin.** But the design method's own hierarchy is **five steps** — per-axis Fitzroy flatness, surface-palette matching, reflection triage against a binding budget, corner loading, the box quantum — **and it is not the 3 Rs.** If the engineering brief and the customer-facing device are different structures, this row needs rewording, not defending* |
+| **C1.21** | The range stays narrow by design | `brand` | drafted — the deliberate half of `C1.7` |
+| **C1.22** | **C-ATS sells expertise in three forms: the panels, the design service, the verification** | `brand` | **open.** *`brand-data.md` line 99: **"no services at all — design, verification, isolation and isolation verification are absent"** from the store. So two of the three cannot be bought today. **Same shape as `C1.16`**, and this row is where the structural version of that gap lives* |
+| **C1.23** | Isolation sits under C-ATS because it is the group's acoustics brand, not by thesis expansion | `brand` | **duplicate of `C6.6`** and `C5.22`. Third copy |
+| **C1.24** | The design method is chargeable expertise, not an add-on | `service` | drafted — consistent with `Q34` (free only from a defined policy, and only on a costed service) |
+| **C1.25** | The earlier "no public calculators" rule is **withdrawn** — it protected the wrong thing | `brand` | **reads as contradicting §5, and does not.** *§5 forbids a **design-replacing** calculator on the **C-ATS site** (`C5.12`, confirmed at `Q66`); what §1 withdraws is a **blanket** ban on public calculators anywhere. Compatible — but §1 says *"withdrawn"* flatly and a reader meets that before the narrower rule. **Wording, and worth fixing while both are open*** |
+| **C1.26** | What is sold is the deliverable — measured data, judgement, accountability — none of which a calculator can take | `brand` | drafted. *A second, different reason from the one `Q66` confirmed (the objection is what a calculator **implies**). Both can hold; only one is Neil's* |
+| **C1.27** | ~~A calculator implies **a £5,000 design** is replaceable by a form~~ | `brand` | **CORRECTED 2026-08-19 — the figure is real and unrepresentative.** *£5,000 appears exactly once in the evidence: `archive-findings.md` line 1636, "Consulting — project design phase", 2023. **The median across 41 design engagements is £2,400, and C-ATS's own 22 run lower.** `Q45` records the spread and calls it unsettled. **So the illustration is roughly double the median and it is doing rhetorical work** — the bigger the number, the worse a calculator looks. Not an invented figure; a cherry-picked one, which `../../method.md` failure 2 covers just as well* |
+| **C1.28** | The partner-gated C-ATS reporting tool, methodology black-boxed | `brand` | **struck in substance — the Level 2 surface ADR 017 v2 §5 withdrew.** Already bannered; `C5.12`–`C5.14` |
+| **C1.29** | C-ATS publishes worked examples showing how quantities are derived | `brand` | **duplicate of `C5.13`** — gated on `DR-Q52` |
+| **C1.30** | A reflection-point calculator (geometry, not design) is a good candidate | `brand` | **duplicate of `C5.14`** — `[?]` no ADR named |
+| **C1.31** | It applies to any room with these problems, not a named space | **`group`** | `../../CLAUDE.md`: *name the problem, never the room type.* With `C5.21` |
+| **C1.32** | **Small rooms have all three problems; large rooms are reverberation-dominated** | `product` | drafted, **and it is the only technical generalisation in §1 with no source named.** *It reads as sound acoustics and it belongs in `product-records.md` if it is true, not in a strategy file as an aside* |
+| **C1.33** | **The commercial move is already defined: a market-led push into boutique commercial cinema** | `brand` | **contradicts §7 in the same file.** *§7 lists the extension's **specs and timing as open**, and `C6.15`/`C6.16` are marked `discussion`. **"Already defined" is the strongest phrasing anywhere in the file for the least settled thing in it*** |
+| **C1.34** | Larger-format panels likely built on Fabric Walls Acoustic Core PET | **`discussion`** | **duplicate of `C6.15`** — *"likely"* written as reasoning |
+| **C1.35** | The internal shorthand — *"performance behind beauty someone else builds"* — stays internal | `brand` | drafted. **A wording rule sitting in §1**; it belongs in §5 |
+| **C1.36** | **Price reflects channel economics, not product cost** | `brand` | drafted — **and it is a real claim nobody has restated anywhere.** The one genuinely new idea in the bullet |
+| **C1.37** | It carries the integrator's margin | `brand` | **confirmed 2026-08-19 by `C2.22`** — *"they can make money"*, Neil's words at `Q69`. **The supply-side statement of a demand-side reason to buy**, and neither file knew the other said it |
+| **C1.38** | **Above direct-sell GIK, comparable to RPG, slightly below Artnovion** | `brand` | **open — and `Q64` made this load-bearing today.** *The rule decided this morning: **named comparison is partner-only and must be measured.** This is a named comparison against three competitors with **no measurement cited** — and `product-records.md` `N4` already says so: **"`[?]` — price band only."* **The first thing the new group rule catches is our own content**, and it is internal, so nothing has leaked; it simply cannot be used until it is sourced |
+
+### What §1's second half produced
+
+- **Both of the day's factual errors were in here** — the depth rule (`Q63`) and the calculator surfaces
+  (`C5.12`–`C5.14`) — **which is why `C5.29` mattered.** A section can be confirmed on its opening paragraph and
+  carry its worst content forty lines further down.
+- **Nine of twenty-two rows are duplicates or `group`.** The same pattern as §5 and §6, so it is now measured in
+  four sections rather than suspected: **`positioning.md` restates itself.**
+- **Three rows contain the file's only numbers and names, and all three are the weakest kind of content.** `C1.27`
+  a cherry-picked fee, `C1.38` an unmeasured competitor comparison, `C1.32` an unsourced technical
+  generalisation. *Prose is where a figure arrives without a provenance column.*
+- **`C1.33` contradicts §7 outright** — *"already defined"* against *specs and timing open* — and `C1.25` reads as
+  contradicting §5 while actually agreeing with it. **Two internal contradictions in one section, one real and one
+  only apparent**, and prose cannot tell you which is which.
+- **`C1.37` is the quiet win.** *"It carries the integrator's margin"* was sitting in §1 all along, and `C2.22` —
+  *"they can make money"* — arrived yesterday as one of six answers to what convinces the integrator. **The supply
+  side and the demand side of the same fact, in two files, neither citing the other.** That is what the drill-down
+  is for.
 
 ## Section 2 — Who it's for, and what their problem really is
 
@@ -275,7 +329,7 @@ the constitution can be edited to contradict it.
 | **C5.26** | ~~Never attack competitors in public copy~~ **Criticise the category in public; name a competitor only behind the partner gate, and only measured** | **`group`** | **PROMOTED AND SHARPENED 2026-08-19** (Neil, `Q64`). *The original banned two different things at once — going after a rival, and comparing honestly against one — and C-ATS already does the second (`C1.4`). Neil asked for the wording before choosing it, which is why the rule now draws a line rather than a prohibition.* **Now a group rule in `../../CLAUDE.md`, the third constitution change**, and it extends the partner gate from pricing to comparison (`../../group-strategy/commercial-model.md`). **So §5's only rule with no group home became the one thing §5 contributed upward** — the `group` kind ran in the other direction once |
 | **C5.27** | Fabric Walls is the natural concealment pairing and a genuine cross-sell | `brand` | drafted — consistent with §6 |
 | **C5.28** | Any stretch fabric works, so C-ATS is never made dependent on Fabric Walls | **`product`** | true, and already in the record: `product-records.md` line 330 — *"Yes, any stretch fabric — `N5`. Never stated as an answer."* Duplication, **and the record notes the answer has never been published anywhere a dealer can read it** |
-| **C5.29** | *(added by the drill-down)* The depth-expression rule appears **twice** — §5 and §1's shallow-depth bullet — and was atomised in **neither**: §1's pass produced 16 rows from its opening paragraph and the origin, leaving the rest of §1's 55 lines undrilled | `gap` | **open.** *"Take one section"* was carried out as *take one paragraph*. Residue, not error — but it means §1 is not finished, and a `confirmed` §1 reads as though it is |
+| **C5.29** | *(added by the drill-down)* The depth-expression rule appears **twice** — §5 and §1's shallow-depth bullet — and was atomised in **neither**: §1's pass produced 16 rows from its opening paragraph and the origin, leaving the rest of §1's 55 lines undrilled | `gap` | **RESOLVED 2026-08-19** — §1's reasoning layer drilled, `C1.17`–`C1.38`. *"Take one section"* had been carried out as *take one paragraph*. **It was not cosmetic: both of the day's factual errors were living in the undrilled forty lines**, along with the file's only figures and its only named competitors |
 | **C5.30** | *(added by the drill-down)* Of §5's 28 claim rows, **eight restate a rule that lives in `CLAUDE.md`** and **nine duplicate a row already confirmed elsewhere in this file or in the product record** | `gap` | **RESOLVED 2026-08-19** (Neil, `Q67`): point at the group rules, spell out only C-ATS's own. **§5 rewritten, 65 lines to 35**, with `CLAUDE.md` named as winning any conflict. *The defect was never length — a writer could obey §5 in full and still contradict the group, because §5 is what they read. And the first draft of the rewrite came in at 63 lines, having carried this register's audit trail into the guide: the same error one step along* |
 
 ### C5.20 — answered, and it broke the question's own premise

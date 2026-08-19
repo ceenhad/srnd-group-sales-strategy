@@ -33,10 +33,15 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 - **Sells expertise in three forms:** the panels, the design service that specifies them, and the
   verification that proves them. Isolation and isolation verification sit under C-ATS because it is
   the group's acoustics brand, not because the 3 Rs framework was stretched to cover them.
-- **The design method is chargeable expertise, not an add-on.** But the earlier "no public calculators"
-  rule is **withdrawn** — it protected the wrong thing. What is sold is the *deliverable*, not tool access:
+- **The design method is chargeable expertise, not an add-on.** The earlier **blanket** "no public calculators
+  anywhere" rule is **withdrawn** — it protected the wrong thing. *What replaces it is narrower and still binds:
+  **no design-replacing calculator on the C-ATS site** (§5, confirmed at `Q66`). `C1.25` — the two have read as a
+  contradiction and are not one.* What is sold is the *deliverable*, not tool access:
   measured data, judgement and accountability, none of which a calculator can take. The real risk is
-  *implication* — a calculator on the C-ATS site implies a £5,000 design is replaceable by a form. So design
+  *implication* — a calculator on the C-ATS site implies a paid design is replaceable by a form.
+  *(~~£5,000~~ — corrected 2026-08-19, `C1.27`: that figure appears once in the ledger, a 2023 consulting line.
+  **The median across 41 design engagements is £2,400 and C-ATS's own 22 run lower**; `Q45` holds the spread and
+  calls it unsettled. Naming no figure is more honest than naming the highest one.)* So design
   tooling lives under the **Cinema Tools** master brand (including the partner-gated C-ATS reporting tool,
   with methodology black-boxed), C-ATS publishes worked examples showing how quantities are derived, and a
   reflection-point calculator (geometry, not design) is a good candidate. See
@@ -56,18 +61,24 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
   the comparative to *"one of the shallowest complete systems on the market"* until the field is measured.
   Claims `C5.20`, `C1.8`.
 - **It applies to any room with these problems, not a named space.** Small rooms have all three;
-  large rooms are reverberation-dominated. The commercial move is already defined: a market-led push
-  into boutique commercial cinema — larger rooms and jobs, larger-format panels (likely built on
-  Fabric Walls Acoustic Core PET), the same 3 Rs with specs adjusted for the bigger volumes —
-  drawing in Cinema Tools and able to pull in Pro-Fi. Same buyer logic, different commercial
-  dynamics. *Kept internal until it ships.*
+  large rooms are reverberation-dominated. ~~The commercial move is already defined:~~ **The commercial
+  move is intended and not yet specified** *(corrected 2026-08-19, `C1.33` — §7 lists its **specs and timing as
+  open**, and "already defined" was the strongest phrasing in the file for the least settled thing in it)*: a
+  market-led push into boutique commercial cinema — larger rooms and jobs, larger-format panels (*"likely" built on
+  Fabric Walls Acoustic Core PET — a guess, `C6.15`*), the same 3 Rs with specs adjusted for the bigger volumes,
+  drawing in Cinema Tools and able to pull in Pro-Fi. Same buyer logic, different commercial dynamics.
+  *Kept internal until it ships.*
 - **Concealment.** The panels are hidden behind the fabric wall. Fabric Walls is the group's own
   product and the obvious pairing, so this is a natural cross-sell — though any stretch fabric works,
   so C-ATS is never made dependent on it. (The internal shorthand — "performance behind beauty
   someone else builds" — stays internal.)
-- **Price reflects channel economics, not product cost.** It carries the integrator's margin — above
-  direct-sell GIK, comparable to RPG, slightly below Artnovion — placing it in the
-  integrator-supplied premium band.
+- **Price reflects channel economics, not product cost.** It carries the integrator's margin — **which is also
+  one of the six reasons an integrator buys** (`claims.md` `C2.22`, Neil at `Q69`: *"they can make money"*) —
+  placing it in the integrator-supplied premium band.
+  **⚠ The competitor band is unmeasured** *(`C1.38`, 2026-08-19)*: ~~above direct-sell GIK, comparable to RPG,
+  slightly below Artnovion~~. `product-records.md` `N4` already says *"`[?]` — price band only"*, and **`Q64`
+  decided today that a named comparison must be measured**, partner-gated or internal. **Nothing has leaked — this
+  file is internal — but it cannot be used anywhere until it is sourced.**
 
 ---
 
