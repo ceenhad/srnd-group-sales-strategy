@@ -247,25 +247,17 @@ boundary.*
 
 ## 7. What's still open
 
-Internal only — the unresolved items to settle before they harden into copy. Flag, don't guess.
+Internal only. **Rewritten 2026-08-19 (§7 drill-down).** Every item is a pointer to the register that owns it —
+this section states no position of its own, because it kept restating positions settled elsewhere.
+**Rows: `claims.md` §7.**
 
-- **Distribution — the headline problem.** C-ATS is widely deployed but thinly distributed; the
-  install reputation runs ahead of the route to market. Building that route — getting to the
-  integrators who would buy — is the central strategic job, not an afterthought.
-- **What convinces the integrator to choose C-ATS.** Not written down. *Who* specifies and signs off is
-  answered (Q55). **Ask an owner.**
-- **The canonical name — narrowed, not closed.** `Q26` (2026-08-16) settled that **"Complete Acoustic
-  Treatment System" may be used**: the prohibition is gone. What it did not settle is **which form is
-  canonical against the legal "Cinema Acoustic Treatment System"** (`open-items.md`), and that is what still
-  **settled by `Q65`, 2026-08-19: C-ATS is the standard form, "Complete Acoustic Treatment System" is
-  permitted on first use, and the legal "Cinema Acoustic Treatment Systems" is reserved for contracts.** Item
-  closed; `DOC-27` propagated it.
-- **Pricing.** Gated tiers to be set; the current site is placeholder (£0.00).
-- **Proof assets.** Few install photos — not none, but not many. Install imagery, real case studies,
-  and render-based virtual case studies are the content-phase job that makes the credibility visible.
-- **The commercial / big-room extension.** Specs, timing, and when it ships — plus the cross-brand
-  coordination (Fabric Walls Acoustic Core PET, Cinema Tools, Pro-Fi). Kept internal until real.
-- **Testing.** Whether to go beyond the basic absorption data. An option for later, not urgent, and
-  not a claim to make now.
-- **Adjacent markets and channels.** Which to pursue — two-channel and other critical rooms, boutique
-  commercial cinema — and in what order.
+| What | Where it is owned | State |
+|---|---|---|
+| **Engaging more AV integrators** — the route to market | `claims.md` `C2.15` (Neil's words) | The central job. *§7 used to state this as "widely deployed, thinly distributed; the buyer exists, the route is missing" — the wording **struck at `Q57`***|
+| **What convinces the integrator to choose C-ATS** | `product-records.md` `W2` second half; `claims.md` `C1.3` | **Open — an owner's sentence, not a research project** |
+| The canonical name | `Q26`, `Q65` | **Settled.** C-ATS standard, expansion on first use, legal name for contracts |
+| Pricing tiers | `Q45` | Open. Site is placeholder (£0.00) |
+| Proof assets — install imagery, case studies | `claims.md` `C2.11`, `C2.12`, `C4.13` | Open. A content-phase job; the constraint is photography, not confidentiality |
+| The commercial / big-room extension | `claims.md` `C6.14`–`C6.17` | Open — specs and timing. **Kept internal until real.** *`C6.15`/`C6.16` are marked `discussion`: "likely built on Acoustic Core PET" is a guess written as reasoning* |
+| Testing beyond the basic absorption data | `product-records.md` (the below-125 Hz `[?]`); `claims.md` `C4.8`, `C4.9` | Open, not urgent, **not a claim to make now** |
+| Adjacent markets and channels, and the order | — | Open. Two-channel and other critical rooms, boutique commercial cinema. *No register owns this yet* |

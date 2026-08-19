@@ -43,13 +43,15 @@ adopted.
 *Written so a session in a different account can pick up cold. **Everything below points at a register; nothing
 is restated.***
 
-**Resume at:** `brands/c-ats/positioning.md` **§7 — What's still open**, drilled per `method.md` § The drill-down,
-answers into `brands/c-ats/claims.md`. §1–§6 done. *§7 is a list of open items, so it should mostly resolve to
-`registers/questions.md` pointers rather than to claims — and three of its seven are already settled elsewhere
-(`Q65`, `Q55`, `Q45`).*
+**Resume at:** **§1, properly.** The drill-down has run §1–§7 (`brands/c-ats/claims.md`), but `C5.29` records that
+§1's pass atomised its opening paragraph and the origin — **not its 55 lines** — and §1 is the section everything
+else cites as settled. **The depth rule `Q63` cut was living in the undrilled part**, so the residue is not
+cosmetic. Same method: atomise, sort by kind, put the rows to Neil.
 
-**And §1 is not finished** (`C5.29`): its pass atomised the opening paragraph, not its 55 lines. The depth rule
-that `Q63` cut was living in the undrilled part, so the residue is not cosmetic.
+**The repeated defect to watch for, now three instances:** a correction applied where it was spotted rather than
+everywhere the claim lives — `C5.24` (a rule dropped at group level, still governing brand copy three days later),
+`C7.1` (a claim struck at `Q57` still standing four bullets below the section that was cleaned), and `DOC-27`
+itself. **`method.md` failure 5 is flags not fixed; this is its sibling — fixes not propagated.**
 
 **Waiting on Neil:** nothing from the §5 drill-down — `Q63`–`Q67` are all answered and applied. **`Q64` went the other way:** §5's only rule with no group home was promoted into `CLAUDE.md` (the third constitution change) and sharpened to *category in public, named comparison partner-gated*, which also extends the partner gate from pricing to comparison. from the §5 drill-down. **`Q63` is answered and it found a wrong fact:
 `RES-CP` is 43 mm, not the 50 mm the canonical dataset holds** — `DAT-1` is the correction at source, `PR-12` the

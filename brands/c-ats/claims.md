@@ -380,9 +380,43 @@ place the strategy lives.*
   invention**, and it is the failure mode `../../method.md` calls *inference wearing the voice of measurement*
   arriving one more time.
 
-## Section 7 — not yet drilled
+## Section 7 — What's still open
 
-`positioning.md` §7 (what's still open). **It is a list of open items, so it should mostly resolve to
-`../../registers/questions.md` pointers rather than to claims** — and three of its seven are already settled:
-the canonical name (`Q65`), *what convinces the integrator* (half-answered, `Q55`), and pricing tiers (still open
-but owned by `Q45`, not by this file).
+**Drilled 2026-08-19.** *Eight items, and §7 turned out to be the easiest section and the one with the worst single
+defect. **Seven of the eight are owned by a register elsewhere**, so the section rewrites cleanly as a pointer
+table. The eighth is the finding.*
+
+| # | The item | Kind | Status |
+|---|---|---|---|
+| **C7.1** | ~~**Distribution is the headline problem** — *"widely deployed but thinly distributed; the install reputation runs ahead of the route to market"*~~ | **`discussion`** | **STRUCK 2026-08-19 — and it was struck once already.** This is `C2.13` almost word for word, **struck at `Q57`**: *"again just grossly inflated conversation."* **§2 was cleaned and §7 was not**, so the rejected diagnosis survived as *the headline problem* in the same file. *Replaced by `C2.15`, Neil's words: **"we need to engage with more AV integrators."*** **The lesson is `C5.24`'s a third time** — a correction applied where it was found rather than everywhere it lives. `Q57` struck §2's copy on 2026-08-18; this one sat four bullets further down the same document |
+| **C7.2** | What convinces the integrator to choose C-ATS is not written down | `gap` | **open — and it is the oldest live gap in the brand.** `W2`'s second half, flagged at `Q55` when its first half was answered, and named in the handover. *An owner's sentence, explicitly not a research project (`PR-3`, broken: the mining apparatus was ceremony)* |
+| **C7.3** | The canonical name is unresolved | `brand` | **CLOSED** — `Q26`, `Q65` |
+| **C7.4** | Pricing tiers are to be set; the site is placeholder | `gap` | open, **owned by `Q45`** not by this file |
+| **C7.5** | Proof assets are thin — few install photos | `gap` | open — duplicate of `C2.11`, `C2.12`, `C4.13`. *Three rows in three sections for one gap* |
+| **C7.6** | The commercial / big-room extension — specs, timing, cross-brand coordination | `brand` | open, **owned by `C6.14`–`C6.17`**, two of which are `discussion` |
+| **C7.7** | Whether to test beyond the basic absorption data | `gap` | open, not urgent — **already carried as a `[?]` in `product-records.md`** and as `C4.8`/`C4.9` |
+| **C7.8** | Which adjacent markets and channels to pursue, and in what order | `gap` | **open, and the only item no register owns.** Two-channel and other critical rooms, boutique commercial cinema. *`Q36` bears on it — verification is mandatory in commercial cinema, a segment the group does not serve — but nothing owns the ordering* |
+
+### What section 7 produced
+
+- **Seven of eight items were pointers pretending to be content**, which is why the rewrite is a table and why it
+  states no position of its own. **§7's job is to point; it was paraphrasing instead**, and a paraphrase drifts.
+- **`C7.1` is the whole reason this matters.** The exact wording Neil struck at `Q57` was still standing four
+  bullets below the section that was cleaned, labelled **the headline problem**. *Third instance of the same
+  failure in three days — `C5.24` (a rule dropped at group level, live at brand level for three days), `C6.2`'s
+  neighbours, and now a struck claim reinstated by position.* **The pattern: a correction is applied where it was
+  spotted, not everywhere the claim lives.** `../../method.md` failure 5 is about flags not fixed; this is its
+  sibling — **fixes not propagated** — and it is now the most repeated defect in the repo.
+- **`C7.8` is the only genuinely unowned item in the section.** Everything else has a home; the order of markets
+  and channels has none.
+- **The drill-down is complete: §1–§7.** *With one caveat that matters — `C5.29`: §1 was atomised from its opening
+  paragraph, not its 55 lines. The depth rule `Q63` cut was in the undrilled part. **§1 reads confirmed and is
+  not finished.***
+
+## The pass that remains
+
+**§1, properly.** `C1.1`–`C1.16` came from the opening paragraph and the origin; §1 runs to 55 lines and the rest
+has never been atomised. **It is the section most cited as settled**, and one of the two errors this drill-down
+found — the depth rule — was living in the part nobody drilled.
+
+
