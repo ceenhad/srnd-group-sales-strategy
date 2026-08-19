@@ -61,8 +61,10 @@ Reverberation 50 mm), Technical Information, Contact; ~50 mm depth story; **no s
 
 ## Live-site vs brand-truth tensions (flag — brand truth wins)
 
-- **"Complete Acoustic Treatment System"** used as canonical, but brand truth flags the "Complete"
-  expansion as unresolved (legal name "Cinema Acoustic Treatment Systems"). Use the form **C-ATS**.
+- ~~**"Complete Acoustic Treatment System"** used as canonical, but brand truth flags the "Complete" expansion
+  as unresolved.~~ **NOT A TENSION — `Q26`/`Q65`: the expansion is permitted, C-ATS is the standard form, the
+  legal name is for contracts.** *One of the five "live breaches" was never a breach; the rule was what was
+  wrong (`Q26`).*
 - **"maximum performance" / "unique"** — the unbacked superlatives brand truth says to avoid.
 - The `about.html` "recommended retail price" line contradicts the gated-pricing policy.
 
@@ -97,7 +99,7 @@ rather than authored). Between them they are the two halves of the on-ramp → d
 - **No services at all.** Design, verification, isolation and isolation verification are absent — so the revenue
   that matters most is invisible.
 - **"unique"** and **"maximum performance"** — the unbacked superlatives the brand rules forbid.
-- **"Complete Acoustic Treatment System"** as the canonical name throughout.
+- ~~**"Complete Acoustic Treatment System"** as the canonical name throughout.~~ **Permitted — `Q26`/`Q65`.** *C-ATS is the standard form, so "throughout" is the only part to change.*
 - **The marine panel at equal prominence** with the three core panels, in the nav and in the downloads.
 - No reason to look, no contact route beyond a form, nothing about time saved or problems solved.
 

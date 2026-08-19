@@ -5,8 +5,8 @@ demonstrate that copy falls out of a filled product record (S19, `../../motion/c
 by page, and to remove a live embarrassment on the Shopify site. **The method is what matters; this is one output
 of it.** Do not treat copy production as the workstream.*
 
-**Checked against the brand rules:** no diffusion claim, no superlative without a measurement, "C-ATS" rather than
-the "Complete" expansion, marine absent, no discontinued products, nothing about the commercial range, no figure
+**Checked against the brand rules:** no diffusion claim, no superlative without a measurement, "C-ATS" as the standard form
+(the "Complete" expansion is permitted on first use — `Q26`/`Q65`), marine absent, no discontinued products, nothing about the commercial range, no figure
 that isn't in the record, and nowhere does it say the dealer can't.
 
 ---

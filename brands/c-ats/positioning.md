@@ -272,7 +272,9 @@ Internal only — the unresolved items to settle before they harden into copy. F
 - **The canonical name — narrowed, not closed.** `Q26` (2026-08-16) settled that **"Complete Acoustic
   Treatment System" may be used**: the prohibition is gone. What it did not settle is **which form is
   canonical against the legal "Cinema Acoustic Treatment System"** (`open-items.md`), and that is what still
-  needs aligning across brand truth, the group site and the store → **`Q65`**.
+  **settled by `Q65`, 2026-08-19: C-ATS is the standard form, "Complete Acoustic Treatment System" is
+  permitted on first use, and the legal "Cinema Acoustic Treatment Systems" is reserved for contracts.** Item
+  closed; `DOC-27` propagated it.
 - **Pricing.** Gated tiers to be set; the current site is placeholder (£0.00).
 - **Proof assets.** Few install photos — not none, but not many. Install imagery, real case studies,
   and render-based virtual case studies are the content-phase job that makes the credibility visible.

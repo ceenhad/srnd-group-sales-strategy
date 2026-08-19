@@ -190,8 +190,9 @@ Administrative rather than strategic, and in the way.
   them. And the rebuild must not gate the publishing cadence — publish to the knowledge base and the existing
   channels first, and let the rebuild follow the content.
 - **The estate still advertises what we have removed or renamed.** Playlists for **MAG Theatron** and **Barco
-  Residential** are live on the group channel, both discontinued carried lines. The C-ATS channel spells out
-  "Complete Acoustic Treatment System," the naming we agreed not to hard-code. And DT's channel describes a
+  Residential** are live on the group channel, both discontinued carried lines. ~~The C-ATS channel spells out "Complete Acoustic
+  Treatment System," the naming we agreed not to hard-code.~~ **Struck — `Q26`/`Q65`: the expansion is
+  permitted, so this was never a breach.** And DT's channel describes a
   "British brand specialising in advanced projector screens, mounting brackets and custom installation
   solutions" — the projection-company framing the brand strategy deliberately rejects
   (`../brands/display-technologies/positioning.md`). Same class of fix as the store clean-up.
