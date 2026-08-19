@@ -319,7 +319,14 @@ competitor principal's authority**, and grading against the standard is exactly 
 **5. And it reframes `C1.4` a third time.** The charge is *"most competitors sell acoustics on science and
 jargon."* **This tier does not sell jargon — it writes the science.** *Keith Yates publishes psychoacoustic
 explanation and a proprietary Scorecard; Aylett chaired the standard; Lemay founded the certification body. **That
-is a harder thing to compete with than jargon, and a different thing entirely.*** → `Q74`
+is a harder thing to compete with than jargon, and a different thing entirely.***
+
+**↻ `Q74` answered 2026-08-19, and the contrast it produces is better than the one it replaces.** *`C1.4` is
+superseded by `C1.39`: **the contrast is dependence, not language.** Their rooms need their expertise on the
+project; **C-ATS is a system a competent integrator specifies and installs themselves.** It claims nothing about who
+knows more — `C4.10`'s systemised method is what makes the independence real — and it is `C3.10`, **never imply the
+dealer can't**, stated as the positioning rather than as a guardrail. **It is also the first version of this contrast
+that survives contact with who the competitors actually are.***
 
 ### The education layer — a position held and vacated
 

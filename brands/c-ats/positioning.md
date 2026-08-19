@@ -12,7 +12,10 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 **Positioning core**
 
 > C-ATS is a straightforward acoustic treatment system, built for the AV
-> integrator. Most acoustic systems try to impress the buyer with science. C-ATS states the problem
+> integrator. ~~Most acoustic systems try to impress the buyer with science.~~ **Acoustics at this level usually
+> comes with a specialist attached; C-ATS is a system the integrator runs themselves.** *(Replaced 2026-08-19,
+> `Q74`/`C1.39` — the firms that compete author the science rather than hide behind it, so the contrast is
+> **dependence**, not language.)* C-ATS states the problem
 > plainly: three things decide how a room sounds — reflection, resonance and reverberation. It gives
 > one purpose-built panel for each. The panels are deliberately shallow, because in most rooms the
 > space treatment consumes costs far more than the treatment itself. A design service specifies
@@ -27,7 +30,10 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
   scattering), and were too deep for rooms that can't give up the space. The objective was the
   opposite: honest, and easy to understand, specify and sell.
 - **The 3 Rs is a marketing device — a deliberate, honest one.** Almost every competitor sells
-  acoustics by burying the buyer in jargon. C-ATS does the reverse: three problems stated, three
+  acoustics by burying the buyer in jargon. **↻ Struck 2026-08-19 (`Q74`): the tier that competes — Keith Yates,
+  Officina Acustica, QuestAI — does not bury anyone in jargon; its principals chaired the recommended practice and
+  founded the certification. **The contrast is that their rooms need them in them and C-ATS does not** (`C1.39`).**
+  C-ATS does the reverse: three problems stated, three
   solutions given. That simplicity is the competitive weapon, and because it is also the real
   engineering brief, it's truthful rather than a veneer. The range stays narrow by design.
 - **Sells expertise in three forms:** the panels, the design service that specifies them, and the
@@ -202,8 +208,9 @@ named by the problem, never the mechanism — *Reflection Control Panel*, never 
   system and it carries the floorspace argument — the figures *are* the argument. The comparative is **"one of the
   shallowest complete systems on the market"**, never *the* shallowest, and it describes the system rather than a
   panel. **RES-CP at 43 mm is the sharpest form of it, and the strongest single proof point we have.**
-- **State the problem plainly** — three problems, three solutions. Beating a jargon-heavy category is the
-  positioning.
+- **State the problem plainly** — three problems, three solutions. ~~Beating a jargon-heavy category is the
+  positioning.~~ **The positioning is independence: a system the integrator runs without hiring the author**
+  (`Q74`, `claims.md` `C1.39`). *Plain speaking serves the dealer; it is not a jab at anyone.*
 - **No design-replacing calculator on the C-ATS site.** It would undercut the paid design service; the objection
   is what it *implies*, not what it would reveal. Bounded tools — reflection points, geometry not design — belong
   on Cinema Tools.
