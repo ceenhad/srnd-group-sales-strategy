@@ -91,6 +91,12 @@ channel, which is what SRND Distribution already is at a smaller scale. The comp
 
 ## The axes, reviewed against every category (2026-08-19)
 
+> **DECIDED 2026-08-19 — all four proposals adopted, `motion/standards.md` standard 4 amended for the second
+> time.** Eight axes: **A1** product performance and features (a *product* axis; a distributor's column is
+> portfolio breadth) · **A2 what it must work with** (replacing integration/control) · **A3** support model ·
+> **A4** lead time · **A5** price posture · **A6** reference and credibility · **A7 route to market** (new) ·
+> **A8 defensibility** (new). *`A8` was adopted despite my flagging it as the weaker proposal.*
+
 *Neil's instruction: **review all six properly**, not just the two that fell over on acoustics. Standard 4's axes
 tested against each category this file already holds — screens · motion · whole-build · design tools · distributors
 · acoustics. **The test is not "is the axis sensible" but "did it produce a finding here, and does it mean the same
@@ -105,9 +111,9 @@ thing in every column."** Nothing below changes standard 4; it is a proposal to 
 | **5. Price posture** | **The most productive axis in the file.** Stewart's two-tier play (Cima as a value line below the flagship); *"compete on control and value"* for motion; CBS's **unusual pricing transparency** — ballpark figures for a media wall and a full room; SRP modes and multi-currency for distributors; direct-sell versus gated trade for acoustics | **Keep unchanged — and note why it works.** *Every finding it produced is an **observable posture**, never a price.* **This is Neil's own amendment generalising**: he struck *measured* performance because *"measured performance is a hard metric to claim"* — and the same holds for price. **Ask what is observable, not what is measurable in principle** |
 | **6. Reference and credibility** | Holds across all six — Screen Excellence's **named pro-audio endorsements with hard numbers** (8–10 dB, "ten times less power"), Screen Research's named showcases, Stewart's *"70 years"*, the design tools' **standards encoding** as their credibility, distributors' case studies and video, C-ATS's published report | **Keep unchanged** |
 
-### Two axes the file has been using without having
+### Two axes the file had been using without having — both now adopted
 
-**7. Route to market — proposed, and it is the one that changed a conclusion.** *Artnovion and Screen Research
+**7. Route to market — ADOPTED as `A7`, and it is the one that changed a conclusion.** *Artnovion and Screen Research
 reach dealers through **an established distributor's relationships, credit, showroom and reps while we go
 direct**. And the correction that **Karma AV part-owns Cinema Build Systems** turned CBS from "a distribution
 appointment we could have competed for" into **a manufacturer with a captive distributor** — after which the file
@@ -115,7 +121,7 @@ states its own conclusion in these terms: **"the comparison to draw is therefore
 **Not covered by price posture** (what a buyer sees) **or support model** (what is offered). It is who carries the
 product to the dealer, and the file already reasons with it.
 
-**8. Defensibility — proposed, and less certain.** The motion section names its *"real takeaway"*: **"hardware is
+**8. Defensibility — ADOPTED as `A8`, over my own reservation.** The motion section names its *"real takeaway"*: **"hardware is
 copyable; a corpus of field-verified control maps is not."** It recurs unprompted — CBS **buys** control rather
 than building it; C-ATS's credibility is **the systemised method** (`../brands/c-ats/claims.md` `C4.10`), which is
 black-boxed as IP (`../operations/decision-request-q52-cats-rules-publication.md`). *Flagged as the weaker
