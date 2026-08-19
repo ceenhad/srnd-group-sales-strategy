@@ -12,7 +12,12 @@ down."* A paragraph can be waved through as "correct" while carrying a wrong cla
 - **ID is stable.** `C<section>.<n>`, never reused, never renumbered.
 - **Kind** says which file owns the claim: **`brand`** (belongs here) · **`product`** (belongs in
   `product-records.md` — a row marked product is a **duplication to remove**, not a claim to keep) ·
+  **`group`** (belongs in `../../CLAUDE.md` or `../../group-strategy/` — same defect one layer up) ·
   **`service`** · **`gap`** (named in the prose, described nowhere) · **`discussion`**.
+- **`group` was added on section 5** (2026-08-19), where **eight of twenty-eight rows** turned out to be
+  `CLAUDE.md` re-typed at brand level. It is the `product` defect one layer up and it is worse: a brand file
+  that restates the constitution can be edited into contradicting it, and the brand file is what a writer reads.
+  **A `group` row is deleted and cited, not kept.**
 - **`discussion` is the kind that matters most, and it was added on section 2** (Neil, 2026-08-18): *"this is an
   example of a discussion being placed as core product truth"*, *"again just grossly inflated conversation."*
   **It is not a weak claim — it is reasoning that was never a claim at all**, written up in the register's own
@@ -203,8 +208,96 @@ date the credibility claim rests on is unasked**, and it is one sentence to an o
   that unease was well founded: the section leads with evidence it had not read.
 - **The strongest row in the section is the one nobody had evidence for when they wrote it.**
 
-## Sections 5–7 — not yet drilled
+## Section 5 — The discipline
 
+**Not yet put to Neil.** *Drilled 2026-08-19. The section is 41 lines of writing rules governing anyone who
+writes C-ATS copy — and it is the first section where **almost nothing is the brand's own.** Eight rows restate
+`../../CLAUDE.md`; nine duplicate a row already confirmed in §1, §3, §4 or the product record. What is left that is
+original is mostly open, gated or wrong.*
 
-`positioning.md` §5 (the discipline) · §6 (how it fits the group) · §7 (what's still open). **All unconfirmed, all inherited from the same undated draft.** They get the same
-treatment, one section per pass — **and on the evidence of §2, expect the reasoning layers to be `discussion`.**
+**`group` is the kind this section added.** A rule that lives in the group constitution and is re-typed here is
+the same defect as §1's five `product` duplicates, one layer up — and worse, because a brand file that restates
+the constitution can be edited to contradict it.
+
+| # | The claim | Kind | Status |
+|---|---|---|---|
+| **C5.1** | §5 is internal throughout — the rules that keep the positioning honest and stop it turning arrogant, governing anyone writing C-ATS copy | `brand` | drafted — the framing claim. Nothing rests on it beyond the section being guardrails rather than copy |
+| **C5.2** | Lead with the dealer's result, never our expertise | **`group`** | `../../CLAUDE.md` § Voice: *"Never lead with our own brilliance — lead with the dealer's win."* Duplication |
+| **C5.3** | The integrator's win is the subject of every sentence | **`group`** | the same rule again, inside the same bullet |
+| **C5.4** | Our cleverness is never the point | **`group`** | third restatement, same bullet. **Three rows for one group rule** |
+| **C5.5** | Never imply the dealer can't do something — accurate or not | `brand` | **duplicate of `C3.10`** (drafted). One rule, two files, free to drift |
+| **C5.6** | The dealer has a choice: specify it themselves, or take the design service | `brand` | **carries `C3.1`'s status — aspiration, not truth (`Q59`).** §5 instructs every writer to state a choice that has no mechanism behind it. **This is Q59's sharpest consequence and it was missed when Q59 was answered:** marking the promise as aspiration never reached the discipline that enforces it |
+| **C5.7** | The design service is an option, never a rescue | `brand` | **duplicate of `C3.11`** |
+| **C5.8** | A project is never described as too small or not worth designing | `brand` | **duplicate of `C3.12`** |
+| **C5.9** | State the problem plainly — three problems, three solutions | `brand` | **gated on `PR-7`** (challenged). `Q50` settled that the system is the product and no panel leads; whether three problems means three *solutions* to state is exactly what PR-7 leaves open. If PR-7 breaks, so does this row |
+| **C5.10** | Don't dazzle with science — that is what competitors do | `brand` | **duplicate of `C1.4`/`C1.5`**, both confirmed |
+| **C5.11** | Beating it is the whole positioning | `brand` | drafted — **and stronger than what §1 confirmed.** C1.4/C1.5 say what competitors do and what C-ATS does instead; *"the whole positioning"* makes the contrast the entire proposition. `C1.14` — the only row that says why the brand exists — gives the objective as honest and easy to specify, **not as beating jargon** |
+| **C5.12** | No design-replacing calculator on the C-ATS site — *because of what its presence would imply, not what it would reveal* | `brand`, with the reason **`discussion`** | **the rule may be right; the reason is authored here.** Unsourced, and the platform has since settled it from the other side: ADR 017 v2 §5 withdrew Level 2 and §4 makes Cinema Tools Pro internal, **so there is no calculator to place anywhere.** `[?]` whether the rule is still doing work or is a preference for a situation that no longer exists → **`Q66`** |
+| **C5.13** | Worked examples showing how quantities are derived are the self-serve route | `brand` | **open — this is the sentence `Q52` quotes**, gated on `DR-Q52`. `../../NEXT.md` records that the worked examples themselves exist in Cinema Tools; what is undecided is whether they may publish |
+| **C5.14** | Bounded tools (e.g. reflection points) belong on Cinema Tools | `brand` | **`[?]` platform not checked.** The cited source is `../../motion/tools.md` — this repo, the weaker category. Per `../../method.md` the ADR is the check, and no ADR is named here |
+| **C5.15** | Scattering, never diffusion — products named by the problem, never the mechanism | **`group`** | `../../CLAUDE.md` § Non-negotiable discipline, verbatim in substance. *And the underlying rule is C-ATS brand truth, which lives in the C-ATS product repo — so this is the third copy* |
+| **C5.16** | It is a wording rule, not a sales line — never a public boast about our own restraint | `brand` | **duplicate of `C4.12`** |
+| **C5.17** | Only claim what the data supports — the measured data is the basics, not an exhaustive regime | `brand` | **duplicate of `C4.8`** |
+| **C5.18** | No invented performance figures | **`group`** | `../../CLAUDE.md` § Hard don'ts |
+| **C5.19** | Stand on measured data, not a tool's output | `brand` | **duplicate of `C4.14`** — **and it reads differently after `Q61`.** Credibility now rests on the systemised method, which *is* the tool's rules layer. The distinction the sentence needs — a computed number for one room, versus the rules that computed it — is one it does not make. Wording, not substance |
+| **C5.20** | **Depth is expressed relatively (*"shallower than any competing product"*), never a bare millimetre figure** | `brand` | **OPEN — and it fails on three counts at once → `Q63`.** See below |
+| **C5.21** | Don't fence the brand to a named space; state the problem, which travels to any room that has it | **`group`** | `../../CLAUDE.md` § "Don't fence us to cinema — in trade": *"Name the problem, never the room type."* |
+| **C5.22** | Don't narrate isolation as the 3 Rs thesis expanding — it is here because C-ATS is the group's acoustics brand | `brand` | **duplicate of §6**, which states the same thing as the positioning rather than as a prohibition |
+| **C5.23** | Keep the commercial / big-room extension internal until it ships | **`group`** | `../../CLAUDE.md` § "Build it, then say it", applied. Also restated in §7 |
+| **C5.24** | ~~Use the form **C-ATS**; don't hard-code the "Complete" expansion (unresolved)~~ | `brand` | **STRUCK — the rule was dropped three days before the drill-down reached it.** `Q26`, 2026-08-16: *"The expansion is fine — drop the rule."* `../../CLAUDE.md` struck it the same day; `positioning.md` and `content.md` kept it. **Corrected in place 2026-08-19** (§5, §7, `content.md`); `DOC-27`'s remaining list updated. *The finding is not about the claim — it is about propagation: a rule dropped at group level went on governing every writer of C-ATS copy for three days, because the decision was recorded and not applied. `../../method.md` failure 5 exactly — flagging is not doing* |
+| **C5.25** | Never name material suppliers or manufacturing partners | **`group`** | `../../CLAUDE.md` § Hard don'ts |
+| **C5.26** | Never attack competitors in public copy | `brand` | drafted — **and it is the one rule in the section with no group-level home.** `CLAUDE.md` forbids a superlative arms race *between our own brands*; nothing there covers competitors, and this cannot be a C-ATS-only obligation. **Candidate to promote to the group layer** → `Q64` |
+| **C5.27** | Fabric Walls is the natural concealment pairing and a genuine cross-sell | `brand` | drafted — consistent with §6 |
+| **C5.28** | Any stretch fabric works, so C-ATS is never made dependent on Fabric Walls | **`product`** | true, and already in the record: `product-records.md` line 330 — *"Yes, any stretch fabric — `N5`. Never stated as an answer."* Duplication, **and the record notes the answer has never been published anywhere a dealer can read it** |
+| **C5.29** | *(added by the drill-down)* The depth-expression rule appears **twice** — §5 and §1's shallow-depth bullet — and was atomised in **neither**: §1's pass produced 16 rows from its opening paragraph and the origin, leaving the rest of §1's 55 lines undrilled | `gap` | **open.** *"Take one section"* was carried out as *take one paragraph*. Residue, not error — but it means §1 is not finished, and a `confirmed` §1 reads as though it is |
+| **C5.30** | *(added by the drill-down)* Of §5's 28 claim rows, **eight restate a rule that lives in `CLAUDE.md`** and **nine duplicate a row already confirmed elsewhere in this file or in the product record** | `gap` | **open → `Q67`.** The same defect as §1's five product duplicates, one layer up |
+
+### C5.20 — the depth rule, and why it is the section's real finding
+
+*`positioning.md` §5: "Depth is expressed relatively ('shallower than any competing product'), not as a bare
+millimetre figure." §1 line 47 says it again with a reason: "a number means little to most buyers."*
+
+**1. It forbids publishing a dimension the product cannot be sold without.** `product-records.md` states 50 mm
+**twelve times**, including in scope of supply — *300 × 300 × 50 mm panel, 0.09 m² each; 16 per box*. A dealer
+cannot specify, quote or fit the panel without it. And `C1.8` — *the panels are deliberately shallow (50 mm)* —
+is a **confirmed** row of §1. **§5 forbids what §1 states.**
+
+**2. The replacement is an unmeasured superlative.** *"Shallower than any competing product"* is a claim about
+every competing range in the category, and nothing measures it. **`Q54` cut *"high-performance"* on precisely
+this ground** — *"no bragging over claims"* — and a comparative against the whole field is a larger claim than
+the adjective that was cut.
+
+**3. It inverts the Scandinavian register.** `../../CLAUDE.md`: substance carried in plain language, **no
+superlative without a measurement behind it.** A measured millimetre figure *is* the plain-language substance;
+the comparative is the brag. **The rule as written keeps the brag and suppresses the fact.**
+
+**And the reason given is the species of claim §2 struck.** *"A number means little to most buyers"* is
+unsourced buyer psychology in the register's own voice — the same shape as `C2.6`/`C2.7`, struck at Q56 as
+*"a discussion being placed as core product truth."*
+
+**What the rule was probably protecting is the opposite of hiding the figure.** `product-records.md` `O4` calls
+corner loading *"the depth argument made concrete — the product where it is most defensible"*, and `R1` gives
+the doubt it meets as *"can 50 mm do anything at low frequency?"* — **the objection the measured data answers.**
+The smallness of the number, stated and measured, is the argument.
+
+### What section 5 produced
+
+- **Almost nothing in §5 is both original and settled.** Strip the eight `group` rows and the nine duplicates and
+  eleven remain — of which one is struck (C5.24), five are open or gated (C5.6, C5.9, C5.13, C5.14, C5.20), and
+  one has a `discussion` reason (C5.12). **Four rows stand clean: C5.1, C5.11, C5.26, C5.27** — and two of those
+  are queued as questions anyway.
+- **The section's job is real; its contents are borrowed.** A writing discipline for C-ATS copy should exist. What
+  it should contain is the group rules **cited**, plus the handful that are genuinely C-ATS's.
+- **Two rows enforce things that are not true.** C5.6 tells writers to offer a route Q59 marked aspiration; C5.24
+  told them to avoid a name Q26 released. **A discipline section is where a stale rule does the most damage**,
+  because every writer obeys it and nobody re-reads it.
+- **`discussion` was rarer here than §2 predicted** — one reason, not a reasoning layer. §5 is prose-as-rules
+  rather than prose-as-argument, and its failure mode is duplication rather than inflation.
+
+## Sections 6–7 — not yet drilled
+
+`positioning.md` §6 (how C-ATS fits the group) · §7 (what's still open). **Both unconfirmed, both inherited from
+the same undated draft.** §6 is the one section whose content is *argument* — expect `discussion`, per §2. §7 is a
+list of open items and should mostly resolve to pointers at `../../registers/questions.md` IDs rather than to
+claims; **two of its seven are already answered elsewhere** (the canonical name, narrowed by `Q26`; *what
+convinces the integrator*, half-answered by `Q55`).

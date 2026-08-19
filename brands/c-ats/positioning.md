@@ -41,6 +41,11 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
   with methodology black-boxed), C-ATS publishes worked examples showing how quantities are derived, and a
   reflection-point calculator (geometry, not design) is a good candidate. See
   `../../motion/tools.md`.
+  **⚠ Two halves of this bullet describe surfaces that do not exist.** The partner-gated reporting tool is the
+  Level 2 surface **ADR 017 v2 §5 withdrew**, and *"C-ATS publishes worked examples"* is the sentence `Q52`
+  quotes — gated on `../../operations/decision-request-q52-cats-rules-publication.md`. Same correction as §3's
+  banner; claims `C5.12`–`C5.14`. *Flagged 2026-08-19: §1 asserted un-gated what §3 already carries a warning
+  about, which is `C5.24`'s propagation failure repeating inside one file.*
 - **Shallow depth is a deliberate commercial decision, not a spec boast.** The cost that matters is
   the floor and wall area the treatment occupies — in most rooms far greater than the price of the
   panels. Depth removed is space returned to the client. Externally the claim is relative
@@ -202,7 +207,10 @@ governs anyone writing C-ATS copy.
 
 **Naming, partners, rivals**
 
-- Use the form **C-ATS**; don't hard-code the "Complete" expansion (unresolved).
+- Use the form **C-ATS**. ~~Don't hard-code the "Complete" expansion (unresolved).~~ **Rule dropped —
+  `Q26`, 2026-08-16: *"the expansion is fine."*** So "Complete Acoustic Treatment System" may be used.
+  *Struck here 2026-08-19 (`DOC-27`); `../../CLAUDE.md` struck it on the day of the decision and this file
+  kept it, so the rule governed C-ATS copy for three days after it was dropped — claim `C5.24`.*
 - Never name material suppliers or manufacturing partners; never attack competitors in public copy.
 
 **Cross-brand**
@@ -248,8 +256,10 @@ Internal only — the unresolved items to settle before they harden into copy. F
   integrators who would buy — is the central strategic job, not an afterthought.
 - **What convinces the integrator to choose C-ATS.** Not written down. *Who* specifies and signs off is
   answered (Q55). **Ask an owner.**
-- **The canonical name.** C-ATS vs "Complete Acoustic Treatment System" vs the Cinema-specific
-  reading. Unresolved — settle it and align brand truth, the group site, and the store together.
+- **The canonical name — narrowed, not closed.** `Q26` (2026-08-16) settled that **"Complete Acoustic
+  Treatment System" may be used**: the prohibition is gone. What it did not settle is **which form is
+  canonical against the legal "Cinema Acoustic Treatment System"** (`open-items.md`), and that is what still
+  needs aligning across brand truth, the group site and the store → **`Q65`**.
 - **Pricing.** Gated tiers to be set; the current site is placeholder (£0.00).
 - **Proof assets.** Few install photos — not none, but not many. Install imagery, real case studies,
   and render-based virtual case studies are the content-phase job that makes the credibility visible.

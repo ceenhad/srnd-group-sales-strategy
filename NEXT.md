@@ -21,7 +21,9 @@ adopted.
    `brands/_template/the-brand-run.md`). **Two framings were put to Neil and both were rejected** — the
    entry-product/flagship split (Q50: C-ATS is a system, the 3 Rs defines it, no panel leads) and using the
    segment cut as a league table (Q51: every relationship is treated as day 1). Both are corrected in place and
-   folded into the template, so no other brand inherits them. **What it still leaves for Neil:** the hook
+   folded into the template, so no other brand inherits them. **The drill-down is the live thread** — §1–§5 of
+   `positioning.md` are atomised into `brands/c-ats/claims.md`, §6–§7 remain, and it has broken or qualified more
+   than the building did. **What it still leaves for Neil:** the hook
    wording, which is an owner's, and whether the shape is right before another brand copies it. **What it leaves
    as work:** the run ends as a queue of register items rather than as a document — CON-8 and EST-5 first, then
    DOC-1 to DOC-4 and EST-4. ~~and the one genuinely new authoring job it surfaced (the quantity answer and the
@@ -36,14 +38,30 @@ adopted.
 
 ---
 
-## Session state — 2026-08-18, resume here
+## Session state — 2026-08-19, resume here
 
 *Written so a session in a different account can pick up cold. **Everything below points at a register; nothing
 is restated.***
 
-**Resume at:** `brands/c-ats/positioning.md` **§5 — The discipline**, drilled per `method.md` § The drill-down,
-answers into `brands/c-ats/claims.md`. §1–§4 done; §5, §6 (how it fits the group) and §7 (what's still open)
-remain. *On §2's evidence, expect the reasoning layers to be `discussion`.*
+**Resume at:** `brands/c-ats/positioning.md` **§6 — How C-ATS fits the group**, drilled per `method.md` § The
+drill-down, answers into `brands/c-ats/claims.md`. §1–§5 done; §6 and §7 (what's still open) remain. *§6 is the
+one remaining section whose content is genuinely **argument**, so expect `discussion` per §2. §7 is a list of
+open items and should mostly resolve to `registers/questions.md` pointers rather than to claims.*
+
+**Waiting on Neil:** `Q63`–`Q67`, all from the §5 drill-down and none yet put to him. **`Q63` is the one that
+changes copy** — the depth rule forbids stating 50 mm, which the product record states twelve times and which a
+dealer cannot buy without.
+
+**What changed on 2026-08-19.** §5 drilled — **28 rows, and almost nothing in the section is the brand's own.**
+Eight rows restate `CLAUDE.md` (**the new `group` kind**, which is §1's `product`-duplication defect one layer
+up) and nine duplicate a row already confirmed in §1, §3, §4 or the product record; four stand clean. **Two rows
+were enforcing things that are not true:** `C5.6` tells every writer to offer the self-serve route `Q59` marked
+aspiration, and `C5.24` told them to avoid a name `Q26` released on 2026-08-16 — **dropped at group level the
+same day, and still governing C-ATS copy three days later.** That one is fixed, not flagged: struck in place in
+§5, §7 and `content.md`, `DOC-27` updated. **§1 also asserted un-gated what §3 already warns about** (the
+withdrawn Level 2 surface and the `Q52` worked-examples sentence) and now carries a pointer. `C5.29` records
+that §1's pass drilled its opening paragraph, not its 55 lines, so **§1 is not finished** even though it reads
+confirmed.
 
 **Read first, in this order:** `method.md` (§ The drill-down · § What the work produces · § The three that failed
 on 2026-08-18) → `registers/premises.md` → `brands/c-ats/claims.md` → `registers/questions.md` Q50–Q62.
@@ -73,7 +91,9 @@ shape `PR-9` broke. They carry strikes and corrections in place but have **not**
 Logged as `MTH-1` in `registers/backlog.md`. Separately, **DT and Fabric Walls still carry the cleaned-out
 "real recent jobs" language**, and Fabric Walls says *"parked, as with C-ATS"* — it propagated by citation.
 
-**Git:** branch `claude/c-ats-template-build-db2a62`, pushed, no PR opened.
+**Git:** the run began on `claude/c-ats-template-build-db2a62` (pushed 2026-08-19 10:07, no PR). **Continued on
+`claude/c-as-handover-pack-9qkmz1`**, branched from that tip so it carries the whole history — the second branch
+is the designated one for the session that picked the work up, not a fork.
 
 ---
 
