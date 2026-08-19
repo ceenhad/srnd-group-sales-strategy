@@ -23,6 +23,7 @@ restated here.
 - `content.md` — the 3 Rs content, guardrails, creative approach, the layered build.
 - `product-pricing.md` — the range and the (gated) tier work.
 - `registers/open-items.md` — C-ATS-specific decisions and sequencing.
+- `training.md` — Leg 4: training opportunities, each traced to a record field, with what blocks it.
 - `brand-data.md` — the public front (`c-ats.co.uk` holding page) and live-site-vs-brand-truth
   tensions to reconcile.
 - **The brand run (2026-08-18)** — `pathway-reverberation.md`, `pathway-reflection.md`, `pathway-resonance.md`
