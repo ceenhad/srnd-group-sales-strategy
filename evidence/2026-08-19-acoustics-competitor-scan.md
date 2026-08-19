@@ -139,3 +139,42 @@ which is how they get written at all. *The competitive consequence is a separate
 - Officina Acustica, about — https://officinaacustica.com/about
 - CEPRO's Officina Acustica coverage — https://www.cepro.com/tag/officina-acustica/
 - Trinnov CEDIA/ISE hub pages carrying Aylett's biography — https://hub.trinnov.com/cedia2024
+
+---
+
+# Fourth pass — the education layer, and who is standing in it
+
+**Verified from the ISE 2026 programme (Smart Home Conference powered by CEDIA), fetched 2026-08-19.**
+
+| | Sessions | Billing | Topics |
+|---|---|---|---|
+| **Peter Aylett** | **Five** | *"Peter Aylett, Partner - Officina Acustica"* | *"How To Talk To Design Professionals About Entertainment Spaces"* (speaker) · *"Design Thinking"* (speaker) · *"What Do Interior Designers & Architects Really Want From Integrators?"* (panellist) · *"Wellness: Fad, or Business Opportunity?"* (panellist) · a CEDIA cybersecurity-guide session (speaker) |
+| **Neil Davidson** | **One** | *"Neil Davidson, Director - SRND Group"* | *"Wellness: Fad, or Business Opportunity?"* (panellist) — **the same panel as Aylett** |
+
+**Also verified:** Neil appears in AVForums video and podcast content with editor Phil Hinton, Hi-Fi editor Ed
+Selley and Dr Julian Scott — subwoofer count and placement, immersive audio layout, speaker channel counts.
+
+**Not verified, and left uncited:** a video of Neil teaching Aylett. Nothing matching surfaced in searchable
+sources. *Recorded as unfound rather than as absent — and it is not the finding anyway (below).*
+
+## Neil's own account, 2026-08-19 — recorded as his account, not as measurement
+
+> ***"The lesson to learn is not who taught whom but who maxed out the opportunities. We need to max out the
+> opportunities. I have done cinema training and design classes for years and years but we stopped doing it maybe
+> even 10 years ago and others fill the void."***
+
+**Three things already in this repo corroborate the void being filled.**
+
+1. **Aylett's ISE sessions are aimed at the actor cast** this repo named the same day
+   (`../brands/c-ats/claims.md` `C2.27`): design professionals, interior designers, architects, and how integrators
+   should work with them. **Three of his five sessions are that subject.**
+2. **Training is standard in the UK distributor offer**, already recorded in
+   `../group-strategy/competitors.md`: *CAVD training courses, Invision's Training Academy, Pulse's in-person and
+   webinar programme.* **So the education layer is contested by distributors as well as by competitors.**
+3. **Aylett also chairs the standard** (third pass above) and **Lemay founded the certification body**. *Teaching,
+   accrediting and standard-setting are held by the same handful of people, and one of them is a direct
+   competitor's partner.*
+
+**The dates are Neil's recollection** — *"maybe even 10 years ago"* — and are not measured. **What is measurable is
+the present state: one session against five, on one programme.** *One trade show is a thin sample; it is recorded
+because it is observable, not because it settles the size of the gap.*

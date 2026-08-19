@@ -309,6 +309,32 @@ jargon."* **This tier does not sell jargon — it writes the science.** *Keith Y
 explanation and a proprietary Scorecard; Aylett chaired the standard; Lemay founded the certification body. **That
 is a harder thing to compete with than jargon, and a different thing entirely.*** → `Q74`
 
+### The education layer — a position held and vacated
+
+**Neil, 2026-08-19:** ***"The lesson to learn is not who taught whom but who maxed out the opportunities. We need to
+max out the opportunities. I have done cinema training and design classes for years and years but we stopped doing
+it maybe even 10 years ago and others fill the void."***
+
+**This is a different failure from the group's usual one, and it deserves its own name.** *`../CLAUDE.md`'s
+recurring diagnosis is **build it, then say it** — the reality lags the claim. **This is the reverse: the position
+was built, held for years, and then given up.*** The void was **not lost on merit. It was vacated**, and the
+people who filled it are the ones who now define what correct means (`A8` above): the competitor's partner who
+chaired the standard, the competitor's president who founded the certification, and the distributors whose
+training academies this file already lists.
+
+**What is measurable today, from the ISE 2026 programme:** **Aylett, five sessions, billed as *"Partner - Officina
+Acustica"*; Neil, one, billed as *"Director - SRND Group"* — and it is the same panel.** *And three of Aylett's five
+are aimed squarely at **the actor cast** this repo identified the same day (`../brands/c-ats/claims.md` `C2.27`):
+how to talk to design professionals, what interior designers and architects want from integrators, design thinking.*
+**A competitor's partner is teaching the channel how to reach the specifiers — which is `A7`, route to market,
+being worked from the education layer rather than the sales one.** *One programme is a thin sample and the dates in
+Neil's account are recollection, not measurement. The asymmetry is recorded because it is observable.*
+
+**Why it belongs in a competitor file rather than a marketing plan.** *Teaching is not adjacent to the route to
+market in this channel — **it is the route**. `../group-strategy/the-group-play.md` already says *"the route in is
+the specifier"*, and `buyer-journey.md` already names **RIBA-approved CPD** as the standard route to architects in
+the UK. **The instrument was identified, and the fact that we used to run it and stopped was not.***
+
 ### The shape of the roster the axes ask for
 
 *Not a list of competitors — the **kinds** of competitor each axis implies. **Nothing here is researched.***

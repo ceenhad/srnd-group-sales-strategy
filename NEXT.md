@@ -62,6 +62,13 @@ reshaping into rows and not a collapse** — three entry points, one shared jour
 did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mechanism), `Q63` (the depth figures),
 `PR-13` (no install trap), `C2.17`–`C2.23` (why an integrator buys). Fold those in as the rows are written.*
 
+**The competitor work turned up one thing that is not a competitor finding at all.** **`EDU-1`: the education
+layer was held and vacated** — Neil ran cinema training and design classes for years and stopped roughly a decade
+ago, and the people who filled the void now hold the standard, the certification and the distributor training
+academies. *Measurable today: one ISE 2026 session against a competitor partner's five, three of which aim at the
+specifier cast.* **`CLAUDE.md`'s build-it-then-say-it does not apply here** — the capability is the one thing we are
+not short of, which makes this the opposite failure and a decision rather than a build.
+
 **Competitors: the instrument is built, the research is not.** `Q73` amended standard 4 to **eight axes** and they
 are applied to acoustics in `group-strategy/competitors.md` — **C-ATS's column complete from confirmed rows, every
 competitor cell deliberately empty.** *That table is the brief: it says what to go and find out, and `A4` and `A8`
