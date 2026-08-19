@@ -47,3 +47,82 @@ published against it differs.**
 **Not covered, and named so the gap is visible:** Vicoustic (HTTP 429, not retried), Auralex, the fabric-system
 builders (`A2`), and Cinema Build Systems' own foam and *"dispersal"* panels, which are already described in
 `../group-strategy/competitors.md` from an earlier pass.
+
+---
+
+# Second pass, same day — the tier the first pass missed
+
+**Neil, 2026-08-19, after reading the first pass:** *"In acoustics you can also go to Keith Yates and get a Black
+Edition design that starts at £100k, or Officina Acustica or AcoustiSmart or Quest Acoustic Interiors… **if it's
+sold openly online or for studios it's almost certainly not for us.**"*
+
+**So the first pass sampled the wrong tier.** GIK is sold openly online; Primacoustic is for studios; RPG is
+architectural and institutional. **The facts recorded above stand; their relevance does not.** *The exclusion test
+is recorded as a rule in `../registers/premises.md` `PR-19`.*
+
+## The real tier, as it presented on 2026-08-19
+
+| | **Keith Yates Design** | **QuestAI** (Quest Acoustical Interiors) | **Officina Acustica** |
+|---|---|---|---|
+| **What it sells** | **A design practice with proprietary product.** *"We engineer exquisite theater interiors"*; issues *"specifications… acoustic treatments, seating, and HVAC system elements"*. Own **UberSub** infrasonic system | **Product plus engineering service.** Named: **QuestTrac**, QuestAI Panels, and previously **Q-Sorber** and the **Quest Acoustical Lens System**. Services: *"custom design, project management, design and calibration, CAD layout"* | **A manufactured acoustic interior.** *"Acoustic Interior Design"* — manufactures interiors for home cinemas, media and screening rooms, mastering studios. Founded 2005, made in **Vicenza, Italy** |
+| **A5 price** | **Tiers named, no prices published** — *"ESSENTIALS"* (*"abridged version… on a limited budget"*), *"RED"* (*"full service design, engineering, construction drawings"*), *"BLACK LABEL"* (*"few magnificent projects"*) | **Gated** — *"Design Packages"* with a comparison page, no price on the homepage | not captured |
+| **A7 route to market** | End-user facing on its own pages — *"your private theater"*, *"build a theater"*. **Integrators and architects not named as audiences** | **A dealer locator exists**; the trade route is real but **the programme's terms are not published**. *Earlier trade coverage describes it as partnering with dealers* | **Via partners** — e.g. Ascend AV lists it as a partner line |
+| **A1 published data** | **Not published.** A proprietary **YATES Scorecard** measurement system is described; no coefficients, standard or report on the pages seen | **Not stated** — no coefficients, standard or test data | not captured |
+| **A6 credibility** | *"AVS Forum awards Keith Yates Design HOME THEATER of the DECADE"*; *"first to design the lowest-noise residential spaces measuring below human hearing threshold"* | **Certifications as credibility** — **HAA, CEDIA, THX, ISF** | *"the finest acoustic spaces in the world"* |
+| **A2 method** | Whole-room engineering; treatment is one specification among seating and HVAC | Panels plus track; **QuestTrac** implies a carrier system | **All four walls**, balancing *"reflection, broadband absorption and diffusion"*, and — stated as a contrast — ***"unlike traditional stretched fabric acoustic treatments, their system has an air gap between the panel and the wall behind"*** |
+
+## Two things this tier shows that the first tier could not
+
+**Officina Acustica positions explicitly against stretch-fabric treatment**, which is C-ATS's own install model
+(`../brands/c-ats/claims.md` `C1.12`, `C5.28`). **A named competitor differentiating against our concealment
+method is a first for this repo.**
+
+**It also uses *"diffusion"* in its top-line description** — *"reflection, broadband absorption and diffusion"* —
+the word C-ATS's brand rules forbid in favour of **scattering** (`C5.15`). *Recorded as observed. Whether the
+usage is loose or accurate is not determinable from a summary line, and the honesty rule cuts both ways: `Q64`
+forbids an unmeasured claim about a rival as firmly as about ourselves.*
+
+## Sources, second pass, fetched 2026-08-19
+
+- Keith Yates Design — https://www.keithyates.com/
+- QuestAI — https://questai.com/ and https://questai.com/dealers/
+- Officina Acustica — https://officinaacustica.com/ (via search summary; the site itself was not fetched)
+- Residential Systems on the QuestAI configurator and the Acoustical Lens System — https://www.residentialsystems.com/archive/questai-reveals-acoustic-treatment-configurator
+
+**Not found: `AcoustiSmart`.** No matching company surfaced — the spelling may differ. **Left as an unfilled row
+rather than substituted with something similar-sounding.** Officina Acustica's own pages were summarised from
+search rather than fetched, and the `A1`/`A5` cells are unfilled for that reason.
+
+---
+
+# Third pass — who owns them, and what they chair
+
+**Neil, 2026-08-19:** *"You should also search for the owners of Quest and of Officina and their CEDIA
+connections."*
+
+| | Named | What the sources say |
+|---|---|---|
+| **QuestAI** | **Gerry Lemay**, President | **Founder and director of the Home Acoustics Alliance (HAA)** — *"a physicist, acoustician and inventor who has designed hundreds of theaters and acoustical spaces."* **HAA is the residential-acoustics certification the CI channel trains on**, and QuestAI's own credibility line already lists **HAA, CEDIA, THX, ISF** |
+| **Officina Acustica** | **Maurizio Conti**, founder (as HTE, 2005) — *"a pioneer in the technology integration industry for 35 years"* | Co-led with **Peter Aylett**, *"a 30 year veteran of the industry"* |
+| **Officina Acustica** | **Peter Aylett** | **CEDIA 2022 Fellowship** *"for his career long contributions to the success of CEDIA and the industry"*; **served a term on CEDIA's Global Board of Directors**; **Chair of the CTA/CEDIA R10 committee 2020–2025**; and **chaired the Working Group that completely re-wrote the recommended practice for multichannel audio room design** |
+
+## The fact this establishes, stated plainly
+
+**The recommended practice `cinema-tools` grades designs against was chaired into existence by a principal of a
+direct C-ATS competitor.** *`CEDIA/CTA-RP22` is the document `products/cinema-tools/docs/validation/rp22-acoustic-targets.md`
+transcribes and `rp22_scorecard.py` implements; the R10 committee and the rewrite working group are RP22's.*
+
+**And the pattern repeats on the other name.** QuestAI's president founded the **certification body** the channel's
+acousticians train through. *Two of the three researched competitors have a principal who authors or accredits
+what "correct" means in this field.*
+
+**Recorded as fact, not as grievance.** Neither is improper — standards committees are staffed by practitioners,
+which is how they get written at all. *The competitive consequence is a separate matter and belongs in
+`../group-strategy/competitors.md`.*
+
+## Sources, third pass, fetched 2026-08-19
+
+- Home Acoustics Alliance profile, Gerry Lemay — https://homeacoustics.org/profile/?user_id=59
+- Officina Acustica, about — https://officinaacustica.com/about
+- CEPRO's Officina Acustica coverage — https://www.cepro.com/tag/officina-acustica/
+- Trinnov CEDIA/ISE hub pages carrying Aylett's biography — https://hub.trinnov.com/cedia2024

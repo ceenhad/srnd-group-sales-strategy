@@ -229,6 +229,47 @@ legitimate only from a defined policy, and only where the service is defined and
 free offer is the alternative a buyer already has. *It also bears on `Q59`/`DR-Q52`: GIK ships the self-serve route
 C-ATS marked as aspiration.* **Not a call to match it — a fact the design service's positioning has to answer.**
 
+### The tier that actually competes — and it does not sell panels
+
+*Second and third passes, 2026-08-19, after Neil ruled out the first: **"if it's sold openly online or for studios
+it's almost certainly not for us"** (`../registers/premises.md` `PR-19`). That removes GIK (online), Primacoustic
+(studios) and RPG (architectural/institutional). The facts in the first pass stand; their relevance does not.*
+
+**1. The tier sells rooms, not panels — which changes what the comparison is about.** **Keith Yates Design**
+engineers theatre interiors and issues specifications across treatment, seating and HVAC, in three named tiers
+(*Essentials · Red · Black Label*) with no published prices. **Officina Acustica** manufactures **a complete
+acoustic interior** — all four walls, Italian-made in Vicenza. **QuestAI** sells product **plus** engineering
+deliverables through a dealer network with gated pricing. **C-ATS sells three panels and a design service.** *So the
+competitive question is not whether our panel is better. It is whether **a panel system plus a design service**
+competes with **a delivered room** — and that question has never been asked in this repo.*
+
+**2. Officina Acustica differentiates against C-ATS's own install method, by name.** *"Unlike traditional stretched
+fabric acoustic treatments, their system has an air gap between the panel and the wall behind."* **Concealment
+behind stretch fabric is C-ATS's model** (`../brands/c-ats/claims.md` `C1.12`, `C5.28`) — **the first time a named
+competitor has been found positioning against it.** *It also uses **"diffusion"** in its top-line framing —
+"reflection, broadband absorption and diffusion" — the word C-ATS's rules replace with **scattering** (`C5.15`).
+Recorded as observed: `Q64` forbids an unmeasured claim about a rival exactly as about ourselves, and whether the
+usage is loose is not determinable from a summary line.*
+
+**3. The structural finding, and it is the largest in this file.** **A principal of a direct competitor chaired the
+rewrite of the recommended practice we grade designs against.** Peter Aylett co-leads Officina Acustica and
+**chaired the CTA/CEDIA R10 committee 2020–2025 and the working group that re-wrote the multichannel audio room
+design recommended practice** — `CEDIA/CTA-RP22`, the document `cinema-tools` transcribes and scores against. **And
+the pattern repeats:** Gerry Lemay is President of QuestAI **and founder-director of the HAA**, the certification
+the channel's acousticians train through. *Neither is improper — committees are staffed by practitioners, which is
+how standards get written. **But it is the Karma-AV-owns-CBS pattern one level up:** you can compete with a
+channel; you cannot compete with the definition of correct.*
+
+**4. It vindicates a decision made this morning for a different reason.** `PR-15` established that **RP22 is
+verification-only and must never appear as what a design *is*** — only as how it grades. *That was adopted on the
+platform's own test. It now has a second and stronger justification: **claiming an RP22 badge would be borrowing a
+competitor principal's authority**, and grading against the standard is exactly the right distance to keep.*
+
+**5. And it reframes `C1.4` a third time.** The charge is *"most competitors sell acoustics on science and
+jargon."* **This tier does not sell jargon — it writes the science.** *Keith Yates publishes psychoacoustic
+explanation and a proprietary Scorecard; Aylett chaired the standard; Lemay founded the certification body. **That
+is a harder thing to compete with than jargon, and a different thing entirely.*** → `Q74`
+
 ### The shape of the roster the axes ask for
 
 *Not a list of competitors — the **kinds** of competitor each axis implies. **Nothing here is researched.***
