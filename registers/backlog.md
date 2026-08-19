@@ -365,6 +365,13 @@ component 2; CON-4 is component 3; CON-5–7 and CON-14 are components 1 and 4. 
 - **Long-form content** — waits until something points at it.
 - **Cross-brand contact-cadence coordination** — stand up once more than one brand runs direct actions in
   parallel.
+### Method debt, opened 2026-08-18
+
+| ID | Kind | Item | Size | State | Source |
+|---|---|---|---|---|---|
+| **MTH-1** | Do | **Restructure the C-ATS run's five prose deliverables into rows** — `brands/c-ats/pathway-reverberation.md`, `pathway-reflection.md`, `pathway-resonance.md`, `hooks.md`, `segments.md`. They are prose-with-tables, which is the shape `../registers/premises.md` **PR-9** broke (*"even the data share must be of proper structured data not piles of documents"*, Neil 2026-08-18). Corrections are struck in place but the shape is unchanged. **Do not do this before the drill-down finishes** — `claims.md` §5–§7 may change what the pathways say, and restructuring first would mean doing it twice | Days | **ready, deliberately queued behind the drill-down** | `../method.md` § What the work produces; PR-9 |
+| **MTH-2** | Do | **Clean the "buyer-truth parked pending real recent jobs" language out of DT and Fabric Walls** — `brands/display-technologies/positioning.md` (two places), `brands/fabric-walls/positioning.md`. Struck from C-ATS and the template on Neil's instruction (Q58: *"what trash and bullshit — just needs cleaned out regardless"*). **Fabric Walls says "parked, as with C-ATS" — it propagated by citation**, so leaving it lets it spread again. Replace with *unasked, not blocked*; **do not invent those brands' buyer truth** | Small | ready | Q58; PR-3 |
+
 - **Stress-test items held, not solved:** the two-person dependency; the partner-parity overclaim in published
   material; the market-intelligence hole (no substitute exists); what carries the next two years beyond
   FACT-2's cheap half.
