@@ -103,6 +103,14 @@ instruction, not the feed, and are unaffected); slot 6 on all three pathways now
 **`method.md` failure 3 names it** — *a document existing is not evidence that anyone holds it* — **a test this repo
 applied to competitors' sites and never to its own.**
 
+**⚠ The method gained a failure family, and it is the one to read first.** `method.md` § **"The four that failed on
+2026-08-19"** — four errors, all mine, all caught by Neil rather than by the register, **one root: a conclusion that
+runs one step past the evidence, written with the confidence of the step before.** *A summary is not a source · a
+replacement claim carries its own burden · a broken premise drifts back within a day · name the layer before the
+verdict.* **The self-check is one question: is the sentence more confident than the last piece of evidence behind
+it?** *Inherited by every brand run — `brands/_template/the-brand-run.md` § "The failure every run should expect of
+itself".*
+
 **⚠ A warning for the next session, from today.** `PR-7` was broken and a rebuild planned off **two words I had
 invented and never defined** — *"the way in"* and *"the room"*. Neil asked what they meant; reading the files
 answered it, and `pathway-reflection.md` already contained the guard I thought was missing. **Withdrawn the same

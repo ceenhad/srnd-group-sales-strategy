@@ -187,6 +187,28 @@ line (`../../motion/motion-design.md`); **a class is delivered by a person, and 
 cover every role.** *So a training row's *"what it needs to run"* field is usually an owner's calendar, which makes
 this the leg most likely to produce an honest **no** — and a named no is worth more than an unscheduled yes.*
 
+## The failure every run should expect of itself
+
+**Added 2026-08-19, after the C-ATS run's second session.** *`../../method.md` § "The four that failed on 2026-08-19"
+records four errors with one root: **a conclusion that runs one step past the evidence, written with the confidence
+of the step before.*** **All four cited real sources and none was caught by the register** — the citation was genuine
+and only the distance was wrong.
+
+**The four, as they will present on any brand run:**
+
+| It looks like | It is |
+|---|---|
+| A competitor fact taken from a search result or an index page | **A summary is not a source.** *Fetch the page. A summary drops qualifiers far more often than it adds them, so what it loses is the part that made the claim narrow and true* |
+| Striking an unsourced claim and writing a better one in the same edit | **A replacement carries its own burden.** *The strike feels like rigour and lends its credibility to whatever follows — this is the likeliest moment in the whole method to introduce a fresh unsourced claim* |
+| Writing something a broken premise would have supported | **A break does not hold by being recorded.** *Re-read `../../registers/premises.md` before writing anything that would have leaned on one. The intuitive version returns, and it returns in new work rather than in the file where it was struck* |
+| Judging the brand against whoever else sells the same category | **Name the layer first.** *Some competitors are answered by the group, not the brand. Judging a brand by its own boundaries looks like exactly the group-versus-brand discipline, which is what makes this one hard to see* |
+
+**The self-check:** *is the sentence more confident than the last piece of evidence behind it?*
+
+**And the expectation to hold:** *the C-ATS run broke six of the repo's own premises and found **none** of its own
+four errors — all four came from the owner. **A run's output is unreviewed until somebody who knows the field has
+read it**, and the run should say so rather than present a draft as a finding.*
+
 ## Four findings from the first run that are about the method, not about C-ATS
 
 1. **A door's material may not be in the brand folder.** Two C-ATS doors assembled from brand material; the third

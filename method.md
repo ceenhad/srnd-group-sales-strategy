@@ -120,6 +120,62 @@ be of proper structured data not piles of documents. the ADRs need to manage tha
 
 > **The rule is in "What the work produces" below.**
 
+## The four that failed on 2026-08-19 — one root, and it is not carelessness
+
+*One session, four failures, **all mine**, and every one caught by Neil rather than by the register. The root is
+the same each time: **a conclusion that runs one step past the evidence, written with the confidence of the step
+before.** This is not the same as failure 4 (*extraction is not thinking*) or failure 2 (*inference must not wear
+the voice of measurement*) — in all four cases the evidence was real, the reasoning was sound as far as it went,
+and **the sentence went further than the last fact behind it.** That is why the register did not catch them: every
+row cited a genuine source.*
+
+**1. A summary is not a source.** I recorded that a competitor *"positions against stretch-fabric treatment"* and
+built a named finding on it — **from a search summary, not from the page.** Neil: *"this is a nonsensical statement
+— all stretch fabric systems have an air gap, and loads of acoustic treatment panels rely on an air gap."* Correct.
+**The page actually said `'hang on the wall'`, three words the summary had dropped, and they carried the whole
+meaning**: the contrast was with absorbers fixed flat to the substrate, which *is* our install.
+
+> **The rule: fetch the thing.** A search result, an index page or a summary tells you a document exists and roughly
+> what it is about. **It is not quotable.** *And the failure is asymmetric — a summary drops qualifiers far more
+> often than it adds them, so what it loses is exactly the part that made the claim narrow and true.*
+
+**2. Replacing an unsourced claim with an unverified one is not a fix.** `C1.38`'s unmeasured competitor price band
+was replaced with *"some competitors sell direct to the end user at published prices"* — **written before any
+research, and presented as the sourced correction.** It also leaned on a `drafted` row for its second clause. Neil:
+*"your text under `C1.38` is making a LOT of assumptions."*
+
+> **The rule: a replacement claim carries its own burden.** *Striking something for lack of evidence and writing
+> something else in its place, in the same edit, is the most likely moment in this whole method to introduce a new
+> unsourced claim — because the strike feels like rigour and lends its credibility to whatever follows.*
+
+**3. A broken premise drifts back, and fast.** `PR-4` — the measured data is not what credibility rests on —
+**broke on 2026-08-18 and was drifted back over three times on 2026-08-19**: the `A1` axis reading, `Leg 4`'s first
+rule, and the acoustics scan's headline. Neil, one sentence: *"if it's not legal or safety no one gives a shit.
+Hardly any dealer cares about Sabines."*
+
+> **The rule: a break does not hold by being recorded.** **Re-read the premises before writing anything that would
+> have leaned on one** — *the intuitive version is what returns, and it returns in new work rather than in the file
+> where it was struck.* `PR-4` now carries the caution as well as the break, because the break alone lasted a day.
+
+**4. Check which layer owns the comparison before drawing one.** I judged **C-ATS** against firms that deliver whole
+rooms and recorded its scope as a weakness. Neil: *"there is a critical bit that you miss — we lack nothing against
+these. On the contrary we offer much more. It's called SRND Group."* **The scope was never C-ATS's to have.**
+
+> **The rule: name the layer before the verdict.** *`../CLAUDE.md`'s first discipline is usually broken the other way
+> — a brand file restating group strategy. **This is the same error inverted**, and it is harder to see, because
+> judging a brand by its own boundaries looks like exactly the discipline the rule asks for.*
+
+### The self-check the four produce
+
+**Ask of any sentence: is it more confident than the last piece of evidence behind it?** *All four passed every
+other check in this file. They cited real sources, they atomised properly, they marked their statuses. **What they
+did was extend — one comparison, one clause, one qualifier — past the point the source reached**, and nothing in a
+register catches that, because the citation is genuine and only the distance is wrong.*
+
+**And the count matters more than any of the four.** *A session that also broke six of the repo's own premises found
+none of its own errors. **Four of four came from the owner**, which sets what a session should expect of itself: not
+that it will avoid this, but that its output is unreviewed until somebody who knows the field has read it.*
+
 ## What the work produces
 
 **Rows with stable IDs, not prose.** The point is not tidiness — it is that **more than one person has to be able
