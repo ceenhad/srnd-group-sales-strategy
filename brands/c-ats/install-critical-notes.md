@@ -1,8 +1,14 @@
 # C-ATS — the two critical install notes
 
-*Publishable as two pages. These cover the range's two predictable site failures
-(`product-records.md`), and they are the highest-return documentation C-ATS can produce. Written for an installer
-holding the product, not for a buyer.*
+*Publishable as two pages, written for an installer holding the product, not for a buyer.*
+
+> **⚠ Reduced 2026-08-19.** ~~*These cover the range's two predictable site failures and are the highest-return
+> documentation C-ATS can produce.*~~ **Page 1 is not a site failure.** Neil: *"the whole A/B trap hand-waving
+> fire-breathing dragon of a problem… no one cares. I just use bonded numbers in the design and that's it."*
+> **A/B is a design input, settled by always designing on the bonded figures** — so page 1 is ordinary install
+> guidance, not risk mitigation. **Page 2 stands as written**: the cold-room adhesive failure is real and is the
+> record's own *"most predictable and preventable failure in the range"* (`product-records.md` `R4`). See
+> `../../registers/premises.md` `PR-13`.
 
 ---
 

@@ -117,17 +117,23 @@ go into a datasheet table.*
 
 Either way the values are deliberately low, and that is the point — this is a scatterer, not an absorber.
 
-### The install trap — the most important thing in this record
+### The install types — and there is no trap
 
-- **Type A, adhesive-bonded (recommended, and the default in the data):** the adhesive bonds the panel centre and
-  **damps its resonance**, so it absorbs less and works as a clean scatterer.
-- **Type B, screw-only:** the panel is free to resonate, adding an absorption peak. **Higher absorption, which is
-  not what the design assumed.**
+~~**The install trap — the most important thing in this record.**~~ **DEFLATED 2026-08-19 (Neil):** *"The whole
+A/B trap hand-waving fire-breathing dragon of a problem… no one cares. I just use bonded numbers in the design and
+that's it."*
 
-**Why it matters commercially:** an installer following instinct will screw it and skip the glue. The room then
-behaves differently from the design, and the fault will be attributed to the product or to us. **This is a
-one-page manual fix and a sixty-second video**, and it is the single highest-return piece of documentation in the
-C-ATS range.
+- **Type A, adhesive-bonded:** the adhesive bonds the panel centre and **damps its resonance**, so it absorbs less
+  and works as a clean scatterer. **These are the numbers the design uses. Always.**
+- **Type B, screw-only:** the panel is free to resonate, adding an absorption peak. *This is what BSRIA measured,
+  which is why the two curves exist — it is a measurement configuration, not a field risk to manage.*
+
+**So it is a design input, already settled by always designing on the bonded figures** — not a commercial exposure,
+not a documentation priority, and not the most important thing in this record. ~~*An installer following instinct
+will screw it and skip the glue; the room then behaves differently from the design and the fault is attributed to
+us. A one-page manual fix and a sixty-second video, the single highest-return documentation in the range.*~~
+**Struck — this was inference, and it invented a field failure to be worried about.** *The premise it rested on is
+`../../registers/premises.md` `PR-13`.*
 
 ### Why to buy it — the on-ramp
 
