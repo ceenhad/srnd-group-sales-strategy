@@ -13,8 +13,9 @@ group-level and is not re-derived.*
 > **Note the departure.** `../../group-strategy/strategy.md` names **three** legs. Leg 4 is Neil's instruction of
 > 2026-08-19 — *"training and education is one of the most beneficial marketing types… a critical deliverable on
 > all"* — and **the strategy document has not yet been updated to match** (`../../registers/backlog.md` `DOC-30`).
-> *Recorded here rather than left implicit: a correction applied in one place and not the other is this repo's
-> most repeated defect.*
+> **↻ Closed 2026-08-19:** `strategy.md` § "Then the brands" now names training as the fourth leg. *Recorded here
+> rather than left implicit, because a correction applied in one place and not the other is this repo's most
+> repeated defect — and this one lasted an hour rather than three days.*
 
 ## The precondition
 
