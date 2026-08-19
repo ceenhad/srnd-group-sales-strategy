@@ -139,6 +139,65 @@ analyses comparable rather than to hold strategy.*
 - **The set was incomplete in the direction of its own best work.** The sharpest competitive finding in the file —
   a rival with a captive channel — **had no axis to live on.**
 
+## Acoustic treatment — the eight axes applied
+
+*Built 2026-08-19 on Neil's instruction to **start from the axes rather than the names**, using standard 4 as
+amended the same day (`Q73`). **C-ATS's column is filled only from confirmed rows. Every competitor cell is
+deliberately empty** — nothing here is a claim about anybody, and `../CLAUDE.md` binds: the category may be
+criticised in public, a rival named only behind the partner gate, and only measured.*
+
+**Why the section exists.** C-ATS's researched competitor set is **one name** — Artnovion, already recorded above
+as a price-tier peer reaching dealers through Karma AV. **GIK and RPG appear nowhere in this repo except a single
+unsourced price sentence** (`../brands/c-ats/claims.md` `C1.38`; `product-records.md` `N4` flags it *"`[?]` — price
+band only"*). Meanwhile `C1.4` — *most competitors sell acoustics on science and jargon* — is **confirmed**, and it
+is a claim about a category nobody has enumerated.
+
+| Axis | What it asks in acoustic treatment | C-ATS, confirmed rows only | What fills a competitor cell |
+|---|---|---|---|
+| **A1** product performance and features | What data is published, **to what standard, in what mounting** — and what is not measured | BSRIA 100241/1, **BS EN ISO 354**, free/unfixed mounting, design-stage reference. Coefficients **deliberately low — it is a scatterer** (`C1.4`–`C1.5`). **ISO 17497 scattering: never measured** (`N9`) | Their own data sheet. **Absent data, or data with no mounting stated, is itself the finding** |
+| **A2** what it must work with | **Install method and concealment** — how it fixes, what it needs from other trades, whether it disappears | 50 mm REF/REV, **43 mm RES** (`Q63`); behind any stretch fabric, never dependent on one (`C5.28`); box quantum **1.44 m²**; ~300 mm layout tolerance | Fixing instructions, finish options, what trade has to be on site |
+| **A3** support model | Is there a design service, is the room sized for you, is the result verified | Design service (invoiced, 22 engagements); verification a **capability** (`C3.4`, `C4.5`); **the systemised method is the credibility claim** (`C4.10`, `Q61`) | Whether design and verification are offered at all, and whether either is priced |
+| **A4** lead time | Made to order or stocked; domestic or imported | **`[?]` — ours is not recorded anywhere.** Kirkbymoorside manufacture is a group fact; the C-ATS figure is not written down. **The first cell to fill is ours** | Their stated lead time; where it ships from |
+| **A5** price posture | **Not price. Who can see one** — direct to the end user at published prices, or trade-only and gated | **Trade-only, fully gated** (`../CLAUDE.md`; `commercial-model.md`), carrying the integrator's margin (`C1.36`, `C1.37`) | **Observable in one visit: does a public visitor see a price** |
+| **A6** reference and credibility | Published reports, named installs, standards work | BSRIA report **published and free** (`PR-4`); **the resonance panel's lab-verified result is the strongest single proof point** (`C4.15`); install photography thin (`C2.11`–`C2.12`) | Is a test report downloadable; are installs named |
+| **A7** route to market | Who carries it to the dealer | **Direct, globally, through the store** — distributors a case-by-case exception (`commercial-model.md`) | Direct, or through a distributor — and **whose** |
+| **A8** defensibility | What of their edge could be copied from their own published material | **The systemised method** (`C4.10`), currently black-boxed as IP — which is why `DR-Q52` is this brand's central question rather than a content one | Whether their differentiator is a product feature or an accumulated capability |
+
+### What applying the axes settles before any research
+
+**`A5` fixes `C1.38` without a price study, and this is the general lesson.** *"Above direct-sell GIK, comparable to
+RPG, slightly below Artnovion"* is a **price band** — unmeasured, and `Q64` now requires measurement. But the thing
+it was reaching for is a **posture**, and posture is observable in one visit to a website: **some competitors sell
+direct to the end user at published prices; C-ATS is trade-only, gated, and carries the integrator's margin.**
+**That is sayable, sourced, and names nobody.** *So `C1.38` never needed evidence — it needed replacing with the
+claim underneath it.*
+
+**`A1` is where C-ATS is strongest, and the axis runs backwards.** Most comparison axes reward the bigger number.
+This one rewards **publishing the number at all, with its mounting stated** — and C-ATS's numbers are deliberately
+low. It also makes `C1.4`'s *"jargon"* charge **checkable rather than rhetorical**: a competitor publishing
+coefficients with no mounting configuration is the jargon claim, evidenced.
+
+**`A4` and `A8` both catch us.** Our lead time is unrecorded, so the first empty cell is ours. And `A8` restates
+`DR-Q52` in competitive terms: **the least copyable thing we have is the thing we may not show.**
+
+### The shape of the roster the axes ask for
+
+*Not a list of competitors — the **kinds** of competitor each axis implies. **Nothing here is researched.***
+
+- **The one researched name** — Artnovion, a price-tier peer, reaching dealers through Karma AV while we go
+  direct. **An `A7` contrast already in the file.**
+- **The direct-sell tier** (`A5`) — sells acoustic treatment to end users at published prices. `positioning.md`
+  named **GIK**; the axis is posture, so this cell is observable without a price study.
+- **The specification tier** (`A5`, `A7`) — sells only through specifiers. **RPG** was placed here.
+- **The studio-acoustics tier** (`A1`) — a different buyer, the same physics, and the tier that **publishes most**,
+  so it is where the jargon claim is most testable.
+- **The fabric-system builders** (`A2`) — concealment is where C-ATS and Fabric Walls meet, and `Cinema Build
+  Systems` is already in this file with *"foam absorber and composite 'dispersal' panels"* against the engineered
+  3 Rs.
+
+**Standard 6 still binds:** record a competitor only when one is actually named in a deal; expect the picture to
+accrete slowly; no pretence of systematic loss attribution.
+
 ## Design tools — a different competitive front
 
 Newly relevant, and not previously documented here.

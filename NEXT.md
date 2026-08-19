@@ -62,6 +62,13 @@ reshaping into rows and not a collapse** — three entry points, one shared jour
 did change what the pathways say: `C4.15` (which proof leads), `C6.20` (the mechanism), `Q63` (the depth figures),
 `PR-13` (no install trap), `C2.17`–`C2.23` (why an integrator buys). Fold those in as the rows are written.*
 
+**Competitors: the instrument is built, the research is not.** `Q73` amended standard 4 to **eight axes** and they
+are applied to acoustics in `group-strategy/competitors.md` — **C-ATS's column complete from confirmed rows, every
+competitor cell deliberately empty.** *That table is the brief: it says what to go and find out, and `A4` and `A8`
+both catch us rather than them (our lead time is unrecorded; the least copyable thing we have is the thing
+`DR-Q52` may not let us show).* **`C1.38` is resolved rather than sourced** — the unmeasured price band is replaced
+by the `A5` posture claim, which is observable in one visit and names nobody.
+
 **⚠ The biggest correction of the day, and it is retrospective.** **`PR-18`: the live C-ATS site and store feed
 are a mockup, not evidence of the offer** (Neil, 2026-08-19). *They had been read as the state of the business
 throughout — `brand-data.md`'s "sources: the live site", its whole "live-site vs brand-truth tensions" section,
