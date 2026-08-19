@@ -172,69 +172,39 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 
 ## 5. The discipline
 
-Internal throughout — the rules that keep the positioning honest and stop it turning arrogant. This
-governs anyone writing C-ATS copy.
+Internal. The rules for anyone writing C-ATS copy. **Rewritten 2026-08-19 (`Q67`)** — it used to restate the group
+rules and the rest of this document, so a writer could obey it and still contradict the group. **Reasoning and
+history: `claims.md` §5.**
 
-**Voice**
+**The group rules apply in full and are not repeated here** (`../../CLAUDE.md` — voice, hard don'ts, the
+Scandinavian register). **If this section and `CLAUDE.md` ever disagree, `CLAUDE.md` wins.** Likewise the rest of
+this document binds from where it is written: §1, §3, §4, §6 and `product-records.md`.
 
-- **Lead with the dealer's result, never our expertise.** The integrator's win is the subject of
-  every sentence; our cleverness is never the point.
-- **Never imply the dealer can't do something** — accurate or not. They have a *choice*: specify it
-  themselves, or take the design service. The service is an option, never a rescue, and a project is
-  never described as too small or not worth designing.
+**Two group rules are named only because C-ATS is where they get broken:** scattering, never diffusion; and panels
+named by the problem, never the mechanism — *Reflection Control Panel*, never "diffuser".
 
-**Simplicity is the weapon**
+### C-ATS's own rules
 
-- State the problem plainly — three problems, three solutions. Don't dazzle with science; that's what
-  competitors do, and beating it is the whole positioning.
-- **No design-replacing calculator on the C-ATS site** — because of what its presence would *imply*, not
-  what it would reveal. **Confirmed by Neil, 2026-08-19 (`Q66`): it would undercut the paid design service.**
-  *Rule and reason both his. It binds whether or not a calculator exists to place, and it is separate from
-  whether the design rules may publish, which is `DR-Q52`.* Worked examples showing how quantities are derived are the self-serve route.
-  Bounded tools (e.g. reflection points) belong on Cinema Tools. See
-  `../../motion/tools.md`.
+- **State the depth. REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** Minimum depth was a design goal of the
+  system and it carries the floorspace argument — the figures *are* the argument. The comparative is **"one of the
+  shallowest complete systems on the market"**, never *the* shallowest, and it describes the system rather than a
+  panel. **RES-CP at 43 mm is the sharpest form of it, and the strongest single proof point we have.**
+- **State the problem plainly** — three problems, three solutions. Beating a jargon-heavy category is the
+  positioning.
+- **No design-replacing calculator on the C-ATS site.** It would undercut the paid design service; the objection
+  is what it *implies*, not what it would reveal. Bounded tools — reflection points, geometry not design — belong
+  on Cinema Tools.
+- **Worked examples showing how quantities are derived are the intended self-serve route, and it is not live
+  yet.** Do not put *"specify it yourself"* in front of a dealer until it is (§3, `DR-Q52`).
+- **C-ATS is the standard form of the name.** "Complete Acoustic Treatment System" is fine on first use; the legal
+  "Cinema Acoustic Treatment Systems" is for contracts.
+- **Never attack a competitor in public copy.**
+- **Fabric Walls is the natural concealment pairing and a genuine cross-sell — never a dependency.**
 
-**Honesty**
-
-- **Scattering, never diffusion.** Products are named by the problem they solve (Reflection Control
-  Panel), never the mechanism (never "diffuser"). This is a wording rule, not a sales line — never a
-  public boast about our own restraint.
-- **Only claim what the data supports.** The measured data is the basics, not an exhaustive regime; no
-  invented performance figures; stand on measured data, not a tool's output.
-- **State the depth.** ~~Depth is expressed relatively ("shallower than any competing product"), not as a bare
-  millimetre figure.~~ **Rule replaced — `Q63`, Neil, 2026-08-19.** **REF-CP and REV-CP are 50 mm; RES-CP is
-  43 mm**, and *"minimum depth was a key design goal of the system"* which *"feeds directly into discussion of
-  the costs of floorspace from deeper systems."* The figures are the argument, not a spec boast to withhold —
-  and a dealer cannot specify the panel without them.
-  - **The comparative is bounded: "one of the shallowest complete systems on the market."** Neil believes it to
-    be *the* shallowest total system *"but that is not checked and inevitably such a claim is never 100%
-    certain — certainly 'one of' would be valid."* **So no absolute superlative until somebody measures the
-    field**, and the claim is about the **whole system**, not a single panel.
-  - **RES-CP at 43 mm is the sharpest form of the argument** — *"a very, very unusual product delivering results
-    much deeper panels would be proud of, and those results are lab verified."* Claim `C4.15`.
-
-**Scope**
-
-- Don't fence the brand to a named space; state the problem, which travels to any room that has it.
-- Don't narrate isolation as the 3 Rs thesis expanding — it's here because C-ATS is the group's
-  acoustics brand.
-- Keep the commercial / big-room extension internal until it ships.
-
-**Naming, partners, rivals**
-
-- Use the form **C-ATS**. ~~Don't hard-code the "Complete" expansion (unresolved).~~ **Rule dropped —
-  `Q26`, 2026-08-16: *"the expansion is fine."*** So "Complete Acoustic Treatment System" may be used.
-  *Struck here 2026-08-19 (`DOC-27`); `../../CLAUDE.md` struck it on the day of the decision and this file
-  kept it, so the rule governed C-ATS copy for three days after it was dropped — claim `C5.24`.*
-- Never name material suppliers or manufacturing partners; never attack competitors in public copy.
-
-**Cross-brand**
-
-- Fabric Walls is the natural concealment pairing and a genuine cross-sell — but any stretch fabric
-  works, so C-ATS is never made dependent on it.
+*Open against this section: `PR-7` (whether three problems means three doors) · `Q64` (whether the competitor rule
+belongs at group level) · no ADR named for the Cinema Tools boundary.*
 
 ---
-
 ## 6. How C-ATS fits the group
 
 **Positioning core**
