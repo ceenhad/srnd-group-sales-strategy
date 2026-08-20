@@ -216,8 +216,14 @@ Internal only — the unresolved items to settle before they harden into copy.
 - **The commercial push beyond cinema.** Moving into commercial fit-out means leading with the
   *absorptive* acoustic story (not transparency) and reaching a different buyer (fit-out contractors).
   How hard to push, and how to reach them, is undecided.
-- **Buyer-truth.** The real split between AV integrator and fit-out contractor — who specifies, who
-  installs, who pays — from real recent jobs, not invented. Parked, as with C-ATS.
+- **Buyer-truth — an unasked question, not a parked decision.** The real split between AV integrator and fit-out
+  contractor: who specifies, who installs, who pays. ~~From real recent jobs, not invented. Parked, as with
+  C-ATS.~~ **The parking is struck** (`../../registers/questions.md` `Q58`, `../../registers/premises.md` `PR-3`,
+  2026-08-18). Neil, on the same apparatus in C-ATS: *"all of that shit about real recent jobs etc — what trash and
+  bullshit. Just needs cleaned out regardless."* **On C-ATS, half of it was answered in one sentence the first time
+  anyone asked** (`Q55`), and the rest is a question for an owner rather than a research project. *And the phrase
+  **"as with C-ATS"** is why this needed cleaning twice: the apparatus **propagated by citation**, so removing it
+  from one brand left it standing in another that pointed at the first.*
 - **The C-ATS acoustic-design overlap — resolved in principle, not yet in execution.** Acoustic design
   is C-ATS's; the Fabric Walls site still lists its own "Acoustic Treatment Design Service." Clean that
   up so the brands align.

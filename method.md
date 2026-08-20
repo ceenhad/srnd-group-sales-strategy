@@ -147,6 +147,22 @@ was that a capability was absent, and every time it was present in some state.**
 > "checked the platform" — **which repository, which directory, and what did the frontmatter say.** A gap asserted
 > without that is an assumption, and in this repo it has been the wrong one every time it was tested.*
 
+## Propagation by citation — the mechanism, not just the habit
+
+**Named 2026-08-19, after the fourth instance in three days.** *The repo's most repeated defect is a correction
+applied where it was spotted rather than everywhere the claim lives — `C5.24` (a rule dropped at group level, still
+governing brand copy three days later), `C7.1` (a claim struck in §2, still standing in §7 of the same file),
+`DOC-27`, and the buyer-truth apparatus in DT and Fabric Walls (`MTH-2`).*
+
+**The mechanism is worth naming because it predicts where to look.** *Two of those four spread through an explicit
+cross-reference — **"parked, as with C-ATS"** and **"as with the other brands"**. **A claim that cites another
+document does not merely duplicate it; it survives the original's deletion**, because the citation reads as
+provenance rather than as a copy.*
+
+> **The rule: when a claim is struck, grep for the brands and files that cite it, not only for its words.** *A
+> paraphrase pointing at the struck original is the hardest instance to find and the likeliest to be believed —
+> it looks sourced.*
+
 ## The four that failed on 2026-08-19 — one root, and it is not carelessness
 
 *One session, four failures, **all mine**, and every one caught by Neil rather than by the register. The root is

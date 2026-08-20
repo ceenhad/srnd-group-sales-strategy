@@ -88,7 +88,7 @@ current positioning. The identity is deliberately set above any single display t
   Integration isn't a nicety, it's the requirement.
 - **Forward relevance:** architectural integration is display-agnostic — LED walls need integrating too
   — so this competence carries across the projection→LED shift.
-- **Buyer-truth parked**, as with the other brands — the exact split (integrator vs specialist cinema
+- **Buyer-truth: an unasked question** ~~parked, as with the other brands~~ *(struck 2026-08-18, `Q58`/`PR-3` — the parking was ceremony; **and "as with the other brands" is how it spread**)* — the exact split (integrator vs specialist cinema
   contractor vs architect/designer) comes from real jobs, not invention.
 
 ---
@@ -275,7 +275,11 @@ Internal only — the unresolved items to settle before they harden into copy or
 - **Artmask.** A new art-masking category appears on the site but not in the product feed. Understand its
   role and how it sits against Screen Research's art masking (which we judged compromised and unpopular).
   Reconcile.
-- **Buyer-truth.** The real split — AV integrator vs specialist cinema contractor vs architect/designer —
-  from real jobs, not invented. Parked.
+- **Buyer-truth — an unasked question, not a parked decision.** The real split: AV integrator vs specialist cinema
+  contractor vs architect/designer. ~~From real jobs, not invented. Parked.~~ **Struck** (`../../registers/questions.md`
+  `Q58`, `../../registers/premises.md` `PR-3`, 2026-08-18) — *the parking was ceremony, and on C-ATS the equivalent
+  question was half-answered the first time it was put to an owner (`Q55`).* **And the actor cast is now confirmed at
+  group level** (`../c-ats/claims.md` `C2.27`): client, architect, interior designer, AV consultant, integrator —
+  *so the "split" question is narrower than it looked, and it is about **influence**, not identity.*
 - **Pivot timing.** How fast projection declines and how aggressively to shift resource from the projection
   base to the growth lines. A sequencing decision.
