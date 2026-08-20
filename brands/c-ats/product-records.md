@@ -174,7 +174,7 @@ us. A one-page manual fix and a sixty-second video, the single highest-return do
 | **What it does** | Absorbs at low frequencies, where room modes make bass uneven from seat to seat |
 | **How it works** | Corner loading — placed where modal pressure is highest, so a **43 mm** panel does work that would otherwise need far greater depth |
 | **What it is for** | Room corners and wall–ceiling junctions. The bass problem, which is the one dealers most often cannot solve |
-| **What it is *not* for** | Reflection control or general reverberation. Not isolation — resonance is a treatment problem, isolation is a different one entirely |
+| **What it is *not* for** | Reflection control or general reverberation. Not isolation — resonance is a treatment problem, isolation is a different one entirely. **↻ Scope note, 2026-08-19 (`Q79`): this is a *product* boundary and it stays. It is **not** a statement that C-ATS does not do isolation** — *the brand has always sold it, and it lives under C-ATS because isolation is part of the acoustic consultant's work (`claims.md` `C1.46`). **The repo had been reading this cell as a brand-level exclusion**, which put the group layer and this record in false conflict* |
 | **Scope of supply** | 600 × 600 × **43 mm** panel, 0.36 m² each; **4 per box = 1.44 m²**; moulded countersunk fixing holes *(depth corrected 2026-08-19 — see the shared `Depth` field)* |
 | **What it requires from others** | **4 × 3.5 × 60 mm bugle-head black drywall screws with threadless shank** per panel; corner access; a fabric layer if concealed |
 | **Configuration space** | One size. The larger 600 mm format is deliberate — corner loading needs area |

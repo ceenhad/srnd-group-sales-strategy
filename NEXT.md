@@ -167,7 +167,36 @@ kept at that layer: **a layer with a nominal owner who declines it behaves worse
 because everyone can point at somebody. Whether that pattern holds in the other two layers is **unknown and flagged
 as the obvious thing to check on the next brand run**.*
 
-**Resume at: `Q79` — the group layer claims a layer the brand disclaims.** *`the-group-play.md` says C-ATS covers
+**`Q79` answered, and it is the largest find of the day.** *The group layer was right: **we have always sold
+isolation**, it fits no other brand, and it lives under C-ATS because **isolation is part of the acoustic
+consultant's work** (Neil). **Neither document needed editing** — the record's *"not isolation"* is a **product**
+boundary that must stay; the group's is a **brand** boundary; **the repo had been reading a panel-level exclusion as
+a brand-level one** (`C1.46`).*
+
+**Then the invoice data was checked to confirm it, and the confirmation was the finding** —
+`evidence/2026-08-19-isolation-is-a-sold-layer.md`. *Ten isolation hardware items, **and a six-step isolation service
+ladder** (discovery · design · drawings · details · BOM · build guide), **each step separately priced and averaging
+several times the acoustic treatment design fee.*** **Four consequences:**
+- **`Q45` has an in-house precedent it never looked at** — the adjacent layer prices design **staged by
+  deliverable**, which is one of the shapes `Q45` is choosing between. **`KNW-7`.**
+- **`C1.44` is confirmed the hard way.** *"Even with guides, someone gets paid to design it" is not a theory — the
+  layer next door has been proving it for years at that price.*
+- **`C1.48` corrects the day-old three-layer account, in our favour.** *In **supply** terms C-ATS covers **two** of
+  the three layers and Fabric Walls the third — so *"involved in all three"* describes the **range**, not the reach.
+  **The decisions stay with three disciplines; the supply does not.*** *Written up in
+  `group-strategy/the-group-play.md`.*
+- **A sold layer has nothing written about it anywhere** — no record, no content, no pathway. **`CAT-05` sat with
+  three of four cells empty for two years while it invoiced**, and the evidence was in **our own derived data** the
+  whole time. **`KNW-6`**, and `../method.md`'s lesson with a new twist: *this time what nobody looked at was ours,
+  not the platform's.*
+
+**Resume at: `KNW-6` — the isolation record.** *Everything else about the layer waits on it, and it starts with an
+advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
+before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on
+the client leave-behind, `T5`'s two confirmations, `Q74`, and `DOC-31` (does the mockup store list isolation at
+all).*
+
+~~**Resume at: `Q79` — the group layer claims a layer the brand disclaims.**~~ *`the-group-play.md` says C-ATS covers
 *"reflection, resonance and reverberation, **plus isolation**"*; the C-ATS record says ***"not isolation — resonance
 is a treatment problem, isolation is a different one entirely"***, and `C1.40` puts isolation with the architectural
 design. **Left visible rather than quietly edited**, because the likely resolution is a distinction the documents are

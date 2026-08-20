@@ -65,10 +65,18 @@ differs, engine is right and this file is wrong — reconciling the two is `regi
 | `CAT-02` | **Resonance Control Panel** | `C-ATS-RES-CP` | **filled** | current | `srnd.store` |
 | `CAT-03` | **Reverberation Control Panel** | `C-ATS-REV-CP-50` | **filled** | current | `srnd.store` |
 | `CAT-04` | **Marine Reflection Control Panel** | `C-ATS-REF-CP-MAR` | none | current | `srnd.store` |
-| `CAT-05` | **Isolation System** | — | none | `[?]` | `[?]` |
-| `CAT-06` | **Design service** | — | none | current | trade, by enquiry |
+| `CAT-05` | **Isolation System** | **↻ FILLED FROM INVOICES 2026-08-19.** A decoupling hardware set — *a barite-loaded elastomer compound, a proprietary channel clip, **five** custom bracket variants, a mount, a penetration back box* — **plus a six-step service ladder** *(discovery · design · drawings · details · BOM · build guide)* | none | **current** *(was `[?]`)* | **`srnd.store`** *(was `[?]`)* |
+| `CAT-06` | **Design service** | — **⚠ this row conflates two services at very different prices**: the acoustic **treatment** design (£2,400 median, 41 engagements) and the **isolation** design ladder now under `CAT-05`. *They are different deliverables with different buyers; one row cannot carry both* | none | current | trade, by enquiry |
 | `CAT-07` | **Verification service** | — | none | current | trade, by enquiry |
 | `CAT-08` | **Commercial / large-format range** | — | none | **pre-release** | not listed |
+
+**↻ `CAT-05` was the register's most expensive empty row, and it was empty for two years.** *Three of its four cells
+were `—` or `[?]`, so **nothing downstream could see a sold layer**: no record, no claims, no content, no pathway, no
+place in the three-layer account of a room. **The evidence was in this repo's own derived data the whole time**
+(`../evidence/2026-08-19-isolation-is-a-sold-layer.md`, from `../data/derived/srnd-store-item-categories.csv`), and
+it took an owner answering a contradiction between two documents to go and look. *`../method.md`'s standing lesson
+— **the material was not missing, it was somewhere nobody looked** — with the twist that this time it was **our own
+data**, not the platform's.*
 
 **Notes, and two of them are live risks:**
 

@@ -129,13 +129,34 @@ and SRND is often involved in all three."***
    burden actually falls** — between disciplines, not between our brands — which is the burden a dealer currently
    carries and the one the platform exists to remove.*
 
-**One discrepancy this surfaced, and it is in the list above, not in Neil's account.** *The brand list says C-ATS
-covers *"reflection, resonance and reverberation, **plus isolation**"*. **The brand's own record says the
-opposite** — `../brands/c-ats/product-records.md`, resonance record: *"**Not** isolation — resonance is a treatment
-problem, isolation is a different one entirely."* *And `C1.40` puts isolation with the architectural design.* **So
-the group layer has been claiming a layer the brand disclaims** — `../registers/questions.md` `Q79`. *Left visible
-rather than quietly edited, because which of the two is wrong is not mine to decide: we may well **design**
-isolation without **supplying** it, and those are different claims.*
+### ↻ Corrected the same day, and in the group's favour — `Q79`
+
+**The version above splits the room by *whose decision* each layer is, and then quietly implies the supply splits
+the same way. It does not.** *Asking which document was right about isolation — this one claimed the layer, the C-ATS
+record appeared to disclaim it — produced the opposite of a climbdown.* **Neil, 2026-08-19:** ***"We have always sold
+isolation but it didn't fit into any other brand. It's part of the work of the acoustic consultant so the correct
+place for it to live contextually is under C-ATS."***
+
+| Layer | Whose **decision** it is | Whose **product** it is |
+|---|---|---|
+| Sound isolation | Architectural design | **C-ATS** |
+| Acoustic treatment | Nominally the acoustic consultant | **C-ATS** |
+| Interior finish | Interior design | **Fabric Walls** |
+
+**So *"SRND is often involved in all three"* is a statement about the range, not about reach: two brands out of six
+cover the whole acoustic-and-finish stack of a room** (`../brands/c-ats/claims.md` `C1.48`). *And the distinction
+that has to survive every retelling: **the decisions stay with three different disciplines; the supply does not.** We
+are not claiming to own an architect's decision — only to be the one supplier standing behind all three of them.*
+
+**Neither document needed editing.** *The record's *"not isolation"* is a **product** boundary — a corner absorber is
+not an isolation device, and that guard must stay. This page's line is a **brand** boundary. **The repo had been
+reading a panel-level exclusion as a brand-level one** (`C1.46`).*
+
+**And the invoice data, checked to confirm it, is the strongest thing in this section.** *A **six-step isolation
+service ladder** — discovery, design, drawings, details, bill of materials, build guide — **each step separately
+priced, averaging several times the acoustic treatment design fee.** *(`../evidence/2026-08-19-isolation-is-a-sold-layer.md`;
+figures stay in the evidence file, not on a strategy page.)* **This is the *"buying the whole room ought to be
+easier"* problem below, already solved once, in the layer nobody in this repo had written down.***
 
 **Two things are genuine joint capabilities rather than cross-sell opportunities:**
 
