@@ -33,12 +33,30 @@ ever bought C-ATS out of 549 in the group ledger — 9.7%.** *Of those 53: **18 
 **7 recent** (2024), **16 lapsed** (2020–23, £140,108). Total external product revenue 2015→2026: **£495,106**.*
 
 **The objective is a direction with no quantity.** *`claims.md` `C2.15`, Neil's own words and the only confirmed
-statement of the job: **"we need to engage with more AV integrators."*** **No number, no horizon, and no choice
-between the three ways of doing it** — *win new accounts from the 496 who have never bought · reactivate the 16
-lapsed · deepen the 18 active.* **Those are three different plans with three different costs, and nothing chooses.**
+statement of the job: **"we need to engage with more AV integrators."*** **No number and no horizon.** *~~And no choice
+between three ways of doing it — win new · reactivate the lapsed · deepen the active.~~ **That framing was withdrawn
+the same day — see below. One motion, everybody treated as new.***
 
-> **Closes with:** *one decision — how many, by when, and which of the three. **The baseline is already computed, so
-> this is a sentence, not a project.*** **And it is the gap that unblocks prioritisation of everything else.**
+> **↻ Reframed 2026-08-19 by two answers from Neil, and `P1` got harder rather than easier.**
+>
+> **(a) The measure has to be defined before the number.** *Neil: **"one of the questions is how do we measure this
+> going forward. One of the main reasons it's down is that invoices haven't been made for all that SRND has sold.
+> Where do we count SRND sales vs distributor sales?"*** **So the baseline is a lagging, incomplete instrument and no
+> target may be set against it yet.** *The counting rule is now written out in four parts —
+> `../../evidence/current-state.md` § The counting rule: **when a sale counts, where a distributor sale is counted,
+> whether the unit is accounts or rooms, and over what window.** Three facts from the data push the same way: the
+> revenue is **project-driven** (45 % of 2025 was two accounts that did not recur), **19 % of lifetime revenue came
+> through two DT distributors** while C-ATS has no distributor appointments of its own, and the account count carries
+> a **known name-normalisation error** (`MON-18`).*
+>
+> **(b) There is one motion, not three.** *Neil: **"none of this — please clearly understand that treating all of
+> them as new is the most efficient approach."*** **`PR-22` broken.** *The recency segments stay valid as
+> **measurement** and are **not** a segmentation of the approach: a dealer who bought in 2021 and one who never has
+> both need telling what C-ATS is and why it fits the room in front of them, and **differentiating the pitch costs
+> owner hours (`P4`) and buys nothing.** Which is `growth-levers.md`'s own rule — *"the proposition re-pointed, not a
+> separate operation"* — applied one level down, where nobody had applied it.*
+>
+> **Closes with:** *the counting rule first, then one number against it.*
 
 ### `P2` — Isolation is a sold C-ATS layer with no plan at all
 

@@ -416,16 +416,53 @@ read as the same thing. To be filled in.*
 | **The warm part of that pool** — CRM `CATS Status = Presented` | **49 accounts** *(plus 16 `Approached`)* |
 | The lapsed list — last C-ATS order 2020–23 | **16 accounts**, £140,108 lifetime |
 
-**Two things to hold when reading this.** *(1) **The line is volatile at this scale** — November 2025 alone was
-£18,357, so one account moves a year, and a revenue target on a £70k line made of £3k orders is a noisy instrument.
-**An account-count target is the more honest one**, and it is also the one that matches `C2.15`. (2) **One check
-before the decline is treated as settled**: the last C-ATS invoice is 9 July while the ledger runs to 12 August, so
-**confirm nothing is unposted** — though a five-week gap is unremarkable for a product with 29 orders a year.*
+**⚠ The decline is not a demand measurement — Neil, 2026-08-19.** *The check flagged here was answered
+immediately, and against the figure: ***"one of the main reasons it's down is that invoices haven't been made for all
+that SRND has sold."*** **So the 2026 figure understates what was sold, by an unknown amount**, and **no target may be
+set against it until the counting rule is defined** — see the next section.
+
+**Three more things the numbers themselves say, all of which weaken an accounts-per-year measure.**
+
+1. **The revenue is project-driven, not account-driven.** *2025's two largest accounts — **£16,080** and **£14,715**,
+   together **45 %** of the year — simply did not recur in 2026. A dealer buys for a job and then stops until the next
+   job, which is why the repeat rate is 32 % and why the swings are large. **So "active accounts per year" counts
+   projects that happened, not relationships that exist**, and a 12-month window is shorter than the repurchase
+   cycle.*
+2. **Roughly a fifth of C-ATS's lifetime revenue came through two DT distributors** — *Apex Technologies USA
+   (£41,057) and Genesis Technologies AG (£54,078), **£95,135 of £495,106 = 19 %***. **C-ATS has no distributor
+   appointments of its own** (the 21-appointment network above is almost entirely DT's), *so these are DT
+   distributors buying C-ATS alongside — and **Apex has resigned, with the agreement ended 1 July 2026.*** **Where
+   those sales are counted decides whether C-ATS has 53 accounts or 53 plus whoever sat behind those two.**
+3. **The name-normalisation defect is in this data too** — *`Meridian Audio` and `Meridian Audio Ltd` appear as
+   separate 2025 accounts; `Base Ltd t/a Genesis AV` is a different entity from `Genesis Technologies AG`. **So the
+   account count itself carries a known error bar** (`MON-18`).*
 
 
 *Note also, and it needs confirming: **"various distributors" implies live distributor routes today**, which sits
 alongside the direct-first decision (C1, `../group-strategy/commercial-model.md`) rather than contradicting it — that decision governs new
 appointments. What exists now should be listed here rather than assumed away.*
+
+## The counting rule — undefined, and it blocks the target
+
+**Neil, 2026-08-19, asked before any number was set:** ***"One of the questions is how do we measure this going
+forward. One of the main reasons it's down is that invoices haven't been made for all that SRND has sold. Where do we
+count SRND sales vs distributor sales?"***
+
+**That is the prior question, and `P1` cannot be answered until it is settled.** *A target against an instrument this
+loose would measure invoicing behaviour and project timing rather than anything anyone is trying to change.* **Four
+parts, with what the data says about each:**
+
+| | The question | What the evidence says | Proposed |
+|---|---|---|---|
+| **1** | **When does a sale count** — invoiced, or ordered and shipped? | *Neil: **invoices have not been raised for everything sold.** The ledger is therefore a lagging and incomplete instrument, and the lag is not measured* | **Count at order or dispatch, not invoice.** *Invoicing is a finance event; the sale already happened, and the measure should not wait on admin* |
+| **2** | **Where is a distributor sale counted** — at the distributor, or at the dealer behind it? | ***19 % of C-ATS lifetime revenue came through two DT distributors**, and C-ATS has **no distributor appointments of its own**. Apex has now resigned* | **Count the revenue at the distributor and record the dealer where it is known.** *Anything else either double-counts or loses the room* |
+| **3** | **What is the unit** — accounts, or rooms treated? | *Buying is **project-driven**: 45 % of 2025 came from two accounts that did not recur, and the repeat rate is 32 %* | **Rooms treated is the truer unit**, and it is the one that matches what the business does. *Accounts is what the ledger can produce today* |
+| **4** | **Over what window** | *A year is **shorter than the repurchase cycle**, so a 12-month count reports project timing as relationship health* | **A three-year rolling window for accounts**, with rooms counted annually |
+
+**And one measurement that already exists and is being ignored.** *The CRM carries `CATS Status` — **49 `Presented`,
+16 `Approached`, 16 `Current Customer`** — which is **the only place a pipeline exists at all**. The ledger cannot
+show an approach that has not yet paid. **Whatever rule is chosen, the pipeline measure is already instrumented and
+nobody reads it.**
 
 ## What to do with this
 
