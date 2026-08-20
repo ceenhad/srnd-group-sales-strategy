@@ -6,6 +6,13 @@ sound convincing — first reflections — and the panel that answers it, the **
 its one job, its honest state, and the handoff to the next. **Same eight slots as the first door; only the
 substance changes** — which is the template's claim, tested here for the first time. Drafted for correction.*
 
+> **⚠ The state of every slot now lives in `pathways.md`** (`MTH-1`, 2026-08-19). *This file was prose-with-tables,
+> the shape `PR-9` broke; the register is the authoritative form and the slot table below is superseded by it.*
+> **Two things changed that this file predates:** entry is keyed to the **three project moments** `M1`–`M3`, not to a
+> symptom (`PR-14` broken, `PR-7` broken on its own falsifier, `claims.md` `C2.24`–`C2.26`); and **slot 4 confirms
+> rather than proves** (`PR-4` — *"if it's not legal or safety no one gives a shit"*). **What is kept here is the
+> per-door argument, which rows cannot hold.**
+
 ## The door
 
 The problem, in the dealer's words: **`[?]`**. Drafted phrasing exists — *"the sound arriving off the side walls

@@ -7,6 +7,13 @@ this is **assembly, not creation**. Each slot names the piece, its one job, its 
 that connects it to the next — the handoffs are the pathway. Drafted for correction. Once corrected, this is
 the template every other door copies: the slots generalise, only the substance changes.*
 
+> **⚠ The state of every slot now lives in `pathways.md`** (`MTH-1`, 2026-08-19). *This file was prose-with-tables,
+> the shape `PR-9` broke; the register is the authoritative form and the slot table below is superseded by it.*
+> **Two things changed that this file predates:** entry is keyed to the **three project moments** `M1`–`M3`, not to a
+> symptom (`PR-14` broken, `PR-7` broken on its own falsifier, `claims.md` `C2.24`–`C2.26`); and **slot 4 confirms
+> rather than proves** (`PR-4` — *"if it's not legal or safety no one gives a shit"*). **What is kept here is the
+> per-door argument, which rows cannot hold.**
+
 ## The door
 
 The problem, in the dealer's words: *"the room sounds echoey — you can't make out the dialogue"* **[phrasing
