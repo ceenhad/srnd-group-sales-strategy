@@ -344,7 +344,39 @@ two failures at once:** *proposing a counting rule for a ledger **instead of rea
 — `PR-1`'s pattern a fifth time, with the system named in the question — and **using an owner's supplied figures to
 score the past** rather than to inform a decision.*
 
-**Resume at: `ENG-1` → `ENG-3`.** *Populate the customer type, then the two reports, then decide what counts as a
+**↻ The bigger question answered, 2026-08-20 — `evidence/2026-08-20-traceable-success-the-engine-join.md`.** *Neil:
+**"what does traceable success look like as we move each brand through the buyer journey? How do these connect back
+to our activities and what exactly are those activities? How are we implementing those activities?"*** **This closes
+`JNY-1`, which asked for exactly this map and could not be finished before because nobody had read engine.**
+
+**The funnel has numbers for the first time: `G3` 6 → `G4` 35 → `G6` 2.** *`G3` on its own wording is registration
+**with marketing permission**, which is **6**, not the 17 approved. Read as a first reading of a young system, **not
+as performance** — engine's order history is weeks old.*
+
+**And the shape is the finding: the buying half of the journey is instrumented and the interest-generating half is
+not.** *`G1` is **not in engine at all** — engine cannot see a visit, only a lead. **So the activities we are
+investing in are the ones we cannot measure**, which for a content-as-rep plan is exactly the wrong way round.*
+
+**Three specific things, none of which is a build:**
+- **Engine already models the whole chain** — `leads → projects → quotes → sales_orders → products.brand_id`, with
+  `projects` carrying `source_lead_id`, `brand_id`, `expected_value` and `probability`. **It is broken at three
+  unpopulated joins**: *`projects.source_lead_id` **0/50**, `projects.brand_id` **0/50**, `sales_orders.project_id`
+  **1/74***. **`JNY-5`.**
+- ***"Which hook caught which dealer"* is not answerable.** *`lead_sources` has five codes — `website`, `referral`,
+  `trade_show`, `manual`, `import` — and there is **no campaign, UTM or attribution table anywhere in engine**. A CPD
+  seminar, an AI answer, a podcast and a data card all arrive as `website`. **`lead_sources.meta` is already `jsonb`,
+  so an identifier has somewhere to go without a schema change** — nothing writes one.* **`JNY-4`, and every measure
+  of a marketing activity depends on it.**
+- **The activities themselves are not missing.** *`motion/content.md` § The map already places **fourteen content
+  types** against the six stages, plus the studio and the virtualised Experience Centre. **What is missing is that
+  nothing emits a traceable source** — so the operating loop can produce work and cannot yet learn from it.*
+  **`G5` is still undefined** (`support_tickets` exists, 0 rows) — **`JNY-6`**.
+
+**Resume in this order: `ENG-1` → `JNY-4` → `JNY-5` → `JNY-6` → then `ENG-2`.** *Populate the customer type, decide
+the source vocabulary, fill the project joins, define `G5` — **then** two numbers against a working instrument. **The
+target comes last because it is the only part that cannot be built before the instrument works.***
+
+~~**Resume at: `ENG-1` → `ENG-3`.**~~ *Populate the customer type, then the two reports, then decide what counts as a
 lead. **The number comes after the instrument, and the instrument is engine, not the ledger.*** *`P2`–`P7` in
 `brands/c-ats/planning-gaps.md` are unaffected.*
 
