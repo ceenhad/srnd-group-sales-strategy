@@ -85,3 +85,52 @@ way.* **Two consequences:**
 - **Nothing here is blocked on authoring.** *Of twelve per-door cells: two are paste jobs, four are publish-or-surface
   jobs, three are recordings, one is a fetch (`DOC-4`), one is an inventory check, and **one is a genuine piece of
   writing** — the corner-placement page. `PR-2`'s count holds up.*
+
+## The pricing moment (`M2`) — how a dealer gets an early number
+
+*Worked 2026-08-19 from `cinema-platform` `products/cinema-tools/docs/product/c-ats-system-design-rules.md`, read
+against its governing ADR as `../../method.md` requires.*
+
+**The problem.** A dealer pricing a build cannot quote a client without a treatment cost, and this is the moment
+they cannot get past. `M2` was the worst-served entry in the whole set.
+
+**What already exists, and it is more than the repo thought.**
+
+| | Fact | Source |
+|---|---|---|
+| **A coarse unit** | **1 box = 1.44 m² of coverage** (16 REF / 16 REV / 4 RES). **Quantities round *up* to whole boxes** — a customer uses a full box | design rules § "The box quantum" |
+| **A scoping layer** | **Bronze / Silver / Gold** — *"scope + target + how far down the reflection-triage list"*, with **"output always in whole boxes"**. Gold flips the floor to a wood walkway | design rules § Grades |
+| **A path from a room to a count** | *room + format + finishes + grade → derived layout → these rules → **boxes*** | design rules § Two-tier product |
+| **One anchor point** | Joppa Road, **7.05 × 4.95 × 2.6 m**, 7.1.4, 7 seats: **Gold on carpet = 11 boxes** (REF 6 + REV 1 + RES 4) | design rules § Worked reference |
+
+**So the method to turn a room into a number exists and runs.** *What does not exist is a way for a dealer to reach
+it.*
+
+### The answer is worked results, not a tool — and that is settled, not a preference
+
+**The design-rules document describes a *"Tier-0 (free)"* self-serve route. It is stale.** *ADR **017 v2**
+(`accepted`, supersedes 1, 14, 19, 73) decision 5: **"Level 2, Cinema Tools Online, is withdrawn. Not a paid design
+environment, not a thin entry surface — withdrawn."** Decision 4: **Cinema Tools Pro is internal tooling, "no
+external user logs into it."*** **Flagged for the platform's owner, not fixed here** (`../../registers/backlog.md`
+`DR-1`): *this is the same defect as `rp22-acoustic-targets.md` citing a superseded ADR — a product document
+outliving its decision.*
+
+**Three constraints therefore converge on one answer, which is a good sign rather than a coincidence:**
+
+1. **No calculator on the C-ATS site** — Neil confirmed the rule *and* its reason (`claims.md` `C5.12`, `Q66`): it
+   would undercut the paid design service.
+2. **No self-serve environment** — withdrawn by ADR 017 v2 §5.
+3. **Worked results are publishable** — `../../operations/decision-request-q52-cats-rules-publication.md` puts
+   *"worked **results** — room, grade, box count, per-axis outcome"* on the publishable side, and *"worked
+   **derivations** at algorithm level"* on the other.
+
+> **The answer: a published table of representative rooms — size, grade, box count.** *A dealer pricing a build
+> finds the room nearest theirs at the grade they are selling and reads off a number. **Whole boxes, so it claims no
+> precision it does not have**, and it is `positioning.md` §1's own sentence — *"worked examples showing how
+> quantities are derived"* — delivered as examples rather than as a form.*
+
+**And the blocker is not method, permission or authoring. It is that nobody has run the engine over a spread of
+rooms.** *There is **one** worked room. One point cannot establish a range, and inventing a boxes-per-m³ ratio from
+it would be exactly the failure `../../method.md` § "The four that failed on 2026-08-19" describes. **The engine is
+built and already produces this output**, so the cost is a run, not a project* (`../../registers/backlog.md`
+`EST-7`).

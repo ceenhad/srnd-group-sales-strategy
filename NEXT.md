@@ -53,7 +53,13 @@ simply the option we gave them."*** **Testable — `DAT-2`.**
 re-key exposed — **nothing in the ledger or CRM records a project stage**, so segmentation routes to a journey stage
 and never to a moment, which makes the moment a question the first exchange has to ask.*
 
-**Resume at:** **`M2` — the moment a dealer cannot get past, and the worst served.** *They cannot quote a client
+**`M2` answered 2026-08-19 — see `brands/c-ats/pathways.md` § the pricing moment.** *A dealer pricing a build gets
+an early number from a **published table of representative rooms** — size, grade, box count — not from a tool. Three
+separate constraints converge on that: the no-calculator rule Neil confirmed, ADR 017 v2's withdrawal of the
+self-serve surface, and `DR-Q52` putting worked **results** on the publishable side. **The blocker is data, not
+method: there is exactly one worked room.** `EST-7` is an engine run, not a project.*
+
+**~~Resume at:~~ ~~`M2` — the moment a dealer cannot get past, and the worst served.~~** *They cannot quote a client
 without a treatment number. The hook that would answer it is `Q59`-blocked as aspiration, the price is open on
 `Q45` (basis now known: a design is a day, not three), and the box quantum is the thing that makes an early number
 possible at all. **Everything else in the hook set is upstream of a gate nobody has opened.***
