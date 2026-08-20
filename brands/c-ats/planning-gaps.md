@@ -125,7 +125,7 @@ validation** for pro install, commercial cinema or fit-out.* **A lever that cann
 > **Closes with:** *pick **one** channel and define what would count as validation — or say lever 2 is not this
 > year's work. **Both are decisions; holding three unvalidated channels open is not.***
 
-### `P7` — Verification is a capability that was never made an offer
+### ~~`P7` — Verification is a capability that was never made an offer~~ — WITHDRAWN
 
 *`claims.md` `C3.4`, `C4.5`: verification is a **capability**. `positioning.md` §4 sells on it — *"any room it treats
 can be measured to confirm it performs"*.* **It is not priced, not in a ladder, and not sold** — *the same shape as
@@ -139,6 +139,14 @@ isolation, one size smaller.*
 > not a question of whether to offer it.*
 >
 > **Closes with:** *a price and a rung, alongside `P3`.*
+>
+> **↻↻ And confirmed independently, 2026-08-20, which matters.** *The correction above rests on `cats-98x.pages.dev`,
+> **whose provenance is unknown** (`SIT-8`). **`c-ats.myshopify.com` — Neil's own mockup — settles it**: it lists
+> **`C-ATS-VER-A` Acoustic Verification** as a product, alongside **`C-ATS-ISO-SYS` Isolation System** and
+> **`C-ATS-VER-ISO` Isolation Verification**, with a published article
+> `acoustic-verification-proving-the-room-performs`.* **And `copy.md` carried all three as services all along — this
+> file never read it.** *What survives is narrower: **verification is listed and not priced**, and `P2` stands
+> because **isolation is listed without a plan behind it.***
 
 ---
 
