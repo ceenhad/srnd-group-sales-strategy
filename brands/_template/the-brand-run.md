@@ -19,6 +19,12 @@ group-level and is not re-derived.*
 
 ## The precondition
 
+**Check the platform first, then the record — and assume the thing you think is missing is there.** *This has now
+broken four times: the sizing method (`PR-1`), what a platform document means (`PR-10`), what the live site is
+(`PR-18`), and **a 207-chapter training curriculum found minutes after training was logged as work that would have to
+be written** (`PR-20`). **The rule is not "remember to check" — it is that this repo's default assumption about any
+missing capability has been wrong every time.***
+
 **Check the platform first, then the record.** The brand folder is not the whole material — `cinema-platform`
 holds engines, design rules and ADRs that move faster than this repo, and on the C-ATS run the single most
 important answer in the brand (*how many panels do I need*) turned out to live there, fully systemised, while the

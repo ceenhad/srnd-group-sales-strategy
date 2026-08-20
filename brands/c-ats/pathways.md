@@ -129,6 +129,31 @@ outliving its decision.*
 > precision it does not have**, and it is `positioning.md` §1's own sentence — *"worked examples showing how
 > quantities are derived"* — delivered as examples rather than as a form.*
 
+### The half I missed: a count is useless without a layout
+
+**Neil, 2026-08-19:** ***"The half you miss is that they also need to know where to put the panels. That's standard
+layouts for those rooms. That's also exactly what Cinema Tools can now spit out for us."*** **Correct — and a box
+count on its own would have been a worse deliverable than none**, because it prices a job the dealer still cannot
+execute.
+
+**The engine already produces the placement, and to more detail than a standard layout needs:**
+
+| What it emits | From |
+|---|---|
+| **Boxes *and* placement together** — *"these rules → boxes + EID-keyed placement → trade basket"* | design rules § Two-tier product |
+| **Per-seat image-source placement (Seat sheets) and the 11-layer placement algorithm** | design rules § Where the engine adds rigour |
+| **Rules that are already placement instructions** — RES straddles the corner across both adjoining walls floor to ceiling, ceiling corners for the height axis; REV around the speakers for comb-filter control, then fill; REF by reflection-triage score | design rules §§ 5–6 |
+| **A derived layout from the room alone** — *"room + format + finishes + grade → derived layout (speakers, prime seat, 4-corner subs)"* | design rules § Two-tier product |
+
+**So the deliverable is a standard room *with its layout*, not a price list.** *Room size, format, seat count and
+rows, grade → **box count and where each box goes**. And because the layout is derived from the room, a "standard
+room" is fully specified by its dimensions, format and seating — nothing has to be invented to define one.*
+
+**The publication line holds, and for the same reason as before.** *The **11-layer placement algorithm** is on the
+not-publishable side of `../../operations/decision-request-q52-cats-rules-publication.md`. **A layout for a named
+standard room is its output, not the algorithm** — the same distinction that lets the box count publish. **What a
+dealer gets is where the panels go in a room like theirs; what stays in is how that was computed.***
+
 **And the blocker is not method, permission or authoring. It is that nobody has run the engine over a spread of
 rooms.** *There is **one** worked room. One point cannot establish a range, and inventing a boxes-per-m³ ratio from
 it would be exactly the failure `../../method.md` § "The four that failed on 2026-08-19" describes. **The engine is

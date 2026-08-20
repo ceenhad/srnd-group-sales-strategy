@@ -1,5 +1,10 @@
 # C-ATS — training opportunities
 
+> **⚠ Read `EDU-3` before working this file.** *Every *"needs to run"* cell below was written on the assumption that
+> a module would have to be authored. **`cinema-platform` holds 207 training markdown files** — a *"cinema-expert"*
+> curriculum, residential 92 chapters and commercial 112 (`../../registers/premises.md` `PR-20`). **Their state is
+> unknown; their existence is not.** Several of the five rows below may already be written.*
+
 *Leg 4 of the brand run (`../_template/the-brand-run.md`), first instance. **Every subject traces to a record field
 or a confirmed claim** — a subject with no trace is a topic, not an opportunity. **Not yet put to Neil**; the
 *"needs to run"* column is mostly an owner's calendar, which `Q25` says is his and Simon's.*
