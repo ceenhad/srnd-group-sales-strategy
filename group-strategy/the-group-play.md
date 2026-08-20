@@ -93,6 +93,50 @@ The brands are not six lines sharing an invoice. They are the layers of one room
   surface.
 - **Light Walls is the lighting** — strategy deliberately deferred and worked separately.
 
+### The same room cut a different way: three layers with three owners
+
+*Added 2026-08-19 from Neil's account of how a project actually divides (`../brands/c-ats/claims.md` `C1.40`–`C1.42`,
+`Q75`). **The list above cuts the room by brand. This cuts it by who owns the decision** — and that is the cut that
+says where the group has to be present.*
+
+**A high-end room is built in three layers, and they belong to three different people:**
+
+| Layer | What it decides | Whose it is |
+|---|---|---|
+| **Sound isolation** | The room's **structural dimensions** | Travels with the **architectural** design |
+| **Acoustic treatment** | How the room sounds, inside that shell | **Nominally the acoustic consultant's** — and in practice the layer that stalls |
+| **Interior finish** | The **fabric wall the client actually sees** | The **interior** design |
+
+**Neil, 2026-08-19:** ***"They are separate things… C-ATS fits nicely physically and metaphorically between the two,
+and SRND is often involved in all three."***
+
+**Three things this changes at the group level.**
+
+1. **It is the structural version of *"one relationship, whole room"*.** *Not a slogan about invoices — **a
+   description of being present in all three layers of a project's design**, which is a different and much harder
+   thing than carrying six brands.* **And it names where presence is actually contested:** *the isolation layer is
+   won or lost with the architect, and the finish layer with the interior designer, long before anyone is choosing
+   products.*
+2. **The middle layer is the one that stalls, and the reason is not knowledge.** *Cited, not restated:
+   `../brands/c-ats/claims.md` `C1.43` records three separate refusals from three named parties, **only one of which
+   is a knowledge problem**, and `C1.44` records the consequence — **guides do not remove the need to pay somebody**.*
+   **The general form is worth holding at this layer:** *a layer with a nominal owner who declines it behaves worse
+   than a layer with no owner at all, because everyone can point at somebody.* **Whether the same pattern holds in
+   the other layers is not known and should not be assumed** — *it is the obvious thing to check on the next brand
+   run.*
+3. **It gives the *"buying the whole room ought to be easier"* section below something concrete to be about.**
+   *Fragmentation is an operational problem, as that section says. **But the three layers say where the coordination
+   burden actually falls** — between disciplines, not between our brands — which is the burden a dealer currently
+   carries and the one the platform exists to remove.*
+
+**One discrepancy this surfaced, and it is in the list above, not in Neil's account.** *The brand list says C-ATS
+covers *"reflection, resonance and reverberation, **plus isolation**"*. **The brand's own record says the
+opposite** — `../brands/c-ats/product-records.md`, resonance record: *"**Not** isolation — resonance is a treatment
+problem, isolation is a different one entirely."* *And `C1.40` puts isolation with the architectural design.* **So
+the group layer has been claiming a layer the brand disclaims** — `../registers/questions.md` `Q79`. *Left visible
+rather than quietly edited, because which of the two is wrong is not mine to decide: we may well **design**
+isolation without **supplying** it, and those are different claims.*
+
 **Two things are genuine joint capabilities rather than cross-sell opportunities:**
 
 **The Screen Wall** is the whole-room proposition made physical — a modular front-of-room structure with a

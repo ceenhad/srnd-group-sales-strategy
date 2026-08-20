@@ -342,6 +342,17 @@ jargon."* **This tier does not sell jargon — it writes the science.** *Keith Y
 explanation and a proprietary Scorecard; Aylett chaired the standard; Lemay founded the certification body. **That
 is a harder thing to compete with than jargon, and a different thing entirely.***
 
+**↻ A boundary on that contrast, `Q78`, 2026-08-19 — and it matters most exactly here, where the line gets used.**
+*Neil confirmed the design fee and the independence claim are **"different halves"**: **the design is bought from us
+because the integrator will not spend the hours; the room does not need us in it.*** **So the rule is:** *"a system a
+dealer runs without hiring the author" is a claim about **the install and the room** — **never about the design
+stage**.* **Written as independence-at-design it would be false, and this tier would be right about us.** *`C1.43`
+also says why the design gets bought at all, and it is not scarcity of knowledge: the acoustic consultant does not
+want the work, the interior designer lacks the knowledge, the integrator will not spend the time — **only one of the
+three is a knowledge problem** — and therefore, in Neil's words, *"even with guides, someone gets paid to design
+it"* (`C1.44`). **That last point cuts against this tier harder than the original charge did**: their method has to
+stay closed because it is the product; ours can be published, because what we sell is the hours.*
+
 **↻ `Q74` answered 2026-08-19, and the contrast it produces is better than the one it replaces.** *`C1.4` is
 superseded by `C1.39`: **the contrast is dependence, not language.** Their rooms need their expertise on the
 project; **C-ATS is a system a competent integrator specifies and installs themselves.** It claims nothing about who

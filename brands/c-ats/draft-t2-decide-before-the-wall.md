@@ -158,8 +158,9 @@ the question is really being asked (`C2.26`).*
    designer lacks the knowledge; the integrator will not spend the time. **Section 3 above is now built on Neil's
    three reasons rather than on my derivation**, and it carries a consequence the "no owner" version could not
    reach: **even with guides, someone gets paid to design it** (`C1.44`).*
-5. **One thing to check against a confirmed claim, and it is not this piece's to settle.** *`C1.39` says C-ATS is **a
-   system a dealer runs without hiring the author**, while `C1.43` says the integrator **does not want to spend the
-   time** on the design. *My reading: those are different halves — the **design** is bought from us, the **room** does
-   not need us in it.* **But `C1.39` is a confirmed row and this is load-bearing for positioning, so it is asked
-   rather than assumed** — `Q78`.*
+5. ~~**One thing to check against a confirmed claim.**~~ **ANSWERED 2026-08-19 (`Q78`) — *"different halves".***
+   *The design is bought from us because the integrator will not spend the hours; **the room does not need us in
+   it.*** **The rule this piece must respect, and any other content using the line:** *"a system a dealer runs
+   without hiring the author" is about **the install and the room**, **never** about the design stage.* **Nothing in
+   this draft claims otherwise** — the class explains the sequence and why it stalls, and says plainly that somebody
+   gets paid to do the design.
