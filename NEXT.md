@@ -14,27 +14,26 @@ adopted.
 
 1. **Settle the strategy** — Neil's corrections into `strategy.md` until it says what he means.
 2. **The template brand run: C-ATS.** Pathways built stage by stage from its material, hooks from its
-   products, segments cut from the database. This run defines the shape every brand inherits — and because
-   C-ATS is the most basic brand, the run proves the machine, not the money: the template is validated
-   against one unlike brand before the shape is called settled.
-   **Drafted 2026-08-18** (`brands/c-ats/`: three pathways, `hooks.md`, `segments.md`;
-   `brands/_template/the-brand-run.md`). **Two framings were put to Neil and both were rejected** — the
-   entry-product/flagship split (Q50: C-ATS is a system, the 3 Rs defines it, no panel leads) and using the
-   segment cut as a league table (Q51: every relationship is treated as day 1). Both are corrected in place and
-   folded into the template, so no other brand inherits them. **The drill-down is the live thread** — §1–§5 of
-   `positioning.md` are atomised into `brands/c-ats/claims.md`, §6–§7 remain, and it has broken or qualified more
-   than the building did. **What it still leaves for Neil:** the hook
-   wording, which is an owner's, and whether the shape is right before another brand copies it. **What it leaves
-   as work:** the run ends as a queue of register items rather than as a document — CON-8 and EST-5 first, then
-   DOC-1 to DOC-4 and EST-4. ~~and the one genuinely new authoring job it surfaced (the quantity answer and the
-   worked example, `N1`/`N2`)~~ **— struck 2026-08-18 on Neil's correction: both exist in Cinema Tools.** What
-   replaces it is **Q52**, the publication boundary between the design rules and the engine, which gates the
-   C-ATS self-serve route and six of the strongest hook candidates found in the run.
+ products, segments cut from the database. This run defines the shape every brand inherits — and because
+ C-ATS is the most basic brand, the run proves the machine, not the money: the template is validated
+ against one unlike brand before the shape is called settled.
+ **Drafted 2026-08-18** (`brands/c-ats/`: three pathways, `hooks.md`, `segments.md`;
+ `brands/_template/the-brand-run.md`). **Two framings were put to Neil and both were rejected** — the
+ entry-product/flagship split (Q50: C-ATS is a system, the 3 Rs defines it, no panel leads) and using the
+ segment cut as a league table (Q51: every relationship is treated as day 1). Both are corrected in place and
+ folded into the template, so no other brand inherits them. **The drill-down is the live thread** — §1–§5 of
+ `positioning.md` are atomised into `brands/c-ats/claims.md`, §6–§7 remain, and it has broken or qualified more
+ than the building did. **What it still leaves for Neil:** the hook
+ wording, which is an owner's, and whether the shape is right before another brand copies it. **What it leaves
+ as work:** the run ends as a queue of register items rather than as a document — CON-8 and EST-5 first, then
+ DOC-1 to DOC-4 and EST-4. **— struck 2026-08-18 on Neil's correction: both exist in Cinema Tools.** What
+ replaces it is **Q52**, the publication boundary between the design rules and the engine, which gates the
+ C-ATS self-serve route and six of the strongest hook candidates found in the run.
 3. **The launch brands get the same treatment** — Pro-Fi and Light Walls launch *into* the system, not
-   beside it.
+ beside it.
 4. **Switch on generation and tracking** — the production line running, the daily drumbeat per live brand,
-   the inbound counted in engine, the funnel numbers arriving weekly. Operational readiness items (dealer
-   accounts, list segmentation, tool capture) done as the running machine needs them.
+ the inbound counted in engine, the funnel numbers arriving weekly. Operational readiness items (dealer
+ accounts, list segmentation, tool capture) done as the running machine needs them.
 
 ---
 
@@ -59,24 +58,6 @@ separate constraints converge on that: the no-calculator rule Neil confirmed, AD
 self-serve surface, and `DR-Q52` putting worked **results** on the publishable side. **The blocker is data, not
 method: there is exactly one worked room.** `EST-7` is an engine run, not a project.*
 
-**~~Resume at:~~ ~~`M2` — the moment a dealer cannot get past, and the worst served.~~** *They cannot quote a client
-without a treatment number. The hook that would answer it is `Q59`-blocked as aspiration, the price is open on
-`Q45` (basis now known: a design is a day, not three), and the box quantum is the thing that makes an early number
-possible at all. **Everything else in the hook set is upstream of a gate nobody has opened.***
-
-**~~Resume at:~~ ~~`hooks.md` and `segments.md` into rows~~** — done. *The pathways are done
-(`brands/c-ats/pathways.md`, 2026-08-19): three doors **re-keyed to the project moments `M1`–`M3`**, `PR-7` broken on
-its own falsifier, and slot 4 changed from **proving** to **confirming** on `PR-4`. **The hook set is the emptiest
-part of the system** — `S1` is empty on two doors and dead on the third — and `PR-8` is challenged, which matters
-here: hooks are the only deliverable held to "author from blank" when the rest of the method says **correct a
-draft**.*
-`PR-14` broke the symptom framing (*"sounds echoey"*, *"detail smears"*) because **the specification happens before
-the room exists**, and `C2.24`–`C2.26` replace it with the three moments Neil confirmed: **the job is won or being
-bid and needs the acoustics specified · the build is being priced and needs a treatment budget · an architect or
-client has asked for a spec they cannot produce.** *`PR-7` survives in changed form — three ways in, one shared
-journey, keyed on the project's stage.* **Not started: the re-key is on my reading of the consequence, not on an
-instruction.**
-
 **Then: `MTH-1` — the five deliverables are prose-with-tables and owe a rewrite into rows** (`PR-9`'s
 consequence). The three `brands/c-ats/pathway-*.md`, `hooks.md` and `segments.md`. **`PR-7` holds, so it is a
 reshaping into rows and not a collapse** — three entry points, one shared journey. *The drill-down is done and it
@@ -97,7 +78,7 @@ leg earned its place by making a queue visible, not by producing a syllabus** �
 integrator, which against `C2.27` is itself the finding. *Two things make the leg cut differently from the others: the design-led competitor tier **publishes no
 measured data at all**, so teaching from measurement is available to us and not to them; and `EDU-1` is the one
 place in this repo where **build-it-then-say-it does not bite**, because the capability is long-held and only the
-activity lapsed. ~~`strategy.md` still says three legs — `DOC-30`.~~ **`DOC-30` done the same day** — `strategy.md` § *"Then the brands"* now names training as the fourth leg and says why it is a route to market rather than a marketing extra.*
+activity lapsed. **`DOC-30` done the same day** — `strategy.md` § *"Then the brands"* now names training as the fourth leg and says why it is a route to market rather than a marketing extra.*
 
 **`KNW-5` is drafted — `brands/c-ats/draft-n7-client-leave-behind.md`, the first `N7` artefact in the repo.**
 *`N7` — **what the dealer tells their own client** — was empty for **all 38 record scopes**, while
@@ -181,20 +162,20 @@ a brand-level one** (`C1.46`).*
 ladder** (discovery · design · drawings · details · BOM · build guide), **each step separately priced and averaging
 several times the acoustic treatment design fee.*** **Four consequences:**
 - **`Q45` should be asked against a shape Neil already runs** — the adjacent layer prices design **staged by
-  deliverable**, which is one of the options `Q45` was weighing in the abstract. *He built that ladder, so the
-  question is not whether the shape works but **whether the treatment service should adopt it** — and he may have
-  already decided.* **`KNW-7`.**
+ deliverable**, which is one of the options `Q45` was weighing in the abstract. *He built that ladder, so the
+ question is not whether the shape works but **whether the treatment service should adopt it** — and he may have
+ already decided.* **`KNW-7`.**
 - **`C1.44` now has a rate against it.** *"Even with guides, someone gets paid to design it" is Neil's own
-  practice, not a hypothesis the data confirmed; **what the data adds is the number** — several times the treatment
-  design fee, per step, in the adjacent layer.*
+ practice, not a hypothesis the data confirmed; **what the data adds is the number** — several times the treatment
+ design fee, per step, in the adjacent layer.*
 - **`C1.48` corrects the day-old three-layer account, in our favour.** *In **supply** terms C-ATS covers **two** of
-  the three layers and Fabric Walls the third — so *"involved in all three"* describes the **range**, not the reach.
-  **The decisions stay with three disciplines; the supply does not.*** *Written up in
-  `group-strategy/the-group-play.md`.*
+ the three layers and Fabric Walls the third — so *"involved in all three"* describes the **range**, not the reach.
+ **The decisions stay with three disciplines; the supply does not.*** *Written up in
+ `group-strategy/the-group-play.md`.*
 - **A sold layer has nothing written about it in this repo** — no record, no content, no pathway. **`CAT-05` has
-  carried three of four cells empty while the layer invoiced**, and the material was in **our own derived data** the
-  whole time. **`KNW-6`.** *The lesson is not that the layer was hidden — it is that **the documentation lags the
-  business by years, and this repo keeps mistaking its own blank cells for the company's gaps**.*
+ carried three of four cells empty while the layer invoiced**, and the material was in **our own derived data** the
+ whole time. **`KNW-6`.** *The lesson is not that the layer was hidden — it is that **the documentation lags the
+ business by years, and this repo keeps mistaking its own blank cells for the company's gaps**.*
 
 **The Cinema Partners accounts — Neil pointed at them while I was claiming the cinema design layer had no
 record.** *`evidence/2026-08-19-cinema-partners-accounts.md`. **Two GTUK sales accounts, `CINEMA PARTNERS MATERIALS`
@@ -229,18 +210,18 @@ and priced they are always great to do."***
 
 **Four consequences, all applied:**
 - **`T2`'s CPD route is answered, and the plan names C-ATS as the applicant.** *The **RIBA CPD Providers Network** is
-  the route with reach; the network is manufacturer-oriented so the applicant should be **"an SRND product brand
-  (C-ATS is a real manufacturer with real test data), not Cinema Tools"**; cost *"likely low four figures"*; the
-  action is a call to NBS. **`Q81` is a go/no-go, not a research question.*** *And the RIBA Quality Code requires
-  factual, standards-compliant material and **would reject a product pitch** — which the `T2` draft already
-  satisfies.*
+ the route with reach; the network is manufacturer-oriented so the applicant should be **"an SRND product brand
+ (C-ATS is a real manufacturer with real test data), not Cinema Tools"**; cost *"likely low four figures"*; the
+ action is a call to NBS. **`Q81` is a go/no-go, not a research question.*** *And the RIBA Quality Code requires
+ factual, standards-compliant material and **would reject a product pitch** — which the `T2` draft already
+ satisfies.*
 - **Leg 4 has a gate it did not know about: ADR 017 v2 §12** — *demand is measured **before** the curriculum or the
-  partner programme is built.* **Drafting is fine; building the programme is not.** *Recorded in `training.md`.*
+ partner programme is built.* **Drafting is fine; building the programme is not.** *Recorded in `training.md`.*
 - **CEDIA accreditation is closed** (§11, out of scope). *`EDU-1`'s observation that competitors hold that ground
-  stands; **it is not a route this repo may propose**.*
+ stands; **it is not a route this repo may propose**.*
 - **`partner-programme.md` now carries a warning at the top**: *it is **not** Cinema Partners — that partners
-  **fitters** by subscription, this partners **the dealer who buys product** — and its own build is gated behind
-  Phases 1 and 3.*
+ **fitters** by subscription, this partners **the dealer who buys product** — and its own build is gated behind
+ Phases 1 and 3.*
 
 **And one thing for the platform's owner, not to fix here — `DR-Q80`.** *`docs/product/02-business-model.md` frames
 itself on **ADR 073 and 019, both `superseded_by: 17`**, and was last updated 2026-06-03; ADR 017 went to v2 on
@@ -266,16 +247,16 @@ with no membership and nobody's permission.*
 
 **Three consequences worth carrying:**
 - ***"Educational, information-led… no products & service selling"*, and *"branding limited to opening and closing
-  slides."*** **So the no-pitch rule is an assessment criterion on one route and a Quality Code requirement on the
-  other** — *`CLAUDE.md`'s "never lead with our own brilliance" is the entry condition for the channel, and neither
-  rule was derived from the other.*
+ slides."*** **So the no-pitch rule is an assessment criterion on one route and a Quality Code requirement on the
+ other** — *`CLAUDE.md`'s "never lead with our own brilliance" is the entry condition for the channel, and neither
+ rule was derived from the other.*
 - **Participation is required, which turns a class into an instrument — `EDU-6`.** *`T2`'s three refusals are the
-  natural prompt: **"which of these happens on your projects?"** A room of architects answering that **is the answer
-  to `N6`'s open `[?]`** — when the acoustic decision actually gets made — **which nobody has ever collected.
-  Probably worth more than the seminar.***
+ natural prompt: **"which of these happens on your projects?"** A room of architects answering that **is the answer
+ to `N6`'s open `[?]`** — when the acoustic decision actually gets made — **which nobody has ever collected.
+ Probably worth more than the seminar.***
 - **`N8` is now a channel blocker, not a content-plan item — `EDU-7`.** *Both routes require case studies and
-  examples; `N8` records a decade of cinema work and the Cornflake IMAX install as **captured nothing**. **No case
-  studies, no submission-grade material, either route.***
+ examples; `N8` records a decade of cinema work and the Cornflake IMAX install as **captured nothing**. **No case
+ studies, no submission-grade material, either route.***
 
 **And Cinema Partners is deliberately not in any plan here.** *Neil: **"I don't want to build that Cinema Partners
 stuff into the plans just yet."*** *The platform read-up records it because a strategy artefact must not contradict a
@@ -294,20 +275,20 @@ write the next piece.** *Proposed as **`MTH-3`** — a one-page plan check — a
 
 **Seven gaps. The first one unblocks the rest:**
 - **`P1` — there is a measured baseline and no target against it.** *We know: **53 accounts have ever bought C-ATS
-  out of 549 in the group ledger (9.7%)** — 18 active, 7 recent, 16 lapsed, £495,106 since 2015. The only confirmed
-  objective is `C2.15`, **"we need to engage with more AV integrators"** — **a direction with no quantity and no
-  choice between the three ways of doing it** (win from the 496 who never bought · reactivate the 16 lapsed · deepen
-  the 18 active). **Three different plans, three different costs, nothing chooses.** Closes with one sentence.*
+ out of 549 in the group ledger (9.7%)** — 18 active, 7 recent, 16 lapsed, £495,106 since 2015. The only confirmed
+ objective is `C2.15`, **"we need to engage with more AV integrators"** — **a direction with no quantity and no
+ choice between the three ways of doing it** (win from the 496 who never bought · reactivate the 16 lapsed · deepen
+ the 18 active). **Three different plans, three different costs, nothing chooses.** Closes with one sentence.*
 - **`P2` — isolation is a sold C-ATS layer with one clause of plan behind it** (*`growth-levers.md`: "Isolation and
-  Verification travel well"*). **And it is the layer that reaches a project first** (`C1.40`), which is the planning
-  point rather than the missing record.
+ Verification travel well"*). **And it is the layer that reaches a project first** (`C1.40`), which is the planning
+ point rather than the missing record.
 - **`P3` — the most profitable line has no commercial shape.** *`Q45` open since 17 Aug; and **three unused inputs
-  now point at the answer** — the platform calling design services *"the margin engine"*, the isolation ladder that
-  is already staged by deliverable, and a store line at **5 rows / £17,000** to price from.*
+ now point at the answer** — the platform calling design services *"the margin engine"*, the isolation ladder that
+ is already staged by deliverable, and a store line at **5 rows / £17,000** to price from.*
 - **`P4` — capacity is the binding constraint and nothing states it.** *`Q39` never answered; four drafts wait on one
-  person. **Every plan here is costed at zero**, which is why the queue grows.*
+ person. **Every plan here is costed at zero**, which is why the queue grows.*
 - **`P5`/`P6` — a growth channel is gated behind a product with no date, and lever 2 has no validation step.** *Both
-  close with a date or an explicit "not this year".*
+ close with a date or an explicit "not this year".*
 - **`P7` — verification is a capability we sell on and have never made an offer.**
 
 **And the cinema trio is now recorded at the group layer, as Neil asked** — `group-strategy/channels.md` § The cinema
@@ -359,24 +340,24 @@ investing in are the ones we cannot measure**, which for a content-as-rep plan i
 
 **Three specific things, none of which is a build:**
 - **Engine already models the whole chain** — `leads → projects → quotes → sales_orders → products.brand_id`, with
-  `projects` carrying `source_lead_id`, `brand_id`, `expected_value` and `probability`. **It is broken at three
-  unpopulated joins**: *`projects.source_lead_id` **0/50**, `projects.brand_id` **0/50**, `sales_orders.project_id`
-  **1/74***. **`JNY-5`.**
+ `projects` carrying `source_lead_id`, `brand_id`, `expected_value` and `probability`. **It is broken at three
+ unpopulated joins**: *`projects.source_lead_id` **0/50**, `projects.brand_id` **0/50**, `sales_orders.project_id`
+ **1/74***. **`JNY-5`.**
 - ***"Which hook caught which dealer"* is not answerable.** *`lead_sources` has five codes — `website`, `referral`,
-  `trade_show`, `manual`, `import` — and there is **no campaign, UTM or attribution table anywhere in engine**. A CPD
-  seminar, an AI answer, a podcast and a data card all arrive as `website`. **`lead_sources.meta` is already `jsonb`,
-  so an identifier has somewhere to go without a schema change** — nothing writes one.* **`JNY-4`, and every measure
-  of a marketing activity depends on it.**
+ `trade_show`, `manual`, `import` — and there is **no campaign, UTM or attribution table anywhere in engine**. A CPD
+ seminar, an AI answer, a podcast and a data card all arrive as `website`. **`lead_sources.meta` is already `jsonb`,
+ so an identifier has somewhere to go without a schema change** — nothing writes one.* **`JNY-4`, and every measure
+ of a marketing activity depends on it.**
 - **The activities themselves are not missing.** *`motion/content.md` § The map already places **fourteen content
-  types** against the six stages, plus the studio and the virtualised Experience Centre. **What is missing is that
-  nothing emits a traceable source** — so the operating loop can produce work and cannot yet learn from it.*
-  **`G5` is still undefined** (`support_tickets` exists, 0 rows) — **`JNY-6`**.
+ types** against the six stages, plus the studio and the virtualised Experience Centre. **What is missing is that
+ nothing emits a traceable source** — so the operating loop can produce work and cannot yet learn from it.*
+ **`G5` is still undefined** (`support_tickets` exists, 0 rows) — **`JNY-6`**.
 
 **Resume in this order: `ENG-1` → `JNY-4` → `JNY-5` → `JNY-6` → then `ENG-2`.** *Populate the customer type, decide
 the source vocabulary, fill the project joins, define `G5` — **then** two numbers against a working instrument. **The
 target comes last because it is the only part that cannot be built before the instrument works.***
 
-~~**`JNY-1` done — the gateways mapped to engine.**
+**`JNY-1` done — the gateways mapped to engine.**
 `evidence/2026-08-20-gateway-instrumentation.md`. *All six gateways mapped to engine's real fields, read-only.*
 
 **1. What traceable success looks like — the funnel is measured for the first time: `G3` 6 → `G4` 35 → `G6` 2.**
@@ -413,7 +394,7 @@ method."*** *`evidence/2026-08-20-c-ats-web-check.md` supersedes most of the aud
 
 **Two things follow, and the second one stings.**
 
-**1. ~~The method is proven end to end.~~ WITHDRAWN the same day.** *Neil: **"I'm sure that our other sites were
+**1. WITHDRAWN the same day.** *Neil: **"I'm sure that our other sites were
 used as reference also."** So the generation drew on **this repo and the existing SRND sites**, and **the split is
 unknown** — `SIT-8`. **I turned one sentence into a causal claim and called it the strongest evidence in the repo.**
 *Agreement between repo and page is not attribution: the 210 m³ chamber, the A/B install story and the corner
@@ -462,49 +443,9 @@ offer, so it was never a gap.*
 
 **And do not audit a mockup against the guardrails.** *The findings dissolve the moment someone says what it is.*
 
-**Resume at: `ENG-4` — awaiting go-ahead**~~, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
+**Resume at: `ENG-4` — awaiting go-ahead**, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
 should fill), `ENG-6` (define `G5`), `ENG-7` (is registration the gate?). *`ENG-2`/`ENG-3` follow once the data
 exists.*
-
-~~**Resume at: `ENG-1` → `ENG-3`.**~~~~ *Populate the customer type, then the two reports, then decide what counts as a
-lead. **The number comes after the instrument, and the instrument is engine, not the ledger.*** *`P2`–`P7` in
-`brands/c-ats/planning-gaps.md` are unaffected.*
-
-~~**Resume at: `P1` — the target.**~~ *Not `KNW-6`. **The isolation record is a build; the target is the thing that says
-whether the build matters.*** *`KNW-6` and the four drafts awaiting truth-check stay where they are.* *Everything else about the layer waits on it, and it starts with an
-advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
-before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on
-the client leave-behind, `T5`'s two confirmations, `Q74`, and `DOC-31` (does the mockup store list isolation at
-all).*
-
-~~**Resume at: `Q79` — the group layer claims a layer the brand disclaims.**~~ *`the-group-play.md` says C-ATS covers
-*"reflection, resonance and reverberation, **plus isolation**"*; the C-ATS record says ***"not isolation — resonance
-is a treatment problem, isolation is a different one entirely"***, and `C1.40` puts isolation with the architectural
-design. **Left visible rather than quietly edited**, because the likely resolution is a distinction the documents are
-losing: **we are involved in designing isolation and do not sell it.** *Behind it: `Q76`'s two decisions on the
-client leave-behind, `T5`'s two confirmations, and `Q74`.*
-
-~~**Resume at: `Q78` — two confirmed rows that need reconciling.**~~ *`C1.39` says C-ATS is **a system a dealer runs
-without hiring the author**; `C1.43` says **the integrator will not spend the time** on the design. My reading is
-that these are different halves — **the design is bought from us, the room does not need us in it** — which would
-also fix the wording rule: *"runs it without hiring the author"* is a claim about the install and the room, **never
-about the design stage**. If that reading is wrong, `C1.39` is overstated and the line against the design-led tier
-weakens.* *Behind it: `Q76`'s two decisions on the client leave-behind, `T5`'s two confirmations, and `Q74`.*
-
-~~**Resume at: `Q77` — is `C1.41` right?**~~ *If the treatment layer genuinely has no owner, that is a better argument
-than anything else in `T2`, because it explains the behaviour instead of describing the sequence. **If it is wrong,
-`T2` has no central argument** and reverts to a description. `T5`'s two confirmations and `Q76`'s two decisions are
-still open behind it.*
-
-~~**Resume at: `T2`'s three confirmations, and `Q75`.**~~ *The `T2` draft rests entirely on `N6`'s derivation —
-**the treatment is concealed, therefore it is decided before the wall** — which is this repo's inference and has
-never been an owner's statement. **`Q75` puts it to Neil**, together with the consequence that makes it an
-architect's subject rather than an AV one: **treatment depth is part of the wall build-up, so it feeds the finished
-dimensions on the drawing.** *Two lesser confirmations sit at the foot of the draft: the CPD accreditation route is
-unchecked (our own class needs no one's permission), and whether the depth sentence should carry numbers at all
-while `DAT-1` is open.* **And one thing the draft deliberately leaves empty**: when the acoustic decision actually
-gets made on a real job is still `[?]`, so the piece argues from the construction sequence and **claims no rate of
-failure** — an audience of architects is precisely the audience who would ask how we know.
 
 **A stale reading was struck in `brands/c-ats/training.md` on the way through.** *Its header note claimed `T2` was
 *"a RIBA 2 Concept Design subject with 21 chapters already at that stage"*. **The curriculum's `ribaStage` marks when

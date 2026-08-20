@@ -37,14 +37,14 @@ configurator, and a consultative "ask an expert" CTA. Directly relevant to C-ATS
 house. **Take them seriously: their dedicated cinema line overlaps DT almost product-for-product.**
 
 - Concealed vertical projector mounts (PCV/PCC family) — a projector mounted vertically where horizontal won't
-  fit, with a precision mirror projecting through dual-pane port glass, tilt and fore/aft alignment,
-  vibration-isolating mounts, and front/rear service access. Head-to-head with DT's motorised mirror drop.
+ fit, with a precision mirror projecting through dual-pane port glass, tilt and fore/aft alignment,
+ vibration-isolating mounts, and front/rear service access. Head-to-head with DT's motorised mirror drop.
 - **Port-hole glass in finish-matched variants** (fabric-wall and plaster) — twin anti-reflective glass, an
-  **integrated desiccant vent** against fogging, removable glass for cleaning, and a **magnetic removable
-  cover**. Head-to-head with DT port holes, and the details DT should match: anti-fog, finish variants,
-  maintenance access.
+ **integrated desiccant vent** against fogging, removable glass for cleaning, and a **magnetic removable
+ cover**. Head-to-head with DT port holes, and the details DT should match: anti-fog, finish variants,
+ maintenance access.
 - **AT fixed-frame screens (LUMA)** and **2-way automated masking (LUMA-SHIFT)** — so FA has moved into
-  screens and masking too. But only 2-way, where DT Dynamic coordinates up to five edges. A real DT edge.
+ screens and masking too. But only 2-way, where DT Dynamic coordinates up to five edges. A real DT edge.
 - Ceiling mounts and projector service mechanisms (manual and electric slide-out trays).
 
 *What they do well:* a complete, coherent range; genuinely **integrated** products; thoughtful mechanical
@@ -131,13 +131,13 @@ analyses comparable rather than to hold strategy.*
 ### What the review says about the axes as a set
 
 - **Three of six are portable as written** — support model, price posture, reference/credibility. **All three ask
-  what is *observable*.**
+ what is *observable*.**
 - **Two need amending because they change meaning per category**, which defeats the purpose of fixing them:
-  performance-and-features has no meaning for a distributor, and integration/control has none for tools,
-  distributors or acoustics.
+ performance-and-features has no meaning for a distributor, and integration/control has none for tools,
+ distributors or acoustics.
 - **One is thin but cheap** — lead time, one finding, and the missing cell is ours.
 - **The set was incomplete in the direction of its own best work.** The sharpest competitive finding in the file —
-  a rival with a captive channel — **had no axis to live on.**
+ a rival with a captive channel — **had no axis to live on.**
 
 ## Acoustic treatment — the eight axes applied
 
@@ -172,8 +172,7 @@ direct to the end user at published prices; C-ATS is trade-only, gated, and carr
 **That is sayable, sourced, and names nobody.** *So `C1.38` never needed evidence — it needed replacing with the
 claim underneath it.*
 
-**`A1` is a hygiene check, not a strength — corrected 2026-08-19.** ~~*It is where C-ATS is strongest, and the axis
-runs backwards: it rewards publishing the number at all.*~~ **It asks one question — is there anything behind the
+**`A1` is a hygiene check, not a strength — corrected 2026-08-19.** **It asks one question — is there anything behind the
 claim — and then stops mattering.** *Neil: dealers do not care about Sabines; measurement proves a claim is not
 invented and nothing more.* **The one place `A1` is load-bearing is a compliance gate** — reaction-to-fire,
 structural, marine — *because a specified project cannot complete without the certificate.* **Everything else on
@@ -291,8 +290,7 @@ rather than replacing one.* **That is not a reason to soften `C1.39`; it is a re
 cut.***
 
 **2. Officina Acustica positions against panels fixed flat to the wall — which is C-ATS's recommended install.**
-~~*"Unlike traditional stretched fabric acoustic treatments…"* — first named competitor positioning against
-concealment behind stretch fabric.~~ **Corrected 2026-08-19, and the correction is the useful part.** *I first
+ **Corrected 2026-08-19, and the correction is the useful part.** *I first
 recorded this from a **search summary rather than the site**, and the summary had dropped three words. Neil: **"this
 is a nonsensical statement — all stretch fabric systems have an air gap, and loads of acoustic treatment panels rely
 on an air gap."** He is right, and as I had it the claim was meaningless: a stretch-fabric wall is a cavity by
@@ -391,15 +389,15 @@ the UK. **The instrument was identified, and the fact that we used to run it and
 *Not a list of competitors — the **kinds** of competitor each axis implies. **Nothing here is researched.***
 
 - **The one researched name** — Artnovion, a price-tier peer, reaching dealers through Karma AV while we go
-  direct. **An `A7` contrast already in the file.**
+ direct. **An `A7` contrast already in the file.**
 - **The direct-sell tier** (`A5`) — sells acoustic treatment to end users at published prices. `positioning.md`
-  named **GIK**; the axis is posture, so this cell is observable without a price study.
+ named **GIK**; the axis is posture, so this cell is observable without a price study.
 - **The specification tier** (`A5`, `A7`) — sells only through specifiers. **RPG** was placed here.
 - **The studio-acoustics tier** (`A1`) — a different buyer, the same physics, and the tier that **publishes most**,
-  so it is where the jargon claim is most testable.
+ so it is where the jargon claim is most testable.
 - **The fabric-system builders** (`A2`) — concealment is where C-ATS and Fabric Walls meet, and `Cinema Build
-  Systems` is already in this file with *"foam absorber and composite 'dispersal' panels"* against the engineered
-  3 Rs.
+ Systems` is already in this file with *"foam absorber and composite 'dispersal' panels"* against the engineered
+ 3 Rs.
 
 **Standard 6 still binds:** record a competitor only when one is actually named in a deal; expect the picture to
 accrete slowly; no pretence of systematic loss attribution.
@@ -435,10 +433,10 @@ CAVD around a dozen. On top of the portfolio, each advertises some combination o
 
 - **Training** — CAVD training courses, Invision's Training Academy, Pulse's in-person and webinar programme.
 - **A demo showroom the dealer brings clients to** — CAVD: "at your disposal to bring your clients"; Pulse:
-  "world-class demo facilities welcome hundreds of customers annually"; Invision's Luxury Living Room and
-  "book a demo."
+ "world-class demo facilities welcome hundreds of customers annually"; Invision's Luxury Living Room and
+ "book a demo."
 - **Design, technical support and calibration** — CAVD offers system design and calibration; Pulse lists
-  on-site consultation, design, installation support and system optimisation.
+ on-site consultation, design, installation support and system optimisation.
 - **Configurators and project tools** — Invision hosts vendor configurators and a knowledge base.
 - **Case studies, product guides and video.**
 - **Field sales representatives** visiting dealers.
@@ -499,17 +497,17 @@ through an independent distributor. The decision stands unopposed on the evidenc
 ## The two strategic reads
 
 1. **Control is the gap SRND owns, across the whole field.** FA copied DT's mechanisms from CAD; CBS buys FA's
-   control board. Nobody in this set builds control near the DT Commander. Mechanisms, fabric and foam are
-   copyable and are being copied; the control platform, its integration and the field know-how are not. This
-   is the *evidence* for the group moat — the un-copyable half.
+ control board. Nobody in this set builds control near the DT Commander. Mechanisms, fabric and foam are
+ copyable and are being copied; the control platform, its integration and the field know-how are not. This
+ is the *evidence* for the group moat — the un-copyable half.
 2. **Cinema Build Systems is the whole-room competitor to beat.** They've already packaged the play SRND is
-   built for — configurator-led, with dealer training, clear journeys and public ballpark pricing — and
-   they're in Yorkshire too — and they are part-owned by a distributor, so the range arrives with a dealer
-   base, credit, a showroom, reps and thirty-plus adjacent lines already attached. **Our edge:** real
-   manufacturing depth across *more* of the room, engineered acoustics against commodity foam, genuine control
-   against a bought-in board. **Our gap:** the packaging — configurators, an installer-training network,
-   clearer journeys, a view on pricing transparency — and the channel apparatus their ownership hands them,
-   which is ours to build rather than buy.
+ built for — configurator-led, with dealer training, clear journeys and public ballpark pricing — and
+ they're in Yorkshire too — and they are part-owned by a distributor, so the range arrives with a dealer
+ base, credit, a showroom, reps and thirty-plus adjacent lines already attached. **Our edge:** real
+ manufacturing depth across *more* of the room, engineered acoustics against commodity foam, genuine control
+ against a bought-in board. **Our gap:** the packaging — configurators, an installer-training network,
+ clearer journeys, a view on pricing transparency — and the channel apparatus their ownership hands them,
+ which is ours to build rather than buy.
 
 ## Patterns worth learning
 

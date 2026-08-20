@@ -22,7 +22,7 @@ fact, and this file treats them as one piece of work rather than three.
 
 ## §1 — The KPI framework (agreed 2026-08-14)
 
-*An earlier draft of this section was headed ~~"definitions first, dashboards never"~~ — a misreading of
+*An earlier draft of this section was headed — a misreading of
 sequencing as doctrine, struck 2026-08-14. **The dashboard, in engine, is the destination.** The definitions
 below are what gate it, so it is never built on contested numbers. And the frame matters more than any row: in an
 organisation where **the content is the rep** (`motion/sales-motion.md`), this framework is sales management —
@@ -35,11 +35,11 @@ Everything output — websites, social, newsletters, campaigns, YouTube — is t
 corollaries:
 
 - **Benchmarks are our own baselines, never industry figures.** The benchmark question is always: better than our
-  last one?
+ last one?
 - **Every link published anywhere carries a campaign tag.** Full attribution machinery is a trap at this size;
-  tagged links plus per-stage conversion is the whole discipline, and it is a habit, not a build.
+ tagged links plus per-stage conversion is the whole discipline, and it is a habit, not a build.
 - **Each third-party replacement inherits the old system's baseline as its acceptance test.** When engine-owned
-  mail replaces Mailchimp, the 63% open baseline is what proves the migration didn't cost deliverability.
+ mail replaces Mailchimp, the 63% open baseline is what proves the migration didn't cost deliverability.
 
 ### The funnel spine
 
@@ -68,11 +68,11 @@ the highest signal tier reached in the period, with revenue as the value attache
 **browsed → quoted → spec'd → ordered → repeat**
 
 - The *spec'd* tier sits between quote and order: a quote is routine, being written into the project's spec is
-  commitment. For specifier-type accounts, spec'd is the terminal success tier.
+ commitment. For specifier-type accounts, spec'd is the terminal success tier.
 - **The store is fully gated, so every browse is a logged-in, identified account** — a dealer reading Fabric
-  Walls pages who has only ever bought DT is a named cross-sell signal months before revenue could show it.
-  Neil: knowing what people are looking at is *"100% a lost opportunity right now."* Owning the store is what
-  makes this stream land in engine rather than in a third party's data model.
+ Walls pages who has only ever bought DT is a named cross-sell signal months before revenue could show it.
+ Neil: knowing what people are looking at is *"100% a lost opportunity right now."* Owning the store is what
+ makes this stream land in engine rather than in a third party's data model.
 
 ### Account types — because cross-sell is only expected where cross-sell applies
 
@@ -154,14 +154,14 @@ with no publication.
 
 ### Open decisions in §1
 
-1. ~~**The floor rate, and who owns publication**~~ **▶ Resolved 2026-08-17 (Q48):** the floor-rate framing is
-   dropped as noise. The standard is **one communication per brand per day**, and real sales conversations as
-   often as possible. The roles are Neil and Simon (Q25).
+1. **▶ Resolved 2026-08-17 (Q48):** the floor-rate framing is
+ dropped as noise. The standard is **one communication per brand per day**, and real sales conversations as
+ often as possible. The roles are Neil and Simon (Q25).
 2. **Threshold values** — the quiet-detection window and N days for status confirmation: set as starting
-   hypotheses, tuned against the first quarter's false positives.
+ hypotheses, tuned against the first quarter's false positives.
 3. **The poke email's wording, cadence cap and named sender** — settled at build time.
 4. **Whether "approved dealer" (266) is ever reported as a headline count** — the ladder proposal stands
-   (accounts created and active dealers are the two figures said out loud); Neil to confirm.
+ (accounts created and active dealers are the two figures said out loud); Neil to confirm.
 
 ---
 
@@ -201,12 +201,12 @@ here too — a utility to ingest from, not a roadblock to replace).
 Three distinctions that keep the goal crisp:
 
 - **Operations software goes** — the tools that hold a step of the chain (mail sender, CRM, scheduler,
-  storefront).
+ storefront).
 - **Audiences stay** — YouTube, the social platforms, trade press are channels, not tools; the scheduler that
-  posts to them goes, the platform stays, and **engine ingests the platform-native metrics**, because "the place
-  the number lands" holds even for surfaces we don't own.
+ posts to them goes, the platform stays, and **engine ingests the platform-native metrics**, because "the place
+ the number lands" holds even for surfaces we don't own.
 - **Ambient measurement and accounting stay** — and feed engine by ingest (gross margin per brand arrives this
-  way).
+ way).
 
 **Sequencing is unchanged by the harder goal** — it still follows *"does it ride on something already
 happening?"* and *storefront cheap, checkout expensive* (payments, PCI scope, multi-territory tax, fraud, and the
@@ -217,19 +217,18 @@ newsletter migration carries the 63%-open baseline.
 
 ### The decisions only Neil can make
 
-1. ~~**The sequencing fork: does the product record get filled directly into engine's knowledge mechanism
-   rather than into files that later migrate?**~~ **▶ Closed 2026-08-17 (Q47): no** — *"we are not working
-   directly into engine ever in this repo."* The record is specified here, in files; engine-side
-   implementation is the platform's job.
+1. **▶ Closed 2026-08-17 (Q47): no** — *"we are not working
+ directly into engine ever in this repo."* The record is specified here, in files; engine-side
+ implementation is the platform's job.
 2. **S29 (`../motion/motion-design.md`) — the canonical home for answers.** S29 settled that answers live on each brand's own site,
-   assuming the site was separate from engine. Under the replacement goal the sites become engine-coupled
-   properties, so S29 needs re-reading. **Flagged, not resolved** — it may not need reversing, but it was decided
-   under an assumption this direction changes.
+ assuming the site was separate from engine. Under the replacement goal the sites become engine-coupled
+ properties, so S29 needs re-reading. **Flagged, not resolved** — it may not need reversing, but it was decided
+ under an assumption this direction changes.
 3. **Which §2 boundaries get worked now versus wait on consolidation** — proposed per row above; the **[?]** rows
-   had no basis to classify.
+ had no basis to classify.
 4. **The replacement order itself** — mail (poke first, newsletter second) and reporting look first; Monday's
-   remaining content migrates as part of the historic-record question; storefront before checkout; social
-   scheduling whenever convenient. A proposal, not a plan.
+ remaining content migrates as part of the historic-record question; storefront before checkout; social
+ scheduling whenever convenient. A proposal, not a plan.
 
 ---
 

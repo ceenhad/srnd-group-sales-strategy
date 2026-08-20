@@ -33,17 +33,17 @@ business case, and what a product can honestly be hooked on.
 **Three rules carried down from the schema, unchanged:**
 
 - **Engine owns the mechanical record.** SKU, name, weight, dimensions, stock, price. Not here, not duplicated
-  here. A record that restates engine is a record that will go stale against it.
+ here. A record that restates engine is a record that will go stale against it.
 - **Every field has a stated consumer.** The generation gates at the bottom of this file are that stated consumer,
-  made concrete. A field no output needs should be struck from the form, not filled in.
+ made concrete. A field no output needs should be struck from the form, not filled in.
 - **Definition before pitch.** Group **01** gets filled first. You cannot honestly say what problem a product
-  solves until you have said what it is.
+ solves until you have said what it is.
 - **And knowledge before content.** Group **04** is what a rep carries. Nothing downstream of it can be produced
-  without it, and no amount of production capacity substitutes for it.
+ without it, and no amount of production capacity substitutes for it.
 - **Four identifier sets, none of them overlapping.** Groups are numbered `01`–`13`; **fields are lettered**
-  (`D1`, `X6`, `N3`); capture routes are `RT1`–`RT6`; tasks are `T-S…` / `T-M…` (`motion/tasks.md`). Jobs are
-  plain ordinals 1–4, and **domains carry no identifier at all** — the dealer's question names them. Keep the
-  sets apart: any new identifier goes in one of these shapes or it collides with an existing one.
+ (`D1`, `X6`, `N3`); capture routes are `RT1`–`RT6`; tasks are `T-S…` / `T-M…` (`motion/tasks.md`). Jobs are
+ plain ordinals 1–4, and **domains carry no identifier at all** — the dealer's question names them. Keep the
+ sets apart: any new identifier goes in one of these shapes or it collides with an existing one.
 
 ---
 
@@ -61,13 +61,13 @@ Every field carries one of four states. **This is what turns "the documentation 
 **Four meters, and they measure different things.** Keep them apart, and **report them in this order**:
 
 - **Rep-test coverage** — can it attract · defend · be believed · deliver? **Four yes/no answers, and the only
-  measure that matters.** A record can be most of the way full and fail three of them. **Whoever owns the record
-  answers these, not whoever built the form** — a coverage verdict is a judgement about the business, not an
-  arithmetic result.
+ measure that matters.** A record can be most of the way full and fail three of them. **Whoever owns the record
+ answers these, not whoever built the form** — a coverage verdict is a judgement about the business, not an
+ arithmetic result.
 - **Knowledge completeness** = group 04 filled ÷ 9, plus **`R3` questions answered ÷ `R3` questions named**. What
-  the rep can actually say.
+ the rep can actually say.
 - **Record completeness** = filled ÷ applicable fields (58 in total). The breadth measure — **of the form, not of
-  what is known about the product.** See below.
+ what is known about the product.** See below.
 - **Asset completeness** = assets `current` ÷ applicable assets (group 12). What a dealer can be given.
 
 A product can be 100 % record-complete and 20 % asset-complete: normal and useful — it means we know what to make.
@@ -81,14 +81,14 @@ half and empty on the front (it can answer a dealer who already wants it, and ca
 consequences, and they bind every count in this repo:
 
 - **A filled field confirms something.** An empty one confirms nothing — it means the answer does not exist, or
-  nobody has looked, **or the field is the wrong question.** The record cannot tell you which, so a blank is a
-  prompt to go and ask, never a finding in itself.
+ nobody has looked, **or the field is the wrong question.** The record cannot tell you which, so a blank is a
+ prompt to go and ask, never a finding in itself.
 - **The denominator is a claim.** *28 of 58* assumes 58 is the right list of things to know about a product. It is
-  the list this form currently proposes. **Completeness measures the form, not the knowledge** — a record at 100 %
-  against a wrong field list is complete and useless.
+ the list this form currently proposes. **Completeness measures the form, not the knowledge** — a record at 100 %
+ against a wrong field list is complete and useless.
 - **Only contact with the world finds the missing fields.** The capture routes are the only input that can
-  introduce something the form did not anticipate — **and only if they are open-ended.** A route that records
-  solely against known fields returns only known things.
+ introduce something the form did not anticipate — **and only if they are open-ended.** A route that records
+ solely against known fields returns only known things.
 
 **So every route carries an overflow.** Alongside the fields it fills, one free line: *what came up that no field
 covers.* That line is where new fields come from, and it is the only part of this system that can grow the form
@@ -176,10 +176,10 @@ conversation with a dealer using only group 04?** Today, for every product in th
 **Two rules specific to this group, because it is the one that can go wrong.**
 
 - **`N3` is transcription, not authorship.** The answer comes from whoever actually knows it — recorded, not
-  composed. *"Ten minutes of an owner talking, once"* (`NEXT.md` lane 6) fills more of this group than a week of
-  writing, and it is the only version that is true.
+ composed. *"Ten minutes of an owner talking, once"* (`NEXT.md` lane 6) fills more of this group than a week of
+ writing, and it is the only version that is true.
 - **`N9` is filled honestly or not at all.** A record that claims no unanswerable questions is a record nobody has
-  tested against a real dealer.
+ tested against a real dealer.
 
 ### 05 · Competitive — how it is defended — `X1`–`X6`
 
@@ -305,9 +305,9 @@ makes the debt countable.*
 consequences, both deliberate:
 
 1. **You can tell what is generatable today.** If the fields are filled, the piece can be drafted; if not, the
-   missing field is the blocker, and it is a specific question rather than "we should do some marketing."
+ missing field is the blocker, and it is a specific question rather than "we should do some marketing."
 2. **You fill against demand, not alphabetically.** Filling `O1`, `R1` and `R3` across a whole range unlocks the
-   hooks and the content backlog for every product in it. Filling one product to 100 % unlocks one product.
+ hooks and the content backlog for every product in it. Filling one product to 100 % unlocks one product.
 
 **The table is ordered deliberately, and the divider in it is the finding.**
 
@@ -349,8 +349,7 @@ currently generate paperwork and cannot generate a salesperson**, which is preci
 to replace.
 
 **And the last row is not content.** `X4`, `X6` and `N9` — where competitors beat us, why deals are lost, what we
-are asked and cannot answer — feed the product and the testing budget, not the corpus. ~~**`X6` is largely a read
-from engine's pipeline rather than something to capture afresh.**~~ **Struck 2026-08-13 against engine itself
+are asked and cannot answer — feed the product and the testing budget, not the corpus. **Struck 2026-08-13 against engine itself
 (`evidence/engine-audit.md` §1, group 05): a quote carries `won_at` and nothing else — no loss reason, no competitor, no
 dimension — and there is no loss history to read regardless. `X6` must be captured, not read.** **A database built
 to sell the thing also tells you what to fix about it**, and that is a reason to keep it honest rather than
@@ -359,11 +358,11 @@ flattering.
 **Two hard gates, and they are not stylistic.**
 
 - **`G3` gates publication of anything.** A product that is `pre-release` or `demonstrable, undocumented` generates
-  internal material only. This one field would have caught three live errors: the Screen Wall, the C-ATS commercial
-  range, and REV-CP-12.
+ internal material only. This one field would have caught three live errors: the Screen Wall, the C-ATS commercial
+ range, and REV-CP-12.
 - **`G2` gates every claim.** A writer working from a record with `G2` filled cannot cross the wording boundary
-  without seeing it first. That is the entire mechanism — *scattering, never diffusion* only survives if it is
-  written next to the product it applies to.
+ without seeing it first. That is the entire mechanism — *scattering, never diffusion* only survives if it is
+ written next to the product it applies to.
 
 ---
 
@@ -514,35 +513,34 @@ is six triggers, five of which already fire every week (`registers/record-schema
 **Three consequences worth stating plainly.**
 
 1. **A running route fills its fields forever; a field filled by a push starts decaying the day it is written.**
-   Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
-   reason those fail is that they ask one person to hold everything.
-2. **RT5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. ~~The live
-   question is whether the recorded loss reason carries **which competitor, on which dimension**~~ — **answered
-   2026-08-13 (`evidence/engine-audit.md` §3, REC-2): neither. Only the fact of a loss has a home** (`project_statuses.lost`,
-   an unused `rejected` quote status); there is no loss-reason, competitor or dimension field anywhere in engine.
-   **RT5 fills `M1`–`M5` and `O1` from live quoting, but `X1`–`X6` needs capture built.**
+ Stand the routes up before filling more fields — otherwise this becomes another documentation project, and the
+ reason those fail is that they ask one person to hold everything.
+2. **RT5 already runs — engine's CRM is classic pipeline management**, so win/loss is captured today. — **answered
+ 2026-08-13 (`evidence/engine-audit.md` §3, REC-2): neither. Only the fact of a loss has a home** (`project_statuses.lost`,
+ an unused `rejected` quote status); there is no loss-reason, competitor or dimension field anywhere in engine.
+ **RT5 fills `M1`–`M5` and `O1` from live quoting, but `X1`–`X6` needs capture built.**
 3. **The two daily triggers already produce this and throw it away.** Every spec conversation fills the
-   application fields; every support answer fills the knowledge fields. Both happen anyway, both get written into
-   an email and lost. The archive is the proof (`registers/backlog.md` CON-3) — **the knowledge exists, it has just never
-   had anywhere to land.**
+ application fields; every support answer fills the knowledge fields. Both happen anyway, both get written into
+ an email and lost. The archive is the proof (`registers/backlog.md` CON-3) — **the knowledge exists, it has just never
+ had anywhere to land.**
 
 ## How this gets used
 
 1. **The roster is `registers/product-register.md`.** Every product in the group, its record status and its meters. Start
-   there; it is what says which record to open next.
+ there; it is what says which record to open next.
 2. **Records live with the brand** — `brands/<brand>/product-records.md`. The form is group; the fill is brand
-   (`CLAUDE.md`, group ≠ brand).
+ (`CLAUDE.md`, group ≠ brand).
 3. **Rank by `R3`, not alphabetically.** The questions-generated field, cross-checked against what the sent-mail
-   archive says actually recurs (`registers/backlog.md` CON-3), is the order to work in.
+ archive says actually recurs (`registers/backlog.md` CON-3), is the order to work in.
 4. **Fill a field group across a range before filling one product deeply**, unless a specific output is waiting on
-   it. The gates above say which unlocks most.
+ it. The gates above say which unlocks most.
 5. **`N3` is filled by recording, not by writing.** Take the ranked `R3` list into a session, ask the questions, and
-   transcribe. **Ten minutes of an owner talking fills more of group 04 than a week of drafting**, and it is the only
-   version that carries the authority — the substance stays human, the multiplication does not
-   (`motion/motion-design.md` component 2). Filling `N3` by composition would be inventing claims, which the line
-   forbids.
+ transcribe. **Ten minutes of an owner talking fills more of group 04 than a week of drafting**, and it is the only
+ version that carries the authority — the substance stays human, the multiplication does not
+ (`motion/motion-design.md` component 2). Filling `N3` by composition would be inventing claims, which the line
+ forbids.
 6. **Completeness gates new products** (S16, `record-schema.md`). A product without `D1`–`D10` and `G3` does not get a
-   store listing. That is the only version of this that stops the debt returning.
+ store listing. That is the only version of this that stops the debt returning.
 
 *Every field is a claim that some output needs it — a field no output needs should be struck, and a missing field
 that an output needs should be added.*

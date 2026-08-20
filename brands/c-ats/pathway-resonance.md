@@ -51,10 +51,10 @@ Both are in `product-records.md` and neither is published, so anyone assembling 
 get it wrong:
 
 1. **The published surface coefficient in `panels.json` comes from BSRIA test 8**, a plane absorber in the centre
-   of the room — **explicitly not the intended configuration.** Test 4 is. Quoting the wrong test understates a
-   product whose whole case is that it works in corners.
+ of the room — **explicitly not the intended configuration.** Test 4 is. Quoting the wrong test understates a
+ product whose whole case is that it works in corners.
 2. **The test 4 figures already embody corner loading**, so a design tool must not also apply a corner factor —
-   that double-counts. **This caveat currently lives in a JSON comment** and belongs in the published data note.
+ that double-counts. **This caveat currently lives in a JSON comment** and belongs in the published data note.
 
 Neither is a content decision. Both are one line each in the place the numbers are published, and until they are
 made this slot cannot be assembled safely.
@@ -69,20 +69,20 @@ Cinema Tools Pro."*
 **What actually exists**, in `cinema-platform` `products/cinema-tools/`:
 
 - **`docs/product/c-ats-system-design-rules.md`** — the C-ATS design method, systemised with Neil in 2026-06.
-  A five-step design hierarchy; **per-axis Fitzroy flatness rather than one overall RT60**, with an over-damping
-  guard; surface-palette matching as the foundation; the wall-on-isolation-mounts as structural LF treatment;
-  reflection triage by ETC score against a **binding** budget; install-type A/B effects; **RES straddling the
-  corner across both adjoining walls**, and ceiling corners as the height-axis lever; and the 1.44 m² box quantum.
+ A five-step design hierarchy; **per-axis Fitzroy flatness rather than one overall RT60**, with an over-damping
+ guard; surface-palette matching as the foundation; the wall-on-isolation-mounts as structural LF treatment;
+ reflection triage by ETC score against a **binding** budget; install-type A/B effects; **RES straddling the
+ corner across both adjoining walls**, and ceiling corners as the height-axis lever; and the 1.44 m² box quantum.
 - **The engine that implements it** — `engines/modal_analysis/treatment_systems.cats_system()` and
-  `acoustic_treatment.py`, sizing in whole boxes off the BSRIA catalogue, carrying the REF A/B install choice and
-  the RES corner Sabines without re-typing a single figure.
+ `acoustic_treatment.py`, sizing in whole boxes off the BSRIA catalogue, carrying the REF A/B install choice and
+ the RES corner Sabines without re-typing a single figure.
 - **A worked reference** — Joppa Road, 7.05 × 4.95 × 2.6 m, 7.1.4, 7 seats: **Gold on carpet = 11 boxes,
-  REF 6 + REV 1 + RES 4**, per-axis x 0.35 / y 0.20 / z 0.11; the wood-walkway variant flattens z to 0.30.
-- ~~**A designed route to a dealer** — Tier-0, free: room + format + finishes + grade → boxes → trade basket~~
-  **STRUCK same day.** That two-tier product is described in a document predating **ADR 017 v2 (accepted
-  2026-08-13)**, whose decision 5 **withdraws Level 2 outright** — *"not a paid design environment, not a thin
-  entry surface — withdrawn"* — and whose decision 4 makes **Cinema Tools Pro internal tooling with no external
-  login**. **There is no self-serve design surface, and the one that was planned was cancelled.**
+ REF 6 + REV 1 + RES 4**, per-axis x 0.35 / y 0.20 / z 0.11; the wood-walkway variant flattens z to 0.30.
+-
+ **STRUCK same day.** That two-tier product is described in a document predating **ADR 017 v2 (accepted
+ 2026-08-13)**, whose decision 5 **withdraws Level 2 outright** — *"not a paid design environment, not a thin
+ entry surface — withdrawn"* — and whose decision 4 makes **Cinema Tools Pro internal tooling with no external
+ login**. **There is no self-serve design surface, and the one that was planned was cancelled.**
 
 **So the honest state of this slot: the answer exists and there is no route from it to a dealer** — not a route
 half-built, but a route withdrawn. Per ADR 017 §2 the engines' output is a paid deliverable; per §6 the only
@@ -114,20 +114,19 @@ failure. All three are stage-5 support for someone fitting, and the second and t
 ## What writing it down shows
 
 - **The template holds for a third time, and the third one is where it earns its keep.** Same eight slots. What
-  changed is not the shape but the *state* — and because the shape is fixed, the emptiness is visible as
-  particular slots rather than as a general sense that resonance is under-served.
+ changed is not the shape but the *state* — and because the shape is fixed, the emptiness is visible as
+ particular slots rather than as a general sense that resonance is under-served.
 - **Measured strength and pathway readiness are independent.** This door has a complete measured case behind it
-  and is simultaneously the only one with a missing install one-pager, an unverified stage-2 answer, and a proof
-  asset carrying two unpublished traps. **How well a problem is understood says nothing about how well it is
-  served** — which is not visible until three doors are laid out the same way.
+ and is simultaneously the only one with a missing install one-pager, an unverified stage-2 answer, and a proof
+ asset carrying two unpublished traps. **How well a problem is understood says nothing about how well it is
+ served** — which is not visible until three doors are laid out the same way.
 - **The single hinge is now confirmed by repetition.** Slot 5 is identical across all three doors. **A brand has
-  one G3 piece, not one per door** — worth stating in the template before another brand writes three.
+ one G3 piece, not one per door** — worth stating in the template before another brand writes three.
 - **DEC-3 does not apply here.** Q50 dissolved it for C-ATS: no entry product, no flagship, one system.
 - **The register items this pathway consumes:** EST-5, EST-4, DOC-2, and publication of the staged KB.
-  **What it additionally needs authored, and cannot borrow:** the corner-placement one-pager
-  (`content-plan.md` item 37) and the two data-note corrections above. ~~`N1`/`N2` — the quantity answer and the
-  worked example~~ **struck: both exist in the platform.** What they need is a publication boundary (Q52) and a
-  surface, not authoring.
+ **What it additionally needs authored, and cannot borrow:** the corner-placement one-pager
+ (`content-plan.md` item 37) and the two data-note corrections above. **struck: both exist in the platform.** What they need is a publication boundary (Q52) and a
+ surface, not authoring.
 
 ## Guardrails (brand truth binds, hardest here)
 

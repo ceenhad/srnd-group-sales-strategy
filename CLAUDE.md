@@ -44,93 +44,92 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
 ## Non-negotiable discipline
 
 - **Coherence, not invention.** SRND's external and internal stories diverge sharply — world-class
-  engineering (DT Commander, LWCP measured colour, …) behind thin public telling. The job is to make
-  one true story flow group → brand → product by **surfacing what's genuinely there**, not
-  manufacturing claims. The substance is real; draw it out, don't make it up. (This is the positive
-  face of "flag, don't guess" — and see the README's "Why this exists".)
+ engineering (DT Commander, LWCP measured colour, …) behind thin public telling. The job is to make
+ one true story flow group → brand → product by **surfacing what's genuinely there**, not
+ manufacturing claims. The substance is real; draw it out, don't make it up. (This is the positive
+ face of "flag, don't guess" — and see the README's "Why this exists".)
 - **Group ≠ brand. Keep the layers clean.** Group strategy is brand-agnostic; it must not bake in
-  one brand's specifics. A brand playbook applies the group strategy; it must not re-invent it.
-  If you're writing something that only one brand can use, it belongs in that brand's folder.
+ one brand's specifics. A brand playbook applies the group strategy; it must not re-invent it.
+ If you're writing something that only one brand can use, it belongs in that brand's folder.
 - **Brand-truth guardrails still bind.** When group work touches a brand's content, that brand's
-  own hard don'ts apply and apply hardest — there's no group licence to override brand truth.
-  (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
-  performance figures; no supplier names; no NDA install details; don't tease the commercial range;
-  ~~don't hard-code the "Complete" name expansion~~ — **rule dropped 2026-08-16: the expansion is fine.**
-  See `brands/c-ats/`.)
+ own hard don'ts apply and apply hardest — there's no group licence to override brand truth.
+ (For C-ATS: scattering never diffusion; panels named by problem not mechanism; no invented
+ performance figures; no supplier names; no NDA install details; don't tease the commercial range;
+ **rule dropped 2026-08-16: the expansion is fine.**
+ See `brands/c-ats/`.)
 - **Check the platform before specifying anything that touches it.** Engine, the canonical dataset and the
-  Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
-  settled, read the current state first — this work has already based a position on a superseded ADR once, and
-  a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
+ Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
+ settled, read the current state first — this work has already based a position on a superseded ADR once, and
+ a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
 - **Facts about the present go in `evidence/current-state.md`.** The baseline — dealers, revenue shape, lead sources,
-  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
-  reasoning about it.
+ what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
+ reasoning about it.
 - **The work ratchets; it does not spiral.** **SRND OS is the source of record for what is decided**;
-  **nothing enters `decided.md` without Neil's
-  explicit approval** (it is empty by instruction, 2026-08-16). New data from real work lands as **evidence**
-  against a decision or an open item — it does not reopen the reasoning that produced the decision. After
-  logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
-  the plan over re-arguing the strategy.**
+ **nothing enters `decided.md` without Neil's
+ explicit approval** (it is empty by instruction, 2026-08-16). New data from real work lands as **evidence**
+ against a decision or an open item — it does not reopen the reasoning that produced the decision. After
+ logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
+ the plan over re-arguing the strategy.**
 - **Fix the text; do not annotate it.** *When something here is wrong, **correct it and delete the wrong
-  version.** Strikethrough, *"corrected"* markers, withdrawn findings and corrections-of-corrections are **deleted,
-  not kept** — a reader cannot tell a finding from a retracted one, and the noise grows faster than the work.*
-  **Two things survive a correction: what an owner actually said — verbatim — and a decision with its reason.**
-  *Everything else is scaffolding, and scaffolding comes down. **A register is not a diary, and nothing here is
-  immutable.***
+ version.** Strikethrough, *"corrected"* markers, withdrawn findings and corrections-of-corrections are **deleted,
+ not kept** — a reader cannot tell a finding from a retracted one, and the noise grows faster than the work.*
+ **Two things survive a correction: what an owner actually said — verbatim — and a decision with its reason.**
+ *Everything else is scaffolding, and scaffolding comes down. **A register is not a diary, and nothing here is
+ immutable.***
 - **Flag, don't guess.** Buyer-truth, channel validation, pricing tiers, name expansions — where a
-  fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
-  `registers/open-items.md`. Don't invent personas, figures, or roadmaps.
+ fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
+ `registers/open-items.md`. Don't invent personas, figures, or roadmaps.
 - **Build it, then say it.** Where the group has the intent but not yet the reality, the reality comes
-  first and the claim waits. This has now surfaced three times independently — dealer appreciation, the
-  partner programme, and the whole room being genuinely easier to buy — which makes it the group's
-  characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
-  more than silence. See `group-strategy/partner-programme.md`, `group-strategy/the-group-play.md`.
+ first and the claim waits. This has now surfaced three times independently — dealer appreciation, the
+ partner programme, and the whole room being genuinely easier to buy — which makes it the group's
+ characteristic failure mode rather than a coincidence. Announcing something we don't yet practise costs
+ more than silence. See `group-strategy/partner-programme.md`, `group-strategy/the-group-play.md`.
 - **Don't fence us to cinema — in trade.** High-end cinema is the heartland of revenue and credibility and
-  should lead where it's strongest, but the group is explicitly determined not to remain a cinema-only trade
-  supplier, and none of the underlying competences are cinema-specific. Name the *problem*, never the room
-  type; lead with cinema credibility, never a cinema-only definition. **The reverse holds in B2C:** the
-  consumer proposition stays DIY home cinema, deliberately. See `group-strategy/the-group-play.md`.
+ should lead where it's strongest, but the group is explicitly determined not to remain a cinema-only trade
+ supplier, and none of the underlying competences are cinema-specific. Name the *problem*, never the room
+ type; lead with cinema credibility, never a cinema-only definition. **The reverse holds in B2C:** the
+ consumer proposition stays DIY home cinema, deliberately. See `group-strategy/the-group-play.md`.
 
 ## The shared portal (settled policy)
 
 - **Pricing is registered-partner-only — fully gated.** No public prices, and no end-user prices
-  either. Public marketing claims stay qualitative (performance, depth, measured data), never
-  value/price-led. This is decided, not deferred. See `group-strategy/commercial-model.md`.
+ either. Public marketing claims stay qualitative (performance, depth, measured data), never
+ value/price-led. This is decided, not deferred. See `group-strategy/commercial-model.md`.
 - **Direct to dealer, globally, through the store.** Distributors are a deliberate case-by-case
-  exception (scale or language barrier only), never the default. See `group-strategy/commercial-model.md`.
+ exception (scale or language barrier only), never the default. See `group-strategy/commercial-model.md`.
 
 ## Voice
 
 - Confident, technical, honest, plainspoken. Problems solved, not mechanisms.
 - **Speaks to the trade — and the trade is wider than the dealer.** Content is read by whoever it reaches:
-  architect, interior designer, AV consultant, integrator. **The dealer relationship remains the asset** and the
-  dealer remains the hero of the sentence; what widens is who is holding the page. **The end user is not in this
-  audience** — B2C runs only through the defined Cinema Store channels. *Face to face is narrower still: the
-  integrator, at a push the AV consultant.* (`registers/premises.md` `PR-17`; `brands/c-ats/claims.md`
-  `C2.27`–`C2.30`, 2026-08-19. ~~*Speaks to the trade partner (the dealer/integrator) first — they are the reader
-  and the asset.*~~ — the old line read "the reader" as exclusive, which is what `PR-17` broke.)
+ architect, interior designer, AV consultant, integrator. **The dealer relationship remains the asset** and the
+ dealer remains the hero of the sentence; what widens is who is holding the page. **The end user is not in this
+ audience** — B2C runs only through the defined Cinema Store channels. *Face to face is narrower still: the
+ integrator, at a push the AV consultant.* (`registers/premises.md` `PR-17`; `brands/c-ats/claims.md`
+ `C2.27`–`C2.30`, 2026-08-19. — the old line read "the reader" as exclusive, which is what `PR-17` broke.)
 - No manufactured urgency, no superlatives, no unbacked claims. The content *is* the rep; a rep who
-  fumbles the pitch loses a valuable dealer.
+ fumbles the pitch loses a valuable dealer.
 - **Never lead with our own brilliance — lead with the dealer's win.** Our technical depth is
-  genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
-  niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
-  customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
-  See `group-strategy/the-group-play.md`.
+ genuinely unmatched, but *asserting* superiority reads as arrogance (a real reputational risk in a
+ niche world). Depth is expressed only as **what makes the dealer better** — depth spent on the
+ customer reads as generosity; depth asserted reads as arrogance. The dealer is the hero, always.
+ See `group-strategy/the-group-play.md`.
 - **The Scandinavian register (group-wide voice principle).** Restraint over superlatives; substance
-  carried in plain language and in owned proper nouns, not genericised adjectives. Accept being
-  underestimated on first read — let the work re-rate the brand. Voice does substance; imagery does
-  emotion. No superlative without a measurement behind it. Originated in Pro-Fi's voice code and
-  adopted across all brands (`brands/pro-fi/positioning.md` §5). It sharpens, not replaces, the
-  dealer-first rule above.
+ carried in plain language and in owned proper nouns, not genericised adjectives. Accept being
+ underestimated on first read — let the work re-rate the brand. Voice does substance; imagery does
+ emotion. No superlative without a measurement behind it. Originated in Pro-Fi's voice code and
+ adopted across all brands (`brands/pro-fi/positioning.md` §5). It sharpens, not replaces, the
+ dealer-first rule above.
 - **No superlative arms race between brands.** No brand claims to be *the* most complex, critical or
-  hardest part of a project. Each element is demanding in its own terms; state it plainly. Coherence
-  across the brand docs matters more than any one brand's emphasis.
+ hardest part of a project. Each element is demanding in its own terms; state it plainly. Coherence
+ across the brand docs matters more than any one brand's emphasis.
 - **Criticise the category in public; name a competitor only behind the partner gate.** What competitors
-  do *as a category* may be stated plainly wherever it is true — jargon-heavy, too deep, overclaiming
-  "diffusion" that is really scattering. **No competitor is named on a public page**, for or against.
-  **Named comparison is legitimate work and sits behind the same gate as pricing** — partner-only, and
-  measured. *And the measurement test applies to what we say about others exactly as it does to what we
-  say about ourselves: no unmeasured claim about a rival, gated or not.* Promoted from C-ATS's own rules
-  on `registers/questions.md` Q64, 2026-08-19 — it was never a one-brand obligation.
+ do *as a category* may be stated plainly wherever it is true — jargon-heavy, too deep, overclaiming
+ "diffusion" that is really scattering. **No competitor is named on a public page**, for or against.
+ **Named comparison is legitimate work and sits behind the same gate as pricing** — partner-only, and
+ measured. *And the measurement test applies to what we say about others exactly as it does to what we
+ say about ourselves: no unmeasured claim about a rival, gated or not.* Promoted from C-ATS's own rules
+ on `registers/questions.md` Q64, 2026-08-19 — it was never a one-brand obligation.
 
 ## Hard don'ts
 

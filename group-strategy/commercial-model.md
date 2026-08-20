@@ -114,11 +114,11 @@ few **large distributors**, a **long tail of small distributors and dealer-distr
 manufacturers** who, like us, either handle their own distribution or don't. Two consequences worth holding:
 
 - **The reasoning above travels.** Direct-first and the 2× test were argued from UK experience, but the
-  structure they were argued against is the structure everywhere. This is not a domestic policy needing a
-  different answer abroad.
+ structure they were argued against is the structure everywhere. This is not a domestic policy needing a
+ different answer abroad.
 - **So does the competitor analysis.** `competitors.md` studied five UK distributors; read it as the shape
-  of the tier rather than a national survey. Expect the same offer, the same demo room and the same portfolio
-  logic in any territory, which is also why the same comparison lands there.
+ of the tier rather than a national survey. Expect the same offer, the same demo room and the same portfolio
+ logic in any territory, which is also why the same comparison lands there.
 
 ## United States — market entry
 
@@ -142,12 +142,12 @@ reachable; what does not exist is a **direct relationship** with them.
 work than a market launch. Three consequences:
 
 - **Marketing is not the constraint.** Nothing needs to find these dealers. The corpus, search and AI visibility are
-  irrelevant to this half, which is why it can start immediately.
+ irrelevant to this half, which is why it can start immediately.
 - **The constraint is the offer and the terms.** A known dealer moving from a distributor to direct is crossing the
-  registration hinge (`buyer-journey.md`), and that hinge has to be worth crossing.
+ registration hinge (`buyer-journey.md`), and that hinge has to be worth crossing.
 - **The work is personal, not campaign-shaped.** A known list, a direct approach, a clear proposition. This is the
-  human residue the sales motion always kept — somebody wanting the order (`sales-motion.md`) — and here it is
-  the whole job.
+ human residue the sales motion always kept — somebody wanting the order (`sales-motion.md`) — and here it is
+ the whole job.
 
 ### What a known US dealer gains and loses by going direct
 
@@ -172,27 +172,27 @@ a conversation that can be had twice.
 **That list of dealers is the most valuable asset in this entry**, and it changes the shape of it entirely:
 
 - **It is the fastest revenue available anywhere in the strategy** — warm accounts, known product, an immediate
-  reason to make contact.
-- ~~**It is a limited window.** The cost of waiting is measured in accounts lost rather than months.~~ **Softened
-  2026-08-02 (Neil): the US is not a privileged territory** — *"but so is the entire world. It's just another
-  place."* The motion is global by nature. What stands: unserved dealers can find alternatives, and Stewart,
-  Screen Research and Future Automation are all present.
+ reason to make contact.
+**Softened
+ 2026-08-02 (Neil): the US is not a privileged territory** — *"but so is the entire world. It's just another
+ place."* The motion is global by nature. What stands: unserved dealers can find alternatives, and Stewart,
+ Screen Research and Future Automation are all present.
 - **It does not depend on the content programme.** These dealers do not need persuading that DT works; they need to
-  know where to buy it. So this half of US entry can start now and is not behind the documentation.
+ know where to buy it. So this half of US entry can start now and is not behind the documentation.
 
 ### Two entries, not one — and they serve different jobs
 
 - **DT is the revenue entry, and it is warm.** Recover the Apex-Tech dealer base, directly, immediately. Eight
-  years of DT content and a known brand support it.
+ years of DT content and a known brand support it.
 - **C-ATS is the wide door for dealers we have never met**, which is the part the content model has to earn. Four
-  reasons it is the right one for that job:
+ reasons it is the right one for that job:
 
 1. **The first order is small and low-risk.** Boxes of panels, not a machine. A dealer can try us on one room
-   without betting a client relationship on it.
+ without betting a client relationship on it.
 2. **It is the only brand documented to a standard** (`../brands/c-ats/product-records.md`), and documentation is
-   the whole support model in a market with nobody in it.
+ the whole support model in a market with nobody in it.
 3. **Its content already works in search** — a 52-second reverberation explainer with ~9,500 views. In a market
-   where search and AI answers are our only channel, that is the one place we have demonstrated pull.
+ where search and AI answers are our only channel, that is the one place we have demonstrated pull.
 4. **It ships economically.** Freight and duty punish large assemblies; panels travel.
 
 **They are not competing routes and neither waits for the other.** DT recovers a base that already exists; C-ATS
@@ -214,14 +214,14 @@ better learned in a market we are not currently earning from than in one we are.
 Not obstacles to argue with; gaps to answer or accept.
 
 - **Credit terms and a familiar buying process.** US integrators are used to distributor credit. Ours is a store
-  account, and we extend no credit directly: card if wanted. The UK's third-party Iwoca route does not travel —
-  it is UK-only — so a US dealer buys on card terms.
+ account, and we extend no credit directly: card if wanted. The UK's third-party Iwoca route does not travel —
+ it is UK-only — so a US dealer buys on card terms.
 - **Someone reachable in their working hours.** Documentation shrinks this; it does not remove it. The support
-  engineer question sits here (`../NEXT.md` lane 7).
+ engineer question sits here (`../NEXT.md` lane 7).
 - **A peer who will vouch for us.** The hardest of the three, and the reason the first few dealers matter more than
-  their order value.
+ their order value.
 - **A margin story.** Gated pricing is settled policy, but a US dealer will ask what they make. That is the
-  unanswered price question arriving in a specific place.
+ unanswered price question arriving in a specific place.
 
 **One thing that cuts the other way, and it is significant:** US commercial, hospitality and cultural clients are
 far more likely to permit publicity than the private clients that dominate our UK work. **The US may be where the
@@ -231,40 +231,38 @@ once.
 ### Sequence: land, deliver, then market
 
 - **Start with the Apex-Tech dealers.** Direct contact, DT, no campaign required. The soonest available revenue
-  in this entry. ~~This is the urgent half and the window closes as they find alternatives.~~ *Urgency framing
-  softened 2026-08-02 — no territory is privileged.*
+ in this entry. *Urgency framing
+ softened 2026-08-02 — no territory is privileged.*
 - **Do not announce.** A launch with no support history and no reference is a claim.
 - **In parallel, land a small number of new dealers on C-ATS**, chosen for willingness rather than size, and make
-  the first order faultless. The first order tests us, not the product.
+ the first order faultless. The first order tests us, not the product.
 - **Then market**, with a US reference to point at and a support record behind it.
 - **InfoComm next year** is the natural moment to be visible, by which point there should be something to be
-  visible about.
+ visible about.
 
 ## The brands
 
 1. **Display Technologies (DT)** — solutions for the architectural integration of technology: screens and
-   masking, image surfaces, mounts, mirrors, hush boxes, port holes, and the modular Screen Wall, with the
-   control engineered inside the products. Deliberately **not** "the projection company."
+ masking, image surfaces, mounts, mirrors, hush boxes, port holes, and the modular Screen Wall, with the
+ control engineered inside the products. Deliberately **not** "the projection company."
 2. **Fabric Walls** — a productised aluminium stretch-fabric system for walls, ceilings and other surfaces;
-   factory-assembled and CNC-cut, so the result is settled in the factory rather than worked out on site.
-   ("Walls" is only the name.)
+ factory-assembled and CNC-cut, so the result is settled in the factory rather than worked out on site.
+ ("Walls" is only the name.)
 3. **C-ATS** — engineered acoustic treatment for the 3 Rs (reflection, resonance, reverberation), one panel
-   per problem, shallower than competing products. Specify from the documentation or take the design
-   service — the integrator's choice — and the result can be verified. Isolation and verification live here
-   too. Use the form **C-ATS**; the "Complete" expansion is unresolved and must not be hard-coded.
+ per problem, shallower than competing products. Specify from the documentation or take the design
+ service — the integrator's choice — and the result can be verified. Isolation and verification live here
+ too. Use the form **C-ATS**; the "Complete" expansion is unresolved and must not be hard-coded.
 4. **Pro-Fi** — complete audio systems engineered as one stack, in four series (Spatial, Stage, Modular,
-   Cinema), with the Pantheon platform above them.
+ Cinema), with the Pantheon platform above them.
 5. **Light Walls** — RGBW addressable lighting. **Strategy deliberately deferred**, worked separately.
 6. **SRND Distribution** — the trade channel and the sales arm for our own brands, not a product brand with
-   its own story. **Settled: it is not an attempt to become a multi-brand distributor.** Carried lines stay a
-   short deliberate roster (below), chosen to complete jobs rather than to build a portfolio. The operation
-   itself is long-running: GT → Apex-Tech UK (rebranded July 2021) → SRND Distribution — the same trade
-   business throughout, and distinct from the US distributor of similar name in `../evidence/current-state.md`
-   (`2023-buyer-journey-archive.md`).
+ its own story. **Settled: it is not an attempt to become a multi-brand distributor.** Carried lines stay a
+ short deliberate roster (below), chosen to complete jobs rather than to build a portfolio. The operation
+ itself is long-running: GT → Apex-Tech UK (rebranded July 2021) → SRND Distribution — the same trade
+ business throughout, and distinct from the US distributor of similar name in `../evidence/current-state.md`
+ (`2023-buyer-journey-archive.md`).
 
-~~**SRND Solutions** (own-made sensors and interfaces — the connective glue of an install) is in development
-and deliberately doesn't fit inside a brand. How it reaches the trade is open; don't write it up as
-shipping.~~
+
 
 > **▶ Retired 2026-08-16 (Neil, `registers/questions.md` Q23): *"SRND Solutions is stale — drop it."*** It was named
 > before the work that would have filled it existed, and was never defined. **So the roster is six brands, not
@@ -275,14 +273,14 @@ shipping.~~
 ## The properties
 
 - **`srnd.group`** — top of funnel. Introduces the company *briefly* and routes people to the brand that
-  fits the need; the start of a series of landing-page opportunities. It leads simply: the whole-room story
-  is the group's most complex proposition and is held for engaged contacts, never used as the cold open.
+ fits the need; the start of a series of landing-page opportunities. It leads simply: the whole-room story
+ is the group's most complex proposition and is held for engaged contacts, never used as the cold open.
 - **Brand sites** — functional and focused. Product, range, spec, proof. They don't have to carry the
-  introduce-and-persuade load.
+ introduce-and-persuade load.
 - **`srnd.store`** — the trade purchasing destination. One account, one checkout across every brand, with
-  pricing gated to registered partners.
+ pricing gated to registered partners.
 - **`cinema-store.com`** — the direct, non-channel destination. Public prices, no account needed. **Live but
-  currently a test**, mid clean-up.
+ currently a test**, mid clean-up.
 - **`engine.srnd.group`** — operations: registrations, pricing, jobs. A separate system, not specified here.
 - **`cinema-tools.com`** — the master brand for design tooling (`tools.md`).
 
@@ -329,9 +327,9 @@ DCI-scale walls, commissioning packages and complete room systems come off it.
 
 - **No C-ATS on Cinema Store.** Treatment and the design service are channel business.
 - **Fabric Walls splits by system.** Plastic track and tools go to **Cinema Store only** (so they come *off*
-  the trade store too); metal frames, complete room kits and star ceilings stay **SRND Store only**.
+ the trade store too); metal frames, complete room kits and star ceilings stay **SRND Store only**.
 - **The DIY range** — the former Enthusiast screens and the small hush box — is **Cinema Store exclusive and
-  leaves DT.** Not a duplicate listing, not a consumer tier of a trade brand.
+ leaves DT.** Not a duplicate listing, not a consumer tier of a trade brand.
 - **Ultrasuede** sits on Cinema Store as a direct consumer line.
 - Never the premium **Dynamic** masking range, which is trade business.
 
@@ -371,14 +369,14 @@ consumers; and tool hire is a natural adjacency for an audience we already sell 
 Three, in three distinct roles. **We carry nothing that competes with our own brands.**
 
 - **Leyard** — the only genuine distributed brand. SRND Store only. Big-ticket DCI LED walls and
-  large-format displays, aligned with where the display market is going, and per `buyer-journey.md`
-  potentially our lowest-trust door: a dealer can try SRND without betting on SRND's own engineering.
+ large-format displays, aligned with where the display market is going, and per `buyer-journey.md`
+ potentially our lowest-trust door: a dealer can try SRND without betting on SRND's own engineering.
 - **MadVR** — SRND Store only, carried **specifically as an accessory to Leyard**, not an independent line.
-  Not promoted on its own.
+ Not promoted on its own.
 - **Advatek** — both stores. Pixel controllers for Light Walls, almost no margin by nature, small enough to
-  carry in full. A **completeness** line: one source for the whole job, so a dealer never shops elsewhere and
-  gives someone else a chance to start a relationship. Its role is retention, not profit — which is also the
-  discipline: easy to find, effortless to reorder, never given sales effort or campaign budget.
+ carry in full. A **completeness** line: one source for the whole job, so a dealer never shops elsewhere and
+ gives someone else a chance to start a relationship. Its role is retention, not profit — which is also the
+ discipline: easy to find, effortless to reorder, never given sales effort or campaign budget.
 
 **Removed:** Sylvox (outdoor televisions — the largest carried line by count and wholly off-thesis), Poet,
 Stealth Acoustics (down to a single accessory), all carried cinema audio (Mag Theatron, PhaseTech/SoundTube,

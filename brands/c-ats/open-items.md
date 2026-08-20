@@ -10,7 +10,7 @@ Group-level open items and sequencing live in `../../registers/open-items.md`. T
   and each one's real buyer and proof needs.
 - C-ATS partner pricing tiers — the numbers behind the shared gate (publication is settled group
   policy; tiers are not).
-- ~~Trading-name expansion: unresolved, must not be hard-coded.~~ **SETTLED — `Q26` (2026-08-16) and `Q65`
+**SETTLED — `Q26` (2026-08-16) and `Q65`
   (2026-08-19): C-ATS is the standard form, "Complete Acoustic Treatment System" is permitted on first use, and
   the legal "Cinema Acoustic Treatment Systems" is reserved for contracts.** So the live store's brand page is
   not a breach. Nothing to reconcile; tagline work is unblocked.

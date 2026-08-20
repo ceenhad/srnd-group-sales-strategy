@@ -152,10 +152,10 @@ the sheet's. Six were proposed for correction; **two survived.**
 
 **What was struck, and it matters more than what survived:**
 
-- ~~Depends who picks it up~~ — **not a people problem.** Inconsistency is not coming from who does the work.
-- ~~The facts aren't in one place~~ — **not a data-assembly problem**, at least not at this altitude.
-- ~~Too infrequent to have a habit~~ — **not a frequency problem.**
-- ~~**Genuinely different each time**~~ — **struck, and this is the finding.** The escape hatch was offered and
+- — **not a people problem.** Inconsistency is not coming from who does the work.
+- — **not a data-assembly problem**, at least not at this altitude.
+- — **not a frequency problem.**
+- — **struck, and this is the finding.** The escape hatch was offered and
   refused: **none of the 40 is legitimate variation.** There is no row here where doing it the same way would be
   wrong. All of it is fixable.
 

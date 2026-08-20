@@ -118,11 +118,11 @@ the question is really being asked (`C2.26`).*
 | Panels are concealed behind a stretch-fabric finish | `product-records.md` shared, **Where they sit** | Recorded |
 | Therefore the treatment must be decided before the wall is built | `product-records.md` `N6` — *"derivable and load-bearing… and it has never been stated"* | **Derived in the record; this piece is its first statement** |
 | **Three layers: isolation sets the structural dimensions, interior design sets the visible fabric wall, treatment sits between them** | Neil, 2026-08-19 (`Q75`) — `claims.md` `C1.40` | **Confirmed, his words.** *It replaced my dimensions argument, which was wrong* |
-| ~~The treatment layer has no natural owner~~ **Three parties, three reasons it does not get done** — the acoustic consultant does not want it, the interior designer lacks the knowledge, the integrator will not spend the time | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.41`, `C1.43` | **Confirmed, his words.** *It replaced my "no owner" derivation, which was wrong* |
+| **Three parties, three reasons it does not get done** — the acoustic consultant does not want it, the interior designer lacks the knowledge, the integrator will not spend the time | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.41`, `C1.43` | **Confirmed, his words.** *It replaced my "no owner" derivation, which was wrong* |
 | Even with guides, someone gets paid to design it | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.44` | **Confirmed, his words**, and it is why this class does not give the design fee away |
 | Depth is taken out of the **usable** room, inside a shell the isolation design set | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.45` | **Confirmed, his words** |
 | Depths are 50 / 50 / 43 mm, and minimum depth was a design goal | `product-records.md` shared **Depth**, corrected by Neil 2026-08-19 | Recorded. **`DAT-1` is open on the canonical dataset carrying 50 mm for the RES-CP** — the piece quotes no per-panel figure, so it is not blocked |
-| ~~A shallow system fits between the two layers without moving either~~ | ~~Derived~~ | **Superseded by `C1.45`, which is the owner's own form of the same point and stronger than my derivation** |
+| — | | **Superseded by `C1.45`, which is the owner's own form of the same point and stronger than my derivation** |
 | Low-frequency control needs corner access and corner placement | `product-records.md` resonance record — **What it requires from others**, and **Limits** | Recorded |
 | An acoustic design needs full room-finish data | Neil, 2026-08-19 (`Q68`) | Recorded, his words |
 | Room above 18 °C for 24 hours before the adhesive panel goes on | `product-records.md` reverberation record — **What it requires from others** | Recorded |
@@ -143,7 +143,7 @@ the question is really being asked (`C2.26`).*
 
 ## Before it runs — three confirmations
 
-1. ~~**The route.**~~ **ANSWERED 2026-08-19 from the platform** *(`../../evidence/2026-08-19-the-four-revenue-lines-platform-read.md`
+1. **ANSWERED 2026-08-19 from the platform** *(`../../evidence/2026-08-19-the-four-revenue-lines-platform-read.md`
    §4)*. **The RIBA CPD Providers Network is the route with reach, and the plan names the applicant as an SRND
    product brand — C-ATS specifically**, because the network is manufacturer-oriented and C-ATS has real test data.
    *Cost *"likely low four figures"*; fees unpublished; the action is a call to NBS, which is not this repo's to
@@ -154,17 +154,17 @@ the question is really being asked (`C2.26`).*
    separate initiative.** *Still runnable as our own class today, which needs no one's permission.*
 2. **The depth sentence.** *Reason 2 is where the piece stops being generic, so it is the sentence to get right.
    **It currently quotes no numbers at all** — confirm whether it should, given `DAT-1`.*
-3. ~~**`N6` itself.**~~ **ANSWERED 2026-08-19 (`Q75`) — and the answer changed the piece.** *The sequence claim
+3. **ANSWERED 2026-08-19 (`Q75`) — and the answer changed the piece.** *The sequence claim
    holds, but **not for the reason I had drafted.** The three layers are separate things with separate owners: the
    isolation design sets the structural dimensions, the interior design sets the visible fabric wall, and **C-ATS
    fits between the two** — *"physically and metaphorically"*, in Neil's words. **`SRND` is often involved in all
    three**, which is a group-level fact and is logged as `claims.md` `C1.42` rather than argued here.*
-4. ~~**Is `C1.41` right?**~~ **ANSWERED 2026-08-19 (`Q77`) — no, and the correction is the best material in the
+4. **ANSWERED 2026-08-19 (`Q77`) — no, and the correction is the best material in the
    piece.** *The layer has an owner: **the acoustic consultant**, who typically does not want the work; the interior
    designer lacks the knowledge; the integrator will not spend the time. **Section 3 above is now built on Neil's
    three reasons rather than on my derivation**, and it carries a consequence the "no owner" version could not
    reach: **even with guides, someone gets paid to design it** (`C1.44`).*
-5. ~~**One thing to check against a confirmed claim.**~~ **ANSWERED 2026-08-19 (`Q78`) — *"different halves".***
+5. **ANSWERED 2026-08-19 (`Q78`) — *"different halves".***
    *The design is bought from us because the integrator will not spend the hours; **the room does not need us in
    it.*** **The rule this piece must respect, and any other content using the line:** *"a system a dealer runs
    without hiring the author" is about **the install and the room**, **never** about the design stage.* **Nothing in

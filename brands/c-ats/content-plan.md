@@ -25,8 +25,7 @@ Target = what the piece points at — its gateway's threshold action, written in
 > `pathway-reflection.md`, `pathway-resonance.md` — so every item below can be read against a slot rather than
 > only against a stage. **Two things the run changed about this queue.** The reflection pathway's proof slot needs
 > item 40 *before* EST-5 lands, not after, because the raw data argues against the panel until the reading is
-> explained. And ~~the resonance pathway surfaced the one genuinely new authoring job in the brand: `N1`/`N2` —
-> the quantity answer and the worked example~~ **— struck 2026-08-18. Both exist**, systemised and running in
+> explained. And **— struck 2026-08-18. Both exist**, systemised and running in
 > Cinema Tools (`pathway-resonance.md`). **The queue's real missing item is a front door onto them** — and there is
 > currently no design for one: ADR 017 v2 withdrew Level 2 and made Cinema Tools Pro internal. What C-ATS's
 > self-serve sizing route should be is `../../registers/questions.md` Q52 / `../../operations/decision-request-q52-cats-rules-publication.md`.
@@ -104,10 +103,10 @@ The half that was always skipped. Zero infrastructure to start:
 
 - **Every published piece gets a row in the log below**: date, canonical home, source tag, destination slot.
 - **Read monthly, in minutes:** which hooks got bites (source-tagged arrivals), which questions stopped
-  arriving (an owner notices), what the estate's numbers moved.
+ arriving (an owner notices), what the estate's numbers moved.
 - **Apply:** multiply the winning appeal categories (S23); fix findability where a published question is
-  still being asked; retire dead angles; feed the next tranche ordering. Results move the queue — the queue
-  does not re-argue the strategy.
+ still being asked; retire dead angles; feed the next tranche ordering. Results move the queue — the queue
+ does not re-argue the strategy.
 
 ### Published-piece log
 

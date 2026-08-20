@@ -102,8 +102,7 @@ scan's sharpest `A1` finding.**
 - Officina Acustica — https://officinaacustica.com/ and **https://officinaacustica.com/acoustics (fetched 2026-08-19 after the summary-derived error above)**
 - Residential Systems on the QuestAI configurator and the Acoustical Lens System — https://www.residentialsystems.com/archive/questai-reveals-acoustic-treatment-configurator
 
-~~**Not found: `AcoustiSmart`.**~~ **RESOLVED — sixth pass, same day: it is `AcousticSmart`, one word, Merrick NY, and it has a rep-firm channel to integrators. See the sixth pass below.** ~~No matching company surfaced — the spelling may differ. **Left as an unfilled row
-rather than substituted with something similar-sounding.**~~ Officina Acustica's `A5` cell remains unfilled; its `A1`
+ **RESOLVED — sixth pass, same day: it is `AcousticSmart`, one word, Merrick NY, and it has a rep-firm channel to integrators. See the sixth pass below.** Officina Acustica's `A5` cell remains unfilled; its `A1`
 and `A2` cells are now filled from the fetched engineering page.
 
 ---
@@ -166,14 +165,14 @@ sources. *Recorded as unfound rather than as absent — and it is not the findin
 **Three things already in this repo corroborate the void being filled.**
 
 1. **Aylett's ISE sessions are aimed at the actor cast** this repo named the same day
-   (`../brands/c-ats/claims.md` `C2.27`): design professionals, interior designers, architects, and how integrators
-   should work with them. **Three of his five sessions are that subject.**
+ (`../brands/c-ats/claims.md` `C2.27`): design professionals, interior designers, architects, and how integrators
+ should work with them. **Three of his five sessions are that subject.**
 2. **Training is standard in the UK distributor offer**, already recorded in
-   `../group-strategy/competitors.md`: *CAVD training courses, Invision's Training Academy, Pulse's in-person and
-   webinar programme.* **So the education layer is contested by distributors as well as by competitors.**
+ `../group-strategy/competitors.md`: *CAVD training courses, Invision's Training Academy, Pulse's in-person and
+ webinar programme.* **So the education layer is contested by distributors as well as by competitors.**
 3. **Aylett also chairs the standard** (third pass above) and **Lemay founded the certification body**. *Teaching,
-   accrediting and standard-setting are held by the same handful of people, and one of them is a direct
-   competitor's partner.*
+ accrediting and standard-setting are held by the same handful of people, and one of them is a direct
+ competitor's partner.*
 
 **The dates are Neil's recollection** — *"maybe even 10 years ago"* — and are not measured. **What is measurable is
 the present state: one session against five, on one programme.** *One trade show is a thin sample; it is recorded
@@ -229,11 +228,11 @@ dimensions.*
 **So two of this repo's open items change shape:**
 
 - **`DAT-3`** (the missing EN 13501-1 classification) *is not only a certificate to find — **the field to hold it
-  exists in the canonical dataset and our product is not in there.***
+ exists in the canonical dataset and our product is not in there.***
 - **`DAT-1`** (RES-CP recorded as 50 mm when it is 43 mm) *could not be verified here: the panel data lives in
-  `c-ats-shopify:data/panels.json`, a repository not in this session. **But the more useful finding is that the
-  canonical dataset has no C-ATS entry to be wrong** — the group's own acoustic products are absent from the
-  dataset that carries its suppliers' and competitors'.*
+ `c-ats-shopify:data/panels.json`, a repository not in this session. **But the more useful finding is that the
+ canonical dataset has no C-ATS entry to be wrong** — the group's own acoustic products are absent from the
+ dataset that carries its suppliers' and competitors'.*
 
 ## The C-ATS panel data inside the design engine
 
@@ -318,14 +317,14 @@ is closer to what C-ATS says it does than to what the other three do.*
 ## Two corrections recorded in place
 
 1. **A claim I nearly recorded is not on their site.** *A search summary described AcousticSmart as **"the world's
-   largest designer and installer of high-end home theater interiors"**, a division of **GC Building Products**,
-   with a parent **"over 50 years"** in the New York/New Jersey area. **I fetched the About page and the Custom Home
-   Theaters page and none of it is there** — no largest claim, no parent company, no years-in-business claim.* **So
-   it is not recorded as a fact about the company.** *Whether it appears in a directory profile is a separate
-   question and was not chased.* **This is `../method.md`'s "a summary is not a source" catching the same failure a
-   second time in the same file** — *and the first time, on the air-gap sentence, it took Neil to catch it.*
+ largest designer and installer of high-end home theater interiors"**, a division of **GC Building Products**,
+ with a parent **"over 50 years"** in the New York/New Jersey area. **I fetched the About page and the Custom Home
+ Theaters page and none of it is there** — no largest claim, no parent company, no years-in-business claim.* **So
+ it is not recorded as a fact about the company.** *Whether it appears in a directory profile is a separate
+ question and was not chased.* **This is `../method.md`'s "a summary is not a source" catching the same failure a
+ second time in the same file** — *and the first time, on the air-gap sentence, it took Neil to catch it.*
 2. **The rep-firm line card is not a C-ATS-adjacent fact to over-read.** *Digital Projection on that line card is a
-   separate company from this group's **Display Technologies**, and nothing about shared representation is implied.*
+ separate company from this group's **Display Technologies**, and nothing about shared representation is implied.*
 
 ## Sources, sixth pass, fetched 2026-08-19
 
@@ -333,4 +332,4 @@ is closer to what C-ATS says it does than to what the other three do.*
 - `dsgmetro.com` — the rep firm's own description and line card
 - *`dsgmetro.com/acousticsmart` returned **404**; the line-card entry is the evidence, not a brand page*
 - *A search for AcousticSmart absorption/NRC data returned **no company pages at all** — only generic explainer
-  sites. Recorded as **not surfaced***
+ sites. Recorded as **not surfaced***

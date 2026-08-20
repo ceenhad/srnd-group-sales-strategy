@@ -33,8 +33,7 @@ ever bought C-ATS out of 549 in the group ledger — 9.7%.** *Of those 53: **18 
 **7 recent** (2024), **16 lapsed** (2020–23, £140,108). Total external product revenue 2015→2026: **£495,106**.*
 
 **The objective is a direction with no quantity.** *`claims.md` `C2.15`, Neil's own words and the only confirmed
-statement of the job: **"we need to engage with more AV integrators."*** **No number and no horizon.** *~~And no choice
-between three ways of doing it — win new · reactivate the lapsed · deepen the active.~~ **That framing was withdrawn
+statement of the job: **"we need to engage with more AV integrators."*No number and no horizon.** * **That framing was withdrawn
 the same day — see below. One motion, everybody treated as new.***
 
 > **What `P1` needs, settled 2026-08-19/20.** *The **measure comes before the number**: engine already models
@@ -72,7 +71,7 @@ by deliverable.* **Three things now point at the answer and none of them has bee
 - *The platform calls design services ***"the margin engine — and the only line that can earn now"***.*
 - *The isolation ladder next door **is already staged by deliverable**, and Neil built it.*
 - *The store carries an **`Acoustic Treatment Design Service - Basic`** line with **5 rows at £17,000** — so there is
-  a real average to price from, alongside the £2,400 median across 41 invoiced engagements.*
+ a real average to price from, alongside the £2,400 median across 41 invoiced engagements.*
 
 > **Closes with:** *one decision. **`Q45`'s framing is the thing to drop** — pricing a design off how long it now
 > takes is the wrong axis when the customer is buying hours they will not spend (`C1.44`).*
@@ -102,7 +101,7 @@ validation** for pro install, commercial cinema or fit-out.* **A lever that cann
 > **Closes with:** *pick **one** channel and define what would count as validation — or say lever 2 is not this
 > year's work. **Both are decisions; holding three unvalidated channels open is not.***
 
-### ~~`P7` — verification~~ — not a gap
+### — not a gap
 
 **Verification is an offer, not an unsold capability.** *Listed as a service on the C-ATS store alongside Isolation
 System and Isolation Verification, and `copy.md` carried all three all along — this file was written without reading
@@ -113,7 +112,7 @@ behind it.**
 
 - **Buyer truth.** *`W1`/`W2`, `C2.17`–`C2.23`: who specifies, who signs off, why they buy. Answered.*
 - **The quantity question.** *`N1`/`N2` — how many panels — is systemised in the platform. **Publication is the open
-  part, and it is `DR-Q52`'s, not ours.***
+ part, and it is `DR-Q52`'s, not ours.***
 - **The retention motion.** *`sequences.md` A/B/C covers welcome, install and adjacency.*
 - **The content queue.** *`content-plan.md` has five tranches ordered by cost. **It does not need more items; it
-  needs a target to be ordered against**, which is `P1`.*
+ needs a target to be ordered against**, which is `P1`.*

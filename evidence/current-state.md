@@ -140,7 +140,7 @@ not an argument about it.*
 
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**
 - **One dealer at roughly £500,000 in a year** — a substantial share of group revenue.
-- ~~**[?] Concentration**~~ — **answered for the GTUK era, 2012–2023** (`evidence/archive-findings.md` tranche 1): top 5
+- — **answered for the GTUK era, 2012–2023** (`evidence/archive-findings.md` tranche 1): top 5
   accounts **22.3 %** of net, top 20 **49.8 %**, top 50 **71 %**, across 354 paying dealers. **Half the revenue in
   twenty accounts, and a long real tail behind it.** Still **[?]** for the current group post-2023.
 - **Territory spread** — 21 international appointments across 20-odd territories (above). **[?]** the direct
@@ -170,7 +170,7 @@ network is almost entirely a DT network.*
 | DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
 | DT | Qualtron | Yachting | On-board entertainment | No business so far |
 | DT | Screen Innovations | USA | **White label — they own the relationship, not us** | Not a route to market for DT as a brand |
-| DT | ~~Apex-Tech~~ | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`evidence/archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
+| DT | — | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`evidence/archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
 | DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
 | DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
 | DT | Tectrade Brun | Switzerland | Strong in cinema, complete portfolio | Starting to grow, high-potential territory |
@@ -267,7 +267,7 @@ while still occupying the territory.
 - **Pro-Fi is not on the store yet** — not ready to sell online.
 - **[?] Revenue split by brand**, and **[?] the trend on DT projection** — named as declining, never sized.
 - **[?] Quote-to-order process**: who quotes, how long it takes, what proportion converts.
-- **~~[?] Design service and verification~~ — answered 2026-08-15, and the answer is the problem.** Neil:
+** — answered 2026-08-15, and the answer is the problem.** Neil:
   *"We have been terrible at working out what is paid work and what is free pre-sales."* **So it is case by
   case and not deliberate.** Policy now set in principle — **charged, fixed fee, not credited against the
   order, and published to dealers** — with the paid-services list assembled in
@@ -406,7 +406,7 @@ read as the same thing. To be filled in.*
 |---|---|
 | **2026 year to date** (to 9 Jul, the last C-ATS invoice) | **£17,898** from **6** accounts |
 | **The same months of 2025** (Jan–Jul) | **£39,188** |
-| ~~So the run rate is down −54 %~~ | ***Withdrawn as a finding.** Invoices are outstanding for work already sold, so the gap measures **invoicing**, not demand. **Recorded as an incomplete count, not as a decline*** |
+| — | ***Withdrawn as a finding.** Invoices are outstanding for work already sold, so the gap measures **invoicing**, not demand. **Recorded as an incomplete count, not as a decline*** |
 | An account is worth, per year | **£4,229** mean, **£2,358** median *(2025)*; £4,873 / £4,440 *(2024)* |
 | An order is worth | **£3,042** mean, **£2,103** median *(170 invoices, all years)* |
 | Orders per active account per year | **1.81** *(2025)*, 1.40 *(2024)* |
@@ -510,7 +510,7 @@ Correct it, strike the wrong inferences, and fill what matters. Two of the four 
 unchanged and are cheap:
 
 1. **Lead sources, ranked** — decides where content and channel effort goes.
-2. ~~**Whether the design service is charged, and how often it is taken**~~ — **half answered 2026-08-15.**
+2. — **half answered 2026-08-15.**
    Charged, fixed fee, no credit against the order, published; but *how often it is taken* is still unknown,
    and only one paid service in the group carries a price. See above.
 

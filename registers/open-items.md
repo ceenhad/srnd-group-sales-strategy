@@ -29,7 +29,7 @@ replaces the earlier list rather than sitting beside it. **Ordered by how much d
    (`brands/c-ats/install-critical-notes.md`) and publication is unblocked (S21). **Scope correction:** US entry
    into known dealers is a conversion problem needing terms rather than content (C1k), so it does not wait for
    this — which is good news, because it removes the worst dependency in the plan.
-2. **~~The plan depends on two unconfirmed roles.~~ Settled (S20; who fills the roles is `questions.md` Q25)** — the responsibilities get fitted
+2. ** Settled (S20; who fills the roles is `questions.md` Q25)** — the responsibilities get fitted
    in as everyone's do, nothing comes off anyone's plate, and the rate is therefore a floor rather than a target.
    **What survives:** the model still rests on two people with no fallback, which is thinner than the field-sales
    model it replaced. Worth holding rather than solving.
@@ -141,7 +141,7 @@ the Screen Wall has no datasheet is more awkward than it looked.
    three times.** Correcting the site alone will not undo it.
 2. "only solutions that can genuinely claim to be the **best and most innovative** in their category" —
    superlative-led, against the Scandinavian register (`group-strategy/the-group-play.md`).
-3. ~~"**Complete Acoustic Treatment Systems**" spelled out~~ — **not a contradiction: the rule was dropped 2026-08-16 (`Q26`), the expansion is fine.** *Also in the
+3. — **not a contradiction: the rule was dropped 2026-08-16 (`Q26`), the expansion is fine.** *Also in the
    `@Complete_ATS` YouTube channel description, so this is two places now.*
 4. **Playlists for MAG Theatron and Barco Residential** still live on `@SRNDGroupLtd`, both discontinued
    carried lines (`group-strategy/commercial-model.md`).
@@ -209,13 +209,13 @@ decisions rather than projects, and the lane does not start without them.
 
 *Surfaced by filling the schema (`brands/c-ats/product-records.md`), so they are specific rather than general.*
 
-1. **~~The marine panel has no absorption data of its own.~~ Corrected — a marine absorption coefficient sheet is
+1. ** Corrected — a marine absorption coefficient sheet is
    published on `c-ats.co.uk`.** So the `panels.json` note is wrong as stated. What remains open is whether that
    sheet derives from the same BSRIA report or a separate test. Worth establishing, but not a data absence.
-2. **~~The REF-CP has two different absorption figures.~~ Resolved (S21; and Q46, 2026-08-17)** — they are the two install
+2. ** Resolved (S21; and Q46, 2026-08-17)** — they are the two install
    types, and the published chart already plots both as Reflection A and B. Published sheets are authoritative.
    *Remaining check: read the exact A and B values off the chart before tabulating them.*
-   ~~Previously recorded as:~~ The default in `panels.json` comes
+ The default in `panels.json` comes
    from the **legacy CATS Calculator (entry 3084)**; **BSRIA test 6** — the intended plane configuration — gives
    roughly double at 250 Hz and 500 Hz (0.20 and 0.54 against 0.08 and 0.28). Plausibly both are right for
    different things, the lab measuring unfixed and the legacy value representing the damped glued install, but that
@@ -496,7 +496,7 @@ audience work starts now at whatever rate it can, and the platform programme run
 *No design in this note deliberately. The point is that the direction is recorded, the reversal is visible, and the
 next session starts from decisions rather than from a blank sheet.*
 
-## ~~A proposed refinement to `CLAUDE.md`~~ — **rejected 2026-08-16 (`Q29`)**
+## — **rejected 2026-08-16 (`Q29`)**
 
 > **Neil's decision: the original rule stands alone.** *"Build it, then say it" is the discipline that stops
 > overclaiming, and qualifying it invites the opposite error.* **The nine measured instances are evidence for
@@ -558,13 +558,13 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 | | Session | What it needs | Blocked on |
 |---|---|---|---|
 | **1** | **The service offer** (`XS-5`) | **Now has a method, from Neil 2026-08-16 — see the frame below the table.** Two categories, a sweep, and a costing rule. Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7`, the partner-programme value question and the incentive policy |
-| ~~**2**~~ | ~~**The roles**~~ | **▶ Closed 2026-08-16 (`Q25`): Neil and Simon cover all three.** No third party | — **but see below; closing it does not make it safe** |
+| — | | **▶ Closed 2026-08-16 (`Q25`): Neil and Simon cover all three.** No third party | — **but see below; closing it does not make it safe** |
 | **3** | **Sensing — line, layer, or brand** | The three questions above. Market size, buyer, channel, competitors, price and timing are **[?]** everywhere and must not be guessed | Neil's judgement on scope; possibly on evidence that does not exist yet |
 | **4** | **The competitor roster** (standard 5 ⚑) | Names per brand — C-ATS behind its price band, Fabric Walls and Pro-Fi at all. **It cannot be derived: no loss reason exists in any system** | **Entirely Neil.** Nothing else gates `T-M02`; the axes and the output shape are set |
 | **5** | **The upsell proposal build** (standard 3) | The design is written; what remains is one document or core-plus-appendix, who builds one today, and whether the layer list is fixed per room type | Partly a fetch — *what goes out today* is unknown |
-| ~~**6**~~ | ~~**The content floor** (standard 10)~~ | **▶ Closed 2026-08-17 (`Q48`)** — the floor framing was noise. The standard: **one communication per brand per day** (marketing) and **real conversations as often as possible** (sales) | — |
+| — | | **▶ Closed 2026-08-17 (`Q48`)** — the floor framing was noise. The standard: **one communication per brand per day** (marketing) and **real conversations as often as possible** (sales) | — |
 
-| **7** | **The store architecture** | ~~A wording fix~~ — **no.** Neil, 2026-08-16 (`Q27`): *"This is an ongoing improvement that needs to be made. **Part of strategy planning.**"* **What lives on a brand store, what lives on the group store, and what the relationship between them is.** The 13 DT codes published on both are the symptom, not the question | Nothing — but it **gates `C1` on every DT record**, so step 3 runs into it |
+| **7** | **The store architecture** | — **no.** Neil, 2026-08-16 (`Q27`): *"This is an ongoing improvement that needs to be made. **Part of strategy planning.**"* **What lives on a brand store, what lives on the group store, and what the relationship between them is.** The 13 DT codes published on both are the symptom, not the question | Nothing — but it **gates `C1` on every DT record**, so step 3 runs into it |
 
 **And one that is not a session but sits at the head of the queue anyway:** **`MON-13`** — forty approved
 dealers with no engine account, *"a fault to fix today"*.
@@ -654,7 +654,7 @@ margin and buys nothing.
   **Constraint on the manner, not the price:** B6 (`../brands/c-ats/positioning.md`) — the route is offered, never a refusal, and
   never an implication that the dealer can't.
 
-- ~~**▲ Is Apex-Tech actually gone?**~~ — **asked and answered, 2026-08-13. `C1f` and `C1j` stand unchanged.** The
+- — **asked and answered, 2026-08-13. `C1f` and `C1j` stand unchanged.** The
   agreement **officially ended 1 July 2026**, with the customary **90 days' grace** for projects already in play
   *"while we are starting our own push"* (Neil). The trading that looked live in DT's record was notice and grace,
   and the data confirms **the grace is already spent — £356 since 1 July, one order.** *Kept as a closed entry rather
@@ -714,17 +714,17 @@ margin and buys nothing.
   **commercial fit-out, hospitality and workplace** — the beyond-cinema markets `NEXT.md` wants and cannot yet
   prove. **Sensing carries no cinema heritage to fence it**, which is an advantage LWCP itself does not have.
 
-- ~~**SRND Solutions go-to-market**~~ — **RETIRED 2026-08-16 (`Q23`): *"SRND Solutions is stale — drop it."***
+- — **RETIRED 2026-08-16 (`Q23`): *"SRND Solutions is stale — drop it."***
   Named before the work that would have filled it existed, and never defined. **The question retires
   unanswered rather than unresolved**, and the roster is **six brands, not six plus one in waiting**.
   *Kept as a struck entry rather than deleted, because a line that was carried for months as "in development"
   should be visibly retired — otherwise the next pass reinstates it from `CLAUDE.md`, which still names it.*
   **Propagation is a mechanical pass** — `DOC-26` in `registers/backlog.md`.
-- ~~**Third-party audio versus Pro-Fi**~~ — **RESOLVED.** All carried cinema audio (Mag Theatron,
+- — **RESOLVED.** All carried cinema audio (Mag Theatron,
   PhaseTech/SoundTube, dARTS) is deleted everywhere. Pro-Fi is the group's audio brand, and the roster
   principle is now general: **we carry nothing that competes with our own brands.** See
   `group-strategy/commercial-model.md`.
-- ~~**Store roster**~~ — **not an open decision; moved out of this list 2026-08-14.** The roster is settled
+- — **not an open decision; moved out of this list 2026-08-14.** The roster is settled
   (three lines in three roles — `group-strategy/commercial-model.md`) and what remains is execution only, tracked as
   `EST-1`/`EST-2` in `registers/backlog.md` and `operations/store-split-worklist.md`. It sat here under "Decisions needed"
   while being headed "DECIDED", which is the kind of miscategorisation this ledger exists to prevent.
@@ -732,17 +732,14 @@ margin and buys nothing.
   sold online yet. When it is, the Pro-Fi site drives to SRND Store exactly as every other brand does; the
   one-account-one-checkout model is unchanged. Gated on range and platform readiness
   (`brands/pro-fi/positioning.md` §7).
-- ~~**C-ATS naming**~~ — **SETTLED 2026-08-16 (`Q26`): the expansion is fine and the rule is dropped.** ~~the group site uses "C-ATS" and spells out "Complete Acoustic Treatment System"
-  openly, but the C-ATS brand-truth `CLAUDE.md` still flags the "Complete" expansion as unresolved
-  and prefers "C-ATS"/"Cinema". Resolve the canonical name and align brand truth, the group site and
-  the store. Affects all C-ATS-facing copy.
+- — **SETTLED 2026-08-16 (`Q26`): the expansion is fine and the rule is dropped.**
 - **Partner programme — designed; the remaining decisions are narrow.** The registration and gating
   *mechanism* runs in engine already, and the programme behind it is now set out in
   `group-strategy/partner-programme.md` (what registration grants — including training access; the Partner
   access layer; discretionary top-partner recognition; and the deliberate exclusion of tiered discount
   ladders and any accrual scheme). Still to decide: the qualifying line for Partner (judgement-based,
   reviewed — not an automatic threshold), who is accountable for the recognition acts, lead-referral
-  mechanics, and ~~Experience Centre access/hosting~~. MOQs and design-tool access remain open where they
+ mechanics, and. MOQs and design-tool access remain open where they
   are brand-specific.
   - **▶ Two of these closed 2026-08-15 (Neil), and together they answer "what is registration actually
     worth?"** **Experience Centre hosting is a free partner benefit**, and **training is free to registered

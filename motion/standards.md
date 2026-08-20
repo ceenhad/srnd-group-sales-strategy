@@ -164,10 +164,10 @@ tolerance for risk, because there is no risk to tolerate. **A small dealer with 
 **3. The disqualifiers, named.** Two, beyond failing the legitimacy or payment test:
 
 - **A competitor buying to copy.** Trade access gives sight of drawings, CAD and control detail, and this group
-  has a specific reason to guard it (`competitors.md`, the Future Automation note).
+ has a specific reason to guard it (`competitors.md`, the Future Automation note).
 - **Discretion — *"if we simply decide not to, for historical or other reasons."*** Real, legitimate, and the
-  one item here that is not a test. **So it is recorded as a discretionary refusal rather than dressed as a
-  rule** — otherwise it quietly becomes one and the next person applies it as though it were.
+ one item here that is not a test. **So it is recorded as a discretionary refusal rather than dressed as a
+ rule** — otherwise it quietly becomes one and the next person applies it as though it were.
 
 **Not disqualifiers:** being locked to a competing brand, and reputation as a standalone test. Both were
 offered; neither was taken.
@@ -194,9 +194,9 @@ size-derived band still prohibited as inputs.
 ### Still open on this session
 
 1. **Where credit *is* extended by us — staged-payment projects — who assesses it, and against what?** The
-   Iwoca route covers the dealer; it does not cover a project shipped at 60 % received. `T-S04`'s territory.
+ Iwoca route covers the dealer; it does not cover a project shipped at 60 % received. `T-S04`'s territory.
 2. **Does the record carry a decline at all**, or admit + priority with discretionary refusals logged
-   separately? *(The answer above points at the latter.)*
+ separately? *(The answer above points at the latter.)*
 3. **Can priority be overridden by hand, and is the override recorded?**
 
 ---
@@ -239,15 +239,15 @@ answer that isn't already in the record *and could recur* — **not one-off proj
 cut:
 
 - **Reusable → free.** Giving it away once retires the question permanently, which is precisely what the
-  content motion is for.
+ content motion is for.
 - **One-off project arithmetic → chargeable.** Done for one room, retires nothing, and is paid for by exactly
-  one person.
+ one person.
 
 **Three tie-breakers; any one true makes it consulting:**
 
 1. **Bespoke** — the output is specific to this room and could not be published.
 2. **Accountable** — we are asked to *stand behind* a result (a specification, a prediction, a verification),
-   not to inform a decision the dealer makes. This is the repo's own definition of what is sold.
+ not to inform a decision the dealer makes. This is the repo's own definition of what is sold.
 3. **Sustained** — it needs more than a single exchange, so the cost recurs on our side rather than theirs.
 
 **And free pre-sales carries one obligation, which is already standard 7: capture it.** An answer that was
@@ -268,8 +268,7 @@ has to be set.
 deliverable rather than the hours.
 
 **3. Charged, and *not* credited against the order.** **This overrides the session's recommendation — and the
-override was right.** ~~The session argued that crediting the fee charges for attention without taxing the
-manufacturer rung.~~ **Struck by the margin arithmetic** (Neil, 2026-08-15):
+override was right.** **Struck by the margin arithmetic** (Neil, 2026-08-15):
 **services run at ≈100 % margin against 52.4 % for own-made sold direct**, so **crediting a £3,000 fee converts
 100 %-margin revenue into 52.4 %-margin revenue and must win roughly £5,700 of incremental order merely to
 break even.** *The recommendation was wrong and the instinct that overruled it was right; recorded that way
@@ -357,33 +356,33 @@ only evidence that it is a rule rather than a phrase.
 
 **Three things the list makes visible that the boundary test alone did not:**
 
-- ~~**Only one paid service in the group has a price** — £500 Pro Design.~~ **Corrected 2026-08-15 by finding
-  31, and the correction makes the remaining work much smaller.** That was true of the repo's *written record*
-  and **false of the accounts: £672,915 of service revenue has been invoiced across fifteen years, and the
-  prices are in it** — including *"Acoustic Treatment Design Service — Basic"* at **£3,000** and *"Sound
-  Isolation Design Project"* at **£7,500**, under those names. **Forty-one design engagements at a median of
-  £2,400.** So the real problem is not that services are unpriced; it is that **the prices live only in
-  invoices, one at a time, and nobody has ever read them as a list.** *Which is exactly the mechanism by which
-  "terrible at working out what is paid" happens — and it is not a discipline failure.*
+**Corrected 2026-08-15 by finding
+ 31, and the correction makes the remaining work much smaller.** That was true of the repo's *written record*
+ and **false of the accounts: £672,915 of service revenue has been invoiced across fifteen years, and the
+ prices are in it** — including *"Acoustic Treatment Design Service — Basic"* at **£3,000** and *"Sound
+ Isolation Design Project"* at **£7,500**, under those names. **Forty-one design engagements at a median of
+ £2,400.** So the real problem is not that services are unpriced; it is that **the prices live only in
+ invoices, one at a time, and nobody has ever read them as a list.** *Which is exactly the mechanism by which
+ "terrible at working out what is paid" happens — and it is not a discipline failure.*
 - **Four named C-ATS services are absent from the live site entirely** (`brands/c-ats/copy.md` says so
-  outright). **We are inconsistent about charging for services a dealer cannot currently find.**
+ outright). **We are inconsistent about charging for services a dealer cannot currently find.**
 - **Rows 10–14 are not priced *or* free — they are unclassified**, which is worse than either, and three of
-  them sit inside the partner programme where the free/paid distinction decides what registration is worth.
+ them sit inside the partner programme where the free/paid distinction decides what registration is worth.
 
 ### Still open on this session
 
 1. **The service offer itself — a dedicated session, not a pricing exercise** (`XS-5`; Neil, 2026-08-16:
-   ***"other than C-ATS the service was all ad hoc. We have a pretty good idea what a service offer should be
-   overall, but documenting it and pricing it is a dedicated session."***) **The table below is a list of
-   things that have been invoiced, not an offer** — outside C-ATS's design service nothing was repeated, so the
-   prices in it are precedents rather than a price list. **The published boundary waits on the offer, not the
-   other way round.**
+ ***"other than C-ATS the service was all ad hoc. We have a pretty good idea what a service offer should be
+ overall, but documenting it and pricing it is a dedicated session."***) **The table below is a list of
+ things that have been invoiced, not an offer** — outside C-ATS's design service nothing was repeated, so the
+ prices in it are precedents rather than a price list. **The published boundary waits on the offer, not the
+ other way round.**
 2. **Classify rows 10 and 11** (`XS-6`) — partner-network escalation and recipe packs are the two left.
 3. **Price bespoke drawings**, row 14's paid half.
 4. **What is missing from the list?** It was assembled from the repo, so it holds only what the repo knows.
 5. **Do Partner-tier dealers get an allowance of free design time?** Sharper now that three rungs have gone
-   free: with no credit against the order, an allowance is the only remaining way the programme could spend
-   depth on the design side — and it may not need to, given what training and the Experience Centre now grant.
+ free: with no credit against the order, an allowance is the only remaining way the programme could spend
+ depth on the design side — and it may not need to, given what training and the Experience Centre now grant.
 6. **▲ Neil is introducing something tomorrow that bears on training** — row 12 is provisional until it lands.
 
 ---
@@ -397,10 +396,10 @@ only evidence that it is a rule rather than a phrase.
 **There are two cross-sell mechanisms and they fire at different moments.**
 
 - **Dealer-level cross-sell — the second *line* an account takes.** Median **246 days** later; **74 %** not in
-  the opening basket (finding 4). Fires on an established account; it is a `detect` rule, and
-  `adjacency-map.md` already carries it as a standing rule.
+ the opening basket (finding 4). Fires on an established account; it is a `detect` rule, and
+ `adjacency-map.md` already carries it as a standing rule.
 - **Room-level attach — the layers of *this* room, being decided now.** That is what a proposal is, and finding
-  4 says nothing about it.
+ 4 says nothing about it.
 
 **Confusing the two would delay the proposal upsell by eight months for no reason.**
 
@@ -413,23 +412,23 @@ baseline.**
 ### The proposal design — six rules, each traceable
 
 1. **The unit is the room, not the enquiry.** Sections are the room's layers in build order — structure and
-   front-of-room, treatment, surface, audio, light and control — with the enquiry sitting *in its layer* rather
-   than at the top.
+ front-of-room, treatment, surface, audio, light and control — with the enquiry sitting *in its layer* rather
+ than at the top.
 2. **Every layer appears, priced or reasoned. The form has no blank cell.** Each layer carries one of four
-   statuses: **specified** · **offered** (a priced increment) · **not applicable to this room** (with the
-   reason) · **not ours** (said plainly — Light Walls deferred, Pro-Fi pre-shipping). This is `T-S05`'s existing
-   rule — *a flagged gap, never a silent omission* — applied to layers instead of fields.
+ statuses: **specified** · **offered** (a priced increment) · **not applicable to this room** (with the
+ reason) · **not ours** (said plainly — Light Walls deferred, Pro-Fi pre-shipping). This is `T-S05`'s existing
+ rule — *a flagged gap, never a silent omission* — applied to layers instead of fields.
 3. **The justification is physical, never commercial.** `adjacency-map.md` already supplies the sentence for
-   every pair — *"panels install behind the fabric wall"*, *"screens, port holes, LED and vents are set into the
-   fabric surface"*. A proposal that says *you may also like* has left the register.
+ every pair — *"panels install behind the fabric wall"*, *"screens, port holes, LED and vents are set into the
+ fabric surface"*. A proposal that says *you may also like* has left the register.
 4. **The increment is priced inside the same document.** One relationship means one document; a second proposal
-   is the fragmentation the group exists to remove. *(Partner-facing and gated, so this is consistent with the
-   no-public-pricing rule.)*
+ is the fragmentation the group exists to remove. *(Partner-facing and gated, so this is consistent with the
+ no-public-pricing rule.)*
 5. **The upsell paragraph is written as the dealer's win, never our range** — one order, one delivery, drawings
-   that fit, integration already known. `CLAUDE.md`'s dealer-is-the-hero rule, and also the only honest reason a
-   dealer should take the layer from us rather than from anyone else.
+ that fit, integration already known. `CLAUDE.md`'s dealer-is-the-hero rule, and also the only honest reason a
+ dealer should take the layer from us rather than from anyone else.
 6. **It passes the honesty gate before it goes** — the brand's `G2` (session 6), no superlative without a
-   measurement, pre-shipping stated plainly, no invented figures.
+ measurement, pre-shipping stated plainly, no invented figures.
 
 **Output:** fixed sections per layer, each assembled from the record's on-ramp fields (`D1`, `O1`–`O4`, `H2`)
 plus the adjacency justification and a status — and a closing **"not included, and why"** section, which is what
@@ -489,8 +488,7 @@ produces.
 > design-based proposals. Doesn't work.** **Speed of delivery of proposals is just as important as content**,
 > quite often."*
 
-~~**This session proposed a document assembled from record fields, per layer. That is per-product blocks
-dropped into a template — already tried with three people on staff, and failed. Struck as a design.**~~
+
 
 > **▲ Struck the wrong thing — corrected by Neil, same day.** ***"The content blocks thing works… if you have
 > the content blocks!"*** **The failure was never assembly. It was that the blocks were being *produced*, by
@@ -520,8 +518,8 @@ already failed.**
 
 1. **Do the optional-lines-on-the-quote route (A) and the proposal (B) both proceed**, or does A make B wait?
 2. **Should the layer list be fixed per room type** — cinema, media room, commercial fit-out, hospitality? It
-   is what makes rule 2 checkable, and the one narrow form in which the struck *minimum set per room type* idea
-   survives and earns its place.
+ is what makes rule 2 checkable, and the one narrow form in which the struck *minimum set per room type* idea
+ survives and earns its place.
 3. **What happens where a layer is offered but its record is empty** — price it, or drop to *named, ask*?
 
 ---
@@ -548,13 +546,13 @@ plainly is what stops it being read as a stretch target on the current process.
 > **rate = answers per period × derivatives per answer**
 
 - **Answers** come from batch recording (`content.md`), the **archive backfill** (years of sent mail as a
-  retrospective question log — lane 6's smallest next move, still undone), the **inbound log**
-  (`engine-as-hub.md` §1) and the **three-line spec capture** (`adjacency-map.md`). **Three of those four are
-  already asked for elsewhere in the plan**, so the answer supply needs no new mechanism — only the ones already
-  named.
+ retrospective question log — lane 6's smallest next move, still undone), the **inbound log**
+ (`engine-as-hub.md` §1) and the **three-line spec capture** (`adjacency-map.md`). **Three of those four are
+ already asked for elsewhere in the plan**, so the answer supply needs no new mechanism — only the ones already
+ named.
 - **Derivatives** come from the production line reading the record: a knowledge-base article, a short video, a
-  social hook, a datasheet paragraph, a newsletter item. This is `assemble` (`motion-design.md`), and
-  `content.md` already describes the multiple.
+ social hook, a datasheet paragraph, a newsletter item. This is `assemble` (`motion-design.md`), and
+ `content.md` already describes the multiple.
 
 **The arithmetic, marked as hypothesis:** *10 answers per recording session × 5 derivatives per answer = 50
 pieces ≈ two and a half weeks of daily-per-brand.* **So roughly two sessions a month sustains it.** Both numbers
@@ -591,8 +589,7 @@ Light Walls has nothing that can honestly be said yet and the carried lines have
 part — it's the planning that makes videos difficult. With a plan and script you can bash out loads in a
 day."*
 
-> **~~Correction to this session's own proposal.~~** ~~It argued the floor should be set in **answers per
-> month**, on the grounds that answers are the owner's unit and publications are the system's.~~ **Struck. The
+> **Struck. The
 > owner's output is not the constraint at all** — given a plan and a script it is high and cheap. **The
 > constraint sits entirely upstream of the owner, in the planning.** So a floor expressed as anything the owner
 > produces measures the wrong thing.
@@ -644,8 +641,8 @@ draft at volume, truth-check in minutes, distribute efficiently.
 ### Still open on this session
 
 1. **Do machine-derived pieces publish under a brand's name**, and does that change the gate? *(The only one
-   of the three that was ever open — and `motion-design.md` component 2 arguably answers it: guardrails are
-   baked in at drafting time and the truth-check is the gate.)*
+ of the three that was ever open — and `motion-design.md` component 2 arguably answers it: guardrails are
+ baked in at drafting time and the truth-check is the gate.)*
 
 ---
 
@@ -675,29 +672,29 @@ gating the matrix.**
 **The gap, stated precisely, front by front:**
 
 - **DT is covered, and further along than the rest** — `brands/display-technologies/competition-matrix.md`
-  already holds the DT column filled from the platform repo with the competitor column left as an explicit
-  framework to fill *"with verified research… not guessed specifics."* **That is `T-M02`'s output shape,
-  half-built, and it is the model the other brands should copy rather than a separate exercise.**
+ already holds the DT column filled from the platform repo with the competitor column left as an explicit
+ framework to fill *"with verified research… not guessed specifics."* **That is `T-M02`'s output shape,
+ half-built, and it is the model the other brands should copy rather than a separate exercise.**
 - **C-ATS has peers but not a roster.** GIK, RPG and Artnovion are named as a **price band**, and
-  `brands/c-ats/product-records.md` already flags the problem in the `N4` field: *"that is a commercial
-  position, not a comparison — nothing says what a dealer gets or gives up choosing one over another."*
+ `brands/c-ats/product-records.md` already flags the problem in the `N4` field: *"that is a commercial
+ position, not a comparison — nothing says what a dealer gets or gives up choosing one over another."*
 - **Fabric Walls appears only through Cinema Build Systems**, plus generic on-site fabric track.
 - **Pro-Fi has nothing.** The run sheet's proposed default mentioned *StormAudio-class audio peers*, but no
-  audio competitor has been researched anywhere in the repo — StormAudio appears only as a line other
-  distributors carry and as an amplifier brand in the transaction archive.
+ audio competitor has been researched anywhere in the repo — StormAudio appears only as a line other
+ distributors carry and as an amplifier brand in the transaction archive.
 
 ### The ask — five short questions
 
 1. **Per brand, who do we actually meet?** DT has a roster and half a matrix; **C-ATS needs a roster behind its
-   price band, and Fabric Walls and Pro-Fi need names at all.** *(**Light Walls needs nothing** — reviewed
-   2026-08-15, LWCP's `docs/STRATEGY.md` already assesses **Lutron Lumaris and Ketra, Color Kinetics, Traxon,
-   Anolis, Lumenpulse, Saco, Advatek, Pharos, ENTTEC, Madrix, Dresden Elektronik and Philips Hue** — each for
-   what it does well. **It is the best competitor document in the group and this sheet did not know it
-   existed**.)*
+ price band, and Fabric Walls and Pro-Fi need names at all.** *(**Light Walls needs nothing** — reviewed
+ 2026-08-15, LWCP's `docs/STRATEGY.md` already assesses **Lutron Lumaris and Ketra, Color Kinetics, Traxon,
+ Anolis, Lumenpulse, Saco, Advatek, Pharos, ENTTEC, Madrix, Dresden Elektronik and Philips Hue** — each for
+ what it does well. **It is the best competitor document in the group and this sheet did not know it
+ existed**.)*
 2. **Which of the names above are wrong** — in the document but not competitors we meet?
 3. **Who is missing entirely?**
 4. **Which are competitors for the *dealer* rather than for the product?** Kept as a separate list, because the
-   axes that matter differ.
+ axes that matter differ.
 5. **Confirm the cadence** — quarterly, plus on any surface change.
 
 ---
@@ -720,10 +717,10 @@ is, or the file it names should exist.**
 - **No superlative arms race.** No brand claims to be *the* most complex, critical or hardest part of a project.
 - **Never publish pricing** — partner or end-user — anywhere.
 - **Never name material suppliers, manufacturing partners or OEM relationships.** *One explicit exception:
-  Fabric Walls' customer-chosen branded fabrics (below).*
+ Fabric Walls' customer-chosen branded fabrics (below).*
 - **Never imply the dealer can't.** B6 (`../brands/c-ats/positioning.md`), and it recurs independently in three brands' own rules.
 - **Never name a confidential client, and never hint in a way that identifies one.** Deployment depth is
-  implied, never itemised (`NEXT.md` lane 1).
+ implied, never itemised (`NEXT.md` lane 1).
 
 ### C-ATS
 
@@ -793,11 +790,11 @@ stopped, and the physical layer waits on fab. **Rule: name it as an absence, nev
 them (reviewed read-only in the LWCP repo):
 
 - **Never claim optical feedback in the colour loop.** No photodetector, no LED-as-sensor, no optical sensing
-  of the light's *own output* at runtime — deliberately, and it is what clears a competitor portfolio **in
-  force to 2034**. Correction runs **open-loop from a stored measured profile** plus thermal and electrical
-  telemetry.
+ of the light's *own output* at runtime — deliberately, and it is what clears a competitor portfolio **in
+ force to 2034**. Correction runs **open-loop from a stored measured profile** plus thermal and electrical
+ telemetry.
 - **Never describe the gamut as tessellated into three-coordinate mixing zones.** The design is **a single RGB
-  triangle plus a free W channel**, and the distinction is what clears a second patent.
+ triangle plus a free W channel**, and the distinction is what clears a second patent.
 
 > **⚠ Correction, 2026-08-15 — the first draft of this entry got it dangerously wrong.** It read *"never claim
 > optical sensing"*, which would deny a real capability. **LWCP has a ratified spatial-sensing layer** —
@@ -834,8 +831,8 @@ every one of those was a breach of a rule that existed, unwritten in the one pla
 ### What only Neil can answer
 
 1. **Is anything missing from a brand's list?** The standard asked for exactly this confirmation, and it is the
-   only part of session 6 that is not surfacing.
+ only part of session 6 that is not surfacing.
 2. **Do the `G2` lists get published to dealers, or held internally?** *Recommend internal* — a list of what we
-   won't say reads oddly outward, and its job is to gate drafting.
+ won't say reads oddly outward, and its job is to gate drafting.
 3. **Where does the canonical copy live** once the record is filled — engine's knowledge mechanism or the brand
-   files? This is the same sequencing fork as `engine-as-hub.md` §3, arriving from another direction.
+ files? This is the same sequencing fork as `engine-as-hub.md` §3, arriving from another direction.
