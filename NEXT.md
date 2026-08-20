@@ -413,13 +413,18 @@ method."*** *`evidence/2026-08-20-the-site-is-an-output-correction.md` supersede
 
 **Two things follow, and the second one stings.**
 
-**1. The method is proven end to end.** *Rows in this repo became a published, specifier-grade site with nobody
-writing page copy — `PR-9`'s "data leaves as data" has an output. **And the generation is more disciplined than its
-own source**: `copy.md` still says "shallower than anything comparable", the unbounded superlative `Q63` bounded, and
-**the site does not say it** — it says "nothing deeper than 50 mm" plus "43 mm for the Resonance Control Panel".
-So `copy.md` is the stale artefact now (`SIT-4`).*
+**1. ~~The method is proven end to end.~~ WITHDRAWN the same day.** *Neil: **"I'm sure that our other sites were
+used as reference also."** So the generation drew on **this repo and the existing SRND sites**, and **the split is
+unknown** — `SIT-8`. **I turned one sentence into a causal claim and called it the strongest evidence in the repo.**
+*Agreement between repo and page is not attribution: the 210 m³ chamber, the A/B install story and the corner
+double-count warning appear in both, and either could be the source — **and the technical page says the data files
+are "served from the current site"**, so `c-ats.co.uk` is a live source, not a historical one.* **What survives
+without provenance:** *`copy.md` says "shallower than anything comparable" — the unbounded superlative `Q63` bounded
+— and **no page says it**. Whatever wrote the pages, `copy.md` is the stale artefact (`SIT-4`).*
 
-**2. `PR-24` broken: this repo's notes about what is unpublished were describing its own output.**
+**2. `PR-24` broken — on the observation, not the explanation. The answers are published and the record says they
+are not.** *And if the existing site supplied them rather than this repo, **the error is older and larger**: they
+were public before this repo drafted them.*
 *I audited **one page of five** and had not read `/technical-information/`. **It already publishes**: bond-or-screw
 with the reason · **the ~300 mm tolerance with the resonance exception** · behind-fabric · why-the-figures-look-low
 **with no coefficient** · how-many-panels · the below-125 Hz absence · **the free/unfixed mounting caveat** · and
