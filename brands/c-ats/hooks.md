@@ -7,6 +7,24 @@ fill a cell.** The three doors' matrices live in their pathways; this file is th
 the test applied to each, **and the ones that were rejected and why**, so a rejected angle stops being
 re-proposed. Drafted for correction. Other brands copy the shape.*
 
+> **⚠ Four settled decisions landed on this file on 2026-08-19, and one of them changes what the file *is*.**
+>
+> **1. `PR-8` is resolved: these are drafts to correct, not blanks awaiting an author.** *The row read "hooks cannot
+> be cast without an owner authoring the wording", and it was the only deliverable held to that standard while
+> `../../motion/motion-design.md` says **correct a draft** everywhere else. **So every candidate below is offered
+> for correction.** The wording is mine; the judgement is Neil's, and a struck candidate is as useful as an approved
+> one.*
+>
+> **2. Entry is keyed to the project moment, not the problem** (`PR-14` broken, `PR-7` broken on its own falsifier,
+> `pathways.md` `M1`–`M3`). *The three door tables below still hold the **substance** — the 3 Rs is the design system
+> (`Q70`) — but a hook reaches a dealer at a moment. **The mapping is at the foot of this file.***
+>
+> **3. Measurement is hygiene, not an appeal** (`PR-4`, Neil: *"hardly any dealer cares about Sabines"*). **Two
+> candidates are demoted below**, both of which had a coefficient chart as their subject.
+>
+> **4. The contrast is independence, not plain speaking** (`C1.39`, `Q74`). *The set had no hook for the brand's
+> actual contrast; one is added at range level.*
+
 ## What this file is not
 
 - **Not copy.** These are angles with substance behind them. **The wording is an owner's to set** — a hook is the
@@ -43,7 +61,7 @@ to be true first.*
 |---|---|---|---|---|
 | The problem named | *"Reverberation — Understanding"* — the room that swallows dialogue | The published explainer, ~9,500 views | Search, AI answers, YouTube | **live** — and it currently hands to nothing (CON-8) |
 | Better results | Dialogue the client can follow without asking — what actually changes when decay time comes to target | `R1`, and the 3 Rs argument | Social (three-up), YouTube short | candidate |
-| Easier to do | 50 mm: treatment that fits rooms the deep products cannot be fitted to | The shared **Depth** field (50 mm on all three) and `O4` | Trade press, social | candidate |
+| Easier to do | 50 mm: treatment that fits rooms the deep products cannot be fitted to | The shared **Depth** field — **50 mm REF-CP and REV-CP, 43 mm RES-CP** *(corrected 2026-08-19, `Q63`; the field said "50 mm on all three" and was wrong)* — and `O4` | Trade press, social | candidate |
 | Better results | Over-treating makes a room dead — the failure is as often too much absorption as too little | `D9` (over-use dulls a room) | Social, LinkedIn | candidate |
 | Time saved | Size it yourself, or take the design service — the choice is the dealer's | The two routes (`copy.md`); `claims.md` `C3.1`–`C3.2` | Trade press, LinkedIn | **blocked — aspiration, not truth** (Neil, Q59). No self-serve route exists; DR-Q52 |
 | More revenue | The job won by being able to say *why* the room needs treatment, not just that it does | `../../group-strategy/buyer-journey.md` | LinkedIn, EI microsite | candidate |
@@ -54,7 +72,7 @@ to be true first.*
 |---|---|---|---|---|
 | The problem named | The room measures acceptably and still doesn't sound convincing | `R1` — the doubt the panel meets | Search, AI answers | candidate *(search wording provisional on CON-3)* |
 | Better results | Scattering keeps a room alive; absorbing at the reflection points makes it dead. They are different jobs and the wrong device is the commonest mistake | `D2`, `D3`, `O4` (foam used at reflection points is the wrong device) | Social, YouTube, trade press | candidate |
-| The problem named | A scatterer's absorption figures *should* look low. If they look high, something is resonating that shouldn't be | `product-records.md` §1, the Reflection A/B curves | LinkedIn, search | **blocked on DOC-4** — no figures until the A and B values are read off the published chart |
+| ~~The problem named~~ **DEMOTED 2026-08-19** | ~~A scatterer's absorption figures *should* look low. If they look high, something is resonating that shouldn't be~~ *`PR-4`/Neil: "hardly any dealer cares about Sabines." A hook whose subject is how to read a coefficient chart is aimed at an interest the buyer does not have — and it rests on the `A`/`B` reading `PR-13` deflated. **Keep as a sales-objection answer, not as a hook.*** | `product-records.md` §1, the Reflection A/B curves | LinkedIn, search | **blocked on DOC-4** — no figures until the A and B values are read off the published chart |
 | Easier to do | Panels can sit ~300 mm off the designed position without changing the result — because the acoustics do not depend on set-out precision | `O2`, and the record calls it the brand's best unused claim | Trade press, social | candidate |
 | More revenue | Knowing which wall matters and why — the first-reflection argument, made in front of a client | `D4` (first-reflection points), and why-to-spec | LinkedIn, EI microsite | candidate |
 
@@ -64,8 +82,8 @@ to be true first.*
 |---|---|---|---|---|
 | The problem named | Bass heavy in one seat and gone in the next | `R1`, `D4` | Search, AI answers | candidate *(search wording provisional on CON-3)* |
 | Better results | It is a pressure problem, not a response problem — which is why processing does not fix it | `D3` (corner loading, modal pressure), `R4` | Social, YouTube, LinkedIn | candidate — **teaches, and takes the most explaining** |
-| Easier to do | Corner loading is what lets 50 mm do work that otherwise needs far greater depth | `O4` — the depth argument made concrete and most defensible | Trade press, social | candidate |
-| The problem named | Absorption figures are worth nothing without the test configuration beside them — ours are measured in corners, because that is where the panel goes | BSRIA test 4 (`product-records.md` §2) | LinkedIn, trade press | candidate — **and it teaches a professional to check something they can check on anybody's data** |
+| Easier to do | Corner loading is what lets **43 mm** do work that otherwise needs far greater depth *(`Q63` — and the figure being smaller makes the hook stronger)* | `O4` — the depth argument made concrete and most defensible | Trade press, social | candidate |
+| ~~The problem named~~ **DEMOTED 2026-08-19** | ~~Absorption figures are worth nothing without the test configuration beside them — ours are measured in corners~~ *Same reason: it is a hook about measurement discipline. **The underlying fact survives and is stronger said as a result** — see the replacement row below* | BSRIA test 4 (`product-records.md` §2) | LinkedIn, trade press | candidate — **and it teaches a professional to check something they can check on anybody's data** |
 | More revenue | The room problem a client can hear and cannot name — and being the person who solves it | `R1` | LinkedIn | candidate |
 
 ### Range-level — not tied to one door
@@ -74,6 +92,8 @@ to be true first.*
 |---|---|---|---|---|
 | Time saved | The treatment sits behind the wall, so it is decided *before* the wall is built — earlier in the project than the fabric, the lighting or the screen | `N6` — derivable, load-bearing, and **never stated anywhere** | LinkedIn, trade press | candidate — **the best unused idea in the brand.** It is also the cross-sell moment (`../../motion/adjacency-map.md`) |
 | The problem named | Three problems decide how a room sounds, and each has its own answer | The 3 Rs, `content.md` | Social, all | **live** (the explainer set) — ends dead, same as door 1 |
+| **Easier to do** | **A system you specify and install yourself, on a job you already have** — *no acoustician on the drawings, no consultant on site* | **`claims.md` `C1.39`** (`Q74`) — the brand's actual contrast, and the tier that competes sells rooms that need them in them. *Also `C3.10`: never imply the dealer can't* | LinkedIn, trade press, EI microsite | **candidate — new 2026-08-19, and the set had nothing for the brand's central claim** |
+| **Better results** | **A 43 mm panel in the corner doing what deep traps are bought for** | `product-records.md` `O4`; `claims.md` `C4.15` — Neil: *"a very, very unusual product delivering results much deeper panels would be proud of"* | Social, YouTube, trade press | **candidate — replaces the demoted measurement hook.** *Same fact, said as a **result** rather than as a lesson in reading test configurations* |
 | Better results | Acoustics is usually the one part of a room nobody can see or prove. This is the part you can | `positioning.md` §4 — and `N7` records that **there is no client-facing deliverable containing it** | LinkedIn, trade press | candidate — needs `N7` filled first if it is to hand anywhere useful |
 
 ## The blocked hook — corrected 2026-08-18
@@ -156,3 +176,26 @@ nothing to change — and not built as search articles.
   reminder that "the brand's material" is wider than `brands/c-ats/`.
 - **The professional bar rejected more than the stranger test did.** Most of what fell out was true and useful
   and simply not something an integrator would respect us for saying. That is the filter worth keeping.
+
+## The moment mapping — which hooks reach which entry
+
+*Added 2026-08-19. **A hook reaches a dealer at a moment, not at a problem** (`pathways.md` `M1`–`M3`,
+`claims.md` `C2.24`–`C2.26`). The door tables above hold the substance; this says where each kind lands.*
+
+| Moment | What the dealer is doing | Which hooks reach them | State of that set |
+|---|---|---|---|
+| **M1** — won or bidding a cinema, needs the acoustics specified | Turning a job on paper into a specification | **The *"easier to do"* family** — the independence hook (`C1.39`), the depth figures, the ~300 mm tolerance | **The strongest set, and the newest.** *Two of its three rows were written or corrected today* |
+| **M2** — pricing the build, needs a treatment number | Quoting a client they cannot quote without a number | **The *"time saved"* and *"more revenue"* families** — whole-box quantities, the job won by being able to say *why* | **Blocked where it matters.** *The self-serve sizing hook is `Q59`-blocked as aspiration, and `Q45` has not set the design price. **M2 is the moment a dealer cannot pass, and it is the least served*** |
+| **M3** — an architect or client has asked for a spec | Producing the acoustic layer of someone else's paperwork | **The *"problem named"* family, and the timing hook** — the treatment is decided before the wall is built (`N6`) | **The timing hook is the only one aimed at the specifier cast**, and `training.md` `T2` is the same subject. *`C2.27`'s actors are otherwise unaddressed by this set* |
+
+### What the mapping shows
+
+- **`M2` is the moment a dealer cannot get past, and it is the worst served.** *They cannot quote without a number;
+  the hook that would answer it is blocked on `Q59`, and the price is open on `Q45`. **Everything else in this file
+  is upstream of a gate we have not opened.***
+- **One hook reaches the specifier cast** — the timing argument, `N6`. *Against `C2.27` and a competitor partner
+  running three ISE sessions at architects and interior designers, that is the gap, and it is the same gap
+  `training.md` found: four of five rows spoke to the integrator.*
+- **The two families that survived today's corrections are the two that talk about the dealer's job** — *"easier to
+  do"* and *"more revenue"*. **Both demoted hooks were about our evidence.** *`PR-4` in one line: the appeals that
+  survive contact are the ones where the dealer is the subject of the sentence.*
