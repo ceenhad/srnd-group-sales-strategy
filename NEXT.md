@@ -196,6 +196,27 @@ several times the acoustic treatment design fee.*** **Four consequences:**
   whole time. **`KNW-6`.** *The lesson is not that the layer was hidden — it is that **the documentation lags the
   business by years, and this repo keeps mistaking its own blank cells for the company's gaps**.*
 
+**The Cinema Partners accounts — Neil pointed at them while I was claiming the cinema design layer had no
+record.** *`evidence/2026-08-19-cinema-partners-accounts.md`. **Two GTUK sales accounts, `CINEMA PARTNERS MATERIALS`
+and `CINEMA PARTNERS SERVICES`, 2021–2023: 31 invoices, £404,193 of positive lines, seven trade customers.*** **The
+finding is the ratio: services were the larger half** *(£154,047 against £135,598 net; 53% of the total, or 38% if
+the single £113,977 credit is set aside).* **So the last time this business ran cinema work, design carried
+comparable weight to materials** — *and this repo has been modelling design as an adjunct priced off how long it
+takes (`Q45`). **The shape, not the facts, is what was wrong.*** **`Q80`** *asks Neil both halves: what Cinema
+Partners was — the name is also a **Light Walls customer**, £63,567 of LED in 2022 — and whether that ratio is the
+shape SRND should be running now.*
+
+**And it exposed a defect with a rate attached: `contact_canonical` is not canonical.** *It equals `contact_raw`, so
+the dealer join splits one dealer across entities on spelling. **In this seven-customer sample, every dealer that
+continued into SRND was mis-joined*** — *HiFi Corner, Holburn (three variants), Sysco, INT3.* **`MON-7` already
+called the 26% carry-over a floor for exactly this reason; this says how far off.** **`MON-18`** — *and the fix is a
+canonicaliser with an explicit exceptions list, because `London AV Solutions`, `West London AV Solutions` and
+`London AV Setup Ltd` may be three different companies.*
+
+**Also worth carrying: four of those seven dealers still trade with SRND**, one across four entities. *That is this
+repo's core idea in its own ledger — the dealer relationship counted across brands and over years — and it had never
+been shown.*
+
 **Resume at: `KNW-6` — the isolation record.** *Everything else about the layer waits on it, and it starts with an
 advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
 before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on
