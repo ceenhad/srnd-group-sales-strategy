@@ -72,3 +72,30 @@ adjacency page (`content-plan.md` item 45) is an entrance as well as an exit** �
 **Internal only.** Named dealer relationships and invoice-level revenue do not appear in any published piece, in
 any form (`../../data/README.md`, sensitivity). Segments inform which pathway a dealer is offered — they are never
 described back to the dealer, and no piece of content refers to a segment.
+
+## The entry re-key, and the limit it exposes
+
+*Added 2026-08-19, closing `MTH-1`. **Entry is now keyed to the project moment** — `M1` won or bidding, `M2` pricing
+the build, `M3` an architect has asked for a spec (`pathways.md`, `claims.md` `C2.24`–`C2.26`). **This table cannot
+see any of them.***
+
+**A segment says what a dealer has already been shown. A moment says what they are doing this week.** *The two are
+orthogonal, and **nothing in the ledger or the CRM records a project stage** — no bid, no design-stage flag, no
+quote-in-progress. So the cut can route a dealer to a **stage** of the journey and cannot route them to a
+**moment**.*
+
+**Three consequences, and the first is the one that matters.**
+
+1. **The moment is discovered in conversation, or not at all.** *Which makes it a question the first exchange has to
+   answer — "what stage is the project at" — rather than something segmentation can pre-empt. **It is also why `M2`
+   being the worst-served moment (`hooks.md`) cannot be seen in any number here.***
+2. **It does not weaken the cut, it bounds it.** *The segments still say what a dealer has seen, which is what they
+   were built to say (`Q51`: a fact about their state, never a ranking). **The re-key changes what the content says
+   at entry, not who is at the door.***
+3. **It is the same instrument gap as engagement.** *`G2` recorded that engagement cannot be measured until the
+   inbound log exists. **Project stage is a second field nothing captures**, and both would be captured in the same
+   place — engine, at the point of contact (`../../operations/engine-as-hub.md`).*
+
+**What this does not license.** *Guessing a moment from a segment. **A dormant account is not therefore at `M1`, and
+a group-active dealer is not therefore pricing a build** — the mapping does not exist and inventing it would be the
+league-table error (`Q51`) in a new costume.*

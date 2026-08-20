@@ -48,7 +48,17 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **`hooks.md` and `segments.md` into rows** — the rest of `MTH-1`. *The pathways are done
+**`MTH-1` is done** (2026-08-19). *`pathways.md` is the row form of the three doors, re-keyed to `M1`–`M3`;
+`hooks.md` took four settled corrections and `PR-8` broke by being acted on; `segments.md` gained the limit the
+re-key exposed — **nothing in the ledger or CRM records a project stage**, so segmentation routes to a journey stage
+and never to a moment, which makes the moment a question the first exchange has to ask.*
+
+**Resume at:** **`M2` — the moment a dealer cannot get past, and the worst served.** *They cannot quote a client
+without a treatment number. The hook that would answer it is `Q59`-blocked as aspiration, the price is open on
+`Q45` (basis now known: a design is a day, not three), and the box quantum is the thing that makes an early number
+possible at all. **Everything else in the hook set is upstream of a gate nobody has opened.***
+
+**~~Resume at:~~ ~~`hooks.md` and `segments.md` into rows~~** — done. *The pathways are done
 (`brands/c-ats/pathways.md`, 2026-08-19): three doors **re-keyed to the project moments `M1`–`M3`**, `PR-7` broken on
 its own falsifier, and slot 4 changed from **proving** to **confirming** on `PR-4`. **The hook set is the emptiest
 part of the system** — `S1` is empty on two doors and dead on the third — and `PR-8` is challenged, which matters
