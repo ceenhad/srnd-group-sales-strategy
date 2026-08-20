@@ -150,7 +150,31 @@ shell; **inside it, depth is stolen from the usable room** (`C1.45`). `PR-21` st
 half recovered — **breaking a premise cleanly can throw away a true argument along with the wrong owner**, and this
 one survived only because Neil restated it unprompted.*
 
-**Resume at: `Q78` — two confirmed rows that need reconciling.** *`C1.39` says C-ATS is **a system a dealer runs
+**`Q78` answered — *"different halves"*, and it produced a rule rather than an edit.** *The design is bought from
+us because the integrator will not spend the hours; **the room does not need us in it.** So both confirmed rows
+stand, and every use of the line is now bound by: ***"a system a dealer runs without hiring the author" is a claim
+about the install and the room — never about the design stage.*** Recorded on `C1.39` and in
+`group-strategy/competitors.md`, where the line actually gets used against the design-led tier.* **And one thing
+that cuts harder than the charge it replaced:** *their method has to stay closed because it **is** the product; ours
+can be published, because what we sell is the hours.*
+
+**`C1.42` is written up one layer up — `group-strategy/the-group-play.md` § "The same room cut a different way".**
+*The room by **who owns the decision** rather than by brand: **isolation with the architectural design** (it sets the
+structural dimensions) · **treatment nominally the acoustic consultant's**, and the layer that stalls · **finish with
+the interior design**. **SRND often in all three, which is what *"one relationship, whole room"* means
+structurally** — presence in three layers of a project's design, not six brands on one invoice. *One general point
+kept at that layer: **a layer with a nominal owner who declines it behaves worse than a layer with no owner**,
+because everyone can point at somebody. Whether that pattern holds in the other two layers is **unknown and flagged
+as the obvious thing to check on the next brand run**.*
+
+**Resume at: `Q79` — the group layer claims a layer the brand disclaims.** *`the-group-play.md` says C-ATS covers
+*"reflection, resonance and reverberation, **plus isolation**"*; the C-ATS record says ***"not isolation — resonance
+is a treatment problem, isolation is a different one entirely"***, and `C1.40` puts isolation with the architectural
+design. **Left visible rather than quietly edited**, because the likely resolution is a distinction the documents are
+losing: **we are involved in designing isolation and do not sell it.** *Behind it: `Q76`'s two decisions on the
+client leave-behind, `T5`'s two confirmations, and `Q74`.*
+
+~~**Resume at: `Q78` — two confirmed rows that need reconciling.**~~ *`C1.39` says C-ATS is **a system a dealer runs
 without hiring the author**; `C1.43` says **the integrator will not spend the time** on the design. My reading is
 that these are different halves — **the design is bought from us, the room does not need us in it** — which would
 also fix the wording rule: *"runs it without hiring the author"* is a claim about the install and the room, **never
