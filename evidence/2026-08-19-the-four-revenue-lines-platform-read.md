@@ -9,6 +9,10 @@ Services are very profitable so if they can be systemised and priced they are al
 > check the platform before specifying anything that touches it, and **a strategy artefact that duplicates or
 > contradicts a live system is worse than no artefact.** ADR statuses were checked before citing — which mattered,
 > see §4.*
+>
+> **And one line of scope, added the same day.** *Neil: **"I don't want to build that Cinema Partners stuff into the
+> plans just yet."*** **So the Cinema Partners material below is recorded, not adopted** — nothing in this repo plans
+> or schedules it, and §3 exists only to stop the name being merged with our own partner programme.
 
 ---
 

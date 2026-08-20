@@ -71,3 +71,20 @@ that, and it costs a dealer nothing to verify.*
 **What this piece deliberately does not do** *(`PR-4`, and Neil 2026-08-19: "if it's not legal or safety no one
 gives a shit — hardly any dealer cares about Sabines")*: **it quotes no coefficient, no test standard and no
 measurement.** *The tolerance is a fact about the dealer's working day. That is why it is the subject.*
+
+---
+
+## ⚠ What this is, and what a CPD submission would need on top — added 2026-08-19
+
+**This draft is the argument. It is not a CPD submission.** *`../../evidence/2026-08-19-cpd-certification-service-documents.md`
+lists what an accreditor requires, and the gap is apparatus rather than content:* **a timed agenda with comfort
+breaks · presenter instruction notes · a presentation carrying speaker notes, with branding confined to the opening
+and closing slides · a delegate handout · a delegate feedback mechanism** — *and a **learning-objectives frame at the
+front**, because this piece opens with its claim and an assessor wants *"Why am I here? What will I learn?"* first.*
+
+**Two of their requirements are worth treating as improvements rather than compliance.** *(1) **Examples and case
+studies** — this draft has none, and `product-records.md` `N8` records that a decade of work is captured as nothing.
+(2) **Participation** — a discussion prompt is required, and the obvious one here doubles as research.*
+
+**Still runnable as our own class today.** *Neither route's membership is needed to teach it; the apparatus is what
+stands between this and an accredited seminar.*

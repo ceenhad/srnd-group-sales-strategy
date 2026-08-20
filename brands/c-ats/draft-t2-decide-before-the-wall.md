@@ -170,3 +170,20 @@ the question is really being asked (`C2.26`).*
    without hiring the author" is about **the install and the room**, **never** about the design stage.* **Nothing in
    this draft claims otherwise** — the class explains the sequence and why it stalls, and says plainly that somebody
    gets paid to do the design.
+
+---
+
+## ⚠ What this is, and what a CPD submission would need on top — added 2026-08-19
+
+**This draft is the argument. It is not a CPD submission.** *`../../evidence/2026-08-19-cpd-certification-service-documents.md`
+lists what an accreditor requires, and the gap is apparatus rather than content:* **a timed agenda with comfort
+breaks · presenter instruction notes · a presentation carrying speaker notes, with branding confined to the opening
+and closing slides · a delegate handout · a delegate feedback mechanism** — *and a **learning-objectives frame at the
+front**, because this piece opens with its claim and an assessor wants *"Why am I here? What will I learn?"* first.*
+
+**Two of their requirements are worth treating as improvements rather than compliance.** *(1) **Examples and case
+studies** — this draft has none, and `product-records.md` `N8` records that a decade of work is captured as nothing.
+(2) **Participation** — a discussion prompt is required, and the obvious one here doubles as research.*
+
+**Still runnable as our own class today.** *Neither route's membership is needed to teach it; the apparatus is what
+stands between this and an accredited seminar.*

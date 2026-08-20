@@ -16,20 +16,19 @@ on an invoice.
 
 ## ⚠ Two things this document must be read against — added 2026-08-19
 
-**1. It is not "Cinema Partners", and the two must not be merged.** *The platform carries **Cinema Partners** as a
-live revenue line: **a certified channel — leads, design, admin, credibility — sold to *fitters*, by subscription**,
-on the Heat Geek *"business-in-a-box"* model, fed by a regulated qualification
-(`../evidence/2026-08-19-the-four-revenue-lines-platform-read.md`).* **This document is about a different partner:
-the dealer who buys product.** *The distinction is **who is being partnered** — the buyer of product, or the licensed
-deliverer of rooms — and the names are close enough that conflating them is the obvious failure. **Neither should be
-renamed; both should be cited.***
+**1. A name collision to keep apart — and nothing more than that.** *The platform holds a separate thing called
+**Cinema Partners**, which partners a different party: **the deliverer of rooms**, not the buyer of product. **This
+document is about the dealer who buys.** The names are close enough that merging them is the obvious mistake, so the
+distinction is marked here.* **Neil, 2026-08-19: *"I don't want to build that Cinema Partners stuff into the plans
+just yet."*** **So this is a boundary marker, not an adoption — nothing about that idea is planned, scheduled or
+committed to in this repo**, and it stays where it belongs, in the platform's own plan and behind its own gates.
+*(Recorded for reference only: `../evidence/2026-08-19-the-four-revenue-lines-platform-read.md`.)*
 
-**2. Building it is gated, and the gate is an accepted ADR.** *`cinema-platform` **ADR 017 v2 §12**: **"demand is
-measured before the curriculum or the partner programme is built"** — calculator traffic first, then one module
-published to see who buys. The commercial plan gates the Cinema Partners programme behind **Phase 1** (showing a
-trade audience) and **Phase 3** (proving design services sell).* **This document may propose and must not launch** —
-*which is this repo's own **build it, then say it** rule with a measurement attached, and the reason the candidate
-list below stays a candidate list.*
+**2. Building *this* programme is gated, and the gate is an accepted ADR.** *`cinema-platform` **ADR 017 v2 §12**:
+**"demand is measured before the curriculum or the partner programme is built"** — calculator traffic first, then one
+module published to see who buys.* **This document may propose and must not launch** — *which is this repo's own
+**build it, then say it** rule with a measurement attached, and the reason the candidate list below stays a candidate
+list.*
 
 ## What only a manufacturer can offer
 

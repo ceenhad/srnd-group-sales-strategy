@@ -53,6 +53,30 @@ compliance gate, where a dealer cannot finish the job without the certificate.*
   `EDU-1`'s finding that competitors hold the CEDIA training ground stands as an observation; **it is not a route
   this repo may propose.***
 
+**↻ And the CPD submission requirements are now known — `../../evidence/2026-08-19-cpd-certification-service-documents.md`
+(Neil supplied the accreditor's own guide and application, 2026-08-19).** *This changes what *"drafted"* means on the
+rows above.*
+
+- **A seminar is the right shape, by their definition** — *a few hours up to a day, one subject, **no more than 20
+  participants**, group work and discussion. `T2` is that.*
+- **But `T2` and `T5` are the argument, not the submission.** *Eight items are required and we have the content only.
+  **Missing: a timed agenda with breaks, presenter instruction notes, a presentation with speaker notes, a delegate
+  handout, and a delegate feedback mechanism** — plus a learning-objectives frame at the front, which neither draft
+  has: they open with the claim, and the assessor wants *"Why am I here? What will I learn?"* first.* **Both remain
+  runnable as our own class today; neither is submittable.**
+- **"Branding should be limited to opening and closing slides", and *"no products & service selling"*.** *So the
+  no-pitch rule in these rows is now an **assessment criterion** on one route and a **Quality Code requirement** on
+  the other — **not a house preference**.*
+- **Participation is required, and that turns a class into an instrument.** *Q&A, quiz, discussion or reflective
+  notes.* **`T2`'s three refusals are a natural discussion prompt — *"which of these happens on your projects?"* —
+  and a room of architects answering it is the answer to `N6`'s open `[?]`, which nobody has ever collected.**
+  *Worth more than the seminar.*
+- **`N8` — field learning — is now a channel blocker, not a content-plan item.** *Their fundamentals require
+  **examples, case studies, facts and stats**. `product-records.md` `N8`: a decade of cinema work and the Cornflake
+  IMAX install, **captured as nothing**. **No case studies, no submission-grade material, on either route.***
+- **Lead time, at last a real one: 10–14 working days** per assessment. *And materials must be kept current on both
+  routes or certification is withdrawn — **one two-year refresh obligation, not two**.*
+
 ## Rejected, with reasons
 
 **A rejection with its reason is worth more than a long list** — the same rule Leg 2 runs under.

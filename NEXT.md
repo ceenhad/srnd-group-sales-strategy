@@ -248,6 +248,40 @@ itself on **ADR 073 and 019, both `superseded_by: 17`**, and was last updated 20
 escalation."*** **Practical rule for anyone here: prices and tiers live in `docs/product/` per §10 — check them
 against ADR 017 v2 before use, because the stale copy is exactly where they look.**
 
+**CPD: Neil supplied the accreditor's own guide and application** —
+`evidence/2026-08-19-cpd-certification-service-documents.md`. *It is **The CPD Certification Service** — route (b),
+the badge — at **£2,250 + VAT for two years** (`MEMBER(5) ORGANISATION`), which **corrects the platform plan's
+"£200–£500/yr for a package" by about a factor of two.*** **The two routes are complementary, not a choice: the badge
+stamps the online modules, RIBA reaches the architects.** *Certification covers **the materials only, not the
+business or personnel** — never describe it as a company accreditation. **10–14 working days** per assessment, the
+first hard lead time in the education layer, and both routes impose the same two-year refresh.*
+
+**The useful part is the submission requirements, and they reframe what we have.** *A seminar — their definition, a
+few hours to a day, one subject, **no more than 20 participants**, group work and discussion — is exactly `T2`. **But
+`T2` and `T5` are the argument, not the submission.*** *Missing on both: **a timed agenda with breaks, presenter
+instruction notes, slides with speaker notes, a delegate handout, a feedback mechanism**, and a **learning-objectives
+frame at the front** — both drafts open with the claim, and an assessor wants *"Why am I here? What will I learn?"*
+first. **`EDU-5`** builds it once as the template for all five rows. *Both remain runnable as our own class today,
+with no membership and nobody's permission.*
+
+**Three consequences worth carrying:**
+- ***"Educational, information-led… no products & service selling"*, and *"branding limited to opening and closing
+  slides."*** **So the no-pitch rule is an assessment criterion on one route and a Quality Code requirement on the
+  other** — *`CLAUDE.md`'s "never lead with our own brilliance" is the entry condition for the channel, and neither
+  rule was derived from the other.*
+- **Participation is required, which turns a class into an instrument — `EDU-6`.** *`T2`'s three refusals are the
+  natural prompt: **"which of these happens on your projects?"** A room of architects answering that **is the answer
+  to `N6`'s open `[?]`** — when the acoustic decision actually gets made — **which nobody has ever collected.
+  Probably worth more than the seminar.***
+- **`N8` is now a channel blocker, not a content-plan item — `EDU-7`.** *Both routes require case studies and
+  examples; `N8` records a decade of cinema work and the Cornflake IMAX install as **captured nothing**. **No case
+  studies, no submission-grade material, either route.***
+
+**And Cinema Partners is deliberately not in any plan here.** *Neil: **"I don't want to build that Cinema Partners
+stuff into the plans just yet."*** *The platform read-up records it because a strategy artefact must not contradict a
+live system; `partner-programme.md` carries a one-paragraph **boundary marker only**, so the two names do not get
+merged. **Nothing is planned, scheduled or committed.***
+
 **Resume at: `KNW-6` — the isolation record.** *Everything else about the layer waits on it, and it starts with an
 advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
 before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on
