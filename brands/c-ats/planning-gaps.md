@@ -37,37 +37,14 @@ statement of the job: **"we need to engage with more AV integrators."*** **No nu
 between three ways of doing it — win new · reactivate the lapsed · deepen the active.~~ **That framing was withdrawn
 the same day — see below. One motion, everybody treated as new.***
 
-> **↻ Reframed 2026-08-19 by two answers from Neil, and `P1` got harder rather than easier.**
->
-> **(a) The target is forward and dual, and engine already models it.** *Neil: **"we have SRND engine designed to
-> track anything we want going forward. I think we have to establish dual brand and SRND group targets to separate
-> dealer and distribution sales."*** **Checked against engine: `customers.customer_type_id` already carries
-> `dealer` · `distributor` · `end_user` · `specifier`, and `products.brand_id` gives brand attribution.** *So the
-> structure is: **a group target on dealer sales and a brand target on distribution sales, never netted together**,
-> *(corrected 2026-08-19 — I had these inverted. **A dealer is counted across all six brands, so dealer sales are a
-> group measure; a distributor is appointed brand by brand and territory by territory, so distribution is a brand
-> measure.** There is no group distributor, and a brand-by-brand dealer target would impose exactly the fragmentation
-> the group play exists to remove.)*
-> counted at `ordered_at` rather than at the invoice — `../../evidence/current-state.md` § The forward instrument.*
-> **One action enables all of it: 333 of 350 live customers are untyped**, and until that field is filled the two
-> cannot be separated at all.
->
-> **And the historical ledger is not the instrument.** *Neil: **"the point of the whole rep is to help identify the
-> methods of generating the interest and tracking it, not taking over history. I kind of regret putting those numbers
-> in given how they are being used."*** **He is right and the retrospective framing has been withdrawn.** *Invoices
-> are outstanding for work already sold, so the 2026 figure is an incomplete count and not a decline. **The measure
-> that matters is `leads` by source through to conversion — the method of generating interest — which engine models
-> in full and which currently holds four rows.***
->
-> **(b) There is one motion, not three.** *Neil: **"none of this — please clearly understand that treating all of
-> them as new is the most efficient approach."*** **`PR-22` broken.** *The recency segments stay valid as
-> **measurement** and are **not** a segmentation of the approach: a dealer who bought in 2021 and one who never has
-> both need telling what C-ATS is and why it fits the room in front of them, and **differentiating the pitch costs
-> owner hours (`P4`) and buys nothing.** Which is `growth-levers.md`'s own rule — *"the proposition re-pointed, not a
-> separate operation"* — applied one level down, where nobody had applied it.*
->
-> **Closes with:** *`customer_type_id` populated, then two numbers — one brand, one group — against forward data.
-> **Not a number against the ledger.***
+> **What `P1` needs, settled 2026-08-19/20.** *The **measure comes before the number**: engine already models
+> `customers.customer_type_id` (`dealer` · `distributor` · `end_user` · `specifier`) and `products.brand_id`, so the
+> structure is **a group target on dealer sales and a brand target on distribution sales, never netted together**,
+> counted at `ordered_at` rather than at the invoice. **333 of 350 live customers are untyped, and until that is
+> filled the two cannot be separated** (`ENG-1`).* **And there is one motion, not three** — *Neil: "treating all of
+> them as new is the most efficient approach", so the recency segments are measurement, not a segmentation of the
+> pitch.* **The historical ledger is not the instrument**: *invoices are outstanding for work already sold, and what
+> matters is `leads` by source through to conversion.*
 
 ### `P2` — Isolation is a sold C-ATS layer with no plan at all
 
@@ -125,30 +102,12 @@ validation** for pro install, commercial cinema or fit-out.* **A lever that cann
 > **Closes with:** *pick **one** channel and define what would count as validation — or say lever 2 is not this
 > year's work. **Both are decisions; holding three unvalidated channels open is not.***
 
-### ~~`P7` — Verification is a capability that was never made an offer~~ — WITHDRAWN
+### ~~`P7` — verification~~ — not a gap
 
-*`claims.md` `C3.4`, `C4.5`: verification is a **capability**. `positioning.md` §4 sells on it — *"any room it treats
-can be measured to confirm it performs"*.* **It is not priced, not in a ladder, and not sold** — *the same shape as
-isolation, one size smaller.*
-
-> **↻ CORRECTED 2026-08-20 — it is an offer, on two pages.** *`/products/` § Beyond the panels: **"Acoustic
-> verification — measurement of how the finished room behaves: reflection behaviour, decay uniformity and spatial
-> consistency, so the design's targets can be shown to have been met."** And `/start-your-project/` lists scope as
-> **"isolation, treatment, verification, or the full sequence."*** **So the gap is narrower than this row claimed:
-> verification is sold and has no price and no place in a service ladder.** *Which makes it the same gap as `P3`,
-> not a question of whether to offer it.*
->
-> **Closes with:** *a price and a rung, alongside `P3`.*
->
-> **↻↻ And confirmed independently, 2026-08-20, which matters.** *The correction above rests on `cats-98x.pages.dev`,
-> **whose provenance is unknown** (`SIT-8`). **`c-ats.myshopify.com` — Neil's own mockup — settles it**: it lists
-> **`C-ATS-VER-A` Acoustic Verification** as a product, alongside **`C-ATS-ISO-SYS` Isolation System** and
-> **`C-ATS-VER-ISO` Isolation Verification**, with a published article
-> `acoustic-verification-proving-the-room-performs`.* **And `copy.md` carried all three as services all along — this
-> file never read it.** *What survives is narrower: **verification is listed and not priced**, and `P2` stands
-> because **isolation is listed without a plan behind it.***
-
----
+**Verification is an offer, not an unsold capability.** *Listed as a service on the C-ATS store alongside Isolation
+System and Isolation Verification, and `copy.md` carried all three all along — this file was written without reading
+it.* **What survives sits with `P2`: verification is listed and not priced, and isolation is listed with no plan
+behind it.**
 
 ## What is *not* a gap, so it does not get re-audited
 

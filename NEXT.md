@@ -376,7 +376,7 @@ investing in are the ones we cannot measure**, which for a content-as-rep plan i
 the source vocabulary, fill the project joins, define `G5` — **then** two numbers against a working instrument. **The
 target comes last because it is the only part that cannot be built before the instrument works.***
 
-~~**↻ `JNY-1` done, 2026-08-20 — and it answers the three big questions.**
+~~**`JNY-1` done — the gateways mapped to engine.**
 `evidence/2026-08-20-gateway-instrumentation.md`. *All six gateways mapped to engine's real fields, read-only.*
 
 **1. What traceable success looks like — the funnel is measured for the first time: `G3` 6 → `G4` 35 → `G6` 2.**
@@ -448,27 +448,19 @@ stands. `SIT-2` narrows to one page against the record.*
 **that note is now the most misleading line in the premises register**, and it is what produced the false defect
 report.*
 
-**↻ The C-ATS web artefacts were checked and then over-worked — collapsed to one file, 2026-08-20.**
-`evidence/2026-08-20-c-ats-web-check.md`. *Neil supplied three sites in turn and I audited each, then corrected the
-audits; **Neil: "that fucking store is just the mockup. We are going in circles here."** Three evidence files and a
-brands file were folded into one, and eight of the ten `SIT-` items dropped.*
+**The C-ATS web check — `evidence/2026-08-20-c-ats-web-check.md`.** *Four artefacts exist and must be named rather
+than called "the site": **`www.c-ats.co.uk`** (live, ~5 years old, four products, no services, **the full BSRIA report
+and five coefficient sheets ungated**) · **`c-ats.myshopify.com`** (the mockup — unfinished by design, **not
+evidence**) · **`cats-98x.pages.dev`** (an Astro build, provenance unknown, not worth chasing) · and **`copy.md`**,
+which is stale.*
 
-**Four artefacts, so they are never conflated again:** *`www.c-ats.co.uk` **live**, unchanged ~5 years, four products,
-**no services**, and **the full BSRIA report plus five coefficient sheets, ungated** · `c-ats.myshopify.com` **the
-mockup** (`PR-18`'s subject; unfinished by design, **not evidence**) · `cats-98x.pages.dev` an Astro build of
-**unknown provenance, not worth chasing** · and `copy.md`, **stale**.*
+**Four findings.** ***`SIT-9`** — a published article files the Reflection Control Panel under a **"Diffusers"**
+heading, which `C5.15` forbids: the only rule violation. **`SIT-12`** — `N3` says two of thirteen answers are written;
+at least five are published, so check whether they are **right**. **`DOC-8`** — settleable from the public BSRIA
+report: one commission, *"3 materials in 8 configurations"*, marine in the same batch. **`P7`** — verification is an
+offer, so it was never a gap.*
 
-**Five findings survive.** *(1) **`SIT-9` — a published article attaches "diffuser" to the Reflection Control
-Panel**, which `C5.15` forbids: the only rule violation found. (2) **`N3`'s "two of thirteen written" is wrong** —
-at least five answers are published; **`SIT-12` checks whether they are right**, since (1) proves one is not. (3) ~~`DAT-1` is public~~ —
-**withdrawn: my misreading.** *"Within a depth of just 50 mm" is a **bound**, and 43 mm satisfies it, so the live
-site was never wrong and `DAT-1` stays scoped to `panels.json`.* (4) **`DOC-8` is answerable from the
-published BSRIA report** — one commission, *"3 materials in 8 configurations"*, marine in the same batch. (5)
-**`P7` withdrawn** — verification is an offer, and `copy.md` said so all along.*
-
-**And the lesson, since it cost an afternoon:** *name the artefact and fetch it before recording anything as
-*"unpublished"*, and **do not audit a mockup against the guardrails** — the findings dissolve the moment someone says
-what it is.*
+**And do not audit a mockup against the guardrails.** *The findings dissolve the moment someone says what it is.*
 
 **Resume at: `ENG-4` — awaiting go-ahead**~~, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
 should fill), `ENG-6` (define `G5`), `ENG-7` (is registration the gate?). *`ENG-2`/`ENG-3` follow once the data
