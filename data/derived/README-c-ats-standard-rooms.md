@@ -1,5 +1,22 @@
 # C-ATS standard rooms — what this file is and what it is not
 
+> **⚠ Two corrections from Neil, 2026-08-19, and neither is cosmetic.**
+>
+> **1. *"I don't know what that engine is. I suspect an old and useless idea. Cinema Tools Pro is the source for all
+> this."*** *I ran `engines/modal_analysis/` **without checking what governs it** — the fifth time today I checked
+> that something works rather than whether it is current. **On the evidence it is current**: `ADR 042` is `accepted`
+> at **version 5**, revised 2026-08-16, its slug is `acoustic-treatment-placement-engine`, and it supersedes 43 and
+> 47. **But the directory name says `modal_analysis`, which does not tell anyone it is the treatment placement
+> engine** — which is plausibly why it is not recognised by name. *Cinema Tools Pro is the product; this is an engine
+> inside it. **Neil's call either way; the ADR is the evidence, not my reading of it.***
+>
+> **2. *"Even then I need to tune the model a bit."*** **So no quantity from this engine is publishable yet, whatever
+> its provenance.** *That is a firmer constraint than the missing finish schedule below, and it applies to any output,
+> not just box counts.*
+>
+> **What survives both.** *The geometry is arithmetic. The reverberation target is the formula an accepted ADR
+> mandates. **Nothing else in this file should be relied on until the model is tuned.***
+
 **Generated 2026-08-19** by running `cinema-platform` `products/cinema-tools/engines/modal_analysis/`
 (`acoustic_treatment.py`, `c_ats_panels.py`) at commit `0fb875f`. **The room dimensions are not invented** — every
 value is drawn from the platform's own parameter space in `docs/validation/room-dimension-sweep/room_dim_sweep.csv`
@@ -27,12 +44,14 @@ the grades already imply it (the design rules: **"Gold flips the floor to a wood
 
 | Column | What it is |
 |---|---|
-| `target_rt_volume_scaled_s` | **The current target** — `0.3 × (V/100)^⅓`, the volume-scaled formula the platform's own acoustic-target reference transcribes |
-| `target_rt_legacy_cats_s` | **The legacy CATS target** — the engine's `cats_target_s()`, which computes **Rettinger × 0.85** (verified: the ratio is 0.850 at every volume tested) |
-| `rettinger_s` | Rettinger, unscaled, for reference |
+| `reverberation_target_s` | **The correct target, and now confirmed by an accepted ADR rather than by my reading.** **`ADR 042` §8:** *"A room is designed to ONE volume-scaled reverberation target, `Tm = 0.3·(V/100)^(1/3)`… the target is the design's, and **the engine names it so: `reverberation_target_s`, not the document it came from**."* *I first computed this column by hand and did not use the function the ADR names. **Regenerated from `at.reverberation_target_s(V)`; it matches the hand figure exactly at every volume.*** |
+| `legacy_cats_target_s` | **The legacy CATS target** — `cats_target_s()`, which computes **Rettinger × 0.85** (ratio verified 0.850 at every volume). **Kept in the file as a warning, not as an option** |
 
-**This is a trap worth naming.** *A function called `cats_target_s` is what anyone building a C-ATS table would
-reach for by name — and it returns the **legacy** figure. The design rules already flag the divergence: they give
+**This is a trap worth naming, and the ADR closes it.** *A function called `cats_target_s` is what anyone building a
+C-ATS table would reach for by name — and it returns the **legacy** figure. **`ADR 042` §8 names the correct one
+outright**, and the naming is deliberate in a second way: it is called `reverberation_target_s` **rather than after
+RP22**, because the target is the design's and RP22 only grades it — which is `../../registers/premises.md` `PR-15`
+implemented in a function name.* The design rules already flag the divergence: they give
 the volume-scaled formula as **"the formula"** and note **"cf. the legacy CATS Rettinger×0.85 ≈ 0.327 s at
 105 m³"**, which this run reproduces exactly.* **The two diverge in both directions:** *the legacy target is
 **looser** in small rooms (0.256 vs 0.198 s at 28.8 m³) and **tighter** in large ones (0.384 vs 0.430 s at
