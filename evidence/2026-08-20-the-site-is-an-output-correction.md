@@ -9,14 +9,29 @@ fetched as raw HTML and read.* **The technical page is the one that matters and 
 
 ---
 
-## 1 · The method is proven, and this is the strongest evidence in the repo for it
+## 1 · What the generation shows — and the provenance is mixed, so the claim is narrower than I first wrote
 
-**Rows in this repo became a published, specifier-grade site without anyone writing page copy.** *`PR-9`'s claim —
-*"what the work produces: rows with stable IDs, not prose; data leaves as data"* — has an output.* **And the
-provenance is traceable in both directions:** *the 210 m³ chamber sits in `brands/c-ats/copy.md` and
-`product-records.md`; the A/B install story is `Q46`; the corner double-count warning was a caveat the record said
-*"lives in a JSON comment today and belongs in the published data note"* — **it is now in the published data
-note.***
+> **⚠ Corrected 2026-08-20, same day. Neil: *"I'm sure that our other sites were used as reference also."*** *My
+> first version of this section said **"rows in this repo became a published site without anyone writing page
+> copy"** and called it *"the strongest evidence in the repo"* for the method. **That is a causal claim I cannot
+> support.** The generation drew on **this repo and the existing SRND sites**, and **the split between them is
+> unknown.** *So the page is not evidence that a row here produced a sentence there.*
+
+**What can be said, and it is worth having.** *Content in this repo and content on the generated site **agree** —
+the 210 m³ chamber is in `brands/c-ats/copy.md` and `product-records.md`; the A/B install story is `Q46`; the corner
+double-count warning is a caveat the record said *"lives in a JSON comment today and belongs in the published data
+note"*, and it is now in a published data note.* **Agreement is not attribution.** *Any of those could have come
+from the record, from `c-ats.co.uk`, or from both — **and the technical page states that the data files are "served
+from the current site"**, which makes the existing site a live source rather than a historical one.*
+
+**One observation that does survive independently of provenance.** *`copy.md`'s depth block reads **"shallower than
+anything comparable"** — the unbounded superlative `Q63`/`C5.20` bounded — **and no page says it.** The site says
+*"nothing deeper than 50 mm"* plus *"43 mm for the Resonance Control Panel"*. **Wherever the wording came from, the
+published version is the disciplined one and `copy.md` is not** (`SIT-4`).*
+
+**`SIT-8`: establish the actual provenance before this file is cited for anything.** *One comparison against
+`c-ats.co.uk` would separate *"the record generated it"* from *"the old site supplied it"* — **and the two have
+different consequences for every conclusion below.***
 
 **And the generation is more disciplined than its own source in one place.** *`copy.md`'s depth block still reads
 **"shallower than anything comparable"** — the unbounded superlative `Q63`/`C5.20` bounded. **The site does not say
@@ -74,9 +89,12 @@ Type B source, **July 2019**, and *"three materials in eight configurations"*.* 
 tolerance **"a genuine selling point that is nowhere in the marketing."*** **It is in the marketing, with its
 exception, on the technical page.** *The subject survives as a class; the *"nobody says this"* framing does not.*
 
-**This is `PR-1`'s pattern a sixth time, with a new twist:** *the material was not missing and not in the platform
-either — **it was in this brand's own published output, generated from this repo.*** **The record was describing a
-site that no longer exists.**
+**This is `PR-1`'s pattern a sixth time.** *The material was not missing and not in the platform either — **it was
+published**.* **↻ And the twist I claimed is withdrawn:** *I wrote *"in this brand's own output, **generated from
+this repo**"*. **Provenance unknown** (see §1) — *and if the existing `c-ats.co.uk` supplied this content, then these
+answers were **already public before this repo drafted them**, which makes the record's error older and larger, not
+smaller.* **The finding does not depend on which it is: the answers are published and the record says they are
+not.***
 
 ## 4 · Corrected: verification and isolation are both offered
 
