@@ -131,7 +131,14 @@ validation** for pro install, commercial cinema or fit-out.* **A lever that cann
 can be measured to confirm it performs"*.* **It is not priced, not in a ladder, and not sold** — *the same shape as
 isolation, one size smaller.*
 
-> **Closes with:** *one decision — an offer, or a claim we stop leaning on.*
+> **↻ CORRECTED 2026-08-20 — it is an offer, on two pages.** *`/products/` § Beyond the panels: **"Acoustic
+> verification — measurement of how the finished room behaves: reflection behaviour, decay uniformity and spatial
+> consistency, so the design's targets can be shown to have been met."** And `/start-your-project/` lists scope as
+> **"isolation, treatment, verification, or the full sequence."*** **So the gap is narrower than this row claimed:
+> verification is sold and has no price and no place in a service ladder.** *Which makes it the same gap as `P3`,
+> not a question of whether to offer it.*
+>
+> **Closes with:** *a price and a rung, alongside `P3`.*
 
 ---
 

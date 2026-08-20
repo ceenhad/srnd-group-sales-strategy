@@ -407,6 +407,42 @@ migration** (`20260820120000_duplicate_product`, applied today), so a missing fi
 **One schema change is proposed: `ENG-4`, the marketing-activity dimension** — additive, nullable, house-shape,
 `lead_sources` kept as the coarse channel above it. **Testbed first.**
 
+**↻↻ CORRECTION, 2026-08-20 — and it is the most useful thing in this whole session.** Neil: ***"the website you
+just analysed has been auto generated based on answers in this repo, so there is the proof of that part of the
+method."*** *`evidence/2026-08-20-the-site-is-an-output-correction.md` supersedes most of the audit below.*
+
+**Two things follow, and the second one stings.**
+
+**1. The method is proven end to end.** *Rows in this repo became a published, specifier-grade site with nobody
+writing page copy — `PR-9`'s "data leaves as data" has an output. **And the generation is more disciplined than its
+own source**: `copy.md` still says "shallower than anything comparable", the unbounded superlative `Q63` bounded, and
+**the site does not say it** — it says "nothing deeper than 50 mm" plus "43 mm for the Resonance Control Panel".
+So `copy.md` is the stale artefact now (`SIT-4`).*
+
+**2. `PR-24` broken: this repo's notes about what is unpublished were describing its own output.**
+*I audited **one page of five** and had not read `/technical-information/`. **It already publishes**: bond-or-screw
+with the reason · **the ~300 mm tolerance with the resonance exception** · behind-fabric · why-the-figures-look-low
+**with no coefficient** · how-many-panels · the below-125 Hz absence · **the free/unfixed mounting caveat** · and
+**the corner double-count warning** the record said *"lives in a JSON comment and belongs in the published data
+note"*. **All of it recorded here as unpublished.***
+
+**What that cost, plainly:** *`KNW-1` and `draft-answers.md` **re-derived six answers that were already live**; the
+**`T5`** training draft rests on *"nowhere in the marketing"* and **it is in the marketing**; `SIT-1` was a defect
+report **against a caveat that was already there** — withdrawn; and `P7` said verification was *"never made an
+offer"* when it is offered on **two** pages.
+
+**The rule this earns: check the generated site before recording anything as unpublished. It is one fetch.**
+
+**Still standing from the audit:** *`DR-Q52` is being answered by publication and **more strongly than I wrote** —
+the technical page publishes the corner-loading rule and the install-type effects too, both on the DR's own
+publishable side, and **nothing from "proposed not" appears on any of the five pages**. The two unbuilt promises
+stand (`EST-7`'s reference rooms are on two pages and there is one worked room). `SIT-3`'s unsourced *"100–200 mm"*
+stands. `SIT-2` narrows to one page against the record.*
+
+**And `SIT-7`: `PR-18` still calls the site "an in-play mockup".** *It is a generated output of the current record —
+**that note is now the most misleading line in the premises register**, and it is what produced the false defect
+report.*
+
 **↻ The live C-ATS page is checked, and the repo's own note about it was the stale thing.**
 `evidence/2026-08-20-the-system-page-checked.md` — *Neil supplied `https://cats-98x.pages.dev/the-system/`; fetched
 as raw HTML, not through a summary.* **`PR-18` called the site "an in-play mockup"; the page is current to within a

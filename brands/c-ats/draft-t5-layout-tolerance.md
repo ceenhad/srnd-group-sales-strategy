@@ -49,6 +49,15 @@ that, and it costs a dealer nothing to verify.*
 
 ---
 
+> **⚠ The framing premise is broken — 2026-08-20.** *This piece was built on the record calling the tolerance
+> **"a genuine selling point that is nowhere in the marketing."** **It is in the marketing.**
+> `/technical-information/` publishes it: *"Reflection panels tolerate roughly 300 mm from the designed position
+> without material change in performance, so the install does not need set-out precision. That tolerance does not
+> transfer to the Resonance Control Panel: its effectiveness depends on corner placement, and it is the one panel in
+> the range where position is not forgiving."* **Including the exception this draft was pleased with itself for
+> stating prominently.*** **The subject survives as a class; the "nobody says this" framing does not** — and the
+> ~300 mm figure is no longer an unconfirmed decode, since it is published. *`../../evidence/2026-08-20-the-site-is-an-output-correction.md` §3.*
+
 ## Traceability and two things to confirm before publishing
 
 | Claim | Source | State |

@@ -1,5 +1,14 @@
 # The C-ATS "system" page, checked against the record — 2026-08-20
 
+> **⚠⚠ THIS FILE WAS SUBSTANTIALLY WRONG AND IS CORRECTED BELOW — read the correction first.**
+> *Two things came out after it was written. **(1) Neil: "the website you just analysed has been auto generated
+> based on answers in this repo."** So it is not a mockup someone wrote — **it is an output of this method**, and
+> every divergence is a repo or pipeline question, never a copywriting one. **(2) I had audited one page as if it
+> were the site.** *There are five: `/`, `/the-system/`, `/products/`, `/technical-information/`,
+> `/start-your-project/`.* **The technical page answers almost everything flagged below**, including the one thing I
+> called a defect. **See `2026-08-20-the-site-is-an-output-correction.md` — the findings there supersede §3, §5 and
+> §7 of this file, and narrow §4.*** **What survives: §1, §2, §6.**
+
 *`https://cats-98x.pages.dev/the-system/`, supplied by Neil. **Fetched and read as raw HTML**, not through a summary
 — `../method.md`: a summary is not a source.*
 
