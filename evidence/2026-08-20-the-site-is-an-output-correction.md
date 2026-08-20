@@ -11,11 +11,21 @@ fetched as raw HTML and read.* **The technical page is the one that matters and 
 
 ## 1 · What the generation shows — and the provenance is mixed, so the claim is narrower than I first wrote
 
-> **⚠ Corrected 2026-08-20, same day. Neil: *"I'm sure that our other sites were used as reference also."*** *My
-> first version of this section said **"rows in this repo became a published site without anyone writing page
-> copy"** and called it *"the strongest evidence in the repo"* for the method. **That is a causal claim I cannot
-> support.** The generation drew on **this repo and the existing SRND sites**, and **the split between them is
-> unknown.** *So the page is not evidence that a row here produced a sentence there.*
+> **⚠ Corrected twice on 2026-08-20, and the second correction is that nobody here knows how the site was made.**
+>
+> *My first version said **"rows in this repo became a published site without anyone writing page copy"** and called
+> it *"the strongest evidence in the repo"* for the method. **That was a causal claim built on one sentence.***
+>
+> **Then two things from Neil, in order.** *(1) **"I'm sure that our other sites were used as reference also"** —
+> which is **a surmise, not an observation**, and this repo's own source discipline requires it to be recorded as
+> one. (2) **"That site was only shown to me a couple of hours ago. It appeared almost like magic."***
+>
+> **So the owner does not know its provenance either.** *Which means the honest state is **`unknown`**, not *"this
+> repo"* and not *"the old sites"*. **Neither of Neil's statements is evidence of origin** — the first is his
+> inference, the second is explicitly that he was handed it. *The one hard indicator is the host:
+> `cats-98x.pages.dev` is a Cloudflare Pages deployment, and the dev team monitor this repo — **consistent with
+> generation from here, and consistent with several other explanations.*** **`SIT-8` is therefore not a tidy-up: it
+> is the difference between a proven method and a coincidence.**
 
 **What can be said, and it is worth having.** *Content in this repo and content on the generated site **agree** —
 the 210 m³ chamber is in `brands/c-ats/copy.md` and `product-records.md`; the A/B install story is `Q46`; the corner
