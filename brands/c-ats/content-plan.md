@@ -86,13 +86,13 @@ queue above.*
 
 | Grid row | Items | Live today | Verdict |
 |---|---|---|---|
-| **1 — Unaware** | 33, 34, 47, 48+ | 2 (both end dead) | Seeded by the explainers; hooks correctly wait on evidence. Wire the handoffs first |
-| **2 — Interested** | 3–20 (part), 21–31, 35, 43 | **0** | The fullest row on paper and nothing is live — the stage-2 break is a publishing job, not a writing job |
-| **3 — Evaluating** | 3–20 (part), 32, 35, 40, 44 | 1 (buried) | Strong material; the proof exists and is invisible. Surface before making anything new |
-| **4 — Registered** | 46, 49 (+ store listing fixes, EST-4) | mechanism live | The direct welcome now planned (49). The store's listing copy has no plan item beyond the fix list; decide if it needs one |
-| **5 — First job** | 1, 2, 37–42, 50 | **0** | The deepest row once published — and today an installer finds none of it. The install pack (50) assembles it into the order itself |
-| **6 — Next order** | 45, 51 | 0 | The loop's two pieces now planned — the adjacency page and the permissioned partner email. Always-on formats still have no C-ATS items |
-| *Specifier (parked)* | — | — | Empty, correctly — parked by choice, visible by design |
+| 1 — Unaware | 33, 34, 47, 48+ | 2 (both end dead) | Seeded by the explainers; hooks correctly wait on evidence. Wire the handoffs first |
+| 2 — Interested | 3–20 (part), 21–31, 35, 43 | 0 | The fullest row on paper and nothing is live — the stage-2 break is a publishing job, not a writing job |
+| 3 — Evaluating | 3–20 (part), 32, 35, 40, 44 | 1 (buried) | Strong material; the proof exists and is invisible. Surface before making anything new |
+| 4 — Registered | 46, 49 (+ store listing fixes, EST-4) | mechanism live | The direct welcome now planned (49). The store's listing copy has no plan item beyond the fix list; decide if it needs one |
+| 5 — First job | 1, 2, 37–42, 50 | 0 | The deepest row once published — and today an installer finds none of it. The install pack (50) assembles it into the order itself |
+| 6 — Next order | 45, 51 | 0 | The loop's two pieces now planned — the adjacency page and the permissioned partner email. Always-on formats still have no C-ATS items |
+| Specifier (parked) | — | — | Empty, correctly — parked by choice, visible by design |
 
 **What the check says:** stages 2 and 5 break on publishing, not writing; stages 4 and 6 now have their
 direct, permissioned pieces planned (49–51) and nothing live. Nothing anywhere needs a campaign.
@@ -112,7 +112,7 @@ The half that was always skipped. Zero infrastructure to start:
 
 | Date | Piece (# above) | Canonical home | Tag | Notes |
 |---|---|---|---|---|
-| — | *(starts when the first piece lands)* | | | |
+| — | (starts when the first piece lands) | | | |
 
 ## Guardrails
 

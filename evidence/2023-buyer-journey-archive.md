@@ -26,10 +26,10 @@ Three states, with **explicitly defined boundaries** — Neil was defining gatew
 
 | 2023 | Sub-goals ("set in stone") | State boundary, as defined then |
 |---|---|---|
-| **Awareness** (indirect) | Know the company exists · know the solutions · know the application · know how to get in touch | **Ends when the buyer makes contact** |
-| **Consideration** (direct) | Trust building · expertise building · how to apply · how to obtain | **Ends when the buyer requests a proposal — not when general pricing is supplied** |
+| **Awareness** (indirect) | Know the company exists · know the solutions · know the application · know how to get in touch | Ends when the buyer makes contact |
+| **Consideration** (direct) | Trust building · expertise building · how to apply · how to obtain | Ends when the buyer requests a proposal — not when general pricing is supplied |
 | **Decision** (direct) | Post-sale assistance stated · a clear partner agreement · unambiguous pricing and payment terms · reliable updates and delivery | Assume a competing alternative offer, always |
-| **The loop** | — | **"The loop should take them back to Consideration for the next project — looking at the project, not the product"** |
+| The loop | — | "The loop should take them back to Consideration for the next project — looking at the project, not the product" |
 
 An earlier iteration in the same deck had **nine "bridges"** (Problem, Options, Engage, Qualify, Question,
 Maxed Out, Certainty, Confidence, Ready) with nine matched "reach-outs" — the gateway idea in its first

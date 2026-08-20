@@ -28,7 +28,7 @@ under C-ATS. I am pretty sure that the draft Shopify website has it."***
 | S-110 custom isolation mount | 500 |
 | EP 500 + Sylomer s35 | 664 |
 | Penetration isolation back box, 270 × 400 mm | 378 |
-| **Total** | **£13,461 across 10 lines** |
+| Total | £13,461 across 10 lines |
 
 **So the question was never whether we sell it — only what the sold thing is, which nothing here recorded.** *A
 compound, a proprietary clip, five bracket variants, a mount and a penetration back box is **a small hardware system
@@ -47,7 +47,7 @@ rather than bought in once. **That is the sentence `CAT-05` should have carried 
 | Sound Isolation **Details** | 5,000 |
 | Sound Isolation **Project Discovery** | 3,750 |
 | Sound Isolation **BOM** | 3,750 |
-| **Total** | **£46,500 across 6 lines** |
+| Total | £46,500 across 6 lines |
 
 **Set that against the acoustic treatment design service: a £2,400 median across 41 engagements** (`Q45`). *The
 isolation lines average **£7,750**, and the largest single one is **£20,000** — for drawings.*
@@ -92,9 +92,9 @@ belonged to other people.*
 
 | Layer | Whose decision it is | Whose product it is |
 |---|---|---|
-| Sound isolation | Architectural design | **C-ATS** |
-| Acoustic treatment | Nominally the acoustic consultant | **C-ATS** |
-| Interior finish | Interior design | **Fabric Walls** |
+| Sound isolation | Architectural design | C-ATS |
+| Acoustic treatment | Nominally the acoustic consultant | C-ATS |
+| Interior finish | Interior design | Fabric Walls |
 
 **So *"SRND is often involved in all three"* is not a claim about reach — it is a description of the product
 range.** *Two brands out of six cover the entire acoustic-and-finish stack of a room. **The layer ownership stays

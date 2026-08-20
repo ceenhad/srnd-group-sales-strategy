@@ -270,7 +270,7 @@ this section states no position of its own, because it kept restating positions 
 | What | Where it is owned | State |
 |---|---|---|
 | **Engaging more AV integrators** — the route to market | `claims.md` `C2.15` (Neil's words) | The central job. *§7 used to state this as "widely deployed, thinly distributed; the buyer exists, the route is missing" — the wording **struck at `Q57`***|
-| **What convinces the integrator to choose C-ATS** | `product-records.md` `W2` second half; `claims.md` `C1.3` | **Open — an owner's sentence, not a research project** |
+| What convinces the integrator to choose C-ATS | `product-records.md` `W2` second half; `claims.md` `C1.3` | Open — an owner's sentence, not a research project |
 | The canonical name | `Q26`, `Q65` | **Settled.** C-ATS standard, expansion on first use, legal name for contracts |
 | Pricing tiers | `Q45` | Open. Site is placeholder (£0.00) |
 | Proof assets — install imagery, case studies | `claims.md` `C2.11`, `C2.12`, `C4.13` | Open. A content-phase job; the constraint is photography, not confidentiality |

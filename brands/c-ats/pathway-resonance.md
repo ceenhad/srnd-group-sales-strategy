@@ -37,7 +37,7 @@ record's earlier "candidate flagship" line was inference, now struck.
 | # | Gateway | The piece | Its one job | State today | The handoff |
 |---|---|---|---|---|---|
 | 1 | **G1** — the hook set | The resonance hooks (`hooks.md`, door 3) | Get a bite: the problem most rooms never solve, named | **Nothing live for this door.** The 3 Rs explainer set names resonance; no resonance-specific hook exists | Every hook → the fuller answer (slot 2) |
-| 2 | **G1→G2** | The room-modes answer — why bass is uneven seat to seat, why it is a pressure problem and not an EQ problem, what corner loading does | Answer the question fully; open the proposition | **`[?]` — inventory it.** The staged knowledge base covers absorbers/diffusers/bass as a pillar; whether it answers *this* question at this depth is unverified (`content-plan.md` items 3–20) | → the 3 Rs proposition (slot 3) |
+| 2 | G1→G2 | The room-modes answer — why bass is uneven seat to seat, why it is a pressure problem and not an EQ problem, what corner loading does | Answer the question fully; open the proposition | **`[?]` — inventory it.** The staged knowledge base covers absorbers/diffusers/bass as a pillar; whether it answers *this* question at this depth is unverified (`content-plan.md` items 3–20) | → the 3 Rs proposition (slot 3) |
 | 3 | **G2** — proposition | The 3 Rs block and the RES-CP on-ramp; and **the depth argument made concrete** — corner loading is what lets 50 mm do work that would otherwise need far greater depth (`copy.md`, `product-records.md` `O4`) | "This could work for me" | **Written, ready to paste** (`copy.md`); absent from the live homepage | → the proof (slot 4) |
 | 4 | **G2→G3** — proof | The measured per-panel absorption area from **BSRIA test 4 — three panels in corners against two walls, the configuration it is actually used in** — with the configuration stated on the face of it | Remove the doubt the whole depth argument exists to answer: *can 50 mm do anything at low frequency?* This product cannot be sold on description, and here the data does the work outright | **Published but buried** (EST-5). **And carrying two live traps** — see below | → register to see pricing; a Zoom (slot 5) |
 | 5 | **G3** — the hinge | Registration — **the same single hinge as the other two doors**, not a third copy of it | Make the gate worth crossing | Mechanism live in engine; grants only pricing today | → the store (slot 6) |
@@ -101,11 +101,11 @@ does not replace the rules"* — so a rules layer can publish while the engine d
 
 | Appeal | Candidate hook angle | The substance behind it |
 |---|---|---|
-| **The problem named** | Bass that is heavy in one seat and gone in the next | `R1`, `D4` — room modes, the problem most rooms never solve |
-| **Better results** | The problem no amount of processing fixes, because it is pressure and not response | `D3` — absorbs where modal pressure is highest |
-| **Easier to do** | Corner loading, so 50 mm does what depth normally has to | `O4` — the depth argument made concrete |
+| The problem named | Bass that is heavy in one seat and gone in the next | `R1`, `D4` — room modes, the problem most rooms never solve |
+| Better results | The problem no amount of processing fixes, because it is pressure and not response | `D3` — absorbs where modal pressure is highest |
+| Easier to do | Corner loading, so 50 mm does what depth normally has to | `O4` — the depth argument made concrete |
 | **The problem named** *(second angle)* | Measured in corners, which is how it is actually installed — not on a flat wall | BSRIA test 4, and the trap above |
-| **More revenue** | The room problem a client can hear and cannot name — worth being the one who solves it | `R1` |
+| More revenue | The room problem a client can hear and cannot name — worth being the one who solves it | `R1` |
 
 **Not a hook, on this door specifically:** corner placement, screw specification, and the too-few-for-the-volume
 failure. All three are stage-5 support for someone fitting, and the second and third insinuate the dealer can't

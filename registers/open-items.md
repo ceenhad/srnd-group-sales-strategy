@@ -557,14 +557,14 @@ answers live in "Decisions needed" below; these are the ones that don't fit ther
 
 | | Session | What it needs | Blocked on |
 |---|---|---|---|
-| **1** | **The service offer** (`XS-5`) | **Now has a method, from Neil 2026-08-16 — see the frame below the table.** Two categories, a sweep, and a costing rule. Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7`, the partner-programme value question and the incentive policy |
+| 1 | **The service offer** (`XS-5`) | **Now has a method, from Neil 2026-08-16 — see the frame below the table.** Two categories, a sweep, and a costing rule. Inputs ready: the invoice precedents, the four tiers live on `cinema-tools.com`, the settled boundary | **Nothing. The offer is in Neil's head; the session is extraction.** Gates the published boundary, `XS-6`, `XS-7`, the partner-programme value question and the incentive policy |
 | — | | **▶ Closed 2026-08-16 (`Q25`): Neil and Simon cover all three.** No third party | — **but see below; closing it does not make it safe** |
-| **3** | **Sensing — line, layer, or brand** | The three questions above. Market size, buyer, channel, competitors, price and timing are **[?]** everywhere and must not be guessed | Neil's judgement on scope; possibly on evidence that does not exist yet |
-| **4** | **The competitor roster** (standard 5 ⚑) | Names per brand — C-ATS behind its price band, Fabric Walls and Pro-Fi at all. **It cannot be derived: no loss reason exists in any system** | **Entirely Neil.** Nothing else gates `T-M02`; the axes and the output shape are set |
-| **5** | **The upsell proposal build** (standard 3) | The design is written; what remains is one document or core-plus-appendix, who builds one today, and whether the layer list is fixed per room type | Partly a fetch — *what goes out today* is unknown |
+| 3 | Sensing — line, layer, or brand | The three questions above. Market size, buyer, channel, competitors, price and timing are **[?]** everywhere and must not be guessed | Neil's judgement on scope; possibly on evidence that does not exist yet |
+| 4 | **The competitor roster** (standard 5 ⚑) | Names per brand — C-ATS behind its price band, Fabric Walls and Pro-Fi at all. **It cannot be derived: no loss reason exists in any system** | **Entirely Neil.** Nothing else gates `T-M02`; the axes and the output shape are set |
+| 5 | **The upsell proposal build** (standard 3) | The design is written; what remains is one document or core-plus-appendix, who builds one today, and whether the layer list is fixed per room type | Partly a fetch — *what goes out today* is unknown |
 | — | | **▶ Closed 2026-08-17 (`Q48`)** — the floor framing was noise. The standard: **one communication per brand per day** (marketing) and **real conversations as often as possible** (sales) | — |
 
-| **7** | **The store architecture** | — **no.** Neil, 2026-08-16 (`Q27`): *"This is an ongoing improvement that needs to be made. **Part of strategy planning.**"* **What lives on a brand store, what lives on the group store, and what the relationship between them is.** The 13 DT codes published on both are the symptom, not the question | Nothing — but it **gates `C1` on every DT record**, so step 3 runs into it |
+| 7 | The store architecture | — **no.** Neil, 2026-08-16 (`Q27`): *"This is an ongoing improvement that needs to be made. **Part of strategy planning.**"* **What lives on a brand store, what lives on the group store, and what the relationship between them is.** The 13 DT codes published on both are the symptom, not the question | Nothing — but it **gates `C1` on every DT record**, so step 3 runs into it |
 
 **And one that is not a session but sits at the head of the queue anyway:** **`MON-13`** — forty approved
 dealers with no engine account, *"a fault to fix today"*.

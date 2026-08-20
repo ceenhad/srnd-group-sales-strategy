@@ -11,15 +11,15 @@ where a homepage showed no data, product pages and download indexes were checked
 
 ## What each source showed
 
-| | **Primacoustic** (Broadway) | **RPG Acoustical Systems** | **GIK Acoustics** (FlexRange/242) | **Artnovion** |
+| | **Primacoustic** (Broadway) | RPG Acoustical Systems | **GIK Acoustics** (FlexRange/242) | Artnovion |
 |---|---|---|---|---|
 | **A1** per-band coefficients | **Yes** — 125 Hz 0.45 · 250 Hz 0.83 · 500 Hz 1.07 · 1 kHz 1.00 · 2 kHz 1.01 · 4 kHz 1.00 (2″ fabric) | **Yes** — per-product data sheets (e.g. `Waveform-Monoradial-G-Data-Sheet.pdf`) | **No — one aggregate figure**: *"NRC=1.05 (versus foam products where NRC = 0.4)"* | not stated on the pages checked |
-| **A1** standard named | **ASTM C423-02a and ASTM E795-05** | not stated on the pages checked | **"BS EN ISO 354:2003 standards"** at **"University of Salford"** | not stated |
-| **A1** mounting stated | **Yes — Type A** (an ASTM-defined mounting class) | walls vs ceilings stated per project example only | **not stated** | not stated |
+| **A1** standard named | ASTM C423-02a and ASTM E795-05 | not stated on the pages checked | **"BS EN ISO 354:2003 standards"** at **"University of Salford"** | not stated |
+| **A1** mounting stated | **Yes — Type A** (an ASTM-defined mounting class) | walls vs ceilings stated per project example only | not stated | not stated |
 | **A1** report downloadable | **Yes** — full test reports, e.g. an ASTM C423 D20-mount report | **Yes** — data sheets per product | **No** on the product page or the downloads index | not stated |
 | **A2** depth | 25 mm · 51 mm · 76 mm | not captured | **3.5″ (89 mm)** NA; **7 cm** EU | not stated |
-| **A3** design service | not captured | *"Not explicitly stated as a formal service offering"* | **Yes, free** — *"Free Expert Advice"* consultants, plus a **"3D Room Acoustics Designer"** | **Yes** — *"Project Support"* and an *"Impulso Architect"* app |
-| **A5** public price | not captured | **No** | **Yes — £7.20–£899**; the 242 at **$84.00** / *"Start at £85.00"* | **No** |
+| **A3** design service | not captured | "Not explicitly stated as a formal service offering" | **Yes, free** — *"Free Expert Advice"* consultants, plus a **"3D Room Acoustics Designer"** | **Yes** — *"Project Support"* and an *"Impulso Architect"* app |
+| **A5** public price | not captured | No | **Yes — £7.20–£899**; the 242 at **$84.00** / *"Start at £85.00"* | No |
 | **A7** route to market | dealers/retail | **Representatives** — *"Reach out to your local RPG Representative"* | **Direct** — e-commerce checkout, *"Delivered in less than 2 weeks"*; a *"Distributors"* link exists, undescribed | **Both** — customer service and contact form, plus a **"PARTNERS"** area |
 | **A6/A8** markets named | studio, broadcast | education, commercial/architectural, hospitality, studio, **home theatre**, transportation | not captured | **"Home Cinema & Media Room"**, Hi-Fi & Living Room, Music & Broadcast, Architecture & Engineering, MedLine, Soundproofing, a signature line |
 
@@ -62,14 +62,14 @@ is recorded as a rule in `../registers/premises.md` `PR-19`.*
 
 ## The real tier, as it presented on 2026-08-19
 
-| | **Keith Yates Design** | **QuestAI** (Quest Acoustical Interiors) | **Officina Acustica** |
+| | Keith Yates Design | **QuestAI** (Quest Acoustical Interiors) | Officina Acustica |
 |---|---|---|---|
-| **What it sells** | **A design practice with proprietary product.** *"We engineer exquisite theater interiors"*; issues *"specifications… acoustic treatments, seating, and HVAC system elements"*. Own **UberSub** infrasonic system | **Product plus engineering service.** Named: **QuestTrac**, QuestAI Panels, and previously **Q-Sorber** and the **Quest Acoustical Lens System**. Services: *"custom design, project management, design and calibration, CAD layout"* | **A manufactured acoustic interior.** *"Acoustic Interior Design"* — manufactures interiors for home cinemas, media and screening rooms, mastering studios. Founded 2005, made in **Vicenza, Italy** |
-| **A5 price** | **Tiers named, no prices published** — *"ESSENTIALS"* (*"abridged version… on a limited budget"*), *"RED"* (*"full service design, engineering, construction drawings"*), *"BLACK LABEL"* (*"few magnificent projects"*) | **Gated** — *"Design Packages"* with a comparison page, no price on the homepage | not captured |
-| **A7 route to market** | End-user facing on its own pages — *"your private theater"*, *"build a theater"*. **Integrators and architects not named as audiences** | **A dealer locator exists**; the trade route is real but **the programme's terms are not published**. *Earlier trade coverage describes it as partnering with dealers* | **Via partners** — e.g. Ascend AV lists it as a partner line |
-| **A1 published data** | **Not published.** A proprietary **YATES Scorecard** measurement system is described; no coefficients, standard or report on the pages seen | **Not stated** — no coefficients, standard or test data | not captured |
-| **A6 credibility** | *"AVS Forum awards Keith Yates Design HOME THEATER of the DECADE"*; *"first to design the lowest-noise residential spaces measuring below human hearing threshold"* | **Certifications as credibility** — **HAA, CEDIA, THX, ISF** | *"the finest acoustic spaces in the world"* |
-| **A2 method** | Whole-room engineering; treatment is one specification among seating and HVAC | Panels plus track; **QuestTrac** implies a carrier system | **All four walls**, balancing *"reflection, broadband absorption and diffusion"*. **Verified from the page 2026-08-19:** ***"Unlike traditional stretched fabric 'hang on the wall' acoustic treatments, our system has an air gap between the panel and the wall behind. This gap allows us to play some really advanced acoustic tricks"***, and *"moving the acoustic material out into the room a little."* **`A1`: measured data, standard, coefficients — *absent*** |
+| What it sells | **A design practice with proprietary product.** *"We engineer exquisite theater interiors"*; issues *"specifications… acoustic treatments, seating, and HVAC system elements"*. Own **UberSub** infrasonic system | **Product plus engineering service.** Named: **QuestTrac**, QuestAI Panels, and previously **Q-Sorber** and the **Quest Acoustical Lens System**. Services: *"custom design, project management, design and calibration, CAD layout"* | **A manufactured acoustic interior.** *"Acoustic Interior Design"* — manufactures interiors for home cinemas, media and screening rooms, mastering studios. Founded 2005, made in **Vicenza, Italy** |
+| A5 price | **Tiers named, no prices published** — *"ESSENTIALS"* (*"abridged version… on a limited budget"*), *"RED"* (*"full service design, engineering, construction drawings"*), *"BLACK LABEL"* (*"few magnificent projects"*) | **Gated** — *"Design Packages"* with a comparison page, no price on the homepage | not captured |
+| A7 route to market | End-user facing on its own pages — *"your private theater"*, *"build a theater"*. **Integrators and architects not named as audiences** | **A dealer locator exists**; the trade route is real but **the programme's terms are not published**. *Earlier trade coverage describes it as partnering with dealers* | **Via partners** — e.g. Ascend AV lists it as a partner line |
+| A1 published data | **Not published.** A proprietary **YATES Scorecard** measurement system is described; no coefficients, standard or report on the pages seen | **Not stated** — no coefficients, standard or test data | not captured |
+| A6 credibility | *"AVS Forum awards Keith Yates Design HOME THEATER of the DECADE"*; *"first to design the lowest-noise residential spaces measuring below human hearing threshold"* | **Certifications as credibility** — **HAA, CEDIA, THX, ISF** | "the finest acoustic spaces in the world" |
+| A2 method | Whole-room engineering; treatment is one specification among seating and HVAC | Panels plus track; **QuestTrac** implies a carrier system | **All four walls**, balancing *"reflection, broadband absorption and diffusion"*. **Verified from the page 2026-08-19:** ***"Unlike traditional stretched fabric 'hang on the wall' acoustic treatments, our system has an air gap between the panel and the wall behind. This gap allows us to play some really advanced acoustic tricks"***, and *"moving the acoustic material out into the room a little."* **`A1`: measured data, standard, coefficients — *absent*** |
 
 ## Two things this tier shows that the first tier could not
 
@@ -114,9 +114,9 @@ connections."*
 
 | | Named | What the sources say |
 |---|---|---|
-| **QuestAI** | **Gerry Lemay**, President | **Founder and director of the Home Acoustics Alliance (HAA)** — *"a physicist, acoustician and inventor who has designed hundreds of theaters and acoustical spaces."* **HAA is the residential-acoustics certification the CI channel trains on**, and QuestAI's own credibility line already lists **HAA, CEDIA, THX, ISF** |
-| **Officina Acustica** | **Maurizio Conti**, founder (as HTE, 2005) — *"a pioneer in the technology integration industry for 35 years"* | Co-led with **Peter Aylett**, *"a 30 year veteran of the industry"* |
-| **Officina Acustica** | **Peter Aylett** | **CEDIA 2022 Fellowship** *"for his career long contributions to the success of CEDIA and the industry"*; **served a term on CEDIA's Global Board of Directors**; **Chair of the CTA/CEDIA R10 committee 2020–2025**; and **chaired the Working Group that completely re-wrote the recommended practice for multichannel audio room design** |
+| QuestAI | **Gerry Lemay**, President | **Founder and director of the Home Acoustics Alliance (HAA)** — *"a physicist, acoustician and inventor who has designed hundreds of theaters and acoustical spaces."* **HAA is the residential-acoustics certification the CI channel trains on**, and QuestAI's own credibility line already lists **HAA, CEDIA, THX, ISF** |
+| Officina Acustica | **Maurizio Conti**, founder (as HTE, 2005) — *"a pioneer in the technology integration industry for 35 years"* | Co-led with **Peter Aylett**, *"a 30 year veteran of the industry"* |
+| Officina Acustica | Peter Aylett | **CEDIA 2022 Fellowship** *"for his career long contributions to the success of CEDIA and the industry"*; **served a term on CEDIA's Global Board of Directors**; **Chair of the CTA/CEDIA R10 committee 2020–2025**; and **chaired the Working Group that completely re-wrote the recommended practice for multichannel audio room design** |
 
 ## The fact this establishes, stated plainly
 
@@ -147,8 +147,8 @@ which is how they get written at all. *The competitive consequence is a separate
 
 | | Sessions | Billing | Topics |
 |---|---|---|---|
-| **Peter Aylett** | **Five** | *"Peter Aylett, Partner - Officina Acustica"* | *"How To Talk To Design Professionals About Entertainment Spaces"* (speaker) · *"Design Thinking"* (speaker) · *"What Do Interior Designers & Architects Really Want From Integrators?"* (panellist) · *"Wellness: Fad, or Business Opportunity?"* (panellist) · a CEDIA cybersecurity-guide session (speaker) |
-| **Neil Davidson** | **One** | *"Neil Davidson, Director - SRND Group"* | *"Wellness: Fad, or Business Opportunity?"* (panellist) — **the same panel as Aylett** |
+| Peter Aylett | Five | "Peter Aylett, Partner - Officina Acustica" | *"How To Talk To Design Professionals About Entertainment Spaces"* (speaker) · *"Design Thinking"* (speaker) · *"What Do Interior Designers & Architects Really Want From Integrators?"* (panellist) · *"Wellness: Fad, or Business Opportunity?"* (panellist) · a CEDIA cybersecurity-guide session (speaker) |
+| Neil Davidson | One | "Neil Davidson, Director - SRND Group" | *"Wellness: Fad, or Business Opportunity?"* (panellist) — **the same panel as Aylett** |
 
 **Also verified:** Neil appears in AVForums video and podcast content with editor Phil Hinton, Hi-Fi editor Ed
 Selley and Dr Julian Scott — subwoofer count and placement, immersive audio layout, speaker channel counts.
@@ -196,9 +196,9 @@ principles:
 
 | Kind | Chapters |
 |---|---|
-| **Fundamentals** (no stage) | *What is reverberation? · What is absorption? · What is diffusion? · What is a room mode? · What is a first reflection?* |
-| **Design principles**, all under the single deliverable **`acoustic-treatment-brief`** | *Broadband absorption provision · Modal LF trap provision · Axis balance and flutter · First-reflection control at the listening positions · Modal control — seat-to-seat low-frequency consistency · Reverberation time (mid-band) target window · Reverberation time — per-octave tolerance shape* |
-| Adjacent, under `sound-isolation-brief` | *Internal background noise* |
+| **Fundamentals** (no stage) | What is reverberation? · What is absorption? · What is diffusion? · What is a room mode? · What is a first reflection? |
+| **Design principles**, all under the single deliverable **`acoustic-treatment-brief`** | Broadband absorption provision · Modal LF trap provision · Axis balance and flutter · First-reflection control at the listening positions · Modal control — seat-to-seat low-frequency consistency · Reverberation time (mid-band) target window · Reverberation time — per-octave tolerance shape |
+| Adjacent, under `sound-isolation-brief` | Internal background noise |
 
 **⚠ A correction to an earlier claim in this session.** *I wrote that **"21 residential chapters sit at RIBA 2 —
 Concept Design, which is the specifier's own language and the design-stage moment."** **That inference was wrong.**
@@ -305,13 +305,13 @@ is closer to what C-ATS says it does than to what the other three do.*
 
 | Axis | AcousticSmart, from its own pages | Confidence |
 |---|---|---|
-| **A1** performance data | **None surfaced** — no coefficients, no test standard, no mounting condition anywhere found | *"Not surfaced", not "does not exist"* |
+| **A1** performance data | **None surfaced** — no coefficients, no test standard, no mounting condition anywhere found | "Not surfaced", not "does not exist" |
 | **A2** what it must work with | Design-and-build: it **is** the other trade. Panels, fabrics, millwork, curtains and ceilings supplied together | Stated on its own pages |
 | **A3** support model | **The room is the product** — design, build, install, service; not a sizing service around a panel range | Stated |
-| **A4** lead time | **Not stated anywhere** | — |
+| **A4** lead time | Not stated anywhere | — |
 | **A5** price posture | **No prices published**, and no stated policy either — *gated by absence rather than by rule*. Route in is *"contact us for a free consultation"* | Observed |
 | **A6** reference and credibility | **Named clients and named collaborating design firms** (a well-known theatre designer; named architects and interior designers). **No measured data, no standards work surfaced** | Observed |
-| **A7** route to market | **A manufacturers' rep firm to integrators** (`DSG Metro`, Northeast), **and** the A/V dealer written into its own description of how a project starts | **The finding of this pass** |
+| **A7** route to market | **A manufacturers' rep firm to integrators** (`DSG Metro`, Northeast), **and** the A/V dealer written into its own description of how a project starts | The finding of this pass |
 | **A8** defensibility | A trademarked method name and a body of named work. *Nothing published that could be copied from* | Observed |
 
 ## Two corrections recorded in place

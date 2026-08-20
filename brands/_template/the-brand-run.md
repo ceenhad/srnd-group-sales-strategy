@@ -66,14 +66,14 @@ Each pathway carries, in this order:
 
    | Slot | Gateway | What sits here |
    |---|---|---|
-   | 1 | **G1** | The hook set for this door (a set, not a piece) |
-   | 2 | **G1→G2** | The fuller answer on the canonical home |
-   | 3 | **G2** | The proposition — range and possibility |
-   | 4 | **G2→G3** | The proof |
-   | 5 | **G3** | Registration — **the hinge** |
-   | 6 | **G4** | The listing and the first order |
-   | 7 | **G5** | The install layer |
-   | 8 | **G6** | The adjacency, and which brand's stage 2 it exits onto |
+   | 1 | G1 | The hook set for this door (a set, not a piece) |
+   | 2 | G1→G2 | The fuller answer on the canonical home |
+   | 3 | G2 | The proposition — range and possibility |
+   | 4 | G2→G3 | The proof |
+   | 5 | G3 | Registration — **the hinge** |
+   | 6 | G4 | The listing and the first order |
+   | 7 | G5 | The install layer |
+   | 8 | G6 | The adjacency, and which brand's stage 2 it exits onto |
 
 3. **The hook matrix** for this door — appeal × angle × the record field behind it. Terse; provenance lives in
    `hooks.md`.
@@ -157,12 +157,12 @@ certification and the distributor training academies (`../../group-strategy/comp
 
 | Field | What it holds |
 |---|---|
-| **Audience** | **Which actor** — architect · interior designer · AV consultant · integrator. *From the confirmed cast (`../c-ats/claims.md` `C2.27`); **the end user is not an audience for this** (`C2.29`, B2C runs only through the defined Cinema Store channels)* |
-| **Route** | Where it would run: a CEDIA/CTA committee or session · RIBA-approved CPD · a distributor's academy · our own class · a show programme · recorded and published |
-| **Subject** | **Traced to a record field or a confirmed claim, never invented** — the same provenance rule the hook set runs under (Leg 2). *A subject with no trace is not a training opportunity, it is a topic* |
-| **What it needs to run** | The honest precondition — a written module, a room, an accreditation, an owner's time, a piece of measured data |
-| **Publication limit** | **What may not be shown.** *Where the subject touches a black-boxed method, the row cites the decision that gates it — for C-ATS, `../../operations/decision-request-q52-cats-rules-publication.md`* |
-| **State** | Runnable today · needs the module written · needs a decision · blocked, with the blocker named |
+| Audience | **Which actor** — architect · interior designer · AV consultant · integrator. *From the confirmed cast (`../c-ats/claims.md` `C2.27`); **the end user is not an audience for this** (`C2.29`, B2C runs only through the defined Cinema Store channels)* |
+| Route | Where it would run: a CEDIA/CTA committee or session · RIBA-approved CPD · a distributor's academy · our own class · a show programme · recorded and published |
+| Subject | **Traced to a record field or a confirmed claim, never invented** — the same provenance rule the hook set runs under (Leg 2). *A subject with no trace is not a training opportunity, it is a topic* |
+| What it needs to run | The honest precondition — a written module, a room, an accreditation, an owner's time, a piece of measured data |
+| Publication limit | **What may not be shown.** *Where the subject touches a black-boxed method, the row cites the decision that gates it — for C-ATS, `../../operations/decision-request-q52-cats-rules-publication.md`* |
+| State | Runnable today · needs the module written · needs a decision · blocked, with the blocker named |
 
 **Four rules the first run's evidence produces.**
 

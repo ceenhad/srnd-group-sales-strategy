@@ -37,19 +37,19 @@ because the same operations recur across quite different tasks — which turns o
 
 | Primitive | Side | What it is | Work items | Tasks that need it |
 |---|---|---|---|---|
-| **`detect`** | machine | Notice that something has happened or changed — a quote issued, a registration, a dealer gone quiet, a rival's page altered | 20 | 20 |
-| **`retrieve`** | machine | Pull the right fields for this product, dealer or project. **Almost always from the product record** | 29 | 28 |
-| **`assemble`** | machine | Build the thing from those fields — a draft, a page, a pack, a list, a comparison | 29 | 29 |
-| **`send`** | machine | Deliver it to a named person | 7 | 7 |
-| **`record`** | machine | Write the outcome back so the next pass starts from it | 30 | 30 |
-| **`route`** | machine | Put it in the right place, or in front of the right person, at the right moment | 11 | 11 |
-| **`rank`** | machine | Order a list by a stated rule — what recurs, what blocks, what earns | 3 | 3 |
-| **`schedule`** | machine | Fire at a time, or at an interval | 4 | 4 |
-| **`judge`** | human | Is this real, is this right, does it apply here | 12 | 12 |
-| **`relate`** | human | The human contact itself — asking, thanking, negotiating, recovering | 9 | 9 |
-| **`decide`** | human | A call only an owner makes | 7 | 7 |
-| **`answer`** | human | Substance only the person who knows it can supply | 3 | 3 |
-| **`word`** | human | The phrasing, where the wording carries the weight | 3 | 3 |
+| `detect` | machine | Notice that something has happened or changed — a quote issued, a registration, a dealer gone quiet, a rival's page altered | 20 | 20 |
+| `retrieve` | machine | Pull the right fields for this product, dealer or project. **Almost always from the product record** | 29 | 28 |
+| `assemble` | machine | Build the thing from those fields — a draft, a page, a pack, a list, a comparison | 29 | 29 |
+| `send` | machine | Deliver it to a named person | 7 | 7 |
+| `record` | machine | Write the outcome back so the next pass starts from it | 30 | 30 |
+| `route` | machine | Put it in the right place, or in front of the right person, at the right moment | 11 | 11 |
+| `rank` | machine | Order a list by a stated rule — what recurs, what blocks, what earns | 3 | 3 |
+| `schedule` | machine | Fire at a time, or at an interval | 4 | 4 |
+| `judge` | human | Is this real, is this right, does it apply here | 12 | 12 |
+| `relate` | human | The human contact itself — asking, thanking, negotiating, recovering | 9 | 9 |
+| `decide` | human | A call only an owner makes | 7 | 7 |
+| `answer` | human | Substance only the person who knows it can supply | 3 | 3 |
+| `word` | human | The phrasing, where the wording carries the weight | 3 | 3 |
 
 **168 work items across the 46 tasks. 133 are machine-side and 34 are human-side.**
 

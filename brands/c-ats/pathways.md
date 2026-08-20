@@ -16,9 +16,9 @@ valid"*):
 
 | | The moment | What the dealer needs |
 |---|---|---|
-| **M1** | They have won, or are bidding, a cinema — the project exists on paper, the room does not | The acoustics specified as part of the design |
-| **M2** | They are pricing the build | A treatment number they can quote a client with — **the box quantum is what makes an early number possible** |
-| **M3** | An architect or client has asked for a spec they cannot produce | The acoustic layer of someone else's paperwork |
+| M1 | They have won, or are bidding, a cinema — the project exists on paper, the room does not | The acoustics specified as part of the design |
+| M2 | They are pricing the build | A treatment number they can quote a client with — **the box quantum is what makes an early number possible** |
+| M3 | An architect or client has asked for a spec they cannot produce | The acoustic layer of someone else's paperwork |
 
 **And `PR-7` is broken properly this time, on its own stated falsifier.** *It read "three problems means three
 doors", with "evidence that a dealer does not arrive with a recognisable symptom" as what would break it — **which
@@ -34,27 +34,27 @@ times and free to drift. Slot 5 already said so in its own words — "one hinge,
 
 | Slot | Gateway | The piece | State |
 |---|---|---|---|
-| **S3** | `G2` proposition | The 3 Rs block and the panel on-ramp (`copy.md`) — **and the depth figures, now sayable: 50 mm REF-CP and REV-CP, 43 mm RES-CP** (`Q63`) | **Written, ready to paste; absent from the live homepage.** *A paste job, not an authoring job* |
-| **S5** | `G3` the hinge | Registration: gated trade pricing, the tools, one account across every brand | **Mechanism live in engine; grants only pricing today.** *One hinge, shared by all three doors* |
-| **S6** | `G4` first order | The panel listing on `srnd.store` | **Mockup, not a defect** (`PR-18`). *The `£0.00` presentation and the marine variant outranking REF-CP are `EST-4`, which is a surface this process has to specify rather than a bug* |
-| **S8** | `G6` adjacency | Concealment behind the fabric → **Fabric Walls stage 2** | Article **staged**; adjacency page unwritten (`content-plan.md` item 45). **Two per-door exceptions:** reflection has a **second exit** — first-reflection points are the same build as the screen wall, so → **DT stage 2** (`../../motion/adjacency-map.md`); resonance carries **the timing argument most strongly** — the treatment is behind the wall, so it is decided *before the wall is built* (`product-records.md` `N6`) |
+| S3 | `G2` proposition | The 3 Rs block and the panel on-ramp (`copy.md`) — **and the depth figures, now sayable: 50 mm REF-CP and REV-CP, 43 mm RES-CP** (`Q63`) | **Written, ready to paste; absent from the live homepage.** *A paste job, not an authoring job* |
+| S5 | `G3` the hinge | Registration: gated trade pricing, the tools, one account across every brand | **Mechanism live in engine; grants only pricing today.** *One hinge, shared by all three doors* |
+| S6 | `G4` first order | The panel listing on `srnd.store` | **Mockup, not a defect** (`PR-18`). *The `£0.00` presentation and the marine variant outranking REF-CP are `EST-4`, which is a surface this process has to specify rather than a bug* |
+| S8 | `G6` adjacency | Concealment behind the fabric → **Fabric Walls stage 2** | Article **staged**; adjacency page unwritten (`content-plan.md` item 45). **Two per-door exceptions:** reflection has a **second exit** — first-reflection points are the same build as the screen wall, so → **DT stage 2** (`../../motion/adjacency-map.md`); resonance carries **the timing argument most strongly** — the treatment is behind the wall, so it is decided *before the wall is built* (`product-records.md` `N6`) |
 
 ## The per-door rows — four slots that genuinely differ
 
 | Door | Slot | The piece | State |
 |---|---|---|---|
-| **Reverberation** | `S1` hook | *"Reverberation — Understanding"* (52 s, ~9,500 views) | **One hook live — and it ends dead**, no link to anything. The rest of the matrix uncast |
-| **Reverberation** | `S2` answer | The reverberation answer on the canonical home — what it is, why rooms do it, what fixes it (KB pillar A, the RT60 article) | **Written, staged, unpublished** |
-| **Reverberation** | `S4` confirm | BSRIA BS EN ISO 354 absorption data; the REV-CP-50 coefficient sheet | **Published but buried** behind "Technical Information" (`EST-5`) |
-| **Reverberation** | `S7` first job | The 18 °C adhesive one-pager, the "how do you do X" recording, the install guide by moment | One-pager **written, unpublished** (`DOC-1`); recording not made (`DOC-2`); guide not rewritten (`DOC-3`). **The range's one real predictable site failure** (`R4`) |
-| **Reflection** | `S1` hook | The reflection hooks (`hooks.md`) | **Nothing live.** The 3 Rs explainer set names reflection; no reflection-specific hook exists |
-| **Reflection** | `S2` answer | The first-reflections answer — what one is, why it costs you detail, what fixes it | **Written, staged, unpublished** |
-| **Reflection** | `S4` confirm | *Teach before you show*: why a scatterer's figures are low, then the report and coefficient sheet | Report and sheets **published but buried** (`EST-5`); the explainer **queued, blocked on `DOC-4`** — the A and B values still have to be read off the published chart |
-| **Reflection** | `S7` first job | The install one-pager, the recording, the guide by moment, the fault-finding page | One-pager written, unpublished (`DOC-1`). **Ordinary install guidance — `PR-13` deflated the "trap"**: A/B is a design input, always designed on bonded figures |
-| **Resonance** | `S1` hook | The resonance hooks (`hooks.md`) | **Nothing live.** No resonance-specific hook exists |
-| **Resonance** | `S2` answer | Room modes — why bass is uneven seat to seat, why it is pressure and not EQ, what corner loading does | **`[?]` — inventory it.** The staged KB covers bass as a pillar; whether it answers *this* question at this depth is unverified |
-| **Resonance** | `S4` confirm | BSRIA test 4 — three panels in corners against two walls, **the configuration it is actually used in**, stated on the face of it | **Published but buried** (`EST-5`). **`C4.15`: Neil calls this the most important result in the pack** — *"a very, very unusual product delivering results much deeper panels would be proud of, and lab verified"* |
-| **Resonance** | `S7` first job | The corner-placement instruction page and its recording | **Missing — never drafted.** The other two panels' one-pagers exist (`content-plan.md` item 37, `DOC-2`) |
+| Reverberation | `S1` hook | *"Reverberation — Understanding"* (52 s, ~9,500 views) | **One hook live — and it ends dead**, no link to anything. The rest of the matrix uncast |
+| Reverberation | `S2` answer | The reverberation answer on the canonical home — what it is, why rooms do it, what fixes it (KB pillar A, the RT60 article) | Written, staged, unpublished |
+| Reverberation | `S4` confirm | BSRIA BS EN ISO 354 absorption data; the REV-CP-50 coefficient sheet | **Published but buried** behind "Technical Information" (`EST-5`) |
+| Reverberation | `S7` first job | The 18 °C adhesive one-pager, the "how do you do X" recording, the install guide by moment | One-pager **written, unpublished** (`DOC-1`); recording not made (`DOC-2`); guide not rewritten (`DOC-3`). **The range's one real predictable site failure** (`R4`) |
+| Reflection | `S1` hook | The reflection hooks (`hooks.md`) | **Nothing live.** The 3 Rs explainer set names reflection; no reflection-specific hook exists |
+| Reflection | `S2` answer | The first-reflections answer — what one is, why it costs you detail, what fixes it | Written, staged, unpublished |
+| Reflection | `S4` confirm | *Teach before you show*: why a scatterer's figures are low, then the report and coefficient sheet | Report and sheets **published but buried** (`EST-5`); the explainer **queued, blocked on `DOC-4`** — the A and B values still have to be read off the published chart |
+| Reflection | `S7` first job | The install one-pager, the recording, the guide by moment, the fault-finding page | One-pager written, unpublished (`DOC-1`). **Ordinary install guidance — `PR-13` deflated the "trap"**: A/B is a design input, always designed on bonded figures |
+| Resonance | `S1` hook | The resonance hooks (`hooks.md`) | **Nothing live.** No resonance-specific hook exists |
+| Resonance | `S2` answer | Room modes — why bass is uneven seat to seat, why it is pressure and not EQ, what corner loading does | **`[?]` — inventory it.** The staged KB covers bass as a pillar; whether it answers *this* question at this depth is unverified |
+| Resonance | `S4` confirm | BSRIA test 4 — three panels in corners against two walls, **the configuration it is actually used in**, stated on the face of it | **Published but buried** (`EST-5`). **`C4.15`: Neil calls this the most important result in the pack** — *"a very, very unusual product delivering results much deeper panels would be proud of, and lab verified"* |
+| Resonance | `S7` first job | The corner-placement instruction page and its recording | **Missing — never drafted.** The other two panels' one-pagers exist (`content-plan.md` item 37, `DOC-2`) |
 
 ## Slot 4's job changed, and it changes all three doors
 
@@ -98,10 +98,10 @@ they cannot get past. `M2` was the worst-served entry in the whole set.
 
 | | Fact | Source |
 |---|---|---|
-| **A coarse unit** | **1 box = 1.44 m² of coverage** (16 REF / 16 REV / 4 RES). **Quantities round *up* to whole boxes** — a customer uses a full box | design rules § "The box quantum" |
-| **A scoping layer** | **Bronze / Silver / Gold** — *"scope + target + how far down the reflection-triage list"*, with **"output always in whole boxes"**. Gold flips the floor to a wood walkway | design rules § Grades |
-| **A path from a room to a count** | *room + format + finishes + grade → derived layout → these rules → **boxes*** | design rules § Two-tier product |
-| **One anchor point** | Joppa Road, **7.05 × 4.95 × 2.6 m**, 7.1.4, 7 seats: **Gold on carpet = 11 boxes** (REF 6 + REV 1 + RES 4) | design rules § Worked reference |
+| A coarse unit | **1 box = 1.44 m² of coverage** (16 REF / 16 REV / 4 RES). **Quantities round *up* to whole boxes** — a customer uses a full box | design rules § "The box quantum" |
+| A scoping layer | **Bronze / Silver / Gold** — *"scope + target + how far down the reflection-triage list"*, with **"output always in whole boxes"**. Gold flips the floor to a wood walkway | design rules § Grades |
+| A path from a room to a count | *room + format + finishes + grade → derived layout → these rules → **boxes*** | design rules § Two-tier product |
+| One anchor point | Joppa Road, **7.05 × 4.95 × 2.6 m**, 7.1.4, 7 seats: **Gold on carpet = 11 boxes** (REF 6 + REV 1 + RES 4) | design rules § Worked reference |
 
 **So the method to turn a room into a number exists and runs.** *What does not exist is a way for a dealer to reach
 it.*
@@ -141,7 +141,7 @@ execute.
 | What it emits | From |
 |---|---|
 | **Boxes *and* placement together** — *"these rules → boxes + EID-keyed placement → trade basket"* | design rules § Two-tier product |
-| **Per-seat image-source placement (Seat sheets) and the 11-layer placement algorithm** | design rules § Where the engine adds rigour |
+| Per-seat image-source placement (Seat sheets) and the 11-layer placement algorithm | design rules § Where the engine adds rigour |
 | **Rules that are already placement instructions** — RES straddles the corner across both adjoining walls floor to ceiling, ceiling corners for the height axis; REV around the speakers for comb-filter control, then fill; REF by reflection-triage score | design rules §§ 5–6 |
 | **A derived layout from the room alone** — *"room + format + finishes + grade → derived layout (speakers, prime seat, 4-corner subs)"* | design rules § Two-tier product |
 

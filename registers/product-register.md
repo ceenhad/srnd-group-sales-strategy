@@ -26,23 +26,23 @@ differs, engine is right and this file is wrong — reconciling the two is `regi
 
 | State | Means |
 |---|---|
-| **filled** | Every applicable field has a value or a named `[?]` |
-| **skeleton** | Definition group (`D1`–`D10`) attempted; the rest is a counted gap |
-| **none** | No record exists. A catalogue line and a brand page, and nothing behind them |
-| **n/a** | Not a product — a service, an embedded component, or a line that has left the brand |
+| filled | Every applicable field has a value or a named `[?]` |
+| skeleton | Definition group (`D1`–`D10`) attempted; the rest is a counted gap |
+| none | No record exists. A catalogue line and a brand page, and nothing behind them |
+| n/a | Not a product — a service, an embedded component, or a line that has left the brand |
 
 ## Where it stands
 
 | Brand | Record scopes | filled | skeleton | none | n/a | Public catalogue |
 |---|---|---|---|---|---|---|
-| **C-ATS** | 8 | 3 | 0 | 5 | 0 | `c-ats.co.uk` + store |
-| **Display Technologies** | 12 | 0 | 9 | 2 | 1 | 52 live SKUs |
-| **Fabric Walls** | 6 | 0 | 0 | 6 | 0 | `fabricwalls.uk` |
-| **Light Walls** | 4 | 0 | 0 | 4 | 0 | `lightwalls.co.uk` |
-| **Pro-Fi** | 5 | 0 | 0 | 5 | 0 | `pro-fi.uk` (thin, out of date) |
-| **SRND Distribution** | 2 | 0 | 0 | 2 | 0 | `srnd.store` |
-| **SRND Solutions** | 1 | 0 | 0 | 1 | 0 | none — in development |
-| **Total** | **38** | **3** | **9** | **25** | **1** | |
+| C-ATS | 8 | 3 | 0 | 5 | 0 | `c-ats.co.uk` + store |
+| Display Technologies | 12 | 0 | 9 | 2 | 1 | 52 live SKUs |
+| Fabric Walls | 6 | 0 | 0 | 6 | 0 | `fabricwalls.uk` |
+| Light Walls | 4 | 0 | 0 | 4 | 0 | `lightwalls.co.uk` |
+| Pro-Fi | 5 | 0 | 0 | 5 | 0 | `pro-fi.uk` (thin, out of date) |
+| SRND Distribution | 2 | 0 | 0 | 2 | 0 | `srnd.store` |
+| SRND Solutions | 1 | 0 | 0 | 1 | 0 | none — in development |
+| Total | 38 | 3 | 9 | 25 | 1 | |
 
 **Three reads worth taking from that table before anything else:**
 
@@ -61,22 +61,21 @@ differs, engine is right and this file is wrong — reconciling the two is `regi
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `CAT-01` | **Reflection Control Panel** | `C-ATS-REF-CP` | **filled** | current | `srnd.store` |
-| `CAT-02` | **Resonance Control Panel** | `C-ATS-RES-CP` | **filled** | current | `srnd.store` |
-| `CAT-03` | **Reverberation Control Panel** | `C-ATS-REV-CP-50` | **filled** | current | `srnd.store` |
-| `CAT-04` | **Marine Reflection Control Panel** | `C-ATS-REF-CP-MAR` | none | current | `srnd.store` |
-| `CAT-05` | **Isolation System** | **↻ FILLED FROM INVOICES 2026-08-19.** A decoupling hardware set — *a barite-loaded elastomer compound, a proprietary channel clip, **five** custom bracket variants, a mount, a penetration back box* — **plus a six-step service ladder** *(discovery · design · drawings · details · BOM · build guide)* | none | **current** *(was `[?]`)* | **`srnd.store`** *(was `[?]`)* |
-| `CAT-06` | **Design service** | — **⚠ this row conflates two services at very different prices**: the acoustic **treatment** design (£2,400 median, 41 engagements) and the **isolation** design ladder now under `CAT-05`. *They are different deliverables with different buyers; one row cannot carry both* | none | current | trade, by enquiry |
-| `CAT-07` | **Verification service** | — | none | current | trade, by enquiry |
-| `CAT-08` | **Commercial / large-format range** | — | none | **pre-release** | not listed |
+| `CAT-01` | Reflection Control Panel | `C-ATS-REF-CP` | filled | current | `srnd.store` |
+| `CAT-02` | Resonance Control Panel | `C-ATS-RES-CP` | filled | current | `srnd.store` |
+| `CAT-03` | Reverberation Control Panel | `C-ATS-REV-CP-50` | filled | current | `srnd.store` |
+| `CAT-04` | Marine Reflection Control Panel | `C-ATS-REF-CP-MAR` | none | current | `srnd.store` |
+| `CAT-05` | Isolation System | **↻ FILLED FROM INVOICES 2026-08-19.** A decoupling hardware set — *a barite-loaded elastomer compound, a proprietary channel clip, **five** custom bracket variants, a mount, a penetration back box* — **plus a six-step service ladder** *(discovery · design · drawings · details · BOM · build guide)* | none | **current** *(was `[?]`)* | **`srnd.store`** *(was `[?]`)* |
+| `CAT-06` | Design service | — **⚠ this row conflates two services at very different prices**: the acoustic **treatment** design (£2,400 median, 41 engagements) and the **isolation** design ladder now under `CAT-05`. *They are different deliverables with different buyers; one row cannot carry both* | none | current | trade, by enquiry |
+| `CAT-07` | Verification service | — | none | current | trade, by enquiry |
+| `CAT-08` | Commercial / large-format range | — | none | pre-release | not listed |
 
 **↻ `CAT-05` was the register's most expensive empty row.** *Three of its four cells were `—` or `[?]`, so
 **nothing downstream could see the layer**: no record, no claims, no content, no pathway, no place in the three-layer
 account of a room. **The material was in this repo's own derived data the whole time**
 (`../evidence/2026-08-19-isolation-is-a-sold-layer.md`, from `../data/derived/srnd-store-item-categories.csv`).*
 
-**The lesson is about the register, not the business.** *Neil, 2026-08-19, on the write-up that first called this a
-find: ***"since I did them all it's no surprise I assure you."*** **An empty cell here means nobody has written it
+**This is about the register, not the business.** *Neil, 2026-08-19: "since I did them all it's no surprise I assure you."* **An empty cell here means nobody has written it
 down — it never means the company does not do it**, and this register's `[?]` marks have twice now been read the
 stronger way. *`../method.md` § the oldest failure in the repo.*
 
@@ -99,18 +98,18 @@ list.*
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `DT-01` | **Dynamic masking screens** | 2S · 2S-L · 2S-XL · 2TB · 2TB-L · 2TB-XL · 4 · 4-L · 4-XL (9 SKUs) | skeleton | current | `srnd.store` |
-| `DT-02` | **Fixed-frame screens** | Contempo · Frontier | skeleton | current | `srnd.store` |
-| `DT-03` | **Image surfaces** | ATPro · ATRef · ATStudio · AT ALR · Image ALR · Image Ref (many size/gain variants) | skeleton | current | `srnd.store` |
-| `DT-04` | **Ceiling & vertical projector mounts** | Ceiling ± XL · Vertical ± XL/XXL | skeleton | current | `srnd.store` |
-| `DT-05` | **Mirror concealment** | Motorised Mirror Drop (+ Short Throw, Small, Large) · Side Mirror ± XL | skeleton | current | `srnd.store` |
-| `DT-06` | **Hush Box enclosures** | Small · Medium · Medium Plus · Large · Large Plus | skeleton | current | `srnd.store` |
-| `DT-07` | **Projector port holes** | Single Glazed · Double Glazed · Custom Size · Small | skeleton | current | `srnd.store` |
-| `DT-08` | **Airflow — Mistral** | Mistral Commander (2-zone) · inline fans 150/200/250 | skeleton | current | `srnd.store` `[?]` |
-| `DT-09` | **The Commanders** | Dynamic · Actuator · Mistral | n/a — embedded | n/a | **embedded, never a line item** |
-| `DT-10` | **The Screen Wall** | projection + LED variants | none | **demonstrable, undocumented** | not listed |
-| `DT-11` | **Artmask** | `[?]` | none | `[?]` | on site, **not in the product feed** |
-| `DT-12` | **Spares & components** | tension bands · linear actuator · draw-wire sensor · PSU | skeleton | current | `srnd.store` |
+| `DT-01` | Dynamic masking screens | 2S · 2S-L · 2S-XL · 2TB · 2TB-L · 2TB-XL · 4 · 4-L · 4-XL (9 SKUs) | skeleton | current | `srnd.store` |
+| `DT-02` | Fixed-frame screens | Contempo · Frontier | skeleton | current | `srnd.store` |
+| `DT-03` | Image surfaces | ATPro · ATRef · ATStudio · AT ALR · Image ALR · Image Ref (many size/gain variants) | skeleton | current | `srnd.store` |
+| `DT-04` | Ceiling & vertical projector mounts | Ceiling ± XL · Vertical ± XL/XXL | skeleton | current | `srnd.store` |
+| `DT-05` | Mirror concealment | Motorised Mirror Drop (+ Short Throw, Small, Large) · Side Mirror ± XL | skeleton | current | `srnd.store` |
+| `DT-06` | Hush Box enclosures | Small · Medium · Medium Plus · Large · Large Plus | skeleton | current | `srnd.store` |
+| `DT-07` | Projector port holes | Single Glazed · Double Glazed · Custom Size · Small | skeleton | current | `srnd.store` |
+| `DT-08` | Airflow — Mistral | Mistral Commander (2-zone) · inline fans 150/200/250 | skeleton | current | `srnd.store` `[?]` |
+| `DT-09` | The Commanders | Dynamic · Actuator · Mistral | n/a — embedded | n/a | embedded, never a line item |
+| `DT-10` | The Screen Wall | projection + LED variants | none | demonstrable, undocumented | not listed |
+| `DT-11` | Artmask | `[?]` | none | `[?]` | on site, **not in the product feed** |
+| `DT-12` | Spares & components | tension bands · linear actuator · draw-wire sensor · PSU | skeleton | current | `srnd.store` |
 
 **Notes, and the first is a genuine contradiction the register surfaced:**
 
@@ -138,12 +137,12 @@ Kits → Levels — is already a record scope hierarchy; it has simply never bee
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `FW-01` | **Fabric Panels** | Rectangle · Angled Rectangle · Angled | none | current | `srnd.store` |
-| `FW-02` | **Fabric Wall Elements** | Acoustic Core · Column · Divider · External Corner · Inset Column · Inset Divider · LED Divider · Mounting Solution · Porthole & Vent · Slats · Staggered Slats · Halo LED (12) | none | current | `srnd.store` |
-| `FW-03` | **Fabric** | fabric options; Camira and others | none | current | `[?]` — see store split |
-| `FW-04` | **Star Ceiling** | — | none | current | `srnd.store` |
-| `FW-05` | **Interior Kits** | Levels 1–4 · named city schemes · Cinema / Media Wall / Office families | none | current | `srnd.store` |
-| `FW-06` | **Services** | Design & Technical Planning · Supply-Only · Approved Partner Installation · Commercial Fit-Out · Aftercare & Refitting | none | current | by enquiry |
+| `FW-01` | Fabric Panels | Rectangle · Angled Rectangle · Angled | none | current | `srnd.store` |
+| `FW-02` | Fabric Wall Elements | Acoustic Core · Column · Divider · External Corner · Inset Column · Inset Divider · LED Divider · Mounting Solution · Porthole & Vent · Slats · Staggered Slats · Halo LED (12) | none | current | `srnd.store` |
+| `FW-03` | Fabric | fabric options; Camira and others | none | current | `[?]` — see store split |
+| `FW-04` | Star Ceiling | — | none | current | `srnd.store` |
+| `FW-05` | Interior Kits | Levels 1–4 · named city schemes · Cinema / Media Wall / Office families | none | current | `srnd.store` |
+| `FW-06` | Services | Design & Technical Planning · Supply-Only · Approved Partner Installation · Commercial Fit-Out · Aftercare & Refitting | none | current | by enquiry |
 
 **Notes:**
 
@@ -163,10 +162,10 @@ rather than a blank.*
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `LW-01` | **Down Light** | Module (RGBW) · System Kit (RGBW, 20 W, 70 mm) | none | current | `srnd.store` |
-| `LW-02` | **Linear** | Linear 1×10 (RGBW, 16-bit) | none | current | `srnd.store` |
-| `LW-03` | **Matrix** | 5×5 · 1×5 · 1×1 (RGBW, 16-bit) | none | current | `srnd.store` |
-| `LW-04` | **System Kits** | — | none | current | `srnd.store` |
+| `LW-01` | Down Light | Module (RGBW) · System Kit (RGBW, 20 W, 70 mm) | none | current | `srnd.store` |
+| `LW-02` | Linear | Linear 1×10 (RGBW, 16-bit) | none | current | `srnd.store` |
+| `LW-03` | Matrix | 5×5 · 1×5 · 1×1 (RGBW, 16-bit) | none | current | `srnd.store` |
+| `LW-04` | System Kits | — | none | current | `srnd.store` |
 
 **Note:** the measured-per-unit colour work (LWCP) is the brand's real depth and sits in `brands/light-walls/opportunity.md`. It is
 `G1` material — a supported claim with a measurement behind it — and it is currently invisible in every public
@@ -179,11 +178,11 @@ gap between them is the work.*
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `PF-01` | **Spatial** | BMR satellites — dot / dash / cube | none | `[?]` | not listed — gated |
-| `PF-02` | **Cinema** | 2-way LCR; Reference coax point-source | none | `[?]` | not listed — gated |
-| `PF-03` | **Modular** | stackable line-array blocks | none | `[?]` | not listed — gated |
-| `PF-04` | **Stage** | BMR 2-way LCR | none | `[?]` | not listed — gated |
-| `PF-05` | **LFE** | sealed subs 5 / 8 / 12 / 15 · infra_21 | none | `[?]` | not listed — gated |
+| `PF-01` | Spatial | BMR satellites — dot / dash / cube | none | `[?]` | not listed — gated |
+| `PF-02` | Cinema | 2-way LCR; Reference coax point-source | none | `[?]` | not listed — gated |
+| `PF-03` | Modular | stackable line-array blocks | none | `[?]` | not listed — gated |
+| `PF-04` | Stage | BMR 2-way LCR | none | `[?]` | not listed — gated |
+| `PF-05` | LFE | sealed subs 5 / 8 / 12 / 15 · infra_21 | none | `[?]` | not listed — gated |
 
 **Notes:**
 
@@ -198,8 +197,8 @@ gap between them is the work.*
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `DIS-01` | **Leyard** | LED — the only genuine third-party brand | none | current | `srnd.store` |
-| `DIS-02` | **Carried lines & components** | — | none | current | `srnd.store` |
+| `DIS-01` | Leyard | LED — the only genuine third-party brand | none | current | `srnd.store` |
+| `DIS-02` | Carried lines & components | — | none | current | `srnd.store` |
 
 **Note:** a carried line needs `D1`–`D9` least (the manufacturer supplies them) and needs `O1`, `R1` and `C2` most —
 why a dealer should buy it *from us*, what doubt that raises, and where we may sell it. That is the opposite fill
@@ -210,7 +209,7 @@ one. **Ultrasuede is not a row** — it is a fabric used within Fabric Walls, no
 
 | ID | Record scope | Covers | Record | `G3` status | Channel |
 |---|---|---|---|---|---|
-| `SOL-01` | **Sensors & interfaces** | — | none | **pre-release** | not listed |
+| `SOL-01` | Sensors & interfaces | — | none | pre-release | not listed |
 
 **Note:** in development, and go-to-market is parked until nearer shipping. **Build it, then say it** — but the
 record can be filled *before* it ships, and should be. `D1`–`D10` and `G2` written during development is the cheapest
@@ -230,9 +229,9 @@ record counts suggest.*
 
 | Tier | Scopes | State | What the line can do with it |
 |---|---|---|---|
-| **1 — questions indexed, answers missing** | **3** (the C-ATS panels) | 28/58 fields, **knowledge 2/9**, **2 of 13 questions answered in writing**; front half (`X`/`M`/`L`/`H`) empty | Multiply the two answers we have. Six more are a paragraph each away. The rest is not there |
-| **2 — definition only, questions not even asked** | **9** (the DT families) | ~13/58 fields, **`R3` unfilled throughout**; front half empty | **Nothing.** With no question list there is no content backlog for DT at all — and DT owns the channel with 8 years and ~41,000 views |
-| **3 — nothing** | **25** | No record | Nothing |
+| 1 — questions indexed, answers missing | **3** (the C-ATS panels) | 28/58 fields, **knowledge 2/9**, **2 of 13 questions answered in writing**; front half (`X`/`M`/`L`/`H`) empty | Multiply the two answers we have. Six more are a paragraph each away. The rest is not there |
+| 2 — definition only, questions not even asked | **9** (the DT families) | ~13/58 fields, **`R3` unfilled throughout**; front half empty | **Nothing.** With no question list there is no content backlog for DT at all — and DT owns the channel with 8 years and ~41,000 views |
+| 3 — nothing | 25 | No record | Nothing |
 
 ### What that means, stated plainly
 

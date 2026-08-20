@@ -116,10 +116,10 @@ they overturn a couple of assumptions.*
 
 | Channel | Joined | Subs | Videos | Lifetime views |
 |---|---|---|---|---|
-| `@displaytechnologiesltd` | Dec 2018 | 107 | 39 | **~41,000** |
+| `@displaytechnologiesltd` | Dec 2018 | 107 | 39 | ~41,000 |
 | `@Complete_ATS` (C-ATS) | Apr 2023 | 46 | 16 | 12,058 |
 | `@SRNDGroupLtd` | May 2024 | 20 | 54 | 1,471 |
-| An older SRND Group channel | — | — | — | **locked — no access** |
+| An older SRND Group channel | — | — | — | locked — no access |
 
 Roughly **54,500 views across the estate: three-quarters of it on DT, a fifth on C-ATS, three per cent on the
 group channel** — which holds the most videos of the three.

@@ -353,8 +353,8 @@ governs everything about the file:
 
 | | Where it goes | Who acts on it |
 |---|---|---|
-| **Business or management** — pricing, territory, what we sell, who we sell to | `decided.md`, once Neil decides it | **SRND OS, every morning** |
-| **Repo management** — conventions, structure, how questions are logged, how a session runs | **this file** | Whoever is working in the repo |
+| **Business or management** — pricing, territory, what we sell, who we sell to | `decided.md`, once Neil decides it | SRND OS, every morning |
+| **Repo management** — conventions, structure, how questions are logged, how a session runs | this file | Whoever is working in the repo |
 
 ***ADRs were tried twice and the answer is settled: no `decisions/` folder, ever.*** *The first attempt
 (2026-08-16) scraped 59 stubs and was deleted entire. The second (2026-08-17) wrote three proper ADRs and was

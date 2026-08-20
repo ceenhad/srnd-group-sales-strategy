@@ -169,7 +169,7 @@ network is almost entirely a DT network.*
 | DT | NAVS | Australia | Reduced portfolio: cinema and Hi-Fi | Low; difficult on exchange rate and shipping |
 | DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
 | DT | Qualtron | Yachting | On-board entertainment | No business so far |
-| DT | Screen Innovations | USA | **White label — they own the relationship, not us** | Not a route to market for DT as a brand |
+| DT | Screen Innovations | USA | White label — they own the relationship, not us | Not a route to market for DT as a brand |
 | DT | — | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`evidence/archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
 | DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
 | DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
@@ -389,13 +389,13 @@ read as the same thing. To be filled in.*
 
 | Measure | Target | Basis for the target | Actual |
 |---|---|---|---|
-| Dealers buying more than one brand | **[to come]** | | Not instrumented |
-| Revenue split by brand | **[to come]** | | Attribution tangled |
-| DT projection trend | **[to come]** | | Unit counts available |
-| Share of revenue direct vs distributor | **[to come]** | | Tangled |
-| Registrations per period | **[to come]** | | **[?]** |
-| **Active C-ATS accounts per year** | **[to come — `P1`]** | *The confirmed objective is `../brands/c-ats/claims.md` `C2.15`: "we need to engage with more AV integrators"* | **3** (2023) → **15** (2024) → **16** (2025) → **6** (2026 to 9 Jul) |
-| **C-ATS product revenue per year** | **[to come — `P1`]** | | **£13,328** (2023) → **£73,092** (2024) → **£67,667** (2025) → **£17,898** (2026 to 9 Jul) |
+| Dealers buying more than one brand | [to come] | | Not instrumented |
+| Revenue split by brand | [to come] | | Attribution tangled |
+| DT projection trend | [to come] | | Unit counts available |
+| Share of revenue direct vs distributor | [to come] | | Tangled |
+| Registrations per period | [to come] | | [?] |
+| Active C-ATS accounts per year | [to come — `P1`] | The confirmed objective is `../brands/c-ats/claims.md` `C2.15`: "we need to engage with more AV integrators" | **3** (2023) → **15** (2024) → **16** (2025) → **6** (2026 to 9 Jul) |
+| C-ATS product revenue per year | [to come — `P1`] | | **£13,328** (2023) → **£73,092** (2024) → **£67,667** (2025) → **£17,898** (2026 to 9 Jul) |
 
 ### The C-ATS baseline, measured 2026-08-19 — and 2026 is down, not flat
 
@@ -405,12 +405,12 @@ read as the same thing. To be filled in.*
 | | |
 |---|---|
 | **2026 year to date** (to 9 Jul, the last C-ATS invoice) | **£17,898** from **6** accounts |
-| **The same months of 2025** (Jan–Jul) | **£39,188** |
+| **The same months of 2025** (Jan–Jul) | £39,188 |
 | — | ***Withdrawn as a finding.** Invoices are outstanding for work already sold, so the gap measures **invoicing**, not demand. **Recorded as an incomplete count, not as a decline*** |
 | An account is worth, per year | **£4,229** mean, **£2,358** median *(2025)*; £4,873 / £4,440 *(2024)* |
 | An order is worth | **£3,042** mean, **£2,103** median *(170 invoices, all years)* |
 | Orders per active account per year | **1.81** *(2025)*, 1.40 *(2024)* |
-| Of the 53 accounts that ever bought, bought in more than one year | **17 — a 32 % repeat rate** |
+| Of the 53 accounts that ever bought, bought in more than one year | 17 — a 32 % repeat rate |
 | Concentration | **Top 3 accounts = 37 %** of lifetime revenue |
 | **The cross-sell pool** — never bought C-ATS, active elsewhere 2024–26 | **142 accounts**, **£4,002,157** spent with the group on everything else |
 | **The warm part of that pool** — CRM `CATS Status = Presented` | **49 accounts** *(plus 16 `Approached`)* |
@@ -463,11 +463,11 @@ population and computation, not capture.**
 
 | What the dual target needs | The field that already exists | State today |
 |---|---|---|
-| **Dealer vs distribution** | **`customers.customer_type_id`**, with exactly the right values — **`dealer` · `distributor` · `end_user` · `specifier`** | **17 of 350 live customers are typed.** *12 dealer, 1 distributor, 3 end user, 1 specifier* |
-| **Brand attribution of revenue** | `sales_order_lines` → `products.brand_id` | **163 of 166 products carry a brand.** *Works today* |
-| **Brand attribution of the customer** | **`customers.source_brand_website`** — which brand's site brought them in | **329 of 350 populated.** *Nearly complete, and nobody is reading it* |
-| **Counting a sale before it is invoiced** | `sales_orders.ordered_at` | **74 orders.** *`shipped_at` is populated on **none**, so dispatch is not yet a usable event — **order is*** |
-| **How the interest was generated** | **`leads`** — `lead_source_id`, `source`, `enquiry_type`, `source_brand_site`, `product_id`, then `referred_to_customer_id` / `referral_status` / `converted_customer_id` / `converted_at` | **4 leads.** *The whole chain from source to conversion is modelled and **essentially unused*** |
+| Dealer vs distribution | **`customers.customer_type_id`**, with exactly the right values — **`dealer` · `distributor` · `end_user` · `specifier`** | **17 of 350 live customers are typed.** *12 dealer, 1 distributor, 3 end user, 1 specifier* |
+| Brand attribution of revenue | `sales_order_lines` → `products.brand_id` | **163 of 166 products carry a brand.** *Works today* |
+| Brand attribution of the customer | **`customers.source_brand_website`** — which brand's site brought them in | **329 of 350 populated.** *Nearly complete, and nobody is reading it* |
+| Counting a sale before it is invoiced | `sales_orders.ordered_at` | **74 orders.** *`shipped_at` is populated on **none**, so dispatch is not yet a usable event — **order is*** |
+| How the interest was generated | **`leads`** — `lead_source_id`, `source`, `enquiry_type`, `source_brand_site`, `product_id`, then `referred_to_customer_id` / `referral_status` / `converted_customer_id` / `converted_at` | **4 leads.** *The whole chain from source to conversion is modelled and **essentially unused*** |
 | Pipeline before an order | `quotes` with `won_at`, `project_id`, `project_stage_id` | 13 quotes |
 
 **So the structure of the dual target is settled by what engine already holds:**

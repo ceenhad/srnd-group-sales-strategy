@@ -15,14 +15,14 @@ be finished before because nobody had read what engine holds.
 dealer relationship, across the group, over time** — which is why the dealer number is a group measure and the brand
 split sits underneath it.*
 
-| Gateway | What success is | Where it lives in engine | Countable today | **The number now** |
+| Gateway | What success is | Where it lives in engine | Countable today | The number now |
 |---|---|---|---|---|
-| **G1** (1→2) | A stranger with a problem found us | **Nowhere.** *Engine cannot see a visit; it sees only what becomes a lead. `leads.source_brand_site` and `customers.source_brand_website` record **which brand's site**, never how many looked* | **No** | — |
-| **G2** (2→3) | The proposition landed — worth their time | `leads` (`enquiry_type`, `product_id`, `source_brand_site`); `knowledge_topics` **257** with questions, answers and gaps | **Partly** | **4 leads in total** |
-| **G3** (3→4) | Registered, **with marketing permission given willingly** | `customers.approved_at` · `terms_accepted_at` · **`marketing_opt_in_company`** | **Yes** | **17** approved · **13** terms accepted · **6** with marketing permission — *and on the gateway's own wording, **G3 is 6*** |
-| **G4** (4→5) | First order placed | `sales_orders.ordered_at` | **Yes** | **35 customers have ordered** |
+| **G1** (1→2) | A stranger with a problem found us | **Nowhere.** *Engine cannot see a visit; it sees only what becomes a lead. `leads.source_brand_site` and `customers.source_brand_website` record **which brand's site**, never how many looked* | No | — |
+| **G2** (2→3) | The proposition landed — worth their time | `leads` (`enquiry_type`, `product_id`, `source_brand_site`); `knowledge_topics` **257** with questions, answers and gaps | Partly | 4 leads in total |
+| **G3** (3→4) | Registered, **with marketing permission given willingly** | `customers.approved_at` · `terms_accepted_at` · **`marketing_opt_in_company`** | Yes | **17** approved · **13** terms accepted · **6** with marketing permission — *and on the gateway's own wording, **G3 is 6*** |
+| **G4** (4→5) | First order placed | `sales_orders.ordered_at` | Yes | 35 customers have ordered |
 | **G5** (5→6) | The first job succeeded | **`support_tickets` exists** — with statuses and priorities defined and **0 rows**. `projects.status_id` carries `won`/`lost`, which is a *project* outcome, not an install one | **No — still needs defining**, exactly as `motion-design.md` said | — |
-| **G6** (6→loop) | A second brand followed | `sales_order_lines` → `products.brand_id`, per customer — `FACT-1`'s query | **Yes** | **2 customers have ordered across more than one brand** |
+| **G6** (6→loop) | A second brand followed | `sales_order_lines` → `products.brand_id`, per customer — `FACT-1`'s query | Yes | 2 customers have ordered across more than one brand |
 
 **So the funnel, as far as it is instrumented: 6 → 35 → 2.** *Read it as a first reading of a young system, **not as
 performance** — engine's order history is weeks old, not years (`engine-audit.md` §0).*
@@ -47,13 +47,13 @@ leads (lead_source_id, source, source_brand_site, enquiry_type, product_id)
 
 | Join | State | |
 |---|---|---|
-| `quotes.project_id` | **10 of 13** | ✅ *working* |
-| `products.brand_id` | **163 of 166** | ✅ *working* |
-| `customers.source_brand_website` | **329 of 350** | ✅ *populated and unread* |
-| **`projects.source_lead_id`** | **0 of 50** | ❌ **the link from an activity to a room** |
-| **`projects.brand_id`** | **0 of 50** | ❌ **the link from a room to a brand** |
-| **`sales_orders.project_id`** | **1 of 74** | ❌ **the link from a room to the money** |
-| `customers.customer_type_id` | **17 of 350** | ❌ *the dealer/distributor split — `ENG-1`* |
+| `quotes.project_id` | 10 of 13 | ✅ *working* |
+| `products.brand_id` | 163 of 166 | ✅ *working* |
+| `customers.source_brand_website` | 329 of 350 | ✅ *populated and unread* |
+| `projects.source_lead_id` | 0 of 50 | ❌ **the link from an activity to a room** |
+| `projects.brand_id` | 0 of 50 | ❌ **the link from a room to a brand** |
+| `sales_orders.project_id` | 1 of 74 | ❌ **the link from a room to the money** |
+| `customers.customer_type_id` | 17 of 350 | ❌ *the dealer/distributor split — `ENG-1`* |
 
 **None of these is a build. All four are fields that exist and are not being filled.** *Which is the same finding as
 `ENG-1`, one layer wider: **engine's capture is ahead of engine's use.***
@@ -75,14 +75,14 @@ arrive as **`website`**. There is **no campaign, UTM, attribution or channel tab
 | The activity | Stage | Traceable today? |
 |---|---|---|
 | Off-site hooks — social, trade press, events, search/AI · always-on presence (podcast, YouTube) | 1 | **No.** *Invisible until a lead exists, and then indistinguishable* |
-| Group-site intro and campaign landing pages | 1 | **No** |
+| Group-site intro and campaign landing pages | 1 | No |
 | Brand-site range, data cards, virtual case studies, knowledge base, recorded demos | 2–3 | **Brand only** — `source_brand_site` says which site, never which piece |
 | Sample kit | 3 | **Possible now** — `leads.enquiry_type` could carry it |
 | Registration and partner pricing | 4 | **Yes** — G3 |
 | Purchase | 4 | **Yes** — G4 |
 | Install, verification, support | 5 | **No** — `support_tickets` empty, no verification event |
 | Reorder and cross-brand prompts | 6 | **Yes** — G6 |
-| Evergreen collateral (brochure) | ongoing | **No** |
+| Evergreen collateral (brochure) | ongoing | No |
 
 **One field closes most of this: a specific source carried from the piece into the lead.** *`lead_sources.meta` is
 already a `jsonb` column, so **a campaign or piece identifier has somewhere to go without a schema change** — but

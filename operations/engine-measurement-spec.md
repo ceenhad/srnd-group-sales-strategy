@@ -26,8 +26,8 @@ each**, and the sixth is a decision rather than a build.*
 | Sales orders · linked to a project | **74** · **1** |
 | Quotes · linked to a project | 13 · **10** |
 | Projects · with `brand_id` · with `source_lead_id` | **50** · **0** · **0** |
-| Products carrying `brand_id` | **163 of 166** |
-| `sales_activities` | **78** |
+| Products carrying `brand_id` | 163 of 166 |
+| `sales_activities` | 78 |
 | `support_tickets` | **0**, *with statuses and priorities defined* |
 | Customers approved · terms accepted · marketing opt-in | 17 · 13 · **6** |
 | Customers with an order · with 2+ brands | **35** · **2** |
@@ -105,11 +105,11 @@ rows) and must not be repurposed as a CRM log.*
 
 | Tier | In engine |
 |---|---|
-| **browsed** | **Nothing.** *`shopify_webhook_events` exists (72 rows, raw payloads) but carries orders, not page views.* **The agreed point stands unbuilt: *"the store is fully gated, so every browse is a logged-in, identified account"*** — and Neil: knowing what people look at is *"100 % a lost opportunity right now"* |
-| **quoted** | ✅ `quotes` |
-| **spec'd** | **No field at all** — *and it is the tier Neil singled out: **"a quote is routine, being written into the project's spec is commitment"**, and it is the **terminal success tier for specifier accounts.*** Without it, specifier-type accounts have no success measure |
-| **ordered** | ✅ `sales_orders.ordered_at` |
-| **repeat** | ✅ derivable |
+| browsed | **Nothing.** *`shopify_webhook_events` exists (72 rows, raw payloads) but carries orders, not page views.* **The agreed point stands unbuilt: *"the store is fully gated, so every browse is a logged-in, identified account"*** — and Neil: knowing what people look at is *"100 % a lost opportunity right now"* |
+| quoted | ✅ `quotes` |
+| spec'd | **No field at all** — *and it is the tier Neil singled out: **"a quote is routine, being written into the project's spec is commitment"**, and it is the **terminal success tier for specifier accounts.*** Without it, specifier-type accounts have no success measure |
+| ordered | ✅ `sales_orders.ordered_at` |
+| repeat | ✅ derivable |
 
 **Change:** *`spec'd` needs one state — the cleanest home is a nullable **`quotes.spec_confirmed_at`** or a stage on
 `projects`, since being written into a spec is a fact about the project, not the quote. **The design decision is
@@ -122,9 +122,9 @@ should be scoped separately rather than bundled here.*
 
 | Column | State | What it costs |
 |---|---|---|
-| `projects.source_lead_id` | **0 of 50** | A project cannot be traced to what caused it |
-| `projects.brand_id` | **0 of 50** | Per-brand pipeline unavailable, though the column exists |
-| `sales_orders.project_id` | **1 of 74** | Revenue cannot be attributed to the project it came from |
+| `projects.source_lead_id` | 0 of 50 | A project cannot be traced to what caused it |
+| `projects.brand_id` | 0 of 50 | Per-brand pipeline unavailable, though the column exists |
+| `sales_orders.project_id` | 1 of 74 | Revenue cannot be attributed to the project it came from |
 
 **And the asymmetry is the clue: `quotes.project_id` is 10 of 13.** *Quotes are being linked to projects and orders
 are not — so this is a form-and-flow question in the app, most likely the order-from-quote path dropping the

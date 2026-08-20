@@ -32,10 +32,10 @@ in the repo serves it.***
 
 | | State | Where |
 |---|---|---|
-| **Strategy** | Written, unestablished — not missing | `group-strategy/` |
-| **Channels** | **A candidate landscape only.** Selection, priority, spend and owner were never decided | `group-strategy/channels.md` |
-| **Methods** | Thorough and unratified — six gateways with observable signals, pathways, five components | `motion/motion-design.md` |
-| **KPIs** | Closest to locked — the framework worked through 2026-08-14 | `operations/engine-as-hub.md` §1 |
+| Strategy | Written, unestablished — not missing | `group-strategy/` |
+| Channels | **A candidate landscape only.** Selection, priority, spend and owner were never decided | `group-strategy/channels.md` |
+| Methods | Thorough and unratified — six gateways with observable signals, pathways, five components | `motion/motion-design.md` |
+| KPIs | Closest to locked — the framework worked through 2026-08-14 | `operations/engine-as-hub.md` §1 |
 
 > **Locking is choosing, not writing.** All four have been drafted already; what they need is decisions, not
 > more documents. *A session that responds to this by authoring has misread it — see [`method.md`](method.md).*
@@ -78,13 +78,13 @@ not exist.*
 
 | Area | Holds | Behaves like |
 |---|---|---|
-| **`group-strategy/`** | the group play, commercial model, buyer journey, partner programme, channels, competitors | **Argument.** Slow-changing, argued once |
-| **`motion/`** | sales motion, motion design, content, tools, tasks, work items, task shapes, standards, adjacency map | **The machinery of selling.** Changes when the design changes |
-| **`brands/`** | six brands, each applying the above | **Application.** Inherits, never forks |
-| **`registers/`** | the record schema and form, product register, backlog, questions, open items, proposals | **State, not prose.** Rows with a status |
-| **`evidence/`** | archive findings, engine audit, current state, closed runs | **Measured, and it never argues.** *Superseded findings are deleted, not stacked* |
-| **`operations/`** | engine handoff, store worklist | **What leaves this repo** |
-| **`data/`** | the sales history itself | Source, extracts, loaders. Sensitive |
+| `group-strategy/` | the group play, commercial model, buyer journey, partner programme, channels, competitors | **Argument.** Slow-changing, argued once |
+| `motion/` | sales motion, motion design, content, tools, tasks, work items, task shapes, standards, adjacency map | **The machinery of selling.** Changes when the design changes |
+| `brands/` | six brands, each applying the above | **Application.** Inherits, never forks |
+| `registers/` | the record schema and form, product register, backlog, questions, open items, proposals | **State, not prose.** Rows with a status |
+| `evidence/` | archive findings, engine audit, current state, closed runs | **Measured, and it never argues.** *Superseded findings are deleted, not stacked* |
+| `operations/` | engine handoff, store worklist | What leaves this repo |
+| `data/` | the sales history itself | Source, extracts, loaders. Sensitive |
 
 **Start with [`group-strategy/strategy.md`](group-strategy/strategy.md)** — the top-level strategy in one
 document (drafted with Neil 2026-08-17), then [`method.md`](method.md) for how the work is done here. *`NEXT.md` is the plan of record but is marked as needing its own session — read it as the plan that was.*

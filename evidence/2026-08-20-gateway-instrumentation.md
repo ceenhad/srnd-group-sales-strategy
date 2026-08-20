@@ -22,9 +22,9 @@ Brand detail sits underneath it.*
 | **G1** (1→2) | The hook landed — someone with a problem found us | **Not in engine.** *Engine sees a visitor only once they become a lead. **Which brand's site they arrived at is recorded** — `customers.source_brand_website`* | **Needs web analytics.** *Brand-of-entry known for **329 of 350** customers, and unread* |
 | **G2** (2→3) | The proposition landed — worth their time | `leads.enquiry_type`, `leads.product_id`, `leads.source_brand_site`; `knowledge_topics` (**257**) with questions, answers and gaps | **4 leads.** *The instrument is built and essentially unused* |
 | **G3** (3→4) | **Registration, the hinge** — with marketing permission given willingly | `customers.approved_at`, `terms_accepted_at`, **`marketing_opt_in_company`** | **6** *(marketing opt-in — the gateway's own definition)*. 17 approved · 13 terms accepted |
-| **G4** (4→5) | The first order placed | `sales_orders.ordered_at` | **35 customers have ordered** |
+| **G4** (4→5) | The first order placed | `sales_orders.ordered_at` | 35 customers have ordered |
 | **G5** (5→6) | The first job succeeded | **`support_tickets` exists** with statuses and priorities — *so "no escalation" is definable*. `projects.status_id` gives `won`/`lost`, which is a **project outcome, not an install outcome** | **0 tickets. Still needs defining**, exactly as `motion-design.md` said |
-| **G6** (6→loop) | A second layer of the room is ours | `sales_order_lines` → `products.brand_id` per customer — `FACT-1`'s query | **2 customers across 2+ brands** |
+| **G6** (6→loop) | A second layer of the room is ours | `sales_order_lines` → `products.brand_id` per customer — `FACT-1`'s query | 2 customers across 2+ brands |
 
 **So the funnel today is 6 → 35 → 2**, and **the shape of it is the first finding.**
 
@@ -45,11 +45,11 @@ Brand detail sits underneath it.*
 
 | # | Link | Field | State | What it costs |
 |---|---|---|---|---|
-| **B1** | **Which activity generated the interest** | `leads.lead_source_id` → `lead_sources` | **5 codes: `website` · `referral` · `trade_show` · `manual` · `import`** | ***"Website" cannot tell a CPD seminar from an AI answer from a press piece from a hook.*** **No campaign, UTM, content or activity table exists anywhere in engine.** *So **no marketing activity is individually traceable** — which is precisely the question being asked* |
-| **B2** | Lead → room | `projects.source_lead_id` | **0 of 50** | *A project cannot be traced back to what caused it* |
-| **B3** | Room → brand | `projects.brand_id` | **0 of 50** | *Per-brand pipeline is unavailable, though the column exists* |
-| **B4** | Room → order | `sales_orders.project_id` | **1 of 74** | *Revenue cannot be attributed to the project it came from.* `quotes.project_id` is **10 of 13**, so **quotes are linked and orders are not** |
-| — | Dealer vs distributor | `customers.customer_type_id` | **17 of 350** | *The dual target cannot be split at all (`ENG-1`)* |
+| B1 | Which activity generated the interest | `leads.lead_source_id` → `lead_sources` | 5 codes: `website` · `referral` · `trade_show` · `manual` · `import` | ***"Website" cannot tell a CPD seminar from an AI answer from a press piece from a hook.*** **No campaign, UTM, content or activity table exists anywhere in engine.** *So **no marketing activity is individually traceable** — which is precisely the question being asked* |
+| B2 | Lead → room | `projects.source_lead_id` | 0 of 50 | A project cannot be traced back to what caused it |
+| B3 | Room → brand | `projects.brand_id` | 0 of 50 | Per-brand pipeline is unavailable, though the column exists |
+| B4 | Room → order | `sales_orders.project_id` | 1 of 74 | *Revenue cannot be attributed to the project it came from.* `quotes.project_id` is **10 of 13**, so **quotes are linked and orders are not** |
+| — | Dealer vs distributor | `customers.customer_type_id` | 17 of 350 | The dual target cannot be split at all (`ENG-1`) |
 
 **`B1` is the one that needs a schema change. `B2`–`B4` are population and app workflow, not database design** —
 *the columns are there and nothing is filling them, which is a question about the app's forms rather than about the

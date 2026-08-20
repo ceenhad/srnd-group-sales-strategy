@@ -20,7 +20,7 @@ the same dealer, landing in opposite segments. The script strips legal-form word
 | | Names | Dealers |
 |---|---|---|
 | `contact_canonical` as the ledger carries it | 588 | — |
-| After legal-suffix normalisation | — | **549** |
+| After legal-suffix normalisation | — | 549 |
 
 **Both counts are still upper bounds.** Suffix stripping catches `Ltd`/`Limited`, not `Cornflake` versus a
 differently-worded trading name, and not a dealer who changed name. One source row also carries a mojibake
@@ -30,12 +30,12 @@ contact name (`Plafond S<?>bastien Dhennin EIRL`) — a source encoding fault, u
 
 | | |
 |---|---|
-| C-ATS external product revenue, all entities, 2015 → 2026 | **£495,106** |
-| External accounts that have ever bought it | **53** |
-| External accounts in the group ledger, 2012 → 2026 | **549** |
-| So: share of the group's dealer base that has ever bought C-ATS | **9.7 %** |
-| Of the 53, bought in more than one year | **17** |
-| Of the 53, also bought some other category from the group | **43** |
+| C-ATS external product revenue, all entities, 2015 → 2026 | £495,106 |
+| External accounts that have ever bought it | 53 |
+| External accounts in the group ledger, 2012 → 2026 | 549 |
+| So: share of the group's dealer base that has ever bought C-ATS | 9.7 % |
+| Of the 53, bought in more than one year | 17 |
+| Of the 53, also bought some other category from the group | 43 |
 
 ### By year
 
@@ -62,11 +62,11 @@ contact name (`Plafond S<?>bastien Dhennin EIRL`) — a source encoding fault, u
 
 | Segment | Definition | Accounts | C-ATS net |
 |---|---|---|---|
-| **C-ATS active** | last C-ATS order 2025 or 2026 | 18 | £276,726 |
-| **C-ATS recent** | last C-ATS order 2024 | 7 | £41,837 |
-| **C-ATS lapsed** | last C-ATS order 2020–2023 | 16 | £140,108 |
-| **C-ATS dormant** | last C-ATS order before 2020 | 12 | £36,435 |
-| **Never bought C-ATS, active elsewhere 2024–26** | no C-ATS row; some other category in 2024–26 | **142** | £0 (**£4,002,157** spent with the group on everything else) |
+| C-ATS active | last C-ATS order 2025 or 2026 | 18 | £276,726 |
+| C-ATS recent | last C-ATS order 2024 | 7 | £41,837 |
+| C-ATS lapsed | last C-ATS order 2020–2023 | 16 | £140,108 |
+| C-ATS dormant | last C-ATS order before 2020 | 12 | £36,435 |
+| Never bought C-ATS, active elsewhere 2024–26 | no C-ATS row; some other category in 2024–26 | 142 | £0 (**£4,002,157** spent with the group on everything else) |
 
 ### By panel
 
@@ -91,17 +91,17 @@ From `../data/derived/monday-accounts.csv` (1,658 accounts) and `../data/derived
 | Field | Value | Count |
 |---|---|---|
 | `CATS Status` | Not Customer | 1,568 |
-| | **Presented** | **49** |
+| | Presented | 49 |
 | | Approached | 16 |
-| | **Current Customer** | **16** |
+| | Current Customer | 16 |
 | | Not Interested | 4 |
 | | Historic Customer | 4 |
 | | Demonstrated | 1 |
-| `C-ATS Relationship` (contacts) | Dealer | **9** |
+| `C-ATS Relationship` (contacts) | Dealer | 9 |
 | | None | 1,254 |
-| `Subscribe C-ATS` (contacts) | **Yes** | **191** |
+| `Subscribe C-ATS` (contacts) | Yes | 191 |
 | | No | 32 |
-| | *(blank)* | 1,148 |
+| | (blank) | 1,148 |
 | `Subscribe SRND` (contacts) | Yes | 985 |
 
 **The CRM and the ledger disagree by a factor of two and a half.** The CRM marks 20 accounts as current or historic

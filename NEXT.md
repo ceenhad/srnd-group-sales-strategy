@@ -174,8 +174,7 @@ several times the acoustic treatment design fee.*** **Four consequences:**
  `group-strategy/the-group-play.md`.*
 - **A sold layer has nothing written about it in this repo** — no record, no content, no pathway. **`CAT-05` has
  carried three of four cells empty while the layer invoiced**, and the material was in **our own derived data** the
- whole time. **`KNW-6`.** *The lesson is not that the layer was hidden — it is that **the documentation lags the
- business by years, and this repo keeps mistaking its own blank cells for the company's gaps**.*
+ whole time. **`KNW-6`.** **The documentation lags the business by years, and a blank cell here is not a gap in the company.**
 
 **The Cinema Partners accounts — Neil pointed at them while I was claiming the cinema design layer had no
 record.** *`evidence/2026-08-19-cinema-partners-accounts.md`. **Two GTUK sales accounts, `CINEMA PARTNERS MATERIALS`
@@ -469,9 +468,8 @@ project begins. `group-strategy/competitors.md` **finding 1b**, evidence in the 
 worth carrying: `C1.39` — *a system a dealer runs without hiring the author* — is our sharpest line about this tier
 and it is weakest against this one name**, where the contest is channel against channel. *Recorded as evidence
 against the claim, **not** as a reopening: the claim stands confirmed and now carries the place it does not cut.*
-**And "a summary is not a source" caught a second near-miss in the same file** — a *"world's largest… division of GC
-Building Products… over 50 years"* description appeared in a search summary and **is on none of the company's own
-pages**, so it is not recorded as a fact.
+*A "world's largest… division of GC Building Products… over 50 years" description appeared in a search summary and is
+on none of the company's own pages, so it is not recorded as a fact.*
 
 **Competitors: the instrument is built, the research is not.** `Q73` amended standard 4 to **eight axes** and they
 are applied to acoustics in `group-strategy/competitors.md` — **C-ATS's column complete from confirmed rows, every

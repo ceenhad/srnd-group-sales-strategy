@@ -126,8 +126,8 @@ cross-sell signal months before revenue could show it.
 
 | | Decision | How it is made | Where it lives |
 |---|---|---|---|
-| **Admit** | Can they pay? | The single disqualifier; enforced at checkout, confirmed at approval | Set once, at approval |
-| **Prioritise** | How much attention, and on which brand? | Computed from signals pulled from engine | Recomputed each period, never set once |
+| Admit | Can they pay? | The single disqualifier; enforced at checkout, confirmed at approval | Set once, at approval |
+| Prioritise | How much attention, and on which brand? | Computed from signals pulled from engine | Recomputed each period, never set once |
 
 **The qualification record's fields, revised:** **account type** (the five agreed at `engine-as-hub.md` §1 —
 whole-room integrator · single-brand trade · specifier/consultant · distributor · consumer — set on a screen
@@ -176,10 +176,10 @@ offered; neither was taken.
 
 | Test | How | Kind |
 |---|---|---|
-| **Legitimate registered trade company** | VAT registration and company identity, verified against supplied IDs at approval | Objective, already running |
-| **Able to pay** | Enforced at checkout; **Iwoca Pay offered as a third-party credit route** | Objective, no exposure to us |
-| **Not a competitor buying to copy** | Judgement, at approval | Named exclusion |
-| **Discretionary refusal** | *"We simply decide not to"* — historical or other reasons | **Logged as discretion, never written as a rule** |
+| Legitimate registered trade company | VAT registration and company identity, verified against supplied IDs at approval | Objective, already running |
+| Able to pay | Enforced at checkout; **Iwoca Pay offered as a third-party credit route** | Objective, no exposure to us |
+| Not a competitor buying to copy | Judgement, at approval | Named exclusion |
+| Discretionary refusal | *"We simply decide not to"* — historical or other reasons | Logged as discretion, never written as a rule |
 
 Everything else remains a priority question computed from engine signals, with first-order value and any
 size-derived band still prohibited as inputs.
@@ -322,31 +322,31 @@ confirmed, this graduates into `group-strategy/commercial-model.md` and becomes 
 
 | # | Service | What it is | Today | Price |
 |---|---|---|---|---|
-| **Free by decision — the pre-sales side** ||||
-| 1 | **Public calculators** | `cinema-tools.com`, discrete tools, lead capture on PDF download | Free, deliberately (`tools.md`) | — |
-| 2 | **Partner design tool** | The partner-gated C-ATS reporting tool; access by SRND-managed credentials | Free to registered partners; **tool access is already the partner currency** | — |
-| 3 | **DT Create** | Screen sizing, then the CAD | Free lead magnet; the CAD request still costs ~20 min of someone's time until the automation lands | — |
-| 4 | **Pre-sales spec help** | Answering the question, from the record, before a decision | **This is the free side of the boundary** | — |
-| **Paid — priced today** ||||
-| 5 | **Pro Design escalation** | The escalation rung above the partner tool | Live | **£500, invoiced per engagement** |
-| **Paid — named but unpriced** ||||
-| 6 | **Acoustic Treatment Design Service** | *"Give us the room and the intent; we return the specification — what goes where, how much, and why"* (`brands/c-ats/copy.md`) | Real revenue, *"expected to grow with verification attached"* (`evidence/current-state.md`) | **Invoiced at £3,000** as *"Acoustic Treatment Design Service — Basic"*, 2026. C-ATS design overall: **22 engagements, median £1,560** (the service data) |
-| 7 | **Acoustic Verification** | Measurement after installation against the target the design was built to | Named service, absent from the live site | **[?]** — the one of the four with **no invoice history** |
-| 8 | **Isolation system design** | Isolation as distinct from treatment — *"the one that gets discovered late and costs the most"* | Named service, absent from the live site | **Invoiced at £7,500** as *"Sound Isolation Design Project"*, 2025 |
-| 9 | **Isolation verification** | Measurement of the isolation result | Named service, absent from the live site | **[?]** |
+| Free by decision — the pre-sales side ||||
+| 1 | Public calculators | `cinema-tools.com`, discrete tools, lead capture on PDF download | Free, deliberately (`tools.md`) | — |
+| 2 | Partner design tool | The partner-gated C-ATS reporting tool; access by SRND-managed credentials | Free to registered partners; **tool access is already the partner currency** | — |
+| 3 | DT Create | Screen sizing, then the CAD | Free lead magnet; the CAD request still costs ~20 min of someone's time until the automation lands | — |
+| 4 | Pre-sales spec help | Answering the question, from the record, before a decision | This is the free side of the boundary | — |
+| Paid — priced today ||||
+| 5 | Pro Design escalation | The escalation rung above the partner tool | Live | £500, invoiced per engagement |
+| Paid — named but unpriced ||||
+| 6 | Acoustic Treatment Design Service | *"Give us the room and the intent; we return the specification — what goes where, how much, and why"* (`brands/c-ats/copy.md`) | Real revenue, *"expected to grow with verification attached"* (`evidence/current-state.md`) | **Invoiced at £3,000** as *"Acoustic Treatment Design Service — Basic"*, 2026. C-ATS design overall: **22 engagements, median £1,560** (the service data) |
+| 7 | Acoustic Verification | Measurement after installation against the target the design was built to | Named service, absent from the live site | **[?]** — the one of the four with **no invoice history** |
+| 8 | Isolation system design | Isolation as distinct from treatment — *"the one that gets discovered late and costs the most"* | Named service, absent from the live site | **Invoiced at £7,500** as *"Sound Isolation Design Project"*, 2025 |
+| 9 | Isolation verification | Measurement of the isolation result | Named service, absent from the live site | [?] |
 | **Sold, invoiced, and missing from the strategy entirely** *(the service data)* ||||
-| 6b | **Room design, other brands** | Fabric Walls room designs; Light Walls pixel layouts | Real, repeated | Seattle **£13,068** · Madrid **£6,480** · pixel layout **£750 / £505** |
-| 6c | **Cinema fit-out** | The Kildrummy job — design and fit-out against a written proposal | **£62,495 of it, and the repo does not describe the group as doing fit-out at all** | £45,450 + £12,500 interim + £4,545 design |
-| 6d | **Installation support** | On-site support, charged by the day | Real, repeated | **£4,800 per day** |
-| 6e | **Commissioning and calibration** | Commissioning SRND display products; reference audio calibration; Leyard Gold tier | Real, repeated | £1,000 · £838 · **£6,000 / £5,040** (Gold tier) |
-| 6f | **Project management** | Meetings, documentation, liaison with design teams and suppliers | £8,750 across four lines | £1,800–£3,200 |
-| **Classified 2026-08-15 — free, and deliberately so** ||||
-| 12 | **Training and certification** | Deferred; `cinema-expert.com` the likely home for certification | **Partner benefit, free to registered partners** — certification cuts support load, so it pays in calls not received. **⚠ Provisional: Neil is introducing something tomorrow that bears on this** | Free to partners |
-| 13 | **Experience Centre hosting** | Hosting a dealer's client at Kirkbymoorside | **Free partner benefit** — the highest-trust touchpoint the group owns, and the point of having it | Free to partners |
-| 14 | **Drawings and integration data** | What a dealer needs to build to | **Split: free for what we make, paid where it is bespoke** — standard product drawings published; a drawing produced for one room is consulting by the test above (bespoke · one-off · retires nothing). **A clean application of the boundary to a real case** | Free / **[?]** bespoke |
-| **Still unclassified** ||||
-| 10 | **Partner-network escalation** | A ladder rung in `tools.md`; what it *is* commercially is not stated | **[?]** | **[?]** |
-| 11 | **Brand-partnered recipe packs** | Ladder rung; Pro-Fi named as the proof | **[?]** | **[?]** |
+| 6b | Room design, other brands | Fabric Walls room designs; Light Walls pixel layouts | Real, repeated | Seattle **£13,068** · Madrid **£6,480** · pixel layout **£750 / £505** |
+| 6c | Cinema fit-out | The Kildrummy job — design and fit-out against a written proposal | £62,495 of it, and the repo does not describe the group as doing fit-out at all | £45,450 + £12,500 interim + £4,545 design |
+| 6d | Installation support | On-site support, charged by the day | Real, repeated | £4,800 per day |
+| 6e | Commissioning and calibration | Commissioning SRND display products; reference audio calibration; Leyard Gold tier | Real, repeated | £1,000 · £838 · **£6,000 / £5,040** (Gold tier) |
+| 6f | Project management | Meetings, documentation, liaison with design teams and suppliers | £8,750 across four lines | £1,800–£3,200 |
+| Classified 2026-08-15 — free, and deliberately so ||||
+| 12 | Training and certification | Deferred; `cinema-expert.com` the likely home for certification | **Partner benefit, free to registered partners** — certification cuts support load, so it pays in calls not received. **⚠ Provisional: Neil is introducing something tomorrow that bears on this** | Free to partners |
+| 13 | Experience Centre hosting | Hosting a dealer's client at Kirkbymoorside | **Free partner benefit** — the highest-trust touchpoint the group owns, and the point of having it | Free to partners |
+| 14 | Drawings and integration data | What a dealer needs to build to | **Split: free for what we make, paid where it is bespoke** — standard product drawings published; a drawing produced for one room is consulting by the test above (bespoke · one-off · retires nothing). **A clean application of the boundary to a real case** | Free / **[?]** bespoke |
+| Still unclassified ||||
+| 10 | Partner-network escalation | A ladder rung in `tools.md`; what it *is* commercially is not stated | [?] | [?] |
+| 11 | Brand-partnered recipe packs | Ladder rung; Pro-Fi named as the proof | [?] | [?] |
 
 **Row 14 is worth pausing on, because it is the boundary working on a real case rather than in the abstract.**
 *Free for what we make, paid where it is bespoke* is exactly the session's test applied — a published product
@@ -473,8 +473,8 @@ invoice."* **The proposal is a separate, earlier, sales-stage artefact.** The ch
 
 | | Where | What it is | Cost to build |
 |---|---|---|---|
-| **A** | **Optional lines on the quote** | *"That mechanical quote can also contain optional 'have you also considered' type line items that would be added to the invoice"* | **Small** — a field on an artefact that already exists and already flows to invoice |
-| **B** | **The proposal** | The sales-stage document, earlier and persuasive rather than contractual | **A build** — a new object in engine, per-project |
+| A | Optional lines on the quote | "That mechanical quote can also contain optional 'have you also considered' type line items that would be added to the invoice" | **Small** — a field on an artefact that already exists and already flows to invoice |
+| B | The proposal | The sales-stage document, earlier and persuasive rather than contractual | **A build** — a new object in engine, per-project |
 
 **Take A first.** It attaches the increment at the moment of formal acceptance, it needs no new document, and it
 is the direct mechanical answer to the attach gap — **a quote lists what was asked for, so a layer
@@ -500,8 +500,8 @@ produces.
 
 | | Deliverable | What it is | Where it rides |
 |---|---|---|---|
-| **1** | **The block library** | ***"All of our products and services are going to have to be listed in there."*** One block per product and **per service** — the presentation form of what the record already holds. *"To add a block seems achievable"* | **On the record** (step 3). A block is generated from a filled record, not authored beside it — the same argument as the record's own fields |
-| **2** | **A document template that consumes blocks** | ***"That then needs a document template that can use it."*** The thing that turns a room's block set into a sent proposal | A build, and the smaller of the two once the library exists |
+| 1 | The block library | ***"All of our products and services are going to have to be listed in there."*** One block per product and **per service** — the presentation form of what the record already holds. *"To add a block seems achievable"* | **On the record** (step 3). A block is generated from a filled record, not authored beside it — the same argument as the record's own fields |
+| 2 | A document template that consumes blocks | ***"That then needs a document template that can use it."*** The thing that turns a room's block set into a sent proposal | A build, and the smaller of the two once the library exists |
 
 **And this closes the loop between sessions 1 and 3, which were being worked as separate problems.** **A service
 cannot have a block until it is defined and costed** — Neil's own rule from `Q34`, arriving from the other
@@ -599,8 +599,8 @@ commitments, two owners:
 
 | Who | Commits to | Unit |
 |---|---|---|
-| **The producer / the line** | Putting scripted, ranked briefs in front of the owner | **Briefs per period — this is the floor** |
-| **The owner** | Recording what arrives | **A booked slot, not a quantity** |
+| The producer / the line | Putting scripted, ranked briefs in front of the owner | Briefs per period — this is the floor |
+| The owner | Recording what arrives | A booked slot, not a quantity |
 
 **This is the strongest confirmation yet of a rule `content.md` already carries** — *"the owner never faces
 a blank page… correcting a ranked draft costs minutes, inventing a list costs hours"* — arriving this time from
@@ -667,7 +667,7 @@ gating the matrix.**
 | Whole cinema build | Cinema Build Systems | The group at room level — its foam/composite panels against C-ATS, its stretch-fabric walling against Fabric Walls, its LED tape against Light Walls | `competitors.md` |
 | Acoustic treatment, price tier | GIK (below) · RPG (comparable) · **Artnovion** (slightly above) | C-ATS — **but as a price band, not a roster** | `brands/c-ats/positioning.md` §1; Artnovion also in `competitors.md` as a Habitech line |
 | Design tools | Kolosseum.io · Cinema Room Setup *(DARDT in `tools.md`)* | The tools front | `competitors.md`, `tools.md` |
-| Trade distributors | Habitech · Pulse Cinemas · Invision UK · CAVD · Karma AV | **The dealer relationship, not the product** | `competitors.md` |
+| Trade distributors | Habitech · Pulse Cinemas · Invision UK · CAVD · Karma AV | The dealer relationship, not the product | `competitors.md` |
 
 **The gap, stated precisely, front by front:**
 

@@ -18,11 +18,11 @@ architects."*
 
 **The two are not alternatives and both can run:**
 
-| | **The CPD Certification Service** (these documents) | **RIBA CPD Providers Network** |
+| | **The CPD Certification Service** (these documents) | RIBA CPD Providers Network |
 |---|---|---|
 | What you get | The **'CPD Certified'** trade mark on approved materials and on delegate certificates; a Member Directory entry | Content assessed against the **Core Curriculum**, plus **distribution** — NBS Source, the CPD Showcase, RIBA events |
-| Reach | The badge travels wherever we put it | **Puts us in front of architects who must find 35 hours a year** |
-| Best used for | **A stamp on the Cinema Expert online modules** | **The seminar route to specifiers** |
+| Reach | The badge travels wherever we put it | Puts us in front of architects who must find 35 hours a year |
+| Best used for | A stamp on the Cinema Expert online modules | The seminar route to specifiers |
 
 **A correction to the platform plan's figures, from the form in hand.** *The plan put commercial accreditors at
 **"£150–£1,600 per course, or £200–£500/yr for a package."*** **The actual quote is a `MEMBER(5) ORGANISATION`
@@ -70,11 +70,11 @@ group setting of no more than 20, with group work and interactive discussion.** 
 | # | Required | Do we have it? |
 |---|---|---|
 | 1 | Completed Submission for CPD Certification form | **No** — comes with membership |
-| 2 | **Timed agenda**, showing start, end and comfort breaks | **No** |
-| 3 | **Presenter instruction notes** — room layout, handouts | **No** |
-| 4 | **Presentation with speaker notes**, branding on opening and closing slides only | **No** |
-| 5 | **Delegate feedback mechanism**, and handouts if any | **No** |
-| 6 | Delegate evaluation, if offered *(knowledge tests need every question, the correct answers and any pass/fail criteria)* | **No** |
+| 2 | **Timed agenda**, showing start, end and comfort breaks | No |
+| 3 | **Presenter instruction notes** — room layout, handouts | No |
+| 4 | **Presentation with speaker notes**, branding on opening and closing slides only | No |
+| 5 | **Delegate feedback mechanism**, and handouts if any | No |
+| 6 | Delegate evaluation, if offered *(knowledge tests need every question, the correct answers and any pass/fail criteria)* | No |
 | 7–8 | File delivery and chronological labelling | n/a |
 
 **The honest position on `T2` and `T5`, therefore: they are the *argument*, not the submission.** *What exists is the

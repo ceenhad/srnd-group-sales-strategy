@@ -116,17 +116,17 @@ the question is really being asked (`C2.26`).*
 | Claim | Source | State |
 |---|---|---|
 | Panels are concealed behind a stretch-fabric finish | `product-records.md` shared, **Where they sit** | Recorded |
-| Therefore the treatment must be decided before the wall is built | `product-records.md` `N6` — *"derivable and load-bearing… and it has never been stated"* | **Derived in the record; this piece is its first statement** |
-| **Three layers: isolation sets the structural dimensions, interior design sets the visible fabric wall, treatment sits between them** | Neil, 2026-08-19 (`Q75`) — `claims.md` `C1.40` | **Confirmed, his words.** *It replaced my dimensions argument, which was wrong* |
+| Therefore the treatment must be decided before the wall is built | `product-records.md` `N6` — *"derivable and load-bearing… and it has never been stated"* | Derived in the record; this piece is its first statement |
+| Three layers: isolation sets the structural dimensions, interior design sets the visible fabric wall, treatment sits between them | Neil, 2026-08-19 (`Q75`) — `claims.md` `C1.40` | **Confirmed, his words.** *It replaced my dimensions argument, which was wrong* |
 | **Three parties, three reasons it does not get done** — the acoustic consultant does not want it, the interior designer lacks the knowledge, the integrator will not spend the time | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.41`, `C1.43` | **Confirmed, his words.** *It replaced my "no owner" derivation, which was wrong* |
 | Even with guides, someone gets paid to design it | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.44` | **Confirmed, his words**, and it is why this class does not give the design fee away |
-| Depth is taken out of the **usable** room, inside a shell the isolation design set | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.45` | **Confirmed, his words** |
+| Depth is taken out of the **usable** room, inside a shell the isolation design set | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.45` | Confirmed, his words |
 | Depths are 50 / 50 / 43 mm, and minimum depth was a design goal | `product-records.md` shared **Depth**, corrected by Neil 2026-08-19 | Recorded. **`DAT-1` is open on the canonical dataset carrying 50 mm for the RES-CP** — the piece quotes no per-panel figure, so it is not blocked |
-| — | | **Superseded by `C1.45`, which is the owner's own form of the same point and stronger than my derivation** |
+| — | | Superseded by `C1.45`, which is the owner's own form of the same point and stronger than my derivation |
 | Low-frequency control needs corner access and corner placement | `product-records.md` resonance record — **What it requires from others**, and **Limits** | Recorded |
 | An acoustic design needs full room-finish data | Neil, 2026-08-19 (`Q68`) | Recorded, his words |
 | Room above 18 °C for 24 hours before the adhesive panel goes on | `product-records.md` reverberation record — **What it requires from others** | Recorded |
-| When the decision actually gets made on a real job | `product-records.md` `N6` | **`[?]` — stated as unknown in the piece** |
+| When the decision actually gets made on a real job | `product-records.md` `N6` | `[?]` — stated as unknown in the piece |
 
 ## What this deliberately does not do
 

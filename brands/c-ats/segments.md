@@ -34,13 +34,13 @@ adjacency page (`content-plan.md` item 45) is an entrance as well as an exit** �
 
 | Segment | Count | What is true of them | Enters at | The piece that serves it |
 |---|---|---|---|---|
-| **Group-active, no C-ATS** | **142** | Buys from us now; has never been shown the acoustic layer of the room | **Stage 2** — the group is met, C-ATS's own proposition and proof are not | The 3 Rs block and the depth argument (`copy.md`), the BSRIA proof once surfaced (EST-5), and item 45 read as an *entrance* |
-| **C-ATS active** | **18** | Ordered 2025–26 | **Stage 6** | Reorder ease; the adjacency-aware partner email (`sequences.md` C); the whole-room story, earned |
-| **C-ATS recent** | **7** | Ordered 2024, not since | **Stage 6, at the quiet edge** | The one touch that is never automated — a person asks (`../../motion/motion-design.md`, component 5) |
-| **C-ATS lapsed** | **16** | Last ordered 2020–23; eleven still buy other categories | **Stage 6, gone quiet** | A person asks. **Why they stopped is not in the ledger, and nothing here should be sent before somebody finds out** |
-| **C-ATS dormant** | **12** | Last ordered before 2020, mostly GTUK-era | **Stage 2, effectively cold** | Treat as new. The record of them is the oldest and least reliable in the cut |
-| **Presented / Approached** | **65** (CRM) | Shown the product, no invoice | **Stage 3** — the proof gateway, which is where the estate is weakest | The measured case, surfaced (EST-5). Proof is where they stopped, and it already exists |
-| **Not Customer** | **1,568** (CRM) | The cold field | **Stage 1** | The hook set (`hooks.md`) — and this is the only segment the hooks are for |
+| Group-active, no C-ATS | 142 | Buys from us now; has never been shown the acoustic layer of the room | **Stage 2** — the group is met, C-ATS's own proposition and proof are not | The 3 Rs block and the depth argument (`copy.md`), the BSRIA proof once surfaced (EST-5), and item 45 read as an *entrance* |
+| C-ATS active | 18 | Ordered 2025–26 | Stage 6 | Reorder ease; the adjacency-aware partner email (`sequences.md` C); the whole-room story, earned |
+| C-ATS recent | 7 | Ordered 2024, not since | Stage 6, at the quiet edge | The one touch that is never automated — a person asks (`../../motion/motion-design.md`, component 5) |
+| C-ATS lapsed | 16 | Last ordered 2020–23; eleven still buy other categories | Stage 6, gone quiet | A person asks. **Why they stopped is not in the ledger, and nothing here should be sent before somebody finds out** |
+| C-ATS dormant | 12 | Last ordered before 2020, mostly GTUK-era | Stage 2, effectively cold | Treat as new. The record of them is the oldest and least reliable in the cut |
+| Presented / Approached | **65** (CRM) | Shown the product, no invoice | **Stage 3** — the proof gateway, which is where the estate is weakest | The measured case, surfaced (EST-5). Proof is where they stopped, and it already exists |
+| Not Customer | **1,568** (CRM) | The cold field | Stage 1 | The hook set (`hooks.md`) — and this is the only segment the hooks are for |
 
 ## Three things this changes about the plan
 

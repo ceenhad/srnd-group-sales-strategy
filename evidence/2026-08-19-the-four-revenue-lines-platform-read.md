@@ -45,10 +45,10 @@ current intent rather than as settled decision.*
 
 | Line | What it sells | To whom | Its stated role |
 |---|---|---|---|
-| **Cinema Expert** | Modules **£29–99**; a certification path benchmarked against HAA's **$3k** | learners | Converts traffic to list; **manufactures qualified supply** |
-| **Design services** | The output of Pro, sold as the de facto expert | clients, integrators, specifiers | ***"The margin engine — and the only line that can earn now"*** |
-| **Cinema Partners** | A **certified channel**: leads + design + admin + credibility, **to fitters, by subscription** | fitters | Leverage; Heat Geek's *"business-in-a-box"* |
-| **Product** | Six group brands + Probata commissioning | end clients | The volume money |
+| Cinema Expert | Modules **£29–99**; a certification path benchmarked against HAA's **$3k** | learners | Converts traffic to list; **manufactures qualified supply** |
+| Design services | The output of Pro, sold as the de facto expert | clients, integrators, specifiers | ***"The margin engine — and the only line that can earn now"*** |
+| Cinema Partners | A **certified channel**: leads + design + admin + credibility, **to fitters, by subscription** | fitters | Leverage; Heat Geek's *"business-in-a-box"* |
+| Product | Six group brands + Probata commissioning | end clients | The volume money |
 
 **And the gating, stated in the same plan:** *the 288-topic curriculum is **behind Phase 2**; **the Cinema Partners
 programme is behind Phase 1** (showing a trade audience) **and Phase 3** (proving design services sell); Level 2 is
@@ -70,7 +70,7 @@ it is the model, already written down.***
 | Who | **Dealers who buy product** — registration, trade pricing, appreciation | **Fitters who deliver rooms**, by subscription |
 | What it grants | Access, recognition, manufacturer-only capabilities | Leads, design, admin, credibility — a business-in-a-box |
 | Its problem | The relationship runs one way and nothing goes back | Building it before demand is proven |
-| Gate | This repo's own *build it, then say it* | **ADR 017 §12, plus Phases 1 and 3** |
+| Gate | This repo's own *build it, then say it* | ADR 017 §12, plus Phases 1 and 3 |
 
 **Nothing here should be renamed or merged.** *The confusable pair is *"partner programme"* and *"Cinema Partners"*,
 and the distinction is **who is being partnered**: the buyer of product, or the licensed deliverer of rooms.*
@@ -82,12 +82,12 @@ open confirmation on `../brands/c-ats/training.md` `T2`** — the CPD route, whi
 
 **The distinction the plan makes, and it is the useful part:**
 
-| | **CPD** | **Regulated qualification** |
+| | CPD | Regulated qualification |
 |---|---|---|
-| Audience | **Architects, specifiers, M&E — the demand side** | **Fitters, integrators — the supply side** |
+| Audience | Architects, specifiers, M&E — the demand side | Fitters, integrators — the supply side |
 | What it does | Puts us in front of people who **commission** cinemas | Certifies people who **build** them |
 | Cost | Low hundreds to low thousands | Tens of thousands + a person-year |
-| Feeds | **Design services** | **Cinema Partners** |
+| Feeds | Design services | Cinema Partners |
 
 ***"Own the demand, license the delivery"*** — *and the plan is explicit that CPD is **not** a cheap substitute for
 accreditation: they point at different audiences and both are wanted.*

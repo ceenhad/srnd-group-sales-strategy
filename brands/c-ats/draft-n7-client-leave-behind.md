@@ -70,7 +70,7 @@ work in as little depth as possible**, which is why the room is the size it is.*
 
 | Claim in the piece | Source | State |
 |---|---|---|
-| Concealed behind the finish, so decided with the wall | `product-records.md` shared **Where they sit**; `N6` | **`N6` is a derivation, and it is with Neil as `Q75`** |
+| Concealed behind the finish, so decided with the wall | `product-records.md` shared **Where they sit**; `N6` | `N6` is a derivation, and it is with Neil as `Q75` |
 | Three problems, one panel each | `product-records.md` shared **What they are, collectively**; `claims.md` `C1.15`, `C1.20` | Confirmed — *"the 3 Rs is the design system"* (Neil, `Q70`) |
 | Reflection panels **redirect**, they do not deaden | reflection record **What it does** | Recorded — **and the naming rule: scattering, never diffusion** (`C5.15`) |
 | Resonance panels sit in the corners | resonance record | Recorded |

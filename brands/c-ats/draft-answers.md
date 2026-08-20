@@ -15,14 +15,14 @@ drafted or blocked elsewhere and are marked as such rather than duplicated.*
 
 | `N3` # | Question | Written below? | Why |
 |---|---|---|---|
-| 2 | How far off the designed position is acceptable? | **Pointer only** | *Its own piece — `draft-t5-layout-tolerance.md`, and it carries two confirmations* |
-| 3 | Can it go behind fabric? | **Yes** | Recorded in `N5`; nothing gates it |
-| 4 | Why do the absorption figures look low? | **Yes, without figures** | *The answer is the mechanism, not the numbers. **`DOC-4` blocks tabulating the values, not explaining them*** |
-| 7 | Why is the resonance panel bigger than the others? | **Yes** | Recorded in the resonance record's configuration field |
-| 8 | Can it go anywhere other than a corner? | **Yes** | Recorded as a limit, and the honest answer is the useful one |
-| 10 | Checkerboard or continuous? | **Yes, with a gate flagged** | Recorded as intended use; **check it against `DR-Q52` before publication** |
-| 12 | Is it fire rated? | **No — half an answer is worse than none here** | *Class 0 core is known; **the current EN 13501-1 classification is `[?]` (`DOC-7` / `DAT-3`)**. This is the one question where a partial answer could get a dealer refused on site, so it waits* |
-| 5, 6, 9, 13 | Quantity, coverage, bass-trap comparison, painting | **No** | *5 and 9 are `DR-Q52`'s publication boundary; 6 has no comparison behind it; 13 nobody has answered* |
+| 2 | How far off the designed position is acceptable? | Pointer only | Its own piece — `draft-t5-layout-tolerance.md`, and it carries two confirmations |
+| 3 | Can it go behind fabric? | Yes | Recorded in `N5`; nothing gates it |
+| 4 | Why do the absorption figures look low? | Yes, without figures | *The answer is the mechanism, not the numbers. **`DOC-4` blocks tabulating the values, not explaining them*** |
+| 7 | Why is the resonance panel bigger than the others? | Yes | Recorded in the resonance record's configuration field |
+| 8 | Can it go anywhere other than a corner? | Yes | Recorded as a limit, and the honest answer is the useful one |
+| 10 | Checkerboard or continuous? | Yes, with a gate flagged | Recorded as intended use; **check it against `DR-Q52` before publication** |
+| 12 | Is it fire rated? | No — half an answer is worse than none here | *Class 0 core is known; **the current EN 13501-1 classification is `[?]` (`DOC-7` / `DAT-3`)**. This is the one question where a partial answer could get a dealer refused on site, so it waits* |
+| 5, 6, 9, 13 | Quantity, coverage, bass-trap comparison, painting | No | 5 and 9 are `DR-Q52`'s publication boundary; 6 has no comparison behind it; 13 nobody has answered |
 
 ---
 

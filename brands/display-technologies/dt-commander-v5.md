@@ -14,7 +14,7 @@ brains as well.
 | Product | Controlled by | What it is |
 |---|---|---|
 | **DT Dynamic Screen** (DYN-4-AM) | **Dynamic Commander** (`dt.screen.dynamic_commander`) | Aspect-ratio masking — up to 5 independently-positioned mask edges (L/R/T/B/Art) reshape the picture, quietly and precisely |
-| **MMD (motorised mirror drop) & general motion** | **Actuator Commander** (`dt.motion.actuator_commander`) | Lifts, drops and opening mechanisms (hatches, vents, table-tops) driven via Electromen EM-PLI Modbus controllers, with coordinated sequences |
+| MMD (motorised mirror drop) & general motion | **Actuator Commander** (`dt.motion.actuator_commander`) | Lifts, drops and opening mechanisms (hatches, vents, table-tops) driven via Electromen EM-PLI Modbus controllers, with coordinated sequences |
 | AV device control (investigation) | **Video Commander** (`dt.av.video_commander`) | Inline HDMI/EDID appliance translating IP → USB-HID/CEC/RS232/IR *(firmware not yet scaffolded)* |
 | Projector cooling (future) | hushbox-commander | Cinema projector cooling — likely next on the platform |
 

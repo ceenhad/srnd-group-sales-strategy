@@ -63,7 +63,7 @@ that, and it costs a dealer nothing to verify.*
 | Claim | Source | State |
 |---|---|---|
 | ~300 mm tolerance, no material performance impact | `product-records.md` shared **Layout tolerance** field, and `O2` on the reflection record | **Recorded, and the record calls it *"a genuine selling point that is nowhere in the marketing"*** |
-| *"The most interesting true thing about the range"* | `product-records.md` `H2` | Recorded |
+| "The most interesting true thing about the range" | `product-records.md` `H2` | Recorded |
 | The resonance exception | `product-records.md` `O2`, resonance record | Recorded |
 | The 30% height rule | `product-records.md` reflection record, `Limits` | Recorded |
 

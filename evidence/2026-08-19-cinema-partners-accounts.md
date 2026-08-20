@@ -17,9 +17,9 @@ partners?"** — asked while I was claiming the cinema design-and-materials laye
 
 | | Lines | Positive | Credits | Net |
 |---|---|---|---|---|
-| **Materials** | 36 | £249,575 | **−£113,977** | £135,598 |
-| **Services** | 34 | £154,618 | −£571 | **£154,047** |
-| **Total** | **70** | **£404,193** | −£114,548 | **£289,645** |
+| Materials | 36 | £249,575 | −£113,977 | £135,598 |
+| Services | 34 | £154,618 | −£571 | £154,047 |
+| Total | 70 | £404,193 | −£114,548 | £289,645 |
 
 **31 distinct invoices** — 2 in 2021, 15 in 2022, 14 in 2023. *The account pair stops after 2023, which is when
 SRND Group was formed.*
@@ -42,9 +42,9 @@ proportion rather than infer it.**
 
 | Cinema Partners-era customer (GTUK) | Also trades with | Same dealer, different spelling |
 |---|---|---|
-| HiFi Corner (Edinburgh) Ltd | **SRND Group Ltd** | as *"Hifi Corner"* |
-| Holburn (Scotland) Ltd | **SRND Group Ltd** | as *"Holburn (Scotland) Limited"*, and *"Holburn HiFi Ltd"* |
-| Sysco Productions | **SRND Group Ltd** | as *"Sysco Productions Ltd"* |
+| HiFi Corner (Edinburgh) Ltd | SRND Group Ltd | as *"Hifi Corner"* |
+| Holburn (Scotland) Ltd | SRND Group Ltd | as *"Holburn (Scotland) Limited"*, and *"Holburn HiFi Ltd"* |
+| Sysco Productions | SRND Group Ltd | as *"Sysco Productions Ltd"* |
 | INT3 Ltd | **SRND Group Ltd**, Display Technologies, Light Walls | as *"INT3 Limited"* on DT |
 | TwentyTwo Integration | GTUK only | — |
 | Robin Arora | GTUK only | — |

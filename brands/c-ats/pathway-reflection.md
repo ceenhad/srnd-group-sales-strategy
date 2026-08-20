@@ -35,7 +35,7 @@ teach before it can prove**, and that is the pathway's real work.
 | # | Gateway | The piece | Its one job | State today | The handoff |
 |---|---|---|---|---|---|
 | 1 | **G1** — the hook set | The reflection hooks (`hooks.md`, door 2) | Get a bite: state one appeal boldly, in the dealer's words | **Nothing live for this door.** The 3 Rs explainer set is live and names reflection; no reflection-specific hook exists | Every hook → the fuller answer (slot 2) |
-| 2 | **G1→G2** | The first-reflections answer on the canonical home — what a first reflection is, why it costs you detail, what fixes it (the "first reflections" knowledge-base article) | Answer the question fully; open the proposition | **Written, staged, unpublished** (`c-ats-shopify` KB; `content-plan.md` items 3–20) | → the 3 Rs proposition (slot 3) |
+| 2 | G1→G2 | The first-reflections answer on the canonical home — what a first reflection is, why it costs you detail, what fixes it (the "first reflections" knowledge-base article) | Answer the question fully; open the proposition | **Written, staged, unpublished** (`c-ats-shopify` KB; `content-plan.md` items 3–20) | → the 3 Rs proposition (slot 3) |
 | 3 | **G2** — proposition | The 3 Rs block and the REF-CP on-ramp: one panel per problem; scattering keeps the room's life instead of deadening it; 50 mm (`copy.md`) | "This could work for me" — range and possibility, simply put | **Written, ready to paste** (`copy.md`); absent from the live homepage — the same paste job as door 1 | → the proof (slot 4) |
 | 4 | **G2→G3** — proof | **Two pieces, and the order matters.** First *"reading an absorption table"* and the Reflection A/B story — why a scatterer's figures are low and what the two curves are (`content-plan.md` item 40). Then the measured case: the BSRIA report and the REF-CP coefficient sheet | Remove the last doubt — but teach first, because the raw data reads as a weakness unless the reader knows what a scatterer is | Report and sheets **published but buried** (EST-5); the explainer **queued, blocked on DOC-4** — the exact A and B values still have to be read off the published chart | → register to see pricing; a Zoom for the still-doubtful (slot 5) |
 | 5 | **G3** — the hinge | Registration: gated trade pricing, the tools, one account across every brand | Make the gate worth crossing, so permission is given willingly | **Mechanism live in engine**; grants only pricing today. **Shared with every C-ATS door** — one hinge, not one per pathway | → the store (slot 6) |
@@ -50,11 +50,11 @@ to set. Provenance, placement and the rejected candidates are in `hooks.md`. All
 
 | Appeal | Candidate hook angle | The substance behind it |
 |---|---|---|
-| **The problem named** | The room measures fine and still doesn't sound convincing | `R1` — the doubt the panel meets |
-| **Better results** | Scattering keeps the room alive; absorbing everything makes it dead | `D2`, `D5` — what it does, and what it is not for |
-| **Easier to do** | Panels can sit ~300 mm off the drawing without changing the result | `O2` — and the brand's best unused claim |
-| **Time saved** | Whole boxes, whole numbers — 16 to a box, 1.44 m², no cutting list | `M1` |
-| **More revenue** | Knowing *why* a room needs treatment at the reflection points, not just that it does | `../../group-strategy/buyer-journey.md` — why-to-spec is the valuable public act |
+| The problem named | The room measures fine and still doesn't sound convincing | `R1` — the doubt the panel meets |
+| Better results | Scattering keeps the room alive; absorbing everything makes it dead | `D2`, `D5` — what it does, and what it is not for |
+| Easier to do | Panels can sit ~300 mm off the drawing without changing the result | `O2` — and the brand's best unused claim |
+| Time saved | Whole boxes, whole numbers — 16 to a box, 1.44 m², no cutting list | `M1` |
+| More revenue | Knowing *why* a room needs treatment at the reflection points, not just that it does | `../../group-strategy/buyer-journey.md` — why-to-spec is the valuable public act |
 
 ## What writing it down shows
 

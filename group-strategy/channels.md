@@ -82,9 +82,9 @@ explicitly **not** being built into any plan yet.
 
 | | What it is | Why it is not a brand-layer thing |
 |---|---|---|
-| **Cinema Tools** | The design surface. **Seven free calculators**, and Pro as internal tooling | *It designs the whole room — every brand's layer at once. **No single brand can own it***, and it is not an SRND product: **the group is a customer of it** |
-| **Cinema Expert** | The education programme | *A cinema curriculum spans acoustics, image, audio, lighting and structure. **A brand teaching only its own layer is a product pitch**, which is the one thing an accredited route rejects* |
-| **Cinema Partners** | The delivery channel *(recorded only — not planned)* | *A channel that delivers rooms delivers all six brands' layers* |
+| Cinema Tools | The design surface. **Seven free calculators**, and Pro as internal tooling | *It designs the whole room — every brand's layer at once. **No single brand can own it***, and it is not an SRND product: **the group is a customer of it** |
+| Cinema Expert | The education programme | *A cinema curriculum spans acoustics, image, audio, lighting and structure. **A brand teaching only its own layer is a product pitch**, which is the one thing an accredited route rejects* |
+| Cinema Partners | The delivery channel *(recorded only — not planned)* | A channel that delivers rooms delivers all six brands' layers |
 
 **Why "lead magnet" is the right frame, and where it stops.** *The free calculators exist **"to put qualified people
 into the funnel"**, which is why lead capture is launch-blocking in the platform's own decision record. **That is a

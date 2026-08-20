@@ -103,9 +103,9 @@ says where the group has to be present.*
 
 | Layer | What it decides | Whose it is |
 |---|---|---|
-| **Sound isolation** | The room's **structural dimensions** | Travels with the **architectural** design |
-| **Acoustic treatment** | How the room sounds, inside that shell | **Nominally the acoustic consultant's** — and in practice the layer that stalls |
-| **Interior finish** | The **fabric wall the client actually sees** | The **interior** design |
+| Sound isolation | The room's **structural dimensions** | Travels with the **architectural** design |
+| Acoustic treatment | How the room sounds, inside that shell | **Nominally the acoustic consultant's** — and in practice the layer that stalls |
+| Interior finish | The **fabric wall the client actually sees** | The **interior** design |
 
 **Neil, 2026-08-19:** ***"They are separate things… C-ATS fits nicely physically and metaphorically between the two,
 and SRND is often involved in all three."***
@@ -139,9 +139,9 @@ place for it to live contextually is under C-ATS."***
 
 | Layer | Whose **decision** it is | Whose **product** it is |
 |---|---|---|
-| Sound isolation | Architectural design | **C-ATS** |
-| Acoustic treatment | Nominally the acoustic consultant | **C-ATS** |
-| Interior finish | Interior design | **Fabric Walls** |
+| Sound isolation | Architectural design | C-ATS |
+| Acoustic treatment | Nominally the acoustic consultant | C-ATS |
+| Interior finish | Interior design | Fabric Walls |
 
 **So *"SRND is often involved in all three"* is a statement about the range, not about reach: two brands out of six
 cover the whole acoustic-and-finish stack of a room** (`../brands/c-ats/claims.md` `C1.48`). *And the distinction

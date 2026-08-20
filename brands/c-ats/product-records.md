@@ -58,14 +58,14 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 
 | Field | Value |
 |---|---|
-| **What they are, collectively** | A three-panel acoustic treatment system, one panel per acoustic problem — reflection, resonance, reverberation |
-| **Depth** | **CORRECTED 2026-08-19 (Neil): REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** *The dimensions in this record are sourced from `c-ats-shopify:data/panels.json`, which gives 50 mm for RES-CP — **so the canonical dataset is wrong, or was, and the store is selling on it.** Verify and correct at source: `../../registers/backlog.md` `DAT-1`.* **And minimum depth is a stated design goal of the system, not a spec detail** (Neil, 2026-08-19) — it feeds the commercial argument directly: at this tier the floor area a deeper system consumes costs far more than the treatment itself |
-| **Box rule** | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
-| **Layout tolerance** | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
-| **Where they sit** | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
-| **Channel** | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (C5, `../../group-strategy/commercial-model.md`) |
-| **Test basis** | BSRIA, BS EN ISO 354:2003, **free/unfixed mounting** — design-stage reference figures, not installed-effective values |
-| **Marketing status** | Current. REV-CP-12 is discontinued and must not be listed. The commercial cinema range is in development and must not be written up as shipping |
+| What they are, collectively | A three-panel acoustic treatment system, one panel per acoustic problem — reflection, resonance, reverberation |
+| Depth | **CORRECTED 2026-08-19 (Neil): REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** *The dimensions in this record are sourced from `c-ats-shopify:data/panels.json`, which gives 50 mm for RES-CP — **so the canonical dataset is wrong, or was, and the store is selling on it.** Verify and correct at source: `../../registers/backlog.md` `DAT-1`.* **And minimum depth is a stated design goal of the system, not a spec detail** (Neil, 2026-08-19) — it feeds the commercial argument directly: at this tier the floor area a deeper system consumes costs far more than the treatment itself |
+| Box rule | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
+| Layout tolerance | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
+| Where they sit | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
+| Channel | **Trade only — `srnd.store`.** No C-ATS on Cinema Store (C5, `../../group-strategy/commercial-model.md`) |
+| Test basis | BSRIA, BS EN ISO 354:2003, **free/unfixed mounting** — design-stage reference figures, not installed-effective values |
+| Marketing status | Current. REV-CP-12 is discontinued and must not be listed. The commercial cinema range is in development and must not be written up as shipping |
 | **Who specifies** (`W1`) | The integrator, typically with our help. Acoustic consultants write pre-tender specs on larger projects and are **not** a non-audience — the product is optimised for the integrator, which is a different question from who influences specification |
 | **Who signs off** (`W2`) | **Half answered 2026-08-18 (Neil, `../../registers/questions.md` Q55): *"the AV integrator in our case signs off the job."*** for the *who*. **What convinces them — answered in substance 2026-08-19, and deliberately left open** (Neil): *"That's an open item but more because it's the fundamental question that really deserves being picked at."* **Six reasons, his words:** *"it works well and reliably · they trust us to do a good job · it's efficient to transport and easy to install · it doesn't use up loads of space · and they can make money."* **And the answer he thinks may actually be true:*"the true answer in a lot of cases may simply be that it is simply the option we gave them."*** *All six were already in this record, distributed — reliability in `C2.14`, transport in the 1.44 m² box quantum, install in the `A`/`B` trap and the ~300 mm tolerance, space in the depth argument, margin in §1's channel economics. **None had ever been assembled as the answer to why they buy.*** See `claims.md` `C2.17`–`C2.23`. Consistent with `W1`: the integrator specifies **and** signs off, so it is one person, not a specifier-and-approver pair |
 | **Territory** (`C2`) | Direct to dealer globally through the store; distributor appointments are case-by-case exceptions. **The live constraint is distribution, not territory** — C-ATS is widely deployed and thinly distributed, which `positioning.md` §7 calls the headline problem |
@@ -86,15 +86,15 @@ and design**, and the loose-lay lab condition is not representative of a real in
 
 | Field | Value |
 |---|---|
-| **What it is** | A faceted, injection-moulded panel that redirects reflected sound away from the listening position |
-| **What it does** | **Scatters** — redirects reflected energy off-axis. **It does not diffuse**, and the word is not to be used: diffusion has a specific meaning under ISO 17497 that this does not claim |
-| **How it works** | Rigid faceted surface geometry, most active around **500 Hz**, breaking up the specular reflection from side walls, rear wall and ceiling |
-| **What it is for** | First-reflection points — side walls between screen and prime seat, rear wall behind the heads, ceiling |
+| What it is | A faceted, injection-moulded panel that redirects reflected sound away from the listening position |
+| What it does | **Scatters** — redirects reflected energy off-axis. **It does not diffuse**, and the word is not to be used: diffusion has a specific meaning under ISO 17497 that this does not claim |
+| How it works | Rigid faceted surface geometry, most active around **500 Hz**, breaking up the specular reflection from side walls, rear wall and ceiling |
+| What it is for | First-reflection points — side walls between screen and prime seat, rear wall behind the heads, ceiling |
 | **What it is *not* for** | Absorption. It is a reflector, and treating it as an absorber is the misapplication to guard against. Not a bass or reverberation solution |
-| **Scope of supply** | 300 × 300 × 50 mm panel, 0.09 m² each; **16 per box = 1.44 m²**; 3 mm injection-moulded ABS; moulded countersunk fixing holes |
-| **What it requires from others** | A flat substrate; **4 × 3.5 × 25 mm bugle-head black drywall screws** per panel; builder's adhesive if bonding (see below); a concealing fabric layer if the room is finished |
-| **Configuration space** | One size. **Two install types, and they are acoustically different** |
-| **Limits** | Lowest panel in a block should sit no higher than **30 % of room height** off the floor; rooms over 3 m tall need proportionally more |
+| Scope of supply | 300 × 300 × 50 mm panel, 0.09 m² each; **16 per box = 1.44 m²**; 3 mm injection-moulded ABS; moulded countersunk fixing holes |
+| What it requires from others | A flat substrate; **4 × 3.5 × 25 mm bugle-head black drywall screws** per panel; builder's adhesive if bonding (see below); a concealing fabric layer if the room is finished |
+| Configuration space | One size. **Two install types, and they are acoustically different** |
+| Limits | Lowest panel in a block should sit no higher than **30 % of room height** off the floor; rooms over 3 m tall need proportionally more |
 
 ### Performance — and the two sources do not agree
 
@@ -147,10 +147,10 @@ not a documentation priority, and not the most important thing in this record.
 
 | ID | Field | Value |
 |---|---|---|
-| `R1` | **The doubt it meets** | *"Will this actually change what I hear, or is it a decorative panel?"* — and, from consultants, *"is this a real acoustic device?"* |
-| `R2` | **Load-bearing asset** | The install guide (Type A versus B) and the measured data. Not the datasheet's appearance |
-| `R3` | **Questions it generates** | Bond or screw; how far off the designed position is acceptable; whether it can go behind fabric; why the absorption figures look low |
-| `R4` | **What goes wrong on site** | Screwed without bonding; placed by eye rather than at the reflection point; expected to do a reverberation job |
+| `R1` | The doubt it meets | *"Will this actually change what I hear, or is it a decorative panel?"* — and, from consultants, *"is this a real acoustic device?"* |
+| `R2` | Load-bearing asset | The install guide (Type A versus B) and the measured data. Not the datasheet's appearance |
+| `R3` | Questions it generates | Bond or screw; how far off the designed position is acceptable; whether it can go behind fabric; why the absorption figures look low |
+| `R4` | What goes wrong on site | Screwed without bonding; placed by eye rather than at the reflection point; expected to do a reverberation job |
 
 ### What we may and may not say
 
@@ -168,15 +168,15 @@ not a documentation priority, and not the most important thing in this record.
 
 | Field | Value |
 |---|---|
-| **What it is** | A corner-loaded low-frequency absorber for room resonance |
-| **What it does** | Absorbs at low frequencies, where room modes make bass uneven from seat to seat |
-| **How it works** | Corner loading — placed where modal pressure is highest, so a **43 mm** panel does work that would otherwise need far greater depth |
-| **What it is for** | Room corners and wall–ceiling junctions. The bass problem, which is the one dealers most often cannot solve |
+| What it is | A corner-loaded low-frequency absorber for room resonance |
+| What it does | Absorbs at low frequencies, where room modes make bass uneven from seat to seat |
+| How it works | Corner loading — placed where modal pressure is highest, so a **43 mm** panel does work that would otherwise need far greater depth |
+| What it is for | Room corners and wall–ceiling junctions. The bass problem, which is the one dealers most often cannot solve |
 | **What it is *not* for** | Reflection control or general reverberation. Not isolation — resonance is a treatment problem, isolation is a different one entirely. **↻ Scope note, 2026-08-19 (`Q79`): this is a *product* boundary and it stays. It is **not** a statement that C-ATS does not do isolation** — *the brand has always sold it, and it lives under C-ATS because isolation is part of the acoustic consultant's work (`claims.md` `C1.46`). **The repo had been reading this cell as a brand-level exclusion**, which put the group layer and this record in false conflict* |
-| **Scope of supply** | 600 × 600 × **43 mm** panel, 0.36 m² each; **4 per box = 1.44 m²**; moulded countersunk fixing holes *(depth corrected 2026-08-19 — see the shared `Depth` field)* |
-| **What it requires from others** | **4 × 3.5 × 60 mm bugle-head black drywall screws with threadless shank** per panel; corner access; a fabric layer if concealed |
-| **Configuration space** | One size. The larger 600 mm format is deliberate — corner loading needs area |
-| **Limits** | Effectiveness depends on corner placement; away from a corner it is a much weaker device |
+| Scope of supply | 600 × 600 × **43 mm** panel, 0.36 m² each; **4 per box = 1.44 m²**; moulded countersunk fixing holes *(depth corrected 2026-08-19 — see the shared `Depth` field)* |
+| What it requires from others | **4 × 3.5 × 60 mm bugle-head black drywall screws with threadless shank** per panel; corner access; a fabric layer if concealed |
+| Configuration space | One size. The larger 600 mm format is deliberate — corner loading needs area |
+| Limits | Effectiveness depends on corner placement; away from a corner it is a much weaker device |
 
 ### Performance (BSRIA, design-stage reference)
 
@@ -211,10 +211,10 @@ in the published data note.
 
 | ID | Field | Value |
 |---|---|---|
-| `R1` | **The doubt it meets** | *"Can **43 mm** do anything at low frequency?"* — the objection the whole depth argument exists to answer, and the one where measured data does the work. **Sharper than the record had it**: the panel is shallower than the 50 mm this field assumed, and the lab-verified answer is correspondingly more surprising (Neil, 2026-08-19) |
-| `R2` | **Load-bearing asset** | The measured per-panel Sabines with the test configuration stated. This product cannot be sold on description |
-| `R3` | **Questions it generates** | How many, and where; whether it replaces bass traps; why it is bigger than the others; can it go anywhere other than a corner |
-| `R4` | **What goes wrong on site** | Placed away from corners; too few for the room volume; expected to fix a subwoofer-placement problem |
+| `R1` | The doubt it meets | *"Can **43 mm** do anything at low frequency?"* — the objection the whole depth argument exists to answer, and the one where measured data does the work. **Sharper than the record had it**: the panel is shallower than the 50 mm this field assumed, and the lab-verified answer is correspondingly more surprising (Neil, 2026-08-19) |
+| `R2` | Load-bearing asset | The measured per-panel Sabines with the test configuration stated. This product cannot be sold on description |
+| `R3` | Questions it generates | How many, and where; whether it replaces bass traps; why it is bigger than the others; can it go anywhere other than a corner |
+| `R4` | What goes wrong on site | Placed away from corners; too few for the room volume; expected to fix a subwoofer-placement problem |
 
 ### What we may and may not say
 
@@ -232,15 +232,15 @@ in the published data note.
 
 | Field | Value |
 |---|---|
-| **What it is** | A broadband foam absorber that controls reverberation time |
-| **What it does** | Absorbs across the mid and high band, bringing decay time to the target for a small room |
-| **How it works** | Dense open-cell foam, 50 mm, working by flow resistance across a wide band above roughly 200 Hz |
-| **What it is for** | Broad wall and ceiling coverage, checkerboarded toward the rear; around surround speakers |
+| What it is | A broadband foam absorber that controls reverberation time |
+| What it does | Absorbs across the mid and high band, bringing decay time to the target for a small room |
+| How it works | Dense open-cell foam, 50 mm, working by flow resistance across a wide band above roughly 200 Hz |
+| What it is for | Broad wall and ceiling coverage, checkerboarded toward the rear; around surround speakers |
 | **What it is *not* for** | Bass. It has a weak low-frequency tail and is not the resonance answer — that is what the RES-CP exists for |
-| **Scope of supply** | 300 × 300 × 50 mm panel, 0.09 m² each; **16 per box = 1.44 m²**; **pre-applied adhesive backing** |
-| **What it requires from others** | A clean, dry substrate; **a room conditioned above 18 °C for 24 hours before installation** — the adhesive is temperature-sensitive; optionally one 25 mm screw per panel as permanent insurance |
-| **Configuration space** | One size at 50 mm. **REV-CP-12 is discontinued — do not list it** |
-| **Limits** | Above ~200 Hz is where it works; over-use dulls a room, which is a design question rather than a product limit |
+| Scope of supply | 300 × 300 × 50 mm panel, 0.09 m² each; **16 per box = 1.44 m²**; **pre-applied adhesive backing** |
+| What it requires from others | A clean, dry substrate; **a room conditioned above 18 °C for 24 hours before installation** — the adhesive is temperature-sensitive; optionally one 25 mm screw per panel as permanent insurance |
+| Configuration space | One size at 50 mm. **REV-CP-12 is discontinued — do not list it** |
+| Limits | Above ~200 Hz is where it works; over-use dulls a room, which is a design question rather than a product limit |
 
 ### Performance (BSRIA, plane/surface, design-stage reference)
 
@@ -260,7 +260,7 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 | ID | Field | Value |
 |---|---|---|
-| `O1` | Problem, in the dealer's words | **`[?]` — unasked** |
+| `O1` | Problem, in the dealer's words | `[?]` — unasked |
 | `O2` | Time or labour saved | **Pre-applied adhesive backing** — peel and stick, no fixings and no cutting on site, against a competing set that was awkward to handle and awkward to cut (`positioning.md` §1). Whole-box coverage at 1.44 m². **The strongest `O2` in the range, and it carries a condition** — the 18 °C rule below, which must travel with the claim |
 | `O3` | Opportunity it opens | **`[?]`** — not established at product level |
 | `O4` | What it replaces or avoids | **Commodity foam bought by the sheet**, which is the real competitor. The difference is not the material — it is measured performance plus a system that says how much to use and where |
@@ -270,10 +270,10 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 | ID | Field | Value |
 |---|---|---|
-| `R1` | **The doubt it meets** | *"Is this just foam?"* — the objection that matters most, because commodity foam is the competitor. The answer is measured performance and a system that says how much to use and where, not the material |
-| `R2` | **Load-bearing asset** | The measured absorption table, and the fire certificate. A specifier will ask for both |
-| `R3` | **Questions it generates** | How much coverage; checkerboard or continuous; will the adhesive hold; is it fire rated; can it be painted or covered |
-| `R4` | **What goes wrong on site** | Installed in a cold room and the adhesive lets go — **the most predictable and preventable failure in the range**; over-coverage making a dead room; used where resonance was the problem |
+| `R1` | The doubt it meets | *"Is this just foam?"* — the objection that matters most, because commodity foam is the competitor. The answer is measured performance and a system that says how much to use and where, not the material |
+| `R2` | Load-bearing asset | The measured absorption table, and the fire certificate. A specifier will ask for both |
+| `R3` | Questions it generates | How much coverage; checkerboard or continuous; will the adhesive hold; is it fire rated; can it be painted or covered |
+| `R4` | What goes wrong on site | Installed in a cold room and the adhesive lets go — **the most predictable and preventable failure in the range**; over-coverage making a dead room; used where resonance was the problem |
 
 ### What we may and may not say
 
@@ -306,15 +306,15 @@ questions answered in writing.***
 
 | ID | Field | Value |
 |---|---|---|
-| `N1` | **Selection logic** | **WRONG, corrected 2026-08-18 (Neil: *"how many panels — please see Cinema Tools Pro"*).The selection logic is fully systemised and encoded.** `cinema-platform` `products/cinema-tools/``docs/product/c-ats-system-design-rules.md` (captured 2026-06 with Neil) holds the design hierarchy, per-axis Fitzroy flatness, the surface-palette rule, reflection triage with a binding budget, install-type effects, corner-straddle placement and the 1.44 m² box quantum; `engines/modal_analysis/treatment_systems.cats_system` and `acoustic_treatment.py` implement it, sizing in whole boxes off the BSRIA catalogue. **The legacy calculator was reverse-engineered for parity in 2026-05 and its SKUs are explicitly historic** (`docs/validation/cats-calculator-reference.md`) — it is a source that was superseded, not the place the answer is trapped. **What is `[?]` is not the answer but its publishable form** — see `N2` and Q52 |
-| `N2` | **The worked example** | **`exists — unpublished`, corrected 2026-08-18.** A worked reference is carried in `cinema-platform` `products/cinema-tools/``docs/product/c-ats-system-design-rules.md`: **Joppa Road, 7.05 × 4.95 × 2.6 m, 7.1.4, 7 seats over two rows — Gold on carpet = 11 boxes (REF 6 + REV 1 + RES 4)**, per-axis x 0.35 / y 0.20 / z 0.11, and the wood-walkway variant that flattens z to 0.30. **So the commitment in `positioning.md` §1 is one step from being met, not unstarted.** What is unresolved is **how much of the derivation may be shown** — the platform black-boxes the methodology while positioning promises examples showing how quantities are *derived*. **That is Q52 and it gates this field.** Also still true: the three pre-planned 7.1.4 layouts are built and blocked on a CLI re-auth (EST-6) |
-| `N3` | **The answers** | **2 of 13 written.** Table below |
-| `N4` | **Comparison** | **PARTLY FILLED 2026-08-19 — the eight axes are applied to acoustics in `../../group-strategy/competitors.md`, C-ATS column complete, competitor columns empty by design.** *The price band is replaced by the `A5` posture claim (`claims.md` `C1.38`): direct-sell-at-published-prices versus trade-only-and-gated, which is observable rather than measured.* `positioning.md` §1 places C-ATS above direct-sell GIK, comparable to RPG, slightly below Artnovion. **That is a commercial position, not a comparison** — nothing says what a dealer gets or gives up choosing one over another, per panel, per dimension |
-| `N5` | **Compatibility & pairing** | **Filled.** Sits behind any stretch-fabric finish — **Fabric Walls pairs naturally and is never a dependency**. Works behind acoustically transparent projection screens, which puts DT's image surface, Pro-Fi's speakers and the treatment in one wall. The commercial/large-format range is likely built on Fabric Walls Acoustic Core PET. **Never paired with:** isolation as a substitute — resonance is a treatment problem, isolation is a different one |
-| `N6` | **Project timing** | **`[?]`, with one thing derivable and load-bearing.** The panels are concealed behind the fabric layer, so **the treatment must be decided before the wall is built** — which makes it *earlier* in the project than the fabric, the lighting or the screen. That is the cross-sell moment and the argument for being in the spec conversation, and it has never been stated. When the acoustic decision actually gets made on a real job is `[?]`. **↻ First stated 2026-08-19** — `draft-t2-decide-before-the-wall.md` is built on this derivation and nothing else, with three further consequences drawn from records already here: **the treatment depth is part of the wall build-up, so it feeds the architect's finished dimensions**; the corner absorber needs corners that have not yet been committed; and an acoustic design is drawn *from* the finish schedule (`Q68`). **`Q75` answered 2026-08-19, and it corrected me.** *The sequence holds. **The dimensions do not belong to us** — Neil: *"they are separate things. The sound isolation design which determines the structural dimensions of the room is one part of the project… the interior design of the room likely includes the fabric wall design which is what the client will see. **C-ATS fits nicely physically and metaphorically between the two** and SRND is often involved in all three."* **So this field's real content is a three-layer account with three owners** (`claims.md` `C1.40`), and the load-bearing derivation is now a different one: **the treatment is the only layer with no natural owner, which is why it waits** (`C1.41`, open as `Q77`). `PR-21` broken |
-| `N7` | **What the dealer tells their client** | **DRAFTED 2026-08-19 — `draft-n7-client-leave-behind.md`**, the first `N7` artefact in the repo (`KNW-5`). The raw material was one sentence away — `positioning.md` §4: *"acoustics is usually the one part of a room nobody can see or prove; C-ATS makes it the part you can"* — **and the piece is built to deliver exactly that line.** *It covers all three panels as one system, because that is what a client sees. **It makes no measured claim at all**, so it needs nothing from `DOC-4`, `DOC-7` or `DR-Q52` — `PR-4` used as a design constraint rather than fought.* **Two decisions are Neil's, on `Q76`:** whether client-facing words should exist at all given `C2.29`, and **whose name is on it** — the dealer-brandable version is the one a dealer would actually hand over |
-| `N8` | **Field learning** | **`[?]`.** A decade of cinema work and the Cornflake IMAX install; nothing captured as learning. The two failure modes in `install-critical-notes.md` *are* field learning, and they are the only entries that exist |
-| `N9` | **What we are asked and cannot answer** | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) **Answered 2026-08-17** — both are used in the modelling tools, glued default (Q46; note above the record) |
+| `N1` | Selection logic | **WRONG, corrected 2026-08-18 (Neil: *"how many panels — please see Cinema Tools Pro"*).The selection logic is fully systemised and encoded.** `cinema-platform` `products/cinema-tools/``docs/product/c-ats-system-design-rules.md` (captured 2026-06 with Neil) holds the design hierarchy, per-axis Fitzroy flatness, the surface-palette rule, reflection triage with a binding budget, install-type effects, corner-straddle placement and the 1.44 m² box quantum; `engines/modal_analysis/treatment_systems.cats_system` and `acoustic_treatment.py` implement it, sizing in whole boxes off the BSRIA catalogue. **The legacy calculator was reverse-engineered for parity in 2026-05 and its SKUs are explicitly historic** (`docs/validation/cats-calculator-reference.md`) — it is a source that was superseded, not the place the answer is trapped. **What is `[?]` is not the answer but its publishable form** — see `N2` and Q52 |
+| `N2` | The worked example | **`exists — unpublished`, corrected 2026-08-18.** A worked reference is carried in `cinema-platform` `products/cinema-tools/``docs/product/c-ats-system-design-rules.md`: **Joppa Road, 7.05 × 4.95 × 2.6 m, 7.1.4, 7 seats over two rows — Gold on carpet = 11 boxes (REF 6 + REV 1 + RES 4)**, per-axis x 0.35 / y 0.20 / z 0.11, and the wood-walkway variant that flattens z to 0.30. **So the commitment in `positioning.md` §1 is one step from being met, not unstarted.** What is unresolved is **how much of the derivation may be shown** — the platform black-boxes the methodology while positioning promises examples showing how quantities are *derived*. **That is Q52 and it gates this field.** Also still true: the three pre-planned 7.1.4 layouts are built and blocked on a CLI re-auth (EST-6) |
+| `N3` | The answers | **2 of 13 written.** Table below |
+| `N4` | Comparison | **PARTLY FILLED 2026-08-19 — the eight axes are applied to acoustics in `../../group-strategy/competitors.md`, C-ATS column complete, competitor columns empty by design.** *The price band is replaced by the `A5` posture claim (`claims.md` `C1.38`): direct-sell-at-published-prices versus trade-only-and-gated, which is observable rather than measured.* `positioning.md` §1 places C-ATS above direct-sell GIK, comparable to RPG, slightly below Artnovion. **That is a commercial position, not a comparison** — nothing says what a dealer gets or gives up choosing one over another, per panel, per dimension |
+| `N5` | Compatibility & pairing | **Filled.** Sits behind any stretch-fabric finish — **Fabric Walls pairs naturally and is never a dependency**. Works behind acoustically transparent projection screens, which puts DT's image surface, Pro-Fi's speakers and the treatment in one wall. The commercial/large-format range is likely built on Fabric Walls Acoustic Core PET. **Never paired with:** isolation as a substitute — resonance is a treatment problem, isolation is a different one |
+| `N6` | Project timing | **`[?]`, with one thing derivable and load-bearing.** The panels are concealed behind the fabric layer, so **the treatment must be decided before the wall is built** — which makes it *earlier* in the project than the fabric, the lighting or the screen. That is the cross-sell moment and the argument for being in the spec conversation, and it has never been stated. When the acoustic decision actually gets made on a real job is `[?]`. **↻ First stated 2026-08-19** — `draft-t2-decide-before-the-wall.md` is built on this derivation and nothing else, with three further consequences drawn from records already here: **the treatment depth is part of the wall build-up, so it feeds the architect's finished dimensions**; the corner absorber needs corners that have not yet been committed; and an acoustic design is drawn *from* the finish schedule (`Q68`). **`Q75` answered 2026-08-19, and it corrected me.** *The sequence holds. **The dimensions do not belong to us** — Neil: *"they are separate things. The sound isolation design which determines the structural dimensions of the room is one part of the project… the interior design of the room likely includes the fabric wall design which is what the client will see. **C-ATS fits nicely physically and metaphorically between the two** and SRND is often involved in all three."* **So this field's real content is a three-layer account with three owners** (`claims.md` `C1.40`), and the load-bearing derivation is now a different one: **the treatment is the only layer with no natural owner, which is why it waits** (`C1.41`, open as `Q77`). `PR-21` broken |
+| `N7` | What the dealer tells their client | **DRAFTED 2026-08-19 — `draft-n7-client-leave-behind.md`**, the first `N7` artefact in the repo (`KNW-5`). The raw material was one sentence away — `positioning.md` §4: *"acoustics is usually the one part of a room nobody can see or prove; C-ATS makes it the part you can"* — **and the piece is built to deliver exactly that line.** *It covers all three panels as one system, because that is what a client sees. **It makes no measured claim at all**, so it needs nothing from `DOC-4`, `DOC-7` or `DR-Q52` — `PR-4` used as a design constraint rather than fought.* **Two decisions are Neil's, on `Q76`:** whether client-facing words should exist at all given `C2.29`, and **whose name is on it** — the dealer-brandable version is the one a dealer would actually hand over |
+| `N8` | Field learning | **`[?]`.** A decade of cinema work and the Cornflake IMAX install; nothing captured as learning. The two failure modes in `install-critical-notes.md` *are* field learning, and they are the only entries that exist |
+| `N9` | What we are asked and cannot answer | **Filled — and see the note.** (1) ISO 17497 scattering coefficient for the REF-CP: never measured. (2) Resonance performance below 125 Hz: outside the report; the design tool is blind below ~80 Hz. (3) Marine panel absorption: no data of its own. (4) Current EN 13501-1 classification for the REV-CP foam. (5) **Answered 2026-08-17** — both are used in the modelling tools, glued default (Q46; note above the record) |
 
 > **`N9` was already in the repo as five separate backlog rows** (DOC-6 to DOC-10) and had never been read as one
 > list. As a set it says something the rows individually do not: **four of the five are measurement gaps, so one
@@ -329,19 +329,19 @@ or in someone's head, and has never been turned into an answer) · **`unanswered
 
 | # | Question (from `R3`) | Panel | State | Where the answer is, or why not |
 |---|---|---|---|---|
-| 1 | Bond or screw? | REF-CP | **`answered`** | `install-critical-notes.md` p1 — written, unpublished (`../../registers/backlog.md` DOC-1) |
-| 2 | How far off the designed position is acceptable? | REF-CP | **`known` → DRAFTED 2026-08-19** | ~300 mm, in this record. Also the brand's best unused `O2`. **Now its own piece — `draft-t5-layout-tolerance.md`**, carrying two pre-publication confirmations |
-| 3 | Can it go behind fabric? | REF-CP | **`known` → DRAFTED 2026-08-19** | Yes, any stretch fabric — `N5`. **Written in `draft-answers.md`**, with `N6`'s consequence attached: the treatment is decided before the wall that conceals it |
-| 4 | Why do the absorption figures look low? | REF-CP | **`known` → DRAFTED 2026-08-19** | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. **`DOC-4` blocks tabulating the values, not explaining them** — the explanation is written in `draft-answers.md` and quotes no coefficient |
-| 5 | **How many, and where?** | RES-CP | **`known`, not `unanswered`** *(corrected 2026-08-18)* | Both are answered in the platform's design rules and encoded in the engine — `N1`. **The gap is publication, not knowledge**, and its boundary is Q52 |
-| 6 | Does it replace bass traps? | RES-CP | **`unanswered`** | A comparison question with no `N4` behind it |
-| 7 | Why is it bigger than the others? | RES-CP | **`known` → DRAFTED 2026-08-19** | Corner loading needs area — in `D8`. **Written in `draft-answers.md`** as the trade it actually offers: area on a corner instead of depth into the room |
-| 8 | Can it go anywhere other than a corner? | RES-CP | **`known` → DRAFTED 2026-08-19** | Much weaker away from a corner — in `D9`. **Written in `draft-answers.md`**, plainly: it is the one place in the range where position is not forgiving |
-| 9 | **How much coverage?** | REV-CP | **`unanswered`** | The same quantity question as 5 |
-| 10 | Checkerboard or continuous? | REV-CP | **`known` → DRAFTED 2026-08-19** | Checkerboarded toward the rear — in `D4`. **Written in `draft-answers.md`** with the *over-use dulls a room* limit attached, and **one gate flagged**: pattern is stated as intended use, quantity stays behind `DR-Q52` |
-| 11 | Will the adhesive hold? | REV-CP | **`answered`** | The warm-room rule — written, derivative set drafted (`content-batch-001.md`) |
+| 1 | Bond or screw? | REF-CP | `answered` | `install-critical-notes.md` p1 — written, unpublished (`../../registers/backlog.md` DOC-1) |
+| 2 | How far off the designed position is acceptable? | REF-CP | `known` → DRAFTED 2026-08-19 | ~300 mm, in this record. Also the brand's best unused `O2`. **Now its own piece — `draft-t5-layout-tolerance.md`**, carrying two pre-publication confirmations |
+| 3 | Can it go behind fabric? | REF-CP | `known` → DRAFTED 2026-08-19 | Yes, any stretch fabric — `N5`. **Written in `draft-answers.md`**, with `N6`'s consequence attached: the treatment is decided before the wall that conceals it |
+| 4 | Why do the absorption figures look low? | REF-CP | `known` → DRAFTED 2026-08-19 | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. **`DOC-4` blocks tabulating the values, not explaining them** — the explanation is written in `draft-answers.md` and quotes no coefficient |
+| 5 | How many, and where? | RES-CP | **`known`, not `unanswered`** *(corrected 2026-08-18)* | Both are answered in the platform's design rules and encoded in the engine — `N1`. **The gap is publication, not knowledge**, and its boundary is Q52 |
+| 6 | Does it replace bass traps? | RES-CP | `unanswered` | A comparison question with no `N4` behind it |
+| 7 | Why is it bigger than the others? | RES-CP | `known` → DRAFTED 2026-08-19 | Corner loading needs area — in `D8`. **Written in `draft-answers.md`** as the trade it actually offers: area on a corner instead of depth into the room |
+| 8 | Can it go anywhere other than a corner? | RES-CP | `known` → DRAFTED 2026-08-19 | Much weaker away from a corner — in `D9`. **Written in `draft-answers.md`**, plainly: it is the one place in the range where position is not forgiving |
+| 9 | How much coverage? | REV-CP | `unanswered` | The same quantity question as 5 |
+| 10 | Checkerboard or continuous? | REV-CP | `known` → DRAFTED 2026-08-19 | Checkerboarded toward the rear — in `D4`. **Written in `draft-answers.md`** with the *over-use dulls a room* limit attached, and **one gate flagged**: pattern is stated as intended use, quantity stays behind `DR-Q52` |
+| 11 | Will the adhesive hold? | REV-CP | `answered` | The warm-room rule — written, derivative set drafted (`content-batch-001.md`) |
 | 12 | Is it fire rated? | REV-CP | `known`, partly | Class 0 core is known; **the current EN 13501-1 classification is `[?]`** (DOC-7) |
-| 13 | Can it be painted or covered? | REV-CP | **`unanswered`** | Nobody has answered this |
+| 13 | Can it be painted or covered? | REV-CP | `unanswered` | Nobody has answered this |
 
 **Three things this table says that nothing else in the repo did:**
 
@@ -372,13 +372,13 @@ known**, which is the honest position: the audit itself has not been done, and i
 | `A1` | Datasheet | `[?]` | Per-panel absorption coefficient sheets are published; whether a datasheet proper exists per panel is unverified |
 | `A2` | Dimensioned drawings | `[?]` | |
 | `A3` | CAD | `[?]` | Publish-versus-gate is an open decision (`../../registers/backlog.md` DEC-5) |
-| `A4` | BIM / Revit | **`missing`** | Pre-tender specifier machinery is parked group-wide, so this is a choice rather than a debt |
-| `A5` | NBS clause | **`missing`** | Same |
-| `A6` | Install manual | **`exists — stale`** | Three guides exist and are to be rewritten by moment rather than by product structure (`../../registers/backlog.md` DOC-3) |
+| `A4` | BIM / Revit | `missing` | Pre-tender specifier machinery is parked group-wide, so this is a choice rather than a debt |
+| `A5` | NBS clause | `missing` | Same |
+| `A6` | Install manual | `exists — stale` | Three guides exist and are to be rewritten by moment rather than by product structure (`../../registers/backlog.md` DOC-3) |
 | `A7` | Commissioning guide | `[?]` | Arguably `n/a` for passive panels — but the *design* is what needs verifying, and that is `CAT-07` |
 | `A8` | Fault-finding guide | `[?]` | The two known failure modes are documented in `install-critical-notes.md` but not as a guide |
-| `A9` | "How do you do X" video | **`missing`** | Three are specified and unrecorded (`../../registers/backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
-| `A10` | Training module | **`missing`** | The programme is parked; manuals are its raw material (S12, `../../motion/sales-motion.md`) |
+| `A9` | "How do you do X" video | `missing` | Three are specified and unrecorded (`../../registers/backlog.md` DOC-2). The 52-second reverberation explainer is brand content, not product documentation |
+| `A10` | Training module | `missing` | The programme is parked; manuals are its raw material (S12, `../../motion/sales-motion.md`) |
 | `A11` | Spares & service | `[?]` | |
 
 **Filling this table is perhaps twenty minutes with the documentation folder open**, and it converts every "the

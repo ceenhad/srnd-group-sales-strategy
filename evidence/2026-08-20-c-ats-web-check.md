@@ -9,10 +9,10 @@ right. The audit was one look's worth of work and became five files.** *What fol
 
 | | What it is |
 |---|---|
-| **`www.c-ats.co.uk`** | **The live site.** *Unchanged ~5 years. Four products, **no services**, and **the full BSRIA report plus five coefficient sheets, ungated*** |
-| **`c-ats.myshopify.com`** | **The mockup Neil was working on** — *what `PR-18` describes. Unfinished by design; **not evidence of anything*** |
-| **`cats-98x.pages.dev`** | *An Astro build Neil was shown once. **Provenance unknown and not worth chasing further*** |
-| **`copy.md`** | *This repo's own copy — **stale**: it still carries "shallower than anything comparable", which `Q63` bounded* |
+| `www.c-ats.co.uk` | **The live site.** *Unchanged ~5 years. Four products, **no services**, and **the full BSRIA report plus five coefficient sheets, ungated*** |
+| `c-ats.myshopify.com` | **The mockup Neil was working on** — *what `PR-18` describes. Unfinished by design; **not evidence of anything*** |
+| `cats-98x.pages.dev` | *An Astro build Neil was shown once. **Provenance unknown and not worth chasing further*** |
+| `copy.md` | *This repo's own copy — **stale**: it still carries "shallower than anything comparable", which `Q63` bounded* |
 
 ## The five findings that matter
 
