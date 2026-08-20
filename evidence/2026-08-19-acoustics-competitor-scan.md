@@ -234,3 +234,26 @@ dimensions.*
   `c-ats-shopify:data/panels.json`, a repository not in this session. **But the more useful finding is that the
   canonical dataset has no C-ATS entry to be wrong** — the group's own acoustic products are absent from the
   dataset that carries its suppliers' and competitors'.*
+
+## The C-ATS panel data inside the design engine
+
+**`engines/modal_analysis/acoustic_treatment.py` and `c_ats_panels.py`, read 2026-08-19.**
+
+**The `A`/`B` install figures are corroborated in code.** *The engine registers the two install variants as separate
+ids — `c-ats-ref` (Type A, adhesive default) and `c-ats-ref-b` (Type B, screw-only) — with the comment:* **"Type A
+vs B swings α@500 ~0.28 → ~0.54 (glue damps the panel's resonance)."** *Those are the same two figures
+`../brands/c-ats/product-records.md` holds from two different sources — the legacy calculator's 0.28 and BSRIA test
+6's 0.54. **A second, independent confirmation that the two numbers are one panel in two mountings, not a
+disagreement.*** **`DOC-4` narrows:** *the 500 Hz pair is settled; the **full per-band A and B curves** still have to
+be read off the published chart.*
+
+**And the wrong RES depth is in the platform too, at least in its label.** *The engine names the panel*
+**`"C-ATS RES (corner LF, 50 mm)"`** *— against Neil's 43 mm (`Q63`).* **How far the error goes could not be
+established from here:** *dimensions are read from a data source's `physical.widthMm` and `relief.depthMm` fields,
+and that file is `c-ats-shopify:data/panels.json`, which is not in this session. **RES has no relief** (the engine:
+absorbers *"have no relief and do not scatter"*), so its depth may exist only as label text.* **For REF the figure is
+load-bearing and numeric:** *`c_ats_panels.py` — "REF = 300×300, 3 mm base → 50 mm peak", relief depth **0.047 m**,
+feeding the Rayleigh roughness term that decides scattering.*
+
+**So `DAT-1` is at least two places wide, and possibly three:** *the C-ATS record (corrected), the platform's panel
+label (not corrected — not ours), and `panels.json` (unverified, not in session).*
