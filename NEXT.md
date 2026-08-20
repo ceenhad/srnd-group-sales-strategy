@@ -147,6 +147,17 @@ academies. *Measurable today: one ISE 2026 session against a competitor partner'
 specifier cast.* **`CLAUDE.md`'s build-it-then-say-it does not apply here** — the capability is the one thing we are
 not short of, which makes this the opposite failure and a decision rather than a build.
 
+**Competitors: the fourth name is resolved and it split the tier.** *`AcousticSmart` (one word — the second pass
+could not find it because the spelling given verbally was a hypothesis, not a key) is the same design-led tier, **but
+it reaches integrators through a manufacturers' rep firm** and names the A/V dealer first in its own account of how a
+project begins. `group-strategy/competitors.md` **finding 1b**, evidence in the **sixth pass**.* **The consequence
+worth carrying: `C1.39` — *a system a dealer runs without hiring the author* — is our sharpest line about this tier
+and it is weakest against this one name**, where the contest is channel against channel. *Recorded as evidence
+against the claim, **not** as a reopening: the claim stands confirmed and now carries the place it does not cut.*
+**And "a summary is not a source" caught a second near-miss in the same file** — a *"world's largest… division of GC
+Building Products… over 50 years"* description appeared in a search summary and **is on none of the company's own
+pages**, so it is not recorded as a fact.
+
 **Competitors: the instrument is built, the research is not.** `Q73` amended standard 4 to **eight axes** and they
 are applied to acoustics in `group-strategy/competitors.md` — **C-ATS's column complete from confirmed rows, every
 competitor cell deliberately empty.** *That table is the brief: it says what to go and find out, and `A4` and `A8`

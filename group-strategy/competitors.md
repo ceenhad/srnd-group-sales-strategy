@@ -269,6 +269,27 @@ acoustic interior. **It is whether their acoustic interior competes with our roo
 comparison to draw is `A7` — **our channel and our range against theirs** — which is the same conclusion this file
 reached about Cinema Build Systems.*
 
+**1b. The fourth name is resolved, and it splits the tier on `A7`.** *Neil's fourth name was recorded as
+*"AcoustiSmart"* and the second pass could not find it. **It is `AcousticSmart`, one word** — Merrick, Long Island —
+and it is the same tier: a **designer and builder of home-theatre interiors** with a trademarked method
+(*"HomeTheaterology™"*), no published prices and no measured data surfaced. *(Full pass:
+`../evidence/2026-08-19-acoustics-competitor-scan.md` § sixth pass.)* **But it reaches the trade in a way the other
+three do not.** *It is carried to integrators by a **manufacturers' rep firm** — `DSG Metro`, Northeast US,
+*"manufacturer representation built around helping dealers sell better systems"* — on a line card sitting beside
+projector, screen and loudspeaker brands. **And its own description of a project names the dealer first:** *"every
+project begins with the combined imagination of AcousticSmart's team of dedicated home theater design professionals
+along with the A/V dealer and client."*
+
+**Two consequences, and the second is the uncomfortable one.** *(1) **The tier is not uniform on the axis this file
+cares about most**: design-led on `A3` and `A5`, **split on `A7`**. Finding 1's *"their acoustic interior against our
+room"* holds for three of the four; against this one the contest is **channel against channel**, which is a
+different fight and the one `Q73` added `A7` to see. (2) **This is a designer who keeps the integrator in the job**
+— which is nearer to what C-ATS says it does than the rest of the tier is. *`C1.39`'s contrast — **their rooms need
+their expertise on the job, ours does not** — is the sharpest thing this repo has said about the tier, and it is
+**weakest against this name**, because a rep-firm channel and a named dealer are how a system reaches a dealer
+rather than replacing one.* **That is not a reason to soften `C1.39`; it is a reason to know where it does not
+cut.***
+
 **2. Officina Acustica positions against panels fixed flat to the wall — which is C-ATS's recommended install.**
 ~~*"Unlike traditional stretched fabric acoustic treatments…"* — first named competitor positioning against
 concealment behind stretch fabric.~~ **Corrected 2026-08-19, and the correction is the useful part.** *I first

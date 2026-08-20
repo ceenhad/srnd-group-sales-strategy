@@ -102,8 +102,8 @@ scan's sharpest `A1` finding.**
 - Officina Acustica — https://officinaacustica.com/ and **https://officinaacustica.com/acoustics (fetched 2026-08-19 after the summary-derived error above)**
 - Residential Systems on the QuestAI configurator and the Acoustical Lens System — https://www.residentialsystems.com/archive/questai-reveals-acoustic-treatment-configurator
 
-**Not found: `AcoustiSmart`.** No matching company surfaced — the spelling may differ. **Left as an unfilled row
-rather than substituted with something similar-sounding.** Officina Acustica's `A5` cell remains unfilled; its `A1`
+~~**Not found: `AcoustiSmart`.**~~ **RESOLVED — sixth pass, same day: it is `AcousticSmart`, one word, Merrick NY, and it has a rep-firm channel to integrators. See the sixth pass below.** ~~No matching company surfaced — the spelling may differ. **Left as an unfilled row
+rather than substituted with something similar-sounding.**~~ Officina Acustica's `A5` cell remains unfilled; its `A1`
 and `A2` cells are now filled from the fetched engineering page.
 
 ---
@@ -257,3 +257,80 @@ feeding the Rayleigh roughness term that decides scattering.*
 
 **So `DAT-1` is at least two places wide, and possibly three:** *the C-ATS record (corrected), the platform's panel
 label (not corrected — not ours), and `panels.json` (unverified, not in session).*
+
+---
+
+# Sixth pass — the fourth name resolved, and it has a channel
+
+*Same day. **The second pass left one of Neil's four names unfilled**: *"Not found: `AcoustiSmart`. No matching
+company surfaced — the spelling may differ."* **It is `AcousticSmart`, one word, and it was found on the first
+search once the spelling was right.** *That is the whole reason this pass exists, and it is a small lesson: a name
+given verbally is a spelling hypothesis, not a search key.*
+
+## What AcousticSmart is
+
+**A designer and builder of home-theatre interiors**, based in Merrick, Long Island, NY. *Its own framing is a
+method with a trademark — **"HomeTheaterology™ — our signature methodology for crafting private cinemas"** — which
+places it in the same tier as the other three: **it sells rooms, not panels.***
+
+**The origin story on its own About page is a dealer's problem.** *A "high-end audio dealer" asked for help with
+acoustic panels for a dissatisfied client, and the business grew from there. **The founder and owner is named on the
+page as Richard Charschan.***
+
+**What it sells alongside the rooms:** *acoustic panels, seating, star ceilings, theatre curtains, lighting, acoustic
+fabrics, millwork.* **And the About page makes no mention of selling acoustic panels independently of the
+installation** — *so the products appear to travel with the project rather than as a catalogue.*
+
+## The finding — and it is an `A7`, not an `A1`
+
+**AcousticSmart is represented to dealers by a manufacturers' rep firm.** *`DSG Metro` — Northeast US — describes
+itself as **"manufacturer representation built around helping dealers sell better systems"**, serving *"custom
+integrators, AV dealers, and technology professionals"*, and **AcousticSmart appears on its line card** alongside
+Grimani Systems, Digital Projection, Severtson Screens, dARTS, LG Business Solutions, LEA Professional and
+Nightscaping.
+
+**Why this matters more than anything else in the pass.** *Three of the four names in this tier reach the job by
+being the designer. **This one has a trade channel of the classic US kind — a rep firm carrying it to integrators
+alongside projector and screen brands.*** *That is `A7` — route to market — and `Q73` adopted `A7` precisely because
+the file had been reasoning about channel for a month without an axis for it.* **So the tier is not uniform on the
+axis this repo cares about most:** *design-led on `A3` and `A5`, but **split on `A7`** — and the split is the thing a
+channel strategy has to answer.*
+
+**Their own words on the dealer's place in the project:** ***"No matter how unique, every project begins with the
+combined imagination of AcousticSmart's team of dedicated home theater design professionals along with the A/V
+dealer and client."*** *The dealer is **in** the room, named ahead of the client. **This is not the
+disintermediation the tier was assumed to represent** — it is a designer who keeps the integrator in the job, which
+is closer to what C-ATS says it does than to what the other three do.*
+
+## The axes, as far as public evidence goes
+
+| Axis | AcousticSmart, from its own pages | Confidence |
+|---|---|---|
+| **A1** performance data | **None surfaced** — no coefficients, no test standard, no mounting condition anywhere found | *"Not surfaced", not "does not exist"* |
+| **A2** what it must work with | Design-and-build: it **is** the other trade. Panels, fabrics, millwork, curtains and ceilings supplied together | Stated on its own pages |
+| **A3** support model | **The room is the product** — design, build, install, service; not a sizing service around a panel range | Stated |
+| **A4** lead time | **Not stated anywhere** | — |
+| **A5** price posture | **No prices published**, and no stated policy either — *gated by absence rather than by rule*. Route in is *"contact us for a free consultation"* | Observed |
+| **A6** reference and credibility | **Named clients and named collaborating design firms** (a well-known theatre designer; named architects and interior designers). **No measured data, no standards work surfaced** | Observed |
+| **A7** route to market | **A manufacturers' rep firm to integrators** (`DSG Metro`, Northeast), **and** the A/V dealer written into its own description of how a project starts | **The finding of this pass** |
+| **A8** defensibility | A trademarked method name and a body of named work. *Nothing published that could be copied from* | Observed |
+
+## Two corrections recorded in place
+
+1. **A claim I nearly recorded is not on their site.** *A search summary described AcousticSmart as **"the world's
+   largest designer and installer of high-end home theater interiors"**, a division of **GC Building Products**,
+   with a parent **"over 50 years"** in the New York/New Jersey area. **I fetched the About page and the Custom Home
+   Theaters page and none of it is there** — no largest claim, no parent company, no years-in-business claim.* **So
+   it is not recorded as a fact about the company.** *Whether it appears in a directory profile is a separate
+   question and was not chased.* **This is `../method.md`'s "a summary is not a source" catching the same failure a
+   second time in the same file** — *and the first time, on the air-gap sentence, it took Neil to catch it.*
+2. **The rep-firm line card is not a C-ATS-adjacent fact to over-read.** *Digital Projection on that line card is a
+   separate company from this group's **Display Technologies**, and nothing about shared representation is implied.*
+
+## Sources, sixth pass, fetched 2026-08-19
+
+- `acousticsmart.com` — home page, About Us, Custom Home Theaters
+- `dsgmetro.com` — the rep firm's own description and line card
+- *`dsgmetro.com/acousticsmart` returned **404**; the line-card entry is the evidence, not a brand page*
+- *A search for AcousticSmart absorption/NRC data returned **no company pages at all** — only generic explainer
+  sites. Recorded as **not surfaced***
