@@ -73,9 +73,26 @@ activities works" is unanswerable no matter what is measured.**
 
 ---
 
-## The change proposal — one migration, then population
+> **⚠ Two corrections to this file, both 2026-08-20, and the first matters more.**
+>
+> **1. There is an agreed KPI framework and `G1`–`G6` is not it.** *`../operations/engine-as-hub.md` §1 — **agreed
+> with Neil on 2026-08-14 and hardened on the 17th** — sets the funnel spine as **published → reached → inbound →
+> account → first order → active → multi-line → loop**, with the primitive being the **account × brand signal
+> matrix**: **browsed → quoted → spec'd → ordered → repeat**. **That is the authority.** The gateway mapping above
+> stands as a valid read of engine, but **it must not become a third vocabulary** — the implementation gaps are now
+> specified against the agreed framework in `../operations/engine-measurement-spec.md`, which found **two tiers
+> engine cannot see at all** (`browsed`, and **`spec'd` — the commitment signal, and the terminal success tier for
+> specifier accounts**).*
+>
+> **2. Nothing is applied to engine from here.** *Neil, 2026-08-20: **"we are not directly writing anything to engine
+> right now. We can design anything we want and let them see it. The dev team are monitoring this repo."*** *The
+> design below is right; **the "apply it, testbed first" framing was wrong** and is replaced by a specification the
+> dev team can read.*
 
-**Engine is ours and under daily migration, so this is a proposal to apply, not a flag to file.** *House convention:
+## The change proposal — designed here, built by the dev team
+
+**Engine is ours and under daily migration, so a missing field is a decision not yet taken — but this repo specifies
+rather than applies.** *House convention:
 `YYYYMMDDHHMMSS_snake_case_name`; lookups carry `id, code, label, sort_order, meta, archived_at, created_at,
 updated_at`.*
 
@@ -95,8 +112,9 @@ underneath it**, which is the right split rather than exploding a five-row looku
 `projects.source_lead_id`, `projects.brand_id` and `sales_orders.project_id` · define `G5` before instrumenting it ·
 and decide whether registration really is the gate, given `G4` is five times `G3`.*
 
-**One sequencing note.** *There is an **`SRND Engine Testbed`** project alongside production. **The migration goes
-there first**, not because engine is untouchable but because a live system with 74 orders in it deserves a rehearsal.*
+**One sequencing note, for whoever builds it.** *There is an **`SRND Engine Testbed`** project alongside production —
+a live system with 74 orders in it deserves a rehearsal. **Not this repo's call to make, and not this repo's hand on
+the migration.***
 
 ## Sources
 

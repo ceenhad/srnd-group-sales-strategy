@@ -407,7 +407,40 @@ migration** (`20260820120000_duplicate_product`, applied today), so a missing fi
 **One schema change is proposed: `ENG-4`, the marketing-activity dimension** — additive, nullable, house-shape,
 `lead_sources` kept as the coarse channel above it. **Testbed first.**
 
-**Resume at: `ENG-4` — awaiting go-ahead**, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
+**↻ Corrected twice, 2026-08-20 — and the first correction is the one that matters.**
+
+**1. There is already an agreed KPI framework, and I nearly built a third vocabulary beside it.**
+*`operations/engine-as-hub.md` §1 — **agreed with Neil 2026-08-14, hardened 2026-08-17** — sets the funnel spine
+(**published → reached → inbound → account → first order → active → multi-line → loop**) and the primitive: the
+**account × brand signal matrix**, **browsed → quoted → spec'd → ordered → repeat**. **That is the authority; `G1`–`G6`
+is a valid read of engine but not the framework.*** *The implementation gaps are now specified against the agreed
+one: **`operations/engine-measurement-spec.md`**, six deltas — *and it found things the gateway read missed.*
+**Two tiers engine cannot see at all:** *`browsed` (the gated store means every browse is an **identified** account —
+Neil: *"100% a lost opportunity right now"*), and **`spec'd`**, which Neil singled out as the commitment signal and
+**the terminal success tier for specifier accounts** — engine has **no field for it**, so specifier accounts
+currently have **no success measure**.* **And the agreed account types are five — whole-room integrator ·
+single-brand trade · specifier/consultant · distributor · consumer — while engine holds four**, merging the two the
+framework most needs apart *(breadth on one, depth on the other)*.
+
+**2. This repo specifies; it does not write to engine.** *Neil, 2026-08-20: **"we are not directly writing anything
+to engine right now. We can design anything we want and let them see it. The dev team are monitoring this repo."***
+*My *"apply it, testbed first"* framing was wrong — **the deliverable is a spec the dev team can read**, and it is
+`operations/engine-measurement-spec.md`. Two swings of the same pendulum in one day: first treating engine as
+someone else's wall, then reaching for the migration tool.*
+
+**Five of the six deltas are one column or one lookup each; the sixth is a decision.** *`D1` account types ·
+`D2` the campaign tag has nowhere to land — **and the agreed framework already requires it** (*"every link published
+anywhere carries a campaign tag"*), so it is an unimplemented agreed rule, not a new idea · `D3` **the inbound log is
+one `direction` column on `sales_activities`**, exactly the *"one field on a screen people already use"* the
+framework predicted · `D4` the two missing tiers · `D5` three existing columns the app is not filling ·
+`D6` `G5` needs defining, not building.*
+
+**Resume at the four owner decisions, none of which is a build:** *`ENG-8` the fifteen unwritten type rules
+(qualifying rule · expectation profile · review trigger, ×5) — **`ENG-1` cannot be populated consistently without
+them** · `ENG-9` where `spec'd` lives · `ENG-6` `G5`'s definition · `ENG-7` is registration the gate (**35 have
+ordered, 17 approved, 6 opted in**). Then the dev-team items: `ENG-4`, `ENG-10`, `ENG-5`, `ENG-11`.*
+
+~~**Resume at: `ENG-4` — awaiting go-ahead**~~, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
 should fill), `ENG-6` (define `G5`), `ENG-7` (is registration the gate?). *`ENG-2`/`ENG-3` follow once the data
 exists.*
 
