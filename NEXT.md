@@ -56,7 +56,7 @@ and never to a moment, which makes the moment a question the first exchange has 
 an early number from a **published table of representative rooms** — size, grade, box count — not from a tool. Three
 separate constraints converge on that: the no-calculator rule Neil confirmed, ADR 017 v2's withdrawal of the
 self-serve surface, and `DR-Q52` putting worked **results** on the publishable side. **The blocker is data, not
-method: there is exactly one worked room.** `EST-7` is an engine run, not a project.*
+method: there is exactly one worked room.** `EST-20` is an engine run, not a project.*
 
 **Then: `MTH-1` — the five deliverables are prose-with-tables and owe a rewrite into rows** (`PR-9`'s
 consequence). The three `brands/c-ats/pathway-*.md`, `hooks.md` and `segments.md`. **`PR-7` holds, so it is a
@@ -174,7 +174,7 @@ several times the acoustic treatment design fee.*** **Four consequences:**
  `group-strategy/the-group-play.md`.*
 - **A sold layer has nothing written about it in this repo** — no record, no content, no pathway. **`CAT-05` has
  carried three of four cells empty while the layer invoiced**, and the material was in **our own derived data** the
- whole time. **`KNW-6`.** **The documentation lags the business by years, and a blank cell here is not a gap in the company.**
+ whole time. **`KNW-10`.** **The documentation lags the business by years, and a blank cell here is not a gap in the company.**
 
 **The Cinema Partners accounts — Neil pointed at them while I was claiming the cinema design layer had no
 record.** *`evidence/2026-08-19-cinema-partners-accounts.md`. **Two GTUK sales accounts, `CINEMA PARTNERS MATERIALS`
@@ -311,8 +311,8 @@ sales, never netted together.** *(**Corrected 2026-08-19 — I first wrote these
 core idea settles which is which: **a dealer is counted across all six brands, so dealer sales are a group measure;
 a distributor is appointed brand by brand and territory by territory, so distribution is a brand measure.** There is
 no group distributor — and a brand-by-brand dealer target would impose exactly the fragmentation the group play
-exists to remove.)* *One action enables all of it — **333 of 350 live customers are untyped** (`ENG-1`),
-then two reports (`ENG-2`) and the interest measure (`ENG-3`).*
+exists to remove.)* *One action enables all of it — **333 of 350 live customers are untyped** (`ENG-20`),
+then two reports (`ENG-21`) and the interest measure (`ENG-22`).*
 
 **(b) The history is context, not a verdict — and I used it as one.** *Neil: **"the point of the whole rep is to help
 identify the methods of generating the interest and tracking it, not taking over history. I kind of regret putting
@@ -341,18 +341,18 @@ investing in are the ones we cannot measure**, which for a content-as-rep plan i
 - **Engine already models the whole chain** — `leads → projects → quotes → sales_orders → products.brand_id`, with
  `projects` carrying `source_lead_id`, `brand_id`, `expected_value` and `probability`. **It is broken at three
  unpopulated joins**: *`projects.source_lead_id` **0/50**, `projects.brand_id` **0/50**, `sales_orders.project_id`
- **1/74***. **`JNY-5`.**
+ **1/74***. **`JNY-11`.**
 - ***"Which hook caught which dealer"* is not answerable.** *`lead_sources` has five codes — `website`, `referral`,
  `trade_show`, `manual`, `import` — and there is **no campaign, UTM or attribution table anywhere in engine**. A CPD
  seminar, an AI answer, a podcast and a data card all arrive as `website`. **`lead_sources.meta` is already `jsonb`,
- so an identifier has somewhere to go without a schema change** — nothing writes one.* **`JNY-4`, and every measure
+ so an identifier has somewhere to go without a schema change** — nothing writes one.* **`JNY-10`, and every measure
  of a marketing activity depends on it.**
 - **The activities themselves are not missing.** *`motion/content.md` § The map already places **fourteen content
  types** against the six stages, plus the studio and the virtualised Experience Centre. **What is missing is that
  nothing emits a traceable source** — so the operating loop can produce work and cannot yet learn from it.*
  **`G5` is still undefined** (`support_tickets` exists, 0 rows) — **`JNY-6`**.
 
-**Resume in this order: `ENG-1` → `JNY-4` → `JNY-5` → `JNY-6` → then `ENG-2`.** *Populate the customer type, decide
+**Resume in this order: `ENG-20` → `JNY-10` → `JNY-11` → `JNY-6` → then `ENG-21`.** *Populate the customer type, decide
 the source vocabulary, fill the project joins, define `G5` — **then** two numbers against a working instrument. **The
 target comes last because it is the only part that cannot be built before the instrument works.***
 
@@ -365,7 +365,7 @@ unread**), `G2` has **4 leads** against a complete instrument, and **`G5` now ha
 `support_tickets` exists with statuses defined and 0 rows.* **And the counts show something no design review would
 have: `G4` is five times `G3`**, so **ordering does not currently require crossing the registration hinge** — which
 makes `buyer-journey.md`'s *"registration is the hinge"* an intended policy rather than the observed system.
-**`ENG-7`: close the gate or soften the claim.**
+**`ENG-26`: close the gate or soften the claim.**
 
 **2. How success connects back to activities — the chain exists in full and four links are broken.**
 *`leads` → `projects.source_lead_id` → `projects.brand_id` → `quotes.project_id` → `sales_orders.project_id` →
@@ -384,7 +384,7 @@ for the first two steps.*
 **And the framing this repo had wrong — Neil, 2026-08-20: *"remember it's our platform and we can do what's needed on
 it."*** *Earlier notes treated engine as a fixed constraint and proposed only population. **Engine is under daily
 migration** (`20260820120000_duplicate_product`, applied today), so a missing field is a decision not yet taken.
-**One schema change is proposed: `ENG-4`, the marketing-activity dimension** — additive, nullable, house-shape,
+**One schema change is proposed: `ENG-23`, the marketing-activity dimension** — additive, nullable, house-shape,
 `lead_sources` kept as the coarse channel above it. **Testbed first.**
 
 **↻↻ CORRECTION, 2026-08-20 — and it is the most useful thing in this whole session.** Neil: ***"the website you
@@ -421,7 +421,7 @@ offer"* when it is offered on **two** pages.
 **Still standing from the audit:** *`DR-Q52` is being answered by publication and **more strongly than I wrote** —
 the technical page publishes the corner-loading rule and the install-type effects too, both on the DR's own
 publishable side, and **nothing from "proposed not" appears on any of the five pages**. The two unbuilt promises
-stand (`EST-7`'s reference rooms are on two pages and there is one worked room). `SIT-3`'s unsourced *"100–200 mm"*
+stand (`EST-20`'s reference rooms are on two pages and there is one worked room). `SIT-3`'s unsourced *"100–200 mm"*
 stands. `SIT-2` narrows to one page against the record.*
 
 **And `SIT-7`: `PR-18` still calls the site "an in-play mockup".** *It is a generated output of the current record —
@@ -442,8 +442,8 @@ offer, so it was never a gap.*
 
 **And do not audit a mockup against the guardrails.** *The findings dissolve the moment someone says what it is.*
 
-**Resume at: `ENG-4` — awaiting go-ahead**, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
-should fill), `ENG-6` (define `G5`), `ENG-7` (is registration the gate?). *`ENG-2`/`ENG-3` follow once the data
+**Resume at: `ENG-23` — awaiting go-ahead**, then `ENG-20` (populate the customer type), `ENG-24` (three columns the app
+should fill), `ENG-25` (define `G5`), `ENG-26` (is registration the gate?). *`ENG-21`/`ENG-22` follow once the data
 exists.*
 
 **A stale reading was struck in `brands/c-ats/training.md` on the way through.** *Its header note claimed `T2` was

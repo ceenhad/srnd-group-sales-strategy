@@ -40,7 +40,7 @@ the same day — see below. One motion, everybody treated as new.***
 > `customers.customer_type_id` (`dealer` · `distributor` · `end_user` · `specifier`) and `products.brand_id`, so the
 > structure is **a group target on dealer sales and a brand target on distribution sales, never netted together**,
 > counted at `ordered_at` rather than at the invoice. **333 of 350 live customers are untyped, and until that is
-> filled the two cannot be separated** (`ENG-1`).* **And there is one motion, not three** — *Neil: "treating all of
+> filled the two cannot be separated** (`ENG-20`).* **And there is one motion, not three** — *Neil: "treating all of
 > them as new is the most efficient approach", so the recency segments are measurement, not a segmentation of the
 > pitch.* **The historical ledger is not the instrument**: *invoices are outstanding for work already sold, and what
 > matters is `leads` by source through to conversion.*
@@ -61,7 +61,7 @@ the layer we have never planned is the one that reaches a project first**, ahead
 constantly.*
 
 > **Closes with:** *a decision on whether isolation is **a line to sell** or **a way in** — those imply different
-> work. `KNW-6` fills the record either way.*
+> work. `KNW-10` fills the record either way.*
 
 ### `P3` — The most profitable line has no commercial shape
 

@@ -53,10 +53,10 @@ leads (lead_source_id, source, source_brand_site, enquiry_type, product_id)
 | `projects.source_lead_id` | 0 of 50 | ❌ **the link from an activity to a room** |
 | `projects.brand_id` | 0 of 50 | ❌ **the link from a room to a brand** |
 | `sales_orders.project_id` | 1 of 74 | ❌ **the link from a room to the money** |
-| `customers.customer_type_id` | 17 of 350 | ❌ *the dealer/distributor split — `ENG-1`* |
+| `customers.customer_type_id` | 17 of 350 | ❌ *the dealer/distributor split — `ENG-20`* |
 
 **None of these is a build. All four are fields that exist and are not being filled.** *Which is the same finding as
-`ENG-1`, one layer wider: **engine's capture is ahead of engine's use.***
+`ENG-20`, one layer wider: **engine's capture is ahead of engine's use.***
 
 ## 3. How activities connect back — and this is the real gap
 
@@ -104,16 +104,16 @@ difference between an activity list and a plan.
 
 ## What this says to do, in order
 
-1. **`ENG-1`** — populate `customer_type_id`. *Without it, dealer and distribution cannot be separated at all.*
-2. **`JNY-4`** — decide the source vocabulary: **what identifies a piece, and where it is carried.** *`lead_sources.meta`
+1. **`ENG-20`** — populate `customer_type_id`. *Without it, dealer and distribution cannot be separated at all.*
+2. **`JNY-10`** — decide the source vocabulary: **what identifies a piece, and where it is carried.** *`lead_sources.meta`
    already accepts it. **This is the whole of "which hook caught which dealer."***
-3. **`JNY-5`** — fill the three project joins going forward: `source_lead_id`, `brand_id`, `sales_orders.project_id`.
+3. **`JNY-11`** — fill the three project joins going forward: `source_lead_id`, `brand_id`, `sales_orders.project_id`.
    *A room becomes the traceable unit the moment these are populated — and **the room is the unit the business
    actually works in**.*
 4. **`JNY-6`** — define `G5`. *`support_tickets` exists and is empty; the absence of a ticket is a signal only once
    tickets are being raised.*
 5. **Then, and only then, the target.** *Two numbers against a working instrument: a **group** number on dealer
-   relationships and a **brand** number on distribution — `ENG-2`.*
+   relationships and a **brand** number on distribution — `ENG-21`.*
 
 **What not to do:** *design a new tracker. **Engine already models the chain**; four fields are unpopulated and one
 vocabulary is too coarse. That is the whole gap.*

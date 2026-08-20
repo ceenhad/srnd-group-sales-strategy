@@ -64,9 +64,11 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
 - **Facts about the present go in `evidence/current-state.md`.** The baseline — dealers, revenue shape, lead sources,
  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
  reasoning about it.
-- **The work ratchets; it does not spiral.** **SRND OS is the source of record for what is decided**;
- **nothing enters `decided.md` without Neil's
- explicit approval** (it is empty by instruction, 2026-08-16). New data from real work lands as **evidence**
+- **The work ratchets; it does not spiral.** **A thing is decided only when it went through the question box and
+ a human answered it** — Neil, 2026-08-20: *"that's it. The gate is a human verifies the decisions."* *`decided.md`
+ indexes those and nothing else: **not** a session's conclusion, **not** a proposed default nobody ratified, **not**
+ an inference from a document, **not** something that follows obviously from a decision. If it was not asked and
+ answered, it stays a question.* New data from real work lands as **evidence**
  against a decision or an open item — it does not reopen the reasoning that produced the decision. After
  logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
  the plan over re-arguing the strategy.**

@@ -49,7 +49,7 @@ Brand detail sits underneath it.*
 | B2 | Lead → room | `projects.source_lead_id` | 0 of 50 | A project cannot be traced back to what caused it |
 | B3 | Room → brand | `projects.brand_id` | 0 of 50 | Per-brand pipeline is unavailable, though the column exists |
 | B4 | Room → order | `sales_orders.project_id` | 1 of 74 | *Revenue cannot be attributed to the project it came from.* `quotes.project_id` is **10 of 13**, so **quotes are linked and orders are not** |
-| — | Dealer vs distributor | `customers.customer_type_id` | 17 of 350 | The dual target cannot be split at all (`ENG-1`) |
+| — | Dealer vs distributor | `customers.customer_type_id` | 17 of 350 | The dual target cannot be split at all (`ENG-20`) |
 
 **`B1` is the one that needs a schema change. `B2`–`B4` are population and app workflow, not database design** —
 *the columns are there and nothing is filling them, which is a question about the app's forms rather than about the
@@ -108,7 +108,7 @@ updated_at`.*
 *Additive and nullable, so nothing existing breaks. **`lead_sources` stays as the coarse channel; this is the piece
 underneath it**, which is the right split rather than exploding a five-row lookup into fifty.*
 
-**Then, and these are not schema:** *populate `customer_type_id` (`ENG-1`, 333 rows) · make the app set
+**Then, and these are not schema:** *populate `customer_type_id` (`ENG-20`, 333 rows) · make the app set
 `projects.source_lead_id`, `projects.brand_id` and `sales_orders.project_id` · define `G5` before instrumenting it ·
 and decide whether registration really is the gate, given `G4` is five times `G3`.*
 

@@ -65,8 +65,8 @@ held up, and the counts exist now: `G3` **6** · `G4` **35** · `G6` **2**.** *`
 web analytics; engine sees a visitor only once they become a lead, though **brand-of-entry is recorded on 329 of 350
 customers**), `G2` has 4 leads against a full instrument, and **`G5` now has a candidate signal because
 `support_tickets` exists** — 0 rows, statuses and priorities defined, so *"an order with no escalation"* is
-definable (`ENG-6`).* **And one thing the counts show that no design review would have:** *`G4` is **five times**
-`G3`, so **ordering does not currently require crossing the registration hinge** — `ENG-7`.*
+definable (`ENG-25`).* **And one thing the counts show that no design review would have:** *`G4` is **five times**
+`G3`, so **ordering does not currently require crossing the registration hinge** — `ENG-26`.*
 
 **Two honest notes.** Only G3, G4 and G6 are cleanly observable today; G2's signals partly exist (tool leads
 land in engine), and G5's needs defining before anything can trigger on it. And per the standing rule, the

@@ -500,8 +500,8 @@ data-entry job against a field that already exists, and it is the cheapest high-
 it."*** *An earlier draft of this section treated engine as a fixed constraint and proposed only population. **That
 was over-cautious**: engine is under daily migration, so a missing field is a decision not yet taken.* **What is
 actually needed is one migration and three fills** — *`../evidence/2026-08-20-gateway-instrumentation.md`: the
-**marketing-activity dimension** (`ENG-4`) is the schema change, because five lead-source codes cannot tell a
-seminar from an AI answer; the rest is population (`ENG-1`) and app forms (`ENG-5`).* **Testbed first, then
+**marketing-activity dimension** (`ENG-23`) is the schema change, because five lead-source codes cannot tell a
+seminar from an AI answer; the rest is population (`ENG-20`) and app forms (`ENG-24`).* **Testbed first, then
 production — a live system with 74 orders in it deserves a rehearsal.**
 
 ## What to do with this
