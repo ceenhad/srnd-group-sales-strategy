@@ -47,6 +47,15 @@ compliance gate, where a dealer cannot finish the job without the certificate.*
 - **~~Anything drawn from the design rules themselves~~** — the five-step hierarchy, per-axis flatness, the budget
   formula. **`DR-Q52` is undecided and this repo does not pre-empt it.**
 
+**↻ The leg's biggest worry is answered, 2026-08-19 (`Q77`).** *Every training row here carries an unstated
+anxiety: **if we teach it, do we stop being paid for it?*** **Neil's answer removes it.** *The acoustic design does
+not get done for **three** reasons and **only one of them is knowledge**: the acoustic consultant does not want the
+work, the interior designer does not have the knowledge, **the integrator does not want to spend the time** — and
+therefore ***"even with guides, someone gets paid to design it"*** (`claims.md` `C1.43`, `C1.44`). **So teaching the
+subject costs nothing we were being paid for**, because what is sold is hours and willingness, not access to a
+method. *Two things follow: **`T2` and `T3` are safe to run as written**, and **`Q45`'s design fee finally has a
+stated justification** — it is not priced against knowledge scarcity.*
+
 ## What this instance shows about the leg
 
 - **Five rows; two are runnable today and both are now drafted** (`T5`, `T2`) — `T2` as our own class, with only

@@ -135,7 +135,29 @@ owner**, which is why the decision waits — **my derivation, now `T2`'s central
 `C1.42` *(SRND in all three layers, which makes *"one relationship, whole room"* structural rather than a slogan —
 **a `group` row, and the group layer has never had this account**)*.
 
-**Resume at: `Q77` — is `C1.41` right?** *If the treatment layer genuinely has no owner, that is a better argument
+**`Q77` answered, and it is the most commercially useful answer of the day.** *The acoustic layer is **not**
+ownerless — I had that wrong. **It has an owner who declines it.** Neil: the acoustic consultant of the ordinary
+commercial kind **does not want the work**; the interior designer **does not have the knowledge**; the integrator
+**does not want to spend the time** — *"which is why, even with guides, someone gets paid to design it."*
+**Only one of the three is a knowledge problem** (`C1.43`, `C1.44`).* **Three things this settles beyond `T2`:**
+*(1) **the training leg's standing worry is gone** — teaching the subject cannot cannibalise the design fee, because
+what is sold is hours and willingness, not access to a method; (2) **`Q45`'s fee finally has a stated
+justification**, and it argues the fee should **not** fall in proportion to the time Cinema Tools saved, because the
+saving is ours and what the customer buys is unchanged; (3) **`DR-Q52` gets cheaper** — if guides do not remove the
+need to pay someone, publishing more of the method costs less than this repo has assumed.* **And the depth argument
+came back in the owner's own words, one layer in from where I had put it:** *the isolation design sets the structural
+shell; **inside it, depth is stolen from the usable room** (`C1.45`). `PR-21` stays broken as written, with its true
+half recovered — **breaking a premise cleanly can throw away a true argument along with the wrong owner**, and this
+one survived only because Neil restated it unprompted.*
+
+**Resume at: `Q78` — two confirmed rows that need reconciling.** *`C1.39` says C-ATS is **a system a dealer runs
+without hiring the author**; `C1.43` says **the integrator will not spend the time** on the design. My reading is
+that these are different halves — **the design is bought from us, the room does not need us in it** — which would
+also fix the wording rule: *"runs it without hiring the author"* is a claim about the install and the room, **never
+about the design stage**. If that reading is wrong, `C1.39` is overstated and the line against the design-led tier
+weakens.* *Behind it: `Q76`'s two decisions on the client leave-behind, `T5`'s two confirmations, and `Q74`.*
+
+~~**Resume at: `Q77` — is `C1.41` right?**~~ *If the treatment layer genuinely has no owner, that is a better argument
 than anything else in `T2`, because it explains the behaviour instead of describing the sequence. **If it is wrong,
 `T2` has no central argument** and reverts to a description. `T5`'s two confirmations and `Q76`'s two decisions are
 still open behind it.*

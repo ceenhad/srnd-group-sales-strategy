@@ -20,7 +20,7 @@ it is a **construction** decision, not a kit decision.*
 treat.** *Acoustic treatment in a high-end room is concealed. It sits behind the finish, inside the wall build-up.
 So it is specified with the wall, not after it.*
 
-### Four reasons it sits earlier in the programme than people expect
+### Five reasons it sits earlier in the programme than people expect
 
 **1. It is inside the wall, not on it.** *The panels sit behind a stretch-fabric finish, concealed — that is how
 rooms at this level are finished. **A concealed layer has to be decided before the layer that conceals it.*** Once
@@ -32,25 +32,42 @@ the fabric is on, changing the acoustics means opening the wall again.
 physically, in the space between the isolated structure and the visible finish, and organisationally, between two
 disciplines.* **So it has to be coordinated with both, and it belongs to neither** (Neil, 2026-08-19).*
 
-**That is the real reason it gets left late: it is the only layer in the room without a natural owner.** *The
-structure has one. The finish has one. **The layer in between is everybody's second priority**, and a decision that
-is nobody's first is the decision that waits.*
+**3. And the reason it gets left late is not that nobody owns it — it is that three different people each have a
+reason not to do it.** *The acoustic layer **does** have an owner on paper: the **acoustic consultant**. What happens
+in practice is three separate refusals (Neil, 2026-08-19):*
 
-*The depth of the treatment matters here, but not in the way it is usually pitched: **it has to fit in the space
-that already exists between those two layers, without pushing the finish inward or eating into the isolation
-build-up.** A shallow system fits where a deep one forces one of the other two layers to move — and moving either of
-them is somebody else's drawing.*
+- **The acoustic consultant of the ordinary commercial kind does not want the work.**
+- **The interior designer does not have the knowledge.**
+- **The integrator does not want to spend the time.**
 
-> **⚠ This reason replaced an earlier draft that was wrong.** *I had written that the treatment depth drove the
-> architect's finished dimensions. **It does not — the isolation design does that**, and conflating the two put
-> C-ATS in a decision it is not in (`claims.md` `C1.40`, Neil's correction on `Q75`).*
+**Only one of those three is a knowledge problem.** *That is why the decision waits, and it is also why somebody gets
+paid to do it — **even where the guides exist.** A published method does not make a party who does not want the job
+want it, and it does not give an integrator the hours back.*
 
-**3. The corners have to still be available.** *Low-frequency control is a **corner** problem — the absorber is
+**What this means for the room in front of you:** *the acoustic layer is the one that has to be actively picked up by
+somebody, early, or it arrives late by default. **It is not a gap in anybody's competence — it is a gap in the
+programme.***
+
+### And depth, because it is implied in all of the above
+
+**Inside a finished shell, the depth of the treatment comes straight out of the usable room.** *The structural
+dimensions are the isolation design's business. **What sits inboard of that — the treatment and the finish — is taken
+out of the space people actually use.** The deeper the product, the more of the room it steals, and at this level
+that space is the most expensive thing in the project.*
+
+> **⚠ Both parts of this section replaced earlier drafts that were wrong, and it is worth leaving the record
+> visible.** *First I wrote that the treatment depth drove the **architect's** dimensions — it does not, the
+> isolation design does (`claims.md` `C1.40`). Then I wrote that the treatment layer had **no owner** — it has one,
+> the acoustic consultant, who typically declines it (`C1.41`, `C1.43`). **The behaviour was right both times and my
+> explanation of it was wrong both times**, which is a fair warning about arguing from structure without asking
+> somebody who has been in the room.*
+
+**4. The corners have to still be available.** *Low-frequency control is a **corner** problem — the absorber is
 corner-loaded, and it needs a corner to work in. Corners are also where boxing, services and speakers end up. **If
 the corners are committed before anyone has looked at the acoustics, the one element of the system whose position is
 not negotiable has nowhere to go.***
 
-**4. The acoustic design is drawn *from* the specifier's documents, not after them.** *Neil, 2026-08-19: **"you need
+**5. The acoustic design is drawn *from* the specifier's documents, not after them.** *Neil, 2026-08-19: **"you need
 full data on the room finishes etc. to do an acoustic design — that's not C-ATS specific."** The inputs are the
 finish schedule, the geometry and the seating — the architect's and the interior designer's own drawings. **So the
 acoustic design is not a thing that happens once the room is chosen; it is a thing that reads the choices.***
@@ -72,14 +89,19 @@ audience of architects is exactly the audience who would ask how we know.*
 
 ### Why this is a class and not a pitch
 
-**Three quarters of the argument above is true of any concealed acoustic treatment, not only ours.** *That is not a
-weakness of the piece — it is what makes it teachable. **The subject is the sequence, and the sequence is a fact
-about buildings.***
+**Almost all of the argument above is true of any concealed acoustic treatment, not only ours.** *That is not a
+weakness of the piece — it is what makes it teachable. **The subject is the sequence and why it stalls, and both are
+facts about how projects run rather than facts about our product.***
 
-**C-ATS enters at reason 2 and nowhere else.** *The three-layer account is the subject, and it is true of any
-concealed treatment. **Where we enter is that the layer in between is ours, and it is shallow enough to live there
-without moving anybody else's drawing** — which a specifier can check for themselves from published dimensions,
-without us asserting anything.* **Lead with the sequence; let the depth follow from it.** *(`../../CLAUDE.md`:
+**C-ATS enters at the depth point and nowhere else.** *The three-layer account and the three refusals are the
+subject, and both are true of any concealed treatment. **Where we enter is that depth inboard of the shell comes out
+of the usable room** — which a specifier can work out for themselves from published dimensions, without us asserting
+anything.* **Lead with the sequence; let the depth follow from it.**
+
+**And the class does not undercut the design service** — *which is the question the training leg keeps asking itself.
+**Two of the three reasons the work does not get done are willingness and time, not knowledge** (`C1.43`), so
+explaining the sequence to a room full of architects and integrators does not remove the reason somebody gets paid
+to do the design (`C1.44`). **Teaching this costs us nothing we were being paid for.*** *(`../../CLAUDE.md`:
 never lead with our own brilliance — and the Scandinavian register, restraint over superlatives.)*
 
 **Who is the hero of the sentence.** *The dealer relationship is still the asset; what widens here is **who is
@@ -96,9 +118,11 @@ the question is really being asked (`C2.26`).*
 | Panels are concealed behind a stretch-fabric finish | `product-records.md` shared, **Where they sit** | Recorded |
 | Therefore the treatment must be decided before the wall is built | `product-records.md` `N6` — *"derivable and load-bearing… and it has never been stated"* | **Derived in the record; this piece is its first statement** |
 | **Three layers: isolation sets the structural dimensions, interior design sets the visible fabric wall, treatment sits between them** | Neil, 2026-08-19 (`Q75`) — `claims.md` `C1.40` | **Confirmed, his words.** *It replaced my dimensions argument, which was wrong* |
-| The treatment layer has no natural owner, which is why it waits | `claims.md` `C1.41` | **Derived from `C1.40`, and stated in the piece as the reason** |
+| ~~The treatment layer has no natural owner~~ **Three parties, three reasons it does not get done** — the acoustic consultant does not want it, the interior designer lacks the knowledge, the integrator will not spend the time | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.41`, `C1.43` | **Confirmed, his words.** *It replaced my "no owner" derivation, which was wrong* |
+| Even with guides, someone gets paid to design it | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.44` | **Confirmed, his words**, and it is why this class does not give the design fee away |
+| Depth is taken out of the **usable** room, inside a shell the isolation design set | Neil, 2026-08-19 (`Q77`) — `claims.md` `C1.45` | **Confirmed, his words** |
 | Depths are 50 / 50 / 43 mm, and minimum depth was a design goal | `product-records.md` shared **Depth**, corrected by Neil 2026-08-19 | Recorded. **`DAT-1` is open on the canonical dataset carrying 50 mm for the RES-CP** — the piece quotes no per-panel figure, so it is not blocked |
-| A shallow system fits between the two layers without moving either | Derived from `C1.40` and the depth field | **Derivation, and the honest form of the depth argument** — *the floor-area version (Neil, 2026-08-19) is a real point but it belongs to the isolation shell's dimensions, not to ours* |
+| ~~A shallow system fits between the two layers without moving either~~ | ~~Derived~~ | **Superseded by `C1.45`, which is the owner's own form of the same point and stronger than my derivation** |
 | Low-frequency control needs corner access and corner placement | `product-records.md` resonance record — **What it requires from others**, and **Limits** | Recorded |
 | An acoustic design needs full room-finish data | Neil, 2026-08-19 (`Q68`) | Recorded, his words |
 | Room above 18 °C for 24 hours before the adhesive panel goes on | `product-records.md` reverberation record — **What it requires from others** | Recorded |
@@ -129,6 +153,13 @@ the question is really being asked (`C2.26`).*
    isolation design sets the structural dimensions, the interior design sets the visible fabric wall, and **C-ATS
    fits between the two** — *"physically and metaphorically"*, in Neil's words. **`SRND` is often involved in all
    three**, which is a group-level fact and is logged as `claims.md` `C1.42` rather than argued here.*
-4. **New, and it is the strongest thing in the piece: is `C1.41` right? — open as `Q77`.** *That the treatment layer **has no natural
-   owner** is my derivation from Neil's answer, not his statement. **It is now the piece's central argument** — the
-   reason the decision gets left late — so it needs the same confirmation the dimensions claim did not survive.*
+4. ~~**Is `C1.41` right?**~~ **ANSWERED 2026-08-19 (`Q77`) — no, and the correction is the best material in the
+   piece.** *The layer has an owner: **the acoustic consultant**, who typically does not want the work; the interior
+   designer lacks the knowledge; the integrator will not spend the time. **Section 3 above is now built on Neil's
+   three reasons rather than on my derivation**, and it carries a consequence the "no owner" version could not
+   reach: **even with guides, someone gets paid to design it** (`C1.44`).*
+5. **One thing to check against a confirmed claim, and it is not this piece's to settle.** *`C1.39` says C-ATS is **a
+   system a dealer runs without hiring the author**, while `C1.43` says the integrator **does not want to spend the
+   time** on the design. *My reading: those are different halves — the **design** is bought from us, the **room** does
+   not need us in it.* **But `C1.39` is a confirmed row and this is load-bearing for positioning, so it is asked
+   rather than assumed** — `Q78`.*
