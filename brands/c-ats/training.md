@@ -6,7 +6,11 @@
 > has authored prose yet** — it lives once in `why/<trackedId>.md` and renders into both tracks, and that directory
 > does not exist. **So the precondition on every row below is wrong in the useful direction: the syllabus is mapped,
 > the prose is not**, and each section written serves two curricula. **`T2` in particular** — deciding acoustics
-> before the wall is built — *is a RIBA 2 Concept Design subject, and 21 chapters already sit at that stage.*
+> before the wall is built — ~~*is a RIBA 2 Concept Design subject, and 21 chapters already sit at that stage.*~~
+> **Struck 2026-08-19 by the correction in `../../evidence/2026-08-19-acoustics-competitor-scan.md`:** *the
+> curriculum's `ribaStage` marks **when a commitment is proven, not when it is taught**, so the thirteen
+> `acousticTreatment` chapters sit at **RIBA 6**. **`T2` still maps to that curriculum** — the eight design
+> principles under `acoustic-treatment-brief` are its subject matter — **but not via the stage field.***
 
 *Leg 4 of the brand run (`../_template/the-brand-run.md`), first instance. **Every subject traces to a record field
 or a confirmed claim** — a subject with no trace is a topic, not an opportunity. **Not yet put to Neil**; the
@@ -22,7 +26,7 @@ compliance gate, where a dealer cannot finish the job without the certificate.*
 | # | Subject | Audience | Route | Traced to | Needs to run | Publication limit | State |
 |---|---|---|---|---|---|---|---|
 | **T1** | **Reaction-to-fire evidence for a specified project** — what Class 0, EN 13501-1 and IMO-SOLAS mean, which one a job will ask for, and how to get the right certificate for the exact product **and finish** | Integrator; AV consultant | Our own class; recorded and published | `product-records.md` § Fire — *"specified projects will ask for reaction-to-fire evidence"* | **The current EN 13501-1 classification, `[?]` in the record — `DAT-3`** | None — compliance data is meant to be shown | **Blocked on one fetch.** *The strongest row here: it is the one measured thing a dealer cannot do the job without* |
-| **T2** | **Deciding acoustics before the wall is built** — why the treatment decision sits *earlier* in the programme than the fabric layer, and what is lost by leaving it late | Integrator; **architect; interior designer** | RIBA-approved CPD; a distributor academy; our own class | `product-records.md` `N6` — the panels are concealed, *"so the treatment must be decided before the wall is built"* | An owner's time; CPD accreditation for the architect route | None | **Runnable as a class; the CPD route needs accreditation.** *Reaches the specifier cast (`C2.27`) and is the only row that does* |
+| **T2** | **Deciding acoustics before the wall is built** — why the treatment decision sits *earlier* in the programme than the fabric layer, and what is lost by leaving it late | Integrator; **architect; interior designer** | RIBA-approved CPD; a distributor academy; our own class | `product-records.md` `N6` — the panels are concealed, *"so the treatment must be decided before the wall is built"* | An owner's time; CPD accreditation for the architect route | None | **DRAFTED 2026-08-19 — `draft-t2-decide-before-the-wall.md`, for correction.** *Runnable as our own class today; the CPD route's accreditation requirements are unchecked. **Three confirmations sit at the foot of the draft**, and the load-bearing one is `N6` itself: the *"decide it before the wall"* sequence is **this repo's derivation, never an owner's statement**, and the whole piece rests on it.* Reaches the specifier cast (`C2.27`) and is the only row that does |
 | **T3** | **Specifying and pricing the acoustic layer at design stage** — putting a defensible number on treatment early enough to quote the client | Integrator | Distributor academy; our own class | `claims.md` `C2.24`–`C2.26` (the three design-stage moments); the **1.44 m² box quantum** | An owner's time. **`Q45` part-answered 2026-08-19** — the basis changed (a design is now a day, not three, because Cinema Tools exists; *"I don't want free but we can consider reducing"*). **The number is still unset** | Box quantum is on `DR-Q52`'s proposed publishable side | **Needs `Q45`.** *`C2.25` is the moment a dealer cannot pass: they cannot quote without a number* |
 | **T4** | **Where a low-frequency absorber goes, and why a corner** — corner loading, corner-straddle placement, the ceiling-corner lever | Integrator | Our own class; recorded | `product-records.md` `O4`, `R1`; `claims.md` `C4.15` | An owner's time | **`DR-Q52`** — corner-straddle placement and the ceiling-corner lever are on the **proposed publishable** side, **not yet decided** | **Gated on `DR-Q52`** |
 | **T5** | **Installing forgivingly** — panels may move **~±300 mm** from the designed position without material performance impact | Integrator | Recorded; in the box | `product-records.md` § Layout tolerance — *"a genuine selling point that is nowhere in the marketing"*; `H2`, called *"the most interesting true thing about the range"* | An owner's time, once | None | **DRAFTED 2026-08-19 — `draft-t5-layout-tolerance.md`, for correction.** *Two things to confirm before it publishes: the ~300 mm figure traces to a decode of a **2015** brochure the provenance table flags as *"legacy, confirm current spec"*, and this piece is entirely that number; and it must stay **"about 300 mm"**, since an exact figure claims a precision the record does not.* **The resonance panel is excluded — the corner exception is stated in the piece rather than buried** |
@@ -45,10 +49,11 @@ compliance gate, where a dealer cannot finish the job without the certificate.*
 
 ## What this instance shows about the leg
 
-- **Five rows, and only one is runnable today** (`T5`) — with a second (`T2`) runnable as a class and blocked only
-  on accreditation for the route that reaches architects. *The rest wait on a fetch (`T1`), a price (`Q45`, `T3`) or
+- **Five rows; two are runnable today and both are now drafted** (`T5`, `T2`) — `T2` as our own class, with only
+  the architect-facing CPD route blocked on accreditation. *The rest wait on a fetch (`T1`), a price (`Q45`, `T3`) or
   a decision elsewhere (`DR-Q52`, `T4`).* **The leg's value is that it made the queue visible, not that it produced
-  a syllabus.**
+  a syllabus** — *and the two drafts show what the queue was hiding: **the runnable subjects needed no new
+  information at all**, only for something already in the record to be written down.*
 - **The compliance row is the strongest, exactly as the rule predicts.** *`T1` is the only subject where a dealer
   **cannot complete the job** without what we know — and it is blocked on a single missing classification in our own
   record.*

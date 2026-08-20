@@ -89,13 +89,33 @@ per opportunity: audience from the confirmed actor cast, route, a subject **trac
 precondition, the publication limit, and its state. **`EDU-2` done** — `brands/c-ats/training.md`, five rows and three
 rejections, so the shape is tested rather than proposed. *`T5` (±300 mm layout tolerance) is runnable today; `T2`
 (deciding acoustics before the wall is built) is runnable as a class and is **the only row that reaches the specifier
-cast**; `T1` is blocked on **one missing EN 13501-1 classification in our own record** and is the strongest row,
+cast** — **both are now drafted for correction** (`brands/c-ats/draft-t5-layout-tolerance.md`,
+`brands/c-ats/draft-t2-decide-before-the-wall.md`), *and what the two drafts showed is that **the runnable subjects
+needed no new information at all** — only for something already in the record to be written down*; `T1` is blocked on **one missing EN 13501-1 classification in our own record** and is the strongest row,
 because it is the only subject a dealer cannot finish the job without; `T3` waits on `Q45`, `T4` on `DR-Q52`.* **The
 leg earned its place by making a queue visible, not by producing a syllabus** — and four of five rows speak to the
 integrator, which against `C2.27` is itself the finding. *Two things make the leg cut differently from the others: the design-led competitor tier **publishes no
 measured data at all**, so teaching from measurement is available to us and not to them; and `EDU-1` is the one
 place in this repo where **build-it-then-say-it does not bite**, because the capability is long-held and only the
 activity lapsed. `strategy.md` still says three legs — `DOC-30`.*
+
+**Resume at: `T2`'s three confirmations, and `Q75`.** *The `T2` draft rests entirely on `N6`'s derivation —
+**the treatment is concealed, therefore it is decided before the wall** — which is this repo's inference and has
+never been an owner's statement. **`Q75` puts it to Neil**, together with the consequence that makes it an
+architect's subject rather than an AV one: **treatment depth is part of the wall build-up, so it feeds the finished
+dimensions on the drawing.** *Two lesser confirmations sit at the foot of the draft: the CPD accreditation route is
+unchecked (our own class needs no one's permission), and whether the depth sentence should carry numbers at all
+while `DAT-1` is open.* **And one thing the draft deliberately leaves empty**: when the acoustic decision actually
+gets made on a real job is still `[?]`, so the piece argues from the construction sequence and **claims no rate of
+failure** — an audience of architects is precisely the audience who would ask how we know.
+
+**A stale reading was struck in `brands/c-ats/training.md` on the way through.** *Its header note claimed `T2` was
+*"a RIBA 2 Concept Design subject with 21 chapters already at that stage"*. **The curriculum's `ribaStage` marks when
+a commitment is proven, not when it is taught** — the correction is in
+`evidence/2026-08-19-acoustics-competitor-scan.md` and the acoustics chapters sit at **RIBA 6**. `T2` still maps to
+that curriculum through the eight design principles under `acoustic-treatment-brief`, **but not via the stage
+field.** *The note had been written before the correction and survived it, which is the propagation-by-citation
+failure `method.md` names, running the wrong way.*
 
 **The competitor work turned up one thing that is not a competitor finding at all.** **`EDU-1`: the education
 layer was held and vacated** — Neil ran cinema training and design classes for years and stopped roughly a decade
