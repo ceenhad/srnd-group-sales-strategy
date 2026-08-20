@@ -68,7 +68,13 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
  a human answered it** — Neil, 2026-08-20: *"that's it. The gate is a human verifies the decisions."* *The question, its answer in the owner's words and the date **are** the
  decision — `registers/questions.md` § Answered is the record, and **there is no second copy of it.** So a session's
  conclusion is not a decision; nor is a proposed default nobody ratified, an inference from a document, or something
- that follows obviously from a decision. **If it was not asked and answered, it stays a question.*** New data from real work lands as **evidence**
+ that follows obviously from a decision. **If it was not asked and answered, it stays a question.***
+- **A question earns the box only if the answer is a decision the business acts on.** *Test: would anything outside
+ this repo be done differently tomorrow? **If the answer only settles a wording, a filing choice, whether a row
+ stands or which document something lives in, it is not a question — it is work**, and putting it to an owner spends
+ the scarcest thing in the process on the cheapest problem. Measured 2026-08-20: of 61 answered questions, **22 were
+ pure repo housekeeping** and about a third produced anything the business would act on. Neil: **"what this indicates
+ is that your questions are shite."*** New data from real work lands as **evidence**
  against a decision or an open item — it does not reopen the reasoning that produced the decision. After
  logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
  the plan over re-arguing the strategy.**

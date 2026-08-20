@@ -9,19 +9,24 @@ write a novel every time or risking feedback being logged against the wrong poin
 
 ## How it runs
 
-**This register is the decision record.** *A question, its answer in Neil's words, and the date — that is the
-decision, and there is no second copy of it anywhere (`../CLAUDE.md`). **§ Answered is what is settled.***
+**One question per row, permanent `Q` id, the answer recorded in Neil's own words with a date.** *That row is the
+record of the decision being made. The current position it produces belongs in the owning brand or area document;
+`../decided.md` is only the feed SRND OS reads, and takes **business decisions only**.*
 
-**A row exists here once the question has actually been put to him.** *Questions that have not been asked yet are
-queued in `backlog.md` as rows typed **`Ask`** — that is the difference between the two registers: **a task needs a
-producer, a question needs Neil**, and a question that has not reached him is not yet a row here.*
+**The bar for asking, set 2026-08-20.** *A question earns the box only if the answer is a decision the business acts
+on. **Would anything outside this repo be done differently tomorrow?** If it only settles a wording, a filing choice,
+whether a row stands, or which document something lives in — **that is work, not a question**, and asking it spends
+an owner's attention on the cheapest problem in the process.*
 
-**§ Open therefore means asked and awaiting an answer** — *with two exceptions still sitting in it, both marked in
-place: rows drafted as questions in earlier sessions that were never put in the box, and rows that turned out to
-belong to another repo's owner.*
+> **Why the bar exists.** *Measured against this register: of 61 answered questions, **22 were pure repo
+> housekeeping**, 8 were neither business nor repo, and most of the rest were business topics settled at the level of
+> a wording. **About a third produced anything the business would act on**, which is why `../decided.md` is empty.
+> Neil: **"what this indicates is that your questions are shite."***
 
-**IDs are not recycled.** *A retired number leaves a gap rather than being reused, so a citation cannot silently
-point at something else.*
+**A row appears here once the question has actually been put to him.** *Anything not yet asked is queued in
+`backlog.md` as a row typed **`Ask`** — a task needs a producer, a question needs Neil.*
+
+**IDs are not recycled**, so a citation always resolves.
 
 ## Open
 
