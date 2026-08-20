@@ -460,8 +460,9 @@ mockup** (`PR-18`'s subject; unfinished by design, **not evidence**) · `cats-98
 
 **Five findings survive.** *(1) **`SIT-9` — a published article attaches "diffuser" to the Reflection Control
 Panel**, which `C5.15` forbids: the only rule violation found. (2) **`N3`'s "two of thirteen written" is wrong** —
-at least five answers are published; **`SIT-12` checks whether they are right**, since (1) proves one is not. (3)
-**`DAT-1` is public** — the live site states the 50 mm whole-system claim. (4) **`DOC-8` is answerable from the
+at least five answers are published; **`SIT-12` checks whether they are right**, since (1) proves one is not. (3) ~~`DAT-1` is public~~ —
+**withdrawn: my misreading.** *"Within a depth of just 50 mm" is a **bound**, and 43 mm satisfies it, so the live
+site was never wrong and `DAT-1` stays scoped to `panels.json`.* (4) **`DOC-8` is answerable from the
 published BSRIA report** — one commission, *"3 materials in 8 configurations"*, marine in the same batch. (5)
 **`P7` withdrawn** — verification is an offer, and `copy.md` said so all along.*
 

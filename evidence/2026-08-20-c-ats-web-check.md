@@ -24,8 +24,13 @@ right. The audit was one look's worth of work and became five files.** *What fol
 2. **`N3`'s "two of thirteen are written down" is wrong.** *At least five answers are published — bond-or-screw,
    behind-fabric, why-the-figures-look-low, fire ratings, and a BSRIA/ISO 354 data article.* **`SIT-12`: check whether
    each published answer is *right*, because finding 1 proves one is not.**
-3. **`DAT-1` is public, not just internal.** *The live site states **"within a depth of just 50mm"** as a
-   whole-system claim; the RES-CP is **43 mm**.*
+3. ~~**`DAT-1` is public, not just internal.**~~ **WITHDRAWN — my error, and Neil caught it.** *I read the live
+   site's **"all of this is achieved within a depth of just 50mm"** as a per-panel claim contradicted by the 43 mm
+   resonance panel. **It is a bound, and 43 mm satisfies it.** The live site is correct, `cats-98x.pages.dev` is
+   correct, and **`DAT-1` stays exactly where it was scoped: `panels.json` records the RES-CP as 50 mm.** No public
+   content defect exists.* **Recorded rather than deleted because the shape recurs: I turned a true bounded statement
+   into a false specific one** — *which is `Q63`'s lesson running backwards, since `Q63` exists to keep depth claims
+   bounded.*
 4. **`DOC-8` is answerable from a document already published.** *The live technical page: **"3 materials in 8
    different configurations… BS EN ISO 354:2003"**, one commission, and the marine sheet shipped in the same April
    2023 batch. **Read `BSRIA-Final-Report-100241-1.pdf`.***
