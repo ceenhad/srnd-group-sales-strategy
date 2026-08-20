@@ -26,12 +26,24 @@ So it is specified with the wall, not after it.*
 rooms at this level are finished. **A concealed layer has to be decided before the layer that conceals it.*** Once
 the fabric is on, changing the acoustics means opening the wall again.
 
-**2. It changes the finished dimensions of the room.** *The treatment depth plus the fabric layer is part of the
-build-out from the structural wall — so **the internal dimensions on the drawing depend on which treatment is
-inside it.** A deeper system takes more of the room. **At this level the floor area a deep system consumes costs
-considerably more than the treatment itself**, which is why minimum depth was a design goal of this system rather
-than a specification detail (Neil, 2026-08-19).* **This is the reason the subject belongs to the architect and not
-only to the AV budget.**
+**2. It sits between two layers that belong to two other people.** *A room like this is built in three layers.
+**The sound isolation design sets the room's structural dimensions**, and it travels with the architectural design.
+**The interior design sets the fabric wall the client actually sees.** *The acoustic treatment sits between them —
+physically, in the space between the isolated structure and the visible finish, and organisationally, between two
+disciplines.* **So it has to be coordinated with both, and it belongs to neither** (Neil, 2026-08-19).*
+
+**That is the real reason it gets left late: it is the only layer in the room without a natural owner.** *The
+structure has one. The finish has one. **The layer in between is everybody's second priority**, and a decision that
+is nobody's first is the decision that waits.*
+
+*The depth of the treatment matters here, but not in the way it is usually pitched: **it has to fit in the space
+that already exists between those two layers, without pushing the finish inward or eating into the isolation
+build-up.** A shallow system fits where a deep one forces one of the other two layers to move — and moving either of
+them is somebody else's drawing.*
+
+> **⚠ This reason replaced an earlier draft that was wrong.** *I had written that the treatment depth drove the
+> architect's finished dimensions. **It does not — the isolation design does that**, and conflating the two put
+> C-ATS in a decision it is not in (`claims.md` `C1.40`, Neil's correction on `Q75`).*
 
 **3. The corners have to still be available.** *Low-frequency control is a **corner** problem — the absorber is
 corner-loaded, and it needs a corner to work in. Corners are also where boxing, services and speakers end up. **If
@@ -64,9 +76,10 @@ audience of architects is exactly the audience who would ask how we know.*
 weakness of the piece — it is what makes it teachable. **The subject is the sequence, and the sequence is a fact
 about buildings.***
 
-**C-ATS enters at reason 2 and nowhere else.** *If the depth of the treatment is part of the wall build-up, then a
-shallower system gives the room back — and that is a comparison a specifier can make for themselves, from published
-dimensions, without us asserting anything.* **Lead with the sequence; let the depth follow from it.** *(`../../CLAUDE.md`:
+**C-ATS enters at reason 2 and nowhere else.** *The three-layer account is the subject, and it is true of any
+concealed treatment. **Where we enter is that the layer in between is ours, and it is shallow enough to live there
+without moving anybody else's drawing** — which a specifier can check for themselves from published dimensions,
+without us asserting anything.* **Lead with the sequence; let the depth follow from it.** *(`../../CLAUDE.md`:
 never lead with our own brilliance — and the Scandinavian register, restraint over superlatives.)*
 
 **Who is the hero of the sentence.** *The dealer relationship is still the asset; what widens here is **who is
@@ -82,8 +95,10 @@ the question is really being asked (`C2.26`).*
 |---|---|---|
 | Panels are concealed behind a stretch-fabric finish | `product-records.md` shared, **Where they sit** | Recorded |
 | Therefore the treatment must be decided before the wall is built | `product-records.md` `N6` — *"derivable and load-bearing… and it has never been stated"* | **Derived in the record; this piece is its first statement** |
+| **Three layers: isolation sets the structural dimensions, interior design sets the visible fabric wall, treatment sits between them** | Neil, 2026-08-19 (`Q75`) — `claims.md` `C1.40` | **Confirmed, his words.** *It replaced my dimensions argument, which was wrong* |
+| The treatment layer has no natural owner, which is why it waits | `claims.md` `C1.41` | **Derived from `C1.40`, and stated in the piece as the reason** |
 | Depths are 50 / 50 / 43 mm, and minimum depth was a design goal | `product-records.md` shared **Depth**, corrected by Neil 2026-08-19 | Recorded. **`DAT-1` is open on the canonical dataset carrying 50 mm for the RES-CP** — the piece quotes no per-panel figure, so it is not blocked |
-| Floor area consumed by a deep system costs more than the treatment | Neil, 2026-08-19, in the same correction | Recorded, his words |
+| A shallow system fits between the two layers without moving either | Derived from `C1.40` and the depth field | **Derivation, and the honest form of the depth argument** — *the floor-area version (Neil, 2026-08-19) is a real point but it belongs to the isolation shell's dimensions, not to ours* |
 | Low-frequency control needs corner access and corner placement | `product-records.md` resonance record — **What it requires from others**, and **Limits** | Recorded |
 | An acoustic design needs full room-finish data | Neil, 2026-08-19 (`Q68`) | Recorded, his words |
 | Room above 18 °C for 24 hours before the adhesive panel goes on | `product-records.md` reverberation record — **What it requires from others** | Recorded |
@@ -109,5 +124,11 @@ the question is really being asked (`C2.26`).*
    our own class today either way — that needs no one's permission.*
 2. **The depth sentence.** *Reason 2 is where the piece stops being generic, so it is the sentence to get right.
    **It currently quotes no numbers at all** — confirm whether it should, given `DAT-1`.*
-3. **`N6` itself.** *The load-bearing derivation is this repo's, not an owner's statement. **Confirm the sequence
-   claim before it is taught**, because the whole piece rests on it and it has never been said out loud before.*
+3. ~~**`N6` itself.**~~ **ANSWERED 2026-08-19 (`Q75`) — and the answer changed the piece.** *The sequence claim
+   holds, but **not for the reason I had drafted.** The three layers are separate things with separate owners: the
+   isolation design sets the structural dimensions, the interior design sets the visible fabric wall, and **C-ATS
+   fits between the two** — *"physically and metaphorically"*, in Neil's words. **`SRND` is often involved in all
+   three**, which is a group-level fact and is logged as `claims.md` `C1.42` rather than argued here.*
+4. **New, and it is the strongest thing in the piece: is `C1.41` right? — open as `Q77`.** *That the treatment layer **has no natural
+   owner** is my derivation from Neil's answer, not his statement. **It is now the piece's central argument** — the
+   reason the decision gets left late — so it needs the same confirmation the dimensions claim did not survive.*

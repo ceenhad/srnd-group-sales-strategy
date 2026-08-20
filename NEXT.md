@@ -122,7 +122,25 @@ over-reaching; and **the fire answer was left at half deliberately**, because a 
 could get a dealer refused on site. **What remains in `N3` is exactly the hard half** — the publication boundary,
 one missing classification, one absent comparison, one question nobody has answered.*
 
-**Resume at: `T2`'s three confirmations, and `Q75`.** *The `T2` draft rests entirely on `N6`'s derivation —
+**`Q75` answered, and it corrected the `T2` draft the same hour.** *Neil: **"they are separate things."** A room
+like this is built in **three layers with three owners** — the **sound isolation design** sets the structural
+dimensions and travels with the architectural design; the **interior design** sets the fabric wall the client sees;
+**C-ATS fits between the two**, *"physically and metaphorically"*. **And SRND is often involved in all three.***
+**`PR-21` broken:** *I had written that the treatment depth drives the architect's finished dimensions — it does not,
+the isolation design does, and I had put C-ATS inside a decision it is not in. **Third over-extension of the depth
+argument in this repo** (`Q63` bounded the wording, `PR-4` stopped it being a proof point, this one reached into
+someone else's drawing).* **Three claims out of one answer:** `C1.40` *(the three layers — the first structural
+account of where the product sits in a project)*, `C1.41` *(the treatment layer is the only one with **no natural
+owner**, which is why the decision waits — **my derivation, now `T2`'s central argument, and open as `Q77`**)*,
+`C1.42` *(SRND in all three layers, which makes *"one relationship, whole room"* structural rather than a slogan —
+**a `group` row, and the group layer has never had this account**)*.
+
+**Resume at: `Q77` — is `C1.41` right?** *If the treatment layer genuinely has no owner, that is a better argument
+than anything else in `T2`, because it explains the behaviour instead of describing the sequence. **If it is wrong,
+`T2` has no central argument** and reverts to a description. `T5`'s two confirmations and `Q76`'s two decisions are
+still open behind it.*
+
+~~**Resume at: `T2`'s three confirmations, and `Q75`.**~~ *The `T2` draft rests entirely on `N6`'s derivation —
 **the treatment is concealed, therefore it is decided before the wall** — which is this repo's inference and has
 never been an owner's statement. **`Q75` puts it to Neil**, together with the consequence that makes it an
 architect's subject rather than an AV one: **treatment depth is part of the wall build-up, so it feeds the finished
