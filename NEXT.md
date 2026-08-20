@@ -48,7 +48,12 @@ which were **already in the record and never written down as reasons to buy**. A
 that would move where the effort goes if it holds: ***"the true answer in a lot of cases may simply be that it is
 simply the option we gave them."*** **Testable — `DAT-2`.**
 
-**Resume at:** **re-keying the three pathway doors from symptom to project moment**, then the rest of `MTH-1`.
+**Resume at:** **`hooks.md` and `segments.md` into rows** — the rest of `MTH-1`. *The pathways are done
+(`brands/c-ats/pathways.md`, 2026-08-19): three doors **re-keyed to the project moments `M1`–`M3`**, `PR-7` broken on
+its own falsifier, and slot 4 changed from **proving** to **confirming** on `PR-4`. **The hook set is the emptiest
+part of the system** — `S1` is empty on two doors and dead on the third — and `PR-8` is challenged, which matters
+here: hooks are the only deliverable held to "author from blank" when the rest of the method says **correct a
+draft**.*
 `PR-14` broke the symptom framing (*"sounds echoey"*, *"detail smears"*) because **the specification happens before
 the room exists**, and `C2.24`–`C2.26` replace it with the three moments Neil confirmed: **the job is won or being
 bid and needs the acoustics specified · the build is being priced and needs a treatment budget · an architect or
