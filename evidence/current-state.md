@@ -394,6 +394,34 @@ read as the same thing. To be filled in.*
 | DT projection trend | **[to come]** | | Unit counts available |
 | Share of revenue direct vs distributor | **[to come]** | | Tangled |
 | Registrations per period | **[to come]** | | **[?]** |
+| **Active C-ATS accounts per year** | **[to come — `P1`]** | *The confirmed objective is `../brands/c-ats/claims.md` `C2.15`: "we need to engage with more AV integrators"* | **3** (2023) → **15** (2024) → **16** (2025) → **6** (2026 to 9 Jul) |
+| **C-ATS product revenue per year** | **[to come — `P1`]** | | **£13,328** (2023) → **£73,092** (2024) → **£67,667** (2025) → **£17,898** (2026 to 9 Jul) |
+
+### The C-ATS baseline, measured 2026-08-19 — and 2026 is down, not flat
+
+*Source: `2026-08-18-cats-segment-cut.md` plus a run over `../data/derived/all-transactions.csv`, current to
+**2026-08-12**. Filter: `category = "Acoustic treatment"`, external product revenue only.*
+
+| | |
+|---|---|
+| **2026 year to date** (to 9 Jul, the last C-ATS invoice) | **£17,898** from **6** accounts |
+| **The same months of 2025** (Jan–Jul) | **£39,188** |
+| **So the run rate is down** | **−54 %**, tracking about **£30k** against 2025's **£67,667** |
+| An account is worth, per year | **£4,229** mean, **£2,358** median *(2025)*; £4,873 / £4,440 *(2024)* |
+| An order is worth | **£3,042** mean, **£2,103** median *(170 invoices, all years)* |
+| Orders per active account per year | **1.81** *(2025)*, 1.40 *(2024)* |
+| Of the 53 accounts that ever bought, bought in more than one year | **17 — a 32 % repeat rate** |
+| Concentration | **Top 3 accounts = 37 %** of lifetime revenue |
+| **The cross-sell pool** — never bought C-ATS, active elsewhere 2024–26 | **142 accounts**, **£4,002,157** spent with the group on everything else |
+| **The warm part of that pool** — CRM `CATS Status = Presented` | **49 accounts** *(plus 16 `Approached`)* |
+| The lapsed list — last C-ATS order 2020–23 | **16 accounts**, £140,108 lifetime |
+
+**Two things to hold when reading this.** *(1) **The line is volatile at this scale** — November 2025 alone was
+£18,357, so one account moves a year, and a revenue target on a £70k line made of £3k orders is a noisy instrument.
+**An account-count target is the more honest one**, and it is also the one that matches `C2.15`. (2) **One check
+before the decline is treated as settled**: the last C-ATS invoice is 9 July while the ledger runs to 12 August, so
+**confirm nothing is unposted** — though a five-week gap is unremarkable for a product with 29 orders a year.*
+
 
 *Note also, and it needs confirming: **"various distributors" implies live distributor routes today**, which sits
 alongside the direct-first decision (C1, `../group-strategy/commercial-model.md`) rather than contradicting it — that decision governs new
