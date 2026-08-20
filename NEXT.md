@@ -376,7 +376,42 @@ investing in are the ones we cannot measure**, which for a content-as-rep plan i
 the source vocabulary, fill the project joins, define `G5` — **then** two numbers against a working instrument. **The
 target comes last because it is the only part that cannot be built before the instrument works.***
 
-~~**Resume at: `ENG-1` → `ENG-3`.**~~ *Populate the customer type, then the two reports, then decide what counts as a
+~~**↻ `JNY-1` done, 2026-08-20 — and it answers the three big questions.**
+`evidence/2026-08-20-gateway-instrumentation.md`. *All six gateways mapped to engine's real fields, read-only.*
+
+**1. What traceable success looks like — the funnel is measured for the first time: `G3` 6 → `G4` 35 → `G6` 2.**
+*`G1` is not in engine at all (needs web analytics; **brand-of-entry is recorded on 329 of 350 customers and
+unread**), `G2` has **4 leads** against a complete instrument, and **`G5` now has a candidate signal** because
+`support_tickets` exists with statuses defined and 0 rows.* **And the counts show something no design review would
+have: `G4` is five times `G3`**, so **ordering does not currently require crossing the registration hinge** — which
+makes `buyer-journey.md`'s *"registration is the hinge"* an intended policy rather than the observed system.
+**`ENG-7`: close the gate or soften the claim.**
+
+**2. How success connects back to activities — the chain exists in full and four links are broken.**
+*`leads` → `projects.source_lead_id` → `projects.brand_id` → `quotes.project_id` → `sales_orders.project_id` →
+`products.brand_id`.* **`B1`: `lead_sources` has five codes, so a CPD seminar, an AI answer, a press piece and a hook
+all arrive as *"website"* — there is no campaign, UTM, content or activity table anywhere in engine, so no marketing
+activity is individually traceable.** *`B2` `projects.source_lead_id` **0 of 50** · `B3` `projects.brand_id` **0 of
+50** · `B4` `sales_orders.project_id` **1 of 74**, while `quotes.project_id` is **10 of 13** — **quotes link to
+projects and orders do not.***
+
+**3. How the activities are implemented — the gap is a shared vocabulary, not a missing activity list.**
+*`motion/` already defines the content operation, the sales motion and the hook layer categorised by appeal.*
+**None of it emits anything engine can count.** *So the sequence is forced: **name the activities as rows with codes
+→ carry the code into the lead → then the funnel splits by activity, per brand.** No amount of reporting substitutes
+for the first two steps.*
+
+**And the framing this repo had wrong — Neil, 2026-08-20: *"remember it's our platform and we can do what's needed on
+it."*** *Earlier notes treated engine as a fixed constraint and proposed only population. **Engine is under daily
+migration** (`20260820120000_duplicate_product`, applied today), so a missing field is a decision not yet taken.
+**One schema change is proposed: `ENG-4`, the marketing-activity dimension** — additive, nullable, house-shape,
+`lead_sources` kept as the coarse channel above it. **Testbed first.**
+
+**Resume at: `ENG-4` — awaiting go-ahead**, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
+should fill), `ENG-6` (define `G5`), `ENG-7` (is registration the gate?). *`ENG-2`/`ENG-3` follow once the data
+exists.*
+
+~~**Resume at: `ENG-1` → `ENG-3`.**~~~~ *Populate the customer type, then the two reports, then decide what counts as a
 lead. **The number comes after the instrument, and the instrument is engine, not the ledger.*** *`P2`–`P7` in
 `brands/c-ats/planning-gaps.md` are unaffected.*
 

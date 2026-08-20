@@ -496,8 +496,13 @@ brand-by-brand dealer target — **exactly the fragmentation the group play says
 filled, dealer and distribution sales cannot be separated at all** — no analysis, no target, no report. It is a
 data-entry job against a field that already exists, and it is the cheapest high-value thing in this file.*
 
-**What is deliberately not proposed here:** *any change to engine. **The fields exist and this repo does not write
-into engine** — the recommendation is population and a report, both of which belong to whoever owns it.*
+**And engine is ours to change — Neil, 2026-08-20: *"remember it's our platform and we can do what's needed on
+it."*** *An earlier draft of this section treated engine as a fixed constraint and proposed only population. **That
+was over-cautious**: engine is under daily migration, so a missing field is a decision not yet taken.* **What is
+actually needed is one migration and three fills** — *`../evidence/2026-08-20-gateway-instrumentation.md`: the
+**marketing-activity dimension** (`ENG-4`) is the schema change, because five lead-source codes cannot tell a
+seminar from an AI answer; the rest is population (`ENG-1`) and app forms (`ENG-5`).* **Testbed first, then
+production — a live system with 74 orders in it deserves a rehearsal.**
 
 ## What to do with this
 

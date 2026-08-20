@@ -60,6 +60,14 @@ struck.*
 | **G5** (5→6) | The first job succeeded — the install went right and the dealer looked good | The weakest signal today: an uneventful order (no support escalation), a reorder, a verification completed. **Needs defining** | Manuals organised by moment, "how do you do X", install support that answers |
 | **G6** (6→loop) | Recalled and expanded — the next project lands and a second layer of the room is ours | **An order from a second brand** — FACT-1's query is exactly this signal, aggregated | The adjacency prompt at the spec moment, always-on presence, reorder ease — and the whole-room story, earned now |
 
+**↻ Measured against engine, 2026-08-20 — `../evidence/2026-08-20-gateway-instrumentation.md`. The table above
+held up, and the counts exist now: `G3` **6** · `G4` **35** · `G6` **2**.** *`G1` is not in engine at all (it needs
+web analytics; engine sees a visitor only once they become a lead, though **brand-of-entry is recorded on 329 of 350
+customers**), `G2` has 4 leads against a full instrument, and **`G5` now has a candidate signal because
+`support_tickets` exists** — 0 rows, statuses and priorities defined, so *"an order with no escalation"* is
+definable (`ENG-6`).* **And one thing the counts show that no design review would have:** *`G4` is **five times**
+`G3`, so **ordering does not currently require crossing the registration hinge** — `ENG-7`.*
+
 **Two honest notes.** Only G3, G4 and G6 are cleanly observable today; G2's signals partly exist (tool leads
 land in engine), and G5's needs defining before anything can trigger on it. And per the standing rule, the
 signals are what the process needs to *observe* — engine is where they would eventually live, engine is not
