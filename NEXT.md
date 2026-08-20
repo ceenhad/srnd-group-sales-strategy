@@ -282,7 +282,43 @@ stuff into the plans just yet."*** *The platform read-up records it because a st
 live system; `partner-programme.md` carries a one-paragraph **boundary marker only**, so the two names do not get
 merged. **Nothing is planned, scheduled or committed.***
 
-**Resume at: `KNW-6` — the isolation record.** *Everything else about the layer waits on it, and it starts with an
+**↻ STOP BUILDING — Neil, 2026-08-19: *"the risk is that we are going too deep into building. Are there planning
+gaps in C-ATS that we need to look at?"*** **He is right: four drafts in one day and no plan they answer to.** *The
+audit is `brands/c-ats/planning-gaps.md`, and **every gap in it closes with a decision, a number or one fetch — none
+closes with a document.***
+
+**The structural finding, and it explains the drift.** *The brand run has **four legs and not one of them asks for a
+number, a price, a date or whose time it takes**. The template says as much: **"the run ends as a work queue rather
+than as a document."*** **A queue with no target cannot be prioritised, so the next move after a run is always to
+write the next piece.** *Proposed as **`MTH-3`** — a one-page plan check — and the template is **not** edited here.*
+
+**Seven gaps. The first one unblocks the rest:**
+- **`P1` — there is a measured baseline and no target against it.** *We know: **53 accounts have ever bought C-ATS
+  out of 549 in the group ledger (9.7%)** — 18 active, 7 recent, 16 lapsed, £495,106 since 2015. The only confirmed
+  objective is `C2.15`, **"we need to engage with more AV integrators"** — **a direction with no quantity and no
+  choice between the three ways of doing it** (win from the 496 who never bought · reactivate the 16 lapsed · deepen
+  the 18 active). **Three different plans, three different costs, nothing chooses.** Closes with one sentence.*
+- **`P2` — isolation is a sold C-ATS layer with one clause of plan behind it** (*`growth-levers.md`: "Isolation and
+  Verification travel well"*). **And it is the layer that reaches a project first** (`C1.40`), which is the planning
+  point rather than the missing record.
+- **`P3` — the most profitable line has no commercial shape.** *`Q45` open since 17 Aug; and **three unused inputs
+  now point at the answer** — the platform calling design services *"the margin engine"*, the isolation ladder that
+  is already staged by deliverable, and a store line at **5 rows / £17,000** to price from.*
+- **`P4` — capacity is the binding constraint and nothing states it.** *`Q39` never answered; four drafts wait on one
+  person. **Every plan here is costed at zero**, which is why the queue grows.*
+- **`P5`/`P6` — a growth channel is gated behind a product with no date, and lever 2 has no validation step.** *Both
+  close with a date or an explicit "not this year".*
+- **`P7` — verification is a capability we sell on and have never made an offer.**
+
+**And the cinema trio is now recorded at the group layer, as Neil asked** — `group-strategy/channels.md` § The cinema
+trio. *Awareness, not a programme: **Cinema Tools designs the whole room, Cinema Expert teaches the whole room, and a
+channel would deliver the whole room** — so none of the three can sit under one brand, and the lead magnet is a
+group-layer function because the enquiry arrives about a room and a room is six brands.* **The Cinema Partners half
+stays unbuilt**, and ADR 017 v2 §12 still measures demand first. *One brand-level exception, already logged: the RIBA
+CPD applicant is a **product brand — C-ATS** — because that network is manufacturer-oriented (`Q81`).*
+
+**Resume at: `P1` — the target.** *Not `KNW-6`. **The isolation record is a build; the target is the thing that says
+whether the build matters.*** *`KNW-6` and the four drafts awaiting truth-check stay where they are.* *Everything else about the layer waits on it, and it starts with an
 advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
 before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on
 the client leave-behind, `T5`'s two confirmations, `Q74`, and `DOC-31` (does the mockup store list isolation at
