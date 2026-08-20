@@ -167,7 +167,10 @@ kept at that layer: **a layer with a nominal owner who declines it behaves worse
 because everyone can point at somebody. Whether that pattern holds in the other two layers is **unknown and flagged
 as the obvious thing to check on the next brand run**.*
 
-**`Q79` answered, and it is the largest find of the day.** *The group layer was right: **we have always sold
+**`Q79` answered.** *(**Framing corrected 2026-08-19 after Neil read it** — this was first written up as *"the
+largest find of the day"*, which implied the business did not know it sold isolation. **It did.** Neil: ***"since I
+did them all it's no surprise I assure you."*** **The gap was documentary, not commercial** — and this is the second
+instance in two days of `method.md`'s oldest recorded failure, **forgetting how long SRND has been doing this**.)* *The group layer was right: **we have always sold
 isolation**, it fits no other brand, and it lives under C-ATS because **isolation is part of the acoustic
 consultant's work** (Neil). **Neither document needed editing** — the record's *"not isolation"* is a **product**
 boundary that must stay; the group's is a **brand** boundary; **the repo had been reading a panel-level exclusion as
@@ -177,18 +180,21 @@ a brand-level one** (`C1.46`).*
 `evidence/2026-08-19-isolation-is-a-sold-layer.md`. *Ten isolation hardware items, **and a six-step isolation service
 ladder** (discovery · design · drawings · details · BOM · build guide), **each step separately priced and averaging
 several times the acoustic treatment design fee.*** **Four consequences:**
-- **`Q45` has an in-house precedent it never looked at** — the adjacent layer prices design **staged by
-  deliverable**, which is one of the shapes `Q45` is choosing between. **`KNW-7`.**
-- **`C1.44` is confirmed the hard way.** *"Even with guides, someone gets paid to design it" is not a theory — the
-  layer next door has been proving it for years at that price.*
+- **`Q45` should be asked against a shape Neil already runs** — the adjacent layer prices design **staged by
+  deliverable**, which is one of the options `Q45` was weighing in the abstract. *He built that ladder, so the
+  question is not whether the shape works but **whether the treatment service should adopt it** — and he may have
+  already decided.* **`KNW-7`.**
+- **`C1.44` now has a rate against it.** *"Even with guides, someone gets paid to design it" is Neil's own
+  practice, not a hypothesis the data confirmed; **what the data adds is the number** — several times the treatment
+  design fee, per step, in the adjacent layer.*
 - **`C1.48` corrects the day-old three-layer account, in our favour.** *In **supply** terms C-ATS covers **two** of
   the three layers and Fabric Walls the third — so *"involved in all three"* describes the **range**, not the reach.
   **The decisions stay with three disciplines; the supply does not.*** *Written up in
   `group-strategy/the-group-play.md`.*
-- **A sold layer has nothing written about it anywhere** — no record, no content, no pathway. **`CAT-05` sat with
-  three of four cells empty for two years while it invoiced**, and the evidence was in **our own derived data** the
-  whole time. **`KNW-6`**, and `../method.md`'s lesson with a new twist: *this time what nobody looked at was ours,
-  not the platform's.*
+- **A sold layer has nothing written about it in this repo** — no record, no content, no pathway. **`CAT-05` has
+  carried three of four cells empty while the layer invoiced**, and the material was in **our own derived data** the
+  whole time. **`KNW-6`.** *The lesson is not that the layer was hidden — it is that **the documentation lags the
+  business by years, and this repo keeps mistaking its own blank cells for the company's gaps**.*
 
 **Resume at: `KNW-6` — the isolation record.** *Everything else about the layer waits on it, and it starts with an
 advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered

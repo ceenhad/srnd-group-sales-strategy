@@ -1,7 +1,14 @@
 # Isolation is a sold layer, and this repo had no record of it — 2026-08-19
 
 *Written after `Q79`, which asked which of two contradicting documents was right. **The answer was that the group
-layer was right**, and checking the invoice data to confirm it turned up a larger finding than the contradiction.*
+layer was right.** *This file then records what the layer actually consists of, because **no document in this repo
+said** — the register carried it as an empty row.*
+
+> **⚠ Read the framing correctly.** *None of this is news to the business. Neil, 2026-08-19: ***"since I did them
+> all it's no surprise I assure you."*** **The gap was documentary, not commercial.** *An earlier draft of this file
+> and of `../NEXT.md` wrote it up as a discovery — *"the largest find of the day"* — which is the failure
+> `../method.md` already names as **the oldest one in the repo: forgetting how long SRND has been doing this**. It is
+> recorded here rather than quietly rewritten, because it is the second instance in two days.*
 
 **Neil, 2026-08-19 (`../registers/questions.md` `Q79`):** ***"We have always sold isolation but it didn't fit into
 any other brand. It's part of the work of the acoustic consultant so the correct place for it to live contextually is
@@ -23,11 +30,12 @@ under C-ATS. I am pretty sure that the draft Shopify website has it."***
 | Penetration isolation back box, 270 × 400 mm | 378 |
 | **Total** | **£13,461 across 10 lines** |
 
-**So the question was never whether we sell it.** *A compound, a proprietary clip, five bracket variants, a mount
-and a penetration back box is not an incidental line — **it is a small hardware system for decoupling a structure**,
-and the bracket variants say it has been engineered for real conditions rather than bought in once.*
+**So the question was never whether we sell it — only what the sold thing is, which nothing here recorded.** *A
+compound, a proprietary clip, five bracket variants, a mount and a penetration back box is **a small hardware system
+for decoupling a structure**, and the bracket variants are the tell that it was engineered against real conditions
+rather than bought in once. **That is the sentence `CAT-05` should have carried and didn't.***
 
-## 2. The finding that matters more: there is a six-step isolation service ladder, and it is priced far above ours
+## 2. The part no document here carried: a six-step service ladder, priced well above the treatment design
 
 **Six separately invoiced isolation *services*, all under the store's services category:**
 
@@ -52,10 +60,11 @@ isolation lines average **£7,750**, and the largest single one is **£20,000** 
    invoiceable.* **That is a live, in-house precedent for exactly the question `Q45` is stuck on** — *whether the
    treatment design fee should be per room, banded, or something else. **It is already answered next door: it is
    staged by deliverable.***
-3. **It is the strongest possible confirmation of `Q77`.** *Neil's account of why the acoustic layer stalls — the
+3. **It puts a number on `Q77`, which is all it adds.** *Neil's account of why the acoustic layer stalls — the
    consultant does not want it, the designer lacks the knowledge, the integrator will not spend the time, so
-   **someone gets paid to design it** — **is not a theory. The adjacent layer has been proving it for years at
-   £7,750 a step**, and this repo had no record of any of it.*
+   **someone gets paid to design it** — **is his own practice, not a hypothesis this file confirmed.** *What the data
+   contributes is the **rate**: £7,750 a step in the adjacent layer.* **The business has known this since it started
+   invoicing it; the strategy documents did not.***
 
 ## 3. What the contradiction actually was
 

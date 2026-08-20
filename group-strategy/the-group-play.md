@@ -152,11 +152,13 @@ are not claiming to own an architect's decision — only to be the one supplier 
 not an isolation device, and that guard must stay. This page's line is a **brand** boundary. **The repo had been
 reading a panel-level exclusion as a brand-level one** (`C1.46`).*
 
-**And the invoice data, checked to confirm it, is the strongest thing in this section.** *A **six-step isolation
-service ladder** — discovery, design, drawings, details, bill of materials, build guide — **each step separately
-priced, averaging several times the acoustic treatment design fee.** *(`../evidence/2026-08-19-isolation-is-a-sold-layer.md`;
-figures stay in the evidence file, not on a strategy page.)* **This is the *"buying the whole room ought to be
-easier"* problem below, already solved once, in the layer nobody in this repo had written down.***
+**And what the layer consists of is worth stating here, because no strategy document has ever said it.** *A
+**six-step isolation service ladder** — discovery, design, drawings, details, bill of materials, build guide — **each
+step separately priced, averaging several times the acoustic treatment design fee.**
+*(`../evidence/2026-08-19-isolation-is-a-sold-layer.md`; figures stay in the evidence file, not on a strategy page.)*
+**Long-established practice, newly written down** — *and the *"buying the whole room ought to be easier"* section
+below should be read against it, because **this layer already sells staged deliverables the way that section wishes
+the whole room did.***
 
 **Two things are genuine joint capabilities rather than cross-sell opportunities:**
 

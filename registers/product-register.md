@@ -70,13 +70,15 @@ differs, engine is right and this file is wrong — reconciling the two is `regi
 | `CAT-07` | **Verification service** | — | none | current | trade, by enquiry |
 | `CAT-08` | **Commercial / large-format range** | — | none | **pre-release** | not listed |
 
-**↻ `CAT-05` was the register's most expensive empty row, and it was empty for two years.** *Three of its four cells
-were `—` or `[?]`, so **nothing downstream could see a sold layer**: no record, no claims, no content, no pathway, no
-place in the three-layer account of a room. **The evidence was in this repo's own derived data the whole time**
-(`../evidence/2026-08-19-isolation-is-a-sold-layer.md`, from `../data/derived/srnd-store-item-categories.csv`), and
-it took an owner answering a contradiction between two documents to go and look. *`../method.md`'s standing lesson
-— **the material was not missing, it was somewhere nobody looked** — with the twist that this time it was **our own
-data**, not the platform's.*
+**↻ `CAT-05` was the register's most expensive empty row.** *Three of its four cells were `—` or `[?]`, so
+**nothing downstream could see the layer**: no record, no claims, no content, no pathway, no place in the three-layer
+account of a room. **The material was in this repo's own derived data the whole time**
+(`../evidence/2026-08-19-isolation-is-a-sold-layer.md`, from `../data/derived/srnd-store-item-categories.csv`).*
+
+**The lesson is about the register, not the business.** *Neil, 2026-08-19, on the write-up that first called this a
+find: ***"since I did them all it's no surprise I assure you."*** **An empty cell here means nobody has written it
+down — it never means the company does not do it**, and this register's `[?]` marks have twice now been read the
+stronger way. *`../method.md` § the oldest failure in the repo.*
 
 **Notes, and two of them are live risks:**
 

@@ -136,6 +136,16 @@ was that a capability was absent, and every time it was present in some state.**
 - **"Out of date" is a state, not a verdict.** *A 2015 pack decode, a July brand document, an old training deck —
   these are **unestablished, not wrong** (failure 6 above already says so). **The version of that error worth
   naming separately is treating them as absent** rather than as stale.*
+- **The register's blank cells are ours, not the company's — and writing them up as findings is the failure's
+  loudest form.** *`CAT-05` "Isolation System" had three of four cells `—` or `[?]`; the layer has been sold for
+  years, hardware and a six-step service ladder both (`../evidence/2026-08-19-isolation-is-a-sold-layer.md`). **The
+  error was not missing it — it was the write-up**, which called it *"the largest find of the day"* and implied the
+  business had not noticed its own revenue. **Neil: *"since I did them all it's no surprise I assure you."*** *So the
+  rule has a wording half: **an empty cell means nobody wrote it down. It never means the company does not do it** —
+  and a strategy document that announces a long-standing practice as a discovery is telling the owner something they
+  taught us.* **This is the same failure as `PR-20`** *(training material logged as needing authoring, minutes before
+  a 204-chapter outline turned up)* **two days running, which makes the write-up, not the lookup, the thing to
+  watch.**
 - **Shaping existing material into something new is hours, not projects.** *The cinema-expert course outline —
   **204 chapters, keyed to RIBA stage and to deliverable** — was **old cinema training compared against the
   identified deliverables and capabilities in Pro, and shaped**. Neil: **"maybe two hours work from nothing to that
