@@ -317,7 +317,34 @@ group-layer function because the enquiry arrives about a room and a room is six 
 stays unbuilt**, and ADR 017 v2 §12 still measures demand first. *One brand-level exception, already logged: the RIBA
 CPD applicant is a **product brand — C-ATS** — because that network is manufacturer-oriented (`Q81`).*
 
-**Resume at: `P1` — the target.** *Not `KNW-6`. **The isolation record is a build; the target is the thing that says
+**↻ `P1` corrected twice on 2026-08-19, and the second correction is about how this work behaves.**
+
+**(a) The target is forward and dual, and engine already models it.** *Neil: **"we have SRND engine designed to track
+anything we want going forward. I think we have to establish dual brand and SRND group targets to separate dealer and
+distribution sales."*** **Checked directly against engine (read-only):** *`customers.customer_type_id` already carries
+**`dealer` · `distributor` · `end_user` · `specifier`**; `products.brand_id` is set on **163 of 166** products;
+`customers.source_brand_website` — **which brand's site brought them in — is populated on 329 of 350 and nobody reads
+it**; `sales_orders.ordered_at` gives a countable event that does not wait on invoicing (`shipped_at` is populated on
+**none**, so order is the event, not dispatch); and `leads` models the **whole chain from source to conversion** and
+holds **4 rows**.* **So the structure is settled: a brand target on dealer sales, a group target on distribution
+sales, never netted together.** *One action enables all of it — **333 of 350 live customers are untyped** (`ENG-1`),
+then two reports (`ENG-2`) and the interest measure (`ENG-3`).*
+
+**(b) The history is context, not a verdict — and I used it as one.** *Neil: **"the point of the whole rep is to help
+identify the methods of generating the interest and tracking it, not taking over history. I kind of regret putting
+those numbers in given how they are being used."*** **He is right.** *I turned target-setting into a retrospective on
+revenue and produced a *"−54 % decline"* from a figure he had already told me was incomplete because invoicing is
+outstanding. **That finding is struck in place in `evidence/current-state.md`, not deleted**, and the file now opens
+with a warning that the numbers do not set the target and do not score anyone's effort.* **`PR-23` broken, and it is
+two failures at once:** *proposing a counting rule for a ledger **instead of reading the system built to do the job**
+— `PR-1`'s pattern a fifth time, with the system named in the question — and **using an owner's supplied figures to
+score the past** rather than to inform a decision.*
+
+**Resume at: `ENG-1` → `ENG-3`.** *Populate the customer type, then the two reports, then decide what counts as a
+lead. **The number comes after the instrument, and the instrument is engine, not the ledger.*** *`P2`–`P7` in
+`brands/c-ats/planning-gaps.md` are unaffected.*
+
+~~**Resume at: `P1` — the target.**~~ *Not `KNW-6`. **The isolation record is a build; the target is the thing that says
 whether the build matters.*** *`KNW-6` and the four drafts awaiting truth-check stay where they are.* *Everything else about the layer waits on it, and it starts with an
 advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
 before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on

@@ -406,7 +406,7 @@ read as the same thing. To be filled in.*
 |---|---|
 | **2026 year to date** (to 9 Jul, the last C-ATS invoice) | **£17,898** from **6** accounts |
 | **The same months of 2025** (Jan–Jul) | **£39,188** |
-| **So the run rate is down** | **−54 %**, tracking about **£30k** against 2025's **£67,667** |
+| ~~So the run rate is down −54 %~~ | ***Withdrawn as a finding.** Invoices are outstanding for work already sold, so the gap measures **invoicing**, not demand. **Recorded as an incomplete count, not as a decline*** |
 | An account is worth, per year | **£4,229** mean, **£2,358** median *(2025)*; £4,873 / £4,440 *(2024)* |
 | An order is worth | **£3,042** mean, **£2,103** median *(170 invoices, all years)* |
 | Orders per active account per year | **1.81** *(2025)*, 1.40 *(2024)* |
@@ -416,12 +416,22 @@ read as the same thing. To be filled in.*
 | **The warm part of that pool** — CRM `CATS Status = Presented` | **49 accounts** *(plus 16 `Approached`)* |
 | The lapsed list — last C-ATS order 2020–23 | **16 accounts**, £140,108 lifetime |
 
-**⚠ The decline is not a demand measurement — Neil, 2026-08-19.** *The check flagged here was answered
+**⚠⚠ READ THIS BEFORE USING ANY NUMBER BELOW — Neil, 2026-08-19.** ***"The point of the whole rep is to help
+identify the methods of generating the interest and tracking it, not taking over history. I kind of regret putting
+those numbers in given how they are being used."*** **The figures below are context, not a verdict, and they are not
+a score for anything anyone is doing now.** *They were turned into a retrospective on revenue performance — a
+*"decline"* — which is the wrong direction of travel for this work. **The measurement that matters is forward: what
+generates interest, and does it convert.** See § The forward instrument. *The history stays recorded because deleting
+evidence is worse, but **it does not set the target and it does not judge the effort.***
+
+**⚠ And the year-on-year comparison was never sound anyway — Neil, 2026-08-19.** *The check flagged here was answered
 immediately, and against the figure: ***"one of the main reasons it's down is that invoices haven't been made for all
 that SRND has sold."*** **So the 2026 figure understates what was sold, by an unknown amount**, and **no target may be
 set against it until the counting rule is defined** — see the next section.
 
-**Three more things the numbers themselves say, all of which weaken an accounts-per-year measure.**
+*The check flagged here was answered against the figure: **"one of the main reasons it's down is that invoices
+haven't been made for all that SRND has sold."** So the ledger lags by an unmeasured amount.* **Three further reasons
+an accounts-per-year figure from this ledger cannot be a target — recorded so nobody tries again:**
 
 1. **The revenue is project-driven, not account-driven.** *2025's two largest accounts — **£16,080** and **£14,715**,
    together **45 %** of the year — simply did not recur in 2026. A dealer buys for a job and then stops until the next
@@ -442,27 +452,40 @@ set against it until the counting rule is defined** — see the next section.
 alongside the direct-first decision (C1, `../group-strategy/commercial-model.md`) rather than contradicting it — that decision governs new
 appointments. What exists now should be listed here rather than assumed away.*
 
-## The counting rule — undefined, and it blocks the target
+## The forward instrument — engine already models both splits
 
-**Neil, 2026-08-19, asked before any number was set:** ***"One of the questions is how do we measure this going
-forward. One of the main reasons it's down is that invoices haven't been made for all that SRND has sold. Where do we
-count SRND sales vs distributor sales?"***
+**Neil, 2026-08-19, answering the measurement question:** ***"We have SRND engine designed to track anything we want
+going forward. I think we have to establish dual brand and SRND group targets to separate dealer and distribution
+sales."***
 
-**That is the prior question, and `P1` cannot be answered until it is settled.** *A target against an instrument this
-loose would measure invoicing behaviour and project timing rather than anything anyone is trying to change.* **Four
-parts, with what the data says about each:**
+**Checked against engine directly, 2026-08-19 (read-only). Both splits are already fields; what is missing is
+population and computation, not capture.**
 
-| | The question | What the evidence says | Proposed |
-|---|---|---|---|
-| **1** | **When does a sale count** — invoiced, or ordered and shipped? | *Neil: **invoices have not been raised for everything sold.** The ledger is therefore a lagging and incomplete instrument, and the lag is not measured* | **Count at order or dispatch, not invoice.** *Invoicing is a finance event; the sale already happened, and the measure should not wait on admin* |
-| **2** | **Where is a distributor sale counted** — at the distributor, or at the dealer behind it? | ***19 % of C-ATS lifetime revenue came through two DT distributors**, and C-ATS has **no distributor appointments of its own**. Apex has now resigned* | **Count the revenue at the distributor and record the dealer where it is known.** *Anything else either double-counts or loses the room* |
-| **3** | **What is the unit** — accounts, or rooms treated? | *Buying is **project-driven**: 45 % of 2025 came from two accounts that did not recur, and the repeat rate is 32 %* | **Rooms treated is the truer unit**, and it is the one that matches what the business does. *Accounts is what the ledger can produce today* |
-| **4** | **Over what window** | *A year is **shorter than the repurchase cycle**, so a 12-month count reports project timing as relationship health* | **A three-year rolling window for accounts**, with rooms counted annually |
+| What the dual target needs | The field that already exists | State today |
+|---|---|---|
+| **Dealer vs distribution** | **`customers.customer_type_id`**, with exactly the right values — **`dealer` · `distributor` · `end_user` · `specifier`** | **17 of 350 live customers are typed.** *12 dealer, 1 distributor, 3 end user, 1 specifier* |
+| **Brand attribution of revenue** | `sales_order_lines` → `products.brand_id` | **163 of 166 products carry a brand.** *Works today* |
+| **Brand attribution of the customer** | **`customers.source_brand_website`** — which brand's site brought them in | **329 of 350 populated.** *Nearly complete, and nobody is reading it* |
+| **Counting a sale before it is invoiced** | `sales_orders.ordered_at` | **74 orders.** *`shipped_at` is populated on **none**, so dispatch is not yet a usable event — **order is*** |
+| **How the interest was generated** | **`leads`** — `lead_source_id`, `source`, `enquiry_type`, `source_brand_site`, `product_id`, then `referred_to_customer_id` / `referral_status` / `converted_customer_id` / `converted_at` | **4 leads.** *The whole chain from source to conversion is modelled and **essentially unused*** |
+| Pipeline before an order | `quotes` with `won_at`, `project_id`, `project_stage_id` | 13 quotes |
 
-**And one measurement that already exists and is being ignored.** *The CRM carries `CATS Status` — **49 `Presented`,
-16 `Approached`, 16 `Current Customer`** — which is **the only place a pipeline exists at all**. The ledger cannot
-show an approach that has not yet paid. **Whatever rule is chosen, the pipeline measure is already instrumented and
-nobody reads it.**
+**So the structure of the dual target is settled by what engine already holds:**
+
+- **Brand target — dealer sales.** *`sales_orders` joined through `sales_order_lines` → `products.brand_id`, filtered
+  to `customer_type_id = dealer`, counted at `ordered_at`.*
+- **Group target — distribution sales.** *The same, filtered to `customer_type_id = distributor`.* **Separate, never
+  netted together** — which is the point Neil made and the thing the historical ledger could not do at all.
+- **And the leading measure, which is what the rep is actually for:** *`leads` by `lead_source_id` and
+  `source_brand_site`, then the proportion reaching `referral_status` and `converted_at`.* **That measures the method
+  of generating interest, not the invoice at the end of it.**
+
+**One action enables all of it: populate `customer_type_id`.** *333 live customers are untyped. **Until that field is
+filled, dealer and distribution sales cannot be separated at all** — no analysis, no target, no report. It is a
+data-entry job against a field that already exists, and it is the cheapest high-value thing in this file.*
+
+**What is deliberately not proposed here:** *any change to engine. **The fields exist and this repo does not write
+into engine** — the recommendation is population and a report, both of which belong to whoever owns it.*
 
 ## What to do with this
 

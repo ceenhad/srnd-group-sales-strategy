@@ -39,15 +39,21 @@ the same day — see below. One motion, everybody treated as new.***
 
 > **↻ Reframed 2026-08-19 by two answers from Neil, and `P1` got harder rather than easier.**
 >
-> **(a) The measure has to be defined before the number.** *Neil: **"one of the questions is how do we measure this
-> going forward. One of the main reasons it's down is that invoices haven't been made for all that SRND has sold.
-> Where do we count SRND sales vs distributor sales?"*** **So the baseline is a lagging, incomplete instrument and no
-> target may be set against it yet.** *The counting rule is now written out in four parts —
-> `../../evidence/current-state.md` § The counting rule: **when a sale counts, where a distributor sale is counted,
-> whether the unit is accounts or rooms, and over what window.** Three facts from the data push the same way: the
-> revenue is **project-driven** (45 % of 2025 was two accounts that did not recur), **19 % of lifetime revenue came
-> through two DT distributors** while C-ATS has no distributor appointments of its own, and the account count carries
-> a **known name-normalisation error** (`MON-18`).*
+> **(a) The target is forward and dual, and engine already models it.** *Neil: **"we have SRND engine designed to
+> track anything we want going forward. I think we have to establish dual brand and SRND group targets to separate
+> dealer and distribution sales."*** **Checked against engine: `customers.customer_type_id` already carries
+> `dealer` · `distributor` · `end_user` · `specifier`, and `products.brand_id` gives brand attribution.** *So the
+> structure is: **a brand target on dealer sales and a group target on distribution sales, never netted together**,
+> counted at `ordered_at` rather than at the invoice — `../../evidence/current-state.md` § The forward instrument.*
+> **One action enables all of it: 333 of 350 live customers are untyped**, and until that field is filled the two
+> cannot be separated at all.
+>
+> **And the historical ledger is not the instrument.** *Neil: **"the point of the whole rep is to help identify the
+> methods of generating the interest and tracking it, not taking over history. I kind of regret putting those numbers
+> in given how they are being used."*** **He is right and the retrospective framing has been withdrawn.** *Invoices
+> are outstanding for work already sold, so the 2026 figure is an incomplete count and not a decline. **The measure
+> that matters is `leads` by source through to conversion — the method of generating interest — which engine models
+> in full and which currently holds four rows.***
 >
 > **(b) There is one motion, not three.** *Neil: **"none of this — please clearly understand that treating all of
 > them as new is the most efficient approach."*** **`PR-22` broken.** *The recency segments stay valid as
@@ -56,7 +62,8 @@ the same day — see below. One motion, everybody treated as new.***
 > owner hours (`P4`) and buys nothing.** Which is `growth-levers.md`'s own rule — *"the proposition re-pointed, not a
 > separate operation"* — applied one level down, where nobody had applied it.*
 >
-> **Closes with:** *the counting rule first, then one number against it.*
+> **Closes with:** *`customer_type_id` populated, then two numbers — one brand, one group — against forward data.
+> **Not a number against the ledger.***
 
 ### `P2` — Isolation is a sold C-ATS layer with no plan at all
 
