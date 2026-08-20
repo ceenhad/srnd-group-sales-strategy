@@ -120,6 +120,33 @@ be of proper structured data not piles of documents. the ADRs need to manage tha
 
 > **The rule is in "What the work produces" below.**
 
+## The oldest failure in the repo: forgetting how long SRND has been doing this
+
+**Neil, 2026-08-19:** ***"The repo forgets that we have been doing this a long time. Lots exists in some state or
+another and even if a bit out of date it's still useful."***
+
+**This is not a new rule, it is the one that keeps producing the others.** *Four premises broke on it in two days —
+`PR-1` (the sizing method was systemised in the platform, not missing), `PR-10` (checking the platform means the
+ADR, not the document), `PR-18` (the live site is a mockup, not the offer), `PR-20` (a 204-chapter course outline
+existed minutes after training was logged as work that would have to be written). **Every time, the repo's default
+was that a capability was absent, and every time it was present in some state.***
+
+**Two corollaries, and the second is the more useful:**
+
+- **"Out of date" is a state, not a verdict.** *A 2015 pack decode, a July brand document, an old training deck —
+  these are **unestablished, not wrong** (failure 6 above already says so). **The version of that error worth
+  naming separately is treating them as absent** rather than as stale.*
+- **Shaping existing material into something new is hours, not projects.** *The cinema-expert course outline —
+  **204 chapters, keyed to RIBA stage and to deliverable** — was **old cinema training compared against the
+  identified deliverables and capabilities in Pro, and shaped**. Neil: **"maybe two hours work from nothing to that
+  current outline."*** **So the estimate to distrust is not the optimistic one. It is the assumption that a thing
+  must be built from nothing**, which is what makes a two-hour job look like a quarter's work and keeps it
+  unstarted.
+
+> **The rule: before recording anything as missing, absent, unwritten or a gap, say where you looked.** *Not
+> "checked the platform" — **which repository, which directory, and what did the frontmatter say.** A gap asserted
+> without that is an assumption, and in this repo it has been the wrong one every time it was tested.*
+
 ## The four that failed on 2026-08-19 — one root, and it is not carelessness
 
 *One session, four failures, **all mine**, and every one caught by Neil rather than by the register. The root is

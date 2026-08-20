@@ -1,9 +1,12 @@
 # C-ATS — training opportunities
 
-> **⚠ Read `EDU-3` before working this file.** *Every *"needs to run"* cell below was written on the assumption that
-> a module would have to be authored. **`cinema-platform` holds 207 training markdown files** — a *"cinema-expert"*
-> curriculum, residential 92 chapters and commercial 112 (`../../registers/premises.md` `PR-20`). **Their state is
-> unknown; their existence is not.** Several of the five rows below may already be written.*
+> **⚠ Read `EDU-3` before working this file.** *Every *"needs to run"* cell below assumed a module would have to be
+> authored from nothing. **`cinema-platform` holds a 204-chapter course outline** — *"cinema-expert"*, residential 92
+> and commercial 112, **generated from a register and keyed to RIBA stage and to deliverable** (`PR-20`). **No chapter
+> has authored prose yet** — it lives once in `why/<trackedId>.md` and renders into both tracks, and that directory
+> does not exist. **So the precondition on every row below is wrong in the useful direction: the syllabus is mapped,
+> the prose is not**, and each section written serves two curricula. **`T2` in particular** — deciding acoustics
+> before the wall is built — *is a RIBA 2 Concept Design subject, and 21 chapters already sit at that stage.*
 
 *Leg 4 of the brand run (`../_template/the-brand-run.md`), first instance. **Every subject traces to a record field
 or a confirmed claim** — a subject with no trace is a topic, not an opportunity. **Not yet put to Neil**; the
