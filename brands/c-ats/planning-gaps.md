@@ -43,7 +43,11 @@ the same day — see below. One motion, everybody treated as new.***
 > track anything we want going forward. I think we have to establish dual brand and SRND group targets to separate
 > dealer and distribution sales."*** **Checked against engine: `customers.customer_type_id` already carries
 > `dealer` · `distributor` · `end_user` · `specifier`, and `products.brand_id` gives brand attribution.** *So the
-> structure is: **a brand target on dealer sales and a group target on distribution sales, never netted together**,
+> structure is: **a group target on dealer sales and a brand target on distribution sales, never netted together**,
+> *(corrected 2026-08-19 — I had these inverted. **A dealer is counted across all six brands, so dealer sales are a
+> group measure; a distributor is appointed brand by brand and territory by territory, so distribution is a brand
+> measure.** There is no group distributor, and a brand-by-brand dealer target would impose exactly the fragmentation
+> the group play exists to remove.)*
 > counted at `ordered_at` rather than at the invoice — `../../evidence/current-state.md` § The forward instrument.*
 > **One action enables all of it: 333 of 350 live customers are untyped**, and until that field is filled the two
 > cannot be separated at all.

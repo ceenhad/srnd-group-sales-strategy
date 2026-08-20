@@ -326,8 +326,12 @@ distribution sales."*** **Checked directly against engine (read-only):** *`custo
 `customers.source_brand_website` — **which brand's site brought them in — is populated on 329 of 350 and nobody reads
 it**; `sales_orders.ordered_at` gives a countable event that does not wait on invoicing (`shipped_at` is populated on
 **none**, so order is the event, not dispatch); and `leads` models the **whole chain from source to conversion** and
-holds **4 rows**.* **So the structure is settled: a brand target on dealer sales, a group target on distribution
-sales, never netted together.** *One action enables all of it — **333 of 350 live customers are untyped** (`ENG-1`),
+holds **4 rows**.* **So the structure is settled: a group target on dealer sales, a brand target on distribution
+sales, never netted together.** *(**Corrected 2026-08-19 — I first wrote these the wrong way round.** The repo's own
+core idea settles which is which: **a dealer is counted across all six brands, so dealer sales are a group measure;
+a distributor is appointed brand by brand and territory by territory, so distribution is a brand measure.** There is
+no group distributor — and a brand-by-brand dealer target would impose exactly the fragmentation the group play
+exists to remove.)* *One action enables all of it — **333 of 350 live customers are untyped** (`ENG-1`),
 then two reports (`ENG-2`) and the interest measure (`ENG-3`).*
 
 **(b) The history is context, not a verdict — and I used it as one.** *Neil: **"the point of the whole rep is to help

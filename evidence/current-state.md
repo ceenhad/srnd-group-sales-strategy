@@ -472,10 +472,22 @@ population and computation, not capture.**
 
 **So the structure of the dual target is settled by what engine already holds:**
 
-- **Brand target — dealer sales.** *`sales_orders` joined through `sales_order_lines` → `products.brand_id`, filtered
-  to `customer_type_id = dealer`, counted at `ordered_at`.*
-- **Group target — distribution sales.** *The same, filtered to `customer_type_id = distributor`.* **Separate, never
-  netted together** — which is the point Neil made and the thing the historical ledger could not do at all.
+- **Group target — dealer sales.** *`sales_orders` filtered to `customer_type_id = dealer`, counted at `ordered_at`.*
+  **Dealer sales are a group measure because a dealer is a group relationship** — *one account, one contact, buying
+  across whichever brands the room needs.* **That is `../CLAUDE.md`'s core idea stated as a measure**: *the dealer
+  relationship is the asset, **counted across every brand and over years***. *Brand-level detail is still available
+  underneath via `sales_order_lines` → `products.brand_id`, but **the target is the dealer, not the brand.***
+- **Brand target — distribution sales.** *The same orders filtered to `customer_type_id = distributor`, **split by
+  `products.brand_id`.*** **Distribution is a brand measure because a distributor is appointed brand by brand and
+  territory by territory** — *the 21 appointments above are almost entirely **DT's**, and a DT distributor in Mexico
+  says nothing about C-ATS. **There is no such thing as a group distributor.***
+
+**Separate, never netted together** — *which is the point Neil made, and the thing the historical ledger could not do
+at all.* **↻ And the two were the wrong way round in an earlier draft of this section** *(corrected 2026-08-19 on
+Neil's reading)*: **I had dealer sales as the brand target and distribution as the group target.** *The repo's own
+core idea settles it — **a dealer is counted across brands, so it is a group measure; a distributor is appointed for
+one brand, so it is a brand measure.*** *Worth leaving visible, because getting it backwards would have produced a
+brand-by-brand dealer target — **exactly the fragmentation the group play says the dealer should never experience.***
 - **And the leading measure, which is what the rep is actually for:** *`leads` by `lead_source_id` and
   `source_brand_site`, then the proportion reaching `referral_status` and `converted_at`.* **That measures the method
   of generating interest, not the invoice at the end of it.**
