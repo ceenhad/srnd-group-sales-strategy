@@ -97,7 +97,19 @@ leg earned its place by making a queue visible, not by producing a syllabus** �
 integrator, which against `C2.27` is itself the finding. *Two things make the leg cut differently from the others: the design-led competitor tier **publishes no
 measured data at all**, so teaching from measurement is available to us and not to them; and `EDU-1` is the one
 place in this repo where **build-it-then-say-it does not bite**, because the capability is long-held and only the
-activity lapsed. `strategy.md` still says three legs — `DOC-30`.*
+activity lapsed. ~~`strategy.md` still says three legs — `DOC-30`.~~ **`DOC-30` done the same day** — `strategy.md` § *"Then the brands"* now names training as the fourth leg and says why it is a route to market rather than a marketing extra.*
+
+**`KNW-5` is drafted — `brands/c-ats/draft-n7-client-leave-behind.md`, the first `N7` artefact in the repo.**
+*`N7` — **what the dealer tells their own client** — was empty for **all 38 record scopes**, while
+`CLAUDE.md` names *depth spent on the customer* as the group's advantage and `positioning.md` §4 had already written
+the sentence the piece exists to deliver.* **It was buildable today because it makes no measured claim at all** —
+nothing from `DOC-4`, `DOC-7` or `DR-Q52`, which is `PR-4` used as a design constraint rather than argued with.
+**Two owner decisions on `Q76`, and the first is a boundary:** *whether client-facing words should exist at all given
+`C2.29` — **this is the first time this repo has written for an end user's eyes**, and my reading is that a tool
+handed to the dealer is different in kind from us addressing their client — and **whose name is on it**, where
+dealer-brandable is the version a dealer would actually hand over and the one that makes us disappear.* **The
+scoping test stands as the backlog wrote it: the measure is not whether it reads well, it is whether a dealer hands
+it to anyone.**
 
 **`KNW-1` is drafted — `brands/c-ats/draft-answers.md`.** *The record had nominated this work itself
 (`N3`: *"turning a `known` into an `answered` is a paragraph, not research… the single highest-return work available
