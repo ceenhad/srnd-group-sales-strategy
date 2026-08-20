@@ -407,6 +407,42 @@ migration** (`20260820120000_duplicate_product`, applied today), so a missing fi
 **One schema change is proposed: `ENG-4`, the marketing-activity dimension** — additive, nullable, house-shape,
 `lead_sources` kept as the coarse channel above it. **Testbed first.**
 
+**↻ The live C-ATS page is checked, and the repo's own note about it was the stale thing.**
+`evidence/2026-08-20-the-system-page-checked.md` — *Neil supplied `https://cats-98x.pages.dev/the-system/`; fetched
+as raw HTML, not through a summary.* **`PR-18` called the site "an in-play mockup"; the page is current to within a
+day** *(it carries the 43 mm resonance depth Neil corrected on the 19th)* **and every hard guardrail holds** — *no
+price, trade-only stated, no competitor named, "diffusion" absent, the category criticised rather than a rival.*
+
+**The finding: `DR-Q52` is being answered by publication, and it landed where the request proposed.** *Five items
+from its own **proposed publishable** column are live — per-axis flatness, the over-damping guard, **the
+ceiling-corner lever**, reflections-are-triaged, and worked results — and **nothing from the proposed-not column**
+appears. **So the publishable/proprietary line is validated by the page rather than contradicted.** Two
+consequences: **`T4` is gated on `DR-Q52` and can probably be un-gated** (the corner material it waited for is
+public), and the DR can likely be **closed as confirmed in practice** — Neil's call.*
+
+**Two promises on the page that this repo has not built** — *`CLAUDE.md`'s named failure mode, and the only real
+risk there.* **(1) "Start from a designed reference room… each layout shows a panel package and where it goes"** —
+*`EST-7` is half done: geometry from the platform's 195-room sweep, **no finish schedule per room**, the model needs
+tuning, **one worked room**.* **(2) "Verify — once the room is built, its performance can be measured on site"** —
+*`P7`: verification is a capability that was never made an offer.* **A dealer at step 01 finds nothing to start
+from; a dealer at step 03 finds nothing to buy.**
+
+**Three fixes queued, one of which I would call a defect.** *`SIT-1` **the test-basis block omits the mounting
+condition** — five downloadable coefficient sheets with no note that they are free/unfixed design-stage values, which
+is the exact misapplication the record exists to prevent (`Q46`: the modelling default is the **glued** series).
+`SIT-2` **the page and the record disagree about which panel is checkerboarded** — page says Reflection, record says
+Reverberation; resolves against the platform, and `draft-answers.md`'s `N3` q10 rides on it. `SIT-3` **"treatment
+normally costs 100–200 mm on every treated wall" has no source**, and `Q64` binds claims about others as tightly as
+claims about ourselves.*
+
+**And where the page under-sells: isolation.** *The section is correct on the product boundary and **never says we do
+it** — while `Q79` records that isolation has always been sold, belongs under C-ATS, and has a **six-step service
+ladder**, and `C1.40` puts it **first** in the project. **The page explains why the earliest, highest-value layer
+matters and hands it to somebody else.** That is `P2` with a page attached.*
+
+**One incidental win: `DAT-1` narrows.** *The public side already states 43 mm correctly, so the wrong depth is
+confined to the dataset — a data fix with no content consequence.*
+
 **↻ Corrected twice, 2026-08-20 — and the first correction is the one that matters.**
 
 **1. There is already an agreed KPI framework, and I nearly built a third vocabulary beside it.**
