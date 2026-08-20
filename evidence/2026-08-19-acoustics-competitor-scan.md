@@ -178,3 +178,59 @@ sources. *Recorded as unfound rather than as absent — and it is not the findin
 **The dates are Neil's recollection** — *"maybe even 10 years ago"* — and are not measured. **What is measurable is
 the present state: one session against five, on one programme.** *One trade show is a thin sample; it is recorded
 because it is observable, not because it settles the size of the gap.*
+
+---
+
+# Fifth pass — what the platform already holds for C-ATS, surveyed 2026-08-19
+
+*Prompted by Neil: **"the repo forgets that we have been doing this a long time."** Read from the
+`cinema-platform` clone at `0fb875f`. **Facts only.***
+
+## The cinema-expert curriculum — the acoustics chapters that already exist
+
+**204 chapters, generated from a register by `engines/modal_analysis/curriculum.py`.** *Authored prose lives once
+in `why/<trackedId>.md` and renders into both the residential and commercial tracks; **`why/` does not exist, so no
+chapter has authored prose.***
+
+**Thirteen residential chapters are `category: "acousticTreatment"`.** Five are fundamentals and eight are design
+principles:
+
+| Kind | Chapters |
+|---|---|
+| **Fundamentals** (no stage) | *What is reverberation? · What is absorption? · What is diffusion? · What is a room mode? · What is a first reflection?* |
+| **Design principles**, all under the single deliverable **`acoustic-treatment-brief`** | *Broadband absorption provision · Modal LF trap provision · Axis balance and flutter · First-reflection control at the listening positions · Modal control — seat-to-seat low-frequency consistency · Reverberation time (mid-band) target window · Reverberation time — per-octave tolerance shape* |
+| Adjacent, under `sound-isolation-brief` | *Internal background noise* |
+
+**⚠ A correction to an earlier claim in this session.** *I wrote that **"21 residential chapters sit at RIBA 2 —
+Concept Design, which is the specifier's own language and the design-stage moment."** **That inference was wrong.**
+`curriculum.py` states the field's meaning outright: **"the register's `ribaStage` marks the stage at which a
+commitment is PROVEN, not designed, which is why most rows sit at RIBA 6 — a commissioning measurement is the moment
+a target becomes fact."** It also calls the axis **"coarse"**, with the category order doing the real work. *So the
+stage field says when something is verified, not when it is taught — and the acoustics chapters sit at **RIBA 6**
+because that is when a target becomes fact.* **Same failure family as the four recorded this morning: I read a field
+name and extended past what it meant.**
+
+**A conflict worth naming, not resolving:** *the curriculum contains a chapter titled **"What is diffusion?"**, while
+C-ATS's hard rule is **scattering, never diffusion** (`../brands/c-ats/claims.md` `C5.15`). **Real diffusers exist**,
+so the chapter may be entirely correct — but the two documents will need to agree before either is taught or
+published.*
+
+## The canonical dataset does not contain C-ATS
+
+**Searched `canonical-dataset/` for C-ATS or CATS: no entries.** *Meanwhile the same dataset carries third-party
+isolation systems **with their fire classifications populated** — `knauf-vidisound-w345.json`: `"ratingStandard":
+"BS EN 13501-2 (EI150)"`; `bg-gypwall-resilient.json`: `"BS EN 1364-1 / BS EN 13501-2"` — and Leyard LED walls with
+dimensions.*
+
+**The schema has the fields our product would need.** *`schema/audio/material.json` defines `fireRating` —
+*"reaction-to-fire class where applicable (e.g. 'A1', 'Class 0')"* — and the isolation schemas define
+`ratingStandard`.*
+
+**So two of this repo's open items change shape:**
+
+- **`DAT-3`** (the missing EN 13501-1 classification) *is not only a certificate to find — **the field to hold it
+  exists in the canonical dataset and our product is not in there.***
+- **`DAT-1`** (RES-CP recorded as 50 mm when it is 43 mm) *could not be verified here: the panel data lives in
+  `c-ats-shopify:data/panels.json`, a repository not in this session. **But the more useful finding is that the
+  canonical dataset has no C-ATS entry to be wrong** — the group's own acoustic products are absent from the
+  dataset that carries its suppliers' and competitors'.*
