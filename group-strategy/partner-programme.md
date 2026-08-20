@@ -14,6 +14,23 @@ The scale of what that overlooks is concrete. One dealer has spent around £500,
 share of group revenue — and nothing distinguishes their treatment from a first-time account beyond the price
 on an invoice.
 
+## ⚠ Two things this document must be read against — added 2026-08-19
+
+**1. It is not "Cinema Partners", and the two must not be merged.** *The platform carries **Cinema Partners** as a
+live revenue line: **a certified channel — leads, design, admin, credibility — sold to *fitters*, by subscription**,
+on the Heat Geek *"business-in-a-box"* model, fed by a regulated qualification
+(`../evidence/2026-08-19-the-four-revenue-lines-platform-read.md`).* **This document is about a different partner:
+the dealer who buys product.** *The distinction is **who is being partnered** — the buyer of product, or the licensed
+deliverer of rooms — and the names are close enough that conflating them is the obvious failure. **Neither should be
+renamed; both should be cited.***
+
+**2. Building it is gated, and the gate is an accepted ADR.** *`cinema-platform` **ADR 017 v2 §12**: **"demand is
+measured before the curriculum or the partner programme is built"** — calculator traffic first, then one module
+published to see who buys. The commercial plan gates the Cinema Partners programme behind **Phase 1** (showing a
+trade audience) and **Phase 3** (proving design services sell).* **This document may propose and must not launch** —
+*which is this repo's own **build it, then say it** rule with a measurement attached, and the reason the candidate
+list below stays a candidate list.*
+
 ## What only a manufacturer can offer
 
 *The starting point for the whole document, and it was nearly got wrong. Researching the trade distributors

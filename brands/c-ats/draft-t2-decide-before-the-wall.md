@@ -143,9 +143,15 @@ the question is really being asked (`C2.26`).*
 
 ## Before it runs — three confirmations
 
-1. **The route.** *`training.md` lists RIBA-approved CPD, a distributor academy and our own class. **The CPD route's
-   accreditation requirements have not been checked**, including what a seminar may and may not contain. Runnable as
-   our own class today either way — that needs no one's permission.*
+1. ~~**The route.**~~ **ANSWERED 2026-08-19 from the platform** *(`../../evidence/2026-08-19-the-four-revenue-lines-platform-read.md`
+   §4)*. **The RIBA CPD Providers Network is the route with reach, and the plan names the applicant as an SRND
+   product brand — C-ATS specifically**, because the network is manufacturer-oriented and C-ATS has real test data.
+   *Cost *"likely low four figures"*; fees unpublished; the action is a call to NBS, which is not this repo's to
+   make — **`Q81`**.* **Two things this settles about the piece itself:** *the RIBA Quality Code requires **factual,
+   standards-compliant** material and would reject a product pitch, **which this draft already satisfies**; and
+   `T2` should go in as **one seminar inside the plan's own broader pitch** — *"the room your client wants will fail
+   on compartmentation, escape, background noise and access unless it is designed in at Stage 2"* — **not as a
+   separate initiative.** *Still runnable as our own class today, which needs no one's permission.*
 2. **The depth sentence.** *Reason 2 is where the piece stops being generic, so it is the sentence to get right.
    **It currently quotes no numbers at all** — confirm whether it should, given `DAT-1`.*
 3. ~~**`N6` itself.**~~ **ANSWERED 2026-08-19 (`Q75`) — and the answer changed the piece.** *The sequence claim

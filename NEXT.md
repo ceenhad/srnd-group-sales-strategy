@@ -217,6 +217,37 @@ canonicaliser with an explicit exceptions list, because `London AV Solutions`, `
 repo's core idea in its own ledger — the dealer relationship counted across brands and over years — and it had never
 been shown.*
 
+**`Q80` answered, and the second half was already settled in the platform** —
+`evidence/2026-08-19-the-four-revenue-lines-platform-read.md`. *Cinema Partners was **a trading identity**, *"a
+construct to cover all of these services"*. **And the revised concept exists: ADR 017 v2 (`accepted`, supersedes
+1/14/19/73) §10 — *"four revenue lines carry the business: training, design services, the partner channel,
+product."*** **So services are not an adjunct to product** — two of the four lines are services, a third is the
+channel that delivers them. *The commercial plan calls design services **"the margin engine and the only line that
+can earn now"**, prices Cinema Expert modules at **£29–99**, and makes **Cinema Partners a certified-fitter
+subscription channel** on the Heat Geek model.* **Neil: *"services are very profitable so if they can be systemised
+and priced they are always great to do."***
+
+**Four consequences, all applied:**
+- **`T2`'s CPD route is answered, and the plan names C-ATS as the applicant.** *The **RIBA CPD Providers Network** is
+  the route with reach; the network is manufacturer-oriented so the applicant should be **"an SRND product brand
+  (C-ATS is a real manufacturer with real test data), not Cinema Tools"**; cost *"likely low four figures"*; the
+  action is a call to NBS. **`Q81` is a go/no-go, not a research question.*** *And the RIBA Quality Code requires
+  factual, standards-compliant material and **would reject a product pitch** — which the `T2` draft already
+  satisfies.*
+- **Leg 4 has a gate it did not know about: ADR 017 v2 §12** — *demand is measured **before** the curriculum or the
+  partner programme is built.* **Drafting is fine; building the programme is not.** *Recorded in `training.md`.*
+- **CEDIA accreditation is closed** (§11, out of scope). *`EDU-1`'s observation that competitors hold that ground
+  stands; **it is not a route this repo may propose**.*
+- **`partner-programme.md` now carries a warning at the top**: *it is **not** Cinema Partners — that partners
+  **fitters** by subscription, this partners **the dealer who buys product** — and its own build is gated behind
+  Phases 1 and 3.*
+
+**And one thing for the platform's owner, not to fix here — `DR-Q80`.** *`docs/product/02-business-model.md` frames
+itself on **ADR 073 and 019, both `superseded_by: 17`**, and was last updated 2026-06-03; ADR 017 went to v2 on
+2026-08-13. **Its economic-flow diagram still shows a self-serve residential surface and a "£500 Pro Design
+escalation."*** **Practical rule for anyone here: prices and tiers live in `docs/product/` per §10 — check them
+against ADR 017 v2 before use, because the stale copy is exactly where they look.**
+
 **Resume at: `KNW-6` — the isolation record.** *Everything else about the layer waits on it, and it starts with an
 advantage: **the six deliverable names already exist**, so the "how many / worked example" half is part-answered
 before anyone begins. **The `R3` question list is the part that needs an owner.** Behind it: `Q76`'s two decisions on
