@@ -3,7 +3,7 @@
 **Status: §1 is agreed — worked through with Neil question by question, 2026-08-14.** The KPI framework below is
 his, arrived at in discussion, with the open decisions named where they sit. §2 (the reconciliation map) remains a
 proposal row by row. §3 records the goal as Neil hardened it in the same session. Where the first draft of this
-file was corrected, the correction is visible in place.
+file was corrected, the wrong version was removed.
 
 This file exists because `registers/open-items.md` § "the direction set 2026-08-14" names three things to establish, in
 order: a KPI set, a reconciliation map, and a consolidation shape.

@@ -316,7 +316,8 @@ anyone has actually agreed to.**
    pick.**
 5. **Record the answer verbatim, and what it changed.** If it changed nothing, say so.
 6. **Correct in place and visibly.** A struck line with its reason is worth more than a clean one that hides a
-   reversal — **and a broken premise is kept, never deleted**, because the work built on it has to be findable.
+   reversal. **A broken premise is a work item, not a monument**: once its consequence has been applied, delete the
+   row — what stays is the owner's correction, in the claim or decision it belongs to.
 
 ## Two things to say out loud rather than resolve quietly
 
@@ -331,7 +332,7 @@ anyone has actually agreed to.**
 
 **One kind per file**, and the folder says which kind: **`group-strategy/`** argument · **`motion/`** the
 machinery · **`brands/`** application · **`registers/`** state, in rows · **`evidence/`** measured,
-append-only · **`operations/`** what leaves the repo, **including ADRs drafted for `cinema-platform`** ·
+measured, and superseded findings are deleted rather than stacked · **`operations/`** what leaves the repo, **including ADRs drafted for `cinema-platform`** ·
 **`data/`** the source, as scripts and derived files rather than as tables typed into documents.
 
 ## `decided.md` is a machine input, not a record

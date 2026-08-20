@@ -1,6 +1,6 @@
 # Questions — the asking surface
 
-*One question per row. **Stable IDs, never reused, never renumbered** — that is what stops an answer being
+*One question per row. **IDs are not recycled** — that is what stops an answer being
 logged against the wrong point. Answers land in the row, verbatim and dated.*
 
 **Why this file exists** (Neil, 2026-08-16): *"The flags and flaps and little docs are an untenable way of

@@ -70,14 +70,12 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
   against a decision or an open item — it does not reopen the reasoning that produced the decision. After
   logging evidence, the next move is `NEXT.md`, not another pass through `group-strategy/`. **Prefer amending
   the plan over re-arguing the strategy.**
-- **Fix the text; do not annotate it.** ~~*Record rather than delete.*~~ **Rule killed 2026-08-20 on Neil's
-  instruction** — *"that stupid rule can fuck off right now before it kills us"* — **after it turned an afternoon of
-  one session's wrong turns into permanent artefacts, five files deep.** *When something here is wrong, **correct it
-  and delete the wrong version.** Strikethrough, *"↻ CORRECTED"*, withdrawn findings and corrections-of-corrections
-  are **deleted, not kept**: they bury the signal under somebody's working-out, and a reader cannot tell a finding
-  from a retracted one.* **Exactly two things survive a correction: what an owner actually said — verbatim, always —
-  and a decision with its reason.** *Everything else is scaffolding, and scaffolding comes down. **A register is not
-  a diary.***
+- **Fix the text; do not annotate it.** *When something here is wrong, **correct it and delete the wrong
+  version.** Strikethrough, *"corrected"* markers, withdrawn findings and corrections-of-corrections are **deleted,
+  not kept** — a reader cannot tell a finding from a retracted one, and the noise grows faster than the work.*
+  **Two things survive a correction: what an owner actually said — verbatim — and a decision with its reason.**
+  *Everything else is scaffolding, and scaffolding comes down. **A register is not a diary, and nothing here is
+  immutable.***
 - **Flag, don't guess.** Buyer-truth, channel validation, pricing tiers, name expansions — where a
   fact isn't sourced from real jobs or a settled decision, leave it out and flag it in
   `registers/open-items.md`. Don't invent personas, figures, or roadmaps.

@@ -9,7 +9,7 @@ down."* A paragraph can be waved through as "correct" while carrying a wrong cla
 
 ## How it runs
 
-- **ID is stable.** `C<section>.<n>`, never reused, never renumbered.
+- **ID is stable.** `C<section>.<n>` — not recycled. *A superseded claim is replaced, not annotated.*
 - **Kind** says which file owns the claim: **`brand`** (belongs here) · **`product`** (belongs in
   `product-records.md` — a row marked product is a **duplication to remove**, not a claim to keep) ·
   **`group`** (belongs in `../../CLAUDE.md` or `../../group-strategy/` — same defect one layer up) ·

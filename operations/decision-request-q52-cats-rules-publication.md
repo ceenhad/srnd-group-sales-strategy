@@ -17,7 +17,7 @@ owns it. This is a **decision request** raised from the sales-strategy work, key
 | **Decision-maker** | Neil |
 | **Goes to** | `cinema-platform` → `products/cinema-tools/docs/decisions/` (scope `cinema-tools`) |
 | **Bears on** | **ADR 017 v2** (accepted 2026-08-13) — *what Cinema Tools is and what is sold*. Adjacent: **ADR 042 v5** (accepted) — acoustic treatment sizing and placement |
-| **Likely form** | ADR 079 governs: versioned, not amended. Probably **017 version 3**, since it turns on 017's own decisions 2, 5 and 6. **The owner's call, not this repo's.** |
+| **Likely form** | *`cinema-platform`'s ADR 079 has them versioned rather than amended — **its rule, not ours**, and Neil has called that family of rules noise-generating (2026-08-20), so **it is his to drop there***. Probably **017 version 3**, since it turns on 017's own decisions 2, 5 and 6. **The owner's call, not this repo's.** |
 | **Status** | **raised — no decision made** |
 
 ## What the live ADRs establish

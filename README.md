@@ -82,7 +82,7 @@ not exist.*
 | **`motion/`** | sales motion, motion design, content, tools, tasks, work items, task shapes, standards, adjacency map | **The machinery of selling.** Changes when the design changes |
 | **`brands/`** | six brands, each applying the above | **Application.** Inherits, never forks |
 | **`registers/`** | the record schema and form, product register, backlog, questions, open items, proposals | **State, not prose.** Rows with a status |
-| **`evidence/`** | archive findings, engine audit, current state, closed runs | **Measured. Append-only, and it never argues** |
+| **`evidence/`** | archive findings, engine audit, current state, closed runs | **Measured, and it never argues.** *Superseded findings are deleted, not stacked* |
 | **`operations/`** | engine handoff, store worklist | **What leaves this repo** |
 | **`data/`** | the sales history itself | Source, extracts, loaders. Sensitive |
 

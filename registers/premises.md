@@ -2,7 +2,8 @@
 
 *One premise per row. **A premise is a claim being built on, not a question waiting for an answer** — that is what
 separates this file from `questions.md`. A question blocks; a premise is assumed true and carries weight until
-somebody breaks it. **Stable IDs, never reused.***
+somebody breaks it. **IDs are not recycled, but dead rows are deleted** — a broken premise stays only until its
+consequence has been applied.*
 
 **Why this file exists** (Neil, 2026-08-18): the C-ATS run rested on a premise that was wrong — *nobody can size a
 C-ATS room without ringing us* — and it was wrong for sixteen days inside a product record before anyone was
@@ -18,7 +19,7 @@ reading the deliverable. A premise in a row can be broken in seconds.**
   weaker) · **Proposed here** (mine — you are ratifying a suggestion, not confirming a fact) · **Unknown**.
 - **Every row names what would break it.** A premise with no falsifier is not a premise, it is a belief.
 - **Status:** `holding` · `challenged` (evidence against it, not yet resolved) · `qualified` (true within stated
-  limits) · `broken` (with the date and what broke it — **kept, never deleted**, because the work built on it
+  limits) · `broken` (with the date and what broke it — **deleted once its consequence has been applied**, because the work built on it
   has to be findable).
 - **A broken premise is not a failure, it is the point.** The register earns its place by how often rows break.
 
