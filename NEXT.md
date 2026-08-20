@@ -409,7 +409,7 @@ migration** (`20260820120000_duplicate_product`, applied today), so a missing fi
 
 **↻↻ CORRECTION, 2026-08-20 — and it is the most useful thing in this whole session.** Neil: ***"the website you
 just analysed has been auto generated based on answers in this repo, so there is the proof of that part of the
-method."*** *`evidence/2026-08-20-the-site-is-an-output-correction.md` supersedes most of the audit below.*
+method."*** *`evidence/2026-08-20-c-ats-web-check.md` supersedes most of the audit below.*
 
 **Two things follow, and the second one stings.**
 
@@ -448,76 +448,28 @@ stands. `SIT-2` narrows to one page against the record.*
 **that note is now the most misleading line in the premises register**, and it is what produced the false defect
 report.*
 
-**↻ The live C-ATS page is checked, and the repo's own note about it was the stale thing.**
-`evidence/2026-08-20-the-system-page-checked.md` — *Neil supplied `https://cats-98x.pages.dev/the-system/`; fetched
-as raw HTML, not through a summary.* **`PR-18` called the site "an in-play mockup"; the page is current to within a
-day** *(it carries the 43 mm resonance depth Neil corrected on the 19th)* **and every hard guardrail holds** — *no
-price, trade-only stated, no competitor named, "diffusion" absent, the category criticised rather than a rival.*
+**↻ The C-ATS web artefacts were checked and then over-worked — collapsed to one file, 2026-08-20.**
+`evidence/2026-08-20-c-ats-web-check.md`. *Neil supplied three sites in turn and I audited each, then corrected the
+audits; **Neil: "that fucking store is just the mockup. We are going in circles here."** Three evidence files and a
+brands file were folded into one, and eight of the ten `SIT-` items dropped.*
 
-**The finding: `DR-Q52` is being answered by publication, and it landed where the request proposed.** *Five items
-from its own **proposed publishable** column are live — per-axis flatness, the over-damping guard, **the
-ceiling-corner lever**, reflections-are-triaged, and worked results — and **nothing from the proposed-not column**
-appears. **So the publishable/proprietary line is validated by the page rather than contradicted.** Two
-consequences: **`T4` is gated on `DR-Q52` and can probably be un-gated** (the corner material it waited for is
-public), and the DR can likely be **closed as confirmed in practice** — Neil's call.*
+**Four artefacts, so they are never conflated again:** *`www.c-ats.co.uk` **live**, unchanged ~5 years, four products,
+**no services**, and **the full BSRIA report plus five coefficient sheets, ungated** · `c-ats.myshopify.com` **the
+mockup** (`PR-18`'s subject; unfinished by design, **not evidence**) · `cats-98x.pages.dev` an Astro build of
+**unknown provenance, not worth chasing** · and `copy.md`, **stale**.*
 
-**Two promises on the page that this repo has not built** — *`CLAUDE.md`'s named failure mode, and the only real
-risk there.* **(1) "Start from a designed reference room… each layout shows a panel package and where it goes"** —
-*`EST-7` is half done: geometry from the platform's 195-room sweep, **no finish schedule per room**, the model needs
-tuning, **one worked room**.* **(2) "Verify — once the room is built, its performance can be measured on site"** —
-*`P7`: verification is a capability that was never made an offer.* **A dealer at step 01 finds nothing to start
-from; a dealer at step 03 finds nothing to buy.**
+**Five findings survive.** *(1) **`SIT-9` — a published article attaches "diffuser" to the Reflection Control
+Panel**, which `C5.15` forbids: the only rule violation found. (2) **`N3`'s "two of thirteen written" is wrong** —
+at least five answers are published; **`SIT-12` checks whether they are right**, since (1) proves one is not. (3)
+**`DAT-1` is public** — the live site states the 50 mm whole-system claim. (4) **`DOC-8` is answerable from the
+published BSRIA report** — one commission, *"3 materials in 8 configurations"*, marine in the same batch. (5)
+**`P7` withdrawn** — verification is an offer, and `copy.md` said so all along.*
 
-**Three fixes queued, one of which I would call a defect.** *`SIT-1` **the test-basis block omits the mounting
-condition** — five downloadable coefficient sheets with no note that they are free/unfixed design-stage values, which
-is the exact misapplication the record exists to prevent (`Q46`: the modelling default is the **glued** series).
-`SIT-2` **the page and the record disagree about which panel is checkerboarded** — page says Reflection, record says
-Reverberation; resolves against the platform, and `draft-answers.md`'s `N3` q10 rides on it. `SIT-3` **"treatment
-normally costs 100–200 mm on every treated wall" has no source**, and `Q64` binds claims about others as tightly as
-claims about ourselves.*
+**And the lesson, since it cost an afternoon:** *name the artefact and fetch it before recording anything as
+*"unpublished"*, and **do not audit a mockup against the guardrails** — the findings dissolve the moment someone says
+what it is.*
 
-**And where the page under-sells: isolation.** *The section is correct on the product boundary and **never says we do
-it** — while `Q79` records that isolation has always been sold, belongs under C-ATS, and has a **six-step service
-ladder**, and `C1.40` puts it **first** in the project. **The page explains why the earliest, highest-value layer
-matters and hands it to somebody else.** That is `P2` with a page attached.*
-
-**One incidental win: `DAT-1` narrows.** *The public side already states 43 mm correctly, so the wrong depth is
-confined to the dataset — a data fix with no content consequence.*
-
-**↻ Corrected twice, 2026-08-20 — and the first correction is the one that matters.**
-
-**1. There is already an agreed KPI framework, and I nearly built a third vocabulary beside it.**
-*`operations/engine-as-hub.md` §1 — **agreed with Neil 2026-08-14, hardened 2026-08-17** — sets the funnel spine
-(**published → reached → inbound → account → first order → active → multi-line → loop**) and the primitive: the
-**account × brand signal matrix**, **browsed → quoted → spec'd → ordered → repeat**. **That is the authority; `G1`–`G6`
-is a valid read of engine but not the framework.*** *The implementation gaps are now specified against the agreed
-one: **`operations/engine-measurement-spec.md`**, six deltas — *and it found things the gateway read missed.*
-**Two tiers engine cannot see at all:** *`browsed` (the gated store means every browse is an **identified** account —
-Neil: *"100% a lost opportunity right now"*), and **`spec'd`**, which Neil singled out as the commitment signal and
-**the terminal success tier for specifier accounts** — engine has **no field for it**, so specifier accounts
-currently have **no success measure**.* **And the agreed account types are five — whole-room integrator ·
-single-brand trade · specifier/consultant · distributor · consumer — while engine holds four**, merging the two the
-framework most needs apart *(breadth on one, depth on the other)*.
-
-**2. This repo specifies; it does not write to engine.** *Neil, 2026-08-20: **"we are not directly writing anything
-to engine right now. We can design anything we want and let them see it. The dev team are monitoring this repo."***
-*My *"apply it, testbed first"* framing was wrong — **the deliverable is a spec the dev team can read**, and it is
-`operations/engine-measurement-spec.md`. Two swings of the same pendulum in one day: first treating engine as
-someone else's wall, then reaching for the migration tool.*
-
-**Five of the six deltas are one column or one lookup each; the sixth is a decision.** *`D1` account types ·
-`D2` the campaign tag has nowhere to land — **and the agreed framework already requires it** (*"every link published
-anywhere carries a campaign tag"*), so it is an unimplemented agreed rule, not a new idea · `D3` **the inbound log is
-one `direction` column on `sales_activities`**, exactly the *"one field on a screen people already use"* the
-framework predicted · `D4` the two missing tiers · `D5` three existing columns the app is not filling ·
-`D6` `G5` needs defining, not building.*
-
-**Resume at the four owner decisions, none of which is a build:** *`ENG-8` the fifteen unwritten type rules
-(qualifying rule · expectation profile · review trigger, ×5) — **`ENG-1` cannot be populated consistently without
-them** · `ENG-9` where `spec'd` lives · `ENG-6` `G5`'s definition · `ENG-7` is registration the gate (**35 have
-ordered, 17 approved, 6 opted in**). Then the dev-team items: `ENG-4`, `ENG-10`, `ENG-5`, `ENG-11`.*
-
-~~**Resume at: `ENG-4` — awaiting go-ahead**~~, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
+**Resume at: `ENG-4` — awaiting go-ahead**~~, then `ENG-1` (populate the customer type), `ENG-5` (three columns the app
 should fill), `ENG-6` (define `G5`), `ENG-7` (is registration the gate?). *`ENG-2`/`ENG-3` follow once the data
 exists.*
 

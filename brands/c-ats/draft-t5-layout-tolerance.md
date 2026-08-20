@@ -56,7 +56,7 @@ that, and it costs a dealer nothing to verify.*
 > transfer to the Resonance Control Panel: its effectiveness depends on corner placement, and it is the one panel in
 > the range where position is not forgiving."* **Including the exception this draft was pleased with itself for
 > stating prominently.*** **The subject survives as a class; the "nobody says this" framing does not** — and the
-> ~300 mm figure is no longer an unconfirmed decode, since it is published. *`../../evidence/2026-08-20-the-site-is-an-output-correction.md` §3.*
+> ~300 mm figure is no longer an unconfirmed decode, since it is published. *`../../evidence/2026-08-20-c-ats-web-check.md` §3.*
 
 ## Traceability and two things to confirm before publishing
 
