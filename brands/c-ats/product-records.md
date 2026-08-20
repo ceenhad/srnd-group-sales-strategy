@@ -332,15 +332,15 @@ or in someone's head, and has never been turned into an answer) · **`unanswered
 | # | Question (from `R3`) | Panel | State | Where the answer is, or why not |
 |---|---|---|---|---|
 | 1 | Bond or screw? | REF-CP | **`answered`** | `install-critical-notes.md` p1 — written, unpublished (`../../registers/backlog.md` DOC-1) |
-| 2 | How far off the designed position is acceptable? | REF-CP | `known` | ~300 mm, in this record. Never published; also the brand's best unused `O2` |
-| 3 | Can it go behind fabric? | REF-CP | `known` | Yes, any stretch fabric — `N5`. Never stated as an answer |
-| 4 | Why do the absorption figures look low? | REF-CP | `known` | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. Queued as content, blocked on DOC-4 |
+| 2 | How far off the designed position is acceptable? | REF-CP | **`known` → DRAFTED 2026-08-19** | ~300 mm, in this record. Also the brand's best unused `O2`. **Now its own piece — `draft-t5-layout-tolerance.md`**, carrying two pre-publication confirmations |
+| 3 | Can it go behind fabric? | REF-CP | **`known` → DRAFTED 2026-08-19** | Yes, any stretch fabric — `N5`. ~~Never stated as an answer~~ **Written in `draft-answers.md`**, with `N6`'s consequence attached: the treatment is decided before the wall that conceals it |
+| 4 | Why do the absorption figures look low? | REF-CP | **`known` → DRAFTED 2026-08-19** | Because it is a scatterer, not an absorber — plus the Reflection A/B install-type story. ~~Blocked on DOC-4~~ **`DOC-4` blocks tabulating the values, not explaining them** — the explanation is written in `draft-answers.md` and quotes no coefficient |
 | 5 | **How many, and where?** | RES-CP | **`known`, not `unanswered`** *(corrected 2026-08-18)* | Both are answered in the platform's design rules and encoded in the engine — `N1`. **The gap is publication, not knowledge**, and its boundary is Q52 |
 | 6 | Does it replace bass traps? | RES-CP | **`unanswered`** | A comparison question with no `N4` behind it |
-| 7 | Why is it bigger than the others? | RES-CP | `known` | Corner loading needs area — in `D8`. Never stated as an answer |
-| 8 | Can it go anywhere other than a corner? | RES-CP | `known` | Much weaker away from a corner — in `D9` |
+| 7 | Why is it bigger than the others? | RES-CP | **`known` → DRAFTED 2026-08-19** | Corner loading needs area — in `D8`. ~~Never stated as an answer~~ **Written in `draft-answers.md`** as the trade it actually offers: area on a corner instead of depth into the room |
+| 8 | Can it go anywhere other than a corner? | RES-CP | **`known` → DRAFTED 2026-08-19** | Much weaker away from a corner — in `D9`. **Written in `draft-answers.md`**, plainly: it is the one place in the range where position is not forgiving |
 | 9 | **How much coverage?** | REV-CP | **`unanswered`** | The same quantity question as 5 |
-| 10 | Checkerboard or continuous? | REV-CP | `known` | Checkerboarded toward the rear — in `D4` |
+| 10 | Checkerboard or continuous? | REV-CP | **`known` → DRAFTED 2026-08-19** | Checkerboarded toward the rear — in `D4`. **Written in `draft-answers.md`** with the *over-use dulls a room* limit attached, and **one gate flagged**: pattern is stated as intended use, quantity stays behind `DR-Q52` |
 | 11 | Will the adhesive hold? | REV-CP | **`answered`** | The warm-room rule — written, derivative set drafted (`content-batch-001.md`) |
 | 12 | Is it fire rated? | REV-CP | `known`, partly | Class 0 core is known; **the current EN 13501-1 classification is `[?]`** (DOC-7) |
 | 13 | Can it be painted or covered? | REV-CP | **`unanswered`** | Nobody has answered this |
@@ -349,9 +349,12 @@ or in someone's head, and has never been turned into an answer) · **`unanswered
 
 1. **Two of thirteen are written down.** The brand with the best data in the group, three SKUs, a decade of
    deployment — and a dealer can find our answer to two of the thirteen questions we know we get asked.
-2. **Six are `known` and unwritten — and they are the cheap ones.** The answers are already in this file, in the
-   definitional fields. **Turning a `known` into an `answered` is a paragraph, not research**, and six paragraphs is
-   an afternoon. That is the single highest-return work available in the brand right now.
+2. ~~**Six are `known` and unwritten — and they are the cheap ones.**~~ **DONE 2026-08-19 — and the claim held.**
+   The answers were already in this file, in the definitional fields. **Turning a `known` into an `answered` is a
+   paragraph, not research** — *five are written in `draft-answers.md` and the sixth (row 2) became its own piece,
+   **and not one of them needed a fetch, a decision or an owner's answer.*** *`12` was left deliberately at half an
+   answer, because a partial fire answer is the one that could get a dealer refused on site.* **They are drafted,
+   not published: the count moves from 2 of 13 to 8 of 13 on approval, not on writing.**
 3. ~~**Three of the four unanswered questions are the same question: *how many do I need?*** (5, 6, 9). **The
    commonest question in the range has no answer, no worked example, and no owner.**~~ **Corrected 2026-08-18.**
    *How many do I need* **is answered** — systemised with Neil in 2026-06 and running in the Cinema Tools engine

@@ -99,6 +99,17 @@ measured data at all**, so teaching from measurement is available to us and not 
 place in this repo where **build-it-then-say-it does not bite**, because the capability is long-held and only the
 activity lapsed. `strategy.md` still says three legs — `DOC-30`.*
 
+**`KNW-1` is drafted — `brands/c-ats/draft-answers.md`.** *The record had nominated this work itself
+(`N3`: *"turning a `known` into an `answered` is a paragraph, not research… the single highest-return work available
+in the brand"*) and **the claim held**: five answers written, the sixth already its own piece, **none of them needing
+a fetch, a decision or an owner's answer.*** **Written count goes from 2 of 13 to 8 of 13 on approval, not on
+writing.** *Three findings worth keeping: **`DOC-4` blocks tabulating the A/B coefficient values, not explaining the
+mechanism** — so *"why do the figures look low"* publishes with no number in it; **answer 10's checkerboard pattern
+is intended use while its quantity is `DR-Q52`**, and the line between those two is where this repo keeps
+over-reaching; and **the fire answer was left at half deliberately**, because a partial answer there is the one that
+could get a dealer refused on site. **What remains in `N3` is exactly the hard half** — the publication boundary,
+one missing classification, one absent comparison, one question nobody has answered.*
+
 **Resume at: `T2`'s three confirmations, and `Q75`.** *The `T2` draft rests entirely on `N6`'s derivation —
 **the treatment is concealed, therefore it is decided before the wall** — which is this repo's inference and has
 never been an owner's statement. **`Q75` puts it to Neil**, together with the consequence that makes it an
