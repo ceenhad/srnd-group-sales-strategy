@@ -14,7 +14,7 @@ there and merely unwritten."*
 > **Six of those sessions have since been worked** — `T-S03`, `T-S04`, `T-S05`, `T-M02`, `T-M03`, `T-M06`. Each
 > shape below carries a **▶ Session** pointer into `standards.md` § "The worked sessions,"
 > where the proposal and the questions only Neil can answer both sit. **The sessions propose; they do not
-> settle** — nothing has entered `decided.md`.
+> settle** — nothing has entered `registers/questions.md` § Answered.
 
 ## What a shape is — and the depth test
 

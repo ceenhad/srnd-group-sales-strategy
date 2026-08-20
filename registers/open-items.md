@@ -3,8 +3,9 @@
 Group-level decisions and build order. Brand-specific open items live in each
 `brands/<brand>/registers/open-items.md`.
 
-> **What is settled is indexed in `../decided.md`** — and it gets there only by going through the question box and
-> being answered. **This file is the open half of the ledger**, and it holds only what is still open: nothing dated,
+> **What is settled lives in `questions.md` § Answered** — the question, the answer in the owner's words, the date.
+> **That is the decision record; there is no second copy.** A thing gets there only by going through the question box
+> and being answered. **This file is the open half of the ledger**, and it holds only what is still open: nothing dated,
 > nothing a past session resolved, nothing already carried as a row in `backlog.md`.
 
 ### Live weaknesses, in order
@@ -104,7 +105,7 @@ print. Fix on the next pass through that material rather than retrospectively.
 > shapes on 2026-08-09 and not previously surfaced here. They are part of this ledger by reference.
 >
 > **Six of those sixteen were worked into sessions on 2026-08-14** (same file, § "The worked sessions"). Each
-> ends in a proposal and a short list of what only Neil can answer; **nothing entered `decided.md`.** The one
+> ends in a proposal and a short list of what only Neil can answer; **nothing entered `registers/questions.md` § Answered.** The one
 > item that is genuinely *new* rather than a refinement is surfaced in full below — the pre-sales/consulting
 > boundary. The rest remain part of this ledger by reference.
 
@@ -303,4 +304,4 @@ history (superseded by `../evidence/archive-findings.md`), *"the direction set 2
 sub-sections, a rejected proposal kept as a heading, two lists of *"sessions needed"*, and every section recording
 what a past session decided to do next. **Neil's 2026-08-14 thesis moved to `../group-strategy/the-ai-thesis.md`** —
 his words, so it survives, but not in a to-do register. Anything actionable that was here already exists in
-`backlog.md`; anything settled is indexed in `../decided.md`. Git holds the rest.*
+`backlog.md`; anything settled is in `questions.md` § Answered. Git holds the rest.*

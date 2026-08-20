@@ -249,7 +249,7 @@ while still occupying the territory.
   - **▲ Corrected and extended, 2026-08-15 (Neil).** Credit *is* available to dealers — **just not from us:
     Iwoca Pay is offered at the store as a third-party credit route.** So "no credit accounts" is about our
     balance sheet, not about the dealer's options.
-    - **⚠ And this was already recorded, four days earlier.** the old `decided.md`'s Reversals log, **2026-08-12** (the correction now lives in `../group-strategy/commercial-model.md`):
+    - **⚠ And this was already recorded, four days earlier.** the old `registers/questions.md` § Answered's Reversals log, **2026-08-12** (the correction now lives in `../group-strategy/commercial-model.md`):
       *"C8 softened… a **UK-only 90-day interest-free facility is provided through IWOCA** — a third-party
       finance provider, unavailable outside the UK. Raised as a conflict by the srnd-os promotion sync
       (2026-08-11) and resolved by Simon the same day."* **So this was a rediscovery, not a discovery** — and
