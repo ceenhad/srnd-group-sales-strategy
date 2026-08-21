@@ -149,14 +149,15 @@ certificates as assets C-ATS never had to commission. **Neil corrected it before
 material cost. So `CLAUDE.md`'s hard don't on naming material suppliers is not a matter of taste — it has a commercial
 reason behind it, which makes it self-enforcing rather than stylistic.
 
-**Two things follow that are worth more than the fire finding.**
+**And the fix is one line, not a strategy.** Neil, correcting this repo's reading the same day: *"just don't write the
+REV panel is Pyrosorb on the webipage or datasheet and the problem magically doesn't exist."* Nothing about the product,
+the pricing or the channel changes. A system is a collection of services and products delivering an end result, the
+components are priced individually because the offer is not one size fits all, and the 3 Rs map to the panels.
 
-**The range is not uniformly defensible, and nothing in this repo said so.** The Reflection panel is injection moulded
-on C-ATS tooling; the Resonance panel is a laminate of C-ATS construction. Neither is buyable elsewhere. The
-Reverberation panel is a converted bought-in foam. What protects it cannot be the material — it has to be the system,
-the design, the layout rules, the box quantum and the data pack, and those only protect it if the panel is bought as
-part of them. `SUB-1`.
+**The one genuine open item is Neil's own:** *"I dont know if it is legal to transcribe the data to our own datasheets as
+that would also solve the problem."* It would — a classification on our own sheet needs no supplier name. The cheap
+route is written permission from the supplier to cite the classification, which is normally given. `DOC-46`.
 
-**And it puts a real tension against `Q84`.** The material certificate is what a specifier receives — so the compliance
-deliverable names the material. A gated, project-basis disclosure resolves that; a downloadable certificate on a
-product page does not. Which is the same gate the group already runs on pricing.
+**And the better answer was already identified in 2021.** The enquiry in this very email asks the lab to *"issue
+certificates which bear our company and product names."* That is the same problem and the same solution, five years
+earlier — held back on cost, which is exactly where `Q86` left it.
