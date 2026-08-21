@@ -107,6 +107,50 @@ things follow.*
 **The resonance panel is still the argument's spine.** *Take it away and C-ATS is a shallow mid/high system with the
 same low-frequency problem as anything else. `C4.15` is Neil's own words and §4's only row in his voice.*
 
+## 3a. Reach against depth — the QRD comparison, and the axis the argument was missing
+
+**Locked in `cinema-platform` ADR 092 decision 6, 2026-08-21** *(cited from Neil's own statement of it; this repo cites
+the ADR rather than duplicating its reasoning).*
+
+| | |
+|---|---|
+| Wells 50 mm deep | reach **1,715 Hz** |
+| Wells needed to reach **143 Hz** | **600 mm** |
+| Our build-out, reaching 143 Hz | **50 mm** |
+
+**12×.** *A Schroeder diffuser scatters by **phase** — path-length differences down wells — so **reach and build-out sit
+on the same axis**: an octave lower means twice as deep. **The array reaches by spatial scale, which costs surface area
+instead.***
+
+> **That is the actual reason the low-frequency reach comes from the layout rather than the panel** — and it is the
+> answer `KNW-16` was circling. The aperiodic requirement is not a survival of the old diffusion framing; it is where
+> the reach lives.
+
+**Written as the narrow comparison it is, not a boast.** *A diffuser and a break-up array are not producing the same
+quantity — phase diffusion against specular break-up graded on audibility. **What is directly comparable is reach
+against depth, and that is where the 12× lives.*** *Claiming more than that invites the true reply that ours is not a
+diffusor.*
+
+*Correction: an earlier note in this session put a QRD's deepest well at λ/2 and so doubled every figure. **The deepest
+well gives a half-wavelength round trip, so the depth is λ/4** — which is what the two numbers above are consistent
+with. Where the 143 Hz reach figure itself comes from should be traceable to ADR 092.*
+
+---
+
+## 3b. So the thesis holds for all three panels, each by a different mechanism
+
+**This is what the document was circling and could not state until today.** *Depth is what a mechanism costs when the
+mechanism is path-length dependent. **None of the three is:***
+
+| Panel | Reaches low by | What it costs instead of depth |
+|---|---|---|
+| **Reflection** | **Spatial scale** across the array | Surface area |
+| **Reverberation** | **Density** — resistance in place of path length | Material cost |
+| **Resonance** | **Mass and cavity tuning** — `f₀ = K/√(m·d)` | Panel area on a boundary |
+
+**Three panels, three ways of not needing depth.** *That is the whole argument, and it is why the depth figure is a
+consequence of the design rather than a feature bolted onto it.*
+
 ## 4. The measured proof, from our own report
 
 **BSRIA 100241/1, tested 24 July 2019, BS EN ISO 354:2003, read at source 2026-08-21.** *This is the depth-against-result comparison `Q95` calls for, and it is made **between our own two panels**, so it characterises nobody.* *Same lab, same session, same
