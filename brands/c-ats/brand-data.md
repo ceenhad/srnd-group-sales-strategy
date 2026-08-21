@@ -110,9 +110,11 @@ rather than authored). Between them they are the two halves of the on-ramp → d
 - **The marine panel at equal prominence** with the three core panels, in the nav and in the downloads.
 - No reason to look, no contact route beyond a form, nothing about time saved or problems solved.
 
-**Correction to an open item:** a **marine absorption coefficient sheet is published**, so the note in
-`panels.json` that the marine panel has "no absorption data" is wrong as stated. What remains unclear is whether
-that sheet derives from the same BSRIA report or a separate test — worth establishing, but the data is not absent.
+**Correction to an open item, and it got worse on inspection:** a **marine absorption coefficient sheet is
+published**, so the note in `panels.json` that the marine panel has "no absorption data" is wrong as stated. But the
+BSRIA report has since been read in full at source (2026-08-21) and **it does not cover a marine panel** — three
+materials, eight configurations, the word absent from nineteen pages. **So the sheet is published and its test cannot
+be traced**, which for a compliance product is a worse position than absent data. `DOC-32`.
 
 ## The new site: structure without content
 

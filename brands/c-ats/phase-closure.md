@@ -35,15 +35,22 @@ product, and the record had already caught the legacy brochure doing the same th
 
 - **`DAT-3` / `DOC-7`** — the current EN 13501-1 classification. It blocks `T1`, which is the strongest training row
   because it is the only subject a dealer cannot finish the job without.
-- **`DOC-8`** — marine provenance, now answerable from the published BSRIA report: one commission, "3 materials in 8
-  configurations", and the marine sheet in the same April 2023 batch.
+- **`DOC-8`** — **done 2026-08-21, and it did not answer the way the fetch predicted.** The BSRIA report covers three
+  materials in eight configurations and **no marine panel**; April 2023 was a publication date, not a test date. So the
+  fetch closed and left a question behind it — `DOC-32`, where the published marine coefficients come from — which is
+  Neil's, not a producer's. **Two by-products land in this phase too:** the report puts the tested resonance panel at
+  50 mm, which rewrites `DAT-1` into a strategy question, and it confirms the legal name for `DEC-1`.
 - **`DOC-17`** — `O1`, `O3` and `W2`'s remainder in the dealer's own words. One input unblocks eleven record fields.
 
 ### 4. Two decisions with a brand scope
 
 `KNW-4` (commission the remaining tests, or declare the current data the limit) and `KNW-7` (whether the treatment
 design service adopts the staged-deliverable shape the isolation ladder already runs). `DEC-1` — the canonical name —
-is a third if the legal form matters for copy.
+is a third if the legal form matters for copy, and the legal form itself is now settled by the report.
+
+**Two more arrived on 2026-08-21, both from reading the BSRIA report at source, and both feed `KNW-4` directly.**
+`DOC-32` — the marine sheet's provenance — and `DAT-1` as rewritten: whether the resonance panel we ship is the
+resonance panel that was tested. *Neither is a wording. Each one decides whether a published document stands.*
 
 ## What is explicitly not part of closing this phase
 

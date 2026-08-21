@@ -59,7 +59,7 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 | Field | Value |
 |---|---|
 | What they are, collectively | A three-panel acoustic treatment system, one panel per acoustic problem — reflection, resonance, reverberation |
-| Depth | **CORRECTED 2026-08-19 (Neil): REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** *The dimensions in this record are sourced from `c-ats-shopify:data/panels.json`, which gives 50 mm for RES-CP — **so the canonical dataset is wrong, or was, and the store is selling on it.** Verify and correct at source: `../../registers/backlog.md` `DAT-1`.* **And minimum depth is a stated design goal of the system, not a spec detail** (Neil, 2026-08-19) — it feeds the commercial argument directly: at this tier the floor area a deeper system consumes costs far more than the treatment itself |
+| Depth | **CORRECTED 2026-08-19 (Neil): REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** *The dimensions in this record are sourced from `c-ats-shopify:data/panels.json`, which gives 50 mm for RES-CP — **so the canonical dataset is wrong, or was, and the store is selling on it.** Verify and correct at source: `../../registers/backlog.md` `DAT-1`.* **And minimum depth is a stated design goal of the system, not a spec detail** (Neil, 2026-08-19) — it feeds the commercial argument directly: at this tier the floor area a deeper system consumes costs far more than the treatment itself **↻ And the independent test report agrees with the dataset, 2026-08-21.** *BSRIA Table 1 records the RES-CP at 600 × 600 × **50** mm; 43 appears nowhere in the report. **So this is not a dataset typo** — the open question is whether the shipping panel is the tested panel, which is `DAT-1` as now rewritten (`../../evidence/2026-08-21-bsria-report-read.md`)* |
 | Box rule | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
 | Layout tolerance | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
 | Where they sit | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
@@ -286,10 +286,12 @@ current EN 13501-1 classification, which should be in the record rather than loo
 ## Also in the range, deliberately not developed here
 
 - **`C-ATS-REF-CP-MAR`** — marine Reflection Control Panel. **A narrow compliance edge case for superyacht work
- where Lloyd's requires specific heat-load limits.** Not a segment and not to be given segment-level prominence.
- **[?] It has no absorption data of its own** — the BSRIA report does not cover it, and it needs establishing
- whether it is acoustically identical to the REF-CP with a marine-grade finish or requires its own test. That is
- a real gap for a compliance product.
+  where Lloyd's requires specific heat-load limits.** Not a segment and not to be given segment-level prominence.
+  **A coefficient sheet for it is published on the site, and no test behind it can be traced.** *The BSRIA report
+  was read in full at source on 2026-08-21 (`../../evidence/2026-08-21-bsria-report-read.md`): three materials,
+  eight configurations, and the word "marine" nowhere in nineteen pages. So either a second test exists that this
+  repo has never seen, or the sheet carries REF-CP figures under a marine part number.* **For a compliance product
+  invoking IMO/SOLAS that is the range's most exposed published claim** — `DOC-32`.
 - **Isolation System** — a different test class entirely (sound reduction / transmissibility, not absorption) and
  needs its own report. **[?]**
 - **Design service and Verification** — services, so most of the schema does not apply. But the doubt-removal and
@@ -421,7 +423,8 @@ Seven findings, none of which needed new research — only somewhere to put what
 2. **The REV-CP cold-adhesive failure.** The most predictable site failure we have, and a one-line fix in a manual.
 3. **The corner-factor double-count warning** on RES-CP data, currently living in a code comment.
 4. **"Faceted ABS diffuser"** in our own legacy source — a wording violation the record now catches.
-5. **The marine panel has no acoustic data**, which matters more for a compliance product than a standard one.
+5. **The marine panel has a published coefficient sheet and no traceable test** — worse than absent data, because it
+   reads as evidence. Confirmed 2026-08-21 against the primary source; `DOC-32`.
 6. **A live figure disagreement on the REF-CP** — legacy-calculator against BSRIA test 6, roughly double at 250
  and 500 Hz — which nobody had noticed because the two numbers lived in different places.
 7. **~300 mm layout tolerance is a genuine selling point that appears in no marketing.** It says the system is
