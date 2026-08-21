@@ -9,6 +9,32 @@ generator picks it up**. Anything applied by hand to the store instead will be o
 
 ---
 
+## 0. `SIT-13` — ⚠ URGENT: a live false claim on `c-ats.co.uk`
+
+*`/technical-information/` states that **reflection panels tolerate roughly 300 mm from the designed position**. Struck
+2026-08-21 (`Q102`): the aperiodic layout's advantage comes from the panels being where the sequence puts them, so
+moving one breaks the sequence. **This is on the real site, not a mockup, and it is the only live false claim found.**
+Take the sentence down first — the replacement can follow separately.*
+
+**Replacement copy, from `Q103`:**
+
+> **Setting out.** The layout is computed for your room, and **what matters is the relative positions rather than
+> millimetre accuracy**. Panels work as a pattern: the spacing between them is doing the work, so the pattern has to
+> survive the install.
+>
+> In practice that means three things. **Set out from the drawing** rather than by eye. **Keep the pattern** — if
+> something has to shift, shift the run rather than one panel. And **do not substitute your own arrangement**, however
+> reasonable it looks, because a tidier-looking layout is usually a more regular one, and regularity is the thing the
+> design is avoiding.
+>
+> This is why the layout is worth designing rather than estimating.
+
+*Why this is better copy than what it replaces, and worth saying to whoever applies it: the old line sold ease —
+install approximately, get the result — which quietly argued that the design was not worth paying for. **The new line
+says the opposite, and it is true.***
+
+---
+
 ## 1. `SIT-9` — "diffuser" is on the product in three places
 
 *The brand's hardest naming rule (`claims.md` `C5.15`): diffusion has a specific meaning under ISO 17497 that this
