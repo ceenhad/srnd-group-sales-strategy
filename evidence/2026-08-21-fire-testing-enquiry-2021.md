@@ -4,7 +4,15 @@
 An enquiry to a test lab, with five attachments: the two IMO FTP Code annexes Lloyd's requires, and manufacturer
 sheets for three of the four materials.
 
-**It is the enquiry, not the result.** Nothing here shows the testing was carried out.
+**It is the enquiry, and the reply killed it.** Alastair Monk, ITA Labs, 9 March 2021, four days later, in full:
+*"Whilst we are able to carry out the UL-94 test that you request, we are not a Certified Test House and are not able
+to issue formal test certificates. You would need a test house certified by Underwriters Laboratories."*
+
+Two things about that reply. It answers only on **UL-94** and never engages with the IMO FTP Code tests that were the
+actual request. And ITA Labs is the **International Tin Association** — a materials lab, not a fire certification
+body. So the enquiry did not fail on the product; it went to the wrong kind of organisation and stopped there.
+
+**Neil, 2026-08-21: it was never done.** Five years on, there is no marine fire test for any C-ATS panel.
 
 ## What it settles: the construction of all three standard panels
 
@@ -57,9 +65,15 @@ Register requirements to ensure that vessel can be signed off."*
 
 This is far sharper than the "IMO/SOLAS" the content uses, and it is what a specifier on a yacht project will ask for.
 
-**And it reframes the marine product.** In 2021 the intent was to certify the three standard panels for marine use. As
-of today the marine offer is a separate hand-made panel in a different material (`Q83`). Whether the 2021 testing was
-carried out — and whether its outcome is why a separate marine panel exists — is the open question.
+**And it reframes the marine product and `T1` with it.** In 2021 the intent was to certify the three standard panels
+for marine use. That attempt stopped at the first reply and was not resumed. Today the marine offer is a separate
+hand-made panel in a different material (`Q83`), sold "only in very specific cases under demand from Lloyd's".
+
+So the marine leg of `T1` has been carried as *we hold the compliance evidence and dealers need teaching*. On this
+evidence **there is no panel-level marine fire certificate at all**. The plausible reading — and it is only that until
+an owner says so — is that compliance rests on the **solid-surface material's own marine approval** rather than on a
+test of the assembled panel, which would be why the marine variant is a different material rather than a different
+finish on the same one. `DOC-41`.
 
 ## One aside worth keeping
 
