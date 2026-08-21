@@ -89,13 +89,19 @@ up reflections and move them from audible to inaudible."***
 **That is the clearest statement of purpose in the brand and it should lead wherever the panel is described.** *Three
 things follow.*
 
-- **The goal is a threshold, not a coefficient — and the panel removes nothing.** *A reflection does not have to be
-  taken away; it has to stop being audible as a distinct arrival, which is achieved by **breaking one large reflection
-  into many smaller, later ones**. Nothing is absorbed, so nothing has to be deep enough to absorb it.* **That is why
-  the panel's measured absorption is near zero and why that was never the weakness the record read it as** — *and it is
-  Neil's own goal (`Q95`) stated as a mechanism.* *Whether the design targets a specific threshold figure, and what it
-  is, remains `KNW-14`: **the platform's tooling computes one, but that work is in development and not locked**
-  (`../../evidence/2026-08-21-cinema-tools-reports-read.md`), so no figure or parameter from it may be used here.*
+- **The goal is a threshold, and the threshold is published.** *It is **Olive & Toole, JAES Vol. 37 No. 7/8, 1989** —
+  the level of a single reflection relative to the direct sound at which it becomes just detectable. Graded on the
+  normal-room curve, because a cinema is reverberant: **−5 dB at 2 ms, falling to about −13 dB by 20 ms and flat
+  above**, with offsets for direction and signal, **judged per reflection and per band**, and the excess over the line
+  setting how much reduction is required (`../../evidence/2026-08-21-olive-toole-threshold.md`, `Q104`).*
+  **So the panel removes nothing and needs no depth to** — *it brings band levels under a line. **Excess over threshold
+  is the measure; absorption is not**, which is why the measured absorption is near zero and why that was never the
+  weakness the record read it as.*
+- **And the strongest technical statement in the brand is a category fact that names nobody.** *The same paper shows
+  **an ETC peak under-reports a reflection poorer in HF than the direct by about 20 dB** — and that is exactly this
+  case, because speaker directivity and boundary absorption roll the reflection's high frequencies off. **The metric
+  most people would reach for is wrong by ~20 dB in precisely the situation that matters**, which is why the criterion
+  is per band. *True, sourced, and it says nothing about anybody's product.*
 
 - **`C5.15` stops being a constraint and becomes a position.** *The rule was "never say diffusion, because ISO 17497
   makes it a claim we cannot support." **The better version is Neil's**: it is not a mathematical diffusor, and in a
