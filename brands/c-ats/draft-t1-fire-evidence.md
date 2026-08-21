@@ -4,7 +4,7 @@
 dealer **cannot finish the job** without what we know. It has been blocked since the leg was written; the 2026-08-21
 primary-source reads (`../../evidence/2026-08-21-fire-testing-enquiry-2021.md`) and `Q84`–`Q88` unblocked it.*
 
-**A draft for correction.** *One decision at the foot is not mine to make, and it is a real one.*
+**Two versions, decided 2026-08-21 (`../../registers/questions.md` `Q93`).** *Everything down to §5 is the **public and CPD-route** version. **§6 is gated** — partner material, and what is said in the room — and it carries the one weak rating in the range. Omitting it publicly is not a falsehood, which matters because the CPD Quality Code requires factual, standards-compliant material.* **This is the first C-ATS content with a deliberate two-tier structure**, *and it applies `Q90`'s gate to a weakness rather than to a sales-ladder item — a use of the gate nobody had proposed.*
 
 ---
 
@@ -75,7 +75,7 @@ concealed system that is the wrong document to chase first. Two consequences on 
 | Reverberation panel core | An acoustic foam core | **Class 0** — Class 1 surface spread under BS 476 Part 7, with the Part 6 propagation limit. The strongest position in the range |
 | Reflection panel | An injection-moulded flame-retardant polymer | **UL 94 V-0** on the manufacturer's data. A useful rating, and **not** a UK or European building classification |
 | Resonance panel, rear | An acoustic foam | Combustion-modified, BS 3379 nominal class A, compliant with the Furniture and Furnishings Regulations Schedule 1 Part 1, capable of UL 94 HF1 and FMVSS 302 |
-| Resonance panel, front | A cast acrylic sheet | See the decision at the foot of this draft |
+| Resonance panel, front | A rigid face bonded to that foam | **Gated — §6.** *Its classification is stated on a project basis, as everything else is* |
 | Marine reflection panel | A solid-surface material, **specified by Lloyd's Register** | The material's own marine certificate is the evidence, and it is what a surveyor is given |
 
 **Two limits stated plainly, because a partial fire answer is the one that gets a dealer refused on site.**
@@ -127,26 +127,32 @@ it.*
 | No panel-level marine test; the material certificate is the evidence | `Q84` | **Owner's words** |
 | The fabric is the exposed surface | `product-records.md` § Where they sit; `N6` | Recorded |
 
-**Publication limit — and `training.md`'s `T1` row is wrong about this.** *That row says the limit is "None —
+**Publication limit — and `training.md`'s `T1` row was wrong about this.** *That row says the limit is "None —
 compliance data is meant to be shown." `Q85` changed it: **material identity is margin**, and the more precisely a
 fire piece describes a material the closer it comes to identifying it. So this piece names **classifications and
 regimes**, never a material brand, a density or a grade. Nothing in it needs those to be useful, which is the test.*
 
 ---
 
-## The one decision
+## 6. GATED — the acrylic front face
 
-**Does the resonance panel's cast acrylic front face go in the piece, with its Class 3 surface-spread rating and its
-manufacturer's own words that it is combustible?**
+**Partner material and in-room content only. Not on a public page, not in a CPD submission.**
 
-*The case for including it:* it is true, a dealer who is blindsided by it on site is worse off than one who was told,
-and the mitigation is strong and easy to state — the face is concealed behind a rated fabric, and the acrylic's own
-manufacturer notes that it produces very little smoke, which is the property a lining regime cares most about.
-Including it is also the difference between a compliance session and a sales session, and the CPD routes assess for
-exactly that.
+The resonance panel's front face is a cast acrylic sheet. On its manufacturer's own data it is **BS 476 Part 7
+Class 3** for surface spread of flame and **UL 94 HB**, and their words are: *"a combustible material and if ignited
+will continue to burn. However, unlike many other plastic materials, burning PERSPEX® produces very little smoke, an
+important fire safety benefit."*
 
-*The case against:* it is the weakest number in the range, stated publicly, in a piece whose purpose is to build
-confidence. It could instead be answered honestly on a project basis, as everything else is.
+**Class 0 is the top of that scale, so this is the weakest number in the range and it should be heard from us first.**
 
-**My reading: include it.** *A compliance subject that omits its own weak point is not a compliance subject, and the
-concealment argument is genuinely good rather than a deflection. But this is a brand-truth call and it is Neil's.*
+**Why it is defensible, and both halves matter.** The face is **concealed behind a rated fabric lining**, so it is
+never the exposed surface of the room — which is §3's point arriving where it counts. And **low smoke is the property a
+lining regime cares most about**: on the marine side the smoke and toxicity test is Annex 1 Part 2, ahead of surface
+flammability at Part 5, and in a building fire smoke is what stops people leaving.
+
+**What to say if asked on a job.** State the layer, state its classification, state that it is concealed behind a rated
+finish, and offer the certificate against the specification. **Do not lead with the mitigation** — a dealer who gives
+the number and then the context is believed; one who gives the context first sounds like they are managing a problem.
+
+*Recorded 2026-08-21 from the manufacturer's data sheet in the 2021 test-lab pack
+(`../../evidence/2026-08-21-fire-testing-enquiry-2021.md`). The material is named nowhere in the delivered piece — `Q85`.*

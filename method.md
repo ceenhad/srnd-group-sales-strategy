@@ -393,6 +393,8 @@ mistake made twice.*
 | **A register over ~450 lines** | `open-items.md` reached 838 and had become a diary. Nothing had told it to stop |
 | **Sessions narrating their own process** | *"I first wrote…", "third instance of…"* — keep the finding, drop the diary |
 
+**A fourth, 2026-08-21 — asking outside the active phase.** *Invited to close open questions so there would be work queued, I picked the heaviest `Ask` rows in the register. One of them, `CON-10`, was **group B2C channel spend during a C-ATS trade phase**, and the brief it produced then had to reason about a dependency in another lane entirely. Neil: **"Why are cinema store questions slipping in here."*** **The rule: heaviness is not relevance.** *When choosing what to ask, filter by the active phase first and weight second — and if a row from another lane genuinely deserves to jump, say that it is jumping.*
+
 **Three judgement failures a checker cannot catch, so they are written down instead.**
 
 1. **A shared link is context, not a work order.** *A URL arrived with no instruction and produced a seven-section

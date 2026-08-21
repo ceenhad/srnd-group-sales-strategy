@@ -25,16 +25,22 @@ any other on your drawings: **it is decided with the wall, not added to it.**
 
 ---
 
-### 1. It comes out of your dimensions, so it belongs in them early
+### 1. The treatment decides how deep your wall build-up is
 
-Acoustic treatment is usually 100–200 mm deep, mostly for bass. **This system works at 50 mm.**
+The panels sit in the cavity between the structural wall and the fabric wall. **The depth of that cavity is set by the
+acoustic treatment**, not by the fabric system — so this is the number that decides how much of the room the wall
+build-up takes.
 
-On a 6.0 × 4.5 m room, the difference between a 150 mm build-up and a 50 mm one is about **2 m² of floor** — and at
-this end of the market the floor area is worth considerably more per square metre than the treatment that consumed it.
+Acoustic treatment is usually 100–200 mm deep, mostly for bass. **This system works at 50 mm.** On a 6.0 × 4.5 m room,
+the difference between a 150 mm build-up and a 50 mm one is about **2 m² of floor** — and at this end of the market the
+floor is worth considerably more per square metre than the treatment that consumed it.
 
-**What we need from you is the zone, not the panel layout.** Allow the depth on the surfaces that will be treated and
-we will work inside it. What we cannot do is recover depth from a room already dimensioned as though the acoustics were
-a finish.
+**That is the whole reason the system was designed shallow.** It is not a spec detail; it is the dimension you are
+being asked to give up, and we made it as small as we could.
+
+**What we need from you is the cavity, not the panel layout.** Set the zone on the surfaces that will be treated and we
+will work inside it. What we cannot do is recover depth from a room already dimensioned as though the acoustics were a
+finish.
 
 ---
 
@@ -122,12 +128,13 @@ depth-to-allow but not quantities is on the right side of that line by construct
 
 ---
 
-## The one thing I could not source, and it is the first thing an architect will ask
+## Sourced, 2026-08-21
 
-**Does the 50 mm sit inside the stretch-fabric system's own build-up, or in addition to it?**
+**The question this draft could not answer — whether the 50 mm sits inside the fabric system's build-up or adds to it —
+is answered and it is neither** (`../../registers/questions.md` `Q92`). Neil: *"it sits betwen the structural wall and
+the fabric wall. the depth is not driven by the fabrc system though, its driven by the acoustic treatment system which
+is entirely the point of making it so shallow."*
 
-*A fabric wall system has a frame depth of its own. If the treatment fits within that zone, the honest headline is that
-the acoustic layer costs the architect **nothing** in dimensions — which is a far stronger claim than 50 mm against
-150 mm. If it adds, the number they must allow is 50 mm plus the frame, and §1 above understates it.*
-
-**Nothing in the record answers this**, and it is the single most consequential dimension on the page. `KNW-12`.
+*The first framing here was the weaker one: that we fit inside a zone the architect was giving up anyway. **The truth is
+stronger** — the treatment sets the cavity, so the 50 mm is the architect's number directly, and minimum depth being a
+design goal follows from that rather than being a boast about it.* §1 is rewritten accordingly.
