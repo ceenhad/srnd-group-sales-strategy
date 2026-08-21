@@ -23,13 +23,23 @@ a session that lost its way. Tested against the run's own definition in `../_tem
 `draft-t2-decide-before-the-wall.md` · `draft-t5-layout-tolerance.md` · `draft-answers.md` ·
 `draft-n7-client-leave-behind.md`.
 
-Read `draft-answers.md` against the published knowledge base before correcting it: it re-derived answers that were
-already live on the site. That is the one place this phase produced waste.
+**Done 2026-08-21 (`SIT-12`, `../../evidence/2026-08-21-c-ats-knowledge-base-read.md`): the waste charge was wrong.**
+All eighteen articles were read against `N3`. Three of `draft-answers.md`'s five answers are absent from the knowledge
+base, one is written but stops short of the commercial point, and one is redundant. So one of five, not five of five.
+`draft-t2`'s subject — deciding treatment before the wall — is absent from all eighteen. **The phase produced no
+waste; what it produced was a wrong baseline, and `N3` was the wrong baseline.** Seven of the thirteen questions have
+a written answer, not two, and two the record credits as answered have none.
 
-### 2. One rule violation, and it is on a published page
+### 2. One rule violation in three placements, and one page it is not on
 
-`SIT-9` — an article files the Reflection Control Panel under a "Diffusers" heading. `C5.15` forbids the word on the
-product, and the record had already caught the legacy brochure doing the same thing.
+`SIT-9` — three placements, found on the full read: the heading "Diffusers", a table row "Diffuser / reflection
+control", and an FAQ line pairing them as synonyms, "diffusers/reflection control preserve a sense of space". `C5.15`
+forbids the word on the product, and the record had already caught the legacy brochure doing the same thing. The
+sentence about the panel itself is correct and says scatter.
+
+**Two more surfaced with it, both cheap and both live exposures.** The full coefficient tables are written without the
+free, unfixed mounting condition the record insists must travel with them, which `Q46` requires — one sentence fixes
+it. And four RT60 target ranges are given as "typical targets" with no standard named, which makes them our claim.
 
 ### 3. Three fetches, each one input, each unblocking more than itself
 
