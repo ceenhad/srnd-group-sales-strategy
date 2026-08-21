@@ -100,6 +100,21 @@ Six rules are new, in `CLAUDE.md` and `method.md`:
 
 ### Where the C-ATS work stands
 
+**`brands/c-ats/phase-closure.md` is the answer to "what finishes this phase"** — tested against the run's own
+definition in `../_template/the-brand-run.md`, not against a new list. The run is structurally complete on all five
+deliverables; four things close the phase: the four drafts' truth-check (read `draft-answers.md` against the
+published knowledge base first), `SIT-9`, three fetches (`DAT-3`/`DOC-7`, `DOC-8`, `DOC-17`), and two brand-scoped
+decisions (`KNW-4`, `KNW-7`). Explicitly not in this phase: isolation (`P2`), standard rooms (`EST-20`), `DR-Q52`'s
+formal closure, and the prose-to-rows rewrite.
+
+**The engine thread did not drop** — `operations/engine-measurement-spec.md` holds six deltas `D1`–`D6` between the
+KPI framework agreed 2026-08-14 and what engine measurably holds, written as a dev-team specification because we do
+not write to engine from here.
+
+**Access limit:** `SRND-Group/srnd-engine` and `srnd-os` are reachable by the account but **cannot be attached to a
+session started on this repo** (cross-owner adds unsupported). Engine application work, and any answer to `Q40`,
+needs a session opened on those repos.
+
 The drill-down is done end to end — `positioning.md` §1–§7 atomised into **76 claim rows** in
 `brands/c-ats/claims.md`, and `Q63`–`Q81` are answered and applied.
 
