@@ -108,3 +108,39 @@ design, not access to a material.
 
 *"I just waited almost 6 months for an acoustic test of the materials after they arrived at the test lab."* That is the
 BSRIA commission — tested July 2019, reported March 2020.
+
+## The foam's own documentation, read from the supplier — 2026-08-21
+
+Neil: *"we use the one with the bonded adhesive backing."* Searched and read on his instruction. **The manufacturer's own
+page (`thevitagroup.com`) could not be fetched — redirect loop — so the manufacturer-level facts below come from a
+search summary of it and are marked as such.** The rest is the supplier's product page, read directly.
+
+**Fire, and this is the deliverable under `Q84`.** Class 0 fire propagation on the principles of BS 476 Part 6, which
+requires a Class 1 surface spread of flame under BS 476 Part 7 first. *Search summary of the manufacturer's page adds
+UL 94 V-0.* Nothing on either page suggests the self-adhesive version is classified differently.
+
+**Self-adhesive backing is standard, not an option.** "Class 0 acoustic foam sheets come with self-adhesive backing as
+standard." So the Reverberation panel's core arrives with factory adhesive, which is a different fact from anything the
+install record holds.
+
+**Two install-critical facts new to this repo, and both belong in the install guides.**
+
+- **Three adhesives are compatible — neoprene, acrylic, polyurethane — and one must be avoided:** synthetic
+  butyl-rubber-based adhesive, which "may degrade" the foam. Nothing in `install-critical-notes.md` or the record says
+  this.
+- **A stated serviceable life, conditional and therefore usable:** "providing Pyrosorb-S is used in applications where
+  it is not subjected to continuous excessive heat (above 100 degrees Celsius), UV light or water there is no evidence
+  to suggest a serviceable period of less than ten years." A concealed panel in a cinema meets all three conditions
+  comfortably.
+
+**One conflict, recorded rather than resolved.** The supplier's page gives a nominal density of 23.5–25.5 kg/m³. The
+search summary of the manufacturer's page describes Pyrosorb-S as a high-density foam at roughly 85 kg/m³. And the
+datasheet Neil attached in 2021 — the primary document, from the manufacturer — records 94.7 kg/m³ at 26 mm in the
+thermal test. **Two of the three agree at high density and the supplier's figure looks like the standard grade's
+density carried onto the wrong page**, but that is inference. `DOC-43`.
+
+**The strategic point, which is larger than the fire question.** Under `Q84` the material certificate is what a
+specifier receives. The foam therefore comes with a documentation pack C-ATS did not have to commission — a Class 0
+classification, a UL 94 rating, compatible-adhesive guidance and a ten-year conditional service statement — and **this
+repo has never listed it as an asset.** `A1`–`A11` in the product record audits our own assets and does not ask what
+the materials bring.
