@@ -48,7 +48,7 @@ finish.
 
 - **Reflections.** Sound arriving off a hard surface a moment after the direct sound. Left alone it blurs detail and
   makes dialogue harder to follow. These panels **scatter** those reflections away from the seats rather than deadening
-  the room. Position is forgiving — around 300 mm of tolerance without material effect.
+  the room. **The layout is computed, and the relative positions are what matter** — it does not need laser accuracy, but the pattern has to survive the install.
 - **Resonance.** The uneven bass that makes one seat sound heavy and the next thin. **These go in the corners**, where
   that energy collects, and this is the one place where position is not negotiable. Corner loading is the whole
   mechanism.
@@ -114,7 +114,7 @@ nobody, that is the normal answer and it is the one worth fixing early.
 | ~2 m² on a 6.0 × 4.5 m room | The published depth article's own worked example | Recorded. **Deliberately no money figure** — the article carries £/sq ft and this page must not |
 | Three problems, one panel each | shared § What they are; `claims.md` `C1.15`, `C1.20` | Confirmed — *"the 3 Rs is the design system"* (Neil, `Q70`) |
 | Scatter, never diffusion | `claims.md` `C5.15` | Hard rule |
-| ~300 mm layout tolerance | shared § Layout tolerance; `H2` | Recorded. **Traces to a 2015 brochure decode flagged "legacy, confirm current spec"** — `draft-t5` carries the same caveat, and the piece says "around" for that reason |
+| **The layout is computed; relative positions matter, laser accuracy does not** | `Q102`, `Q103`; shared § Layout tolerance, struck | **Replaces the ~300 mm tolerance claim, struck 2026-08-21.** *Former note: traces to a 2015 brochure decode flagged "legacy, confirm current spec"** — `draft-t5` carries the same caveat, and the piece says "around" for that reason |
 | Corner loading is the mechanism; position not negotiable | resonance record `O4`, `R1`; `claims.md` `C4.15` | Recorded, and un-gated 2026-08-21 (`gating-sort.md`) |
 | Over-use dulls a room | reverberation record § Limits | Recorded |
 | The three refusals | Neil, `Q77`; `claims.md` `C1.43`, `C1.44` | **Owner's words** |

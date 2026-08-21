@@ -52,7 +52,7 @@ to set. Provenance, placement and the rejected candidates are in `hooks.md`. All
 |---|---|---|
 | The problem named | The room measures fine and still doesn't sound convincing | `R1` — the doubt the panel meets |
 | Better results | Scattering keeps the room alive; absorbing everything makes it dead | `D2`, `D5` — what it does, and what it is not for |
-| Easier to do | Panels can sit ~300 mm off the drawing without changing the result | `O2` — and the brand's best unused claim |
+| Easier to do | **STRUCK 2026-08-21 (`Q102`)** — *former: panels can sit ~300 mm off the drawing without changing the result* | `O2` — and the brand's best unused claim |
 | Time saved | Whole boxes, whole numbers — 16 to a box, 1.44 m², no cutting list | `M1` |
 | More revenue | Knowing *why* a room needs treatment at the reflection points, not just that it does | `../../group-strategy/buyer-journey.md` — why-to-spec is the valuable public act |
 

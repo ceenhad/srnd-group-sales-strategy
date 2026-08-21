@@ -40,7 +40,7 @@ A is the specified condition.
 
 ### Position tolerance
 
-Panels may sit **up to about 300 mm from the designed position** without materially changing the result. Rooms
+**STRUCK 2026-08-21 (`../../registers/questions.md` `Q102`): the tolerance no longer holds, and an install guide is the worst place for it to survive.** *What holds instead: **the layout does not need laser accuracy, but the relative positions do** (`Q103`) — set out from the drawing, keep the pattern, do not substitute an arrangement. Former text: panels may sit up to about 300 mm from the designed position without materially changing the result. Rooms
 rarely match drawings; work to the layout, not to the millimetre.
 
 ### If you have already installed without adhesive

@@ -74,7 +74,7 @@ high-end room the floor area a deep system consumes costs considerably more than
 **away from a corner it is a much weaker device**, because the thing it exploits is only there in the corner.*
 
 **This is worth answering plainly rather than softening**, *because it is the one place in the range where position
-is not forgiving. Everywhere else the layout tolerates being approximate (`draft-t5-layout-tolerance.md`); **the
+is not forgiving. **↻ CORRECTED 2026-08-21 (`Q102`): the rest of the layout is not forgiving either** — the aperiodic layout's advantage depends on panels being where the sequence puts them. *The former sentence read: everywhere else the layout tolerates being approximate*; **the
 corner panel does not, and a dealer is better served knowing which rule is which.***
 
 ### 10 · Checkerboard the reverberation panels, or run them continuous?

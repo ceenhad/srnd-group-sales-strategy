@@ -333,7 +333,7 @@ source, or hooks get invented per campaign**, which is precisely what the produc
    new research: the REF-CP bond-versus-screw trap (the recommended install deliberately absorbs *less*, so an
    installer who skips the adhesive gets acoustics the design didn't assume), the REV-CP cold-adhesive failure, a
    corner-factor double-count warning living in a code comment, a "faceted ABS diffuser" wording violation in our
-   own legacy source, the marine panel having no acoustic data of its own, and a ~300 mm layout tolerance that is a
+   own legacy source, the marine panel's data provenance, and a ~300 mm layout tolerance **since struck (`questions.md` `Q102`)** that is a
    real selling point appearing in no marketing.
 3. **Then DT, by mechanism rather than by SKU.** The range is variant-heavy; document the mechanism once and table
    the variants. **The grouping is now proposed and skeletoned** — `brands/display-technologies/product-records.md`
