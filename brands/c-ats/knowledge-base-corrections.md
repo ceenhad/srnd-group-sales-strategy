@@ -3,9 +3,23 @@
 *Seven fixes found by `SIT-12` (`../../evidence/2026-08-21-c-ats-knowledge-base-read.md`) and by the primary-source
 reads of the same day. **Replacement text, not instructions** — each one is written to be dropped in.*
 
-**Where this belongs.** *The articles live on `c-ats.myshopify.com` and this repo cannot edit them. But the C-ATS site
-that appeared on 2026-08-20 was generated from answers in this repo, so **the corrected text belongs here and the
-generator picks it up**. Anything applied by hand to the store instead will be overwritten by the next generation.*
+**Where this belongs — corrected 2026-08-21, because the earlier note here was an assumption.** *It claimed the C-ATS
+site is generated from this repo, so the corrected text would be picked up automatically. **Nothing in this repo
+supports that.** It rested on one remark about one Astro build whose provenance the web-check evidence explicitly
+records as unknown and not worth chasing.*
+
+**What is actually true is that these corrections target three different surfaces, and this repo can edit none of
+them:**
+
+| Surface | What it is | How text gets changed |
+|---|---|---|
+| `www.c-ats.co.uk/technical-information/` | **The live site.** WordPress | Unknown to this repo. `SIT-13` lives here |
+| `c-ats.myshopify.com` — the 18 articles | The mockup store | Shopify CLI, and `EST-6` records that re-auth is **blocked** |
+| A generated build | Provenance unknown | No pipeline is documented anywhere in this repo |
+
+**So this document is the deliverable and it is finished.** *The copy is written and paste-ready. **Applying it needs
+someone with access to the surface**, and for the store that is blocked behind `EST-6`. `SIT-13` is the one that
+matters most and the one whose route is least clear — it is on the live site.*
 
 ---
 
