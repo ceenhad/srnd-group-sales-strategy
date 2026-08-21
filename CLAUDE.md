@@ -61,12 +61,22 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
  Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
  settled, read the current state first — this work has already based a position on a superseded ADR once, and
  a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
-- **The C-ATS web surfaces are data, not truth — and this has been re-learned three times.** *Neil, 2026-08-21: `c-ats.co.uk` is **old legacy** and the
-  Shopify store is **his own mocked-up data**. **"Neither need fixed or treated as immutable truth. Just data to consume, discuss, correct and make
-  available for engine and SRND is to process."** So a discrepancy on either is **not a defect to fix and not evidence of the offer** — it is input. **Never
-  call something on them a live false claim, and never queue work to "apply corrections at source".** *The deliverable is corrected content in the record,
-  where engine and SRND OS can consume it. `registers/premises.md` `PR-18` broke on this, the 2026-08-20 web check recorded it as the lesson that cost an
-  afternoon, and it recurred anyway — which is why it is here rather than only in a register.*
+- **Establish what a surface *is* before treating anything on it as evidence or as a defect.** *Three states, and they
+  behave in opposite ways: **the published offer** — a wrong claim on it is a defect and it is urgent; **a legacy
+  remnant** — superseded, so a discrepancy is not a defect and not evidence of what is sold; **a mock-up or working
+  data** — input to be consumed, discussed and corrected, never audited against the guardrails. **Do not infer which
+  one you are looking at.** *It is recorded below; if a surface is not listed, ask before drawing anything from it.*
+  - **`www.c-ats.co.uk` — old legacy. `c-ats.myshopify.com` — Neil's own mocked-up data** *(2026-08-21). Neither is the
+    offer: **"Neither need fixed or treated as immutable truth. Just data to consume, discuss, correct and make
+    available for engine and SRND is to process."** So a finding on either is input, not a defect, and the deliverable
+    is corrected content in the record where engine and SRND OS can consume it.*
+  - **⚠ This flips when a new site goes live, and the line above must be updated the day it does.** *A false claim on a
+    published surface **is** a defect and **is** urgent. **This entry is a statement of today's facts, not a standing
+    permission to disregard web surfaces** — read it as a status board, and treat an unlisted or newly-live surface as
+    the published offer until told otherwise.*
+  - *Re-learned three times: `registers/premises.md` `PR-18` broke on it, the 2026-08-20 web check recorded it as the
+    lesson that cost an afternoon, and it recurred anyway — which is why it is here and not only in a register.*
+
 - **Facts about the present go in `evidence/current-state.md`.** The baseline — dealers, revenue shape, lead sources,
  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
  reasoning about it.
