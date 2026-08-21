@@ -78,7 +78,7 @@ product range.
 
 | Panel | Problem in a small room | Mechanism | Why depth is not the lever |
 |---|---|---|---|
-| Reflection, 50 mm | Early reflections arriving audibly after the direct sound | **Breaking up the reflection** — surface geometry redirects and disperses it | The work is done by relief and shape, not by bulk. See below |
+| Reflection, 50 mm | Early reflections arriving audibly after the direct sound | **Splitting one arrival into many** — surface geometry breaks a single large reflection into many smaller, later ones, each falling under the audibility threshold | The work is done by relief and shape, not by bulk. **Nothing is removed, so nothing has to be deep enough to absorb it.** See below |
 | Reverberation, 50 mm | Overall decay through the mid and high band | **Porous absorption at high density** — roughly 3.5× standard acoustic foam | Density buys resistance where depth would otherwise have to. It is still path-length dependent, which is why this panel is weak at the bottom — and it does not have to be strong there, because it is not the panel for that job |
 | Resonance, 43 mm | Modal, low-frequency energy — the uneven bass of a small room | **A tuned resonator** — a rigid face over a damped cavity, a mass on a spring | A resonator is tuned by mass and cavity, **not** by path length. It is the only class of absorber that works at low frequency in a shallow depth, and it is why 43 mm is possible at all |
 
@@ -89,9 +89,19 @@ up reflections and move them from audible to inaudible."***
 **That is the clearest statement of purpose in the brand and it should lead wherever the panel is described.** *Three
 things follow.*
 
-- **The goal is a threshold, not a coefficient.** A reflection does not have to be removed; it has to stop being
-  audible as a distinct arrival. That is why the panel's measured absorption is near zero and why that is not a
-  weakness — it is not absorbing, and it was never trying to.
+- **The goal is a threshold, not a coefficient — and the threshold is real, computed and reported.** *Cinema Tools
+  grades every loudspeaker-to-seat bounce against a **level- and delay-dependent audibility threshold**, reporting time
+  difference in ms, level offset in dB and how far each sits over threshold; reflections within **15 ms** fuse with the
+  direct sound and set the image, later ones are reverberation
+  (`../../evidence/2026-08-21-cinema-tools-reports-read.md`, `KNW-14`).* **And the mechanism is stated there better
+  than anywhere in this folder:** *"the aim is to maximise the level offset and the time gap — a reflection panel does
+  both, **breaking one large reflection into many smaller, later ones**."* **So the panel removes nothing and does not
+  need depth to.** *That is why its measured absorption is near zero, and why that was never the weakness the record
+  read it as.*
+- **The distribution is achieved by the layout, not by the panel profile.** *Cinema Tools selects a pattern per patch,
+  and thirteen of twenty-two patches on this room used a **maximum-length (aperiodic) sequence** — the sequence family
+  the diffusor literature uses, applied to **where panels go** rather than to how one is shaped. **That is a sharper
+  position than "we scatter rather than diffuse"**, and nothing in the brand folder mentions it.*
 - **`C5.15` stops being a constraint and becomes a position.** *The rule was "never say diffusion, because ISO 17497
   makes it a claim we cannot support." **The better version is Neil's**: it is not a mathematical diffusor, and in a
   small room that concept has limited application anyway. **An admission plus a reason beats a silence**, and it lets
