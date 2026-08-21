@@ -89,19 +89,14 @@ up reflections and move them from audible to inaudible."***
 **That is the clearest statement of purpose in the brand and it should lead wherever the panel is described.** *Three
 things follow.*
 
-- **The goal is a threshold, not a coefficient — and the threshold is real, computed and reported.** *Cinema Tools
-  grades every loudspeaker-to-seat bounce against a **level- and delay-dependent audibility threshold**, reporting time
-  difference in ms, level offset in dB and how far each sits over threshold; reflections within **15 ms** fuse with the
-  direct sound and set the image, later ones are reverberation
-  (`../../evidence/2026-08-21-cinema-tools-reports-read.md`, `KNW-14`).* **And the mechanism is stated there better
-  than anywhere in this folder:** *"the aim is to maximise the level offset and the time gap — a reflection panel does
-  both, **breaking one large reflection into many smaller, later ones**."* **So the panel removes nothing and does not
-  need depth to.** *That is why its measured absorption is near zero, and why that was never the weakness the record
-  read it as.*
-- **The distribution is achieved by the layout, not by the panel profile.** *Cinema Tools selects a pattern per patch,
-  and thirteen of twenty-two patches on this room used a **maximum-length (aperiodic) sequence** — the sequence family
-  the diffusor literature uses, applied to **where panels go** rather than to how one is shaped. **That is a sharper
-  position than "we scatter rather than diffuse"**, and nothing in the brand folder mentions it.*
+- **The goal is a threshold, not a coefficient — and the panel removes nothing.** *A reflection does not have to be
+  taken away; it has to stop being audible as a distinct arrival, which is achieved by **breaking one large reflection
+  into many smaller, later ones**. Nothing is absorbed, so nothing has to be deep enough to absorb it.* **That is why
+  the panel's measured absorption is near zero and why that was never the weakness the record read it as** — *and it is
+  Neil's own goal (`Q95`) stated as a mechanism.* *Whether the design targets a specific threshold figure, and what it
+  is, remains `KNW-14`: **the platform's tooling computes one, but that work is in development and not locked**
+  (`../../evidence/2026-08-21-cinema-tools-reports-read.md`), so no figure or parameter from it may be used here.*
+
 - **`C5.15` stops being a constraint and becomes a position.** *The rule was "never say diffusion, because ISO 17497
   makes it a claim we cannot support." **The better version is Neil's**: it is not a mathematical diffusor, and in a
   small room that concept has limited application anyway. **An admission plus a reason beats a silence**, and it lets

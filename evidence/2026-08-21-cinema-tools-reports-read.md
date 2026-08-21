@@ -1,11 +1,19 @@
-# Two Cinema Tools reports, read — 2026-08-21
+# Two Cinema Tools reports, read — 2026-08-21 — **BACKGROUND ONLY**
+
+> **⚠ Treat this file as background. Nothing in it is a source to build on.** *Neil, 2026-08-21: **"please treat that in
+> development report as just background info right now. your general observations are dead on but the stuff like the
+> aperiodic placement needs deeper analysis before i lock it."*** **So: the general observations below may inform
+> thinking; the specific implementation details, parameters and counts may not leave this file** — not into positioning,
+> not into claims, not into a draft, and not into anything published. *Both reports are Cinema Tools outputs still being
+> finalised.*
 
 *Neil supplied `Acoustic Treatment Report` (12 pp) and `Acoustic Design Report` (46 pp), both **Galileo v3, issued
-2026-08-19**, both outputs of Cinema Tools and both still being finalised: **"the reflection section is decent
-already."** It is, and it settles the question this repo opened yesterday.*
+2026-08-19**, both still being finalised: **"the reflection section is decent already."***
 
-**Read against `CLAUDE.md`'s standing instruction to check the platform before specifying anything that touches it.
-Three things it settles, two it contradicts, one label that looks wrong.**
+**The rule this file established the hard way.** *`CLAUDE.md` says to check the platform before specifying anything that
+touches it. **Reading it is not the same as building on it.** An output still in development is a look at where the
+thinking has got to, not a fact to cite — and this session lifted an unlocked implementation detail into a live
+positioning document within minutes of reading it. See `../method.md`.*
 
 ## `KNW-14` answered: "inaudible" has a definition and a number
 
@@ -39,15 +47,14 @@ read it as (`N3` question 4).*
 concept has limited application in a small room. What replaces it is a stated aim — level offset and time gap — that
 can be computed, is computed, and is reported per reflection.*
 
-## The layout uses aperiodic sequences, which nothing in this repo knew
+## The layout pattern logic — **not locked, do not use**
 
-*Pattern selection per patch: **"4 chequerboard (patch too small for a sequence), 13 maximum-length-sequence
-(aperiodic), 5 solid (single point or line)."***
+**Neil has explicitly held this back for deeper analysis before locking it.** *The reports show pattern selection
+happening per patch, with more than one pattern family in play and a stated reason for choosing between them.*
 
-**So the distribution is achieved at the layout level by an aperiodic sequence, not at the panel level by a
-mathematical profile.** *That is a sharper and more defensible version of the position than "we scatter rather than
-diffuse": the sequence family is the one the diffusor literature uses, applied to where panels go rather than to how a
-panel is shaped.* **Nothing in the brand folder mentions it, and it is a strong technical proof point.**
+**That is as far as this file goes on it**, and no part of it may be characterised, named or cited outside this file
+until he locks it. *The earlier version of this section named the sequence family and drew a positioning conclusion
+from it — both removed.*
 
 ## Two contradictions with this repo, and the first one matters
 
