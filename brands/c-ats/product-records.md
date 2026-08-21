@@ -391,6 +391,33 @@ known**, which is the honest position: the audit itself has not been done, and i
 **Filling this table is perhaps twenty minutes with the documentation folder open**, and it converts every "the
 manuals are poor" conversation into a list. It is the cheapest unstarted thing in this file.
 
+### `A12` — what the materials bring, added 2026-08-21 (`DOC-45`)
+
+**The audit above counts only what C-ATS made, and that is why it reads thinner than the evidence base is.** *Under
+`Q84` the **material certificate is what a specifier receives**, so for every panel the material's own documentation is
+a deliverable rather than a supporting paper. **None of it was ever listed.***
+
+| Layer | What its documentation gives us | State |
+|---|---|---|
+| Reverberation core | **Class 0** — Class 1 surface spread under BS 476 Part 7, then Part 6 fire propagation. Plus a **UL 94** rating, **compatible-adhesive guidance**, and a **ten-year conditional service statement** | Classification confirmed; **the certificate PDF is not in hand** — `DOC-42` |
+| Reflection panel | **UL 94 V-0** on the manufacturer's own data sheet | **In hand**, in the 2021 test-lab pack |
+| Resonance panel, front | **BS 476 Part 7 Class 3**, UL 94 HB, and the manufacturer's own low-smoke note | **In hand**, same pack |
+| Resonance panel, rear | BS 3379 combustion-modified nominal class A; Furniture and Furnishings Regulations Schedule 1 Part 1; UL 94 HF1; FMVSS 302 | Ratings known, **no manufacturer sheet** |
+| Marine panel | The marine approval of the material **Lloyd's Register specified** | The evidence a surveyor is given (`Q84`) |
+
+**Two rules on this table, and they are why it is a separate block rather than rows in the audit above.**
+
+- **It never travels with material or supplier names.** *`Q85` — material identity is margin. The audit records **that
+  a certificate exists and what it certifies**, never what the material is. The publishable form of the marine line is
+  *"the material specified by Lloyd's Register"*, which cites the authority and names nothing.*
+- **It is a gated, project-basis disclosure, never a download.** *A certificate names the material, so handing one over
+  is a project act. That is the tension `Q84` and `Q85` create together and it is resolved by the same gate the group
+  runs on pricing.*
+
+**What this changes about the audit's honest summary:** *two of eleven `A` rows are known and the range looks
+under-documented. **Adding what the materials bring, four of five layers have their fire position documented and three
+of those are physically in hand.** The gap is C-ATS's own paperwork, not the evidence.*
+
 ## What is still missing, and why it is the same six
 
 Six fields are unfilled on all three panels, and **the pattern matters more than the count**:

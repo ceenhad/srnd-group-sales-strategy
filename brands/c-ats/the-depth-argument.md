@@ -64,6 +64,25 @@ material has to occupy a meaningful fraction of a wavelength — the working rul
 porous absorption, low frequencies demand depth.** That is general acoustics, and it says nothing about anybody's
 product range.
 
+**And the 100–200 mm comparator is now sourced — from mechanisms and material data, not from anybody's product**
+(`DAT-4`, 2026-08-21). *`Q95` forbids characterising what competitors build, so the comparator is evidenced the only way
+it honestly can be: **by what the two conventional mechanisms require to reach low frequencies.***
+
+- **Porous absorption is specified thick because thickness is what buys the bottom end, and the material manufacturers'
+  own data shows it.** *Our own foam's published figures at four thicknesses: at 125 Hz, **50 mm gives 0.24 and 100 mm
+  gives 0.41** — so doubling the depth buys roughly 70 % more absorption in the band that matters. **100 mm is a
+  standard stocked thickness for acoustic foam**, which is a fact about what the industry makes rather than about what
+  anyone sells.*
+- **Phase-based scattering is worse on depth, not better.** *Its reach and its build-out are the same axis: **600 mm of
+  well to reach 143 Hz** (§3a). A device built that way and asked to work low lands in the hundreds of millimetres by
+  its own defining arithmetic.*
+- **And the physics says why neither escapes it.** *A quarter wavelength at 100 Hz is about 860 mm, so any mechanism
+  that depends on path length is priced in depth at the bottom of the range.*
+
+**So 100–200 mm is a fair and, if anything, conservative characterisation of what those mechanisms require** — and
+crucially, **it is a statement about mechanisms rather than about products.** *Say it that way and it needs no claim
+about a rival, measured or otherwise.*
+
 **The two comparisons that are ours to make are between product classes**, and Neil names both:
 
 - **The resonance panel against the category of bass traps.** *A bass trap is whatever a supplier builds to control
@@ -103,6 +122,7 @@ things follow.*
   most people would reach for is wrong by ~20 dB in precisely the situation that matters**, which is why the criterion
   is per band. *True, sourced, and it says nothing about anybody's product.*
 
+- **And the reflection panel's reach lives in the layout, not in the panel** — *released for use 2026-08-21 (`Q97`, `Q98`). The array is laid out on an **aperiodic sequence**, and that is where the low-frequency reach comes from: measured on the two candidate patterns, the aperiodic one distributes across **uniformity 0.66 against a checkerboard's 0.21**. A regular arrangement puts its energy at one scale; an irregular one works across many.* **So the panel is a 3 mm moulding and the reach is a property of the set** — which is `Q86`'s *"the system is the product"* arriving as a measurement rather than a slogan.
 - **`C5.15` stops being a constraint and becomes a position.** *The rule was "never say diffusion, because ISO 17497
   makes it a claim we cannot support." **The better version is Neil's**: it is not a mathematical diffusor, and in a
   small room that concept has limited application anyway. **An admission plus a reason beats a silence**, and it lets
