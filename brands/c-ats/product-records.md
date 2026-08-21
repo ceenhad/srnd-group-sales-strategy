@@ -60,6 +60,7 @@ reported 3 March 2020, **free/unfixed mounting** — design-stage reference, not
 |---|---|
 | What they are, collectively | A three-panel acoustic treatment system, one panel per acoustic problem — reflection, resonance, reverberation |
 | Depth | **CORRECTED 2026-08-19 (Neil): REF-CP and REV-CP are 50 mm; RES-CP is 43 mm.** *The dimensions in this record are sourced from `c-ats-shopify:data/panels.json`, which gives 50 mm for RES-CP — **so the canonical dataset is wrong, or was, and the store is selling on it.** Verify and correct at source: `../../registers/backlog.md` `DAT-1`.* **And minimum depth is a stated design goal of the system, not a spec detail** (Neil, 2026-08-19) — it feeds the commercial argument directly: at this tier the floor area a deeper system consumes costs far more than the treatment itself **↻ Settled 2026-08-21 (`../../registers/questions.md` `Q82`).** *Neil: the RES-CP **"is and always has been 43mm deep. It's made from a 40mm foam panel bonded to a 3mm Perspex."** **BSRIA's Table 1 records 50 mm — a nominal logged at test**, which is almost certainly where `panels.json` got it. So the figure is 43 mm everywhere, the published coefficients are for the current article, and `DAT-1` is a one-field data fix at source.* **The construction is recorded and not published** — foam bonded to Perspex is a mechanism, and this brand names problems solved, not mechanisms |
+| Construction | **RECORDED 2026-08-21 (Neil, `../../registers/questions.md` `Q82`, `Q83`) — and it is the first time this record has held it. Every panel uses a different material; the range is four constructions, not one material in four shapes.** *REV-CP: a Class O acoustic foam core. REF-CP: injection moulded, **material `[?]`**. RES-CP: 40 mm foam bonded to 3 mm acrylic sheet — the 43 mm. REF-CP-MAR: hand made in 3 mm solid-surface material, press moulded to the identical shape as the REF-CP.* **This is a mechanism and stays internal** — the brand names problems solved, not mechanisms, and the material brand names must never reach public content. *The public form already in use is generic and correct; the knowledge base's own construction sentence is wrong for two of the three panels — `DOC-34`.* **The only prior source was a decode of the 2015 pack brochure giving "ABS, foam", flagged legacy** |
 | Box rule | Every box covers **1.44 m²**. Quantities round **up** to whole boxes — a dealer buys full boxes |
 | Layout tolerance | Panels may move **~300 mm** from the designed position without material performance impact. Forgiving on site, and a genuine selling point that is nowhere in the marketing |
 | Where they sit | Behind a stretch-fabric finish, concealed. Any fabric system works; Fabric Walls pairs well and is not a dependency |
@@ -287,11 +288,12 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 - **`C-ATS-REF-CP-MAR`** — marine Reflection Control Panel. **A narrow compliance edge case for superyacht work
   where Lloyd's requires specific heat-load limits.** Not a segment and not to be given segment-level prominence.
-  **A coefficient sheet for it is published on the site, and no test behind it can be traced.** *The BSRIA report
-  was read in full at source on 2026-08-21 (`../../evidence/2026-08-21-bsria-report-read.md`): three materials,
-  eight configurations, and the word "marine" nowhere in nineteen pages. So either a second test exists that this
-  repo has never seen, or the sheet carries REF-CP figures under a marine part number.* **For a compliance product
-  invoking IMO/SOLAS that is the range's most exposed published claim** — `DOC-32`.
+  **Settled 2026-08-21 (`../../registers/questions.md` `Q83`): no separate absorption test exists and none is needed.**
+  *It is hand made in 3 mm solid-surface material using press moulds that deliver the identical shape to the standard
+  panel, and absorption is not what a reflection panel is for — so the standard panel's bonded data is representative
+  and the published sheet stands. What is owed is a stated basis wherever those figures appear (`DOC-33`).* **And the
+  reason it stays demoted is now on the record: hand made, 25× the cost or more of the standard injection-moulded
+  part, and only ever on a Lloyd's demand.**
 - **Isolation System** — a different test class entirely (sound reduction / transmissibility, not absorption) and
  needs its own report. **[?]**
 - **Design service and Verification** — services, so most of the schema does not apply. But the doubt-removal and

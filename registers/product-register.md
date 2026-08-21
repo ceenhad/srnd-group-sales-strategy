@@ -81,11 +81,11 @@ stronger way. *`../method.md` § the oldest failure in the repo.*
 
 **Notes, and two of them are live risks:**
 
-- `CAT-04` is a **compliance product whose published acoustic data has no traceable test** (`registers/backlog.md`
-  `DOC-32`). *Confirmed 2026-08-21 against the primary source: the BSRIA report covers three materials and no marine
-  panel, yet a marine coefficient sheet is published ungated on the site.* Being sold, being specified for Lloyd's
-  heat-load limits, and carrying figures we cannot source. **Worst combination on this page, and worse than the "no
-  data" it was previously recorded as.**
+- `CAT-04` is a **compliance product whose published data is the standard panel's, and legitimately so** — settled
+  2026-08-21 (`registers/questions.md` `Q83`). *Identical shape from press moulds, absorption not being what a
+  reflection panel is for, so the bonded figures are representative and no separate test is owed.* **What is owed is
+  one line saying so wherever the figures appear** (`registers/backlog.md` `DOC-33`). *It is hand made at 25× the cost
+  or more of the standard part and specified only on a Lloyd's demand, which is why it stays demoted.*
 - `CAT-08` is `pre-release` and **must not be written up as shipping** — the `G3` gate exists for exactly this row.
 - **`C-ATS-REV-CP-12` is discontinued and still listed.** Not given a row, because it is not a product; recorded
   here so the delisting is not forgotten (`operations/store-split-worklist.md`).

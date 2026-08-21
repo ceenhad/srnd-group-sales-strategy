@@ -74,13 +74,24 @@ treating the sides unequally, specifying treatment too deep, and overlooking the
   cross-selling a sister brand is the thesis working. It writes the name as one word; the group's brand is Fabric
   Walls.
 
-## And `DOC-32` is sharpened by our own content, twice
+## `DOC-32` closed the same day, and it exposed a construction error instead
 
-The data article states outright: "The Marine and Isolation products were not included in this report." The marine
-article states: "Standard C-ATS panels are *not* constructed from IMO/SOLAS-compliant materials", and describes the
-marine panel as a thermoformed solid-surface panel built to marine fire-resistance requirements.
+Asked and answered (`Q83`). **No marine test was ever commissioned, and none is needed.** The marine panel is hand made
+in 3 mm solid-surface material using press moulds that give it the identical shape to the standard Reflection Control
+Panel, and absorption is not what a reflection panel is for — so the standard panel's bonded data is representative.
+The published sheet stands. What it needs is one line saying that is the basis (`DOC-33`), which is stronger than
+letting a shared dataset read as a separate test.
 
-So the marine panel is a different material from the standard panel. A different material has different absorption.
-**The published marine coefficient sheet therefore cannot be REF-CP figures re-badged** — which was one of the two
-answers `DOC-32` offered. Either a test exists that this repo has never seen, or the sheet is unsupportable. The
-marine article itself cites no data and links no report, which is the right restraint.
+**The error the answer turned up is in the materials article.** It says "a Class O acoustic-foam core for the
+Reverberation panel, and thermoformed solid-surface panels for Reflection and Resonance control." Neil, the same day:
+**every panel uses a different material.** The foam core is right. The standard Reflection panel is injection moulded.
+The Resonance panel is 40 mm foam bonded to 3 mm acrylic. Solid surface describes the **marine** panel. So the one
+construction sentence in eighteen articles groups two panels that share nothing and gives them the marine build.
+`DOC-34`.
+
+Both answers also supplied material brand names, which are recorded and never published. The generic public form
+already in use is the correct one — it is only attached to the wrong products.
+
+**And the cost shape is now on the record**: the marine panel is hand made at 25× the cost or more of the standard
+injection-moulded part, specified only on a demand from Lloyd's. That is `EST-4`'s demote-marine decided rather than
+judged.
