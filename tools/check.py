@@ -84,10 +84,16 @@ def check_size():
 
 # 8 — process narration. The registers are not a session diary.
 def check_narration():
-    pats = [r'\bI (wrote|had|offered|first|turned|assumed)\b', r'\bmy (error|misreading|own reading)\b',
-            r'\b(second|third|fourth|fifth|sixth) (instance|time) (of|this)\b']
+    """Self-reference only. "this failed because X" is a finding and must survive;
+    "I first wrote X and then corrected it" is a diary."""
+    pats = [r'\bI (first wrote|had written|nearly|then wrote)\b',
+            r'\bmy (own reading|misreading|error)\b',
+            r'\bcorrecting my own\b',
+            r'\bwithdrawn the same (day|hour)\b']
+    exempt = ('method.md', 'registers/premises.md')   # the method, and the failure library
     for f in md_files():
-        if f in ('method.md',): continue          # method.md is where lessons legitimately live
+        if f in exempt:
+            continue
         s = open(f).read()
         hits = sum(len(re.findall(p, s, re.I)) for p in pats)
         if hits:

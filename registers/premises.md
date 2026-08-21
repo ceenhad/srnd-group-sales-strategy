@@ -19,8 +19,8 @@ reading the deliverable. A premise in a row can be broken in seconds.**
   weaker) · **Proposed here** (mine — you are ratifying a suggestion, not confirming a fact) · **Unknown**.
 - **Every row names what would break it.** A premise with no falsifier is not a premise, it is a belief.
 - **Status:** `holding` · `challenged` (evidence against it, not yet resolved) · `qualified` (true within stated
-  limits) · `broken` (with the date and what broke it — **deleted once its consequence has been applied**, because the work built on it
-  has to be findable).
+  limits) · `broken` (with the date and what broke it — **kept**, because the work built on it has to be findable
+  and because a broken row is what stops the same assumption being made again).
 - **A broken premise is not a failure, it is the point.** The register earns its place by how often rows break.
 
 ## The register

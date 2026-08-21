@@ -315,9 +315,10 @@ anyone has actually agreed to.**
 4. **Ask, apply, ask.** No essay between the answer and the next question. **Premises to break, not options to
    pick.**
 5. **Record the answer verbatim, and what it changed.** If it changed nothing, say so.
-6. **Correct in place and visibly.** A struck line with its reason is worth more than a clean one that hides a
-   reversal. **A broken premise is a work item, not a monument**: once its consequence has been applied, delete the
-   row — what stays is the owner's correction, in the claim or decision it belongs to.
+6. **Correct the text, and keep the reason.** The wrong version goes; why it was wrong stays. **Broken premises
+   are the exception to every deletion rule in this repo** — `registers/premises.md` is the failure library, and
+   `PR-1` (this repo's default assumption about a missing capability has been wrong every time) has prevented the
+   same mistake repeatedly. A broken row is deleted only if it turns out never to have been load-bearing.
 
 ## Two things to say out loud rather than resolve quietly
 
@@ -332,7 +333,8 @@ anyone has actually agreed to.**
 
 **One kind per file**, and the folder says which kind: **`group-strategy/`** argument · **`motion/`** the
 machinery · **`brands/`** application · **`registers/`** state, in rows · **`evidence/`** measured,
-measured, and superseded findings are deleted rather than stacked · **`operations/`** what leaves the repo, **including ADRs drafted for `cinema-platform`** ·
+measured. **A superseded conclusion is deleted; the measurement under it is not** — figures are expensive to
+re-derive and a later question usually needs them · **`operations/`** what leaves the repo, **including ADRs drafted for `cinema-platform`** ·
 **`data/`** the source, as scripts and derived files rather than as tables typed into documents.
 
 ## `decided.md` is a machine input, not a record
@@ -403,3 +405,23 @@ mistake made twice.*
 
 **And the deepest one, which is why the bar on questions exists:** *of 61 answered questions, 22 were pure repo
 housekeeping. **The scarcest thing in this process is an owner's attention, and it was being spent on filing.***
+
+### What the deletion rules must never touch
+
+*Added 2026-08-20, after the clean-up nearly cut into the working memory a session needs. Neil's question was the
+right one: rules that remove noise can remove the record with it.*
+
+**Four things are exempt from every "delete it" rule in this repo:**
+
+| Kept, always | Why |
+|---|---|
+| **What an owner actually said, verbatim, with a date** | It is the only unimpeachable source here, and 171 such quotations are load-bearing across the files |
+| **A broken premise** (`registers/premises.md`) | The failure library. `PR-1` — this repo's default assumption about a missing capability has been wrong every time — has stopped the same mistake repeatedly. 18 of 24 rows are broken, and that is the register working |
+| **A measurement**, even when the conclusion drawn from it is withdrawn | Figures are expensive to re-derive. The 53-of-549 dealer baseline, the `G3`/`G4`/`G6` funnel counts, the BSRIA provenance — a later question needs the number even when the argument around it was wrong |
+| **Why a correction happened** | "This failed because X" is a finding. "I first wrote X and then corrected it" is a diary. The first stays |
+
+**What goes, and it is only this:** *the wrong version of a text · a session's account of its own process ·
+a withdrawn finding · a superseded conclusion · a closed row that carries nothing but its own history.*
+
+*`tools/check.py` is scoped to match: its narration check flags self-reference only, and exempts this file and the
+premises register.*
