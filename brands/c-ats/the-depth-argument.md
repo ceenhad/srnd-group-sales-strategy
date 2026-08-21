@@ -27,10 +27,24 @@ is not checked** and inevitably such a claim is never 100% certain — certainly
 rule hid them behind "shallower than any competing product"; `Q63` struck it, because the numbers are the premise of
 the commercial argument rather than a spec boast.*
 
-**One boundary on "full range".** *It is the owner's description of the design intent and the right one. **The measured
-evidence starts at 100 Hz** — BSRIA's lowest third-octave band — so below that the system is designed rather than
-verified, and the record notes separately that a 125/250 Hz Sabine RT60 misses the 20–80 Hz modal region entirely
-(`measured-acoustics.md`). Say full-range as intent; cite data only from 100 Hz up.*
+**One boundary on "full range", and it is the method's boundary rather than ours** (`Q96`). *The measured evidence
+starts at **100 Hz**, BSRIA's lowest third-octave band, and it stops there because **reverberation-room testing cannot
+go lower with any accuracy**. The method rests on a diffuse sound field; as frequency falls the chamber's own modes
+dominate and that assumption fails. BSRIA's chamber is **210 m³** and testing accurately into a small room's modal
+region would need one orders of magnitude larger.*
+
+**So this is not a gap in C-ATS's data. It is the edge of what the standard can measure**, and nobody in the category
+has ISO 354 figures below it. *Two things follow. **Say full-range as design intent and cite data only from 100 Hz
+up.** And **the evidence for low-frequency performance has to come from the finished room**, because there is nowhere
+else for it to come from — which is why verification is the backbone of the strongest claim rather than an add-on. See
+§7.*
+
+**A related point about the figures themselves, and it applies to everyone equally.** *Neil: **"the Sabine absorbsiton
+numbers are indeed pretty band limited and heavily smoothed....but that is the shitty industry standard!"** A Sabine
+coefficient is a diffuse-field energy average — it says nothing about angle of incidence. **That is a reason not to
+over-rely on coefficients, not a defect in ours**, and it is the same limitation behind every published figure in the
+category. The report's own tables are **third-octave, eighteen bands**, which is better granularity than most published
+summaries.*
 
 ---
 
@@ -179,10 +193,13 @@ treatment itself* — and it is the only claim row in this area that is a busine
 
 - **The absolute is unchecked.** *A survey of comparable complete systems' total depths would settle it. Until then the
   bounded form is the only honest one — and it is not weak.*
-- **Below 100 Hz is designed, not verified.** *BSRIA's lowest band is 100 Hz and a small room's worst modal trouble sits
-  under it. **This is the gap most worth closing**, because it is the exact region the resonance panel exists for and
-  the region "full range" is understood to include. It is also what `KNW-4` decided to defer on cost — and now has a
-  specific target rather than a general one. `DAT-5`.*
+- **Below 100 Hz is unmeasurable by this method, not untested by us** (`Q96`). *A small room's worst modal trouble sits
+  beneath the standard's floor, and no reverberation-room test reaches it — so **this cannot be closed by spending
+  money on another chamber test**, and `KNW-4`'s deferral is not what is holding it. **The evidence route is the
+  finished room**: in-situ measurement, which C-ATS already offers as verification (`P7`). *That reframes verification
+  entirely — it is not a reassurance service, it is **the only available evidence for the claim the range is strongest
+  on**.* `DAT-5` carries the reframing; **the work is to make verification carry that weight**, which nothing currently
+  says it does.*
 - **The resonator's tuning is not recorded.** *Nothing states a centre frequency, a range or a Q. The measured curve
   implies a broad, well-damped response — flat from 100 Hz to 1 kHz — but that is read off results rather than stated by
   whoever designed it. **A broadly tuned resonator is a much better story than a narrow one**, and the strongest claim
