@@ -78,7 +78,7 @@ concealed system that is the wrong document to chase first. Two consequences on 
 | Resonance panel, front | A rigid face bonded to that foam | **Gated — §6.** *Its classification is stated on a project basis, as everything else is* |
 | Marine reflection panel | A solid-surface material, **specified by Lloyd's Register** | The material's own marine certificate is the evidence, and it is what a surveyor is given |
 
-**Two limits stated plainly, because a partial fire answer is the one that gets a dealer refused on site.**
+**Two limits stated plainly, because a partial fire answer is the one that gets a dealer refused on site.** *(A third, outside fire: the range's **default install condition — adhesive-bonded — is the one performance figure in the set with no lab measurement behind it**, because BSRIA tested only unfixed panels. Recorded, not open, and it belongs beside any bonded number the same way these limits belong beside a classification. `../../evidence/2026-08-21-three-panels-fifty-millimetres.md`.)*
 
 - **There is no EN 13501-1 classification for any C-ATS panel.** If a specification is written to Euroclass, we cannot
   answer it from our own data today. Ask early, so the specification can be written to what exists or the

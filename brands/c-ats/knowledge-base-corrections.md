@@ -64,9 +64,14 @@ as a general remark. **Place this immediately above the tables**, in the BSRIA d
 > panel it changes it measurably: bonded gives roughly 0.28 at 500 Hz, screw-only roughly 0.54, because bonding damps
 > the panel and lets it work as a clean reflector.
 >
-> **So read these as design-stage reference figures, not as installed performance.** They are what the material does
-> under a standard test. What your room does depends on how the panels are fixed, where they are, and what else is in
-> it.
+> **So read these as design-stage reference figures rather than installed performance — but the size of that gap is not
+> the same for all three panels.** A foam has a rigid backing whether it lies on a chamber floor or is stuck to a wall,
+> so for the reverberation panel the lab condition is effectively the installed one. It is the reflection panel where
+> fixing changes the result, because bonding damps the panel itself.
+>
+> **One more caution on the numbers above 1.0.** A coefficient above 1 is a known effect of this test method, and these
+> samples were 1.44 m² where the standard asks for 10–12 m². **It is not a figure you can apply across a whole wall** —
+> it over-predicts a large installation, and a spaced layout should be sized on the per-panel figures instead.
 
 ---
 

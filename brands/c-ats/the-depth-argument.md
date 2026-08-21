@@ -78,9 +78,9 @@ product range.
 
 | Panel | Problem in a small room | Mechanism | Why depth is not the lever |
 |---|---|---|---|
-| Reflection, 50 mm | Early reflections arriving audibly after the direct sound | **Splitting one arrival into many** — surface geometry breaks a single large reflection into many smaller, later ones, each falling under the audibility threshold | The work is done by relief and shape, not by bulk. **Nothing is removed, so nothing has to be deep enough to absorb it.** See below |
-| Reverberation, 50 mm | Overall decay through the mid and high band | **Porous absorption at high density** — roughly 3.5× standard acoustic foam | Density buys resistance where depth would otherwise have to. It is still path-length dependent, which is why this panel is weak at the bottom — and it does not have to be strong there, because it is not the panel for that job |
-| Resonance, 43 mm | Modal, low-frequency energy — the uneven bass of a small room | **A tuned resonator** — a rigid face over a damped cavity, a mass on a spring | A resonator is tuned by mass and cavity, **not** by path length. It is the only class of absorber that works at low frequency in a shallow depth, and it is why 43 mm is possible at all |
+| Reflection, 50 mm | Early reflections arriving audibly after the direct sound | **Splitting one arrival into many** — relief breaks a single large reflection into many smaller, later ones, each falling under the audibility threshold. *A panel resonance rides on top of it, which bonding damps* | **It is a 3 mm moulding with relief out to 50 mm, not a 50 mm solid** — so the depth is the relief, and the relief is the mechanism. **Nothing is removed, so nothing has to be deep enough to absorb it** |
+| Reverberation, 50 mm | Overall decay through the mid and high band | **Porous absorption at high density** — a single 50 mm foam at roughly 3.5× standard acoustic foam | Density buys resistance where depth would otherwise have to. Still path-length dependent, which is why it is weak at the bottom — and it need not be strong there, because it is not the panel for that job. **A foam has a rigid backing on a chamber floor or on a wall alike, so its lab figures *are* its installed condition** |
+| Resonance, 43 mm | Modal, low-frequency energy — the uneven bass of a small room | **Membrane absorption.** *3 mm acrylic bonded to 40 mm foam; the plate is **pressure-driven**, so a boundary loads it. Its hard face absorbs nothing at HF, so the only foam the room sees is the 40 mm edge band* | A mass-spring device is tuned by mass and cavity, **not** by path length — **f₀ = K/√(m·d)**, calculating to **124–134 Hz** against a measured peak at **125 Hz** with a notch immediately above it at 160 Hz. **It is the only class of absorber that works at low frequency in a shallow depth**, and because f₀ scales as 1/√(m·d), a variant is predictable without a new test |
 
 **The reflection panel: state the goal, and be honest about the word.** *Neil, `Q95`: **"we know that the ref panel is
 not a true mathematical diffusor but that concept is of limited application in a small room anyway. our goal is break
@@ -112,20 +112,31 @@ same low-frequency problem as anything else. `C4.15` is Neil's own words and §4
 **BSRIA 100241/1, tested 24 July 2019, BS EN ISO 354:2003, read at source 2026-08-21.** *This is the depth-against-result comparison `Q95` calls for, and it is made **between our own two panels**, so it characterises nobody.* *Same lab, same session, same
 1.44 m² coverage, free/unfixed mounting.* **The comparison is between our own two panels, so it names nobody.**
 
-**Table 5, plane absorber at 1.44 m², sound absorption coefficient αs:**
+**The headline figure, and it needs no comparison at all.** *Per box, all boxes covering the same 1.44 m²:*
 
-| Frequency | Reverberation panel, 50 mm porous | **Resonance panel, 43 mm resonator** |
+> **The resonance panel delivers 1.52 m² of absorption from 1.44 m² of coverage at 125 Hz** — more than its own area, at
+> a 2.7 m wavelength, in 50 mm. **Measured.**
+
+*That single line carries the low-frequency argument, and it beats any comparative because it is a self-contained
+result. `../../evidence/2026-08-21-three-panels-fifty-millimetres.md` (locked, `Q97`).*
+
+**And the system-level argument is stronger than the panel-level one.** *RES falls with frequency, REV rises, and they
+cross in the **400–500 Hz** region. **That crossing is what makes a full-range result out of two 50 mm devices** — and
+it is invisible in any single table, which is why nothing in the brand folder had it.*
+
+| Band | RES, m²/box | REV, m²/box |
 |---|---|---|
-| 100 Hz | 0.14 | **0.46** |
-| 125 Hz | 0.41 | **0.48** |
-| 200 Hz | 0.32 | **0.44** |
-| 250 Hz | 0.50 | 0.48 |
-| 500 Hz | 0.88 | 0.55 |
-| 1 kHz | 1.11 | 0.47 |
+| 125 Hz | **1.52** | 0.48 |
+| 250 Hz | **1.40** | 0.80 |
+| 500 Hz | 1.28 | **1.76** |
+| 1 kHz | 1.00 | **2.56** |
+| 4 kHz | 0.56 | **2.88** |
 
-**At 100 Hz the shallower panel outperforms the deeper one more than three to one.** *And the resonance panel's curve
-is flat from 100 Hz to 1 kHz where the porous panel's climbs — which is exactly what a resonator versus a porous
-absorber looks like, and it is the physics in §3 showing up in the data.*
+**⚠ The plane coefficients must not be used the way an earlier version of this section used them.** *It quoted the
+reverberation panel's α of 1.09–1.18 from 1–4 kHz as measured evidence. **An α above 1 is not a coefficient that can be
+applied over a wall**: BSRIA attributes it to diffraction, and the samples were **1.44 m² against the 10–12 m² the
+standard wants**, so it is edge-inflated. **The per-box figures above are what a spaced layout should use**, and they
+make the point better anyway.*
 
 **Table 4 gives the corner-loading proof, and it is the more useful number.** *Equivalent absorption area per panel,
 m² per object:*
