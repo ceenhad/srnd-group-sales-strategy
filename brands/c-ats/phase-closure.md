@@ -69,9 +69,29 @@ definition, not a build. Plus what is computable today, and four things that are
 The queue for it is `ENG-20` → `ENG-24` → `JNY-10` → `ENG-21`/`ENG-22`, and the order matters: nothing measures
 until `customers.customer_type_id` is populated.
 
-## One access limit worth recording
+## The repo access boundary — tested 2026-08-21, do not retry
 
-`SRND-Group/srnd-engine` and `SRND-Group/srnd-os` are both reachable by this account with push rights, but **a
-session started on this repo cannot attach them** — cross-owner adds are unsupported, and this repo sits under
-`ceenhad`. Engine work that needs the application code, and any answer to `Q40` ("what is `srnd-os`?"), needs a
-session opened on those repos instead.
+**A session on this repo cannot read `SRND-Group/srnd-engine` or `SRND-Group/srnd-os` by any route.** Three were
+tried:
+
+| Route | Result |
+|---|---|
+| `add_repo` | Refused: cross-tier adds unsupported; this session's sources are under `ceenhad` |
+| `git clone` | No credentials for `github.com` in this session |
+| GitHub API | *"Access denied: not configured for this session. Allowed repositories: `ceenhad/srnd-group-sales-strategy`, `ceenhad/cinema-platform`"* |
+
+**It is not a rights problem** — the account has push on both SRND repos. The session's repo allowlist is fixed at
+launch and holds only the two `ceenhad` repos, which is why `cinema-platform`'s ADRs are readable and the SRND ones
+are not.
+
+**Neil's intent, 2026-08-21:** read-only both ways, *"as those are where our internal tooling comes from just as they
+don't want to write here… to not mix our work."* **The current boundary already enforces that** — nothing here can
+write there and nothing there can write here. What it costs is that no single session reads across.
+
+**So the working arrangement is the one already in use:** engine work that needs the application code happens in a
+session opened on the SRND repos, and what lands here is a specification —
+`../../operations/engine-measurement-spec.md` is exactly that. **Any answer to `Q40` ("what is `srnd-os`?") has to
+come from such a session, or from Neil.**
+
+*The alternative, if one session ever needs all four: an org owner adds the `SRND-Group` repos to this workspace's
+allowed set in the Claude GitHub settings.*

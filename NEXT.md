@@ -111,9 +111,11 @@ formal closure, and the prose-to-rows rewrite.
 KPI framework agreed 2026-08-14 and what engine measurably holds, written as a dev-team specification because we do
 not write to engine from here.
 
-**Access limit:** `SRND-Group/srnd-engine` and `srnd-os` are reachable by the account but **cannot be attached to a
-session started on this repo** (cross-owner adds unsupported). Engine application work, and any answer to `Q40`,
-needs a session opened on those repos.
+**Access boundary, tested three ways on 2026-08-21 — do not retry.** `SRND-Group/srnd-engine` and `srnd-os` cannot
+be read from a session on this repo: `add_repo` refuses cross-owner, `git clone` has no credentials, and the GitHub
+API names the allowlist as `ceenhad/srnd-group-sales-strategy` and `ceenhad/cinema-platform` only. Not a rights
+problem — the account has push on both. **Engine application work, and any answer to `Q40`, needs a session opened on
+those repos; what comes back here is a spec.** Detail in `brands/c-ats/phase-closure.md`.
 
 The drill-down is done end to end — `positioning.md` §1–§7 atomised into **76 claim rows** in
 `brands/c-ats/claims.md`, and `Q63`–`Q81` are answered and applied.
