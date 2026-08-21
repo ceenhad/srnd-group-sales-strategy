@@ -109,8 +109,8 @@ same low-frequency problem as anything else. `C4.15` is Neil's own words and §4
 
 ## 3a. Reach against depth — the QRD comparison, and the axis the argument was missing
 
-**Locked in `cinema-platform` ADR 092 decision 6, 2026-08-21** *(cited from Neil's own statement of it; this repo cites
-the ADR rather than duplicating its reasoning).*
+**Figures per Cinema Tools; the decision recorded in `cinema-platform` ADR 092 §6, 2026-08-21.** *Cited from Neil's
+statement of it — this repo has not read the ADR and does not duplicate its reasoning.*
 
 | | |
 |---|---|
@@ -133,7 +133,7 @@ diffusor.*
 
 *Correction: an earlier note in this session put a QRD's deepest well at λ/2 and so doubled every figure. **The deepest
 well gives a half-wavelength round trip, so the depth is λ/4** — which is what the two numbers above are consistent
-with. Where the 143 Hz reach figure itself comes from should be traceable to ADR 092.*
+with. The 143 Hz reach figure is Cinema Tools' own; where it derives from should be traceable through ADR 092 §6.*
 
 ---
 
