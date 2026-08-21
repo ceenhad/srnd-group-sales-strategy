@@ -3,8 +3,8 @@
 `BSRIA-Final-Report-100241-1.pdf`, published ungated on `c-ats.co.uk`. Compiled by Calum Maclean, approved by Tom
 Garrigan, issued 3 March 2020. Tests carried out at BSRIA Bracknell on **24 July 2019**.
 
-Read to settle `DOC-8` (marine provenance). It settles that, answers `DEC-1`, and raises two things that matter
-more.
+Read to settle `DOC-8` (marine provenance). It settles that, answers `DEC-1`, and raised two larger things — one of which
+Neil closed the same day.
 
 ## What the report actually covers
 
@@ -33,28 +33,23 @@ probably the same commission". **April 2023 is the date the PDFs were published,
 `CATS-REF-CP-MAR` is a live listed product, and marine work invokes IMO/SOLAS. **Where its absorption figures come
 from is now an open question, not a documentation nicety.**
 
-## The larger finding: the tested resonance panel was 50 mm
+## The 50 mm in the report is a nominal — settled the same day
 
-Table 1 records the RES-CP as **600 × 600 × 50 mm**. The number **43 does not appear anywhere in the report**.
+Table 1 records the RES-CP as **600 × 600 × 50 mm**. The number **43 does not appear anywhere in the report**. Put to
+Neil as `Q82`, because if the tested article were not the shipping article that would be the range's most exposed
+claim — the resonance result being, in his own words, "a very, very unusual product delivering results much deeper
+panels would be proud of… probably about the most important result and discussion point in the BSRIA results pack".
 
-Neil, 2026-08-19: "the Ref and Rev panels are 50 mm and the Res is 43 mm", and minimum depth is a stated design goal
-of the system.
+His answer, 2026-08-21: **"The res-cp is and always has been 43mm deep. It's made from a 40mm foam panel bonded to a
+3mm Perspex."**
 
-Three readings, and only Neil can say which:
+So the tested article **is** the shipping article, the published coefficients stand, and BSRIA logged a rounded
+nominal. The construction says where a 50 mm nominal comes from: 40 + 3.
 
-1. The panel was 50 mm when tested in July 2019 and was later revised to 43 mm — in which case **the published
-   coefficient sheet describes a superseded article**.
-2. BSRIA recorded a nominal figure supplied to them and the tested article was already 43 mm.
-3. 43 mm and 50 mm measure different things on the same panel.
-
-**Why it matters more than a data-entry error.** The resonance result is, in Neil's own words, "a very, very unusual
-product delivering results much deeper panels would be proud of — and those results are lab verified, which is
-probably about the most important result and discussion point in the BSRIA results pack". If the tested article is
-not the shipping article, that is the claim most exposed.
-
-**It also reframes `DAT-1`.** That row was recorded as "the canonical dataset is wrong at 50 mm and the public side
-is right at 43 mm". In fact the dataset and the **test report agree at 50 mm**; the 43 mm is the owner's statement
-about the current product. The disagreement is not a typo in one file.
+**`DAT-1` therefore stays a data fix**, confined to `c-ats-shopify:data/panels.json` — which is what the 2026-08-20
+narrowing said, and this morning's reading of it was wrong to widen it. **And the construction is new to the record:**
+foam bonded to Perspex is the first statement of what the panel is made of, and it is a mechanism, so it is recorded
+and not published.
 
 ## Two things the report confirms, which the record already had right
 

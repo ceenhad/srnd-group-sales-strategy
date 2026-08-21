@@ -38,8 +38,7 @@ product, and the record had already caught the legacy brochure doing the same th
 - **`DOC-8`** — **done 2026-08-21, and it did not answer the way the fetch predicted.** The BSRIA report covers three
   materials in eight configurations and **no marine panel**; April 2023 was a publication date, not a test date. So the
   fetch closed and left a question behind it — `DOC-32`, where the published marine coefficients come from — which is
-  Neil's, not a producer's. **Two by-products land in this phase too:** the report puts the tested resonance panel at
-  50 mm, which rewrites `DAT-1` into a strategy question, and it confirms the legal name for `DEC-1`.
+  Neil's, not a producer's. **Two by-products land in this phase too:** the report puts the tested resonance panel at 50 mm — **closed the same day by `Q82`: it is a nominal, the panel is 43 mm, `DAT-1` stays a data fix** — and it confirms the legal name for `DEC-1`.
 - **`DOC-17`** — `O1`, `O3` and `W2`'s remainder in the dealer's own words. One input unblocks eleven record fields.
 
 ### 4. Two decisions with a brand scope
@@ -48,9 +47,10 @@ product, and the record had already caught the legacy brochure doing the same th
 design service adopts the staged-deliverable shape the isolation ladder already runs). `DEC-1` — the canonical name —
 is a third if the legal form matters for copy, and the legal form itself is now settled by the report.
 
-**Two more arrived on 2026-08-21, both from reading the BSRIA report at source, and both feed `KNW-4` directly.**
-`DOC-32` — the marine sheet's provenance — and `DAT-1` as rewritten: whether the resonance panel we ship is the
-resonance panel that was tested. *Neither is a wording. Each one decides whether a published document stands.*
+**One more arrived on 2026-08-21 and it is the half of `KNW-4` still open.** `DOC-32` — where the marine panel's
+published coefficients come from. *It is not a wording: it decides whether a published document for a compliance
+product stands or comes down, and it cannot be deferred by declaring the current data the limit.* The other
+by-product, the resonance depth, **closed within the hour** (`Q82`).
 
 ## What is explicitly not part of closing this phase
 
