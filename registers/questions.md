@@ -23,6 +23,19 @@ an owner's attention on the cheapest problem in the process.*
 > a wording. **About a third produced anything the business would act on**, which is why `../decided.md` is empty.
 > Neil: **"what this indicates is that your questions are shite."***
 
+**One question per box, not just one per row — set 2026-08-21.** *Neil: **"You can't ask 5 questions in one question
+box."** The rule was already here for rows and was broken in the asking: `Q82` put the resonance depth and the marine
+sheet into one question with four options that mixed both, so **no answer could address both halves** — the marine
+half had nowhere to go and was then logged as "half answered", which blamed the answer for a defect in the question.*
+**If two subjects cannot share one answer, they are two questions, and the second waits.** *And if the answer is a
+fact the owner holds rather than a choice he has to make, **ask for the fact in one line — do not offer options.**
+`Q82`'s real question was **"what is the RES-CP's depth history?"** — one question, one fact, no options. Whether a
+marine test was ever commissioned is a **second** question and waits its turn.*
+
+> **The rule caught its own author the same day.** *The first attempt at this paragraph proposed the corrected question
+> as "what is the RES-CP's depth history, **and** was a marine test ever commissioned" — two questions again. Neil:
+> **"how many questions are in this sentence."** **The word to watch for is "and".***
+
 **A row appears here once the question has actually been put to him.** *Anything not yet asked is queued in
 `backlog.md` as a row typed **`Ask`** — a task needs a producer, a question needs Neil.*
 
