@@ -69,11 +69,19 @@ This is far sharper than the "IMO/SOLAS" the content uses, and it is what a spec
 for marine use. That attempt stopped at the first reply and was not resumed. Today the marine offer is a separate
 hand-made panel in a different material (`Q83`), sold "only in very specific cases under demand from Lloyd's".
 
-So the marine leg of `T1` has been carried as *we hold the compliance evidence and dealers need teaching*. On this
-evidence **there is no panel-level marine fire certificate at all**. The plausible reading — and it is only that until
-an owner says so — is that compliance rests on the **solid-surface material's own marine approval** rather than on a
-test of the assembled panel, which would be why the marine variant is a different material rather than a different
-finish on the same one. `DOC-41`.
+**Answered the same day (`Q84`), and the inference was right but the provenance is better than the inference.** Neil:
+*"the material certificate is what gets supplied"*, and *"it was Llyods themsevles that requested that material."*
+
+So there is no panel-level marine fire certificate and none is owed. Compliance rests on the material's own marine
+approval — ordinary practice for marine linings — and **the material was specified by the certifying body itself**.
+That inverts the story this repo was assembling: not a failed panel certification worked around, but the surveyor
+naming the material and the factory hand-making the same panel geometry in it. It also explains the 25× cost.
+
+**Two things follow for content.** The claim boundary is now explicit: the material holds the certificate, the panel
+does not, and nothing may blur the two — the marine page's *"designed to meet stringent marine fire-resistance
+requirements"* is already the careful form. And there is a strong claim available that names nothing: **"the material
+specified by Lloyd's Register."** It cites the authority, satisfies the compliance gate, and names no supplier, which
+is the rare case where the strongest form of a claim is also the compliant one.
 
 ## One aside worth keeping
 

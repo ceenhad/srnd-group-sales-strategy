@@ -286,14 +286,17 @@ current EN 13501-1 classification, which should be in the record rather than loo
 
 ## Also in the range, deliberately not developed here
 
-- **`C-ATS-REF-CP-MAR`** — marine Reflection Control Panel. **A narrow compliance edge case for superyacht work
-  where Lloyd's requires specific heat-load limits.** Not a segment and not to be given segment-level prominence.
-  **Settled 2026-08-21 (`../../registers/questions.md` `Q83`): no separate absorption test exists and none is needed.**
-  *It is hand made in 3 mm solid-surface material using press moulds that deliver the identical shape to the standard
-  panel, and absorption is not what a reflection panel is for — so the standard panel's bonded data is representative
-  and the published sheet stands. What is owed is a stated basis wherever those figures appear (`DOC-33`).* **And the
-  reason it stays demoted is now on the record: hand made, 25× the cost or more of the standard injection-moulded
-  part, and only ever on a Lloyd's demand.**
+- **`C-ATS-REF-CP-MAR`** — marine Reflection Control Panel. **A narrow compliance edge case for superyacht work.**
+  Not a segment and not to be given segment-level prominence.
+  **Settled 2026-08-21 (`../../registers/questions.md` `Q83`, `Q84`), and the provenance is a credential.** *Lloyd's
+  Register **specified the material**; the panel is hand made in it using press moulds that give the identical shape to
+  the standard panel. **What a specifier receives is the material certificate, not a panel test** — ordinary practice
+  for marine linings, and there is no panel-level marine fire test in existence. Absorption is not what a reflection
+  panel is for, so the standard panel's bonded data is representative and the published sheet stands; what is owed is a
+  stated basis (`DOC-33`).* **The claim boundary: the material holds the certificate, the panel does not.** *The
+  publishable form names nothing — **"the material specified by Lloyd's Register"** — and the requirement it answers is
+  precise: Lloyd's Register, IMO FTP Code Annex 1 Parts 2 and 5.* **And it stays demoted for a recorded reason:** hand
+  made, 25× the cost or more of the standard part, only ever on a Lloyd's demand.
 - **Isolation System** — a different test class entirely (sound reduction / transmissibility, not absorption) and
  needs its own report. **[?]**
 - **Design service and Verification** — services, so most of the schema does not apply. But the doubt-removal and
