@@ -67,7 +67,7 @@ sizing still aims at a corner, because that is the intended use.*
 *RES is a mass-spring absorber with a calculable tuning: **f₀ = K / √(m·d)**, with **m = 3.56 kg/m²** and **K ≈ 1600**
 for a filled cavity.*
 
-- **134 Hz** calculated on the 40 mm foam · **124 Hz** including the 7 mm behind it
+- **134 Hz** calculated
 - The 125 Hz third-octave band spans **112–141 Hz**
 - **Measured peak 0.47 at 125 Hz** — the maximum of the entire RES dataset — **with a notch of 0.31 immediately above
   it at 160 Hz**
