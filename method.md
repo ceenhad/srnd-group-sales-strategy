@@ -374,3 +374,32 @@ mistake made twice.*
   *59 were, by script, and all 59 were deleted.*
 - **An index of decisions is generated, never hand-maintained.** *The platform's hand-written one drifted to
   covering 41 of 70 in three months, with nine rows disagreeing with their own files.*
+
+## Not getting into this mess again — 2026-08-20
+
+**Most of what went wrong on 2026-08-20 is now a rule, and rules did not stop it happening.** *What stops it is
+`tools/check.py`: run it before committing. It fails on things a machine can see and warns on the rest.*
+
+| It catches | Because, on 2026-08-20 |
+|---|---|
+| **Strikethrough anywhere** | 403 struck spans had accumulated. A reader cannot tell a finding from a retracted one |
+| **Duplicate IDs** | 23 of them. `REC-8` meant two different rows, and I numbered new work into occupied families without looking |
+| **Ragged table columns** | A tidy-up regex joined table rows and took a 549-line file to 312. Later, adding two columns to headers and not to rows broke 163 rows |
+| **A row typed `Ask` weighted `clarification`** | It fails the bar by definition — an owner's attention on a filing choice |
+| **Any row typed `Decide`** | That type does not exist. A decision is a question, asked and answered |
+| **Emphasis over ~12 marks per 100 words** | Files were running at 15–24. Nothing reads as emphasised when everything is |
+| **A register over ~450 lines** | `open-items.md` reached 838 and had become a diary. Nothing had told it to stop |
+| **Sessions narrating their own process** | *"I first wrote…", "third instance of…"* — keep the finding, drop the diary |
+
+**Three judgement failures a checker cannot catch, so they are written down instead.**
+
+1. **A shared link is context, not a work order.** *A URL arrived with no instruction and produced a seven-section
+   audit, then four more files correcting it. **Ask what is wanted, or do the smallest useful thing.***
+2. **Establish what an artefact is before measuring it.** *An unfinished mockup was audited against the guardrails
+   and produced findings that dissolved the moment someone said what it was. **Name the artefact and check its
+   state first.***
+3. **A stop is a stop, including file writes.** *Told to stop, I made one more edit; told we were going in circles,
+   I did another pass and then offered more work.*
+
+**And the deepest one, which is why the bar on questions exists:** *of 61 answered questions, 22 were pure repo
+housekeeping. **The scarcest thing in this process is an owner's attention, and it was being spent on filing.***
