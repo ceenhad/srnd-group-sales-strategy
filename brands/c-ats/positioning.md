@@ -9,6 +9,12 @@ reasoning** under it. Where a point must never appear externally, it is flagged.
 
 ## 1. What C-ATS is
 
+> **The frame, stated by Neil 2026-08-21 (`../../registers/questions.md` `Q86`): "the system is the product — not the
+> panels."** *It reads as a restatement of what this section already says and it is not. It settles what protects the
+> range: **the unit of sale is the system**, so the fact that one panel's material is buyable elsewhere is not an
+> exposure (`PR-25`, `SUB-1`). And it is a test any surface can be held to — **a page that reads as a catalogue of
+> panels is presenting the wrong product.***
+
 **Positioning core**
 
 > C-ATS is a straightforward acoustic treatment system, built for the AV
