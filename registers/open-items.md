@@ -105,7 +105,7 @@ print. Fix on the next pass through that material rather than retrospectively.
 > shapes on 2026-08-09 and not previously surfaced here. They are part of this ledger by reference.
 >
 > **Six of those sixteen were worked into sessions on 2026-08-14** (same file, § "The worked sessions"). Each
-> ends in a proposal and a short list of what only Neil can answer; **nothing entered `registers/questions.md` § Answered.** The one
+> ends in a proposal and a short list of what only Neil can answer; **nothing entered `decided.md`.** The one
 > item that is genuinely *new* rather than a refinement is surfaced in full below — the pre-sales/consulting
 > boundary. The rest remain part of this ledger by reference.
 

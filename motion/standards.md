@@ -24,12 +24,12 @@ shape. Nothing here is settled until you say so.*
 > **Neil's caveat on the whole run, verbatim in spirit: these are good hints, not deeply qualified answers —
 > "much of that needs each a session."** So the outcomes are *directions*, not decisions: the straight
 > default-accepts can operate as working standards until their session contradicts them, but nothing here
-> enters `registers/questions.md` § Answered, and the substantial ones are session-sized: **the dealer-bar economics · the
+> enters `decided.md`, and the substantial ones are session-sized: **the dealer-bar economics · the
 > pre-sales/consulting boundary · the upsell proposal design · the daily-per-brand production question · the
 > competitor roster · the per-brand `G2` lists.**
 >
 > **▶ Those six sessions have now been worked — see "The worked sessions" below, added 2026-08-14.** Each ends
-> in a proposal plus a short list of what only Neil can answer; **still nothing enters `registers/questions.md` § Answered.** Session 2
+> in a proposal plus a short list of what only Neil can answer; **still nothing enters `decided.md`.** Session 2
 > is gated on the `XS-4` fetch, session 5 is an ask rather than a session because the roster cannot be derived
 > from any data we hold, and session 6 produced its artefact — the six `G2` lists — outright.
 
@@ -78,7 +78,7 @@ sheet numbers them. Each holds the same four parts: **the question**, **what the
 settle** (so the session opens on evidence rather than a blank sheet), **the proposal**, and — kept separate and
 last — **what only Neil can answer.***
 
-**Nothing here enters `registers/questions.md` § Answered.** Three of the six close to a proposal that needs only a yes; one is gated on
+**Nothing here enters `decided.md`.** Three of the six close to a proposal that needs only a yes; one is gated on
 a fact somebody has to fetch (`XS-4`); one produces its artefact outright; one cannot be worked at all without a
 name from Neil and is prepared as an ask rather than pretended through.
 
@@ -627,7 +627,7 @@ neither was a decision anybody needed. **Production volume comes from the Claude
 
 **So standard 10 was a decision that had already been retired**, this session re-derived it, and its
 "correction" — express the floor in briefs rather than publications — refined something that does not exist.
-*Found only when `registers/questions.md` § Answered and `motion-design.md` were finally read end to end, which is the failure
+*Found only when `decided.md` and `motion-design.md` were finally read end to end, which is the failure
 underneath the failure.*
 
 **What survives, and it is not nothing.** The session's *observations* stand and are consistent with S24:

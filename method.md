@@ -335,9 +335,9 @@ machinery · **`brands/`** application · **`registers/`** state, in rows · **`
 measured, and superseded findings are deleted rather than stacked · **`operations/`** what leaves the repo, **including ADRs drafted for `cinema-platform`** ·
 **`data/`** the source, as scripts and derived files rather than as tables typed into documents.
 
-## `registers/questions.md` § Answered is a machine input, not a record
+## `decided.md` is a machine input, not a record
 
-**Neil, 2026-08-17: SRND OS reads `registers/questions.md` § Answered every morning and tries to react to it.** That single fact
+**Neil, 2026-08-17: SRND OS reads `decided.md` every morning and tries to react to it.** That single fact
 governs everything about the file:
 
 - **It holds business process and management decisions only** — things the OS should act on.
@@ -353,7 +353,7 @@ governs everything about the file:
 
 | | Where it goes | Who acts on it |
 |---|---|---|
-| **Business or management** — pricing, territory, what we sell, who we sell to | `registers/questions.md` § Answered, once Neil decides it | SRND OS, every morning |
+| **Business or management** — pricing, territory, what we sell, who we sell to | `decided.md`, once Neil decides it | SRND OS, every morning |
 | **Repo management** — conventions, structure, how questions are logged, how a session runs | this file | Whoever is working in the repo |
 
 ***ADRs were tried twice and the answer is settled: no `decisions/` folder, ever.*** *The first attempt
@@ -361,7 +361,7 @@ governs everything about the file:
 removed the same day, on Neil's challenge, for being a third copy of what the repo already holds. The decision
 record is what exists:* **`registers/questions.md` holds the act of deciding** *(permanent Q-ids, the answer
 verbatim, dated),* **the owning area or brand document states the current position** *(rewritten wholesale when
-it changes, organised by level — never a separate file per decision),* *and* **`registers/questions.md` § Answered is the machine
+it changes, organised by level — never a separate file per decision),* *and* **`decided.md` is the machine
 interface for SRND OS.** *A future session that finds itself creating a decisions folder is repeating a
 mistake made twice.*
 
@@ -369,7 +369,7 @@ mistake made twice.*
 
 - **A number is permanent; content is versioned.** A decision that changes is rewritten in place — no
   amendment notes, no "see also" chains. *This is why `ADR 017` still resolves at version 2 while
-  `registers/questions.md` § Answered's IDs vanished the moment the file was emptied.*
+  `decided.md`'s IDs vanished the moment the file was emptied.*
 - **A decision is written when it is made, by the person making it** — never scraped out of a pile afterwards.
   *59 were, by script, and all 59 were deleted.*
 - **An index of decisions is generated, never hand-maintained.** *The platform's hand-written one drifted to
