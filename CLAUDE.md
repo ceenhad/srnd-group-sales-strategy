@@ -143,6 +143,10 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
 
 - Don't collapse the group/brand layers — no brand specifics hard-coded into group strategy.
 - Don't publish pricing (partner or end-user), anywhere, ever.
-- Don't name material suppliers, manufacturing partners, or OEM relationships in public content.
+- Don't name material suppliers, manufacturing partners, or OEM relationships in public content. *The reason is
+  commercial, not stylistic, which is what makes the rule hold: where a product is a converted bought-in material,
+  naming the material tells a dealer where to buy it instead. Neil, 2026-08-21 (`registers/questions.md` `Q85`):
+  **"a Rev panel we sell for X is literally the same an enterprising delaer could be for Y directly from e-foam etc."**
+  **A compliance certificate names the material, so it is a gated project-basis disclosure — never a download.**
 - Don't invent figures, test results, certifications, personas, or launch dates.
 - Don't override a brand's own `CLAUDE.md` guardrails from the group layer.

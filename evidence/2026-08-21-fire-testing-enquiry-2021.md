@@ -133,14 +133,30 @@ install record holds.
   to suggest a serviceable period of less than ten years." A concealed panel in a cinema meets all three conditions
   comfortably.
 
-**One conflict, recorded rather than resolved.** The supplier's page gives a nominal density of 23.5–25.5 kg/m³. The
-search summary of the manufacturer's page describes Pyrosorb-S as a high-density foam at roughly 85 kg/m³. And the
-datasheet Neil attached in 2021 — the primary document, from the manufacturer — records 94.7 kg/m³ at 26 mm in the
-thermal test. **Two of the three agree at high density and the supplier's figure looks like the standard grade's
-density carried onto the wrong page**, but that is inference. `DOC-43`.
+**Density settled by Neil the same day: 85 kg/m³, and the supplier's page is wrong.** That is roughly 3.5× standard
+acoustic foam, and it is why the Reverberation panel absorbs as well as it does at 50 mm. The 94.7 kg/m³ in the 2021
+datasheet was a thermal-test sample condition, not the nominal.
 
-**The strategic point, which is larger than the fire question.** Under `Q84` the material certificate is what a
-specifier receives. The foam therefore comes with a documentation pack C-ATS did not have to commission — a Class 0
-classification, a UL 94 rating, compatible-adhesive guidance and a ten-year conditional service statement — and **this
-repo has never listed it as an asset.** `A1`–`A11` in the product record audits our own assets and does not ask what
-the materials bring.
+## The strategic point, and this repo had it backwards
+
+The first version of this section proposed adding a materials column to the asset audit and counting the foam's
+certificates as assets C-ATS never had to commission. **Neil corrected it before it went anywhere:**
+
+> *"one issue is that we of course prefer not to have the brand names of the foams etc on the website. a Rev panel we
+> sell for X is literally the same an enterprising delaer could be for Y directly from e-foam etc."*
+
+**The material identity is margin.** Naming it publicly hands the most substitutable product in the range to a dealer at
+material cost. So `CLAUDE.md`'s hard don't on naming material suppliers is not a matter of taste — it has a commercial
+reason behind it, which makes it self-enforcing rather than stylistic.
+
+**Two things follow that are worth more than the fire finding.**
+
+**The range is not uniformly defensible, and nothing in this repo said so.** The Reflection panel is injection moulded
+on C-ATS tooling; the Resonance panel is a laminate of C-ATS construction. Neither is buyable elsewhere. The
+Reverberation panel is a converted bought-in foam. What protects it cannot be the material — it has to be the system,
+the design, the layout rules, the box quantum and the data pack, and those only protect it if the panel is bought as
+part of them. `SUB-1`.
+
+**And it puts a real tension against `Q84`.** The material certificate is what a specifier receives — so the compliance
+deliverable names the material. A gated, project-basis disclosure resolves that; a downloadable certificate on a
+product page does not. Which is the same gate the group already runs on pricing.
