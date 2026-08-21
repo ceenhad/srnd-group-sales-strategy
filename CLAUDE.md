@@ -61,6 +61,12 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
  Cinema Platform ADRs move faster than this repo. Where a decision here depends on what they hold or have
  settled, read the current state first — this work has already based a position on a superseded ADR once, and
  a strategy artefact that duplicates or contradicts a live system is worse than no artefact.
+- **The C-ATS web surfaces are data, not truth — and this has been re-learned three times.** *Neil, 2026-08-21: `c-ats.co.uk` is **old legacy** and the
+  Shopify store is **his own mocked-up data**. **"Neither need fixed or treated as immutable truth. Just data to consume, discuss, correct and make
+  available for engine and SRND is to process."** So a discrepancy on either is **not a defect to fix and not evidence of the offer** — it is input. **Never
+  call something on them a live false claim, and never queue work to "apply corrections at source".** *The deliverable is corrected content in the record,
+  where engine and SRND OS can consume it. `registers/premises.md` `PR-18` broke on this, the 2026-08-20 web check recorded it as the lesson that cost an
+  afternoon, and it recurred anyway — which is why it is here rather than only in a register.*
 - **Facts about the present go in `evidence/current-state.md`.** The baseline — dealers, revenue shape, lead sources,
  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
  reasoning about it.

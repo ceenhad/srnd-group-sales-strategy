@@ -1,34 +1,29 @@
-# Knowledge-base corrections — paste-ready copy
+# Content corrections from the C-ATS web read — for the record, not for a webmaster
 
-*Seven fixes found by `SIT-12` (`../../evidence/2026-08-21-c-ats-knowledge-base-read.md`) and by the primary-source
-reads of the same day. **Replacement text, not instructions** — each one is written to be dropped in.*
+> **⚠ Re-framed 2026-08-21 (`../../registers/questions.md` `Q105`), and the framing matters more than the copy.**
+> *Neil: **"Old legacy and my own mocked up data. Neither need fixed or treated as immutable truth. Just data to
+> consume, discuss, correct and make available for engine and SRND is to process."*** **So there is no surface to fix.**
+> *`c-ats.co.uk` is old legacy; the Shopify store is his own mocked-up data. Reading them was worth doing — it found
+> real content errors and real gaps — but **the output is corrected content in the record, not a list of edits for
+> someone with site access.***
 
-**Where this belongs — corrected 2026-08-21, because the earlier note here was an assumption.** *It claimed the C-ATS
-site is generated from this repo, so the corrected text would be picked up automatically. **Nothing in this repo
-supports that.** It rested on one remark about one Astro build whose provenance the web-check evidence explicitly
-records as unknown and not worth chasing.*
+**What each item below actually is:** *the corrected form of a statement, ready to be consumed by whatever generates a
+surface. **Where it also corrects the record, that correction has already been made** in `product-records.md`,
+`claims.md` or `the-depth-argument.md` and is cited there. This file is the human-readable rendering of what changed.*
 
-**What is actually true is that these corrections target three different surfaces, and this repo can edit none of
-them:**
-
-| Surface | What it is | How text gets changed |
-|---|---|---|
-| `www.c-ats.co.uk/technical-information/` | **The live site.** WordPress | Unknown to this repo. `SIT-13` lives here |
-| `c-ats.myshopify.com` — the 18 articles | The mockup store | Shopify CLI, and `EST-6` records that re-auth is **blocked** |
-| A generated build | Provenance unknown | No pipeline is documented anywhere in this repo |
-
-**So this document is the deliverable and it is finished.** *The copy is written and paste-ready. **Applying it needs
-someone with access to the surface**, and for the store that is blocked behind `EST-6`. `SIT-13` is the one that
-matters most and the one whose route is least clear — it is on the live site.*
+**Nothing here is urgent, and nothing here is a defect report.** *An earlier version of this file called one item a live
+false claim and put it at the top. That treated a legacy page as the business's word, which `../../CLAUDE.md` now names
+as a recurring error rather than a one-off.*
 
 ---
 
-## 0. `SIT-13` — ⚠ URGENT: a live false claim on `c-ats.co.uk`
+## 0. `SIT-13` — the tolerance line on the legacy site
 
 *`/technical-information/` states that **reflection panels tolerate roughly 300 mm from the designed position**. Struck
 2026-08-21 (`Q102`): the aperiodic layout's advantage comes from the panels being where the sequence puts them, so
-moving one breaks the sequence. **This is on the real site, not a mockup, and it is the only live false claim found.**
-Take the sentence down first — the replacement can follow separately.*
+moving one breaks the sequence. **The legacy site is data rather than truth (`Q105`), so this is not an emergency** — but
+it is the clearest case of a superseded statement, and the corrected version below is the one that should reach any
+surface built from now on.*
 
 **Replacement copy, from `Q103`:**
 
