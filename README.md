@@ -92,7 +92,10 @@ document (drafted with Neil 2026-08-17), then [`method.md`](method.md) for how t
 **Two rules hold the shape:**
 
 - **One kind per file.** Evidence may not argue; registers may not narrate; strategy holds no work items.
-- **`registers/questions.md` § Answered is read by SRND OS every morning.** It holds business and management decisions only, nothing
+- **Run `python3 tools/check.py` before committing.** *It enforces the mechanical invariants — no strikethrough, no
+  duplicate IDs, no ragged tables, no `Decide` type, emphasis and register size in bounds. Every check exists because
+  that thing failed on 2026-08-20 (`method.md` § Not getting into this mess again).*
+- **`decided.md` is read by SRND OS every morning.** It holds business and management decisions only, nothing
   enters it without Neil, and **repo management never goes near it** — that lives in [`method.md`](method.md).
 
 ## Group vs brand responsibilities
