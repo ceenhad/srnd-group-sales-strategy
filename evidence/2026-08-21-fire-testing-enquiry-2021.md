@@ -154,9 +154,15 @@ REV panel is Pyrosorb on the webipage or datasheet and the problem magically doe
 the pricing or the channel changes. A system is a collection of services and products delivering an end result, the
 components are priced individually because the offer is not one size fits all, and the 3 Rs map to the panels.
 
-**The one genuine open item is Neil's own:** *"I dont know if it is legal to transcribe the data to our own datasheets as
-that would also solve the problem."* It would — a classification on our own sheet needs no supplier name. The cheap
-route is written permission from the supplier to cite the classification, which is normally given. `DOC-46`.
+**And it was decided within the hour.** Neil: *"I dont know if it is legal to transcribe the data to our own datasheets
+as that would also solve the problem"*, then *"efoam just copied it from vita badly. we will just do the same."*
+Transcribe onto a C-ATS datasheet — the reseller already does it, and it takes the supplier's name off anything public.
+
+**Two rules the sheet has to be built to, and this file is the evidence for both.** Transcribe from the manufacturer's
+own datasheet rather than a reseller page, recording the source document and its date: the reseller's density is
+23.5–25.5 kg/m³ against an actual 85, which is what "badly" means, and `PR-12`/`C1.8` is this repo's own case of a
+duplicated figure propagating an error and doubling the confidence in it. And attribute the classification to the core
+material rather than to the panel — a Class 0 core is true, a Class 0 panel is not. `DOC-46`.
 
 **And the better answer was already identified in 2021.** The enquiry in this very email asks the lab to *"issue
 certificates which bear our company and product names."* That is the same problem and the same solution, five years
