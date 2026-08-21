@@ -45,9 +45,21 @@ question is materially wider, because every panel is a different material.
 
 **Two of these need attention and one is a live claim.**
 
-The knowledge base states "the C-ATS Reverberation Control Panel uses a Class O acoustic foam core." **The fire
-certificate for that foam is not in this pack** — what is attached for it carries no fire data. The claim may be
-evidenced elsewhere; on this evidence it is not, and it is the only product fire claim the content makes.
+The knowledge base states "the C-ATS Reverberation Control Panel uses a Class O acoustic foam core." The fire
+certificate for that foam is not in this pack — what is attached for it carries no fire data at all.
+
+**Resolved the same day: the claim is sound and the attachment was the wrong document.** Neil supplied the supplier's
+product page, which sells the foam explicitly as a **Class 0** product and names the route: Class 1 surface spread of
+flame under BS 476 Part 7 first, then Class 0 fire propagation. What was attached in 2021 was that product's thermal
+and acoustic datasheet.
+
+**And it turned up a distinction this record did not hold: the range uses two different foam grades, and only one is
+Class 0.** The Reverberation panel's core is the Class 0 product. The Resonance panel's rear foam is the standard
+combustion-modified grade — the very rating list Neil typed into the 2021 enquiry, because he had no manufacturer sheet
+for it: BS 3379 nominal class A, Furniture and Furnishings Regulations Schedule 1 Part 1, UL 94 HF1, FMVSS 302. So
+**Class 0 belongs to one panel's core and must not be generalised across the range**, which is exactly how the content
+already states it. What remains is the certificate document itself, which under `Q84` is what a specifier receives:
+`DOC-42`.
 
 And the Resonance panel's front face is **Class 3 under BS 476 Part 7 and combustible by its own manufacturer's
 wording**. Class 0 is the top of that scale. The mitigating fact is real and already in the record — the panels sit
