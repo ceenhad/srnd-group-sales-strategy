@@ -67,6 +67,8 @@ def check_no_decide():
 # 6 — emphasis density. Above ~8 marks per 100 words nothing reads as emphasised.
 def check_emphasis():
     for f in md_files():
+        if f.startswith('evidence/'):   # an archive is written once, not re-read
+            continue
         s = open(f).read(); w = len(s.split())
         if w < 300: continue
         d = len(re.findall(r'\*\*|\*', s)) * 100 / w
