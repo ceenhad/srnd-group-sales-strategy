@@ -115,3 +115,9 @@ filled that space now hold the recommended practice, the certification and the d
 (`competitors.md` § the education layer). **This is the one place where build-it-then-say-it does not apply — the
 capability is long-held and only the activity lapsed.*** Shape: `../brands/_template/the-brand-run.md` Leg 4.
 Worked instance: `../brands/c-ats/training.md`.
+
+**And the sequencing is now set — Neil, 2026-08-21 (`../registers/questions.md` `Q99`): *"cpd we will do but only once the first full sweep of all brands is complete and we establish our training list."*** *So **accreditation waits on two things**: the brand run completing across **all six brands**, and a **training list** established from that sweep. **Until then no CPD route is chosen and no membership is bought** — the RIBA network against the CPD Certification Service is not a live question, and neither is the £2,250.*
+
+**What is not gated is delivery.** *Subjects identified by a brand's Leg 4 are runnable as our own class immediately — C-ATS has five such rows and every one of them waits on an owner's calendar rather than on accreditation. **Only the badge waits.***
+
+**The rule this establishes, and the programme did not have it written down: brand-by-brand depth first, cross-brand offers second.** *A training list assembled from one brand would commit the group to a shape before five of six brands had been looked at. It is also consistent with ADR 017 v2 §12 — demand measured before the curriculum is built.*
