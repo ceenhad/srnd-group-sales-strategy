@@ -32,6 +32,12 @@ fact the owner holds rather than a choice he has to make, **ask for the fact in 
 `Q82`'s real question was **"what is the RES-CP's depth history?"** — one question, one fact, no options. Whether a
 marine test was ever commissioned is a **second** question and waits its turn.*
 
+**An answer that does not cover the question gets asked again, not logged — 2026-08-21.** *Neil: **"you never ask to
+clarify the question. you literally noted it left open."*** *When `Q82` came back covering one half, the right move was
+one more line asking the other half. Instead the gap was written into a row and the session moved on to its own work.*
+**A partial answer is a live conversation, not a register entry.** *Filing it looks like diligence and is the opposite:
+the owner is right there, and the cost of asking again is a sentence.*
+
 > **The rule caught its own author the same day.** *The first attempt at this paragraph proposed the corrected question
 > as "what is the RES-CP's depth history, **and** was a marine test ever commissioned" — two questions again. Neil:
 > **"how many questions are in this sentence."** **The word to watch for is "and".***
