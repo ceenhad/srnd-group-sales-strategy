@@ -1,142 +1,122 @@
-# What happens next
+# NEXT — handover
 
-*Rev 3, 2026-08-17. The strategy lives in `group-strategy/strategy.md`; this file holds only the current
-position and what's next. The order is Neil's: lock the group level, drive down through the brands, then
-generate and track.*
-
-**Where we are:** the top-level strategy is drafted and landed; corrections fold in as Neil makes them.
-Nothing is generating yet and engagement is at an all-time low — that is the problem the whole system
-exists to fix. **The C-ATS template run is drafted (2026-08-18)** — three pathways, the hook set, the segment cut,
-and the inherited shape written up in `brands/_template/the-brand-run.md`. It is drafted for correction, not
-adopted.
-
-**Next, in order:**
-
-1. **Settle the strategy** — Neil's corrections into `strategy.md` until it says what he means.
-2. **The template brand run: C-ATS.** Pathways built stage by stage from its material, hooks from its
- products, segments cut from the database. This run defines the shape every brand inherits — and because
- C-ATS is the most basic brand, the run proves the machine, not the money: the template is validated
- against one unlike brand before the shape is called settled.
- **Drafted 2026-08-18** (`brands/c-ats/`: three pathways, `hooks.md`, `segments.md`;
- `brands/_template/the-brand-run.md`). **Two framings were put to Neil and both were rejected** — the
- entry-product/flagship split (Q50: C-ATS is a system, the 3 Rs defines it, no panel leads) and using the
- segment cut as a league table (Q51: every relationship is treated as day 1). Both are corrected in place and
- folded into the template, so no other brand inherits them. **The drill-down is the live thread** — §1–§5 of
- `positioning.md` are atomised into `brands/c-ats/claims.md`, §6–§7 remain, and it has broken or qualified more
- than the building did. **What it still leaves for Neil:** the hook
- wording, which is an owner's, and whether the shape is right before another brand copies it. **What it leaves
- as work:** the run ends as a queue of register items rather than as a document — CON-8 and EST-5 first, then
- DOC-1 to DOC-4 and EST-4. **— struck 2026-08-18 on Neil's correction: both exist in Cinema Tools.** What
- replaces it is **Q52**, the publication boundary between the design rules and the engine, which gates the
- C-ATS self-serve route and six of the strongest hook candidates found in the run.
-3. **The launch brands get the same treatment** — Pro-Fi and Light Walls launch *into* the system, not
- beside it.
-4. **Switch on generation and tracking** — the production line running, the daily drumbeat per live brand,
- the inbound counted in engine, the funnel numbers arriving weekly. Operational readiness items (dealer
- accounts, list segmentation, tool capture) done as the running machine needs them.
+*Updated 2026-08-21, after PR #30 merged to `main`. **Next focus: Pro-Fi, in a local session.***
 
 ---
 
-## Session state — 2026-08-20, resume here
+## Where things stand
 
-*Written so a session in a different account can pick up cold. Everything points at a register; nothing is restated.*
+**The C-ATS phase is closed.** *PR #30 merged — 92 files, +10,127 / −2,603, 152 commits. Every C-ATS question is
+answered; nothing in that brand is waiting on an owner.*
 
-### Resume here, in this order
+**Two registers now hold the results, and the distinction between them does work.**
 
-1. **`ENG-20`** — populate `customers.customer_type_id`. 333 of 350 live customers are untyped, and until that field
- is filled dealer sales and distribution sales cannot be separated at all.
-2. **`ENG-24`** — the app should fill three columns that already exist: `projects.source_lead_id` (0/50),
- `projects.brand_id` (0/50), `sales_orders.project_id` (1/74). `quotes.project_id` is 10/13, so quotes link to
- projects and orders do not.
-3. **`JNY-10` / `ENG-23`** — spec the marketing-activity dimension. `lead_sources` has five codes, so a CPD seminar,
- an AI answer, a press piece and a hook all arrive as "website". Design it here and hand it over; we do not write to
- engine (Neil, 2026-08-20).
-4. **`ENG-21` / `ENG-22`** — then the two target reports and the interest measure, which need the data above.
+| | Holds |
+|---|---|
+| `decided.md` | `D-01`–`D-13`. Choices the business acts on — id, decision, kind, scope, the question that produced it, the owner's words verbatim, what is done differently |
+| `established.md` | `E-01`–`E-18`. Settled facts — `basis` · `source` · `rests on`. A fact does not need approval to be true, but it needs it to be relied on |
 
-The target is settled in structure, not in number: a **group** target on dealer sales, a **brand** target on
-distribution sales, never netted together, counted at `ordered_at` rather than at the invoice. A dealer is one
-relationship across every brand; a distributor is appointed brand by brand.
+*Both approved as a set: `https://claude.ai/code/artifact/80b5a86a-a58d-460f-8f38-183f706dc742`. Anything added later
+enters the same way — put to Neil, reviewed, approved.*
 
-### Waiting on Neil
-
-**23 questions, typed `Ask` in `registers/backlog.md`** with a weight and a scope. Every one is money, a commitment,
-or what we sell. The heaviest: `KNW-4` (commission the remaining tests or declare the data the limit) · `XS-5` (price
-the service offer) · `CON-10` (spend the £10k AVForums credit) · `US-2`/`US-3` (US terms, and who moves it) ·
-`PAR-2`–`PAR-5` (the partner programme's four) · `DEC-3`/`DEC-4`/`DEC-5` · `FACT-5` (the targets table) · `EDU-1`
-(re-enter education).
-
-**Four C-ATS drafts await a truth-check** — `draft-t2-decide-before-the-wall.md`,
-`draft-t5-layout-tolerance.md`, `draft-answers.md`, `draft-n7-client-leave-behind.md`. Read `draft-answers.md`
-against the published knowledge base first: it re-derived answers that were already live.
-
-**One rule violation to fix: `SIT-9`.** A published article files the Reflection Control Panel under a "Diffusers"
-heading, and `C5.15` forbids the word on the product.
-
-### What changed today, and what it means for how you work
-
-Six rules are new, in `CLAUDE.md` and `method.md`:
-
-- **Fix the text; do not annotate it.** Corrections delete the wrong version — 403 strikethrough markers were swept.
-- **A thing is decided only when it went through the question box and a human answered it.**
- `registers/questions.md` is the record; `decided.md` is the SRND OS feed and takes business decisions only.
-- **A question earns the box only if the answer is a decision the business acts on.** Of 61 answered questions, 22
- were pure repo housekeeping.
-- **No `Decide` type.** `Do`/`Fetch` is work, `Ask` is a question not yet put to Neil, `Flag` is another repo's.
-- **Weight and scope on every live row** — `strategy` · `capability` · `clarification`, and `group` · a brand ·
- `platform`.
-- **Run `python3 tools/check.py` before committing.** It found three defects on its first run, including five
- premise rows that had been invisible for days.
-
-### Warnings that still apply
-
-- **Name the artefact before measuring it.** C-ATS has four web presences — the live site, the Shopify mockup, an
- Astro build of unknown provenance, and `copy.md`. Confusing them cost most of a session.
-- **Do not audit a mockup against the guardrails.** The findings dissolve when someone says what it is.
-- **Check the published site before recording anything as unpublished.** One fetch; `PR-24` records the cost.
-- **A blanket find-and-replace across many references produces text that is well-formed and false.** It rewrote
- `method.md`'s statement of what SRND OS reads.
-- **Do not do regex surgery on markdown emphasis.** Three attempts, three lots of damage: joined table rows, eaten
- leading characters, broken pairing. Reducing emphasis is a rewrite, not a substitution.
-
-### Where the C-ATS work stands
-
-**`brands/c-ats/phase-closure.md` is the answer to "what finishes this phase"** — tested against the run's own
-definition in `../_template/the-brand-run.md`, not against a new list. The run is structurally complete on all five
-deliverables; four things close the phase: the four drafts' truth-check (read `draft-answers.md` against the
-published knowledge base first), `SIT-9`, three fetches (`DAT-3`/`DOC-7`, `DOC-8`, `DOC-17`), and two brand-scoped
-decisions (`KNW-4`, `KNW-7`). Explicitly not in this phase: isolation (`P2`), standard rooms (`EST-20`), `DR-Q52`'s
-formal closure, and the prose-to-rows rewrite.
-
-**The engine thread did not drop** — `operations/engine-measurement-spec.md` holds six deltas `D1`–`D6` between the
-KPI framework agreed 2026-08-14 and what engine measurably holds, written as a dev-team specification because we do
-not write to engine from here.
-
-**Access boundary, tested three ways on 2026-08-21 — do not retry.** `SRND-Group/srnd-engine` and `srnd-os` cannot
-be read from a session on this repo: `add_repo` refuses cross-owner, `git clone` has no credentials, and the GitHub
-API names the allowlist as `ceenhad/srnd-group-sales-strategy` and `ceenhad/cinema-platform` only. Not a rights
-problem — the account has push on both. **Engine application work, and any answer to `Q40`, needs a session opened on
-those repos; what comes back here is a spec.** Detail in `brands/c-ats/phase-closure.md`.
-
-The drill-down is done end to end — `positioning.md` §1–§7 atomised into **76 claim rows** in
-`brands/c-ats/claims.md`, and `Q63`–`Q81` are answered and applied.
-
-**`DR-Q52` has been answered by publication**, not by decision: five items from its own proposed-publishable column
-are live on the C-ATS site and nothing from the proposed-not column is. So `T4` can probably be un-gated and the
-request closed — Neil's call.
-
-**`brands/c-ats/planning-gaps.md` holds `P1`–`P7`.** `P1` (the target) is the engine work above. `P7` (verification)
-is withdrawn — it is a listed service. `P2` stands: isolation is a sold layer with one clause of plan behind it, and
-per `C1.40` it is the layer that reaches a project first.
-
-**Known debt:** the three `pathway-*.md` files, `hooks.md` and `segments.md` are prose-with-tables and owe a rewrite
-into rows (`PR-9`). Emphasis density is over the warning threshold in most brand and evidence files — a rewrite job,
-not a substitution.
-
-### Read first
-
-`method.md` (§ The drill-down · § What the work produces · § Not getting into this mess again) · `CLAUDE.md` ·
-`registers/premises.md` — 24 premises, and the broken ones say what this repo assumes wrongly by default.
+**What is left of C-ATS needs other people.** *`DOC-42` the Class 0 certificate from the supplier · `DAT-3`/`DOC-7` the
+EN 13501-1 classification · `DOC-17` blocked on `CON-3` · `KNW-18` and `ENG-28` flagged to Cinema Tools · `ENG-20` and
+`ENG-27` specs to hand to the dev team · `EDU-7` when the sweep reaches it. **Nothing there is a producer task.***
 
 ---
 
-**The standing rule:** execution doesn't jump the queue, and nothing is announced before it's real.
+## Pro-Fi — start here
+
+**Read `brands/_template/the-brand-run.md` § The precondition before anything else.** *It is four rules and every one
+of them was learned by breaking it on C-ATS.*
+
+### The state, honestly
+
+*Four files exist: `README.md`, `brand-data.md`, `opportunity.md`, `positioning.md`. **No `product-records.md`, no
+`claims.md`, no pathways, no hooks, no segments, no training.** So this is a run from the start, not a continuation.*
+
+**Five record scopes, none filled** (`registers/product-register.md` § Pro-Fi):
+
+`PF-01` Spatial — BMR satellites, dot / dash / cube · `PF-02` Cinema — 2-way LCR, Reference coax point-source ·
+`PF-03` Modular — stackable line-array blocks · `PF-04` Stage — BMR 2-way LCR · `PF-05` LFE — sealed subs 5 / 8 / 12 /
+15, plus infra_21.
+
+**Three things about that table matter more than its emptiness.**
+
+- **Every `G3` is `[?]`** — nobody can currently say per product whether it is `pre-release` or `current`, because the
+  store listing is gated on range and platform readiness (`BR-7`). **So no Pro-Fi product may generate public material
+  until that is answered.** The gate is doing its job; do not work around it.
+- **The amplifiers have no row and are a real product line.** A named gap.
+- **The public site and the engineered range do not describe the same brand.** `pro-fi.uk` is thin and out of date; the
+  live three-way split is shop structure, not record structure. **The gap between them is the work** — and per
+  `../CLAUDE.md`, establish what that surface *is* before treating anything on it as evidence or a defect.
+
+### The precondition applies doubly here, and this is the one instruction to take seriously
+
+**Check `cinema-platform` before recording anything as missing.** *On the C-ATS run the single most important answer in
+the brand — how many panels a room needs — was fully systemised in the platform while the brand's own record said it
+was written down nowhere. That is `PR-20`, and it has now broken four times.*
+
+**For an audio brand the odds are worse, because the platform visibly already does loudspeaker work.** *Cinema Tools'
+own reports carry speaker layout analysis, per-seat reflection tracing across seventeen loudspeakers, bass headroom
+and **bass system architecture**. `products/cinema-tools/engines/modal_analysis/` holds the reflection solver and
+threshold modules.* **Assume Pro-Fi's selection logic, sizing and system rules already exist there. Look before
+writing a single `[?]`.**
+
+### Then, in order
+
+1. **Fill the product record** — `registers/record-form.md` is the form, `brands/c-ats/product-records.md` the worked
+   example. All three legs read from it; a run against an empty record produces invention.
+2. **Drill `positioning.md` into rows** before building on it. *Confirmation means a name and a date. Note that Pro-Fi's
+   §5 is where the **Scandinavian register** came from — the group-wide voice principle — so this file has already
+   given the group something, and it deserves the same care C-ATS's got.*
+3. **Then Legs 1–4** — one pathway per door, the hook set, the segment cut, the training opportunities.
+
+---
+
+## How to work, distilled from eight recorded failures
+
+*Full list in `method.md` § Not getting into this mess again. These are the ones that cost most.*
+
+- **A shared link is context, not a work order.** *Ask what is wanted before auditing anything.*
+- **Establish what a surface is before treating it as evidence.** *Published offer, legacy remnant, or mock-up — they
+  behave in opposite ways. Recorded in `../CLAUDE.md` with a status board and a flip condition.*
+- **A flag saying *confirm current spec* means the claim cannot be built on until it is confirmed.** *An unconfirmed
+  source is unusable, not usable-with-a-caveat. A 2015 brochure decode became the record's most-cited advantage and
+  reached a published page.*
+- **Reading the platform is not the same as building on it.** *Check whether an artefact is locked before any of it
+  leaves the evidence file.*
+- **One question per box, and a partial answer gets asked again rather than logged.** *Watch for the word "and".*
+- **Before listing work as yours, name the mechanism by which it lands.** *"Apply at source" was a queue item that
+  could not be performed.*
+- **Write the test, not the list.** *A rule derived from today's state needs the condition under which it stops being
+  true written next to it.*
+- **Heaviness is not relevance.** *Filter questions by the active phase first, weight second.*
+
+**Run `python3 tools/check.py` before every commit.** *It enforces the mechanical invariants and has caught defects
+every time it was skipped.*
+
+---
+
+## Standing constraints — verbatim force
+
+*Never publish pricing, partner or end-user, anywhere. Never name material suppliers, manufacturing partners or OEM
+relationships in public content — the reason is commercial (`D-06`). Never invent figures, test results,
+certifications, personas or launch dates. Do not override a brand's own `CLAUDE.md` from the group layer. This repo
+does not write into `cinema-platform`, into engine, or into `c-ats-shopify` — it specs and hands over. Scattering never
+diffusion on a product name. No competitor named on a public page.*
+
+---
+
+## Also queued, not Pro-Fi
+
+**Parked deliberately:** *the AVForums brief (`group-strategy/avforums-brief.md`) until B2C is the active lane; CPD
+accreditation until the full six-brand sweep completes and a training list exists (`D-09`).*
+
+**Group-level and open:** *`Q39` is Ben still involved · `Q40` what is `srnd-os` · `Q43`/`Q44` two ADR decisions
+belonging to `cinema-platform`'s owner · `Q38` commercialising Probata · `FACT-5` the targets table · the partner
+programme's four.*
+
+**One structural note.** *`brands/_template/the-brand-run.md` is what every remaining brand inherits, and the C-ATS run
+changed what it should say. Its § "Four findings about the method" is worth re-reading against what actually happened
+before Pro-Fi repeats it.*
