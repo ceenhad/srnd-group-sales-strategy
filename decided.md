@@ -4,6 +4,9 @@
 when it went through the question box and Neil answered it (`registers/questions.md`). This file is where those
 decisions are stored in a fixed shape so they can be read, cited and acted on — by people and by SRND OS.*
 
+> **All thirteen approved by Neil, at the gate, reviewed as a set** — `https://claude.ai/code/artifact/80b5a86a-a58d-460f-8f38-183f706dc742`.
+> *`D-01` to `D-13` are live. Anything added later enters the same way: put to him, reviewed, approved.*
+
 **Repo management never goes in here.** *Filing conventions, wording choices and corrections of this repo's own
 reasoning are not decisions the business acts on. That distinction is the whole reason this file was emptied once
 before.*

@@ -4,6 +4,10 @@
 that use it. A fact enters here when it has a **named source** and something **rests on it**; it leaves only by being
 superseded, and then it is replaced rather than annotated.*
 
+> **`E-01` to `E-18` reviewed and approved by Neil as a set**, alongside `decided.md`'s thirteen —
+> `https://claude.ai/code/artifact/80b5a86a-a58d-460f-8f38-183f706dc742`.
+> *A fact does not strictly need approval to be true, but it needs it to be **relied on**, and these are now relied on.*
+
 ## What belongs here, and what does not
 
 | File | Holds |
