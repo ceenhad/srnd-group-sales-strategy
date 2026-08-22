@@ -77,6 +77,10 @@ here: we don't triage dealers by any single brand's order size. See `group-strat
   - *Re-learned three times: `registers/premises.md` `PR-18` broke on it, the 2026-08-20 web check recorded it as the
     lesson that cost an afternoon, and it recurred anyway — which is why it is here and not only in a register.*
 
+- **A settled fact goes in `established.md`; a fact about the business's present state goes in `evidence/current-state.md`.** *`established.md` is the
+  layer between a dated read in `evidence/` and the documents that use it — **what is true, how we know, and what rests on it**. A fact enters when it has a
+  named source and something depends on it, and leaves only by being superseded. **It is not `decided.md`**, which holds choices the business acts on, and
+  **not `registers/premises.md`**, which holds assumptions that could still turn out false.*
 - **Facts about the present go in `evidence/current-state.md`.** The baseline — dealers, revenue shape, lead sources,
  what assets exist — is recorded there with unknowns marked **[?]** rather than inferred. Don't fill a gap by
  reasoning about it.
