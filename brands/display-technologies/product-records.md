@@ -33,15 +33,15 @@ question someone can be sent to answer rather than a project someone has to scop
 
 | ID | Field | Value |
 |---|---|---|
-| `W1` | **Purchaser vs specifier** | The **AV integrator** buys. Where the room's *look* is at stake the **architect or designer** specifies, which widens the audience beyond the integrator (`positioning.md` §2) |
-| `W2` | **Who signs off, and what convinces them** | `[?]` — **deliberately parked.** The real split (integrator vs specialist cinema contractor vs architect/designer) comes from real jobs, not invention |
-| `G2` | **The claims we refuse to make** | No *"engineered to your exact projector"* — products are **size-driven, not per-model bespoke**. No lab regime or certifications DT does not hold. No claim that DT's element is *the* most complex part of a project. Forward/LED claims are **capability, not track record**. FA-copied-CAD is internal and attributed, never public |
-| `G3` | **Marketing status** | `current` for `DT-01`–`DT-08` and `DT-12`; see the individual rows for the exceptions |
-| `C1` | **Channel** | `srnd.store`, trade. **DT is trade-only** — the former Enthusiast tier has left the brand for the Cinema Store DIY range (`../../group-strategy/commercial-model.md`) |
-| `C2` | **Territory** | Direct to dealer globally through the store; distributor appointments are case-by-case exceptions. **The US is currently unrepresented** — Apex-Tech has resigned and the Screen Innovations arrangement is white label (`../../evidence/current-state.md`) |
-| `K1` | **Record owner** | `[?]` — unassigned |
-| `K2` | **Last reviewed** | 2026-08-02 (first capture) |
-| `K3` | **Review interval** | `[?]` |
+| `W1` | Purchaser vs specifier | The **AV integrator** buys. Where the room's *look* is at stake the **architect or designer** specifies, which widens the audience beyond the integrator (`positioning.md` §2) |
+| `W2` | Who signs off, and what convinces them | `[?]` — **deliberately parked.** The real split (integrator vs specialist cinema contractor vs architect/designer) comes from real jobs, not invention |
+| `G2` | The claims we refuse to make | No *"engineered to your exact projector"* — products are **size-driven, not per-model bespoke**. No lab regime or certifications DT does not hold. No claim that DT's element is *the* most complex part of a project. Forward/LED claims are **capability, not track record**. FA-copied-CAD is internal and attributed, never public |
+| `G3` | Marketing status | `current` for `DT-01`–`DT-08` and `DT-12`; see the individual rows for the exceptions |
+| `C1` | Channel | `srnd.store`, trade. **DT is trade-only** — the former Enthusiast tier has left the brand for the Cinema Store DIY range (`../../group-strategy/commercial-model.md`) |
+| `C2` | Territory | Direct to dealer globally through the store; distributor appointments are case-by-case exceptions. **The US is currently unrepresented** — Apex-Tech has resigned and the Screen Innovations arrangement is white label (`../../evidence/current-state.md`) |
+| `K1` | Record owner | `[?]` — unassigned |
+| `K2` | Last reviewed | 2026-08-02 (first capture) |
+| `K3` | Review interval | `[?]` |
 
 **Shared: 6 of 9 filled.**
 
@@ -294,15 +294,15 @@ sentence on this page.
 
 | ID | Field | State | Note |
 |---|---|---|---|
-| `N1` | Selection logic | **`[?]` — and it is DT's central question** | The whole range is **size-driven**: what determines a mount, an enclosure or a port hole is the dimensions of the unit and the room. **So "which one do I need?" is *the* DT question**, the site answers it today with projector-model tags, and `positioning.md` §1 explicitly says those tags are a sizing aid and **not** a claim of per-model engineering. There is no written sizing rule to replace them with |
-| `N2` | The worked example | **`missing`** | No worked sizing example exists for any family |
-| `N3` | The answers | **`missing` — no questions to answer** | `R3` unfilled on all nine families. **This is the first thing to fix, and it is an hour of listening rather than an hour of writing** |
-| `N4` | Comparison | **`[?]`** | Future Automation and Screen Research are named in the strategy; nothing per product. Note the standing rule — position by capability, never disparagement, and **FA-copied-CAD is internal only** |
-| `N5` | Compatibility & pairing | **partly derivable** | The cross-brand links are real and stated: acoustically transparent surfaces put C-ATS treatment and Pro-Fi speakers behind the image; concealment sits behind the Fabric Walls surface; the Screen Wall contains four brands. **Never written as pairing guidance a dealer could use** |
-| `N6` | Project timing | **`[?]`, and it is DT's strongest unclaimed argument** | A port hole is an opening the builder must leave; a mount is a load path; a hush box is an extract route. **These are decided before the wall is closed** — far earlier than the AV order. Knowing that is exactly what a rep is for, and it is written nowhere |
-| `N7` | What the dealer tells their client | **`missing`** | And DT is the brand where it matters most, because `positioning.md` §2 says the audience widens to **the architect and designer** — people the *dealer* has to persuade, in the dealer's own meeting, without us there |
-| `N8` | Field learning | **`[?]`** | Prestigious installs exist; nothing captured |
-| `N9` | What we are asked and cannot answer | **`[?]`** | Two candidates already visible: how far DT's remote diagnostics actually goes (`../../registers/backlog.md` US-6, capability assumed rather than known), and what the LED variant of the Screen Wall can be claimed to do |
+| `N1` | Selection logic | `[?]` — and it is DT's central question | The whole range is **size-driven**: what determines a mount, an enclosure or a port hole is the dimensions of the unit and the room. **So "which one do I need?" is *the* DT question**, the site answers it today with projector-model tags, and `positioning.md` §1 explicitly says those tags are a sizing aid and **not** a claim of per-model engineering. There is no written sizing rule to replace them with |
+| `N2` | The worked example | `missing` | No worked sizing example exists for any family |
+| `N3` | The answers | `missing` — no questions to answer | `R3` unfilled on all nine families. **This is the first thing to fix, and it is an hour of listening rather than an hour of writing** |
+| `N4` | Comparison | `[?]` | Future Automation and Screen Research are named in the strategy; nothing per product. Note the standing rule — position by capability, never disparagement, and **FA-copied-CAD is internal only** |
+| `N5` | Compatibility & pairing | partly derivable | The cross-brand links are real and stated: acoustically transparent surfaces put C-ATS treatment and Pro-Fi speakers behind the image; concealment sits behind the Fabric Walls surface; the Screen Wall contains four brands. **Never written as pairing guidance a dealer could use** |
+| `N6` | Project timing | `[?]`, and it is DT's strongest unclaimed argument | A port hole is an opening the builder must leave; a mount is a load path; a hush box is an extract route. **These are decided before the wall is closed** — far earlier than the AV order. Knowing that is exactly what a rep is for, and it is written nowhere |
+| `N7` | What the dealer tells their client | `missing` | And DT is the brand where it matters most, because `positioning.md` §2 says the audience widens to **the architect and designer** — people the *dealer* has to persuade, in the dealer's own meeting, without us there |
+| `N8` | Field learning | `[?]` | Prestigious installs exist; nothing captured |
+| `N9` | What we are asked and cannot answer | `[?]` | Two candidates already visible: how far DT's remote diagnostics actually goes (`../../registers/backlog.md` US-6, capability assumed rather than known), and what the LED variant of the Screen Wall can be claimed to do |
 
 **The cheapest thing on this page, and it is not writing.** `R3` and `N3` for nine families is **one conversation
 with whoever answers DT support calls**, transcribed. It produces the DT content backlog, the fault-finding

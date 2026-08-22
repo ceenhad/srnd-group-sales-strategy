@@ -25,7 +25,7 @@ supports that; **the transactional history does not.**
 | Sales orders | **77**, first **2026-05-28**, last **2026-08-12** | **Eleven weeks**, not years |
 | Quotes | **12** — 2 won, **0 rejected** | The pipeline is newly live |
 | Sales activities | **78**, first **2026-06-11** | Nine weeks |
-| Projects | **58** | Includes historic entries |
+| Projects | 58 | Includes historic entries |
 
 **So engine is a young system holding migrated accounts, not an archive of years of pipeline.** The consequence
 lands hardest on group 05: `registers/record-form.md` says **"`X6` is largely a read from engine's pipeline
@@ -80,16 +80,16 @@ shipped*. It holds nothing of what a rep *says*.**
 
 | Field | Verdict | Where in engine |
 |---|---|---|
-| `D1` What it is | **partial** | `products.marketing_description` (93 of 164), `quote_description` (2), `seo_title`/`seo_description` (**0**) — one prose blob, not a category sentence |
-| `D2` What it does | **none** | — |
-| `D3` How it works | **partial — and better than expected** | No prose field, but **the mechanism grouping already exists**: `product_families` (14) and `products.product_type` (12 values) |
-| `D4` What it is for | **none** | — |
-| `D5` What it is *not* for | **none** | — |
-| `D6` Scope of supply | **partial** | `boms` (8) · `bom_lines` (43) · `kit_lists` (**0**) — the production view of what's in the box, not the dealer-facing statement |
-| `D7` What it requires from others | **none** | `product_technical.voltage_options` touches power only |
-| `D8` Configuration space | **canonical** | `product_variants` (**821**) · `option_types`/`option_type_values` · `product_default_configurations` · `available_aspects`/`available_surfaces` · `width_formula`/`height_formula` · `sku_token_registry` · `configurator_sessions` |
-| `D9` Limits | **partial → canonical for dimensions** | `product_technical.min/max_viewable_width_mm`, `max_height_overrides`, `depth_mm`, `bezel_mm`. **Environmental limits: none** (an `operating_conditions` spec category is defined but carries no fields) |
-| `D10` Where it sits | **none** | `product_categories` (17) is adjacent, not the room layer |
+| `D1` What it is | partial | `products.marketing_description` (93 of 164), `quote_description` (2), `seo_title`/`seo_description` (**0**) — one prose blob, not a category sentence |
+| `D2` What it does | none | — |
+| `D3` How it works | partial — and better than expected | No prose field, but **the mechanism grouping already exists**: `product_families` (14) and `products.product_type` (12 values) |
+| `D4` What it is for | none | — |
+| `D5` What it is *not* for | none | — |
+| `D6` Scope of supply | partial | `boms` (8) · `bom_lines` (43) · `kit_lists` (**0**) — the production view of what's in the box, not the dealer-facing statement |
+| `D7` What it requires from others | none | `product_technical.voltage_options` touches power only |
+| `D8` Configuration space | canonical | `product_variants` (**821**) · `option_types`/`option_type_values` · `product_default_configurations` · `available_aspects`/`available_surfaces` · `width_formula`/`height_formula` · `sku_token_registry` · `configurator_sessions` |
+| `D9` Limits | partial → canonical for dimensions | `product_technical.min/max_viewable_width_mm`, `max_height_overrides`, `depth_mm`, `bezel_mm`. **Environmental limits: none** (an `operating_conditions` spec category is defined but carries no fields) |
+| `D10` Where it sits | none | `product_categories` (17) is adjacent, not the room layer |
 
 ### 02 · Why to buy it — `O1`–`O5`
 
@@ -101,10 +101,10 @@ an undifferentiated blob. **This is the on-ramp half of S15 and it has no system
 
 | Field | Verdict | Where |
 |---|---|---|
-| `R1` The doubt it meets | **none** | — |
-| `R2` Load-bearing asset | **none** | — |
+| `R1` The doubt it meets | none | — |
+| `R2` Load-bearing asset | none | — |
 | `R3` The questions it generates | **none for products** — **but the mechanism exists** | See §2: `knowledge_questions`/`knowledge_gaps` do exactly this shape, pointed at engine's own UI |
-| `R4` What goes wrong on site | **built, empty** | `support_tickets` (**0**) · `rmas.reason`/`inspection_notes` (**0**) · `qc_fail_reasons` (7 defined) · `eco_categories.defect`. **The structure is there and nothing has been filed** |
+| `R4` What goes wrong on site | built, empty | `support_tickets` (**0**) · `rmas.reason`/`inspection_notes` (**0**) · `qc_fail_reasons` (7 defined) · `eco_categories.defect`. **The structure is there and nothing has been filed** |
 
 ### 04 · The knowledge layer — `N1`–`N9`
 
@@ -128,21 +128,21 @@ fields nearby are `discount_reason` and `approval_denial_reason`, neither of whi
 
 | Field | Verdict | Where |
 |---|---|---|
-| `M1` Order unit and minimum | **none** | `reorder_point`/`reorder_quantity` are internal stock policy, not the dealer's order unit |
-| `M2` Lead time, and what changes it | **canonical** | `products.default_lead_time_days` (57 of 164) · `product_technical.lead_time_days` · **`quote_lines.lead_time_days_at_quote_time`** — a snapshot per quoted line, which is more than the record asked for |
-| `M3` Availability posture | **partial** | `products.source_type` (**164 of 164**) plus `parts_mode` and `product_statuses` — close to `stocked`/`made to order`/`made to size` without being it |
-| `M4` The dealer's business case | **none** | `brand_tier_margins` / `*_cost_multipliers` hold **our** margin, not the dealer's case |
-| `M5` What not specifying it costs | **none** | — |
+| `M1` Order unit and minimum | none | `reorder_point`/`reorder_quantity` are internal stock policy, not the dealer's order unit |
+| `M2` Lead time, and what changes it | canonical | `products.default_lead_time_days` (57 of 164) · `product_technical.lead_time_days` · **`quote_lines.lead_time_days_at_quote_time`** — a snapshot per quoted line, which is more than the record asked for |
+| `M3` Availability posture | partial | `products.source_type` (**164 of 164**) plus `parts_mode` and `product_statuses` — close to `stocked`/`made to order`/`made to size` without being it |
+| `M4` The dealer's business case | none | `brand_tier_margins` / `*_cost_multipliers` hold **our** margin, not the dealer's case |
+| `M5` What not specifying it costs | none | — |
 
 ### 07 · Lifecycle & support
 
 | Field | Verdict | Where |
 |---|---|---|
-| `L1` Order to site | **built, empty** | `sales_order_statuses` models 10 stages through `delivered`; `sales_order_boxes`, `shipments`, `carriers` all **0** |
-| `L2` Install sequence, and who does it | **none** | `sub_task_templates` (82) are **manufacturing** steps, not install |
-| `L3` Commissioning & verification | **none** | `qc_templates` (7) / `qc_checks` (3) are factory QC, not site commissioning |
-| `L4` Serviceability | **none** | the RMA flow is adjacent |
-| `L5` What we support, and for how long | **built, empty** | `products.warranty_months` — **1 of 164 filled**; one authored `doc_block` holds warranty terms for one brand |
+| `L1` Order to site | built, empty | `sales_order_statuses` models 10 stages through `delivered`; `sales_order_boxes`, `shipments`, `carriers` all **0** |
+| `L2` Install sequence, and who does it | none | `sub_task_templates` (82) are **manufacturing** steps, not install |
+| `L3` Commissioning & verification | none | `qc_templates` (7) / `qc_checks` (3) are factory QC, not site commissioning |
+| `L4` Serviceability | none | the RMA flow is adjacent |
+| `L5` What we support, and for how long | built, empty | `products.warranty_months` — **1 of 164 filled**; one authored `doc_block` holds warranty terms for one brand |
 
 ### 08 · Hook material — `H1`–`H3`
 
@@ -161,10 +161,10 @@ is half there. **`W2`: none.**
 
 | Field | Verdict | Where |
 |---|---|---|
-| `G1` Claims supported | **none — but the mechanism is exemplary** | `product_field_specs.provenance` marks a value `predicted_measured` vs `none`, with `risk_tier`. **That is claim provenance per field, already built** — just only over 35 spec fields for screens and speakers |
-| `G2` The claims we refuse to make | **none** | The template calls this a hard gate. Nothing in engine expresses a wording boundary |
-| `G3` Marketing status | **canonical** | `product_statuses` (`draft` · `pre_release` · `released` · `active` · `superseded` · `cancelled`) + `product_generation_statuses` + `product_store_listings.is_published`. **Maps onto G3's four values almost exactly** |
-| `G4` Proof available, and publishable? | **none** | `product_images.usage` (an array) is the nearest thing to a permission concept |
+| `G1` Claims supported | none — but the mechanism is exemplary | `product_field_specs.provenance` marks a value `predicted_measured` vs `none`, with `risk_tier`. **That is claim provenance per field, already built** — just only over 35 spec fields for screens and speakers |
+| `G2` The claims we refuse to make | none | The template calls this a hard gate. Nothing in engine expresses a wording boundary |
+| `G3` Marketing status | canonical | `product_statuses` (`draft` · `pre_release` · `released` · `active` · `superseded` · `cancelled`) + `product_generation_statuses` + `product_store_listings.is_published`. **Maps onto G3's four values almost exactly** |
+| `G4` Proof available, and publishable? | none | `product_images.usage` (an array) is the nearest thing to a permission concept |
 
 ### 11 · Where it is sold
 
@@ -199,7 +199,7 @@ is half there. **`W2`: none.**
 | `A3` CAD | **partial** — `material_cad_files` (103), `cnc_files` (3), `cnc_file_distributions` |
 | `A4` BIM · `A5` NBS | **none** — `doc_kind` could carry them |
 | `A6` Install manual | **canonical mechanism** — the DT screen manual template generates, versions and flags stale |
-| `A7`–`A11` commissioning · fault-finding · video · training · spares | **none** |
+| `A7`–`A11` commissioning · fault-finding · video · training · spares | none |
 
 **Two consequences.** The asset-state vocabulary the record defines (`current` / `exists — stale` / `missing`) is
 **already implemented** as `status` + `stale` + `last_published_at`. And `coverage_rule` +

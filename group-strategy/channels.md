@@ -71,6 +71,32 @@ case by case.
     brands.** That separation is what keeps it safe.
 - **CEDIA member community** and LinkedIn groups — trade-to-trade, where peer referral lives.
 
+## The cinema trio — awareness, at the group layer, added 2026-08-19
+
+*Neil, 2026-08-19: **"I think we can be aware of the whole 'cinema trio' at the group level as that is where it
+would apply as a sort of lead magnet."*** **So it is recorded here as awareness, not adopted as a programme** —
+`../evidence/2026-08-19-the-four-revenue-lines-platform-read.md` holds the detail, and the Cinema Partners half is
+explicitly **not** being built into any plan yet.
+
+**The three parts and why they belong at this layer:**
+
+| | What it is | Why it is not a brand-layer thing |
+|---|---|---|
+| Cinema Tools | The design surface. **Seven free calculators**, and Pro as internal tooling | *It designs the whole room — every brand's layer at once. **No single brand can own it***, and it is not an SRND product: **the group is a customer of it** |
+| Cinema Expert | The education programme | *A cinema curriculum spans acoustics, image, audio, lighting and structure. **A brand teaching only its own layer is a product pitch**, which is the one thing an accredited route rejects* |
+| Cinema Partners | The delivery channel *(recorded only — not planned)* | A channel that delivers rooms delivers all six brands' layers |
+
+**Why "lead magnet" is the right frame, and where it stops.** *The free calculators exist **"to put qualified people
+into the funnel"**, which is why lead capture is launch-blocking in the platform's own decision record. **That is a
+group-layer function**: the enquiry arrives about a room, and a room is six brands.* **What it is not:** *a
+substitute for the brand-level channels above, and not something to announce.* **ADR 017 v2 §12 measures demand
+before the curriculum or the partner programme is built** — *calculator traffic first, then one module published to
+see who buys. **This section may point at it; it may not schedule it.***
+
+**And one exception that is genuinely brand-level, already logged:** *the **RIBA CPD Providers Network** route is
+manufacturer-oriented, so the applicant there is a **product brand — C-ATS** — not Cinema Tools
+(`../brands/c-ats/training.md`, `Q81`). **The trio is the group's; the accreditation membership is a brand's.***
+
 ## Inbound
 
 **Google/SEO** and **AI answer engines (GEO/AEO)** — how a dealer finds us cold, and the top of a

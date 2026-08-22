@@ -3,7 +3,7 @@
 **Status: §1 is agreed — worked through with Neil question by question, 2026-08-14.** The KPI framework below is
 his, arrived at in discussion, with the open decisions named where they sit. §2 (the reconciliation map) remains a
 proposal row by row. §3 records the goal as Neil hardened it in the same session. Where the first draft of this
-file was corrected, the correction is visible in place.
+file was corrected, the wrong version was removed.
 
 This file exists because `registers/open-items.md` § "the direction set 2026-08-14" names three things to establish, in
 order: a KPI set, a reconciliation map, and a consolidation shape.
@@ -22,7 +22,7 @@ fact, and this file treats them as one piece of work rather than three.
 
 ## §1 — The KPI framework (agreed 2026-08-14)
 
-*An earlier draft of this section was headed ~~"definitions first, dashboards never"~~ — a misreading of
+*An earlier draft of this section was headed — a misreading of
 sequencing as doctrine, struck 2026-08-14. **The dashboard, in engine, is the destination.** The definitions
 below are what gate it, so it is never built on contested numbers. And the frame matters more than any row: in an
 organisation where **the content is the rep** (`motion/sales-motion.md`), this framework is sales management —
@@ -35,11 +35,11 @@ Everything output — websites, social, newsletters, campaigns, YouTube — is t
 corollaries:
 
 - **Benchmarks are our own baselines, never industry figures.** The benchmark question is always: better than our
-  last one?
+ last one?
 - **Every link published anywhere carries a campaign tag.** Full attribution machinery is a trap at this size;
-  tagged links plus per-stage conversion is the whole discipline, and it is a habit, not a build.
+ tagged links plus per-stage conversion is the whole discipline, and it is a habit, not a build.
 - **Each third-party replacement inherits the old system's baseline as its acceptance test.** When engine-owned
-  mail replaces Mailchimp, the 63% open baseline is what proves the migration didn't cost deliverability.
+ mail replaces Mailchimp, the 63% open baseline is what proves the migration didn't cost deliverability.
 
 ### The funnel spine
 
@@ -68,11 +68,11 @@ the highest signal tier reached in the period, with revenue as the value attache
 **browsed → quoted → spec'd → ordered → repeat**
 
 - The *spec'd* tier sits between quote and order: a quote is routine, being written into the project's spec is
-  commitment. For specifier-type accounts, spec'd is the terminal success tier.
+ commitment. For specifier-type accounts, spec'd is the terminal success tier.
 - **The store is fully gated, so every browse is a logged-in, identified account** — a dealer reading Fabric
-  Walls pages who has only ever bought DT is a named cross-sell signal months before revenue could show it.
-  Neil: knowing what people are looking at is *"100% a lost opportunity right now."* Owning the store is what
-  makes this stream land in engine rather than in a third party's data model.
+ Walls pages who has only ever bought DT is a named cross-sell signal months before revenue could show it.
+ Neil: knowing what people are looking at is *"100% a lost opportunity right now."* Owning the store is what
+ makes this stream land in engine rather than in a third party's data model.
 
 ### Account types — because cross-sell is only expected where cross-sell applies
 
@@ -154,14 +154,14 @@ with no publication.
 
 ### Open decisions in §1
 
-1. ~~**The floor rate, and who owns publication**~~ **▶ Resolved 2026-08-17 (Q48):** the floor-rate framing is
-   dropped as noise. The standard is **one communication per brand per day**, and real sales conversations as
-   often as possible. The roles are Neil and Simon (Q25).
+1. **▶ Resolved 2026-08-17 (Q48):** the floor-rate framing is
+ dropped as noise. The standard is **one communication per brand per day**, and real sales conversations as
+ often as possible. The roles are Neil and Simon (Q25).
 2. **Threshold values** — the quiet-detection window and N days for status confirmation: set as starting
-   hypotheses, tuned against the first quarter's false positives.
+ hypotheses, tuned against the first quarter's false positives.
 3. **The poke email's wording, cadence cap and named sender** — settled at build time.
 4. **Whether "approved dealer" (266) is ever reported as a headline count** — the ladder proposal stands
-   (accounts created and active dealers are the two figures said out loud); Neil to confirm.
+ (accounts created and active dealers are the two figures said out loud); Neil to confirm.
 
 ---
 
@@ -172,16 +172,16 @@ appear in the findings — no new arithmetic.
 
 | Boundary | What leaks | Measured price | Disappears under consolidation? |
 |---|---|---|---|
-| **Engine ↔ Monday — deal/pipeline state** | The two systems disagree on which deals are open; Monday is a snapshot of the migration moment, engine is live (finding 26). Engine holds 58 projects to Monday's 34 `In Engine` deals; several deals Monday shows open are won or lost in engine; values disagree (The Shard £1.0m vs £0.8m; Galileo £187k vs £93k). | Values named above; no single £ total given. | **Yes** — the boundary exists only because two systems both claim pipeline state. `MON-12`. |
-| **Engine ↔ Monday — account population** | 40 of 265 Monday-approved dealers absent from engine entirely — no engine account, no pricing access. 80 engine accounts absent from Monday. | **40 dealers cannot see a price.** | **Needs fixing regardless** — flagged in `MON-13` as neither disappearing nor waiting: **a fault to fix today**, because forty partners cannot buy right now, independent of any future architecture. |
-| **Monday ↔ Mailchimp — per-brand subscribe flags** | Monday holds real per-brand subscribe flags (DT 926, C-ATS 191, Fabric Walls 193, Light Walls 195, Pro-Fi 193 — finding 21); Mailchimp's brand tags carry **one member each**. The flags never reached the sending system (finding 28). Result: everyone gets the group newsletter, nobody gets a brand proposition. | 189 signed accounts never sold to; brand tags at n=1 each. | **Yes** — this is precisely the class of failure the direction argues consolidation removes: a flag set in one system with no route to the system that acts on it. `MON-15`. |
-| **Xero exports ↔ classification — two report formats, half the detail each** | Sales Analysis (GTUK, DT) carries item code and quantity but no description; Account Transactions (C-ATS, SRND, Light Walls) carries description but no item code or quantity. Store items had to be keyword-classified (`data/classify_store_items.py`) rather than read directly. | **~£1.05m of £1.27m unclassified revenue** would resolve from re-exporting GTUK and DT in Account Transactions format (GTUK `OTHERS` £509,343; DT `Others` £234,135; DT store rows with no SKU £306,647). | **Needs fixing regardless** — this is a source-system export choice, not an integration boundary that consolidation removes. `MON-11`. |
-| **Shopify ↔ the group's own sales analysis — nominal-account posting** | Shopify's store integration posts every order to a single nominal account, with no product category attached. Over half of SRND Group's revenue (**£1,385,960**) arrived this way and had to be reconstructed from item descriptions by keyword rule. | **£1,385,960**, over half of SRND Group's revenue (`registers/open-items.md` § "the direction set 2026-08-14," citing finding 23's margin-ladder argument applied to Shopify). | **Yes, if Shopify's checkout is retired** — this is exactly the "storefront cheap, checkout expensive" case: the categorisation loss is a consequence of not owning the transaction record, which consolidation would fix; but it is coupled to the hardest half of the Shopify question (see §3). |
-| **Shopify — the distribution 2024–25 gap** | Distribution sales after the swap into SRND sit between the GTUK archive (stops 2023-12-04) and engine (starts 2026-05-28), with no source obtained yet. | Not yet obtained — `MON-8`, still open. | **[?]** — cannot classify until the export lands and the gap is measured. |
-| **Xero/GTUK/DT ↔ engine — dealer identity join** | Dealer identity is an unnormalised `Contact` string in the historic exports; any join to engine accounts is fuzzy, so every carry-over rate is a floor, not a real number (e.g. missed matches like "The Next Level" vs "TNL Systems Ltd T/a The Next Level"). | Finding 6's 26% carry-over rate is confirmed as a floor, not the true rate (`MON-7`). | **Needs fixing regardless** — a data-hygiene join problem inside the historic record, independent of where future systems live. |
-| **Approved-dealer status ↔ what it is used to mean** | "Approved dealer" (266, Monday) is read informally as "our dealers," overstating the trading relationship roughly 4× against the 62 actually current (finding 25). | 266 vs 62 — a 4× overstatement if conflated. | **Partly disappears** — the ladder in §1 removes the ambiguity once adopted as reporting practice, independent of any system move; it is a definition fix, not a plumbing fix. |
-| **▲ `cinema-tools.com` ↔ engine — the front door captures nothing** *(added 2026-08-15)* | The seven free calculators each produce an A4 PDF and have **no form and no email field**, so the PDF downloads unconditionally — against **ADR 011 v2**, which specifies lead capture on PDF download landing in engine's `leads` table, and against `tools.md`'s *"on-ramp hinge in product form."* Both enquiry forms — `/project-support/` and `/introduction/` — are **`mailto:`**, so the best-qualified inbound the group generates arrives **in a mailbox**. | **No £ figure, and that is the point: the volume is unmeasurable because nothing is captured.** | **Yes** — this is the archetype of the class. A lead-magnet whose leads never reach the system that would act on them, on the one page built to generate them. **And it is the concrete instance of §1's "inbound is currently uncountable."** |
-| **Engine's own age vs the business's age** | Engine's transaction history is eleven weeks, not years, so anything read "from engine's pipeline" (e.g. win/loss reasons, `X6`) is not actually available yet, even though the business has fourteen years of history sitting in Monday and the Xero archives. | No £ figure — a capability gap, not a revenue leak. | **[?]** — this narrows as engine accrues history regardless of consolidation; whether the historic Monday/Xero record should be backfilled into engine is part of the §3 sequencing fork below. |
+| Engine ↔ Monday — deal/pipeline state | The two systems disagree on which deals are open; Monday is a snapshot of the migration moment, engine is live (finding 26). Engine holds 58 projects to Monday's 34 `In Engine` deals; several deals Monday shows open are won or lost in engine; values disagree (The Shard £1.0m vs £0.8m; Galileo £187k vs £93k). | Values named above; no single £ total given. | **Yes** — the boundary exists only because two systems both claim pipeline state. `MON-12`. |
+| Engine ↔ Monday — account population | 40 of 265 Monday-approved dealers absent from engine entirely — no engine account, no pricing access. 80 engine accounts absent from Monday. | 40 dealers cannot see a price. | **Needs fixing regardless** — flagged in `MON-13` as neither disappearing nor waiting: **a fault to fix today**, because forty partners cannot buy right now, independent of any future architecture. |
+| Monday ↔ Mailchimp — per-brand subscribe flags | Monday holds real per-brand subscribe flags (DT 926, C-ATS 191, Fabric Walls 193, Light Walls 195, Pro-Fi 193 — finding 21); Mailchimp's brand tags carry **one member each**. The flags never reached the sending system (finding 28). Result: everyone gets the group newsletter, nobody gets a brand proposition. | 189 signed accounts never sold to; brand tags at n=1 each. | **Yes** — this is precisely the class of failure the direction argues consolidation removes: a flag set in one system with no route to the system that acts on it. `MON-15`. |
+| Xero exports ↔ classification — two report formats, half the detail each | Sales Analysis (GTUK, DT) carries item code and quantity but no description; Account Transactions (C-ATS, SRND, Light Walls) carries description but no item code or quantity. Store items had to be keyword-classified (`data/classify_store_items.py`) rather than read directly. | **~£1.05m of £1.27m unclassified revenue** would resolve from re-exporting GTUK and DT in Account Transactions format (GTUK `OTHERS` £509,343; DT `Others` £234,135; DT store rows with no SKU £306,647). | **Needs fixing regardless** — this is a source-system export choice, not an integration boundary that consolidation removes. `MON-11`. |
+| Shopify ↔ the group's own sales analysis — nominal-account posting | Shopify's store integration posts every order to a single nominal account, with no product category attached. Over half of SRND Group's revenue (**£1,385,960**) arrived this way and had to be reconstructed from item descriptions by keyword rule. | **£1,385,960**, over half of SRND Group's revenue (`registers/open-items.md` § "the direction set 2026-08-14," citing finding 23's margin-ladder argument applied to Shopify). | **Yes, if Shopify's checkout is retired** — this is exactly the "storefront cheap, checkout expensive" case: the categorisation loss is a consequence of not owning the transaction record, which consolidation would fix; but it is coupled to the hardest half of the Shopify question (see §3). |
+| Shopify — the distribution 2024–25 gap | Distribution sales after the swap into SRND sit between the GTUK archive (stops 2023-12-04) and engine (starts 2026-05-28), with no source obtained yet. | Not yet obtained — `MON-8`, still open. | **[?]** — cannot classify until the export lands and the gap is measured. |
+| Xero/GTUK/DT ↔ engine — dealer identity join | Dealer identity is an unnormalised `Contact` string in the historic exports; any join to engine accounts is fuzzy, so every carry-over rate is a floor, not a real number (e.g. missed matches like "The Next Level" vs "TNL Systems Ltd T/a The Next Level"). | Finding 6's 26% carry-over rate is confirmed as a floor, not the true rate (`MON-7`). | **Needs fixing regardless** — a data-hygiene join problem inside the historic record, independent of where future systems live. |
+| Approved-dealer status ↔ what it is used to mean | "Approved dealer" (266, Monday) is read informally as "our dealers," overstating the trading relationship roughly 4× against the 62 actually current (finding 25). | 266 vs 62 — a 4× overstatement if conflated. | **Partly disappears** — the ladder in §1 removes the ambiguity once adopted as reporting practice, independent of any system move; it is a definition fix, not a plumbing fix. |
+| **▲ `cinema-tools.com` ↔ engine — the front door captures nothing** *(added 2026-08-15)* | The seven free calculators each produce an A4 PDF and have **no form and no email field**, so the PDF downloads unconditionally — against **ADR 011 v2**, which specifies lead capture on PDF download landing in engine's `leads` table, and against `tools.md`'s *"on-ramp hinge in product form."* Both enquiry forms — `/project-support/` and `/introduction/` — are **`mailto:`**, so the best-qualified inbound the group generates arrives **in a mailbox**. | No £ figure, and that is the point: the volume is unmeasurable because nothing is captured. | **Yes** — this is the archetype of the class. A lead-magnet whose leads never reach the system that would act on them, on the one page built to generate them. **And it is the concrete instance of §1's "inbound is currently uncountable."** |
+| Engine's own age vs the business's age | Engine's transaction history is eleven weeks, not years, so anything read "from engine's pipeline" (e.g. win/loss reasons, `X6`) is not actually available yet, even though the business has fourteen years of history sitting in Monday and the Xero archives. | No £ figure — a capability gap, not a revenue leak. | **[?]** — this narrows as engine accrues history regardless of consolidation; whether the historic Monday/Xero record should be backfilled into engine is part of the §3 sequencing fork below. |
 
 **MON-13 sits outside the disappears/needs-fixing split by design, per the brief:** it is neither a leak that
 consolidation would incidentally close nor a structural fix to schedule — it is **a fault to fix today**, because
@@ -201,12 +201,12 @@ here too — a utility to ingest from, not a roadblock to replace).
 Three distinctions that keep the goal crisp:
 
 - **Operations software goes** — the tools that hold a step of the chain (mail sender, CRM, scheduler,
-  storefront).
+ storefront).
 - **Audiences stay** — YouTube, the social platforms, trade press are channels, not tools; the scheduler that
-  posts to them goes, the platform stays, and **engine ingests the platform-native metrics**, because "the place
-  the number lands" holds even for surfaces we don't own.
+ posts to them goes, the platform stays, and **engine ingests the platform-native metrics**, because "the place
+ the number lands" holds even for surfaces we don't own.
 - **Ambient measurement and accounting stay** — and feed engine by ingest (gross margin per brand arrives this
-  way).
+ way).
 
 **Sequencing is unchanged by the harder goal** — it still follows *"does it ride on something already
 happening?"* and *storefront cheap, checkout expensive* (payments, PCI scope, multi-territory tax, fraud, and the
@@ -217,19 +217,18 @@ newsletter migration carries the 63%-open baseline.
 
 ### The decisions only Neil can make
 
-1. ~~**The sequencing fork: does the product record get filled directly into engine's knowledge mechanism
-   rather than into files that later migrate?**~~ **▶ Closed 2026-08-17 (Q47): no** — *"we are not working
-   directly into engine ever in this repo."* The record is specified here, in files; engine-side
-   implementation is the platform's job.
+1. **▶ Closed 2026-08-17 (Q47): no** — *"we are not working
+ directly into engine ever in this repo."* The record is specified here, in files; engine-side
+ implementation is the platform's job.
 2. **S29 (`../motion/motion-design.md`) — the canonical home for answers.** S29 settled that answers live on each brand's own site,
-   assuming the site was separate from engine. Under the replacement goal the sites become engine-coupled
-   properties, so S29 needs re-reading. **Flagged, not resolved** — it may not need reversing, but it was decided
-   under an assumption this direction changes.
+ assuming the site was separate from engine. Under the replacement goal the sites become engine-coupled
+ properties, so S29 needs re-reading. **Flagged, not resolved** — it may not need reversing, but it was decided
+ under an assumption this direction changes.
 3. **Which §2 boundaries get worked now versus wait on consolidation** — proposed per row above; the **[?]** rows
-   had no basis to classify.
+ had no basis to classify.
 4. **The replacement order itself** — mail (poke first, newsletter second) and reporting look first; Monday's
-   remaining content migrates as part of the historic-record question; storefront before checkout; social
-   scheduling whenever convenient. A proposal, not a plan.
+ remaining content migrates as part of the historic-record question; storefront before checkout; social
+ scheduling whenever convenient. A proposal, not a plan.
 
 ---
 

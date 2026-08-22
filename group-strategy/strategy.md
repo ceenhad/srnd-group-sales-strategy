@@ -103,5 +103,21 @@ the signals firing.
 
 With this locked, each brand gets the same treatment from its own material: its pathways built stage by
 stage, its hooks written from its products, its segments cut from the database — the contact list, the
-product records, fifteen years of history — and its channels switched on at the drumbeat. Pro-Fi and
-Light Walls launch *into* this system rather than beside it.
+product records, fifteen years of history — **and its training opportunities identified** — and its channels
+switched on at the drumbeat. Pro-Fi and Light Walls launch *into* this system rather than beside it.
+
+**Training is the fourth leg, added 2026-08-19** (Neil: *"training and education is one of the most beneficial
+marketing types — we should add that as a critical deliverable on all, identifying training opportunities"*).
+**It is not a marketing extra. In this channel it is the route to market**: this document already holds that the way
+in is the specifier, and `buyer-journey.md` already names RIBA-approved CPD as the standard route to architects in
+the UK. *SRND ran cinema training and design classes for years and stopped roughly a decade ago; the people who
+filled that space now hold the recommended practice, the certification and the distributor academies
+(`competitors.md` § the education layer). **This is the one place where build-it-then-say-it does not apply — the
+capability is long-held and only the activity lapsed.*** Shape: `../brands/_template/the-brand-run.md` Leg 4.
+Worked instance: `../brands/c-ats/training.md`.
+
+**And the sequencing is now set — Neil, 2026-08-21 (`../registers/questions.md` `Q99`): *"cpd we will do but only once the first full sweep of all brands is complete and we establish our training list."*** *So **accreditation waits on two things**: the brand run completing across **all six brands**, and a **training list** established from that sweep. **Until then no CPD route is chosen and no membership is bought** — the RIBA network against the CPD Certification Service is not a live question, and neither is the £2,250.*
+
+**What is not gated is delivery.** *Subjects identified by a brand's Leg 4 are runnable as our own class immediately — C-ATS has five such rows and every one of them waits on an owner's calendar rather than on accreditation. **Only the badge waits.***
+
+**The rule this establishes, and the programme did not have it written down: brand-by-brand depth first, cross-brand offers second.** *A training list assembled from one brand would commit the group to a shape before five of six brands had been looked at. It is also consistent with ADR 017 v2 §12 — demand measured before the curriculum is built.*

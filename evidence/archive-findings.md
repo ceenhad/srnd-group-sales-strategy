@@ -13,17 +13,17 @@ lives, what it covers, and what it cannot answer.
 
 | # | Source | Where it lives | Covers | Period |
 |---|---|---|---|---|
-| 1 | **GTUK / Apex Tech Scotland sales analysis** | Dropbox — `/GTUK Staff/Sales/Reports/GTUK - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo8w` | SRND Distribution's forerunner. **UK dealers only** | 2012-01-11 → 2023-12-04 |
-| 2 | **DT sales analysis** | Dropbox — `/DT Management/Sales/DT - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo-Q` | Display Technologies, incl. international dealers and intra-group | 2016-07-12 → 2026-08-12 |
+| 1 | GTUK / Apex Tech Scotland sales analysis | Dropbox — `/GTUK Staff/Sales/Reports/GTUK - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo8w` | SRND Distribution's forerunner. **UK dealers only** | 2012-01-11 → 2023-12-04 |
+| 2 | DT sales analysis | Dropbox — `/DT Management/Sales/DT - Sales Analysis Report - All.xlsx` · file id `id:F15NlnKOA1AAAAAAAAAo-Q` | Display Technologies, incl. international dealers and intra-group | 2016-07-12 → 2026-08-12 |
 | 2b | **C-ATS account transactions** — *different report type, see below* | `data/source/C-ATS - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Cinema Acoustic Treatment Systems Limited, incl. intra-group | stated 2016-01-01 → 2026-08-31 |
-| 2c | **SRND Group account transactions** | `data/source/SRND Group - Account Transactions.xlsx` (supplied locally, 2026-08-13) | SRND Group Ltd — **the current trading entity, from when it took over from the Apex businesses.** Hybrid distributor/manufacturer selling to distributors and dealers globally (Neil) | stated 2020-01-01 → 2026-08-31; data 2023 → 2026 |
-| 2d | **Light Walls account transactions** | `data/source/Light Walls - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Light Walls Ltd, incl. intra-group | stated 2016-08-01 → 2026-08-31; data 2020 → 2026 |
+| 2c | SRND Group account transactions | `data/source/SRND Group - Account Transactions.xlsx` (supplied locally, 2026-08-13) | SRND Group Ltd — **the current trading entity, from when it took over from the Apex businesses.** Hybrid distributor/manufacturer selling to distributors and dealers globally (Neil) | stated 2020-01-01 → 2026-08-31; data 2023 → 2026 |
+| 2d | Light Walls account transactions | `data/source/Light Walls - Account Transactions.xlsx` (supplied locally, 2026-08-13) | Light Walls Ltd, incl. intra-group | stated 2016-08-01 → 2026-08-31; data 2020 → 2026 |
 | 3 | **Engine** *(live, not an extract)* | Supabase project **`vzgdhfsmxteoxxsuexyg`** (`SRND Engine`, eu-west-2). Testbed is `bpsaxuwitlycubnvmfrr`. Read-only MCP is pinned to the production ref | Current accounts, quotes, orders, products, documents | Accounts migrated; transactions from **2026-05-28** |
-| — | **Pro-Fi** | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
-| 4 | **Shopify — distribution after the swap into SRND** | **Not yet obtained** — `registers/backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
+| — | Pro-Fi | **No source, because there are no sales** (Neil, 2026-08-13). Nothing to obtain | — | — |
+| 4 | Shopify — distribution after the swap into SRND | **Not yet obtained** — `registers/backlog.md` `MON-8` | The distribution 2024–25 gap between sources 1 and 3 | ~2024 → 2026 |
 | 5 | **Monday.com CRM — four board exports** ✔ | `data/source/Monday - {SRND Deals, SRND Accounts, Leads, SRND Contacts}.xlsx` (supplied 2026-08-13) | **Deals 155** + 226 sub-deals, **Accounts 1,658** with per-brand status, **Leads 1,233**, **Contacts 1,371**. See tranche 4 | **Deals 2025 → 2026 only** — eighteen months, not years |
 | 6 | **Mailchimp** ✔ *(API, not an export)* | `data/source/mailchimp-{lists,members-a9c4508863,campaigns}.json`, pulled by `data/fetch_mailchimp.py`. **Key read from the `MAILCHIMP_API_KEY` environment variable — never in the repo, a file, or an argument** | **One audience, ~2,028 subscribed** (2,845 records); **29 campaigns**; **416 click-detail URL records** | list built 2025; sends 2025-06-30 → 2026-04-16 |
-| 7 | **Sent-mail archive** | Not yet worked — `registers/backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
+| 7 | Sent-mail archive | Not yet worked — `registers/backlog.md` `CON-3` | Which questions recur, for `R3`/`N3` ranking | Years |
 
 > **▶ One consolidated table now sits above all of it — `data/derived/all-transactions.csv`** (2026-08-13).
 > **10,360 rows, five entities, fifteen years, one harmonised category vocabulary**, reconciled to the pound against
@@ -52,11 +52,11 @@ always reaches further back than the pivots** — GTUK's pivots start at 2019 wh
 that will silently produce wrong numbers if missed:
 
 1. **The contact is a group header row, not a column.** Transactions sit under a bare row naming the contact, closed
-   by a `Total <contact>` row. Parsing row-wise without tracking the current group loses the dealer entirely.
+ by a `Total <contact>` row. Parsing row-wise without tracking the current group loses the dealer entirely.
 2. **Amounts are `Debit (GBP)` / `Credit (GBP)`, not `Net`.** Revenue is a **credit**; reversals, write-offs and
-   credit notes are debits. **Net = credit − debit.**
+ credit notes are debits. **Net = credit − debit.**
 3. **No item code or quantity**, and the `Reference` column carries the invoice number — sometimes a real one
-   (`INV-0013`), sometimes free text (`Stock Catchup`, `Jay Demo Pack`). Treat it as a label, not a key.
+ (`INV-0013`), sometimes free text (`Stock Catchup`, `Jay Demo Pack`). Treat it as a label, not a key.
 
 Both report types are normalised to the same column contract in `data/derived/` — see `data/README.md`.
 
@@ -68,7 +68,7 @@ ordinary revenue:**
 
 | Date | Dealer | Lines | Net | What it is |
 |---|---|---|---|---|
-| 2025-04-29 | De Opera Domotica | Dot 1, Dash 2, Boxer 1 surface-mount | **£8,128** | **A very early prototype system** (Neil) — not a product sale |
+| 2025-04-29 | De Opera Domotica | Dot 1, Dash 2, Boxer 1 surface-mount | £8,128 | **A very early prototype system** (Neil) — not a product sale |
 | 2025-11-11 | Cornflake | `PF-A-16-700D`, `PF-A-4-350D` amplifiers | £5,029 | Amplifiers |
 
 **So the brand is pre-revenue**, which matches engine: Pro-Fi has a brand, a store and a `profi_speaker_datasheet`
@@ -84,15 +84,15 @@ count as Pro-Fi and inflate the total roughly threefold. Use `pro-fi|\bprofi\b|\
 Anyone re-running these needs the same five decisions, or the figures will not match:
 
 1. **Measure is the `Net` column.** Not `Unit Price (ex)`, which appears to hold list prices and is inconsistent with
-   the rest of the row. Credit notes carry negative `Net` and are **left in** so they net off.
+ the rest of the row. Credit notes carry negative `Net` and are **left in** so they net off.
 2. **Exclude non-revenue accounts:** postage, freight, shipping, warehousing, payroll, VAT, accounts receivable,
-   cost-of-sales, motor vehicle, advertising, inter-company postings, and `Other Revenue`.
+ cost-of-sales, motor vehicle, advertising, inter-company postings, and `Other Revenue`.
 3. **Exclude `Deleted` and `Draft` status**; keep `Paid` and `Approved`.
 4. **Separate intra-group counterparties before counting dealers.** For DT these are **Apex Tech Scotland Ltd**,
-   **SRND Group Ltd**, **Apex Tech International Ltd**, Dzyn Ltd and Display Technologies Ltd. Missing this
-   overstates the external dealer base and understates concentration.
+ **SRND Group Ltd**, **Apex Tech International Ltd**, Dzyn Ltd and Display Technologies Ltd. Missing this
+ overstates the external dealer base and understates concentration.
 5. **Canonicalise `Apex Technologies USA` and `Apex Technologies USA LLC` to one account** — same counterparty,
-   re-registered April 2024 (Neil, 2026-08-13).
+ re-registered April 2024 (Neil, 2026-08-13).
 
 **Dealer identity is an unnormalised `Contact` string** in both files, so any join against engine is fuzzy and every
 carry-over rate is a **floor** (`MON-7`).
@@ -113,10 +113,10 @@ and it is *distinct from the US Apex-Tech* recorded in `evidence/current-state.m
 things follow:
 
 - **It puts numbers on a claim the repo makes in prose.** *"Twenty years spent distributing other companies'
-  brands"* and *"we have been doing this a long time"* now read as **£11.7m across 367 dealers and 55 lines**.
-  The moat's first half — understanding the dealer's job — has a measured provenance.
+ brands"* and *"we have been doing this a long time"* now read as **£11.7m across 367 dealers and 55 lines**.
+ The moat's first half — understanding the dealer's job — has a measured provenance.
 - **The dealer base is the group's own inheritance**, which makes it joinable to engine's current accounts. That
-  join is findings 6 and 7, and it is where the commercial value of this tranche actually sits.
+ join is findings 6 and 7, and it is where the commercial value of this tranche actually sits.
 
 **Method.** 4,909 usable lines after excluding `Deleted`/`Draft` status and non-revenue accounts (postage, freight,
 travel, bank fees, cost-of-sales, accounts receivable). Measure is the **`Net`** column; credit notes carry negative
@@ -132,7 +132,7 @@ lines**.
 | 2012 | £1,369,480 | | 2018 | £740,106 |
 | 2013 | £1,101,397 | | 2019 | £1,019,659 |
 | 2014 | £1,044,627 | | 2020 | £876,115 |
-| 2015 | £506,174 | | 2021 | **£1,884,000** |
+| 2015 | £506,174 | | 2021 | £1,884,000 |
 | 2016 | £515,402 | | 2022 | £1,245,364 |
 | 2017 | £559,460 | | 2023 | £883,531 |
 
@@ -156,9 +156,9 @@ for the six-brand question until engine's own history is long enough to answer i
 
 | | Share of net |
 |---|---|
-| Top 5 customers | **22.3 %** |
+| Top 5 customers | 22.3 % |
 | Top 10 | 36.2 % |
-| Top 20 | **49.8 %** |
+| Top 20 | 49.8 % |
 | Top 50 | 71.0 % |
 
 **Half the revenue sits in twenty accounts, and the tail is long and real** — 354 paying external dealers, of whom about 200
@@ -173,7 +173,7 @@ businesses — do not conflate the two figures.**
 | 1 | 199 | £3,000 | £7,249 |
 | 2–3 | 86 | £16,788 | £24,590 |
 | 4–6 | 46 | £44,328 | £77,850 |
-| 7+ | 24 | **£109,781** | £191,959 |
+| 7+ | 24 | £109,781 | £191,959 |
 
 **The 44 % of dealers who bought more than one line produced 87.7 % of all revenue** (£10,302,847 of £11,745,315).
 Single-line dealers — 56 % of the base — produced 12.3 %.
@@ -190,10 +190,10 @@ brand's order size."*
 
 Banding every dealer by the value of their **first invoice**, then measuring only what came **after** it:
 
-| First order | Dealers | Reordered | Median later revenue | **Mean later revenue** | New lines added later |
+| First order | Dealers | Reordered | Median later revenue | Mean later revenue | New lines added later |
 |---|---|---|---|---|---|
 | < £1k | 91 | 52 % | £0 | £12,477 | 0.8 |
-| **£1–5k** | **161** | 62 % | £2,235 | **£37,143** | **1.7** |
+| £1–5k | 161 | 62 % | £2,235 | £37,143 | 1.7 |
 | £5–20k | 77 | 51 % | £0 | £13,011 | 0.6 |
 | £20–50k | 20 | 70 % | £3,131 | £30,915 | 0.9 |
 | £50k+ | 5 | 80 % | £12,200 | £27,618 | 1.4 |
@@ -222,7 +222,7 @@ Of the 156 multi-line dealers, **115 (74 %) bought their second line on a later 
 | Under 3 months | 30 |
 | 3–12 months | 42 |
 | 1–3 years | 26 |
-| **Over 3 years** | **17** |
+| Over 3 years | 17 |
 
 **Median lag: 246 days — a little over eight months.**
 
@@ -237,8 +237,8 @@ established account, not a basket suggestion** — and that is a `detect` rule e
 
 | | Dealers | Net | Was it the dealer's **entry** line? |
 |---|---|---|---|
-| **DT SCREENS** | 85 | £1,165,218 | **Entry for 45; arrived later for 40** |
-| **CATS** | 23 | £141,844 | Entry for **7**; arrived later for **16** |
+| DT SCREENS | 85 | £1,165,218 | Entry for 45; arrived later for 40 |
+| CATS | 23 | £141,844 | Entry for **7**; arrived later for **16** |
 
 **DT was a genuine front door** — over half its dealers met the business through it. **C-ATS mostly arrived
 second**, after a dealer was already buying something else.
@@ -259,9 +259,9 @@ Level"*, and *"Glo Audio Visual Ltd."* against *"GLO AV Ltd"*.
 
 | | Dealers | Share |
 |---|---|---|
-| Historic dealers **found in engine** | **93** | 26 % of the base — **but 45 % of historic revenue (£5,262,007)** |
+| Historic dealers **found in engine** | 93 | 26 % of the base — **but 45 % of historic revenue (£5,262,007)** |
 | Historic dealers **not found** | 261 | 74 % of the base, 55 % of revenue |
-| Of the **top 50** historic dealers | **24 in engine** | Just under half |
+| Of the **top 50** historic dealers | 24 in engine | Just under half |
 
 **Read together, those two lines are the finding.** A quarter of the base carried across, and it is
 disproportionately **the valuable quarter** — retention was weighted toward value rather than random. **But
@@ -280,8 +280,8 @@ The largest ten, with their last recorded order:
 | Dealer | Historic net | Last order | Lines bought |
 |---|---|---|---|
 | Sensory International Ltd | £458,664 | 2022-01-13 | 5 |
-| SMC | £354,634 | **2023-07-28** | 5 |
-| TwentyTwo Integration | £326,191 | **2023-09-26** | 5 |
+| SMC | £354,634 | 2023-07-28 | 5 |
+| TwentyTwo Integration | £326,191 | 2023-09-26 | 5 |
 | Audio Alpha Ltd | £183,970 | 2023-01-16 | 4 |
 | AT&C Professional Systems Ltd | £108,172 | 2021-10-26 | 2 |
 | KJ West One | £107,895 | 2023-01-18 | 6 |
@@ -299,24 +299,24 @@ this one requires no territory decision.
 **Three cautions before anyone picks up a phone.**
 
 1. **It is a screening list, not a verdict.** Fuzzy matching, and the two AT&C rows are probably one group counted
-   twice. Every row needs a human check against engine before contact.
+ twice. Every row needs a human check against engine before contact.
 2. **Some rows are not dealers.** Individuals appear (two of the fifty), as do contractors — Bam Construction,
-   Quinn London — which is a different relationship from an integrator.
+ Quinn London — which is a different relationship from an integrator.
 3. **`MON-5` bites here.** The file ends 2023-12-04 and engine starts May 2026. A dealer whose "last order" reads
-   2023 may have traded through 2024–25 in a system nobody has shown me. **Close that gap before treating any of
-   these as lapsed.**
+ 2023 may have traded through 2024–25 in a system nobody has shown me. **Close that gap before treating any of
+ these as lapsed.**
 
 ### What this tranche does not answer
 
 - **Nothing about *why*.** No loss reasons, no competitor, no dimension — this is invoiced revenue only, so
-  `X6`/`REC-2` remain uncaptured (`evidence/engine-audit.md` §3). The archive proves the *shape* of relationships, never the
-  reasoning inside them.
+ `X6`/`REC-2` remain uncaptured (`evidence/engine-audit.md` §3). The archive proves the *shape* of relationships, never the
+ reasoning inside them.
 - **Nothing about questions asked.** `MON-2`'s second question — which questions recur across fourteen years — needs
-  the mail archive (`CON-3`), not this file.
+ the mail archive (`CON-3`), not this file.
 - **Nothing post-2023.** The file stops at 2023-12-04, and engine starts in May 2026. **There is a gap between
-  them** worth naming: whatever ran 2024–2025 is in neither source yet.
+ them** worth naming: whatever ran 2024–2025 is in neither source yet.
 - **Cross-*brand* across SRND's six**, as opposed to cross-line in distribution — still unmeasured, and only
-  engine's own history will eventually answer it directly.
+ engine's own history will eventually answer it directly.
 
 ---
 
@@ -358,11 +358,11 @@ this revenue set, engine's 14 `product_families`, and the twelve record scopes d
 
 | | DT (2016–2026) | SRND Distribution (2012–2023) |
 |---|---|---|
-| External dealers, ever | **76** | 354 |
-| Active in a typical year | **11–27** | — |
-| Top 1 account | **31.5 %** | — |
-| Top 5 accounts | **61.0 %** | 22.3 % |
-| Top 10 accounts | **76.8 %** | 36.2 % |
+| External dealers, ever | 76 | 354 |
+| Active in a typical year | 11–27 | — |
+| Top 1 account | 31.5 % | — |
+| Top 5 accounts | 61.0 % | 22.3 % |
+| Top 10 accounts | 76.8 % | 36.2 % |
 
 **These are two different businesses wearing one group's clothes.** Distribution was a broad dealer base where the
 top five held a fifth of revenue; **DT is one account holding nearly a third, five holding over sixty per cent, and
@@ -377,7 +377,7 @@ actual history**, and an argument that the direct-dealer model is something DT h
 
 External revenue by year, split by whether it came from an Apex-named account:
 
-| Year | External total | Apex USA | **Everyone else** |
+| Year | External total | Apex USA | Everyone else |
 |---|---|---|---|
 | 2019 | £447,241 | — | £447,241 |
 | 2020 | £592,272 | £107,868 | **£484,405** ← peak |
@@ -398,13 +398,13 @@ record — then **5 in 2025 and 2 so far in 2026.**
 **But the full-year view above misleads on 2026, and like-for-like corrects it.** Comparing 1 January to 12 August
 in each year — the period 2026 actually covers:
 
-| YTD to 12 Aug | Apex USA | **non-Apex** | Total | non-Apex dealers active |
+| YTD to 12 Aug | Apex USA | non-Apex | Total | non-Apex dealers active |
 |---|---|---|---|---|
 | 2022 | £170,285 | £220,806 | £391,091 | 19 |
 | 2023 | £198,891 | £179,067 | £377,957 | 20 |
 | 2024 | £129,064 | £165,499 | £294,563 | 19 |
 | 2025 | £143,463 | £98,222 | £241,685 | 13 |
-| **2026** | £62,499 | **£157,040** | £219,539 | **10** |
+| 2026 | £62,499 | £157,040 | £219,539 | 10 |
 
 **The five-year slide has broken: non-Apex revenue is up 60 % year-on-year YTD** (£98,222 → £157,040), while Apex
 is down 56 % as the grace period runs. **That is a much better position than the full-year table suggests**, and it
@@ -484,8 +484,8 @@ asking. **Flagging rather than concluding was the right call, and the flag is no
 | First order | Dealers | Reordered | Mean later revenue |
 |---|---|---|---|
 | < £1k | 18 | 56 % | £18,027 |
-| £1–5k | 33 | 64 % | **£49,783** |
-| £5–20k | 25 | 56 % | **£63,170** |
+| £1–5k | 33 | 64 % | £49,783 |
+| £5–20k | 25 | 56 % | £63,170 |
 | £20k+ | 1 | — | — |
 
 Small numbers, so this is corroboration rather than proof. **But it points the same way as tranche 1 in a completely
@@ -497,7 +497,7 @@ independent datasets now say first-order size does not predict relationship valu
 - **Still nothing about why** — no loss reasons, no competitors. Invoiced revenue only.
 - **The distribution 2024–25 gap remains** (`MON-8`, Shopify).
 - **Territory is inferable but not stated** — dealer names imply geography (USA, India, Spain, Canada) but there is
-  no country field, so any international split is inference, not data.
+ no country field, so any international split is inference, not data.
 
 ---
 
@@ -513,7 +513,7 @@ SRND. Stated period 2016-08-01 → 2026-08-31; **the data begins in 2020.** 418 
 |---|---|---|
 | 2020 | £9,178 | £9,178 |
 | 2021 | £199,313 | £174,263 |
-| **2022** | **£250,859** | **£236,222** ← peak |
+| 2022 | £250,859 | **£236,222** ← peak |
 | 2023 | £96,870 | £83,191 |
 | 2024 | — | — |
 | 2025 | — | — |
@@ -532,7 +532,7 @@ not show the replacement cost, which would sit in purchases and warranty rather 
 
 | Counterparty | Net | Share of external |
 |---|---|---|
-| **Apex Technologies USA** | **£273,866** | **54.5 %** |
+| Apex Technologies USA | £273,866 | 54.5 % |
 | Cinema Partners | £63,567 | 12.6 % |
 | INT3 Ltd | £35,325 | 7.0 % |
 | Wakefields Smarter Home Technology | £33,570 | 6.7 % |
@@ -555,8 +555,8 @@ already-loaded sources. Both corrected in place:
 
 | | Was | Now | Moved |
 |---|---|---|---|
-| DT external | £4,238,830 | **£4,219,271** | £19,559 of DT→Light Walls sales (2021–23) |
-| GTUK external | £11,745,315 | **£11,742,315** | £3,000 |
+| DT external | £4,238,830 | £4,219,271 | £19,559 of DT→Light Walls sales (2021–23) |
+| GTUK external | £11,745,315 | £11,742,315 | £3,000 |
 
 Knock-on: DT's dealer count 77 → **76**, top-1 share 31.4 % → **31.5 %**, top-5 60.7 % → **61.0 %**, top-10 76.4 % →
 **76.8 %**, and 2022's non-Apex YTD £229,706 → £220,806. GTUK's dealer count 355 → **354**, its cohort counts by one
@@ -570,14 +570,14 @@ are regenerated together** after any addition to it.
 ### Loose ends in this tranche
 
 - **`Complete-ATS` is unresolved but immaterial — £222.** It is left external. "Complete ATS" is the C-ATS vendor
-  name on the store, which suggests a group entity, but the C-ATS company is *Cinema Acoustic Treatment Systems
-  Limited*. Flagged in `data/normalise.py` (`UNRESOLVED_ENTITIES`); at this value it changes nothing either way.
+ name on the store, which suggests a group entity, but the C-ATS company is *Cinema Acoustic Treatment Systems
+ Limited*. Flagged in `data/normalise.py` (`UNRESOLVED_ENTITIES`); at this value it changes nothing either way.
 - **`UNKNOWN_CONTACT`** appears as a literal placeholder on one £12 `Other Revenue` row — excluded from revenue.
 - **Three new spellings of group entities** were introduced by this file and are now canonicalised in the loader:
-  `Apex Tech Scotland Ltd / Apex-Tech UK`, `Display Technologies Limited`, and a lower-case `apex Tech
-  International Ltd`.
+ `Apex Tech Scotland Ltd / Apex-Tech UK`, `Display Technologies Limited`, and a lower-case `apex Tech
+ International Ltd`.
 - **Neil notes work in progress on the lighting side** — *"something special… that can really help us get back into
-  that lighting business."* Recorded as a pointer only; there is nothing about it in the data.
+ that lighting business."* Recorded as a pointer only; there is nothing about it in the data.
 
 ---
 
@@ -592,11 +592,11 @@ them:
 
 | Component | Categories | Net | % of SRND | Dealers |
 |---|---|---|---|---|
-| Fabric track | `Metal Fabric Track`, `Plastic Fabric Track`, `Fabric track` | **£197,476** | 7.2 % | 21 |
+| Fabric track | `Metal Fabric Track`, `Plastic Fabric Track`, `Fabric track` | £197,476 | 7.2 % | 21 |
 | Metal frame | `Fabric wall frames & panels` | £62,729 | 2.3 % | 8 |
 | Fabric | `Fabrics`, `Fabric samples` (Ultrasuede, Showtex, Aura Flex) | £15,136 | 0.6 % | 8 |
 | Installation tools | `Tools` | £1,128 | 0.0 % | 4 |
-| **Product total** | | **£276,470** | **10.1 %** | **32 distinct** |
+| Product total | | £276,470 | 10.1 % | 32 distinct |
 
 Plus, sitting in other categories: **£19,548** of Fabric Walls design services (the Seattle and Madrid room designs)
 and a **£9,000** downpayment on the Mexico City showroom — **£305,018 in total, 11.2 % of SRND's product revenue.**
@@ -630,9 +630,9 @@ picked up when SRND sells it onward). Still pure numbers — revenue only, no ma
 
 ### Finding 14 — group external revenue, 2012–2026
 
-| Year | UK distribution | DT | C-ATS | Light Walls | SRND Group | **Group** |
+| Year | UK distribution | DT | C-ATS | Light Walls | SRND Group | Group |
 |---|---|---|---|---|---|---|
-| 2012 | £1,369,480 | — | — | — | — | **£1,369,480** |
+| 2012 | £1,369,480 | — | — | — | — | £1,369,480 |
 | 2013 | £1,101,397 | — | — | — | — | £1,101,397 |
 | 2014 | £1,044,627 | — | — | — | — | £1,044,627 |
 | 2015 | £506,174 | — | — | — | — | £506,174 |
@@ -641,13 +641,13 @@ picked up when SRND sells it onward). Still pure numbers — revenue only, no ma
 | 2018 | £740,106 | £282,224 | £33,148 | — | — | £1,055,479 |
 | 2019 | £1,019,659 | £447,241 | £11,960 | — | — | £1,478,860 |
 | 2020 | £876,115 | £592,272 | £36,153 | £9,178 | — | £1,513,719 |
-| **2021** | £1,884,000 | £549,357 | £22,978 | £174,263 | — | **£2,630,599** ← peak |
+| 2021 | £1,884,000 | £549,357 | £22,978 | £174,263 | — | **£2,630,599** ← peak |
 | 2022 | £1,242,364 | £601,347 | £24,385 | £236,222 | — | £2,104,317 |
 | 2023 | £883,531 | £530,378 | £6,338 | £83,191 | £10,670 | £1,514,108 |
 | 2024 | — | £439,770 | £40,507 | — | £790,971 | £1,271,247 |
 | 2025 | — | £386,918 | £3,978 | — | £1,048,315 | £1,439,211 |
 | 2026 *(part)* | — | £219,539 | — | — | £875,327 | £1,094,866 |
-| **All** | **£11,742,315** | **£4,219,271** | **£254,210** | **£502,855** | **£2,725,282** | **£19,443,934** |
+| All | £11,742,315 | £4,219,271 | £254,210 | £502,855 | £2,725,282 | £19,443,934 |
 
 **Three phases, and the numbers date them.** Pure UK distribution to 2015, and declining. Own brands appear in 2016
 (DT and C-ATS in the same year) and grow alongside distribution to a **2021 group peak of £2.63m**. The handover runs
@@ -666,8 +666,8 @@ current entity, classifying SRND's categories into own-made, carried and service
 
 | | Net | Share |
 |---|---|---|
-| Carried / third-party | £1,381,327 | **50.7 %** |
-| Own-made | £936,980 | **34.4 %** |
+| Carried / third-party | £1,381,327 | 50.7 % |
+| Own-made | £936,980 | 34.4 % |
 | Services | £246,276 | 9.0 % |
 | Other (shipping, surcharges, adjustments) | £160,700 | 5.9 % |
 
@@ -683,8 +683,8 @@ query, and `Fabrics` (Ultrasuede) is counted as carried even though it is consum
 
 | Entity | Period | External dealers | Top 1 | Top 5 |
 |---|---|---|---|---|
-| GTUK / UK distribution | 2012–23 | **354** | 5.3 % | 22.3 % |
-| SRND Group | 2023–26 | **147** | 22.4 % | 45.2 % |
+| GTUK / UK distribution | 2012–23 | 354 | 5.3 % | 22.3 % |
+| SRND Group | 2023–26 | 147 | 22.4 % | 45.2 % |
 | DT | 2016–26 | 76 | 31.5 % | 61.0 % |
 | Light Walls | 2020–26 | 19 | 54.5 % | 85.2 % |
 | C-ATS | 2016–26 | 12 | 25.3 % | 85.9 % |
@@ -701,11 +701,11 @@ and C-ATS's 12.
 Worth stating plainly before any of it is used for planning:
 
 - **No margin.** Revenue only. A carried LED wall and an own-made screen at the same revenue are not the same
-  business, and nothing here says which is worth more.
+ business, and nothing here says which is worth more.
 - **No why.** No loss reasons, no competitors, no lead source — `X6`/`REC-2` remain uncaptured (`evidence/engine-audit.md`).
 - **No territory.** No country field in any source; dealer names imply geography but that is inference.
 - **Uneven scope.** GTUK is **UK-only**; the others include international. So the pre-2024 series understates the
-  group's true geography while the post-2024 series does not.
+ group's true geography while the post-2024 series does not.
 - **2024–25 distribution is thinner than it looks**, pending `MON-8` (Shopify).
 
 ---
@@ -724,12 +724,12 @@ group's **largest** business by category, ahead of projection.
 
 | Category | Group net | Share | Carried brands |
 |---|---|---|---|
-| **Speakers** | **£2,809,085** | 14.4 % | Stealth, Leon, Wisdom, Phase Technology, SolidDrive, Quested, Aerial |
-| **Audio over IP** | **£779,979** | **4.0 %** | NextGen Tech |
+| Speakers | £2,809,085 | 14.4 % | Stealth, Leon, Wisdom, Phase Technology, SolidDrive, Quested, Aerial |
+| Audio over IP | £779,979 | 4.0 % | NextGen Tech |
 | Amplifiers | £548,019 | 2.8 % | ADA, Acurus, Aragon, Integra, StormAudio |
 | Speakers & amplifiers *(mixed lines, unsplittable)* | £475,672 | 2.4 % | Pro Audio, TPI |
 | Audio processing | £190,105 | 1.0 % | Datasat |
-| **Audio total** | **£4,802,861** | **24.7 %** | |
+| Audio total | £4,802,861 | 24.7 % | |
 
 **Today it is 9.3 % of SRND and entirely carried** — £254,151, all third-party (MAG Theatron, PhaseTech, DCB Flyte).
 **No own speaker line is shipping** (Neil).
@@ -753,12 +753,12 @@ to the business**, and it cannot be corrected further because **no margin data h
 The consequence is specific and worth stating before anyone ranks work by revenue:
 
 - **A carried line at 20 % needs five times the revenue of a 100 %-margin service, and roughly double that of a
-  50 %-margin own-made product, to contribute the same money.**
+ 50 %-margin own-made product, to contribute the same money.**
 - On that basis **Fabric Walls (£276,470 product revenue) may already out-earn LED walls (£610,885)** in margin
-  terms — *may*, because the own-made margin is unknown. **This is a hypothesis the data cannot yet test.**
+ terms — *may*, because the own-made margin is unknown. **This is a hypothesis the data cannot yet test.**
 - **Neil's framing is the right one and the numbers support it:** LED walls are *"a very nice revenue that supports
-  our own lines"* — infrastructure for the P&L, not the strategic centre, and *"an impossible category to get into as
-  a manufacturer"* so the carried relationship with the industry number one is the only way to hold the category.
+ our own lines"* — infrastructure for the P&L, not the strategic centre, and *"an impossible category to get into as
+ a manufacturer"* so the carried relationship with the industry number one is the only way to hold the category.
 
 **`MON-10` is therefore the highest-value missing dataset now** — a margin or cost column against these lines would
 re-rank every priority the revenue view suggests.
@@ -773,9 +773,9 @@ re-rank every priority the revenue view suggests.
 | Board | Items | Columns |
 |---|---|---|
 | Deals | **155** + 226 sub-deals | 18 |
-| Accounts | **1,658** | 29 |
-| Leads | **1,233** | 39 |
-| Contacts | **1,371** | 31 |
+| Accounts | 1,658 | 29 |
+| Leads | 1,233 | 39 |
+| Contacts | 1,371 | 31 |
 
 **Format note, because it bites hard.** Monday exports grouped boards, so the sheet is not a table: a group name
 row, then a *repeated* column-header row, then items — and on the Deals board **sub-item blocks sit between parent
@@ -802,7 +802,7 @@ deals created in 2025, 62 in 2026. **It is eighteen months of pipeline, not year
 | Group | Deals | Value |
 |---|---|---|
 | Active | 47 | £4,133,340 |
-| **Closed Lost** | **74** | **£5,994,922** |
+| Closed Lost | 74 | £5,994,922 |
 | Closed Won | 9 | £1,004,875 |
 | Complete | 25 | £194,882 |
 
@@ -829,8 +829,8 @@ vocabulary that *is* an awareness funnel: **Not Customer → Approached → Pres
 
 | Brand | Current | Historic | Demonstrated | Presented | Approached | Not Customer |
 |---|---|---|---|---|---|---|
-| **DT** | **52** | 14 | 2 | 53 | 20 | 1,493 |
-| Fabric Walls | 16 | — | 3 | **73** | 19 | 1,544 |
+| DT | 52 | 14 | 2 | 53 | 20 | 1,493 |
+| Fabric Walls | 16 | — | 3 | 73 | 19 | 1,544 |
 | C-ATS | 16 | 4 | 1 | 49 | 16 | 1,568 |
 | Barco | 14 | — | — | 24 | 15 | 1,504 |
 | MAG | 3 | — | — | 26 | 18 | 1,573 |
@@ -853,7 +853,7 @@ The Contacts board holds per-brand subscribe flags across 1,371 contacts:
 | List | Subscribers |
 |---|---|
 | SRND | 985 |
-| **DT** | **926** |
+| DT | 926 |
 | Pro-Fi | 193 |
 | Light Walls | 195 |
 | Fabric Walls | 193 |
@@ -872,13 +872,13 @@ only 39 have any call logged.
 ### Two things this tranche adds that were not in the repo
 
 - **Two people in sales who are not in `evidence/current-state.md`.** `Primary Sales` on the Accounts board is **Olivier
-  Dedek (298 accounts), Mark Franks (225), Erica Johnson (19), Neil (4)**, and Mark Franks also owns a lead. The
-  people list records Neil, Olivier, Ben and Simon. **Worth correcting — a 225-account owner is not a detail.**
+ Dedek (298 accounts), Mark Franks (225), Erica Johnson (19), Neil (4)**, and Mark Franks also owns a lead. The
+ people list records Neil, Olivier, Ben and Simon. **Worth correcting — a 225-account owner is not a detail.**
 - **Segment data for the beyond-cinema question.** `Enviroments` is populated on 355 accounts with combinations of
-  **Home Cinema and Media Rooms, Luxury Living, Commercial, Outdoor, DCI Screening Rooms** — and `Work Areas` on the
-  Leads board carries Residential AV, Commercial AV, Hospitality, Office Spaces. **`group-strategy/channels.md` is
-  cinema-shaped and notes non-cinema needs evidence; this is the first structured non-cinema segmentation the repo
-  has seen.** Sparse (355 of 1,658) but real.
+ **Home Cinema and Media Rooms, Luxury Living, Commercial, Outdoor, DCI Screening Rooms** — and `Work Areas` on the
+ Leads board carries Residential AV, Commercial AV, Hospitality, Office Spaces. **`group-strategy/channels.md` is
+ cinema-shaped and notes non-cinema needs evidence; this is the first structured non-cinema segmentation the repo
+ has seen.** Sparse (355 of 1,658) but real.
 
 ---
 
@@ -900,23 +900,23 @@ Engine models pricing two ways, and both are populated:
 | Pro-Fi | 0.40 | 0.40 | |
 | DT | 0.35 | 0.40 | |
 | Fabric Walls | 0.30 | 0.25 | |
-| **Leyard** | **0.20** | **0.20** | *archived scenario only — see the flag below* |
-| SRND | 0.40 | 0.40 | *archived scenario only* |
+| Leyard | 0.20 | 0.20 | archived scenario only — see the flag below |
+| SRND | 0.40 | 0.40 | archived scenario only |
 
 **`brand_tier_cost_multipliers` — cost × multiplier = price**, for the own-made brands: **distributor 1.6 ·
 dealer 2.1 · 3.0 with no tier** (read as RRP). Present for Fabric Walls, Pro-Fi and SRND; absent for DT and C-ATS.
 
-### The ambiguity, and it is material — ~~`[?]`~~ **resolved below**
+### The ambiguity, and it is material — **resolved below**
 
 **Is `margin` *our* margin or the *channel's*?** Both readings are supported and they give different answers:
 
 - **Reading A — it is the channel's resale margin.** The Fabric Walls arithmetic fits almost exactly: if RRP is
-  cost × 3.0 and a dealer buys at cost × 2.1, the dealer's margin is (3.0 − 2.1)/3.0 = **30 %**, matching
-  `fabricwalls dealer 0.30`; a distributor buying at 1.6 and selling on at 2.1 earns (2.1 − 1.6)/2.1 = **23.8 %**,
-  near `0.25`. **Under A our own margin comes from the multipliers: 52.4 % selling to a dealer, 37.5 % to a
-  distributor.**
+ cost × 3.0 and a dealer buys at cost × 2.1, the dealer's margin is (3.0 − 2.1)/3.0 = **30 %**, matching
+ `fabricwalls dealer 0.30`; a distributor buying at 1.6 and selling on at 2.1 earns (2.1 − 1.6)/2.1 = **23.8 %**,
+ near `0.25`. **Under A our own margin comes from the multipliers: 52.4 % selling to a dealer, 37.5 % to a
+ distributor.**
 - **Reading B — it is our margin at that tier.** Supported by the thing that matters most: **Neil states LED walls
-  earn us 20 %, and engine's Leyard rows are exactly 0.20/0.20.** Under B, own-made earns us 30–40 %.
+ earn us 20 %, and engine's Leyard rows are exactly 0.20/0.20.** Under B, own-made earns us 30–40 %.
 
 **Reading A cannot be reconciled with Neil's 20 % unless Leyard is a special case; reading B cannot be reconciled
 with the cost multipliers.** Flagged rather than resolved — one sentence from Neil settles it.
@@ -928,7 +928,7 @@ with the cost multipliers.** Flagged rather than resolved — one sentence from 
 | | Revenue | Margin under A | Margin under B |
 |---|---|---|---|
 | LED video walls *(carried, Leyard)* | £610,885 | £122,177 *(20 %)* | £122,177 *(20 %)* |
-| **Fabric Walls** *(own-made)* | **£276,470** | **£144,870** *(52.4 %)* | £82,941 *(30 %)* |
+| **Fabric Walls** *(own-made)* | £276,470 | **£144,870** *(52.4 %)* | £82,941 *(30 %)* |
 
 *(Superseded by the resolution below: the answer is the A-shaped one, arrived at differently.)* Under reading A, Fabric Walls out-earns LED walls on under half the revenue; under B it does not, but the gap
 narrows from 2.2× on revenue to 1.5× on margin. **Either way the revenue tables in findings 14–16 overstate the
@@ -940,8 +940,8 @@ carried lines**, and Neil's framing — LED as *"revenue that supports our own l
 
 | Brand | Products | With cost | With RRP |
 |---|---|---|---|
-| DT | 85 | **0** | 4 |
-| Fabric Walls | 37 | **0** | 0 |
+| DT | 85 | 0 | 4 |
+| Fabric Walls | 37 | 0 | 0 |
 | SRND | 10 | 3 | 0 |
 | Light Walls | 6 | 0 | 0 |
 | Pro-Fi | 5 | 1 | 0 |
@@ -956,7 +956,7 @@ is a cost column on the Xero exports** (`MON-11` covers the same re-export) **or
 **Two price-list scenarios were activated today; the one left `active` looks like the wrong one.**
 
 - **Active: `Scenario 04/06/2026`** — 8 entries. **No Leyard row and no SRND row**, so the two carried-heavy lines
-  have no active margin policy at all.
+ have no active margin policy at all.
 - **Archived: `Scenario 13/08/2026`** — 12 entries, the same brands **plus Leyard 0.20 and SRND 0.40**.
 
 **And DT's tiers are inverted between them:** active says dealer 0.35 / distributor 0.40; the archived one says
@@ -975,18 +975,18 @@ Reading A nor Reading B above was right on its own; the structure is stacking, n
 
 | What we sell | Steps we occupy | Our margin |
 |---|---|---|
-| **Own-made, direct to dealer** | manufacture **and** distribution | **both margins stack** |
+| Own-made, direct to dealer | manufacture **and** distribution | both margins stack |
 | Own-made, through a distributor | manufacture only | the manufacturing step alone |
-| **Carried (Leyard)** | distribution only — we do not make it | **one step: 20 %** |
+| Carried (Leyard) | distribution only — we do not make it | one step: 20 % |
 
 **Worked from the stored figures**, compounding the two steps (1 − (1 − m₁)(1 − m₂)):
 
-| Brand | Distributor step | Dealer step | **Direct-to-dealer margin** |
+| Brand | Distributor step | Dealer step | Direct-to-dealer margin |
 |---|---|---|---|
-| DT | 0.40 | 0.35 | **≈ 61 %** |
-| C-ATS · Pro-Fi | 0.40 | 0.40 | **64 %** |
-| Fabric Walls | 0.25 | 0.30 | **≈ 47 %** |
-| **Leyard** | *n/a — never happens* | 0.20 | **20 %** |
+| DT | 0.40 | 0.35 | ≈ 61 % |
+| C-ATS · Pro-Fi | 0.40 | 0.40 | 64 % |
+| Fabric Walls | 0.25 | 0.30 | ≈ 47 % |
+| Leyard | n/a — never happens | 0.20 | 20 % |
 
 **Sense-checked against the other mechanism:** the own-made cost multipliers give 1 − 1/2.1 = **52.4 %** at the
 dealer tier, which sits inside the 47–64 % range the stacked margins imply. **The two mechanisms agree.**
@@ -997,10 +997,10 @@ ceiling of the position.** Neil's framing follows directly: *"a very nice revenu
 
 ### The comparison, now settled
 
-| | Revenue | Margin rate | **Margin** |
+| | Revenue | Margin rate | Margin |
 |---|---|---|---|
 | LED video walls *(carried)* | £610,885 | 20 % | £122,177 |
-| **Fabric Walls** *(own-made, direct)* | **£276,470** | **≈ 47 %** | **≈ £131,000** |
+| **Fabric Walls** *(own-made, direct)* | £276,470 | ≈ 47 % | ≈ £131,000 |
 
 **Fabric Walls out-earns LED walls on less than half the revenue** — finding 18's hypothesis confirmed, and the
 strongest single argument in this file for ranking work by margin rather than by revenue. **On the same arithmetic,
@@ -1028,10 +1028,10 @@ chain the group occupies is a margin it keeps, so the question is always *how ma
 
 | Route | Price to the buyer | Steps we hold | Our margin | Per £1 of cost |
 |---|---|---|---|---|
-| Through a distributor | cost × **1.6** | manufacture | **37.5 %** | £0.60 |
-| **Direct to a dealer** | cost × **2.1** | manufacture + distribution | **52.4 %** | **£1.10** |
-| **Direct to a consumer** (RRP) | cost × **3.0** | all three | **66.7 %** | **£2.00** |
-| **Carried line** (Leyard) | — | distribution only | **20 %** | *ceiling of the position* |
+| Through a distributor | cost × **1.6** | manufacture | 37.5 % | £0.60 |
+| Direct to a dealer | cost × **2.1** | manufacture + distribution | 52.4 % | £1.10 |
+| **Direct to a consumer** (RRP) | cost × **3.0** | all three | 66.7 % | £2.00 |
+| **Carried line** (Leyard) | — | distribution only | 20 % | ceiling of the position |
 
 *(Multipliers are engine's own `brand_tier_cost_multipliers` for the own-made brands; the tier margins compound to the
 same place — finding 22.)*
@@ -1100,12 +1100,12 @@ reason behind the exception rule rather than leaving it here as a finding.**
 
 | Stage | Deals | Value |
 |---|---|---|
-| **In Engine** | **34** | **£3,480,152** |
+| In Engine | 34 | £3,480,152 |
 | Discussion | 4 | £441,075 |
 | Proposal | 6 | £202,594 |
 | Discovery | 3 | £9,520 |
 
-**Three-quarters of the deals and 84 % of the value sit in `In Engine`.** ~~`[?]`~~ **Answered in finding 26: it
+**Three-quarters of the deals and 84 % of the value sit in `In Engine`.Answered in finding 26: it
 means migrated into engine, not a sales stage — so this is not deep-funnel pipeline.** The original question, kept
 because the reasoning holds: **the stage name needed one word of explanation** — whether it means *in engineering* (being designed) or *moved into engine* (the platform). It changes
 the reading completely: the first is a genuine pipeline stage, the second is a holding pen for everything migrated
@@ -1115,9 +1115,9 @@ into the new system. **The sub-deals suggest the second: 216 of 226 sit at `Prop
 
 | Outcome | Deals | Median days, creation → last interaction |
 |---|---|---|
-| **Closed Won** | 9 | **153** |
+| Closed Won | 9 | 153 |
 | Complete | 25 | 126 |
-| Closed Lost | 74 | **105** |
+| Closed Lost | 74 | 105 |
 | Active *(so far)* | 47 | 66 |
 
 **A won deal takes about five months; a lost one dies at three and a half.** `NEXT.md` puts `TSK-3` — the lead-time
@@ -1131,9 +1131,9 @@ age at which deals start dying.**
 
 | Owner | Active | Won + complete | Lost | Win rate |
 |---|---|---|---|---|
-| Olivier Dedek | 45 | 26 | 54 | **32 %** |
+| Olivier Dedek | 45 | 26 | 54 | 32 % |
 | Mark Franks *(left)* | 0 | 6 | 18 | 25 % |
-| Neil Davidson | 2 | 2 | 2 | *50 %, n=4* |
+| Neil Davidson | 2 | 2 | 2 | 50 %, n=4 |
 
 **About a third of qualified deals close.** Read it as a base rate to plan against rather than a judgement on anyone
 — and note that **Mark Franks holds no active deals, consistent with having left**, so 24 of his closed deals are in
@@ -1152,7 +1152,7 @@ markedly more cross-brand than the historic base.** Whole-room selling is happen
 | Video | 14 | | Screen Wall | 5 |
 | Acoustic treatment | 9 | | C-ATS | 4 |
 | Screen | 9 | | Video processor | 2 |
-| **Audio** | **8** | | Projector | 2 |
+| Audio | 8 | | Projector | 2 |
 | Room fit-out | 6 | | Gold install | 2 |
 
 > **`Audio` appears in eight live deals and the group has no own speaker line to put in them** (finding 17,
@@ -1165,10 +1165,10 @@ Joining the Accounts board to the fifteen-year transaction record, on the same f
 
 | | Count | Share |
 |---|---|---|
-| **Approved Dealers on the board** | **266** | |
-| Matched to any purchase, ever | **104** | 39 % |
-| **Flagged `Current Customer` on ≥1 brand** | **62** | **23 %** |
-| Never matched to any purchase | **162** | 61 % |
+| Approved Dealers on the board | 266 | |
+| Matched to any purchase, ever | 104 | 39 % |
+| Flagged `Current Customer` on ≥1 brand | 62 | 23 % |
+| Never matched to any purchase | 162 | 61 % |
 
 Those 104 who did trade are worth **£4,583,030** of lifetime spend between them.
 
@@ -1216,11 +1216,11 @@ LED wall window display* (£162,800), *45 Park Lane — The Dorchester* (£50,00
 
 | Deal | Monday | Engine |
 |---|---|---|
-| The Grove Cinema | Active · In Engine | **won** |
-| Ballroom project | Active · In Engine | **won** |
-| Showroom | Active · In Engine | **lost** |
-| Sylvox Cinema Pro 75" *(Tokyo TV)* | Active · In Engine | **lost** |
-| Cinema Pro 75" *(Potters Home Digital)* | Active · In Engine | **lost** |
+| The Grove Cinema | Active · In Engine | won |
+| Ballroom project | Active · In Engine | won |
+| Showroom | Active · In Engine | lost |
+| Sylvox Cinema Pro 75" *(Tokyo TV)* | Active · In Engine | lost |
+| Cinema Pro 75" *(Potters Home Digital)* | Active · In Engine | lost |
 
 **Values disagree too:** The Shard £1,000,000 in Monday against £800,000 in engine; Galileo £187,000 against
 £93,000; Focal demo Joppa £17,380 against £2,500.
@@ -1236,10 +1236,10 @@ LED wall window display* (£162,800), *45 Park Lane — The Dorchester* (£50,00
 | | Count |
 |---|---|
 | Monday accounts, all groups | 1,658 |
-| **Monday `Approved Dealers`** | **266** |
+| Monday `Approved Dealers` | 266 |
 | Engine accounts | 348 |
-| **Engine accounts with status `approved`** | **340** |
-| Monday approved dealers **found in engine** | **225 of 265 — 85 %** |
+| Engine accounts with status `approved` | 340 |
+| Monday approved dealers **found in engine** | 225 of 265 — 85 % |
 | Monday approved dealers **absent from engine** | 40 |
 | Engine accounts **absent from Monday entirely** | 80 |
 
@@ -1269,7 +1269,7 @@ right move is to report the whole ladder rather than pick a number:
 
 | Milestone | Count | What it means |
 |---|---|---|
-| **Has an account** | **348** *(engine)* | **Signed T&Cs; can see pricing.** The unambiguous gate |
+| Has an account | **348** *(engine)* | **Signed T&Cs; can see pricing.** The unambiguous gate |
 | Curated as an approved dealer | 266 *(Monday)* | A judgement laid over the gate |
 | Has ever purchased | 104 | Converted at least once |
 | Currently purchasing | 62 | Live trading relationship |
@@ -1314,9 +1314,9 @@ audience we have." This is that, costed.*
 
 | | Accounts |
 |---|---|
-| **Hold an engine account** — signed T&Cs, can see pricing | **348** |
+| **Hold an engine account** — signed T&Cs, can see pricing | 348 |
 | Matched to any purchase across fifteen years | 159 |
-| **Signed, able to buy, and never bought** | **189** |
+| Signed, able to buy, and never bought | 189 |
 
 **189 partners have completed the hardest step in the whole funnel — agreeing terms — and then bought nothing.**
 They are not prospects. They are not cold. They have signed.
@@ -1327,7 +1327,7 @@ From the fifteen-year record, 518 dealers with positive net:
 
 | | Median | Mean | Upper quartile |
 |---|---|---|---|
-| **First twelve months** | **£4,470** | **£14,559** | — |
+| First twelve months | £4,470 | £14,559 | — |
 | Lifetime | £6,652 | £37,537 | £27,696 |
 
 *The mean is pulled by the large accounts and the median by the long tail of one-order dealers; the truth for any
@@ -1339,7 +1339,7 @@ particular conversion sits between them, which is why both are carried below.*
 
 | Assumption | Conversions needed | As a share of the 189 |
 |---|---|---|
-| Each converts at the **mean** first year (£14,559) | **10 – 20** | **5 – 11 %** |
+| Each converts at the **mean** first year (£14,559) | 10 – 20 | 5 – 11 % |
 | Each converts at the **median** first year (£4,470) | 32 – 64 | 17 – 34 % |
 
 > **So the whole growth target is between ten and sixty-four first orders, from a pool of 189 who have already
@@ -1352,10 +1352,10 @@ Three other audiences the archive has already named, none of them cold:
 
 | Pool | Size | Evidence |
 |---|---|---|
-| Signed accounts that never bought | **189** | this finding |
+| Signed accounts that never bought | 189 | this finding |
 | Lapsed dealers still trading in 2021–23, no engine account | **50**, £2.33m historic net | finding 7 |
 | Monday approved dealers never matched to a purchase | 162 *(overlaps the 189)* | finding 25 |
-| **Approved dealers with signed terms and no engine account** | **40** | finding 26 |
+| Approved dealers with signed terms and no engine account | 40 | finding 26 |
 
 **Set against finding 20 — only 24 to 73 accounts have ever been *presented* any given brand — these pools are not
 a mystery.** The reason 189 signed partners have not bought is visible in the same CRM: **most of them were never
@@ -1401,8 +1401,8 @@ unsubscribed: **2,844 records.** Opt-in dates are **2025 (2,513) and 2026 (323) 
 
 | | Mean | Median |
 |---|---|---|
-| Open rate | **56.4 %** | 54.1 % |
-| Click rate | **3.1 %** | 2.9 % |
+| Open rate | 56.4 % | 54.1 % |
+| Click rate | 3.1 % | 2.9 % |
 
 **Read the click rate, not the open rate.** A consistent 50–55 % open across every single campaign is the signature of
 **Apple Mail Privacy Protection auto-opening messages**, which has inflated open rates industry-wide since 2021. The
@@ -1417,7 +1417,7 @@ free-mail domains excluded):
 
 | Engine accounts | On the mailing list |
 |---|---|
-| **No order in engine** — 301 | **295 — 98 %** |
+| **No order in engine** — 301 | 295 — 98 % |
 | Ordered in engine — 37 | 33 — 89 % |
 
 **Only six accounts are absent from the list entirely** (Adeo Group, Consult Acustic, Delta Pelio, IAC Acoustic, LCG
@@ -1441,7 +1441,7 @@ Intégration, Zene Private Theaters).
 | Login with Shop / Shop | 164 |
 | ISE2026 | 156 |
 | No Barco | 117 |
-| **CATS · DT · FWALLS · LWALLS · SRND** | **1 each** |
+| CATS · DT · FWALLS · LWALLS · SRND | 1 each |
 
 **So Monday's per-brand subscribe flags — DT 926, C-ATS 191, Fabric Walls 193, Light Walls 195, Pro-Fi 193
 (finding 21) — have no counterpart in the system that actually sends the mail.** Everyone gets the group newsletter;
@@ -1479,27 +1479,27 @@ question `motion/content.md` and lane 6 have never had an answer to.*
 
 | Destination | Unique clicks |
 |---|---|
-| **srnd.store** | **946** |
-| **tidycal.com** — booking a call or a factory visit | **226** |
+| srnd.store | 946 |
+| **tidycal.com** — booking a call or a factory visit | 226 |
 | fabricwalls.uk | 195 |
-| **YouTube** (`youtu.be` + `youtube.com`) | **231** |
+| **YouTube** (`youtu.be` + `youtube.com`) | 231 |
 | displaytechnologies.co.uk | 191 |
 | srnd.group | 170 |
 | pro-fi.uk | 86 |
 | facebook.com · linkedin.com | 88 · 54 |
-| **c-ats.co.uk** | **6** |
+| c-ats.co.uk | 6 |
 
 ### The most-clicked individual links
 
 | Unique | Total | Link |
 |---|---|---|
-| **219** | 258 | `srnd.store/collections/barco-heimdall` |
-| **179** | **652** | `fabricwalls.uk` — the new-site announcement |
-| **82** | 345 | **`tidycal.com/srnd-neil/srnd-group-factory-visit`** |
+| 219 | 258 | `srnd.store/collections/barco-heimdall` |
+| 179 | 652 | `fabricwalls.uk` — the new-site announcement |
+| 82 | 345 | `tidycal.com/srnd-neil/srnd-group-factory-visit` |
 | 71 + 60 | 163 | ISE 2026 booking calendars |
 | 65 | 70 | `pro-fi.uk` |
 | 57 · 34 · 33 | | three YouTube videos |
-| **53** | 55 | **`srnd.store/pages/trade-account-partner-application`** |
+| 53 | 55 | `srnd.store/pages/trade-account-partner-application` |
 | 43 | 115 | `srnd.store/pages/immersive-environments` |
 | 40 | 42 | `srnd.store/products/dynamic-2s-side-masking-projection-screen` |
 
@@ -1558,13 +1558,13 @@ being genuinely easier to buy.
 |---|---|---|
 | C-ATS record filled, copy written, **BSRIA report published** | **6 clicks in 29 campaigns**; 49 accounts ever presented it; brand tag on one member | findings 20, 28, 29 |
 | A mailing list of 2,027 at a 54 % open rate | **Best campaign ever sent was the last one sent** — four months of silence | findings 28, 29 |
-| **348 partners with signed T&Cs and pricing access** | **189 never sold anything**; 24–73 accounts ever presented any brand | findings 20, 27 |
+| 348 partners with signed T&Cs and pricing access | **189 never sold anything**; 24–73 accounts ever presented any brand | findings 20, 27 |
 | 266 approved dealers, 262 with signed agreements | **62 currently trading**; 162 never bought | findings 25, 26 |
 | Engine's document-generation layer, staleness flags, coverage rules | **Not mentioned anywhere in the plan** until it was audited | `evidence/engine-audit.md` |
 | Engine's question → answer → gap mechanism, 257 topics | Pointed at engine's own UI, never at products | `evidence/engine-audit.md` §2 |
 | A new Fabric Walls website | Announced once, brilliantly, then nothing | finding 29 |
-| **40 approved dealers** | **Cannot see a price at all** | finding 26 |
-| Monday's per-brand subscribe flags — DT 926, C-ATS 191 | **Never reached the system that sends the mail** | finding 28 |
+| 40 approved dealers | Cannot see a price at all | finding 26 |
+| Monday's per-brand subscribe flags — DT 926, C-ATS 191 | Never reached the system that sends the mail | finding 28 |
 
 **So the failure mode is not over-claiming. It is under-telling** — and the two are opposites with the same root: a
 gap between what is true and what has been said. **`CLAUDE.md`'s rule guards one direction and the measured evidence
@@ -1601,13 +1601,13 @@ total was never stated, and the bucket was never broken down.**
 
 | Kind | GTUK | SRND Group | C-ATS | Total |
 |---|---:|---:|---:|---:|
-| **Unlabelled** — nominal says only *"Services"* | £376,977 | £45,000 | — | **£421,977** |
-| **Design** | — | £96,076 | £49,662 | **£145,738** |
-| **Fit-out** | — | £62,495 | — | £62,495 |
-| **Install / commissioning** | — | £39,005 | — | £39,005 |
-| **Project management** | — | £8,750 | — | £8,750 |
+| **Unlabelled** — nominal says only *"Services"* | £376,977 | £45,000 | — | £421,977 |
+| Design | — | £96,076 | £49,662 | £145,738 |
+| Fit-out | — | £62,495 | — | £62,495 |
+| Install / commissioning | — | £39,005 | — | £39,005 |
+| Project management | — | £8,750 | — | £8,750 |
 | Payment mechanics (advances, reversals) | — | −£5,050 | — | −£5,050 |
-| **Total** | **£376,977** | **£246,276** | **£49,662** | **£672,915** |
+| Total | £376,977 | £246,276 | £49,662 | £672,915 |
 
 **DT and Light Walls carry no service lines at all**, so services are a GTUK, SRND and C-ATS phenomenon.
 
@@ -1623,8 +1623,8 @@ account.** *(C-ATS's lines carry no description either, but its nominal is speci
 
 | Service | Invoiced | Year |
 |---|---|---|
-| **Acoustic Treatment Design Service — Basic** | **£3,000** | 2026 |
-| **Sound Isolation Design Project** | **£7,500** | 2025 |
+| Acoustic Treatment Design Service — Basic | £3,000 | 2026 |
+| Sound Isolation Design Project | £7,500 | 2025 |
 | Fabric Walls room design — Seattle | £13,068 | 2025 |
 | Fabric Walls room design — Madrid | £6,480 | 2026 |
 | Light Walls pixel layout, one rectangular room | £750 · £505 | 2025 |
@@ -1641,30 +1641,29 @@ at a **median of £1,560**, almost all to Apex-Tech.
 
 ### Three consequences, all landing on items open right now
 
-1. ~~**`XS-5` — pricing the four "unpriced" services — is a derivation, not a decision.** Read the history and
-   ratify it.~~ **Over-claimed, and corrected by Neil, 2026-08-16:** ***"Other than C-ATS the service was all
-   ad hoc. We have a pretty good idea what a service offer should be overall, but documenting it and pricing it
-   is a dedicated session."***
-   **So the accounts are precedent, not a price list.** The C-ATS exception is visible in the data and is the
-   one that proves the rule — a dedicated `Sales - Design Services` nominal running from 2019, **22 engagements
-   at a median of £1,560**, which is a repeated service. **Everything else — the Fabric Walls room designs, the
-   fit-out, install support by the day, commissioning, calibration, project management — was priced job by
-   job.** What the history gives the pricing session is **a range and a set of real precedents**; what it
-   cannot give is an offer, because there wasn't one.
-   **This makes the underlying finding stronger, not weaker.** **£672,915 was earned with no service offer,
-   no published price and no promotion** — ad hoc, on demand that arrived anyway. *And it explains
-   `XS-4`'s answer exactly: "terrible at working out what is paid work and what is free" is what necessarily
-   happens when there is a boundary but no offer to apply it to.*
-   **Re-scoped: `XS-5` is a dedicated session, not a small read-and-ratify.**
+1. **Over-claimed, and corrected by Neil, 2026-08-16:*"Other than C-ATS the service was all
+ ad hoc. We have a pretty good idea what a service offer should be overall, but documenting it and pricing it
+ is a dedicated session."***
+ **So the accounts are precedent, not a price list.** The C-ATS exception is visible in the data and is the
+ one that proves the rule — a dedicated `Sales - Design Services` nominal running from 2019, **22 engagements
+ at a median of £1,560**, which is a repeated service. **Everything else — the Fabric Walls room designs, the
+ fit-out, install support by the day, commissioning, calibration, project management — was priced job by
+ job.** What the history gives the pricing session is **a range and a set of real precedents**; what it
+ cannot give is an offer, because there wasn't one.
+ **This makes the underlying finding stronger, not weaker.** **£672,915 was earned with no service offer,
+ no published price and no promotion** — ad hoc, on demand that arrived anyway. *And it explains
+ `XS-4`'s answer exactly: "terrible at working out what is paid work and what is free" is what necessarily
+ happens when there is a boundary but no offer to apply it to.*
+ **Re-scoped: `XS-5` is a dedicated session, not a small read-and-ratify.**
 2. **The group sells more services than the strategy describes.** Fit-out, installation support by the day,
-   commissioning, calibration and project management are all real invoiced revenue and **none appears in the
-   paid-services list** — because that list was assembled from strategy documents and this is the accounts.
-   **Fit-out is the striking one: £62,495 of it, and the repo does not describe the group as doing fit-out at
-   all.**
+ commissioning, calibration and project management are all real invoiced revenue and **none appears in the
+ paid-services list** — because that list was assembled from strategy documents and this is the accounts.
+ **Fit-out is the striking one: £62,495 of it, and the repo does not describe the group as doing fit-out at
+ all.**
 3. **Services are not marginal, and 2025 was the biggest year on record.** £149,284 (2022) · £74,774 (2023) ·
-   £34,925 (2024) · **£178,472 (2025)** · £37,876 (2026 part-year). **In the current entity services are the
-   third-largest revenue class after carried and own-made** — which puts a number behind `current-state.md`'s
-   *"design work is real revenue and expected to grow with verification attached."*
+ £34,925 (2024) · **£178,472 (2025)** · £37,876 (2026 part-year). **In the current entity services are the
+ third-largest revenue class after carried and own-made** — which puts a number behind `current-state.md`'s
+ *"design work is real revenue and expected to grow with verification attached."*
 
 **Two caveats on the totals.** The bucket has noise — **at least one product sits in it** (a £6,646 video
 processor, inside SRND's unlabelled £45,000) — and the kind-splitting above is keyword classification of
@@ -1686,50 +1685,50 @@ it is missing is the highest one:
 | Own-made through a distributor | manufacture | 37.5 % |
 | Own-made direct to a dealer | manufacture + distribution | 52.4 % |
 | Own-made direct to a consumer | all three | 66.7 % |
-| **Services** | **no goods to make, buy, hold or ship** | **≈ 100 %** |
+| Services | no goods to make, buy, hold or ship | ≈ 100 % |
 
 **The equivalences are the part worth sitting with:**
 
 - **£672,915 of services is the margin of £3.36m of carried revenue**, or £1.28m of own-made sold direct.
 - **One median design engagement — £2,400 — earns what a £12,000 Leyard order earns.**
 - And in the current entity, **2025**: services **£178,472** against carried **£385,652** and own-made
-  **£485,754**. At the ladder's rates that is **£178,472 of margin from services, £77,130 from carried,
-  £254,535 from own-made** — so **services were 35 % of the group's gross margin on 17 % of its revenue, and
-  earned more than twice what the entire carried book earned.**
+ **£485,754**. At the ladder's rates that is **£178,472 of margin from services, £77,130 from carried,
+ £254,535 from own-made** — so **services were 35 % of the group's gross margin on 17 % of its revenue, and
+ earned more than twice what the entire carried book earned.**
 
 **Which reframes several things that were argued on other grounds:**
 
 1. **The free/paid boundary is now the most expensive open item in this repo.** Free pre-sales is not
-   generosity — **it is the group's highest-margin product, given away.** Every median engagement done free
-   forgoes the margin of a £12,000 order. *How many happen is unknown* (`current-state.md` **[?]**), and it has
-   just become the most valuable unknown on that page.
+ generosity — **it is the group's highest-margin product, given away.** Every median engagement done free
+ forgoes the margin of a £12,000 order. *How many happen is unknown* (`current-state.md` **[?]**), and it has
+ just become the most valuable unknown on that page.
 2. **It vindicates the no-credit-against-the-order call** (2026-08-15) **with arithmetic the session did not
-   have.** Crediting a £3,000 fee converts 100 %-margin revenue into revenue at 52.4 %, so the credit must win
-   roughly **£5,700 of incremental own-made order just to break even.** *The recommendation to credit it was
-   wrong, and the instinct that overruled it was right.*
+ have.** Crediting a £3,000 fee converts 100 %-margin revenue into revenue at 52.4 %, so the credit must win
+ roughly **£5,700 of incremental own-made order just to break even.** *The recommendation to credit it was
+ wrong, and the instinct that overruled it was right.*
 3. **The attach metric is aimed one rung too low.** Q5 measures own-made attach on carried sales — but
-   **service attach earns about twice as much per pound and needs no product to exist**, and it already
-   happens: Leyard Gold-tier commissioning at **£5,040–£6,000** against Komodo orders. On a £472,320 Komodo
-   year, **the best attach is not a Screen Wall; it is commissioning and calibration on every one.**
+ **service attach earns about twice as much per pound and needs no product to exist**, and it already
+ happens: Leyard Gold-tier commissioning at **£5,040–£6,000** against Komodo orders. On a £472,320 Komodo
+ year, **the best attach is not a Screen Wall; it is commissioning and calibration on every one.**
 4. **It is the strongest business case yet for filling the record.** The record turns a repeated answer into a
-   published one — **which converts hours from unpaid answering into paid design.** Not "fewer support calls":
-   *the highest-margin capacity in the business, freed.*
+ published one — **which converts hours from unpaid answering into paid design.** Not "fewer support calls":
+ *the highest-margin capacity in the business, freed.*
 5. **Acoustic verification is the un-sold service with the best economics.** It is the only one of the four
-   never invoiced, and it attaches to every design, is measurement-based (so repeatable and tool-supported),
-   carries no goods, and is the thing that proves the product worked.
+ never invoiced, and it attaches to every design, is measurement-based (so repeatable and tool-supported),
+ carries no goods, and is the thing that proves the product worked.
 
 **Three honest qualifications, because the number invites over-reading:**
 
 - **100 % is gross, and the input is the binding constraint.** Services consume owner and engineer hours — the
-  exact resource the whole strategy is short of. **So services are simultaneously the highest-margin and the
-  least scalable revenue**, and the useful conclusion is not *sell more services* but **an hour of design is the
-  most valuable hour in the business, so anything else competing for it must clear that bar.** That is an
-  argument for the record and the tooling, which are what make an hour of design produce more design.
+ exact resource the whole strategy is short of. **So services are simultaneously the highest-margin and the
+ least scalable revenue**, and the useful conclusion is not *sell more services* but **an hour of design is the
+ most valuable hour in the business, so anything else competing for it must clear that bar.** That is an
+ argument for the record and the tooling, which are what make an hour of design produce more design.
 - **Split the rung: desk services are near-100 %, on-site services are not.** £4,800-a-day installation support
-  carries a person and their travel; a design produced against a tooled engine carries almost nothing.
+ carries a person and their travel; a design produced against a tooled engine carries almost nothing.
 - **The n is small and the years are lumpy.** Forty-one design engagements across fifteen years is about three
-  a year, and **2025's £178,472 is substantially one job** — Kildrummy at £57,950 including the interim. Read
-  it as *what a service pound is worth*, not as a trend.
+ a year, and **2025's £178,472 is substantially one job** — Kildrummy at £57,950 including the interim. Read
+ it as *what a service pound is worth*, not as a trend.
 
 ### Checked against the live site — `cinema-tools.com`, 2026-08-15
 
@@ -1746,12 +1745,12 @@ strategy.*
 > **Two things follow, and they pull opposite ways.**
 >
 > - **The service architecture is now more impressive, not less.** Four coherent tiers were articulated under
->   emergency conditions in two days, and they are **better than the version this repo derived deliberately
->   over weeks.** Where the strategy documents produced a C-ATS-shaped list, the forced rebuild produced the
->   right group-level one. **That is worth noticing about where the truth actually lives.**
+> emergency conditions in two days, and they are **better than the version this repo derived deliberately
+> over weeks.** Where the strategy documents produced a C-ATS-shaped list, the forced rebuild produced the
+> right group-level one. **That is worth noticing about where the truth actually lives.**
 > - **But it is live now, so the capture gap is costing from today.** Every day the seven PDFs download without
->   an email and both forms post to a mailbox, leads for the group's **highest-margin product** arrive
->   uncounted. **Not a criticism of the launch — a reason the punch-list is urgent rather than tidy.**
+> an email and both forms post to a mailbox, leads for the group's **highest-margin product** arrive
+> uncounted. **Not a criticism of the launch — a reason the punch-list is urgent rather than tidy.**
 >
 > **And one question the hack raises that is not in the list below: what happened to the discoverability?**
 > `NEXT.md` lane 8's firm rule is *restart the presentation, never discard the discoverability* — URLs, indexed
@@ -1764,35 +1763,35 @@ strategy.*
 
 | Tier | What the site says it is |
 |---|---|
-| **Design review** | A remote review of a room, drawings, or a space the client is considering — what the room needs to meet, where it stands, what it would take |
-| **Performance design** | A full specification: audio, video, acoustic treatment, finishes, lighting, seating and services |
-| **Calibration** | Levels, delays, EQ and bass management; brightness, colour and gamma |
-| **Verification** | Measuring the finished room against the targets it was designed to, and documenting the result |
+| Design review | A remote review of a room, drawings, or a space the client is considering — what the room needs to meet, where it stands, what it would take |
+| Performance design | A full specification: audio, video, acoustic treatment, finishes, lighting, seating and services |
+| Calibration | Levels, delays, EQ and bass management; brightness, colour and gamma |
+| Verification | Measuring the finished room against the targets it was designed to, and documenting the result |
 
 **Three corrections to what is written above and in `group/13-standards-decision-sheet.md` session 2:**
 
 1. **The service architecture is whole-room and group-level, not C-ATS-shaped.** The paid-services list was
-   assembled from strategy documents and came out as acoustic design / acoustic verification / isolation
-   design / isolation verification. **The live one is the better model** and the strategy should adopt it.
+ assembled from strategy documents and came out as acoustic design / acoustic verification / isolation
+ design / isolation verification. **The live one is the better model** and the strategy should adopt it.
 2. **Verification is offered, and has still never been invoiced.** *"The un-sold service with the best
-   economics"* is right and the sharper form is: **it is on sale, publicly, and has never sold once.**
+ economics"* is right and the sharper form is: **it is on sale, publicly, and has never sold once.**
 3. **"Design review" is the missing first rung** — a low-commitment paid entry that is the direct paid
-   equivalent of the free spec help the boundary decision is about. **It already exists; nobody knew.**
+ equivalent of the free spec help the boundary decision is about. **It already exists; nobody knew.**
 
 **And three gaps at the same joint — a launch punch-list, not a set of decisions** (see the context note
 above; the site is two days old and was forced by a hack).
 
 - **The free calculators capture nothing.** Seven tools, each producing an A4 PDF, and **no form and no email
-  field anywhere on the page** — the PDF downloads unconditionally. **ADR 020 specifies lead capture on PDF
-  download landing in engine's `leads` table, and `07-tools.md` calls that trade "the on-ramp hinge in product
-  form." It is not happening.**
+ field anywhere on the page** — the PDF downloads unconditionally. **ADR 020 specifies lead capture on PDF
+ download landing in engine's `leads` table, and `07-tools.md` calls that trade "the on-ramp hinge in product
+ form." It is not happening.**
 - **Both enquiry forms are `mailto:`** — *"This opens a completed email in your own mail client."* So the
-  group's own lead-magnet front door delivers its best-qualified leads **into a mailbox, not into engine.**
-  That is `14-engine-as-hub.md` §1's *"inbound is currently uncountable"* made concrete on the one page
-  designed to generate it.
+ group's own lead-magnet front door delivers its best-qualified leads **into a mailbox, not into engine.**
+ That is `14-engine-as-hub.md` §1's *"inbound is currently uncountable"* made concrete on the one page
+ designed to generate it.
 - **No prices, on any tier.** Consistent with the gated-pricing rule for products — but the boundary decision
-  of 2026-08-15 was **published**, and a dealer currently cannot tell what a design review costs. **The service
-  invoice history is the answer** (`XS-5`).
+ of 2026-08-15 was **published**, and a dealer currently cannot tell what a design review costs. **The service
+ invoice history is the answer** (`XS-5`).
 
 **The site itself is good, and the bounded-tool discipline is being kept.** The Room Resonances calculator
 states its own limits plainly — *"assumes a rigid rectangular room… surface treatments, damping and RT60 need
@@ -1821,31 +1820,31 @@ happened again**, which suggests the citation should be to 017 alone and re-read
 
 | ADR 017 v2 | What it says | What this repo says |
 |---|---|---|
-| **Decision 4** | **Cinema Tools Pro is internal tooling.** No external user logs into it; **its purpose is "to make the method reproducible by fewer people in less time."** | Nothing. Pro appears nowhere in the group strategy |
-| **Decision 10** | **"Four revenue lines carry the business — training, design services, the partner channel, product."** | Product is the business; services are a `[?]` in `current-state.md` |
-| **Decision 9** | The free calculators exist to put qualified people in the funnel, **"which makes lead capture launch-blocking"** (mechanism: ADR 011) | `07-tools.md` calls capture the on-ramp hinge, but not a launch gate |
-| **Decision 3** | *"Commercial cinema is the **lead market**"* — **the ranking is rejected, not the market** (Neil, 2026-08-15). See the note below | High-end **residential** cinema is the heartland and day 1; commercial cinema is real upside, later |
-| **Decision 12** | **Demand is measured before the curriculum or the partner programme is built** — calculator traffic first, then one module published to see who buys | The partner programme is designed and awaiting build; no measure-first gate |
+| Decision 4 | **Cinema Tools Pro is internal tooling.** No external user logs into it; **its purpose is "to make the method reproducible by fewer people in less time."** | Nothing. Pro appears nowhere in the group strategy |
+| Decision 10 | "Four revenue lines carry the business — training, design services, the partner channel, product." | Product is the business; services are a `[?]` in `current-state.md` |
+| Decision 9 | The free calculators exist to put qualified people in the funnel, **"which makes lead capture launch-blocking"** (mechanism: ADR 011) | `07-tools.md` calls capture the on-ramp hinge, but not a launch gate |
+| Decision 3 | *"Commercial cinema is the **lead market**"* — **the ranking is rejected, not the market** (Neil, 2026-08-15). See the note below | High-end **residential** cinema is the heartland and day 1; commercial cinema is real upside, later |
+| Decision 12 | **Demand is measured before the curriculum or the partner programme is built** — calculator traffic first, then one module published to see who buys | The partner programme is designed and awaiting build; no measure-first gate |
 
 **On decision 3 — it is the ranking that is wrong, not the market.** Neil, 2026-08-15: *"There is a lot of
 business opportunity in commercial cinema. It's just not the day 1 target above all other things."* **So this
 is a sequencing correction, and it should not be recorded as a scope one.**
 
 - **The archive cannot speak to opportunity, only to history.** It carries no market-type field and shows no
-  commercial cinema revenue in fifteen years — **but absence of past revenue is not absence of a market**, and
-  reading it that way would be precisely the inference error `06-competitors.md` opens by warning about.
+ commercial cinema revenue in fifteen years — **but absence of past revenue is not absence of a market**, and
+ reading it that way would be precisely the inference error `06-competitors.md` opens by warning about.
 - **What the archive does settle is where day 1 is, and it is not a market at all.** **348 partners hold signed
-  T&Cs and pricing access; 189 have never bought** (finding 27), and the 10–20 % growth target is 10 to 64
-  first orders from inside that base. **Day 1 is the base already signed** — which beats any new market on
-  cost, certainty and speed, commercial cinema included.
+ T&Cs and pricing access; 189 have never bought** (finding 27), and the 10–20 % growth target is 10 to 64
+ first orders from inside that base. **Day 1 is the base already signed** — which beats any new market on
+ cost, certainty and speed, commercial cinema included.
 - **And the group's existing position already has a slot for it.** `NEXT.md` is explicit that the group will
-  not remain a cinema-only trade supplier, that the adjacent markets are larger, and — lane 1 — that
-  **commercial and hospitality clients often want the publicity**, so a first commercial room *"may be worth
-  more as a showable reference than as revenue."* **In a market where the best residential work is unshowable,
-  that is not a small thing.** Commercial cinema belongs in that upside, not in the day-1 slot.
+ not remain a cinema-only trade supplier, that the adjacent markets are larger, and — lane 1 — that
+ **commercial and hospitality clients often want the publicity**, so a first commercial room *"may be worth
+ more as a showable reference than as revenue."* **In a market where the best residential work is unshowable,
+ that is not a small thing.** Commercial cinema belongs in that upside, not in the day-1 slot.
 - **The capability is already being built toward it**, and correctly: commercial-Atmos reach, the cabinet
-  catalogue, the CLA layouts, the full RP22 scorecard. **Building the engine ahead of the market is fine.
-  Sequencing the go-to-market ahead of the signed base is not.**
+ catalogue, the CLA layouts, the full RP22 scorecard. **Building the engine ahead of the market is fine.
+ Sequencing the go-to-market ahead of the signed base is not.**
 
 *So a reissued ADR 017 does not need to lose the commercial ambition — it needs to demote "lead market" to a
 named future market, which also leaves ADR 021's engine work standing on its own competitive argument.*
@@ -1924,12 +1923,12 @@ with a whole dynamic-content workstream (`F1`–`F4`, `G1`) merged after the REA
 whole thing:
 
 - **Per-pixel demotes from headline to feature.** *"~98 % of the professional lighting market is non-pixel and
-  mostly white."* **Calibrated white is the volume P&L; pixel — Light Walls — is the halo that proves the
-  colour science.**
+ mostly white."* **Calibrated white is the volume P&L; pixel — Light Walls — is the halo that proves the
+ colour science.**
 - **The unit of product is the driver plus its measured profile, not the fixture.** Own light demotes to a
-  reference engine.
+ reference engine.
 - **LWCP is a lighting control system**, competing with **Lutron, Rako, Crestron, Control4** — not with tape
-  vendors.
+ vendors.
 
 **So "Light Walls" is now one tier of a platform, not a brand being restarted.** Tier 1 retrofit/event · Tier 2
 DT8 architectural luminaire · **Tier 3 full system, which is where the Light Walls name lives.** Same hardware
@@ -1970,7 +1969,7 @@ gap simultaneously.** *Nothing else in the group does that.*
 
 - **DT** — the Commander control platform, *"the un-copyable half"*, mechanisms plus control.
 - **Cinema Tools** — engine depth as the IP; Pro is **internal tooling** whose purpose is to make the method
-  reproducible by fewer people (ADR 017 §4).
+ reproducible by fewer people (ADR 017 §4).
 - **LWCP** — *"every driver measures the light it powers and holds it calibrated for life."*
 
 **Three brands, three measurement-and-control platforms, each behind a thin brand front.** The group's stated
@@ -1985,7 +1984,7 @@ engineering is, and the strategy layer is downstream of it.*
 rediscover:
 
 1. **No optical sensing element** — no photodetector, no LED-as-sensor, no optical feedback at runtime. This is
-   what clears the **Ketra/Lutron** portfolio, including a patent **in force to 2034**.
+ what clears the **Ketra/Lutron** portfolio, including a patent **in force to 2034**.
 2. **Single RGB triangle plus free W** — never tessellate the gamut into three-coordinate mixing zones.
 
 **Colour correction runs open-loop from a stored measured profile.** *These belong in Light Walls' `G2`
@@ -1996,12 +1995,12 @@ three narrow items and is named as gating the premium-driver certification spend
 ### 6. Two staleness notes inside LWCP itself, flagged not fixed
 
 - **The README's status line is two weeks behind its own repository** — *"work parked ~1 week"* dated
-  2026-07-20, with substantial work merged on 2026-08-02.
+ 2026-07-20, with substantial work merged on 2026-08-02.
 - **`docs/STRATEGY.md` contradicts itself.** Its posture box says ADR 0039 supersedes ADR 0005 so that **DALI
-  and Matter coexist by tier**; its "What LWCP is not" section still says *"not running DT8 and Matter on the
-  same coordinator: each coordinator is one or the other per ADR 0005."* **Same file, superseded rule.** *The
-  same class of error as `07-tools.md` citing ADR 019 — a superseded citation left standing inside a document
-  that elsewhere knows better.*
+ and Matter coexist by tier**; its "What LWCP is not" section still says *"not running DT8 and Matter on the
+ same coordinator: each coordinator is one or the other per ADR 0005."* **Same file, superseded rule.** *The
+ same class of error as `07-tools.md` citing ADR 019 — a superseded citation left standing inside a document
+ that elsewhere knows better.*
 
 ### 7. LWCP's spatial sensing — missed on the first pass, and it corrects a guardrail
 
@@ -2040,18 +2039,18 @@ single instruction.*
 **What the LWCP work supplies that supports a market rather than a feature:**
 
 - **A category claim, and it is the kind this group is good at.** *"Nobody has made position computational;
-  sensors report **what**, never **where**."* **That is a named absence with a ladder over it** — L0 positioned
-  telemetry through L3 — structurally the same move as C-ATS's 3 Rs or measured colour. **The group's best
-  positions have all been of this form.**
+ sensors report **what**, never **where**."* **That is a named absence with a ladder over it** — L0 positioned
+ telemetry through L3 — structurally the same move as C-ATS's 3 Rs or measured colour. **The group's best
+ positions have all been of this form.**
 - **Camera-free by ratified posture.** In residential, hospitality and workplace, *knowing where people are
-  without watching them* is a saleable position on its own, and it is a choice competitors using vision cannot
-  reverse cheaply.
+ without watching them* is a saleable position on its own, and it is a choice competitors using vision cannot
+ reverse cheaply.
 - **The architecture is already allocated.** The coordinator is the spatial computer; the device never learns
-  its position (ADR 0015 Principle 2). **That is a platform shape, not a product feature** — the same shape as
-  DT's Commander and Cinema Tools' engines (§4).
+ its position (ADR 0015 Principle 2). **That is a platform shape, not a product feature** — the same shape as
+ DT's Commander and Cinema Tools' engines (§4).
 - **And it is the least cinema-shaped thing the group has.** Presence and position in a modelled room serve
-  **commercial fit-out, hospitality and workplace** — the markets `NEXT.md` says the group wants and cannot yet
-  prove. **LWCP at least carries a lighting heritage; sensing carries none, which is an advantage here.**
+ **commercial fit-out, hospitality and workplace** — the markets `NEXT.md` says the group wants and cannot yet
+ prove. **LWCP at least carries a lighting heritage; sensing carries none, which is an advantage here.**
 
 **What is not known, and must not be filled in:** the size of the market **[?]**, who buys **[?]**, through
 which channel **[?]**, against whom **[?]**, at what price **[?]**, and on what timing **[?]**. **None of that
@@ -2060,14 +2059,14 @@ is in any repo**, and a plausible answer would be worse than the gap.
 **Three decisions this creates, none of them takeable here** — recorded in `open-items.md`:
 
 1. **Is sensing a line of its own, or a layer of LWCP?** The engineering is currently inside LWCP; the market
-   claim is not lighting-shaped. *These can both be true and the answer is a commercial choice, not an
-   architectural one.*
+ claim is not lighting-shaped. *These can both be true and the answer is a commercial choice, not an
+ architectural one.*
 2. **How does it relate to `SRND Solutions`** — the own-made *"sensors and interfaces"* line
-   `group/01-commercial-model.md` already names as in development and `open-items.md` still records as an
-   unanswered go-to-market question? **Same thing, adjacent things, or one inside the other is undetermined**,
-   and the repo currently describes SRND Solutions in words that could equally describe this.
+ `group/01-commercial-model.md` already names as in development and `open-items.md` still records as an
+ unanswered go-to-market question? **Same thing, adjacent things, or one inside the other is undetermined**,
+ and the repo currently describes SRND Solutions in words that could equally describe this.
 3. **Does it get a brand, and whose?** The six-brand roster has no slot for it, and the group model makes
-   brands the marketing surface.
+ brands the marketing surface.
 
 > **What this finding is for.** The archive answered *what has been sold*. This answers *what could be sold
 > next*, and it turns up **two** forward positions rather than one: **LWCP, filed under "Hold" for a 2023 stop

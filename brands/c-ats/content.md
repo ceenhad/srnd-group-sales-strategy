@@ -22,7 +22,8 @@ Where there's least room to caveat, these bind hardest:
 - no supplier names;
 - no NDA install details;
 - don't tease the commercial range;
-- don't hard-code the "Complete" name expansion.
+**Dropped — `Q26`, 2026-08-16: the expansion is fine**
+  (`DOC-27`, struck here 2026-08-19).
 
 ## Creative approach — text-forward, not room-forward
 

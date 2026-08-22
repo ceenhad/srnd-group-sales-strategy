@@ -23,8 +23,14 @@ restated here.
 - `content.md` — the 3 Rs content, guardrails, creative approach, the layered build.
 - `product-pricing.md` — the range and the (gated) tier work.
 - `registers/open-items.md` — C-ATS-specific decisions and sequencing.
+- `training.md` — Leg 4: training opportunities, each traced to a record field, with what blocks it.
 - `brand-data.md` — the public front (`c-ats.co.uk` holding page) and live-site-vs-brand-truth
   tensions to reconcile.
+- **The brand run (2026-08-18)** — `pathway-reverberation.md`, `pathway-reflection.md`, `pathway-resonance.md`
+  (one per entry door, eight gateway slots each), `hooks.md` (the candidate set with its provenance and its
+  rejections), and `segments.md` (which segment enters the journey where; the measured cut is
+  `../../evidence/2026-08-18-cats-segment-cut.md`). **C-ATS ran first so the shape would be set by a real brand** —
+  what generalises is written up in `../_template/the-brand-run.md`, and every other brand copies that, not this.
 - `measured-acoustics.md` — the engineering differentiator C-ATS *owns*: measured (BSRIA) per-panel
   data + the engineered 3 Rs. (The RT60 design tool lives in the separate cinema-tools project, not
   the C-ATS brand — see the note in that file.)

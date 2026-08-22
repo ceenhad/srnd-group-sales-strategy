@@ -5,8 +5,8 @@ demonstrate that copy falls out of a filled product record (S19, `../../motion/c
 by page, and to remove a live embarrassment on the Shopify site. **The method is what matters; this is one output
 of it.** Do not treat copy production as the workstream.*
 
-**Checked against the brand rules:** no diffusion claim, no superlative without a measurement, "C-ATS" rather than
-the "Complete" expansion, marine absent, no discontinued products, nothing about the commercial range, no figure
+**Checked against the brand rules:** no diffusion claim, no superlative without a measurement, "C-ATS" as the standard form
+(the "Complete" expansion is permitted on first use — `Q26`/`Q65`), marine absent, no discontinued products, nothing about the commercial range, no figure
 that isn't in the record, and nowhere does it say the dealer can't.
 
 ---
@@ -78,7 +78,7 @@ that isn't in the record, and nowhere does it say the dealer can't.
 ### Why integrators use it
 
 > - **Three products, one decision each.** No system to learn.
-> - **Forgiving on site.** Panels can sit up to 300 mm from the designed position without materially changing the
+> - **Forgiving on site — REMOVED 2026-08-21, do not publish.** **STRUCK 2026-08-21 (`Q102`) — do not publish.** *Former bullet: panels can sit up to 300 mm from the designed position without materially changing the
 >   result — a real allowance when a room does not match the drawing.
 > - **Full boxes, whole numbers.** Every box covers 1.44 m². Quantities come out as boxes, not as a cutting list.
 > - **Verifiable.** If the room needs to prove it works, it can be measured.

@@ -140,7 +140,7 @@ not an argument about it.*
 
 - **[?] How many active trading dealers**, and **[?] how many registered but not trading.**
 - **One dealer at roughly £500,000 in a year** — a substantial share of group revenue.
-- ~~**[?] Concentration**~~ — **answered for the GTUK era, 2012–2023** (`evidence/archive-findings.md` tranche 1): top 5
+- — **answered for the GTUK era, 2012–2023** (`evidence/archive-findings.md` tranche 1): top 5
   accounts **22.3 %** of net, top 20 **49.8 %**, top 50 **71 %**, across 354 paying dealers. **Half the revenue in
   twenty accounts, and a long real tail behind it.** Still **[?]** for the current group post-2023.
 - **Territory spread** — 21 international appointments across 20-odd territories (above). **[?]** the direct
@@ -169,8 +169,8 @@ network is almost entirely a DT network.*
 | DT | NAVS | Australia | Reduced portfolio: cinema and Hi-Fi | Low; difficult on exchange rate and shipping |
 | DT | Prime Theaters | Germany + Austria | Strong in cinema, complete portfolio | Good year — 4 masking screens so far; quite high maintenance |
 | DT | Qualtron | Yachting | On-board entertainment | No business so far |
-| DT | Screen Innovations | USA | **White label — they own the relationship, not us** | Not a route to market for DT as a brand |
-| DT | ~~Apex-Tech~~ | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`evidence/archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
+| DT | Screen Innovations | USA | White label — they own the relationship, not us | Not a route to market for DT as a brand |
+| DT | — | USA | Our largest distributor — **£1.33m over seven years, 31.5 % of DT's external revenue ever** (`evidence/archive-findings.md`) | **Resigned from DT; agreement ended 1 July 2026**, 90 days' grace for projects in play. Grace already spent (£356 since). **The US is now open** |
 | DT | SoundClub | Poland | Hi-Fi background | Low, in a low-potential territory |
 | DT | Synergy AV | Pakistan | All-round AV distributor | No business, no contact in months |
 | DT | Tectrade Brun | Switzerland | Strong in cinema, complete portfolio | Starting to grow, high-potential territory |
@@ -267,7 +267,7 @@ while still occupying the territory.
 - **Pro-Fi is not on the store yet** — not ready to sell online.
 - **[?] Revenue split by brand**, and **[?] the trend on DT projection** — named as declining, never sized.
 - **[?] Quote-to-order process**: who quotes, how long it takes, what proportion converts.
-- **~~[?] Design service and verification~~ — answered 2026-08-15, and the answer is the problem.** Neil:
+** — answered 2026-08-15, and the answer is the problem.** Neil:
   *"We have been terrible at working out what is paid work and what is free pre-sales."* **So it is case by
   case and not deliberate.** Policy now set in principle — **charged, fixed fee, not credited against the
   order, and published to dealers** — with the paid-services list assembled in
@@ -389,15 +389,120 @@ read as the same thing. To be filled in.*
 
 | Measure | Target | Basis for the target | Actual |
 |---|---|---|---|
-| Dealers buying more than one brand | **[to come]** | | Not instrumented |
-| Revenue split by brand | **[to come]** | | Attribution tangled |
-| DT projection trend | **[to come]** | | Unit counts available |
-| Share of revenue direct vs distributor | **[to come]** | | Tangled |
-| Registrations per period | **[to come]** | | **[?]** |
+| Dealers buying more than one brand | [to come] | | Not instrumented |
+| Revenue split by brand | [to come] | | Attribution tangled |
+| DT projection trend | [to come] | | Unit counts available |
+| Share of revenue direct vs distributor | [to come] | | Tangled |
+| Registrations per period | [to come] | | [?] |
+| Active C-ATS accounts per year | [to come — `P1`] | The confirmed objective is `../brands/c-ats/claims.md` `C2.15`: "we need to engage with more AV integrators" | **3** (2023) → **15** (2024) → **16** (2025) → **6** (2026 to 9 Jul) |
+| C-ATS product revenue per year | [to come — `P1`] | | **£13,328** (2023) → **£73,092** (2024) → **£67,667** (2025) → **£17,898** (2026 to 9 Jul) |
+
+### The C-ATS baseline, measured 2026-08-19 — and 2026 is down, not flat
+
+*Source: `2026-08-18-cats-segment-cut.md` plus a run over `../data/derived/all-transactions.csv`, current to
+**2026-08-12**. Filter: `category = "Acoustic treatment"`, external product revenue only.*
+
+| | |
+|---|---|
+| **2026 year to date** (to 9 Jul, the last C-ATS invoice) | **£17,898** from **6** accounts |
+| **The same months of 2025** (Jan–Jul) | £39,188 |
+| — | ***Withdrawn as a finding.** Invoices are outstanding for work already sold, so the gap measures **invoicing**, not demand. **Recorded as an incomplete count, not as a decline*** |
+| An account is worth, per year | **£4,229** mean, **£2,358** median *(2025)*; £4,873 / £4,440 *(2024)* |
+| An order is worth | **£3,042** mean, **£2,103** median *(170 invoices, all years)* |
+| Orders per active account per year | **1.81** *(2025)*, 1.40 *(2024)* |
+| Of the 53 accounts that ever bought, bought in more than one year | 17 — a 32 % repeat rate |
+| Concentration | **Top 3 accounts = 37 %** of lifetime revenue |
+| **The cross-sell pool** — never bought C-ATS, active elsewhere 2024–26 | **142 accounts**, **£4,002,157** spent with the group on everything else |
+| **The warm part of that pool** — CRM `CATS Status = Presented` | **49 accounts** *(plus 16 `Approached`)* |
+| The lapsed list — last C-ATS order 2020–23 | **16 accounts**, £140,108 lifetime |
+
+**⚠⚠ READ THIS BEFORE USING ANY NUMBER BELOW — Neil, 2026-08-19.** ***"The point of the whole rep is to help
+identify the methods of generating the interest and tracking it, not taking over history. I kind of regret putting
+those numbers in given how they are being used."*** **The figures below are context, not a verdict, and they are not
+a score for anything anyone is doing now.** *They were turned into a retrospective on revenue performance — a
+*"decline"* — which is the wrong direction of travel for this work. **The measurement that matters is forward: what
+generates interest, and does it convert.** See § The forward instrument. *The history stays recorded because deleting
+evidence is worse, but **it does not set the target and it does not judge the effort.***
+
+**⚠ And the year-on-year comparison was never sound anyway — Neil, 2026-08-19.** *The check flagged here was answered
+immediately, and against the figure: ***"one of the main reasons it's down is that invoices haven't been made for all
+that SRND has sold."*** **So the 2026 figure understates what was sold, by an unknown amount**, and **no target may be
+set against it until the counting rule is defined** — see the next section.
+
+*The check flagged here was answered against the figure: **"one of the main reasons it's down is that invoices
+haven't been made for all that SRND has sold."** So the ledger lags by an unmeasured amount.* **Three further reasons
+an accounts-per-year figure from this ledger cannot be a target — recorded so nobody tries again:**
+
+1. **The revenue is project-driven, not account-driven.** *2025's two largest accounts — **£16,080** and **£14,715**,
+   together **45 %** of the year — simply did not recur in 2026. A dealer buys for a job and then stops until the next
+   job, which is why the repeat rate is 32 % and why the swings are large. **So "active accounts per year" counts
+   projects that happened, not relationships that exist**, and a 12-month window is shorter than the repurchase
+   cycle.*
+2. **Roughly a fifth of C-ATS's lifetime revenue came through two DT distributors** — *Apex Technologies USA
+   (£41,057) and Genesis Technologies AG (£54,078), **£95,135 of £495,106 = 19 %***. **C-ATS has no distributor
+   appointments of its own** (the 21-appointment network above is almost entirely DT's), *so these are DT
+   distributors buying C-ATS alongside — and **Apex has resigned, with the agreement ended 1 July 2026.*** **Where
+   those sales are counted decides whether C-ATS has 53 accounts or 53 plus whoever sat behind those two.**
+3. **The name-normalisation defect is in this data too** — *`Meridian Audio` and `Meridian Audio Ltd` appear as
+   separate 2025 accounts; `Base Ltd t/a Genesis AV` is a different entity from `Genesis Technologies AG`. **So the
+   account count itself carries a known error bar** (`MON-18`).*
+
 
 *Note also, and it needs confirming: **"various distributors" implies live distributor routes today**, which sits
 alongside the direct-first decision (C1, `../group-strategy/commercial-model.md`) rather than contradicting it — that decision governs new
 appointments. What exists now should be listed here rather than assumed away.*
+
+## The forward instrument — engine already models both splits
+
+**Neil, 2026-08-19, answering the measurement question:** ***"We have SRND engine designed to track anything we want
+going forward. I think we have to establish dual brand and SRND group targets to separate dealer and distribution
+sales."***
+
+**Checked against engine directly, 2026-08-19 (read-only). Both splits are already fields; what is missing is
+population and computation, not capture.**
+
+| What the dual target needs | The field that already exists | State today |
+|---|---|---|
+| Dealer vs distribution | **`customers.customer_type_id`**, with exactly the right values — **`dealer` · `distributor` · `end_user` · `specifier`** | **17 of 350 live customers are typed.** *12 dealer, 1 distributor, 3 end user, 1 specifier* |
+| Brand attribution of revenue | `sales_order_lines` → `products.brand_id` | **163 of 166 products carry a brand.** *Works today* |
+| Brand attribution of the customer | **`customers.source_brand_website`** — which brand's site brought them in | **329 of 350 populated.** *Nearly complete, and nobody is reading it* |
+| Counting a sale before it is invoiced | `sales_orders.ordered_at` | **74 orders.** *`shipped_at` is populated on **none**, so dispatch is not yet a usable event — **order is*** |
+| How the interest was generated | **`leads`** — `lead_source_id`, `source`, `enquiry_type`, `source_brand_site`, `product_id`, then `referred_to_customer_id` / `referral_status` / `converted_customer_id` / `converted_at` | **4 leads.** *The whole chain from source to conversion is modelled and **essentially unused*** |
+| Pipeline before an order | `quotes` with `won_at`, `project_id`, `project_stage_id` | 13 quotes |
+
+**So the structure of the dual target is settled by what engine already holds:**
+
+- **Group target — dealer sales.** *`sales_orders` filtered to `customer_type_id = dealer`, counted at `ordered_at`.*
+  **Dealer sales are a group measure because a dealer is a group relationship** — *one account, one contact, buying
+  across whichever brands the room needs.* **That is `../CLAUDE.md`'s core idea stated as a measure**: *the dealer
+  relationship is the asset, **counted across every brand and over years***. *Brand-level detail is still available
+  underneath via `sales_order_lines` → `products.brand_id`, but **the target is the dealer, not the brand.***
+- **Brand target — distribution sales.** *The same orders filtered to `customer_type_id = distributor`, **split by
+  `products.brand_id`.*** **Distribution is a brand measure because a distributor is appointed brand by brand and
+  territory by territory** — *the 21 appointments above are almost entirely **DT's**, and a DT distributor in Mexico
+  says nothing about C-ATS. **There is no such thing as a group distributor.***
+
+**Separate, never netted together** — *which is the point Neil made, and the thing the historical ledger could not do
+at all.* **↻ And the two were the wrong way round in an earlier draft of this section** *(corrected 2026-08-19 on
+Neil's reading)*: **I had dealer sales as the brand target and distribution as the group target.** *The repo's own
+core idea settles it — **a dealer is counted across brands, so it is a group measure; a distributor is appointed for
+one brand, so it is a brand measure.*** *Worth leaving visible, because getting it backwards would have produced a
+brand-by-brand dealer target — **exactly the fragmentation the group play says the dealer should never experience.***
+- **And the leading measure, which is what the rep is actually for:** *`leads` by `lead_source_id` and
+  `source_brand_site`, then the proportion reaching `referral_status` and `converted_at`.* **That measures the method
+  of generating interest, not the invoice at the end of it.**
+
+**One action enables all of it: populate `customer_type_id`.** *333 live customers are untyped. **Until that field is
+filled, dealer and distribution sales cannot be separated at all** — no analysis, no target, no report. It is a
+data-entry job against a field that already exists, and it is the cheapest high-value thing in this file.*
+
+**And engine is ours to change — Neil, 2026-08-20: *"remember it's our platform and we can do what's needed on
+it."*** *An earlier draft of this section treated engine as a fixed constraint and proposed only population. **That
+was over-cautious**: engine is under daily migration, so a missing field is a decision not yet taken.* **What is
+actually needed is one migration and three fills** — *`../evidence/2026-08-20-gateway-instrumentation.md`: the
+**marketing-activity dimension** (`ENG-23`) is the schema change, because five lead-source codes cannot tell a
+seminar from an AI answer; the rest is population (`ENG-20`) and app forms (`ENG-24`).* **Testbed first, then
+production — a live system with 74 orders in it deserves a rehearsal.**
 
 ## What to do with this
 
@@ -405,7 +510,7 @@ Correct it, strike the wrong inferences, and fill what matters. Two of the four 
 unchanged and are cheap:
 
 1. **Lead sources, ranked** — decides where content and channel effort goes.
-2. ~~**Whether the design service is charged, and how often it is taken**~~ — **half answered 2026-08-15.**
+2. — **half answered 2026-08-15.**
    Charged, fixed fee, no credit against the order, published; but *how often it is taken* is still unknown,
    and only one paid service in the group carries a price. See above.
 

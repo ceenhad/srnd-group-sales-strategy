@@ -42,10 +42,10 @@ A rep does **four jobs**. The database is complete when it can do all four witho
 
 | # | The job | The test | Where in the journey |
 |---|---|---|---|
-| **1** | **Attract** — make the solution as attractive as it honestly is | Can you start a conversation a dealer actually wants to have? **This is where every hook comes from** | Stages 1–2 · gateways G1, G2 |
-| **2** | **Defend** — hold it against the alternatives | Can you win the comparison, including against doing nothing and against the dealer's incumbent supplier? | Stages 2–3 · G2, G3 |
-| **3** | **Build trust** | Can you be believed? The proof, the honest limits, **and the claims we refuse to make** | Stage 3 · **G3, the hinge** |
-| **4** | **Deliver** — answer every question clearly, all the way to a working install | Can a dealer get from interest to a room that works without asking us anything? | Stages 4–6 · G4, G5, G6 |
+| 1 | **Attract** — make the solution as attractive as it honestly is | Can you start a conversation a dealer actually wants to have? **This is where every hook comes from** | Stages 1–2 · gateways G1, G2 |
+| 2 | **Defend** — hold it against the alternatives | Can you win the comparison, including against doing nothing and against the dealer's incumbent supplier? | Stages 2–3 · G2, G3 |
+| 3 | Build trust | Can you be believed? The proof, the honest limits, **and the claims we refuse to make** | Stage 3 · **G3, the hinge** |
+| 4 | **Deliver** — answer every question clearly, all the way to a working install | Can a dealer get from interest to a room that works without asking us anything? | Stages 4–6 · G4, G5, G6 |
 
 **Jobs 1 and 2 are the front half and they are joined:** you cannot make something attractive for long without
 being able to defend it, and **a claim you cannot defend is a hook that costs you the dealer** when it meets a
@@ -81,18 +81,18 @@ no fields at all.*
 
 | The dealer's question | Domain | What it holds | Serves | In the form today |
 |---|---|---|---|---|
-| *"What is it?"* | **Physical** | Construction, materials, finishes, sizes, weights, what arrives in the box | 4 | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
-| *"What does it do, and how well?"* | **Performance** | The function, the mechanism, the measured numbers, the test they came from, the limits | 2, 3 | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
-| *"Where does it go, and how many do I need?"* | **Application** | Which rooms and positions, the sizing rule, the quantity, a worked example, where it does not belong | 1, 4 | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
-| *"What does it need from everything else?"* | **Integration** | Power, structure, clearance, what the builder must leave, what it pairs with | 4, 1 | `D7` `D10` `N5` |
-| *"Why this one and not theirs?"* | **Competitive** | The named alternatives, what decides between them, where we win, **where they win**, what to say to a dealer who already buys the other | **2** | **`N4` only — one field for the whole job of defending** |
-| *"What does it cost me to sell and fit?"* | **Commercial** | Order unit, lead time, availability, margin position, the labour it takes on site, what skipping it costs. **Never the price** | 1, 4 | **nothing** |
-| *"How do I know it works?"* | **Evidence** | Test reports, reference rooms, demonstrations, renders — and which we may show | **3** | `G4` |
-| *"What could go wrong?"* | **Risk** | The doubt behind the question, the failure modes on site, what a mistake costs | 3, 4 | `R1` `R2` `R4` |
-| *The questions we actually get asked* | **Answers** | Each one written down, answered in the answerer's own words, with where it is published | **all four** | `R3` `N3` |
-| *"What happens after I order it?"* | **Lifecycle** | Delivery, install sequence, commissioning, spares, what can be replaced, how long we support it | **4** | **assets only (`A1`–`A11`) — the documents, not the facts** |
-| *"What is interesting enough to lead with?"* | **Hook material** | Which of the five appeals this product can honestly carry, and the substance behind each | **1** | **nothing** — hooks are designed in `motion/motion-design.md` with no product-level source |
-| *"What are we allowed to say?"* | **Governance** | Claims supported and by what, claims we refuse to make, whether it is released yet, when the record was last checked | all four | `G2` `G3` `K1`–`K3` |
+| "What is it?" | Physical | Construction, materials, finishes, sizes, weights, what arrives in the box | 4 | `D1` `D6` `D8` — thin, and rightly: engine owns the mechanical half |
+| "What does it do, and how well?" | Performance | The function, the mechanism, the measured numbers, the test they came from, the limits | 2, 3 | `D2` `D3` `D9` `G1` — **split across two groups; performance has no home of its own** |
+| "Where does it go, and how many do I need?" | Application | Which rooms and positions, the sizing rule, the quantity, a worked example, where it does not belong | 1, 4 | `D4` `D5` `N1` `N2` — **the most-asked domain in every brand** |
+| "What does it need from everything else?" | Integration | Power, structure, clearance, what the builder must leave, what it pairs with | 4, 1 | `D7` `D10` `N5` |
+| "Why this one and not theirs?" | Competitive | The named alternatives, what decides between them, where we win, **where they win**, what to say to a dealer who already buys the other | 2 | `N4` only — one field for the whole job of defending |
+| "What does it cost me to sell and fit?" | Commercial | Order unit, lead time, availability, margin position, the labour it takes on site, what skipping it costs. **Never the price** | 1, 4 | nothing |
+| "How do I know it works?" | Evidence | Test reports, reference rooms, demonstrations, renders — and which we may show | 3 | `G4` |
+| "What could go wrong?" | Risk | The doubt behind the question, the failure modes on site, what a mistake costs | 3, 4 | `R1` `R2` `R4` |
+| The questions we actually get asked | Answers | Each one written down, answered in the answerer's own words, with where it is published | all four | `R3` `N3` |
+| "What happens after I order it?" | Lifecycle | Delivery, install sequence, commissioning, spares, what can be replaced, how long we support it | 4 | assets only (`A1`–`A11`) — the documents, not the facts |
+| "What is interesting enough to lead with?" | Hook material | Which of the five appeals this product can honestly carry, and the substance behind each | 1 | **nothing** — hooks are designed in `motion/motion-design.md` with no product-level source |
+| "What are we allowed to say?" | Governance | Claims supported and by what, claims we refuse to make, whether it is released yet, when the record was last checked | all four | `G2` `G3` `K1`–`K3` |
 
 **What that table says:**
 
@@ -128,12 +128,12 @@ run.*
 
 | # | When this happens… | …this gets written down | Who is already there | How often |
 |---|---|---|---|---|
-| **RT1** | **A product is made or changed** | What it is, what it is supplied with, what it needs from the building, how it goes in — Physical, Performance, Integration | Design & production | Per change |
-| **RT2** | **A test result or report arrives** | The measured performance, the test basis, and what may be shown as proof — Performance, Evidence | Whoever commissioned it | Rarely |
-| **RT3** | **We help specify a job** | How you choose it and how many, the layout, what it pairs with — Application, Integration | Whoever specs jobs, **and we help spec routinely** | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
-| **RT4** | **We answer a question** — pre-sale or on site | The question itself, the answer in the answerer's words, and what went wrong — Risk, Answers, Lifecycle | Whoever answered it | **Daily**, and already answered once by email |
-| **RT5** | **We quote, and when we win or lose** | The commercial case, and which competitor beat us on which dimension — Competitive, Commercial | Whoever quoted | Per quote. **Already runs — engine's CRM is classic pipeline management** |
-| **RT6** | **A position is settled or reviewed** | What may and may not be claimed, and what a product can honestly be hooked on — Hook material, Governance | The owners | **The one genuinely new habit** |
+| RT1 | A product is made or changed | What it is, what it is supplied with, what it needs from the building, how it goes in — Physical, Performance, Integration | Design & production | Per change |
+| RT2 | A test result or report arrives | The measured performance, the test basis, and what may be shown as proof — Performance, Evidence | Whoever commissioned it | Rarely |
+| RT3 | We help specify a job | How you choose it and how many, the layout, what it pairs with — Application, Integration | Whoever specs jobs, **and we help spec routinely** | **Daily.** Our only discovery channel (`NEXT.md` lane 4) |
+| RT4 | **We answer a question** — pre-sale or on site | The question itself, the answer in the answerer's words, and what went wrong — Risk, Answers, Lifecycle | Whoever answered it | **Daily**, and already answered once by email |
+| RT5 | We quote, and when we win or lose | The commercial case, and which competitor beat us on which dimension — Competitive, Commercial | Whoever quoted | Per quote. **Already runs — engine's CRM is classic pipeline management** |
+| RT6 | A position is settled or reviewed | What may and may not be claimed, and what a product can honestly be hooked on — Hook material, Governance | The owners | The one genuinely new habit |
 
 **Three consequences worth stating plainly.**
 
@@ -177,11 +177,11 @@ other files cite them.*
 | **How it works** — the mechanism | Depth for the reader who needs it, and the field that lets documentation be written **per mechanism rather than per SKU** | Grouping the manual set; explainer content |
 | **What it is for** — the applications | Products get misapplied when the intended use is implied rather than stated | Selection guidance; specifier material |
 | **What it is *not* for, and where it does not apply** | **Misapplication is expensive** — a bad room, a lost reputation, a support case that was never a fault. Nobody writes this down and everybody needs it | Boundaries in the datasheet; the first question support should be able to point at |
-| **Scope of supply — what is actually supplied** | The commonest cause of a bad first order is a wrong assumption about what is in the box | Order confirmation, install manual, quoting |
+| Scope of supply — what is actually supplied | The commonest cause of a bad first order is a wrong assumption about what is in the box | Order confirmation, install manual, quoting |
 | **What it requires from others** — power, data, structure, fixings, clearances, site conditions, adjacent products | **This is the biggest single source of site pain**: what must be true, and what the builder has to leave. It is definitional, not marketing | Install manual, drawings, the specifier's coordination notes, and the pre-order conversation |
 | **Configuration space** — variants, sizes, options, and precisely what varies | A variant-heavy range documented as separate products multiplies work for no benefit | Collapsing the manual set; configurators; the store |
 | **Limits** — maximum and minimum sizes, loads, environmental range | The honest edge of the envelope, which is also where the interesting questions come from | Feasibility answers; avoiding a promise the product cannot keep |
-| **Where it sits in the room or system** | The layer it belongs to, and what it meets | Whole-room content; the adjacency map |
+| Where it sits in the room or system | The layer it belongs to, and what it meets | Whole-room content; the adjacency map |
 
 ## 2. Why to buy it — the on-ramp
 
@@ -190,11 +190,11 @@ are missing.*
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
-| **The problem it solves, in the dealer's words** | A product on its own does nothing; the problem is what engages. And the dealer's phrasing — not ours — is what gets searched | Hook copy, page opener, campaign silo, search terms, the words AI answers match against |
-| **The time or labour it saves** | One of the four things a dealer actually cares about, and the most under-used | Comparison arguments; the format that already works for us — the Fabric Walls factory-versus-site film is the brand's best performer |
-| **The opportunity it opens** | Dealers often don't know *why* to specify something; a product that wins a job is worth more than one that fits a job | Sales enablement, cross-sell prompts in the spec conversation |
-| **What it replaces or avoids** | The dealer is choosing between options, including doing nothing | Comparison content, objection handling |
-| **Is this an entry product or a flagship?** | Every brand needs a door-opener distinct from its showpiece; the flagship demonstrates depth, the entry product opens the relationship | Targeting the on-ramp; deciding what gets promoted to cold audiences |
+| The problem it solves, in the dealer's words | A product on its own does nothing; the problem is what engages. And the dealer's phrasing — not ours — is what gets searched | Hook copy, page opener, campaign silo, search terms, the words AI answers match against |
+| The time or labour it saves | One of the four things a dealer actually cares about, and the most under-used | Comparison arguments; the format that already works for us — the Fabric Walls factory-versus-site film is the brand's best performer |
+| The opportunity it opens | Dealers often don't know *why* to specify something; a product that wins a job is worth more than one that fits a job | Sales enablement, cross-sell prompts in the spec conversation |
+| What it replaces or avoids | The dealer is choosing between options, including doing nothing | Comparison content, objection handling |
+| Is this an entry product or a flagship? | Every brand needs a door-opener distinct from its showpiece; the flagship demonstrates depth, the entry product opens the relationship | Targeting the on-ramp; deciding what gets promoted to cold audiences |
 
 ## 3. The doubt it has to remove
 
@@ -204,9 +204,9 @@ box.*
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
-| **The specific doubt or objection this product meets** | Different products fail to sell for different reasons — will it fit, will it be quiet enough, will it look right, can I install it | Decides *which technical asset is load-bearing* for this product, rather than documenting everything equally |
+| The specific doubt or objection this product meets | Different products fail to sell for different reasons — will it fit, will it be quiet enough, will it look right, can I install it | Decides *which technical asset is load-bearing* for this product, rather than documenting everything equally |
 | **The questions it actually generates** — pre-sale and on site | This is the content backlog, per product, and the two are the same question at different times | Ranks the corpus; tells you what to write next; measures support load |
-| **What goes wrong on site with it** | The installer's real fear, and the thing peer reputation is made of | Fault-finding guide, "how do you do X" video, install-manual priorities |
+| What goes wrong on site with it | The installer's real fear, and the thing peer reputation is made of | Fault-finding guide, "how do you do X" video, install-manual priorities |
 
 ## 4. Who decides on it
 
@@ -215,7 +215,7 @@ box.*
 | Field | Why it is needed | How it is used |
 |---|---|---|
 | **Purchaser vs specifier** — integrator, AV consultant, architect, interior designer, end client | Being named pre-tender is worth more than winning a spec conversation later, and the machinery differs entirely | Decides whether this product needs NBS clauses, Revit objects and finish samples, or only an install guide |
-| **Who signs it off, and what convinces them** | The end client, the architect and the integrator are reassured by different things — a finish sample, a measured report, an install time | What proof to put in front of whom, rather than one asset for all |
+| Who signs it off, and what convinces them | The end client, the architect and the integrator are reassured by different things — a finish sample, a measured report, an install time | What proof to put in front of whom, rather than one asset for all |
 
 ## 5. What we may and may not say
 
@@ -223,17 +223,17 @@ box.*
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
-| **Claims supported, with the test standard and report reference** | No superlative without a measurement behind it | Copy approval; specifier-grade downloads |
+| Claims supported, with the test standard and report reference | No superlative without a measurement behind it | Copy approval; specifier-grade downloads |
 | **The claims we refuse to make** — the wording boundary | **Not modesty: these are claims that would be untrue or unsupported.** C-ATS is why — scattering is not diffusion, and saying otherwise loses a specifier's trust permanently | Written next to the product, so a writer cannot cross the line without seeing it |
 | **Marketing status** — pre-release, demonstrable but undocumented, current, discontinued | Build it, then say it. This field alone would have caught three live errors | The Screen Wall (demonstrable since ISE 2023, no datasheet), the commercial range (not to be written up as shipping), REV-CP-12 (discontinued, still listed) |
-| **Proof available, and whether it is publishable** | At this tier the best jobs are the least publishable — NDA'd documents, no photography | What may appear in a case study; prevents someone reaching for an encumbered asset |
+| Proof available, and whether it is publishable | At this tier the best jobs are the least publishable — NDA'd documents, no photography | What may appear in a case study; prevents someone reaching for an encumbered asset |
 
 ## 6. Where it is sold
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
 | **Channel** — `srnd.store`, Cinema Store, or trade-only | No product exists in two places; shared SKUs are how channel confusion returns | Store split enforcement; the worklist |
-| **Territory availability and any exclusivity** | The distributor roster is being pruned, and a vacated territory should be visibly open | Direct approach after an appointment ends |
+| Territory availability and any exclusivity | The distributor roster is being pruned, and a vacated territory should be visibly open | Direct approach after an appointment ends |
 
 ## 7. The asset audit
 
@@ -244,7 +244,7 @@ are poor" into a completeness percentage per product.*
 |---|---|---|
 | Datasheet | Specifier, dealer evaluating | The first doubt-removal document anyone opens |
 | Dimensioned drawings | Specifier, installer | Will it fit, and what does the builder need to leave |
-| CAD | Specifier | *Publish-versus-gate decision outstanding* |
+| CAD | Specifier | Publish-versus-gate decision outstanding |
 | BIM / Revit object | Architect | A product that drops into the model is a product that gets specified |
 | NBS clause | Spec writer | Being present in the system specifiers write in |
 | Install manual | Installer on site | The highest-intent reader we will ever have |
@@ -267,12 +267,12 @@ start a conversation.*
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
-| **The named alternatives, per product** | The dealer is not choosing between us and nothing; they are choosing between us and a specific thing, usually one they already buy | Comparison content, objection handling, the answer in the spec conversation |
-| **The dimensions the comparison actually turns on** | Every category has two or three that decide it. Arguing the others is noise | Choosing what a comparison piece argues; what a data card leads with |
-| **Where we genuinely win, dimension by dimension** | The defensible half. **With the measurement behind it or it is not a claim** | The comparison, the datasheet emphasis, the hook |
-| **Where they genuinely win** | **The field that makes the rest believable.** A rep who concedes nothing is not trusted twice, and the dealer already knows the answer | Honest comparison; knowing which jobs not to chase; where to improve the product |
+| The named alternatives, per product | The dealer is not choosing between us and nothing; they are choosing between us and a specific thing, usually one they already buy | Comparison content, objection handling, the answer in the spec conversation |
+| The dimensions the comparison actually turns on | Every category has two or three that decide it. Arguing the others is noise | Choosing what a comparison piece argues; what a data card leads with |
+| Where we genuinely win, dimension by dimension | The defensible half. **With the measurement behind it or it is not a claim** | The comparison, the datasheet emphasis, the hook |
+| Where they genuinely win | **The field that makes the rest believable.** A rep who concedes nothing is not trusted twice, and the dealer already knows the answer | Honest comparison; knowing which jobs not to chase; where to improve the product |
 | **The switch argument** — what to say to a dealer who already buys the alternative | Different from a cold pitch: there is an incumbent relationship, a stocked shelf and a habit to overcome | Direct outreach after a territory opens; the conversation with a rival's dealer |
-| **What to watch for in their specification** | Where a rival's product creates a problem the dealer will own later — stated as a caution, never as an attack | Specifier conversations; the honest technical answer |
+| What to watch for in their specification | Where a rival's product creates a problem the dealer will own later — stated as a caution, never as an attack | Specifier conversations; the honest technical answer |
 | **Why deals are lost** — accumulating, one line each | The only outside view of the market we have | Ranks everything above; tells you what is actually wrong |
 
 > **The discipline binds hardest here.** Position by capability, never disparagement; never attack a competitor in
@@ -287,12 +287,12 @@ is partner-gated, and is never published (`../group-strategy/commercial-model.md
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
-| **Order unit and minimum** | The commonest cause of a wrong first order after scope of supply. Boxes, not panels; sheets, not metres | Quoting, the store listing, the first-order conversation |
-| **Lead time, and what changes it** | The question that decides whether we are specified on a live project at all | Feasibility answers, the spec conversation, honest expectation setting |
+| Order unit and minimum | The commonest cause of a wrong first order after scope of supply. Boxes, not panels; sheets, not metres | Quoting, the store listing, the first-order conversation |
+| Lead time, and what changes it | The question that decides whether we are specified on a live project at all | Feasibility answers, the spec conversation, honest expectation setting |
 | **Availability posture** — stocked, made to order, made to size | Different products want different promises, and one wrong assumption loses a job | What may be said about delivery; the store |
-| **The dealer's business case** | Their margin position relative to the alternative, plus **what it costs them in labour** to install and to support. **A cheaper product that takes two more days on site is not cheaper** | The `more revenue` and `time saved` appeals; the comparison; partner conversations |
-| **What not specifying it costs them** | The risk side of the same argument — the callback, the room that underperforms, the client who is unhappy | Objection handling; the honest version of urgency |
-| **Where the numbers live** | Engine, per partner and per country. **The record points; it never copies** | Prevents a stale price in a marketing asset — the failure mode this boundary exists to stop |
+| The dealer's business case | Their margin position relative to the alternative, plus **what it costs them in labour** to install and to support. **A cheaper product that takes two more days on site is not cheaper** | The `more revenue` and `time saved` appeals; the comparison; partner conversations |
+| What not specifying it costs them | The risk side of the same argument — the callback, the room that underperforms, the client who is unhappy | Objection handling; the honest version of urgency |
+| Where the numbers live | Engine, per partner and per country. **The record points; it never copies** | Prevents a stale price in a marketing asset — the failure mode this boundary exists to stop |
 
 ## 11. Lifecycle & support — the way to install, and after *(domain 10)*
 
@@ -301,11 +301,11 @@ about the facts.***
 
 | Field | Why it is needed | How it is used |
 |---|---|---|
-| **What happens between order and site** | Lead time to delivery, what arrives, in what state, and what has to be ready | The order confirmation; the pre-install conversation |
-| **The install sequence, and who does it** | Where it sits in the build order, and whether it needs a specialist. **Fabric Walls' whole proposition is the answer to this** — no upholsterers, predictable times | Install manual structure; the `easier to do` appeal; the programme conversation |
-| **Commissioning and verification** | Where a good product still becomes a bad room. The step that decides whether it worked | Commissioning guide; the verification service; the G5 signal |
+| What happens between order and site | Lead time to delivery, what arrives, in what state, and what has to be ready | The order confirmation; the pre-install conversation |
+| The install sequence, and who does it | Where it sits in the build order, and whether it needs a specialist. **Fabric Walls' whole proposition is the answer to this** — no upholsterers, predictable times | Install manual structure; the `easier to do` appeal; the programme conversation |
+| Commissioning and verification | Where a good product still becomes a bad room. The step that decides whether it worked | Commissioning guide; the verification service; the G5 signal |
 | **Serviceability** — what can be replaced without pulling the assembly | **Buying a part instead of replacing an assembly is a form of backing a dealer**, and it is a purchasing argument as much as a support one | Spares listing; the service-replacement rule; the support proposition |
-| **What we support and for how long** | The claim behind "support is part of the sales proposition, not a cost behind it" | The partner conversation; the international dealer's real question |
+| What we support and for how long | The claim behind "support is part of the sales proposition, not a cost behind it" | The partner conversation; the international dealer's real question |
 
 ## 12. Narrative & hook material *(domain 11)*
 
@@ -316,7 +316,7 @@ source, or hooks get invented per campaign**, which is precisely what the produc
 | Field | Why it is needed | How it is used |
 |---|---|---|
 | **Which of the five appeals this product can honestly carry**, and the substance behind each — *more revenue · time saved · easier to do · better results · the problem named* | **Not every product carries every appeal**, and stretching one it cannot carry is how a hook becomes a claim we cannot defend. Marking which are *empty* is as useful as filling the others | The hook matrix per door (`registers/backlog.md` JNY-4); deciding which products lead a campaign |
-| **The single most interesting true thing about it** | Every product has one, and it is usually not what the datasheet leads with. C-ATS's ~300 mm tolerance sat unused for years | The lead hook; the explainer's opening; what a piece is *about* |
+| The single most interesting true thing about it | Every product has one, and it is usually not what the datasheet leads with. C-ATS's ~300 mm tolerance sat unused for years | The lead hook; the explainer's opening; what a piece is *about* |
 | **What has actually bitten** — hooks issued, and which caught | The loop that turns hook volume from guesswork into evidence, and the reason source-tagging exists (S23) | Ranks the next batch; retires hooks that never bite |
 
 > **This section holds material, never wording.** The hook matrix and the wording stay where they are designed —
@@ -333,7 +333,7 @@ source, or hooks get invented per campaign**, which is precisely what the produc
    new research: the REF-CP bond-versus-screw trap (the recommended install deliberately absorbs *less*, so an
    installer who skips the adhesive gets acoustics the design didn't assume), the REV-CP cold-adhesive failure, a
    corner-factor double-count warning living in a code comment, a "faceted ABS diffuser" wording violation in our
-   own legacy source, the marine panel having no acoustic data of its own, and a ~300 mm layout tolerance that is a
+   own legacy source, the marine panel's data provenance, and a ~300 mm layout tolerance **since struck (`questions.md` `Q102`)** that is a
    real selling point appearing in no marketing.
 3. **Then DT, by mechanism rather than by SKU.** The range is variant-heavy; document the mechanism once and table
    the variants. **The grouping is now proposed and skeletoned** — `brands/display-technologies/product-records.md`

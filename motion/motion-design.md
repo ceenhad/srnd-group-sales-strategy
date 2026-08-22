@@ -27,12 +27,12 @@ so the map is read for coverage, and a stage with nothing behind it is where the
 
 | Stage | The dealer needs | What serves it | Where it stands today |
 |---|---|---|---|
-| **1 — Unaware → get in front of them** | Their problem stated boldly, in their own words | Search and AI answers, social, trade press, events; and other SRND brands' own dealers — the group-native entry point | The proven format exists (short explainers that make an argument); hooks are thin; the EI microsite runs empty; personal authority is dormant |
-| **2 — Name lands → land the proposition** | Range and possibility, simply put | The brand sites' marketing on-ramp; data cards; virtual case studies | **The unwritten layer** — on-ramp copy is largely absent (the C-ATS placeholder hero is the emblem); the render library exists as raw material, not stories |
-| **3 — "Could this work for me?" → prove it** | Doubt removed — *can I trust this enough to put it in my project?* | The knowledge base, measured data, recorded demos, sample kits, the Experience Centre and its virtualised form, a Zoom | BSRIA proof is published but buried; the C-ATS knowledge base is staged, not live; the Experience Centre is not yet virtualised; nothing in the estate has a presenter |
-| **4 — Wants to buy → register, then buy** | A registration hinge worth crossing, then a frictionless purchase | Registration and the gated store (the mechanism runs in engine); training access; an entry product per brand | The mechanism is live but registration grants only pricing — training is parked, entry products undecided (DEC-3) |
-| **5 — First job, on site → make it succeed** | The install to go right; to look good in front of their client | Manuals and instructions organised by moment, "how do you do X", verification | **The concentrated debt** — manuals are poor outside C-ATS; the two critical one-pagers are written and unpublished |
-| **6 — The next order** | To be recalled the moment the next project lands, and to be effortless to act on | Always-on presence, reorder ease, adjacency prompts in the spec conversation, and somebody asking | **Weakest of all** — the adjacency map is unwritten, the spec conversations are uncaptured, and "wanting the order" is unowned |
+| 1 — Unaware → get in front of them | Their problem stated boldly, in their own words | Search and AI answers, social, trade press, events; and other SRND brands' own dealers — the group-native entry point | The proven format exists (short explainers that make an argument); hooks are thin; the EI microsite runs empty; personal authority is dormant |
+| 2 — Name lands → land the proposition | Range and possibility, simply put | The brand sites' marketing on-ramp; data cards; virtual case studies | **The unwritten layer** — on-ramp copy is largely absent (the C-ATS placeholder hero is the emblem); the render library exists as raw material, not stories |
+| 3 — "Could this work for me?" → prove it | Doubt removed — *can I trust this enough to put it in my project?* | The knowledge base, measured data, recorded demos, sample kits, the Experience Centre and its virtualised form, a Zoom | BSRIA proof is published but buried; the C-ATS knowledge base is staged, not live; the Experience Centre is not yet virtualised; nothing in the estate has a presenter |
+| 4 — Wants to buy → register, then buy | A registration hinge worth crossing, then a frictionless purchase | Registration and the gated store (the mechanism runs in engine); training access; an entry product per brand | The mechanism is live but registration grants only pricing — training is parked, entry products undecided (DEC-3) |
+| 5 — First job, on site → make it succeed | The install to go right; to look good in front of their client | Manuals and instructions organised by moment, "how do you do X", verification | **The concentrated debt** — manuals are poor outside C-ATS; the two critical one-pagers are written and unpublished |
+| 6 — The next order | To be recalled the moment the next project lands, and to be effortless to act on | Always-on presence, reorder ease, adjacency prompts in the spec conversation, and somebody asking | **Weakest of all** — the adjacency map is unwritten, the spec conversations are uncaptured, and "wanting the order" is unowned |
 | *(Parallel track)* **The specifier** | To find us named pre-tender | CPD, NBS clauses, BIM/Revit objects, specifier-grade downloads | Deliberately parked; wakes through personal authority (`channels.md`) |
 
 **What the map says:** the journey currently breaks at stages 2, 5 and 6 — the proposition layer is
@@ -59,6 +59,14 @@ struck.*
 | **G4** (4→5) | The first order placed — the relationship becomes real | An order in engine | An entry product, a frictionless quote and checkout, a Zoom for the considered sale — and someone asking |
 | **G5** (5→6) | The first job succeeded — the install went right and the dealer looked good | The weakest signal today: an uneventful order (no support escalation), a reorder, a verification completed. **Needs defining** | Manuals organised by moment, "how do you do X", install support that answers |
 | **G6** (6→loop) | Recalled and expanded — the next project lands and a second layer of the room is ours | **An order from a second brand** — FACT-1's query is exactly this signal, aggregated | The adjacency prompt at the spec moment, always-on presence, reorder ease — and the whole-room story, earned now |
+
+**↻ Measured against engine, 2026-08-20 — `../evidence/2026-08-20-gateway-instrumentation.md`. The table above
+held up, and the counts exist now: `G3` **6** · `G4` **35** · `G6` **2**.** *`G1` is not in engine at all (it needs
+web analytics; engine sees a visitor only once they become a lead, though **brand-of-entry is recorded on 329 of 350
+customers**), `G2` has 4 leads against a full instrument, and **`G5` now has a candidate signal because
+`support_tickets` exists** — 0 rows, statuses and priorities defined, so *"an order with no escalation"* is
+definable (`ENG-25`).* **And one thing the counts show that no design review would have:** *`G4` is **five times**
+`G3`, so **ordering does not currently require crossing the registration hinge** — `ENG-26`.*
 
 **Two honest notes.** Only G3, G4 and G6 are cleanly observable today; G2's signals partly exist (tool leads
 land in engine), and G5's needs defining before anything can trigger on it. And per the standing rule, the
@@ -139,13 +147,13 @@ Nobody invents new types per brand, and no piece is made without its row.*
 
 | Stage | The reader's question | Content types | Placed | Points at |
 |---|---|---|---|---|
-| **1 — Unaware** | "That's my problem" | Text-forward hooks; short explainers (under a minute); mechanism-in-motion clips; problem-named articles written for search and AI answers | Off-site, where strangers look: search/AI, LinkedIn, Instagram, YouTube, trade press, the EI microsite | The fuller answer on the brand site (**G1**) |
-| **2 — Interested** | "What is this — could it work for me?" | The on-ramp page (problem solved, opportunity opened, time saved); range and data cards; render-led room stories | The brand site | The depth layer: knowledge base, tools, samples (**G2**) |
-| **3 — Evaluating** | "Can I trust this enough to put it in my project?" | Knowledge-base answers; measured data and third-party reports; recorded demos — the Experience Centre, filmed; worked examples; the sample kit; the offer of a Zoom | Brand site + knowledge base + YouTube | Registration (**G3**) |
-| **4 — Registered** | "How do I buy, and what do I risk?" | The entry-product page; listings with clear scope of supply; the quote and checkout; a Zoom for the considered sale | The store | The first order (**G4**) |
-| **5 — First job** | "How do I fit this right?" | Install manuals organised by moment; "how do you do X" videos; site-conditions notes; fault-finding guides; the verification offer | The canonical home; in the box; the order confirmation; the product's install tab | A first job that succeeds (**G5**) |
-| **6 — Next order** | "What else — and how easily?" | The adjacency prompt in the spec conversation; the recurring formats, always on; reorder prompts; the whole-room story — earned by now; the partner email | Email + store + the spec conversation itself | A second brand's stage 2 (**G6** — the loop) |
-| *Specifier (parallel, parked)* | "Can I name this pre-tender?" | CPD seminars; NBS clauses; BIM/Revit objects; specifier-grade downloads | The specifier's own machinery | Named in the specification before tender |
+| 1 — Unaware | "That's my problem" | Text-forward hooks; short explainers (under a minute); mechanism-in-motion clips; problem-named articles written for search and AI answers | Off-site, where strangers look: search/AI, LinkedIn, Instagram, YouTube, trade press, the EI microsite | The fuller answer on the brand site (**G1**) |
+| 2 — Interested | "What is this — could it work for me?" | The on-ramp page (problem solved, opportunity opened, time saved); range and data cards; render-led room stories | The brand site | The depth layer: knowledge base, tools, samples (**G2**) |
+| 3 — Evaluating | "Can I trust this enough to put it in my project?" | Knowledge-base answers; measured data and third-party reports; recorded demos — the Experience Centre, filmed; worked examples; the sample kit; the offer of a Zoom | Brand site + knowledge base + YouTube | Registration (**G3**) |
+| 4 — Registered | "How do I buy, and what do I risk?" | The entry-product page; listings with clear scope of supply; the quote and checkout; a Zoom for the considered sale | The store | The first order (**G4**) |
+| 5 — First job | "How do I fit this right?" | Install manuals organised by moment; "how do you do X" videos; site-conditions notes; fault-finding guides; the verification offer | The canonical home; in the box; the order confirmation; the product's install tab | A first job that succeeds (**G5**) |
+| 6 — Next order | "What else — and how easily?" | The adjacency prompt in the spec conversation; the recurring formats, always on; reorder prompts; the whole-room story — earned by now; the partner email | Email + store + the spec conversation itself | A second brand's stage 2 (**G6** — the loop) |
+| Specifier (parallel, parked) | "Can I name this pre-tender?" | CPD seminars; NBS clauses; BIM/Revit objects; specifier-grade downloads | The specifier's own machinery | Named in the specification before tender |
 
 Three rules travel with the grid: **one job per piece** (its gateway, nothing else); **every piece carries
 its target explicitly** — the handoff is written into the piece, not hoped for; and pieces are counted
@@ -169,10 +177,10 @@ row is tempting toward.
 
 | Their state | We send | Tempting — the aim |
 |---|---|---|
-| **Registered, no order yet** | The welcome: what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom | The first order (**G4**) |
-| **Ordered, job ahead** | The install pack — in the box and by email; a check-in after delivery | A first job that succeeds, and telling us how it went (**G5**) |
-| **First job done** | The adjacency-aware partner email — timed to what they actually bought, never a blast; reorder ease; the appreciation acts | The next layer of the same room, the next project — a second brand's stage 2 (**G6**) |
-| **Gone quiet** | A person asks. The one touch that is never automated | The order — the human residue (`sales-motion.md`) |
+| Registered, no order yet | The welcome: what the account grants, the entry product, how to buy, who to ask; the offer of a Zoom | The first order (**G4**) |
+| Ordered, job ahead | The install pack — in the box and by email; a check-in after delivery | A first job that succeeds, and telling us how it went (**G5**) |
+| First job done | The adjacency-aware partner email — timed to what they actually bought, never a blast; reorder ease; the appreciation acts | The next layer of the same room, the next project — a second brand's stage 2 (**G6**) |
+| Gone quiet | A person asks. The one touch that is never automated | The order — the human residue (`sales-motion.md`) |
 
 Four disciplines bind the direct half: **permissioned only**; **state-triggered, never
 schedule-triggered** (`buyer-journey.md`); **cross-brand cadence coordinated** — concretely, per-brand

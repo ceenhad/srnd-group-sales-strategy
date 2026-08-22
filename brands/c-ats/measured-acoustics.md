@@ -28,7 +28,7 @@ data doesn't support; scattering, never diffusion).
   quantities/placement — but it lives in the **separate cinema-tools project**, not the C-ATS brand.
   Per Neil, don't fold it into C-ATS and don't pull it in now.
 - Known caveat on that tooling (from the C-ATS repo audit): a **resonance blind spot** (sizing off
-  125/250 Hz Sabine RT60 misses the ~20–80 Hz modal region, can return RES = 0 by construction —
+  125/250 Hz Sabine RT60 misses the ~20–80 Hz modal region, can return RES = 0 by construction — **↻ And the reason matters, recorded 2026-08-21 (`../../registers/questions.md` `Q96`): the floor is the method's, not ours.** *Reverberation-room testing assumes a diffuse field and that assumption fails as frequency falls — BSRIA's chamber is 210 m³ and reaching a small room's modal region would need one orders of magnitude larger. **So no supplier in this category holds ISO 354 data below 100 Hz**, and the gap cannot be closed by commissioning a test. **The only evidence route below the standard's floor is in-situ measurement in the finished room** — `DAT-5`.*
   ruled wrong). So **don't lean on resonance numbers from that tool**, and don't attribute the tool
   to the brand.
 

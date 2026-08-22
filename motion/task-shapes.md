@@ -25,14 +25,14 @@ structure, not in the instructions. So each shape names five things:
 
 - **For** — what it is for, in one line.
 - **Output** — the artefact produced and its required structure: the fields, the matrix, the ranked list. **This
-  is the heart.** It is where a property like *comparative* is enforced by the form of the thing, not left to
-  the person.
+ is the heart.** It is where a property like *comparative* is enforced by the form of the thing, not left to
+ the person.
 - **Rules the output must satisfy** — the non-negotiable properties (*comparative*, *sourced*, *ranked*,
-  *complete*…). A shallow template omits these; they are what hold the output consistent and what an automated
-  check would test.
+ *complete*…). A shallow template omits these; they are what hold the output consistent and what an automated
+ check would test.
 - **Steps — each time** — how the output gets produced (the work-items, in service of the output).
 - **Definition of done** — a checkable standard: the output exists and satisfies the rules. **`[decide]`** marks
-  a standard nobody has set yet (pass 1's `no standard`) — the owner's one-time call, not a guess.
+ a standard nobody has set yet (pass 1's `no standard`) — the owner's one-time call, not a guess.
 
 > **The test to apply to every shape:** *could someone produce the correct output from this alone, without the
 > tacit knowledge — and could the machine-side steps be built from it?* If not, it lacks depth (Neil,
@@ -67,8 +67,8 @@ field, a pipeline win/loss. Each record carries a **last-updated date** — that
 
 **Rules the output must satisfy:**
 - **Comparative, never absolute.** Every entry is *us vs a named competitor on a named dimension* —
-  "on lead time, us 6–8 wks vs them 12+." A bare "they're weaker" is not a permitted entry; the form has no cell
-  for it.
+ "on lead time, us 6–8 wks vs them 12+." A bare "they're weaker" is not a permitted entry; the form has no cell
+ for it.
 - **Sourced.** No cell without its evidence. An unsourced claim is a marked gap, not an assertion.
 - **Current and dated.** Each record carries a last-updated date — no version history or change-log to maintain.
 
@@ -101,7 +101,7 @@ decline — with brand and the reason that follows from the fields.
 
 **Rules the output must satisfy:**
 - **Scored against a fixed bar, not a gut call.** The same inputs yield the same verdict whoever runs it — which
-  is exactly what makes it automatable once the bar exists.
+ is exactly what makes it automatable once the bar exists.
 - **Sourced from engine, not memory.** Buy-history fields are pulled, never recalled.
 
 **Steps — each time:** retrieve engine history → populate the fixed fields → apply the bar → record verdict +
@@ -132,9 +132,9 @@ assembled per brand in a fixed order, covering the minimum set every presentatio
 
 **Rules the output must satisfy:**
 - **Complete against the room.** Every brand relevant to the room is represented; a brand with missing fields is
-  a **flagged gap**, never a silent omission.
+ a **flagged gap**, never a silent omission.
 - **Generated from the record.** Assembled from fields, not composed ad hoc, so it is identical whoever builds
-  it.
+ it.
 
 **Steps — each time:** identify the room's product set → pull the on-ramp fields per brand → assemble in the
 fixed order → flag any brand whose fields are missing.
@@ -203,7 +203,7 @@ single deal.
 **Rules the output must satisfy:**
 - **Comparative and sourced** — as `T-M02`; each datum enters against a named dimension with its source.
 - **Pattern vs one-off is marked** — a single loss is a data point; a repeated one is a finding, and the shape
-  distinguishes them.
+ distinguishes them.
 
 **Steps — each time:** retrieve win/loss from the pipeline → enter against the matrix dimensions, sourced →
 judge pattern vs one-off → stamp last-updated.
@@ -224,30 +224,30 @@ optional.*
 
 **`T-S07` — Technical selling (help specify a live job)**
 - **Output:** a specification for the room, assembled from the product records (`N1`, `N2`, the definition
-  fields), **plus** the new answer captured back — into `N3` (the answer) and `N8` (what it taught).
+ fields), **plus** the new answer captured back — into `N3` (the answer) and `N8` (what it taught).
 - **Rules:** *from the record where it exists* (don't re-derive what's held); *the novel answer is captured, not
-  just given* — an answer that leaves only in an email is the gap.
+ just given* — an answer that leaves only in an email is the gap.
 - **Steps:** retrieve the room's product records → assemble the spec → answer the part the record doesn't hold →
-  record that answer into `N3`/`N8`.
+ record that answer into `N3`/`N8`.
 - **Done:** the dealer has the spec, and any answer the record didn't hold is now in it. **Settled
-  (2026-08-14):** capture into `N3` any answer that isn't already in the record and could recur (a general
-  technical point) — not one-off project arithmetic.
+ (2026-08-14):** capture into `N3` any answer that isn't already in the record and could recur (a general
+ technical point) — not one-off project arithmetic.
 
 **`T-S24` — Feed product development**
 - **Output:** a **ranked list of product gaps and requests**, aggregated across the range from `X4`, `X6`,
-  `N9`, ordered by how often each one costs us.
+ `N9`, ordered by how often each one costs us.
 - **Rules:** *ranked by cost/frequency, not recency or loudest voice*; *sourced* — each item cites the deals or
-  answers it aggregates.
+ answers it aggregates.
 - **Steps:** retrieve `X4`/`X6`/`N9` across the range → assemble → order by frequency/cost → hand to the
-  `decide`.
+ `decide`.
 - **Done:** a current ranked list, each item sourced. **`[decide]`** what to change or commission — the owner's
-  call; the shape prepares it, it does not make it.
+ call; the shape prepares it, it does not make it.
 
 **`T-S27` — The novel problem**
 - **Output:** the answer to the one-off, **plus** what it taught, captured into `N8` (what it taught) and `N9`
-  (what we still can't answer).
+ (what we still can't answer).
 - **Rules:** *the capture is mandatory* — the whole value of a novel problem is what it teaches; an uncaptured
-  one is paid for and lost.
+ one is paid for and lost.
 - **Steps:** answer the problem → record the lesson into `N8`/`N9`.
 - **Done:** answer given, lesson recorded. No `[decide]` — the shape is simply "always capture."
 
@@ -265,21 +265,21 @@ changes); *gated before publication* — nothing ships without the truth-check a
 brand's hard don'ts; *sourced* — every claim traces to a field or a measurement.
 
 - **`T-M03` — Positioning and messaging** · Output: the brand/product positioning, from the `D` and `O` fields
-  plus the brand's own truth. Added rule: obeys `G2` — what the brand will and will not say. **Settled
-  (2026-08-14) — confirmed in principle, build item:** inherit each brand's `CLAUDE.md` hard don'ts plus the
-  group rule (no superlative without a measurement) — but the actual per-brand `G2` lists don't exist yet;
-  "none of this is done." Done: positioning stated, `G2`-obedient, sourced.
-  **▶ Session 6** (`standards.md`): **built — six lists** (group floor, C-ATS, DT, Fabric
-  Walls, Pro-Fi, Light Walls, Distribution), surfaced from rules the repo already holds rather than authored.
-  Two by-products: **no `brands/*/CLAUDE.md` exists in this repo**, so the standard points at a file that isn't
-  there; and applied to what is published today the lists catch **five live breaches** already logged in
-  `registers/open-items.md`. Needs only Neil's "nothing missing" confirmation.
+ plus the brand's own truth. Added rule: obeys `G2` — what the brand will and will not say. **Settled
+ (2026-08-14) — confirmed in principle, build item:** inherit each brand's `CLAUDE.md` hard don'ts plus the
+ group rule (no superlative without a measurement) — but the actual per-brand `G2` lists don't exist yet;
+ "none of this is done." Done: positioning stated, `G2`-obedient, sourced.
+ **▶ Session 6** (`standards.md`): **built — six lists** (group floor, C-ATS, DT, Fabric
+ Walls, Pro-Fi, Light Walls, Distribution), surfaced from rules the repo already holds rather than authored.
+ Two by-products: **no `brands/*/CLAUDE.md` exists in this repo**, so the standard points at a file that isn't
+ there; and applied to what is published today the lists catch **five live breaches** already logged in
+ `registers/open-items.md`. Needs only Neil's "nothing missing" confirmation.
 - **`T-M10` — Collateral** · Output: datasheet / case study from the generation-gate fields, versioned with a
-  review date. Done: draft approved against `G1`/`G2`, versioned. **Direction (2026-08-14):** re-review on change
-  (a product or data change triggers it), with an annual backstop.
+ review date. Done: draft approved against `G1`/`G2`, versioned. **Direction (2026-08-14):** re-review on change
+ (a product or data change triggers it), with an annual backstop.
 - **`T-M14` — Trade press and PR** · Output: the piece + the pitch to the outlet, from `H2` (the most
-  interesting true thing) and `G4` (what may be shown). Added rule: **nothing NDA'd or unpublishable passes
-  `G4`**. Done: piece and pitch ready, `G4`-cleared.
+ interesting true thing) and `G4` (what may be shown). Added rule: **nothing NDA'd or unpublishable passes
+ `G4`**. Done: piece and pitch ready, `G4`-cleared.
 
 ---
 
@@ -294,30 +294,29 @@ where, last-updated dated.
 stops duplication and orphaning.
 
 - **`T-M06` — Editorial calendar and cadence** · Output: the ranked queue + schedule + published log. Rule:
-  ranked by *what recurs and what is blocking* (the archive-derived demand, `CON-3`). Done: a current queue and
-  a log of what published. **Direction (2026-08-14) — reset:** the actual demand is daily per brand — "if you
-  take all the content needed it's daily per brand" — servable only by the record + AI production line; the
-  owner's batch model is unchanged (owner minutes stay at the answer step), daily-per-brand is the production
-  system's target, not an owner promise.
-  **▶ Session 4** (`standards.md`): sized — four viable brands at a weekday piece each is
-  **20 a week, ~1,000 a year, against 109 videos in eight years**, so it is a different machine rather than a
-  faster cadence. Decomposed as **answers per period × derivatives per answer**, which makes it reachable at
-  roughly **two owner recording sessions a month** (both figures marked hypothesis). Two rules the line needs:
-  **every piece makes an argument** (the catalogue's 1–26 views is what a line without that rule produces at
-  speed), and **the answer carries the face, the derivative carries the pointer.** ~~And a correction: express
-  the floor in answers per month.~~
-  **Answered 2026-08-15 — scope is the four viable brands, and the floor's unit was rejected, rightly.** Neil:
-  *"I'm pretty efficient at the making part — it's the planning that makes videos difficult. With a plan and
-  script you can bash out loads in a day."* **The owner's output is not the constraint; the planning upstream of
-  him is.** So **the floor belongs to the production line and its unit is scripted briefs delivered**, while the
-  owner's commitment is a booked slot rather than a quantity. This is `content.md`'s *"never faces a blank
-  page"* rule confirmed by the owner rather than argued at him — **and it re-points the whole build: the hard
-  part is producing briefs good enough to record from, which is step 3 again.**
+ ranked by *what recurs and what is blocking* (the archive-derived demand, `CON-3`). Done: a current queue and
+ a log of what published. **Direction (2026-08-14) — reset:** the actual demand is daily per brand — "if you
+ take all the content needed it's daily per brand" — servable only by the record + AI production line; the
+ owner's batch model is unchanged (owner minutes stay at the answer step), daily-per-brand is the production
+ system's target, not an owner promise.
+ **▶ Session 4** (`standards.md`): sized — four viable brands at a weekday piece each is
+ **20 a week, ~1,000 a year, against 109 videos in eight years**, so it is a different machine rather than a
+ faster cadence. Decomposed as **answers per period × derivatives per answer**, which makes it reachable at
+ roughly **two owner recording sessions a month** (both figures marked hypothesis). Two rules the line needs:
+ **every piece makes an argument** (the catalogue's 1–26 views is what a line without that rule produces at
+ speed), and **the answer carries the face, the derivative carries the pointer.**
+ **Answered 2026-08-15 — scope is the four viable brands, and the floor's unit was rejected, rightly.** Neil:
+ *"I'm pretty efficient at the making part — it's the planning that makes videos difficult. With a plan and
+ script you can bash out loads in a day."* **The owner's output is not the constraint; the planning upstream of
+ him is.** So **the floor belongs to the production line and its unit is scripted briefs delivered**, while the
+ owner's commitment is a booked slot rather than a quantity. This is `content.md`'s *"never faces a blank
+ page"* rule confirmed by the owner rather than argued at him — **and it re-points the whole build: the hard
+ part is producing briefs good enough to record from, which is step 3 again.**
 - **`T-M07` — Channel management** · Output: a map of what is live on which channel + the routing rule. Rule:
-  *right piece to the right channel* against a stated fit (brand channel vs group; the estate rules in
-  `04`/`05`). Done: current live-where map, routing rule applied. **Direction (2026-08-14):** publish to brand
-  channels, not the group one; short argument-making pieces to video, method/data to the knowledge base; the
-  group channel stays group-level only.
+ *right piece to the right channel* against a stated fit (brand channel vs group; the estate rules in
+ `04`/`05`). Done: current live-where map, routing rule applied. **Direction (2026-08-14):** publish to brand
+ channels, not the group one; short argument-making pieces to video, method/data to the knowledge base; the
+ group channel stays group-level only.
 
 ---
 
@@ -328,23 +327,23 @@ stops duplication and orphaning.
 outcome.*
 
 - **`T-S09` — Follow up through the project's lead time** · Output: a **scheduled sequence of touches** across
-  the quote-to-order window, each relevant to *this* project, with sent/opened/replied logged and a
-  hand-to-a-person rule. Rules: *fires on elapsed time, not memory*; *relevant, not a generic nudge*; *logged*.
-  Done: touches firing on schedule, logged, escalating when the rule says. **Direction (2026-08-14):** a 30-day
-  default via the one-tap status email (`operations/engine-as-hub.md` §1 Q4), and the receiver adjusts their own
-  next-contact interval; two ignored pokes escalate to a human call; stop at order or explicit no. *(This is
-  `TSK-3`.)*
+ the quote-to-order window, each relevant to *this* project, with sent/opened/replied logged and a
+ hand-to-a-person rule. Rules: *fires on elapsed time, not memory*; *relevant, not a generic nudge*; *logged*.
+ Done: touches firing on schedule, logged, escalating when the rule says. **Direction (2026-08-14):** a 30-day
+ default via the one-tap status email (`operations/engine-as-hub.md` §1 Q4), and the receiver adjusts their own
+ next-contact interval; two ignored pokes escalate to a human call; stop at order or explicit no. *(This is
+ `TSK-3`.)*
 - **`T-S13` — Close** · Output: the ask made, and **the answer recorded either way** against the opportunity.
-  Rule: *a "no" and its reason is recorded, not just a "yes"*. Done: outcome recorded. The detect-side (gone
-  quiet / past window) is buildable; the ask is human.
+ Rule: *a "no" and its reason is recorded, not just a "yes"*. Done: outcome recorded. The detect-side (gone
+ quiet / past window) is buildable; the ask is human.
 - **`T-S25` — Events and keeping relationships warm** · Output: **who was met and what was said**, recorded
-  against the account. Rule: *the contact is captured* — an event whose conversations aren't recorded is a cost
-  with no asset. Done: contacts logged against accounts. **Direction (2026-08-14):** per contact — who, which
-  account, what they were unsure about, what they were afraid of, the next step.
+ against the account. Rule: *the contact is captured* — an event whose conversations aren't recorded is a cost
+ with no asset. Done: contacts logged against accounts. **Direction (2026-08-14):** per contact — who, which
+ account, what they were unsure about, what they were afraid of, the next step.
 - **`T-S28` — Recognition and thanks** · Output: the thanks given, triggered by a **milestone the record can
-  detect** (first order, Nth, anniversary, £ threshold). Rule: *triggered by a signal, not a calendar* (`S28`).
-  Done: milestones surfaced and acted on. **Direction (2026-08-14):** first order · a big-£ threshold (the
-  £500k-dealer class) · an Nth-order or anniversary mark · a standout project. *(Record side: `REC-11`.)*
+ detect** (first order, Nth, anniversary, £ threshold). Rule: *triggered by a signal, not a calendar* (`S28`).
+ Done: milestones surfaced and acted on. **Direction (2026-08-14):** first order · a big-£ threshold (the
+ £500k-dealer class) · an Nth-order or anniversary mark · a standout project. *(Record side: `REC-11`.)*
 
 ---
 
@@ -394,8 +393,8 @@ Each is minutes, and each makes a task consistent whoever does it. The owner's t
 - **Qualify (`T-S03` / `T-S04`):** the bar — what makes a *dealer*, and a *project*, worth pursuing.
 - **Present the range (`T-S05`):** the minimum set every presentation must include, per room type.
 - **Competitor / intelligence (`T-M02` / `T-S23`):** the fixed dimension list per category (the axes every
-  comparison uses); which competitors are tracked and how often; the threshold at which a run of losses is a
-  "pattern."
+ comparison uses); which competitors are tracked and how often; the threshold at which a run of losses is a
+ "pattern."
 - **Technical selling (`T-S07`):** what counts as "worth capturing" into `N3`, vs a one-off.
 - **Positioning (`T-M03`):** `G2` — what each brand will and will not say.
 - **Collateral (`T-M10`):** the re-review cadence.

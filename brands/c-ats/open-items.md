@@ -3,15 +3,17 @@
 Group-level open items and sequencing live in `../../registers/open-items.md`. These are C-ATS's own.
 
 **Decisions needed (flag, don't guess):**
-- Consolidate the global C-ATS dealer list + finer buyer-truth from real jobs (who specified vs
-  bought vs installed, and why) before hard-coding into copy.
+- Consolidate the global C-ATS dealer list. *(The "finer buyer-truth from real jobs" half is struck,
+  2026-08-18: who specifies and signs off is the AV integrator, answered in one sentence when asked — Q55.
+  What convinces them is a question for an owner, not a job-history exercise.)*
 - Lever-2 channel validation — which of pro install / commercial cinema / fit-out to pursue first,
   and each one's real buyer and proof needs.
 - C-ATS partner pricing tiers — the numbers behind the shared gate (publication is settled group
   policy; tiers are not).
-- Trading-name expansion: "Complete Acoustic Treatment System" vs the legal "Cinema Acoustic
-  Treatment Systems." The live store hard-codes "Complete" on the brand page; brand `CLAUDE.md` says
-  this is unresolved and must not be hard-coded. Reconcile — affects any tagline work.
+**SETTLED — `Q26` (2026-08-16) and `Q65`
+  (2026-08-19): C-ATS is the standard form, "Complete Acoustic Treatment System" is permitted on first use, and
+  the legal "Cinema Acoustic Treatment Systems" is reserved for contracts.** So the live store's brand page is
+  not a breach. Nothing to reconcile; tagline work is unblocked.
 - Commercial range launch timing — blocks any teaser content and gates lever 2's cinema channel.
 - Public-safe case-study material from the NDA-constrained reference install(s) (stage-5 proof),
   built without naming the install.

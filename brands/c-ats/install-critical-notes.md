@@ -1,8 +1,13 @@
 # C-ATS — the two critical install notes
 
-*Publishable as two pages. These cover the range's two predictable site failures
-(`product-records.md`), and they are the highest-return documentation C-ATS can produce. Written for an installer
-holding the product, not for a buyer.*
+*Publishable as two pages, written for an installer holding the product, not for a buyer.*
+
+> **⚠ Reduced 2026-08-19.** **Page 1 is not a site failure.** Neil: *"the whole A/B trap hand-waving
+> fire-breathing dragon of a problem… no one cares. I just use bonded numbers in the design and that's it."*
+> **A/B is a design input, settled by always designing on the bonded figures** — so page 1 is ordinary install
+> guidance, not risk mitigation. **Page 2 stands as written**: the cold-room adhesive failure is real and is the
+> record's own *"most predictable and preventable failure in the range"* (`product-records.md` `R4`). See
+> `../../registers/premises.md` `PR-13`.
 
 ---
 
@@ -19,9 +24,9 @@ The Reflection Control Panel is a **scatterer**, not an absorber. Its job is to 
 wall, rear wall or ceiling and send it away from the seat, while leaving the room's energy intact.
 
 - **Bonded (Type A — correct).** The adhesive holds the centre of the panel and damps it. The panel stays rigid, so
-  it does what it is designed to do: redirect. Absorption stays low, which is the intent.
+ it does what it is designed to do: redirect. Absorption stays low, which is the intent.
 - **Screwed only (Type B).** The panel is free to flex and adds an absorption peak of its own. It absorbs *more* —
-  which sounds like an improvement and is not, because the acoustic design assumed it would not.
+ which sounds like an improvement and is not, because the acoustic design assumed it would not.
 
 Both behaviours are real and both are published on the absorption chart as **Reflection A** and **Reflection B**.
 A is the specified condition.
@@ -35,7 +40,7 @@ A is the specified condition.
 
 ### Position tolerance
 
-Panels may sit **up to about 300 mm from the designed position** without materially changing the result. Rooms
+**STRUCK 2026-08-21 (`../../registers/questions.md` `Q102`): the tolerance no longer holds, and an install guide is the worst place for it to survive.** *What holds instead: **the layout does not need laser accuracy, but the relative positions do** (`Q103`) — set out from the drawing, keep the pattern, do not substitute an arrangement. Former text: panels may sit up to about 300 mm from the designed position without materially changing the result. Rooms
 rarely match drawings; work to the layout, not to the millimetre.
 
 ### If you have already installed without adhesive
@@ -67,7 +72,7 @@ usually after the fabric has gone on.
 2. Check the substrate is clean, dry and dust-free.
 3. Peel and position. Press firmly across the whole panel.
 4. **Optional permanent insurance:** one 25 mm screw per panel. Drive it about two thirds in, then reverse it until
-   the dimple disappears. The screw holds; the surface stays flat.
+ the dimple disappears. The screw holds; the surface stays flat.
 
 ### When to use the screw
 
@@ -86,6 +91,6 @@ probably cold at installation — worth knowing before the rest follow.
 
 - **Home:** `cinema-expert.com` under Instructions, plus the relevant product page on the brand site.
 - **Also record these as the first two "how do you do X" recordings** — sixty seconds each, one frame, unscripted.
-  The same two points, said aloud by the person who decided them.
+ The same two points, said aloud by the person who decided them.
 - **Check before publication:** read the exact Reflection A and B values off the published absorption chart if a
-  table is wanted. The narrative above needs no figures and can go out as it stands.
+ table is wanted. The narrative above needs no figures and can go out as it stands.

@@ -88,9 +88,9 @@ python data/consolidate.py                                                      
 |---|---|---|---|
 | `gtuk-invoice-lines.csv` | 4,992 | Sales Analysis (`Raw Data` sheet) | 2012 → 2023 |
 | `dt-invoice-lines.csv` | 3,952 | Sales Analysis (`Raw Data` sheet) | 2016 → 2026 |
-| `cats-account-transactions.csv` | 268 | **Account Transactions** | 2016 → 2026 |
-| `srnd-account-transactions.csv` | 730 | **Account Transactions** | 2023 → 2026 |
-| `lightwalls-account-transactions.csv` | 418 | **Account Transactions** | 2020 → 2026 |
+| `cats-account-transactions.csv` | 268 | Account Transactions | 2016 → 2026 |
+| `srnd-account-transactions.csv` | 730 | Account Transactions | 2023 → 2026 |
+| `lightwalls-account-transactions.csv` | 418 | Account Transactions | 2020 → 2026 |
 
 **All five are produced by `data/normalise.py`** — one command per source, so the contract below is enforced by code
 rather than by hand:
@@ -156,8 +156,8 @@ classifier corrects it to `Audio Amplifiers`; the account itself still has the t
 
 | Source | Excluded rows | Net effect | Made up of |
 |---|---|---|---|
-| C-ATS | 5 | **+£968** | 2 `Other Revenue` (+£1,782); 3 no-contact journals (−£815: an accrual, its reversal, a suspense write-off) |
-| SRND | 43 | **−£28,021** | 15 `Payable Invoice` postings to revenue accounts (−£42,358); 4 `Other Revenue` (+£15,126); 2 `Spend Money` (−£789); **22 no-contact manual journals netting exactly £0** — accrual/reversal pairs, so nothing is lost by dropping them |
+| C-ATS | 5 | +£968 | 2 `Other Revenue` (+£1,782); 3 no-contact journals (−£815: an accrual, its reversal, a suspense write-off) |
+| SRND | 43 | −£28,021 | 15 `Payable Invoice` postings to revenue accounts (−£42,358); 4 `Other Revenue` (+£15,126); 2 `Spend Money` (−£789); **22 no-contact manual journals netting exactly £0** — accrual/reversal pairs, so nothing is lost by dropping them |
 
 **One of these is a judgement rather than a rule, and it is the largest single item.** The 15 SRND `Payable Invoice`
 rows sit in revenue accounts and net **−£42,358**, about 1.6 % of SRND's total. They are excluded as not-a-sale-to-a-
